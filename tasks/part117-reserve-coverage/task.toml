@@ -1,0 +1,31 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/part117-reserve-coverage"
+description = "Decide FAA Part 117 legality of short-call reserve pilots for open trips during a disruption, then staff the trips with maximum coverage at minimum call-out cost."
+
+[metadata]
+difficulty_explanation = "Each Part 117 rule is simple alone; the difficulty is how they interact and the details only crew-legality practitioners apply correctly. Table B must be read on the clock of the theater where the pilot was last acclimated (with a 30-minute reduction when not acclimated), not on local departure time; acclimatization depends on 72 hours in a theater or 36 duty-free hours there. The short-call reserve cap (reserve plus FDP, lesser of 16 h or applicable Table B plus 4 h) is measured from reserve start while Table B is read at report. The 30-hours-free-in-168 rule applies before the reserve and again before the FDP. Rolling 168/672-hour FDP and flight-time look-backs cross a US DST change and must count only FDP time, pro-rated at the window edge. Local-time shortcuts, a 'recently back from Europe' heuristic, or treating the rules independently each produce plausible but wrong answers on specific pilots. Greedy staffing leaves trips uncovered that an exact assignment covers. The data are synthetic but follow real airline schedules, time zones and a 28-day duty history per pilot."
+solution_explanation = "Convert every local time to UTC with the station's IANA zone. Rebuild each pilot's duty, FDP and block-time timeline. For each pilot-trip pair, check base/seat/equipment and that the report falls in the reserve window; check 10 h rest before the reserve and 30 consecutive duty-free hours in the 168 h before the reserve and before the report (reserve counts as duty); track acclimatization through the arrival history to find whether the pilot is acclimated at report and, if not, the theater last acclimated to; read Table B (minus 30 min if unacclimated) and Table A on that clock; apply the reserve-plus-FDP cap; check 60 h/168 h and 190 h/672 h FDP and 100 h/672 h flight time over windows ending at the new FDP's end. Then solve the staffing as an exact assignment (integer program or weighted bipartite matching): maximize trips covered, then minimize total call-out cost."
+verification_explanation = "The verifier rebuilds ground truth with its own independently written Part 117 engine (minute-grid masks, different from the reference solution's interval arithmetic) from a private copy of the inputs, and never executes agent code. It checks that legality.csv has exactly one true/false row per pilot-trip pair; that targeted groups of pairs (acclimatization and time zones, reserve and rest, cumulative limits, flight-time limit) and then the full matrix match exactly; that every assignment is legal under the verifier's own check, uses each pilot and trip at most once, reaches the maximum possible coverage and the minimum call-out cost at that coverage (computed with scipy's linear_sum_assignment), and that reported totals match. Any optimal assignment is accepted. All quantities are integers, so comparisons are exact. Reward is 1 only if every test passes."
+category = "Logistics & Regulatory Compliance"
+subcategory = "Safety-Critical Resource Allocation"
+tags = ["aviation", "faa-part-117", "crew-scheduling", "regulatory-compliance", "time-zones", "optimization", "python"]
+expert_time_estimate_hours = 5
+relevant_experience = "Airline crew scheduling and crew-legality analysis under 14 CFR Part 117, including short-call reserve rules, acclimatization for international flying, and building duty-time legality checks and staffing optimizers for operations control."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0
