@@ -1,0 +1,65 @@
+pallet_id,description,weight_lb,length_in
+P001,machinery skid,13110,96
+P002,cast iron fittings,6395,40
+P003,machinery skid,12840,72
+P004,cast iron fittings,5007,48
+P005,machinery skid,11580,72
+P006,steel coil on cradle,12400,48
+P007,paper rolls,4455,48
+P008,steel coil on cradle,11115,48
+P009,machinery skid,15184,96
+P010,paper rolls,10490,48
+P011,cast iron fittings,9570,48
+P012,steel coil on cradle,15715,48
+P013,cast iron fittings,9940,48
+P014,paper rolls,11165,48
+P015,paper rolls,6780,48
+P016,beverage pallet,7092,48
+P017,cast iron fittings,11965,48
+P018,cast iron fittings,6650,48
+P019,cast iron fittings,3232,48
+P020,steel coil on cradle,13960,48
+P021,beverage pallet,2675,48
+P022,machinery skid,9535,72
+P023,steel coil on cradle,14165,60
+P024,beverage pallet,2055,48
+P025,cast iron fittings,10384,48
+P026,beverage pallet,6855,48
+P027,steel coil on cradle,13365,60
+P028,beverage pallet,6835,48
+P029,machinery skid,10000,72
+P030,cast iron fittings,12795,40
+P031,cast iron fittings,8600,40
+P032,machinery skid,5430,72
+P033,paper rolls,7265,48
+P034,machinery skid,14430,72
+P035,steel coil on cradle,7968,48
+P036,cast iron fittings,13348,40
+P037,beverage pallet,6290,48
+P038,beverage pallet,7020,48
+P039,paper rolls,8675,48
+P040,paper rolls,5597,48
+P041,machinery skid,5140,96
+P042,machinery skid,15045,72
+P043,steel coil on cradle,13905,60
+P044,machinery skid,14235,96
+P045,steel coil on cradle,10700,60
+P046,steel coil on cradle,12420,60
+P047,machinery skid,9625,120
+P048,steel coil on cradle,13630,48
+P049,machinery skid,13280,96
+P050,beverage pallet,6632,48
+P051,steel coil on cradle,8545,48
+P052,paper rolls,4175,48
+P053,paper rolls,5395,48
+P054,machinery skid,10162,72
+P055,paper rolls,5995,48
+P056,cast iron fittings,8085,40
+P057,steel coil on cradle,11440,48
+P058,steel coil on cradle,13319,60
+P059,cast iron fittings,7400,48
+P060,beverage pallet,7310,48
+P061,cast iron fittings,12650,40
+P062,steel coil on cradle,13470,48
+P063,beverage pallet,5170,48
+P064,steel coil on cradle,12815,48
