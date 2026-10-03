@@ -1,63 +1,76 @@
 pallet_id,description,weight_lb,length_in
-P001,paper rolls,5150,48
-P002,cast iron fittings,3623,40
-P003,beverage pallet,3390,48
-P004,machinery skid,10275,120
-P005,beverage pallet,1910,48
-P006,paper rolls,5970,48
-P007,machinery skid,16186,120
-P008,machinery skid,8536,120
-P009,beverage pallet,3135,48
-P010,steel coil on cradle,8470,48
-P011,steel coil on cradle,12370,48
-P012,machinery skid,15820,96
-P013,steel coil on cradle,8720,48
-P014,transformer crate,5365,120
-P015,machinery skid,8080,120
-P016,beverage pallet,2045,48
-P017,cast iron fittings,5105,40
-P018,beverage pallet,3430,48
-P019,transformer crate,6607,120
-P020,beverage pallet,2890,48
-P021,beverage pallet,2880,48
-P022,machinery skid,7600,144
-P023,paper rolls,3840,48
-P024,beverage pallet,2910,48
-P025,transformer crate,3720,144
-P026,transformer crate,3150,168
-P027,beverage pallet,1805,48
-P028,transformer crate,7300,144
-P029,paper rolls,4805,48
-P030,beverage pallet,2975,48
-P031,steel coil on cradle,11330,48
-P032,steel coil on cradle,9635,60
-P033,steel coil on cradle,13943,48
-P034,steel coil on cradle,13710,60
-P035,machinery skid,11720,144
-P036,beverage pallet,3320,48
-P037,steel coil on cradle,13240,60
-P038,paper rolls,3640,48
-P039,paper rolls,3850,48
-P040,transformer crate,5880,144
-P041,machinery skid,8830,120
-P042,transformer crate,5000,144
-P043,machinery skid,15020,96
-P044,machinery skid,14825,144
-P045,transformer crate,5855,120
-P046,steel coil on cradle,13160,60
-P047,beverage pallet,2085,48
-P048,steel coil on cradle,9685,48
-P049,steel coil on cradle,9400,48
-P050,paper rolls,3105,48
-P051,transformer crate,5595,144
-P052,transformer crate,7320,120
-P053,paper rolls,3370,48
-P054,steel coil on cradle,12428,60
-P055,machinery skid,10640,120
-P056,paper rolls,5435,48
-P057,machinery skid,15883,96
-P058,beverage pallet,3100,48
-P059,paper rolls,4340,48
-P060,machinery skid,15355,96
-P061,machinery skid,8810,96
-P062,steel coil on cradle,11065,60
+P001,steel coil on cradle,11985,60
+P002,transformer crate,4335,120
+P003,cast iron fittings,3765,40
+P004,beverage pallet,1710,48
+P005,machinery skid,6680,96
+P006,steel coil on cradle,9233,60
+P007,beverage pallet,2195,48
+P008,beverage pallet,2185,48
+P009,cast iron fittings,5090,40
+P010,cast iron fittings,3845,48
+P011,cast iron fittings,4840,48
+P012,transformer crate,7290,144
+P013,machinery skid,10220,144
+P014,cast iron fittings,3045,40
+P015,steel coil on cradle,8195,48
+P016,beverage pallet,2590,48
+P017,machinery skid,5307,96
+P018,beverage pallet,1670,48
+P019,machinery skid,7970,120
+P020,beverage pallet,2575,48
+P021,beverage pallet,2590,48
+P022,paper rolls,3735,48
+P023,steel coil on cradle,9295,48
+P024,steel coil on cradle,13235,60
+P025,steel coil on cradle,6615,48
+P026,transformer crate,4745,144
+P027,beverage pallet,1585,48
+P028,transformer crate,4615,144
+P029,paper rolls,2805,48
+P030,cast iron fittings,3975,48
+P031,steel coil on cradle,9960,48
+P032,steel coil on cradle,11950,48
+P033,machinery skid,12235,144
+P034,steel coil on cradle,10560,48
+P035,beverage pallet,2445,48
+P036,machinery skid,8778,120
+P037,transformer crate,4296,120
+P038,machinery skid,9315,96
+P039,machinery skid,7120,96
+P040,transformer crate,3263,144
+P041,transformer crate,3480,120
+P042,steel coil on cradle,11825,60
+P043,transformer crate,4980,144
+P044,paper rolls,3515,48
+P045,steel coil on cradle,10620,60
+P046,steel coil on cradle,7050,60
+P047,steel coil on cradle,9080,60
+P048,steel coil on cradle,10725,48
+P049,beverage pallet,2400,48
+P050,steel coil on cradle,13065,48
+P051,beverage pallet,2170,48
+P052,paper rolls,2920,48
+P053,beverage pallet,2410,48
+P054,steel coil on cradle,10305,60
+P055,machinery skid,6975,96
+P056,steel coil on cradle,8120,48
+P057,steel coil on cradle,10310,60
+P058,cast iron fittings,4240,40
+P059,beverage pallet,2485,48
+P060,cast iron fittings,3235,40
+P061,steel coil on cradle,13035,48
+P062,beverage pallet,2295,48
+P063,beverage pallet,2305,48
+P064,paper rolls,3470,48
+P065,cast iron fittings,4100,40
+P066,beverage pallet,2445,48
+P067,steel coil on cradle,13740,48
+P068,transformer crate,5395,120
+P069,machinery skid,9735,120
+P070,transformer crate,6710,120
+P071,transformer crate,3815,120
+P072,transformer crate,7601,144
+P073,paper rolls,2913,48
+P074,steel coil on cradle,10460,60
+P075,beverage pallet,2865,48

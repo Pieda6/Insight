@@ -58,9 +58,9 @@ def unit_rows():
                                 tare_trailer1_lb=trailer_tare[0], tare_trailer2_lb=trailer_tare[1]))
 
     # long-rail units: full slider rail
-    add("U01", "SLP-230", [380, 416, 452, 488, 524])
-    add("U02", "SLP-254", [380, 416, 452, 488, 524])
-    add("U03", "DAY-204", [392, 428, 464, 500])
+    add("U01", "SLP-230", [416, 524])
+    add("U02", "SLP-254", [416, 524])
+    add("U03", "DAY-204", [428, 500])
     # forward-only units, drive-to-trailer tandem span 35.5 - 37 ft (need the 34k+34k allowance)
     add("U04", "SLP-230", [398])            # 426 in = 35.5 ft, rounds to 36
     add("U05", "SLP-254", [392, 404])       # 414 in (34.5 ft) / 426 in (35.5 ft)
@@ -130,7 +130,7 @@ def main():
     pallets = []
     hidden = []
     for (cap, cfg_best, uid), sl in zip(chosen, slacks):
-        long_rail = len(configs[uid]) >= 3
+        long_rail = uid in ("U01", "U02", "U03")
         if long_rail:
             # rearmost slider setting that still has the unit's full capacity
             cfg = max((c for c in configs[uid] if solve.capacity(c) == cap), key=lambda c: c.x[3])
@@ -141,11 +141,11 @@ def main():
             # every truck is nearly full by floor length as well as by weight
             kinds, lens = [], []
             pool = BULKY + DENSE[:1] if long_rail else BULKY + DENSE
-            while sum(lens) < 500:
+            while sum(lens) < 550:
                 k = rng.choice(pool)
                 kinds.append(k)
                 lens.append(rng.choice(k[2]))
-            if not 520 <= sum(lens) <= 590:
+            if not 570 <= sum(lens) <= 615:
                 continue
             raw = [rng.uniform(*k[1]) for k in kinds]
             ws = [int(round(r * target / sum(raw) / 5)) * 5 for r in raw]
