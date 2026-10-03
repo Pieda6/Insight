@@ -1,68 +1,63 @@
 pallet_id,description,weight_lb,length_in
-P001,cast iron fittings,3560,40
-P002,machinery skid,8615,96
-P003,cast iron fittings,4485,48
-P004,transformer crate,6515,168
-P005,cast iron fittings,3390,48
-P006,beverage pallet,1575,48
-P007,machinery skid,7340,144
-P008,transformer crate,8750,120
-P009,transformer crate,11415,168
-P010,paper rolls,3176,48
-P011,steel coil on cradle,9975,48
-P012,transformer crate,6025,120
-P013,paper rolls,3015,48
-P014,transformer crate,6574,168
-P015,cast iron fittings,4035,40
-P016,cast iron fittings,3110,48
-P017,machinery skid,8770,96
-P018,transformer crate,3445,144
-P019,cast iron fittings,3185,40
-P020,machinery skid,8315,144
-P021,cast iron fittings,3765,48
-P022,steel coil on cradle,11230,60
-P023,machinery skid,9420,96
-P024,paper rolls,6940,48
-P025,steel coil on cradle,13567,60
-P026,cast iron fittings,3881,48
-P027,steel coil on cradle,10950,48
-P028,cast iron fittings,2780,48
-P029,steel coil on cradle,11105,60
-P030,machinery skid,6846,96
-P031,cast iron fittings,4865,40
-P032,steel coil on cradle,12300,48
-P033,machinery skid,12568,96
-P034,beverage pallet,1885,48
-P035,transformer crate,4695,144
-P036,steel coil on cradle,10510,48
-P037,machinery skid,5905,96
-P038,steel coil on cradle,14090,60
-P039,beverage pallet,2110,48
-P040,steel coil on cradle,11475,60
-P041,machinery skid,7980,96
-P042,transformer crate,5653,144
-P043,machinery skid,11060,144
-P044,cast iron fittings,3840,48
-P045,paper rolls,4230,48
-P046,transformer crate,6180,120
-P047,paper rolls,2695,48
-P048,machinery skid,11490,144
-P049,paper rolls,4410,48
-P050,machinery skid,6930,144
-P051,machinery skid,7110,96
-P052,cast iron fittings,3705,48
-P053,beverage pallet,1974,48
-P054,beverage pallet,2105,48
-P055,machinery skid,12210,96
-P056,machinery skid,9210,120
-P057,cast iron fittings,10177,48
-P058,machinery skid,9900,120
-P059,steel coil on cradle,7870,60
-P060,paper rolls,7890,48
-P061,machinery skid,7725,120
-P062,steel coil on cradle,11740,48
-P063,transformer crate,4665,144
-P064,beverage pallet,2700,48
-P065,steel coil on cradle,11160,48
-P066,cast iron fittings,4120,40
-P067,transformer crate,5735,168
+P001,paper rolls,5150,48
+P002,cast iron fittings,3623,40
+P003,beverage pallet,3390,48
+P004,machinery skid,10275,120
+P005,beverage pallet,1910,48
+P006,paper rolls,5970,48
+P007,machinery skid,16186,120
+P008,machinery skid,8536,120
+P009,beverage pallet,3135,48
+P010,steel coil on cradle,8470,48
+P011,steel coil on cradle,12370,48
+P012,machinery skid,15820,96
+P013,steel coil on cradle,8720,48
+P014,transformer crate,5365,120
+P015,machinery skid,8080,120
+P016,beverage pallet,2045,48
+P017,cast iron fittings,5105,40
+P018,beverage pallet,3430,48
+P019,transformer crate,6607,120
+P020,beverage pallet,2890,48
+P021,beverage pallet,2880,48
+P022,machinery skid,7600,144
+P023,paper rolls,3840,48
+P024,beverage pallet,2910,48
+P025,transformer crate,3720,144
+P026,transformer crate,3150,168
+P027,beverage pallet,1805,48
+P028,transformer crate,7300,144
+P029,paper rolls,4805,48
+P030,beverage pallet,2975,48
+P031,steel coil on cradle,11330,48
+P032,steel coil on cradle,9635,60
+P033,steel coil on cradle,13943,48
+P034,steel coil on cradle,13710,60
+P035,machinery skid,11720,144
+P036,beverage pallet,3320,48
+P037,steel coil on cradle,13240,60
+P038,paper rolls,3640,48
+P039,paper rolls,3850,48
+P040,transformer crate,5880,144
+P041,machinery skid,8830,120
+P042,transformer crate,5000,144
+P043,machinery skid,15020,96
+P044,machinery skid,14825,144
+P045,transformer crate,5855,120
+P046,steel coil on cradle,13160,60
+P047,beverage pallet,2085,48
+P048,steel coil on cradle,9685,48
+P049,steel coil on cradle,9400,48
+P050,paper rolls,3105,48
+P051,transformer crate,5595,144
+P052,transformer crate,7320,120
+P053,paper rolls,3370,48
+P054,steel coil on cradle,12428,60
+P055,machinery skid,10640,120
+P056,paper rolls,5435,48
+P057,machinery skid,15883,96
+P058,beverage pallet,3100,48
+P059,paper rolls,4340,48
+P060,machinery skid,15355,96
+P061,machinery skid,8810,96
+P062,steel coil on cradle,11065,60

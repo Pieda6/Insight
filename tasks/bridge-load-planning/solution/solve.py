@@ -225,6 +225,60 @@ def solve_plan(cands, pallets, k, seconds, min_load=None):
     return plan
 
 
+def pack(cands, pallets, k, cuts, spare, seconds):
+    """CP-SAT packing with necessary centre-of-gravity conditions.
+
+    For a pallet set S packed against the front wall, 2*moment is smallest when pallets go
+    densest-first (weight per inch, Smith's rule), giving
+        Q(S) = sum w_i*len_i + 2 * sum_{i<j in S} min(w_i*len_j, w_j*len_i);
+    packed against the rear wall the largest value is 2*L*W - Q(S). A legal placement
+    needs the legal moment interval for W to meet [Q, 2LW - Q]; the pairwise products are
+    linearised with z_ij >= x_i + x_j - 1. Exact placement is checked afterwards.
+    """
+    from ortools.sat.python import cp_model
+
+    P, C = len(pallets), len(cands)
+    md = cp_model.CpModel()
+    x = {(p, c): md.NewBoolVar("") for p in range(P) for c in range(C)}
+    y = [md.NewBoolVar("") for _ in range(C)]
+    for p in range(P):
+        md.AddExactlyOne(x[p, c] for c in range(C))
+    for u in {c.unit_id for c in cands}:
+        md.AddAtMostOne(y[c] for c in range(C) if cands[c].unit_id == u)
+    md.Add(sum(y) <= k)
+    pair_cost = {(i, j): min(pallets[i][1] * pallets[j][2], pallets[j][1] * pallets[i][2])
+                 for i in range(P) for j in range(i + 1, P)}
+    for c, cfg in enumerate(cands):
+        W = sum(pallets[p][1] * x[p, c] for p in range(P))
+        cap = capacity(cfg)
+        md.Add(W <= cap * y[c])
+        md.Add(W >= (cap - spare) * y[c])
+        md.Add(sum(pallets[p][2] * x[p, c] for p in range(P)) <= cfg.length * y[c])
+        q_terms = [pallets[p][1] * pallets[p][2] * x[p, c] for p in range(P)]
+        for (i, j), cost in pair_cost.items():
+            z = md.NewBoolVar("")
+            md.Add(z >= x[i, c] + x[j, c] - 1)
+            q_terms.append(2 * cost * z)
+        Q = sum(q_terms)
+        for a, b2, rhs in int_rows(cfg):
+            if b2 > 0:     # moment upper limit: the most forward packing must reach it
+                md.Add(a * W + b2 * Q <= rhs).OnlyEnforceIf(y[c])
+            elif b2 < 0:   # moment lower limit: the most rearward packing must reach it
+                md.Add(a * W + b2 * (2 * cfg.length * W - Q) <= rhs).OnlyEnforceIf(y[c])
+    for c, ps in cuts:
+        md.AddBoolOr([x[p, c].Not() for p in ps] + [y[c].Not()])
+    sv = cp_model.CpSolver()
+    sv.parameters.max_time_in_seconds = seconds
+    sv.parameters.num_workers = 8
+    sv.parameters.random_seed = 0
+    st = sv.Solve(md)
+    if st == cp_model.INFEASIBLE:
+        return "infeasible"
+    if st not in (cp_model.OPTIMAL, cp_model.FEASIBLE):
+        return None
+    return [(c, [p for p in range(P) if sv.Value(x[p, c])]) for c in range(C) if sv.Value(y[c])]
+
+
 def main():
     configs, pallets = load_problem()
     total = sum(p[1] for p in pallets)
@@ -232,27 +286,34 @@ def main():
     order = sorted(caps.values(), reverse=True)
     k = next(i for i in range(1, len(order) + 1) if sum(order[:i]) >= total)  # weight lower bound
     while True:
-        # a unit can only be in a k-truck plan if it plus the k-1 strongest others can carry it all
         best_k = sorted(caps.values(), reverse=True)[:k]
-        spare = sum(best_k) - total  # total capacity left over in the best possible k-unit fleet
-        cands = []
-        for u in sorted(configs):
-            if caps[u] < best_k[-1] - spare:
-                continue  # swapping it in for the weakest of the best k loses too much capacity
-            cands += [c for c in configs[u] if capacity(c) >= caps[u] - spare]
-        floor = [capacity(c) - spare for c in cands]
-        plan = solve_plan(cands, pallets, k, 3000, floor)
-        if plan == "infeasible":
-            k += 1
-            continue
-        if plan is None:
-            raise SystemExit("solver hit its time limit without an answer")
-        for cfg, pos in plan:  # exact re-check
-            w = sum(p[1] for p in pallets if p[0] in pos)
-            m = sum(F(p[1]) * (pos[p[0]] + F(p[2], 2)) for p in pallets if p[0] in pos)
-            assert cfg.legal(F(w), m)
-        write([c for c, _ in plan], [p for _, p in plan], pallets)
-        return
+        spare = sum(best_k) - total  # capacity left over in the strongest possible k-unit fleet
+        cands = [c for u in sorted(configs) if caps[u] >= best_k[-1] - spare
+                 for c in configs[u] if capacity(c) >= caps[u] - spare]
+        cuts = []
+        while True:
+            packing = pack(cands, pallets, k, cuts, spare, 1800)
+            if packing == "infeasible":
+                break
+            if packing is None:
+                raise SystemExit("packing search hit its time limit")
+            placed, bad = [], None
+            for c, ps in packing:
+                items = [pallets[p] for p in ps]
+                plan = solve_plan([cands[c]], items, 1, 60)
+                if not isinstance(plan, list) or not plan:
+                    bad = (c, ps)
+                    break
+                placed.append(plan[0])
+            if bad is None:
+                for cfg, pos in placed:  # exact re-check
+                    w = sum(p[1] for p in pallets if p[0] in pos)
+                    m = sum(F(p[1]) * (pos[p[0]] + F(p[2], 2)) for p in pallets if p[0] in pos)
+                    assert cfg.legal(F(w), m)
+                write([c for c, _ in placed], [p for _, p in placed], pallets)
+                return
+            cuts.append(bad)
+        k += 1
 
 
 def write(cfgs, positions, pallets):

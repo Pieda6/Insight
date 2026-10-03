@@ -121,7 +121,7 @@ def main():
     true_limit = solve.bridge_limit
     worst = max(shortcut_bestN(lambda sp, n, t: true_limit(sp, n, False)),
                 shortcut_bestN(floor_feet_limit))
-    total_target = trueN - 1100   # tight: leaves ~100 lb spare per truck
+    total_target = worst + 400     # just above what any shortcut rule can carry on N units
     assert total_target > worst, "shortcut rules must need an extra truck"
     slack = trueN - total_target
     cuts = sorted(rng.sample(range(1, slack), NUSED - 1))
@@ -141,11 +141,11 @@ def main():
             # every truck is nearly full by floor length as well as by weight
             kinds, lens = [], []
             pool = BULKY + DENSE[:1] if long_rail else BULKY + DENSE
-            while sum(lens) < 570:
+            while sum(lens) < 500:
                 k = rng.choice(pool)
                 kinds.append(k)
                 lens.append(rng.choice(k[2]))
-            if not 590 <= sum(lens) <= 630:
+            if not 520 <= sum(lens) <= 590:
                 continue
             raw = [rng.uniform(*k[1]) for k in kinds]
             ws = [int(round(r * target / sum(raw) / 5)) * 5 for r in raw]
