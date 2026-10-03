@@ -6,8 +6,9 @@ trailer, and the kingpin is at 36 in. Each pallet's weight acts at the middle of
 footprint. Each tandem's load is split equally between its two axles.
 
 Spans are converted to feet and rounded to the nearest whole foot, with exactly half a
-foot rounding up. W = 500 x (L x N / (N - 1) + 12N + 36) is then rounded to the nearest
-500 lb, with exactly 250 rounding up.
+foot rounding up, and the Bridge Formula result is rounded to the nearest 500 lb, with
+exactly 250 rounding up. "Limit used" is the limit that applies to that group under
+23 CFR 658.17.
 
 ## Example 1: legal at 79,500 lb gross
 
@@ -30,9 +31,7 @@ Exact axle loads (lb): 12076.17, 16760.76, 16760.76, 16951.15, 16951.15; gross 7
 | 3-5 | 380 | 31.667 -> 32 | 3 | 60000 | 60000 | 50663.06 | yes |
 | 4-5 | 50 | 4.167 -> 4 | 2 | 34000 | 34000 | 33902.30 | yes |
 
-Axles 2-5 are two consecutive tandems at 36 ft, so they may carry 34,000 lb each
-(68,000 lb) even though the formula alone gives 66,000 lb. The steer axle (20,000 lb),
-both tandems (34,000 lb) and gross (80,000 lb) are also within limits.
+Every axle, tandem, gross and axle-group limit under 23 CFR 658.17 is met.
 
 ## Example 2: illegal at 76,500 lb gross
 
@@ -54,5 +53,4 @@ Exact axle loads (lb): 11945.62, 15285.54, 15285.54, 16991.64, 16991.64; gross 7
 | 3-5 | 360 | 30.000 -> 30 | 3 | 58500 | 58500 | 49268.83 | yes |
 | 4-5 | 50 | 4.167 -> 4 | 2 | 34000 | 34000 | 33983.29 | yes |
 
-Gross, the steer axle and both tandems are within limits, but the group of axles 2-5
-spans only 34 ft, so its limit is 64,500 lb and the truck is overweight on that group.
+The truck is overweight on the group of axles 2-5.
