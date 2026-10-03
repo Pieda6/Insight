@@ -135,7 +135,7 @@ def decompose_simple(max_rounds=150, seconds=20):
                 trucks.append((best[u][1], pos))
         if bad is None:
             solve.write([t[0] for t in trucks], [t[1] for t in trucks], pallets)
-            return f"found k={k}"
+            return f"found k={k} after {len(cuts)} failed placements"
         cuts.append(bad)
     return f"gave up after {max_rounds} rounds at k={k}"
 

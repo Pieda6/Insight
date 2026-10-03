@@ -5,12 +5,14 @@ Every axle load is linear in (W, M), where W is a trailer's payload and M its fi
 about the trailer's inside front wall. For a fixed unit and slider setting, the legal M for
 a given W is therefore an interval, and the largest legal W is that unit's capacity.
 The weight bound (fewest units whose capacities cover the freight) gives a lower bound on
-the truck count; CP-SAT packs the pallets onto that many units, and each truck then gets
-exact integer pallet positions whose moment lies inside the legal interval. A packing
-that cannot be placed is cut off and the search repeats.
+the truck count. CP-SAT then packs the pallets onto that many units and chooses slider
+settings, with the densest-first moment bounds so that each truck's centre of gravity can
+reach its legal window; each truck then gets exact integer positions (CP-SAT with no
+overlap). A packing that cannot be placed is cut off and the search repeats.
 """
 import csv
 import json
+import os
 from fractions import Fraction as F
 from pathlib import Path
 
@@ -210,7 +212,7 @@ def solve_plan(cands, pallets, k, seconds, min_load=None):
             md.Add(a * wsum + b2 * m2 <= rhs).OnlyEnforceIf(y[c])
     solver = cp_model.CpSolver()
     solver.parameters.max_time_in_seconds = seconds
-    solver.parameters.num_workers = 8
+    solver.parameters.num_workers = max(4, os.cpu_count() or 4)
     solver.parameters.random_seed = 0
     st = solver.Solve(md)
     if st == cp_model.INFEASIBLE:
@@ -225,15 +227,16 @@ def solve_plan(cands, pallets, k, seconds, min_load=None):
     return plan
 
 
-def pack(cands, pallets, k, cuts, spare, seconds):
+def pack(cands, pallets, k, cuts, spare, seconds, seed=0):
     """CP-SAT packing with necessary centre-of-gravity conditions.
 
     For a pallet set S packed against the front wall, 2*moment is smallest when pallets go
     densest-first (weight per inch, Smith's rule), giving
         Q(S) = sum w_i*len_i + 2 * sum_{i<j in S} min(w_i*len_j, w_j*len_i);
     packed against the rear wall the largest value is 2*L*W - Q(S). A legal placement
-    needs the legal moment interval for W to meet [Q, 2LW - Q]; the pairwise products are
-    linearised with z_ij >= x_i + x_j - 1. Exact placement is checked afterwards.
+    needs the legal moment interval for W to meet [Q, 2LW - Q]. Because densest-first is a
+    single global order, Q is linear once each pallet's "floor ahead of it" is a variable.
+    Exact placement is checked afterwards.
     """
     from ortools.sat.python import cp_model
 
@@ -246,8 +249,9 @@ def pack(cands, pallets, k, cuts, spare, seconds):
     for u in {c.unit_id for c in cands}:
         md.AddAtMostOne(y[c] for c in range(C) if cands[c].unit_id == u)
     md.Add(sum(y) <= k)
-    pair_cost = {(i, j): min(pallets[i][1] * pallets[j][2], pallets[j][1] * pallets[i][2])
-                 for i in range(P) for j in range(i + 1, P)}
+    # Densest-first is one global order, so a pallet's offset in the front-packed layout is
+    # the floor length of the denser pallets on the same truck (a linear expression).
+    rank = sorted(range(P), key=lambda p: (-F(pallets[p][1], pallets[p][2]), p))
     for c, cfg in enumerate(cands):
         W = sum(pallets[p][1] * x[p, c] for p in range(P))
         cap = capacity(cfg)
@@ -255,10 +259,13 @@ def pack(cands, pallets, k, cuts, spare, seconds):
         md.Add(W >= (cap - spare) * y[c])
         md.Add(sum(pallets[p][2] * x[p, c] for p in range(P)) <= cfg.length * y[c])
         q_terms = [pallets[p][1] * pallets[p][2] * x[p, c] for p in range(P)]
-        for (i, j), cost in pair_cost.items():
-            z = md.NewBoolVar("")
-            md.Add(z >= x[i, c] + x[j, c] - 1)
-            q_terms.append(2 * cost * z)
+        ahead = 0
+        for p in rank:
+            w = pallets[p][1]
+            t = md.NewIntVar(0, w * cfg.length, "")
+            md.Add(t >= w * ahead).OnlyEnforceIf(x[p, c])
+            q_terms.append(2 * t)
+            ahead = ahead + pallets[p][2] * x[p, c]
         Q = sum(q_terms)
         for a, b2, rhs in int_rows(cfg):
             if b2 > 0:     # moment upper limit: the most forward packing must reach it
@@ -269,8 +276,8 @@ def pack(cands, pallets, k, cuts, spare, seconds):
         md.AddBoolOr([x[p, c].Not() for p in ps] + [y[c].Not()])
     sv = cp_model.CpSolver()
     sv.parameters.max_time_in_seconds = seconds
-    sv.parameters.num_workers = 8
-    sv.parameters.random_seed = 0
+    sv.parameters.num_workers = max(4, os.cpu_count() or 4)
+    sv.parameters.random_seed = seed
     st = sv.Solve(md)
     if st == cp_model.INFEASIBLE:
         return "infeasible"
@@ -292,7 +299,11 @@ def main():
                  for c in configs[u] if capacity(c) >= caps[u] - spare]
         cuts = []
         while True:
-            packing = pack(cands, pallets, k, cuts, spare, 1800)
+            packing = None
+            for seed in range(40):  # restart with a new seed every 2 minutes
+                packing = pack(cands, pallets, k, cuts, spare, 120, seed)
+                if packing is not None:
+                    break
             if packing == "infeasible":
                 break
             if packing is None:
