@@ -1,65 +1,68 @@
 pallet_id,description,weight_lb,length_in
-P001,machinery skid,13110,96
-P002,cast iron fittings,6395,40
-P003,machinery skid,12840,72
-P004,cast iron fittings,5007,48
-P005,machinery skid,11580,72
-P006,steel coil on cradle,12400,48
-P007,paper rolls,4455,48
-P008,steel coil on cradle,11115,48
-P009,machinery skid,15184,96
-P010,paper rolls,10490,48
-P011,cast iron fittings,9570,48
-P012,steel coil on cradle,15715,48
-P013,cast iron fittings,9940,48
-P014,paper rolls,11165,48
-P015,paper rolls,6780,48
-P016,beverage pallet,7092,48
-P017,cast iron fittings,11965,48
-P018,cast iron fittings,6650,48
-P019,cast iron fittings,3232,48
-P020,steel coil on cradle,13960,48
-P021,beverage pallet,2675,48
-P022,machinery skid,9535,72
-P023,steel coil on cradle,14165,60
-P024,beverage pallet,2055,48
-P025,cast iron fittings,10384,48
-P026,beverage pallet,6855,48
-P027,steel coil on cradle,13365,60
-P028,beverage pallet,6835,48
-P029,machinery skid,10000,72
-P030,cast iron fittings,12795,40
-P031,cast iron fittings,8600,40
-P032,machinery skid,5430,72
-P033,paper rolls,7265,48
-P034,machinery skid,14430,72
-P035,steel coil on cradle,7968,48
-P036,cast iron fittings,13348,40
-P037,beverage pallet,6290,48
-P038,beverage pallet,7020,48
-P039,paper rolls,8675,48
-P040,paper rolls,5597,48
-P041,machinery skid,5140,96
-P042,machinery skid,15045,72
-P043,steel coil on cradle,13905,60
-P044,machinery skid,14235,96
-P045,steel coil on cradle,10700,60
-P046,steel coil on cradle,12420,60
-P047,machinery skid,9625,120
-P048,steel coil on cradle,13630,48
-P049,machinery skid,13280,96
-P050,beverage pallet,6632,48
-P051,steel coil on cradle,8545,48
-P052,paper rolls,4175,48
-P053,paper rolls,5395,48
-P054,machinery skid,10162,72
-P055,paper rolls,5995,48
-P056,cast iron fittings,8085,40
-P057,steel coil on cradle,11440,48
-P058,steel coil on cradle,13319,60
-P059,cast iron fittings,7400,48
-P060,beverage pallet,7310,48
-P061,cast iron fittings,12650,40
-P062,steel coil on cradle,13470,48
-P063,beverage pallet,5170,48
-P064,steel coil on cradle,12815,48
+P001,cast iron fittings,3560,40
+P002,machinery skid,8615,96
+P003,cast iron fittings,4485,48
+P004,transformer crate,6515,168
+P005,cast iron fittings,3390,48
+P006,beverage pallet,1575,48
+P007,machinery skid,7340,144
+P008,transformer crate,8750,120
+P009,transformer crate,11415,168
+P010,paper rolls,3176,48
+P011,steel coil on cradle,9975,48
+P012,transformer crate,6025,120
+P013,paper rolls,3015,48
+P014,transformer crate,6574,168
+P015,cast iron fittings,4035,40
+P016,cast iron fittings,3110,48
+P017,machinery skid,8770,96
+P018,transformer crate,3445,144
+P019,cast iron fittings,3185,40
+P020,machinery skid,8315,144
+P021,cast iron fittings,3765,48
+P022,steel coil on cradle,11230,60
+P023,machinery skid,9420,96
+P024,paper rolls,6940,48
+P025,steel coil on cradle,13567,60
+P026,cast iron fittings,3881,48
+P027,steel coil on cradle,10950,48
+P028,cast iron fittings,2780,48
+P029,steel coil on cradle,11105,60
+P030,machinery skid,6846,96
+P031,cast iron fittings,4865,40
+P032,steel coil on cradle,12300,48
+P033,machinery skid,12568,96
+P034,beverage pallet,1885,48
+P035,transformer crate,4695,144
+P036,steel coil on cradle,10510,48
+P037,machinery skid,5905,96
+P038,steel coil on cradle,14090,60
+P039,beverage pallet,2110,48
+P040,steel coil on cradle,11475,60
+P041,machinery skid,7980,96
+P042,transformer crate,5653,144
+P043,machinery skid,11060,144
+P044,cast iron fittings,3840,48
+P045,paper rolls,4230,48
+P046,transformer crate,6180,120
+P047,paper rolls,2695,48
+P048,machinery skid,11490,144
+P049,paper rolls,4410,48
+P050,machinery skid,6930,144
+P051,machinery skid,7110,96
+P052,cast iron fittings,3705,48
+P053,beverage pallet,1974,48
+P054,beverage pallet,2105,48
+P055,machinery skid,12210,96
+P056,machinery skid,9210,120
+P057,cast iron fittings,10177,48
+P058,machinery skid,9900,120
+P059,steel coil on cradle,7870,60
+P060,paper rolls,7890,48
+P061,machinery skid,7725,120
+P062,steel coil on cradle,11740,48
+P063,transformer crate,4665,144
+P064,beverage pallet,2700,48
+P065,steel coil on cradle,11160,48
+P066,cast iron fittings,4120,40
+P067,transformer crate,5735,168

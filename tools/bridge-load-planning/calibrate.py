@@ -90,6 +90,56 @@ def greedy():
     solve.write([t[0] for t in trucks], [solve.place(t[0], t[1]) for t in trucks], pallets)
 
 
+def decompose_simple(max_rounds=150, seconds=20):
+    """Pack by weight and floor length only (each unit at its first max-capacity slider),
+    then try simple placements; failing truck sets are cut off and the packing repeated."""
+    from ortools.sat.python import cp_model
+    solve.bridge_limit = TRUE_LIMIT
+    configs, pallets = solve.load_problem()
+    total = sum(p[1] for p in pallets)
+    best = {}
+    for u, cs in configs.items():
+        cap = max(solve.capacity(c) for c in cs)
+        best[u] = (cap, next(c for c in cs if solve.capacity(c) == cap))
+    k = next(i for i in range(1, 99) if sum(sorted((v[0] for v in best.values()), reverse=True)[:i]) >= total)
+    units = sorted(best)
+    cuts = []
+    for _ in range(max_rounds):
+        md = cp_model.CpModel()
+        P, C = len(pallets), len(units)
+        x = {(p, c): md.NewBoolVar("") for p in range(P) for c in range(C)}
+        y = [md.NewBoolVar("") for _ in range(C)]
+        for p in range(P):
+            md.AddExactlyOne(x[p, c] for c in range(C))
+        md.Add(sum(y) <= k)
+        for c, u in enumerate(units):
+            cap, cfg = best[u]
+            md.Add(sum(pallets[p][1] * x[p, c] for p in range(P)) <= cap * y[c])
+            md.Add(sum(pallets[p][2] * x[p, c] for p in range(P)) <= cfg.length * y[c])
+        for c, ps in cuts:
+            md.AddBoolOr([x[p, c].Not() for p in ps])
+        sv = cp_model.CpSolver()
+        sv.parameters.max_time_in_seconds = seconds
+        sv.parameters.num_workers = 8
+        if sv.Solve(md) not in (cp_model.OPTIMAL, cp_model.FEASIBLE):
+            return "no 9-truck packing found" if k == 9 else f"stopped at k={k}"
+        trucks = []
+        bad = None
+        for c, u in enumerate(units):
+            ps = [p for p in range(P) if sv.Value(x[p, c])]
+            if ps:
+                pos = solve.place(best[u][1], [pallets[p] for p in ps])
+                if pos is None:
+                    bad = (c, ps)
+                    break
+                trucks.append((best[u][1], pos))
+        if bad is None:
+            solve.write([t[0] for t in trucks], [t[1] for t in trucks], pallets)
+            return f"found k={k}"
+        cuts.append(bad)
+    return f"gave up after {max_rounds} rounds at k={k}"
+
+
 def main():
     ok = cross_check()
     shutil.rmtree("/app/output", ignore_errors=True)
@@ -108,9 +158,10 @@ def main():
     greedy()
     summary, failed = run_tests()
     print(f"{'greedy_heaviest_first':26s} {summary:22s} {failed}")
-    solve.bridge_limit = TRUE_LIMIT
     shutil.rmtree("/app/output", ignore_errors=True)
-    solve.main()
+    note = decompose_simple()
+    summary, failed = run_tests()
+    print(f"{'weight_length_then_place':26s} {summary:22s} {failed}  ({note})")
     sys.exit(0 if ok else 1)
 
 

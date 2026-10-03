@@ -22,6 +22,7 @@ import solve  # noqa: E402
 
 ENV = ROOT / "environment" / "data"
 TST = ROOT / "tests" / "data"
+NUSED = 9  # units in the minimum plan
 
 TRACTORS = {  # steer, drive1, drive2 in the trailer frame (kingpin at 36 in)
     "SLP-230": (-182, 22, 74),
@@ -30,12 +31,15 @@ TRACTORS = {  # steer, drive1, drive2 in the trailer frame (kingpin at 36 in)
 }
 TARE = {"SLP-230": (11200, 4700, 4700), "DAY-204": (10600, 4500, 4500), "SLP-254": (11600, 4800, 4800)}
 
-FREIGHT = [  # description, weight range, lengths
-    ("steel coil on cradle", (7000, 15000), [48, 60]),
-    ("machinery skid", (4000, 11000), [72, 96, 120]),
-    ("paper rolls", (2600, 4200), [48]),
+DENSE = [  # description, weight range (lb), lengths (in)
+    ("steel coil on cradle", (9000, 16000), [48, 60]),
+    ("cast iron fittings", (3500, 6000), [40, 48]),
+    ("paper rolls", (3000, 4500), [48]),
+]
+BULKY = [
+    ("machinery skid", (6000, 12000), [96, 120, 144]),
+    ("transformer crate", (3500, 7000), [120, 144, 168]),
     ("beverage pallet", (2100, 2600), [48]),
-    ("cast iron fittings", (3000, 5200), [40, 48]),
 ]
 
 
@@ -53,24 +57,21 @@ def unit_rows():
                                 tare_steer_lb=ts, tare_drive1_lb=td1, tare_drive2_lb=td2,
                                 tare_trailer1_lb=trailer_tare[0], tare_trailer2_lb=trailer_tare[1]))
 
-    # free units: full slider rail
+    # long-rail units: full slider rail
     add("U01", "SLP-230", [380, 416, 452, 488, 524])
     add("U02", "SLP-254", [380, 416, 452, 488, 524])
     add("U03", "DAY-204", [392, 428, 464, 500])
-    add("U04", "SLP-230", [404, 440, 476, 512])
-    add("U05", "SLP-254", [392, 440, 488])
     # forward-only units, drive-to-trailer tandem span 35.5 - 37 ft (need the 34k+34k allowance)
-    add("U06", "SLP-230", [398])            # 426 in = 35.5 ft, rounds to 36
-    add("U07", "SLP-254", [392, 404])       # 414 in (34.5 ft) / 426 in (35.5 ft)
-    add("U08", "SLP-230", [380, 404])       # 408 in (34 ft) / 432 in (36 ft)
-    add("U09", "DAY-204", [388, 410])       # 420 in (35 ft) / 442 in (36.8 ft)
+    add("U04", "SLP-230", [398])            # 426 in = 35.5 ft, rounds to 36
+    add("U05", "SLP-254", [392, 404])       # 414 in (34.5 ft) / 426 in (35.5 ft)
+    add("U06", "SLP-230", [380, 404])       # 408 in (34 ft) / 432 in (36 ft)
+    add("U07", "DAY-204", [388, 410])       # 420 in (35 ft) / 442 in (36.8 ft)
     # short-rail units, span under 35.5 ft: the axle 2-5 group binds
-    add("U10", "SLP-230", [384])            # 412 in = 34.3 ft
-    add("U11", "DAY-204", [380, 392])       # 412 / 424 in
-    add("U12", "SLP-254", [372, 384])       # 394 / 406 in
+    add("U08", "DAY-204", [380, 392])       # 412 / 424 in
+    add("U09", "SLP-254", [372, 384])       # 394 / 406 in
     # weak units: short rail and heavier trailers
-    add("U13", "SLP-230", [368], (4200, 4200))
-    add("U14", "DAY-204", [356, 374], (4400, 4400))
+    add("U10", "SLP-230", [368], (4200, 4200))
+    add("U11", "DAY-204", [356, 374], (4400, 4400))
     del rng
     return units, sliders
 
@@ -86,7 +87,7 @@ def best_config(cfgs):
     return max(((solve.capacity(c), c) for c in cfgs), key=lambda t: (t[0], t[1].slider_id))
 
 
-def shortcut_best12(limit_fn):
+def shortcut_bestN(limit_fn):
     orig = solve.bridge_limit
     solve.bridge_limit = limit_fn
     try:
@@ -94,7 +95,7 @@ def shortcut_best12(limit_fn):
         caps = sorted((best_config(c)[0] for c in configs.values()), reverse=True)
     finally:
         solve.bridge_limit = orig
-    return sum(caps[:12])
+    return sum(caps[:NUSED])
 
 
 def floor_feet_limit(span, n, two_tandems):
@@ -114,40 +115,53 @@ def main():
     write_csv(ENV / "pallets.csv", [dict(pallet_id="P000", description="x", weight_lb=1, length_in=48)])
     configs, _ = solve.load_problem()
     caps = sorted(((best_config(c) + (u,)) for u, c in configs.items()), key=lambda t: -t[0])
-    chosen = caps[:12]
+    chosen = caps[:NUSED]
     rng = random.Random(16)
-    true12 = sum(c[0] for c in chosen)
+    trueN = sum(c[0] for c in chosen)
     true_limit = solve.bridge_limit
-    worst = max(shortcut_best12(lambda sp, n, t: true_limit(sp, n, False)),
-                shortcut_best12(floor_feet_limit))
-    total_target = true12 - 1100   # tight: leaves ~100 lb spare per truck
-    assert total_target > worst, "shortcut rules must need a 12th truck"
-    slack = true12 - total_target
-    cuts = sorted(rng.sample(range(1, slack), 11))
+    worst = max(shortcut_bestN(lambda sp, n, t: true_limit(sp, n, False)),
+                shortcut_bestN(floor_feet_limit))
+    total_target = trueN - 1100   # tight: leaves ~100 lb spare per truck
+    assert total_target > worst, "shortcut rules must need an extra truck"
+    slack = trueN - total_target
+    cuts = sorted(rng.sample(range(1, slack), NUSED - 1))
     slacks = [b - a for a, b in zip([0] + cuts, cuts + [slack])]
-    print("true12", true12, "shortcut12", worst, "target", total_target)
-    counts = [5] * 12
-    extra = 64 - sum(counts)
-    for i in rng.sample(range(12), abs(extra)):
-        counts[i] += 1 if extra > 0 else -1
+    print("trueN", trueN, "shortcutN", worst, "target", total_target)
     pallets = []
-    for (cap, cfg, uid), n, sl in zip(chosen, counts, slacks):
+    hidden = []
+    for (cap, cfg_best, uid), sl in zip(chosen, slacks):
+        long_rail = len(configs[uid]) >= 3
+        if long_rail:
+            # rearmost slider setting that still has the unit's full capacity
+            cfg = max((c for c in configs[uid] if solve.capacity(c) == cap), key=lambda c: c.x[3])
+        else:
+            cfg = cfg_best
         target = cap - sl
-        for _ in range(500):
-            kinds = [rng.choice(FREIGHT) for _ in range(n)]
+        for attempt in range(20000):
+            # every truck is nearly full by floor length as well as by weight
+            kinds, lens = [], []
+            pool = BULKY + DENSE[:1] if long_rail else BULKY + DENSE
+            while sum(lens) < 570:
+                k = rng.choice(pool)
+                kinds.append(k)
+                lens.append(rng.choice(k[2]))
+            if not 590 <= sum(lens) <= 630:
+                continue
             raw = [rng.uniform(*k[1]) for k in kinds]
-            scale = target / sum(raw)
-            ws = [int(round(r * scale / 5)) * 5 for r in raw]
+            ws = [int(round(r * target / sum(raw) / 5)) * 5 for r in raw]
             ws[-1] += target - sum(ws)
-            lens = [rng.choice(k[2]) for k in kinds]
+            if not all(1500 <= w <= 16500 and w <= 320 * ln for w, ln in zip(ws, lens)):
+                continue
             items = [(f"x{i}", w, ln) for i, (w, ln) in enumerate(zip(ws, lens))]
-            ok_range = all(1500 <= w <= 16000 for w in ws)
-            if ok_range and solve.place(cfg, items) is not None:
-                for k, w, ln in zip(kinds, ws, lens):
-                    pallets.append((k[0], w, ln))
+            plan = solve.solve_plan([cfg], items, 1, 5)
+            if isinstance(plan, list) and plan:
+                pallets += [(k[0], w, ln) for k, w, ln in zip(kinds, ws, lens)]
+                hidden.append((uid, cfg.slider_id, sum(lens), target))
                 break
         else:
             raise SystemExit(f"could not fill {uid}")
+    for h in hidden:
+        print("hidden", h)
     rng.shuffle(pallets)
     rows = [dict(pallet_id=f"P{i:03d}", description=d, weight_lb=w, length_in=ln)
             for i, (d, w, ln) in enumerate(pallets, 1)]
@@ -157,7 +171,7 @@ def main():
         shutil.copy(f, TST / f.name)
     total = sum(p[1] for p in pallets)
     print("pallets", len(pallets), "total", total, "best-12", sum(c[0] for c in chosen),
-          "best-11", sum(c[0] for c in caps[:11]))
+          "best-(N-1)", sum(c[0] for c in caps[:NUSED - 1]))
     (ROOT / "tests" / "expected.json").write_text('{"min_units": %d}\n' % len(chosen))
     for c in caps:
         print(c[2], c[1].slider_id, c[0])
