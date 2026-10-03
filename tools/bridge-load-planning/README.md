@@ -11,25 +11,26 @@ mkdir -p /app && cp -r tasks/bridge-load-planning/environment/data /app/data
 python tools/bridge-load-planning/calibrate.py
 ```
 
-## Calibration (current data)
+## Calibration (current data, v5)
 
-- **Fleet:** 11 units. Three long-rail units have two slider settings each (forward and aft, equal capacity), four units are forward-only (35.5 to 37 ft between tandems), two are short-rail (the axles 2-5 group binds), and two are weak.
-- **Freight:** 75 pallets weighing 458,636 lb in total.
-- **Minimum:** 9 units. The 8 strongest units carry at most 412,560 lb, so 8 is impossible. Under any shortcut rule, 9 units can carry at most 458,236 lb.
-- **Hidden plan:** every truck uses 570-615 in of the 630 in floor and is loaded close to its legal limit. Near full payload, the legal centre of gravity is a window a few inches wide, and the slider setting decides where it sits.
-- **Reference solution:** about 1 minute. CP-SAT packing with a densest-first reachability bound on the centre of gravity, then exact placement, restarting with a new seed every 2 minutes.
-- **Engine cross-check:** 0 mismatches on 4,000 random loads.
-- **Nop** (no output): every test errors, so reward 0.
-- **Reference solution result:** all 8 tests pass.
+- **Fleet:** 11 units, 10 with an idle-reduction unit (APU). Certified weights run from 471 to 640 lb. U02's APU is not certified fully functional.
+- **Freight:** 53 pallets weighing 465,563 lb in total.
+- **Minimum:** 9 units. The 8 strongest units carry at most 416,755 lb. Under correct law, the 9 strongest carry 466,507 lb; with no allowance or the regulation's 400 lb, they carry at most 465,363 lb, below the freight.
+- **The rule being tested:** the allowance is min(certified weight, 550 lb) for a functional APU, else 0 (23 U.S.C. 127(a)(12), which supersedes 23 CFR 658.17(n)'s 400 lb). It applies to every axle, tandem, gross and Bridge Formula limit, as the instruction states.
+- **Reference solution:** about 20 s. Engine cross-check: 0 mismatches. Nop: reward 0. Reference solution: 8 of 8 tests pass.
 
 | Shortcut | Result |
 |---|---|
-| No 34k + 34k two-tandem allowance | minimum test fails (needs 10) |
-| Span rounded down to whole feet | minimum test fails |
-| Bridge Formula only on the whole truck | Bridge Formula test fails |
-| No Bridge Formula | Bridge Formula test fails |
+| No APU allowance | minimum test fails (needs 10) |
+| 400 lb (the stale regulation) | minimum test fails |
+| Flat 550 lb regardless of certified weight | axle/gross and Bridge Formula tests fail (overweight) |
+| Allowance counted for the inoperative APU | axle/gross test fails |
+| Certified weight uncapped | axle/gross and Bridge Formula tests fail |
+| No two-tandem provision / span rounded down | minimum test fails |
+| Bridge Formula on the whole truck only / not at all | Bridge Formula test fails |
 | Greedy heaviest-first | minimum test fails |
-| Pack by weight and floor length, then place | gave up after 150 repacking rounds at 9 trucks (no output) |
+
+Under the narrow reading of the statute (gross and single-axle limits only), the minimum would be 10, not 9. That is why the instruction states that an allowance applies to every limit, which is the regulation's own scope.
 
 ## What `instruction.md` must state
 

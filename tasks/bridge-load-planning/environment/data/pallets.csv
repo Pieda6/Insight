@@ -1,76 +1,54 @@
 pallet_id,description,weight_lb,length_in
-P001,steel coil on cradle,11985,60
-P002,transformer crate,4335,120
-P003,cast iron fittings,3765,40
-P004,beverage pallet,1710,48
-P005,machinery skid,6680,96
-P006,steel coil on cradle,9233,60
-P007,beverage pallet,2195,48
-P008,beverage pallet,2185,48
-P009,cast iron fittings,5090,40
-P010,cast iron fittings,3845,48
-P011,cast iron fittings,4840,48
-P012,transformer crate,7290,144
-P013,machinery skid,10220,144
-P014,cast iron fittings,3045,40
-P015,steel coil on cradle,8195,48
-P016,beverage pallet,2590,48
-P017,machinery skid,5307,96
-P018,beverage pallet,1670,48
-P019,machinery skid,7970,120
-P020,beverage pallet,2575,48
-P021,beverage pallet,2590,48
-P022,paper rolls,3735,48
-P023,steel coil on cradle,9295,48
-P024,steel coil on cradle,13235,60
-P025,steel coil on cradle,6615,48
-P026,transformer crate,4745,144
-P027,beverage pallet,1585,48
-P028,transformer crate,4615,144
-P029,paper rolls,2805,48
-P030,cast iron fittings,3975,48
-P031,steel coil on cradle,9960,48
-P032,steel coil on cradle,11950,48
-P033,machinery skid,12235,144
-P034,steel coil on cradle,10560,48
-P035,beverage pallet,2445,48
-P036,machinery skid,8778,120
-P037,transformer crate,4296,120
-P038,machinery skid,9315,96
-P039,machinery skid,7120,96
-P040,transformer crate,3263,144
-P041,transformer crate,3480,120
-P042,steel coil on cradle,11825,60
-P043,transformer crate,4980,144
-P044,paper rolls,3515,48
-P045,steel coil on cradle,10620,60
-P046,steel coil on cradle,7050,60
-P047,steel coil on cradle,9080,60
-P048,steel coil on cradle,10725,48
-P049,beverage pallet,2400,48
-P050,steel coil on cradle,13065,48
-P051,beverage pallet,2170,48
-P052,paper rolls,2920,48
-P053,beverage pallet,2410,48
-P054,steel coil on cradle,10305,60
-P055,machinery skid,6975,96
-P056,steel coil on cradle,8120,48
-P057,steel coil on cradle,10310,60
-P058,cast iron fittings,4240,40
-P059,beverage pallet,2485,48
-P060,cast iron fittings,3235,40
-P061,steel coil on cradle,13035,48
-P062,beverage pallet,2295,48
-P063,beverage pallet,2305,48
-P064,paper rolls,3470,48
-P065,cast iron fittings,4100,40
-P066,beverage pallet,2445,48
-P067,steel coil on cradle,13740,48
-P068,transformer crate,5395,120
-P069,machinery skid,9735,120
-P070,transformer crate,6710,120
-P071,transformer crate,3815,120
-P072,transformer crate,7601,144
-P073,paper rolls,2913,48
-P074,steel coil on cradle,10460,60
-P075,beverage pallet,2865,48
+P001,steel coil on cradle,10520,60
+P002,steel coil on cradle,10990,48
+P003,paper rolls,5855,48
+P004,steel coil on cradle,10340,60
+P005,paper rolls,4840,48
+P006,machinery skid,11045,96
+P007,cast iron fittings,4275,48
+P008,machinery skid,10210,120
+P009,paper rolls,5340,48
+P010,machinery skid,11680,120
+P011,cast iron fittings,5700,40
+P012,machinery skid,6680,144
+P013,machinery skid,8380,120
+P014,steel coil on cradle,9300,48
+P015,machinery skid,8115,96
+P016,steel coil on cradle,11022,48
+P017,paper rolls,2785,48
+P018,machinery skid,10674,144
+P019,steel coil on cradle,8830,60
+P020,steel coil on cradle,11555,48
+P021,paper rolls,2800,48
+P022,steel coil on cradle,9685,48
+P023,machinery skid,12370,96
+P024,machinery skid,12300,96
+P025,cast iron fittings,5740,48
+P026,cast iron fittings,8680,40
+P027,steel coil on cradle,13340,60
+P028,steel coil on cradle,14175,60
+P029,paper rolls,3465,48
+P030,steel coil on cradle,12280,48
+P031,steel coil on cradle,12130,60
+P032,steel coil on cradle,9155,60
+P033,steel coil on cradle,12335,48
+P034,cast iron fittings,4000,40
+P035,cast iron fittings,4685,40
+P036,machinery skid,12145,120
+P037,paper rolls,3915,48
+P038,steel coil on cradle,8110,48
+P039,cast iron fittings,5260,40
+P040,paper rolls,4075,48
+P041,cast iron fittings,8810,40
+P042,paper rolls,5289,48
+P043,steel coil on cradle,15861,60
+P044,steel coil on cradle,10930,60
+P045,paper rolls,3926,48
+P046,machinery skid,12375,96
+P047,machinery skid,6711,120
+P048,steel coil on cradle,10730,60
+P049,cast iron fittings,5135,40
+P050,steel coil on cradle,14495,60
+P051,cast iron fittings,8505,48
+P052,machinery skid,13850,120
+P053,steel coil on cradle,10165,60

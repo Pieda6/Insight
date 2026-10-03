@@ -55,11 +55,25 @@ def floor_feet(span, n, tt):
     return max(w, 68000) if tt and feet >= 36 else w
 
 
+TRUE_APU = solve.apu_allowance
+
+
+def _apu(fn):
+    return lambda u: fn(u) if u.get("apu_installed") == "yes" else 0
+
+
 SHORTCUTS = {
-    "no_tandem_exception": lambda s, n, t: TRUE_LIMIT(s, n, False),
-    "floor_feet": floor_feet,
-    "whole_truck_bridge_only": lambda s, n, t: TRUE_LIMIT(s, n, t) if n == 5 else 10 ** 9,
-    "no_bridge_formula": lambda s, n, t: 10 ** 9,
+    "no_tandem_exception": dict(bridge=lambda s, n, t: TRUE_LIMIT(s, n, False)),
+    "floor_feet": dict(bridge=floor_feet),
+    "whole_truck_bridge_only": dict(bridge=lambda s, n, t: TRUE_LIMIT(s, n, t) if n == 5 else 10 ** 9),
+    "no_bridge_formula": dict(bridge=lambda s, n, t: 10 ** 9),
+    "apu_ignored": dict(apu=lambda u: 0),
+    "apu_cfr_400": dict(apu=_apu(lambda u: min(int(u["apu_certified_weight_lb"]), 400)
+                                 if u.get("apu_fully_functional") == "yes" else 0)),
+    "apu_flat_550": dict(apu=_apu(lambda u: 550)),
+    "apu_status_ignored": dict(apu=_apu(lambda u: min(int(u["apu_certified_weight_lb"]), 550))),
+    "apu_uncapped": dict(apu=_apu(lambda u: int(u["apu_certified_weight_lb"])
+                                  if u.get("apu_fully_functional") == "yes" else 0)),
 }
 
 
@@ -148,12 +162,17 @@ def main():
     solve.DATA = Path("/app/data")
     solve.main()
     print("oracle:", run_tests()[0])
-    for name, fn in SHORTCUTS.items():
-        solve.bridge_limit = fn
+    for name, sc in SHORTCUTS.items():
+        solve.bridge_limit = sc.get("bridge", TRUE_LIMIT)
+        solve.apu_allowance = sc.get("apu", TRUE_APU)
         shutil.rmtree("/app/output", ignore_errors=True)
-        solve.main()
+        try:
+            solve.main()
+        except (SystemExit, AssertionError) as e:
+            print(f"{name:26s} solver stopped: {e!r}")
         summary, failed = run_tests()
         print(f"{name:26s} {summary:22s} {failed}")
+    solve.bridge_limit, solve.apu_allowance = TRUE_LIMIT, TRUE_APU
     shutil.rmtree("/app/output", ignore_errors=True)
     greedy()
     summary, failed = run_tests()

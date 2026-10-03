@@ -44,6 +44,17 @@ def bridge_limit(span_in, n, two_tandems):
     return w
 
 
+APU_CAP = 550  # 23 U.S.C. 127(a)(12)(B); supersedes the older 400 lb in 23 CFR 658.17(n)
+
+
+def apu_allowance(unit):
+    """Idle-reduction allowance: certified APU weight, capped by statute, only when the
+    unit can prove the APU is fully functional (23 U.S.C. 127(a)(12)(C))."""
+    if unit.get("apu_installed") != "yes" or unit.get("apu_fully_functional") != "yes":
+        return 0
+    return min(int(unit["apu_certified_weight_lb"]), APU_CAP)
+
+
 class Config:
     """One unit with one slider setting."""
 
@@ -70,6 +81,9 @@ class Config:
         for i in range(5):
             for j in range(i + 1, 5):
                 self.limits.append((i, j, bridge_limit(self.x[j] - self.x[i], j - i + 1, (i, j) == (1, 4))))
+        # The idle-reduction allowance raises the axle, tandem, gross and bridge limits alike.
+        allow = apu_allowance(unit)
+        self.limits = [(i, j, lim + allow) for i, j, lim in self.limits]
 
     def loads(self, w, m):
         return [F(self.tare[i]) + a * w + b * m for i, (a, b) in enumerate(self.coef)]

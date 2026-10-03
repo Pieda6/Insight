@@ -1,7 +1,7 @@
 # Worked examples
 
-Two illustrative trucks (not units from the fleet). Both use the same tractor and tare
-weights and two 240 in pallets. Positions are in inches from the inside front wall of the
+Two illustrative trucks (not units from the fleet, and with no idle-reduction unit).
+Both use the same tractor and tare weights and two 240 in pallets. Positions are in inches from the inside front wall of the
 trailer, and the kingpin is at 36 in. Each pallet's weight acts at the middle of its
 footprint. Each tandem's load is split equally between its two axles.
 

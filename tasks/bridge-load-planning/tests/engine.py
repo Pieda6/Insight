@@ -61,23 +61,34 @@ def formula_limit(span_in, n):
     return 500 * ((2 * units_of_500 + 1) // 2)
 
 
+def idle_reduction_allowance(unit):
+    """23 U.S.C. 127(a)(12): up to 550 lb (the statute; 23 CFR 658.17(n) still shows the
+    pre-2015 400 lb) for the certified weight of a fully functional idle-reduction unit."""
+    if unit.get("apu_installed", "no") != "yes" or unit.get("apu_fully_functional", "no") != "yes":
+        return 0
+    return min(550, int(unit["apu_certified_weight_lb"]))
+
+
 def violations(unit, slider, loads):
     """List of human-readable limit violations for one truck."""
     x = axle_x(unit, slider)
+    extra = idle_reduction_allowance(unit)
     out = []
-    if loads[0] > 20000:
-        out.append(f"steer axle {float(loads[0]):.1f} > 20000")
+    for q in range(5):  # any one axle, including an axle of a tandem
+        if loads[q] > 20000 + extra:
+            out.append(f"axle {q + 1} {float(loads[q]):.1f} > {20000 + extra}")
     for name, (i, j) in (("drive tandem", (1, 2)), ("trailer tandem", (3, 4))):
-        if loads[i] + loads[j] > 34000:
-            out.append(f"{name} {float(loads[i] + loads[j]):.1f} > 34000")
-    if sum(loads) > 80000:
-        out.append(f"gross {float(sum(loads)):.1f} > 80000")
+        if loads[i] + loads[j] > 34000 + extra:
+            out.append(f"{name} {float(loads[i] + loads[j]):.1f} > {34000 + extra}")
+    if sum(loads) > 80000 + extra:
+        out.append(f"gross {float(sum(loads)):.1f} > {80000 + extra}")
     for i in range(5):
         for j in range(i + 1, 5):
             span = x[j] - x[i]
             lim = formula_limit(span, j - i + 1)
             if (i, j) == (1, 4) and feet_half_up(span) >= 36:
                 lim = max(lim, 68000)
+            lim += extra
             grp = sum(loads[i:j + 1])
             if grp > lim:
                 out.append(f"bridge axles {i + 1}-{j + 1} {float(grp):.1f} > {lim}")

@@ -43,14 +43,26 @@ BULKY = [
 ]
 
 
+# Idle-reduction units: (certified weight lb, certified fully functional)
+APU = {
+    "U01": (612, True), "U02": (585, False), "U03": (640, True), "U04": (560, True),
+    "U05": (598, True), "U06": (471, True), "U07": (623, True), "U08": (566, True),
+    "U09": (604, True), "U10": (590, True), "U11": (575, True),
+}
+
+
 def unit_rows():
     rng = random.Random(658)
     units, sliders = [], []
 
     def add(uid, tractor, t1s, trailer_tare=(3800, 3800)):
         s, d1, d2 = TRACTORS[tractor]
+        cert, functional = APU.get(uid, (None, None))
         units.append(dict(unit_id=uid, tractor_model=tractor, steer_x_in=s, drive1_x_in=d1, drive2_x_in=d2,
-                          kingpin_x_in=36, trailer_inside_length_in=630))
+                          kingpin_x_in=36, trailer_inside_length_in=630,
+                          apu_installed="yes" if cert else "no",
+                          apu_certified_weight_lb=cert or "",
+                          apu_fully_functional=("yes" if functional else "no") if cert else ""))
         for n, t1 in enumerate(t1s, 1):
             ts, td1, td2 = TARE[tractor]
             sliders.append(dict(unit_id=uid, slider_position_id=f"{uid}-S{n}", trailer1_x_in=t1, trailer2_x_in=t1 + 50,
@@ -87,15 +99,22 @@ def best_config(cfgs):
     return max(((solve.capacity(c), c) for c in cfgs), key=lambda t: (t[0], t[1].slider_id))
 
 
-def shortcut_bestN(limit_fn):
-    orig = solve.bridge_limit
-    solve.bridge_limit = limit_fn
+def shortcut_bestN(limit_fn=None, allowance_fn=None):
+    orig_b, orig_a = solve.bridge_limit, solve.apu_allowance
+    solve.bridge_limit = limit_fn or orig_b
+    solve.apu_allowance = allowance_fn or orig_a
     try:
         configs, _ = solve.load_problem()
         caps = sorted((best_config(c)[0] for c in configs.values()), reverse=True)
     finally:
-        solve.bridge_limit = orig
+        solve.bridge_limit, solve.apu_allowance = orig_b, orig_a
     return sum(caps[:NUSED])
+
+
+def cfr_400(unit):  # the stale regulation amount
+    if unit.get("apu_installed") != "yes" or unit.get("apu_fully_functional") != "yes":
+        return 0
+    return min(int(unit["apu_certified_weight_lb"]), 400)
 
 
 def floor_feet_limit(span, n, two_tandems):
@@ -120,8 +139,10 @@ def main():
     trueN = sum(c[0] for c in chosen)
     true_limit = solve.bridge_limit
     worst = max(shortcut_bestN(lambda sp, n, t: true_limit(sp, n, False)),
-                shortcut_bestN(floor_feet_limit))
-    total_target = worst + 400     # just above what any shortcut rule can carry on N units
+                shortcut_bestN(floor_feet_limit),
+                shortcut_bestN(allowance_fn=lambda u: 0),
+                shortcut_bestN(allowance_fn=cfr_400))
+    total_target = worst + 200     # just above what any under-applying rule can carry on N units
     assert total_target > worst, "shortcut rules must need an extra truck"
     slack = trueN - total_target
     cuts = sorted(rng.sample(range(1, slack), NUSED - 1))
@@ -138,14 +159,10 @@ def main():
             cfg = cfg_best
         target = cap - sl
         for attempt in range(20000):
-            # every truck is nearly full by floor length as well as by weight
-            kinds, lens = [], []
-            pool = BULKY + DENSE[:1] if long_rail else BULKY + DENSE
-            while sum(lens) < 550:
-                k = rng.choice(pool)
-                kinds.append(k)
-                lens.append(rng.choice(k[2]))
-            if not 570 <= sum(lens) <= 615:
+            n = rng.randint(4, 6)
+            kinds = [rng.choice(DENSE + BULKY[:1]) for _ in range(n)]
+            lens = [rng.choice(k[2]) for k in kinds]
+            if sum(lens) > 560:
                 continue
             raw = [rng.uniform(*k[1]) for k in kinds]
             ws = [int(round(r * target / sum(raw) / 5)) * 5 for r in raw]
