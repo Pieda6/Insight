@@ -13,19 +13,23 @@ python tools/bridge-load-planning/calibrate.py
 
 ## Calibration (current data)
 
-- **Fleet:** 14 units, 32 slider settings and 64 pallets weighing 612,475 lb in total.
-- **Minimum:** 12 units. The 11 strongest units can legally carry at most 564,721 lb in total, so 11 is impossible. The reference solution finds a legal 12-unit plan in about 2 seconds.
+- **Fleet:** 11 units. Three long-rail units have two slider settings each (forward and aft, equal capacity), four units are forward-only (35.5 to 37 ft between tandems), two are short-rail (the axles 2-5 group binds), and two are weak.
+- **Freight:** 75 pallets weighing 458,636 lb in total.
+- **Minimum:** 9 units. The 8 strongest units carry at most 412,560 lb, so 8 is impossible. Under any shortcut rule, 9 units can carry at most 458,236 lb.
+- **Hidden plan:** every truck uses 570-615 in of the 630 in floor and is loaded close to its legal limit. Near full payload, the legal centre of gravity is a window a few inches wide, and the slider setting decides where it sits.
+- **Reference solution:** about 1 minute. CP-SAT packing with a densest-first reachability bound on the centre of gravity, then exact placement, restarting with a new seed every 2 minutes.
 - **Engine cross-check:** 0 mismatches on 4,000 random loads.
 - **Nop** (no output): every test errors, so reward 0.
-- **Reference solution:** all 8 tests pass.
+- **Reference solution result:** all 8 tests pass.
 
-| Shortcut | Test that fails |
+| Shortcut | Result |
 |---|---|
-| No 34k + 34k two-tandem allowance | minimum number of units (needs 13) |
-| Span rounded down to whole feet | minimum number of units |
-| Bridge Formula checked only on the whole truck | Bridge Formula on every axle group |
-| No Bridge Formula at all | Bridge Formula on every axle group |
-| Greedy heaviest-first | minimum number of units |
+| No 34k + 34k two-tandem allowance | minimum test fails (needs 10) |
+| Span rounded down to whole feet | minimum test fails |
+| Bridge Formula only on the whole truck | Bridge Formula test fails |
+| No Bridge Formula | Bridge Formula test fails |
+| Greedy heaviest-first | minimum test fails |
+| Pack by weight and floor length, then place | gave up after 150 repacking rounds at 9 trucks (no output) |
 
 ## What `instruction.md` must state
 
