@@ -1,0 +1,31 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/http-cache-replay"
+description = "Replay a shared HTTP cache's request log and decide, per request, whether an RFC 9111 conforming shared cache serves it from cache, revalidates it or fetches it, whether it stores the response, and the Age value it sends."
+
+[metadata]
+difficulty_explanation = "Engineers who build or debug CDN edges and reverse proxies have to reason about exactly what RFC 9111 makes a shared cache do, and most of that knowledge is folklore that is subtly wrong. A shared cache differs from a browser cache: private responses are never stored, s-maxage overrides max-age, and a response to a request carrying Authorization may only be stored when public, s-maxage or must-revalidate allows it. Expires is measured against the origin's Date header, not the cache's clock, and an invalid Expires such as 0 means already expired. Heuristic freshness only applies to heuristically cacheable status codes (or public responses), so a 302 with Last-Modified is not reusable while a 301 or 404 is. Age must follow the Section 4.2.3 algorithm with the origin clock skewed and responses delayed in transit, including an upstream Age header and the conservative corrected initial age; using now minus Date, ignoring the response delay, or treating the boundary as fresh gives wrong values on specific rows. no-cache means store but revalidate every time, a 304 updates the stored headers and freshness, and unsafe methods invalidate the stored response only when they succeed. Each shortcut gets most rows right and a few rows wrong. The log is synthetic but shaped like a real e-commerce edge log with clock skew and network delay."
+solution_explanation = "Process the log in order with a per-URL store. For each request: unsafe methods go to the origin and invalidate the URL on a 2xx or 3xx reply. Otherwise, if a stored response exists, compute its freshness lifetime (s-maxage, then max-age, then Expires minus Date, then a 10 percent Last-Modified heuristic only for heuristically cacheable statuses or public) and its current age per Section 4.2.3 (apparent age from Date, corrected age value from the Age header plus response delay, take the larger, add resident time). Serve it as a HIT if it is fresh and not no-cache; otherwise validate: a 304 updates the stored headers and timestamps, a full response replaces the stored one if storable. With nothing stored, fetch and store only if Section 3 allows a shared cache to store it. Report the Age of what was sent."
+verification_explanation = "The verifier recomputes the expected action, stored flag and Age for every request with its own independently written shared-cache model (engine.py, separate date parsing, directive parsing and control flow from the reference solution) from a private copy of the log, and never runs agent code. Tests check the exact header and row order, value formats, then groups of rows tagged by the rule they exercise (authorization, private and no-store, s-maxage, Expires, heuristic freshness, Age calculation, no-cache and revalidation, invalidation), and finally every row's action, stored flag and Age. All times are whole seconds and heuristic lifetimes are compared as exact fractions, so comparisons are exact. Reward is 1 only if every test passes."
+category = "Software"
+subcategory = "Software Eng"
+tags = ["http", "caching", "rfc-9111", "cdn", "reverse-proxy", "protocols", "python"]
+expert_time_estimate_hours = 4
+relevant_experience = "Building or operating HTTP caches, CDN edge configuration or reverse proxies (Varnish, nginx, Fastly, Cloudflare), with working knowledge of RFC 9111 freshness, validation, Age calculation and shared-cache storage rules."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0

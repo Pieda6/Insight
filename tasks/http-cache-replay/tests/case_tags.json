@@ -1,0 +1,699 @@
+{
+ "R0001": [
+  "age",
+  "age-first"
+ ],
+ "R0002": [
+  "s-maxage"
+ ],
+ "R0003": [
+  "heuristic",
+  "heuristic-404"
+ ],
+ "R0004": [
+  "replace"
+ ],
+ "R0005": [
+  "expires"
+ ],
+ "R0006": [
+  "expires",
+  "expires-edge"
+ ],
+ "R0007": [
+  "age",
+  "age-hit"
+ ],
+ "R0008": [
+  "replace",
+  "replaced"
+ ],
+ "R0009": [
+  "s-maxage",
+  "s-maxage-decides"
+ ],
+ "R0010": [
+  "age",
+  "age-boundary"
+ ],
+ "R0011": [
+  "heuristic",
+  "heuristic-404-followup"
+ ],
+ "R0012": [
+  "expires",
+  "expires-stale"
+ ],
+ "R0013": [
+  "no-cache"
+ ],
+ "R0014": [
+  "replace"
+ ],
+ "R0015": [
+  "no-cache",
+  "no-cache-reuse"
+ ],
+ "R0016": [
+  "no-cache",
+  "no-cache-reuse"
+ ],
+ "R0017": [
+  "heuristic",
+  "heuristic-302"
+ ],
+ "R0018": [
+  "heuristic",
+  "heuristic-302-public"
+ ],
+ "R0019": [
+  "expires"
+ ],
+ "R0020": [
+  "heuristic",
+  "heuristic-307-public"
+ ],
+ "R0021": [
+  "expires",
+  "expires-invalid"
+ ],
+ "R0022": [
+  "replace",
+  "replaced"
+ ],
+ "R0023": [
+  "expires",
+  "hit"
+ ],
+ "R0024": [
+  "replace",
+  "hit"
+ ],
+ "R0025": [
+  "heuristic",
+  "heuristic-302-public-followup"
+ ],
+ "R0026": [
+  "expires"
+ ],
+ "R0027": [
+  "expires",
+  "expires-invalid"
+ ],
+ "R0028": [
+  "expires",
+  "hit"
+ ],
+ "R0029": [
+  "replace",
+  "hit"
+ ],
+ "R0030": [
+  "heuristic",
+  "heuristic-307-public-followup"
+ ],
+ "R0031": [
+  "heuristic",
+  "heuristic-302-public"
+ ],
+ "R0032": [
+  "invalidation"
+ ],
+ "R0033": [
+  "heuristic",
+  "heuristic-200"
+ ],
+ "R0034": [
+  "expires",
+  "max-age"
+ ],
+ "R0035": [
+  "invalidation",
+  "unsafe-error"
+ ],
+ "R0036": [
+  "heuristic",
+  "heuristic-302-followup"
+ ],
+ "R0037": [
+  "expires"
+ ],
+ "R0038": [
+  "invalidation",
+  "after-unsafe-error"
+ ],
+ "R0039": [
+  "expires",
+  "max-age",
+  "expires-ignored"
+ ],
+ "R0040": [
+  "heuristic",
+  "heuristic-302"
+ ],
+ "R0041": [
+  "heuristic",
+  "heuristic-301"
+ ],
+ "R0042": [
+  "heuristic",
+  "heuristic-200-followup"
+ ],
+ "R0043": [
+  "age",
+  "age-first"
+ ],
+ "R0044": [
+  "heuristic",
+  "heuristic-302"
+ ],
+ "R0045": [
+  "expires",
+  "expires-edge"
+ ],
+ "R0046": [
+  "heuristic",
+  "heuristic-302-public"
+ ],
+ "R0047": [
+  "expires"
+ ],
+ "R0048": [
+  "authorization",
+  "auth-must-revalidate"
+ ],
+ "R0049": [
+  "expires",
+  "expires-stale"
+ ],
+ "R0050": [
+  "expires",
+  "expires-edge"
+ ],
+ "R0051": [
+  "no-cache"
+ ],
+ "R0052": [
+  "authorization",
+  "auth-must-revalidate-followup"
+ ],
+ "R0053": [
+  "no-cache",
+  "no-cache-reuse"
+ ],
+ "R0054": [
+  "s-maxage"
+ ],
+ "R0055": [
+  "age",
+  "age-hit"
+ ],
+ "R0056": [
+  "heuristic",
+  "heuristic-302-followup"
+ ],
+ "R0057": [
+  "no-cache",
+  "no-cache-reuse"
+ ],
+ "R0058": [
+  "heuristic",
+  "heuristic-302-followup"
+ ],
+ "R0059": [
+  "age",
+  "age-boundary"
+ ],
+ "R0060": [
+  "expires",
+  "expires-stale"
+ ],
+ "R0061": [
+  "heuristic",
+  "heuristic-302-public-followup"
+ ],
+ "R0062": [
+  "age",
+  "age-first"
+ ],
+ "R0063": [
+  "heuristic",
+  "heuristic-302-public-followup"
+ ],
+ "R0064": [
+  "max-age"
+ ],
+ "R0065": [
+  "heuristic",
+  "heuristic-200"
+ ],
+ "R0066": [
+  "max-age",
+  "hit"
+ ],
+ "R0067": [
+  "max-age"
+ ],
+ "R0068": [
+  "heuristic",
+  "heuristic-404"
+ ],
+ "R0069": [
+  "no-date",
+  "no-date"
+ ],
+ "R0070": [
+  "age",
+  "age-first"
+ ],
+ "R0071": [
+  "max-age",
+  "revalidate"
+ ],
+ "R0072": [
+  "age",
+  "age-hit"
+ ],
+ "R0073": [
+  "heuristic",
+  "heuristic-301-followup"
+ ],
+ "R0074": [
+  "authorization",
+  "auth-private"
+ ],
+ "R0075": [
+  "age",
+  "age-boundary"
+ ],
+ "R0076": [
+  "max-age",
+  "hit"
+ ],
+ "R0077": [
+  "max-age",
+  "hit"
+ ],
+ "R0078": [
+  "no-date",
+  "no-date-followup"
+ ],
+ "R0079": [
+  "authorization",
+  "auth-private-followup"
+ ],
+ "R0080": [
+  "max-age"
+ ],
+ "R0081": [
+  "heuristic",
+  "heuristic-404-followup"
+ ],
+ "R0082": [
+  "s-maxage",
+  "s-maxage-decides"
+ ],
+ "R0083": [
+  "heuristic",
+  "heuristic-200"
+ ],
+ "R0084": [
+  "max-age",
+  "hit"
+ ],
+ "R0085": [
+  "age",
+  "age-hit"
+ ],
+ "R0086": [
+  "age",
+  "age-boundary"
+ ],
+ "R0087": [
+  "authorization",
+  "auth-s-maxage"
+ ],
+ "R0088": [
+  "s-maxage"
+ ],
+ "R0089": [
+  "authorization",
+  "auth-s-maxage-followup"
+ ],
+ "R0090": [
+  "max-age",
+  "revalidate"
+ ],
+ "R0091": [
+  "max-age",
+  "revalidate"
+ ],
+ "R0092": [
+  "expires"
+ ],
+ "R0093": [
+  "expires",
+  "expires-invalid"
+ ],
+ "R0094": [
+  "max-age",
+  "hit"
+ ],
+ "R0095": [
+  "expires",
+  "hit"
+ ],
+ "R0096": [
+  "s-maxage"
+ ],
+ "R0097": [
+  "max-age",
+  "hit"
+ ],
+ "R0098": [
+  "s-maxage",
+  "s-maxage-decides"
+ ],
+ "R0099": [
+  "heuristic",
+  "heuristic-200-followup"
+ ],
+ "R0100": [
+  "no-date",
+  "no-date"
+ ],
+ "R0101": [
+  "private"
+ ],
+ "R0102": [
+  "private",
+  "private-followup"
+ ],
+ "R0103": [
+  "expires",
+  "max-age"
+ ],
+ "R0104": [
+  "heuristic",
+  "heuristic-200"
+ ],
+ "R0105": [
+  "authorization",
+  "auth-must-revalidate"
+ ],
+ "R0106": [
+  "heuristic",
+  "heuristic-200-followup"
+ ],
+ "R0107": [
+  "no-date",
+  "no-date-followup"
+ ],
+ "R0108": [
+  "authorization",
+  "auth-must-revalidate-followup"
+ ],
+ "R0109": [
+  "expires",
+  "max-age",
+  "expires-ignored"
+ ],
+ "R0110": [
+  "no-store"
+ ],
+ "R0111": [
+  "authorization",
+  "auth-must-revalidate"
+ ],
+ "R0112": [
+  "s-maxage",
+  "s-maxage-decides"
+ ],
+ "R0113": [
+  "no-store",
+  "no-store-followup"
+ ],
+ "R0114": [
+  "no-store"
+ ],
+ "R0115": [
+  "authorization",
+  "auth-must-revalidate-followup"
+ ],
+ "R0116": [
+  "no-store",
+  "no-store-followup"
+ ],
+ "R0117": [
+  "age",
+  "age-first"
+ ],
+ "R0118": [
+  "replace"
+ ],
+ "R0119": [
+  "heuristic",
+  "heuristic-200-followup"
+ ],
+ "R0120": [
+  "age",
+  "age-hit"
+ ],
+ "R0121": [
+  "private"
+ ],
+ "R0122": [
+  "age",
+  "age-boundary"
+ ],
+ "R0123": [
+  "invalidation"
+ ],
+ "R0124": [
+  "replace",
+  "replaced"
+ ],
+ "R0125": [
+  "expires",
+  "max-age"
+ ],
+ "R0126": [
+  "private",
+  "private-followup"
+ ],
+ "R0127": [
+  "invalidation",
+  "unsafe-error"
+ ],
+ "R0128": [
+  "no-date",
+  "no-date"
+ ],
+ "R0129": [
+  "invalidation"
+ ],
+ "R0130": [
+  "invalidation",
+  "after-unsafe-error"
+ ],
+ "R0131": [
+  "expires",
+  "max-age"
+ ],
+ "R0132": [
+  "expires",
+  "max-age",
+  "expires-ignored"
+ ],
+ "R0133": [
+  "invalidation",
+  "unsafe-ok"
+ ],
+ "R0134": [
+  "s-maxage"
+ ],
+ "R0135": [
+  "invalidation",
+  "after-unsafe-ok"
+ ],
+ "R0136": [
+  "no-date",
+  "no-date-followup"
+ ],
+ "R0137": [
+  "expires",
+  "max-age",
+  "expires-ignored"
+ ],
+ "R0138": [
+  "no-cache"
+ ],
+ "R0139": [
+  "replace",
+  "hit"
+ ],
+ "R0140": [
+  "no-cache",
+  "no-cache-reuse"
+ ],
+ "R0141": [
+  "s-maxage",
+  "s-maxage-decides"
+ ],
+ "R0142": [
+  "s-maxage"
+ ],
+ "R0143": [
+  "no-cache",
+  "no-cache-reuse"
+ ],
+ "R0144": [
+  "expires"
+ ],
+ "R0145": [
+  "expires",
+  "expires-edge"
+ ],
+ "R0146": [
+  "age",
+  "age-first"
+ ],
+ "R0147": [
+  "max-age"
+ ],
+ "R0148": [
+  "s-maxage",
+  "s-maxage-decides"
+ ],
+ "R0149": [
+  "max-age",
+  "hit"
+ ],
+ "R0150": [
+  "expires",
+  "expires-stale"
+ ],
+ "R0151": [
+  "authorization",
+  "auth-max-age"
+ ],
+ "R0152": [
+  "heuristic",
+  "heuristic-404"
+ ],
+ "R0153": [
+  "max-age",
+  "revalidate"
+ ],
+ "R0154": [
+  "authorization",
+  "auth-public"
+ ],
+ "R0155": [
+  "authorization",
+  "auth-max-age"
+ ],
+ "R0156": [
+  "max-age",
+  "hit"
+ ],
+ "R0157": [
+  "age",
+  "age-hit"
+ ],
+ "R0158": [
+  "authorization",
+  "auth-max-age-followup"
+ ],
+ "R0159": [
+  "age",
+  "age-boundary"
+ ],
+ "R0160": [
+  "authorization",
+  "auth-public-followup"
+ ],
+ "R0161": [
+  "authorization",
+  "auth-max-age-followup"
+ ],
+ "R0162": [
+  "invalidation"
+ ],
+ "R0163": [
+  "invalidation",
+  "unsafe-error"
+ ],
+ "R0164": [
+  "authorization",
+  "auth-max-age"
+ ],
+ "R0165": [
+  "invalidation",
+  "after-unsafe-error"
+ ],
+ "R0166": [
+  "authorization",
+  "auth-max-age-followup"
+ ],
+ "R0167": [
+  "authorization",
+  "auth-s-maxage"
+ ],
+ "R0168": [
+  "invalidation"
+ ],
+ "R0169": [
+  "invalidation"
+ ],
+ "R0170": [
+  "authorization",
+  "auth-s-maxage-followup"
+ ],
+ "R0171": [
+  "invalidation",
+  "unsafe-ok"
+ ],
+ "R0172": [
+  "invalidation",
+  "unsafe-error"
+ ],
+ "R0173": [
+  "invalidation",
+  "after-unsafe-ok"
+ ],
+ "R0174": [
+  "invalidation",
+  "after-unsafe-error"
+ ],
+ "R0175": [
+  "heuristic",
+  "heuristic-404-followup"
+ ],
+ "R0176": [
+  "invalidation"
+ ],
+ "R0177": [
+  "invalidation",
+  "unsafe-ok"
+ ],
+ "R0178": [
+  "heuristic",
+  "heuristic-307"
+ ],
+ "R0179": [
+  "no-store"
+ ],
+ "R0180": [
+  "invalidation",
+  "after-unsafe-ok"
+ ],
+ "R0181": [
+  "no-store",
+  "no-store-followup"
+ ],
+ "R0182": [
+  "heuristic",
+  "heuristic-307-followup"
+ ]
+}
