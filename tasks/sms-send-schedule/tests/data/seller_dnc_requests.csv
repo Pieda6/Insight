@@ -1,0 +1,13 @@
+request_id,contact_id,received_at,channel
+D0001,K0025,2020-06-11T17:25:00Z,customer_service_call
+D0002,K0221,2021-10-30T18:05:00Z,customer_service_call
+D0003,K0134,2021-11-02T15:37:00Z,customer_service_call
+D0004,K0106,2021-11-04T03:12:00Z,customer_service_call
+D0005,K0022,2021-11-20T19:00:00Z,customer_service_call
+D0006,K0245,2023-04-17T00:26:00Z,customer_service_call
+D0007,K0185,2024-08-14T16:02:00Z,customer_service_call
+D0008,K0212,2025-06-04T13:17:00Z,customer_service_call
+D0009,K0081,2025-11-15T07:27:00Z,customer_service_call
+D0010,K0042,2026-08-04T23:33:00Z,customer_service_call
+D0011,K0024,2026-09-03T15:40:00Z,customer_service_call
+D0012,K0058,2026-09-28T18:56:00Z,customer_service_call

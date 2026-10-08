@@ -1,0 +1,30 @@
+npa,state,rate_center_city,time_zone
+212,NY,New York,America/New_York
+646,NY,New York,America/New_York
+718,NY,Brooklyn,America/New_York
+617,MA,Boston,America/New_York
+404,GA,Atlanta,America/New_York
+305,FL,Miami,America/New_York
+919,NC,Raleigh,America/New_York
+202,DC,Washington,America/New_York
+317,IN,Indianapolis,America/Indiana/Indianapolis
+312,IL,Chicago,America/Chicago
+612,MN,Minneapolis,America/Chicago
+615,TN,Nashville,America/Chicago
+713,TX,Houston,America/Chicago
+214,TX,Dallas,America/Chicago
+303,CO,Denver,America/Denver
+801,UT,Salt Lake City,America/Denver
+505,NM,Albuquerque,America/Denver
+208,ID,Boise,America/Boise
+602,AZ,Phoenix,America/Phoenix
+480,AZ,Mesa,America/Phoenix
+520,AZ,Tucson,America/Phoenix
+213,CA,Los Angeles,America/Los_Angeles
+415,CA,San Francisco,America/Los_Angeles
+206,WA,Seattle,America/Los_Angeles
+503,OR,Portland,America/Los_Angeles
+702,NV,Las Vegas,America/Los_Angeles
+907,AK,Anchorage,America/Anchorage
+808,HI,Honolulu,Pacific/Honolulu
+787,PR,San Juan,America/Puerto_Rico

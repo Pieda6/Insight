@@ -1,0 +1,238 @@
+event_id,contact_id,event_date,event_type,note
+H00001,K0192,2024-08-20,purchase,delivery order
+H00002,K0073,2024-08-24,inquiry,called store about rug sizes
+H00003,K0209,2024-08-24,purchase,online order
+H00004,K0226,2024-09-10,application,submitted design-service application
+H00005,K0184,2024-09-17,purchase,delivery order
+H00006,K0116,2024-09-18,purchase,online order
+H00007,K0079,2024-09-27,application,applied for Harbor & Pine store credit account
+H00008,K0181,2024-09-29,purchase,delivery order
+H00009,K0076,2024-10-03,purchase,in-store purchase
+H00010,K0032,2024-10-09,inquiry,called store about rug sizes
+H00011,K0099,2024-10-12,inquiry,called store about rug sizes
+H00012,K0099,2024-10-16,inquiry,asked about sofa delivery times
+H00013,K0039,2024-10-19,purchase,delivery order
+H00014,K0147,2024-10-19,purchase,delivery order
+H00015,K0091,2024-10-20,inquiry,price question via web chat
+H00016,K0119,2024-10-23,application,submitted design-service application
+H00017,K0108,2024-10-25,application,applied for Harbor & Pine store credit account
+H00018,K0009,2024-10-27,purchase,in-store purchase
+H00019,K0173,2024-10-29,purchase,delivery order
+H00020,K0049,2024-10-30,purchase,in-store purchase
+H00021,K0015,2024-11-04,purchase,in-store purchase
+H00022,K0095,2024-11-05,application,applied for Harbor & Pine store credit account
+H00023,K0257,2024-11-11,inquiry,called store about rug sizes
+H00024,K0181,2024-11-14,inquiry,called store about rug sizes
+H00025,K0246,2024-11-16,purchase,in-store purchase
+H00026,K0164,2024-11-17,purchase,delivery order
+H00027,K0234,2024-11-23,purchase,online order
+H00028,K0045,2024-11-29,purchase,online order
+H00029,K0213,2024-11-30,purchase,online order
+H00030,K0016,2024-12-01,purchase,in-store purchase
+H00031,K0007,2024-12-15,inquiry,price question via web chat
+H00032,K0172,2024-12-15,purchase,in-store purchase
+H00033,K0107,2024-12-23,inquiry,asked about sofa delivery times
+H00034,K0076,2024-12-24,purchase,delivery order
+H00035,K0239,2024-12-24,inquiry,asked about sofa delivery times
+H00036,K0016,2024-12-25,purchase,delivery order
+H00037,K0203,2024-12-27,purchase,in-store purchase
+H00038,K0180,2024-12-28,purchase,online order
+H00039,K0110,2024-12-29,purchase,online order
+H00040,K0151,2025-01-01,purchase,online order
+H00041,K0197,2025-01-05,inquiry,called store about rug sizes
+H00042,K0072,2025-01-08,application,applied for Harbor & Pine store credit account
+H00043,K0237,2025-01-11,purchase,in-store purchase
+H00044,K0015,2025-01-12,purchase,in-store purchase
+H00045,K0070,2025-01-13,application,applied for Harbor & Pine store credit account
+H00046,K0198,2025-01-17,purchase,online order
+H00047,K0136,2025-01-19,purchase,online order
+H00048,K0030,2025-01-20,purchase,in-store purchase
+H00049,K0105,2025-01-22,purchase,in-store purchase
+H00050,K0072,2025-01-25,purchase,online order
+H00051,K0130,2025-01-30,purchase,online order
+H00052,K0212,2025-02-04,purchase,online order
+H00053,K0122,2025-02-05,inquiry,asked about sofa delivery times
+H00054,K0011,2025-02-08,application,applied for Harbor & Pine store credit account
+H00055,K0200,2025-02-10,inquiry,asked about sofa delivery times
+H00056,K0128,2025-02-13,purchase,online order
+H00057,K0237,2025-02-13,purchase,delivery order
+H00058,K0032,2025-02-15,inquiry,price question via web chat
+H00059,K0262,2025-02-20,purchase,delivery order
+H00060,K0070,2025-02-22,purchase,online order
+H00061,K0068,2025-03-01,purchase,online order
+H00062,K0142,2025-03-03,purchase,online order
+H00063,K0050,2025-03-10,purchase,in-store purchase
+H00064,K0179,2025-03-11,purchase,delivery order
+H00065,K0208,2025-03-11,inquiry,price question via web chat
+H00066,K0066,2025-03-15,purchase,delivery order
+H00067,K0057,2025-03-19,purchase,delivery order
+H00068,K0108,2025-03-19,inquiry,asked about sofa delivery times
+H00069,K0077,2025-03-27,inquiry,asked about sofa delivery times
+H00070,K0090,2025-04-14,purchase,delivery order
+H00071,K0213,2025-04-15,purchase,delivery order
+H00072,K0256,2025-04-16,purchase,in-store purchase
+H00073,K0255,2025-04-23,purchase,in-store purchase
+H00074,K0038,2025-04-24,purchase,online order
+H00075,K0032,2025-04-27,purchase,delivery order
+H00076,K0082,2025-04-27,purchase,delivery order
+H00077,K0158,2025-04-28,purchase,in-store purchase
+H00078,K0085,2025-04-29,purchase,online order
+H00079,K0163,2025-04-29,purchase,in-store purchase
+H00080,K0176,2025-04-29,purchase,online order
+H00081,K0249,2025-04-29,purchase,online order
+H00082,K0061,2025-04-30,purchase,in-store purchase
+H00083,K0149,2025-04-30,purchase,in-store purchase
+H00084,K0004,2025-05-02,purchase,in-store purchase
+H00085,K0127,2025-05-07,purchase,delivery order
+H00086,K0091,2025-05-15,inquiry,called store about rug sizes
+H00087,K0043,2025-05-20,inquiry,called store about rug sizes
+H00088,K0046,2025-05-23,purchase,delivery order
+H00089,K0049,2025-05-31,inquiry,price question via web chat
+H00090,K0166,2025-06-08,inquiry,price question via web chat
+H00091,K0177,2025-06-13,purchase,delivery order
+H00092,K0225,2025-06-15,application,submitted design-service application
+H00093,K0007,2025-06-17,purchase,delivery order
+H00094,K0116,2025-06-17,purchase,online order
+H00095,K0095,2025-07-02,application,submitted design-service application
+H00096,K0123,2025-07-05,purchase,delivery order
+H00097,K0043,2025-07-09,inquiry,asked about sofa delivery times
+H00098,K0076,2025-07-13,application,submitted design-service application
+H00099,K0172,2025-07-13,application,applied for Harbor & Pine store credit account
+H00100,K0257,2025-07-18,inquiry,called store about rug sizes
+H00101,K0109,2025-07-27,application,applied for Harbor & Pine store credit account
+H00102,K0234,2025-07-28,inquiry,called store about rug sizes
+H00103,K0173,2025-08-05,purchase,delivery order
+H00104,K0012,2025-08-07,purchase,online order
+H00105,K0091,2025-08-10,inquiry,price question via web chat
+H00106,K0026,2025-08-11,inquiry,price question via web chat
+H00107,K0045,2025-08-12,purchase,delivery order
+H00108,K0119,2025-08-19,purchase,online order
+H00109,K0225,2025-08-23,purchase,online order
+H00110,K0257,2025-08-30,inquiry,called store about rug sizes
+H00111,K0079,2025-08-31,application,submitted design-service application
+H00112,K0227,2025-09-01,inquiry,asked about sofa delivery times
+H00113,K0246,2025-09-06,purchase,in-store purchase
+H00114,K0018,2025-09-14,inquiry,price question via web chat
+H00115,K0224,2025-09-18,purchase,delivery order
+H00116,K0121,2025-09-21,purchase,in-store purchase
+H00117,K0096,2025-09-22,purchase,delivery order
+H00118,K0116,2025-09-23,purchase,online order
+H00119,K0081,2025-09-30,purchase,in-store purchase
+H00120,K0079,2025-10-02,purchase,delivery order
+H00121,K0242,2025-10-05,purchase,online order
+H00122,K0013,2025-10-14,purchase,in-store purchase
+H00123,K0083,2025-10-29,purchase,online order
+H00124,K0198,2025-10-29,inquiry,called store about rug sizes
+H00125,K0143,2025-10-30,purchase,online order
+H00126,K0064,2025-11-02,purchase,in-store purchase
+H00127,K0029,2025-11-03,application,applied for Harbor & Pine store credit account
+H00128,K0007,2025-11-08,inquiry,asked about sofa delivery times
+H00129,K0127,2025-11-09,inquiry,price question via web chat
+H00130,K0105,2025-11-14,purchase,in-store purchase
+H00131,K0251,2025-11-14,inquiry,price question via web chat
+H00132,K0096,2025-11-24,inquiry,price question via web chat
+H00133,K0123,2025-11-30,purchase,delivery order
+H00134,K0150,2025-12-16,purchase,delivery order
+H00135,K0012,2025-12-18,purchase,delivery order
+H00136,K0218,2025-12-21,purchase,online order
+H00137,K0217,2025-12-22,inquiry,called store about rug sizes
+H00138,K0123,2025-12-23,purchase,in-store purchase
+H00139,K0120,2025-12-24,inquiry,price question via web chat
+H00140,K0217,2025-12-27,inquiry,asked about sofa delivery times
+H00141,K0227,2025-12-28,purchase,online order
+H00142,K0041,2025-12-31,purchase,in-store purchase
+H00143,K0242,2026-01-01,purchase,delivery order
+H00144,K0120,2026-01-04,purchase,online order
+H00145,K0203,2026-01-11,inquiry,asked about sofa delivery times
+H00146,K0223,2026-01-11,inquiry,called store about rug sizes
+H00147,K0171,2026-01-12,purchase,in-store purchase
+H00148,K0184,2026-01-14,purchase,delivery order
+H00149,K0017,2026-01-15,purchase,online order
+H00150,K0198,2026-01-16,inquiry,price question via web chat
+H00151,K0055,2026-01-17,purchase,in-store purchase
+H00152,K0139,2026-01-18,purchase,online order
+H00153,K0097,2026-01-30,purchase,in-store purchase
+H00154,K0030,2026-01-31,purchase,in-store purchase
+H00155,K0164,2026-02-01,purchase,in-store purchase
+H00156,K0263,2026-02-03,purchase,delivery order
+H00157,K0223,2026-02-05,purchase,in-store purchase
+H00158,K0055,2026-02-08,inquiry,called store about rug sizes
+H00159,K0239,2026-02-08,inquiry,price question via web chat
+H00160,K0055,2026-02-13,application,submitted design-service application
+H00161,K0002,2026-02-16,inquiry,asked about sofa delivery times
+H00162,K0124,2026-02-17,inquiry,price question via web chat
+H00163,K0067,2026-02-18,purchase,delivery order
+H00164,K0256,2026-02-27,purchase,in-store purchase
+H00165,K0190,2026-02-28,purchase,online order
+H00166,K0099,2026-03-01,inquiry,asked about sofa delivery times
+H00167,K0196,2026-03-03,inquiry,called store about rug sizes
+H00168,K0016,2026-03-07,purchase,in-store purchase
+H00169,K0015,2026-03-15,purchase,online order
+H00170,K0255,2026-03-15,inquiry,called store about rug sizes
+H00171,K0236,2026-03-18,purchase,delivery order
+H00172,K0217,2026-03-21,purchase,in-store purchase
+H00173,K0189,2026-04-07,application,submitted design-service application
+H00174,K0171,2026-04-14,inquiry,asked about sofa delivery times
+H00175,K0220,2026-04-16,purchase,online order
+H00176,K0199,2026-04-17,inquiry,asked about sofa delivery times
+H00177,K0030,2026-04-24,purchase,online order
+H00178,K0162,2026-04-28,inquiry,called store about rug sizes
+H00179,K0059,2026-04-29,purchase,online order
+H00180,K0151,2026-04-29,purchase,online order
+H00181,K0194,2026-04-29,purchase,in-store purchase
+H00182,K0225,2026-04-29,purchase,in-store purchase
+H00183,K0133,2026-05-01,inquiry,asked about sofa delivery times
+H00184,K0164,2026-05-03,inquiry,price question via web chat
+H00185,K0148,2026-05-13,purchase,in-store purchase
+H00186,K0131,2026-05-14,purchase,in-store purchase
+H00187,K0096,2026-05-16,application,applied for Harbor & Pine store credit account
+H00188,K0026,2026-05-22,purchase,delivery order
+H00189,K0130,2026-05-22,inquiry,called store about rug sizes
+H00190,K0034,2026-05-25,inquiry,price question via web chat
+H00191,K0097,2026-05-26,application,applied for Harbor & Pine store credit account
+H00192,K0108,2026-05-27,purchase,delivery order
+H00193,K0042,2026-06-01,purchase,online order
+H00194,K0136,2026-06-11,purchase,in-store purchase
+H00195,K0037,2026-06-12,inquiry,price question via web chat
+H00196,K0232,2026-06-15,inquiry,asked about sofa delivery times
+H00197,K0255,2026-06-15,purchase,delivery order
+H00198,K0049,2026-06-16,purchase,online order
+H00199,K0260,2026-06-20,application,applied for Harbor & Pine store credit account
+H00200,K0156,2026-07-01,inquiry,price question via web chat
+H00201,K0183,2026-07-02,inquiry,called store about rug sizes
+H00202,K0156,2026-07-05,purchase,in-store purchase
+H00203,K0224,2026-07-10,purchase,online order
+H00204,K0197,2026-07-17,purchase,delivery order
+H00205,K0035,2026-07-19,purchase,delivery order
+H00206,K0227,2026-07-19,purchase,in-store purchase
+H00207,K0024,2026-07-20,purchase,delivery order
+H00208,K0045,2026-07-26,purchase,in-store purchase
+H00209,K0206,2026-07-31,purchase,in-store purchase
+H00210,K0152,2026-08-01,purchase,delivery order
+H00211,K0258,2026-08-02,inquiry,called store about rug sizes
+H00212,K0071,2026-08-03,inquiry,price question via web chat
+H00213,K0145,2026-08-06,purchase,in-store purchase
+H00214,K0171,2026-08-09,purchase,in-store purchase
+H00215,K0161,2026-08-10,inquiry,asked about sofa delivery times
+H00216,K0186,2026-08-10,purchase,in-store purchase
+H00217,K0161,2026-08-12,purchase,delivery order
+H00218,K0058,2026-08-16,purchase,online order
+H00219,K0142,2026-08-22,purchase,delivery order
+H00220,K0235,2026-08-27,purchase,online order
+H00221,K0141,2026-08-29,application,applied for Harbor & Pine store credit account
+H00222,K0090,2026-09-01,purchase,online order
+H00223,K0207,2026-09-01,application,applied for Harbor & Pine store credit account
+H00224,K0252,2026-09-01,purchase,online order
+H00225,K0235,2026-09-03,purchase,delivery order
+H00226,K0199,2026-09-17,inquiry,asked about sofa delivery times
+H00227,K0240,2026-09-20,inquiry,price question via web chat
+H00228,K0026,2026-09-23,purchase,online order
+H00229,K0172,2026-09-24,purchase,online order
+H00230,K0056,2026-09-25,inquiry,called store about rug sizes
+H00231,K0100,2026-10-01,inquiry,called store about rug sizes
+H00232,K0189,2026-10-06,purchase,delivery order
+H00233,K0105,2026-10-07,inquiry,asked about sofa delivery times
+H00234,K0203,2026-10-09,inquiry,called store about rug sizes
+H00235,K0072,2026-10-15,purchase,online order
+H00236,K0130,2026-10-18,purchase,delivery order
+H00237,K0228,2026-10-18,inquiry,called store about rug sizes

@@ -1,0 +1,3 @@
+platform_id,name,equipment
+P1,Harbor Messenger (in-house campaign tool),"Sends only to the phone numbers in the contact list uploaded for each campaign. The equipment does not have the capacity to store or produce telephone numbers using a random or sequential number generator, and it cannot dial numbers that are not in the uploaded list."
+P2,BlastLine SMS Gateway (legacy vendor),Sends to uploaded contact lists. The equipment has the capacity to store and to produce telephone numbers using a random or sequential number generator and to dial such numbers; the vendor's number-generation module is installed and active on the retailer's account.

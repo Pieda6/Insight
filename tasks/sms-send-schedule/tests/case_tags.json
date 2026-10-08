@@ -1,0 +1,1352 @@
+{
+ "M0001": [
+  "filler"
+ ],
+ "M0002": [
+  "filler"
+ ],
+ "M0003": [
+  "filler"
+ ],
+ "M0004": [
+  "filler"
+ ],
+ "M0005": [
+  "filler"
+ ],
+ "M0006": [
+  "filler"
+ ],
+ "M0007": [
+  "filler"
+ ],
+ "M0008": [
+  "filler"
+ ],
+ "M0009": [
+  "filler"
+ ],
+ "M0010": [
+  "filler"
+ ],
+ "M0011": [
+  "filler"
+ ],
+ "M0012": [
+  "filler"
+ ],
+ "M0013": [
+  "filler"
+ ],
+ "M0014": [
+  "filler"
+ ],
+ "M0015": [
+  "filler"
+ ],
+ "M0016": [
+  "filler"
+ ],
+ "M0017": [
+  "filler"
+ ],
+ "M0018": [
+  "filler"
+ ],
+ "M0019": [
+  "filler"
+ ],
+ "M0020": [
+  "filler"
+ ],
+ "M0021": [
+  "filler"
+ ],
+ "M0022": [
+  "filler"
+ ],
+ "M0023": [
+  "filler"
+ ],
+ "M0024": [
+  "filler"
+ ],
+ "M0025": [
+  "filler"
+ ],
+ "M0026": [
+  "filler"
+ ],
+ "M0027": [
+  "filler"
+ ],
+ "M0028": [
+  "filler"
+ ],
+ "M0029": [
+  "filler"
+ ],
+ "M0030": [
+  "filler"
+ ],
+ "M0031": [
+  "filler"
+ ],
+ "M0032": [
+  "filler"
+ ],
+ "M0033": [
+  "filler"
+ ],
+ "M0034": [
+  "filler"
+ ],
+ "M0035": [
+  "filler"
+ ],
+ "M0036": [
+  "filler"
+ ],
+ "M0037": [
+  "filler"
+ ],
+ "M0038": [
+  "filler"
+ ],
+ "M0039": [
+  "filler"
+ ],
+ "M0040": [
+  "filler"
+ ],
+ "M0041": [
+  "filler"
+ ],
+ "M0042": [
+  "filler"
+ ],
+ "M0043": [
+  "filler"
+ ],
+ "M0044": [
+  "filler"
+ ],
+ "M0045": [
+  "filler"
+ ],
+ "M0046": [
+  "filler"
+ ],
+ "M0047": [
+  "filler"
+ ],
+ "M0048": [
+  "filler"
+ ],
+ "M0049": [
+  "exempt-ebr"
+ ],
+ "M0050": [
+  "ebr",
+  "local-date"
+ ],
+ "M0051": [
+  "calling-hours"
+ ],
+ "M0052": [
+  "filler"
+ ],
+ "M0053": [
+  "calling-hours"
+ ],
+ "M0054": [
+  "exempt-ebr",
+  "national-dnc"
+ ],
+ "M0055": [
+  "seller-dnc",
+  "lapse-in-horizon",
+  "revocation"
+ ],
+ "M0056": [
+  "filler"
+ ],
+ "M0057": [
+  "seller-dnc",
+  "lapse-in-horizon",
+  "national-dnc"
+ ],
+ "M0058": [
+  "filler"
+ ],
+ "M0059": [
+  "seller-dnc",
+  "horizon"
+ ],
+ "M0060": [
+  "filler"
+ ],
+ "M0061": [
+  "filler"
+ ],
+ "M0062": [
+  "filler"
+ ],
+ "M0063": [
+  "filler"
+ ],
+ "M0064": [
+  "filler"
+ ],
+ "M0065": [
+  "filler"
+ ],
+ "M0066": [
+  "filler"
+ ],
+ "M0067": [
+  "filler"
+ ],
+ "M0068": [
+  "filler"
+ ],
+ "M0069": [
+  "filler"
+ ],
+ "M0070": [
+  "filler"
+ ],
+ "M0071": [
+  "filler"
+ ],
+ "M0072": [
+  "filler"
+ ],
+ "M0073": [
+  "filler"
+ ],
+ "M0074": [
+  "filler"
+ ],
+ "M0075": [
+  "filler"
+ ],
+ "M0076": [
+  "filler"
+ ],
+ "M0077": [
+  "filler"
+ ],
+ "M0078": [
+  "filler"
+ ],
+ "M0079": [
+  "filler"
+ ],
+ "M0080": [
+  "filler"
+ ],
+ "M0081": [
+  "filler"
+ ],
+ "M0082": [
+  "filler"
+ ],
+ "M0083": [
+  "filler"
+ ],
+ "M0084": [
+  "filler"
+ ],
+ "M0085": [
+  "filler"
+ ],
+ "M0086": [
+  "filler"
+ ],
+ "M0087": [
+  "filler"
+ ],
+ "M0088": [
+  "filler"
+ ],
+ "M0089": [
+  "filler"
+ ],
+ "M0090": [
+  "filler"
+ ],
+ "M0091": [
+  "filler"
+ ],
+ "M0092": [
+  "filler"
+ ],
+ "M0093": [
+  "filler"
+ ],
+ "M0094": [
+  "filler"
+ ],
+ "M0095": [
+  "filler"
+ ],
+ "M0096": [
+  "filler"
+ ],
+ "M0097": [
+  "filler"
+ ],
+ "M0098": [
+  "filler"
+ ],
+ "M0099": [
+  "filler"
+ ],
+ "M0100": [
+  "filler"
+ ],
+ "M0101": [
+  "filler"
+ ],
+ "M0102": [
+  "filler"
+ ],
+ "M0103": [
+  "filler"
+ ],
+ "M0104": [
+  "filler"
+ ],
+ "M0105": [
+  "filler"
+ ],
+ "M0106": [
+  "filler"
+ ],
+ "M0107": [
+  "filler"
+ ],
+ "M0108": [
+  "filler"
+ ],
+ "M0109": [
+  "filler"
+ ],
+ "M0110": [
+  "filler"
+ ],
+ "M0111": [
+  "filler"
+ ],
+ "M0112": [
+  "filler"
+ ],
+ "M0113": [
+  "filler"
+ ],
+ "M0114": [
+  "filler"
+ ],
+ "M0115": [
+  "filler"
+ ],
+ "M0116": [
+  "calling-hours"
+ ],
+ "M0117": [
+  "consent-elements",
+  "affiliate"
+ ],
+ "M0118": [
+  "exempt-consent"
+ ],
+ "M0119": [
+  "filler"
+ ],
+ "M0120": [
+  "filler"
+ ],
+ "M0121": [
+  "ebr",
+  "local-date"
+ ],
+ "M0122": [
+  "exempt-consent"
+ ],
+ "M0123": [
+  "filler"
+ ],
+ "M0124": [
+  "consent-elements",
+  "wrong_number"
+ ],
+ "M0125": [
+  "national-dnc",
+  "cancelled"
+ ],
+ "M0126": [
+  "filler"
+ ],
+ "M0127": [
+  "calling-hours"
+ ],
+ "M0128": [
+  "time-zone",
+  "hq-blast"
+ ],
+ "M0129": [
+  "time-zone",
+  "hq-blast"
+ ],
+ "M0130": [
+  "time-zone",
+  "hq-blast"
+ ],
+ "M0131": [
+  "time-zone",
+  "hq-blast"
+ ],
+ "M0132": [
+  "national-dnc"
+ ],
+ "M0133": [
+  "national-dnc",
+  "cancelled"
+ ],
+ "M0134": [
+  "seller-dnc",
+  "lapsed",
+  "consent-stays-revoked"
+ ],
+ "M0135": [
+  "seller-dnc",
+  "lapsed"
+ ],
+ "M0136": [
+  "filler"
+ ],
+ "M0137": [
+  "filler"
+ ],
+ "M0138": [
+  "calling-hours"
+ ],
+ "M0139": [
+  "filler"
+ ],
+ "M0140": [
+  "filler"
+ ],
+ "M0141": [
+  "ebr",
+  "expires-at-midnight"
+ ],
+ "M0142": [
+  "ebr",
+  "inquiry-window",
+  "application"
+ ],
+ "M0143": [
+  "filler"
+ ],
+ "M0144": [
+  "ebr",
+  "expires-at-midnight",
+  "national-dnc"
+ ],
+ "M0145": [
+  "ebr",
+  "expires-at-midnight"
+ ],
+ "M0146": [
+  "filler"
+ ],
+ "M0147": [
+  "time-zone",
+  "area-code-mismatch"
+ ],
+ "M0148": [
+  "ebr",
+  "inquiry-window",
+  "application"
+ ],
+ "M0149": [
+  "filler"
+ ],
+ "M0150": [
+  "filler"
+ ],
+ "M0151": [
+  "filler"
+ ],
+ "M0152": [
+  "filler"
+ ],
+ "M0153": [
+  "filler"
+ ],
+ "M0154": [
+  "filler"
+ ],
+ "M0155": [
+  "filler"
+ ],
+ "M0156": [
+  "filler"
+ ],
+ "M0157": [
+  "filler"
+ ],
+ "M0158": [
+  "filler"
+ ],
+ "M0159": [
+  "filler"
+ ],
+ "M0160": [
+  "filler"
+ ],
+ "M0161": [
+  "filler"
+ ],
+ "M0162": [
+  "filler"
+ ],
+ "M0163": [
+  "filler"
+ ],
+ "M0164": [
+  "filler"
+ ],
+ "M0165": [
+  "filler"
+ ],
+ "M0166": [
+  "filler"
+ ],
+ "M0167": [
+  "filler"
+ ],
+ "M0168": [
+  "filler"
+ ],
+ "M0169": [
+  "filler"
+ ],
+ "M0170": [
+  "filler"
+ ],
+ "M0171": [
+  "filler"
+ ],
+ "M0172": [
+  "filler"
+ ],
+ "M0173": [
+  "filler"
+ ],
+ "M0174": [
+  "filler"
+ ],
+ "M0175": [
+  "filler"
+ ],
+ "M0176": [
+  "filler"
+ ],
+ "M0177": [
+  "filler"
+ ],
+ "M0178": [
+  "filler"
+ ],
+ "M0179": [
+  "filler"
+ ],
+ "M0180": [
+  "filler"
+ ],
+ "M0181": [
+  "filler"
+ ],
+ "M0182": [
+  "filler"
+ ],
+ "M0183": [
+  "filler"
+ ],
+ "M0184": [
+  "filler"
+ ],
+ "M0185": [
+  "filler"
+ ],
+ "M0186": [
+  "filler"
+ ],
+ "M0187": [
+  "filler"
+ ],
+ "M0188": [
+  "filler"
+ ],
+ "M0189": [
+  "filler"
+ ],
+ "M0190": [
+  "filler"
+ ],
+ "M0191": [
+  "filler"
+ ],
+ "M0192": [
+  "filler"
+ ],
+ "M0193": [
+  "filler"
+ ],
+ "M0194": [
+  "filler"
+ ],
+ "M0195": [
+  "filler"
+ ],
+ "M0196": [
+  "filler"
+ ],
+ "M0197": [
+  "filler"
+ ],
+ "M0198": [
+  "filler"
+ ],
+ "M0199": [
+  "time-zone",
+  "area-code-mismatch"
+ ],
+ "M0200": [
+  "time-zone",
+  "area-code-mismatch"
+ ],
+ "M0201": [
+  "filler"
+ ],
+ "M0202": [
+  "calling-hours"
+ ],
+ "M0203": [
+  "national-dnc",
+  "ebr-expired",
+  "inquiry-window"
+ ],
+ "M0204": [
+  "autodialer",
+  "non-autodialer-no-consent"
+ ],
+ "M0205": [
+  "exempt-consent",
+  "national-dnc"
+ ],
+ "M0206": [
+  "seller-dnc",
+  "ebr-terminated"
+ ],
+ "M0207": [
+  "national-dnc",
+  "ebr-expired"
+ ],
+ "M0208": [
+  "consent-elements",
+  "verbal",
+  "national-dnc"
+ ],
+ "M0209": [
+  "filler"
+ ],
+ "M0210": [
+  "filler"
+ ],
+ "M0211": [
+  "calling-hours"
+ ],
+ "M0212": [
+  "ebr",
+  "boundary"
+ ],
+ "M0213": [
+  "ebr",
+  "boundary"
+ ],
+ "M0214": [
+  "filler"
+ ],
+ "M0215": [
+  "filler"
+ ],
+ "M0216": [
+  "filler"
+ ],
+ "M0217": [
+  "filler"
+ ],
+ "M0218": [
+  "exempt-ebr",
+  "national-dnc"
+ ],
+ "M0219": [
+  "autodialer"
+ ],
+ "M0220": [
+  "autodialer"
+ ],
+ "M0221": [
+  "autodialer"
+ ],
+ "M0222": [
+  "filler"
+ ],
+ "M0223": [
+  "filler"
+ ],
+ "M0224": [
+  "filler"
+ ],
+ "M0225": [
+  "filler"
+ ],
+ "M0226": [
+  "filler"
+ ],
+ "M0227": [
+  "filler"
+ ],
+ "M0228": [
+  "filler"
+ ],
+ "M0229": [
+  "filler"
+ ],
+ "M0230": [
+  "filler"
+ ],
+ "M0231": [
+  "filler"
+ ],
+ "M0232": [
+  "filler"
+ ],
+ "M0233": [
+  "filler"
+ ],
+ "M0234": [
+  "filler"
+ ],
+ "M0235": [
+  "filler"
+ ],
+ "M0236": [
+  "filler"
+ ],
+ "M0237": [
+  "filler"
+ ],
+ "M0238": [
+  "filler"
+ ],
+ "M0239": [
+  "filler"
+ ],
+ "M0240": [
+  "filler"
+ ],
+ "M0241": [
+  "filler"
+ ],
+ "M0242": [
+  "filler"
+ ],
+ "M0243": [
+  "filler"
+ ],
+ "M0244": [
+  "filler"
+ ],
+ "M0245": [
+  "filler"
+ ],
+ "M0246": [
+  "filler"
+ ],
+ "M0247": [
+  "filler"
+ ],
+ "M0248": [
+  "filler"
+ ],
+ "M0249": [
+  "filler"
+ ],
+ "M0250": [
+  "filler"
+ ],
+ "M0251": [
+  "filler"
+ ],
+ "M0252": [
+  "filler"
+ ],
+ "M0253": [
+  "filler"
+ ],
+ "M0254": [
+  "filler"
+ ],
+ "M0255": [
+  "filler"
+ ],
+ "M0256": [
+  "filler"
+ ],
+ "M0257": [
+  "dst"
+ ],
+ "M0258": [
+  "ebr",
+  "month-end"
+ ],
+ "M0259": [
+  "seller-dnc",
+  "ebr-terminated"
+ ],
+ "M0260": [
+  "dst"
+ ],
+ "M0261": [
+  "dst"
+ ],
+ "M0262": [
+  "filler"
+ ],
+ "M0263": [
+  "seller-dnc",
+  "lapse-in-horizon"
+ ],
+ "M0264": [
+  "filler"
+ ],
+ "M0265": [
+  "filler"
+ ],
+ "M0266": [
+  "filler"
+ ],
+ "M0267": [
+  "time-zone",
+  "area-code-mismatch"
+ ],
+ "M0268": [
+  "dst"
+ ],
+ "M0269": [
+  "filler"
+ ],
+ "M0270": [
+  "dst",
+  "no-dst-zone"
+ ],
+ "M0271": [
+  "seller-dnc",
+  "lapse-in-horizon"
+ ],
+ "M0272": [
+  "seller-dnc"
+ ],
+ "M0273": [
+  "revocation",
+  "per-se"
+ ],
+ "M0274": [
+  "revocation",
+  "per-se"
+ ],
+ "M0275": [
+  "revocation",
+  "per-se"
+ ],
+ "M0276": [
+  "revocation",
+  "explicit"
+ ],
+ "M0277": [
+  "revocation",
+  "explicit"
+ ],
+ "M0278": [
+  "revocation",
+  "per-se"
+ ],
+ "M0279": [
+  "filler"
+ ],
+ "M0280": [
+  "filler"
+ ],
+ "M0281": [
+  "revocation",
+  "per-se"
+ ],
+ "M0282": [
+  "revocation",
+  "per-se"
+ ],
+ "M0283": [
+  "revocation",
+  "per-se"
+ ],
+ "M0284": [
+  "revocation",
+  "explicit"
+ ],
+ "M0285": [
+  "filler"
+ ],
+ "M0286": [
+  "filler"
+ ],
+ "M0287": [
+  "filler"
+ ],
+ "M0288": [
+  "filler"
+ ],
+ "M0289": [
+  "filler"
+ ],
+ "M0290": [
+  "filler"
+ ],
+ "M0291": [
+  "filler"
+ ],
+ "M0292": [
+  "filler"
+ ],
+ "M0293": [
+  "filler"
+ ],
+ "M0294": [
+  "filler"
+ ],
+ "M0295": [
+  "filler"
+ ],
+ "M0296": [
+  "filler"
+ ],
+ "M0297": [
+  "filler"
+ ],
+ "M0298": [
+  "filler"
+ ],
+ "M0299": [
+  "filler"
+ ],
+ "M0300": [
+  "filler"
+ ],
+ "M0301": [
+  "filler"
+ ],
+ "M0302": [
+  "filler"
+ ],
+ "M0303": [
+  "filler"
+ ],
+ "M0304": [
+  "filler"
+ ],
+ "M0305": [
+  "filler"
+ ],
+ "M0306": [
+  "filler"
+ ],
+ "M0307": [
+  "filler"
+ ],
+ "M0308": [
+  "filler"
+ ],
+ "M0309": [
+  "filler"
+ ],
+ "M0310": [
+  "filler"
+ ],
+ "M0311": [
+  "filler"
+ ],
+ "M0312": [
+  "filler"
+ ],
+ "M0313": [
+  "filler"
+ ],
+ "M0314": [
+  "filler"
+ ],
+ "M0315": [
+  "filler"
+ ],
+ "M0316": [
+  "filler"
+ ],
+ "M0317": [
+  "filler"
+ ],
+ "M0318": [
+  "filler"
+ ],
+ "M0319": [
+  "filler"
+ ],
+ "M0320": [
+  "filler"
+ ],
+ "M0321": [
+  "filler"
+ ],
+ "M0322": [
+  "filler"
+ ],
+ "M0323": [
+  "filler"
+ ],
+ "M0324": [
+  "filler"
+ ],
+ "M0325": [
+  "filler"
+ ],
+ "M0326": [
+  "filler"
+ ],
+ "M0327": [
+  "filler"
+ ],
+ "M0328": [
+  "filler"
+ ],
+ "M0329": [
+  "filler"
+ ],
+ "M0330": [
+  "filler"
+ ],
+ "M0331": [
+  "filler"
+ ],
+ "M0332": [
+  "time-zone",
+  "no-dst-zone"
+ ],
+ "M0333": [
+  "time-zone"
+ ],
+ "M0334": [
+  "time-zone",
+  "area-code-mismatch"
+ ],
+ "M0335": [
+  "dst"
+ ],
+ "M0336": [
+  "dst"
+ ],
+ "M0337": [
+  "filler"
+ ],
+ "M0338": [
+  "revocation",
+  "not-a-revocation"
+ ],
+ "M0339": [
+  "revocation",
+  "not-a-revocation"
+ ],
+ "M0340": [
+  "filler"
+ ],
+ "M0341": [
+  "revocation",
+  "not-a-revocation"
+ ],
+ "M0342": [
+  "revocation",
+  "not-a-revocation"
+ ],
+ "M0343": [
+  "revocation",
+  "not-a-revocation"
+ ],
+ "M0344": [
+  "ebr",
+  "inquiry-window",
+  "boundary"
+ ],
+ "M0345": [
+  "ebr",
+  "inquiry-window",
+  "boundary"
+ ],
+ "M0346": [
+  "filler"
+ ],
+ "M0347": [
+  "filler"
+ ],
+ "M0348": [
+  "calling-hours"
+ ],
+ "M0349": [
+  "filler"
+ ],
+ "M0350": [
+  "filler"
+ ],
+ "M0351": [
+  "filler"
+ ],
+ "M0352": [
+  "exempt-consent",
+  "national-dnc"
+ ],
+ "M0353": [
+  "filler"
+ ],
+ "M0354": [
+  "exempt-ebr"
+ ],
+ "M0355": [
+  "autodialer",
+  "national-dnc"
+ ],
+ "M0356": [
+  "autodialer"
+ ],
+ "M0357": [
+  "filler"
+ ],
+ "M0358": [
+  "filler"
+ ],
+ "M0359": [
+  "filler"
+ ],
+ "M0360": [
+  "filler"
+ ],
+ "M0361": [
+  "filler"
+ ],
+ "M0362": [
+  "filler"
+ ],
+ "M0363": [
+  "filler"
+ ],
+ "M0364": [
+  "filler"
+ ],
+ "M0365": [
+  "filler"
+ ],
+ "M0366": [
+  "filler"
+ ],
+ "M0367": [
+  "filler"
+ ],
+ "M0368": [
+  "filler"
+ ],
+ "M0369": [
+  "filler"
+ ],
+ "M0370": [
+  "filler"
+ ],
+ "M0371": [
+  "filler"
+ ],
+ "M0372": [
+  "filler"
+ ],
+ "M0373": [
+  "filler"
+ ],
+ "M0374": [
+  "filler"
+ ],
+ "M0375": [
+  "filler"
+ ],
+ "M0376": [
+  "filler"
+ ],
+ "M0377": [
+  "filler"
+ ],
+ "M0378": [
+  "filler"
+ ],
+ "M0379": [
+  "filler"
+ ],
+ "M0380": [
+  "filler"
+ ],
+ "M0381": [
+  "filler"
+ ],
+ "M0382": [
+  "filler"
+ ],
+ "M0383": [
+  "filler"
+ ],
+ "M0384": [
+  "filler"
+ ],
+ "M0385": [
+  "filler"
+ ],
+ "M0386": [
+  "filler"
+ ],
+ "M0387": [
+  "filler"
+ ],
+ "M0388": [
+  "filler"
+ ],
+ "M0389": [
+  "filler"
+ ],
+ "M0390": [
+  "filler"
+ ],
+ "M0391": [
+  "filler"
+ ],
+ "M0392": [
+  "filler"
+ ],
+ "M0393": [
+  "filler"
+ ],
+ "M0394": [
+  "filler"
+ ],
+ "M0395": [
+  "filler"
+ ],
+ "M0396": [
+  "filler"
+ ],
+ "M0397": [
+  "filler"
+ ],
+ "M0398": [
+  "filler"
+ ],
+ "M0399": [
+  "filler"
+ ],
+ "M0400": [
+  "filler"
+ ],
+ "M0401": [
+  "filler"
+ ],
+ "M0402": [
+  "filler"
+ ],
+ "M0403": [
+  "filler"
+ ],
+ "M0404": [
+  "filler"
+ ],
+ "M0405": [
+  "filler"
+ ],
+ "M0406": [
+  "filler"
+ ],
+ "M0407": [
+  "filler"
+ ],
+ "M0408": [
+  "consent-elements",
+  "no_condition_disclosure"
+ ],
+ "M0409": [
+  "filler"
+ ],
+ "M0410": [
+  "consent-elements",
+  "verbal"
+ ],
+ "M0411": [
+  "consent-elements",
+  "unsigned"
+ ],
+ "M0412": [
+  "consent-elements",
+  "wrong_number"
+ ],
+ "M0413": [
+  "consent-elements",
+  "no_autodialer_disclosure"
+ ],
+ "M0414": [
+  "consent-elements",
+  "affiliate"
+ ],
+ "M0415": [
+  "filler"
+ ],
+ "M0416": [
+  "filler"
+ ],
+ "M0417": [
+  "filler"
+ ],
+ "M0418": [
+  "consent-elements",
+  "valid-electronic"
+ ],
+ "M0419": [
+  "consent-elements",
+  "valid-wet_ink"
+ ],
+ "M0420": [
+  "filler"
+ ],
+ "M0421": [
+  "filler"
+ ],
+ "M0422": [
+  "filler"
+ ],
+ "M0423": [
+  "filler"
+ ],
+ "M0424": [
+  "filler"
+ ]
+}

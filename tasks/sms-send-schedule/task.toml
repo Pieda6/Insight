@@ -1,0 +1,31 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/sms-send-schedule"
+description = "Clear a retailer's scheduled promotional SMS batch under the FCC telemarketing rule (47 CFR 64.1200) and produce the corrected send schedule: send as scheduled, move to the earliest allowed minute, or block."
+
+[metadata]
+difficulty_explanation = "Marketing operations teams must clear every promotional text before launch, and the parts of 47 CFR 64.1200 that decide the outcome are the parts most people get wrong. Written consent is needed only when the platform is an automatic telephone dialing system, and a consent record counts only if it meets every element of the rule's definition (in writing, signed, naming this seller, this phone number, both disclosures). The calling-hours rule and the national Do Not Call registry apply only to telephone solicitations, which by definition exclude recipients who gave permission or have an established business relationship; applying quiet hours to every message is the most common mistake. The relationship has different look-back periods for purchases and for inquiries or applications, counted on the recipient's local date, and it never substitutes for written consent on an autodialer. The current rule makes several reply words, not only STOP, a per se revocation, and a seller-specific do-not-call request lapses after the period the rule sets while revoked consent does not come back. Calling hours use the recipient's address time zone across the November daylight saving change, including zones without daylight saving time and phones whose area code points elsewhere, and some earliest allowed minutes fall exactly on a status change. Each shortcut gets most messages right and a planted set wrong. The data is synthetic but follows a real retail SMS program."
+solution_explanation = "Load the contacts, platforms, consent records, replies, seller do-not-call list, national registry matches and customer history. Decide which platform is an autodialer from its equipment description. Keep only consent records that meet every element of prior express written consent for this seller and number. Treat per se revocation words and explicit stop requests as revocations that are also seller do-not-call requests. For each message and each candidate minute: block while a seller do-not-call request is honored; on an autodialer require unrevoked written consent; otherwise, if the recipient has neither written consent nor an established business relationship on their local date, the message is a telephone solicitation and must avoid the national registry and fall within 8 a.m. to 9 p.m. local time. The earliest allowed minute within 7 days is the send time (SEND if it is the scheduled minute); otherwise BLOCK. Allowed status can only begin at a local 8 a.m. or when a seller do-not-call period ends, so only those instants need checking."
+verification_explanation = "The verifier recomputes the corrected schedule with its own independently written model of 47 CFR 64.1200 (engine.py), which walks every minute of the 7-day horizon, from a private copy of the inputs that exists only in the verifier image, and never runs agent code. The engine is itself checked against 93 hand-worked planted cases (golden.json). Tests check the exact header, one row per message in input order, value formats, that SEND rows keep the scheduled minute, the hand-worked cases, one test per rule family (calling hours, recipient time zone, daylight saving change, messages that are not telephone solicitations, autodialer consent, consent elements, revocation replies, seller do-not-call list, national registry, business relationship windows), and finally every row by exact equality. Per-family results are for diagnosis; reward is 1 only if every test passes."
+category = "Operations"
+subcategory = "Marketing"
+tags = ["marketing-operations", "sms", "tcpa", "47-cfr-64.1200", "compliance", "time-zones", "scheduling", "python"]
+expert_time_estimate_hours = 7
+relevant_experience = "Marketing operations or messaging compliance for US promotional SMS programs: TCPA and 47 CFR 64.1200 consent, do-not-call and calling-hours rules, campaign scheduling across time zones in a messaging platform."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0
