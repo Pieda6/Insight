@@ -1,0 +1,12 @@
+{
+ "dealer_group": "Riverbend Auto Group",
+ "stores": [
+  "Riverbend Motors North",
+  "Riverbend Motors Eastgate",
+  "Riverbend Truck Center",
+  "Riverbend Pre-Owned Outlet"
+ ],
+ "creditor": "each store, as seller-creditor on a retail installment sale contract later assigned to a finance company",
+ "money_unit": "cents",
+ "event": "Fall Sales Event, October 2026"
+}

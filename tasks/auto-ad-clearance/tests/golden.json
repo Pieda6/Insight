@@ -1,0 +1,898 @@
+{
+ "AD001": {
+  "amount_financed": "49978.00",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "1635.44",
+  "missing_disclosures": "none"
+ },
+ "AD002": {
+  "amount_financed": "19181.75",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "2178.49",
+  "missing_disclosures": "downpayment;repayment_terms"
+ },
+ "AD003": {
+  "amount_financed": "20346.50",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "1198.06",
+  "missing_disclosures": "none"
+ },
+ "AD004": {
+  "amount_financed": "45741.00",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "3602.04",
+  "missing_disclosures": "none"
+ },
+ "AD005": {
+  "amount_financed": "38785.75",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "1402.85",
+  "missing_disclosures": "none"
+ },
+ "AD006": {
+  "amount_financed": "48952.50",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "3139.14",
+  "missing_disclosures": "none"
+ },
+ "AD007": {
+  "amount_financed": "43770.00",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "10386.96",
+  "missing_disclosures": "repayment_terms"
+ },
+ "AD008": {
+  "amount_financed": "34780.88",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "9709.12",
+  "missing_disclosures": "none"
+ },
+ "AD009": {
+  "amount_financed": "17348.50",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "1437.38",
+  "missing_disclosures": "none"
+ },
+ "AD010": {
+  "amount_financed": "40253.50",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "6673.10",
+  "missing_disclosures": "none"
+ },
+ "AD011": {
+  "amount_financed": "25080.50",
+  "apr_accurate": "n/a",
+  "cleared": "false",
+  "finance_charge": "5467.90",
+  "missing_disclosures": "apr;repayment_terms"
+ },
+ "AD012": {
+  "amount_financed": "18560.25",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "2063.55",
+  "missing_disclosures": "none"
+ },
+ "AD013": {
+  "amount_financed": "26010.88",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "8553.44",
+  "missing_disclosures": "repayment_terms"
+ },
+ "AD014": {
+  "amount_financed": "35389.25",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "5891.71",
+  "missing_disclosures": "none"
+ },
+ "AD015": {
+  "amount_financed": "26815.75",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "2586.77",
+  "missing_disclosures": "none"
+ },
+ "AD016": {
+  "amount_financed": "40536.62",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "4771.18",
+  "missing_disclosures": "apr"
+ },
+ "AD017": {
+  "amount_financed": "20555.75",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "2446.09",
+  "missing_disclosures": "none"
+ },
+ "AD018": {
+  "amount_financed": "31149.75",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "1079.85",
+  "missing_disclosures": "none"
+ },
+ "AD019": {
+  "amount_financed": "38906.00",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "1763.92",
+  "missing_disclosures": "none"
+ },
+ "AD020": {
+  "amount_financed": "47293.62",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "5665.26",
+  "missing_disclosures": "none"
+ },
+ "AD021": {
+  "amount_financed": "43483.50",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "5188.14",
+  "missing_disclosures": "none"
+ },
+ "AD022": {
+  "amount_financed": "29753.12",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "5873.92",
+  "missing_disclosures": "none"
+ },
+ "AD023": {
+  "amount_financed": "32403.50",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "629.02",
+  "missing_disclosures": "none"
+ },
+ "AD024": {
+  "amount_financed": "39955.88",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "7679.80",
+  "missing_disclosures": "none"
+ },
+ "AD025": {
+  "amount_financed": "48337.50",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "10004.58",
+  "missing_disclosures": "none"
+ },
+ "AD026": {
+  "amount_financed": "39309.88",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "11825.72",
+  "missing_disclosures": "none"
+ },
+ "AD027": {
+  "amount_financed": "36676.50",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "2551.26",
+  "missing_disclosures": "repayment_terms"
+ },
+ "AD028": {
+  "amount_financed": "49349.75",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "4834.57",
+  "missing_disclosures": "downpayment;repayment_terms"
+ },
+ "AD029": {
+  "amount_financed": "37219.12",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "2417.60",
+  "missing_disclosures": "none"
+ },
+ "AD030": {
+  "amount_financed": "25675.50",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "3200.82",
+  "missing_disclosures": "repayment_terms"
+ },
+ "AD031": {
+  "amount_financed": "27484.00",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "2243.84",
+  "missing_disclosures": "rate_increase"
+ },
+ "AD032": {
+  "amount_financed": "43713.00",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "11441.16",
+  "missing_disclosures": "none"
+ },
+ "AD033": {
+  "amount_financed": "28380.37",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "799.79",
+  "missing_disclosures": "none"
+ },
+ "AD034": {
+  "amount_financed": "39476.62",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "1854.98",
+  "missing_disclosures": "rate_increase"
+ },
+ "AD035": {
+  "amount_financed": "38689.00",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "15921.92",
+  "missing_disclosures": "repayment_terms"
+ },
+ "AD036": {
+  "amount_financed": "39627.12",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "4881.12",
+  "missing_disclosures": "none"
+ },
+ "AD037": {
+  "amount_financed": "53472.50",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "14749.66",
+  "missing_disclosures": "none"
+ },
+ "AD038": {
+  "amount_financed": "46429.00",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "3575.00",
+  "missing_disclosures": "none"
+ },
+ "AD039": {
+  "amount_financed": "31093.00",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "11192.60",
+  "missing_disclosures": "none"
+ },
+ "AD040": {
+  "amount_financed": "49681.38",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "11612.82",
+  "missing_disclosures": "downpayment;repayment_terms"
+ },
+ "AD041": {
+  "amount_financed": "29381.75",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "7681.45",
+  "missing_disclosures": "none"
+ },
+ "AD042": {
+  "amount_financed": "37694.00",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "7156.24",
+  "missing_disclosures": "none"
+ },
+ "AD043": {
+  "amount_financed": "51584.25",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "7809.03",
+  "missing_disclosures": "apr"
+ },
+ "AD044": {
+  "amount_financed": "35389.25",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "5891.71",
+  "missing_disclosures": "none"
+ },
+ "AD045": {
+  "amount_financed": "49384.12",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "10973.48",
+  "missing_disclosures": "none"
+ },
+ "AD046": {
+  "amount_financed": "16933.00",
+  "apr_accurate": "n/a",
+  "cleared": "true",
+  "finance_charge": "1836.20",
+  "missing_disclosures": "none"
+ },
+ "AD047": {
+  "amount_financed": "39955.88",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "7679.80",
+  "missing_disclosures": "none"
+ },
+ "AD048": {
+  "amount_financed": "33969.75",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "4336.65",
+  "missing_disclosures": "none"
+ },
+ "AD049": {
+  "amount_financed": "40253.50",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "6673.10",
+  "missing_disclosures": "repayment_terms"
+ },
+ "AD050": {
+  "amount_financed": "44045.88",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "6065.16",
+  "missing_disclosures": "downpayment;repayment_terms"
+ },
+ "AD051": {
+  "amount_financed": "15961.38",
+  "apr_accurate": "n/a",
+  "cleared": "false",
+  "finance_charge": "3221.58",
+  "missing_disclosures": "apr;downpayment;repayment_terms"
+ },
+ "AD052": {
+  "amount_financed": "18700.00",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "917.00",
+  "missing_disclosures": "none"
+ },
+ "AD053": {
+  "amount_financed": "36900.00",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "2784.60",
+  "missing_disclosures": "none"
+ },
+ "AD054": {
+  "amount_financed": "42334.00",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "4330.40",
+  "missing_disclosures": "none"
+ },
+ "AD055": {
+  "amount_financed": "32223.50",
+  "apr_accurate": "n/a",
+  "cleared": "true",
+  "finance_charge": "4629.70",
+  "missing_disclosures": "none"
+ },
+ "AD056": {
+  "amount_financed": "44499.75",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "10795.05",
+  "missing_disclosures": "none"
+ },
+ "AD057": {
+  "amount_financed": "40492.38",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "10013.22",
+  "missing_disclosures": "none"
+ },
+ "AD058": {
+  "amount_financed": "43015.50",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "13826.34",
+  "missing_disclosures": "none"
+ },
+ "AD059": {
+  "amount_financed": "53062.25",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "12078.07",
+  "missing_disclosures": "repayment_terms"
+ },
+ "AD060": {
+  "amount_financed": "49671.50",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "4171.54",
+  "missing_disclosures": "none"
+ },
+ "AD061": {
+  "amount_financed": "33061.75",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "5757.17",
+  "missing_disclosures": "none"
+ },
+ "AD062": {
+  "amount_financed": "25896.25",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "3323.75",
+  "missing_disclosures": "downpayment;repayment_terms"
+ },
+ "AD063": {
+  "amount_financed": "43483.50",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "5188.14",
+  "missing_disclosures": "none"
+ },
+ "AD064": {
+  "amount_financed": "24573.00",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "1231.20",
+  "missing_disclosures": "repayment_terms"
+ },
+ "AD065": {
+  "amount_financed": "28612.00",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "5728.76",
+  "missing_disclosures": "none"
+ },
+ "AD066": {
+  "amount_financed": "53890.50",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "11592.06",
+  "missing_disclosures": "none"
+ },
+ "AD067": {
+  "amount_financed": "28380.37",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "799.79",
+  "missing_disclosures": "none"
+ },
+ "AD068": {
+  "amount_financed": "18700.00",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "917.00",
+  "missing_disclosures": "none"
+ },
+ "AD069": {
+  "amount_financed": "31064.00",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "5540.80",
+  "missing_disclosures": "none"
+ },
+ "AD070": {
+  "amount_financed": "33085.50",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "4886.58",
+  "missing_disclosures": "apr"
+ },
+ "AD071": {
+  "amount_financed": "48498.62",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "1016.74",
+  "missing_disclosures": "none"
+ },
+ "AD072": {
+  "amount_financed": "26277.50",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "3572.26",
+  "missing_disclosures": "downpayment"
+ },
+ "AD073": {
+  "amount_financed": "21873.50",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "6060.10",
+  "missing_disclosures": "none"
+ },
+ "AD074": {
+  "amount_financed": "49148.50",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "14341.70",
+  "missing_disclosures": "none"
+ },
+ "AD075": {
+  "amount_financed": "51509.62",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "9825.98",
+  "missing_disclosures": "none"
+ },
+ "AD076": {
+  "amount_financed": "36809.62",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "5837.78",
+  "missing_disclosures": "none"
+ },
+ "AD077": {
+  "amount_financed": "26385.00",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "10398.60",
+  "missing_disclosures": "none"
+ },
+ "AD078": {
+  "amount_financed": "21501.50",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "2655.46",
+  "missing_disclosures": "none"
+ },
+ "AD079": {
+  "amount_financed": "50204.00",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "1633.60",
+  "missing_disclosures": "none"
+ },
+ "AD080": {
+  "amount_financed": "41376.50",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "3980.62",
+  "missing_disclosures": "none"
+ },
+ "AD081": {
+  "amount_financed": "16993.62",
+  "apr_accurate": "n/a",
+  "cleared": "false",
+  "finance_charge": "2616.30",
+  "missing_disclosures": "apr"
+ },
+ "AD082": {
+  "amount_financed": "29952.50",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "9833.50",
+  "missing_disclosures": "none"
+ },
+ "AD083": {
+  "amount_financed": "51584.25",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "7809.03",
+  "missing_disclosures": "none"
+ },
+ "AD084": {
+  "amount_financed": "34780.88",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "9709.12",
+  "missing_disclosures": "none"
+ },
+ "AD085": {
+  "amount_financed": "20363.88",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "3772.32",
+  "missing_disclosures": "downpayment;repayment_terms"
+ },
+ "AD086": {
+  "amount_financed": "50001.50",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "14713.54",
+  "missing_disclosures": "downpayment;repayment_terms"
+ },
+ "AD087": {
+  "amount_financed": "18054.88",
+  "apr_accurate": "n/a",
+  "cleared": "false",
+  "finance_charge": "3529.76",
+  "missing_disclosures": "apr;downpayment;repayment_terms"
+ },
+ "AD088": {
+  "amount_financed": "50757.00",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "12023.64",
+  "missing_disclosures": "none"
+ },
+ "AD089": {
+  "amount_financed": "53118.88",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "7146.20",
+  "missing_disclosures": "repayment_terms"
+ },
+ "AD090": {
+  "amount_financed": "43043.50",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "9876.50",
+  "missing_disclosures": "none"
+ },
+ "AD091": {
+  "amount_financed": "20332.12",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "1994.12",
+  "missing_disclosures": "downpayment;repayment_terms"
+ },
+ "AD092": {
+  "amount_financed": "25594.75",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "740.21",
+  "missing_disclosures": "repayment_terms"
+ },
+ "AD093": {
+  "amount_financed": "32621.12",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "4578.40",
+  "missing_disclosures": "repayment_terms"
+ },
+ "AD094": {
+  "amount_financed": "51005.50",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "3097.10",
+  "missing_disclosures": "downpayment;repayment_terms"
+ },
+ "AD095": {
+  "amount_financed": "31093.00",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "11192.60",
+  "missing_disclosures": "downpayment;repayment_terms"
+ },
+ "AD096": {
+  "amount_financed": "37750.50",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "1706.94",
+  "missing_disclosures": "none"
+ },
+ "AD097": {
+  "amount_financed": "51529.88",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "9222.52",
+  "missing_disclosures": "downpayment"
+ },
+ "AD098": {
+  "amount_financed": "29052.00",
+  "apr_accurate": "n/a",
+  "cleared": "false",
+  "finance_charge": "4991.76",
+  "missing_disclosures": "apr"
+ },
+ "AD099": {
+  "amount_financed": "31064.00",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "5540.80",
+  "missing_disclosures": "downpayment;repayment_terms"
+ },
+ "AD100": {
+  "amount_financed": "19181.75",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "2178.49",
+  "missing_disclosures": "none"
+ },
+ "AD101": {
+  "amount_financed": "24573.00",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "1231.20",
+  "missing_disclosures": "none"
+ },
+ "AD102": {
+  "amount_financed": "33073.50",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "3094.26",
+  "missing_disclosures": "none"
+ },
+ "AD103": {
+  "amount_financed": "22941.88",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "4726.52",
+  "missing_disclosures": "repayment_terms"
+ },
+ "AD104": {
+  "amount_financed": "46042.38",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "7072.50",
+  "missing_disclosures": "none"
+ },
+ "AD105": {
+  "amount_financed": "51633.00",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "2867.40",
+  "missing_disclosures": "none"
+ },
+ "AD106": {
+  "amount_financed": "34077.50",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "5130.82",
+  "missing_disclosures": "downpayment"
+ },
+ "AD107": {
+  "amount_financed": "27484.00",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "2243.84",
+  "missing_disclosures": "none"
+ },
+ "AD108": {
+  "amount_financed": "27943.00",
+  "apr_accurate": "n/a",
+  "cleared": "false",
+  "finance_charge": "5080.40",
+  "missing_disclosures": "apr;downpayment"
+ },
+ "AD109": {
+  "amount_financed": "39476.62",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "1854.98",
+  "missing_disclosures": "none"
+ },
+ "AD110": {
+  "amount_financed": "51005.50",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "3097.10",
+  "missing_disclosures": "none"
+ },
+ "AD111": {
+  "amount_financed": "18560.25",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "2063.55",
+  "missing_disclosures": "downpayment;repayment_terms"
+ },
+ "AD112": {
+  "amount_financed": "38906.00",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "1763.92",
+  "missing_disclosures": "none"
+ },
+ "AD113": {
+  "amount_financed": "37694.00",
+  "apr_accurate": "n/a",
+  "cleared": "true",
+  "finance_charge": "7156.24",
+  "missing_disclosures": "none"
+ },
+ "AD114": {
+  "amount_financed": "49681.38",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "11612.82",
+  "missing_disclosures": "apr"
+ },
+ "AD115": {
+  "amount_financed": "20192.50",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "5375.42",
+  "missing_disclosures": "none"
+ },
+ "AD116": {
+  "amount_financed": "25594.75",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "740.21",
+  "missing_disclosures": "none"
+ },
+ "AD117": {
+  "amount_financed": "20519.88",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "2961.48",
+  "missing_disclosures": "none"
+ },
+ "AD118": {
+  "amount_financed": "50123.50",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "5782.70",
+  "missing_disclosures": "none"
+ },
+ "AD119": {
+  "amount_financed": "50123.50",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "5782.70",
+  "missing_disclosures": "none"
+ },
+ "AD120": {
+  "amount_financed": "38785.75",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "1402.85",
+  "missing_disclosures": "none"
+ },
+ "AD121": {
+  "amount_financed": "48498.62",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "1016.74",
+  "missing_disclosures": "none"
+ },
+ "AD122": {
+  "amount_financed": "51867.88",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "6856.04",
+  "missing_disclosures": "none"
+ },
+ "AD123": {
+  "amount_financed": "24752.88",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "6166.08",
+  "missing_disclosures": "none"
+ },
+ "AD124": {
+  "amount_financed": "43242.75",
+  "apr_accurate": "n/a",
+  "cleared": "false",
+  "finance_charge": "9253.17",
+  "missing_disclosures": "apr;repayment_terms"
+ },
+ "AD125": {
+  "amount_financed": "18054.88",
+  "apr_accurate": "true",
+  "cleared": "false",
+  "finance_charge": "3529.76",
+  "missing_disclosures": "downpayment;repayment_terms"
+ },
+ "AD126": {
+  "amount_financed": "23932.25",
+  "apr_accurate": "true",
+  "cleared": "true",
+  "finance_charge": "3761.95",
+  "missing_disclosures": "none"
+ },
+ "AD127": {
+  "amount_financed": "28570.38",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "2045.10",
+  "missing_disclosures": "none"
+ },
+ "AD128": {
+  "amount_financed": "19940.25",
+  "apr_accurate": "false",
+  "cleared": "false",
+  "finance_charge": "5675.55",
+  "missing_disclosures": "none"
+ }
+}

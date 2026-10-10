@@ -1,0 +1,838 @@
+{
+ "AD001": [
+  "fc-doc-credit-only",
+  "finance-charge"
+ ],
+ "AD002": [
+  "broadcast",
+  "broadcast-tollfree_noref",
+  "fc-doc-difference",
+  "fc-life-required"
+ ],
+ "AD003": [
+  "fc-doc-same",
+  "fc-life-excluded",
+  "odd-period-is-regular",
+  "tolerance"
+ ],
+ "AD004": [
+  "fc-doc-same",
+  "fc-lien-vendor",
+  "finance-charge"
+ ],
+ "AD005": [
+  "fc-application-approved-only",
+  "fc-doc-difference",
+  "fc-nonfiling",
+  "filler"
+ ],
+ "AD006": [
+  "apr-method",
+  "fc-doc-same",
+  "fc-gap-excluded",
+  "fc-nonfiling",
+  "fc-required-third-party",
+  "odd-first-period"
+ ],
+ "AD007": [
+  "disclosure-bare",
+  "fc-acquisition",
+  "fc-application-approved-only",
+  "fc-doc-same",
+  "fc-life-unsigned",
+  "fc-property-premium_disclosed",
+  "trigger-down_pct"
+ ],
+ "AD008": [
+  "fc-credit-processing",
+  "fc-doc-same",
+  "filler"
+ ],
+ "AD009": [
+  "fc-doc-same",
+  "fc-required-third-party",
+  "finance-charge"
+ ],
+ "AD010": [
+  "fc-credit-processing",
+  "fc-doc-same",
+  "fc-lien-excluded",
+  "non-trigger",
+  "zero-down"
+ ],
+ "AD011": [
+  "disclosure-no-repay",
+  "fc-doc-same",
+  "fc-gap-excluded",
+  "fc-lien-excluded",
+  "fc-required-third-party",
+  "trigger-period"
+ ],
+ "AD012": [
+  "fc-doc-difference",
+  "finance-charge"
+ ],
+ "AD013": [
+  "disclosure-bare",
+  "fc-application-all",
+  "fc-doc-same",
+  "fc-gap-term",
+  "trigger-down"
+ ],
+ "AD014": [
+  "fc-acquisition",
+  "fc-doc-same",
+  "finance-charge"
+ ],
+ "AD015": [
+  "fc-doc-same",
+  "fc-life-term",
+  "finance-charge"
+ ],
+ "AD016": [
+  "fc-acquisition",
+  "fc-doc-same",
+  "fc-life-excluded",
+  "fc-service-optional",
+  "rate-label"
+ ],
+ "AD017": [
+  "contract-rate-as-apr",
+  "fc-acquisition",
+  "fc-doc-same",
+  "finance-charge"
+ ],
+ "AD018": [
+  "contract-rate-as-apr",
+  "fc-doc-same",
+  "fc-life-not_disclosed",
+  "finance-charge"
+ ],
+ "AD019": [
+  "apr-method",
+  "fc-doc-same",
+  "fc-life-excluded",
+  "odd-first-period"
+ ],
+ "AD020": [
+  "fc-acquisition",
+  "fc-application-approved-only",
+  "fc-credit-processing",
+  "fc-doc-same",
+  "fc-life-excluded",
+  "irregular",
+  "step-payments",
+  "tolerance"
+ ],
+ "AD021": [
+  "fc-doc-same",
+  "fc-nonfiling",
+  "fc-property-premium_disclosed",
+  "fc-service-optional",
+  "filler",
+  "step-payments"
+ ],
+ "AD022": [
+  "disclosure-complete",
+  "fc-doc-difference",
+  "fc-required-third-party",
+  "trigger-fc"
+ ],
+ "AD023": [
+  "apr-method",
+  "fc-application-approved-only",
+  "fc-doc-difference",
+  "odd-first-period"
+ ],
+ "AD024": [
+  "fc-application-all",
+  "fc-doc-same",
+  "finance-charge"
+ ],
+ "AD025": [
+  "fc-application-approved-only",
+  "fc-credit-processing",
+  "fc-doc-difference",
+  "fc-nonfiling",
+  "non-trigger",
+  "zero-down"
+ ],
+ "AD026": [
+  "fc-acquisition",
+  "fc-doc-same",
+  "fc-nonfiling",
+  "rate-increase"
+ ],
+ "AD027": [
+  "disclosure-partial-repayment",
+  "fc-doc-difference",
+  "fc-life-excluded",
+  "fc-property-coverage_term_disclosed",
+  "fc-required-third-party",
+  "irregular",
+  "step-payments"
+ ],
+ "AD028": [
+  "fc-credit-processing",
+  "fc-doc-same",
+  "filler"
+ ],
+ "AD029": [
+  "apr-method",
+  "fc-doc-same",
+  "fc-life-excluded",
+  "fc-property-premium_disclosed",
+  "fc-required-third-party",
+  "odd-first-period"
+ ],
+ "AD030": [
+  "disclosure-no-repay",
+  "fc-doc-difference",
+  "fc-service-required",
+  "trigger-down_pct"
+ ],
+ "AD031": [
+  "fc-doc-same",
+  "fc-lien-excluded",
+  "rate-increase"
+ ],
+ "AD032": [
+  "fc-doc-same",
+  "fc-property-insurer_choice_disclosed",
+  "finance-charge"
+ ],
+ "AD033": [
+  "fc-doc-same",
+  "fc-gap-term",
+  "fc-lien-not-itemized",
+  "filler"
+ ],
+ "AD034": [
+  "fc-credit-processing",
+  "fc-doc-same",
+  "fc-life-premium",
+  "rate-increase"
+ ],
+ "AD035": [
+  "disclosure-no-repay",
+  "fc-acquisition",
+  "fc-doc-same",
+  "trigger-fc"
+ ],
+ "AD036": [
+  "fc-doc-same",
+  "fc-nonfiling",
+  "finance-charge"
+ ],
+ "AD037": [
+  "fc-acquisition",
+  "fc-doc-same",
+  "fc-life-excluded",
+  "fc-property-excluded-required",
+  "fc-required-third-party",
+  "non-trigger",
+  "zero-down"
+ ],
+ "AD038": [
+  "fc-doc-same",
+  "fc-gap-required",
+  "finance-charge"
+ ],
+ "AD039": [
+  "fc-doc-same",
+  "fc-life-term",
+  "finance-charge"
+ ],
+ "AD040": [
+  "fc-acquisition",
+  "fc-doc-same",
+  "fc-nonfiling",
+  "fc-property-excluded-required",
+  "filler"
+ ],
+ "AD041": [
+  "fc-doc-difference",
+  "fc-life-unsigned",
+  "fc-property-excluded-required",
+  "irregular",
+  "step-payments",
+  "tolerance"
+ ],
+ "AD042": [
+  "fc-doc-same",
+  "fc-life-excluded",
+  "fc-property-excluded-required",
+  "filler"
+ ],
+ "AD043": [
+  "fc-acquisition",
+  "fc-credit-processing",
+  "fc-doc-difference",
+  "fc-lien-not-itemized",
+  "fc-required-third-party",
+  "rate-label"
+ ],
+ "AD044": [
+  "fc-acquisition",
+  "fc-doc-same",
+  "filler"
+ ],
+ "AD045": [
+  "fc-doc-difference",
+  "fc-gap-excluded",
+  "fc-required-third-party",
+  "non-trigger"
+ ],
+ "AD046": [
+  "fc-acquisition",
+  "fc-application-approved-only",
+  "fc-doc-same",
+  "fc-property-excluded-required",
+  "fc-required-third-party",
+  "non-trigger"
+ ],
+ "AD047": [
+  "fc-application-all",
+  "fc-doc-same",
+  "filler"
+ ],
+ "AD048": [
+  "fc-doc-same",
+  "fc-lien-vendor",
+  "finance-charge"
+ ],
+ "AD049": [
+  "fc-credit-processing",
+  "fc-doc-same",
+  "fc-lien-excluded",
+  "filler"
+ ],
+ "AD050": [
+  "broadcast",
+  "broadcast-local_ref",
+  "fc-application-approved-only",
+  "fc-doc-same",
+  "fc-life-premium"
+ ],
+ "AD051": [
+  "disclosure-bare",
+  "fc-acquisition",
+  "fc-doc-same",
+  "fc-required-third-party",
+  "trigger-payment"
+ ],
+ "AD052": [
+  "fc-doc-same",
+  "fc-gap-excluded",
+  "filler"
+ ],
+ "AD053": [
+  "fc-doc-same",
+  "fc-life-excluded",
+  "finance-charge"
+ ],
+ "AD054": [
+  "fc-doc-same",
+  "fc-property-excluded-required",
+  "finance-charge"
+ ],
+ "AD055": [
+  "fc-credit-processing",
+  "fc-doc-difference",
+  "fc-lien-excluded",
+  "fc-property-excluded",
+  "fc-required-third-party",
+  "non-trigger"
+ ],
+ "AD056": [
+  "fc-doc-same",
+  "fc-property-excluded-required",
+  "finance-charge"
+ ],
+ "AD057": [
+  "fc-doc-same",
+  "fc-property-insurer_choice_disclosed",
+  "finance-charge"
+ ],
+ "AD058": [
+  "fc-application-approved-only",
+  "fc-doc-same",
+  "fc-life-excluded",
+  "fc-required-third-party",
+  "irregular",
+  "step-payments",
+  "tolerance"
+ ],
+ "AD059": [
+  "disclosure-partial-repayment",
+  "fc-doc-difference",
+  "fc-property-excluded-required",
+  "irregular",
+  "step-payments"
+ ],
+ "AD060": [
+  "broadcast",
+  "broadcast-tollfree_ref",
+  "fc-doc-difference",
+  "fc-lien-excluded",
+  "fc-nonfiling"
+ ],
+ "AD061": [
+  "fc-credit-processing",
+  "fc-doc-difference",
+  "fc-life-excluded",
+  "fc-nonfiling",
+  "fc-property-excluded",
+  "irregular",
+  "step-payments",
+  "tolerance"
+ ],
+ "AD062": [
+  "disclosure-bare",
+  "fc-application-approved-only",
+  "fc-doc-same",
+  "fc-gap-excluded",
+  "fc-lien-excluded",
+  "fc-life-excluded",
+  "trigger-fc"
+ ],
+ "AD063": [
+  "fc-doc-same",
+  "fc-nonfiling",
+  "fc-property-premium_disclosed",
+  "fc-service-optional",
+  "irregular",
+  "step-payments",
+  "tolerance"
+ ],
+ "AD064": [
+  "fc-doc-same",
+  "fc-nonfiling",
+  "filler"
+ ],
+ "AD065": [
+  "fc-acquisition",
+  "fc-credit-processing",
+  "fc-doc-same",
+  "fc-life-excluded",
+  "odd-period-is-regular",
+  "tolerance"
+ ],
+ "AD066": [
+  "fc-application-all",
+  "fc-doc-same",
+  "non-trigger"
+ ],
+ "AD067": [
+  "apr-method",
+  "fc-doc-same",
+  "fc-gap-term",
+  "fc-lien-not-itemized",
+  "odd-first-period"
+ ],
+ "AD068": [
+  "fc-doc-same",
+  "fc-gap-excluded",
+  "finance-charge"
+ ],
+ "AD069": [
+  "fc-acquisition",
+  "fc-doc-same",
+  "fc-property-excluded-required",
+  "odd-period-is-regular",
+  "tolerance"
+ ],
+ "AD070": [
+  "fc-doc-difference",
+  "fc-lien-not-itemized",
+  "fc-service-required",
+  "rate-label"
+ ],
+ "AD071": [
+  "fc-application-approved-only",
+  "fc-doc-same",
+  "filler"
+ ],
+ "AD072": [
+  "disclosure-no-down",
+  "fc-credit-processing",
+  "fc-doc-same",
+  "fc-life-excluded",
+  "trigger-period"
+ ],
+ "AD073": [
+  "fc-doc-same",
+  "fc-required-third-party",
+  "fc-service-optional",
+  "rate-increase"
+ ],
+ "AD074": [
+  "disclosure-complete",
+  "fc-acquisition",
+  "fc-application-approved-only",
+  "fc-doc-same",
+  "trigger-payment+period"
+ ],
+ "AD075": [
+  "fc-doc-same",
+  "fc-service-required",
+  "finance-charge"
+ ],
+ "AD076": [
+  "fc-acquisition",
+  "fc-application-approved-only",
+  "fc-doc-same",
+  "fc-gap-excluded",
+  "fc-service-required",
+  "odd-period-is-regular",
+  "tolerance"
+ ],
+ "AD077": [
+  "fc-application-approved-only",
+  "fc-doc-same",
+  "fc-nonfiling",
+  "fc-service-optional",
+  "odd-period-is-regular",
+  "tolerance"
+ ],
+ "AD078": [
+  "contract-rate-as-apr",
+  "fc-doc-same",
+  "fc-gap-term",
+  "finance-charge"
+ ],
+ "AD079": [
+  "apr-method",
+  "fc-doc-difference",
+  "fc-property-excluded-required",
+  "odd-first-period"
+ ],
+ "AD080": [
+  "contract-rate-as-apr",
+  "fc-doc-difference",
+  "finance-charge"
+ ],
+ "AD081": [
+  "disclosure-no-down",
+  "fc-doc-difference",
+  "fc-lien-excluded",
+  "trigger-down_pct"
+ ],
+ "AD082": [
+  "fc-acquisition",
+  "fc-credit-processing",
+  "fc-doc-same",
+  "fc-required-third-party",
+  "fc-service-required",
+  "irregular",
+  "step-payments",
+  "tolerance"
+ ],
+ "AD083": [
+  "fc-acquisition",
+  "fc-credit-processing",
+  "fc-doc-difference",
+  "fc-lien-not-itemized",
+  "fc-required-third-party",
+  "filler"
+ ],
+ "AD084": [
+  "fc-credit-processing",
+  "fc-doc-same",
+  "finance-charge"
+ ],
+ "AD085": [
+  "broadcast",
+  "broadcast-local_ref",
+  "fc-application-all",
+  "fc-doc-same"
+ ],
+ "AD086": [
+  "disclosure-bare",
+  "fc-application-all",
+  "fc-doc-same",
+  "trigger-period"
+ ],
+ "AD087": [
+  "disclosure-bare",
+  "fc-doc-same",
+  "fc-nonfiling",
+  "fc-property-coverage_term_disclosed",
+  "fc-required-third-party",
+  "trigger-payment+period"
+ ],
+ "AD088": [
+  "disclosure-complete",
+  "fc-acquisition",
+  "fc-application-approved-only",
+  "fc-doc-same",
+  "fc-lien-not-itemized",
+  "fc-nonfiling",
+  "trigger-down"
+ ],
+ "AD089": [
+  "disclosure-partial-repayment",
+  "fc-doc-difference",
+  "fc-property-excluded-required",
+  "irregular",
+  "step-payments"
+ ],
+ "AD090": [
+  "disclosure-complete",
+  "fc-doc-difference",
+  "fc-lien-excluded",
+  "fc-required-third-party",
+  "trigger-period"
+ ],
+ "AD091": [
+  "broadcast",
+  "broadcast-print",
+  "fc-acquisition",
+  "fc-credit-processing",
+  "fc-doc-same",
+  "fc-gap-not_disclosed",
+  "fc-property-excluded-required"
+ ],
+ "AD092": [
+  "fc-doc-difference",
+  "fc-lien-excluded",
+  "fc-life-term",
+  "fc-nonfiling",
+  "fc-service-optional",
+  "filler"
+ ],
+ "AD093": [
+  "disclosure-no-repay",
+  "fc-credit-processing",
+  "fc-doc-difference",
+  "trigger-payment"
+ ],
+ "AD094": [
+  "fc-doc-same",
+  "fc-lien-excluded",
+  "filler",
+  "step-payments"
+ ],
+ "AD095": [
+  "fc-doc-same",
+  "fc-life-term",
+  "filler"
+ ],
+ "AD096": [
+  "apr-method",
+  "fc-credit-processing",
+  "fc-doc-difference",
+  "fc-property-excluded-required",
+  "fc-required-third-party",
+  "fc-service-optional",
+  "odd-first-period"
+ ],
+ "AD097": [
+  "disclosure-no-down",
+  "fc-doc-same",
+  "fc-life-required",
+  "fc-property-premium_disclosed",
+  "fc-service-required",
+  "trigger-payment+period"
+ ],
+ "AD098": [
+  "disclosure-no-down",
+  "fc-acquisition",
+  "fc-doc-same",
+  "fc-gap-term",
+  "fc-lien-vendor",
+  "fc-service-optional",
+  "trigger-down"
+ ],
+ "AD099": [
+  "fc-acquisition",
+  "fc-doc-same",
+  "fc-property-excluded-required",
+  "filler"
+ ],
+ "AD100": [
+  "fc-doc-difference",
+  "fc-life-required",
+  "filler"
+ ],
+ "AD101": [
+  "fc-doc-same",
+  "fc-nonfiling",
+  "finance-charge"
+ ],
+ "AD102": [
+  "fc-doc-same",
+  "fc-service-optional",
+  "finance-charge"
+ ],
+ "AD103": [
+  "disclosure-no-repay",
+  "fc-doc-same",
+  "fc-gap-required",
+  "fc-lien-excluded",
+  "fc-nonfiling",
+  "fc-service-optional",
+  "trigger-down"
+ ],
+ "AD104": [
+  "broadcast",
+  "broadcast-tollfree_ref",
+  "fc-credit-processing",
+  "fc-doc-difference",
+  "fc-nonfiling"
+ ],
+ "AD105": [
+  "broadcast",
+  "broadcast-tollfree_ref",
+  "fc-acquisition",
+  "fc-doc-difference",
+  "fc-property-coverage_term_disclosed"
+ ],
+ "AD106": [
+  "disclosure-no-down",
+  "fc-doc-difference",
+  "fc-property-excluded-required",
+  "trigger-payment"
+ ],
+ "AD107": [
+  "fc-doc-same",
+  "fc-lien-excluded",
+  "filler"
+ ],
+ "AD108": [
+  "disclosure-no-down",
+  "fc-doc-same",
+  "fc-life-not_disclosed",
+  "fc-nonfiling",
+  "trigger-fc"
+ ],
+ "AD109": [
+  "fc-credit-processing",
+  "fc-doc-same",
+  "fc-life-premium",
+  "filler"
+ ],
+ "AD110": [
+  "fc-doc-same",
+  "fc-lien-excluded",
+  "irregular",
+  "step-payments",
+  "tolerance"
+ ],
+ "AD111": [
+  "fc-doc-difference",
+  "filler"
+ ],
+ "AD112": [
+  "fc-doc-same",
+  "fc-life-excluded",
+  "filler"
+ ],
+ "AD113": [
+  "fc-doc-same",
+  "fc-life-excluded",
+  "fc-property-excluded-required",
+  "non-trigger"
+ ],
+ "AD114": [
+  "fc-acquisition",
+  "fc-doc-same",
+  "fc-nonfiling",
+  "fc-property-excluded-required",
+  "rate-label"
+ ],
+ "AD115": [
+  "fc-doc-same",
+  "fc-gap-required",
+  "finance-charge"
+ ],
+ "AD116": [
+  "apr-method",
+  "fc-doc-difference",
+  "fc-lien-excluded",
+  "fc-life-term",
+  "fc-nonfiling",
+  "fc-service-optional",
+  "odd-first-period"
+ ],
+ "AD117": [
+  "fc-doc-same",
+  "fc-lien-excluded",
+  "finance-charge"
+ ],
+ "AD118": [
+  "disclosure-complete",
+  "fc-doc-difference",
+  "fc-gap-not_disclosed",
+  "trigger-down_pct"
+ ],
+ "AD119": [
+  "fc-doc-difference",
+  "fc-gap-not_disclosed",
+  "filler"
+ ],
+ "AD120": [
+  "apr-method",
+  "fc-application-approved-only",
+  "fc-doc-difference",
+  "fc-nonfiling",
+  "odd-first-period"
+ ],
+ "AD121": [
+  "apr-method",
+  "fc-application-approved-only",
+  "fc-doc-same",
+  "odd-first-period"
+ ],
+ "AD122": [
+  "fc-application-approved-only",
+  "fc-doc-difference",
+  "fc-gap-excluded",
+  "fc-nonfiling",
+  "fc-property-excluded-required",
+  "irregular",
+  "step-payments",
+  "tolerance"
+ ],
+ "AD123": [
+  "contract-rate-as-apr",
+  "fc-doc-same",
+  "fc-service-required",
+  "finance-charge"
+ ],
+ "AD124": [
+  "disclosure-no-repay",
+  "fc-acquisition",
+  "fc-application-approved-only",
+  "fc-doc-same",
+  "fc-lien-excluded",
+  "fc-nonfiling",
+  "trigger-payment+period"
+ ],
+ "AD125": [
+  "fc-doc-same",
+  "fc-nonfiling",
+  "fc-property-coverage_term_disclosed",
+  "fc-required-third-party",
+  "filler"
+ ],
+ "AD126": [
+  "disclosure-complete",
+  "fc-application-all",
+  "fc-doc-same",
+  "fc-lien-excluded",
+  "trigger-payment"
+ ],
+ "AD127": [
+  "fc-application-approved-only",
+  "fc-doc-same",
+  "finance-charge"
+ ],
+ "AD128": [
+  "fc-application-all",
+  "fc-doc-difference",
+  "fc-gap-excluded",
+  "odd-period-is-regular",
+  "tolerance"
+ ]
+}

@@ -1,0 +1,31 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/auto-ad-clearance"
+description = "Clear a car dealer group's financing ads under Regulation Z: compute each advertised offer's finance charge, amount financed and Appendix J APR, judge the stated rate against the accuracy tolerance, and list the disclosures each ad is missing."
+
+[metadata]
+difficulty_explanation = "Dealer marketing teams must clear every financing ad before it runs, and the result turns on Regulation Z details few people apply correctly. Whether a worksheet charge is a finance charge depends on facts under 12 CFR 1026.4 and its official interpretations: only the excess of a documentation fee over what cash buyers pay counts; lien fees are excluded only if paid to a public official and itemized; non-filing insurance only up to the filing fees it replaces; credit life and GAP only when every written-disclosure and signed-request condition holds; property insurance even when required, if the insurer choice and premium are disclosed; application fees only if charged to all applicants. The APR must follow the Appendix J actuarial method with a fractional first unit-period (months equal, odd days over 30), which a spreadsheet RATE() misses by up to a few tenths of a point. The accuracy tolerance is 1/8 point unless the transaction is irregular, and an odd first period does not make it irregular while step payments do. Under 1026.24 and its commentary, '$0 down', 'low monthly payments' or 'take years to repay' trigger nothing, while '80% financing' or a payment amount does; repayment terms must cover the full schedule; a rate must be stated as an APR; and a radio or TV ad may use the toll-free-number alternative. Each shortcut gets most ads right and a planted set wrong. The data is synthetic but shaped like a real dealer group's sales event."
+solution_explanation = "For each offer, classify every itemized charge under 12 CFR 1026.4 and its commentary using the facts on the worksheet, sum the finance-charge portions, compute the amount financed as cash price minus down payment plus all charges minus the finance-charge portions (1026.18(b)), and the finance charge as total of payments minus amount financed. Solve the Appendix J single-advance equation for the monthly rate, with the first payment's whole months counted back from its due date and the remaining days divided by 30 treated at simple interest, and multiply by 12. Compare any rate the ad states with that APR using 1/8 point, or 1/4 point when payment amounts vary beyond the first or final payment. Then read the copy: find triggering terms per 1026.24(d)(1) and comments, check that the down payment, full repayment terms and the rate as an 'annual percentage rate' (and any possible increase) are stated, or that a radio or TV ad uses the toll-free alternative of 1026.24(g)."
+verification_explanation = "The verifier recomputes every row with its own independently written engine (engine.py): different charge-classification code, an Appendix J balance roll-forward with exact fractions and bisection, and sentence-level ad parsing. It works from a private copy of the inputs that exists only in the verifier image and never runs agent code. The engine is itself checked against 128 hand-worked planted cases (golden.json). Tests check the exact header, one row per ad in input order, value formats, the hand-worked cases, one test per rule family (finance charge classification, APR with an odd first period, tolerance, triggering terms, required disclosures, rate statement and increase, broadcast alternative), and finally every row: money and decisions exactly, APR within 0.01 percentage point. Stated rates in the data are at least 0.02 point from any tolerance boundary. Reward is 1 only if every test passes."
+category = "Operations"
+subcategory = "Marketing"
+tags = ["marketing-operations", "advertising-compliance", "regulation-z", "truth-in-lending", "apr", "auto-finance", "python"]
+expert_time_estimate_hours = 7
+relevant_experience = "Advertising compliance or marketing operations for auto dealers or consumer lenders: Regulation Z finance charge classification, Appendix J APR computation, and 1026.24 advertising disclosure review."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0

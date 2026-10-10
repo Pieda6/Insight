@@ -1,0 +1,5116 @@
+[
+ {
+  "offer_id": "OF001",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Corvan Sport",
+  "cash_price": 1930000,
+  "downpayment": 300000,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-19",
+  "first_payment_date": "2026-11-26",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 34373
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 139925,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 54900
+   }
+  ]
+ },
+ {
+  "offer_id": "OF002",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Astra Compact SE",
+  "cash_price": 4940000,
+  "downpayment": 325000,
+  "contract_rate_percent": 0.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-01",
+  "first_payment_date": "2026-11-22",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 107528
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 358150,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 0
+   }
+  ]
+ },
+ {
+  "offer_id": "OF003",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Pike 2500 Work Truck",
+  "cash_price": 3590000,
+  "downpayment": 350000,
+  "contract_rate_percent": 6.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-11",
+  "first_payment_date": "2026-11-10",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 86002
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 224375,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 59500
+   }
+  ]
+ },
+ {
+  "offer_id": "OF004",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Astra Compact SE",
+  "cash_price": 3205000,
+  "downpayment": 0,
+  "contract_rate_percent": 9.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-18",
+  "first_payment_date": "2026-11-25",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 74150
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 184288,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 19900,
+    "charged_to_cash_buyers": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF005",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Corvan LX",
+  "cash_price": 2015000,
+  "downpayment": 500000,
+  "contract_rate_percent": 4.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-20",
+  "first_payment_date": "2026-11-19",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 52183
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 141050,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 8900,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF006",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Astra Compact SE",
+  "cash_price": 2095000,
+  "downpayment": 250000,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-11",
+  "first_payment_date": "2026-11-21",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 84,
+    "amount": 27954
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 130938,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 1500,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF007",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Halden SUV",
+  "cash_price": 4340000,
+  "downpayment": 100000,
+  "contract_rate_percent": 4.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-29",
+  "first_payment_date": "2026-12-02",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 137064
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 249550,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 6000,
+    "paid_to": "electronic lien service vendor (private company)",
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF008",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Kestrel EV",
+  "cash_price": 3630000,
+  "downpayment": 575000,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-24",
+  "first_payment_date": "2026-11-27",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 79805
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 263175,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 7800,
+    "paid_to": "electronic lien service vendor (private company)",
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF009",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Kestrel EV",
+  "cash_price": 3655000,
+  "downpayment": 0,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-07",
+  "first_payment_date": "2026-11-14",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 61817
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 210162,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 3000,
+    "filing_fees_otherwise_payable": 3300,
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF010",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Corvan LX",
+  "cash_price": 2225000,
+  "downpayment": 0,
+  "contract_rate_percent": 1.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-07",
+  "first_payment_date": "2026-11-10",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 43007
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 155750,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 4500,
+    "filing_fees_otherwise_payable": 2000,
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF011",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Marlow Minivan",
+  "cash_price": 2900000,
+  "downpayment": 0,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-28",
+  "first_payment_date": "2026-12-12",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 100466
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 166750,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "service_contract",
+    "amount": 149500,
+    "required_by_creditor": false,
+    "sold_to_cash_buyers_at_same_price": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF012",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Kestrel EV",
+  "cash_price": 5155000,
+  "downpayment": 375000,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-08",
+  "first_payment_date": "2026-11-07",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 102226
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 296412,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "service_contract",
+    "amount": 149500,
+    "required_by_creditor": true,
+    "sold_to_cash_buyers_at_same_price": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF013",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Corvan LX",
+  "cash_price": 3685000,
+  "downpayment": 0,
+  "contract_rate_percent": 8.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-29",
+  "first_payment_date": "2026-12-09",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 99241
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 211888,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 9900,
+    "charged_to_all_applicants": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF014",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Marlow Minivan",
+  "cash_price": 2625000,
+  "downpayment": 0,
+  "contract_rate_percent": 1.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-12",
+  "first_payment_date": "2026-11-11",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 84,
+    "amount": 36447
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 150938,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 7500,
+    "charged_to_all_applicants": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF015",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Pike 1500 Crew Cab",
+  "cash_price": 3310000,
+  "downpayment": 0,
+  "contract_rate_percent": 2.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-05",
+  "first_payment_date": "2026-11-04",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 66141
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 231700,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 69500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 24,
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF016",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Marlow Minivan",
+  "cash_price": 3100000,
+  "downpayment": 300000,
+  "contract_rate_percent": 9.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-09",
+  "first_payment_date": "2026-11-23",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 58730
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 224750,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 69500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": false,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF017",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Halden SUV Hybrid",
+  "cash_price": 2590000,
+  "downpayment": 175000,
+  "contract_rate_percent": 1.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-17",
+  "first_payment_date": "2026-12-08",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 84,
+    "amount": 35003
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 187775,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 69500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": false,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF018",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Halden SUV",
+  "cash_price": 1920000,
+  "downpayment": 325000,
+  "contract_rate_percent": 1.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-05",
+  "first_payment_date": "2026-11-19",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 32695
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 134400,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 49500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF019",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Halden SUV Hybrid",
+  "cash_price": 4580000,
+  "downpayment": 275000,
+  "contract_rate_percent": 1.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-26",
+  "first_payment_date": "2026-11-25",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 69450
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 263350,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 79500,
+    "required_by_creditor": true,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF020",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Corvan LX",
+  "cash_price": 2045000,
+  "downpayment": 250000,
+  "contract_rate_percent": 6.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-21",
+  "first_payment_date": "2026-12-05",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 35511
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 143150,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 69500,
+    "required_by_creditor": true,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF021",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Marlow Minivan",
+  "cash_price": 4270000,
+  "downpayment": 300000,
+  "contract_rate_percent": 8.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-29",
+  "first_payment_date": "2026-12-09",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 92158
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 266875,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 112000,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF022",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Corvan LX",
+  "cash_price": 3760000,
+  "downpayment": 0,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-03",
+  "first_payment_date": "2026-10-19",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 77774
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 272600,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 112000,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF023",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Corvan Sport",
+  "cash_price": 4300000,
+  "downpayment": 325000,
+  "contract_rate_percent": 6.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-18",
+  "first_payment_date": "2026-11-03",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 76603
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 311750,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 134500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": false,
+    "insurer_choice_disclosed": false,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF024",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Corvan LX",
+  "cash_price": 3835000,
+  "downpayment": 100000,
+  "contract_rate_percent": 7.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-29",
+  "first_payment_date": "2026-11-14",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 84176
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 239688,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 112000,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": false,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF025",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Astra Compact",
+  "cash_price": 2290000,
+  "downpayment": 475000,
+  "contract_rate_percent": 4.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-26",
+  "first_payment_date": "2026-12-06",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 63894
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 166025,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 79500
+   }
+  ]
+ },
+ {
+  "offer_id": "OF026",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Marlow Minivan",
+  "cash_price": 2850000,
+  "downpayment": 0,
+  "contract_rate_percent": 0.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-14",
+  "first_payment_date": "2026-11-28",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 67145
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 163875,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 49500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": false,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF027",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Pike 1500 Crew Cab",
+  "cash_price": 1915000,
+  "downpayment": 0,
+  "contract_rate_percent": 4.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-14",
+  "first_payment_date": "2026-11-08",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 50327
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 134050,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 39500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": false,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF028",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Halden SUV",
+  "cash_price": 2355000,
+  "downpayment": 125000,
+  "contract_rate_percent": 8.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-27",
+  "first_payment_date": "2026-12-07",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 85886
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 170738,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "service_contract",
+    "amount": 229500,
+    "required_by_creditor": true,
+    "sold_to_cash_buyers_at_same_price": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF029",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Astra Compact",
+  "cash_price": 3980000,
+  "downpayment": 150000,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-28",
+  "first_payment_date": "2026-11-27",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 125992
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 228850,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 59900
+   }
+  ]
+ },
+ {
+  "offer_id": "OF030",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Pike 1500 Crew Cab",
+  "cash_price": 4790000,
+  "downpayment": 225000,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-06",
+  "first_payment_date": "2026-11-20",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 150512
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 275425,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 19900,
+    "charged_to_cash_buyers": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF031",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Astra Compact SE",
+  "cash_price": 3520000,
+  "downpayment": 0,
+  "contract_rate_percent": 2.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-15",
+  "first_payment_date": "2026-12-04",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 112972
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 220000,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 49500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 24,
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF032",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Pike 2500 Work Truck",
+  "cash_price": 3440000,
+  "downpayment": 525000,
+  "contract_rate_percent": 0.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-20",
+  "first_payment_date": "2026-12-13",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 91757
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 240800,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 7500,
+    "charged_to_all_applicants": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF033",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Astra Compact",
+  "cash_price": 2955000,
+  "downpayment": 400000,
+  "contract_rate_percent": 0.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-10",
+  "first_payment_date": "2026-12-01",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 24,
+    "amount": 121584
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 214237,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 49500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": false,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 3300,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF034",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Astra Compact",
+  "cash_price": 3770000,
+  "downpayment": 175000,
+  "contract_rate_percent": 1.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-24",
+  "first_payment_date": "2026-12-13",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 111635
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 216775,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 44900
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 3000,
+    "filing_fees_otherwise_payable": 3300,
+    "itemized_and_disclosed": true
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 9900,
+    "charged_to_all_applicants": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF035",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Astra Compact SE",
+  "cash_price": 3675000,
+  "downpayment": 325000,
+  "contract_rate_percent": 2.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-27",
+  "first_payment_date": "2026-11-11",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 24,
+    "amount": 165153
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 211312,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 12500,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 69500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 112000,
+    "obtained_through_creditor": true,
+    "required_by_creditor": false,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": false,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF036",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Halden SUV Hybrid",
+  "cash_price": 2150000,
+  "downpayment": 0,
+  "contract_rate_percent": 0.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-10",
+  "first_payment_date": "2026-10-25",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 24,
+    "amount": 109729
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 134375,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "service_contract",
+    "amount": 189500,
+    "required_by_creditor": false,
+    "sold_to_cash_buyers_at_same_price": true
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 1500,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": true
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 3000,
+    "filing_fees_otherwise_payable": 3300,
+    "itemized_and_disclosed": true
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 39500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": false,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF037",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Corvan Sport",
+  "cash_price": 4485000,
+  "downpayment": 0,
+  "contract_rate_percent": 1.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-18",
+  "first_payment_date": "2026-11-02",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 24,
+    "amount": 206314
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 280312,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 5000,
+    "charged_to_all_applicants": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF038",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Pike 2500 Work Truck",
+  "cash_price": 4920000,
+  "downpayment": 525000,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-09",
+  "first_payment_date": "2026-11-28",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 144699
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 344400,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 12500,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 2500,
+    "filing_fees_otherwise_payable": 1800,
+    "itemized_and_disclosed": true
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 59500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF039",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Corvan Sport",
+  "cash_price": 5040000,
+  "downpayment": 525000,
+  "contract_rate_percent": 2.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-10",
+  "first_payment_date": "2026-11-28",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 24,
+    "amount": 215990
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 289800,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 134500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF040",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Kestrel EV",
+  "cash_price": 3175000,
+  "downpayment": 0,
+  "contract_rate_percent": 1.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-13",
+  "first_payment_date": "2026-12-07",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 109604
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 222250,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 39900
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 12500,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 89500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   },
+   {
+    "kind": "service_contract",
+    "amount": 229500,
+    "required_by_creditor": false,
+    "sold_to_cash_buyers_at_same_price": true
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 34900,
+    "charged_to_cash_buyers": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF041",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Kestrel EV",
+  "cash_price": 4910000,
+  "downpayment": 250000,
+  "contract_rate_percent": 1.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-02",
+  "first_payment_date": "2026-10-18",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 12,
+    "amount": 61510
+   },
+   {
+    "count": 60,
+    "amount": 77869
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 343700,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 2300,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF042",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Pike 2500 Work Truck",
+  "cash_price": 2735000,
+  "downpayment": 0,
+  "contract_rate_percent": 9.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-21",
+  "first_payment_date": "2026-11-28",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 12,
+    "amount": 67319
+   },
+   {
+    "count": 36,
+    "amount": 88077
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 191450,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 69500
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 19900,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 8900,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "service_contract",
+    "amount": 149500,
+    "required_by_creditor": true,
+    "sold_to_cash_buyers_at_same_price": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF043",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Halden SUV",
+  "cash_price": 2550000,
+  "downpayment": 0,
+  "contract_rate_percent": 6.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-13",
+  "first_payment_date": "2026-11-16",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 12,
+    "amount": 41930
+   },
+   {
+    "count": 60,
+    "amount": 53386
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 184875,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 59500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 24,
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": false
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 134500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF044",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Corvan LX",
+  "cash_price": 4325000,
+  "downpayment": 0,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-10",
+  "first_payment_date": "2026-12-01",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 12,
+    "amount": 119968
+   },
+   {
+    "count": 24,
+    "amount": 160678
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 270312,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 59500
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 19900,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 7500,
+    "charged_to_all_applicants": false
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 39500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF045",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Astra Compact SE",
+  "cash_price": 2990000,
+  "downpayment": 125000,
+  "contract_rate_percent": 6.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-11",
+  "first_payment_date": "2026-12-02",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 12,
+    "amount": 65884
+   },
+   {
+    "count": 36,
+    "amount": 85869
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 216775,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 39900
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 34900,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 2500,
+    "filing_fees_otherwise_payable": 1800,
+    "itemized_and_disclosed": true
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 112000,
+    "obtained_through_creditor": true,
+    "required_by_creditor": false,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 39500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF046",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Astra Compact SE",
+  "cash_price": 4040000,
+  "downpayment": 250000,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-28",
+  "first_payment_date": "2026-12-08",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 12,
+    "amount": 82848
+   },
+   {
+    "count": 36,
+    "amount": 107583
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 252500,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 2500,
+    "filing_fees_otherwise_payable": 1800,
+    "itemized_and_disclosed": true
+   },
+   {
+    "kind": "service_contract",
+    "amount": 229500,
+    "required_by_creditor": false,
+    "sold_to_cash_buyers_at_same_price": true
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 134500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": false,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF047",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Astra Compact",
+  "cash_price": 3975000,
+  "downpayment": 100000,
+  "contract_rate_percent": 7.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-02",
+  "first_payment_date": "2026-11-16",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 12,
+    "amount": 55056
+   },
+   {
+    "count": 72,
+    "amount": 69771
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 278250,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 7500,
+    "charged_to_all_applicants": false
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 12500,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 79500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": false,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF048",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Kestrel EV",
+  "cash_price": 4915000,
+  "downpayment": 275000,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-16",
+  "first_payment_date": "2026-11-15",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 12,
+    "amount": 66636
+   },
+   {
+    "count": 60,
+    "amount": 84546
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 307188,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 54900
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 5000,
+    "charged_to_all_applicants": false
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 39500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": false,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 112000,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 4500,
+    "filing_fees_otherwise_payable": 2000,
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF049",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Corvan LX",
+  "cash_price": 2535000,
+  "downpayment": 350000,
+  "contract_rate_percent": 9.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-04",
+  "first_payment_date": "2026-11-25",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 84,
+    "amount": 43790
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 177450,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "service_contract",
+    "amount": 189500,
+    "required_by_creditor": false,
+    "sold_to_cash_buyers_at_same_price": true
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 5000,
+    "charged_to_all_applicants": false
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 4500,
+    "filing_fees_otherwise_payable": 2000,
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF050",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Pike 1500 Crew Cab",
+  "cash_price": 2970000,
+  "downpayment": 475000,
+  "contract_rate_percent": 9.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-06",
+  "first_payment_date": "2026-10-23",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 95391
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 207900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 69500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 69500
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 29900,
+    "charged_to_cash_buyers": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF051",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Corvan LX",
+  "cash_price": 2830000,
+  "downpayment": 100000,
+  "contract_rate_percent": 4.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-24",
+  "first_payment_date": "2026-11-10",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 50840
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 198100,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 59500
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 89500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF052",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Halden SUV",
+  "cash_price": 2305000,
+  "downpayment": 550000,
+  "contract_rate_percent": 1.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-05",
+  "first_payment_date": "2026-10-22",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 29923
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 161350,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 49500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF053",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Halden SUV",
+  "cash_price": 3485000,
+  "downpayment": 175000,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-07",
+  "first_payment_date": "2026-10-24",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 118465
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 252662,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 59500
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 9900,
+    "charged_to_all_applicants": false
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 39500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": false,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "service_contract",
+    "amount": 149500,
+    "required_by_creditor": true,
+    "sold_to_cash_buyers_at_same_price": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF054",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Astra Compact SE",
+  "cash_price": 2070000,
+  "downpayment": 350000,
+  "contract_rate_percent": 9.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-09",
+  "first_payment_date": "2026-11-28",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 42693
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 150075,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 29900
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 59500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 9900,
+    "charged_to_all_applicants": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF055",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Kestrel EV",
+  "cash_price": 2290000,
+  "downpayment": 150000,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-24",
+  "first_payment_date": "2026-11-18",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 46157
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 143125,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 1500,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": true
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 7500,
+    "charged_to_all_applicants": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF056",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Astra Compact",
+  "cash_price": 3495000,
+  "downpayment": 525000,
+  "contract_rate_percent": 6.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-02",
+  "first_payment_date": "2026-10-27",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 81684
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 244650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 112000,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF057",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Astra Compact",
+  "cash_price": 3275000,
+  "downpayment": 275000,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-11",
+  "first_payment_date": "2026-11-05",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 51666
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 188312,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 54900
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 34900,
+    "charged_to_cash_buyers": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF058",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Halden SUV Hybrid",
+  "cash_price": 1815000,
+  "downpayment": 425000,
+  "contract_rate_percent": 8.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-15",
+  "first_payment_date": "2026-11-22",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 53286
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 131588,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 12500,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 69500
+   }
+  ]
+ },
+ {
+  "offer_id": "OF059",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Corvan Sport",
+  "cash_price": 4520000,
+  "downpayment": 575000,
+  "contract_rate_percent": 6.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-02",
+  "first_payment_date": "2026-10-27",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 73500
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 282500,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 8900,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 2300,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF060",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Halden SUV Hybrid",
+  "cash_price": 2760000,
+  "downpayment": 425000,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-08",
+  "first_payment_date": "2026-11-15",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 41458
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 158700,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 29900,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 39500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF061",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Halden SUV Hybrid",
+  "cash_price": 2540000,
+  "downpayment": 350000,
+  "contract_rate_percent": 7.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-27",
+  "first_payment_date": "2026-12-11",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 50914
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 184150,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 8900,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 3300,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": true
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 39500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF062",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Pike 2500 Work Truck",
+  "cash_price": 4830000,
+  "downpayment": 250000,
+  "contract_rate_percent": 8.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-13",
+  "first_payment_date": "2026-11-12",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 89882
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 338100,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 7500,
+    "charged_to_all_applicants": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF063",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Corvan LX",
+  "cash_price": 5040000,
+  "downpayment": 400000,
+  "contract_rate_percent": 9.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-19",
+  "first_payment_date": "2026-11-22",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 130793
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 352800,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 7500,
+    "charged_to_all_applicants": false
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 79500
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 3300,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": false
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 2500,
+    "filing_fees_otherwise_payable": 1800,
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF064",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Astra Compact SE",
+  "cash_price": 2960000,
+  "downpayment": 550000,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-06",
+  "first_payment_date": "2026-10-28",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 47283
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 214600,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 6800,
+    "paid_to": "electronic lien service vendor (private company)",
+    "itemized_and_disclosed": true
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 39500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": false,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 79500
+   },
+   {
+    "kind": "service_contract",
+    "amount": 189500,
+    "required_by_creditor": false,
+    "sold_to_cash_buyers_at_same_price": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF065",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Marlow Minivan",
+  "cash_price": 2255000,
+  "downpayment": 450000,
+  "contract_rate_percent": 6.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-23",
+  "first_payment_date": "2026-12-03",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 46114
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 163488,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 39500,
+    "required_by_creditor": true,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "service_contract",
+    "amount": 229500,
+    "required_by_creditor": false,
+    "sold_to_cash_buyers_at_same_price": true
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 2500,
+    "filing_fees_otherwise_payable": 1800,
+    "itemized_and_disclosed": true
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 3300,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF066",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Halden SUV Hybrid",
+  "cash_price": 2505000,
+  "downpayment": 150000,
+  "contract_rate_percent": 8.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-14",
+  "first_payment_date": "2026-10-28",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 48006
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 144038,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 7500,
+    "charged_to_all_applicants": true
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 69500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": false,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF067",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Corvan Sport",
+  "cash_price": 4900000,
+  "downpayment": 275000,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-16",
+  "first_payment_date": "2026-11-06",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 93177
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 306250,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 49500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": false,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF068",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Corvan LX",
+  "cash_price": 2065000,
+  "downpayment": 575000,
+  "contract_rate_percent": 6.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-19",
+  "first_payment_date": "2026-12-10",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 40854
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 129062,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 1500,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF069",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Halden SUV Hybrid",
+  "cash_price": 2460000,
+  "downpayment": 125000,
+  "contract_rate_percent": 1.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-02",
+  "first_payment_date": "2026-11-12",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 40106
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 141450,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "service_contract",
+    "amount": 149500,
+    "required_by_creditor": true,
+    "sold_to_cash_buyers_at_same_price": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF070",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Astra Compact",
+  "cash_price": 4535000,
+  "downpayment": 550000,
+  "contract_rate_percent": 7.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-14",
+  "first_payment_date": "2026-11-28",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 112827
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 317450,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 89500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": false,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 5000,
+    "charged_to_all_applicants": false
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 79500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": false
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 79500
+   }
+  ]
+ },
+ {
+  "offer_id": "OF071",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Kestrel EV",
+  "cash_price": 3045000,
+  "downpayment": 375000,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-15",
+  "first_payment_date": "2026-11-25",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 49482
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 220762,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 8900,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF072",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Astra Compact SE",
+  "cash_price": 2680000,
+  "downpayment": 125000,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-10",
+  "first_payment_date": "2026-10-26",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 55039
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 167500,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 59500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": false,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 3000,
+    "filing_fees_otherwise_payable": 3300,
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF073",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Pike 2500 Work Truck",
+  "cash_price": 3930000,
+  "downpayment": 425000,
+  "contract_rate_percent": 9.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-01",
+  "first_payment_date": "2026-11-15",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 84,
+    "amount": 65013
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 275100,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 59500
+   }
+  ]
+ },
+ {
+  "offer_id": "OF074",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Corvan Sport",
+  "cash_price": 2630000,
+  "downpayment": 375000,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-14",
+  "first_payment_date": "2026-11-21",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 60875
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 151225,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 49500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 7500,
+    "charged_to_all_applicants": false
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 39500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 3300,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF075",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Pike 2500 Work Truck",
+  "cash_price": 4540000,
+  "downpayment": 0,
+  "contract_rate_percent": 9.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-01",
+  "first_payment_date": "2026-11-08",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 105817
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 283750,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 7500,
+    "charged_to_all_applicants": false
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 69500
+   }
+  ]
+ },
+ {
+  "offer_id": "OF076",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Pike 1500 Crew Cab",
+  "cash_price": 5015000,
+  "downpayment": 250000,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-06",
+  "first_payment_date": "2026-11-16",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 101254
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 313438,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "service_contract",
+    "amount": 189500,
+    "required_by_creditor": true,
+    "sold_to_cash_buyers_at_same_price": false
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 79500,
+    "required_by_creditor": true,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 24,
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 89500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": false,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF077",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Astra Compact",
+  "cash_price": 4410000,
+  "downpayment": 450000,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-29",
+  "first_payment_date": "2026-11-23",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 72911
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 275625,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 2300,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": true
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 79500
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 7500,
+    "charged_to_all_applicants": false
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 2500,
+    "filing_fees_otherwise_payable": 1800,
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF078",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Astra Compact SE",
+  "cash_price": 1915000,
+  "downpayment": 300000,
+  "contract_rate_percent": 2.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-14",
+  "first_payment_date": "2026-11-04",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 84,
+    "amount": 25696
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 119688,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 4500,
+    "filing_fees_otherwise_payable": 2000,
+    "itemized_and_disclosed": true
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 8900,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 134500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF079",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Halden SUV",
+  "cash_price": 4845000,
+  "downpayment": 350000,
+  "contract_rate_percent": 9.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-01",
+  "first_payment_date": "2026-11-22",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 125745
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 302812,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 39900
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 8900,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 69500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF080",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Kestrel EV",
+  "cash_price": 3300000,
+  "downpayment": 525000,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-17",
+  "first_payment_date": "2026-11-27",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 51185
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 231000,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 54900
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 34900,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 134500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": false,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 8900,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 2300,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF081",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Pike 2500 Work Truck",
+  "cash_price": 1900000,
+  "downpayment": 500000,
+  "contract_rate_percent": 1.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-13",
+  "first_payment_date": "2026-11-07",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 31282
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 109250,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 7500,
+    "charged_to_all_applicants": false
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 79500
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 8900,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 89500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF082",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Halden SUV",
+  "cash_price": 3740000,
+  "downpayment": 475000,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-28",
+  "first_payment_date": "2026-11-18",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 62292
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 261800,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 39500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 112000,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF083",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Halden SUV",
+  "cash_price": 5115000,
+  "downpayment": 175000,
+  "contract_rate_percent": 9.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-13",
+  "first_payment_date": "2026-11-12",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 136422
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 358050,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 9900,
+    "charged_to_all_applicants": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF084",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Halden SUV",
+  "cash_price": 3740000,
+  "downpayment": 0,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-03",
+  "first_payment_date": "2026-10-24",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 78211
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 215050,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 29900,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 1500,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF085",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Kestrel EV",
+  "cash_price": 4460000,
+  "downpayment": 0,
+  "contract_rate_percent": 8.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-24",
+  "first_payment_date": "2026-11-23",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 121546
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 312200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 34900
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 4500,
+    "filing_fees_otherwise_payable": 2000,
+    "itemized_and_disclosed": true
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 7500,
+    "charged_to_all_applicants": false
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 34900,
+    "charged_to_cash_buyers": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF086",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Pike 2500 Work Truck",
+  "cash_price": 4820000,
+  "downpayment": 0,
+  "contract_rate_percent": 7.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-22",
+  "first_payment_date": "2026-11-21",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 94753
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 277150,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 59500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 59500
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 89500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 12500,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF087",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Marlow Minivan",
+  "cash_price": 3480000,
+  "downpayment": 175000,
+  "contract_rate_percent": 1.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-22",
+  "first_payment_date": "2026-11-12",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 12,
+    "amount": 89198
+   },
+   {
+    "count": 24,
+    "amount": 118850
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 243600,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 34900
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 8900,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 112000,
+    "obtained_through_creditor": true,
+    "required_by_creditor": false,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": false
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 59500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": false,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF088",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Corvan LX",
+  "cash_price": 4845000,
+  "downpayment": 0,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-01",
+  "first_payment_date": "2026-11-04",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 12,
+    "amount": 102384
+   },
+   {
+    "count": 36,
+    "amount": 133275
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 278588,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 34900
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 134500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF089",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Halden SUV",
+  "cash_price": 4810000,
+  "downpayment": 0,
+  "contract_rate_percent": 7.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-16",
+  "first_payment_date": "2026-11-10",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 12,
+    "amount": 88348
+   },
+   {
+    "count": 48,
+    "amount": 113622
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 300625,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 29900
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 134500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF090",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Pike 2500 Work Truck",
+  "cash_price": 3035000,
+  "downpayment": 0,
+  "contract_rate_percent": 2.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-23",
+  "first_payment_date": "2026-11-26",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 52739
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 212450,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 29900
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 3300,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": false
+   },
+   {
+    "kind": "service_contract",
+    "amount": 149500,
+    "required_by_creditor": true,
+    "sold_to_cash_buyers_at_same_price": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF091",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Halden SUV Hybrid",
+  "cash_price": 4015000,
+  "downpayment": 500000,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-29",
+  "first_payment_date": "2026-11-28",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 125855
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 230862,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 89500
+   },
+   {
+    "kind": "service_contract",
+    "amount": 149500,
+    "required_by_creditor": false,
+    "sold_to_cash_buyers_at_same_price": true
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 69500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 24,
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF092",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Halden SUV",
+  "cash_price": 4950000,
+  "downpayment": 150000,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-28",
+  "first_payment_date": "2026-11-18",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 123736
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 284625,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 54900
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 59500
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 34900,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 2300,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": false
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 8900,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF093",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Pike 1500 Crew Cab",
+  "cash_price": 4645000,
+  "downpayment": 175000,
+  "contract_rate_percent": 7.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-19",
+  "first_payment_date": "2026-11-04",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 102157
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 267088,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 134500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 4500,
+    "filing_fees_otherwise_payable": 2000,
+    "itemized_and_disclosed": true
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 79500
+   }
+  ]
+ },
+ {
+  "offer_id": "OF094",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Pike 1500 Crew Cab",
+  "cash_price": 3625000,
+  "downpayment": 0,
+  "contract_rate_percent": 9.9,
+  "rate_may_increase_after_consummation": true,
+  "contract_date": "2026-10-26",
+  "first_payment_date": "2026-11-25",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 85226
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 208438,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 69900
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 89500
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 3000,
+    "filing_fees_otherwise_payable": 3300,
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF095",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Corvan Sport",
+  "cash_price": 3945000,
+  "downpayment": 325000,
+  "contract_rate_percent": 0.9,
+  "rate_may_increase_after_consummation": true,
+  "contract_date": "2026-10-29",
+  "first_payment_date": "2026-12-06",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 72,
+    "amount": 57405
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 246562,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 39500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": false,
+    "coverage_term_months": "full contract term",
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 34900,
+    "charged_to_cash_buyers": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF096",
+  "store": "Riverbend Truck Center",
+  "vehicle": "2026 Halden SUV",
+  "cash_price": 2025000,
+  "downpayment": 300000,
+  "contract_rate_percent": 9.9,
+  "rate_may_increase_after_consummation": true,
+  "contract_date": "2026-10-06",
+  "first_payment_date": "2026-10-28",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 46556
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 141750,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "lender_required_inspection",
+    "amount": 8900,
+    "provider": "independent inspection firm",
+    "required_by_creditor": true,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "service_contract",
+    "amount": 229500,
+    "required_by_creditor": false,
+    "sold_to_cash_buyers_at_same_price": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF097",
+  "store": "Riverbend Motors Eastgate",
+  "vehicle": "2026 Corvan Sport",
+  "cash_price": 2720000,
+  "downpayment": 225000,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": true,
+  "contract_date": "2026-10-23",
+  "first_payment_date": "2026-11-22",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 61933
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 170000,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 2300,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF098",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Corvan LX",
+  "cash_price": 5125000,
+  "downpayment": 400000,
+  "contract_rate_percent": 0.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-19",
+  "first_payment_date": "2026-11-22",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 90834
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 358750,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 54900
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 59500
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 89500,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": false
+   }
+  ]
+ },
+ {
+  "offer_id": "OF099",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Pike 2500 Work Truck",
+  "cash_price": 4695000,
+  "downpayment": 450000,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-10",
+  "first_payment_date": "2026-11-09",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 84,
+    "amount": 63232
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 293438,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 44900
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 19900,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 4500,
+    "filing_fees_otherwise_payable": 2000,
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF100",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Corvan Sport",
+  "cash_price": 2250000,
+  "downpayment": 525000,
+  "contract_rate_percent": 4.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-15",
+  "first_payment_date": "2026-11-05",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 36,
+    "amount": 59334
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 129375,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 18900,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 44900
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 49500,
+    "required_by_creditor": true,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 24,
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF101",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Corvan Sport",
+  "cash_price": 4255000,
+  "downpayment": 250000,
+  "contract_rate_percent": 5.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-22",
+  "first_payment_date": "2026-12-02",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 104398
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 308488,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 31200,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 9900,
+    "charged_to_all_applicants": false
+   },
+   {
+    "kind": "credit_life_insurance",
+    "amount": 39500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": true,
+    "premium_disclosed_in_writing": false,
+    "coverage_term_months": 24,
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF102",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Corvan LX",
+  "cash_price": 5050000,
+  "downpayment": 525000,
+  "contract_rate_percent": 3.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-03",
+  "first_payment_date": "2026-11-10",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 112173
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 353500,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 69900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "lien_recording_fee",
+    "amount": 2300,
+    "paid_to": "state motor vehicle agency (public official)",
+    "itemized_and_disclosed": true
+   },
+   {
+    "kind": "nonfiling_insurance",
+    "amount": 2500,
+    "filing_fees_otherwise_payable": 1800,
+    "itemized_and_disclosed": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF103",
+  "store": "Riverbend Pre-Owned Outlet",
+  "vehicle": "2026 Marlow Minivan",
+  "cash_price": 1945000,
+  "downpayment": 100000,
+  "contract_rate_percent": 6.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-09",
+  "first_payment_date": "2026-11-03",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 60,
+    "amount": 40227
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 111838,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 49900,
+    "amount_charged_to_cash_buyers": 49900
+   },
+   {
+    "kind": "credit_application_fee",
+    "amount": 5000,
+    "charged_to_all_applicants": true
+   }
+  ]
+ },
+ {
+  "offer_id": "OF104",
+  "store": "Riverbend Motors North",
+  "vehicle": "2026 Pike 1500 Crew Cab",
+  "cash_price": 1855000,
+  "downpayment": 125000,
+  "contract_rate_percent": 0.9,
+  "rate_may_increase_after_consummation": false,
+  "contract_date": "2026-10-18",
+  "first_payment_date": "2026-12-02",
+  "payment_frequency": "monthly",
+  "payment_schedule": [
+   {
+    "count": 48,
+    "amount": 46513
+   }
+  ],
+  "charges": [
+   {
+    "kind": "sales_tax",
+    "amount": 106662,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "title_and_registration",
+    "amount": 24650,
+    "cash_buyers_pay_same": true
+   },
+   {
+    "kind": "documentation_fee",
+    "amount": 59900,
+    "amount_charged_to_cash_buyers": 59900
+   },
+   {
+    "kind": "credit_processing_fee",
+    "amount": 19900,
+    "charged_to_cash_buyers": false
+   },
+   {
+    "kind": "gap_waiver",
+    "amount": 69500,
+    "required_by_creditor": false,
+    "not_required_disclosed_in_writing": false,
+    "premium_disclosed_in_writing": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true,
+    "signed_affirmative_request_after_disclosures": true
+   },
+   {
+    "kind": "lender_acquisition_fee",
+    "amount": 69500
+   },
+   {
+    "kind": "physical_damage_insurance",
+    "amount": 112000,
+    "obtained_through_creditor": true,
+    "required_by_creditor": true,
+    "insurer_choice_disclosed": true,
+    "premium_disclosed": true,
+    "coverage_term_months": 12,
+    "coverage_term_disclosed": true
+   }
+  ]
+ }
+]
