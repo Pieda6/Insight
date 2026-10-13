@@ -1,0 +1,4642 @@
+[
+ {
+  "claim_id": "C0001",
+  "stay_id": "S00120",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0002",
+  "stay_id": "S02280",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0003",
+  "stay_id": "S01925",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0004",
+  "stay_id": "S01960",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0005",
+  "stay_id": "S01026",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0006",
+  "stay_id": "S00319",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0007",
+  "stay_id": "S02204",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0008",
+  "stay_id": "S01127",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0009",
+  "stay_id": "S00086",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0010",
+  "stay_id": "S01168",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0011",
+  "stay_id": "S01670",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0012",
+  "stay_id": "S02438",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0013",
+  "stay_id": "S01802",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0014",
+  "stay_id": "S01412",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0015",
+  "stay_id": "S01924",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0016",
+  "stay_id": "S00060",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0017",
+  "stay_id": "S02246",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0018",
+  "stay_id": "S01647",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0019",
+  "stay_id": "S02175",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0020",
+  "stay_id": "S00306",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0021",
+  "stay_id": "S00358",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0022",
+  "stay_id": "S00610",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0023",
+  "stay_id": "S02433",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0024",
+  "stay_id": "S00484",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0025",
+  "stay_id": "S00253",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0026",
+  "stay_id": "S02473",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0027",
+  "stay_id": "S00757",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0028",
+  "stay_id": "S02355",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0029",
+  "stay_id": "S02371",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0030",
+  "stay_id": "S02500",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0031",
+  "stay_id": "S02216",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0032",
+  "stay_id": "S00222",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0033",
+  "stay_id": "S00223",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0034",
+  "stay_id": "S02496",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0035",
+  "stay_id": "S01880",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0036",
+  "stay_id": "S02302",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0037",
+  "stay_id": "S01022",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0038",
+  "stay_id": "S02084",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0039",
+  "stay_id": "S01336",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0040",
+  "stay_id": "S01799",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0041",
+  "stay_id": "S00309",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0042",
+  "stay_id": "S01994",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0043",
+  "stay_id": "S02168",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0044",
+  "stay_id": "S01407",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0045",
+  "stay_id": "S00067",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0046",
+  "stay_id": "S02173",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0047",
+  "stay_id": "S00809",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0048",
+  "stay_id": "S00354",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0049",
+  "stay_id": "S00533",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0050",
+  "stay_id": "S00269",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0051",
+  "stay_id": "S02498",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0052",
+  "stay_id": "S01415",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0053",
+  "stay_id": "S01113",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0054",
+  "stay_id": "S00440",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0055",
+  "stay_id": "S01963",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0056",
+  "stay_id": "S02096",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0057",
+  "stay_id": "S00944",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0058",
+  "stay_id": "S02068",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0059",
+  "stay_id": "S01650",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0060",
+  "stay_id": "S01763",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0061",
+  "stay_id": "S01694",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0062",
+  "stay_id": "S00690",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0063",
+  "stay_id": "S00845",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0064",
+  "stay_id": "S00754",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0065",
+  "stay_id": "S01401",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0066",
+  "stay_id": "S02256",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0067",
+  "stay_id": "S01968",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0068",
+  "stay_id": "S00530",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0069",
+  "stay_id": "S00767",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0070",
+  "stay_id": "S00633",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0071",
+  "stay_id": "S00077",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0072",
+  "stay_id": "S00804",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0073",
+  "stay_id": "S01478",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0074",
+  "stay_id": "S01119",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0075",
+  "stay_id": "S01207",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0076",
+  "stay_id": "S02081",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0077",
+  "stay_id": "S01645",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0078",
+  "stay_id": "S01235",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0079",
+  "stay_id": "S01231",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0080",
+  "stay_id": "S01741",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0081",
+  "stay_id": "S01996",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0082",
+  "stay_id": "S00730",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0083",
+  "stay_id": "S01779",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0084",
+  "stay_id": "S01696",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0085",
+  "stay_id": "S02316",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0086",
+  "stay_id": "S01932",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0087",
+  "stay_id": "S01871",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0088",
+  "stay_id": "S02530",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0089",
+  "stay_id": "S01646",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0090",
+  "stay_id": "S01074",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0091",
+  "stay_id": "S01495",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0092",
+  "stay_id": "S00575",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0093",
+  "stay_id": "S01118",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0094",
+  "stay_id": "S02412",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0095",
+  "stay_id": "S00030",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0096",
+  "stay_id": "S02300",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0097",
+  "stay_id": "S00532",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0098",
+  "stay_id": "S00768",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0099",
+  "stay_id": "S01499",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0100",
+  "stay_id": "S01153",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0101",
+  "stay_id": "S01270",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0102",
+  "stay_id": "S01970",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0103",
+  "stay_id": "S02297",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0104",
+  "stay_id": "S00769",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0105",
+  "stay_id": "S01649",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0106",
+  "stay_id": "S00760",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0107",
+  "stay_id": "S00573",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0108",
+  "stay_id": "S00062",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0109",
+  "stay_id": "S01120",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0110",
+  "stay_id": "S00256",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0111",
+  "stay_id": "S01125",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0112",
+  "stay_id": "S01112",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0113",
+  "stay_id": "S01444",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0114",
+  "stay_id": "S00268",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0115",
+  "stay_id": "S00719",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0116",
+  "stay_id": "S00756",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0117",
+  "stay_id": "S00151",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0118",
+  "stay_id": "S00359",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0119",
+  "stay_id": "S02497",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0120",
+  "stay_id": "S02322",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0121",
+  "stay_id": "S01760",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0122",
+  "stay_id": "S00726",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0123",
+  "stay_id": "S01396",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0124",
+  "stay_id": "S02031",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0125",
+  "stay_id": "S02033",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0126",
+  "stay_id": "S01669",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0127",
+  "stay_id": "S00393",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0128",
+  "stay_id": "S01793",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0129",
+  "stay_id": "S01075",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0130",
+  "stay_id": "S01136",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0131",
+  "stay_id": "S00257",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0132",
+  "stay_id": "S01792",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0133",
+  "stay_id": "S02441",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0134",
+  "stay_id": "S01552",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0135",
+  "stay_id": "S02327",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0136",
+  "stay_id": "S02443",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0137",
+  "stay_id": "S01746",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0138",
+  "stay_id": "S02406",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0139",
+  "stay_id": "S02480",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0140",
+  "stay_id": "S00827",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0141",
+  "stay_id": "S02038",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0142",
+  "stay_id": "S01162",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0143",
+  "stay_id": "S00074",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0144",
+  "stay_id": "S01831",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0145",
+  "stay_id": "S01447",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0146",
+  "stay_id": "S00057",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0147",
+  "stay_id": "S01448",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0148",
+  "stay_id": "S01774",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0149",
+  "stay_id": "S02445",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0150",
+  "stay_id": "S02410",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0151",
+  "stay_id": "S02304",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0152",
+  "stay_id": "S01236",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0153",
+  "stay_id": "S02073",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0154",
+  "stay_id": "S02128",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0155",
+  "stay_id": "S01966",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0156",
+  "stay_id": "S01347",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0157",
+  "stay_id": "S00355",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0158",
+  "stay_id": "S01157",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0159",
+  "stay_id": "S00843",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0160",
+  "stay_id": "S00807",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0161",
+  "stay_id": "S01124",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0162",
+  "stay_id": "S01830",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0163",
+  "stay_id": "S02495",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0164",
+  "stay_id": "S00825",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0165",
+  "stay_id": "S00298",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0166",
+  "stay_id": "S02130",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0167",
+  "stay_id": "S01873",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0168",
+  "stay_id": "S00691",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0169",
+  "stay_id": "S02134",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0170",
+  "stay_id": "S01411",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0171",
+  "stay_id": "S01923",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0172",
+  "stay_id": "S01742",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0173",
+  "stay_id": "S01493",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0174",
+  "stay_id": "S00154",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0175",
+  "stay_id": "S00660",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0176",
+  "stay_id": "S02091",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0177",
+  "stay_id": "S00758",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0178",
+  "stay_id": "S00310",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0179",
+  "stay_id": "S00490",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0180",
+  "stay_id": "S00806",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0181",
+  "stay_id": "S02494",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0182",
+  "stay_id": "S01080",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0183",
+  "stay_id": "S02034",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0184",
+  "stay_id": "S01881",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0185",
+  "stay_id": "S01878",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0186",
+  "stay_id": "S01697",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0187",
+  "stay_id": "S00904",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0188",
+  "stay_id": "S00902",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0189",
+  "stay_id": "S01132",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0190",
+  "stay_id": "S01466",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0191",
+  "stay_id": "S02095",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0192",
+  "stay_id": "S00636",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0193",
+  "stay_id": "S00941",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0194",
+  "stay_id": "S01303",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0195",
+  "stay_id": "S00156",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0196",
+  "stay_id": "S00483",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0197",
+  "stay_id": "S00509",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0198",
+  "stay_id": "S01651",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0199",
+  "stay_id": "S00177",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0200",
+  "stay_id": "S01344",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0201",
+  "stay_id": "S01019",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0202",
+  "stay_id": "S02080",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0203",
+  "stay_id": "S00085",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0204",
+  "stay_id": "S02275",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0205",
+  "stay_id": "S02341",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0206",
+  "stay_id": "S02321",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0207",
+  "stay_id": "S00191",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0208",
+  "stay_id": "S02129",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0209",
+  "stay_id": "S00511",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0210",
+  "stay_id": "S01133",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0211",
+  "stay_id": "S00655",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0212",
+  "stay_id": "S01497",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0213",
+  "stay_id": "S02079",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0214",
+  "stay_id": "S00078",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0215",
+  "stay_id": "S01625",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0216",
+  "stay_id": "S00394",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0217",
+  "stay_id": "S02010",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0218",
+  "stay_id": "S02499",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0219",
+  "stay_id": "S01449",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0220",
+  "stay_id": "S00188",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0221",
+  "stay_id": "S02077",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0222",
+  "stay_id": "S00983",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0223",
+  "stay_id": "S02318",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0224",
+  "stay_id": "S00392",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0225",
+  "stay_id": "S00487",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0226",
+  "stay_id": "S00905",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0227",
+  "stay_id": "S01762",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0228",
+  "stay_id": "S00572",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0229",
+  "stay_id": "S01533",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0230",
+  "stay_id": "S02471",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0231",
+  "stay_id": "S01135",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0232",
+  "stay_id": "S01373",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0233",
+  "stay_id": "S00023",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0234",
+  "stay_id": "S01338",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0235",
+  "stay_id": "S00059",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0236",
+  "stay_id": "S01665",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0237",
+  "stay_id": "S02257",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0238",
+  "stay_id": "S00311",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0239",
+  "stay_id": "S00178",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0240",
+  "stay_id": "S01238",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0241",
+  "stay_id": "S02172",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0242",
+  "stay_id": "S01958",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0243",
+  "stay_id": "S00844",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0244",
+  "stay_id": "S00764",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0245",
+  "stay_id": "S01540",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0246",
+  "stay_id": "S00688",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0247",
+  "stay_id": "S02222",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0248",
+  "stay_id": "S00808",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0249",
+  "stay_id": "S02312",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0250",
+  "stay_id": "S01798",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0251",
+  "stay_id": "S00121",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0252",
+  "stay_id": "S01928",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0253",
+  "stay_id": "S02132",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0254",
+  "stay_id": "S02437",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0255",
+  "stay_id": "S02092",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0256",
+  "stay_id": "S02268",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0257",
+  "stay_id": "S01756",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0258",
+  "stay_id": "S00270",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0259",
+  "stay_id": "S00536",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0260",
+  "stay_id": "S01206",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0261",
+  "stay_id": "S01553",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0262",
+  "stay_id": "S00436",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0263",
+  "stay_id": "S01123",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0264",
+  "stay_id": "S02088",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0265",
+  "stay_id": "S00824",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0266",
+  "stay_id": "S01921",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0267",
+  "stay_id": "S01642",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0268",
+  "stay_id": "S02223",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0269",
+  "stay_id": "S01776",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0270",
+  "stay_id": "S02432",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0271",
+  "stay_id": "S01121",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0272",
+  "stay_id": "S01959",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0273",
+  "stay_id": "S01484",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0274",
+  "stay_id": "S01242",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0275",
+  "stay_id": "S00943",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0276",
+  "stay_id": "S02035",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0277",
+  "stay_id": "S02407",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0278",
+  "stay_id": "S01761",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0279",
+  "stay_id": "S01467",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0280",
+  "stay_id": "S00847",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0281",
+  "stay_id": "S01743",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0282",
+  "stay_id": "S01021",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0283",
+  "stay_id": "S00512",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0284",
+  "stay_id": "S00727",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0285",
+  "stay_id": "S00183",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0286",
+  "stay_id": "S00725",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0287",
+  "stay_id": "S00028",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0288",
+  "stay_id": "S02272",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0289",
+  "stay_id": "S01550",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0290",
+  "stay_id": "S00886",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0291",
+  "stay_id": "S01267",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0292",
+  "stay_id": "S02528",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0293",
+  "stay_id": "S01800",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0294",
+  "stay_id": "S01404",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0295",
+  "stay_id": "S00423",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0296",
+  "stay_id": "S02376",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0297",
+  "stay_id": "S01122",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0298",
+  "stay_id": "S01161",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0299",
+  "stay_id": "S02224",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0300",
+  "stay_id": "S02037",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0301",
+  "stay_id": "S01801",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0302",
+  "stay_id": "S00087",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0303",
+  "stay_id": "S01832",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0304",
+  "stay_id": "S00728",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0305",
+  "stay_id": "S01018",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0306",
+  "stay_id": "S02294",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0307",
+  "stay_id": "S01077",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0308",
+  "stay_id": "S02452",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0309",
+  "stay_id": "S02255",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0310",
+  "stay_id": "S00755",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0311",
+  "stay_id": "S02359",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0312",
+  "stay_id": "S01451",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0313",
+  "stay_id": "S00061",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0314",
+  "stay_id": "S01657",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0315",
+  "stay_id": "S00430",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0316",
+  "stay_id": "S02199",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0317",
+  "stay_id": "S00890",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0318",
+  "stay_id": "S02244",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0319",
+  "stay_id": "S00118",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0320",
+  "stay_id": "S01371",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0321",
+  "stay_id": "S02214",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0322",
+  "stay_id": "S00467",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0323",
+  "stay_id": "S01671",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0324",
+  "stay_id": "S01999",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0325",
+  "stay_id": "S00656",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0326",
+  "stay_id": "S00025",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0327",
+  "stay_id": "S01130",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0328",
+  "stay_id": "S02270",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0329",
+  "stay_id": "S02267",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0330",
+  "stay_id": "S00446",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0331",
+  "stay_id": "S00029",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0332",
+  "stay_id": "S02379",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0333",
+  "stay_id": "S00264",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0334",
+  "stay_id": "S00657",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0335",
+  "stay_id": "S01594",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0336",
+  "stay_id": "S01464",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0337",
+  "stay_id": "S00442",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0338",
+  "stay_id": "S00363",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0339",
+  "stay_id": "S01023",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0340",
+  "stay_id": "S00987",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0341",
+  "stay_id": "S01993",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0342",
+  "stay_id": "S01496",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0343",
+  "stay_id": "S01494",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0344",
+  "stay_id": "S01049",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0345",
+  "stay_id": "S01624",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0346",
+  "stay_id": "S02133",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0347",
+  "stay_id": "S01463",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0348",
+  "stay_id": "S00608",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0349",
+  "stay_id": "S00090",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0350",
+  "stay_id": "S02071",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0351",
+  "stay_id": "S01126",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0352",
+  "stay_id": "S01084",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0353",
+  "stay_id": "S00986",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0354",
+  "stay_id": "S01340",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0355",
+  "stay_id": "S01758",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0356",
+  "stay_id": "S02136",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0357",
+  "stay_id": "S01307",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0358",
+  "stay_id": "S01233",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0359",
+  "stay_id": "S01297",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0360",
+  "stay_id": "S02469",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0361",
+  "stay_id": "S01644",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0362",
+  "stay_id": "S00064",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0363",
+  "stay_id": "S00513",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0364",
+  "stay_id": "S01964",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0365",
+  "stay_id": "S02089",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0366",
+  "stay_id": "S01298",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0367",
+  "stay_id": "S02215",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0368",
+  "stay_id": "S01159",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0369",
+  "stay_id": "S00313",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0370",
+  "stay_id": "S00150",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0371",
+  "stay_id": "S00158",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0372",
+  "stay_id": "S02375",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0373",
+  "stay_id": "S01151",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0374",
+  "stay_id": "S00752",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0375",
+  "stay_id": "S00885",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0376",
+  "stay_id": "S02252",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0377",
+  "stay_id": "S01301",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0378",
+  "stay_id": "S01640",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0379",
+  "stay_id": "S00718",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0380",
+  "stay_id": "S00826",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0381",
+  "stay_id": "S02098",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0382",
+  "stay_id": "S01158",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0383",
+  "stay_id": "S00751",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0384",
+  "stay_id": "S00652",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0385",
+  "stay_id": "S01414",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0386",
+  "stay_id": "S00370",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0387",
+  "stay_id": "S00465",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0388",
+  "stay_id": "S01834",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0389",
+  "stay_id": "S02086",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0390",
+  "stay_id": "S01490",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0391",
+  "stay_id": "S00617",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0392",
+  "stay_id": "S00529",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0393",
+  "stay_id": "S01643",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0394",
+  "stay_id": "S00659",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0395",
+  "stay_id": "S01204",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0396",
+  "stay_id": "S00445",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0397",
+  "stay_id": "S01367",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0398",
+  "stay_id": "S01876",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0399",
+  "stay_id": "S02276",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0400",
+  "stay_id": "S01165",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0401",
+  "stay_id": "S02532",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0402",
+  "stay_id": "S00323",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0403",
+  "stay_id": "S01024",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0404",
+  "stay_id": "S00982",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0405",
+  "stay_id": "S01753",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0406",
+  "stay_id": "S02414",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0407",
+  "stay_id": "S00901",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0408",
+  "stay_id": "S00075",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0409",
+  "stay_id": "S02254",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0410",
+  "stay_id": "S00985",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0411",
+  "stay_id": "S02328",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0412",
+  "stay_id": "S01929",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0413",
+  "stay_id": "S01539",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0414",
+  "stay_id": "S00466",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0415",
+  "stay_id": "S02360",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0416",
+  "stay_id": "S02358",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0417",
+  "stay_id": "S02225",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0418",
+  "stay_id": "S00397",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0419",
+  "stay_id": "S02405",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0420",
+  "stay_id": "S00491",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0421",
+  "stay_id": "S01265",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0422",
+  "stay_id": "S02072",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0423",
+  "stay_id": "S01739",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0424",
+  "stay_id": "S02501",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0425",
+  "stay_id": "S00180",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0426",
+  "stay_id": "S01041",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0427",
+  "stay_id": "S01078",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0428",
+  "stay_id": "S00662",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0429",
+  "stay_id": "S01738",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0430",
+  "stay_id": "S00505",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0431",
+  "stay_id": "S00315",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0432",
+  "stay_id": "S00631",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0433",
+  "stay_id": "S00888",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0434",
+  "stay_id": "S01954",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0435",
+  "stay_id": "S01775",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0436",
+  "stay_id": "S01698",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0437",
+  "stay_id": "S00761",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0438",
+  "stay_id": "S00609",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0439",
+  "stay_id": "S02011",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0440",
+  "stay_id": "S01751",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0441",
+  "stay_id": "S00889",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0442",
+  "stay_id": "S00639",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0443",
+  "stay_id": "S01749",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0444",
+  "stay_id": "S01164",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0445",
+  "stay_id": "S02243",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0446",
+  "stay_id": "S01754",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0447",
+  "stay_id": "S01476",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0448",
+  "stay_id": "S01155",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0449",
+  "stay_id": "S01796",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0450",
+  "stay_id": "S00570",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0451",
+  "stay_id": "S01835",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0452",
+  "stay_id": "S00492",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0453",
+  "stay_id": "S02374",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0454",
+  "stay_id": "S01474",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0455",
+  "stay_id": "S00846",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0456",
+  "stay_id": "S00507",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0457",
+  "stay_id": "S02372",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0458",
+  "stay_id": "S02413",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0459",
+  "stay_id": "S02296",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0460",
+  "stay_id": "S00471",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0461",
+  "stay_id": "S02078",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0462",
+  "stay_id": "S00823",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0463",
+  "stay_id": "S02176",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0464",
+  "stay_id": "S01877",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0465",
+  "stay_id": "S00302",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0466",
+  "stay_id": "S01538",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0467",
+  "stay_id": "S01692",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0468",
+  "stay_id": "S01667",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0469",
+  "stay_id": "S00353",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0470",
+  "stay_id": "S01465",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0471",
+  "stay_id": "S02202",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0472",
+  "stay_id": "S02476",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0473",
+  "stay_id": "S02040",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0474",
+  "stay_id": "S00441",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0475",
+  "stay_id": "S00884",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0476",
+  "stay_id": "S01829",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0477",
+  "stay_id": "S02087",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0478",
+  "stay_id": "S02378",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0479",
+  "stay_id": "S00692",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0480",
+  "stay_id": "S01884",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0481",
+  "stay_id": "S00303",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0482",
+  "stay_id": "S02126",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0483",
+  "stay_id": "S00803",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0484",
+  "stay_id": "S01797",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0485",
+  "stay_id": "S01435",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0486",
+  "stay_id": "S01668",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0487",
+  "stay_id": "S01658",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0488",
+  "stay_id": "S01759",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0489",
+  "stay_id": "S01596",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0490",
+  "stay_id": "S00947",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0491",
+  "stay_id": "S00160",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0492",
+  "stay_id": "S01656",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0493",
+  "stay_id": "S02306",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0494",
+  "stay_id": "S01549",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0495",
+  "stay_id": "S01491",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0496",
+  "stay_id": "S00365",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0497",
+  "stay_id": "S00531",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0498",
+  "stay_id": "S01020",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0499",
+  "stay_id": "S02468",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0500",
+  "stay_id": "S01479",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0501",
+  "stay_id": "S01160",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0502",
+  "stay_id": "S01305",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0503",
+  "stay_id": "S01268",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0504",
+  "stay_id": "S01047",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0505",
+  "stay_id": "S01598",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0506",
+  "stay_id": "S01870",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0507",
+  "stay_id": "S00616",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0508",
+  "stay_id": "S02032",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0509",
+  "stay_id": "S01395",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0510",
+  "stay_id": "S00026",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0511",
+  "stay_id": "S01134",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0512",
+  "stay_id": "S00221",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0513",
+  "stay_id": "S00469",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0514",
+  "stay_id": "S02281",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0515",
+  "stay_id": "S00155",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0516",
+  "stay_id": "S00614",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0517",
+  "stay_id": "S02325",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0518",
+  "stay_id": "S00366",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0519",
+  "stay_id": "S00065",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0520",
+  "stay_id": "S00424",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0521",
+  "stay_id": "S02411",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0522",
+  "stay_id": "S02097",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0523",
+  "stay_id": "S00429",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0524",
+  "stay_id": "S00571",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0525",
+  "stay_id": "S00265",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0526",
+  "stay_id": "S01048",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0527",
+  "stay_id": "S01240",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0528",
+  "stay_id": "S02279",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0529",
+  "stay_id": "S00367",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0530",
+  "stay_id": "S00308",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0531",
+  "stay_id": "S00724",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0532",
+  "stay_id": "S02075",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0533",
+  "stay_id": "S02453",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0534",
+  "stay_id": "S01436",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0535",
+  "stay_id": "S00663",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0536",
+  "stay_id": "S02269",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0537",
+  "stay_id": "S00470",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0538",
+  "stay_id": "S00395",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0539",
+  "stay_id": "S02203",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0540",
+  "stay_id": "S02009",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0541",
+  "stay_id": "S02070",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0542",
+  "stay_id": "S02377",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0543",
+  "stay_id": "S02430",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0544",
+  "stay_id": "S00391",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0545",
+  "stay_id": "S01755",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0546",
+  "stay_id": "S00658",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0547",
+  "stay_id": "S02273",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0548",
+  "stay_id": "S02415",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0549",
+  "stay_id": "S02340",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0550",
+  "stay_id": "S00661",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0551",
+  "stay_id": "S00437",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0552",
+  "stay_id": "S01335",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0553",
+  "stay_id": "S01740",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0554",
+  "stay_id": "S00665",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0555",
+  "stay_id": "S01641",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0556",
+  "stay_id": "S01237",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0557",
+  "stay_id": "S02082",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0558",
+  "stay_id": "S01745",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0559",
+  "stay_id": "S02324",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0560",
+  "stay_id": "S00351",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0561",
+  "stay_id": "S00828",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0562",
+  "stay_id": "S02305",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0563",
+  "stay_id": "S00472",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0564",
+  "stay_id": "S01269",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0565",
+  "stay_id": "S00190",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0566",
+  "stay_id": "S01302",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0567",
+  "stay_id": "S00326",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0568",
+  "stay_id": "S01205",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0569",
+  "stay_id": "S02436",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0570",
+  "stay_id": "S01337",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0571",
+  "stay_id": "S00063",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0572",
+  "stay_id": "S01794",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0573",
+  "stay_id": "S02127",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0574",
+  "stay_id": "S02258",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0575",
+  "stay_id": "S01343",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0576",
+  "stay_id": "S02492",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0577",
+  "stay_id": "S00258",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0578",
+  "stay_id": "S01551",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0579",
+  "stay_id": "S01534",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0580",
+  "stay_id": "S00254",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0581",
+  "stay_id": "S01597",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0582",
+  "stay_id": "S00193",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0583",
+  "stay_id": "S02362",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0584",
+  "stay_id": "S00194",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0585",
+  "stay_id": "S01410",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0586",
+  "stay_id": "S00485",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0587",
+  "stay_id": "S02380",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0588",
+  "stay_id": "S01209",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0589",
+  "stay_id": "S00357",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0590",
+  "stay_id": "S00255",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0591",
+  "stay_id": "S01131",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0592",
+  "stay_id": "S02491",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0593",
+  "stay_id": "S01085",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0594",
+  "stay_id": "S02493",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0595",
+  "stay_id": "S01744",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0596",
+  "stay_id": "S01872",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0597",
+  "stay_id": "S02477",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0598",
+  "stay_id": "S02217",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0599",
+  "stay_id": "S02131",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0600",
+  "stay_id": "S01156",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0601",
+  "stay_id": "S02342",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0602",
+  "stay_id": "S02474",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0603",
+  "stay_id": "S00263",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0604",
+  "stay_id": "S00506",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0605",
+  "stay_id": "S02314",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0606",
+  "stay_id": "S01477",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0607",
+  "stay_id": "S02301",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0608",
+  "stay_id": "S01997",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0609",
+  "stay_id": "S00687",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0610",
+  "stay_id": "S02169",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0611",
+  "stay_id": "S01778",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0612",
+  "stay_id": "S02299",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0613",
+  "stay_id": "S00723",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0614",
+  "stay_id": "S02315",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0615",
+  "stay_id": "S02431",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0616",
+  "stay_id": "S01043",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0617",
+  "stay_id": "S00534",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0618",
+  "stay_id": "S01693",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0619",
+  "stay_id": "S01341",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0620",
+  "stay_id": "S02189",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0621",
+  "stay_id": "S01536",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0622",
+  "stay_id": "S01653",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0623",
+  "stay_id": "S01593",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0624",
+  "stay_id": "S01472",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0625",
+  "stay_id": "S00304",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0626",
+  "stay_id": "S02356",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0627",
+  "stay_id": "S00763",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0628",
+  "stay_id": "S00720",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0629",
+  "stay_id": "S00811",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0630",
+  "stay_id": "S00611",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0631",
+  "stay_id": "S00574",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0632",
+  "stay_id": "S02357",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0633",
+  "stay_id": "S01475",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0634",
+  "stay_id": "S02416",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0635",
+  "stay_id": "S00773",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0636",
+  "stay_id": "S01154",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0637",
+  "stay_id": "S01266",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0638",
+  "stay_id": "S01167",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0639",
+  "stay_id": "S01652",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0640",
+  "stay_id": "S02076",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0641",
+  "stay_id": "S01348",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0642",
+  "stay_id": "S00771",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0643",
+  "stay_id": "S00179",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0644",
+  "stay_id": "S02245",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0645",
+  "stay_id": "S01445",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0646",
+  "stay_id": "S01777",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0647",
+  "stay_id": "S01879",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0648",
+  "stay_id": "S02008",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0649",
+  "stay_id": "S02472",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0650",
+  "stay_id": "S01773",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0651",
+  "stay_id": "S01079",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0652",
+  "stay_id": "S01481",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0653",
+  "stay_id": "S02191",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0654",
+  "stay_id": "S02083",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0655",
+  "stay_id": "S00510",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0656",
+  "stay_id": "S01547",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0657",
+  "stay_id": "S01434",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0658",
+  "stay_id": "S02434",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0659",
+  "stay_id": "S00159",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0660",
+  "stay_id": "S01535",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0661",
+  "stay_id": "S01955",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0662",
+  "stay_id": "S01299",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0663",
+  "stay_id": "S02218",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0664",
+  "stay_id": "S00153",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0665",
+  "stay_id": "S01345",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0666",
+  "stay_id": "S01304",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0667",
+  "stay_id": "S01757",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0668",
+  "stay_id": "S01152",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0669",
+  "stay_id": "S02361",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0670",
+  "stay_id": "S01965",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0671",
+  "stay_id": "S01623",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0672",
+  "stay_id": "S00425",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0673",
+  "stay_id": "S02174",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0674",
+  "stay_id": "S00426",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0675",
+  "stay_id": "S01232",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0676",
+  "stay_id": "S00317",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0677",
+  "stay_id": "S01202",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0678",
+  "stay_id": "S01483",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0679",
+  "stay_id": "S01995",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0680",
+  "stay_id": "S00364",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0681",
+  "stay_id": "S01699",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0682",
+  "stay_id": "S01874",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0683",
+  "stay_id": "S02205",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0684",
+  "stay_id": "S01400",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0685",
+  "stay_id": "S01961",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0686",
+  "stay_id": "S02470",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0687",
+  "stay_id": "S00305",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0688",
+  "stay_id": "S02253",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0689",
+  "stay_id": "S00939",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0690",
+  "stay_id": "S01046",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0691",
+  "stay_id": "S01998",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0692",
+  "stay_id": "S00613",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0693",
+  "stay_id": "S01433",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0694",
+  "stay_id": "S01399",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0695",
+  "stay_id": "S00689",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0696",
+  "stay_id": "S01554",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0697",
+  "stay_id": "S01498",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0698",
+  "stay_id": "S00632",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0699",
+  "stay_id": "S00318",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0700",
+  "stay_id": "S00022",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0701",
+  "stay_id": "S02326",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0702",
+  "stay_id": "S01111",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0703",
+  "stay_id": "S02135",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0704",
+  "stay_id": "S01931",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0705",
+  "stay_id": "S00443",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0706",
+  "stay_id": "S00635",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0707",
+  "stay_id": "S00468",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0708",
+  "stay_id": "S00184",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0709",
+  "stay_id": "S01450",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0710",
+  "stay_id": "S00486",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0711",
+  "stay_id": "S00753",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0712",
+  "stay_id": "S00829",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0713",
+  "stay_id": "S00528",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0714",
+  "stay_id": "S02247",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0715",
+  "stay_id": "S01346",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0716",
+  "stay_id": "S01537",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0717",
+  "stay_id": "S01230",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0718",
+  "stay_id": "S00508",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0719",
+  "stay_id": "S00427",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0720",
+  "stay_id": "S01473",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0721",
+  "stay_id": "S00352",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0722",
+  "stay_id": "S01402",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0723",
+  "stay_id": "S02192",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0724",
+  "stay_id": "S02036",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0725",
+  "stay_id": "S02343",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0726",
+  "stay_id": "S01203",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0727",
+  "stay_id": "S00848",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0728",
+  "stay_id": "S00435",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0729",
+  "stay_id": "S00362",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0730",
+  "stay_id": "S02531",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0731",
+  "stay_id": "S02039",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0732",
+  "stay_id": "S00185",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0733",
+  "stay_id": "S02188",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0734",
+  "stay_id": "S01397",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0735",
+  "stay_id": "S01595",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0736",
+  "stay_id": "S01666",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0737",
+  "stay_id": "S00220",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0738",
+  "stay_id": "S00940",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0739",
+  "stay_id": "S01803",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0740",
+  "stay_id": "S02278",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0741",
+  "stay_id": "S00729",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0742",
+  "stay_id": "S00189",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0743",
+  "stay_id": "S02373",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0744",
+  "stay_id": "S02303",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0745",
+  "stay_id": "S02177",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0746",
+  "stay_id": "S00266",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0747",
+  "stay_id": "S01836",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0748",
+  "stay_id": "S01922",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0749",
+  "stay_id": "S01129",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0750",
+  "stay_id": "S00056",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0751",
+  "stay_id": "S01042",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0752",
+  "stay_id": "S02417",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0753",
+  "stay_id": "S02319",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0754",
+  "stay_id": "S01548",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0755",
+  "stay_id": "S00653",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0756",
+  "stay_id": "S01370",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0757",
+  "stay_id": "S00722",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0758",
+  "stay_id": "S00369",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0759",
+  "stay_id": "S01405",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0760",
+  "stay_id": "S02295",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0761",
+  "stay_id": "S01930",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0762",
+  "stay_id": "S01957",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0763",
+  "stay_id": "S01150",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0764",
+  "stay_id": "S01086",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0765",
+  "stay_id": "S01480",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0766",
+  "stay_id": "S02313",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0767",
+  "stay_id": "S02408",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0768",
+  "stay_id": "S00439",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0769",
+  "stay_id": "S01081",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0770",
+  "stay_id": "S01369",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0771",
+  "stay_id": "S00157",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0772",
+  "stay_id": "S00766",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0773",
+  "stay_id": "S01372",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0774",
+  "stay_id": "S01128",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0775",
+  "stay_id": "S01956",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0776",
+  "stay_id": "S00320",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0777",
+  "stay_id": "S01083",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0778",
+  "stay_id": "S02093",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0779",
+  "stay_id": "S00300",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0780",
+  "stay_id": "S00080",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0781",
+  "stay_id": "S02529",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0782",
+  "stay_id": "S00515",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0783",
+  "stay_id": "S00322",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0784",
+  "stay_id": "S00444",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0785",
+  "stay_id": "S02193",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0786",
+  "stay_id": "S00368",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0787",
+  "stay_id": "S01398",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0788",
+  "stay_id": "S00066",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0789",
+  "stay_id": "S02409",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0790",
+  "stay_id": "S00765",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0791",
+  "stay_id": "S01432",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0792",
+  "stay_id": "S00805",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0793",
+  "stay_id": "S00055",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0794",
+  "stay_id": "S00721",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0795",
+  "stay_id": "S00984",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0796",
+  "stay_id": "S02277",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0797",
+  "stay_id": "S00538",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0798",
+  "stay_id": "S01446",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0799",
+  "stay_id": "S01695",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0800",
+  "stay_id": "S00182",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0801",
+  "stay_id": "S00054",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0802",
+  "stay_id": "S01025",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0803",
+  "stay_id": "S01750",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0804",
+  "stay_id": "S02190",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0805",
+  "stay_id": "S00942",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0806",
+  "stay_id": "S00638",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0807",
+  "stay_id": "S02479",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0808",
+  "stay_id": "S01349",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0809",
+  "stay_id": "S01114",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0810",
+  "stay_id": "S00027",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0811",
+  "stay_id": "S00535",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0812",
+  "stay_id": "S01927",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0813",
+  "stay_id": "S01163",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0814",
+  "stay_id": "S00219",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0815",
+  "stay_id": "S00117",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0816",
+  "stay_id": "S02069",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0817",
+  "stay_id": "S01409",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0818",
+  "stay_id": "S02170",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0819",
+  "stay_id": "S00089",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0820",
+  "stay_id": "S01082",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0821",
+  "stay_id": "S02317",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0822",
+  "stay_id": "S00299",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0823",
+  "stay_id": "S00810",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0824",
+  "stay_id": "S01482",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0825",
+  "stay_id": "S00024",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0826",
+  "stay_id": "S01971",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0827",
+  "stay_id": "S02442",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0828",
+  "stay_id": "S00489",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0829",
+  "stay_id": "S00324",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0830",
+  "stay_id": "S00088",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0831",
+  "stay_id": "S02085",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0832",
+  "stay_id": "S00527",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0833",
+  "stay_id": "S00903",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0834",
+  "stay_id": "S00654",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0835",
+  "stay_id": "S00612",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0836",
+  "stay_id": "S02439",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0837",
+  "stay_id": "S02171",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0838",
+  "stay_id": "S02533",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0839",
+  "stay_id": "S01208",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0840",
+  "stay_id": "S01076",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0841",
+  "stay_id": "S00664",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0842",
+  "stay_id": "S00316",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0843",
+  "stay_id": "S01241",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0844",
+  "stay_id": "S01962",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0845",
+  "stay_id": "S01413",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0846",
+  "stay_id": "S00438",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0847",
+  "stay_id": "S00356",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0848",
+  "stay_id": "S01300",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0849",
+  "stay_id": "S02444",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0850",
+  "stay_id": "S00537",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0851",
+  "stay_id": "S00224",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0852",
+  "stay_id": "S01752",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0853",
+  "stay_id": "S01492",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0854",
+  "stay_id": "S00312",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0855",
+  "stay_id": "S01969",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0856",
+  "stay_id": "S01044",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0857",
+  "stay_id": "S01339",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0858",
+  "stay_id": "S01875",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0859",
+  "stay_id": "S01403",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0860",
+  "stay_id": "S02201",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0861",
+  "stay_id": "S00321",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0862",
+  "stay_id": "S01654",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0863",
+  "stay_id": "S00072",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0864",
+  "stay_id": "S02370",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0865",
+  "stay_id": "S02074",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0866",
+  "stay_id": "S01239",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0867",
+  "stay_id": "S01655",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0868",
+  "stay_id": "S00615",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0869",
+  "stay_id": "S01306",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0870",
+  "stay_id": "S00634",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0871",
+  "stay_id": "S00073",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0872",
+  "stay_id": "S00887",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0873",
+  "stay_id": "S01648",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0874",
+  "stay_id": "S02323",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0875",
+  "stay_id": "S00514",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0876",
+  "stay_id": "S01833",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0877",
+  "stay_id": "S00119",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0878",
+  "stay_id": "S00079",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0879",
+  "stay_id": "S02320",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0880",
+  "stay_id": "S00176",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0881",
+  "stay_id": "S00152",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0882",
+  "stay_id": "S02271",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0883",
+  "stay_id": "S01342",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0884",
+  "stay_id": "S02475",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0885",
+  "stay_id": "S00396",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0886",
+  "stay_id": "S01748",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0887",
+  "stay_id": "S01166",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0888",
+  "stay_id": "S00307",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0889",
+  "stay_id": "S00058",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0890",
+  "stay_id": "S01967",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0891",
+  "stay_id": "S00267",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0892",
+  "stay_id": "S00750",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0893",
+  "stay_id": "S01926",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0894",
+  "stay_id": "S00488",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0895",
+  "stay_id": "S00428",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0896",
+  "stay_id": "S00325",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0897",
+  "stay_id": "S01045",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0898",
+  "stay_id": "S02274",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0899",
+  "stay_id": "S00076",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0900",
+  "stay_id": "S02435",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0901",
+  "stay_id": "S02094",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0902",
+  "stay_id": "S02482",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0903",
+  "stay_id": "S00192",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0904",
+  "stay_id": "S00301",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0905",
+  "stay_id": "S02200",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0906",
+  "stay_id": "S02311",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0907",
+  "stay_id": "S01883",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0908",
+  "stay_id": "S00569",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0909",
+  "stay_id": "S00759",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0910",
+  "stay_id": "S02293",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0911",
+  "stay_id": "S00770",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0912",
+  "stay_id": "S02354",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0913",
+  "stay_id": "S01169",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0914",
+  "stay_id": "S00181",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0915",
+  "stay_id": "S00568",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0916",
+  "stay_id": "S01234",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0917",
+  "stay_id": "S00812",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0918",
+  "stay_id": "S01546",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0919",
+  "stay_id": "S01368",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0920",
+  "stay_id": "S02298",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0921",
+  "stay_id": "S02440",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0922",
+  "stay_id": "S01087",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0923",
+  "stay_id": "S02067",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0924",
+  "stay_id": "S00637",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0925",
+  "stay_id": "S01795",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0926",
+  "stay_id": "S01406",
+  "type_of_bill": "skilled_nursing"
+ },
+ {
+  "claim_id": "C0927",
+  "stay_id": "S02478",
+  "type_of_bill": "inpatient"
+ },
+ {
+  "claim_id": "C0928",
+  "stay_id": "S00122",
+  "type_of_bill": "inpatient"
+ }
+]

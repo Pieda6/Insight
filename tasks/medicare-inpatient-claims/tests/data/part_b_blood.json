@@ -1,0 +1,290 @@
+[
+ {
+  "beneficiary_id": "B0002",
+  "date": "2026-04-23",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0005",
+  "date": "2026-01-12",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0005",
+  "date": "2026-05-18",
+  "product": "packed_red_cells",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0011",
+  "date": "2025-02-10",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0014",
+  "date": "2026-09-15",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0021",
+  "date": "2025-11-24",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0021",
+  "date": "2026-07-13",
+  "product": "whole_blood",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0027",
+  "date": "2025-06-20",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0029",
+  "date": "2026-03-10",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0029",
+  "date": "2025-07-24",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0031",
+  "date": "2026-06-16",
+  "product": "packed_red_cells",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0032",
+  "date": "2025-01-05",
+  "product": "packed_red_cells",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0032",
+  "date": "2025-06-17",
+  "product": "packed_red_cells",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0033",
+  "date": "2026-07-18",
+  "product": "whole_blood",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0039",
+  "date": "2026-04-20",
+  "product": "packed_red_cells",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0039",
+  "date": "2025-02-01",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0048",
+  "date": "2025-09-14",
+  "product": "packed_red_cells",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0050",
+  "date": "2026-08-23",
+  "product": "whole_blood",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0061",
+  "date": "2026-07-24",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0061",
+  "date": "2025-08-28",
+  "product": "whole_blood",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0076",
+  "date": "2025-03-02",
+  "product": "packed_red_cells",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0079",
+  "date": "2026-06-12",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0082",
+  "date": "2026-07-11",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0086",
+  "date": "2026-08-14",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0086",
+  "date": "2025-10-10",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0087",
+  "date": "2025-05-27",
+  "product": "whole_blood",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0087",
+  "date": "2026-07-07",
+  "product": "packed_red_cells",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0090",
+  "date": "2026-01-01",
+  "product": "whole_blood",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0094",
+  "date": "2026-02-27",
+  "product": "packed_red_cells",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0095",
+  "date": "2026-03-18",
+  "product": "packed_red_cells",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0095",
+  "date": "2026-02-21",
+  "product": "packed_red_cells",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0099",
+  "date": "2026-04-03",
+  "product": "packed_red_cells",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0099",
+  "date": "2025-11-19",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0105",
+  "date": "2026-05-24",
+  "product": "packed_red_cells",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0105",
+  "date": "2025-09-12",
+  "product": "whole_blood",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0110",
+  "date": "2025-02-20",
+  "product": "whole_blood",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0110",
+  "date": "2025-12-15",
+  "product": "packed_red_cells",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0114",
+  "date": "2025-09-18",
+  "product": "packed_red_cells",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0114",
+  "date": "2025-04-27",
+  "product": "packed_red_cells",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0119",
+  "date": "2026-04-23",
+  "product": "whole_blood",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0122",
+  "date": "2025-06-15",
+  "product": "packed_red_cells",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0123",
+  "date": "2026-04-19",
+  "product": "packed_red_cells",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0123",
+  "date": "2025-10-15",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0127",
+  "date": "2026-09-04",
+  "product": "whole_blood",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0130",
+  "date": "2026-06-21",
+  "product": "whole_blood",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0135",
+  "date": "2026-01-29",
+  "product": "packed_red_cells",
+  "units": 1
+ },
+ {
+  "beneficiary_id": "B0135",
+  "date": "2026-02-08",
+  "product": "packed_red_cells",
+  "units": 2
+ },
+ {
+  "beneficiary_id": "B0149",
+  "date": "2025-04-20",
+  "product": "whole_blood",
+  "units": 1
+ }
+]

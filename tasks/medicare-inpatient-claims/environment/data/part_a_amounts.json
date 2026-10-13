@@ -1,0 +1,18 @@
+{
+ "source": "CMS fact sheets, 2025 Medicare Parts A & B Premiums and Deductibles (Nov 8, 2024) and 2026 Medicare Parts A & B Premiums and Deductibles (Nov 14, 2025)",
+ "unit": "cents (USD)",
+ "by_calendar_year": {
+  "2025": {
+   "inpatient_hospital_deductible": 167600,
+   "hospital_coinsurance_days_61_90": 41900,
+   "hospital_coinsurance_lifetime_reserve_days": 83800,
+   "snf_coinsurance_days_21_100": 20950
+  },
+  "2026": {
+   "inpatient_hospital_deductible": 173600,
+   "hospital_coinsurance_days_61_90": 43400,
+   "hospital_coinsurance_lifetime_reserve_days": 86800,
+   "snf_coinsurance_days_21_100": 21700
+  }
+ }
+}

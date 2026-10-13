@@ -1,0 +1,458 @@
+{
+ "C0008": {
+  "benefit_period_start": "2025-04-22",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0047": {
+  "benefit_period_start": "2025-03-02",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "0",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0050": {
+  "benefit_period_start": "2025-03-02",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "3",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0092": {
+  "benefit_period_start": "2025-01-10",
+  "blood": "0.00",
+  "coinsurance": "1257.00",
+  "covered_days": "63",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0106": {
+  "benefit_period_start": "2025-03-02",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "4",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0111": {
+  "benefit_period_start": "2025-01-05",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0114": {
+  "benefit_period_start": "2025-08-01",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "4",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0139": {
+  "benefit_period_start": "2025-05-06",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "3",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0141": {
+  "benefit_period_start": "2025-03-02",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "4",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0161": {
+  "benefit_period_start": "2025-04-01",
+  "blood": "0.00",
+  "coinsurance": "4190.00",
+  "covered_days": "5",
+  "deductible": "0.00",
+  "reserve_days": "5"
+ },
+ "C0176": {
+  "benefit_period_start": "2025-04-01",
+  "blood": "0.00",
+  "coinsurance": "13408.00",
+  "covered_days": "91",
+  "deductible": "1676.00",
+  "reserve_days": "1"
+ },
+ "C0207": {
+  "benefit_period_start": "2025-05-01",
+  "blood": "1260.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0213": {
+  "benefit_period_start": "2025-01-05",
+  "blood": "0.00",
+  "coinsurance": "6285.00",
+  "covered_days": "30",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0220": {
+  "benefit_period_start": "2025-06-01",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "20",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0221": {
+  "benefit_period_start": "2025-01-05",
+  "blood": "0.00",
+  "coinsurance": "10475.00",
+  "covered_days": "70",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0232": {
+  "benefit_period_start": "2025-01-05",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0248": {
+  "benefit_period_start": "2025-03-02",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "2",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0257": {
+  "benefit_period_start": "2025-03-02",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "4",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0258": {
+  "benefit_period_start": "2025-03-02",
+  "blood": "0.00",
+  "coinsurance": "2095.00",
+  "covered_days": "30",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0263": {
+  "benefit_period_start": "2025-04-01",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "0",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0264": {
+  "benefit_period_start": "2025-03-03",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "2",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0273": {
+  "benefit_period_start": "2026-02-01",
+  "blood": "0.00",
+  "coinsurance": "3472.00",
+  "covered_days": "68",
+  "deductible": "1736.00",
+  "reserve_days": "0"
+ },
+ "C0297": {
+  "benefit_period_start": "2025-04-01",
+  "blood": "0.00",
+  "coinsurance": "37710.00",
+  "covered_days": "120",
+  "deductible": "1676.00",
+  "reserve_days": "30"
+ },
+ "C0300": {
+  "benefit_period_start": "2025-03-02",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0320": {
+  "benefit_period_start": "2025-01-05",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0351": {
+  "benefit_period_start": "2025-01-05",
+  "blood": "0.00",
+  "coinsurance": "4609.00",
+  "covered_days": "42",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0356": {
+  "benefit_period_start": "2025-08-01",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "4",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0365": {
+  "benefit_period_start": "2025-03-03",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "0",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0381": {
+  "benefit_period_start": "2026-03-01",
+  "blood": "880.00",
+  "coinsurance": "0.00",
+  "covered_days": "4",
+  "deductible": "1736.00",
+  "reserve_days": "0"
+ },
+ "C0437": {
+  "benefit_period_start": "2025-03-02",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "0",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0461": {
+  "benefit_period_start": "2025-01-05",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0473": {
+  "benefit_period_start": "2025-07-01",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "4",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0490": {
+  "benefit_period_start": "2025-06-01",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0491": {
+  "benefit_period_start": "2025-10-01",
+  "blood": "0.00",
+  "coinsurance": "6420.00",
+  "covered_days": "70",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0522": {
+  "benefit_period_start": "2025-06-01",
+  "blood": "1170.00",
+  "coinsurance": "0.00",
+  "covered_days": "4",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0548": {
+  "benefit_period_start": "2025-01-10",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "60",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0565": {
+  "benefit_period_start": "2025-05-01",
+  "blood": "840.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0582": {
+  "benefit_period_start": "2025-01-05",
+  "blood": "0.00",
+  "coinsurance": "2095.00",
+  "covered_days": "30",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0584": {
+  "benefit_period_start": "2025-04-10",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "2",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0601": {
+  "benefit_period_start": "2025-11-20",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0634": {
+  "benefit_period_start": "2025-06-01",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "9",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0635": {
+  "benefit_period_start": "2024-11-20",
+  "blood": "0.00",
+  "coinsurance": "4190.00",
+  "covered_days": "24",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0640": {
+  "benefit_period_start": "2025-01-05",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0659": {
+  "benefit_period_start": "2025-10-01",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0667": {
+  "benefit_period_start": "2025-03-02",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "10",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0703": {
+  "benefit_period_start": "2025-03-01",
+  "blood": "840.00",
+  "coinsurance": "0.00",
+  "covered_days": "4",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0725": {
+  "benefit_period_start": "2025-11-20",
+  "blood": "0.00",
+  "coinsurance": "5514.50",
+  "covered_days": "46",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0731": {
+  "benefit_period_start": "2025-02-01",
+  "blood": "0.00",
+  "coinsurance": "17598.00",
+  "covered_days": "96",
+  "deductible": "1676.00",
+  "reserve_days": "6"
+ },
+ "C0742": {
+  "benefit_period_start": "2025-06-01",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "0",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0752": {
+  "benefit_period_start": "2025-06-01",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0764": {
+  "benefit_period_start": "2025-08-01",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "3",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0773": {
+  "benefit_period_start": "2025-01-05",
+  "blood": "0.00",
+  "coinsurance": "4818.50",
+  "covered_days": "43",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ },
+ "C0807": {
+  "benefit_period_start": "2025-03-02",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0891": {
+  "benefit_period_start": "2025-05-01",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0902": {
+  "benefit_period_start": "2025-08-01",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "30",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0903": {
+  "benefit_period_start": "2025-01-05",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "5",
+  "deductible": "1676.00",
+  "reserve_days": "0"
+ },
+ "C0922": {
+  "benefit_period_start": "2025-08-01",
+  "blood": "0.00",
+  "coinsurance": "0.00",
+  "covered_days": "10",
+  "deductible": "0.00",
+  "reserve_days": "0"
+ }
+}
