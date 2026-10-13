@@ -74,8 +74,39 @@ def oversale(c, flights, country):
     return min(4 * fare, CAP_400), unused
 
 
+def covered(c, country):
+    """260.2 covered flight: to, from or within the U.S., or a foreign-to-foreign segment reached from or
+    leading to the U.S. through brief stopovers only (a stopover over 24 hours is a break in journey;
+    shorter ones here are on one ticket, one carrier, bags checked through, passenger stays airside)."""
+    cps, k = c["ticket"]["coupons"], c["incident"]["affected_coupon"] - 1
+    us = lambda x: country[x] == "US"  # noqa: E731
+    if us(cps[k]["origin"]) or us(cps[k]["destination"]):
+        return True
+    conns = {tuple(x["between_coupons"]): x for x in c["ticket"].get("connections", [])}
+
+    def brief(i):          # stopover between coupon i and i + 1 (0-based)
+        x = conns[(i + 1, i + 2)]
+        gap = mins(cps[i]["scheduled_arrival"], cps[i + 1]["scheduled_departure"])
+        return gap <= 1440 and x["bags_checked_through"] and not x["passenger_left_airport"]
+
+    i = k
+    while i > 0 and brief(i - 1):            # walk back towards the U.S.
+        i -= 1
+        if us(cps[i]["origin"]):
+            return True
+    i = k
+    while i + 1 < len(cps) and brief(i):     # walk forward towards the U.S.
+        i += 1
+        if us(cps[i]["destination"]):
+            return True
+    return False
+
+
 def schedule_change(c, country):
+    """Returns (compensation, refund, day the due date runs from)."""
     cps, inc = c["ticket"]["coupons"], c["incident"]
+    if not covered(c, country):
+        return 0, 0, None
     intl = any(country[x["origin"]] != "US" or country[x["destination"]] != "US" for x in cps)
     limit = 360 if intl else 180
     ev = inc["event"]
@@ -86,13 +117,25 @@ def schedule_change(c, country):
     if ev == "airport_change" and not (inc.get("new_origin_airport") or inc.get("new_destination_airport")):
         significant = False
     resp = inc["consumer_response"]
+    asked = c["refund_requested_on"]
     unused = sum(a["fee_cents"] for a in c["ancillary_purchases"] if not a["provided"])
     if significant and resp in ("rejected_alternatives", "did_not_respond_and_flight_departed",
                                 "did_not_respond_before_scheduled_departure", "requested_refund"):
-        return 0, sum(x["fare_cents"] for x in cps) + sum(a["fee_cents"] for a in c["ancillary_purchases"])
-    if resp in ("accepted_rebooking", "flew_on_changed_flight"):
-        return 0, unused
-    return 0, 0
+        dep = c["ticket"]["coupons"][inc["affected_coupon"] - 1]["scheduled_departure"]
+        if resp == "did_not_respond_and_flight_departed":           # 260.6(a)(2)(iii)(A)
+            start = (t(dep) + timedelta(minutes=inc.get("new_departure_shift_minutes", 0))).date().isoformat()
+        elif resp == "did_not_respond_before_scheduled_departure":  # (iii)(B)
+            start = dep[:10]
+        elif ev == "cancelled" and inc.get("alternative_offered") == "none":
+            start = inc["carrier_notice_at"][:10]                     # (i)
+        else:
+            start = inc["consumer_response_at"][:10]                 # (ii)
+        if asked and asked < start:
+            start = asked                                            # 260.2 prompt refund: earliest date
+        return 0, sum(x["fare_cents"] for x in cps) + sum(a["fee_cents"] for a in c["ancillary_purchases"]), start
+    if significant or resp in ("accepted_rebooking", "flew_on_changed_flight"):
+        return 0, unused, asked                                      # 260.4
+    return 0, 0, None                                                # declined a change that is not significant
 
 
 def baggage(c, flights, country):
@@ -136,15 +179,16 @@ def main():
         w.writerow(["claim_id", "compensation", "refund", "refund_due_date"])
         for c in claims:
             kind = c["claim_type"]
+            start = c["refund_requested_on"]
             if kind == "oversale":
                 comp, ref = oversale(c, flights, country)
             elif kind == "schedule_change_or_cancellation":
-                comp, ref = schedule_change(c, country)
+                comp, ref, start = schedule_change(c, country)
             elif kind == "baggage":
                 comp, ref = baggage(c, flights, country)
             else:
                 comp, ref = service(c)
-            dd = due_date(c["refund_trigger_date"], c["ticket"]["payment_method"], holidays).isoformat() if ref else "none"
+            dd = due_date(start, c["ticket"]["payment_method"], holidays).isoformat() if ref else "none"
             w.writerow([c["claim_id"], f"{comp / 100:.2f}", f"{ref / 100:.2f}", dd])
 
 

@@ -5,5 +5,6 @@
  "money_unit": "cents (USD)",
  "times": "UTC",
  "coupon_fare_cents": "price paid for that coupon including all mandatory taxes and fees, excluding ancillary fees",
- "bag_fees": "escalating per-bag scale; some fees are linked to a specific bag by unique identifier"
+ "bag_fees": "escalating per-bag scale; some fees are linked to a specific bag by unique identifier",
+ "tickets": "every itinerary was bought as one ticket in a single transaction; Lakeshore operates every flight"
 }

@@ -28,6 +28,7 @@ GROUPS = {
     "denied_boarding_unused_fees": lambda t: t == "db-ancillary",
     "cancellations_and_significant_changes": lambda t: t.startswith("sc-"),
     "refund_due_dates": lambda t: t == "due-date",
+    "covered_flights_and_break_in_journey": lambda t: t == "break-in-journey",
     "delayed_and_lost_bags": lambda t: t.startswith("bag-"),
     "ancillary_services_not_provided": lambda t: t == "ancillary",
 }

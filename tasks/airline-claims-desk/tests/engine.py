@@ -78,8 +78,34 @@ def denied_boarding(ctx, claim):
     return min(fare * 4, LIMITS["400"]), refund
 
 
+def is_covered_flight(ctx, claim):
+    """260.2: a flight to, from or within the U.S. is covered; a segment between two foreign points is covered
+    only as part of an itinerary to or from the U.S. with no break in journey (a foreign stopover scheduled to
+    exceed 24 hours, or a shorter one where the passenger reclaims bags and leaves the airport)."""
+    legs = claim["ticket"]["coupons"]
+    idx = claim["incident"]["affected_coupon"] - 1
+    if legs[idx]["origin"] in ctx.us or legs[idx]["destination"] in ctx.us:
+        return True
+    stops = {}
+    for c in claim["ticket"]["connections"]:
+        a, b = c["between_coupons"]
+        gap = ts(legs[b - 1]["scheduled_departure"]) - ts(legs[a - 1]["scheduled_arrival"])
+        stops[a - 1] = gap > 24 * HOUR or c["passenger_left_airport"] or not c["bags_checked_through"]
+    lo = idx
+    while lo > 0 and not stops[lo - 1]:
+        lo -= 1
+    hi = idx
+    while hi < len(legs) - 1 and not stops[hi]:
+        hi += 1
+    piece = legs[lo:hi + 1]
+    return piece[0]["origin"] in ctx.us or piece[-1]["destination"] in ctx.us
+
+
 def schedule_change(ctx, claim):
+    """(compensation, refund, date the refund due date is counted from)."""
     inc, legs = claim["incident"], claim["ticket"]["coupons"]
+    if not is_covered_flight(ctx, claim):
+        return 0, 0, None
     threshold = 6 * 60 if ctx.crosses_border(legs) else 3 * 60
     event = inc["event"]
     changes = [event == "cancelled",
@@ -94,10 +120,22 @@ def schedule_change(ctx, claim):
                             "did_not_respond_before_scheduled_departure", "requested_refund"}
     if qualifies and declined:
         total = sum(l["fare_cents"] for l in legs) + sum(a["fee_cents"] for a in claim["ancillary_purchases"])
-        return 0, total
-    if response in {"accepted_rebooking", "flew_on_changed_flight"}:
-        return 0, unused_fees(claim)
-    return 0, 0
+        leg = legs[inc["affected_coupon"] - 1]
+        if response == "did_not_respond_and_flight_departed":
+            moment = ts(leg["scheduled_departure"]) + timedelta(minutes=inc.get("new_departure_shift_minutes", 0))
+        elif response == "did_not_respond_before_scheduled_departure":
+            moment = ts(leg["scheduled_departure"])
+        elif event == "cancelled" and inc.get("alternative_offered") == "none":
+            moment = ts(inc["carrier_notice_at"])
+        else:
+            moment = ts(inc["consumer_response_at"])
+        dates = [moment.date()]
+        if claim["refund_requested_on"]:
+            dates.append(date.fromisoformat(claim["refund_requested_on"]))
+        return 0, total, min(dates).isoformat()
+    if qualifies or response in {"accepted_rebooking", "flew_on_changed_flight"}:
+        return 0, unused_fees(claim), claim["refund_requested_on"]
+    return 0, 0, None
 
 
 def baggage(ctx, claim):
@@ -142,10 +180,12 @@ def expected():
     ctx = Context()
     out = {}
     for claim in ctx.claims:
-        comp, refund = HANDLERS[claim["claim_type"]](ctx, claim)
+        result = HANDLERS[claim["claim_type"]](ctx, claim)
+        comp, refund = result[:2]
+        start = result[2] if len(result) > 2 else claim["refund_requested_on"]
         out[claim["claim_id"]] = {
             "compensation": f"{comp // 100}.{comp % 100:02d}",
             "refund": f"{refund // 100}.{refund % 100:02d}",
-            "refund_due_date": ctx.deadline(claim["refund_trigger_date"],
-                                            claim["ticket"]["payment_method"]).isoformat() if refund else "none"}
+            "refund_due_date": ctx.deadline(start, claim["ticket"]["payment_method"]).isoformat()
+            if refund else "none"}
     return out

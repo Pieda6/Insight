@@ -25,7 +25,8 @@ def load(name, path):
 
 S = load("solve", TASK / "solution" / "solve.py")
 E = load("engine", TASK / "tests" / "engine.py")
-O = {k: getattr(S, k) for k in ("oversale", "schedule_change", "baggage", "service", "due_date", "mins")}
+O = {k: getattr(S, k) for k in ("oversale", "schedule_change", "baggage", "service", "due_date", "mins",
+                                "covered")}
 
 
 @contextlib.contextmanager
@@ -167,13 +168,14 @@ def sc_strict(c, ctry):
 def sc_silence_is_acceptance(c, ctry):
     if c["incident"]["consumer_response"] == "did_not_respond_before_scheduled_departure":
         c["incident"]["consumer_response"] = "accepted_voucher_affirmatively"
+        c["refund_requested_on"] = c["refund_requested_on"] or c["ticket"]["coupons"][0]["scheduled_departure"][:10]
 
 
 def sc_fare_only(c, r):
-    comp, ref = r
+    comp, ref, start = r
     total = sum(x["fare_cents"] for x in c["ticket"]["coupons"])
     if ref > total:
-        return (0, total)
+        return (0, total, start)
     return r
 
 
@@ -188,8 +190,68 @@ def sc_only_delay(c, ctry):
 
 def sc_no_partial(c, r):
     if c["incident"]["consumer_response"] in ("accepted_rebooking", "flew_on_changed_flight"):
-        return (0, 0)
+        return (0, 0, None)
     return r
+
+
+def sc_voucher_waives_fees(c, r):
+    """The original reading: accepting a voucher gives up the 260.4 refund of unused extras."""
+    if c["incident"]["consumer_response"] == "accepted_voucher_affirmatively":
+        return (0, 0, None)
+    return r
+
+
+def sc_declined_minor_change_refunds_extras(c, r):
+    unused = sum(a["fee_cents"] for a in c["ancillary_purchases"] if not a["provided"])
+    if r[1] == 0 and unused and c["incident"]["consumer_response"] == "rejected_alternatives":
+        return (0, unused, c["refund_requested_on"] or c["incident"]["consumer_response_at"][:10])
+    return r
+
+
+def sc_due_from_request_only(c, r):
+    if r[1] and c["refund_requested_on"]:
+        return (r[0], r[1], c["refund_requested_on"])
+    return r
+
+
+def sc_due_ignores_earliest(c, r):
+    """Use the 260.6(a)(2) date even when the passenger asked earlier, or the request when it is later."""
+    asked = c["refund_requested_on"]
+    if r[1] and asked and asked > r[2]:
+        return (r[0], r[1], asked)
+    return r
+
+
+def sc_departed_original_date(c, ctry):
+    i = c["incident"]
+    if i["consumer_response"] == "did_not_respond_and_flight_departed":
+        i["new_departure_shift_minutes"] = 0
+
+
+def sc_cancel_none_from_request(c, ctry):
+    i = c["incident"]
+    if i["event"] == "cancelled" and i.get("alternative_offered") == "none":
+        i["alternative_offered"] = "rebooking_on_later_flight"
+
+
+def every_flight_covered(c, ctry):
+    return True
+
+
+def break_at_24_hours(c, ctry):
+    c = copy.deepcopy(c)
+    cps = c["ticket"]["coupons"]
+    for x in c["ticket"].get("connections", []):
+        a, b = x["between_coupons"]
+        if O["mins"](cps[a - 1]["scheduled_arrival"], cps[b - 1]["scheduled_departure"]) >= 1440:
+            x["passenger_left_airport"] = True
+    return O["covered"](c, ctry)
+
+
+def any_foreign_segment_uncovered(c, ctry):
+    k = c["incident"]["affected_coupon"] - 1
+    cp = c["ticket"]["coupons"][k]
+    return ctry[cp["origin"]] == "US" or ctry[cp["destination"]] == "US"
 
 
 def bg(mutate=None, post=None):
@@ -294,6 +356,17 @@ SHORTCUTS = {
     "7 calendar days for credit cards": dict(due_date=due_calendar_7),
     "federal holidays not excluded": dict(due_date=due_no_holidays),
     "service refunds even when consumer at fault": dict(service=service_fault_ignored),
+    "accepting a voucher gives up the refund of unused extras": dict(schedule_change=sc(post=sc_voucher_waives_fees)),
+    "unused extras refunded after declining a minor change": dict(
+        schedule_change=sc(post=sc_declined_minor_change_refunds_extras)),
+    "due date counted from the passenger's request only": dict(schedule_change=sc(post=sc_due_from_request_only)),
+    "due date not counted from the earliest date": dict(schedule_change=sc(post=sc_due_ignores_earliest)),
+    "unanswered change counted from the original departure": dict(schedule_change=sc(sc_departed_original_date)),
+    "cancellation with nothing offered counted from the request": dict(
+        schedule_change=sc(sc_cancel_none_from_request)),
+    "every flight covered (break in journey ignored)": dict(covered=every_flight_covered),
+    "a stopover of exactly 24 hours is a break in journey": dict(covered=break_at_24_hours),
+    "every foreign-to-foreign segment uncovered": dict(covered=any_foreign_segment_uncovered),
 }
 
 

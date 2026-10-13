@@ -27,7 +27,7 @@ BLOCK = {("ORD", "LGA"): 135, ("ORD", "DFW"): 150, ("ORD", "DEN"): 160, ("ORD", 
          ("ORD", "BOS"): 140, ("ORD", "ATL"): 120, ("ORD", "SFO"): 280, ("ORD", "SEA"): 270,
          ("ORD", "YYZ"): 90, ("ORD", "CUN"): 230, ("ORD", "LHR"): 485, ("ORD", "NRT"): 790,
          ("ORD", "FRA"): 520, ("DEN", "SFO"): 150, ("LGA", "BOS"): 75, ("DFW", "CUN"): 150,
-         ("ORD", "MKE"): 45, ("SEA", "NRT"): 610, ("ORD", "EWR"): 130}
+         ("ORD", "MKE"): 45, ("SEA", "NRT"): 610, ("ORD", "EWR"): 130, ("LHR", "FRA"): 95}
 AIRCRAFT = [("Airbus A321neo", 196), ("Boeing 737-800", 166), ("Embraer E175", 76),
             ("Boeing 787-9", 290), ("Embraer E145", 50), ("Beechcraft 1900D", 19), ("Airbus A320", 150)]
 NAMES = ["A. Okafor", "B. Lindqvist", "C. Ramirez", "D. Chen", "E. Novak", "F. Haddad", "G. Moreau",
@@ -90,21 +90,27 @@ class W:
             coupons.append({"coupon": i + 1, "flight_id": fid, "origin": a, "destination": b,
                             "scheduled_departure": iso(d), "scheduled_arrival": iso(ar),
                             "cabin": cabin, "fare_cents": fare})
+        conns = [{"airport": coupons[i]["destination"], "between_coupons": [i + 1, i + 2],
+                  "bags_checked_through": True, "passenger_left_airport": False}
+                 for i in range(len(coupons) - 1)]
         return {"ticket_number": f"016{rng.randrange(10**9, 10**10)}", "payment_method": pay or rng.choice(PAY),
-                "award_ticket_paid_with_miles": zero, "cabin": cabin, "coupons": coupons}
+                "award_ticket_paid_with_miles": zero, "cabin": cabin, "coupons": coupons, "connections": conns}
 
-    def add(self, ctype, ticket, incident, ancillary, tags, expected=None, request_date=None, bags=None):
+    def add(self, ctype, ticket, incident, ancillary, tags, expected=None, request_date=None, bags=None,
+            count_from=None):
+        """count_from: the hand-worked day the refund due date is counted from (defaults to the request)."""
         self.n_claim += 1
         cid = f"CL{self.n_claim:04d}"
         c = {"claim_id": cid, "claim_type": ctype, "passenger": rng.choice(NAMES), "ticket": ticket,
              "ancillary_purchases": ancillary, "checked_bags": bags or [], "incident": incident,
-             "refund_trigger_date": request_date}
+             "refund_requested_on": request_date}
         self.claims.append(c)
         self.tags[cid] = tags
         if expected is not None:
             comp, ref = expected
+            base = count_from or request_date
             self.golden[cid] = {"compensation": f"{comp / 100:.2f}", "refund": f"{ref / 100:.2f}",
-                                "refund_due_date": due(request_date, ticket["payment_method"]) if ref else "none"}
+                                "refund_due_date": due(base, ticket["payment_method"]) if ref else "none"}
         return cid
 
 
@@ -210,74 +216,141 @@ def planted(w):
              expected=(0, 7000))
 
     # ---------------- schedule changes and cancellations (260.6) ---------------------------------
-    def change(legs, inc, response, tags, ancillary=(), expected=None, pay=None, trigger=None, fares=None,
-               cabin="economy"):
+    def change(legs, inc, response, tags, ancillary=(), expected=None, pay=None, fares=None, cabin="economy",
+               affected=1, notice_days=3, respond_hours=20, requested=None, count_from=None):
+        """Notice goes out notice_days before the affected flight; a response comes respond_hours later.
+        requested: date the passenger asked for a refund (None = never asked). count_from: hand-worked
+        day the due date runs from (for planted claims with a refund)."""
         t = w.ticket(legs, cabin, pay=pay, fares=fares)
-        inc = dict(inc, consumer_response=response)
-        return w.add("schedule_change_or_cancellation", t, inc, list(ancillary), tags, expected,
-                     trigger or t["coupons"][0]["scheduled_departure"][:10])
+        dep = datetime.fromisoformat(t["coupons"][affected - 1]["scheduled_departure"].replace("Z", "+00:00"))
+        notice = dep - timedelta(days=notice_days, hours=1)
+        answered = response not in ("did_not_respond_and_flight_departed", "did_not_respond_before_scheduled_departure",
+                                    "flew_on_changed_flight")
+        inc = dict(inc, affected_coupon=affected, carrier_notice_at=iso(notice), consumer_response=response,
+                   consumer_response_at=iso(notice + timedelta(hours=respond_hours)) if answered else None)
+        if requested == "notice":
+            requested = notice.date().isoformat()
+            count_from = count_from and requested
+        if response == "requested_refund" and requested is None:
+            requested = (notice + timedelta(hours=respond_hours)).date().isoformat()
+        cid = w.add("schedule_change_or_cancellation", t, inc, list(ancillary), tags, None, requested)
+        if expected is not None:
+            comp, ref = expected
+            w.golden[cid] = {"compensation": f"{comp / 100:.2f}", "refund": f"{ref / 100:.2f}",
+                             "refund_due_date": due(count_from, t["payment_method"]) if ref else "none"}
+        return cid
+
+    def resp_day(day, h):        # the date a response sent respond_hours=20 after a notice 3 days + 1 h before
+        return (T(day, h) - timedelta(days=3, hours=1) + timedelta(hours=20)).date().isoformat()
 
     fare = [21800]
     a1 = [anc("advance_seat_selection", 3900, 1, False), anc("first_checked_bag", 3500, 1, False)]
     change([("ORD", "LGA", T(23, 13))], {"event": "cancelled", "alternative_offered": "rebooking_on_later_flight"},
-           "rejected_alternatives", ["sc-cancel"], a1, (0, 21800 + 7400), fares=fare)
+           "rejected_alternatives", ["sc-cancel"], a1, (0, 21800 + 7400), fares=fare, count_from=resp_day(23, 13))
     change([("ORD", "LGA", T(23, 15))], {"event": "cancelled", "alternative_offered": "rebooking_on_later_flight"},
            "accepted_rebooking", ["sc-cancel", "sc-accepted"],
            [anc("advance_seat_selection", 3900, 1, False), anc("first_checked_bag", 3500, 1, True)],
-           (0, 3900), fares=fare)
+           (0, 3900), fares=fare, requested="notice", count_from="2026-10-20")
+    # 260.4: an unused prepaid extra on a cancelled flight is refunded even when a voucher is accepted
     change([("ORD", "LGA", T(23, 17))], {"event": "cancelled", "alternative_offered": "travel_voucher"},
-           "accepted_voucher_affirmatively", ["sc-cancel", "sc-voucher"], a1, (0, 0), fares=fare)
+           "accepted_voucher_affirmatively", ["sc-cancel", "sc-voucher"], a1, (0, 7400), fares=fare,
+           requested="notice", count_from="2026-10-20")
     change([("ORD", "LGA", T(24, 13))], {"event": "cancelled", "alternative_offered": "travel_voucher"},
-           "did_not_respond_before_scheduled_departure", ["sc-cancel", "sc-voucher"], a1, (0, 29200), fares=fare)
+           "did_not_respond_before_scheduled_departure", ["sc-cancel", "sc-voucher"], a1, (0, 29200), fares=fare,
+           count_from="2026-10-24")
     change([("ORD", "LGA", T(24, 15))], {"event": "cancelled", "alternative_offered": "none"},
-           "requested_refund", ["sc-cancel"], [], (0, 21800), fares=fare)
+           "requested_refund", ["sc-cancel", "due-date"], [], (0, 21800), fares=fare, count_from="2026-10-21")
     change([("ORD", "LGA", T(25, 13))], {"event": "retimed", "new_departure_shift_minutes": 0,
                                          "new_arrival_shift_minutes": 180},
-           "rejected_alternatives", ["sc-delay", "sc-threshold", "domestic"], [], (0, 21800), fares=fare)
+           "rejected_alternatives", ["sc-delay", "sc-threshold", "domestic"], [], (0, 21800), fares=fare,
+           count_from=resp_day(25, 13))
     change([("ORD", "LGA", T(25, 15))], {"event": "retimed", "new_departure_shift_minutes": 0,
                                          "new_arrival_shift_minutes": 179},
            "rejected_alternatives", ["sc-delay", "sc-threshold", "domestic"], [], (0, 0), fares=fare)
+    # declining a change that is not significant: the unused extra was the passenger's own choice
+    change([("ORD", "LGA", T(25, 17))], {"event": "retimed", "new_departure_shift_minutes": 0,
+                                         "new_arrival_shift_minutes": 120},
+           "rejected_alternatives", ["sc-delay", "sc-not-significant"], [anc("first_checked_bag", 3500, 1, False)],
+           (0, 0), fares=fare, requested="2026-10-24")
     change([("ORD", "LGA", T(26, 13))], {"event": "retimed", "new_departure_shift_minutes": -180,
                                          "new_arrival_shift_minutes": -180},
-           "rejected_alternatives", ["sc-earlier", "sc-threshold", "domestic"], [], (0, 21800), fares=fare)
+           "rejected_alternatives", ["sc-earlier", "sc-threshold", "domestic"], [], (0, 21800), fares=fare,
+           count_from=resp_day(26, 13))
     change([("ORD", "LHR", T(26, 22), AIRCRAFT[3])], {"event": "retimed", "new_departure_shift_minutes": 0,
                                                        "new_arrival_shift_minutes": 300},
            "rejected_alternatives", ["sc-delay", "sc-threshold", "international"], [], (0, 0), fares=[55600])
     change([("ORD", "LHR", T(27, 22), AIRCRAFT[3])], {"event": "retimed", "new_departure_shift_minutes": 0,
                                                        "new_arrival_shift_minutes": 360},
-           "rejected_alternatives", ["sc-delay", "sc-threshold", "international"], [], (0, 55600), fares=[55600])
+           "rejected_alternatives", ["sc-delay", "sc-threshold", "international"], [], (0, 55600), fares=[55600],
+           count_from=resp_day(27, 22))
     change([("ORD", "YYZ", T(27, 13))], {"event": "retimed", "new_departure_shift_minutes": 240,
                                          "new_arrival_shift_minutes": 240},
            "rejected_alternatives", ["sc-delay", "sc-threshold", "international"], [], (0, 0), fares=[19900])
     change([("ORD", "LGA", T(28, 13))], {"event": "airport_change", "new_destination_airport": "EWR",
                                          "new_departure_shift_minutes": 0, "new_arrival_shift_minutes": 20},
-           "rejected_alternatives", ["sc-airport"], [], (0, 21800), fares=fare)
+           "rejected_alternatives", ["sc-airport"], [], (0, 21800), fares=fare, count_from=resp_day(28, 13))
     change([("ORD", "LGA", T(28, 15))], {"event": "airport_change", "new_origin_airport": "MDW",
                                          "new_departure_shift_minutes": 0, "new_arrival_shift_minutes": 0},
-           "rejected_alternatives", ["sc-airport"], [], (0, 21800), fares=fare)
+           "rejected_alternatives", ["sc-airport"], [], (0, 21800), fares=fare, count_from=resp_day(28, 15))
     change([("ORD", "BOS", T(29, 13))], {"event": "added_connection", "new_connection_points": 1,
                                          "new_departure_shift_minutes": 0, "new_arrival_shift_minutes": 95},
-           "rejected_alternatives", ["sc-connection"], [], (0, 18400), fares=[18400])
+           "rejected_alternatives", ["sc-connection"], [], (0, 18400), fares=[18400], count_from=resp_day(29, 13))
     change([("ORD", "BOS", T(29, 15))], {"event": "downgrade", "new_cabin": "economy",
                                          "new_departure_shift_minutes": 0, "new_arrival_shift_minutes": 0},
-           "rejected_alternatives", ["sc-downgrade"], [], (0, 68900), fares=[68900], cabin="first")
+           "rejected_alternatives", ["sc-downgrade"], [], (0, 68900), fares=[68900], cabin="first",
+           count_from=resp_day(29, 15))
     change([("ORD", "BOS", T(30, 13))], {"event": "retimed", "new_departure_shift_minutes": 0,
                                          "new_arrival_shift_minutes": 240},
            "flew_on_changed_flight", ["sc-delay", "sc-accepted"],
            [anc("advance_seat_selection", 3900, 1, True)], (0, 0), fares=[18400])
-    change([("ORD", "BOS", T(30, 15))], {"event": "retimed", "new_departure_shift_minutes": 0,
-                                         "new_arrival_shift_minutes": 240},
-           "did_not_respond_and_flight_departed", ["sc-delay"], [anc("advance_seat_selection", 3900, 1, False)],
-           (0, 22300), fares=[18400])
+    # no response and the changed flight left: counted from the day it departed (here after midnight UTC)
+    change([("ORD", "BOS", T(30, 22, 30))], {"event": "retimed", "new_departure_shift_minutes": 200,
+                                             "new_arrival_shift_minutes": 200},
+           "did_not_respond_and_flight_departed", ["sc-delay", "due-date"],
+           [anc("advance_seat_selection", 3900, 1, False)], (0, 22300), fares=[18400], pay="debit_card",
+           requested="2026-11-03", count_from="2026-10-31")
+    # a later written request does not move the start: the rejection came first
     change([("ORD", "DFW", T(31, 13))], {"event": "cancelled", "alternative_offered": "rebooking_on_later_flight"},
            "rejected_alternatives", ["sc-cancel", "due-date"], [], (0, 26100), fares=[26100], pay="credit_card",
-           trigger="2026-11-06")
+           requested="2026-11-06", count_from=resp_day(31, 13))
     change([("ORD", "DFW", T(31, 15))], {"event": "cancelled", "alternative_offered": "rebooking_on_later_flight"},
            "rejected_alternatives", ["sc-cancel", "due-date"], [], (0, 26100), fares=[26100], pay="debit_card",
-           trigger="2026-11-06")
-    change([("ORD", "DFW", T(32, 13))], {"event": "cancelled", "alternative_offered": "rebooking_on_later_flight"},
-           "rejected_alternatives", ["sc-cancel", "due-date"], [], (0, 26100), fares=[26100], pay="credit_card",
-           trigger="2026-11-20")
+           requested="2026-11-06", count_from=resp_day(31, 15))
+    # voucher offer left unanswered: counted from the day the cancelled flight was to depart
+    change([("ORD", "DFW", T(37, 23, 30))], {"event": "cancelled", "alternative_offered": "travel_voucher"},
+           "did_not_respond_before_scheduled_departure", ["sc-cancel", "sc-voucher", "due-date"], [],
+           (0, 26100), fares=[26100], pay="credit_card", count_from="2026-11-06")
+    # nothing offered for a cancellation: due from the cancellation, not from the later request
+    change([("ORD", "DFW", T(32, 13))], {"event": "cancelled", "alternative_offered": "none"},
+           "requested_refund", ["sc-cancel", "due-date"], [], (0, 26100), fares=[26100], pay="credit_card",
+           requested="2026-11-03", respond_hours=130, count_from="2026-10-29")
+
+    # ---------------- covered flights: break in journey at a foreign point (260.2) ---------------
+    def euro(gap_minutes, inc, tags, expected, response="rejected_alternatives", inbound=False):
+        first = T(40, 22)
+        if not inbound:
+            legs = [("ORD", "LHR", first, AIRCRAFT[3]),
+                    ("LHR", "FRA", first + timedelta(minutes=block("ORD", "LHR") + gap_minutes))]
+            affected = 2
+        else:
+            legs = [("FRA", "LHR", first),
+                    ("LHR", "ORD", first + timedelta(minutes=block("LHR", "FRA") + gap_minutes), AIRCRAFT[3])]
+            affected = 1
+        dep = legs[affected - 1][2]
+        rd = (dep - timedelta(days=5, hours=1) + timedelta(hours=20)).date().isoformat()
+        return change(legs, inc, response, tags, (), expected, fares=[48700, 14900], affected=affected,
+                      notice_days=5, count_from=rd)
+
+    cx = {"event": "cancelled", "alternative_offered": "rebooking_on_later_flight"}
+    euro(180, cx, ["sc-covered", "break-in-journey"], (0, 63600))
+    euro(3 * 1440, cx, ["sc-covered", "break-in-journey"], (0, 0))
+    euro(1440, cx, ["sc-covered", "break-in-journey"], (0, 63600))
+    euro(1445, cx, ["sc-covered", "break-in-journey"], (0, 0))
+    euro(2 * 1440, cx, ["sc-covered", "break-in-journey"], (0, 0), inbound=True)
+    euro(150, {"event": "retimed", "new_departure_shift_minutes": 0, "new_arrival_shift_minutes": 400},
+         ["sc-covered", "break-in-journey", "sc-delay"], (0, 63600))
+    euro(2 * 1440, {"event": "retimed", "new_departure_shift_minutes": 0, "new_arrival_shift_minutes": 400},
+         ["sc-covered", "break-in-journey", "sc-delay"], (0, 0))
 
     # ---------------- bags (260.5) ----------------------------------------------------------------
     def bag(legs, delay_min, tags, expected, mbr=True, lost=False, fees=(3500,), linked=True, which=0,
@@ -370,9 +443,22 @@ def filler(w, n):
                     inc["new_origin_airport"] = "MDW"
                 resp = rng.choice(["rejected_alternatives", "flew_on_changed_flight"])
             t = w.ticket(legs)
-            w.add("schedule_change_or_cancellation", t, dict(inc, consumer_response=resp),
+            notice = dep - timedelta(days=rng.choice([1, 2, 4, 6]), hours=rng.choice([2, 5, 9]))
+            answered = resp not in ("did_not_respond_before_scheduled_departure", "flew_on_changed_flight")
+            at = notice + timedelta(hours=rng.choice([3, 11, 26])) if answered else None
+            inc = dict(inc, affected_coupon=1, carrier_notice_at=iso(notice), consumer_response=resp,
+                       consumer_response_at=iso(at) if at else None)
+            if resp == "requested_refund":
+                req = at.date().isoformat()
+            elif resp.startswith("accepted") or resp == "flew_on_changed_flight":
+                req = notice.date().isoformat()      # 260.4 refunds: asked for when Lakeshore gave notice
+            elif rng.random() < 0.6:
+                req = (dep + timedelta(days=rng.choice([0, 1, 3, 8]))).date().isoformat()
+            else:
+                req = None
+            w.add("schedule_change_or_cancellation", t, inc,
                   [anc("first_checked_bag", 3500, 1, resp in ("accepted_rebooking", "flew_on_changed_flight"))]
-                  if rng.random() < 0.4 else [], ["filler"], None, legs[0][2].date().isoformat())
+                  if rng.random() < 0.4 else [], ["filler"], None, req)
         elif kind == "bag":
             t = w.ticket(legs)
             last = t["coupons"][-1]
@@ -416,7 +502,8 @@ def main():
         "merchant_of_record": "Lakeshore Air for every ticket and every ancillary fee in this queue",
         "money_unit": "cents (USD)", "times": "UTC",
         "coupon_fare_cents": "price paid for that coupon including all mandatory taxes and fees, excluding ancillary fees",
-        "bag_fees": "escalating per-bag scale; some fees are linked to a specific bag by unique identifier"},
+        "bag_fees": "escalating per-bag scale; some fees are linked to a specific bag by unique identifier",
+        "tickets": "every itinerary was bought as one ticket in a single transaction; Lakeshore operates every flight"},
         indent=1) + "\n")
     (ENV / "federal_holidays.json").write_text(json.dumps({"source": "OPM federal holiday schedule",
                                                            "observed_dates": HOLIDAYS}, indent=1) + "\n")
