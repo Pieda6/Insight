@@ -1,0 +1,108 @@
+[
+ {
+  "employer_id": "NORTHWIND",
+  "name": "Northwind Logistics",
+  "twelve_month_period_method": "calendar_year",
+  "leave_year_starts": null,
+  "workweek": "Sunday through Saturday",
+  "holidays": [
+   "2024-07-04",
+   "2024-09-02",
+   "2024-11-28",
+   "2024-12-25",
+   "2025-01-01",
+   "2025-05-26",
+   "2025-07-04",
+   "2025-09-01",
+   "2025-11-27",
+   "2025-12-25",
+   "2026-01-01",
+   "2026-05-25",
+   "2026-07-03",
+   "2026-09-07"
+  ],
+  "business_closures": [
+   {
+    "first_day": "2025-12-21",
+    "last_day": "2026-01-03"
+   }
+  ]
+ },
+ {
+  "employer_id": "BRIGHTWATER",
+  "name": "Brightwater Health System",
+  "twelve_month_period_method": "rolling_backward",
+  "leave_year_starts": null,
+  "workweek": "Sunday through Saturday",
+  "holidays": [
+   "2024-07-04",
+   "2024-09-02",
+   "2024-11-28",
+   "2024-12-25",
+   "2025-01-01",
+   "2025-05-26",
+   "2025-07-04",
+   "2025-09-01",
+   "2025-11-27",
+   "2025-12-25",
+   "2026-01-01",
+   "2026-05-25",
+   "2026-07-03",
+   "2026-09-07"
+  ],
+  "business_closures": []
+ },
+ {
+  "employer_id": "IRONGATE",
+  "name": "Irongate Manufacturing",
+  "twelve_month_period_method": "fixed_leave_year",
+  "leave_year_starts": "07-01",
+  "workweek": "Sunday through Saturday",
+  "holidays": [
+   "2024-07-04",
+   "2024-09-02",
+   "2024-11-28",
+   "2024-12-25",
+   "2025-01-01",
+   "2025-05-26",
+   "2025-07-04",
+   "2025-09-01",
+   "2025-11-27",
+   "2025-12-25",
+   "2026-01-01",
+   "2026-05-25",
+   "2026-07-03",
+   "2026-09-07"
+  ],
+  "business_closures": [
+   {
+    "first_day": "2025-06-29",
+    "last_day": "2025-07-05"
+   }
+  ]
+ },
+ {
+  "employer_id": "SUMMIT",
+  "name": "Summit Insurance Group",
+  "twelve_month_period_method": "forward_from_first_leave",
+  "leave_year_starts": null,
+  "workweek": "Sunday through Saturday",
+  "holidays": [
+   "2024-07-04",
+   "2024-09-02",
+   "2024-11-28",
+   "2024-12-25",
+   "2025-01-01",
+   "2025-05-26",
+   "2025-07-04",
+   "2025-09-01",
+   "2025-11-27",
+   "2025-12-25",
+   "2026-01-01",
+   "2026-05-25",
+   "2026-07-03",
+   "2026-09-07"
+  ],
+  "business_closures": []
+ }
+]

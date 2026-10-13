@@ -1,0 +1,31 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/fmla-absence-claims"
+description = "Designate FMLA leave for an absence-management firm's backlog: for 1,615 absences of 87 employees at four employers, compute the hours that count as FMLA leave under 29 CFR Part 825, across each employer's 12-month method, military caregiver leave, holidays, closures, eligibility and bonding limits."
+
+[metadata]
+difficulty_explanation = "Absence-management claims examiners designate FMLA leave every day, and each answer depends on the employee's whole leave history, not on the absence alone. Every hour is charged against an entitlement whose window depends on the employer's chosen method: a calendar year, a fixed leave year (here starting July 1), a period running forward from the first leave and restarting only at the next leave after it ends, or a rolling period looking back 12 months from each day of leave, which restores hours one day at a time. Military caregiver leave opens a separate single 12-month period from its first day, with 26 workweeks for all reasons combined while other leave in that period stays limited to 12 under the employer's method, and leave before the period does not count toward the 26. Leave is measured in hours of each employee's own schedule (8-hour, 10-hour, 7.5-hour, 12-hour and part-time patterns), a holiday counts only inside a full week of leave unless the employee was scheduled to work it, closure weeks are never charged, the 12-month employment requirement can be met in the middle of a continuous leave so only the later part counts, and bonding leave ends 12 months after the birth. The histories run over two years with many absences per employee, so the exact hour at which an entitlement runs out or comes back decides the answer for many later absences."
+solution_explanation = "For each employee, expand every absence into days in date order (continuous absences take the scheduled hours of each day; intermittent absences their stated hours). Drop days in a closure, days before the first anniversary of the hire date, bonding days on or after the first anniversary of the birth, and holidays outside a full week of leave unless the employee works holidays. Open the military caregiver single period on the first day of caregiver leave. Charge each day up to the remaining entitlement: caregiver days against 26 weeks of hours less everything charged inside the single period; other days against 12 weeks of hours less other leave charged in the employer's 12-month window (calendar year, fixed year from July 1, forward period opened by the first leave after the previous one ended, or the 12 months before the day), and inside the single period also against the combined 26-week balance."
+verification_explanation = "The verifier recomputes every absence with its own independently written engine (engine.py, exact fractions of hours with window predicates over running ledgers, while the reference solution walks days in integer minutes) from a private copy of the inputs that exists only in the verifier image, and never runs agent code. The engine is checked against 24 hand-worked planted absences (golden.json), and the generator's own third implementation reproduces the same answers. Tests check the exact header, one row per absence in input order, value format, the hand-worked absences, one test per rule family (12-month methods, exhaustion, holidays full weeks and closures, eligibility, bonding window, military caregiver) and finally every row by exact match. Reward is 1 only if every test passes."
+category = "Operations"
+subcategory = "Claims"
+tags = ["fmla", "29-cfr-825", "absence-management", "leave-administration", "claims", "rolling-window", "python"]
+expert_time_estimate_hours = 8
+relevant_experience = "Leave and absence management claims examination: FMLA designation under 29 CFR Part 825, including the four 12-month methods, intermittent leave in hours, holiday and closure rules, military caregiver leave and eligibility."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0
