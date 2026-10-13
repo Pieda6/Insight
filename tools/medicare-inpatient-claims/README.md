@@ -2,12 +2,17 @@
 
 - `generate.py` (seed 40960) writes `tasks/medicare-inpatient-claims/environment/data/` (beneficiaries.json,
   facilities.json, stays.json, claims.json, part_b_blood.json, part_a_amounts.json), the identical verifier copy
-  in `tests/data/`, `tests/case_tags.json` and `tests/golden.json` (57 hand-worked claims from 31 planted
-  beneficiaries; 151 beneficiaries, 2,533 stays, 928 claims in all).
+  in `tests/data/`, `tests/case_tags.json` and `tests/golden.json` (65 hand-worked claims from 35 planted
+  beneficiaries; 155 beneficiaries, 2,483 stays, 853 claims in all).
 - The generator carries a third implementation of the rules (`sim`). It re-checks every hand-worked answer and
   rejects any filler history that needs an open reading (`contested`).
-- `calibrate.py` (needs writable `/app`): oracle passes, empty output fails, 34 misreadings (source edits of
+- `calibrate.py` (needs writable `/app`): oracle passes, empty output fails, 37 misreadings (source edits of
   the reference solution) each fail at least one test.
+
+## Blind trials (a separate agent solving cold from instruction, data and rule text)
+- HOS (accepted task): 438/439, so it fails, like the real Pass@2 trials. Medicare first build: 927/927. Added
+  409.85(c) (SNF coinsurance capped by the facility's daily charge, straddling 2025/2026) and 409.30(a)
+  (pre-entitlement days count toward the 3 days) after that run.
 
 ## Why this replaced airline-claims-desk
 Parts 250/260 decide each airline claim with a short, stateless check; v3, v4 and v5 were solved 2/2 (or 331/332

@@ -21,9 +21,7 @@
   "filler"
  ],
  "C0008": [
-  "snf",
-  "custodial",
-  "benefit-period"
+  "filler"
  ],
  "C0009": [
   "filler"
@@ -38,13 +36,17 @@
   "filler"
  ],
  "C0013": [
-  "filler"
+  "snf",
+  "benefit-period",
+  "boundary"
  ],
  "C0014": [
   "filler"
  ],
  "C0015": [
-  "filler"
+  "snf",
+  "custodial",
+  "benefit-period"
  ],
  "C0016": [
   "filler"
@@ -68,7 +70,8 @@
   "filler"
  ],
  "C0023": [
-  "filler"
+  "hospital-days",
+  "boundary"
  ],
  "C0024": [
   "filler"
@@ -125,7 +128,8 @@
   "filler"
  ],
  "C0042": [
-  "filler"
+  "reserve-days",
+  "history"
  ],
  "C0043": [
   "filler"
@@ -140,18 +144,18 @@
   "filler"
  ],
  "C0047": [
-  "snf",
-  "three-day"
+  "filler"
  ],
  "C0048": [
   "filler"
  ],
  "C0049": [
-  "filler"
+  "snf",
+  "benefit-period",
+  "boundary"
  ],
  "C0050": [
-  "snf",
-  "three-day"
+  "filler"
  ],
  "C0051": [
   "filler"
@@ -253,13 +257,16 @@
   "filler"
  ],
  "C0084": [
-  "filler"
+  "snf",
+  "thirty-day"
  ],
  "C0085": [
   "filler"
  ],
  "C0086": [
-  "filler"
+  "snf",
+  "year-rates",
+  "snf-charge"
  ],
  "C0087": [
   "filler"
@@ -277,8 +284,8 @@
   "filler"
  ],
  "C0092": [
-  "hospital-days",
-  "boundary"
+  "blood",
+  "year-rates"
  ],
  "C0093": [
   "filler"
@@ -290,7 +297,7 @@
   "filler"
  ],
  "C0096": [
-  "filler"
+  "blood"
  ],
  "C0097": [
   "filler"
@@ -299,13 +306,15 @@
   "filler"
  ],
  "C0099": [
-  "filler"
+  "snf",
+  "snf-100"
  ],
  "C0100": [
   "filler"
  ],
  "C0101": [
-  "filler"
+  "snf",
+  "three-day"
  ],
  "C0102": [
   "filler"
@@ -320,8 +329,7 @@
   "filler"
  ],
  "C0106": [
-  "snf",
-  "thirty-day"
+  "filler"
  ],
  "C0107": [
   "filler"
@@ -336,18 +344,17 @@
   "filler"
  ],
  "C0111": [
-  "snf",
-  "custodial",
-  "benefit-period"
+  "filler"
  ],
  "C0112": [
-  "filler"
+  "snf",
+  "thirty-day"
  ],
  "C0113": [
   "filler"
  ],
  "C0114": [
-  "blood"
+  "filler"
  ],
  "C0115": [
   "filler"
@@ -383,7 +390,8 @@
   "filler"
  ],
  "C0126": [
-  "filler"
+  "snf",
+  "thirty-day"
  ],
  "C0127": [
   "filler"
@@ -413,7 +421,9 @@
   "filler"
  ],
  "C0136": [
-  "filler"
+  "snf",
+  "three-day",
+  "entitlement"
  ],
  "C0137": [
   "filler"
@@ -422,15 +432,13 @@
   "filler"
  ],
  "C0139": [
-  "benefit-period",
-  "boundary"
+  "filler"
  ],
  "C0140": [
   "filler"
  ],
  "C0141": [
-  "benefit-period",
-  "boundary"
+  "blood"
  ],
  "C0142": [
   "filler"
@@ -490,9 +498,7 @@
   "filler"
  ],
  "C0161": [
-  "initial-period",
-  "psych-190",
-  "reserve-days"
+  "filler"
  ],
  "C0162": [
   "filler"
@@ -537,8 +543,8 @@
   "filler"
  ],
  "C0176": [
-  "reserve-days",
-  "history"
+  "snf",
+  "snf-100"
  ],
  "C0177": [
   "filler"
@@ -631,7 +637,9 @@
   "filler"
  ],
  "C0207": [
-  "blood"
+  "snf",
+  "three-day",
+  "entitlement"
  ],
  "C0208": [
   "filler"
@@ -649,8 +657,7 @@
   "filler"
  ],
  "C0213": [
-  "snf",
-  "snf-100"
+  "filler"
  ],
  "C0214": [
   "filler"
@@ -659,7 +666,9 @@
   "filler"
  ],
  "C0216": [
-  "filler"
+  "hospital-days",
+  "history",
+  "deductible"
  ],
  "C0217": [
   "filler"
@@ -671,12 +680,10 @@
   "filler"
  ],
  "C0220": [
-  "psych-190",
-  "history"
+  "filler"
  ],
  "C0221": [
-  "snf",
-  "snf-100"
+  "filler"
  ],
  "C0222": [
   "filler"
@@ -709,9 +716,7 @@
   "filler"
  ],
  "C0232": [
-  "snf",
-  "custodial",
-  "benefit-period"
+  "filler"
  ],
  "C0233": [
   "filler"
@@ -750,7 +755,8 @@
   "filler"
  ],
  "C0245": [
-  "filler"
+  "snf",
+  "thirty-day"
  ],
  "C0246": [
   "filler"
@@ -759,8 +765,7 @@
   "filler"
  ],
  "C0248": [
-  "snf",
-  "three-day"
+  "filler"
  ],
  "C0249": [
   "filler"
@@ -787,12 +792,10 @@
   "filler"
  ],
  "C0257": [
-  "snf",
-  "thirty-day"
+  "filler"
  ],
  "C0258": [
-  "snf",
-  "three-day"
+  "filler"
  ],
  "C0259": [
   "filler"
@@ -807,14 +810,10 @@
   "filler"
  ],
  "C0263": [
-  "initial-period",
-  "psych-190",
-  "reserve-days"
+  "filler"
  ],
  "C0264": [
-  "snf",
-  "three-day",
-  "observation"
+  "filler"
  ],
  "C0265": [
   "filler"
@@ -826,7 +825,7 @@
   "filler"
  ],
  "C0268": [
-  "filler"
+  "entitlement"
  ],
  "C0269": [
   "filler"
@@ -841,8 +840,7 @@
   "filler"
  ],
  "C0273": [
-  "hospital-days",
-  "year-rates"
+  "filler"
  ],
  "C0274": [
   "filler"
@@ -854,7 +852,7 @@
   "filler"
  ],
  "C0277": [
-  "filler"
+  "blood"
  ],
  "C0278": [
   "filler"
@@ -875,7 +873,7 @@
   "filler"
  ],
  "C0284": [
-  "filler"
+  "benefit-period"
  ],
  "C0285": [
   "filler"
@@ -902,7 +900,9 @@
   "filler"
  ],
  "C0293": [
-  "filler"
+  "snf",
+  "year-rates",
+  "snf-charge"
  ],
  "C0294": [
   "filler"
@@ -914,9 +914,7 @@
   "filler"
  ],
  "C0297": [
-  "initial-period",
-  "psych-190",
-  "reserve-days"
+  "filler"
  ],
  "C0298": [
   "filler"
@@ -925,8 +923,7 @@
   "filler"
  ],
  "C0300": [
-  "benefit-period",
-  "boundary"
+  "filler"
  ],
  "C0301": [
   "filler"
@@ -956,7 +953,8 @@
   "filler"
  ],
  "C0310": [
-  "filler"
+  "hospital-days",
+  "year-rates"
  ],
  "C0311": [
   "filler"
@@ -986,9 +984,7 @@
   "filler"
  ],
  "C0320": [
-  "snf",
-  "custodial",
-  "benefit-period"
+  "filler"
  ],
  "C0321": [
   "filler"
@@ -1012,7 +1008,9 @@
   "filler"
  ],
  "C0328": [
-  "filler"
+  "snf",
+  "custodial",
+  "benefit-period"
  ],
  "C0329": [
   "filler"
@@ -1036,7 +1034,7 @@
   "filler"
  ],
  "C0336": [
-  "filler"
+  "blood"
  ],
  "C0337": [
   "filler"
@@ -1048,7 +1046,8 @@
   "filler"
  ],
  "C0340": [
-  "filler"
+  "benefit-period",
+  "boundary"
  ],
  "C0341": [
   "filler"
@@ -1081,15 +1080,13 @@
   "filler"
  ],
  "C0351": [
-  "snf",
-  "custodial",
-  "benefit-period"
+  "filler"
  ],
  "C0352": [
   "filler"
  ],
  "C0353": [
-  "filler"
+  "blood"
  ],
  "C0354": [
   "filler"
@@ -1098,7 +1095,7 @@
   "filler"
  ],
  "C0356": [
-  "blood"
+  "filler"
  ],
  "C0357": [
   "filler"
@@ -1125,9 +1122,7 @@
   "filler"
  ],
  "C0365": [
-  "snf",
-  "three-day",
-  "observation"
+  "filler"
  ],
  "C0366": [
   "filler"
@@ -1145,7 +1140,9 @@
   "filler"
  ],
  "C0371": [
-  "filler"
+  "snf",
+  "three-day",
+  "observation"
  ],
  "C0372": [
   "filler"
@@ -1175,8 +1172,8 @@
   "filler"
  ],
  "C0381": [
-  "blood",
-  "year-rates"
+  "benefit-period",
+  "boundary"
  ],
  "C0382": [
   "filler"
@@ -1188,7 +1185,9 @@
   "filler"
  ],
  "C0385": [
-  "filler"
+  "initial-period",
+  "psych-190",
+  "reserve-days"
  ],
  "C0386": [
   "filler"
@@ -1254,7 +1253,8 @@
   "filler"
  ],
  "C0407": [
-  "filler"
+  "snf",
+  "three-day"
  ],
  "C0408": [
   "filler"
@@ -1308,7 +1308,8 @@
   "filler"
  ],
  "C0425": [
-  "filler"
+  "psych-190",
+  "history"
  ],
  "C0426": [
   "filler"
@@ -1320,7 +1321,8 @@
   "filler"
  ],
  "C0429": [
-  "filler"
+  "psych-190",
+  "history"
  ],
  "C0430": [
   "filler"
@@ -1344,8 +1346,7 @@
   "filler"
  ],
  "C0437": [
-  "snf",
-  "thirty-day"
+  "filler"
  ],
  "C0438": [
   "filler"
@@ -1375,10 +1376,14 @@
   "filler"
  ],
  "C0447": [
-  "filler"
+  "initial-period",
+  "psych-190",
+  "reserve-days"
  ],
  "C0448": [
-  "filler"
+  "snf",
+  "custodial",
+  "benefit-period"
  ],
  "C0449": [
   "filler"
@@ -1414,11 +1419,12 @@
   "filler"
  ],
  "C0460": [
-  "filler"
+  "snf",
+  "benefit-period",
+  "boundary"
  ],
  "C0461": [
-  "snf",
-  "snf-100"
+  "filler"
  ],
  "C0462": [
   "filler"
@@ -1427,10 +1433,12 @@
   "filler"
  ],
  "C0464": [
-  "filler"
+  "benefit-period",
+  "boundary"
  ],
  "C0465": [
-  "filler"
+  "hospital-days",
+  "year-rates"
  ],
  "C0466": [
   "filler"
@@ -1442,19 +1450,22 @@
   "filler"
  ],
  "C0469": [
-  "filler"
+  "snf",
+  "snf-100"
  ],
  "C0470": [
   "filler"
  ],
  "C0471": [
-  "filler"
+  "snf",
+  "three-day",
+  "entitlement"
  ],
  "C0472": [
   "filler"
  ],
  "C0473": [
-  "entitlement"
+  "filler"
  ],
  "C0474": [
   "filler"
@@ -1505,12 +1516,10 @@
   "filler"
  ],
  "C0490": [
-  "psych-190",
-  "history"
+  "filler"
  ],
  "C0491": [
-  "hospital-days",
-  "year-rates"
+  "filler"
  ],
  "C0492": [
   "filler"
@@ -1597,14 +1606,15 @@
   "filler"
  ],
  "C0520": [
-  "filler"
+  "snf",
+  "custodial",
+  "benefit-period"
  ],
  "C0521": [
   "filler"
  ],
  "C0522": [
-  "blood",
-  "year-rates"
+  "filler"
  ],
  "C0523": [
   "filler"
@@ -1622,7 +1632,8 @@
   "filler"
  ],
  "C0528": [
-  "filler"
+  "snf",
+  "three-day"
  ],
  "C0529": [
   "filler"
@@ -1664,7 +1675,9 @@
   "filler"
  ],
  "C0542": [
-  "filler"
+  "snf",
+  "three-day",
+  "entitlement"
  ],
  "C0543": [
   "filler"
@@ -1682,8 +1695,7 @@
   "filler"
  ],
  "C0548": [
-  "hospital-days",
-  "boundary"
+  "filler"
  ],
  "C0549": [
   "filler"
@@ -1734,10 +1746,11 @@
   "filler"
  ],
  "C0565": [
-  "blood"
+  "filler"
  ],
  "C0566": [
-  "filler"
+  "snf",
+  "cah"
  ],
  "C0567": [
   "filler"
@@ -1785,17 +1798,13 @@
   "filler"
  ],
  "C0582": [
-  "snf",
-  "benefit-period",
-  "boundary"
+  "filler"
  ],
  "C0583": [
   "filler"
  ],
  "C0584": [
-  "snf",
-  "benefit-period",
-  "boundary"
+  "filler"
  ],
  "C0585": [
   "filler"
@@ -1846,8 +1855,7 @@
   "filler"
  ],
  "C0601": [
-  "snf",
-  "year-rates"
+  "filler"
  ],
  "C0602": [
   "filler"
@@ -1856,7 +1864,8 @@
   "filler"
  ],
  "C0604": [
-  "filler"
+  "snf",
+  "snf-100"
  ],
  "C0605": [
   "filler"
@@ -1925,7 +1934,7 @@
   "filler"
  ],
  "C0627": [
-  "filler"
+  "blood"
  ],
  "C0628": [
   "filler"
@@ -1946,12 +1955,10 @@
   "filler"
  ],
  "C0634": [
-  "benefit-period"
+  "filler"
  ],
  "C0635": [
-  "hospital-days",
-  "history",
-  "deductible"
+  "filler"
  ],
  "C0636": [
   "filler"
@@ -1966,11 +1973,11 @@
   "filler"
  ],
  "C0640": [
-  "snf",
-  "snf-100"
+  "filler"
  ],
  "C0641": [
-  "filler"
+  "benefit-period",
+  "boundary"
  ],
  "C0642": [
   "filler"
@@ -2009,7 +2016,8 @@
   "filler"
  ],
  "C0654": [
-  "filler"
+  "hospital-days",
+  "boundary"
  ],
  "C0655": [
   "filler"
@@ -2024,8 +2032,7 @@
   "filler"
  ],
  "C0659": [
-  "hospital-days",
-  "year-rates"
+  "filler"
  ],
  "C0660": [
   "filler"
@@ -2049,8 +2056,7 @@
   "filler"
  ],
  "C0667": [
-  "snf",
-  "thirty-day"
+  "filler"
  ],
  "C0668": [
   "filler"
@@ -2110,7 +2116,8 @@
   "filler"
  ],
  "C0687": [
-  "filler"
+  "snf",
+  "snf-charge"
  ],
  "C0688": [
   "filler"
@@ -2158,7 +2165,7 @@
   "filler"
  ],
  "C0703": [
-  "blood"
+  "filler"
  ],
  "C0704": [
   "filler"
@@ -2224,8 +2231,7 @@
   "filler"
  ],
  "C0725": [
-  "snf",
-  "year-rates"
+  "filler"
  ],
  "C0726": [
   "filler"
@@ -2243,7 +2249,7 @@
   "filler"
  ],
  "C0731": [
-  "reserve-days"
+  "filler"
  ],
  "C0732": [
   "filler"
@@ -2276,8 +2282,7 @@
   "filler"
  ],
  "C0742": [
-  "psych-190",
-  "history"
+  "filler"
  ],
  "C0743": [
   "filler"
@@ -2304,13 +2309,16 @@
   "filler"
  ],
  "C0751": [
-  "filler"
- ],
- "C0752": [
+  "snf",
+  "custodial",
   "benefit-period"
  ],
- "C0753": [
+ "C0752": [
   "filler"
+ ],
+ "C0753": [
+  "snf",
+  "year-rates"
  ],
  "C0754": [
   "filler"
@@ -2343,8 +2351,7 @@
   "filler"
  ],
  "C0764": [
-  "snf",
-  "cah"
+  "filler"
  ],
  "C0765": [
   "filler"
@@ -2356,7 +2363,8 @@
   "filler"
  ],
  "C0768": [
-  "filler"
+  "blood",
+  "year-rates"
  ],
  "C0769": [
   "filler"
@@ -2365,15 +2373,14 @@
   "filler"
  ],
  "C0771": [
-  "filler"
+  "initial-period",
+  "psych-190"
  ],
  "C0772": [
   "filler"
  ],
  "C0773": [
-  "snf",
-  "custodial",
-  "benefit-period"
+  "filler"
  ],
  "C0774": [
   "filler"
@@ -2391,10 +2398,12 @@
   "filler"
  ],
  "C0779": [
-  "filler"
+  "psych-190",
+  "history"
  ],
  "C0780": [
-  "filler"
+  "snf",
+  "year-rates"
  ],
  "C0781": [
   "filler"
@@ -2427,7 +2436,9 @@
   "filler"
  ],
  "C0791": [
-  "filler"
+  "snf",
+  "custodial",
+  "benefit-period"
  ],
  "C0792": [
   "filler"
@@ -2454,13 +2465,17 @@
   "filler"
  ],
  "C0800": [
-  "filler"
+  "hospital-days",
+  "year-rates"
  ],
  "C0801": [
-  "filler"
+  "initial-period",
+  "psych-190",
+  "reserve-days"
  ],
  "C0802": [
-  "filler"
+  "snf",
+  "three-day"
  ],
  "C0803": [
   "filler"
@@ -2475,8 +2490,7 @@
   "filler"
  ],
  "C0807": [
-  "benefit-period",
-  "boundary"
+  "filler"
  ],
  "C0808": [
   "filler"
@@ -2521,13 +2535,16 @@
   "filler"
  ],
  "C0822": [
-  "filler"
+  "snf",
+  "cah"
  ],
  "C0823": [
   "filler"
  ],
  "C0824": [
-  "filler"
+  "snf",
+  "three-day",
+  "observation"
  ],
  "C0825": [
   "filler"
@@ -2539,7 +2556,8 @@
   "filler"
  ],
  "C0828": [
-  "filler"
+  "snf",
+  "snf-charge"
  ],
  "C0829": [
   "filler"
@@ -2566,7 +2584,7 @@
   "filler"
  ],
  "C0837": [
-  "filler"
+  "reserve-days"
  ],
  "C0838": [
   "filler"
@@ -2575,7 +2593,7 @@
   "filler"
  ],
  "C0840": [
-  "filler"
+  "benefit-period"
  ],
  "C0841": [
   "filler"
@@ -2614,235 +2632,6 @@
   "filler"
  ],
  "C0853": [
-  "filler"
- ],
- "C0854": [
-  "filler"
- ],
- "C0855": [
-  "filler"
- ],
- "C0856": [
-  "filler"
- ],
- "C0857": [
-  "filler"
- ],
- "C0858": [
-  "filler"
- ],
- "C0859": [
-  "filler"
- ],
- "C0860": [
-  "filler"
- ],
- "C0861": [
-  "filler"
- ],
- "C0862": [
-  "filler"
- ],
- "C0863": [
-  "filler"
- ],
- "C0864": [
-  "filler"
- ],
- "C0865": [
-  "filler"
- ],
- "C0866": [
-  "filler"
- ],
- "C0867": [
-  "filler"
- ],
- "C0868": [
-  "filler"
- ],
- "C0869": [
-  "filler"
- ],
- "C0870": [
-  "filler"
- ],
- "C0871": [
-  "filler"
- ],
- "C0872": [
-  "filler"
- ],
- "C0873": [
-  "filler"
- ],
- "C0874": [
-  "filler"
- ],
- "C0875": [
-  "filler"
- ],
- "C0876": [
-  "filler"
- ],
- "C0877": [
-  "filler"
- ],
- "C0878": [
-  "filler"
- ],
- "C0879": [
-  "filler"
- ],
- "C0880": [
-  "filler"
- ],
- "C0881": [
-  "filler"
- ],
- "C0882": [
-  "filler"
- ],
- "C0883": [
-  "filler"
- ],
- "C0884": [
-  "filler"
- ],
- "C0885": [
-  "filler"
- ],
- "C0886": [
-  "filler"
- ],
- "C0887": [
-  "filler"
- ],
- "C0888": [
-  "filler"
- ],
- "C0889": [
-  "filler"
- ],
- "C0890": [
-  "filler"
- ],
- "C0891": [
-  "blood"
- ],
- "C0892": [
-  "filler"
- ],
- "C0893": [
-  "filler"
- ],
- "C0894": [
-  "filler"
- ],
- "C0895": [
-  "filler"
- ],
- "C0896": [
-  "filler"
- ],
- "C0897": [
-  "filler"
- ],
- "C0898": [
-  "filler"
- ],
- "C0899": [
-  "filler"
- ],
- "C0900": [
-  "filler"
- ],
- "C0901": [
-  "filler"
- ],
- "C0902": [
-  "initial-period",
-  "psych-190"
- ],
- "C0903": [
-  "snf",
-  "benefit-period",
-  "boundary"
- ],
- "C0904": [
-  "filler"
- ],
- "C0905": [
-  "filler"
- ],
- "C0906": [
-  "filler"
- ],
- "C0907": [
-  "filler"
- ],
- "C0908": [
-  "filler"
- ],
- "C0909": [
-  "filler"
- ],
- "C0910": [
-  "filler"
- ],
- "C0911": [
-  "filler"
- ],
- "C0912": [
-  "filler"
- ],
- "C0913": [
-  "filler"
- ],
- "C0914": [
-  "filler"
- ],
- "C0915": [
-  "filler"
- ],
- "C0916": [
-  "filler"
- ],
- "C0917": [
-  "filler"
- ],
- "C0918": [
-  "filler"
- ],
- "C0919": [
-  "filler"
- ],
- "C0920": [
-  "filler"
- ],
- "C0921": [
-  "filler"
- ],
- "C0922": [
-  "snf",
-  "cah"
- ],
- "C0923": [
-  "filler"
- ],
- "C0924": [
-  "filler"
- ],
- "C0925": [
-  "filler"
- ],
- "C0926": [
-  "filler"
- ],
- "C0927": [
-  "filler"
- ],
- "C0928": [
   "filler"
  ]
 }

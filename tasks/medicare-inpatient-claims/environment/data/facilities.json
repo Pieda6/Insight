@@ -3,60 +3,89 @@
   "facility_id": "LVH-MAIN",
   "name": "Lakeview Hospital, Main Campus",
   "type": "general_hospital",
-  "medicare_participating_since": "2001-07-01"
+  "medicare_participating_since": "2001-07-01",
+  "daily_charge_cents_by_year": null
  },
  {
   "facility_id": "LVH-EAST",
   "name": "Lakeview Hospital, East",
   "type": "general_hospital",
-  "medicare_participating_since": "2001-07-01"
+  "medicare_participating_since": "2001-07-01",
+  "daily_charge_cents_by_year": null
  },
  {
   "facility_id": "LVH-WEST",
   "name": "Lakeview Hospital, Westfield",
   "type": "general_hospital",
-  "medicare_participating_since": "2001-07-01"
+  "medicare_participating_since": "2001-07-01",
+  "daily_charge_cents_by_year": null
  },
  {
   "facility_id": "LVH-CAH1",
   "name": "Pine Ridge Critical Access Hospital",
   "type": "critical_access_hospital",
-  "medicare_participating_since": "2001-07-01"
+  "medicare_participating_since": "2001-07-01",
+  "daily_charge_cents_by_year": null
  },
  {
   "facility_id": "LVH-CAH2",
   "name": "Clearwater Critical Access Hospital",
   "type": "critical_access_hospital",
-  "medicare_participating_since": "2001-07-01"
+  "medicare_participating_since": "2001-07-01",
+  "daily_charge_cents_by_year": null
  },
  {
   "facility_id": "LVH-PSY1",
   "name": "Lakeview Behavioral Hospital",
   "type": "psychiatric_hospital",
-  "medicare_participating_since": "2001-07-01"
+  "medicare_participating_since": "2001-07-01",
+  "daily_charge_cents_by_year": null
  },
  {
   "facility_id": "LVH-PSY2",
   "name": "Harbor Psychiatric Hospital",
   "type": "psychiatric_hospital",
-  "medicare_participating_since": "2001-07-01"
+  "medicare_participating_since": "2001-07-01",
+  "daily_charge_cents_by_year": null
  },
  {
   "facility_id": "LVS-OAKS",
   "name": "Lakeview Oaks Skilled Nursing",
   "type": "skilled_nursing_facility",
-  "medicare_participating_since": "2001-07-01"
+  "medicare_participating_since": "2001-07-01",
+  "daily_charge_cents_by_year": {
+   "2025": 26000,
+   "2026": 27500
+  }
  },
  {
   "facility_id": "LVS-MAPL",
   "name": "Maple Court Skilled Nursing",
   "type": "skilled_nursing_facility",
-  "medicare_participating_since": "2001-07-01"
+  "medicare_participating_since": "2001-07-01",
+  "daily_charge_cents_by_year": {
+   "2025": 24500,
+   "2026": 25500
+  }
  },
  {
   "facility_id": "LVS-BIRC",
   "name": "Birch Hill Nursing and Rehabilitation",
   "type": "skilled_nursing_facility",
-  "medicare_participating_since": "2001-07-01"
+  "medicare_participating_since": "2001-07-01",
+  "daily_charge_cents_by_year": {
+   "2025": 21200,
+   "2026": 21600
+  }
+ },
+ {
+  "facility_id": "LVS-CEDR",
+  "name": "Cedar Lane Care Center",
+  "type": "skilled_nursing_facility",
+  "medicare_participating_since": "2001-07-01",
+  "daily_charge_cents_by_year": {
+   "2025": 19800,
+   "2026": 20500
+  }
  }
 ]

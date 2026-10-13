@@ -31,9 +31,10 @@ def days(a, b):
         x += ONE
 
 
-def qualifying_hospital_stay(stays, snf, ftype):
-    """409.30: the hospital or CAH stay before the SNF admission lasted 3 days (discharge day not counted) and
-    the SNF admission came within 30 days of that discharge."""
+def qualifying_hospital_stay(stays, snf, ftype, turned_65):
+    """409.30: the hospital or CAH stay before the SNF admission lasted 3 days (discharge day not counted, days
+    before entitlement included), ended in or after the month of the 65th birthday, and the SNF admission came
+    within 30 days of that discharge."""
     prior = [s for s in stays if ftype[s["facility_id"]] in ("general_hospital", "critical_access_hospital")
              and d(s["discharge_date"]) <= d(snf["inpatient_admission_date"])]
     if not prior:
@@ -41,11 +42,14 @@ def qualifying_hospital_stay(stays, snf, ftype):
     h = max(prior, key=lambda s: s["discharge_date"])
     los = (d(h["discharge_date"]) - d(h["inpatient_admission_date"])).days
     wait = (d(snf["inpatient_admission_date"]) - d(h["discharge_date"])).days
-    return los >= 3 and wait <= 30
+    month_ok = (d(h["discharge_date"]).year, d(h["discharge_date"]).month) >= turned_65
+    return los >= 3 and wait <= 30 and month_ok
 
 
-def beneficiary(ben, stays, partb, ftype, amounts):
+def beneficiary(ben, stays, partb, ftype, amounts, snf_rate):
     ent = d(ben["part_a_entitlement_date"])
+    born = d(ben["date_of_birth"])
+    turned_65 = (born.year + 65, born.month)
     stays = sorted(stays, key=lambda s: s["inpatient_admission_date"])
     hosp, snf_day, skilled = {}, {}, set()
     for s in stays:
@@ -62,7 +66,7 @@ def beneficiary(ben, stays, partb, ftype, amounts):
         before = sum(1 for k in range(1, 151) if ent - timedelta(days=k) in hosp
                      and ftype[hosp[ent - timedelta(days=k)]["facility_id"]] == "psychiatric_hospital")
         cap = 150 - before
-    qual = {s["stay_id"]: qualifying_hospital_stay(stays, s, ftype) for s in stays
+    qual = {s["stay_id"]: qualifying_hospital_stay(stays, s, ftype, turned_65) for s in stays
             if ftype[s["facility_id"]] == "skilled_nursing_facility"}
     blood = defaultdict(list)
     for s in stays:
@@ -135,8 +139,8 @@ def beneficiary(ben, stays, partb, ftype, amounts):
                     snf_used += 1
                     paid.add(x)
                     o["cov"] += 1
-                    if snf_used > 20:                                   # 409.85
-                        o["coins"] += amt["snf_coinsurance_days_21_100"] if amt else 0
+                    if snf_used > 20 and amt:                           # 409.85(a), (c): never above the charge
+                        o["coins"] += min(amt["snf_coinsurance_days_21_100"], snf_rate[s["facility_id"]][str(x.year)])
         for sid, u in sorted(blood.get(x, ()), key=lambda t: t[0] is not None):              # 409.87
             if u["product"] not in ("whole_blood", "packed_red_cells"):
                 continue
@@ -154,6 +158,7 @@ def money(c):
 
 def main():
     ftype = {f["facility_id"]: f["type"] for f in j("facilities.json")}
+    snf_rate = {f["facility_id"]: f["daily_charge_cents_by_year"] for f in j("facilities.json")}
     amounts = j("part_a_amounts.json")["by_calendar_year"]
     stays = defaultdict(list)
     for s in j("stays.json"):
@@ -163,7 +168,8 @@ def main():
         partb[u["beneficiary_id"]].append(u)
     result = {}
     for ben in j("beneficiaries.json"):
-        result.update(beneficiary(ben, stays[ben["beneficiary_id"]], partb[ben["beneficiary_id"]], ftype, amounts))
+        result.update(beneficiary(ben, stays[ben["beneficiary_id"]], partb[ben["beneficiary_id"]], ftype, amounts,
+                                  snf_rate))
     OUT.mkdir(parents=True, exist_ok=True)
     with open(OUT / "claim_determinations.csv", "w", newline="") as fh:
         w = csv.writer(fh, lineterminator="\n")

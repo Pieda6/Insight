@@ -37,11 +37,16 @@ FACILITIES = {
     "LVS-OAKS": ("Lakeview Oaks Skilled Nursing", "skilled_nursing_facility"),
     "LVS-MAPL": ("Maple Court Skilled Nursing", "skilled_nursing_facility"),
     "LVS-BIRC": ("Birch Hill Nursing and Rehabilitation", "skilled_nursing_facility"),
+    "LVS-CEDR": ("Cedar Lane Care Center", "skilled_nursing_facility"),
 }
+# a skilled nursing facility's charge for a day of care, by calendar year (409.85(c) compares it with the
+# coinsurance): Birch Hill is above the 2025 amount (209.50) but below the 2026 amount (217.00)
+SNF_RATE = {"LVS-OAKS": {2025: 26000, 2026: 27500}, "LVS-MAPL": {2025: 24500, 2026: 25500},
+            "LVS-BIRC": {2025: 21200, 2026: 21600}, "LVS-CEDR": {2025: 19800, 2026: 20500}}
 GENERAL = ["LVH-MAIN", "LVH-EAST", "LVH-WEST"]
 CAH = ["LVH-CAH1", "LVH-CAH2"]
 PSY = ["LVH-PSY1", "LVH-PSY2"]
-SNF = ["LVS-OAKS", "LVS-MAPL", "LVS-BIRC"]
+SNF = ["LVS-OAKS", "LVS-MAPL", "LVS-BIRC", "LVS-CEDR"]
 NAMES = ["A. Okafor", "B. Lindqvist", "C. Ramirez", "D. Chen", "E. Novak", "F. Haddad", "G. Moreau", "H. Tanaka",
          "I. Kowalski", "J. Mensah", "K. Patel", "L. Rossi", "M. Byrne", "N. Silva", "O. Ahmed", "P. Schultz",
          "Q. Nguyen", "R. Dubois", "S. Kim", "T. Oyelaran", "U. Brennan", "V. Ivanova", "W. Garcia", "X. Lopez"]
@@ -155,8 +160,8 @@ def sim(b, strict=True):
                         snf_n += 1
                         res[i][1] += 1
                         covered_day.add(d)
-                        if snf_n > 20:
-                            res[i][4] += AMOUNTS.get(d.year, ZERO)["snf_coinsurance_days_21_100"]
+                        if snf_n > 20 and d.year in AMOUNTS:
+                            res[i][4] += min(AMOUNTS[d.year]["snf_coinsurance_days_21_100"], SNF_RATE[s["fac"]][d.year])
                 elif started and strict:
                     raise Reject("benefit period opened by an uncovered nursing-facility day")
         for src, i, u in sorted(blood.get(d, ()), key=lambda x: x[0]):
@@ -186,8 +191,8 @@ def qualifies(b, i, strict):
         last = max(prior, key=lambda p: p["dis"])
         if kind(last["fac"]) == "psychiatric_hospital":
             raise Reject("SNF stay after a psychiatric hospital stay")
-        if last["adm"] < E:
-            raise Reject("qualifying stay begins before entitlement")
+        if last["dis"] < E:
+            raise Reject("qualifying stay discharged before the month of entitlement")
         if sum(1 for p in prior if (s["adm"] - p["dis"]).days <= 30) > 1:
             raise Reject("two hospital stays in the 30 days before SNF admission")
         if (s["adm"] - last["dis"]).days > 58:
@@ -330,6 +335,23 @@ def planted(w):
                                                   1: E("2025-01-05", 30, coins=10 * 20950),
                                                   2: E("2025-04-10", 2, ded=d25)})
 
+    # 409.85(c): coinsurance is the facility's daily charge when that is lower. Birch Hill charges 212.00 a day
+    # in 2025 (above 209.50) and 216.00 in 2026 (below 217.00): days 21-46 are Dec 15-31 (17 x 209.50) and
+    # Jan 1-9 (9 x 216.00)
+    w.add(D("2020-01-01"), [H(G, "2025-11-20", "2025-11-25"), H("LVS-BIRC", "2025-11-25", "2026-01-10")],
+          ["snf", "year-rates", "snf-charge"], {0: E("2025-11-20", 5, ded=d25),
+                                                1: E("2025-11-20", 46, coins=17 * 20950 + 9 * 21600)})
+    # Cedar Lane charges 198.00 in 2025: days 21-30 at 198.00
+    w.add(D("2020-01-01"), [H(G, "2025-04-01", "2025-04-05"), H("LVS-CEDR", "2025-04-05", "2025-05-05")],
+          ["snf", "snf-charge"], {0: E("2025-04-01", 4, ded=d25), 1: E("2025-04-01", 30, coins=10 * 19800)})
+    # 409.30(a): the 3 days need not fall after entitlement. Admitted Jun 29, entitled Jul 1, discharged Jul 2:
+    # 3 inpatient days (1 paid), discharged in the month of entitlement, so the SNF stay is covered
+    w.add(D("2025-07-01"), [H(G, "2025-06-29", "2025-07-02"), H(S1, "2025-07-02", "2025-07-12")],
+          ["snf", "three-day", "entitlement"], {0: E("2025-07-01", 1, ded=d25), 1: E("2025-07-01", 10)})
+    # admitted Jun 30: only 2 inpatient days, no SNF coverage
+    w.add(D("2025-07-01"), [H(G, "2025-06-30", "2025-07-02"), H(S1, "2025-07-02", "2025-07-12")],
+          ["snf", "three-day", "entitlement"], {0: E("2025-07-01", 1, ded=d25), 1: E("2025-07-01", 0)})
+
     # ---- psychiatric hospital: 190-day lifetime limit (409.62)
     # 2018: 120 days (90 regular + 30 reserve); 2021: 65 days; 185 used. 2025: only 5 of 20 days are paid.
     w.add(D("2018-01-01"), [H(P1, "2018-03-01", "2018-06-29"), H(P1, "2021-01-10", "2021-03-16"),
@@ -388,9 +410,9 @@ def rdate(a, b):
 def filler(w):
     profile = rng.choice(["typical"] * 3 + ["frail"] * 3 + ["snf"] * 3 + ["psych"] * 2 + ["custodial"] * 2 + ["new"])
     if profile == "new":
-        ent = rdate(D("2025-01-15"), D("2026-03-01"))
+        ent = rdate(D("2025-01-15"), D("2026-03-01")).replace(day=1)
     else:
-        ent = rdate(D("2016-01-01"), D("2024-09-01"))
+        ent = rdate(D("2016-01-01"), D("2024-09-01")).replace(day=1)
     stays, partb = [], []
     t = ent + timedelta(days=rng.randrange(0, 500))
     if profile == "new" and rng.random() < 0.5:                 # in a psychiatric hospital on entitlement day
@@ -406,6 +428,8 @@ def filler(w):
         if t == dis:
             st_len = rng.choice([10, 20, 21, 25, 40])
             stays.append(dict(fac=rng.choice(SNF), adm=t, dis=t + timedelta(days=st_len)))
+            if rng.random() < 0.5:                                  # qualifying stay begun before entitlement
+                stays[-2]["adm"] = ent - timedelta(days=rng.choice([1, 2, 3]))
             t = stays[-1]["dis"] + timedelta(days=rng.choice([30, 59, 60, 61, 90]))
     while t < LAST_DAY - timedelta(days=5):
         if profile == "psych" and rng.random() < 0.6:
@@ -491,7 +515,9 @@ def main():
     for new_i, j in enumerate(order, 1):
         b = w.bens[j]
         b["id"] = f"B{new_i:04d}"
-        bens.append({"beneficiary_id": b["id"], "name": rng.choice(NAMES),
+        assert b["ent"].day == 1, b["id"]
+        born = date(b["ent"].year - 65, b["ent"].month, rng.randint(2, 28))
+        bens.append({"beneficiary_id": b["id"], "name": rng.choice(NAMES), "date_of_birth": born.isoformat(),
                      "part_a_entitlement_date": b["ent"].isoformat(), "entitlement_basis": "age",
                      "medicare_advantage_enrollment": None})
         for u in b["partb"]:
@@ -533,7 +559,9 @@ def main():
         old.unlink()
     dump = lambda name, obj: (ENV / name).write_text(json.dumps(obj, indent=1) + "\n")  # noqa: E731
     dump("beneficiaries.json", bens)
-    dump("facilities.json", [{"facility_id": k, "name": v[0], "type": v[1], "medicare_participating_since": "2001-07-01"}
+    dump("facilities.json", [{"facility_id": k, "name": v[0], "type": v[1], "medicare_participating_since": "2001-07-01",
+                              "daily_charge_cents_by_year": {str(y): c for y, c in SNF_RATE[k].items()}
+                              if k in SNF_RATE else None}
                              for k, v in FACILITIES.items()])
     dump("stays.json", stays_out)
     dump("claims.json", claim_rows)

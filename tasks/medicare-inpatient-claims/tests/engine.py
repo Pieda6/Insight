@@ -23,6 +23,7 @@ class Facility:
         self.hospital = rec["type"] != "skilled_nursing_facility"
         self.psychiatric = rec["type"] == "psychiatric_hospital"
         self.acute = rec["type"] in ("general_hospital", "critical_access_hospital")
+        self.charges = {int(y): c for y, c in (rec["daily_charge_cents_by_year"] or {}).items()}
 
 
 class Stay:
@@ -86,8 +87,8 @@ def price_hospital(stay, period, life, initial_cap, amounts):
     return covered, reserve, deductible, coins, set(stay.start + timedelta(days=k) for k in range(covered))
 
 
-def price_snf(stay, prior, period, amounts):
-    if prior is None:
+def price_snf(stay, prior, period, amounts, entitled):
+    if prior is None or prior.leave < entitled:            # discharged before the month of entitlement (age 65)
         return 0, 0, 0, 0, set()
     stayed = (prior.leave - prior.admit).days
     waited = (stay.admit - prior.leave).days
@@ -98,7 +99,8 @@ def price_snf(stay, prior, period, amounts):
     coins = 0
     for k in range(covered):
         if period["snf"] + k + 1 > 20:
-            coins += rates(amounts, stay.start + timedelta(days=k))["snf_coinsurance_days_21_100"]
+            day = stay.start + timedelta(days=k)
+            coins += min(rates(amounts, day)["snf_coinsurance_days_21_100"], stay.fac.charges.get(day.year, 0))
     period["snf"] += covered
     return covered, 0, 0, coins, set(stay.start + timedelta(days=k) for k in range(covered))
 
@@ -124,7 +126,7 @@ def beneficiary(ben, recs, partb, facilities, amounts):
         else:
             earlier = [p for p in stays if p.fac.acute and p.leave <= s.admit]
             prior = max(earlier, key=lambda p: p.leave) if earlier else None
-            cov, res, ded, coins, paid = price_snf(s, prior, state[idx], amounts)
+            cov, res, ded, coins, paid = price_snf(s, prior, state[idx], amounts, entitled)
         result[s.id] = {"bp": bps[idx][0], "covered": cov, "reserve": res, "deductible": ded, "coinsurance": coins,
                         "blood": 0}
         covered_days[s.id] = paid

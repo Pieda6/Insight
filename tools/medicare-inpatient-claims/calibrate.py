@@ -50,8 +50,16 @@ SHORTCUTS = {
     "30-day window ignored": [("and wait <= 30", "")],
     "SNF days after skilled care still covered": [("if x in skilled and qual[s[\"stay_id\"]]", "if qual[s[\"stay_id\"]]")],
     "no 100-day limit": [("and snf_used < 100:", ":")],
-    "SNF coinsurance from day 20": [("if snf_used > 20:", "if snf_used >= 20:")],
-    "SNF coinsurance from day 22": [("if snf_used > 20:", "if snf_used > 21:")],
+    "SNF coinsurance from day 20": [("if snf_used > 20 and amt:", "if snf_used >= 20 and amt:")],
+    "SNF coinsurance from day 22": [("if snf_used > 20 and amt:", "if snf_used > 21 and amt:")],
+    "SNF coinsurance never limited by the facility's charge": [
+        ('o["coins"] += min(amt["snf_coinsurance_days_21_100"], snf_rate[s["facility_id"]][str(x.year)])',
+         'o["coins"] += amt["snf_coinsurance_days_21_100"]')],
+    "SNF coinsurance capped by the charge at the period's first-year rate": [
+        ('snf_rate[s["facility_id"]][str(x.year)])', 'snf_rate[s["facility_id"]].get(str(bp.year), snf_rate[s["facility_id"]][str(x.year)]))')],
+    "days before entitlement do not count toward the 3 days": [
+        ('los = (d(h["discharge_date"]) - d(h["inpatient_admission_date"])).days',
+         'los = (d(h["discharge_date"]) - max(d(h["inpatient_admission_date"]), date(turned_65[0], turned_65[1], 1))).days')],
     # ---- psychiatric limits (409.62, 409.63)
     "190-day psychiatric limit ignored": [("allowed = not (psych_hospital and psych_hospital_days >= 190)", "allowed = True")],
     "190-day limit counts general-hospital psychiatric care": [

@@ -1,1058 +1,1241 @@
 [
  {
   "beneficiary_id": "B0001",
-  "name": "A. Okafor",
-  "part_a_entitlement_date": "2019-06-26",
+  "name": "W. Garcia",
+  "date_of_birth": "1954-07-17",
+  "part_a_entitlement_date": "2019-07-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0002",
-  "name": "P. Schultz",
-  "part_a_entitlement_date": "2019-05-29",
+  "name": "H. Tanaka",
+  "date_of_birth": "1955-01-05",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0003",
-  "name": "F. Haddad",
-  "part_a_entitlement_date": "2025-06-10",
+  "name": "W. Garcia",
+  "date_of_birth": "1953-10-22",
+  "part_a_entitlement_date": "2018-10-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0004",
-  "name": "E. Novak",
-  "part_a_entitlement_date": "2023-02-18",
+  "name": "U. Brennan",
+  "date_of_birth": "1955-01-26",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0005",
-  "name": "D. Chen",
-  "part_a_entitlement_date": "2022-10-21",
+  "name": "C. Ramirez",
+  "date_of_birth": "1955-01-14",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0006",
-  "name": "I. Kowalski",
-  "part_a_entitlement_date": "2018-05-23",
+  "name": "J. Mensah",
+  "date_of_birth": "1960-03-06",
+  "part_a_entitlement_date": "2025-03-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0007",
-  "name": "C. Ramirez",
-  "part_a_entitlement_date": "2019-04-29",
+  "name": "U. Brennan",
+  "date_of_birth": "1959-08-07",
+  "part_a_entitlement_date": "2024-08-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0008",
-  "name": "A. Okafor",
+  "name": "F. Haddad",
+  "date_of_birth": "1955-01-14",
   "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0009",
-  "name": "D. Chen",
-  "part_a_entitlement_date": "2021-04-19",
+  "name": "Q. Nguyen",
+  "date_of_birth": "1961-02-09",
+  "part_a_entitlement_date": "2026-02-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0010",
-  "name": "I. Kowalski",
-  "part_a_entitlement_date": "2018-01-01",
+  "name": "J. Mensah",
+  "date_of_birth": "1959-05-27",
+  "part_a_entitlement_date": "2024-05-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0011",
-  "name": "T. Oyelaran",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "M. Byrne",
+  "date_of_birth": "1953-12-06",
+  "part_a_entitlement_date": "2018-12-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0012",
-  "name": "D. Chen",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "G. Moreau",
+  "date_of_birth": "1954-02-23",
+  "part_a_entitlement_date": "2019-02-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0013",
-  "name": "L. Rossi",
+  "name": "S. Kim",
+  "date_of_birth": "1955-01-24",
   "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0014",
-  "name": "B. Lindqvist",
-  "part_a_entitlement_date": "2018-05-28",
+  "name": "K. Patel",
+  "date_of_birth": "1960-08-16",
+  "part_a_entitlement_date": "2025-08-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0015",
-  "name": "O. Ahmed",
-  "part_a_entitlement_date": "2017-11-26",
+  "name": "W. Garcia",
+  "date_of_birth": "1959-06-05",
+  "part_a_entitlement_date": "2024-06-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0016",
-  "name": "D. Chen",
-  "part_a_entitlement_date": "2024-06-29",
+  "name": "K. Patel",
+  "date_of_birth": "1957-08-03",
+  "part_a_entitlement_date": "2022-08-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0017",
-  "name": "T. Oyelaran",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "E. Novak",
+  "date_of_birth": "1960-11-04",
+  "part_a_entitlement_date": "2025-11-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0018",
-  "name": "K. Patel",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "Q. Nguyen",
+  "date_of_birth": "1953-02-23",
+  "part_a_entitlement_date": "2018-02-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0019",
-  "name": "U. Brennan",
-  "part_a_entitlement_date": "2018-07-19",
+  "name": "A. Okafor",
+  "date_of_birth": "1960-10-09",
+  "part_a_entitlement_date": "2025-10-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0020",
-  "name": "U. Brennan",
-  "part_a_entitlement_date": "2024-08-16",
+  "name": "C. Ramirez",
+  "date_of_birth": "1957-07-23",
+  "part_a_entitlement_date": "2022-07-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0021",
-  "name": "V. Ivanova",
-  "part_a_entitlement_date": "2024-01-04",
+  "name": "R. Dubois",
+  "date_of_birth": "1957-05-18",
+  "part_a_entitlement_date": "2022-05-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0022",
-  "name": "U. Brennan",
-  "part_a_entitlement_date": "2025-03-01",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0023",
-  "name": "E. Novak",
-  "part_a_entitlement_date": "2018-04-21",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0024",
-  "name": "S. Kim",
-  "part_a_entitlement_date": "2024-02-24",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0025",
-  "name": "U. Brennan",
-  "part_a_entitlement_date": "2019-07-02",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0026",
-  "name": "C. Ramirez",
-  "part_a_entitlement_date": "2018-03-10",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0027",
-  "name": "D. Chen",
-  "part_a_entitlement_date": "2023-07-28",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0028",
   "name": "J. Mensah",
-  "part_a_entitlement_date": "2021-04-12",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0029",
-  "name": "S. Kim",
-  "part_a_entitlement_date": "2023-09-06",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0030",
-  "name": "O. Ahmed",
-  "part_a_entitlement_date": "2021-10-13",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0031",
-  "name": "N. Silva",
-  "part_a_entitlement_date": "2022-02-07",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0032",
-  "name": "X. Lopez",
-  "part_a_entitlement_date": "2024-06-30",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0033",
-  "name": "G. Moreau",
-  "part_a_entitlement_date": "2019-06-07",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0034",
-  "name": "M. Byrne",
+  "date_of_birth": "1955-01-13",
   "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
+  "beneficiary_id": "B0023",
+  "name": "T. Oyelaran",
+  "date_of_birth": "1957-04-06",
+  "part_a_entitlement_date": "2022-04-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0024",
+  "name": "P. Schultz",
+  "date_of_birth": "1958-12-23",
+  "part_a_entitlement_date": "2023-12-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0025",
+  "name": "X. Lopez",
+  "date_of_birth": "1956-11-13",
+  "part_a_entitlement_date": "2021-11-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0026",
+  "name": "S. Kim",
+  "date_of_birth": "1955-01-26",
+  "part_a_entitlement_date": "2020-01-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0027",
+  "name": "H. Tanaka",
+  "date_of_birth": "1956-09-13",
+  "part_a_entitlement_date": "2021-09-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0028",
+  "name": "P. Schultz",
+  "date_of_birth": "1956-12-07",
+  "part_a_entitlement_date": "2021-12-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0029",
+  "name": "X. Lopez",
+  "date_of_birth": "1953-04-26",
+  "part_a_entitlement_date": "2018-04-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0030",
+  "name": "A. Okafor",
+  "date_of_birth": "1956-12-26",
+  "part_a_entitlement_date": "2021-12-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0031",
+  "name": "J. Mensah",
+  "date_of_birth": "1958-09-02",
+  "part_a_entitlement_date": "2023-09-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0032",
+  "name": "J. Mensah",
+  "date_of_birth": "1956-09-16",
+  "part_a_entitlement_date": "2021-09-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0033",
+  "name": "W. Garcia",
+  "date_of_birth": "1955-01-05",
+  "part_a_entitlement_date": "2020-01-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0034",
+  "name": "G. Moreau",
+  "date_of_birth": "1957-07-07",
+  "part_a_entitlement_date": "2022-07-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
   "beneficiary_id": "B0035",
-  "name": "V. Ivanova",
-  "part_a_entitlement_date": "2017-10-01",
+  "name": "K. Patel",
+  "date_of_birth": "1956-03-11",
+  "part_a_entitlement_date": "2021-03-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0036",
-  "name": "F. Haddad",
-  "part_a_entitlement_date": "2021-08-01",
+  "name": "Q. Nguyen",
+  "date_of_birth": "1960-02-18",
+  "part_a_entitlement_date": "2025-02-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0037",
-  "name": "M. Byrne",
-  "part_a_entitlement_date": "2020-12-30",
+  "name": "F. Haddad",
+  "date_of_birth": "1956-02-23",
+  "part_a_entitlement_date": "2021-02-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0038",
-  "name": "K. Patel",
-  "part_a_entitlement_date": "2024-08-08",
+  "name": "I. Kowalski",
+  "date_of_birth": "1955-01-23",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0039",
-  "name": "W. Garcia",
-  "part_a_entitlement_date": "2019-05-28",
+  "name": "N. Silva",
+  "date_of_birth": "1956-08-21",
+  "part_a_entitlement_date": "2021-08-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0040",
-  "name": "D. Chen",
-  "part_a_entitlement_date": "2018-11-27",
+  "name": "P. Schultz",
+  "date_of_birth": "1954-12-17",
+  "part_a_entitlement_date": "2019-12-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0041",
-  "name": "C. Ramirez",
-  "part_a_entitlement_date": "2021-07-29",
+  "name": "H. Tanaka",
+  "date_of_birth": "1956-07-02",
+  "part_a_entitlement_date": "2021-07-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0042",
-  "name": "B. Lindqvist",
+  "name": "S. Kim",
+  "date_of_birth": "1955-01-19",
   "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0043",
-  "name": "A. Okafor",
-  "part_a_entitlement_date": "2023-08-11",
+  "name": "S. Kim",
+  "date_of_birth": "1956-11-24",
+  "part_a_entitlement_date": "2021-11-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0044",
-  "name": "T. Oyelaran",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "J. Mensah",
+  "date_of_birth": "1955-02-06",
+  "part_a_entitlement_date": "2020-02-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0045",
-  "name": "E. Novak",
-  "part_a_entitlement_date": "2017-10-06",
+  "name": "R. Dubois",
+  "date_of_birth": "1956-10-19",
+  "part_a_entitlement_date": "2021-10-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0046",
-  "name": "T. Oyelaran",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "E. Novak",
+  "date_of_birth": "1953-11-10",
+  "part_a_entitlement_date": "2018-11-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0047",
-  "name": "E. Novak",
-  "part_a_entitlement_date": "2025-03-15",
+  "name": "V. Ivanova",
+  "date_of_birth": "1959-02-18",
+  "part_a_entitlement_date": "2024-02-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0048",
-  "name": "S. Kim",
-  "part_a_entitlement_date": "2022-09-21",
+  "name": "J. Mensah",
+  "date_of_birth": "1957-06-14",
+  "part_a_entitlement_date": "2022-06-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0049",
-  "name": "G. Moreau",
-  "part_a_entitlement_date": "2020-08-02",
+  "name": "F. Haddad",
+  "date_of_birth": "1958-04-07",
+  "part_a_entitlement_date": "2023-04-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0050",
-  "name": "J. Mensah",
-  "part_a_entitlement_date": "2018-09-18",
+  "name": "Q. Nguyen",
+  "date_of_birth": "1954-03-20",
+  "part_a_entitlement_date": "2019-03-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0051",
-  "name": "T. Oyelaran",
-  "part_a_entitlement_date": "2021-07-06",
+  "name": "O. Ahmed",
+  "date_of_birth": "1955-01-22",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0052",
-  "name": "L. Rossi",
-  "part_a_entitlement_date": "2019-04-30",
+  "name": "F. Haddad",
+  "date_of_birth": "1955-08-12",
+  "part_a_entitlement_date": "2020-08-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0053",
-  "name": "T. Oyelaran",
-  "part_a_entitlement_date": "2018-01-01",
+  "name": "N. Silva",
+  "date_of_birth": "1958-03-19",
+  "part_a_entitlement_date": "2023-03-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0054",
-  "name": "I. Kowalski",
-  "part_a_entitlement_date": "2017-03-12",
+  "name": "P. Schultz",
+  "date_of_birth": "1953-06-16",
+  "part_a_entitlement_date": "2018-06-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0055",
-  "name": "L. Rossi",
-  "part_a_entitlement_date": "2017-08-19",
+  "name": "F. Haddad",
+  "date_of_birth": "1960-03-27",
+  "part_a_entitlement_date": "2025-03-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0056",
-  "name": "S. Kim",
-  "part_a_entitlement_date": "2022-01-27",
+  "name": "W. Garcia",
+  "date_of_birth": "1952-07-17",
+  "part_a_entitlement_date": "2017-07-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0057",
-  "name": "T. Oyelaran",
-  "part_a_entitlement_date": "2019-02-17",
+  "name": "D. Chen",
+  "date_of_birth": "1953-03-18",
+  "part_a_entitlement_date": "2018-03-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0058",
-  "name": "V. Ivanova",
-  "part_a_entitlement_date": "2024-04-11",
+  "name": "B. Lindqvist",
+  "date_of_birth": "1956-12-08",
+  "part_a_entitlement_date": "2021-12-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0059",
-  "name": "J. Mensah",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "G. Moreau",
+  "date_of_birth": "1958-02-25",
+  "part_a_entitlement_date": "2023-02-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0060",
-  "name": "A. Okafor",
-  "part_a_entitlement_date": "2019-05-14",
+  "name": "X. Lopez",
+  "date_of_birth": "1956-10-07",
+  "part_a_entitlement_date": "2021-10-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0061",
-  "name": "T. Oyelaran",
-  "part_a_entitlement_date": "2023-04-24",
+  "name": "C. Ramirez",
+  "date_of_birth": "1954-09-03",
+  "part_a_entitlement_date": "2019-09-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0062",
-  "name": "C. Ramirez",
-  "part_a_entitlement_date": "2025-04-01",
+  "name": "R. Dubois",
+  "date_of_birth": "1957-04-28",
+  "part_a_entitlement_date": "2022-04-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0063",
-  "name": "U. Brennan",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "G. Moreau",
+  "date_of_birth": "1957-12-27",
+  "part_a_entitlement_date": "2022-12-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0064",
-  "name": "U. Brennan",
-  "part_a_entitlement_date": "2024-05-06",
+  "name": "H. Tanaka",
+  "date_of_birth": "1959-07-04",
+  "part_a_entitlement_date": "2024-07-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0065",
-  "name": "N. Silva",
-  "part_a_entitlement_date": "2024-08-14",
+  "name": "U. Brennan",
+  "date_of_birth": "1952-08-27",
+  "part_a_entitlement_date": "2017-08-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0066",
-  "name": "G. Moreau",
-  "part_a_entitlement_date": "2020-07-27",
+  "name": "T. Oyelaran",
+  "date_of_birth": "1955-01-20",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0067",
-  "name": "S. Kim",
-  "part_a_entitlement_date": "2024-05-08",
+  "name": "E. Novak",
+  "date_of_birth": "1957-09-10",
+  "part_a_entitlement_date": "2022-09-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0068",
-  "name": "E. Novak",
-  "part_a_entitlement_date": "2023-12-28",
+  "name": "V. Ivanova",
+  "date_of_birth": "1955-01-28",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0069",
-  "name": "H. Tanaka",
-  "part_a_entitlement_date": "2019-12-21",
+  "name": "X. Lopez",
+  "date_of_birth": "1955-01-27",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0070",
-  "name": "G. Moreau",
-  "part_a_entitlement_date": "2019-05-24",
+  "name": "U. Brennan",
+  "date_of_birth": "1955-05-02",
+  "part_a_entitlement_date": "2020-05-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0071",
-  "name": "J. Mensah",
-  "part_a_entitlement_date": "2017-05-18",
+  "name": "F. Haddad",
+  "date_of_birth": "1952-01-21",
+  "part_a_entitlement_date": "2017-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0072",
-  "name": "X. Lopez",
-  "part_a_entitlement_date": "2018-11-08",
+  "name": "V. Ivanova",
+  "date_of_birth": "1957-11-18",
+  "part_a_entitlement_date": "2022-11-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0073",
-  "name": "S. Kim",
-  "part_a_entitlement_date": "2018-08-07",
+  "name": "G. Moreau",
+  "date_of_birth": "1955-10-20",
+  "part_a_entitlement_date": "2020-10-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0074",
-  "name": "V. Ivanova",
-  "part_a_entitlement_date": "2020-03-17",
+  "name": "T. Oyelaran",
+  "date_of_birth": "1953-01-07",
+  "part_a_entitlement_date": "2018-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0075",
-  "name": "B. Lindqvist",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "U. Brennan",
+  "date_of_birth": "1954-06-22",
+  "part_a_entitlement_date": "2019-06-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0076",
-  "name": "M. Byrne",
-  "part_a_entitlement_date": "2020-09-18",
+  "name": "A. Okafor",
+  "date_of_birth": "1960-03-20",
+  "part_a_entitlement_date": "2025-03-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0077",
-  "name": "I. Kowalski",
-  "part_a_entitlement_date": "2023-11-10",
+  "name": "J. Mensah",
+  "date_of_birth": "1955-01-20",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0078",
-  "name": "G. Moreau",
-  "part_a_entitlement_date": "2025-12-29",
+  "name": "S. Kim",
+  "date_of_birth": "1955-01-15",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0079",
-  "name": "E. Novak",
-  "part_a_entitlement_date": "2019-11-28",
+  "name": "T. Oyelaran",
+  "date_of_birth": "1955-01-07",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0080",
-  "name": "P. Schultz",
-  "part_a_entitlement_date": "2023-03-29",
+  "name": "S. Kim",
+  "date_of_birth": "1953-10-09",
+  "part_a_entitlement_date": "2018-10-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0081",
-  "name": "X. Lopez",
-  "part_a_entitlement_date": "2020-02-24",
+  "name": "B. Lindqvist",
+  "date_of_birth": "1957-06-10",
+  "part_a_entitlement_date": "2022-06-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0082",
-  "name": "X. Lopez",
-  "part_a_entitlement_date": "2023-08-01",
+  "name": "G. Moreau",
+  "date_of_birth": "1958-10-04",
+  "part_a_entitlement_date": "2023-10-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0083",
-  "name": "N. Silva",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "O. Ahmed",
+  "date_of_birth": "1954-12-27",
+  "part_a_entitlement_date": "2019-12-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0084",
-  "name": "S. Kim",
-  "part_a_entitlement_date": "2022-01-10",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0085",
-  "name": "T. Oyelaran",
-  "part_a_entitlement_date": "2017-05-29",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0086",
-  "name": "K. Patel",
-  "part_a_entitlement_date": "2022-04-30",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0087",
-  "name": "N. Silva",
-  "part_a_entitlement_date": "2025-02-25",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0088",
-  "name": "M. Byrne",
-  "part_a_entitlement_date": "2017-06-26",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0089",
   "name": "X. Lopez",
-  "part_a_entitlement_date": "2017-07-13",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0090",
-  "name": "R. Dubois",
-  "part_a_entitlement_date": "2021-10-26",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0091",
-  "name": "B. Lindqvist",
-  "part_a_entitlement_date": "2024-06-12",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0092",
-  "name": "V. Ivanova",
-  "part_a_entitlement_date": "2023-07-15",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0093",
-  "name": "T. Oyelaran",
-  "part_a_entitlement_date": "2021-06-27",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0094",
-  "name": "M. Byrne",
-  "part_a_entitlement_date": "2016-06-04",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0095",
-  "name": "A. Okafor",
-  "part_a_entitlement_date": "2024-06-29",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0096",
-  "name": "V. Ivanova",
+  "date_of_birth": "1955-01-06",
   "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
-  "beneficiary_id": "B0097",
+  "beneficiary_id": "B0085",
+  "name": "K. Patel",
+  "date_of_birth": "1956-09-22",
+  "part_a_entitlement_date": "2021-09-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0086",
+  "name": "M. Byrne",
+  "date_of_birth": "1960-07-24",
+  "part_a_entitlement_date": "2025-07-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0087",
+  "name": "X. Lopez",
+  "date_of_birth": "1958-07-25",
+  "part_a_entitlement_date": "2023-07-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0088",
+  "name": "R. Dubois",
+  "date_of_birth": "1957-06-26",
+  "part_a_entitlement_date": "2022-06-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0089",
   "name": "N. Silva",
-  "part_a_entitlement_date": "2024-06-09",
+  "date_of_birth": "1951-06-16",
+  "part_a_entitlement_date": "2016-06-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0090",
+  "name": "C. Ramirez",
+  "date_of_birth": "1954-06-25",
+  "part_a_entitlement_date": "2019-06-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0091",
+  "name": "R. Dubois",
+  "date_of_birth": "1960-06-09",
+  "part_a_entitlement_date": "2025-06-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0092",
+  "name": "C. Ramirez",
+  "date_of_birth": "1957-10-09",
+  "part_a_entitlement_date": "2022-10-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0093",
+  "name": "O. Ahmed",
+  "date_of_birth": "1956-07-24",
+  "part_a_entitlement_date": "2021-07-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0094",
+  "name": "C. Ramirez",
+  "date_of_birth": "1956-07-10",
+  "part_a_entitlement_date": "2021-07-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0095",
+  "name": "G. Moreau",
+  "date_of_birth": "1955-01-16",
+  "part_a_entitlement_date": "2020-01-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0096",
+  "name": "R. Dubois",
+  "date_of_birth": "1951-06-13",
+  "part_a_entitlement_date": "2016-06-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0097",
+  "name": "K. Patel",
+  "date_of_birth": "1955-01-22",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0098",
-  "name": "H. Tanaka",
-  "part_a_entitlement_date": "2023-05-11",
+  "name": "G. Moreau",
+  "date_of_birth": "1957-01-18",
+  "part_a_entitlement_date": "2022-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0099",
-  "name": "X. Lopez",
-  "part_a_entitlement_date": "2021-03-11",
+  "name": "B. Lindqvist",
+  "date_of_birth": "1960-05-02",
+  "part_a_entitlement_date": "2025-05-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0100",
-  "name": "U. Brennan",
-  "part_a_entitlement_date": "2019-01-23",
+  "name": "X. Lopez",
+  "date_of_birth": "1954-08-03",
+  "part_a_entitlement_date": "2019-08-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0101",
-  "name": "L. Rossi",
-  "part_a_entitlement_date": "2017-07-06",
+  "name": "B. Lindqvist",
+  "date_of_birth": "1959-07-14",
+  "part_a_entitlement_date": "2024-07-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0102",
   "name": "I. Kowalski",
-  "part_a_entitlement_date": "2025-03-31",
+  "date_of_birth": "1957-11-28",
+  "part_a_entitlement_date": "2022-11-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0103",
-  "name": "H. Tanaka",
-  "part_a_entitlement_date": "2024-05-22",
+  "name": "O. Ahmed",
+  "date_of_birth": "1959-07-16",
+  "part_a_entitlement_date": "2024-07-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0104",
-  "name": "I. Kowalski",
-  "part_a_entitlement_date": "2016-03-16",
+  "name": "A. Okafor",
+  "date_of_birth": "1955-01-24",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0105",
-  "name": "I. Kowalski",
-  "part_a_entitlement_date": "2019-10-26",
+  "name": "O. Ahmed",
+  "date_of_birth": "1954-04-04",
+  "part_a_entitlement_date": "2019-04-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0106",
-  "name": "J. Mensah",
-  "part_a_entitlement_date": "2024-03-24",
+  "name": "G. Moreau",
+  "date_of_birth": "1955-01-04",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0107",
-  "name": "Q. Nguyen",
-  "part_a_entitlement_date": "2017-09-22",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0108",
-  "name": "T. Oyelaran",
-  "part_a_entitlement_date": "2025-12-09",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0109",
-  "name": "H. Tanaka",
-  "part_a_entitlement_date": "2021-04-25",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0110",
-  "name": "T. Oyelaran",
-  "part_a_entitlement_date": "2019-04-17",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0111",
-  "name": "F. Haddad",
-  "part_a_entitlement_date": "2020-01-01",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0112",
-  "name": "U. Brennan",
-  "part_a_entitlement_date": "2020-01-01",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0113",
-  "name": "S. Kim",
+  "name": "E. Novak",
+  "date_of_birth": "1960-07-07",
   "part_a_entitlement_date": "2025-07-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
-  "beneficiary_id": "B0114",
-  "name": "K. Patel",
-  "part_a_entitlement_date": "2019-06-13",
+  "beneficiary_id": "B0108",
+  "name": "I. Kowalski",
+  "date_of_birth": "1953-03-17",
+  "part_a_entitlement_date": "2018-03-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
-  "beneficiary_id": "B0115",
-  "name": "B. Lindqvist",
-  "part_a_entitlement_date": "2020-01-01",
+  "beneficiary_id": "B0109",
+  "name": "R. Dubois",
+  "date_of_birth": "1959-08-24",
+  "part_a_entitlement_date": "2024-08-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
-  "beneficiary_id": "B0116",
-  "name": "Q. Nguyen",
-  "part_a_entitlement_date": "2025-06-20",
+  "beneficiary_id": "B0110",
+  "name": "J. Mensah",
+  "date_of_birth": "1953-07-19",
+  "part_a_entitlement_date": "2018-07-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
-  "beneficiary_id": "B0117",
-  "name": "W. Garcia",
-  "part_a_entitlement_date": "2020-01-01",
-  "entitlement_basis": "age",
-  "medicare_advantage_enrollment": null
- },
- {
-  "beneficiary_id": "B0118",
-  "name": "L. Rossi",
+  "beneficiary_id": "B0111",
+  "name": "T. Oyelaran",
+  "date_of_birth": "1953-01-15",
   "part_a_entitlement_date": "2018-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
+  "beneficiary_id": "B0112",
+  "name": "M. Byrne",
+  "date_of_birth": "1953-03-21",
+  "part_a_entitlement_date": "2018-03-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0113",
+  "name": "D. Chen",
+  "date_of_birth": "1953-10-09",
+  "part_a_entitlement_date": "2018-10-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0114",
+  "name": "T. Oyelaran",
+  "date_of_birth": "1954-10-18",
+  "part_a_entitlement_date": "2019-10-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0115",
+  "name": "X. Lopez",
+  "date_of_birth": "1956-04-18",
+  "part_a_entitlement_date": "2021-04-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0116",
+  "name": "X. Lopez",
+  "date_of_birth": "1958-12-15",
+  "part_a_entitlement_date": "2023-12-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0117",
+  "name": "U. Brennan",
+  "date_of_birth": "1957-03-21",
+  "part_a_entitlement_date": "2022-03-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0118",
+  "name": "E. Novak",
+  "date_of_birth": "1960-02-27",
+  "part_a_entitlement_date": "2025-02-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
   "beneficiary_id": "B0119",
-  "name": "P. Schultz",
-  "part_a_entitlement_date": "2024-08-29",
+  "name": "G. Moreau",
+  "date_of_birth": "1955-01-21",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0120",
-  "name": "C. Ramirez",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "E. Novak",
+  "date_of_birth": "1952-05-18",
+  "part_a_entitlement_date": "2017-05-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0121",
-  "name": "V. Ivanova",
-  "part_a_entitlement_date": "2018-11-05",
+  "name": "S. Kim",
+  "date_of_birth": "1960-07-21",
+  "part_a_entitlement_date": "2025-07-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0122",
-  "name": "S. Kim",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "J. Mensah",
+  "date_of_birth": "1959-05-28",
+  "part_a_entitlement_date": "2024-05-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0123",
-  "name": "N. Silva",
-  "part_a_entitlement_date": "2017-12-10",
+  "name": "E. Novak",
+  "date_of_birth": "1955-01-09",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0124",
-  "name": "B. Lindqvist",
-  "part_a_entitlement_date": "2020-06-07",
+  "name": "A. Okafor",
+  "date_of_birth": "1957-06-03",
+  "part_a_entitlement_date": "2022-06-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0125",
-  "name": "O. Ahmed",
-  "part_a_entitlement_date": "2022-03-08",
+  "name": "L. Rossi",
+  "date_of_birth": "1955-01-10",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0126",
-  "name": "G. Moreau",
-  "part_a_entitlement_date": "2021-08-02",
+  "name": "I. Kowalski",
+  "date_of_birth": "1953-12-12",
+  "part_a_entitlement_date": "2018-12-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0127",
-  "name": "K. Patel",
-  "part_a_entitlement_date": "2024-03-27",
+  "name": "V. Ivanova",
+  "date_of_birth": "1953-08-14",
+  "part_a_entitlement_date": "2018-08-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0128",
-  "name": "F. Haddad",
-  "part_a_entitlement_date": "2020-12-25",
+  "name": "R. Dubois",
+  "date_of_birth": "1958-10-24",
+  "part_a_entitlement_date": "2023-10-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0129",
-  "name": "X. Lopez",
-  "part_a_entitlement_date": "2024-06-16",
+  "name": "B. Lindqvist",
+  "date_of_birth": "1957-03-19",
+  "part_a_entitlement_date": "2022-03-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0130",
-  "name": "U. Brennan",
-  "part_a_entitlement_date": "2022-05-28",
+  "name": "N. Silva",
+  "date_of_birth": "1960-04-09",
+  "part_a_entitlement_date": "2025-04-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0131",
-  "name": "M. Byrne",
-  "part_a_entitlement_date": "2025-03-13",
+  "name": "T. Oyelaran",
+  "date_of_birth": "1955-01-03",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0132",
-  "name": "J. Mensah",
-  "part_a_entitlement_date": "2021-12-17",
+  "name": "K. Patel",
+  "date_of_birth": "1953-12-05",
+  "part_a_entitlement_date": "2018-12-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0133",
-  "name": "I. Kowalski",
-  "part_a_entitlement_date": "2024-07-11",
+  "name": "R. Dubois",
+  "date_of_birth": "1959-08-14",
+  "part_a_entitlement_date": "2024-08-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0134",
-  "name": "H. Tanaka",
-  "part_a_entitlement_date": "2023-06-10",
+  "name": "E. Novak",
+  "date_of_birth": "1953-10-07",
+  "part_a_entitlement_date": "2018-10-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0135",
-  "name": "X. Lopez",
-  "part_a_entitlement_date": "2023-10-28",
+  "name": "W. Garcia",
+  "date_of_birth": "1953-01-26",
+  "part_a_entitlement_date": "2018-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0136",
-  "name": "L. Rossi",
-  "part_a_entitlement_date": "2020-07-09",
+  "name": "V. Ivanova",
+  "date_of_birth": "1957-08-05",
+  "part_a_entitlement_date": "2022-08-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0137",
-  "name": "D. Chen",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "T. Oyelaran",
+  "date_of_birth": "1957-10-12",
+  "part_a_entitlement_date": "2022-10-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0138",
-  "name": "M. Byrne",
-  "part_a_entitlement_date": "2022-05-10",
+  "name": "H. Tanaka",
+  "date_of_birth": "1960-06-17",
+  "part_a_entitlement_date": "2025-06-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0139",
-  "name": "O. Ahmed",
-  "part_a_entitlement_date": "2023-04-03",
+  "name": "D. Chen",
+  "date_of_birth": "1955-09-17",
+  "part_a_entitlement_date": "2020-09-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0140",
-  "name": "V. Ivanova",
-  "part_a_entitlement_date": "2018-03-03",
+  "name": "R. Dubois",
+  "date_of_birth": "1958-09-22",
+  "part_a_entitlement_date": "2023-09-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0141",
-  "name": "M. Byrne",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "F. Haddad",
+  "date_of_birth": "1958-07-24",
+  "part_a_entitlement_date": "2023-07-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0142",
-  "name": "I. Kowalski",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "P. Schultz",
+  "date_of_birth": "1956-07-02",
+  "part_a_entitlement_date": "2021-07-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0143",
-  "name": "X. Lopez",
-  "part_a_entitlement_date": "2022-12-29",
+  "name": "G. Moreau",
+  "date_of_birth": "1959-05-10",
+  "part_a_entitlement_date": "2024-05-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0144",
-  "name": "K. Patel",
-  "part_a_entitlement_date": "2025-06-21",
+  "name": "N. Silva",
+  "date_of_birth": "1953-01-22",
+  "part_a_entitlement_date": "2018-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0145",
-  "name": "K. Patel",
-  "part_a_entitlement_date": "2023-02-13",
+  "name": "P. Schultz",
+  "date_of_birth": "1956-09-20",
+  "part_a_entitlement_date": "2021-09-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0146",
-  "name": "B. Lindqvist",
-  "part_a_entitlement_date": "2021-08-02",
+  "name": "V. Ivanova",
+  "date_of_birth": "1954-08-21",
+  "part_a_entitlement_date": "2019-08-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0147",
-  "name": "D. Chen",
-  "part_a_entitlement_date": "2020-01-01",
+  "name": "U. Brennan",
+  "date_of_birth": "1953-10-10",
+  "part_a_entitlement_date": "2018-10-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0148",
-  "name": "M. Byrne",
-  "part_a_entitlement_date": "2025-03-01",
+  "name": "Q. Nguyen",
+  "date_of_birth": "1956-08-13",
+  "part_a_entitlement_date": "2021-08-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0149",
-  "name": "F. Haddad",
-  "part_a_entitlement_date": "2023-05-15",
+  "name": "C. Ramirez",
+  "date_of_birth": "1953-01-12",
+  "part_a_entitlement_date": "2018-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0150",
-  "name": "D. Chen",
-  "part_a_entitlement_date": "2025-05-08",
+  "name": "K. Patel",
+  "date_of_birth": "1960-09-20",
+  "part_a_entitlement_date": "2025-09-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  },
  {
   "beneficiary_id": "B0151",
-  "name": "H. Tanaka",
-  "part_a_entitlement_date": "2019-06-05",
+  "name": "M. Byrne",
+  "date_of_birth": "1955-01-02",
+  "part_a_entitlement_date": "2020-01-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0152",
+  "name": "B. Lindqvist",
+  "date_of_birth": "1957-12-27",
+  "part_a_entitlement_date": "2022-12-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0153",
+  "name": "L. Rossi",
+  "date_of_birth": "1954-01-06",
+  "part_a_entitlement_date": "2019-01-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0154",
+  "name": "I. Kowalski",
+  "date_of_birth": "1951-01-04",
+  "part_a_entitlement_date": "2016-01-01",
+  "entitlement_basis": "age",
+  "medicare_advantage_enrollment": null
+ },
+ {
+  "beneficiary_id": "B0155",
+  "name": "R. Dubois",
+  "date_of_birth": "1955-01-15",
+  "part_a_entitlement_date": "2020-01-01",
   "entitlement_basis": "age",
   "medicare_advantage_enrollment": null
  }
