@@ -31,6 +31,7 @@ GROUPS = {
     "covered_flights_and_break_in_journey": lambda t: t == "break-in-journey",
     "delayed_and_lost_bags": lambda t: t.startswith("bag-"),
     "ancillary_services_not_provided": lambda t: t == "ancillary",
+    "local_schedule_times_and_daylight_saving": lambda t: t in ("dst", "time-zone"),
 }
 
 

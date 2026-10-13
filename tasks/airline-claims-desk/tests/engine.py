@@ -3,14 +3,29 @@ written independently of the reference solution. Reads only the verifier's priva
 import json
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 DATA = Path(__file__).resolve().parent / "data"
 HOUR = timedelta(hours=1)
 LIMITS = {"200": 107500, "400": 215000}
 
 
-def ts(text):
-    return datetime.fromisoformat(text.replace("Z", "+00:00")).astimezone(timezone.utc)
+ZONE = {}
+
+
+def ts(text, airport=None):
+    """Record timestamps end in Z (UTC); flight schedule times are local wall times at the airport."""
+    if text.endswith("Z"):
+        return datetime.fromisoformat(text[:-1]).replace(tzinfo=timezone.utc)
+    return datetime.fromisoformat(text).replace(tzinfo=ZONE[airport]).astimezone(timezone.utc)
+
+
+def dep(leg):
+    return ts(leg["scheduled_departure"], leg["origin"])
+
+
+def arr(leg):
+    return ts(leg["scheduled_arrival"], leg["destination"])
 
 
 class Context:
@@ -18,7 +33,9 @@ class Context:
         read = lambda name: json.loads((DATA / name).read_text())  # noqa: E731
         self.claims = read("claims.json")
         self.flights = {f["flight_id"]: f for f in read("flights.json")}
-        self.us = {code for code, a in read("airports.json").items() if a["country"] == "US"}
+        airports = read("airports.json")
+        self.us = {code for code, a in airports.items() if a["country"] == "US"}
+        ZONE.update({code: ZoneInfo(a["time_zone"]) for code, a in airports.items()})
         self.holidays = {date.fromisoformat(d) for d in read("federal_holidays.json")["observed_dates"]}
 
     def crosses_border(self, legs):
@@ -60,7 +77,7 @@ def denied_boarding(ctx, claim):
     first = inc["denied_coupon"] - 1
     journey = [legs[first]]
     for nxt in legs[first + 1:]:
-        stop = ts(nxt["scheduled_departure"]) - ts(journey[-1]["scheduled_arrival"])
+        stop = dep(nxt) - arr(journey[-1])
         if stop > 4 * HOUR:                     # 250.1 stopover
             break
         journey.append(nxt)
@@ -68,8 +85,8 @@ def denied_boarding(ctx, claim):
         fare = flight["lowest_cash_fare_cents_by_cabin"][journey[0]["cabin"]]
     else:
         fare = sum(l["fare_cents"] for l in journey)
-    lateness = ts(inc["alternate_transportation"]["planned_arrival_at_time_arranged"]) - \
-        ts(journey[-1]["scheduled_arrival"])
+    alt = inc["alternate_transportation"]
+    lateness = ts(alt["planned_arrival_at_time_arranged"], alt["arrival_airport"]) - arr(journey[-1])
     second_band_end = 4 * HOUR if ctx.crosses_border(journey) else 2 * HOUR
     if lateness <= HOUR:
         return 0, refund
@@ -89,7 +106,7 @@ def is_covered_flight(ctx, claim):
     stops = {}
     for c in claim["ticket"]["connections"]:
         a, b = c["between_coupons"]
-        gap = ts(legs[b - 1]["scheduled_departure"]) - ts(legs[a - 1]["scheduled_arrival"])
+        gap = dep(legs[b - 1]) - arr(legs[a - 1])
         stops[a - 1] = gap > 24 * HOUR or c["passenger_left_airport"] or not c["bags_checked_through"]
     lo = idx
     while lo > 0 and not stops[lo - 1]:
@@ -108,23 +125,27 @@ def schedule_change(ctx, claim):
         return 0, 0, None
     threshold = 6 * 60 if ctx.crosses_border(legs) else 3 * 60
     event = inc["event"]
+    leg = legs[inc["affected_coupon"] - 1]
+    early = late = timedelta(0)
+    if inc.get("new_scheduled_departure"):
+        early = dep(leg) - ts(inc["new_scheduled_departure"], inc.get("new_origin_airport") or leg["origin"])
+        late = ts(inc["new_scheduled_arrival"], inc.get("new_destination_airport") or leg["destination"]) - arr(leg)
     changes = [event == "cancelled",
                bool(inc.get("new_origin_airport")), bool(inc.get("new_destination_airport")),
                inc.get("new_connection_points", 0) > 0,
                event == "downgrade",
-               -inc.get("new_departure_shift_minutes", 0) >= threshold,
-               inc.get("new_arrival_shift_minutes", 0) >= threshold]
+               early >= timedelta(minutes=threshold),
+               late >= timedelta(minutes=threshold)]
     qualifies = any(changes)
     response = inc["consumer_response"]
     declined = response in {"rejected_alternatives", "did_not_respond_and_flight_departed",
                             "did_not_respond_before_scheduled_departure", "requested_refund"}
     if qualifies and declined:
         total = sum(l["fare_cents"] for l in legs) + sum(a["fee_cents"] for a in claim["ancillary_purchases"])
-        leg = legs[inc["affected_coupon"] - 1]
         if response == "did_not_respond_and_flight_departed":
-            moment = ts(leg["scheduled_departure"]) + timedelta(minutes=inc.get("new_departure_shift_minutes", 0))
+            moment = dep(leg) - early
         elif response == "did_not_respond_before_scheduled_departure":
-            moment = ts(leg["scheduled_departure"])
+            moment = dep(leg)
         elif event == "cancelled" and inc.get("alternative_offered") == "none":
             moment = ts(inc["carrier_notice_at"])
         else:
@@ -150,7 +171,7 @@ def baggage(ctx, claim):
         if ctx.crosses_border([leg]):
             border = True
             f = ctx.flights[leg["flight_id"]]
-            longest_cross = max(longest_cross, ts(f["scheduled_arrival"]) - ts(f["scheduled_departure"]))
+            longest_cross = max(longest_cross, arr(f) - dep(f))
     allowed = (30 * HOUR if longest_cross > 12 * HOUR else 15 * HOUR) if border else 12 * HOUR
     if inc["status"] == "delivered":
         waited = ts(inc["delivered_or_picked_up_at"]) - ts(inc["deplaning_opportunity_at_final_destination"])

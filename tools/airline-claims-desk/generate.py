@@ -23,6 +23,53 @@ AIRPORTS = {"ORD": ("Chicago", "US"), "LGA": ("New York", "US"), "DFW": ("Dallas
             "MDW": ("Chicago", "US"), "EWR": ("Newark", "US"), "MKE": ("Milwaukee", "US"),
             "YYZ": ("Toronto", "CA"), "CUN": ("Cancun", "MX"), "LHR": ("London", "GB"),
             "NRT": ("Tokyo", "JP"), "FRA": ("Frankfurt", "DE")}
+ZONES = {"ORD": "America/Chicago", "MDW": "America/Chicago", "MKE": "America/Chicago", "DFW": "America/Chicago",
+         "MSP": "America/Chicago", "LGA": "America/New_York", "EWR": "America/New_York", "BOS": "America/New_York",
+         "ATL": "America/New_York", "DEN": "America/Denver", "SFO": "America/Los_Angeles",
+         "SEA": "America/Los_Angeles", "YYZ": "America/Toronto", "CUN": "America/Cancun", "LHR": "Europe/London",
+         "NRT": "Asia/Tokyo", "FRA": "Europe/Berlin"}
+AMBIGUOUS = []
+
+
+def local(text, airport):
+    """UTC 'YYYY-MM-DDTHH:MMZ' -> local wall time at the airport 'YYYY-MM-DDTHH:MM' (as an airline publishes
+    it). Records any wall time that falls in a repeated daylight-saving hour, which the data must not contain."""
+    from zoneinfo import ZoneInfo
+    z = ZoneInfo(ZONES[airport])
+    t = datetime.fromisoformat(text.replace("Z", "+00:00")).astimezone(z)
+    wall = t.replace(tzinfo=None)
+    if wall.replace(tzinfo=z, fold=0).utcoffset() != wall.replace(tzinfo=z, fold=1).utcoffset():
+        AMBIGUOUS.append((text, airport))
+    return wall.strftime("%Y-%m-%dT%H:%M")
+
+
+def repeated_hour(text, airport):
+    from zoneinfo import ZoneInfo
+    z = ZoneInfo(ZONES[airport])
+    wall = datetime.fromisoformat(text.replace("Z", "+00:00")).astimezone(z).replace(tzinfo=None)
+    return wall.replace(tzinfo=z, fold=0).utcoffset() != wall.replace(tzinfo=z, fold=1).utcoffset()
+
+
+def schedule_times(c):
+    """Every (UTC time, airport) pair that becomes a local wall time in the published data."""
+    cps, inc = c["ticket"]["coupons"], c["incident"]
+    out = []
+    for k in cps:
+        out += [(k["scheduled_departure"], k["origin"]), (k["scheduled_arrival"], k["destination"])]
+    if c["claim_type"] == "oversale":
+        alt = inc["alternate_transportation"]
+        out.append((alt["planned_arrival_at_time_arranged"], alt["arrival_airport"]))
+    if c["claim_type"] == "schedule_change_or_cancellation" and "new_departure_shift_minutes" in inc:
+        k = cps[inc["affected_coupon"] - 1]
+        dep = datetime.fromisoformat(k["scheduled_departure"].replace("Z", "+00:00"))
+        arr = datetime.fromisoformat(k["scheduled_arrival"].replace("Z", "+00:00"))
+        out.append((iso(dep + timedelta(minutes=inc["new_departure_shift_minutes"])),
+                    inc.get("new_origin_airport") or k["origin"]))
+        out.append((iso(arr + timedelta(minutes=inc["new_arrival_shift_minutes"])),
+                    inc.get("new_destination_airport") or k["destination"]))
+    return out
+
+
 BLOCK = {("ORD", "LGA"): 135, ("ORD", "DFW"): 150, ("ORD", "DEN"): 160, ("ORD", "MSP"): 85,
          ("ORD", "BOS"): 140, ("ORD", "ATL"): 120, ("ORD", "SFO"): 280, ("ORD", "SEA"): 270,
          ("ORD", "YYZ"): 90, ("ORD", "CUN"): 230, ("ORD", "LHR"): 485, ("ORD", "NRT"): 790,
@@ -385,6 +432,39 @@ def planted(w):
         trig = trigger or asked_on(w, t, arr, delay_min, lost)
         return w.add("baggage", t, inc, [], tags, expected, trig, bags)
 
+    # ---------------- local schedule times across the 2026 daylight-saving changes ----------------
+    # US clocks fall back Nov 1 2026 at 2:00 local (Chicago 07:00Z); EU clocks Oct 25 2026 at 01:00Z.
+    # DEN-ORD leaves 02:40Z Nov 1, arrives 05:20Z = 00:20 CDT; replacement arrives 08:10Z = 02:10 CST.
+    # Real lateness 2 h 50 m (400%, 4 x 233.00 = 932.00); reading the wall clocks gives 1 h 50 m (200%).
+    oversale(w, [("DEN", "ORD", T(32, 2, 40))], 1, 170, ["db-band", "dst"], fares=[23300], expected=(93200, 0))
+    # ORD-DEN arrives 05:40Z = 23:40 MDT Oct 31; DEN-SFO leaves 10:00Z = 03:00 MST Nov 1. The real gap is
+    # 4 h 20 m, a stopover, so the fare runs to Denver only: 4 x 188.00 = 752.00 (replacement 09:00Z,
+    # 200 min late). Wall clocks show 3 h 20 m, which would wrongly add the SFO coupon.
+    oversale(w, [("ORD", "DEN", T(32, 3, 0)), ("DEN", "SFO", T(32, 10, 0))], 1, 200,
+             ["db-fare-base", "stopover", "dst"], fares=[18800, 14200], expected=(75200, 0))
+    # ORD-LGA arrives 04:30Z = 00:30 EDT Nov 1; new arrival 07:30Z = 02:30 EST. Real shift 3 h, significant
+    # for a domestic trip, so the fare is refunded; wall clocks show 2 h.
+    change([("ORD", "LGA", T(32, 2, 15))], {"event": "retimed", "new_departure_shift_minutes": 180,
+                                           "new_arrival_shift_minutes": 180},
+           "rejected_alternatives", ["sc-delay", "sc-threshold", "dst"], [], (0, 21800), fares=[21800],
+           count_from=resp_day(32, 2))
+    # ORD-LHR arrives 06:00Z Oct 24 = 07:00 BST; LHR-FRA leaves 07:00Z Oct 25 = 07:00 GMT. The real
+    # stopover is 25 h, a break in journey, so the LHR-FRA cancellation is not a covered flight: 0.
+    # Wall clocks show exactly 24 h, which would make it covered.
+    legs = [("ORD", "LHR", T(23, 21, 55), AIRCRAFT[3]), ("LHR", "FRA", T(25, 7, 0))]
+    change(legs, {"event": "cancelled", "alternative_offered": "rebooking_on_later_flight"}, "rejected_alternatives",
+           ["sc-covered", "break-in-journey", "dst"], [], (0, 0), fares=[48700, 14900], affected=2, notice_days=5)
+    # voucher offer unanswered for ORD-DFW leaving 01:30Z Nov 1 (20:30 CDT Oct 31): the due date runs from
+    # the UTC date of the scheduled departure, Nov 1; debit card, 20 days: 2026-11-21.
+    change([("ORD", "DFW", T(32, 1, 30))], {"event": "cancelled", "alternative_offered": "travel_voucher"},
+           "did_not_respond_before_scheduled_departure", ["sc-cancel", "due-date", "time-zone"], [], (0, 26100),
+           fares=[26100], pay="debit_card", count_from="2026-11-01")
+    # bag to London: ORD-LHR block 8 h 05 m (wall clocks 14 h 05 m), so the 15-hour limit applies.
+    bag([("ORD", "FRA", T(27, 22), AIRCRAFT[3])], 1000, ["bag-threshold", "international", "time-zone"],
+        (0, 7500), fees=(7500,))
+    bag([("ORD", "LHR", T(28, 22), AIRCRAFT[3])], 1300, ["bag-threshold", "international", "time-zone"],
+        (0, 7500), fees=(7500,))
+
     bag([("ORD", "LGA", T(33, 13))], 720, ["bag-threshold", "domestic"], (0, 0))
     bag([("ORD", "LGA", T(33, 15))], 721, ["bag-threshold", "domestic"], (0, 3500))
     bag([("ORD", "LHR", T(34, 22), AIRCRAFT[3])], 800, ["bag-threshold", "international"], (0, 0), fees=(7500,))
@@ -426,18 +506,45 @@ def planted(w):
 
 
 def filler(w, n):
-    import itertools
-    for _ in range(n):
-        kind = rng.choice(["oversale", "change", "bag", "service"])
-        day = rng.randint(5, 50)
-        dep = T(min(day, 61), rng.choice([7, 9, 12, 14, 17, 20]), rng.choice([0, 15, 30, 45]))
+    made = 0
+    while made < n:
+        before = (len(w.claims), set(w.flights))
+        filler_one(w)
+        c = w.claims[-1]
+        if any(repeated_hour(t, ap) for t, ap in schedule_times(c)):
+            w.claims.pop()
+            w.tags.pop(c["claim_id"], None)
+            w.golden.pop(c["claim_id"], None)
+            for fid in set(w.flights) - before[1]:
+                del w.flights[fid]
+            w.n_claim -= 1
+            continue
+        made += 1
+
+
+def filler_one(w):
+    if True:
+        kind = rng.choice(["oversale", "change", "bag", "bag", "service"])
+        day = rng.choice([rng.randint(5, 50), rng.choice([23, 24, 25, 30, 31, 32, 33])])
+        dep = T(min(day, 61), rng.randrange(0, 24), rng.choice([0, 15, 30, 45]))
+        if rng.random() < 0.35:      # around the EU (Oct 25) and US (Nov 1) clock changes
+            dep = rng.choice([T(24, rng.randrange(16, 24)), T(25, rng.randrange(0, 8)),
+                              T(31, rng.randrange(16, 24)), T(32, rng.randrange(0, 12))]) + \
+                timedelta(minutes=rng.choice([0, 15, 30, 45]))
         route = rng.choice([("ORD", "LGA"), ("ORD", "DFW"), ("ORD", "DEN"), ("ORD", "BOS"), ("ORD", "ATL"),
-                            ("ORD", "SFO"), ("ORD", "YYZ"), ("ORD", "LHR"), ("ORD", "CUN")])
+                            ("ORD", "SFO"), ("ORD", "YYZ"), ("ORD", "LHR"), ("ORD", "CUN"), ("ORD", "FRA"),
+                            ("ORD", "NRT"), ("SEA", "NRT"), ("DEN", "SFO"), ("DFW", "CUN")])
         intl = foreign(route[1])
         legs = [(route[0], route[1], dep)]
+        if kind in ("oversale", "bag") and route[0] == "ORD" and rng.random() < 0.4:
+            first = rng.choice(["MSP", "DEN", "BOS", "ATL"])
+            gap = rng.choice([90, 180, 230, 250, 300, 420])
+            legs = [(first, "ORD", dep - timedelta(minutes=block(first, "ORD") + gap)), (route[0], route[1], dep)]
+            if route[1] in ("LHR", "NRT", "FRA"):
+                legs[1] = legs[1] + (AIRCRAFT[3],)
         if kind == "oversale":
             delay = rng.choice([45, 75, 110, 150, 200, 260, 400])
-            oversale(w, legs, 1, delay, ["filler"],
+            oversale(w, legs, len(legs), delay, ["filler"],
                      ancillary=[anc("advance_seat_selection", 3900, 1, rng.random() < 0.5)] if rng.random() < 0.4 else [])
         elif kind == "change":
             ev = rng.choice(["cancelled", "retimed", "retimed"] + ([] if intl else ["airport_change"]))
@@ -451,7 +558,8 @@ def filler(w, n):
             elif ev == "retimed":
                 sh = rng.choice([60, 120, 170, 200, 250, 330, 400, 500])
                 inc.update(new_departure_shift_minutes=sh, new_arrival_shift_minutes=sh)
-                resp = rng.choice(["rejected_alternatives", "flew_on_changed_flight"])
+                resp = rng.choice(["rejected_alternatives", "flew_on_changed_flight",
+                                   "did_not_respond_and_flight_departed"])
             else:
                 inc.update(new_destination_airport="EWR" if route[1] == "LGA" else "MDW",
                            new_departure_shift_minutes=0, new_arrival_shift_minutes=15)
@@ -461,7 +569,8 @@ def filler(w, n):
                 resp = rng.choice(["rejected_alternatives", "flew_on_changed_flight"])
             t = w.ticket(legs)
             notice = dep - timedelta(days=rng.choice([1, 2, 4, 6]), hours=rng.choice([2, 5, 9]))
-            answered = resp not in ("did_not_respond_before_scheduled_departure", "flew_on_changed_flight")
+            answered = resp not in ("did_not_respond_before_scheduled_departure", "flew_on_changed_flight",
+                                    "did_not_respond_and_flight_departed")
             at = notice + timedelta(hours=rng.choice([3, 11, 26])) if answered else None
             inc = dict(inc, affected_coupon=1, carrier_notice_at=iso(notice), consumer_response=resp,
                        consumer_response_at=iso(at) if at else None)
@@ -508,16 +617,39 @@ def main():
         remap[c["claim_id"]] = f"CL{i:04d}"
         c["claim_id"] = remap[c["claim_id"]]
         claims.append(c)
+    # published schedules are local wall times at each airport; record timestamps stay in UTC
+    for f in w.flights.values():
+        f["scheduled_departure"] = local(f["scheduled_departure"], f["origin"])
+        f["scheduled_arrival"] = local(f["scheduled_arrival"], f["destination"])
+    for c in claims:
+        cps, inc = c["ticket"]["coupons"], c["incident"]
+        utc = {k["coupon"]: (k["scheduled_departure"], k["scheduled_arrival"]) for k in cps}
+        for k in cps:
+            k["scheduled_departure"] = local(k["scheduled_departure"], k["origin"])
+            k["scheduled_arrival"] = local(k["scheduled_arrival"], k["destination"])
+        if c["claim_type"] == "oversale":
+            alt = inc["alternate_transportation"]
+            alt["planned_arrival_at_time_arranged"] = local(alt["planned_arrival_at_time_arranged"], alt["arrival_airport"])
+        if c["claim_type"] == "schedule_change_or_cancellation" and "new_departure_shift_minutes" in inc:
+            k = cps[inc["affected_coupon"] - 1]
+            dep, arr = (datetime.fromisoformat(x.replace("Z", "+00:00")) for x in utc[k["coupon"]])
+            new_dep = iso(dep + timedelta(minutes=inc.pop("new_departure_shift_minutes")))
+            new_arr = iso(arr + timedelta(minutes=inc.pop("new_arrival_shift_minutes")))
+            inc["new_scheduled_departure"] = local(new_dep, inc.get("new_origin_airport") or k["origin"])
+            inc["new_scheduled_arrival"] = local(new_arr, inc.get("new_destination_airport") or k["destination"])
+    assert not AMBIGUOUS, f"local times in a repeated hour: {AMBIGUOUS}"
     ENV.mkdir(parents=True, exist_ok=True)
     (ENV / "claims.json").write_text(json.dumps(claims, indent=1) + "\n")
     (ENV / "flights.json").write_text(json.dumps(sorted(w.flights.values(), key=lambda f: f["flight_id"]),
                                                  indent=1) + "\n")
-    (ENV / "airports.json").write_text(json.dumps({k: {"city": v[0], "country": v[1]} for k, v in AIRPORTS.items()},
+    (ENV / "airports.json").write_text(json.dumps({k: {"city": v[0], "country": v[1], "time_zone": ZONES[k]}
+                                                   for k, v in AIRPORTS.items()},
                                                   indent=1) + "\n")
     (ENV / "carrier.json").write_text(json.dumps({
         "carrier": "Lakeshore Air", "type": "U.S. air carrier, scheduled passenger service",
         "merchant_of_record": "Lakeshore Air for every ticket and every ancillary fee in this queue",
-        "money_unit": "cents (USD)", "times": "UTC",
+        "money_unit": "cents (USD)",
+        "times": "flight schedule times are local at the airport; record timestamps ending in Z are UTC",
         "coupon_fare_cents": "price paid for that coupon including all mandatory taxes and fees, excluding ancillary fees",
         "bag_fees": "escalating per-bag scale; some fees are linked to a specific bag by unique identifier",
         "tickets": "every itinerary was bought as one ticket in a single transaction; Lakeshore operates every flight"},

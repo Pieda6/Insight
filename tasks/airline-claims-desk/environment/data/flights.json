@@ -4,8 +4,8 @@
   "flight_number": "LS1001",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-05T13:00Z",
-  "scheduled_arrival": "2026-10-05T15:15Z",
+  "scheduled_departure": "2026-10-05T08:00",
+  "scheduled_arrival": "2026-10-05T11:15",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -19,8 +19,8 @@
   "flight_number": "LS1002",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-05T14:00Z",
-  "scheduled_arrival": "2026-10-05T16:15Z",
+  "scheduled_departure": "2026-10-05T09:00",
+  "scheduled_arrival": "2026-10-05T12:15",
   "aircraft": "Embraer E175",
   "designed_passenger_seats": 76,
   "scheduled_service": true,
@@ -34,8 +34,8 @@
   "flight_number": "LS1003",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-05T15:00Z",
-  "scheduled_arrival": "2026-10-05T17:15Z",
+  "scheduled_departure": "2026-10-05T10:00",
+  "scheduled_arrival": "2026-10-05T13:15",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -49,8 +49,8 @@
   "flight_number": "LS1004",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-05T16:00Z",
-  "scheduled_arrival": "2026-10-05T18:15Z",
+  "scheduled_departure": "2026-10-05T11:00",
+  "scheduled_arrival": "2026-10-05T14:15",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
@@ -64,8 +64,8 @@
   "flight_number": "LS1005",
   "origin": "ORD",
   "destination": "DEN",
-  "scheduled_departure": "2026-10-06T13:00Z",
-  "scheduled_arrival": "2026-10-06T15:40Z",
+  "scheduled_departure": "2026-10-06T08:00",
+  "scheduled_arrival": "2026-10-06T09:40",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -79,8 +79,8 @@
   "flight_number": "LS1006",
   "origin": "ORD",
   "destination": "DEN",
-  "scheduled_departure": "2026-10-06T14:00Z",
-  "scheduled_arrival": "2026-10-06T16:40Z",
+  "scheduled_departure": "2026-10-06T09:00",
+  "scheduled_arrival": "2026-10-06T10:40",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
@@ -94,8 +94,8 @@
   "flight_number": "LS1007",
   "origin": "ORD",
   "destination": "LHR",
-  "scheduled_departure": "2026-10-07T22:00Z",
-  "scheduled_arrival": "2026-10-08T06:05Z",
+  "scheduled_departure": "2026-10-07T17:00",
+  "scheduled_arrival": "2026-10-08T07:05",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -109,8 +109,8 @@
   "flight_number": "LS1008",
   "origin": "ORD",
   "destination": "LHR",
-  "scheduled_departure": "2026-10-08T22:00Z",
-  "scheduled_arrival": "2026-10-09T06:05Z",
+  "scheduled_departure": "2026-10-08T17:00",
+  "scheduled_arrival": "2026-10-09T07:05",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -124,8 +124,8 @@
   "flight_number": "LS1009",
   "origin": "ORD",
   "destination": "YYZ",
-  "scheduled_departure": "2026-10-09T12:00Z",
-  "scheduled_arrival": "2026-10-09T13:30Z",
+  "scheduled_departure": "2026-10-09T07:00",
+  "scheduled_arrival": "2026-10-09T09:30",
   "aircraft": "Airbus A321neo",
   "designed_passenger_seats": 196,
   "scheduled_service": true,
@@ -139,8 +139,8 @@
   "flight_number": "LS1010",
   "origin": "MSP",
   "destination": "ORD",
-  "scheduled_departure": "2026-10-10T12:00Z",
-  "scheduled_arrival": "2026-10-10T13:25Z",
+  "scheduled_departure": "2026-10-10T07:00",
+  "scheduled_arrival": "2026-10-10T08:25",
   "aircraft": "Airbus A321neo",
   "designed_passenger_seats": 196,
   "scheduled_service": true,
@@ -154,8 +154,8 @@
   "flight_number": "LS1011",
   "origin": "ORD",
   "destination": "LHR",
-  "scheduled_departure": "2026-10-10T15:00Z",
-  "scheduled_arrival": "2026-10-10T23:05Z",
+  "scheduled_departure": "2026-10-10T10:00",
+  "scheduled_arrival": "2026-10-11T00:05",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -169,8 +169,8 @@
   "flight_number": "LS1012",
   "origin": "ORD",
   "destination": "DEN",
-  "scheduled_departure": "2026-10-11T13:00Z",
-  "scheduled_arrival": "2026-10-11T15:40Z",
+  "scheduled_departure": "2026-10-11T08:00",
+  "scheduled_arrival": "2026-10-11T09:40",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
@@ -184,8 +184,8 @@
   "flight_number": "LS1013",
   "origin": "DEN",
   "destination": "SFO",
-  "scheduled_departure": "2026-10-12T15:00Z",
-  "scheduled_arrival": "2026-10-12T17:30Z",
+  "scheduled_departure": "2026-10-12T09:00",
+  "scheduled_arrival": "2026-10-12T10:30",
   "aircraft": "Airbus A321neo",
   "designed_passenger_seats": 196,
   "scheduled_service": true,
@@ -199,8 +199,8 @@
   "flight_number": "LS1014",
   "origin": "ORD",
   "destination": "DEN",
-  "scheduled_departure": "2026-10-13T12:00Z",
-  "scheduled_arrival": "2026-10-13T14:40Z",
+  "scheduled_departure": "2026-10-13T07:00",
+  "scheduled_arrival": "2026-10-13T08:40",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -214,8 +214,8 @@
   "flight_number": "LS1015",
   "origin": "DEN",
   "destination": "SFO",
-  "scheduled_departure": "2026-10-13T18:40Z",
-  "scheduled_arrival": "2026-10-13T21:10Z",
+  "scheduled_departure": "2026-10-13T12:40",
+  "scheduled_arrival": "2026-10-13T14:10",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -229,8 +229,8 @@
   "flight_number": "LS1016",
   "origin": "ORD",
   "destination": "BOS",
-  "scheduled_departure": "2026-10-14T13:00Z",
-  "scheduled_arrival": "2026-10-14T15:20Z",
+  "scheduled_departure": "2026-10-14T08:00",
+  "scheduled_arrival": "2026-10-14T11:20",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
@@ -244,8 +244,8 @@
   "flight_number": "LS1017",
   "origin": "BOS",
   "destination": "ORD",
-  "scheduled_departure": "2026-10-18T20:00Z",
-  "scheduled_arrival": "2026-10-18T22:20Z",
+  "scheduled_departure": "2026-10-18T16:00",
+  "scheduled_arrival": "2026-10-18T17:20",
   "aircraft": "Airbus A321neo",
   "designed_passenger_seats": 196,
   "scheduled_service": true,
@@ -259,8 +259,8 @@
   "flight_number": "LS1018",
   "origin": "ORD",
   "destination": "ATL",
-  "scheduled_departure": "2026-10-15T13:00Z",
-  "scheduled_arrival": "2026-10-15T15:00Z",
+  "scheduled_departure": "2026-10-15T08:00",
+  "scheduled_arrival": "2026-10-15T11:00",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -274,8 +274,8 @@
   "flight_number": "LS1019",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-16T13:00Z",
-  "scheduled_arrival": "2026-10-16T15:15Z",
+  "scheduled_departure": "2026-10-16T08:00",
+  "scheduled_arrival": "2026-10-16T11:15",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
@@ -289,8 +289,8 @@
   "flight_number": "LS1020",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-16T15:00Z",
-  "scheduled_arrival": "2026-10-16T17:15Z",
+  "scheduled_departure": "2026-10-16T10:00",
+  "scheduled_arrival": "2026-10-16T13:15",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
@@ -304,8 +304,8 @@
   "flight_number": "LS1021",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-16T17:00Z",
-  "scheduled_arrival": "2026-10-16T19:15Z",
+  "scheduled_departure": "2026-10-16T12:00",
+  "scheduled_arrival": "2026-10-16T15:15",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -319,8 +319,8 @@
   "flight_number": "LS1022",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-17T13:00Z",
-  "scheduled_arrival": "2026-10-17T15:15Z",
+  "scheduled_departure": "2026-10-17T08:00",
+  "scheduled_arrival": "2026-10-17T11:15",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
@@ -334,8 +334,8 @@
   "flight_number": "LS1023",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-17T15:00Z",
-  "scheduled_arrival": "2026-10-17T17:15Z",
+  "scheduled_departure": "2026-10-17T10:00",
+  "scheduled_arrival": "2026-10-17T13:15",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -349,8 +349,8 @@
   "flight_number": "LS1024",
   "origin": "ORD",
   "destination": "MSP",
-  "scheduled_departure": "2026-10-18T13:00Z",
-  "scheduled_arrival": "2026-10-18T14:25Z",
+  "scheduled_departure": "2026-10-18T08:00",
+  "scheduled_arrival": "2026-10-18T09:25",
   "aircraft": "Embraer E145",
   "designed_passenger_seats": 50,
   "scheduled_service": true,
@@ -364,8 +364,8 @@
   "flight_number": "LS1025",
   "origin": "ORD",
   "destination": "MSP",
-  "scheduled_departure": "2026-10-18T15:00Z",
-  "scheduled_arrival": "2026-10-18T16:25Z",
+  "scheduled_departure": "2026-10-18T10:00",
+  "scheduled_arrival": "2026-10-18T11:25",
   "aircraft": "Embraer E175",
   "designed_passenger_seats": 76,
   "scheduled_service": true,
@@ -379,8 +379,8 @@
   "flight_number": "LS1026",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-19T13:00Z",
-  "scheduled_arrival": "2026-10-19T15:15Z",
+  "scheduled_departure": "2026-10-19T08:00",
+  "scheduled_arrival": "2026-10-19T11:15",
   "aircraft": "Airbus A321neo",
   "designed_passenger_seats": 196,
   "scheduled_service": true,
@@ -394,8 +394,8 @@
   "flight_number": "LS1027",
   "origin": "ORD",
   "destination": "MKE",
-  "scheduled_departure": "2026-10-19T15:00Z",
-  "scheduled_arrival": "2026-10-19T15:45Z",
+  "scheduled_departure": "2026-10-19T10:00",
+  "scheduled_arrival": "2026-10-19T10:45",
   "aircraft": "Beechcraft 1900D",
   "designed_passenger_seats": 19,
   "scheduled_service": true,
@@ -409,8 +409,8 @@
   "flight_number": "LS1028",
   "origin": "CUN",
   "destination": "ORD",
-  "scheduled_departure": "2026-10-20T18:00Z",
-  "scheduled_arrival": "2026-10-20T21:50Z",
+  "scheduled_departure": "2026-10-20T13:00",
+  "scheduled_arrival": "2026-10-20T16:50",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
@@ -424,8 +424,8 @@
   "flight_number": "LS1029",
   "origin": "ORD",
   "destination": "SFO",
-  "scheduled_departure": "2026-10-21T14:00Z",
-  "scheduled_arrival": "2026-10-21T18:40Z",
+  "scheduled_departure": "2026-10-21T09:00",
+  "scheduled_arrival": "2026-10-21T11:40",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -439,8 +439,8 @@
   "flight_number": "LS1030",
   "origin": "ORD",
   "destination": "SFO",
-  "scheduled_departure": "2026-10-22T14:00Z",
-  "scheduled_arrival": "2026-10-22T18:40Z",
+  "scheduled_departure": "2026-10-22T09:00",
+  "scheduled_arrival": "2026-10-22T11:40",
   "aircraft": "Embraer E175",
   "designed_passenger_seats": 76,
   "scheduled_service": true,
@@ -454,8 +454,8 @@
   "flight_number": "LS1031",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-23T13:00Z",
-  "scheduled_arrival": "2026-10-23T15:15Z",
+  "scheduled_departure": "2026-10-23T08:00",
+  "scheduled_arrival": "2026-10-23T11:15",
   "aircraft": "Embraer E175",
   "designed_passenger_seats": 76,
   "scheduled_service": true,
@@ -469,8 +469,8 @@
   "flight_number": "LS1032",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-23T15:00Z",
-  "scheduled_arrival": "2026-10-23T17:15Z",
+  "scheduled_departure": "2026-10-23T10:00",
+  "scheduled_arrival": "2026-10-23T13:15",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
@@ -484,8 +484,8 @@
   "flight_number": "LS1033",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-23T17:00Z",
-  "scheduled_arrival": "2026-10-23T19:15Z",
+  "scheduled_departure": "2026-10-23T12:00",
+  "scheduled_arrival": "2026-10-23T15:15",
   "aircraft": "Airbus A321neo",
   "designed_passenger_seats": 196,
   "scheduled_service": true,
@@ -499,8 +499,8 @@
   "flight_number": "LS1034",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-24T13:00Z",
-  "scheduled_arrival": "2026-10-24T15:15Z",
+  "scheduled_departure": "2026-10-24T08:00",
+  "scheduled_arrival": "2026-10-24T11:15",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -514,8 +514,8 @@
   "flight_number": "LS1035",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-24T15:00Z",
-  "scheduled_arrival": "2026-10-24T17:15Z",
+  "scheduled_departure": "2026-10-24T10:00",
+  "scheduled_arrival": "2026-10-24T13:15",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
@@ -529,8 +529,8 @@
   "flight_number": "LS1036",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-25T13:00Z",
-  "scheduled_arrival": "2026-10-25T15:15Z",
+  "scheduled_departure": "2026-10-25T08:00",
+  "scheduled_arrival": "2026-10-25T11:15",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -544,8 +544,8 @@
   "flight_number": "LS1037",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-25T15:00Z",
-  "scheduled_arrival": "2026-10-25T17:15Z",
+  "scheduled_departure": "2026-10-25T10:00",
+  "scheduled_arrival": "2026-10-25T13:15",
   "aircraft": "Airbus A321neo",
   "designed_passenger_seats": 196,
   "scheduled_service": true,
@@ -559,8 +559,8 @@
   "flight_number": "LS1038",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-25T17:00Z",
-  "scheduled_arrival": "2026-10-25T19:15Z",
+  "scheduled_departure": "2026-10-25T12:00",
+  "scheduled_arrival": "2026-10-25T15:15",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -574,8 +574,8 @@
   "flight_number": "LS1039",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-26T13:00Z",
-  "scheduled_arrival": "2026-10-26T15:15Z",
+  "scheduled_departure": "2026-10-26T08:00",
+  "scheduled_arrival": "2026-10-26T11:15",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -589,8 +589,8 @@
   "flight_number": "LS1040",
   "origin": "ORD",
   "destination": "LHR",
-  "scheduled_departure": "2026-10-26T22:00Z",
-  "scheduled_arrival": "2026-10-27T06:05Z",
+  "scheduled_departure": "2026-10-26T17:00",
+  "scheduled_arrival": "2026-10-27T06:05",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -604,8 +604,8 @@
   "flight_number": "LS1041",
   "origin": "ORD",
   "destination": "LHR",
-  "scheduled_departure": "2026-10-27T22:00Z",
-  "scheduled_arrival": "2026-10-28T06:05Z",
+  "scheduled_departure": "2026-10-27T17:00",
+  "scheduled_arrival": "2026-10-28T06:05",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -619,8 +619,8 @@
   "flight_number": "LS1042",
   "origin": "ORD",
   "destination": "YYZ",
-  "scheduled_departure": "2026-10-27T13:00Z",
-  "scheduled_arrival": "2026-10-27T14:30Z",
+  "scheduled_departure": "2026-10-27T08:00",
+  "scheduled_arrival": "2026-10-27T10:30",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -634,8 +634,8 @@
   "flight_number": "LS1043",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-28T13:00Z",
-  "scheduled_arrival": "2026-10-28T15:15Z",
+  "scheduled_departure": "2026-10-28T08:00",
+  "scheduled_arrival": "2026-10-28T11:15",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -649,8 +649,8 @@
   "flight_number": "LS1044",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-10-28T15:00Z",
-  "scheduled_arrival": "2026-10-28T17:15Z",
+  "scheduled_departure": "2026-10-28T10:00",
+  "scheduled_arrival": "2026-10-28T13:15",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
@@ -664,8 +664,8 @@
   "flight_number": "LS1045",
   "origin": "ORD",
   "destination": "BOS",
-  "scheduled_departure": "2026-10-29T13:00Z",
-  "scheduled_arrival": "2026-10-29T15:20Z",
+  "scheduled_departure": "2026-10-29T08:00",
+  "scheduled_arrival": "2026-10-29T11:20",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -679,8 +679,8 @@
   "flight_number": "LS1046",
   "origin": "ORD",
   "destination": "BOS",
-  "scheduled_departure": "2026-10-29T15:00Z",
-  "scheduled_arrival": "2026-10-29T17:20Z",
+  "scheduled_departure": "2026-10-29T10:00",
+  "scheduled_arrival": "2026-10-29T13:20",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -694,8 +694,8 @@
   "flight_number": "LS1047",
   "origin": "ORD",
   "destination": "BOS",
-  "scheduled_departure": "2026-10-30T13:00Z",
-  "scheduled_arrival": "2026-10-30T15:20Z",
+  "scheduled_departure": "2026-10-30T08:00",
+  "scheduled_arrival": "2026-10-30T11:20",
   "aircraft": "Airbus A321neo",
   "designed_passenger_seats": 196,
   "scheduled_service": true,
@@ -709,8 +709,8 @@
   "flight_number": "LS1048",
   "origin": "ORD",
   "destination": "BOS",
-  "scheduled_departure": "2026-10-30T22:30Z",
-  "scheduled_arrival": "2026-10-31T00:50Z",
+  "scheduled_departure": "2026-10-30T17:30",
+  "scheduled_arrival": "2026-10-30T20:50",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -724,8 +724,8 @@
   "flight_number": "LS1049",
   "origin": "ORD",
   "destination": "DFW",
-  "scheduled_departure": "2026-10-31T13:00Z",
-  "scheduled_arrival": "2026-10-31T15:30Z",
+  "scheduled_departure": "2026-10-31T08:00",
+  "scheduled_arrival": "2026-10-31T10:30",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
@@ -739,8 +739,8 @@
   "flight_number": "LS1050",
   "origin": "ORD",
   "destination": "DFW",
-  "scheduled_departure": "2026-10-31T15:00Z",
-  "scheduled_arrival": "2026-10-31T17:30Z",
+  "scheduled_departure": "2026-10-31T10:00",
+  "scheduled_arrival": "2026-10-31T12:30",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
@@ -754,8 +754,8 @@
   "flight_number": "LS1051",
   "origin": "ORD",
   "destination": "DFW",
-  "scheduled_departure": "2026-11-06T23:30Z",
-  "scheduled_arrival": "2026-11-07T02:00Z",
+  "scheduled_departure": "2026-11-06T17:30",
+  "scheduled_arrival": "2026-11-06T20:00",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -769,8 +769,8 @@
   "flight_number": "LS1052",
   "origin": "ORD",
   "destination": "DFW",
-  "scheduled_departure": "2026-11-01T13:00Z",
-  "scheduled_arrival": "2026-11-01T15:30Z",
+  "scheduled_departure": "2026-11-01T07:00",
+  "scheduled_arrival": "2026-11-01T09:30",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -784,8 +784,8 @@
   "flight_number": "LS1053",
   "origin": "ORD",
   "destination": "LHR",
-  "scheduled_departure": "2026-11-09T22:00Z",
-  "scheduled_arrival": "2026-11-10T06:05Z",
+  "scheduled_departure": "2026-11-09T16:00",
+  "scheduled_arrival": "2026-11-10T06:05",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -799,8 +799,8 @@
   "flight_number": "LS1054",
   "origin": "LHR",
   "destination": "FRA",
-  "scheduled_departure": "2026-11-10T09:05Z",
-  "scheduled_arrival": "2026-11-10T10:40Z",
+  "scheduled_departure": "2026-11-10T09:05",
+  "scheduled_arrival": "2026-11-10T11:40",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -814,8 +814,8 @@
   "flight_number": "LS1055",
   "origin": "ORD",
   "destination": "LHR",
-  "scheduled_departure": "2026-11-09T22:00Z",
-  "scheduled_arrival": "2026-11-10T06:05Z",
+  "scheduled_departure": "2026-11-09T16:00",
+  "scheduled_arrival": "2026-11-10T06:05",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -829,8 +829,8 @@
   "flight_number": "LS1056",
   "origin": "LHR",
   "destination": "FRA",
-  "scheduled_departure": "2026-11-13T06:05Z",
-  "scheduled_arrival": "2026-11-13T07:40Z",
+  "scheduled_departure": "2026-11-13T06:05",
+  "scheduled_arrival": "2026-11-13T08:40",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -844,8 +844,8 @@
   "flight_number": "LS1057",
   "origin": "ORD",
   "destination": "LHR",
-  "scheduled_departure": "2026-11-09T22:00Z",
-  "scheduled_arrival": "2026-11-10T06:05Z",
+  "scheduled_departure": "2026-11-09T16:00",
+  "scheduled_arrival": "2026-11-10T06:05",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -859,8 +859,8 @@
   "flight_number": "LS1058",
   "origin": "LHR",
   "destination": "FRA",
-  "scheduled_departure": "2026-11-11T06:05Z",
-  "scheduled_arrival": "2026-11-11T07:40Z",
+  "scheduled_departure": "2026-11-11T06:05",
+  "scheduled_arrival": "2026-11-11T08:40",
   "aircraft": "Airbus A321neo",
   "designed_passenger_seats": 196,
   "scheduled_service": true,
@@ -874,8 +874,8 @@
   "flight_number": "LS1059",
   "origin": "ORD",
   "destination": "LHR",
-  "scheduled_departure": "2026-11-09T22:00Z",
-  "scheduled_arrival": "2026-11-10T06:05Z",
+  "scheduled_departure": "2026-11-09T16:00",
+  "scheduled_arrival": "2026-11-10T06:05",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -889,8 +889,8 @@
   "flight_number": "LS1060",
   "origin": "LHR",
   "destination": "FRA",
-  "scheduled_departure": "2026-11-11T06:10Z",
-  "scheduled_arrival": "2026-11-11T07:45Z",
+  "scheduled_departure": "2026-11-11T06:10",
+  "scheduled_arrival": "2026-11-11T08:45",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
@@ -904,8 +904,8 @@
   "flight_number": "LS1061",
   "origin": "FRA",
   "destination": "LHR",
-  "scheduled_departure": "2026-11-09T22:00Z",
-  "scheduled_arrival": "2026-11-09T23:35Z",
+  "scheduled_departure": "2026-11-09T23:00",
+  "scheduled_arrival": "2026-11-09T23:35",
   "aircraft": "Airbus A321neo",
   "designed_passenger_seats": 196,
   "scheduled_service": true,
@@ -919,8 +919,8 @@
   "flight_number": "LS1062",
   "origin": "LHR",
   "destination": "ORD",
-  "scheduled_departure": "2026-11-11T23:35Z",
-  "scheduled_arrival": "2026-11-12T07:40Z",
+  "scheduled_departure": "2026-11-11T23:35",
+  "scheduled_arrival": "2026-11-12T01:40",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -934,8 +934,8 @@
   "flight_number": "LS1063",
   "origin": "ORD",
   "destination": "LHR",
-  "scheduled_departure": "2026-11-09T22:00Z",
-  "scheduled_arrival": "2026-11-10T06:05Z",
+  "scheduled_departure": "2026-11-09T16:00",
+  "scheduled_arrival": "2026-11-10T06:05",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -949,8 +949,8 @@
   "flight_number": "LS1064",
   "origin": "LHR",
   "destination": "FRA",
-  "scheduled_departure": "2026-11-10T08:35Z",
-  "scheduled_arrival": "2026-11-10T10:10Z",
+  "scheduled_departure": "2026-11-10T08:35",
+  "scheduled_arrival": "2026-11-10T11:10",
   "aircraft": "Airbus A321neo",
   "designed_passenger_seats": 196,
   "scheduled_service": true,
@@ -964,8 +964,8 @@
   "flight_number": "LS1065",
   "origin": "ORD",
   "destination": "LHR",
-  "scheduled_departure": "2026-11-09T22:00Z",
-  "scheduled_arrival": "2026-11-10T06:05Z",
+  "scheduled_departure": "2026-11-09T16:00",
+  "scheduled_arrival": "2026-11-10T06:05",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -979,8 +979,8 @@
   "flight_number": "LS1066",
   "origin": "LHR",
   "destination": "FRA",
-  "scheduled_departure": "2026-11-12T06:05Z",
-  "scheduled_arrival": "2026-11-12T07:40Z",
+  "scheduled_departure": "2026-11-12T06:05",
+  "scheduled_arrival": "2026-11-12T08:40",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -990,12 +990,12 @@
   }
  },
  {
-  "flight_id": "LS1067-1102",
+  "flight_id": "LS1067-1101",
   "flight_number": "LS1067",
-  "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-11-02T13:00Z",
-  "scheduled_arrival": "2026-11-02T15:15Z",
+  "origin": "DEN",
+  "destination": "ORD",
+  "scheduled_departure": "2026-10-31T20:40",
+  "scheduled_arrival": "2026-11-01T00:20",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -1005,12 +1005,12 @@
   }
  },
  {
-  "flight_id": "LS1068-1102",
+  "flight_id": "LS1068-1101",
   "flight_number": "LS1068",
   "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-11-02T15:00Z",
-  "scheduled_arrival": "2026-11-02T17:15Z",
+  "destination": "DEN",
+  "scheduled_departure": "2026-10-31T22:00",
+  "scheduled_arrival": "2026-10-31T23:40",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -1020,72 +1020,102 @@
   }
  },
  {
-  "flight_id": "LS1069-1103",
+  "flight_id": "LS1069-1101",
   "flight_number": "LS1069",
-  "origin": "ORD",
-  "destination": "LHR",
-  "scheduled_departure": "2026-11-03T22:00Z",
-  "scheduled_arrival": "2026-11-04T06:05Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
+  "origin": "DEN",
+  "destination": "SFO",
+  "scheduled_departure": "2026-11-01T03:00",
+  "scheduled_arrival": "2026-11-01T04:30",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 14900,
-   "first": 52200
+   "economy": 17200,
+   "first": 72400
   }
  },
  {
-  "flight_id": "LS1070-1103",
+  "flight_id": "LS1070-1101",
   "flight_number": "LS1070",
   "origin": "ORD",
-  "destination": "LHR",
-  "scheduled_departure": "2026-11-03T23:00Z",
-  "scheduled_arrival": "2026-11-04T07:05Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
+  "destination": "LGA",
+  "scheduled_departure": "2026-10-31T21:15",
+  "scheduled_arrival": "2026-11-01T00:30",
+  "aircraft": "Airbus A321neo",
+  "designed_passenger_seats": 196,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 38600,
-   "first": 110200
+   "economy": 33000,
+   "first": 103800
   }
  },
  {
-  "flight_id": "LS1071-1104",
+  "flight_id": "LS1071-1023",
   "flight_number": "LS1071",
   "origin": "ORD",
   "destination": "LHR",
-  "scheduled_departure": "2026-11-04T22:00Z",
-  "scheduled_arrival": "2026-11-05T06:05Z",
+  "scheduled_departure": "2026-10-23T16:55",
+  "scheduled_arrival": "2026-10-24T07:00",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 26700,
-   "first": 118700
+   "economy": 20100,
+   "first": 69500
   }
  },
  {
-  "flight_id": "LS1072-1104",
+  "flight_id": "LS1072-1025",
   "flight_number": "LS1072",
-  "origin": "ORD",
-  "destination": "NRT",
-  "scheduled_departure": "2026-11-04T23:00Z",
-  "scheduled_arrival": "2026-11-05T12:10Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
+  "origin": "LHR",
+  "destination": "FRA",
+  "scheduled_departure": "2026-10-25T07:00",
+  "scheduled_arrival": "2026-10-25T09:35",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 21600,
-   "first": 118600
+   "economy": 41500,
+   "first": 84600
   }
  },
  {
-  "flight_id": "LS1073-1105",
+  "flight_id": "LS1073-1101",
   "flight_number": "LS1073",
   "origin": "ORD",
-  "destination": "NRT",
-  "scheduled_departure": "2026-11-05T01:00Z",
-  "scheduled_arrival": "2026-11-05T14:10Z",
+  "destination": "DFW",
+  "scheduled_departure": "2026-10-31T20:30",
+  "scheduled_arrival": "2026-10-31T23:00",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 21800,
+   "first": 109100
+  }
+ },
+ {
+  "flight_id": "LS1074-1027",
+  "flight_number": "LS1074",
+  "origin": "ORD",
+  "destination": "FRA",
+  "scheduled_departure": "2026-10-27T17:00",
+  "scheduled_arrival": "2026-10-28T07:40",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 38900,
+   "first": 100600
+  }
+ },
+ {
+  "flight_id": "LS1075-1028",
+  "flight_number": "LS1075",
+  "origin": "ORD",
+  "destination": "LHR",
+  "scheduled_departure": "2026-10-28T17:00",
+  "scheduled_arrival": "2026-10-29T06:05",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -1095,12 +1125,12 @@
   }
  },
  {
-  "flight_id": "LS1074-1105",
-  "flight_number": "LS1074",
-  "origin": "MSP",
-  "destination": "ORD",
-  "scheduled_departure": "2026-11-05T13:00Z",
-  "scheduled_arrival": "2026-11-05T14:25Z",
+  "flight_id": "LS1076-1102",
+  "flight_number": "LS1076",
+  "origin": "ORD",
+  "destination": "LGA",
+  "scheduled_departure": "2026-11-02T07:00",
+  "scheduled_arrival": "2026-11-02T10:15",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -1110,252 +1140,312 @@
   }
  },
  {
-  "flight_id": "LS1075-1105",
-  "flight_number": "LS1075",
-  "origin": "ORD",
-  "destination": "NRT",
-  "scheduled_departure": "2026-11-05T16:00Z",
-  "scheduled_arrival": "2026-11-06T05:10Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 13700,
-   "first": 63100
-  }
- },
- {
-  "flight_id": "LS1076-1106",
-  "flight_number": "LS1076",
-  "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-11-06T13:00Z",
-  "scheduled_arrival": "2026-11-06T15:15Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 15300,
-   "first": 67300
-  }
- },
- {
-  "flight_id": "LS1077-1106",
+  "flight_id": "LS1077-1102",
   "flight_number": "LS1077",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-11-06T15:00Z",
-  "scheduled_arrival": "2026-11-06T17:15Z",
-  "aircraft": "Airbus A320",
-  "designed_passenger_seats": 150,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 12800,
-   "first": 81800
-  }
- },
- {
-  "flight_id": "LS1078-1107",
-  "flight_number": "LS1078",
-  "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-11-07T13:00Z",
-  "scheduled_arrival": "2026-11-07T15:15Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 34600,
-   "first": 46200
-  }
- },
- {
-  "flight_id": "LS1079-1107",
-  "flight_number": "LS1079",
-  "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-11-07T15:00Z",
-  "scheduled_arrival": "2026-11-07T17:15Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 28800,
-   "first": 67000
-  }
- },
- {
-  "flight_id": "LS1080-1108",
-  "flight_number": "LS1080",
-  "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-11-08T13:00Z",
-  "scheduled_arrival": "2026-11-08T15:15Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 22800,
-   "first": 91900
-  }
- },
- {
-  "flight_id": "LS1081-1108",
-  "flight_number": "LS1081",
-  "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-11-08T15:00Z",
-  "scheduled_arrival": "2026-11-08T17:15Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 16900,
-   "first": 83700
-  }
- },
- {
-  "flight_id": "LS1082-1109",
-  "flight_number": "LS1082",
-  "origin": "LHR",
-  "destination": "ORD",
-  "scheduled_departure": "2026-11-09T13:00Z",
-  "scheduled_arrival": "2026-11-09T21:05Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 40000,
-   "first": 78600
-  }
- },
- {
-  "flight_id": "LS1083-1109",
-  "flight_number": "LS1083",
-  "origin": "ORD",
-  "destination": "DEN",
-  "scheduled_departure": "2026-11-09T23:00Z",
-  "scheduled_arrival": "2026-11-10T01:40Z",
+  "scheduled_departure": "2026-11-02T09:00",
+  "scheduled_arrival": "2026-11-02T12:15",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 12800,
-   "first": 91000
+   "economy": 39800,
+   "first": 62700
   }
  },
  {
-  "flight_id": "LS1084-1110",
-  "flight_number": "LS1084",
+  "flight_id": "LS1078-1103",
+  "flight_number": "LS1078",
   "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-11-10T13:00Z",
-  "scheduled_arrival": "2026-11-10T15:15Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
+  "destination": "LHR",
+  "scheduled_departure": "2026-11-03T16:00",
+  "scheduled_arrival": "2026-11-04T06:05",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 30700,
-   "first": 75400
+   "economy": 39500,
+   "first": 103900
   }
  },
  {
-  "flight_id": "LS1085-1110",
+  "flight_id": "LS1079-1103",
+  "flight_number": "LS1079",
+  "origin": "ORD",
+  "destination": "LHR",
+  "scheduled_departure": "2026-11-03T17:00",
+  "scheduled_arrival": "2026-11-04T07:05",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 39200,
+   "first": 71700
+  }
+ },
+ {
+  "flight_id": "LS1080-1104",
+  "flight_number": "LS1080",
+  "origin": "ORD",
+  "destination": "LHR",
+  "scheduled_departure": "2026-11-04T16:00",
+  "scheduled_arrival": "2026-11-05T06:05",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 31200,
+   "first": 60700
+  }
+ },
+ {
+  "flight_id": "LS1081-1104",
+  "flight_number": "LS1081",
+  "origin": "ORD",
+  "destination": "NRT",
+  "scheduled_departure": "2026-11-04T17:00",
+  "scheduled_arrival": "2026-11-05T21:10",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 20000,
+   "first": 61600
+  }
+ },
+ {
+  "flight_id": "LS1082-1105",
+  "flight_number": "LS1082",
+  "origin": "ORD",
+  "destination": "NRT",
+  "scheduled_departure": "2026-11-04T19:00",
+  "scheduled_arrival": "2026-11-05T23:10",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 38500,
+   "first": 113800
+  }
+ },
+ {
+  "flight_id": "LS1083-1105",
+  "flight_number": "LS1083",
+  "origin": "MSP",
+  "destination": "ORD",
+  "scheduled_departure": "2026-11-05T07:00",
+  "scheduled_arrival": "2026-11-05T08:25",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 22700,
+   "first": 71100
+  }
+ },
+ {
+  "flight_id": "LS1084-1105",
+  "flight_number": "LS1084",
+  "origin": "ORD",
+  "destination": "NRT",
+  "scheduled_departure": "2026-11-05T10:00",
+  "scheduled_arrival": "2026-11-06T14:10",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 28200,
+   "first": 61100
+  }
+ },
+ {
+  "flight_id": "LS1085-1106",
   "flight_number": "LS1085",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-11-10T15:00Z",
-  "scheduled_arrival": "2026-11-10T17:15Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 35300,
-   "first": 66300
-  }
- },
- {
-  "flight_id": "LS1086-1111",
-  "flight_number": "LS1086",
-  "origin": "ORD",
-  "destination": "SFO",
-  "scheduled_departure": "2026-11-11T14:00Z",
-  "scheduled_arrival": "2026-11-11T18:40Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 14600,
-   "first": 97400
-  }
- },
- {
-  "flight_id": "LS1087-1111",
-  "flight_number": "LS1087",
-  "origin": "ORD",
-  "destination": "SFO",
-  "scheduled_departure": "2026-11-11T16:00Z",
-  "scheduled_arrival": "2026-11-11T20:40Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 19500,
-   "first": 88400
-  }
- },
- {
-  "flight_id": "LS1088-1112",
-  "flight_number": "LS1088",
-  "origin": "ORD",
-  "destination": "SFO",
-  "scheduled_departure": "2026-11-12T14:00Z",
-  "scheduled_arrival": "2026-11-12T18:40Z",
-  "aircraft": "Boeing 737-800",
-  "designed_passenger_seats": 166,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 13100,
-   "first": 118700
-  }
- },
- {
-  "flight_id": "LS1089-1110",
-  "flight_number": "LS1089",
-  "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-11-10T20:45Z",
-  "scheduled_arrival": "2026-11-10T23:15Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 37100,
-   "first": 107700
-  }
- },
- {
-  "flight_id": "LS1090-1006",
-  "flight_number": "LS1090",
-  "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-10-06T14:15Z",
-  "scheduled_arrival": "2026-10-06T16:45Z",
+  "scheduled_departure": "2026-11-06T07:00",
+  "scheduled_arrival": "2026-11-06T10:15",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 31400,
-   "first": 88300
+   "economy": 25700,
+   "first": 112200
   }
  },
  {
-  "flight_id": "LS1091-1117",
-  "flight_number": "LS1091",
+  "flight_id": "LS1086-1106",
+  "flight_number": "LS1086",
   "origin": "ORD",
   "destination": "LGA",
-  "scheduled_departure": "2026-11-17T14:45Z",
-  "scheduled_arrival": "2026-11-17T17:00Z",
+  "scheduled_departure": "2026-11-06T09:00",
+  "scheduled_arrival": "2026-11-06T12:15",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 30200,
+   "first": 62800
+  }
+ },
+ {
+  "flight_id": "LS1087-1107",
+  "flight_number": "LS1087",
+  "origin": "ORD",
+  "destination": "LGA",
+  "scheduled_departure": "2026-11-07T07:00",
+  "scheduled_arrival": "2026-11-07T10:15",
+  "aircraft": "Boeing 737-800",
+  "designed_passenger_seats": 166,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 10400,
+   "first": 59700
+  }
+ },
+ {
+  "flight_id": "LS1088-1107",
+  "flight_number": "LS1088",
+  "origin": "ORD",
+  "destination": "LGA",
+  "scheduled_departure": "2026-11-07T09:00",
+  "scheduled_arrival": "2026-11-07T12:15",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 13600,
+   "first": 57200
+  }
+ },
+ {
+  "flight_id": "LS1089-1108",
+  "flight_number": "LS1089",
+  "origin": "ORD",
+  "destination": "LGA",
+  "scheduled_departure": "2026-11-08T07:00",
+  "scheduled_arrival": "2026-11-08T10:15",
+  "aircraft": "Boeing 737-800",
+  "designed_passenger_seats": 166,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 38800,
+   "first": 72800
+  }
+ },
+ {
+  "flight_id": "LS1090-1108",
+  "flight_number": "LS1090",
+  "origin": "ORD",
+  "destination": "LGA",
+  "scheduled_departure": "2026-11-08T09:00",
+  "scheduled_arrival": "2026-11-08T12:15",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 26000,
+   "first": 93100
+  }
+ },
+ {
+  "flight_id": "LS1091-1109",
+  "flight_number": "LS1091",
+  "origin": "LHR",
+  "destination": "ORD",
+  "scheduled_departure": "2026-11-09T13:00",
+  "scheduled_arrival": "2026-11-09T15:05",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 34200,
+   "first": 93500
+  }
+ },
+ {
+  "flight_id": "LS1092-1109",
+  "flight_number": "LS1092",
+  "origin": "ORD",
+  "destination": "DEN",
+  "scheduled_departure": "2026-11-09T17:00",
+  "scheduled_arrival": "2026-11-09T18:40",
+  "aircraft": "Boeing 737-800",
+  "designed_passenger_seats": 166,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 33200,
+   "first": 103400
+  }
+ },
+ {
+  "flight_id": "LS1093-1110",
+  "flight_number": "LS1093",
+  "origin": "ORD",
+  "destination": "LGA",
+  "scheduled_departure": "2026-11-10T07:00",
+  "scheduled_arrival": "2026-11-10T10:15",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 37100,
+   "first": 51300
+  }
+ },
+ {
+  "flight_id": "LS1094-1110",
+  "flight_number": "LS1094",
+  "origin": "ORD",
+  "destination": "LGA",
+  "scheduled_departure": "2026-11-10T09:00",
+  "scheduled_arrival": "2026-11-10T12:15",
+  "aircraft": "Boeing 737-800",
+  "designed_passenger_seats": 166,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 13600,
+   "first": 106300
+  }
+ },
+ {
+  "flight_id": "LS1095-1111",
+  "flight_number": "LS1095",
+  "origin": "ORD",
+  "destination": "SFO",
+  "scheduled_departure": "2026-11-11T08:00",
+  "scheduled_arrival": "2026-11-11T10:40",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 21600,
+   "first": 96500
+  }
+ },
+ {
+  "flight_id": "LS1096-1111",
+  "flight_number": "LS1096",
+  "origin": "ORD",
+  "destination": "SFO",
+  "scheduled_departure": "2026-11-11T10:00",
+  "scheduled_arrival": "2026-11-11T12:40",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 32700,
+   "first": 46600
+  }
+ },
+ {
+  "flight_id": "LS1097-1112",
+  "flight_number": "LS1097",
+  "origin": "ORD",
+  "destination": "SFO",
+  "scheduled_departure": "2026-11-12T08:00",
+  "scheduled_arrival": "2026-11-12T10:40",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
@@ -1365,132 +1455,117 @@
   }
  },
  {
-  "flight_id": "LS1092-1012",
-  "flight_number": "LS1092",
+  "flight_id": "LS1098-1024",
+  "flight_number": "LS1098",
   "origin": "ORD",
-  "destination": "LHR",
-  "scheduled_departure": "2026-10-12T12:45Z",
-  "scheduled_arrival": "2026-10-12T20:50Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 40000,
-   "first": 74300
-  }
- },
- {
-  "flight_id": "LS1093-1020",
-  "flight_number": "LS1093",
-  "origin": "ORD",
-  "destination": "ATL",
-  "scheduled_departure": "2026-10-20T17:00Z",
-  "scheduled_arrival": "2026-10-20T19:00Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 21200,
-   "first": 106500
-  }
- },
- {
-  "flight_id": "LS1094-1026",
-  "flight_number": "LS1094",
-  "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-10-26T20:15Z",
-  "scheduled_arrival": "2026-10-26T22:30Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 15700,
-   "first": 53000
-  }
- },
- {
-  "flight_id": "LS1095-1113",
-  "flight_number": "LS1095",
-  "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-11-13T20:15Z",
-  "scheduled_arrival": "2026-11-13T22:45Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 31500,
-   "first": 119700
-  }
- },
- {
-  "flight_id": "LS1096-1030",
-  "flight_number": "LS1096",
-  "origin": "ORD",
-  "destination": "LHR",
-  "scheduled_departure": "2026-10-30T20:45Z",
-  "scheduled_arrival": "2026-10-31T04:50Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 32200,
-   "first": 56600
-  }
- },
- {
-  "flight_id": "LS1097-1107",
-  "flight_number": "LS1097",
-  "origin": "ORD",
-  "destination": "SFO",
-  "scheduled_departure": "2026-11-07T20:00Z",
-  "scheduled_arrival": "2026-11-08T00:40Z",
+  "destination": "YYZ",
+  "scheduled_departure": "2026-10-24T15:15",
+  "scheduled_arrival": "2026-10-24T17:45",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 31700,
-   "first": 52000
+   "economy": 27800,
+   "first": 109000
   }
  },
  {
-  "flight_id": "LS1098-1014",
-  "flight_number": "LS1098",
-  "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-10-14T14:00Z",
-  "scheduled_arrival": "2026-10-14T16:30Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
+  "flight_id": "LS1099-1031",
+  "flight_number": "LS1099",
+  "origin": "DEN",
+  "destination": "ORD",
+  "scheduled_departure": "2026-10-31T08:50",
+  "scheduled_arrival": "2026-10-31T12:30",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 18500,
-   "first": 95400
+   "economy": 26200,
+   "first": 79400
   }
  },
  {
-  "flight_id": "LS1099-1006",
-  "flight_number": "LS1099",
+  "flight_id": "LS1100-1031",
+  "flight_number": "LS1100",
   "origin": "ORD",
-  "destination": "LHR",
-  "scheduled_departure": "2026-10-06T07:15Z",
-  "scheduled_arrival": "2026-10-06T15:20Z",
+  "destination": "NRT",
+  "scheduled_departure": "2026-10-31T15:30",
+  "scheduled_arrival": "2026-11-01T18:40",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 11200,
+   "first": 85600
+  }
+ },
+ {
+  "flight_id": "LS1101-1025",
+  "flight_number": "LS1101",
+  "origin": "ORD",
+  "destination": "ATL",
+  "scheduled_departure": "2026-10-25T04:00",
+  "scheduled_arrival": "2026-10-25T07:00",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 32100,
+   "first": 108800
+  }
+ },
+ {
+  "flight_id": "LS1102-1024",
+  "flight_number": "LS1102",
+  "origin": "ORD",
+  "destination": "YYZ",
+  "scheduled_departure": "2026-10-24T11:00",
+  "scheduled_arrival": "2026-10-24T13:30",
   "aircraft": "Airbus A321neo",
   "designed_passenger_seats": 196,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 20200,
-   "first": 101000
+   "economy": 32600,
+   "first": 45200
   }
  },
  {
-  "flight_id": "LS1100-1119",
-  "flight_number": "LS1100",
+  "flight_id": "LS1103-1116",
+  "flight_number": "LS1103",
   "origin": "ORD",
   "destination": "ATL",
-  "scheduled_departure": "2026-11-19T20:45Z",
-  "scheduled_arrival": "2026-11-19T22:45Z",
+  "scheduled_departure": "2026-11-16T05:30",
+  "scheduled_arrival": "2026-11-16T08:30",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 16100,
+   "first": 90600
+  }
+ },
+ {
+  "flight_id": "LS1104-1031",
+  "flight_number": "LS1104",
+  "origin": "ORD",
+  "destination": "DFW",
+  "scheduled_departure": "2026-10-31T18:30",
+  "scheduled_arrival": "2026-10-31T21:00",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 21800,
+   "first": 47300
+  }
+ },
+ {
+  "flight_id": "LS1105-1023",
+  "flight_number": "LS1105",
+  "origin": "ORD",
+  "destination": "SFO",
+  "scheduled_departure": "2026-10-23T03:00",
+  "scheduled_arrival": "2026-10-23T05:40",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -1500,447 +1575,342 @@
   }
  },
  {
-  "flight_id": "LS1101-1023",
-  "flight_number": "LS1101",
-  "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-10-23T14:30Z",
-  "scheduled_arrival": "2026-10-23T16:45Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 34500,
-   "first": 118000
-  }
- },
- {
-  "flight_id": "LS1102-1109",
-  "flight_number": "LS1102",
-  "origin": "ORD",
-  "destination": "BOS",
-  "scheduled_departure": "2026-11-09T14:30Z",
-  "scheduled_arrival": "2026-11-09T16:50Z",
-  "aircraft": "Airbus A320",
-  "designed_passenger_seats": 150,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 30000,
-   "first": 60400
-  }
- },
- {
-  "flight_id": "LS1103-1007",
-  "flight_number": "LS1103",
-  "origin": "ORD",
-  "destination": "BOS",
-  "scheduled_departure": "2026-10-07T12:45Z",
-  "scheduled_arrival": "2026-10-07T15:05Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 35900,
-   "first": 119400
-  }
- },
- {
-  "flight_id": "LS1104-1025",
-  "flight_number": "LS1104",
-  "origin": "ORD",
-  "destination": "SFO",
-  "scheduled_departure": "2026-10-25T14:45Z",
-  "scheduled_arrival": "2026-10-25T19:25Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 26100,
-   "first": 94300
-  }
- },
- {
-  "flight_id": "LS1105-1006",
-  "flight_number": "LS1105",
-  "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-10-06T07:00Z",
-  "scheduled_arrival": "2026-10-06T09:30Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 8900,
-   "first": 109200
-  }
- },
- {
-  "flight_id": "LS1106-1023",
+  "flight_id": "LS1106-1101",
   "flight_number": "LS1106",
   "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-10-23T14:00Z",
-  "scheduled_arrival": "2026-10-23T16:15Z",
-  "aircraft": "Boeing 737-800",
-  "designed_passenger_seats": 166,
+  "destination": "BOS",
+  "scheduled_departure": "2026-11-01T02:30",
+  "scheduled_arrival": "2026-11-01T05:50",
+  "aircraft": "Airbus A321neo",
+  "designed_passenger_seats": 196,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 36100,
-   "first": 117800
+   "economy": 13300,
+   "first": 50700
   }
  },
  {
-  "flight_id": "LS1107-1111",
+  "flight_id": "LS1107-1024",
   "flight_number": "LS1107",
   "origin": "ORD",
-  "destination": "YYZ",
-  "scheduled_departure": "2026-11-11T20:45Z",
-  "scheduled_arrival": "2026-11-11T22:15Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
+  "destination": "LHR",
+  "scheduled_departure": "2026-10-24T17:15",
+  "scheduled_arrival": "2026-10-25T06:20",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 24300,
-   "first": 103200
+   "economy": 13300,
+   "first": 77200
   }
  },
  {
-  "flight_id": "LS1108-1103",
+  "flight_id": "LS1108-1104",
   "flight_number": "LS1108",
-  "origin": "ORD",
+  "origin": "DFW",
   "destination": "CUN",
-  "scheduled_departure": "2026-11-03T17:00Z",
-  "scheduled_arrival": "2026-11-03T20:50Z",
-  "aircraft": "Boeing 737-800",
-  "designed_passenger_seats": 166,
+  "scheduled_departure": "2026-11-04T10:15",
+  "scheduled_arrival": "2026-11-04T13:45",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 26300,
-   "first": 115400
+   "economy": 32900,
+   "first": 47800
   }
  },
  {
-  "flight_id": "LS1109-1015",
+  "flight_id": "LS1109-1023",
   "flight_number": "LS1109",
   "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-10-15T12:45Z",
-  "scheduled_arrival": "2026-10-15T15:15Z",
-  "aircraft": "Airbus A320",
-  "designed_passenger_seats": 150,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 36700,
-   "first": 51700
-  }
- },
- {
-  "flight_id": "LS1110-1022",
-  "flight_number": "LS1110",
-  "origin": "ORD",
-  "destination": "LHR",
-  "scheduled_departure": "2026-10-22T09:45Z",
-  "scheduled_arrival": "2026-10-22T17:50Z",
+  "destination": "ATL",
+  "scheduled_departure": "2026-10-23T10:30",
+  "scheduled_arrival": "2026-10-23T13:30",
   "aircraft": "Airbus A321neo",
   "designed_passenger_seats": 196,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 25200,
-   "first": 67900
+   "economy": 18900,
+   "first": 99500
   }
  },
  {
-  "flight_id": "LS1111-1022",
-  "flight_number": "LS1111",
-  "origin": "ORD",
+  "flight_id": "LS1110-1030",
+  "flight_number": "LS1110",
+  "origin": "DFW",
   "destination": "CUN",
-  "scheduled_departure": "2026-10-22T20:00Z",
-  "scheduled_arrival": "2026-10-22T23:50Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 36000,
-   "first": 75000
-  }
- },
- {
-  "flight_id": "LS1112-1115",
-  "flight_number": "LS1112",
-  "origin": "ORD",
-  "destination": "BOS",
-  "scheduled_departure": "2026-11-15T17:45Z",
-  "scheduled_arrival": "2026-11-15T20:05Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 16300,
-   "first": 109600
-  }
- },
- {
-  "flight_id": "LS1113-1023",
-  "flight_number": "LS1113",
-  "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-10-23T20:45Z",
-  "scheduled_arrival": "2026-10-23T23:15Z",
-  "aircraft": "Airbus A320",
-  "designed_passenger_seats": 150,
+  "scheduled_departure": "2026-10-29T20:30",
+  "scheduled_arrival": "2026-10-29T23:00",
+  "aircraft": "Boeing 737-800",
+  "designed_passenger_seats": 166,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
    "economy": 28800,
-   "first": 80800
+   "first": 72700
   }
  },
  {
-  "flight_id": "LS1114-1111",
-  "flight_number": "LS1114",
-  "origin": "ORD",
-  "destination": "ATL",
-  "scheduled_departure": "2026-11-11T12:30Z",
-  "scheduled_arrival": "2026-11-11T14:30Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 16700,
-   "first": 86000
-  }
- },
- {
-  "flight_id": "LS1115-1025",
-  "flight_number": "LS1115",
-  "origin": "ORD",
-  "destination": "CUN",
-  "scheduled_departure": "2026-10-25T12:45Z",
-  "scheduled_arrival": "2026-10-25T16:35Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 39600,
-   "first": 115000
-  }
- },
- {
-  "flight_id": "LS1116-1018",
-  "flight_number": "LS1116",
-  "origin": "ORD",
-  "destination": "DEN",
-  "scheduled_departure": "2026-10-18T20:45Z",
-  "scheduled_arrival": "2026-10-18T23:25Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 35500,
-   "first": 89500
-  }
- },
- {
-  "flight_id": "LS1117-1119",
-  "flight_number": "LS1117",
-  "origin": "ORD",
-  "destination": "BOS",
-  "scheduled_departure": "2026-11-19T14:00Z",
-  "scheduled_arrival": "2026-11-19T16:20Z",
-  "aircraft": "Boeing 737-800",
-  "designed_passenger_seats": 166,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 37700,
-   "first": 103700
-  }
- },
- {
-  "flight_id": "LS1118-1021",
-  "flight_number": "LS1118",
-  "origin": "ORD",
-  "destination": "LHR",
-  "scheduled_departure": "2026-10-21T12:15Z",
-  "scheduled_arrival": "2026-10-21T20:20Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 12600,
-   "first": 61200
-  }
- },
- {
-  "flight_id": "LS1119-1014",
-  "flight_number": "LS1119",
-  "origin": "ORD",
-  "destination": "LHR",
-  "scheduled_departure": "2026-10-14T07:15Z",
-  "scheduled_arrival": "2026-10-14T15:20Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 19900,
-   "first": 117100
-  }
- },
- {
-  "flight_id": "LS1120-1027",
-  "flight_number": "LS1120",
+  "flight_id": "LS1111-1102",
+  "flight_number": "LS1111",
   "origin": "ORD",
   "destination": "YYZ",
-  "scheduled_departure": "2026-10-27T07:00Z",
-  "scheduled_arrival": "2026-10-27T08:30Z",
-  "aircraft": "Boeing 737-800",
-  "designed_passenger_seats": 166,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 23400,
-   "first": 69800
-  }
- },
- {
-  "flight_id": "LS1121-1119",
-  "flight_number": "LS1121",
-  "origin": "ORD",
-  "destination": "SFO",
-  "scheduled_departure": "2026-11-19T09:45Z",
-  "scheduled_arrival": "2026-11-19T14:25Z",
+  "scheduled_departure": "2026-11-02T16:30",
+  "scheduled_arrival": "2026-11-02T19:00",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 39600,
-   "first": 58400
+   "economy": 33100,
+   "first": 84600
   }
  },
  {
-  "flight_id": "LS1122-1005",
-  "flight_number": "LS1122",
+  "flight_id": "LS1112-1025",
+  "flight_number": "LS1112",
   "origin": "ORD",
-  "destination": "ATL",
-  "scheduled_departure": "2026-10-05T07:30Z",
-  "scheduled_arrival": "2026-10-05T09:30Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 29800,
-   "first": 104900
-  }
- },
- {
-  "flight_id": "LS1123-1026",
-  "flight_number": "LS1123",
-  "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-10-26T12:45Z",
-  "scheduled_arrival": "2026-10-26T15:15Z",
+  "destination": "DEN",
+  "scheduled_departure": "2026-10-24T23:30",
+  "scheduled_arrival": "2026-10-25T01:10",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 36900,
-   "first": 60000
+   "economy": 30800,
+   "first": 117600
   }
  },
  {
-  "flight_id": "LS1124-1111",
-  "flight_number": "LS1124",
+  "flight_id": "LS1113-1024",
+  "flight_number": "LS1113",
   "origin": "ORD",
   "destination": "ATL",
-  "scheduled_departure": "2026-11-11T14:30Z",
-  "scheduled_arrival": "2026-11-11T16:30Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
+  "scheduled_departure": "2026-10-24T11:00",
+  "scheduled_arrival": "2026-10-24T14:00",
+  "aircraft": "Boeing 737-800",
+  "designed_passenger_seats": 166,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 41500,
-   "first": 102600
+   "economy": 27900,
+   "first": 115800
   }
  },
  {
-  "flight_id": "LS1125-1103",
-  "flight_number": "LS1125",
+  "flight_id": "LS1114-1024",
+  "flight_number": "LS1114",
   "origin": "ORD",
   "destination": "CUN",
-  "scheduled_departure": "2026-11-03T14:15Z",
-  "scheduled_arrival": "2026-11-03T18:05Z",
-  "aircraft": "Boeing 737-800",
-  "designed_passenger_seats": 166,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 30900,
-   "first": 58000
-  }
- },
- {
-  "flight_id": "LS1126-1118",
-  "flight_number": "LS1126",
-  "origin": "ORD",
-  "destination": "BOS",
-  "scheduled_departure": "2026-11-18T07:30Z",
-  "scheduled_arrival": "2026-11-18T09:50Z",
-  "aircraft": "Boeing 737-800",
-  "designed_passenger_seats": 166,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 35500,
-   "first": 51100
-  }
- },
- {
-  "flight_id": "LS1127-1117",
-  "flight_number": "LS1127",
-  "origin": "ORD",
-  "destination": "SFO",
-  "scheduled_departure": "2026-11-17T12:45Z",
-  "scheduled_arrival": "2026-11-17T17:25Z",
+  "scheduled_departure": "2026-10-24T17:00",
+  "scheduled_arrival": "2026-10-24T20:50",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 15300,
-   "first": 118700
+   "economy": 23700,
+   "first": 110200
+  }
+ },
+ {
+  "flight_id": "LS1115-1102",
+  "flight_number": "LS1115",
+  "origin": "MSP",
+  "destination": "ORD",
+  "scheduled_departure": "2026-11-02T06:15",
+  "scheduled_arrival": "2026-11-02T07:40",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 24600,
+   "first": 62900
+  }
+ },
+ {
+  "flight_id": "LS1116-1102",
+  "flight_number": "LS1116",
+  "origin": "ORD",
+  "destination": "NRT",
+  "scheduled_departure": "2026-11-02T11:30",
+  "scheduled_arrival": "2026-11-03T15:40",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 23600,
+   "first": 114500
+  }
+ },
+ {
+  "flight_id": "LS1117-1101",
+  "flight_number": "LS1117",
+  "origin": "ORD",
+  "destination": "LHR",
+  "scheduled_departure": "2026-11-01T07:15",
+  "scheduled_arrival": "2026-11-01T21:20",
+  "aircraft": "Airbus A321neo",
+  "designed_passenger_seats": 196,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 19100,
+   "first": 62100
+  }
+ },
+ {
+  "flight_id": "LS1118-1024",
+  "flight_number": "LS1118",
+  "origin": "ORD",
+  "destination": "NRT",
+  "scheduled_departure": "2026-10-24T18:15",
+  "scheduled_arrival": "2026-10-25T21:25",
+  "aircraft": "Airbus A321neo",
+  "designed_passenger_seats": 196,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 27600,
+   "first": 119900
+  }
+ },
+ {
+  "flight_id": "LS1119-1024",
+  "flight_number": "LS1119",
+  "origin": "DEN",
+  "destination": "ORD",
+  "scheduled_departure": "2026-10-24T09:50",
+  "scheduled_arrival": "2026-10-24T13:30",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 23800,
+   "first": 47500
+  }
+ },
+ {
+  "flight_id": "LS1120-1025",
+  "flight_number": "LS1120",
+  "origin": "ORD",
+  "destination": "LGA",
+  "scheduled_departure": "2026-10-24T20:30",
+  "scheduled_arrival": "2026-10-24T23:45",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 21300,
+   "first": 67300
+  }
+ },
+ {
+  "flight_id": "LS1121-1030",
+  "flight_number": "LS1121",
+  "origin": "ORD",
+  "destination": "SFO",
+  "scheduled_departure": "2026-10-30T17:15",
+  "scheduled_arrival": "2026-10-30T19:55",
+  "aircraft": "Boeing 737-800",
+  "designed_passenger_seats": 166,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 13800,
+   "first": 57100
+  }
+ },
+ {
+  "flight_id": "LS1122-1024",
+  "flight_number": "LS1122",
+  "origin": "SEA",
+  "destination": "NRT",
+  "scheduled_departure": "2026-10-24T15:45",
+  "scheduled_arrival": "2026-10-25T17:55",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 27600,
+   "first": 76500
+  }
+ },
+ {
+  "flight_id": "LS1123-1116",
+  "flight_number": "LS1123",
+  "origin": "DFW",
+  "destination": "CUN",
+  "scheduled_departure": "2026-11-16T12:15",
+  "scheduled_arrival": "2026-11-16T15:45",
+  "aircraft": "Boeing 737-800",
+  "designed_passenger_seats": 166,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 24700,
+   "first": 62100
+  }
+ },
+ {
+  "flight_id": "LS1124-1115",
+  "flight_number": "LS1124",
+  "origin": "ORD",
+  "destination": "NRT",
+  "scheduled_departure": "2026-11-15T01:00",
+  "scheduled_arrival": "2026-11-16T05:10",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 10500,
+   "first": 46200
+  }
+ },
+ {
+  "flight_id": "LS1125-1015",
+  "flight_number": "LS1125",
+  "origin": "ORD",
+  "destination": "YYZ",
+  "scheduled_departure": "2026-10-15T08:15",
+  "scheduled_arrival": "2026-10-15T10:45",
+  "aircraft": "Airbus A321neo",
+  "designed_passenger_seats": 196,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 36400,
+   "first": 99400
+  }
+ },
+ {
+  "flight_id": "LS1126-1031",
+  "flight_number": "LS1126",
+  "origin": "ORD",
+  "destination": "YYZ",
+  "scheduled_departure": "2026-10-31T12:30",
+  "scheduled_arrival": "2026-10-31T15:00",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 37900,
+   "first": 80200
+  }
+ },
+ {
+  "flight_id": "LS1127-1030",
+  "flight_number": "LS1127",
+  "origin": "DFW",
+  "destination": "CUN",
+  "scheduled_departure": "2026-10-30T16:45",
+  "scheduled_arrival": "2026-10-30T19:15",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 39600,
+   "first": 99300
   }
  },
  {
   "flight_id": "LS1128-1031",
   "flight_number": "LS1128",
   "origin": "ORD",
-  "destination": "CUN",
-  "scheduled_departure": "2026-10-31T14:45Z",
-  "scheduled_arrival": "2026-10-31T18:35Z",
-  "aircraft": "Boeing 737-800",
-  "designed_passenger_seats": 166,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 38100,
-   "first": 93400
-  }
- },
- {
-  "flight_id": "LS1129-1021",
-  "flight_number": "LS1129",
-  "origin": "ORD",
-  "destination": "CUN",
-  "scheduled_departure": "2026-10-21T09:30Z",
-  "scheduled_arrival": "2026-10-21T13:20Z",
-  "aircraft": "Boeing 737-800",
-  "designed_passenger_seats": 166,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 17600,
-   "first": 105700
-  }
- },
- {
-  "flight_id": "LS1130-1023",
-  "flight_number": "LS1130",
-  "origin": "ORD",
-  "destination": "ATL",
-  "scheduled_departure": "2026-10-23T14:45Z",
-  "scheduled_arrival": "2026-10-23T16:45Z",
+  "destination": "YYZ",
+  "scheduled_departure": "2026-10-31T11:45",
+  "scheduled_arrival": "2026-10-31T14:15",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -1950,162 +1920,117 @@
   }
  },
  {
-  "flight_id": "LS1131-1016",
-  "flight_number": "LS1131",
+  "flight_id": "LS1129-1025",
+  "flight_number": "LS1129",
   "origin": "ORD",
-  "destination": "CUN",
-  "scheduled_departure": "2026-10-16T20:30Z",
-  "scheduled_arrival": "2026-10-17T00:20Z",
-  "aircraft": "Airbus A320",
-  "designed_passenger_seats": 150,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 31600,
-   "first": 59900
-  }
- },
- {
-  "flight_id": "LS1132-1022",
-  "flight_number": "LS1132",
-  "origin": "ORD",
-  "destination": "LHR",
-  "scheduled_departure": "2026-10-22T12:15Z",
-  "scheduled_arrival": "2026-10-22T20:20Z",
+  "destination": "SFO",
+  "scheduled_departure": "2026-10-24T23:00",
+  "scheduled_arrival": "2026-10-25T01:40",
   "aircraft": "Embraer E175",
   "designed_passenger_seats": 76,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 20600,
-   "first": 108800
+   "economy": 22600,
+   "first": 71100
   }
  },
  {
-  "flight_id": "LS1133-1117",
-  "flight_number": "LS1133",
+  "flight_id": "LS1130-1101",
+  "flight_number": "LS1130",
   "origin": "ORD",
-  "destination": "YYZ",
-  "scheduled_departure": "2026-11-17T14:30Z",
-  "scheduled_arrival": "2026-11-17T16:00Z",
+  "destination": "FRA",
+  "scheduled_departure": "2026-10-31T23:15",
+  "scheduled_arrival": "2026-11-01T13:55",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 18000,
+   "first": 46500
+  }
+ },
+ {
+  "flight_id": "LS1131-1031",
+  "flight_number": "LS1131",
+  "origin": "MSP",
+  "destination": "ORD",
+  "scheduled_departure": "2026-10-31T06:55",
+  "scheduled_arrival": "2026-10-31T08:20",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 29100,
-   "first": 63300
+   "economy": 28800,
+   "first": 102500
   }
  },
  {
-  "flight_id": "LS1134-1023",
-  "flight_number": "LS1134",
+  "flight_id": "LS1132-1031",
+  "flight_number": "LS1132",
   "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-10-23T14:00Z",
-  "scheduled_arrival": "2026-10-23T16:15Z",
-  "aircraft": "Boeing 737-800",
-  "designed_passenger_seats": 166,
+  "destination": "SFO",
+  "scheduled_departure": "2026-10-31T12:30",
+  "scheduled_arrival": "2026-10-31T15:10",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 11200,
-   "first": 70800
+   "economy": 28800,
+   "first": 63100
+  }
+ },
+ {
+  "flight_id": "LS1133-1012",
+  "flight_number": "LS1133",
+  "origin": "SEA",
+  "destination": "NRT",
+  "scheduled_departure": "2026-10-12T16:45",
+  "scheduled_arrival": "2026-10-13T18:55",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 12500,
+   "first": 88600
+  }
+ },
+ {
+  "flight_id": "LS1134-1030",
+  "flight_number": "LS1134",
+  "origin": "ORD",
+  "destination": "BOS",
+  "scheduled_departure": "2026-10-29T20:45",
+  "scheduled_arrival": "2026-10-30T00:05",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 12400,
+   "first": 53400
   }
  },
  {
   "flight_id": "LS1135-1024",
   "flight_number": "LS1135",
   "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-10-24T12:30Z",
-  "scheduled_arrival": "2026-10-24T14:45Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
+  "destination": "NRT",
+  "scheduled_departure": "2026-10-24T17:00",
+  "scheduled_arrival": "2026-10-25T20:10",
+  "aircraft": "Boeing 737-800",
+  "designed_passenger_seats": 166,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 34900,
-   "first": 84900
+   "economy": 21900,
+   "first": 110400
   }
  },
  {
-  "flight_id": "LS1136-1013",
+  "flight_id": "LS1136-1024",
   "flight_number": "LS1136",
   "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-10-13T20:00Z",
-  "scheduled_arrival": "2026-10-13T22:30Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 34600,
-   "first": 83300
-  }
- },
- {
-  "flight_id": "LS1137-1101",
-  "flight_number": "LS1137",
-  "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-11-01T20:00Z",
-  "scheduled_arrival": "2026-11-01T22:15Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 29200,
-   "first": 93300
-  }
- },
- {
-  "flight_id": "LS1138-1009",
-  "flight_number": "LS1138",
-  "origin": "ORD",
-  "destination": "YYZ",
-  "scheduled_departure": "2026-10-09T07:30Z",
-  "scheduled_arrival": "2026-10-09T09:00Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 20900,
-   "first": 115300
-  }
- },
- {
-  "flight_id": "LS1139-1031",
-  "flight_number": "LS1139",
-  "origin": "ORD",
   "destination": "DEN",
-  "scheduled_departure": "2026-10-31T17:00Z",
-  "scheduled_arrival": "2026-10-31T19:40Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 10300,
-   "first": 96300
-  }
- },
- {
-  "flight_id": "LS1140-1111",
-  "flight_number": "LS1140",
-  "origin": "ORD",
-  "destination": "YYZ",
-  "scheduled_departure": "2026-11-11T17:30Z",
-  "scheduled_arrival": "2026-11-11T19:00Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 29400,
-   "first": 113700
-  }
- },
- {
-  "flight_id": "LS1141-1014",
-  "flight_number": "LS1141",
-  "origin": "ORD",
-  "destination": "LHR",
-  "scheduled_departure": "2026-10-14T12:45Z",
-  "scheduled_arrival": "2026-10-14T20:50Z",
+  "scheduled_departure": "2026-10-24T17:45",
+  "scheduled_arrival": "2026-10-24T19:25",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
@@ -2115,183 +2040,243 @@
   }
  },
  {
-  "flight_id": "LS1142-1017",
-  "flight_number": "LS1142",
+  "flight_id": "LS1137-1024",
+  "flight_number": "LS1137",
   "origin": "ORD",
-  "destination": "SFO",
-  "scheduled_departure": "2026-10-17T12:00Z",
-  "scheduled_arrival": "2026-10-17T16:40Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
+  "destination": "FRA",
+  "scheduled_departure": "2026-10-24T18:00",
+  "scheduled_arrival": "2026-10-25T08:40",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 33100,
-   "first": 68700
+   "economy": 35800,
+   "first": 99700
   }
  },
  {
-  "flight_id": "LS1143-1115",
-  "flight_number": "LS1143",
-  "origin": "ORD",
-  "destination": "YYZ",
-  "scheduled_departure": "2026-11-15T17:30Z",
-  "scheduled_arrival": "2026-11-15T19:00Z",
+  "flight_id": "LS1138-1113",
+  "flight_number": "LS1138",
+  "origin": "ATL",
+  "destination": "ORD",
+  "scheduled_departure": "2026-11-12T20:40",
+  "scheduled_arrival": "2026-11-12T21:40",
   "aircraft": "Airbus A320",
   "designed_passenger_seats": 150,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 34700,
-   "first": 89200
+   "economy": 25300,
+   "first": 55900
   }
  },
  {
-  "flight_id": "LS1144-1111",
-  "flight_number": "LS1144",
+  "flight_id": "LS1139-1113",
+  "flight_number": "LS1139",
   "origin": "ORD",
-  "destination": "LHR",
-  "scheduled_departure": "2026-11-11T09:15Z",
-  "scheduled_arrival": "2026-11-11T17:20Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
+  "destination": "BOS",
+  "scheduled_departure": "2026-11-13T01:30",
+  "scheduled_arrival": "2026-11-13T04:50",
+  "aircraft": "Airbus A321neo",
+  "designed_passenger_seats": 196,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 35200,
-   "first": 77800
+   "economy": 10200,
+   "first": 72400
   }
  },
  {
-  "flight_id": "LS1145-1107",
-  "flight_number": "LS1145",
-  "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-11-07T17:15Z",
-  "scheduled_arrival": "2026-11-07T19:45Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 29000,
-   "first": 74300
-  }
- },
- {
-  "flight_id": "LS1146-1111",
-  "flight_number": "LS1146",
-  "origin": "ORD",
-  "destination": "YYZ",
-  "scheduled_departure": "2026-11-11T07:45Z",
-  "scheduled_arrival": "2026-11-11T09:15Z",
+  "flight_id": "LS1140-1024",
+  "flight_number": "LS1140",
+  "origin": "ATL",
+  "destination": "ORD",
+  "scheduled_departure": "2026-10-24T13:35",
+  "scheduled_arrival": "2026-10-24T14:35",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 40900,
-   "first": 67100
+   "economy": 18200,
+   "first": 52500
   }
  },
  {
-  "flight_id": "LS1147-1006",
+  "flight_id": "LS1141-1024",
+  "flight_number": "LS1141",
+  "origin": "ORD",
+  "destination": "FRA",
+  "scheduled_departure": "2026-10-24T18:45",
+  "scheduled_arrival": "2026-10-25T09:25",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 37200,
+   "first": 48000
+  }
+ },
+ {
+  "flight_id": "LS1142-1023",
+  "flight_number": "LS1142",
+  "origin": "ORD",
+  "destination": "LGA",
+  "scheduled_departure": "2026-10-23T06:45",
+  "scheduled_arrival": "2026-10-23T10:00",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 26800,
+   "first": 53700
+  }
+ },
+ {
+  "flight_id": "LS1143-1030",
+  "flight_number": "LS1143",
+  "origin": "DEN",
+  "destination": "SFO",
+  "scheduled_departure": "2026-10-30T10:15",
+  "scheduled_arrival": "2026-10-30T11:45",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 35400,
+   "first": 97600
+  }
+ },
+ {
+  "flight_id": "LS1144-1031",
+  "flight_number": "LS1144",
+  "origin": "ORD",
+  "destination": "LGA",
+  "scheduled_departure": "2026-10-31T02:45",
+  "scheduled_arrival": "2026-10-31T06:00",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 10500,
+   "first": 69400
+  }
+ },
+ {
+  "flight_id": "LS1145-1101",
+  "flight_number": "LS1145",
+  "origin": "DEN",
+  "destination": "SFO",
+  "scheduled_departure": "2026-10-31T22:30",
+  "scheduled_arrival": "2026-11-01T00:00",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 32800,
+   "first": 60500
+  }
+ },
+ {
+  "flight_id": "LS1147-1114",
   "flight_number": "LS1147",
   "origin": "ORD",
-  "destination": "YYZ",
-  "scheduled_departure": "2026-10-06T07:15Z",
-  "scheduled_arrival": "2026-10-06T08:45Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 16700,
-   "first": 80300
-  }
- },
- {
-  "flight_id": "LS1148-1119",
-  "flight_number": "LS1148",
-  "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-11-19T14:30Z",
-  "scheduled_arrival": "2026-11-19T17:00Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 26500,
-   "first": 116600
-  }
- },
- {
-  "flight_id": "LS1149-1114",
-  "flight_number": "LS1149",
-  "origin": "ORD",
-  "destination": "BOS",
-  "scheduled_departure": "2026-11-14T12:00Z",
-  "scheduled_arrival": "2026-11-14T14:20Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 34600,
-   "first": 62300
-  }
- },
- {
-  "flight_id": "LS1150-1106",
-  "flight_number": "LS1150",
-  "origin": "ORD",
-  "destination": "BOS",
-  "scheduled_departure": "2026-11-06T17:00Z",
-  "scheduled_arrival": "2026-11-06T19:20Z",
+  "destination": "LGA",
+  "scheduled_departure": "2026-11-14T15:00",
+  "scheduled_arrival": "2026-11-14T18:15",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 25500,
-   "first": 86400
+   "economy": 18000,
+   "first": 83600
   }
  },
  {
-  "flight_id": "LS1151-1016",
-  "flight_number": "LS1151",
+  "flight_id": "LS1148-1108",
+  "flight_number": "LS1148",
   "origin": "ORD",
-  "destination": "CUN",
-  "scheduled_departure": "2026-10-16T20:00Z",
-  "scheduled_arrival": "2026-10-16T23:50Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 26500,
-   "first": 67500
-  }
- },
- {
-  "flight_id": "LS1152-1031",
-  "flight_number": "LS1152",
-  "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-10-31T14:15Z",
-  "scheduled_arrival": "2026-10-31T16:45Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 18700,
-   "first": 50000
-  }
- },
- {
-  "flight_id": "LS1153-1006",
-  "flight_number": "LS1153",
-  "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-10-06T09:45Z",
-  "scheduled_arrival": "2026-10-06T12:15Z",
+  "destination": "LHR",
+  "scheduled_departure": "2026-11-08T12:15",
+  "scheduled_arrival": "2026-11-09T02:20",
   "aircraft": "Embraer E175",
   "designed_passenger_seats": 76,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 36000,
-   "first": 58600
+   "economy": 41900,
+   "first": 101300
+  }
+ },
+ {
+  "flight_id": "LS1149-1101",
+  "flight_number": "LS1149",
+  "origin": "ORD",
+  "destination": "SFO",
+  "scheduled_departure": "2026-11-01T02:15",
+  "scheduled_arrival": "2026-11-01T04:55",
+  "aircraft": "Airbus A321neo",
+  "designed_passenger_seats": 196,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 10800,
+   "first": 50600
+  }
+ },
+ {
+  "flight_id": "LS1150-1018",
+  "flight_number": "LS1150",
+  "origin": "DEN",
+  "destination": "SFO",
+  "scheduled_departure": "2026-10-18T06:45",
+  "scheduled_arrival": "2026-10-18T08:15",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 14900,
+   "first": 74700
+  }
+ },
+ {
+  "flight_id": "LS1151-1024",
+  "flight_number": "LS1151",
+  "origin": "ORD",
+  "destination": "LGA",
+  "scheduled_departure": "2026-10-24T12:30",
+  "scheduled_arrival": "2026-10-24T15:45",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 32800,
+   "first": 97800
+  }
+ },
+ {
+  "flight_id": "LS1152-1020",
+  "flight_number": "LS1152",
+  "origin": "ORD",
+  "destination": "DEN",
+  "scheduled_departure": "2026-10-20T06:45",
+  "scheduled_arrival": "2026-10-20T08:25",
+  "aircraft": "Airbus A321neo",
+  "designed_passenger_seats": 196,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 26900,
+   "first": 84500
+  }
+ },
+ {
+  "flight_id": "LS1153-1102",
+  "flight_number": "LS1153",
+  "origin": "ORD",
+  "destination": "DEN",
+  "scheduled_departure": "2026-11-02T15:30",
+  "scheduled_arrival": "2026-11-02T17:10",
+  "aircraft": "Airbus A321neo",
+  "designed_passenger_seats": 196,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 35900,
+   "first": 112100
   }
  },
  {
@@ -2299,338 +2284,158 @@
   "flight_number": "LS1154",
   "origin": "ORD",
   "destination": "BOS",
-  "scheduled_departure": "2026-10-24T20:00Z",
-  "scheduled_arrival": "2026-10-24T22:20Z",
-  "aircraft": "Airbus A320",
-  "designed_passenger_seats": 150,
+  "scheduled_departure": "2026-10-24T16:45",
+  "scheduled_arrival": "2026-10-24T20:05",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 13100,
-   "first": 67000
+   "economy": 20700,
+   "first": 64500
   }
  },
  {
-  "flight_id": "LS1155-1011",
+  "flight_id": "LS1155-1112",
   "flight_number": "LS1155",
   "origin": "ORD",
-  "destination": "LHR",
-  "scheduled_departure": "2026-10-11T12:30Z",
-  "scheduled_arrival": "2026-10-11T20:35Z",
-  "aircraft": "Airbus A320",
-  "designed_passenger_seats": 150,
+  "destination": "SFO",
+  "scheduled_departure": "2026-11-12T15:00",
+  "scheduled_arrival": "2026-11-12T17:40",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 37800,
-   "first": 58200
+   "economy": 33600,
+   "first": 70100
   }
  },
  {
-  "flight_id": "LS1156-1025",
+  "flight_id": "LS1156-1020",
   "flight_number": "LS1156",
   "origin": "ORD",
-  "destination": "LHR",
-  "scheduled_departure": "2026-10-25T12:15Z",
-  "scheduled_arrival": "2026-10-25T20:20Z",
-  "aircraft": "Airbus A320",
-  "designed_passenger_seats": 150,
+  "destination": "FRA",
+  "scheduled_departure": "2026-10-20T15:00",
+  "scheduled_arrival": "2026-10-21T06:40",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 29900,
-   "first": 69100
+   "economy": 36800,
+   "first": 51000
   }
  },
  {
-  "flight_id": "LS1157-1008",
+  "flight_id": "LS1157-1031",
   "flight_number": "LS1157",
-  "origin": "ORD",
-  "destination": "CUN",
-  "scheduled_departure": "2026-10-08T20:45Z",
-  "scheduled_arrival": "2026-10-09T00:35Z",
+  "origin": "SEA",
+  "destination": "NRT",
+  "scheduled_departure": "2026-10-31T15:00",
+  "scheduled_arrival": "2026-11-01T17:10",
   "aircraft": "Airbus A321neo",
   "designed_passenger_seats": 196,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 12000,
-   "first": 118200
+   "economy": 9400,
+   "first": 92700
   }
  },
  {
-  "flight_id": "LS1158-1118",
+  "flight_id": "LS1158-1114",
   "flight_number": "LS1158",
   "origin": "ORD",
-  "destination": "CUN",
-  "scheduled_departure": "2026-11-18T07:45Z",
-  "scheduled_arrival": "2026-11-18T11:35Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
+  "destination": "LHR",
+  "scheduled_departure": "2026-11-13T22:30",
+  "scheduled_arrival": "2026-11-14T12:35",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 23700,
-   "first": 73500
+   "economy": 13400,
+   "first": 67100
   }
  },
  {
   "flight_id": "LS1159-1012",
   "flight_number": "LS1159",
   "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-10-12T09:15Z",
-  "scheduled_arrival": "2026-10-12T11:30Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
+  "destination": "DFW",
+  "scheduled_departure": "2026-10-12T07:30",
+  "scheduled_arrival": "2026-10-12T10:00",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 13300,
-   "first": 79800
+   "economy": 32900,
+   "first": 71000
   }
  },
  {
   "flight_id": "LS1160-1009",
   "flight_number": "LS1160",
   "origin": "ORD",
-  "destination": "BOS",
-  "scheduled_departure": "2026-10-09T14:15Z",
-  "scheduled_arrival": "2026-10-09T16:35Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
+  "destination": "SFO",
+  "scheduled_departure": "2026-10-08T19:45",
+  "scheduled_arrival": "2026-10-08T22:25",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 41200,
-   "first": 58700
+   "economy": 31100,
+   "first": 81200
   }
  },
  {
-  "flight_id": "LS1161-1005",
+  "flight_id": "LS1161-1101",
   "flight_number": "LS1161",
-  "origin": "ORD",
-  "destination": "ATL",
-  "scheduled_departure": "2026-10-05T17:45Z",
-  "scheduled_arrival": "2026-10-05T19:45Z",
+  "origin": "SEA",
+  "destination": "NRT",
+  "scheduled_departure": "2026-11-01T00:30",
+  "scheduled_arrival": "2026-11-02T02:40",
   "aircraft": "Boeing 737-800",
   "designed_passenger_seats": 166,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 15600,
-   "first": 100400
+   "economy": 16400,
+   "first": 61300
   }
  },
  {
-  "flight_id": "LS1162-1018",
+  "flight_id": "LS1162-1030",
   "flight_number": "LS1162",
   "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-10-18T09:45Z",
-  "scheduled_arrival": "2026-10-18T12:15Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
+  "destination": "ATL",
+  "scheduled_departure": "2026-10-30T12:45",
+  "scheduled_arrival": "2026-10-30T15:45",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 17700,
-   "first": 112100
+   "economy": 15200,
+   "first": 99500
   }
  },
  {
-  "flight_id": "LS1163-1028",
+  "flight_id": "LS1163-1025",
   "flight_number": "LS1163",
-  "origin": "ORD",
-  "destination": "ATL",
-  "scheduled_departure": "2026-10-28T20:30Z",
-  "scheduled_arrival": "2026-10-28T22:30Z",
+  "origin": "DEN",
+  "destination": "SFO",
+  "scheduled_departure": "2026-10-25T05:30",
+  "scheduled_arrival": "2026-10-25T07:00",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 36900,
-   "first": 60600
+   "economy": 11700,
+   "first": 86300
   }
  },
  {
-  "flight_id": "LS1164-1018",
+  "flight_id": "LS1164-1024",
   "flight_number": "LS1164",
-  "origin": "ORD",
-  "destination": "LHR",
-  "scheduled_departure": "2026-10-18T20:00Z",
-  "scheduled_arrival": "2026-10-19T04:05Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 28200,
-   "first": 94500
-  }
- },
- {
-  "flight_id": "LS1165-1020",
-  "flight_number": "LS1165",
-  "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-10-20T12:15Z",
-  "scheduled_arrival": "2026-10-20T14:30Z",
-  "aircraft": "Airbus A320",
-  "designed_passenger_seats": 150,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 37900,
-   "first": 107900
-  }
- },
- {
-  "flight_id": "LS1166-1010",
-  "flight_number": "LS1166",
-  "origin": "ORD",
-  "destination": "YYZ",
-  "scheduled_departure": "2026-10-10T07:15Z",
-  "scheduled_arrival": "2026-10-10T08:45Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 18500,
-   "first": 60200
-  }
- },
- {
-  "flight_id": "LS1167-1112",
-  "flight_number": "LS1167",
-  "origin": "ORD",
-  "destination": "LGA",
-  "scheduled_departure": "2026-11-12T17:15Z",
-  "scheduled_arrival": "2026-11-12T19:30Z",
-  "aircraft": "Airbus A320",
-  "designed_passenger_seats": 150,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 23700,
-   "first": 86200
-  }
- },
- {
-  "flight_id": "LS1168-1104",
-  "flight_number": "LS1168",
-  "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-11-04T17:30Z",
-  "scheduled_arrival": "2026-11-04T20:00Z",
-  "aircraft": "Boeing 737-800",
-  "designed_passenger_seats": 166,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 31200,
-   "first": 45300
-  }
- },
- {
-  "flight_id": "LS1169-1014",
-  "flight_number": "LS1169",
-  "origin": "ORD",
-  "destination": "CUN",
-  "scheduled_departure": "2026-10-14T07:45Z",
-  "scheduled_arrival": "2026-10-14T11:35Z",
-  "aircraft": "Boeing 787-9",
-  "designed_passenger_seats": 290,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 21900,
-   "first": 62100
-  }
- },
- {
-  "flight_id": "LS1170-1119",
-  "flight_number": "LS1170",
-  "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-11-19T09:00Z",
-  "scheduled_arrival": "2026-11-19T11:30Z",
-  "aircraft": "Airbus A320",
-  "designed_passenger_seats": 150,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 27400,
-   "first": 113100
-  }
- },
- {
-  "flight_id": "LS1171-1117",
-  "flight_number": "LS1171",
-  "origin": "ORD",
-  "destination": "YYZ",
-  "scheduled_departure": "2026-11-17T09:30Z",
-  "scheduled_arrival": "2026-11-17T11:00Z",
-  "aircraft": "Airbus A321neo",
-  "designed_passenger_seats": 196,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 12300,
-   "first": 66400
-  }
- },
- {
-  "flight_id": "LS1172-1118",
-  "flight_number": "LS1172",
-  "origin": "ORD",
-  "destination": "DEN",
-  "scheduled_departure": "2026-11-18T09:15Z",
-  "scheduled_arrival": "2026-11-18T11:55Z",
-  "aircraft": "Airbus A320",
-  "designed_passenger_seats": 150,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 34300,
-   "first": 89200
-  }
- },
- {
-  "flight_id": "LS1173-1101",
-  "flight_number": "LS1173",
-  "origin": "ORD",
-  "destination": "ATL",
-  "scheduled_departure": "2026-11-01T12:30Z",
-  "scheduled_arrival": "2026-11-01T14:30Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 32800,
-   "first": 57600
-  }
- },
- {
-  "flight_id": "LS1174-1008",
-  "flight_number": "LS1174",
-  "origin": "ORD",
-  "destination": "SFO",
-  "scheduled_departure": "2026-10-08T12:30Z",
-  "scheduled_arrival": "2026-10-08T17:10Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 31300,
-   "first": 83600
-  }
- },
- {
-  "flight_id": "LS1175-1015",
-  "flight_number": "LS1175",
-  "origin": "ORD",
-  "destination": "SFO",
-  "scheduled_departure": "2026-10-15T14:00Z",
-  "scheduled_arrival": "2026-10-15T18:40Z",
-  "aircraft": "Boeing 737-800",
-  "designed_passenger_seats": 166,
-  "scheduled_service": true,
-  "lowest_cash_fare_cents_by_cabin": {
-   "economy": 22100,
-   "first": 69000
-  }
- },
- {
-  "flight_id": "LS1176-1006",
-  "flight_number": "LS1176",
-  "origin": "ORD",
-  "destination": "DFW",
-  "scheduled_departure": "2026-10-06T09:15Z",
-  "scheduled_arrival": "2026-10-06T11:45Z",
+  "origin": "DEN",
+  "destination": "ORD",
+  "scheduled_departure": "2026-10-24T08:05",
+  "scheduled_arrival": "2026-10-24T11:45",
   "aircraft": "Boeing 787-9",
   "designed_passenger_seats": 290,
   "scheduled_service": true,
@@ -2640,33 +2445,558 @@
   }
  },
  {
-  "flight_id": "LS1177-1007",
-  "flight_number": "LS1177",
+  "flight_id": "LS1165-1024",
+  "flight_number": "LS1165",
   "origin": "ORD",
   "destination": "LHR",
-  "scheduled_departure": "2026-10-07T20:45Z",
-  "scheduled_arrival": "2026-10-08T04:50Z",
-  "aircraft": "Embraer E175",
-  "designed_passenger_seats": 76,
+  "scheduled_departure": "2026-10-24T13:15",
+  "scheduled_arrival": "2026-10-25T02:20",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
-   "economy": 31000,
-   "first": 91000
+   "economy": 17800,
+   "first": 114000
   }
  },
  {
-  "flight_id": "LS1178-1028",
-  "flight_number": "LS1178",
-  "origin": "ORD",
-  "destination": "CUN",
-  "scheduled_departure": "2026-10-28T20:30Z",
-  "scheduled_arrival": "2026-10-29T00:20Z",
+  "flight_id": "LS1166-1101",
+  "flight_number": "LS1166",
+  "origin": "DEN",
+  "destination": "SFO",
+  "scheduled_departure": "2026-10-31T20:45",
+  "scheduled_arrival": "2026-10-31T22:15",
   "aircraft": "Embraer E175",
   "designed_passenger_seats": 76,
   "scheduled_service": true,
   "lowest_cash_fare_cents_by_cabin": {
+   "economy": 28000,
+   "first": 111400
+  }
+ },
+ {
+  "flight_id": "LS1167-1101",
+  "flight_number": "LS1167",
+  "origin": "ORD",
+  "destination": "LHR",
+  "scheduled_departure": "2026-11-01T07:00",
+  "scheduled_arrival": "2026-11-01T21:05",
+  "aircraft": "Boeing 737-800",
+  "designed_passenger_seats": 166,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 25300,
+   "first": 99400
+  }
+ },
+ {
+  "flight_id": "LS1168-1024",
+  "flight_number": "LS1168",
+  "origin": "ORD",
+  "destination": "ATL",
+  "scheduled_departure": "2026-10-24T16:15",
+  "scheduled_arrival": "2026-10-24T19:15",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 41400,
+   "first": 74300
+  }
+ },
+ {
+  "flight_id": "LS1169-1031",
+  "flight_number": "LS1169",
+  "origin": "ATL",
+  "destination": "ORD",
+  "scheduled_departure": "2026-10-31T07:25",
+  "scheduled_arrival": "2026-10-31T08:25",
+  "aircraft": "Airbus A321neo",
+  "designed_passenger_seats": 196,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 39600,
+   "first": 105100
+  }
+ },
+ {
+  "flight_id": "LS1170-1031",
+  "flight_number": "LS1170",
+  "origin": "ORD",
+  "destination": "LHR",
+  "scheduled_departure": "2026-10-31T12:15",
+  "scheduled_arrival": "2026-11-01T01:20",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 19100,
+   "first": 79800
+  }
+ },
+ {
+  "flight_id": "LS1171-1101",
+  "flight_number": "LS1171",
+  "origin": "ORD",
+  "destination": "NRT",
+  "scheduled_departure": "2026-11-01T17:00",
+  "scheduled_arrival": "2026-11-02T21:10",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 25000,
+   "first": 75300
+  }
+ },
+ {
+  "flight_id": "LS1172-1024",
+  "flight_number": "LS1172",
+  "origin": "DFW",
+  "destination": "CUN",
+  "scheduled_departure": "2026-10-24T09:45",
+  "scheduled_arrival": "2026-10-24T12:15",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 34000,
+   "first": 82300
+  }
+ },
+ {
+  "flight_id": "LS1173-1104",
+  "flight_number": "LS1173",
+  "origin": "ORD",
+  "destination": "LHR",
+  "scheduled_departure": "2026-11-04T08:00",
+  "scheduled_arrival": "2026-11-04T22:05",
+  "aircraft": "Boeing 737-800",
+  "designed_passenger_seats": 166,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 16900,
+   "first": 74000
+  }
+ },
+ {
+  "flight_id": "LS1174-1023",
+  "flight_number": "LS1174",
+  "origin": "DEN",
+  "destination": "ORD",
+  "scheduled_departure": "2026-10-23T06:10",
+  "scheduled_arrival": "2026-10-23T09:50",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 13900,
+   "first": 78800
+  }
+ },
+ {
+  "flight_id": "LS1175-1023",
+  "flight_number": "LS1175",
+  "origin": "ORD",
+  "destination": "BOS",
+  "scheduled_departure": "2026-10-23T14:00",
+  "scheduled_arrival": "2026-10-23T17:20",
+  "aircraft": "Airbus A321neo",
+  "designed_passenger_seats": 196,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 39700,
+   "first": 67000
+  }
+ },
+ {
+  "flight_id": "LS1176-1025",
+  "flight_number": "LS1176",
+  "origin": "ORD",
+  "destination": "ATL",
+  "scheduled_departure": "2026-10-24T22:15",
+  "scheduled_arrival": "2026-10-25T01:15",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 12300,
+   "first": 68600
+  }
+ },
+ {
+  "flight_id": "LS1178-1102",
+  "flight_number": "LS1178",
+  "origin": "DEN",
+  "destination": "ORD",
+  "scheduled_departure": "2026-11-02T07:50",
+  "scheduled_arrival": "2026-11-02T11:30",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 11900,
+   "first": 104600
+  }
+ },
+ {
+  "flight_id": "LS1179-1103",
+  "flight_number": "LS1179",
+  "origin": "ORD",
+  "destination": "NRT",
+  "scheduled_departure": "2026-11-02T18:30",
+  "scheduled_arrival": "2026-11-03T22:40",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 40500,
+   "first": 100200
+  }
+ },
+ {
+  "flight_id": "LS1180-1025",
+  "flight_number": "LS1180",
+  "origin": "DEN",
+  "destination": "SFO",
+  "scheduled_departure": "2026-10-25T17:15",
+  "scheduled_arrival": "2026-10-25T18:45",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 16200,
+   "first": 108600
+  }
+ },
+ {
+  "flight_id": "LS1181-1024",
+  "flight_number": "LS1181",
+  "origin": "ORD",
+  "destination": "BOS",
+  "scheduled_departure": "2026-10-24T18:00",
+  "scheduled_arrival": "2026-10-24T21:20",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 20400,
+   "first": 80200
+  }
+ },
+ {
+  "flight_id": "LS1182-1030",
+  "flight_number": "LS1182",
+  "origin": "ORD",
+  "destination": "CUN",
+  "scheduled_departure": "2026-10-30T08:00",
+  "scheduled_arrival": "2026-10-30T11:50",
+  "aircraft": "Boeing 737-800",
+  "designed_passenger_seats": 166,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 14900,
+   "first": 83300
+  }
+ },
+ {
+  "flight_id": "LS1184-1031",
+  "flight_number": "LS1184",
+  "origin": "ORD",
+  "destination": "CUN",
+  "scheduled_departure": "2026-10-31T14:00",
+  "scheduled_arrival": "2026-10-31T17:50",
+  "aircraft": "Airbus A321neo",
+  "designed_passenger_seats": 196,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 22000,
+   "first": 76300
+  }
+ },
+ {
+  "flight_id": "LS1185-1018",
+  "flight_number": "LS1185",
+  "origin": "ORD",
+  "destination": "FRA",
+  "scheduled_departure": "2026-10-18T14:00",
+  "scheduled_arrival": "2026-10-19T05:40",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 25700,
+   "first": 63800
+  }
+ },
+ {
+  "flight_id": "LS1186-1015",
+  "flight_number": "LS1186",
+  "origin": "ORD",
+  "destination": "YYZ",
+  "scheduled_departure": "2026-10-15T05:00",
+  "scheduled_arrival": "2026-10-15T07:30",
+  "aircraft": "Airbus A321neo",
+  "designed_passenger_seats": 196,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 26400,
+   "first": 82700
+  }
+ },
+ {
+  "flight_id": "LS1187-1015",
+  "flight_number": "LS1187",
+  "origin": "ATL",
+  "destination": "ORD",
+  "scheduled_departure": "2026-10-14T21:05",
+  "scheduled_arrival": "2026-10-14T22:05",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 29300,
+   "first": 113800
+  }
+ },
+ {
+  "flight_id": "LS1188-1015",
+  "flight_number": "LS1188",
+  "origin": "ORD",
+  "destination": "ATL",
+  "scheduled_departure": "2026-10-15T02:15",
+  "scheduled_arrival": "2026-10-15T05:15",
+  "aircraft": "Airbus A321neo",
+  "designed_passenger_seats": 196,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 13500,
+   "first": 75500
+  }
+ },
+ {
+  "flight_id": "LS1189-1024",
+  "flight_number": "LS1189",
+  "origin": "ORD",
+  "destination": "NRT",
+  "scheduled_departure": "2026-10-24T00:45",
+  "scheduled_arrival": "2026-10-25T03:55",
+  "aircraft": "Airbus A321neo",
+  "designed_passenger_seats": 196,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 15500,
+   "first": 91600
+  }
+ },
+ {
+  "flight_id": "LS1191-1102",
+  "flight_number": "LS1191",
+  "origin": "ORD",
+  "destination": "LHR",
+  "scheduled_departure": "2026-11-02T02:45",
+  "scheduled_arrival": "2026-11-02T16:50",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 19900,
+   "first": 77500
+  }
+ },
+ {
+  "flight_id": "LS1192-1112",
+  "flight_number": "LS1192",
+  "origin": "ORD",
+  "destination": "LHR",
+  "scheduled_departure": "2026-11-12T15:45",
+  "scheduled_arrival": "2026-11-13T05:50",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 36700,
+   "first": 113000
+  }
+ },
+ {
+  "flight_id": "LS1193-1025",
+  "flight_number": "LS1193",
+  "origin": "ORD",
+  "destination": "BOS",
+  "scheduled_departure": "2026-10-24T19:00",
+  "scheduled_arrival": "2026-10-24T22:20",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 13900,
+   "first": 60500
+  }
+ },
+ {
+  "flight_id": "LS1194-1031",
+  "flight_number": "LS1194",
+  "origin": "ORD",
+  "destination": "NRT",
+  "scheduled_departure": "2026-10-31T14:30",
+  "scheduled_arrival": "2026-11-01T17:40",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 18200,
+   "first": 109100
+  }
+ },
+ {
+  "flight_id": "LS1195-1006",
+  "flight_number": "LS1195",
+  "origin": "ORD",
+  "destination": "FRA",
+  "scheduled_departure": "2026-10-06T01:45",
+  "scheduled_arrival": "2026-10-06T17:25",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 11000,
+   "first": 116100
+  }
+ },
+ {
+  "flight_id": "LS1196-1101",
+  "flight_number": "LS1196",
+  "origin": "DEN",
+  "destination": "SFO",
+  "scheduled_departure": "2026-10-31T18:00",
+  "scheduled_arrival": "2026-10-31T19:30",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 25600,
+   "first": 100100
+  }
+ },
+ {
+  "flight_id": "LS1197-1023",
+  "flight_number": "LS1197",
+  "origin": "DEN",
+  "destination": "ORD",
+  "scheduled_departure": "2026-10-23T12:35",
+  "scheduled_arrival": "2026-10-23T16:15",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 11300,
+   "first": 102400
+  }
+ },
+ {
+  "flight_id": "LS1198-1023",
+  "flight_number": "LS1198",
+  "origin": "ORD",
+  "destination": "DEN",
+  "scheduled_departure": "2026-10-23T17:45",
+  "scheduled_arrival": "2026-10-23T19:25",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 41500,
+   "first": 66200
+  }
+ },
+ {
+  "flight_id": "LS1200-1024",
+  "flight_number": "LS1200",
+  "origin": "ORD",
+  "destination": "LHR",
+  "scheduled_departure": "2026-10-24T15:30",
+  "scheduled_arrival": "2026-10-25T04:35",
+  "aircraft": "Boeing 737-800",
+  "designed_passenger_seats": 166,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 25900,
+   "first": 107000
+  }
+ },
+ {
+  "flight_id": "LS1201-1102",
+  "flight_number": "LS1201",
+  "origin": "ORD",
+  "destination": "SFO",
+  "scheduled_departure": "2026-11-02T11:15",
+  "scheduled_arrival": "2026-11-02T13:55",
+  "aircraft": "Boeing 787-9",
+  "designed_passenger_seats": 290,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
    "economy": 24400,
-   "first": 116400
+   "first": 52400
+  }
+ },
+ {
+  "flight_id": "LS1202-1024",
+  "flight_number": "LS1202",
+  "origin": "DEN",
+  "destination": "ORD",
+  "scheduled_departure": "2026-10-24T01:20",
+  "scheduled_arrival": "2026-10-24T05:00",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 38200,
+   "first": 96100
+  }
+ },
+ {
+  "flight_id": "LS1203-1024",
+  "flight_number": "LS1203",
+  "origin": "ORD",
+  "destination": "ATL",
+  "scheduled_departure": "2026-10-24T08:00",
+  "scheduled_arrival": "2026-10-24T11:00",
+  "aircraft": "Airbus A320",
+  "designed_passenger_seats": 150,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 34900,
+   "first": 58800
+  }
+ },
+ {
+  "flight_id": "LS1204-1031",
+  "flight_number": "LS1204",
+  "origin": "ORD",
+  "destination": "NRT",
+  "scheduled_departure": "2026-10-31T09:30",
+  "scheduled_arrival": "2026-11-01T12:40",
+  "aircraft": "Embraer E175",
+  "designed_passenger_seats": 76,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 12000,
+   "first": 88700
+  }
+ },
+ {
+  "flight_id": "LS1205-1105",
+  "flight_number": "LS1205",
+  "origin": "ORD",
+  "destination": "DEN",
+  "scheduled_departure": "2026-11-05T01:00",
+  "scheduled_arrival": "2026-11-05T02:40",
+  "aircraft": "Boeing 737-800",
+  "designed_passenger_seats": 166,
+  "scheduled_service": true,
+  "lowest_cash_fare_cents_by_cabin": {
+   "economy": 27700,
+   "first": 98200
   }
  }
 ]

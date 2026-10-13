@@ -26,7 +26,7 @@ def load(name, path):
 S = load("solve", TASK / "solution" / "solve.py")
 E = load("engine", TASK / "tests" / "engine.py")
 O = {k: getattr(S, k) for k in ("oversale", "schedule_change", "baggage", "service", "due_date", "mins",
-                                "covered")}
+                                "covered", "utc")}
 
 
 @contextlib.contextmanager
@@ -326,6 +326,36 @@ def service_fault_ignored(c):
     return O["service"](c2)
 
 
+def utc_naive(local, airport, zones):
+    """Local schedule times read as if they were UTC."""
+    return local + "Z"
+
+
+def utc_fixed(month):
+    """One fixed UTC offset per airport (the one in force in the given month), ignoring the clock change."""
+    def f(local, airport, zones):
+        from datetime import datetime
+        from zoneinfo import ZoneInfo
+        off = ZoneInfo(zones[airport]).utcoffset(datetime(2026, month, 15))
+        return (datetime.strptime(local, "%Y-%m-%dT%H:%M") - off).strftime("%Y-%m-%dT%H:%MZ")
+    return f
+
+
+def sc_local_departure_date(c, r):
+    """Unanswered cancellation counted from the local (published) departure date instead of the UTC date."""
+    if r[1] and c["incident"]["consumer_response"] == "did_not_respond_before_scheduled_departure":
+        import json
+        from datetime import datetime, timezone
+        from zoneinfo import ZoneInfo
+        zones = {k: v["time_zone"] for k, v in json.loads(Path("/app/data/airports.json").read_text()).items()}
+        k = c["ticket"]["coupons"][c["incident"]["affected_coupon"] - 1]
+        d = datetime.strptime(k["scheduled_departure"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc)
+        day = d.astimezone(ZoneInfo(zones[k["origin"]])).date().isoformat()
+        start = min(day, c["refund_requested_on"]) if c["refund_requested_on"] else day
+        return (r[0], r[1], start)
+    return r
+
+
 SHORTCUTS = {
     "pre-2024 caps ($775/$1,550)": dict(oversale=ov(post=caps_old)),
     "no compensation caps": dict(oversale=ov(post=no_caps)),
@@ -367,6 +397,11 @@ SHORTCUTS = {
     "every flight covered (break in journey ignored)": dict(covered=every_flight_covered),
     "a stopover of exactly 24 hours is a break in journey": dict(covered=break_at_24_hours),
     "every foreign-to-foreign segment uncovered": dict(covered=any_foreign_segment_uncovered),
+    "local schedule times read as UTC": dict(utc=utc_naive),
+    "summer-time offsets all season (clock change ignored)": dict(utc=utc_fixed(10)),
+    "standard-time offsets all season (clock change ignored)": dict(utc=utc_fixed(12)),
+    "unanswered cancellation counted from the local departure date": dict(
+        schedule_change=sc(post=sc_local_departure_date)),
 }
 
 

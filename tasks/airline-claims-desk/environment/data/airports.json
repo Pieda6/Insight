@@ -1,70 +1,87 @@
 {
  "ORD": {
   "city": "Chicago",
-  "country": "US"
+  "country": "US",
+  "time_zone": "America/Chicago"
  },
  "LGA": {
   "city": "New York",
-  "country": "US"
+  "country": "US",
+  "time_zone": "America/New_York"
  },
  "DFW": {
   "city": "Dallas",
-  "country": "US"
+  "country": "US",
+  "time_zone": "America/Chicago"
  },
  "DEN": {
   "city": "Denver",
-  "country": "US"
+  "country": "US",
+  "time_zone": "America/Denver"
  },
  "MSP": {
   "city": "Minneapolis",
-  "country": "US"
+  "country": "US",
+  "time_zone": "America/Chicago"
  },
  "BOS": {
   "city": "Boston",
-  "country": "US"
+  "country": "US",
+  "time_zone": "America/New_York"
  },
  "ATL": {
   "city": "Atlanta",
-  "country": "US"
+  "country": "US",
+  "time_zone": "America/New_York"
  },
  "SFO": {
   "city": "San Francisco",
-  "country": "US"
+  "country": "US",
+  "time_zone": "America/Los_Angeles"
  },
  "SEA": {
   "city": "Seattle",
-  "country": "US"
+  "country": "US",
+  "time_zone": "America/Los_Angeles"
  },
  "MDW": {
   "city": "Chicago",
-  "country": "US"
+  "country": "US",
+  "time_zone": "America/Chicago"
  },
  "EWR": {
   "city": "Newark",
-  "country": "US"
+  "country": "US",
+  "time_zone": "America/New_York"
  },
  "MKE": {
   "city": "Milwaukee",
-  "country": "US"
+  "country": "US",
+  "time_zone": "America/Chicago"
  },
  "YYZ": {
   "city": "Toronto",
-  "country": "CA"
+  "country": "CA",
+  "time_zone": "America/Toronto"
  },
  "CUN": {
   "city": "Cancun",
-  "country": "MX"
+  "country": "MX",
+  "time_zone": "America/Cancun"
  },
  "LHR": {
   "city": "London",
-  "country": "GB"
+  "country": "GB",
+  "time_zone": "Europe/London"
  },
  "NRT": {
   "city": "Tokyo",
-  "country": "JP"
+  "country": "JP",
+  "time_zone": "Asia/Tokyo"
  },
  "FRA": {
   "city": "Frankfurt",
-  "country": "DE"
+  "country": "DE",
+  "time_zone": "Europe/Berlin"
  }
 }

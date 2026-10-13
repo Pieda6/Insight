@@ -4,6 +4,7 @@ import csv
 import json
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 DATA = Path("/app/data")
 OUT = Path("/app/output")
@@ -18,12 +19,39 @@ def mins(a, b):
     return int((t(b) - t(a)).total_seconds() // 60)
 
 
+def utc(local, airport, zones):
+    """Published local wall time at an airport -> UTC 'YYYY-MM-DDTHH:MMZ'."""
+    wall = datetime.strptime(local, "%Y-%m-%dT%H:%M").replace(tzinfo=ZoneInfo(zones[airport]))
+    return wall.astimezone(ZoneInfo("UTC")).strftime("%Y-%m-%dT%H:%MZ")
+
+
 def load():
     j = lambda n: json.loads((DATA / n).read_text())  # noqa: E731
+    airports = j("airports.json")
+    zones = {k: v["time_zone"] for k, v in airports.items()}
+    country = {k: v["country"] for k, v in airports.items()}
     flights = {f["flight_id"]: f for f in j("flights.json")}
-    country = {k: v["country"] for k, v in j("airports.json").items()}
+    for f in flights.values():
+        f["scheduled_departure"] = utc(f["scheduled_departure"], f["origin"], zones)
+        f["scheduled_arrival"] = utc(f["scheduled_arrival"], f["destination"], zones)
+    claims = j("claims.json")
+    for c in claims:
+        inc = c["incident"]
+        for k in c["ticket"]["coupons"]:
+            k["scheduled_departure"] = utc(k["scheduled_departure"], k["origin"], zones)
+            k["scheduled_arrival"] = utc(k["scheduled_arrival"], k["destination"], zones)
+        alt = inc.get("alternate_transportation")
+        if alt:
+            alt["planned_arrival_at_time_arranged"] = utc(alt["planned_arrival_at_time_arranged"],
+                                                          alt["arrival_airport"], zones)
+        if inc.get("new_scheduled_departure"):              # changed flight: shifts against the original
+            k = c["ticket"]["coupons"][inc["affected_coupon"] - 1]
+            dep = utc(inc["new_scheduled_departure"], inc.get("new_origin_airport") or k["origin"], zones)
+            arr = utc(inc["new_scheduled_arrival"], inc.get("new_destination_airport") or k["destination"], zones)
+            inc["new_departure_shift_minutes"] = mins(k["scheduled_departure"], dep)
+            inc["new_arrival_shift_minutes"] = mins(k["scheduled_arrival"], arr)
     holidays = set(j("federal_holidays.json")["observed_dates"])
-    return j("claims.json"), flights, country, holidays
+    return claims, flights, country, holidays
 
 
 def due_date(trigger, method, holidays):

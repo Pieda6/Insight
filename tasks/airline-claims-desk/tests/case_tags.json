@@ -1,20 +1,21 @@
 {
  "CL0001": [
-  "filler"
+  "db-band",
+  "domestic"
  ],
  "CL0002": [
-  "sc-delay",
-  "sc-not-significant"
+  "filler"
  ],
  "CL0003": [
-  "db-applicability",
-  "small-aircraft"
+  "filler"
  ],
  "CL0004": [
-  "filler"
+  "bag-threshold",
+  "domestic"
  ],
  "CL0005": [
-  "filler"
+  "db-band",
+  "domestic"
  ],
  "CL0006": [
   "filler"
@@ -23,7 +24,8 @@
   "filler"
  ],
  "CL0008": [
-  "filler"
+  "db-fare-base",
+  "round-trip"
  ],
  "CL0009": [
   "filler"
@@ -33,22 +35,21 @@
  ],
  "CL0011": [
   "db-fare-base",
-  "round-trip"
+  "zero-fare"
  ],
  "CL0012": [
-  "bag-threshold",
-  "long-haul",
-  "domestic-leg"
+  "ancillary"
  ],
  "CL0013": [
-  "db-exception",
-  "weight-balance"
+  "sc-cancel",
+  "sc-voucher"
  ],
  "CL0014": [
   "filler"
  ],
  "CL0015": [
-  "filler"
+  "db-fare-base",
+  "stopover"
  ],
  "CL0016": [
   "filler"
@@ -58,79 +59,87 @@
   "break-in-journey"
  ],
  "CL0018": [
-  "filler"
+  "db-exception",
+  "volunteer"
  ],
  "CL0019": [
-  "filler"
+  "sc-delay",
+  "sc-accepted"
  ],
  "CL0020": [
   "filler"
  ],
  "CL0021": [
-  "db-ancillary"
+  "filler"
  ],
  "CL0022": [
   "filler"
  ],
  "CL0023": [
-  "bag-amount",
-  "escalated"
+  "filler"
  ],
  "CL0024": [
-  "filler"
+  "sc-downgrade"
  ],
  "CL0025": [
-  "filler"
+  "sc-cancel"
  ],
  "CL0026": [
-  "filler"
+  "db-exception",
+  "standby"
  ],
  "CL0027": [
-  "filler"
+  "sc-cancel",
+  "sc-voucher"
  ],
  "CL0028": [
-  "filler"
- ],
- "CL0029": [
-  "bag-amount",
-  "escalated"
- ],
- "CL0030": [
-  "db-band",
+  "bag-threshold",
   "domestic"
  ],
- "CL0031": [
+ "CL0029": [
+  "sc-earlier",
+  "sc-threshold",
+  "domestic"
+ ],
+ "CL0030": [
   "sc-delay",
   "sc-threshold",
   "international"
  ],
+ "CL0031": [
+  "db-band",
+  "international"
+ ],
  "CL0032": [
-  "filler"
+  "sc-cancel",
+  "due-date"
  ],
  "CL0033": [
   "filler"
  ],
  "CL0034": [
-  "sc-covered",
-  "break-in-journey"
+  "sc-connection"
  ],
  "CL0035": [
-  "sc-delay",
-  "sc-threshold",
-  "domestic"
+  "sc-covered",
+  "break-in-journey",
+  "dst"
  ],
  "CL0036": [
-  "filler"
+  "db-exception",
+  "weight-balance"
  ],
  "CL0037": [
-  "filler"
+  "sc-cancel",
+  "due-date"
  ],
  "CL0038": [
   "filler"
  ],
  "CL0039": [
-  "db-fare-base",
-  "stopover"
+  "bag-threshold",
+  "international",
+  "time-zone"
  ],
  "CL0040": [
   "filler"
@@ -139,76 +148,78 @@
   "filler"
  ],
  "CL0042": [
-  "sc-earlier",
-  "sc-threshold",
-  "domestic"
+  "sc-cancel",
+  "due-date"
  ],
  "CL0043": [
-  "bag-threshold",
-  "international"
+  "filler"
  ],
  "CL0044": [
-  "filler"
+  "db-exception",
+  "equipment"
  ],
  "CL0045": [
-  "filler"
+  "db-exception",
+  "equipment"
  ],
  "CL0046": [
   "filler"
  ],
  "CL0047": [
-  "sc-airport"
- ],
- "CL0048": [
-  "db-applicability",
-  "foreign-origin"
- ],
- "CL0049": [
   "filler"
  ],
+ "CL0048": [
+  "sc-airport"
+ ],
+ "CL0049": [
+  "bag-threshold",
+  "international"
+ ],
  "CL0050": [
-  "sc-cancel",
-  "due-date"
+  "sc-covered",
+  "break-in-journey",
+  "sc-delay"
  ],
  "CL0051": [
-  "db-exception",
-  "other-section"
+  "db-band",
+  "db-cap",
+  "domestic"
  ],
  "CL0052": [
   "filler"
  ],
  "CL0053": [
-  "sc-airport"
+  "filler"
  ],
  "CL0054": [
   "filler"
  ],
  "CL0055": [
-  "sc-cancel",
-  "sc-accepted"
+  "db-fare-base",
+  "stopover",
+  "dst"
  ],
  "CL0056": [
-  "sc-delay",
-  "sc-accepted"
- ],
- "CL0057": [
   "filler"
  ],
+ "CL0057": [
+  "db-ancillary"
+ ],
  "CL0058": [
-  "bag-threshold",
-  "long-haul"
+  "sc-cancel",
+  "due-date",
+  "time-zone"
  ],
  "CL0059": [
-  "sc-cancel",
+  "sc-delay",
   "due-date"
  ],
  "CL0060": [
-  "db-exception",
-  "volunteer"
+  "filler"
  ],
  "CL0061": [
-  "bag-threshold",
-  "international"
+  "bag-exemption",
+  "customs"
  ],
  "CL0062": [
   "filler"
@@ -217,55 +228,51 @@
   "filler"
  ],
  "CL0064": [
-  "filler"
+  "bag-threshold",
+  "international"
  ],
  "CL0065": [
-  "sc-cancel",
-  "due-date"
+  "filler"
  ],
  "CL0066": [
   "filler"
  ],
  "CL0067": [
-  "db-band",
-  "db-cap",
-  "domestic"
+  "filler"
  ],
  "CL0068": [
-  "filler"
+  "db-band",
+  "international"
  ],
  "CL0069": [
-  "ancillary"
+  "filler"
  ],
  "CL0070": [
-  "sc-delay",
-  "sc-threshold",
-  "international"
+  "filler"
  ],
  "CL0071": [
-  "filler"
+  "db-fare-base",
+  "stopover"
  ],
  "CL0072": [
-  "filler"
+  "sc-airport"
  ],
  "CL0073": [
-  "sc-cancel"
+  "filler"
  ],
  "CL0074": [
-  "db-band",
-  "international"
+  "filler"
  ],
  "CL0075": [
-  "sc-covered",
-  "break-in-journey",
-  "sc-delay"
+  "bag-amount",
+  "escalated"
  ],
  "CL0076": [
-  "db-band",
-  "domestic"
+  "filler"
  ],
  "CL0077": [
-  "filler"
+  "bag-threshold",
+  "long-haul"
  ],
  "CL0078": [
   "filler"
@@ -280,122 +287,123 @@
   "filler"
  ],
  "CL0082": [
-  "filler"
+  "db-exception",
+  "other-section"
  ],
  "CL0083": [
-  "filler"
+  "db-applicability",
+  "small-aircraft"
  ],
  "CL0084": [
-  "db-exception",
-  "equipment"
+  "bag-exemption",
+  "voluntary"
  ],
  "CL0085": [
   "filler"
  ],
  "CL0086": [
-  "sc-covered",
-  "break-in-journey",
-  "sc-delay"
+  "sc-delay",
+  "sc-threshold",
+  "domestic"
  ],
  "CL0087": [
-  "filler"
- ],
- "CL0088": [
   "db-ancillary",
   "volunteer"
  ],
- "CL0089": [
+ "CL0088": [
   "filler"
+ ],
+ "CL0089": [
+  "db-band",
+  "international"
  ],
  "CL0090": [
   "filler"
  ],
  "CL0091": [
-  "filler"
+  "sc-cancel",
+  "sc-voucher",
+  "due-date"
  ],
  "CL0092": [
-  "db-band",
-  "domestic"
+  "filler"
  ],
  "CL0093": [
-  "sc-connection"
+  "filler"
  ],
  "CL0094": [
   "filler"
  ],
  "CL0095": [
-  "db-exception",
-  "check-in"
+  "bag-amount",
+  "escalated"
  ],
  "CL0096": [
-  "bag-threshold",
-  "domestic"
+  "db-band",
+  "dst"
  ],
  "CL0097": [
-  "db-exception",
-  "weight-balance"
+  "filler"
  ],
  "CL0098": [
   "filler"
  ],
  "CL0099": [
-  "bag-exemption",
-  "hidden-city"
+  "sc-cancel",
+  "sc-accepted"
  ],
  "CL0100": [
-  "sc-downgrade"
+  "ancillary",
+  "fault"
  ],
  "CL0101": [
   "filler"
  ],
  "CL0102": [
-  "bag-exemption",
-  "voluntary"
+  "db-band",
+  "domestic"
  ],
  "CL0103": [
   "filler"
  ],
  "CL0104": [
-  "filler"
+  "sc-delay",
+  "sc-threshold",
+  "international"
  ],
  "CL0105": [
-  "filler"
+  "sc-covered",
+  "break-in-journey"
  ],
  "CL0106": [
-  "bag-threshold",
-  "international"
+  "filler"
  ],
  "CL0107": [
   "filler"
  ],
  "CL0108": [
-  "sc-delay",
-  "due-date"
+  "ancillary"
  ],
  "CL0109": [
   "filler"
  ],
  "CL0110": [
-  "bag-mbr"
+  "filler"
  ],
  "CL0111": [
   "filler"
  ],
  "CL0112": [
-  "db-fare-base",
-  "stopover"
+  "filler"
  ],
  "CL0113": [
   "filler"
  ],
  "CL0114": [
-  "sc-delay",
-  "sc-threshold",
-  "domestic"
+  "filler"
  ],
  "CL0115": [
-  "db-band",
-  "domestic"
+  "filler"
  ],
  "CL0116": [
   "filler"
@@ -404,107 +412,105 @@
   "filler"
  ],
  "CL0118": [
-  "sc-covered",
-  "break-in-journey"
+  "filler"
  ],
  "CL0119": [
   "filler"
  ],
  "CL0120": [
-  "sc-cancel",
-  "sc-voucher",
-  "due-date"
- ],
- "CL0121": [
   "filler"
  ],
+ "CL0121": [
+  "sc-covered",
+  "break-in-journey"
+ ],
  "CL0122": [
-  "sc-delay",
-  "sc-threshold",
-  "international"
+  "filler"
  ],
  "CL0123": [
   "filler"
  ],
  "CL0124": [
-  "db-exception",
-  "equipment"
+  "sc-covered",
+  "break-in-journey",
+  "sc-delay"
  ],
  "CL0125": [
   "filler"
  ],
  "CL0126": [
-  "bag-amount",
-  "subscription"
+  "filler"
  ],
  "CL0127": [
-  "sc-cancel",
-  "due-date"
+  "bag-threshold",
+  "long-haul"
  ],
  "CL0128": [
-  "filler"
+  "db-exception",
+  "check-in"
  ],
  "CL0129": [
   "filler"
  ],
  "CL0130": [
-  "filler"
+  "bag-threshold",
+  "international",
+  "time-zone"
  ],
  "CL0131": [
-  "db-fare-base",
-  "international"
- ],
- "CL0132": [
-  "ancillary"
- ],
- "CL0133": [
   "filler"
  ],
+ "CL0132": [
+  "filler"
+ ],
+ "CL0133": [
+  "db-exception",
+  "weight-balance"
+ ],
  "CL0134": [
-  "bag-exemption",
-  "customs"
+  "sc-delay",
+  "sc-threshold",
+  "dst"
  ],
  "CL0135": [
-  "bag-threshold",
+  "db-band",
+  "db-cap",
   "domestic"
  ],
  "CL0136": [
-  "db-band",
-  "international"
+  "filler"
  ],
  "CL0137": [
   "filler"
  ],
  "CL0138": [
   "db-fare-base",
-  "zero-fare"
+  "international"
  ],
  "CL0139": [
-  "bag-amount",
-  "escalated"
- ],
- "CL0140": [
   "filler"
  ],
+ "CL0140": [
+  "bag-threshold",
+  "long-haul",
+  "domestic-leg"
+ ],
  "CL0141": [
-  "db-band",
-  "db-cap",
-  "domestic"
+  "filler"
  ],
  "CL0142": [
-  "sc-covered",
-  "break-in-journey"
+  "filler"
  ],
  "CL0143": [
-  "sc-cancel",
-  "sc-voucher"
+  "filler"
  ],
  "CL0144": [
-  "bag-threshold",
-  "long-haul"
+  "db-band",
+  "domestic"
  ],
  "CL0145": [
-  "bag-lost"
+  "db-applicability",
+  "foreign-origin"
  ],
  "CL0146": [
   "filler"
@@ -516,22 +522,22 @@
   "filler"
  ],
  "CL0149": [
-  "ancillary",
-  "fault"
+  "bag-threshold",
+  "international"
  ],
  "CL0150": [
-  "filler"
+  "sc-delay",
+  "sc-not-significant"
  ],
  "CL0151": [
-  "db-band",
-  "international"
+  "bag-mbr"
  ],
  "CL0152": [
   "filler"
  ],
  "CL0153": [
-  "db-exception",
-  "standby"
+  "sc-covered",
+  "break-in-journey"
  ],
  "CL0154": [
   "filler"
@@ -543,32 +549,60 @@
   "filler"
  ],
  "CL0157": [
-  "sc-covered",
-  "break-in-journey"
+  "bag-amount",
+  "escalated"
  ],
  "CL0158": [
   "filler"
  ],
  "CL0159": [
-  "filler"
+  "bag-lost"
  ],
  "CL0160": [
-  "filler"
+  "bag-exemption",
+  "hidden-city"
  ],
  "CL0161": [
   "filler"
  ],
  "CL0162": [
-  "sc-cancel",
-  "sc-voucher"
+  "filler"
  ],
  "CL0163": [
-  "filler"
+  "sc-cancel",
+  "due-date"
  ],
  "CL0164": [
-  "filler"
+  "bag-amount",
+  "subscription"
  ],
  "CL0165": [
   "filler"
+ ],
+ "CL0166": [
+  "sc-delay",
+  "sc-threshold",
+  "international"
+ ],
+ "CL0167": [
+  "filler"
+ ],
+ "CL0168": [
+  "sc-delay",
+  "sc-threshold",
+  "domestic"
+ ],
+ "CL0169": [
+  "filler"
+ ],
+ "CL0170": [
+  "filler"
+ ],
+ "CL0171": [
+  "filler"
+ ],
+ "CL0172": [
+  "sc-covered",
+  "break-in-journey"
  ]
 }
