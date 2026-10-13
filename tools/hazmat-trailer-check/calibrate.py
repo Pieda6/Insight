@@ -24,7 +24,7 @@ def load(name, path):
 
 S = load("solve", TASK / "solution" / "solve.py")
 E = load("engine", TASK / "tests" / "engine.py")
-O = {k: getattr(S, k) for k in ("placards", "violates", "seg_key", "explosives_clash", "cell")}
+O = {k: getattr(S, k) for k in ("placards", "violates", "seg_key", "explosives_clash", "cell", "is_bulk")}
 
 
 @contextlib.contextmanager
@@ -224,7 +224,50 @@ def solids_count(cls, p):
     return O["seg_key"](cls, p)
 
 
+def no_bulk(p):
+    return False
+
+
+def ibc_is_bulk(p):
+    return "bulk container" in p["packaging_type"] or O["is_bulk"](p)
+
+
+def solid_or_rule(p):
+    if p["physical_state"] == "solid":
+        return p["maximum_net_mass_kg"] > 400 or p["maximum_capacity_liters"] > 450
+    return O["is_bulk"](p)
+
+
+def inclusive_450(p):
+    if p["physical_state"] == "liquid":
+        return p["maximum_capacity_liters"] >= 450
+    return O["is_bulk"](p)
+
+
+def no_uf6(t):
+    t = copy.deepcopy(t)
+    for p in t["packages"]:
+        p["proper_shipping_name"] = p["proper_shipping_name"].replace("uranium hexafluoride", "UF6")
+    return O["placards"](t)
+
+
+def bulk_under_dangerous(t):
+    res = O["placards"](t)
+    nb = [p for p in t["packages"] if not p["limited_quantity"] and p["hazard_class"] in S.TABLE2]
+    cats = {S.TABLE2[p["hazard_class"]] for p in nb}
+    bulk_cats = {S.TABLE2[p["hazard_class"]] for p in nb if O["is_bulk"](p)}
+    if "DANGEROUS" in res and bulk_cats:
+        res -= bulk_cats
+    return res
+
+
 SHORTCUTS = {
+    "every packaging treated as non-bulk": dict(is_bulk=no_bulk),
+    "every IBC treated as bulk": dict(is_bulk=ibc_is_bulk),
+    "solid bulk if mass OR capacity exceeds the limit": dict(is_bulk=solid_or_rule),
+    "450 L itself treated as bulk": dict(is_bulk=inclusive_450),
+    "uranium hexafluoride rule ignored": dict(placards=no_uf6),
+    "DANGEROUS also covers bulk packagings": dict(placards=bulk_under_dangerous),
     "placard every class present (no weight threshold)": dict(placards=with_trailer(heavier)),
     "1,001 lb itself treated as under the threshold": dict(placards=with_trailer(strict_threshold)),
     "limited quantities counted": dict(placards=with_trailer(count_lq)),

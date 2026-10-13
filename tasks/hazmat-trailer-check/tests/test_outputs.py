@@ -34,6 +34,8 @@ GROUPS = {
     "subsidiary_hazard_placards": (["subsidiary"], "placards"),
     "segregation_table": (["segregation"], "segregation_violations"),
     "explosives_placards_and_compatibility": (["explosives"], None),
+    "bulk_packagings": (["bulk"], None),
+    "uranium_hexafluoride": (["uf6"], "placards"),
 }
 
 

@@ -16,12 +16,29 @@ BY_WEIGHT = {"1.4": "EXPLOSIVES 1.4", "1.5": "EXPLOSIVES 1.5", "1.6": "EXPLOSIVE
 THRESHOLD_LB, ONE_FACILITY_LB = 1001, 2205
 
 
+def bulk(p):
+    """171.8: liquid capacity over 450 L; solid net mass over 400 kg and capacity over 450 L;
+    gas water capacity over 1000 lb."""
+    state = p["physical_state"]
+    if state == "liquid":
+        return p["maximum_capacity_liters"] > 450
+    if state == "solid":
+        return p["maximum_net_mass_kg"] > 400 and p["maximum_capacity_liters"] > 450
+    return p["water_capacity_lb"] is not None and p["water_capacity_lb"] > 1000
+
+
 def placard_set(packages):
-    any_q, weighted, keep505 = set(), [], set()
+    any_q, weighted, keep505, in_bulk = set(), [], set(), set()
+    hexafluoride_lb = sum(p["gross_weight_lb"] for p in packages
+                          if "uranium hexafluoride" in p["proper_shipping_name"].lower()
+                          and not p["limited_quantity"])
     for p in packages:
         c = p["hazard_class"]
-        excepted = p["limited_quantity"] or c == "combustible liquid"
-        if excepted:
+        if p["limited_quantity"]:
+            continue
+        if c == "combustible liquid":
+            if bulk(p):
+                in_bulk.add("COMBUSTIBLE")
             continue
         inhalation = bool(p["poison_inhalation_hazard_zone"])
         wet_sub = "4.3" in p["subsidiary_hazards"]
@@ -40,7 +57,10 @@ def placard_set(packages):
         elif c == "6.1" and inhalation:
             pass                                             # Table 1 entry already added
         elif c in BY_WEIGHT:
-            weighted.append(p)
+            if bulk(p):
+                in_bulk.add(BY_WEIGHT[c])
+            else:
+                weighted.append(p)
             if subject_505:
                 keep505.add(BY_WEIGHT[c])
     weight = sum(p["gross_weight_lb"] for p in weighted)
@@ -49,6 +69,10 @@ def placard_set(packages):
         shown |= {BY_WEIGHT[p["hazard_class"]] for p in weighted}
     else:
         shown |= keep505                                     # 172.504(c) not available to 172.505 materials
+    shown |= in_bulk                                         # nor to bulk packagings
+    uf6 = hexafluoride_lb >= THRESHOLD_LB
+    if uf6:
+        shown |= {"CORROSIVE", "POISON"}                     # 172.505(b)
     # 172.504(f)
     explosives = [s for s in shown if s.startswith("EXPLOSIVES ")]
     if len(explosives) > 1:
@@ -60,17 +84,19 @@ def placard_set(packages):
         shown.discard("OXIDIZER")
     if "POISON GAS" in shown:
         shown.discard("POISON INHALATION HAZARD")
-    if {"POISON GAS", "POISON INHALATION HAZARD"} & shown:
+    if {"POISON GAS", "POISON INHALATION HAZARD"} & shown and not uf6:
         shown.discard("POISON")
     shown.discard("CLASS 9")
     # 172.504(b): DANGEROUS in place of table 2 placards wherever permitted
-    table2_now = shown & set(BY_WEIGHT.values())
+    table2_now = shown & {BY_WEIGHT[p["hazard_class"]] for p in weighted}     # non-bulk packages only
     if len(table2_now) > 1:
         loaded = {}
         for p in weighted:
             key = (BY_WEIGHT[p["hazard_class"]], p["loaded_at"])
             loaded[key] = loaded.get(key, 0) + p["gross_weight_lb"]
-        must = {cat for (cat, _), lb in loaded.items() if lb >= ONE_FACILITY_LB} | keep505
+        must = {cat for (cat, _), lb in loaded.items() if lb >= ONE_FACILITY_LB} | keep505 | in_bulk
+        if uf6:
+            must |= {"CORROSIVE", "POISON"}
         swap = table2_now - must
         if swap:
             shown = (shown - swap) | {"DANGEROUS"}

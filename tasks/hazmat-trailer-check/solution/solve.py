@@ -107,13 +107,30 @@ def violates(p, q, trailer):
     return False
 
 
+def is_bulk(p):
+    """49 CFR 171.8 bulk packaging."""
+    if p["physical_state"] == "gas":
+        return (p["water_capacity_lb"] or 0) > 1000
+    if p["physical_state"] == "liquid":
+        return p["maximum_capacity_liters"] > 450
+    return p["maximum_net_mass_kg"] > 400 and p["maximum_capacity_liters"] > 450
+
+
 def placards(trailer):
     req1, t2 = set(), []
     subsidiary_505 = set()
+    bulk_forced = set()
+    uf6 = 0
     for p in trailer["packages"]:
         cls = p["hazard_class"]
-        if p["limited_quantity"] or cls == "combustible liquid":
-            continue                                        # 172.500(b)
+        if p["limited_quantity"]:
+            continue                                        # 172.500(b)(2)
+        if cls == "combustible liquid":
+            if is_bulk(p):
+                bulk_forced.add("COMBUSTIBLE")              # 172.500(b)(5) covers non-bulk only
+            continue
+        if "uranium hexafluoride" in p["proper_shipping_name"].lower():
+            uf6 += p["gross_weight_lb"]
         pih = p["poison_inhalation_hazard_zone"] is not None
         is505 = pih or "4.3" in p["subsidiary_hazards"]
         if p["residue_only"] and not is505 and cls in TABLE2:
@@ -128,14 +145,19 @@ def placards(trailer):
         elif cls == "6.1" and pih:
             req1.add("POISON INHALATION HAZARD")
         elif cls in TABLE2:
-            t2.append(p)
+            if is_bulk(p):
+                bulk_forced.add(TABLE2[cls])                # 172.504(c) excludes bulk packagings
+            else:
+                t2.append(p)
             if is505:
                 subsidiary_505.add(TABLE2[cls])
         if pih and cls != "2.3":
             req1.add("POISON INHALATION HAZARD")            # 172.505(a)
     total = sum(p["gross_weight_lb"] for p in t2)
     cats = {TABLE2[p["hazard_class"]] for p in t2} if total >= 1001 else set(subsidiary_505)   # 172.504(c)
-    placed = req1 | cats
+    placed = req1 | cats | bulk_forced
+    if uf6 >= 1001:
+        placed |= {"CORROSIVE", "POISON"}                   # 172.505(b)
     # 172.504(f) exceptions
     expl = sorted(x for x in placed if x.startswith("EXPLOSIVES"))
     for x in expl[1:]:
@@ -146,16 +168,18 @@ def placards(trailer):
         placed.discard("OXIDIZER")
     if "POISON GAS" in placed:
         placed.discard("POISON INHALATION HAZARD")
-    if placed & {"POISON GAS", "POISON INHALATION HAZARD"}:
+    if placed & {"POISON GAS", "POISON INHALATION HAZARD"} and uf6 < 1001:
         placed.discard("POISON")
     placed.discard("CLASS 9")
     # 172.504(b) DANGEROUS, used wherever permitted
-    t2_shown = {x for x in placed if x in TABLE2.values()}
+    t2_shown = {TABLE2[p["hazard_class"]] for p in t2} & placed     # non-bulk categories only (172.504(b))
     if len(t2_shown) >= 2:
         per = defaultdict(int)
         for p in t2:
             per[(TABLE2[p["hazard_class"]], p["loaded_at"])] += p["gross_weight_lb"]
-        forced = {c for (c, f), w in per.items() if w >= 2205} | subsidiary_505
+        forced = {c for (c, f), w in per.items() if w >= 2205} | subsidiary_505 | bulk_forced
+        if uf6 >= 1001:
+            forced |= {"CORROSIVE", "POISON"}
         rest = t2_shown - forced
         if rest:
             placed -= rest

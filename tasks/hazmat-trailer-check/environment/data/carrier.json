@@ -3,5 +3,6 @@
  "mode": "highway",
  "transport": "domestic",
  "trailer": "53 ft dry van, 10 floor bays numbered 1 (nose) to 10 (doors), single tier",
+ "packaging_units": "maximum capacity in liters, maximum net mass in kilograms, water capacity in pounds",
  "weight_unit": "pounds"
 }

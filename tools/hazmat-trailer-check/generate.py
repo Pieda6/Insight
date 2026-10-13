@@ -54,6 +54,8 @@ CAT = {
     "UN1935": ("Cyanide solution, n.o.s.", "6.1", [], "II", "liquid", {"cyanide": True}),
     "UN2915": ("Radioactive material, Type A package", "7", [], None, "solid", {}),
     "UN3480": ("Lithium ion batteries", "9", [], "II", "solid", {}),
+    "UN2978": ("Radioactive material, uranium hexafluoride, non fissile or fissile-excepted", "7", ["8"], None,
+               "solid", {}),
     "UN3077": ("Environmentally hazardous substance, solid, n.o.s.", "9", [], "III", "solid", {}),
     "NA1993": ("Combustible liquid, n.o.s. (diesel fuel)", "combustible liquid", [], "III", "liquid", {}),
     "UN0336": ("Fireworks", "1.4", [], None, "solid", {"group": "G", "article": True, "fireworks": True}),
@@ -81,10 +83,16 @@ SHIPPERS = ["Buckeye Coatings", "Ohio Valley Chemical", "Midwest Pool Supply", "
             "Keystone Mining Supply", "Northstar Labs", "Tri-County Farm Co-op"]
 
 
-def pkg(un, lb, bay, facility=0, lq=False, residue=False, rad=None, label_override=None):
+DEFAULT_PACKAGING = {"liquid": ("steel drum", 208, None), "solid": ("fiberboard box", 60, None),
+                     "gas": ("steel cylinder", 50, 110)}
+
+
+def pkg(un, lb, bay, facility=0, lq=False, residue=False, rad=None, label_override=None, packaging=None,
+        capacity_l=None, net_kg=None, water_lb=None):
     name, cls, sub, pg, state, extra = CAT[un]
+    d_pack, d_cap, d_water = DEFAULT_PACKAGING[state]
     labels = [] if lq or cls == "combustible liquid" else (
-        [f"RADIOACTIVE {rad}"] if cls == "7" else [LABEL[cls]] + [LABEL[s] for s in sub])
+        [f"RADIOACTIVE {rad}"] + [LABEL[x] for x in sub] if cls == "7" else [LABEL[cls]] + [LABEL[s] for s in sub])
     if cls.startswith("1.") and labels:
         labels = [labels[0] + extra["group"]]
     p = {"un_number": un, "proper_shipping_name": name, "hazard_class": cls, "subsidiary_hazards": sub,
@@ -96,7 +104,11 @@ def pkg(un, lb, bay, facility=0, lq=False, residue=False, rad=None, label_overri
          "explosive_form": ("article" if extra.get("article") else "substance") if "group" in extra else None,
          "fireworks": bool(extra.get("fireworks")), "cyanide": bool(extra.get("cyanide")),
          "acid": bool(extra.get("acid")), "loaded_at": FACILITIES[facility],
-         "shipper": rng.choice(SHIPPERS), "bay": bay, "packaging": "non-bulk"}
+         "shipper": rng.choice(SHIPPERS), "bay": bay,
+         "packaging_type": packaging or d_pack,
+         "maximum_capacity_liters": capacity_l if capacity_l is not None else d_cap,
+         "maximum_net_mass_kg": net_kg if net_kg is not None else max(1, round(lb * 0.4536 * 0.9)),
+         "water_capacity_lb": (water_lb if water_lb is not None else d_water) if state == "gas" else None}
     if label_override is not None:
         p["labels_required"] = label_override
     return p
@@ -212,6 +224,46 @@ def planted():
     S.append((["explosives", "compat-5"], [P("UN0012", 200, 1), P("UN0027", 100, 4)], ["EXPLOSIVES 1.1"], []))
     S.append((["explosives", "compat-x"], [P("UN0161", 200, 1), P("UN0336", 300, 4)], ["EXPLOSIVES 1.3"],
               [(0, 1)]))
+    # ---------------- bulk packaging (171.8) -------------------------------------------------------
+    IBC = dict(packaging="rigid intermediate bulk container", capacity_l=1040)
+    S.append((["bulk"], [P("UN1760", 900, 3, **IBC, net_kg=380)], ["CORROSIVE"], []))
+    S.append((["bulk"], [P("UN1760", 900, 3)], [], []))
+    S.append((["bulk"], [P("UN1760", 950, 3, packaging="composite intermediate bulk container", capacity_l=450,
+                           net_kg=420)], [], []))
+    S.append((["bulk"], [P("UN1760", 950, 3, packaging="composite intermediate bulk container", capacity_l=460,
+                           net_kg=420)], ["CORROSIVE"], []))
+    S.append((["bulk", "dangerous"], [P("UN1350", 1984, 1, 1, packaging="flexible intermediate bulk container",
+                                        capacity_l=1000, net_kg=900),
+                                      P("UN1263", 700, 6, 0), P("UN1760", 600, 9, 0)],
+              ["DANGEROUS", "FLAMMABLE SOLID"], []))
+    S.append((["bulk", "dangerous"], [P("UN1350", 1984, 1, 1, packaging="flexible intermediate bulk container",
+                                        capacity_l=400, net_kg=900),
+                                      P("UN1263", 700, 6, 0), P("UN1760", 600, 9, 0)], ["DANGEROUS"], []))
+    S.append((["bulk"], [P("UN1350", 838, 1, packaging="flexible intermediate bulk container", capacity_l=1000,
+                           net_kg=380)], [], []))
+    S.append((["bulk"], [P("UN1350", 880, 1, packaging="flexible intermediate bulk container", capacity_l=1000,
+                           net_kg=401)], ["FLAMMABLE SOLID"], []))
+    S.append((["bulk", "combustible"], [P("NA1993", 1900, 2, **IBC, net_kg=850)], ["COMBUSTIBLE"], []))
+    S.append((["bulk", "combustible"], [P("NA1993", 1900, 2, packaging="steel drum", capacity_l=208,
+                                          net_kg=850)], [], []))
+    S.append((["bulk", "dangerous", "gases"], [P("UN1013", 1500, 1, 1, packaging="steel tube", capacity_l=600,
+                                                 water_lb=1200),
+                                               P("UN1263", 700, 6, 0), P("UN1760", 600, 9, 0)],
+              ["DANGEROUS", "NON-FLAMMABLE GAS"], []))
+    S.append((["bulk", "dangerous", "gases"], [P("UN1013", 1500, 1, 1, packaging="steel cylinder bundle",
+                                                 capacity_l=400, water_lb=950),
+                                               P("UN1263", 700, 6, 0), P("UN1760", 600, 9, 0)], ["DANGEROUS"], []))
+    S.append((["bulk"], [P("UN1263", 1800, 1, **IBC, net_kg=780), P("UN1263", 300, 5)], ["FLAMMABLE"], []))
+    S.append((["bulk", "segregation"], [P("UN1789", 2200, 4, **IBC, net_kg=990), P("UN1479", 1100, 5)],
+              ["CORROSIVE", "OXIDIZER"], [(0, 1)]))
+    # ---------------- uranium hexafluoride (172.505(b)) ---------------------------------------------
+    S.append((["uf6"], [P("UN2978", 210, b, rad="YELLOW-II", packaging="steel cylinder (8A)", capacity_l=40,
+                          water_lb=95) for b in (1, 1, 2, 2, 3)], ["CORROSIVE", "POISON"], []))
+    S.append((["uf6"], [P("UN2978", 210, b, rad="YELLOW-II", packaging="steel cylinder (8A)", capacity_l=40,
+                          water_lb=95) for b in (1, 1, 2, 2)], [], []))
+    S.append((["uf6", "table1"], [P("UN2978", 210, b, rad="YELLOW-III", packaging="steel cylinder (8A)",
+                                    capacity_l=40, water_lb=95) for b in (1, 2, 3, 4, 5)],
+              ["CORROSIVE", "POISON", "RADIOACTIVE"], []))
     return S
 
 
@@ -224,13 +276,19 @@ def ambiguous(pkgs):
     """Reject filler loads where one category reaches the single-facility amount and exactly one
     other Table 2 category remains (DANGEROUS for a single leftover category is left open)."""
     cats, per_fac = set(), {}
+    bulk = [p for p in pkgs if p["packaging_type"].endswith("bulk container")]
+    nonbulk_t2 = sum(p["gross_weight_lb"] for p in pkgs if p not in bulk and not p["limited_quantity"]
+                     and p["hazard_class"] in TABLE2)
+    if bulk and 0 < nonbulk_t2 < 1001:
+        return True
+    bulk_cats = {TABLE2.get(p["hazard_class"]) for p in bulk}
     for p in pkgs:
-        if p["limited_quantity"] or p["hazard_class"] not in TABLE2:
+        if p["limited_quantity"] or p["hazard_class"] not in TABLE2 or p in bulk:
             continue
         c = TABLE2[p["hazard_class"]]
         cats.add(c)
         per_fac[(c, p["loaded_at"])] = per_fac.get((c, p["loaded_at"]), 0) + p["gross_weight_lb"]
-    big = {c for (c, f), w in per_fac.items() if w >= 2205}
+    big = {c for (c, f), w in per_fac.items() if w >= 2205} | (bulk_cats - {None})
     return bool(big) and len(cats - big) == 1
 
 
@@ -245,6 +303,11 @@ def filler(n):
         for _ in range(k):
             un = rng.choice(common)
             lb = rng.choice([45, 60, 120, 180, 250, 340, 420, 550, 800])
+            if CAT[un][4] == "liquid" and rng.random() < 0.12:
+                pkgs.append(pkg(un, rng.choice([1500, 1900, 2300]), rng.randint(1, 10), rng.randrange(4),
+                                packaging="rigid intermediate bulk container", capacity_l=1040,
+                                net_kg=rng.choice([600, 800, 950])))
+                continue
             pkgs.append(pkg(un, lb, rng.randint(1, 10), rng.randrange(4),
                             lq=(un == "UN1950") or (un in ("UN1263", "UN1993") and rng.random() < 0.3)))
         if ambiguous(pkgs):
@@ -280,6 +343,7 @@ def main():
     (ENV / "carrier.json").write_text(json.dumps({
         "carrier": "Heartland Freight Lines", "mode": "highway", "transport": "domestic",
         "trailer": "53 ft dry van, 10 floor bays numbered 1 (nose) to 10 (doors), single tier",
+        "packaging_units": "maximum capacity in liters, maximum net mass in kilograms, water capacity in pounds",
         "weight_unit": "pounds"}, indent=1) + "\n")
     if TST.exists():
         shutil.rmtree(TST)
