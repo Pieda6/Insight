@@ -1,0 +1,70 @@
+{
+ "ORD": {
+  "city": "Chicago",
+  "country": "US"
+ },
+ "LGA": {
+  "city": "New York",
+  "country": "US"
+ },
+ "DFW": {
+  "city": "Dallas",
+  "country": "US"
+ },
+ "DEN": {
+  "city": "Denver",
+  "country": "US"
+ },
+ "MSP": {
+  "city": "Minneapolis",
+  "country": "US"
+ },
+ "BOS": {
+  "city": "Boston",
+  "country": "US"
+ },
+ "ATL": {
+  "city": "Atlanta",
+  "country": "US"
+ },
+ "SFO": {
+  "city": "San Francisco",
+  "country": "US"
+ },
+ "SEA": {
+  "city": "Seattle",
+  "country": "US"
+ },
+ "MDW": {
+  "city": "Chicago",
+  "country": "US"
+ },
+ "EWR": {
+  "city": "Newark",
+  "country": "US"
+ },
+ "MKE": {
+  "city": "Milwaukee",
+  "country": "US"
+ },
+ "YYZ": {
+  "city": "Toronto",
+  "country": "CA"
+ },
+ "CUN": {
+  "city": "Cancun",
+  "country": "MX"
+ },
+ "LHR": {
+  "city": "London",
+  "country": "GB"
+ },
+ "NRT": {
+  "city": "Tokyo",
+  "country": "JP"
+ },
+ "FRA": {
+  "city": "Frankfurt",
+  "country": "DE"
+ }
+}

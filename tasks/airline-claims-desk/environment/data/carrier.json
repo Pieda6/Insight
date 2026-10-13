@@ -1,0 +1,9 @@
+{
+ "carrier": "Lakeshore Air",
+ "type": "U.S. air carrier, scheduled passenger service",
+ "merchant_of_record": "Lakeshore Air for every ticket and every ancillary fee in this queue",
+ "money_unit": "cents (USD)",
+ "times": "UTC",
+ "coupon_fare_cents": "price paid for that coupon including all mandatory taxes and fees, excluding ancillary fees",
+ "bag_fees": "escalating per-bag scale; some fees are linked to a specific bag by unique identifier"
+}
