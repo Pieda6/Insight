@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Dev-only calibration for hazmat-trailer-check (never uploaded): oracle passes, empty output fails,
-and each common misreading of 49 CFR 172.500-172.505 / 177.848 fails at least one test."""
+and each common misreading of the blend classification rules (49 CFR 173.2a, 173.115-173.137, 173.150,
+172.402) and of 172.500-172.505 / 177.848 fails at least one test."""
 import contextlib
 import copy
 import csv
@@ -24,7 +25,11 @@ def load(name, path):
 
 S = load("solve", TASK / "solution" / "solve.py")
 E = load("engine", TASK / "tests" / "engine.py")
-O = {k: getattr(S, k) for k in ("placards", "violates", "seg_key", "explosives_clash", "cell", "is_bulk")}
+O = {k: getattr(S, k) for k in ("placards", "violates", "seg_key", "explosives_clash", "cell", "is_bulk", "deg_c",
+                                "class3_hazard", "combustible", "toxic_hazard", "corrosive_hazard", "classify_gas",
+                                "precedence", "reclass_ok", "primary_hazard", "subsidiary_label_required",
+                                "mixture_lc50", "gas_flammable", "vapor_kpa", "mm_per_year", "gauge_kpa",
+                                "classify_blend", "pg_by")}
 
 
 @contextlib.contextmanager
@@ -53,6 +58,8 @@ def with_trailer(fn):
 
 def heavier(t, lb=5000):
     """Placard every class present: pretend table 2 weight is always over the threshold."""
+    if not t["packages"]:
+        return t
     t["packages"].append({**t["packages"][0], "hazard_class": "9", "subsidiary_hazards": [],
                           "gross_weight_lb": lb, "limited_quantity": False, "residue_only": False,
                           "poison_inhalation_hazard_zone": None, "loaded_at": "__ghost__"})
@@ -121,7 +128,7 @@ def facility_summed(t):
 def all_subsidiaries(t):
     res = O["placards"](t)
     for p in t["packages"]:
-        if p["labels_required"]:
+        if p["labeled"]:
             for s in p["subsidiary_hazards"]:
                 res.add(S.TABLE1.get(s) or S.TABLE2.get(s))
     res.discard(None)
@@ -172,17 +179,16 @@ def seg(**flags):
     def v(p, q, t):
         p, q = dict(p), dict(q)
         if flags.get("no_subs"):
-            p["subsidiary_hazards"], q["subsidiary_hazards"] = [], []
+            p["labeled_subs"], q["labeled_subs"] = [], []
         if flags.get("unlabeled"):
-            p["labels_required"] = p["labels_required"] or ["X"]
-            q["labels_required"] = q["labels_required"] or ["X"]
+            p["labeled"] = q["labeled"] = True
         if flags.get("no_cyanide"):
             p["cyanide"] = q["cyanide"] = False
         if flags.get("no_same_class") and p["hazard_class"].split(".")[0] == q["hazard_class"].split(".")[0]:
             p["hazard_class"], q["hazard_class"] = p["hazard_class"] + "", q["hazard_class"] + ""
             res = False
-            for a in [p["hazard_class"]] + p["subsidiary_hazards"]:
-                for b in [q["hazard_class"]] + q["subsidiary_hazards"]:
+            for a in [p["hazard_class"]] + p["labeled_subs"]:
+                for b in [q["hazard_class"]] + q["labeled_subs"]:
                     ka, kb = S.seg_key(a, p), S.seg_key(b, q)
                     if ka and kb and S.cell(ka, kb) == "O" and p["bay"] == q["bay"]:
                         res = True
@@ -247,7 +253,7 @@ def inclusive_450(p):
 def no_uf6(t):
     t = copy.deepcopy(t)
     for p in t["packages"]:
-        p["proper_shipping_name"] = p["proper_shipping_name"].replace("uranium hexafluoride", "UF6")
+        p["uf6"] = False
     return O["placards"](t)
 
 
@@ -294,6 +300,252 @@ SHORTCUTS = {
 }
 
 
+# ------------------------------------------------------------------ misreadings of the classification rules
+def lab_wrap(fn_name, edit):
+    """Run the original helper on an edited copy of the lab data."""
+    def f(lab, *a):
+        lab = copy.deepcopy(lab)
+        edit(lab)
+        return O[fn_name](lab, *a)
+    return f
+
+
+def strip(*keys):
+    def e(lab):
+        for k in keys:
+            lab[k] = None if k != "water_miscible" else False
+    return e
+
+
+def fp35_inclusive(lab, p, bulk):
+    r = O["class3_hazard"](lab, p, bulk)
+    fp = S.deg_c(lab.get("flash_point")) if lab.get("flash_point") else None
+    if r and fp == 35 and lab.get("sustains_combustion") is False:
+        return None
+    return r
+
+
+def fp60_exclusive(lab, p, bulk):
+    r = O["class3_hazard"](lab, p, bulk)
+    if r and r["fp"] == 60 and not r["elevated"]:
+        return None
+    return r
+
+
+def no_pg_i_by_boiling_point(lab, p, bulk):
+    r = O["class3_hazard"](lab, p, bulk)
+    if r and r["pg"] == "I":
+        r["pg"] = "II" if r["fp"] < 23 else "III"
+    return r
+
+
+def elevated_ignored(lab, p, bulk):
+    lab = dict(lab, intentionally_heated=False)
+    return O["class3_hazard"](lab, p, bulk)
+
+
+def elevated_any_packaging(lab, p, bulk):
+    return O["class3_hazard"](lab, p, True)
+
+
+def reclass_with_other_hazards(hz, f3):
+    return f3 is not None and not f3["elevated"] and f3["fp"] >= 38
+
+
+def no_vapor_conversion(lab, p):
+    lab = copy.deepcopy(lab)
+    for k in ("vapor_lc50_ml_m3", "dust_mist_lc50_mg_l"):
+        if lab.get(k):
+            lab[k]["exposure_hours"] = 1
+    return O["toxic_hazard"](lab, p)
+
+
+def zone_by_lc50_only(lab, p):
+    r = O["toxic_hazard"](lab, p)
+    if r and r["pih_zone"]:
+        v = lab.get("vapor_lc50_ml_m3")
+        lc = v["value"] * (2 if v["exposure_hours"] == 4 else 1) if v else S.mixture_lc50(
+            [(c["mole_fraction"], c["vapor_lc50_ml_m3"]) for c in lab["toxic_vapor_components"]])
+        r["pih_zone"] = "A" if lc <= 200 else "B"
+    return r
+
+
+def exclusive_ld50(value, limits):
+    if value is not None and value in limits:
+        value = value + 1e-9
+    return O["pg_by"](value, limits)
+
+
+def pg_from_first_route(lab, p):
+    r = O["toxic_hazard"](lab, p)
+    if r and lab.get("oral_ld50_mg_kg") is not None:
+        g = O["pg_by"](lab["oral_ld50_mg_kg"], (5, 50, 300))
+        if g:
+            r["pg"], r["route"] = g, "oral"
+    return r
+
+
+def skin_three_minutes_exclusive(lab, p):
+    r = O["corrosive_hazard"](lab, p)
+    sk = lab.get("skin_corrosion_oecd_404")
+    if r and sk and sk["irreversible_damage"] and sk["exposure_minutes"] == 3:
+        r["pg"] = "II"
+    return r
+
+
+def skin_four_minutes_pg_i(lab, p):
+    r = O["corrosive_hazard"](lab, p)
+    sk = lab.get("skin_corrosion_oecd_404")
+    if r and sk and sk["irreversible_damage"] and sk["exposure_minutes"] <= 5:
+        r["pg"] = "I"
+    return r
+
+
+def corrosion_both_metals(lab, p):
+    r = O["corrosive_hazard"](lab, p)
+    rates = lab.get("corrosion_rate_55c")
+    sk = lab.get("skin_corrosion_oecd_404")
+    if r and rates and not (sk and sk["irreversible_damage"]):
+        if min(S.mm_per_year(rates["steel"]), S.mm_per_year(rates["aluminum"])) <= 6.25:
+            return None
+    return r
+
+
+def corrosion_solids_too(lab, p):
+    return O["corrosive_hazard"](dict(lab, may_liquefy_in_transport=True), p)
+
+
+def lower_number_wins(a, b, state, pesticide):
+    return min((a, b), key=lambda h: float(h["class"]))
+
+
+def precedence_no_note2(a, b, state, pesticide):
+    if {a["class"], b["class"]} == {"6.1", "8"} and "I" in (a.get("dust_pg"), b.get("dust_pg")):
+        return a if a["class"] == "6.1" else b          # PG I toxicity simply outranks
+    return O["precedence"](a, b, state, pesticide)
+
+
+def no_pesticide(a, b, state, pesticide):
+    return O["precedence"](a, b, state, False)
+
+
+def pih_not_first(hz, t, state, pesticide):
+    if t and t["pih_zone"] and len(hz) == 2:
+        proxy = dict(t, route="dermal")                  # read as a PG I 6.1 row of the table
+        other = hz[1] if hz[0] is t else hz[0]
+        return t if O["precedence"](proxy, other, state, pesticide) is proxy else other
+    return O["primary_hazard"](hz, t, state, pesticide)
+
+
+def pyrophoric_not_first(hz, t, state, pesticide):
+    if any(h.get("pyrophoric") for h in hz) and len(hz) == 2 and not (t and t["pih_zone"]):
+        return next(h for h in hz if not h.get("pyrophoric"))
+    return O["primary_hazard"](hz, t, state, pesticide)
+
+
+def gas_lfl_only(g):
+    lo = g["lower_flammable_limit_pct"]
+    return lo is not None and lo <= 13
+
+
+def psig_as_kpa(t):
+    return t["value"]
+
+
+def mixture_most_toxic(parts):
+    return min(lc for f, lc in parts)
+
+
+def mmhg_as_kpa(t):
+    return t["value"]
+
+
+def inches_as_mm(t):
+    return 0.0 if t is None else t["value"]
+
+
+def fahrenheit_as_celsius(t):
+    return None if t is None else t["value"]
+
+
+def gas_no_2_1_subsidiary(lab):
+    cls, subs, zone = O["classify_gas"](lab)
+    return cls, [x for x in subs if x != "2.1"], zone
+
+
+def gas_no_oxidizer(lab):
+    cls, subs, zone = O["classify_gas"](lab)
+    return cls, [x for x in subs if x != "5.1"], zone
+
+
+def gas_no_pressure_test(lab):
+    r = O["classify_gas"](lab)
+    if r[0] is None:
+        return "2.2", [], None
+    return r
+
+
+def aerosol_always_flammable(lab):
+    if lab.get("aerosol"):
+        return "2.1", [], None
+    return O["classify_gas"](lab)
+
+
+def blends_unregulated(p):
+    return None
+
+
+def blends_flammable(p):
+    return "3", [], [], "II", None
+
+
+BLEND_SHORTCUTS = {
+    "blends ignored (only listed products checked)": dict(classify_blend=blends_unregulated),
+    "every blend treated as Class 3": dict(classify_blend=blends_flammable),
+    "Fahrenheit read as Celsius": dict(deg_c=fahrenheit_as_celsius),
+    "173.120(a)(2) mixture exclusion ignored": dict(class3_hazard=lab_wrap("class3_hazard", strip("components"))),
+    "173.120(a)(3) sustained combustion ignored": dict(class3_hazard=lab_wrap("class3_hazard",
+                                                                              strip("sustains_combustion"))),
+    "173.120(a)(4) fire point ignored": dict(class3_hazard=lab_wrap("class3_hazard", strip("fire_point"))),
+    "173.120(a)(5) water-miscible solution ignored": dict(class3_hazard=lab_wrap("class3_hazard",
+                                                                                 strip("water_miscible"))),
+    "173.120(a)(3)-(5) applied at 35 C itself": dict(class3_hazard=fp35_inclusive),
+    "60 C itself treated as not flammable": dict(class3_hazard=fp60_exclusive),
+    "packing group I by boiling point ignored": dict(class3_hazard=no_pg_i_by_boiling_point),
+    "elevated temperature liquids ignored": dict(class3_hazard=elevated_ignored),
+    "elevated temperature applied to non-bulk": dict(class3_hazard=elevated_any_packaging),
+    "173.150(f)(4) and 173.120(b)(3) ignored": dict(combustible=lab_wrap("combustible", strip(
+        "components", "sustains_combustion"))),
+    "no reclassing as combustible": dict(reclass_ok=lambda hz, f3: False),
+    "reclassed although another hazard is present": dict(reclass_ok=reclass_with_other_hazards),
+    "highway exception for Class 3 PG III subsidiary labels applied": dict(
+        subsidiary_label_required=lambda h: not (h["class"] == "3" and h["pg"] == "III" and h["fp"] >= 38)),
+    "subsidiary hazards of blends never labeled": dict(subsidiary_label_required=lambda h: False),
+    "4-hour LC50 used without conversion": dict(toxic_hazard=no_vapor_conversion),
+    "hazard zone from LC50 alone": dict(toxic_hazard=zone_by_lc50_only),
+    "toxicity limits treated as exclusive": dict(pg_by=exclusive_ld50),
+    "6.1 packing group from oral toxicity only": dict(toxic_hazard=pg_from_first_route),
+    "mixture LC50 taken from the most toxic component": dict(mixture_lc50=mixture_most_toxic),
+    "mmHg read as kPa": dict(vapor_kpa=mmhg_as_kpa),
+    "3-minute exposure not packing group I": dict(corrosive_hazard=skin_three_minutes_exclusive),
+    "packing group I up to 5 minutes": dict(corrosive_hazard=skin_four_minutes_pg_i),
+    "corrosion must exceed the limit on both metals": dict(corrosive_hazard=corrosion_both_metals),
+    "inches per year read as millimetres": dict(mm_per_year=inches_as_mm),
+    "corrosion rate applied to every solid": dict(corrosive_hazard=corrosion_solids_too),
+    "precedence: lower class number wins": dict(precedence=lower_number_wins),
+    "173.2a Note 2 ignored": dict(precedence=precedence_no_note2),
+    "pesticide footnote ignored": dict(precedence=no_pesticide),
+    "poison inhalation hazard ranked by the table": dict(primary_hazard=pih_not_first),
+    "pyrophoric ranked by the table": dict(primary_hazard=pyrophoric_not_first),
+    "flammable gas by lower limit only": dict(gas_flammable=gas_lfl_only),
+    "psig read as kPa": dict(gauge_kpa=psig_as_kpa),
+    "every non-flammable non-toxic gas regulated": dict(classify_gas=gas_no_pressure_test),
+    "2.3 gas flammable subsidiary ignored": dict(classify_gas=gas_no_2_1_subsidiary),
+    "oxidizing gas subsidiary ignored": dict(classify_gas=gas_no_oxidizer),
+    "every aerosol Division 2.1": dict(classify_gas=aerosol_always_flammable),
+}
+
+
 def main():
     Path("/app/data").mkdir(parents=True, exist_ok=True)
     for f in Path("/app/data").iterdir():
@@ -306,7 +558,7 @@ def main():
     OUT.unlink()
     print("nop rc", tests()[0])
     ok = True
-    for name, patch in SHORTCUTS.items():
+    for name, patch in {**SHORTCUTS, **BLEND_SHORTCUTS}.items():
         with patched(**patch):
             S.main()
         got = {r["trailer_id"]: r for r in csv.DictReader(open(OUT))}

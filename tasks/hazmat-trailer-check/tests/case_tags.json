@@ -1,214 +1,247 @@
 {
  "TR001": [
-  "filler"
+  "table1",
+  "radioactive"
  ],
  "TR002": [
-  "bulk"
+  "blend",
+  "precedence",
+  "pesticide"
  ],
  "TR003": [
-  "explosives",
-  "compat-x"
+  "exceptions",
+  "explosives"
  ],
  "TR004": [
-  "threshold"
+  "filler"
  ],
  "TR005": [
-  "filler"
+  "blend",
+  "precedence",
+  "pesticide"
  ],
  "TR006": [
-  "uf6",
-  "table1"
+  "filler"
  ],
  "TR007": [
-  "segregation",
-  "o",
-  "corrosive-adjacent"
+  "filler"
  ],
  "TR008": [
-  "threshold",
-  "residue"
+  "filler"
  ],
  "TR009": [
-  "filler"
+  "blend",
+  "flammability",
+  "exclusion",
+  "bulk"
  ],
  "TR010": [
-  "segregation",
-  "x"
+  "blend",
+  "gas",
+  "zone"
  ],
  "TR011": [
-  "table1"
+  "segregation",
+  "o"
  ],
  "TR012": [
-  "filler"
+  "threshold"
  ],
  "TR013": [
   "filler"
  ],
  "TR014": [
-  "exceptions",
-  "poison"
+  "threshold",
+  "residue"
  ],
  "TR015": [
-  "segregation",
-  "radioactive"
+  "table1"
  ],
  "TR016": [
-  "segregation",
-  "cyanide"
+  "blend",
+  "precedence",
+  "pyrophoric"
  ],
  "TR017": [
-  "filler"
+  "blend",
+  "precedence"
  ],
  "TR018": [
-  "filler"
+  "blend",
+  "flammability",
+  "exclusion",
+  "bulk"
  ],
  "TR019": [
-  "table1",
-  "radioactive"
+  "filler"
  ],
  "TR020": [
-  "filler"
+  "blend",
+  "precedence",
+  "corrosive"
  ],
  "TR021": [
-  "segregation",
-  "x"
+  "threshold"
  ],
  "TR022": [
-  "filler"
+  "blend",
+  "gas",
+  "subsidiary-label"
  ],
  "TR023": [
-  "filler"
+  "blend",
+  "corrosive",
+  "bulk"
  ],
  "TR024": [
-  "filler"
+  "subsidiary",
+  "segregation"
  ],
  "TR025": [
   "filler"
  ],
  "TR026": [
-  "filler"
+  "blend",
+  "gas"
  ],
  "TR027": [
-  "filler"
+  "dangerous",
+  "single-facility"
  ],
  "TR028": [
-  "filler"
- ],
- "TR029": [
-  "bulk",
-  "dangerous",
-  "gases"
- ],
- "TR030": [
-  "explosives",
-  "compat-6"
- ],
- "TR031": [
+  "blend",
+  "flammability",
+  "exclusion",
   "bulk"
  ],
- "TR032": [
+ "TR029": [
   "explosives",
-  "o"
+  "compat-x"
+ ],
+ "TR030": [
+  "bulk"
+ ],
+ "TR031": [
+  "filler"
+ ],
+ "TR032": [
+  "segregation",
+  "x"
  ],
  "TR033": [
-  "segregation",
-  "unlabeled"
+  "blend",
+  "corrosive",
+  "bulk"
  ],
  "TR034": [
-  "bulk",
-  "dangerous"
+  "blend",
+  "precedence"
  ],
  "TR035": [
   "exceptions",
-  "explosives"
+  "class9"
  ],
  "TR036": [
-  "filler"
+  "blend",
+  "flammability",
+  "elevated",
+  "bulk"
  ],
  "TR037": [
   "filler"
  ],
  "TR038": [
-  "filler"
+  "explosives",
+  "compat-5"
  ],
  "TR039": [
-  "filler"
+  "exceptions",
+  "gases"
  ],
  "TR040": [
-  "segregation",
-  "x"
+  "bulk"
  ],
  "TR041": [
-  "subsidiary",
-  "segregation"
+  "blend",
+  "precedence",
+  "note-2"
  ],
  "TR042": [
   "filler"
  ],
  "TR043": [
-  "filler"
+  "uf6"
  ],
  "TR044": [
-  "explosives",
-  "compat-6"
+  "blend",
+  "flammability",
+  "combustible",
+  "bulk"
  ],
  "TR045": [
-  "segregation",
-  "o"
+  "dangerous",
+  "single-facility"
  ],
  "TR046": [
-  "table1",
-  "threshold"
+  "blend",
+  "flammability",
+  "exclusion",
+  "bulk"
  ],
  "TR047": [
-  "table1",
-  "threshold"
+  "blend",
+  "flammability",
+  "exclusion",
+  "bulk"
  ],
  "TR048": [
-  "bulk",
-  "segregation"
+  "blend",
+  "toxicity",
+  "boundary"
  ],
  "TR049": [
-  "filler"
+  "blend",
+  "precedence",
+  "pyrophoric"
  ],
  "TR050": [
-  "filler"
+  "segregation",
+  "same-class"
  ],
  "TR051": [
-  "filler"
+  "bulk",
+  "combustible"
  ],
  "TR052": [
-  "filler"
+  "blend",
+  "precedence"
  ],
  "TR053": [
   "filler"
  ],
  "TR054": [
-  "segregation",
-  "o"
+  "filler"
  ],
  "TR055": [
-  "segregation",
-  "zone"
+  "filler"
  ],
  "TR056": [
-  "dangerous",
-  "single-facility"
- ],
- "TR057": [
   "bulk",
   "dangerous",
   "gases"
  ],
+ "TR057": [
+  "exceptions",
+  "explosives"
+ ],
  "TR058": [
-  "segregation",
-  "cyanide"
+  "bulk"
  ],
  "TR059": [
   "filler"
  ],
  "TR060": [
-  "subsidiary"
+  "filler"
  ],
  "TR061": [
   "segregation",
@@ -222,88 +255,95 @@
   "filler"
  ],
  "TR064": [
-  "threshold",
-  "limited-quantity"
+  "bulk",
+  "dangerous"
  ],
  "TR065": [
-  "table1"
+  "subsidiary"
  ],
  "TR066": [
-  "segregation",
-  "x"
+  "explosives",
+  "o"
  ],
  "TR067": [
-  "filler"
+  "blend",
+  "corrosive",
+  "bulk"
  ],
  "TR068": [
-  "dangerous",
-  "single-facility"
+  "blend",
+  "toxicity",
+  "pih",
+  "subsidiary-label"
  ],
  "TR069": [
-  "segregation",
-  "subsidiary-hazard"
+  "subsidiary"
  ],
  "TR070": [
-  "segregation",
-  "cyanide"
+  "filler"
  ],
  "TR071": [
   "filler"
  ],
  "TR072": [
-  "segregation",
-  "unlabeled"
+  "filler"
  ],
  "TR073": [
-  "bulk",
-  "combustible"
+  "exceptions",
+  "poison"
  ],
  "TR074": [
   "filler"
  ],
  "TR075": [
-  "table1",
-  "radioactive"
+  "filler"
  ],
  "TR076": [
-  "segregation",
-  "pih"
+  "bulk",
+  "dangerous",
+  "gases"
  ],
  "TR077": [
-  "subsidiary"
+  "blend",
+  "flammability",
+  "combustible",
+  "bulk"
  ],
  "TR078": [
-  "explosives",
-  "note-a"
+  "filler"
  ],
  "TR079": [
-  "filler"
+  "blend",
+  "toxicity",
+  "boundary"
  ],
  "TR080": [
-  "filler"
+  "dangerous",
+  "single-category"
  ],
  "TR081": [
-  "segregation",
-  "subsidiary-hazard"
- ],
- "TR082": [
-  "explosives",
-  "compat-6"
- ],
- "TR083": [
   "filler"
  ],
+ "TR082": [
+  "filler"
+ ],
+ "TR083": [
+  "blend",
+  "toxicity",
+  "precedence"
+ ],
  "TR084": [
-  "exceptions",
-  "poison"
+  "segregation",
+  "cyanide"
  ],
  "TR085": [
-  "segregation",
-  "pih"
+  "blend",
+  "toxicity",
+  "mixture",
+  "zone"
  ],
  "TR086": [
-  "segregation",
-  "subsidiary-hazard"
+  "filler"
  ],
  "TR087": [
   "filler"
@@ -312,252 +352,597 @@
   "filler"
  ],
  "TR089": [
-  "explosives",
-  "o"
+  "filler"
  ],
  "TR090": [
-  "filler"
+  "explosives",
+  "x"
  ],
  "TR091": [
-  "filler"
- ],
- "TR092": [
-  "subsidiary"
- ],
- "TR093": [
-  "bulk"
- ],
- "TR094": [
-  "filler"
- ],
- "TR095": [
-  "explosives",
-  "blank"
- ],
- "TR096": [
-  "exceptions",
-  "explosives"
- ],
- "TR097": [
   "threshold"
  ],
+ "TR092": [
+  "exceptions",
+  "poison"
+ ],
+ "TR093": [
+  "blend",
+  "gas",
+  "subsidiary-label"
+ ],
+ "TR094": [
+  "blend",
+  "flammability",
+  "exclusion",
+  "bulk"
+ ],
+ "TR095": [
+  "segregation",
+  "cyanide"
+ ],
+ "TR096": [
+  "filler"
+ ],
+ "TR097": [
+  "filler"
+ ],
  "TR098": [
-  "threshold",
-  "combustible"
+  "segregation",
+  "x"
  ],
  "TR099": [
-  "filler"
+  "segregation",
+  "unlabeled"
  ],
  "TR100": [
   "segregation",
-  "o",
-  "corrosive-adjacent"
+  "radioactive"
  ],
  "TR101": [
-  "exceptions",
-  "oxidizer",
-  "note-a"
+  "filler"
  ],
  "TR102": [
-  "exceptions",
-  "explosives"
+  "subsidiary"
  ],
  "TR103": [
   "filler"
  ],
  "TR104": [
-  "uf6"
+  "filler"
  ],
  "TR105": [
-  "dangerous",
-  "single-facility"
+  "blend",
+  "gas",
+  "aerosol"
  ],
  "TR106": [
-  "explosives",
-  "compat-5"
+  "segregation",
+  "o",
+  "corrosive-adjacent"
  ],
  "TR107": [
-  "uf6"
+  "filler"
  ],
  "TR108": [
-  "exceptions",
-  "gases"
+  "blend",
+  "precedence"
  ],
  "TR109": [
   "segregation",
-  "zone"
+  "radioactive"
  ],
  "TR110": [
   "filler"
  ],
  "TR111": [
-  "filler"
+  "segregation",
+  "subsidiary-hazard"
  ],
  "TR112": [
-  "filler"
+  "blend",
+  "gas"
  ],
  "TR113": [
-  "filler"
+  "bulk"
  ],
  "TR114": [
-  "filler"
+  "explosives",
+  "compat-2"
  ],
  "TR115": [
-  "filler"
+  "blend",
+  "toxicity",
+  "boundary"
  ],
  "TR116": [
-  "exceptions",
-  "poison"
+  "blend",
+  "toxicity",
+  "zone"
  ],
  "TR117": [
-  "bulk"
+  "filler"
  ],
  "TR118": [
-  "segregation",
-  "o",
-  "corrosive-adjacent"
+  "filler"
  ],
  "TR119": [
-  "filler"
- ],
- "TR120": [
-  "threshold",
-  "residue"
- ],
- "TR121": [
+  "blend",
+  "corrosive",
   "bulk"
  ],
+ "TR120": [
+  "blend",
+  "corrosive",
+  "segregation"
+ ],
+ "TR121": [
+  "blend",
+  "toxicity",
+  "boundary"
+ ],
  "TR122": [
-  "filler"
+  "bulk"
  ],
  "TR123": [
   "filler"
  ],
  "TR124": [
-  "exceptions",
-  "class9"
- ],
- "TR125": [
-  "filler"
- ],
- "TR126": [
-  "filler"
- ],
- "TR127": [
-  "filler"
- ],
- "TR128": [
-  "filler"
- ],
- "TR129": [
-  "filler"
- ],
- "TR130": [
-  "bulk"
- ],
- "TR131": [
+  "bulk",
   "dangerous"
  ],
- "TR132": [
+ "TR125": [
+  "blend",
+  "subsidiary-label"
+ ],
+ "TR126": [
+  "threshold",
+  "combustible"
+ ],
+ "TR127": [
+  "exceptions",
+  "explosives"
+ ],
+ "TR128": [
+  "bulk"
+ ],
+ "TR129": [
+  "blend",
+  "toxicity",
+  "zone"
+ ],
+ "TR130": [
   "filler"
+ ],
+ "TR131": [
+  "explosives",
+  "blank"
+ ],
+ "TR132": [
+  "explosives",
+  "compat-6"
  ],
  "TR133": [
   "filler"
  ],
  "TR134": [
-  "explosives",
-  "x"
- ],
- "TR135": [
-  "bulk"
- ],
- "TR136": [
   "filler"
  ],
+ "TR135": [
+  "filler"
+ ],
+ "TR136": [
+  "table1",
+  "threshold"
+ ],
  "TR137": [
-  "exceptions",
-  "oxidizer",
-  "note-a"
+  "segregation",
+  "subsidiary-hazard"
  ],
  "TR138": [
-  "segregation",
-  "same-class"
+  "blend",
+  "flammability",
+  "reclass"
  ],
  "TR139": [
+  "table1",
   "threshold"
  ],
  "TR140": [
-  "subsidiary"
- ],
- "TR141": [
-  "segregation",
+  "explosives",
   "o"
  ],
+ "TR141": [
+  "blend",
+  "toxicity",
+  "mixture"
+ ],
  "TR142": [
-  "segregation",
-  "radioactive"
+  "blend",
+  "gas"
  ],
  "TR143": [
-  "filler"
+  "blend",
+  "precedence",
+  "subsidiary"
  ],
  "TR144": [
-  "bulk",
-  "combustible"
+  "filler"
  ],
  "TR145": [
-  "dangerous",
-  "single-category"
+  "explosives",
+  "compat-6"
  ],
  "TR146": [
   "filler"
  ],
  "TR147": [
-  "explosives",
-  "compat-2"
+  "segregation",
+  "zone"
  ],
  "TR148": [
-  "table1"
+  "dangerous",
+  "single-facility"
  ],
  "TR149": [
   "filler"
  ],
  "TR150": [
-  "filler"
+  "dangerous"
  ],
  "TR151": [
   "filler"
  ],
  "TR152": [
-  "filler"
+  "threshold",
+  "residue"
  ],
  "TR153": [
-  "explosives",
-  "compat-5"
+  "filler"
  ],
  "TR154": [
-  "filler"
+  "blend",
+  "precedence"
  ],
  "TR155": [
-  "dangerous",
-  "single-facility"
+  "table1",
+  "radioactive"
  ],
  "TR156": [
-  "filler"
+  "blend",
+  "gas",
+  "zone"
  ],
  "TR157": [
-  "filler"
+  "subsidiary"
  ],
  "TR158": [
-  "bulk",
-  "dangerous"
+  "blend",
+  "gas"
  ],
  "TR159": [
-  "filler"
+  "segregation",
+  "zone"
  ],
  "TR160": [
-  "threshold"
+  "blend",
+  "flammability",
+  "reclass",
+  "bulk"
  ],
  "TR161": [
   "filler"
+ ],
+ "TR162": [
+  "blend",
+  "toxicity"
+ ],
+ "TR163": [
+  "segregation",
+  "pih"
+ ],
+ "TR164": [
+  "explosives",
+  "compat-5"
+ ],
+ "TR165": [
+  "table1"
+ ],
+ "TR166": [
+  "blend",
+  "corrosive",
+  "segregation"
+ ],
+ "TR167": [
+  "blend",
+  "precedence"
+ ],
+ "TR168": [
+  "exceptions",
+  "oxidizer",
+  "note-a"
+ ],
+ "TR169": [
+  "filler"
+ ],
+ "TR170": [
+  "segregation",
+  "pih"
+ ],
+ "TR171": [
+  "filler"
+ ],
+ "TR172": [
+  "table1"
+ ],
+ "TR173": [
+  "blend",
+  "flammability",
+  "elevated"
+ ],
+ "TR174": [
+  "filler"
+ ],
+ "TR175": [
+  "filler"
+ ],
+ "TR176": [
+  "filler"
+ ],
+ "TR177": [
+  "blend",
+  "toxicity",
+  "boundary"
+ ],
+ "TR178": [
+  "explosives",
+  "compat-6"
+ ],
+ "TR179": [
+  "bulk"
+ ],
+ "TR180": [
+  "segregation",
+  "cyanide"
+ ],
+ "TR181": [
+  "blend",
+  "gas",
+  "aerosol"
+ ],
+ "TR182": [
+  "explosives",
+  "note-a"
+ ],
+ "TR183": [
+  "segregation",
+  "x"
+ ],
+ "TR184": [
+  "blend",
+  "corrosive",
+  "bulk"
+ ],
+ "TR185": [
+  "filler"
+ ],
+ "TR186": [
+  "blend",
+  "flammability"
+ ],
+ "TR187": [
+  "filler"
+ ],
+ "TR188": [
+  "blend",
+  "gas"
+ ],
+ "TR189": [
+  "filler"
+ ],
+ "TR190": [
+  "uf6",
+  "table1"
+ ],
+ "TR191": [
+  "threshold",
+  "limited-quantity"
+ ],
+ "TR192": [
+  "filler"
+ ],
+ "TR193": [
+  "blend",
+  "precedence"
+ ],
+ "TR194": [
+  "uf6"
+ ],
+ "TR195": [
+  "filler"
+ ],
+ "TR196": [
+  "filler"
+ ],
+ "TR197": [
+  "filler"
+ ],
+ "TR198": [
+  "filler"
+ ],
+ "TR199": [
+  "blend",
+  "precedence",
+  "note-2"
+ ],
+ "TR200": [
+  "segregation",
+  "x"
+ ],
+ "TR201": [
+  "filler"
+ ],
+ "TR202": [
+  "filler"
+ ],
+ "TR203": [
+  "blend",
+  "toxicity"
+ ],
+ "TR204": [
+  "blend",
+  "subsidiary-label"
+ ],
+ "TR205": [
+  "filler"
+ ],
+ "TR206": [
+  "blend",
+  "precedence"
+ ],
+ "TR207": [
+  "segregation",
+  "subsidiary-hazard"
+ ],
+ "TR208": [
+  "segregation",
+  "o",
+  "corrosive-adjacent"
+ ],
+ "TR209": [
+  "filler"
+ ],
+ "TR210": [
+  "filler"
+ ],
+ "TR211": [
+  "blend",
+  "precedence",
+  "corrosive"
+ ],
+ "TR212": [
+  "blend",
+  "flammability",
+  "exclusion",
+  "bulk"
+ ],
+ "TR213": [
+  "blend",
+  "flammability",
+  "combustible",
+  "bulk"
+ ],
+ "TR214": [
+  "filler"
+ ],
+ "TR215": [
+  "bulk",
+  "combustible"
+ ],
+ "TR216": [
+  "blend",
+  "precedence",
+  "subsidiary-label"
+ ],
+ "TR217": [
+  "blend",
+  "subsidiary-label"
+ ],
+ "TR218": [
+  "segregation",
+  "o"
+ ],
+ "TR219": [
+  "segregation",
+  "unlabeled"
+ ],
+ "TR220": [
+  "dangerous",
+  "single-facility"
+ ],
+ "TR221": [
+  "filler"
+ ],
+ "TR222": [
+  "filler"
+ ],
+ "TR223": [
+  "filler"
+ ],
+ "TR224": [
+  "bulk",
+  "segregation"
+ ],
+ "TR225": [
+  "segregation",
+  "o"
+ ],
+ "TR226": [
+  "threshold"
+ ],
+ "TR227": [
+  "blend",
+  "precedence"
+ ],
+ "TR228": [
+  "exceptions",
+  "oxidizer",
+  "note-a"
+ ],
+ "TR229": [
+  "filler"
+ ],
+ "TR230": [
+  "filler"
+ ],
+ "TR231": [
+  "filler"
+ ],
+ "TR232": [
+  "blend",
+  "flammability",
+  "elevated",
+  "bulk"
+ ],
+ "TR233": [
+  "filler"
+ ],
+ "TR234": [
+  "filler"
+ ],
+ "TR235": [
+  "filler"
+ ],
+ "TR236": [
+  "blend",
+  "flammability",
+  "exclusion"
+ ],
+ "TR237": [
+  "filler"
+ ],
+ "TR238": [
+  "segregation",
+  "o",
+  "corrosive-adjacent"
+ ],
+ "TR239": [
+  "filler"
+ ],
+ "TR240": [
+  "blend",
+  "precedence",
+  "subsidiary"
+ ],
+ "TR241": [
+  "exceptions",
+  "poison"
+ ],
+ "TR242": [
+  "filler"
+ ],
+ "TR243": [
+  "blend",
+  "toxicity",
+  "boundary"
  ]
 }

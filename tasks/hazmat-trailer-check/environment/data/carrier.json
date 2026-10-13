@@ -4,5 +4,7 @@
  "transport": "domestic",
  "trailer": "53 ft dry van, 10 floor bays numbered 1 (nose) to 10 (doors), single tier",
  "packaging_units": "maximum capacity in liters, maximum net mass in kilograms, water capacity in pounds",
- "weight_unit": "pounds"
+ "weight_unit": "pounds",
+ "house_blends": "Packages with lab_data are Heartland's own blends, offered by Heartland and not named in the 172.101 table; they carry no recorded classification, packing group or labels.",
+ "combustible_reclass": "Heartland reclasses as a combustible liquid every flammable liquid that the regulations allow it to reclass."
 }

@@ -1,5 +1,6 @@
-"""Verifier-side model of 49 CFR 172.500-172.505 placarding and 177.848 highway segregation, written
-independently of the reference solution. Reads only the verifier's private copy of the inputs.
+"""Verifier-side model of 49 CFR 172.500-172.505 placarding and 177.848 highway segregation, with
+classification of house blends from lab data under 173.2a, 173.115-173.137, 173.150 and 172.402,
+written independently of the reference solution. Reads only the verifier's private copy of the inputs.
 """
 import json
 from pathlib import Path
@@ -27,11 +28,270 @@ def bulk(p):
     return p["water_capacity_lb"] is not None and p["water_capacity_lb"] > 1000
 
 
+# ---------------------------------------------------------------- classification of house blends
+# 173.2a(b) precedence of hazard table. Columns, then one line per row ("." blank, "x" impossible).
+PREC_COLUMNS = ["4.2", "4.3", "5.1/I", "5.1/II", "5.1/III", "6.1/I/dermal", "6.1/I/oral", "6.1/II", "6.1/III",
+                "8/I/liquid", "8/I/solid", "8/II/liquid", "8/II/solid", "8/III/liquid", "8/III/solid"]
+PREC_ROWS = """
+3/I               .   4.3 .   .   .   3   3   3   3   3   x   3   x   3   x
+3/II              .   4.3 .   .   .   3   3   3   3   8   x   3   x   3   x
+3/III             .   4.3 .   .   .   6.1 6.1 6.1 3p  8   x   8   x   3   x
+4.1/II            4.2 4.3 5.1 4.1 4.1 6.1 6.1 4.1 4.1 x   8   x   4.1 x   4.1
+4.1/III           4.2 4.3 5.1 4.1 4.1 6.1 6.1 6.1 4.1 x   8   x   8   x   4.1
+4.2/II            .   4.3 5.1 4.2 4.2 6.1 6.1 4.2 4.2 8   8   4.2 4.2 4.2 4.2
+4.2/III           .   4.3 5.1 5.1 4.2 6.1 6.1 6.1 4.2 8   8   8   8   4.2 4.2
+4.3/I             .   .   5.1 4.3 4.3 6.1 4.3 4.3 4.3 4.3 4.3 4.3 4.3 4.3 4.3
+4.3/II            .   .   5.1 4.3 4.3 6.1 4.3 4.3 4.3 8   8   4.3 4.3 4.3 4.3
+4.3/III           .   .   5.1 5.1 4.3 6.1 6.1 6.1 4.3 8   8   8   8   4.3 4.3
+5.1/I             .   .   .   .   .   5.1 5.1 5.1 5.1 5.1 5.1 5.1 5.1 5.1 5.1
+5.1/II            .   .   .   .   .   6.1 5.1 5.1 5.1 8   8   5.1 5.1 5.1 5.1
+5.1/III           .   .   .   .   .   6.1 6.1 6.1 5.1 8   8   8   8   5.1 5.1
+6.1/I/dermal      .   .   .   .   .   .   .   .   .   8   6.1 6.1 6.1 6.1 6.1
+6.1/I/oral        .   .   .   .   .   .   .   .   .   8   6.1 6.1 6.1 6.1 6.1
+6.1/II/inhalation .   .   .   .   .   .   .   .   .   8   6.1 6.1 6.1 6.1 6.1
+6.1/II/dermal     .   .   .   .   .   .   .   .   .   8   6.1 8   6.1 6.1 6.1
+6.1/II/oral       .   .   .   .   .   .   .   .   .   8   8   8   6.1 6.1 6.1
+6.1/III           .   .   .   .   .   .   .   .   .   8   8   8   8   8   8
+"""
+PREC = {}
+for line in PREC_ROWS.strip().splitlines():
+    rname, *vals = line.split()
+    for cname, v in zip(PREC_COLUMNS, vals):
+        if v != ".":
+            PREC[(rname, cname)] = v
+ROMAN = ["I", "II", "III"]
+
+
+def _celsius(t):
+    if t is None:
+        return None
+    if t["unit"] == "F":
+        return (t["value"] - 32) * 5 / 9
+    return t["value"]
+
+
+def _band(x, cuts):
+    """Packing group for a value against (I, II, III) upper limits, inclusive."""
+    if x is None:
+        return None
+    for g, cut in zip(ROMAN, cuts):
+        if x <= cut:
+            return g
+    return None
+
+
+def gas_class(lab):
+    if lab["aerosol"]:
+        fl, hc = lab["aerosol"]["flammable_components_pct_mass"], lab["aerosol"]["heat_of_combustion_kj_g"]
+        if fl >= 85 and hc >= 30:
+            return ("2.1", [], None)
+        if fl <= 1 and hc < 20:
+            return ("2.2", [], None)
+        raise ValueError("aerosol outside 173.115(l)(1)-(2)")
+    g = lab["gas"]
+    lc50 = g["lc50_ppm"]
+    if lc50 is None and g["toxic_components"]:
+        lc50 = 1.0 / sum(c["mole_fraction"] / c["lc50_ppm"] for c in g["toxic_components"])
+    lo, hi = g["lower_flammable_limit_pct"], g["upper_flammable_limit_pct"]
+    flam = lo is not None and (lo <= 13 or hi - lo >= 12)
+    if lc50 is not None and lc50 <= 5000:
+        zone = "A" if lc50 <= 200 else ("B" if lc50 <= 1000 else ("C" if lc50 <= 3000 else "D"))
+        return ("2.3", ["2.1"] if flam else [], zone)
+    if flam:
+        return ("2.1", [], None)
+    pr = g["gauge_pressure_20c"]
+    kpa = pr["value"] * (6.894757 if pr["unit"] == "psig" else 1.0)
+    if kpa >= 200 or g["liquefied"] or g["cryogenic"]:
+        return ("2.2", ["5.1"] if g["oxidizing"] else [], None)
+    return None
+
+
+def _components_at_least(lab, flash_c, pct):
+    comps = lab["components"] or []
+    return bool(comps) and sum(c["volume_pct"] for c in comps if _celsius(c["flash_point"]) >= flash_c) >= pct
+
+
+def liquid_flammability(p):
+    """('3', pg, fp, elevated) / ('combustible',) / None for a liquid's flash point data alone."""
+    lab = p["lab_data"]
+    fp = _celsius(lab["flash_point"])
+    if p["physical_state"] != "liquid" or fp is None:
+        return None
+    hot = _celsius(lab["transport_temperature"])
+    above = hot is not None and hot >= fp
+    elevated = lab["intentionally_heated"] and above and bulk(p) and fp >= 37.8
+    if fp <= 60 or elevated:
+        excluded = (not above and _components_at_least(lab, 60, 99)) or (fp > 35 and (
+            lab["sustains_combustion"] is False
+            or (lab["fire_point"] is not None and _celsius(lab["fire_point"]) > 100)
+            or (lab["water_miscible"] and (lab["water_pct_mass"] or 0) > 90)))
+        if not excluded:
+            ibp = _celsius(lab["initial_boiling_point"])
+            pg = "I" if ibp is not None and ibp <= 35 else ("II" if fp < 23 else "III")
+            return ("3", pg, fp, elevated)
+        return None
+    if 60 < fp < 93 and lab["sustains_combustion"] is not False and not (not above and
+                                                                      _components_at_least(lab, 93, 99)):
+        return ("combustible",)
+    return None
+
+
+def toxicity(p):
+    lab = p["lab_data"]
+    by_route = {"oral": _band(lab["oral_ld50_mg_kg"], (5, 50, 300)),
+                "dermal": _band(lab["dermal_ld50_mg_kg"], (50, 200, 1000))}
+    dm = lab["dust_mist_lc50_mg_l"]
+    dust = _band(dm["value"] * 4 if dm and dm["exposure_hours"] == 4 else (dm["value"] if dm else None),
+                 (0.2, 2.0, 4.0))
+    vapor, zone = None, None
+    if p["physical_state"] == "liquid":
+        lc50 = ratio = None
+        if lab["toxic_vapor_components"]:
+            cs = lab["toxic_vapor_components"]
+            lc50 = 1.0 / sum(c["mole_fraction"] / c["vapor_lc50_ml_m3"] for c in cs)
+            ratio = sum((c["mole_fraction"] * c["vapor_pressure_20c_kpa"] * 1e6 / 101.3) / c["vapor_lc50_ml_m3"]
+                        for c in cs)
+        elif lab["vapor_lc50_ml_m3"] and lab["vapor_pressure_20c"]:
+            v = lab["vapor_lc50_ml_m3"]
+            lc50 = v["value"] * 2 if v["exposure_hours"] == 4 else v["value"]
+            vp = lab["vapor_pressure_20c"]
+            kpa = vp["value"] if vp["unit"] == "kPa" else vp["value"] * 101.325 / 760
+            ratio = (kpa * 1e6 / 101.3) / lc50
+        if lc50 is not None:
+            for g, z, r_min, lc_max in (("I", "A", 500, 200), ("I", "B", 10, 1000), ("II", None, 1, 3000),
+                                        ("III", None, 0.2, 5000)):
+                if ratio >= r_min and lc50 <= lc_max:
+                    vapor, zone = g, z
+                    break
+    inh = [g for g in (dust, vapor) if g]
+    by_route["inhalation"] = min(inh, key=ROMAN.index) if inh else None
+    hits = {r: g for r, g in by_route.items() if g}
+    if not hits:
+        return None
+    worst = min(hits.values(), key=ROMAN.index)
+    routes = [r for r in hits if hits[r] == worst]
+    assert len(routes) == 1, "tied routes"
+    od = [hits[r] for r in ("oral", "dermal") if r in hits]
+    return {"cls": "6.1", "pg": worst, "route": routes[0], "zone": zone if vapor == "I" else None,
+            "dust": dust, "oral_dermal_worst": min(od, key=ROMAN.index) if od else None}
+
+
+def corrosivity(p):
+    lab = p["lab_data"]
+    t = lab["skin_corrosion_oecd_404"]
+    if t and t["irreversible_damage"]:
+        m = t["exposure_minutes"]
+        if m <= 3 and t["damage_observed_within"] == "60 minutes":
+            return {"cls": "8", "pg": "I"}
+        if m <= 60:
+            return {"cls": "8", "pg": "II"}
+        if m <= 240:
+            return {"cls": "8", "pg": "III"}
+    rates = lab["corrosion_rate_55c"]
+    if rates and (p["physical_state"] == "liquid" or lab["may_liquefy_in_transport"]):
+        def mm(r):
+            return 0 if r is None else (r["value"] * 25.4 if r["unit"] == "in/yr" else r["value"])
+        if mm(rates["steel"]) > 6.25 or mm(rates["aluminum"]) > 6.25:
+            return {"cls": "8", "pg": "III"}
+    return None
+
+
+def _row_names(h, state):
+    c, g = h["cls"], h["pg"]
+    if c == "6.1":
+        return [f"6.1/{g}/{h['route']}"] if g in ("I", "II") else ["6.1/III"]
+    if c == "8":
+        return []
+    return [f"{c}/{g}"]
+
+
+def _col_names(h, state):
+    c, g = h["cls"], h["pg"]
+    if c in ("4.2", "4.3"):
+        return [c]
+    if c == "6.1":
+        return [f"6.1/I/{h['route']}"] if g == "I" else [f"6.1/{g}"]
+    if c == "8":
+        return [f"8/{g}/{state}"]
+    if c == "5.1":
+        return [f"5.1/{g}"]
+    return []
+
+
+def rank_two(a, b, state, pesticide):
+    pair = {a["cls"], b["cls"]}
+    if pair == {"6.1", "8"}:
+        tox = a if a["cls"] == "6.1" else b
+        cor = b if tox is a else a
+        if tox["dust"] == "I":                                 # 173.2a(b) Note 2
+            return tox if tox["oral_dermal_worst"] in ("I", "II") else cor
+    for r, c in ((a, b), (b, a)):
+        for rn in _row_names(r, state):
+            for cn in _col_names(c, state):
+                v = PREC.get((rn, cn))
+                if v is None:
+                    continue
+                assert v != "x", "impossible combination"
+                if v == "3p":
+                    v = "6.1" if pesticide else "3"
+                return r if v == r["cls"] else c
+    raise AssertionError(f"precedence missing {a} {b}")
+
+
+def classify(p):
+    """Returns the package as the placard and segregation rules see it, or None if not regulated."""
+    lab = p["lab_data"]
+    if lab is None:
+        return dict(p, labeled=bool(p["labels_required"]), seg_subs=list(p["subsidiary_hazards"]),
+                    hexafluoride="uranium hexafluoride" in (p["proper_shipping_name"] or "").lower())
+    base = dict(p, labeled=True, hexafluoride=False)
+    if p["physical_state"] == "gas":
+        g = gas_class(lab)
+        if g is None:
+            return None
+        cls, subs, zone = g
+        return dict(base, hazard_class=cls, subsidiary_hazards=subs, seg_subs=subs, packing_group=None,
+                    poison_inhalation_hazard_zone=zone)
+    flam = liquid_flammability(p)
+    hazards = []
+    if flam and flam[0] == "3":
+        hazards.append({"cls": "3", "pg": flam[1], "fp": flam[2], "elevated": flam[3]})
+    tox = toxicity(p)
+    if tox:
+        hazards.append(tox)
+    cor = corrosivity(p)
+    if cor:
+        hazards.append(cor)
+    for f in lab["other_findings"]:
+        hazards.append({"cls": f["division"], "pg": f.get("packing_group"), "pyro": f.get("pyrophoric", False),
+                        "self_reactive": f.get("self_reactive", False)})
+    combustible = dict(base, hazard_class="combustible liquid", subsidiary_hazards=[], seg_subs=[],
+                       packing_group="III", poison_inhalation_hazard_zone=None, labeled=False)
+    if not hazards:
+        return combustible if flam == ("combustible",) else None
+    if len(hazards) == 1 and hazards[0]["cls"] == "3" and not hazards[0]["elevated"] and hazards[0]["fp"] >= 38:
+        return combustible                                     # 173.120(b)(2), always taken by the carrier
+    if tox and tox["zone"]:
+        main = tox                                             # 173.2a(a)(5)
+    elif any(h.get("pyro") for h in hazards):
+        main = [h for h in hazards if h.get("pyro")][0]
+    elif any(h.get("self_reactive") for h in hazards):
+        main = [h for h in hazards if h.get("self_reactive")][0]
+    elif len(hazards) == 1:
+        main = hazards[0]
+    else:
+        assert len(hazards) == 2
+        main = rank_two(hazards[0], hazards[1], p["physical_state"], lab["pesticide"])
+    rest = [h for h in hazards if h is not main]
+    seg_subs = [h["cls"] for h in rest]                       # every subsidiary hazard is labeled
+    return dict(base, hazard_class=main["cls"], subsidiary_hazards=[h["cls"] for h in rest], seg_subs=seg_subs,
+                packing_group=min((h["pg"] for h in hazards if h["pg"]), key=ROMAN.index),
+                poison_inhalation_hazard_zone=tox["zone"] if (tox and tox["zone"]) else None)
+
+
 def placard_set(packages):
     any_q, weighted, keep505, in_bulk = set(), [], set(), set()
-    hexafluoride_lb = sum(p["gross_weight_lb"] for p in packages
-                          if "uranium hexafluoride" in p["proper_shipping_name"].lower()
-                          and not p["limited_quantity"])
+    hexafluoride_lb = sum(p["gross_weight_lb"] for p in packages if p["hexafluoride"] and not p["limited_quantity"])
     for p in packages:
         c = p["hazard_class"]
         if p["limited_quantity"]:
@@ -192,14 +452,14 @@ def explosive_conflict(p, q, packages):
 
 
 def conflict(p, q, packages):
-    if not (p["labels_required"] and q["labels_required"]):
+    if not (p["labeled"] and q["labeled"]):
         return False
     if (p["cyanide"] and q["acid"]) or (p["acid"] and q["cyanide"]):
         return True
     p_hz, q_hz = [p["hazard_class"]], [q["hazard_class"]]
     if p["hazard_class"].split(".")[0] != q["hazard_class"].split(".")[0]:
-        p_hz += p["subsidiary_hazards"]
-        q_hz += q["subsidiary_hazards"]
+        p_hz += p["seg_subs"]                                  # labeled subsidiary hazards, 177.848(e)(6)
+        q_hz += q["seg_subs"]
     for hp in p_hz:
         for hq in q_hz:
             cp, cq = column_for(hp, p), column_for(hq, q)
@@ -226,7 +486,7 @@ def expected():
     trailers = json.loads((DATA / "trailers.json").read_text())
     out = {}
     for t in trailers:
-        pk = t["packages"]
+        pk = [c for c in map(classify, t["packages"]) if c is not None]
         pairs = []
         for i in range(len(pk)):
             for j in range(i + 1, len(pk)):

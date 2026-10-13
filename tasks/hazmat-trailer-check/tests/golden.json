@@ -1,326 +1,390 @@
 {
+ "TR001": {
+  "placards": "RADIOACTIVE",
+  "segregation_violations": "none"
+ },
  "TR002": {
-  "placards": "none",
+  "placards": "POISON",
   "segregation_violations": "none"
  },
  "TR003": {
   "placards": "EXPLOSIVES 1.3",
-  "segregation_violations": "PK0010+PK0011"
- },
- "TR004": {
-  "placards": "none",
   "segregation_violations": "none"
  },
- "TR006": {
-  "placards": "CORROSIVE;POISON;RADIOACTIVE",
+ "TR005": {
+  "placards": "FLAMMABLE",
   "segregation_violations": "none"
  },
- "TR007": {
-  "placards": "none",
-  "segregation_violations": "none"
- },
- "TR008": {
+ "TR009": {
   "placards": "none",
   "segregation_violations": "none"
  },
  "TR010": {
-  "placards": "none",
-  "segregation_violations": "none"
+  "placards": "POISON GAS",
+  "segregation_violations": "PK0060+PK0061"
  },
  "TR011": {
-  "placards": "DANGEROUS WHEN WET",
+  "placards": "none",
+  "segregation_violations": "PK0062+PK0063"
+ },
+ "TR012": {
+  "placards": "DANGEROUS",
   "segregation_violations": "none"
  },
  "TR014": {
-  "placards": "POISON INHALATION HAZARD",
+  "placards": "none",
   "segregation_violations": "none"
  },
  "TR015": {
-  "placards": "none",
+  "placards": "DANGEROUS WHEN WET",
   "segregation_violations": "none"
  },
  "TR016": {
-  "placards": "none",
+  "placards": "SPONTANEOUSLY COMBUSTIBLE",
   "segregation_violations": "none"
  },
- "TR019": {
-  "placards": "none",
+ "TR017": {
+  "placards": "POISON",
+  "segregation_violations": "none"
+ },
+ "TR018": {
+  "placards": "COMBUSTIBLE",
+  "segregation_violations": "none"
+ },
+ "TR020": {
+  "placards": "POISON",
   "segregation_violations": "none"
  },
  "TR021": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR022": {
   "placards": "POISON GAS",
+  "segregation_violations": "PK0090+PK0091"
+ },
+ "TR023": {
+  "placards": "CORROSIVE",
+  "segregation_violations": "none"
+ },
+ "TR024": {
+  "placards": "CORROSIVE;DANGEROUS WHEN WET",
+  "segregation_violations": "none"
+ },
+ "TR026": {
+  "placards": "DANGEROUS",
+  "segregation_violations": "none"
+ },
+ "TR027": {
+  "placards": "CORROSIVE;DANGEROUS",
+  "segregation_violations": "none"
+ },
+ "TR028": {
+  "placards": "COMBUSTIBLE",
   "segregation_violations": "none"
  },
  "TR029": {
-  "placards": "DANGEROUS;NON-FLAMMABLE GAS",
-  "segregation_violations": "none"
+  "placards": "EXPLOSIVES 1.3",
+  "segregation_violations": "PK0111+PK0115;PK0111+PK0116;PK0111+PK0117;PK0111+PK0118;PK0111+PK0119;PK0112+PK0115;PK0112+PK0116;PK0112+PK0117;PK0112+PK0118;PK0112+PK0119;PK0113+PK0115;PK0113+PK0116;PK0113+PK0117;PK0113+PK0118;PK0113+PK0119;PK0114+PK0115;PK0114+PK0116;PK0114+PK0117;PK0114+PK0118;PK0114+PK0119"
  },
  "TR030": {
-  "placards": "EXPLOSIVES 1.1",
-  "segregation_violations": "PK0121+PK0122"
- },
- "TR031": {
-  "placards": "FLAMMABLE",
+  "placards": "CORROSIVE",
   "segregation_violations": "none"
  },
  "TR032": {
-  "placards": "none",
-  "segregation_violations": "none"
+  "placards": "POISON GAS",
+  "segregation_violations": "PK0125+PK0126"
  },
  "TR033": {
   "placards": "none",
   "segregation_violations": "none"
  },
  "TR034": {
-  "placards": "DANGEROUS;FLAMMABLE SOLID",
+  "placards": "POISON",
   "segregation_violations": "none"
  },
  "TR035": {
-  "placards": "EXPLOSIVES 1.4",
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR036": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR038": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "PK0150+PK0154;PK0150+PK0155;PK0151+PK0154;PK0151+PK0155;PK0152+PK0154;PK0152+PK0155;PK0153+PK0154;PK0153+PK0155"
+ },
+ "TR039": {
+  "placards": "FLAMMABLE GAS",
   "segregation_violations": "none"
  },
  "TR040": {
-  "placards": "POISON GAS",
-  "segregation_violations": "PK0141+PK0142"
+  "placards": "none",
+  "segregation_violations": "none"
  },
  "TR041": {
-  "placards": "CORROSIVE;DANGEROUS WHEN WET",
+  "placards": "CORROSIVE",
+  "segregation_violations": "none"
+ },
+ "TR043": {
+  "placards": "none",
   "segregation_violations": "none"
  },
  "TR044": {
-  "placards": "EXPLOSIVES 1.1",
-  "segregation_violations": "PK0156+PK0157"
+  "placards": "none",
+  "segregation_violations": "none"
  },
  "TR045": {
-  "placards": "none",
-  "segregation_violations": "PK0158+PK0159"
+  "placards": "DANGEROUS",
+  "segregation_violations": "none"
  },
  "TR046": {
-  "placards": "DANGEROUS WHEN WET;FLAMMABLE",
+  "placards": "none",
   "segregation_violations": "none"
  },
  "TR047": {
-  "placards": "DANGEROUS WHEN WET",
+  "placards": "none",
   "segregation_violations": "none"
  },
  "TR048": {
-  "placards": "CORROSIVE;OXIDIZER",
-  "segregation_violations": "PK0164+PK0165"
- },
- "TR054": {
   "placards": "none",
-  "segregation_violations": "PK0195+PK0196"
+  "segregation_violations": "none"
  },
- "TR055": {
-  "placards": "DANGEROUS WHEN WET;POISON GAS",
-  "segregation_violations": "PK0197+PK0198"
+ "TR049": {
+  "placards": "none",
+  "segregation_violations": "PK0206+PK0207"
+ },
+ "TR050": {
+  "placards": "CORROSIVE;DANGEROUS WHEN WET",
+  "segregation_violations": "none"
+ },
+ "TR051": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR052": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
  },
  "TR056": {
-  "placards": "DANGEROUS",
+  "placards": "DANGEROUS;NON-FLAMMABLE GAS",
   "segregation_violations": "none"
  },
  "TR057": {
-  "placards": "DANGEROUS",
+  "placards": "EXPLOSIVES 1.4",
   "segregation_violations": "none"
  },
  "TR058": {
-  "placards": "none",
-  "segregation_violations": "PK0205+PK0206"
- },
- "TR060": {
-  "placards": "FLAMMABLE",
+  "placards": "FLAMMABLE SOLID",
   "segregation_violations": "none"
  },
  "TR061": {
   "placards": "none",
-  "segregation_violations": "PK0211+PK0212"
+  "segregation_violations": "PK0291+PK0292"
  },
  "TR064": {
-  "placards": "none",
+  "placards": "DANGEROUS",
   "segregation_violations": "none"
  },
  "TR065": {
-  "placards": "POISON INHALATION HAZARD",
+  "placards": "CORROSIVE;DANGEROUS WHEN WET",
   "segregation_violations": "none"
  },
  "TR066": {
   "placards": "none",
-  "segregation_violations": "PK0226+PK0227"
+  "segregation_violations": "PK0311+PK0320;PK0312+PK0320;PK0313+PK0320;PK0314+PK0320;PK0315+PK0320;PK0316+PK0320;PK0317+PK0320;PK0318+PK0320;PK0319+PK0320"
  },
- "TR068": {
-  "placards": "DANGEROUS",
+ "TR067": {
+  "placards": "CORROSIVE",
   "segregation_violations": "none"
  },
+ "TR068": {
+  "placards": "POISON INHALATION HAZARD",
+  "segregation_violations": "PK0322+PK0323"
+ },
  "TR069": {
-  "placards": "none",
-  "segregation_violations": "PK0239+PK0240"
- },
- "TR070": {
-  "placards": "none",
-  "segregation_violations": "PK0241+PK0242"
- },
- "TR072": {
-  "placards": "none",
+  "placards": "CORROSIVE;POISON INHALATION HAZARD",
   "segregation_violations": "none"
  },
  "TR073": {
-  "placards": "none",
-  "segregation_violations": "none"
- },
- "TR075": {
-  "placards": "RADIOACTIVE",
+  "placards": "POISON",
   "segregation_violations": "none"
  },
  "TR076": {
-  "placards": "POISON INHALATION HAZARD",
-  "segregation_violations": "PK0260+PK0261"
+  "placards": "DANGEROUS",
+  "segregation_violations": "none"
  },
  "TR077": {
-  "placards": "POISON GAS",
+  "placards": "COMBUSTIBLE",
   "segregation_violations": "none"
  },
- "TR078": {
-  "placards": "EXPLOSIVES 1.1",
-  "segregation_violations": "none"
- },
- "TR081": {
+ "TR079": {
   "placards": "none",
   "segregation_violations": "none"
  },
- "TR082": {
-  "placards": "EXPLOSIVES 1.1",
+ "TR080": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR083": {
+  "placards": "POISON",
   "segregation_violations": "none"
  },
  "TR084": {
-  "placards": "POISON",
+  "placards": "none",
   "segregation_violations": "none"
  },
  "TR085": {
   "placards": "POISON INHALATION HAZARD",
+  "segregation_violations": "PK0392+PK0393"
+ },
+ "TR090": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "PK0421+PK0426;PK0422+PK0426;PK0423+PK0426;PK0424+PK0426;PK0425+PK0426"
+ },
+ "TR091": {
+  "placards": "none",
   "segregation_violations": "none"
  },
- "TR086": {
-  "placards": "none",
-  "segregation_violations": "PK0289+PK0290"
- },
- "TR089": {
-  "placards": "none",
-  "segregation_violations": "PK0303+PK0304"
- },
  "TR092": {
-  "placards": "CORROSIVE;DANGEROUS WHEN WET",
+  "placards": "POISON GAS",
   "segregation_violations": "none"
  },
  "TR093": {
   "placards": "none",
+  "segregation_violations": "PK0431+PK0433;PK0432+PK0433"
+ },
+ "TR094": {
+  "placards": "COMBUSTIBLE",
   "segregation_violations": "none"
  },
  "TR095": {
   "placards": "none",
-  "segregation_violations": "none"
- },
- "TR096": {
-  "placards": "EXPLOSIVES 1.3",
-  "segregation_violations": "none"
- },
- "TR097": {
-  "placards": "FLAMMABLE",
-  "segregation_violations": "none"
+  "segregation_violations": "PK0435+PK0436"
  },
  "TR098": {
+  "placards": "none",
+  "segregation_violations": "PK0454+PK0455"
+ },
+ "TR099": {
   "placards": "none",
   "segregation_violations": "none"
  },
  "TR100": {
   "placards": "none",
-  "segregation_violations": "PK0328+PK0329"
- },
- "TR101": {
-  "placards": "EXPLOSIVES 1.1",
-  "segregation_violations": "none"
+  "segregation_violations": "PK0462+PK0463;PK0462+PK0464"
  },
  "TR102": {
-  "placards": "none",
-  "segregation_violations": "none"
- },
- "TR104": {
-  "placards": "CORROSIVE;POISON",
-  "segregation_violations": "none"
- },
- "TR105": {
-  "placards": "CORROSIVE;DANGEROUS",
-  "segregation_violations": "none"
- },
- "TR106": {
-  "placards": "EXPLOSIVES 1.1",
-  "segregation_violations": "none"
- },
- "TR107": {
-  "placards": "none",
-  "segregation_violations": "none"
- },
- "TR108": {
-  "placards": "FLAMMABLE GAS",
-  "segregation_violations": "none"
- },
- "TR109": {
-  "placards": "DANGEROUS WHEN WET;POISON GAS",
-  "segregation_violations": "none"
- },
- "TR116": {
   "placards": "POISON GAS",
   "segregation_violations": "none"
  },
- "TR117": {
-  "placards": "CORROSIVE",
+ "TR105": {
+  "placards": "NON-FLAMMABLE GAS",
   "segregation_violations": "none"
  },
- "TR118": {
+ "TR106": {
+  "placards": "none",
+  "segregation_violations": "PK0515+PK0516"
+ },
+ "TR108": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR109": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR111": {
+  "placards": "none",
+  "segregation_violations": "PK0538+PK0539"
+ },
+ "TR112": {
+  "placards": "FLAMMABLE GAS",
+  "segregation_violations": "none"
+ },
+ "TR113": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR114": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "none"
+ },
+ "TR115": {
+  "placards": "POISON",
+  "segregation_violations": "none"
+ },
+ "TR116": {
+  "placards": "POISON INHALATION HAZARD",
+  "segregation_violations": "PK0558+PK0559"
+ },
+ "TR119": {
   "placards": "none",
   "segregation_violations": "none"
  },
  "TR120": {
-  "placards": "FLAMMABLE",
-  "segregation_violations": "none"
+  "placards": "none",
+  "segregation_violations": "PK0582+PK0583"
  },
  "TR121": {
+  "placards": "POISON",
+  "segregation_violations": "none"
+ },
+ "TR122": {
   "placards": "CORROSIVE",
   "segregation_violations": "none"
  },
  "TR124": {
+  "placards": "DANGEROUS;FLAMMABLE SOLID",
+  "segregation_violations": "none"
+ },
+ "TR125": {
+  "placards": "none",
+  "segregation_violations": "PK0602+PK0604;PK0603+PK0604"
+ },
+ "TR126": {
   "placards": "none",
   "segregation_violations": "none"
  },
- "TR130": {
+ "TR127": {
   "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR128": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR129": {
+  "placards": "POISON INHALATION HAZARD",
   "segregation_violations": "none"
  },
  "TR131": {
-  "placards": "DANGEROUS",
+  "placards": "none",
   "segregation_violations": "none"
  },
- "TR134": {
+ "TR132": {
   "placards": "EXPLOSIVES 1.1",
-  "segregation_violations": "PK0458+PK0459"
+  "segregation_violations": "PK0644+PK0649;PK0644+PK0650;PK0645+PK0649;PK0645+PK0650;PK0646+PK0649;PK0646+PK0650;PK0647+PK0649;PK0647+PK0650;PK0648+PK0649;PK0648+PK0650"
  },
- "TR135": {
-  "placards": "FLAMMABLE SOLID",
+ "TR136": {
+  "placards": "DANGEROUS WHEN WET;FLAMMABLE",
   "segregation_violations": "none"
  },
  "TR137": {
-  "placards": "EXPLOSIVES 1.5",
+  "placards": "none",
   "segregation_violations": "none"
  },
  "TR138": {
-  "placards": "CORROSIVE;DANGEROUS WHEN WET",
+  "placards": "none",
   "segregation_violations": "none"
  },
  "TR139": {
-  "placards": "DANGEROUS",
+  "placards": "DANGEROUS WHEN WET",
   "segregation_violations": "none"
  },
  "TR140": {
-  "placards": "CORROSIVE;POISON INHALATION HAZARD",
+  "placards": "none",
   "segregation_violations": "none"
  },
  "TR141": {
@@ -328,39 +392,263 @@
   "segregation_violations": "none"
  },
  "TR142": {
-  "placards": "none",
-  "segregation_violations": "PK0472+PK0473"
+  "placards": "FLAMMABLE GAS",
+  "segregation_violations": "none"
  },
- "TR144": {
-  "placards": "COMBUSTIBLE",
+ "TR143": {
+  "placards": "DANGEROUS WHEN WET",
   "segregation_violations": "none"
  },
  "TR145": {
-  "placards": "FLAMMABLE",
+  "placards": "EXPLOSIVES 1.1",
   "segregation_violations": "none"
  },
  "TR147": {
-  "placards": "EXPLOSIVES 1.1",
-  "segregation_violations": "none"
+  "placards": "DANGEROUS WHEN WET;POISON GAS",
+  "segregation_violations": "PK0731+PK0732"
  },
  "TR148": {
-  "placards": "POISON GAS",
-  "segregation_violations": "none"
- },
- "TR153": {
-  "placards": "EXPLOSIVES 1.1",
-  "segregation_violations": "PK0519+PK0520"
- },
- "TR155": {
   "placards": "DANGEROUS;FLAMMABLE",
   "segregation_violations": "none"
  },
- "TR158": {
+ "TR150": {
   "placards": "DANGEROUS",
   "segregation_violations": "none"
  },
- "TR160": {
+ "TR152": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR154": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR155": {
   "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR156": {
+  "placards": "POISON GAS",
+  "segregation_violations": "none"
+ },
+ "TR157": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR158": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR159": {
+  "placards": "DANGEROUS WHEN WET;POISON GAS",
+  "segregation_violations": "none"
+ },
+ "TR160": {
+  "placards": "COMBUSTIBLE",
+  "segregation_violations": "none"
+ },
+ "TR162": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR163": {
+  "placards": "POISON INHALATION HAZARD",
+  "segregation_violations": "none"
+ },
+ "TR164": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "none"
+ },
+ "TR165": {
+  "placards": "POISON INHALATION HAZARD",
+  "segregation_violations": "none"
+ },
+ "TR166": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR167": {
+  "placards": "CORROSIVE",
+  "segregation_violations": "none"
+ },
+ "TR168": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "none"
+ },
+ "TR170": {
+  "placards": "POISON INHALATION HAZARD",
+  "segregation_violations": "PK0835+PK0836"
+ },
+ "TR172": {
+  "placards": "POISON GAS",
+  "segregation_violations": "none"
+ },
+ "TR173": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR177": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR178": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "PK0877+PK0882;PK0877+PK0883;PK0878+PK0882;PK0878+PK0883;PK0879+PK0882;PK0879+PK0883;PK0880+PK0882;PK0880+PK0883;PK0881+PK0882;PK0881+PK0883"
+ },
+ "TR179": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR180": {
+  "placards": "none",
+  "segregation_violations": "PK0886+PK0887"
+ },
+ "TR181": {
+  "placards": "FLAMMABLE GAS",
+  "segregation_violations": "none"
+ },
+ "TR182": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "none"
+ },
+ "TR183": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR184": {
+  "placards": "CORROSIVE",
+  "segregation_violations": "none"
+ },
+ "TR186": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR188": {
+  "placards": "NON-FLAMMABLE GAS",
+  "segregation_violations": "none"
+ },
+ "TR190": {
+  "placards": "CORROSIVE;POISON;RADIOACTIVE",
+  "segregation_violations": "none"
+ },
+ "TR191": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR193": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR194": {
+  "placards": "CORROSIVE;POISON",
+  "segregation_violations": "none"
+ },
+ "TR199": {
+  "placards": "POISON",
+  "segregation_violations": "none"
+ },
+ "TR200": {
+  "placards": "POISON GAS",
+  "segregation_violations": "none"
+ },
+ "TR203": {
+  "placards": "POISON INHALATION HAZARD",
+  "segregation_violations": "none"
+ },
+ "TR204": {
+  "placards": "none",
+  "segregation_violations": "PK1042+PK1043"
+ },
+ "TR206": {
+  "placards": "CORROSIVE",
+  "segregation_violations": "none"
+ },
+ "TR207": {
+  "placards": "none",
+  "segregation_violations": "PK1050+PK1051"
+ },
+ "TR208": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR211": {
+  "placards": "CORROSIVE",
+  "segregation_violations": "none"
+ },
+ "TR212": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR213": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR215": {
+  "placards": "COMBUSTIBLE",
+  "segregation_violations": "none"
+ },
+ "TR216": {
+  "placards": "DANGEROUS WHEN WET",
+  "segregation_violations": "PK1079+PK1080"
+ },
+ "TR217": {
+  "placards": "none",
+  "segregation_violations": "PK1081+PK1083;PK1082+PK1083"
+ },
+ "TR218": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR219": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR220": {
+  "placards": "DANGEROUS",
+  "segregation_violations": "none"
+ },
+ "TR224": {
+  "placards": "CORROSIVE;OXIDIZER",
+  "segregation_violations": "PK1127+PK1128;PK1127+PK1129"
+ },
+ "TR225": {
+  "placards": "none",
+  "segregation_violations": "PK1130+PK1131"
+ },
+ "TR226": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR227": {
+  "placards": "CORROSIVE",
+  "segregation_violations": "none"
+ },
+ "TR228": {
+  "placards": "EXPLOSIVES 1.5",
+  "segregation_violations": "none"
+ },
+ "TR232": {
+  "placards": "COMBUSTIBLE",
+  "segregation_violations": "none"
+ },
+ "TR236": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR238": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR240": {
+  "placards": "CORROSIVE;DANGEROUS WHEN WET",
+  "segregation_violations": "none"
+ },
+ "TR241": {
+  "placards": "POISON INHALATION HAZARD",
+  "segregation_violations": "none"
+ },
+ "TR243": {
+  "placards": "FLAMMABLE",
   "segregation_violations": "none"
  }
 }

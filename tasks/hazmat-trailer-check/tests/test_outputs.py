@@ -1,6 +1,7 @@
 """Verifier for hazmat-trailer-check.
 
-Expected placards and segregation violations are recomputed by an independent model of
+Expected placards and segregation violations are recomputed by an independent model of the
+classification of house blends (49 CFR 173.2a, 173.115-173.137, 173.150, 172.402) and of
 49 CFR 172.500-172.505 and 177.848 (engine.py) from the verifier's private copy of the inputs; the
 engine is itself checked against hand-worked planted trailers (golden.json). No agent code runs.
 """
@@ -36,6 +37,12 @@ GROUPS = {
     "explosives_placards_and_compatibility": (["explosives"], None),
     "bulk_packagings": (["bulk"], None),
     "uranium_hexafluoride": (["uf6"], "placards"),
+    "blend_flammable_and_combustible_liquids": (["flammability"], "placards"),
+    "blend_multiple_hazard_precedence": (["precedence"], None),
+    "blend_toxicity": (["toxicity"], None),
+    "blend_corrosivity": (["corrosive"], None),
+    "blend_gases": (["gas"], None),
+    "blend_subsidiary_labels": (["subsidiary-label"], "segregation_violations"),
 }
 
 
