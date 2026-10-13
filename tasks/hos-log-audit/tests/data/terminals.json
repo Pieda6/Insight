@@ -1,0 +1,22 @@
+{
+ "CHI": {
+  "city": "Chicago, IL",
+  "time_zone": "America/Chicago",
+  "utc_offset": "-05:00"
+ },
+ "IND": {
+  "city": "Indianapolis, IN",
+  "time_zone": "America/Indiana/Indianapolis",
+  "utc_offset": "-04:00"
+ },
+ "DEN": {
+  "city": "Denver, CO",
+  "time_zone": "America/Denver",
+  "utc_offset": "-06:00"
+ },
+ "PHX": {
+  "city": "Phoenix, AZ",
+  "time_zone": "America/Phoenix",
+  "utc_offset": "-07:00"
+ }
+}

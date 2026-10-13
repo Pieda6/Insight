@@ -1,0 +1,16 @@
+[
+ {
+  "carrier_id": "PRAIRIE",
+  "name": "Prairie Line Freight",
+  "operates_every_day": true,
+  "day_starts_at": "00:00",
+  "keeps_short_haul_time_records": true
+ },
+ {
+  "carrier_id": "MESA",
+  "name": "Mesa Regional Haul",
+  "operates_every_day": false,
+  "day_starts_at": "06:00",
+  "keeps_short_haul_time_records": true
+ }
+]

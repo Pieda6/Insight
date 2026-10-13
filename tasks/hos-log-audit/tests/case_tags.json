@@ -1,0 +1,184 @@
+{
+ "DR001": [
+  "driving-11"
+ ],
+ "DR002": [
+  "filler"
+ ],
+ "DR003": [
+  "adverse"
+ ],
+ "DR004": [
+  "filler"
+ ],
+ "DR005": [
+  "filler"
+ ],
+ "DR006": [
+  "cycle-70",
+  "carrier-day"
+ ],
+ "DR007": [
+  "window-14"
+ ],
+ "DR008": [
+  "cycle-70",
+  "travel-time"
+ ],
+ "DR009": [
+  "filler"
+ ],
+ "DR010": [
+  "sixteen-hour"
+ ],
+ "DR011": [
+  "driving-11",
+  "boundary"
+ ],
+ "DR012": [
+  "cycle-70",
+  "carrier-day"
+ ],
+ "DR013": [
+  "cycle-70",
+  "restart"
+ ],
+ "DR014": [
+  "filler"
+ ],
+ "DR015": [
+  "short-haul"
+ ],
+ "DR016": [
+  "sleeper-split"
+ ],
+ "DR017": [
+  "filler"
+ ],
+ "DR018": [
+  "filler"
+ ],
+ "DR019": [
+  "filler"
+ ],
+ "DR020": [
+  "cycle-70",
+  "restart"
+ ],
+ "DR021": [
+  "filler"
+ ],
+ "DR022": [
+  "window-14",
+  "boundary"
+ ],
+ "DR023": [
+  "sixteen-hour",
+  "restart"
+ ],
+ "DR024": [
+  "filler"
+ ],
+ "DR025": [
+  "cycle-60",
+  "carrier-day"
+ ],
+ "DR026": [
+  "filler"
+ ],
+ "DR027": [
+  "break-30"
+ ],
+ "DR028": [
+  "short-haul",
+  "boundary"
+ ],
+ "DR029": [
+  "filler"
+ ],
+ "DR030": [
+  "sleeper-split"
+ ],
+ "DR031": [
+  "sleeper-split",
+  "reset-10"
+ ],
+ "DR032": [
+  "filler"
+ ],
+ "DR033": [
+  "sixteen-hour",
+  "short-haul"
+ ],
+ "DR034": [
+  "travel-time",
+  "window-14"
+ ],
+ "DR035": [
+  "filler"
+ ],
+ "DR036": [
+  "adverse"
+ ],
+ "DR037": [
+  "sixteen-hour"
+ ],
+ "DR038": [
+  "filler"
+ ],
+ "DR039": [
+  "sleeper-split"
+ ],
+ "DR040": [
+  "adverse"
+ ],
+ "DR041": [
+  "sixteen-hour"
+ ],
+ "DR042": [
+  "filler"
+ ],
+ "DR043": [
+  "sixteen-hour"
+ ],
+ "DR044": [
+  "filler"
+ ],
+ "DR045": [
+  "break-30"
+ ],
+ "DR046": [
+  "filler"
+ ],
+ "DR047": [
+  "adverse"
+ ],
+ "DR048": [
+  "sleeper-split"
+ ],
+ "DR049": [
+  "short-haul"
+ ],
+ "DR050": [
+  "filler"
+ ],
+ "DR051": [
+  "cycle-70",
+  "travel-time"
+ ],
+ "DR052": [
+  "short-haul"
+ ],
+ "DR053": [
+  "filler"
+ ],
+ "DR054": [
+  "sleeper-split"
+ ],
+ "DR055": [
+  "filler"
+ ],
+ "DR056": [
+  "short-haul"
+ ]
+}
