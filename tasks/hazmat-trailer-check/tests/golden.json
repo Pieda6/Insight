@@ -1,0 +1,298 @@
+{
+ "TR002": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR003": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR005": {
+  "placards": "DANGEROUS WHEN WET;FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR006": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR007": {
+  "placards": "CORROSIVE;DANGEROUS WHEN WET",
+  "segregation_violations": "none"
+ },
+ "TR008": {
+  "placards": "DANGEROUS",
+  "segregation_violations": "none"
+ },
+ "TR009": {
+  "placards": "DANGEROUS;FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR010": {
+  "placards": "DANGEROUS",
+  "segregation_violations": "none"
+ },
+ "TR011": {
+  "placards": "POISON",
+  "segregation_violations": "none"
+ },
+ "TR013": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR019": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR020": {
+  "placards": "EXPLOSIVES 1.3",
+  "segregation_violations": "none"
+ },
+ "TR021": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "PK0081+PK0082"
+ },
+ "TR023": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR025": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "none"
+ },
+ "TR026": {
+  "placards": "POISON GAS",
+  "segregation_violations": "none"
+ },
+ "TR027": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR029": {
+  "placards": "EXPLOSIVES 1.3",
+  "segregation_violations": "PK0102+PK0103"
+ },
+ "TR030": {
+  "placards": "DANGEROUS",
+  "segregation_violations": "none"
+ },
+ "TR031": {
+  "placards": "none",
+  "segregation_violations": "PK0106+PK0107"
+ },
+ "TR032": {
+  "placards": "none",
+  "segregation_violations": "PK0108+PK0109"
+ },
+ "TR034": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "PK0118+PK0119"
+ },
+ "TR035": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "none"
+ },
+ "TR037": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR040": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "none"
+ },
+ "TR045": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR046": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR047": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR049": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR050": {
+  "placards": "FLAMMABLE GAS",
+  "segregation_violations": "none"
+ },
+ "TR051": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR053": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "none"
+ },
+ "TR054": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR055": {
+  "placards": "POISON GAS",
+  "segregation_violations": "none"
+ },
+ "TR056": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "none"
+ },
+ "TR057": {
+  "placards": "POISON GAS",
+  "segregation_violations": "none"
+ },
+ "TR058": {
+  "placards": "none",
+  "segregation_violations": "PK0192+PK0193"
+ },
+ "TR059": {
+  "placards": "POISON INHALATION HAZARD",
+  "segregation_violations": "none"
+ },
+ "TR065": {
+  "placards": "none",
+  "segregation_violations": "PK0230+PK0231"
+ },
+ "TR066": {
+  "placards": "RADIOACTIVE",
+  "segregation_violations": "none"
+ },
+ "TR067": {
+  "placards": "POISON INHALATION HAZARD",
+  "segregation_violations": "PK0233+PK0234"
+ },
+ "TR068": {
+  "placards": "none",
+  "segregation_violations": "PK0235+PK0236"
+ },
+ "TR071": {
+  "placards": "POISON INHALATION HAZARD",
+  "segregation_violations": "none"
+ },
+ "TR074": {
+  "placards": "none",
+  "segregation_violations": "PK0256+PK0257"
+ },
+ "TR077": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR081": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR083": {
+  "placards": "EXPLOSIVES 1.4",
+  "segregation_violations": "none"
+ },
+ "TR085": {
+  "placards": "POISON GAS",
+  "segregation_violations": "none"
+ },
+ "TR086": {
+  "placards": "DANGEROUS WHEN WET",
+  "segregation_violations": "none"
+ },
+ "TR088": {
+  "placards": "none",
+  "segregation_violations": "PK0310+PK0311"
+ },
+ "TR091": {
+  "placards": "CORROSIVE;DANGEROUS WHEN WET",
+  "segregation_violations": "none"
+ },
+ "TR093": {
+  "placards": "none",
+  "segregation_violations": "PK0330+PK0331"
+ },
+ "TR094": {
+  "placards": "none",
+  "segregation_violations": "PK0332+PK0333"
+ },
+ "TR096": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR099": {
+  "placards": "DANGEROUS",
+  "segregation_violations": "none"
+ },
+ "TR100": {
+  "placards": "POISON INHALATION HAZARD",
+  "segregation_violations": "none"
+ },
+ "TR101": {
+  "placards": "DANGEROUS WHEN WET;POISON GAS",
+  "segregation_violations": "none"
+ },
+ "TR103": {
+  "placards": "EXPLOSIVES 1.5",
+  "segregation_violations": "none"
+ },
+ "TR109": {
+  "placards": "none",
+  "segregation_violations": "PK0386+PK0387"
+ },
+ "TR114": {
+  "placards": "CORROSIVE;DANGEROUS",
+  "segregation_violations": "none"
+ },
+ "TR115": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "PK0417+PK0418"
+ },
+ "TR118": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR119": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR120": {
+  "placards": "DANGEROUS WHEN WET",
+  "segregation_violations": "none"
+ },
+ "TR121": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR125": {
+  "placards": "CORROSIVE;DANGEROUS WHEN WET",
+  "segregation_violations": "none"
+ },
+ "TR129": {
+  "placards": "FLAMMABLE",
+  "segregation_violations": "none"
+ },
+ "TR130": {
+  "placards": "DANGEROUS WHEN WET;POISON GAS",
+  "segregation_violations": "PK0475+PK0476"
+ },
+ "TR135": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR139": {
+  "placards": "EXPLOSIVES 1.1",
+  "segregation_violations": "PK0514+PK0515"
+ },
+ "TR140": {
+  "placards": "CORROSIVE;POISON INHALATION HAZARD",
+  "segregation_violations": "none"
+ },
+ "TR141": {
+  "placards": "none",
+  "segregation_violations": "PK0517+PK0518"
+ },
+ "TR142": {
+  "placards": "none",
+  "segregation_violations": "none"
+ },
+ "TR144": {
+  "placards": "POISON GAS",
+  "segregation_violations": "PK0528+PK0529"
+ }
+}

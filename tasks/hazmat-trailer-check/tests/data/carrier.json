@@ -1,0 +1,7 @@
+{
+ "carrier": "Heartland Freight Lines",
+ "mode": "highway",
+ "transport": "domestic",
+ "trailer": "53 ft dry van, 10 floor bays numbered 1 (nose) to 10 (doors), single tier",
+ "weight_unit": "pounds"
+}
