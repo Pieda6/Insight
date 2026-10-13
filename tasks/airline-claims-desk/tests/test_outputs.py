@@ -22,11 +22,13 @@ FIELDS = ("compensation", "refund", "refund_due_date")
 TAGS = json.loads((HERE / "case_tags.json").read_text())
 GOLDEN = json.loads((HERE / "golden.json").read_text())
 GROUPS = {
-    "denied_boarding_time_bands_and_caps": lambda t: t in ("db-band", "db-cap"),
+    "denied_boarding_time_bands_and_caps": lambda t: t in ("db-band", "db-cap", "db-arranged"),
     "denied_boarding_fare_base": lambda t: t == "db-fare-base",
     "denied_boarding_exceptions_and_scope": lambda t: t in ("db-exception", "db-applicability"),
     "denied_boarding_unused_fees": lambda t: t == "db-ancillary",
     "cancellations_and_significant_changes": lambda t: t.startswith("sc-"),
+    "schedule_history_and_whole_itinerary": lambda t: t in ("sc-cumulative", "sc-as-bought", "sc-itinerary",
+                                                             "db-arranged"),
     "refund_due_dates": lambda t: t == "due-date",
     "covered_flights_and_break_in_journey": lambda t: t == "break-in-journey",
     "delayed_and_lost_bags": lambda t: t.startswith("bag-"),

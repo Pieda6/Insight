@@ -1,44 +1,116 @@
 #!/usr/bin/env python3
-"""Dev-only calibration for airline-claims-desk: oracle passes, empty output fails, and each common
-misreading of 14 CFR Parts 250/260 fails at least one test."""
-import contextlib
-import copy
+"""Dev-only calibration for airline-claims-desk (never uploaded): oracle passes, empty output fails, and each
+common misreading of 14 CFR Parts 250 and 260 fails at least one test. Each misreading is a small source edit
+of the reference solution. Needs a writable /app."""
 import csv
-import importlib.util
 import shutil
 import subprocess
 import sys
-from datetime import date, timedelta
+import types
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 TASK = ROOT / "tasks" / "airline-claims-desk"
 OUT = Path("/app/output/claim_decisions.csv")
+SRC = (TASK / "solution" / "solve.py").read_text()
 
-
-def load(name, path):
-    spec = importlib.util.spec_from_file_location(name, path)
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    return mod
-
-
-S = load("solve", TASK / "solution" / "solve.py")
-E = load("engine", TASK / "tests" / "engine.py")
-O = {k: getattr(S, k) for k in ("oversale", "schedule_change", "baggage", "service", "due_date", "mins",
-                                "covered", "utc")}
-
-
-@contextlib.contextmanager
-def patched(**kw):
-    old = {k: getattr(S, k) for k in kw}
-    for k, v in kw.items():
-        setattr(S, k, v)
-    try:
-        yield
-    finally:
-        for k, v in old.items():
-            setattr(S, k, v)
+NAIVE = 'ZoneInfo(AIRPORTS[airport]["time_zone"])'
+SHORTCUTS = {
+    # ---- time handling
+    "schedule wall times read as UTC": [(NAIVE, 'timezone.utc')],
+    "fixed summer-time offsets (clock changes ignored)": [
+        (NAIVE, 'timezone(ZoneInfo(AIRPORTS[airport]["time_zone"]).utcoffset(datetime(2026, 7, 1)))')],
+    "fixed standard-time offsets (clock changes ignored)": [
+        (NAIVE, 'timezone(ZoneInfo(AIRPORTS[airport]["time_zone"]).utcoffset(datetime(2026, 1, 15)))')],
+    "due dates from local departure dates": [
+        ('start = utc_date(offered[0][0].at(at)[0])', 'start = utc_date(offered[0][0].at(at)[0] + LOCAL(offered[0][0].a))'),
+        ('start = utc_date(cancelled[0].at(bought)[0])', 'start = utc_date(cancelled[0].at(bought)[0] + LOCAL(cancelled[0].a))'),
+        ('def utc_date(m):', 'def LOCAL(ap):\n    return int(ZoneInfo(AIRPORTS[ap]["time_zone"]).utcoffset(datetime(2026, 10, 31)).total_seconds() // 60)\n\n\ndef utc_date(m):')],
+    # ---- schedule history
+    "latest schedule version used everywhere": [('v = [x for x in self.versions if x[0] <= m]', 'v = self.versions')],
+    "original itinerary = first published schedule": [
+        ('o_dep, o_arr = legs[0].at(bought)[0], legs[-1].at(bought)[1]',
+         'o_dep, o_arr = legs[0].versions[0][1], legs[-1].versions[0][2]')],
+    "change measured from the previous notice only": [
+        ('o_dep, o_arr = legs[0].at(bought)[0], legs[-1].at(bought)[1]',
+         'o_dep, o_arr = legs[0].at(at - 1)[0], legs[-1].at(at - 1)[1]')],
+    "replacement's planned arrival from its latest schedule": [
+        ('late = FLIGHTS[alt[0]["itinerary"][-1]].at(when)[1]', 'late = FLIGHTS[alt[0]["itinerary"][-1]].versions[-1][2]')],
+    # ---- significant change (260.2)
+    "significance judged flight by flight": [
+        ('significant = significant or o_dep - n_dep >= limit or n_arr - o_arr >= limit \\',
+         'significant = significant or any(f.at(bought)[0] - f.at(at)[0] >= limit or f.at(at)[1] - f.at(bought)[1] >= limit for f in legs if f.id in kept) or (offered[-1][0].id not in {x.id for x in legs} and n_arr - o_arr >= limit) \\')],
+    "a later departure counts as a significant change": [
+        ('or offered[0][0].a != legs[0].a', 'or n_dep - o_dep >= limit or offered[0][0].a != legs[0].a')],
+    "a different connecting airport counts": [
+        ('or len(offered) > len(legs)', 'or [f.b for f, _ in offered[:-1]] != [f.b for f in legs[:-1]] or len(offered) > len(legs)')],
+    "more connections not counted": [('or len(offered) > len(legs) or', 'or')],
+    "downgrade not counted": [('or any(RANK[cb] > cabin for _, cb in offered)', '')],
+    "airport change not counted": [('or offered[0][0].a != legs[0].a or offered[-1][0].b != legs[-1].b \\', '\\')],
+    "3-hour threshold for every itinerary": [('limit = 360 if intl(legs) else 180', 'limit = 180')],
+    "threshold exclusive (more than 3 / 6 hours)": [
+        ('o_dep - n_dep >= limit or n_arr - o_arr >= limit', 'o_dep - n_dep > limit or n_arr - o_arr > limit')],
+    "a cancellation needs a late rebooking to count": [('significant = bool(cancelled)', 'significant = not offered and bool(cancelled)')],
+    # ---- responses and refunds (260.4, 260.6)
+    "silence treated as acceptance": [('accepted = choice in', 'accepted = choice is None or choice in'),
+                                      ('return 0, unused_fees(c), asked', 'return 0, unused_fees(c), asked or utc_date(at)')],
+    "accepting a voucher gives up the refund of unused extras": [
+        ('return 0, unused_fees(c), asked', 'return 0, (0 if choice == "accepted_voucher" else unused_fees(c)), asked')],
+    "unused extras refunded after declining a minor change": [
+        ('return 0, 0, None                                                                    # declined',
+         'return 0, unused_fees(c), asked or utc_date(at)                                       # declined')],
+    "fare refunded without ancillary fees": [
+        ('total = sum(x["fare_cents"] for x in cps) + sum(a["fee_cents"] for a in c["ancillary_purchases"])',
+         'total = sum(x["fare_cents"] for x in cps)')],
+    "boarding the new flight not treated as acceptance": [('or bool(events(c, "boarded"))', '')],
+    # ---- refund due dates
+    "due date counted from the passenger's request only": [('if asked and asked < start:', 'if asked:')],
+    "earliest date ignored (the 260.6(a)(2) date always)": [('if asked and asked < start:', 'if False:')],
+    "unanswered change counted from the original departure": [
+        ('start = utc_date(offered[0][0].at(at)[0])', 'start = utc_date(legs[0].at(bought)[0])')],
+    "unanswered voucher counted from the first flight": [
+        ('start = utc_date(cancelled[0].at(bought)[0])', 'start = utc_date(legs[0].at(bought)[0])')],
+    "nothing offered counted from the request": [('start = utc_date(at)                                                         # (i)',
+                                                  'start = asked or utc_date(at)')],
+    "7 business days for every payment method": [('if method != "credit_card":', 'if False:')],
+    "federal holidays not excluded": [('and d.isoformat() not in HOLIDAYS', '')],
+    # ---- covered flights
+    "every flight covered (break in journey ignored)": [('if affected and not covered(c, legs, affected[0]):', 'if False:')],
+    "a 24-hour stopover is a break in journey": [('return gap <= 1440 and', 'return gap < 1440 and')],
+    # ---- denied boarding (250)
+    "accepting the offered compensation makes a volunteer": [
+        ('vol = events(c, "volunteer_offer_accepted")', 'vol = events(c, "volunteer_offer_accepted") + events(c, "compensation_offer_accepted")')],
+    "check-in deadline ignored": [('if utc(events(c, "checked_in")[0]["at"]) > dep - close:', 'if False:')],
+    "check-in at the deadline counts as late": [('> dep - close:', '>= dep - close:')],
+    "45-minute check-in for every flight": [('close = 60 if f.b not in US else 45', 'close = 45')],
+    "any substitution or weight/balance excuses compensation": [
+        ('if den["reason"] == "aircraft_substitution" and den["required_for_operational_or_safety_reasons"]:',
+         'if den["reason"] != "oversold":')],
+    "weight/balance excuse on any aircraft": [('\\\n            and f.seats <= 60:', ':')],
+    "domestic bands for every trip": [('upper = 240 if intl(legs) else 120', 'upper = 120')],
+    "band boundaries: 2 h and 4 h still 200%": [('if late < upper:', 'if late <= upper:')],
+    "band boundaries: 1 h already 200%": [('if late <= 60:', 'if late < 60:')],
+    "fare of the whole ticket": [('fare = sum(x["fare_cents"] for x in cps[k:end + 1])', 'fare = sum(x["fare_cents"] for x in cps)')],
+    "fare of the denied flight only": [('fare = sum(x["fare_cents"] for x in cps[k:end + 1])', 'fare = cps[k]["fare_cents"]')],
+    "stopover at 4 h or more": [('<= 240:\n        end += 1', '< 240:\n        end += 1')],
+    "pre-2024 caps": [('CAP_200, CAP_400 = 107500, 215000', 'CAP_200, CAP_400 = 77500, 155000')],
+    "no compensation without a replacement": [('return min(4 * fare, CAP_400), unused\n    when', 'return 0, unused\n    when')],
+    "Part 250 applied to every flight": [('if f.a not in US or f.seats < 30 or not f.scheduled:', 'if False:')],
+    "no refund of unused extras on oversale": [('unused = unused_fees(c)\n    vol', 'unused = 0\n    vol')],
+    # ---- bags (260.5)
+    "bag delay from the scheduled arrival": [('- legs[-1].door <= limit', '- legs[-1].versions[-1][2] <= limit')],
+    "12-hour bag standard for every itinerary": [('limit = 1800 if longest > 720 else 900', 'limit = 720')],
+    "15 hours for every international itinerary": [('limit = 1800 if longest > 720 else 900', 'limit = 900')],
+    "segment length from the wall clocks": [
+        ('longest = max(f.versions[-1][2] - f.versions[-1][1] for f in cross)',
+         'longest = max(f.versions[-1][2] - f.versions[-1][1] + (int(ZoneInfo(AIRPORTS[f.b]["time_zone"]).utcoffset(datetime(2026, 10, 10)).total_seconds()) - int(ZoneInfo(AIRPORTS[f.a]["time_zone"]).utcoffset(datetime(2026, 10, 10)).total_seconds())) // 60 for f in cross)')],
+    "bag delivered at the limit counts as late": [('<= limit:                   # 260.5(a)', '< limit:')],
+    "no mishandled baggage report required": [('if not events(c, "mishandled_baggage_report"):', 'if False:')],
+    "bag exemptions ignored": [('if any(e["type"].startswith("passenger_") for e in c["events"]):', 'if False:')],
+    "refund the bag's own fee even when not linked": [('if bag["fee_linked_to_this_bag_by_unique_identifier"]:', 'if True:')],
+    "subscriber refunded the fee actually paid": [('if sub.get("subscribed"):', 'if False:')],
+    "service refunds even when consumer at fault": [('if any(e["through_fault_of_consumer"]', 'if False and any(e["through_fault_of_consumer"]')],
+}
 
 
 def tests():
@@ -47,362 +119,10 @@ def tests():
     return p.returncode, [ln.split("::", 1)[1].split(" ")[0] for ln in p.stdout.splitlines() if ln.startswith("FAILED")]
 
 
-def ov(mutate=None, post=None):
-    def f(c, flights, country):
-        c2 = copy.deepcopy(c)
-        fl = copy.deepcopy(flights)
-        if mutate:
-            mutate(c2, fl, country)
-        r = O["oversale"](c2, fl, country)
-        return post(c2, r, fl, country) if post else r
-    return f
-
-
-def old_caps(c, fl, country):
-    pass
-
-
-def caps_old(c, r, fl, country):
-    comp, ref = r
-    return ({107500: 77500, 215000: 155000}.get(comp, comp), ref)
-
-
-def no_caps(c, r, fl, country):
-    comp, ref = r
-    if comp in (107500, 215000):
-        cps = c["ticket"]["coupons"]
-        fare = cps[c["incident"]["denied_coupon"] - 1]["fare_cents"]
-        return (comp * 10, ref)
-    return r
-
-
-def domestic_bands(c, fl, country):
-    for k in list(country):
-        country[k] = "US"
-
-
-def whole_ticket_fare(c, fl, country):
-    total = sum(x["fare_cents"] for x in c["ticket"]["coupons"])
-    for x in c["ticket"]["coupons"]:
-        x["fare_cents"] = 0
-    c["ticket"]["coupons"][c["incident"]["denied_coupon"] - 1]["fare_cents"] = total
-
-
-def denied_leg_only(c, fl, country):
-    k = c["incident"]["denied_coupon"] - 1
-    for i, x in enumerate(c["ticket"]["coupons"]):
-        if i != k:
-            x["fare_cents"] = 0
-
-
-def no_exceptions(c, fl, country):
-    i = c["incident"]
-    i["volunteered"] = False
-    i["held_confirmed_reserved_space"] = True
-    i["complied_with_ticketing_check_in_and_acceptability_rules"] = True
-    i["cause"] = "oversale"
-    i["seated_in_other_section_at_no_extra_charge"] = None
-
-
-def any_substitution_excused(c, fl, country):
-    if "substitution" in c["incident"]["cause"] or "weight" in c["incident"]["cause"]:
-        c["incident"]["cause"] = "substitution_of_smaller_aircraft_required_for_operational_or_safety_reasons"
-
-
-def no_scope(c, fl, country):
-    f = fl[c["incident"]["denied_flight_id"]]
-    f["designed_passenger_seats"] = max(f["designed_passenger_seats"], 30)
-    country[f["origin"]] = "US"
-
-
-def zero_fare_zero(c, fl, country):
-    if c["ticket"]["award_ticket_paid_with_miles"]:
-        c["ticket"]["award_ticket_paid_with_miles"] = False
-
-
-def strict_bands(c, r, fl, country):
-    comp, ref = r
-    cps = c["ticket"]["coupons"]
-    return r
-
-
-def boundary_shift(c, fl, country):
-    """Treat 'one hour' as the start of the 200% band and the 2/4 h mark as still 200%."""
-    alt = c["incident"]["alternate_transportation"]
-    from datetime import datetime
-    t = datetime.strptime(alt["planned_arrival_at_time_arranged"], "%Y-%m-%dT%H:%MZ")
-    k = c["incident"]["denied_coupon"] - 1
-    a = datetime.strptime(c["ticket"]["coupons"][k]["scheduled_arrival"], "%Y-%m-%dT%H:%MZ")
-    late = (t - a).total_seconds() / 60
-    if late in (60, 120, 240):
-        alt["planned_arrival_at_time_arranged"] = (t + timedelta(minutes=1 if late == 60 else -1)).strftime("%Y-%m-%dT%H:%MZ")
-
-
-def no_ancillary_db(c, r, fl, country):
-    return (r[0], 0)
-
-
-def sc(mutate=None, post=None):
-    def f(c, country):
-        c2 = copy.deepcopy(c)
-        ctry = dict(country)
-        if mutate:
-            mutate(c2, ctry)
-        r = O["schedule_change"](c2, ctry)
-        return post(c2, r) if post else r
-    return f
-
-
-def sc_domestic(c, ctry):
-    for k in ctry:
-        ctry[k] = "US"
-
-
-def sc_strict(c, ctry):
-    i = c["incident"]
-    for k in ("new_departure_shift_minutes", "new_arrival_shift_minutes"):
-        if k in i and abs(i[k]) in (180, 360):
-            i[k] = i[k] - 1 if i[k] > 0 else i[k] + 1
-
-
-def sc_silence_is_acceptance(c, ctry):
-    if c["incident"]["consumer_response"] == "did_not_respond_before_scheduled_departure":
-        c["incident"]["consumer_response"] = "accepted_voucher_affirmatively"
-        c["refund_requested_on"] = c["refund_requested_on"] or c["ticket"]["coupons"][0]["scheduled_departure"][:10]
-
-
-def sc_fare_only(c, r):
-    comp, ref, start = r
-    total = sum(x["fare_cents"] for x in c["ticket"]["coupons"])
-    if ref > total:
-        return (0, total, start)
-    return r
-
-
-def sc_only_delay(c, ctry):
-    i = c["incident"]
-    if i["event"] in ("airport_change", "added_connection", "downgrade"):
-        i["event"] = "retimed"
-        i.pop("new_origin_airport", None)
-        i.pop("new_destination_airport", None)
-        i["new_connection_points"] = 0
-
-
-def sc_no_partial(c, r):
-    if c["incident"]["consumer_response"] in ("accepted_rebooking", "flew_on_changed_flight"):
-        return (0, 0, None)
-    return r
-
-
-def sc_voucher_waives_fees(c, r):
-    """The original reading: accepting a voucher gives up the 260.4 refund of unused extras."""
-    if c["incident"]["consumer_response"] == "accepted_voucher_affirmatively":
-        return (0, 0, None)
-    return r
-
-
-def sc_declined_minor_change_refunds_extras(c, r):
-    unused = sum(a["fee_cents"] for a in c["ancillary_purchases"] if not a["provided"])
-    if r[1] == 0 and unused and c["incident"]["consumer_response"] == "rejected_alternatives":
-        return (0, unused, c["refund_requested_on"] or c["incident"]["consumer_response_at"][:10])
-    return r
-
-
-def sc_due_from_request_only(c, r):
-    if r[1] and c["refund_requested_on"]:
-        return (r[0], r[1], c["refund_requested_on"])
-    return r
-
-
-def sc_due_ignores_earliest(c, r):
-    """Use the 260.6(a)(2) date even when the passenger asked earlier, or the request when it is later."""
-    asked = c["refund_requested_on"]
-    if r[1] and asked and asked > r[2]:
-        return (r[0], r[1], asked)
-    return r
-
-
-def sc_departed_original_date(c, ctry):
-    i = c["incident"]
-    if i["consumer_response"] == "did_not_respond_and_flight_departed":
-        i["new_departure_shift_minutes"] = 0
-
-
-def sc_cancel_none_from_request(c, ctry):
-    i = c["incident"]
-    if i["event"] == "cancelled" and i.get("alternative_offered") == "none":
-        i["alternative_offered"] = "rebooking_on_later_flight"
-
-
-def every_flight_covered(c, ctry):
-    return True
-
-
-def break_at_24_hours(c, ctry):
-    c = copy.deepcopy(c)
-    cps = c["ticket"]["coupons"]
-    for x in c["ticket"].get("connections", []):
-        a, b = x["between_coupons"]
-        if O["mins"](cps[a - 1]["scheduled_arrival"], cps[b - 1]["scheduled_departure"]) >= 1440:
-            x["passenger_left_airport"] = True
-    return O["covered"](c, ctry)
-
-
-def any_foreign_segment_uncovered(c, ctry):
-    k = c["incident"]["affected_coupon"] - 1
-    cp = c["ticket"]["coupons"][k]
-    return ctry[cp["origin"]] == "US" or ctry[cp["destination"]] == "US"
-
-
-def bg(mutate=None, post=None):
-    def f(c, flights, country):
-        c2 = copy.deepcopy(c)
-        if mutate:
-            mutate(c2, flights, country)
-        r = O["baggage"](c2, flights, country)
-        return post(c2, r) if post else r
-    return f
-
-
-def bag_12_everywhere(c, flights, country):
-    pass
-
-
-def bag_flat_threshold(limit_fn):
-    def baggage(c, flights, country):
-        inc = c["incident"]
-        if not inc["mishandled_baggage_report_filed"] or any((inc["exemption_facts"] or {}).values()):
-            return 0, 0
-        lim = limit_fn(c, flights, country)
-        if inc["status"] != "lost" and S.mins(inc["deplaning_opportunity_at_final_destination"],
-                                              inc["delivered_or_picked_up_at"]) <= lim:
-            return 0, 0
-        return O["baggage"](dict(c, incident=dict(inc, delivered_or_picked_up_at="2099-01-01T00:00Z")),
-                            flights, country)
-    return baggage
-
-
-def bag_inclusive(c, flights, country):
-    inc = c["incident"]
-    if inc["status"] == "delivered":
-        from datetime import datetime
-        t = datetime.strptime(inc["delivered_or_picked_up_at"], "%Y-%m-%dT%H:%MZ")
-        inc["delivered_or_picked_up_at"] = (t + timedelta(minutes=1)).strftime("%Y-%m-%dT%H:%MZ")
-
-
-def bag_no_mbr_needed(c, flights, country):
-    c["incident"]["mishandled_baggage_report_filed"] = True
-
-
-def bag_ignore_exemptions(c, flights, country):
-    c["incident"]["exemption_facts"] = None
-
-
-def bag_always_linked(c, flights, country):
-    for b in c["checked_bags"]:
-        b["fee_linked_to_this_bag_by_unique_identifier"] = True
-
-
-def bag_subscription_zero(c, flights, country):
-    c["incident"]["bag_fee_subscription"] = None
-
-
-def due_business_all(trigger, method, holidays):
-    return O["due_date"](trigger, "credit_card", holidays)
-
-
-def due_calendar_7(trigger, method, holidays):
-    d = date.fromisoformat(trigger)
-    return d + timedelta(days=7) if method == "credit_card" else d + timedelta(days=20)
-
-
-def due_no_holidays(trigger, method, holidays):
-    return O["due_date"](trigger, method, set())
-
-
-def service_fault_ignored(c):
-    c2 = copy.deepcopy(c)
-    c2["incident"]["service_failure_through_fault_of_consumer"] = False
-    return O["service"](c2)
-
-
-def utc_naive(local, airport, zones):
-    """Local schedule times read as if they were UTC."""
-    return local + "Z"
-
-
-def utc_fixed(month):
-    """One fixed UTC offset per airport (the one in force in the given month), ignoring the clock change."""
-    def f(local, airport, zones):
-        from datetime import datetime
-        from zoneinfo import ZoneInfo
-        off = ZoneInfo(zones[airport]).utcoffset(datetime(2026, month, 15))
-        return (datetime.strptime(local, "%Y-%m-%dT%H:%M") - off).strftime("%Y-%m-%dT%H:%MZ")
-    return f
-
-
-def sc_local_departure_date(c, r):
-    """Unanswered cancellation counted from the local (published) departure date instead of the UTC date."""
-    if r[1] and c["incident"]["consumer_response"] == "did_not_respond_before_scheduled_departure":
-        import json
-        from datetime import datetime, timezone
-        from zoneinfo import ZoneInfo
-        zones = {k: v["time_zone"] for k, v in json.loads(Path("/app/data/airports.json").read_text()).items()}
-        k = c["ticket"]["coupons"][c["incident"]["affected_coupon"] - 1]
-        d = datetime.strptime(k["scheduled_departure"], "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc)
-        day = d.astimezone(ZoneInfo(zones[k["origin"]])).date().isoformat()
-        start = min(day, c["refund_requested_on"]) if c["refund_requested_on"] else day
-        return (r[0], r[1], start)
-    return r
-
-
-SHORTCUTS = {
-    "pre-2024 caps ($775/$1,550)": dict(oversale=ov(post=caps_old)),
-    "no compensation caps": dict(oversale=ov(post=no_caps)),
-    "domestic time bands for every trip": dict(oversale=ov(domestic_bands)),
-    "fare of the whole ticket": dict(oversale=ov(whole_ticket_fare)),
-    "fare of the denied leg only": dict(oversale=ov(denied_leg_only)),
-    "no 250.6 exceptions or volunteer/standby checks": dict(oversale=ov(no_exceptions)),
-    "any substitution or weight/balance excuses compensation": dict(oversale=ov(any_substitution_excused)),
-    "Part 250 applied to every flight": dict(oversale=ov(no_scope)),
-    "band boundaries off by one": dict(oversale=ov(boundary_shift)),
-    "no refund of unused fees on oversale": dict(oversale=ov(post=no_ancillary_db)),
-    "domestic 3 h threshold for every itinerary": dict(schedule_change=sc(sc_domestic)),
-    "change threshold treated as more than 3/6 h": dict(schedule_change=sc(sc_strict)),
-    "silence treated as accepting a voucher": dict(schedule_change=sc(sc_silence_is_acceptance)),
-    "fare refunded without ancillary fees": dict(schedule_change=sc(post=sc_fare_only)),
-    "only time changes count as significant": dict(schedule_change=sc(sc_only_delay)),
-    "no fee refund after accepting rebooking": dict(schedule_change=sc(post=sc_no_partial)),
-    "12 h bag standard for every itinerary": dict(baggage=bag_flat_threshold(lambda c, f, k: 720)),
-    "15 h for every international itinerary": dict(baggage=bag_flat_threshold(
-        lambda c, f, k: 900 if any(k[x["origin"]] != "US" or k[x["destination"]] != "US"
-                                   for x in c["ticket"]["coupons"]) else 720)),
-    "bag delay limit exclusive (delivered at the limit counts as late)": dict(baggage=bg(bag_inclusive)),
-    "no mishandled baggage report required": dict(baggage=bg(bag_no_mbr_needed)),
-    "bag exemptions ignored": dict(baggage=bg(bag_ignore_exemptions)),
-    "refund the bag's own fee even when not linked": dict(baggage=bg(bag_always_linked)),
-    "subscriber refunded the fee actually paid": dict(baggage=bg(bag_subscription_zero)),
-    "7 business days for every payment method": dict(due_date=due_business_all),
-    "7 calendar days for credit cards": dict(due_date=due_calendar_7),
-    "federal holidays not excluded": dict(due_date=due_no_holidays),
-    "service refunds even when consumer at fault": dict(service=service_fault_ignored),
-    "accepting a voucher gives up the refund of unused extras": dict(schedule_change=sc(post=sc_voucher_waives_fees)),
-    "unused extras refunded after declining a minor change": dict(
-        schedule_change=sc(post=sc_declined_minor_change_refunds_extras)),
-    "due date counted from the passenger's request only": dict(schedule_change=sc(post=sc_due_from_request_only)),
-    "due date not counted from the earliest date": dict(schedule_change=sc(post=sc_due_ignores_earliest)),
-    "unanswered change counted from the original departure": dict(schedule_change=sc(sc_departed_original_date)),
-    "cancellation with nothing offered counted from the request": dict(
-        schedule_change=sc(sc_cancel_none_from_request)),
-    "every flight covered (break in journey ignored)": dict(covered=every_flight_covered),
-    "a stopover of exactly 24 hours is a break in journey": dict(covered=break_at_24_hours),
-    "every foreign-to-foreign segment uncovered": dict(covered=any_foreign_segment_uncovered),
-    "local schedule times read as UTC": dict(utc=utc_naive),
-    "summer-time offsets all season (clock change ignored)": dict(utc=utc_fixed(10)),
-    "standard-time offsets all season (clock change ignored)": dict(utc=utc_fixed(12)),
-    "unanswered cancellation counted from the local departure date": dict(
-        schedule_change=sc(post=sc_local_departure_date)),
-}
+def run(src):
+    mod = types.ModuleType("solve_variant")
+    exec(compile(src, "solve_variant", "exec"), mod.__dict__)
+    mod.main()
 
 
 def main():
@@ -411,22 +131,30 @@ def main():
         f.unlink()
     for f in (TASK / "environment" / "data").iterdir():
         shutil.copy(f, Path("/app/data") / f.name)
-    S.main()
+    run(SRC)
+    truth = {r["claim_id"]: r for r in csv.DictReader(open(OUT))}
     print("oracle", tests())
-    truth = E.expected()
     OUT.unlink()
     print("nop rc", tests()[0])
     ok = True
-    for name, patch in SHORTCUTS.items():
-        with patched(**patch):
-            S.main()
+    for name, edits in SHORTCUTS.items():
+        src = SRC
+        for old, new in edits:
+            assert old in src, (name, old)
+            src = src.replace(old, new)
+        try:
+            run(src)
+        except Exception as e:  # noqa: BLE001
+            print(f"!! CRASH {name}: {e!r}")
+            ok = False
+            continue
         got = {r["claim_id"]: r for r in csv.DictReader(open(OUT))}
-        wrong = sum(1 for c, v in truth.items() if any(got[c][f] != v[f] for f in v))
+        wrong = sum(1 for c, v in truth.items() if got.get(c) != v)
         rc, failed = tests()
         ok &= bool(rc)
         fams = [f.split("[")[1].rstrip("]") for f in failed if "family" in f]
-        print(f"{'ok ' if rc else '!! PASSES'} {name:62s} wrong={wrong:3d} {fams}")
-    S.main()
+        print(f"{'ok ' if rc else '!! PASSES'} {name:60s} wrong={wrong:3d} {fams}")
+    run(SRC)
     print("ALL SHORTCUTS FAIL" if ok else "SOME SHORTCUT PASSES")
 
 

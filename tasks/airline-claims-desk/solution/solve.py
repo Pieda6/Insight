@@ -1,100 +1,130 @@
 #!/usr/bin/env python3
-"""Reference solution: airline claims desk under 14 CFR Part 250 (oversales) and Part 260 (refunds)."""
+"""Reference solution: airline claims desk under 14 CFR Part 250 (oversales) and Part 260 (refunds).
+
+Every time is turned into whole minutes since 1970-01-01 UTC on load: schedule and door times are local wall
+times at their airport, everything ending in Z is UTC.
+"""
 import csv
 import json
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 DATA = Path("/app/data")
 OUT = Path("/app/output")
 CAP_200, CAP_400 = 107500, 215000          # 250.5(a)(2)/(3), (b)(2)/(3)
+EPOCH = datetime(1970, 1, 1, tzinfo=timezone.utc)
 
 
-def t(s):
-    return datetime.strptime(s, "%Y-%m-%dT%H:%MZ")
+def j(name):
+    return json.loads((DATA / name).read_text())
 
 
-def mins(a, b):
-    return int((t(b) - t(a)).total_seconds() // 60)
+AIRPORTS, US, RANK, HOLIDAYS, FLIGHTS = {}, set(), {}, set(), {}
 
 
-def utc(local, airport, zones):
-    """Published local wall time at an airport -> UTC 'YYYY-MM-DDTHH:MMZ'."""
-    wall = datetime.strptime(local, "%Y-%m-%dT%H:%M").replace(tzinfo=ZoneInfo(zones[airport]))
-    return wall.astimezone(ZoneInfo("UTC")).strftime("%Y-%m-%dT%H:%MZ")
+def utc(s):
+    return int((datetime.strptime(s, "%Y-%m-%dT%H:%MZ").replace(tzinfo=timezone.utc) - EPOCH).total_seconds() // 60)
+
+
+def wall(s, airport):
+    t = datetime.strptime(s, "%Y-%m-%dT%H:%M").replace(tzinfo=ZoneInfo(AIRPORTS[airport]["time_zone"]))
+    return int((t - EPOCH).total_seconds() // 60)
+
+
+def utc_date(m):
+    return (EPOCH + timedelta(minutes=m)).date()
+
+
+class Flight:
+    def __init__(self, f):
+        self.id, self.a, self.b = f["flight_id"], f["origin"], f["destination"]
+        self.seats, self.scheduled, self.low = f["designed_passenger_seats"], f["scheduled_service"], \
+            f["lowest_cash_fare_cents_by_cabin"]
+        self.versions = [(utc(v["recorded_at"]), wall(v["departure"], self.a), wall(v["arrival"], self.b))
+                         for v in f["schedule"]]
+        self.cancelled = f["status"] == "cancelled"
+        self.door = wall(f["door_opened_at_gate"], self.b) if f["door_opened_at_gate"] else None
+
+    def at(self, m):
+        """(departure, arrival) as scheduled at minute m."""
+        v = [x for x in self.versions if x[0] <= m]
+        return v[-1][1], v[-1][2]
 
 
 def load():
-    j = lambda n: json.loads((DATA / n).read_text())  # noqa: E731
-    airports = j("airports.json")
-    zones = {k: v["time_zone"] for k, v in airports.items()}
-    country = {k: v["country"] for k, v in airports.items()}
-    flights = {f["flight_id"]: f for f in j("flights.json")}
-    for f in flights.values():
-        f["scheduled_departure"] = utc(f["scheduled_departure"], f["origin"], zones)
-        f["scheduled_arrival"] = utc(f["scheduled_arrival"], f["destination"], zones)
-    claims = j("claims.json")
-    for c in claims:
-        inc = c["incident"]
-        for k in c["ticket"]["coupons"]:
-            k["scheduled_departure"] = utc(k["scheduled_departure"], k["origin"], zones)
-            k["scheduled_arrival"] = utc(k["scheduled_arrival"], k["destination"], zones)
-        alt = inc.get("alternate_transportation")
-        if alt:
-            alt["planned_arrival_at_time_arranged"] = utc(alt["planned_arrival_at_time_arranged"],
-                                                          alt["arrival_airport"], zones)
-        if inc.get("new_scheduled_departure"):              # changed flight: shifts against the original
-            k = c["ticket"]["coupons"][inc["affected_coupon"] - 1]
-            dep = utc(inc["new_scheduled_departure"], inc.get("new_origin_airport") or k["origin"], zones)
-            arr = utc(inc["new_scheduled_arrival"], inc.get("new_destination_airport") or k["destination"], zones)
-            inc["new_departure_shift_minutes"] = mins(k["scheduled_departure"], dep)
-            inc["new_arrival_shift_minutes"] = mins(k["scheduled_arrival"], arr)
-    holidays = set(j("federal_holidays.json")["observed_dates"])
-    return claims, flights, country, holidays
+    AIRPORTS.update(j("airports.json"))
+    US.update(k for k, v in AIRPORTS.items() if v["country"] == "US")
+    RANK.update({c: i for i, c in enumerate(j("carrier.json")["classes_of_service_highest_first"])})
+    HOLIDAYS.update(j("federal_holidays.json")["observed_dates"])
+    FLIGHTS.update({f["flight_id"]: Flight(f) for f in j("flights.json")})
 
 
-def due_date(trigger, method, holidays):
-    d = date.fromisoformat(trigger)
-    if method != "credit_card":                       # 260.2 prompt refund: 20 calendar days
+def intl(flights):
+    return any(f.a not in US or f.b not in US for f in flights)
+
+
+def due_date(trigger, method):
+    d = trigger
+    if method != "credit_card":                       # prompt refund: 20 calendar days
         return d + timedelta(days=20)
     n = 0
     while n < 7:                                      # 7 business days for credit card purchases
         d += timedelta(days=1)
-        if d.weekday() < 5 and d.isoformat() not in holidays:
+        if d.weekday() < 5 and d.isoformat() not in HOLIDAYS:
             n += 1
     return d
 
 
-def oversale(c, flights, country):
-    cps, inc = c["ticket"]["coupons"], c["incident"]
-    k = inc["denied_coupon"] - 1
-    f = flights[inc["denied_flight_id"]]
-    unused = sum(a["fee_cents"] for a in c["ancillary_purchases"] if not a["provided"])   # 250.5(f), 260.4
-    if country[f["origin"]] != "US" or f["designed_passenger_seats"] < 30 or not f["scheduled_service"]:
-        return 0, unused                                                                  # 250.2
-    if not inc["held_confirmed_reserved_space"] or inc["volunteered"]:
+def events(c, kind):
+    return [e for e in c["events"] if e["type"] == kind]
+
+
+def unused_fees(c):
+    return sum(a["fee_cents"] for a in c["ancillary_purchases"] if not a["provided"])
+
+
+def requested(c):
+    return utc_date(utc(c["refund_requested_at"])) if c["refund_requested_at"] else None
+
+
+def oversale(c):
+    cps = c["ticket"]["coupons"]
+    legs = [FLIGHTS[x["flight_id"]] for x in cps]
+    unused = unused_fees(c)
+    vol = events(c, "volunteer_offer_accepted")
+    den = (vol or events(c, "denied_boarding"))[0]
+    gate = utc(den["at"])
+    k = next(i for i, x in enumerate(cps) if x["flight_id"] == den["flight_id"])
+    f = legs[k]
+    if f.a not in US or f.seats < 30 or not f.scheduled:                                 # 250.2
         return 0, unused
-    if not inc["complied_with_ticketing_check_in_and_acceptability_rules"]:
-        return 0, 0                                                                       # 250.6(a)
-    cause = inc["cause"]
-    if cause.startswith("substitution_of_smaller_aircraft_required_for_operational"):
-        return 0, unused                                                                  # 250.6(b)
-    if cause.startswith("weight_balance") and f["designed_passenger_seats"] <= 60:
+    if vol:                                                                              # 250.2b volunteer
         return 0, unused
-    if inc["seated_in_other_section_at_no_extra_charge"]:
-        return 0, unused                                                                  # 250.6(c)
-    end = k                                                                               # first stopover
-    while end + 1 < len(cps) and mins(cps[end]["scheduled_arrival"], cps[end + 1]["scheduled_departure"]) <= 240:
+    dep = f.at(gate)[0]
+    close = 60 if f.b not in US else 45                                                  # contract of carriage
+    if utc(events(c, "checked_in")[0]["at"]) > dep - close:                              # 250.6(a)
+        return 0, 0
+    if den["reason"] == "aircraft_substitution" and den["required_for_operational_or_safety_reasons"]:
+        return 0, unused                                                                 # 250.6(b)
+    if den["reason"] == "weight_balance_restriction" and den["required_for_operational_or_safety_reasons"] \
+            and f.seats <= 60:
+        return 0, unused
+    if any(e["extra_charge_cents"] == 0 for e in events(c, "seat_offered_in_other_cabin")):
+        return 0, unused                                                                 # 250.6(c)
+    end = k                                                                              # first stopover (250.1)
+    while end + 1 < len(legs) and legs[end + 1].at(gate)[0] - legs[end].at(gate)[1] <= 240:
         end += 1
-    span = cps[k:end + 1]
     if c["ticket"]["award_ticket_paid_with_miles"]:
-        fare = f["lowest_cash_fare_cents_by_cabin"][cps[k]["cabin"]]                    # 250.5(d)
+        fare = f.low[cps[k]["cabin"]]                                                    # 250.5(d)
     else:
-        fare = sum(x["fare_cents"] for x in span)
-    international = any(country[x["origin"]] != "US" or country[x["destination"]] != "US" for x in span)
-    late = mins(span[-1]["scheduled_arrival"], inc["alternate_transportation"]["planned_arrival_at_time_arranged"])
-    upper = 240 if international else 120
+        fare = sum(x["fare_cents"] for x in cps[k:end + 1])
+    upper = 240 if intl(legs) else 120                                                   # 250.5(b) vs (a)
+    alt = events(c, "alternate_transportation_arranged")
+    if not alt:
+        return min(4 * fare, CAP_400), unused
+    when = utc(alt[0]["at"])
+    late = FLIGHTS[alt[0]["itinerary"][-1]].at(when)[1] - legs[end].at(gate)[1]         # planned when arranged
     if late <= 60:
         return 0, unused
     if late < upper:
@@ -102,121 +132,127 @@ def oversale(c, flights, country):
     return min(4 * fare, CAP_400), unused
 
 
-def covered(c, country):
-    """260.2 covered flight: to, from or within the U.S., or a foreign-to-foreign segment reached from or
-    leading to the U.S. through brief stopovers only (a stopover over 24 hours is a break in journey;
-    shorter ones here are on one ticket, one carrier, bags checked through, passenger stays airside)."""
-    cps, k = c["ticket"]["coupons"], c["incident"]["affected_coupon"] - 1
-    us = lambda x: country[x] == "US"  # noqa: E731
-    if us(cps[k]["origin"]) or us(cps[k]["destination"]):
+def covered(c, legs, k):
+    """260.2 covered flight: to, from or within the U.S., or a foreign-to-foreign segment joined to a U.S. one
+    by stopovers of 24 hours or less (bags through, passenger airside, one ticket, one carrier)."""
+    if legs[k].a in US or legs[k].b in US:
         return True
-    conns = {tuple(x["between_coupons"]): x for x in c["ticket"].get("connections", [])}
+    bought = utc(c["ticket"]["purchased_at"])
+    conns = {tuple(x["between_coupons"]): x for x in c["ticket"]["connections"]}
 
-    def brief(i):          # stopover between coupon i and i + 1 (0-based)
+    def brief(i):
         x = conns[(i + 1, i + 2)]
-        gap = mins(cps[i]["scheduled_arrival"], cps[i + 1]["scheduled_departure"])
+        gap = legs[i + 1].at(bought)[0] - legs[i].at(bought)[1]
         return gap <= 1440 and x["bags_checked_through"] and not x["passenger_left_airport"]
 
     i = k
-    while i > 0 and brief(i - 1):            # walk back towards the U.S.
+    while i > 0 and brief(i - 1):
         i -= 1
-        if us(cps[i]["origin"]):
+        if legs[i].a in US:
             return True
     i = k
-    while i + 1 < len(cps) and brief(i):     # walk forward towards the U.S.
+    while i + 1 < len(legs) and brief(i):
         i += 1
-        if us(cps[i]["destination"]):
+        if legs[i].b in US:
             return True
     return False
 
 
-def schedule_change(c, country):
+def schedule_change(c):
     """Returns (compensation, refund, day the due date runs from)."""
-    cps, inc = c["ticket"]["coupons"], c["incident"]
-    if not covered(c, country):
+    cps = c["ticket"]["coupons"]
+    legs = [FLIGHTS[x["flight_id"]] for x in cps]
+    bought = utc(c["ticket"]["purchased_at"])
+    notice = events(c, "itinerary_change_notice")[-1]
+    at = utc(notice["at"])
+    offered = [(FLIGHTS[x["flight_id"]], x["cabin"]) for x in notice["offered_itinerary"]] \
+        if notice["offered_itinerary"] is not None else None
+    kept = {f.id for f, _ in offered or []}
+    cancelled = [f for f in legs if f.cancelled]
+    affected = [i for i, f in enumerate(legs) if f.cancelled or f.id not in kept or f.at(at) != f.at(bought)]
+    if affected and not covered(c, legs, affected[0]):
         return 0, 0, None
-    intl = any(country[x["origin"]] != "US" or country[x["destination"]] != "US" for x in cps)
-    limit = 360 if intl else 180
-    ev = inc["event"]
-    significant = ev == "cancelled" or ev in ("airport_change", "added_connection", "downgrade")
-    if ev in ("retimed", "airport_change", "added_connection", "downgrade"):
-        if -inc.get("new_departure_shift_minutes", 0) >= limit or inc.get("new_arrival_shift_minutes", 0) >= limit:
-            significant = True
-    if ev == "airport_change" and not (inc.get("new_origin_airport") or inc.get("new_destination_airport")):
-        significant = False
-    resp = inc["consumer_response"]
-    asked = c["refund_requested_on"]
-    unused = sum(a["fee_cents"] for a in c["ancillary_purchases"] if not a["provided"])
-    if significant and resp in ("rejected_alternatives", "did_not_respond_and_flight_departed",
-                                "did_not_respond_before_scheduled_departure", "requested_refund"):
-        dep = c["ticket"]["coupons"][inc["affected_coupon"] - 1]["scheduled_departure"]
-        if resp == "did_not_respond_and_flight_departed":           # 260.6(a)(2)(iii)(A)
-            start = (t(dep) + timedelta(minutes=inc.get("new_departure_shift_minutes", 0))).date().isoformat()
-        elif resp == "did_not_respond_before_scheduled_departure":  # (iii)(B)
-            start = dep[:10]
-        elif ev == "cancelled" and inc.get("alternative_offered") == "none":
-            start = inc["carrier_notice_at"][:10]                     # (i)
+    limit = 360 if intl(legs) else 180                                                   # 260.2 significant
+    significant = bool(cancelled)
+    if offered:
+        o_dep, o_arr = legs[0].at(bought)[0], legs[-1].at(bought)[1]
+        n_dep, n_arr = offered[0][0].at(at)[0], offered[-1][0].at(at)[1]
+        cabin = RANK[cps[0]["cabin"]]
+        significant = significant or o_dep - n_dep >= limit or n_arr - o_arr >= limit \
+            or offered[0][0].a != legs[0].a or offered[-1][0].b != legs[-1].b \
+            or len(offered) > len(legs) or any(RANK[cb] > cabin for _, cb in offered)
+    replies = [e for e in events(c, "passenger_reply") if utc(e["at"]) >= at]
+    choice = replies[-1]["choice"] if replies else None
+    accepted = choice in ("accepted_offered_itinerary", "accepted_voucher") or bool(events(c, "boarded"))
+    asked = requested(c)
+    if significant and not accepted and (choice == "declined_offer" or choice is None):
+        if choice == "declined_offer":
+            start = utc_date(utc(replies[-1]["at"]))                                     # 260.6(a)(2)(ii)
+        elif offered:
+            start = utc_date(offered[0][0].at(at)[0])                                    # (iii)(A)
+        elif notice["voucher_offered"]:
+            start = utc_date(cancelled[0].at(bought)[0])                                 # (iii)(B)
         else:
-            start = inc["consumer_response_at"][:10]                 # (ii)
+            start = utc_date(at)                                                         # (i)
         if asked and asked < start:
-            start = asked                                            # 260.2 prompt refund: earliest date
-        return 0, sum(x["fare_cents"] for x in cps) + sum(a["fee_cents"] for a in c["ancillary_purchases"]), start
-    if significant or resp in ("accepted_rebooking", "flew_on_changed_flight"):
-        return 0, unused, asked                                      # 260.4
-    return 0, 0, None                                                # declined a change that is not significant
+            start = asked
+        total = sum(x["fare_cents"] for x in cps) + sum(a["fee_cents"] for a in c["ancillary_purchases"])
+        return 0, total, start
+    if significant or accepted:
+        return 0, unused_fees(c), asked                                                  # 260.4
+    return 0, 0, None                                                                    # declined a minor change
 
 
-def baggage(c, flights, country):
-    inc, cps = c["incident"], c["ticket"]["coupons"]
-    if not inc["mishandled_baggage_report_filed"]:
+def baggage(c):
+    cps = c["ticket"]["coupons"]
+    legs = [FLIGHTS[x["flight_id"]] for x in cps]
+    if not events(c, "mishandled_baggage_report"):                                       # 260.5(b)
         return 0, 0
-    ex = inc["exemption_facts"] or {}
-    if any(ex.values()):
+    if any(e["type"].startswith("passenger_") for e in c["events"]):                     # 260.5(f)
         return 0, 0
-    intl_legs = [flights[x["flight_id"]] for x in cps if country[x["origin"]] != country[x["destination"]]
-                 and "US" in (country[x["origin"]], country[x["destination"]])]
-    if intl_legs:
-        longest = max(mins(f["scheduled_departure"], f["scheduled_arrival"]) for f in intl_legs)
+    cross = [f for f in legs if (f.a in US) != (f.b in US)]
+    if cross:
+        longest = max(f.versions[-1][2] - f.versions[-1][1] for f in cross)
         limit = 1800 if longest > 720 else 900
     else:
         limit = 720
-    if inc["status"] != "lost":
-        if mins(inc["deplaning_opportunity_at_final_destination"], inc["delivered_or_picked_up_at"]) <= limit:
-            return 0, 0
-    bags = c["checked_bags"]
-    sub = inc.get("bag_fee_subscription") or {}
+    delivered = events(c, "bag_delivered")
+    if delivered and utc(delivered[0]["at"]) - legs[-1].door <= limit:                   # 260.5(a)
+        return 0, 0
+    sub = c["ticket"]["bag_fee_subscription"] or {}
     if sub.get("subscribed"):
         return 0, sub["lowest_fee_charged_to_non_subscriber_same_status_and_cabin_cents"]
-    bag = next(b for b in bags if b["bag_tag"] == inc["bag_tag"])
+    tag = (delivered or events(c, "bag_declared_lost"))[0]["bag_tag"]
+    bag = next(b for b in c["checked_bags"] if b["bag_tag"] == tag)
     if bag["fee_linked_to_this_bag_by_unique_identifier"]:
         return 0, bag["fee_cents"]
-    return 0, max(b["fee_cents"] for b in bags)
+    return 0, max(b["fee_cents"] for b in c["checked_bags"])
 
 
 def service(c):
-    if c["incident"]["service_failure_through_fault_of_consumer"]:
+    if any(e["through_fault_of_consumer"] for e in events(c, "service_failure")):
         return 0, 0
-    return 0, sum(a["fee_cents"] for a in c["ancillary_purchases"] if not a["provided"])
+    return 0, unused_fees(c)
 
 
 def main():
-    claims, flights, country, holidays = load()
+    load()
     OUT.mkdir(parents=True, exist_ok=True)
     with open(OUT / "claim_decisions.csv", "w", newline="") as fh:
         w = csv.writer(fh, lineterminator="\n")
         w.writerow(["claim_id", "compensation", "refund", "refund_due_date"])
-        for c in claims:
+        for c in j("claims.json"):
             kind = c["claim_type"]
-            start = c["refund_requested_on"]
+            start = requested(c)
             if kind == "oversale":
-                comp, ref = oversale(c, flights, country)
+                comp, ref = oversale(c)
             elif kind == "schedule_change_or_cancellation":
-                comp, ref, start = schedule_change(c, country)
+                comp, ref, start = schedule_change(c)
             elif kind == "baggage":
-                comp, ref = baggage(c, flights, country)
+                comp, ref = baggage(c)
             else:
                 comp, ref = service(c)
-            dd = due_date(start, c["ticket"]["payment_method"], holidays).isoformat() if ref else "none"
+            dd = due_date(start, c["ticket"]["payment_method"]).isoformat() if ref else "none"
             w.writerow([c["claim_id"], f"{comp / 100:.2f}", f"{ref / 100:.2f}", dd])
 
 

@@ -1,150 +1,70 @@
 {
- "CL0001": {
-  "compensation": "996.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
- },
- "CL0004": {
-  "compensation": "0.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
- },
- "CL0005": {
+ "CL0007": {
   "compensation": "498.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0008": {
-  "compensation": "352.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
- },
- "CL0011": {
-  "compensation": "556.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
+ "CL0010": {
+  "compensation": "0.00",
+  "refund": "70.00",
+  "refund_due_date": "2026-11-13"
  },
  "CL0012": {
-  "compensation": "0.00",
-  "refund": "19.00",
-  "refund_due_date": "2026-11-20"
- },
- "CL0013": {
-  "compensation": "0.00",
-  "refund": "74.00",
-  "refund_due_date": "2026-11-09"
- },
- "CL0015": {
-  "compensation": "660.00",
+  "compensation": "426.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0017": {
+ "CL0016": {
   "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0018": {
+ "CL0021": {
   "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0019": {
+ "CL0023": {
   "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
  "CL0024": {
   "compensation": "0.00",
-  "refund": "689.00",
-  "refund_due_date": "2026-11-16"
- },
- "CL0025": {
-  "compensation": "0.00",
-  "refund": "292.00",
-  "refund_due_date": "2026-11-10"
+  "refund": "0.00",
+  "refund_due_date": "none"
  },
  "CL0026": {
-  "compensation": "0.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
- },
- "CL0027": {
-  "compensation": "0.00",
-  "refund": "292.00",
-  "refund_due_date": "2026-11-03"
- },
- "CL0028": {
-  "compensation": "0.00",
-  "refund": "35.00",
-  "refund_due_date": "2026-11-13"
- },
- "CL0029": {
-  "compensation": "0.00",
-  "refund": "218.00",
-  "refund_due_date": "2026-11-03"
- },
- "CL0030": {
-  "compensation": "0.00",
-  "refund": "556.00",
-  "refund_due_date": "2026-11-03"
- },
- "CL0031": {
-  "compensation": "426.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
- },
- "CL0032": {
-  "compensation": "0.00",
-  "refund": "261.00",
-  "refund_due_date": "2026-11-18"
- },
- "CL0034": {
-  "compensation": "0.00",
-  "refund": "184.00",
-  "refund_due_date": "2026-11-05"
- },
- "CL0035": {
-  "compensation": "0.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
- },
- "CL0036": {
   "compensation": "636.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0037": {
-  "compensation": "0.00",
-  "refund": "261.00",
-  "refund_due_date": "2026-11-09"
- },
- "CL0039": {
-  "compensation": "0.00",
-  "refund": "75.00",
-  "refund_due_date": "2026-11-09"
- },
- "CL0042": {
-  "compensation": "0.00",
-  "refund": "218.00",
-  "refund_due_date": "2026-10-30"
- },
- "CL0044": {
+ "CL0031": {
   "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0045": {
-  "compensation": "996.00",
+ "CL0034": {
+  "compensation": "0.00",
+  "refund": "331.00",
+  "refund_due_date": "2026-11-24"
+ },
+ "CL0040": {
+  "compensation": "0.00",
+  "refund": "74.00",
+  "refund_due_date": "2026-11-02"
+ },
+ "CL0041": {
+  "compensation": "1272.00",
   "refund": "0.00",
   "refund_due_date": "none"
+ },
+ "CL0046": {
+  "compensation": "0.00",
+  "refund": "318.00",
+  "refund_due_date": "2026-11-20"
  },
  "CL0048": {
-  "compensation": "0.00",
-  "refund": "218.00",
-  "refund_due_date": "2026-11-15"
- },
- "CL0049": {
   "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
@@ -154,150 +74,110 @@
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0051": {
-  "compensation": "1075.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
- },
- "CL0055": {
-  "compensation": "752.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
- },
- "CL0057": {
+ "CL0062": {
   "compensation": "1196.00",
   "refund": "45.00",
-  "refund_due_date": "2026-10-30"
+  "refund_due_date": "2026-11-03"
  },
- "CL0058": {
-  "compensation": "0.00",
-  "refund": "261.00",
-  "refund_due_date": "2026-11-21"
- },
- "CL0059": {
-  "compensation": "0.00",
-  "refund": "223.00",
-  "refund_due_date": "2026-11-20"
- },
- "CL0061": {
+ "CL0063": {
   "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
- },
- "CL0064": {
-  "compensation": "0.00",
-  "refund": "75.00",
-  "refund_due_date": "2026-11-16"
  },
  "CL0068": {
-  "compensation": "974.00",
+  "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0071": {
-  "compensation": "752.00",
+ "CL0070": {
+  "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
  "CL0072": {
-  "compensation": "0.00",
-  "refund": "218.00",
-  "refund_due_date": "2026-11-15"
+  "compensation": "1075.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
  },
  "CL0075": {
-  "compensation": "0.00",
-  "refund": "45.00",
-  "refund_due_date": "2026-11-18"
- },
- "CL0077": {
-  "compensation": "0.00",
-  "refund": "100.00",
-  "refund_due_date": "2026-11-18"
- },
- "CL0082": {
   "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0083": {
+ "CL0076": {
   "compensation": "0.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0077": {
+  "compensation": "0.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0081": {
+  "compensation": "974.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
  "CL0084": {
   "compensation": "0.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
- },
- "CL0086": {
-  "compensation": "0.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
+  "refund": "49.00",
+  "refund_due_date": "2026-12-11"
  },
  "CL0087": {
   "compensation": "0.00",
-  "refund": "70.00",
-  "refund_due_date": "2026-11-11"
- },
- "CL0089": {
-  "compensation": "1948.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
+ "CL0089": {
+  "compensation": "0.00",
+  "refund": "292.00",
+  "refund_due_date": "2026-11-03"
+ },
  "CL0091": {
   "compensation": "0.00",
-  "refund": "261.00",
-  "refund_due_date": "2026-11-18"
+  "refund": "0.00",
+  "refund_due_date": "none"
  },
- "CL0095": {
+ "CL0093": {
   "compensation": "0.00",
-  "refund": "35.00",
-  "refund_due_date": "2026-11-19"
+  "refund": "100.00",
+  "refund_due_date": "2026-11-25"
  },
- "CL0096": {
-  "compensation": "932.00",
+ "CL0098": {
+  "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
  "CL0099": {
   "compensation": "0.00",
-  "refund": "39.00",
-  "refund_due_date": "2026-10-29"
+  "refund": "0.00",
+  "refund_due_date": "none"
  },
- "CL0100": {
+ "CL0106": {
+  "compensation": "0.00",
+  "refund": "218.00",
+  "refund_due_date": "2026-11-09"
+ },
+ "CL0110": {
   "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0102": {
-  "compensation": "498.00",
+ "CL0118": {
+  "compensation": "0.00",
+  "refund": "164.00",
+  "refund_due_date": "2026-11-13"
+ },
+ "CL0122": {
+  "compensation": "0.00",
+  "refund": "75.00",
+  "refund_due_date": "2026-11-24"
+ },
+ "CL0126": {
+  "compensation": "996.00",
   "refund": "0.00",
   "refund_due_date": "none"
- },
- "CL0104": {
-  "compensation": "0.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
- },
- "CL0105": {
-  "compensation": "0.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
- },
- "CL0108": {
-  "compensation": "0.00",
-  "refund": "49.00",
-  "refund_due_date": "2026-12-01"
- },
- "CL0121": {
-  "compensation": "0.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
- },
- "CL0124": {
-  "compensation": "0.00",
-  "refund": "636.00",
-  "refund_due_date": "2026-11-26"
  },
  "CL0127": {
   "compensation": "0.00",
@@ -309,104 +189,334 @@
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0130": {
-  "compensation": "0.00",
-  "refund": "75.00",
-  "refund_due_date": "2026-11-06"
- },
  "CL0133": {
   "compensation": "0.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
+  "refund": "304.00",
+  "refund_due_date": "2026-11-13"
  },
- "CL0134": {
+ "CL0136": {
   "compensation": "0.00",
-  "refund": "218.00",
-  "refund_due_date": "2026-11-18"
- },
- "CL0135": {
-  "compensation": "2150.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
+  "refund": "689.00",
+  "refund_due_date": "2026-11-23"
  },
  "CL0138": {
-  "compensation": "942.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
+  "compensation": "0.00",
+  "refund": "636.00",
+  "refund_due_date": "2026-11-25"
  },
  "CL0140": {
+  "compensation": "996.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0141": {
   "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
+ },
+ "CL0142": {
+  "compensation": "0.00",
+  "refund": "636.00",
+  "refund_due_date": "2026-12-06"
  },
  "CL0144": {
-  "compensation": "0.00",
+  "compensation": "932.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0145": {
+ "CL0147": {
   "compensation": "0.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
+  "refund": "330.00",
+  "refund_due_date": "2026-11-12"
+ },
+ "CL0148": {
+  "compensation": "0.00",
+  "refund": "261.00",
+  "refund_due_date": "2026-11-21"
  },
  "CL0149": {
   "compensation": "0.00",
-  "refund": "0.00",
-  "refund_due_date": "none"
+  "refund": "261.00",
+  "refund_due_date": "2026-11-18"
  },
  "CL0150": {
   "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0151": {
+ "CL0153": {
+  "compensation": "498.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0159": {
   "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0153": {
+ "CL0162": {
   "compensation": "0.00",
-  "refund": "636.00",
+  "refund": "318.00",
+  "refund_due_date": "2026-11-25"
+ },
+ "CL0163": {
+  "compensation": "660.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0164": {
+  "compensation": "0.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0167": {
+  "compensation": "0.00",
+  "refund": "261.00",
   "refund_due_date": "2026-11-18"
  },
- "CL0157": {
+ "CL0169": {
   "compensation": "0.00",
-  "refund": "45.00",
-  "refund_due_date": "2026-11-28"
+  "refund": "35.00",
+  "refund_due_date": "2026-11-24"
  },
- "CL0159": {
+ "CL0173": {
+  "compensation": "0.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0175": {
+  "compensation": "0.00",
+  "refund": "40.00",
+  "refund_due_date": "2026-12-07"
+ },
+ "CL0178": {
+  "compensation": "1948.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0179": {
+  "compensation": "0.00",
+  "refund": "218.00",
+  "refund_due_date": "2026-11-14"
+ },
+ "CL0181": {
   "compensation": "0.00",
   "refund": "35.00",
   "refund_due_date": "2026-11-27"
  },
- "CL0160": {
+ "CL0183": {
   "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0163": {
+ "CL0185": {
+  "compensation": "498.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0187": {
+  "compensation": "556.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0190": {
+  "compensation": "2150.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0191": {
   "compensation": "0.00",
-  "refund": "261.00",
+  "refund": "292.00",
+  "refund_due_date": "2026-11-04"
+ },
+ "CL0193": {
+  "compensation": "0.00",
+  "refund": "556.00",
+  "refund_due_date": "2026-11-16"
+ },
+ "CL0200": {
+  "compensation": "0.00",
+  "refund": "45.00",
+  "refund_due_date": "2026-12-08"
+ },
+ "CL0205": {
+  "compensation": "0.00",
+  "refund": "75.00",
   "refund_due_date": "2026-11-09"
  },
- "CL0164": {
-  "compensation": "0.00",
-  "refund": "35.00",
-  "refund_due_date": "2026-11-19"
- },
- "CL0166": {
+ "CL0206": {
   "compensation": "0.00",
   "refund": "0.00",
   "refund_due_date": "none"
  },
- "CL0168": {
+ "CL0207": {
+  "compensation": "0.00",
+  "refund": "218.00",
+  "refund_due_date": "2026-11-06"
+ },
+ "CL0208": {
+  "compensation": "0.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0212": {
+  "compensation": "0.00",
+  "refund": "35.00",
+  "refund_due_date": "2026-12-09"
+ },
+ "CL0219": {
+  "compensation": "0.00",
+  "refund": "75.00",
+  "refund_due_date": "2026-11-17"
+ },
+ "CL0221": {
+  "compensation": "0.00",
+  "refund": "39.00",
+  "refund_due_date": "2026-11-02"
+ },
+ "CL0222": {
+  "compensation": "0.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0235": {
+  "compensation": "0.00",
+  "refund": "19.00",
+  "refund_due_date": "2026-12-02"
+ },
+ "CL0242": {
+  "compensation": "1948.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0243": {
+  "compensation": "0.00",
+  "refund": "218.00",
+  "refund_due_date": "2026-11-15"
+ },
+ "CL0255": {
+  "compensation": "0.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0257": {
+  "compensation": "752.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0258": {
+  "compensation": "0.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0259": {
+  "compensation": "0.00",
+  "refund": "600.00",
+  "refund_due_date": "2026-11-18"
+ },
+ "CL0264": {
+  "compensation": "398.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0268": {
+  "compensation": "996.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0272": {
+  "compensation": "0.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0275": {
+  "compensation": "1948.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0276": {
+  "compensation": "0.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0285": {
+  "compensation": "942.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0293": {
+  "compensation": "0.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0296": {
+  "compensation": "0.00",
+  "refund": "636.00",
+  "refund_due_date": "2026-12-07"
+ },
+ "CL0297": {
+  "compensation": "0.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0302": {
+  "compensation": "0.00",
+  "refund": "45.00",
+  "refund_due_date": "2026-11-30"
+ },
+ "CL0305": {
   "compensation": "0.00",
   "refund": "218.00",
   "refund_due_date": "2026-11-03"
  },
- "CL0172": {
+ "CL0307": {
   "compensation": "0.00",
-  "refund": "636.00",
+  "refund": "184.00",
   "refund_due_date": "2026-11-18"
+ },
+ "CL0313": {
+  "compensation": "0.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0316": {
+  "compensation": "0.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0317": {
+  "compensation": "0.00",
+  "refund": "35.00",
+  "refund_due_date": "2026-12-01"
+ },
+ "CL0320": {
+  "compensation": "752.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0323": {
+  "compensation": "996.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0325": {
+  "compensation": "0.00",
+  "refund": "223.00",
+  "refund_due_date": "2026-11-30"
+ },
+ "CL0326": {
+  "compensation": "352.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0329": {
+  "compensation": "704.00",
+  "refund": "0.00",
+  "refund_due_date": "none"
+ },
+ "CL0330": {
+  "compensation": "0.00",
+  "refund": "35.00",
+  "refund_due_date": "2026-11-23"
  }
 }

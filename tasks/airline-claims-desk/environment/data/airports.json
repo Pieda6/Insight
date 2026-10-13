@@ -4,25 +4,35 @@
   "country": "US",
   "time_zone": "America/Chicago"
  },
- "LGA": {
-  "city": "New York",
+ "MDW": {
+  "city": "Chicago",
   "country": "US",
-  "time_zone": "America/New_York"
+  "time_zone": "America/Chicago"
+ },
+ "MKE": {
+  "city": "Milwaukee",
+  "country": "US",
+  "time_zone": "America/Chicago"
+ },
+ "MSP": {
+  "city": "Minneapolis",
+  "country": "US",
+  "time_zone": "America/Chicago"
  },
  "DFW": {
   "city": "Dallas",
   "country": "US",
   "time_zone": "America/Chicago"
  },
- "DEN": {
-  "city": "Denver",
+ "LGA": {
+  "city": "New York",
   "country": "US",
-  "time_zone": "America/Denver"
+  "time_zone": "America/New_York"
  },
- "MSP": {
-  "city": "Minneapolis",
+ "EWR": {
+  "city": "Newark",
   "country": "US",
-  "time_zone": "America/Chicago"
+  "time_zone": "America/New_York"
  },
  "BOS": {
   "city": "Boston",
@@ -34,8 +44,23 @@
   "country": "US",
   "time_zone": "America/New_York"
  },
+ "DEN": {
+  "city": "Denver",
+  "country": "US",
+  "time_zone": "America/Denver"
+ },
+ "PHX": {
+  "city": "Phoenix",
+  "country": "US",
+  "time_zone": "America/Phoenix"
+ },
  "SFO": {
   "city": "San Francisco",
+  "country": "US",
+  "time_zone": "America/Los_Angeles"
+ },
+ "LAX": {
+  "city": "Los Angeles",
   "country": "US",
   "time_zone": "America/Los_Angeles"
  },
@@ -44,20 +69,10 @@
   "country": "US",
   "time_zone": "America/Los_Angeles"
  },
- "MDW": {
-  "city": "Chicago",
+ "HNL": {
+  "city": "Honolulu",
   "country": "US",
-  "time_zone": "America/Chicago"
- },
- "EWR": {
-  "city": "Newark",
-  "country": "US",
-  "time_zone": "America/New_York"
- },
- "MKE": {
-  "city": "Milwaukee",
-  "country": "US",
-  "time_zone": "America/Chicago"
+  "time_zone": "Pacific/Honolulu"
  },
  "YYZ": {
   "city": "Toronto",
@@ -74,14 +89,14 @@
   "country": "GB",
   "time_zone": "Europe/London"
  },
- "NRT": {
-  "city": "Tokyo",
-  "country": "JP",
-  "time_zone": "Asia/Tokyo"
- },
  "FRA": {
   "city": "Frankfurt",
   "country": "DE",
   "time_zone": "Europe/Berlin"
+ },
+ "NRT": {
+  "city": "Tokyo",
+  "country": "JP",
+  "time_zone": "Asia/Tokyo"
  }
 }

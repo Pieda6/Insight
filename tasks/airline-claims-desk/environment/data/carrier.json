@@ -3,7 +3,14 @@
  "type": "U.S. air carrier, scheduled passenger service",
  "merchant_of_record": "Lakeshore Air for every ticket and every ancillary fee in this queue",
  "money_unit": "cents (USD)",
- "times": "flight schedule times are local at the airport; record timestamps ending in Z are UTC",
+ "times": "schedule and door times are local wall times at the airport concerned; timestamps ending in Z are UTC",
+ "classes_of_service_highest_first": [
+  "first",
+  "business",
+  "premium_economy",
+  "economy"
+ ],
+ "contract_of_carriage_check_in": "Check-in must be completed no later than 45 minutes before the scheduled departure of a flight within the United States and no later than 60 minutes before the scheduled departure of a flight to a foreign point.",
  "coupon_fare_cents": "price paid for that coupon including all mandatory taxes and fees, excluding ancillary fees",
  "bag_fees": "escalating per-bag scale; some fees are linked to a specific bag by unique identifier",
  "tickets": "every itinerary was bought as one ticket in a single transaction; Lakeshore operates every flight"
