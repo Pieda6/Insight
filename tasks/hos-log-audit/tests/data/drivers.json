@@ -1,374 +1,38 @@
 [
  {
   "driver_id": "DR001",
-  "name": "A. Brandt",
+  "name": "B. Iqbal",
   "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
+  "home_terminal": "IND",
+  "normal_work_reporting_location": "IND",
   "vehicle": "property-carrying tractor with a sleeper berth"
  },
  {
   "driver_id": "DR002",
-  "name": "B. Park",
-  "carrier_id": "MESA",
-  "home_terminal": "PHX",
-  "normal_work_reporting_location": "PHX",
+  "name": "B. Kaya",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
   "vehicle": "property-carrying tractor with a sleeper berth"
  },
  {
   "driver_id": "DR003",
-  "name": "A. Duval",
+  "name": "B. Haas",
   "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
+  "home_terminal": "IND",
+  "normal_work_reporting_location": "IND",
   "vehicle": "property-carrying tractor with a sleeper berth"
  },
  {
   "driver_id": "DR004",
-  "name": "B. Mwangi",
+  "name": "C. Duval",
   "carrier_id": "PRAIRIE",
-  "home_terminal": "PHX",
-  "normal_work_reporting_location": "PHX",
+  "home_terminal": "DEN",
+  "normal_work_reporting_location": "DEN",
   "vehicle": "property-carrying tractor with a sleeper berth"
  },
  {
   "driver_id": "DR005",
-  "name": "C. Lund",
-  "carrier_id": "MESA",
-  "home_terminal": "IND",
-  "normal_work_reporting_location": "IND",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR006",
-  "name": "A. Park",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR007",
-  "name": "A. Vega",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR008",
-  "name": "B. Vega",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR009",
-  "name": "C. Kaya",
-  "carrier_id": "MESA",
-  "home_terminal": "DEN",
-  "normal_work_reporting_location": "DEN",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR010",
-  "name": "B. Kaya",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "IND",
-  "normal_work_reporting_location": "IND",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR011",
-  "name": "A. Okoro",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR012",
-  "name": "A. Lind",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR013",
-  "name": "A. Ruiz",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR014",
-  "name": "B. Iqbal",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "DEN",
-  "normal_work_reporting_location": "DEN",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR015",
-  "name": "A. Novak",
-  "carrier_id": "MESA",
-  "home_terminal": "PHX",
-  "normal_work_reporting_location": "PHX",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR016",
-  "name": "A. Iqbal",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR017",
-  "name": "C. Vega",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "PHX",
-  "normal_work_reporting_location": "PHX",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR018",
-  "name": "B. Duval",
-  "carrier_id": "MESA",
-  "home_terminal": "IND",
-  "normal_work_reporting_location": "IND",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR019",
-  "name": "B. Byrne",
-  "carrier_id": "MESA",
-  "home_terminal": "IND",
-  "normal_work_reporting_location": "IND",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR020",
-  "name": "B. Brandt",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR021",
-  "name": "C. Okoro",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "DEN",
-  "normal_work_reporting_location": "DEN",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR022",
-  "name": "A. Lund",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR023",
-  "name": "B. Novak",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "IND",
-  "normal_work_reporting_location": "IND",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR024",
-  "name": "B. Moreau",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "PHX",
-  "normal_work_reporting_location": "PHX",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR025",
-  "name": "B. Farah",
-  "carrier_id": "MESA",
-  "home_terminal": "DEN",
-  "normal_work_reporting_location": "DEN",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR026",
-  "name": "C. Farah",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "DEN",
-  "normal_work_reporting_location": "DEN",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR027",
-  "name": "A. Marsh",
-  "carrier_id": "MESA",
-  "home_terminal": "DEN",
-  "normal_work_reporting_location": "DEN",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR028",
-  "name": "A. Reyes",
-  "carrier_id": "MESA",
-  "home_terminal": "PHX",
-  "normal_work_reporting_location": "PHX",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR029",
-  "name": "C. Ito",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "DEN",
-  "normal_work_reporting_location": "DEN",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR030",
-  "name": "A. Mwangi",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR031",
-  "name": "A. Adeyemi",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR032",
-  "name": "B. Haas",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR033",
-  "name": "B. Osei",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "IND",
-  "normal_work_reporting_location": "IND",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR034",
-  "name": "B. Lund",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR035",
-  "name": "C. Marsh",
-  "carrier_id": "MESA",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR036",
-  "name": "A. Petrov",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR037",
-  "name": "B. Reyes",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "IND",
-  "normal_work_reporting_location": "IND",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR038",
-  "name": "B. Adeyemi",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "IND",
-  "normal_work_reporting_location": "IND",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR039",
-  "name": "A. Moreau",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR040",
-  "name": "A. Haas",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR041",
-  "name": "B. Marsh",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "IND",
-  "normal_work_reporting_location": "IND",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR042",
-  "name": "C. Brandt",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR043",
-  "name": "B. Ito",
-  "carrier_id": "PRAIRIE",
-  "home_terminal": "IND",
-  "normal_work_reporting_location": "IND",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR044",
-  "name": "B. Petrov",
-  "carrier_id": "MESA",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR045",
-  "name": "A. Farah",
-  "carrier_id": "MESA",
-  "home_terminal": "DEN",
-  "normal_work_reporting_location": "DEN",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR046",
-  "name": "B. Soto",
-  "carrier_id": "MESA",
-  "home_terminal": "CHI",
-  "normal_work_reporting_location": "CHI",
-  "vehicle": "property-carrying tractor with a sleeper berth"
- },
- {
-  "driver_id": "DR047",
   "name": "A. Quinn",
   "carrier_id": "PRAIRIE",
   "home_terminal": "CHI",
@@ -376,39 +40,119 @@
   "vehicle": "property-carrying tractor with a sleeper berth"
  },
  {
-  "driver_id": "DR048",
-  "name": "A. Soto",
+  "driver_id": "DR006",
+  "name": "A. Brandt",
   "carrier_id": "PRAIRIE",
   "home_terminal": "CHI",
   "normal_work_reporting_location": "CHI",
   "vehicle": "property-carrying tractor with a sleeper berth"
  },
  {
-  "driver_id": "DR049",
-  "name": "A. Kaya",
-  "carrier_id": "MESA",
-  "home_terminal": "PHX",
-  "normal_work_reporting_location": "PHX",
+  "driver_id": "DR007",
+  "name": "C. Novak",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "DEN",
+  "normal_work_reporting_location": "DEN",
   "vehicle": "property-carrying tractor with a sleeper berth"
  },
  {
-  "driver_id": "DR050",
-  "name": "B. Lind",
+  "driver_id": "DR008",
+  "name": "C. Osei",
+  "carrier_id": "MESA",
+  "home_terminal": "IND",
+  "normal_work_reporting_location": "IND",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR009",
+  "name": "A. Ruiz",
   "carrier_id": "PRAIRIE",
   "home_terminal": "IND",
   "normal_work_reporting_location": "IND",
   "vehicle": "property-carrying tractor with a sleeper berth"
  },
  {
-  "driver_id": "DR051",
-  "name": "B. Okoro",
+  "driver_id": "DR010",
+  "name": "C. Brandt",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "DEN",
+  "normal_work_reporting_location": "DEN",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR011",
+  "name": "B. Byrne",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "DEN",
+  "normal_work_reporting_location": "DEN",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR012",
+  "name": "B. Farah",
   "carrier_id": "PRAIRIE",
   "home_terminal": "CHI",
   "normal_work_reporting_location": "CHI",
   "vehicle": "property-carrying tractor with a sleeper berth"
  },
  {
-  "driver_id": "DR052",
+  "driver_id": "DR013",
+  "name": "C. Iqbal",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "IND",
+  "normal_work_reporting_location": "IND",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR014",
+  "name": "D. Okoro",
+  "carrier_id": "MESA",
+  "home_terminal": "DEN",
+  "normal_work_reporting_location": "DEN",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR015",
+  "name": "B. Ruiz",
+  "carrier_id": "MESA",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR016",
+  "name": "A. Moreau",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR017",
+  "name": "B. Brandt",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR018",
+  "name": "B. Lund",
+  "carrier_id": "MESA",
+  "home_terminal": "DEN",
+  "normal_work_reporting_location": "DEN",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR019",
+  "name": "A. Ito",
+  "carrier_id": "MESA",
+  "home_terminal": "PHX",
+  "normal_work_reporting_location": "PHX",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR020",
   "name": "A. Osei",
   "carrier_id": "MESA",
   "home_terminal": "PHX",
@@ -416,15 +160,207 @@
   "vehicle": "property-carrying tractor with a sleeper berth"
  },
  {
-  "driver_id": "DR053",
-  "name": "B. Ruiz",
+  "driver_id": "DR021",
+  "name": "D. Brandt",
+  "carrier_id": "MESA",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR022",
+  "name": "D. Vega",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "IND",
+  "normal_work_reporting_location": "IND",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR023",
+  "name": "A. Lind",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "DEN",
+  "normal_work_reporting_location": "DEN",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR024",
+  "name": "C. Park",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "PHX",
+  "normal_work_reporting_location": "PHX",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR025",
+  "name": "C. Mwangi",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "PHX",
+  "normal_work_reporting_location": "PHX",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR026",
+  "name": "A. Adeyemi",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR027",
+  "name": "B. Reyes",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR028",
+  "name": "A. Park",
+  "carrier_id": "MESA",
+  "home_terminal": "PHX",
+  "normal_work_reporting_location": "PHX",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR029",
+  "name": "A. Marsh",
   "carrier_id": "MESA",
   "home_terminal": "DEN",
   "normal_work_reporting_location": "DEN",
   "vehicle": "property-carrying tractor with a sleeper berth"
  },
  {
-  "driver_id": "DR054",
+  "driver_id": "DR030",
+  "name": "C. Farah",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "IND",
+  "normal_work_reporting_location": "IND",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR031",
+  "name": "B. Lind",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR032",
+  "name": "B. Soto",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "IND",
+  "normal_work_reporting_location": "IND",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR033",
+  "name": "A. Mwangi",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR034",
+  "name": "B. Adeyemi",
+  "carrier_id": "MESA",
+  "home_terminal": "DEN",
+  "normal_work_reporting_location": "DEN",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR035",
+  "name": "A. Soto",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR036",
+  "name": "C. Ito",
+  "carrier_id": "MESA",
+  "home_terminal": "DEN",
+  "normal_work_reporting_location": "DEN",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR037",
+  "name": "A. Iqbal",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR038",
+  "name": "C. Soto",
+  "carrier_id": "MESA",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR039",
+  "name": "A. Vega",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR040",
+  "name": "B. Novak",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR041",
+  "name": "C. Kaya",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR042",
+  "name": "B. Petrov",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "IND",
+  "normal_work_reporting_location": "IND",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR043",
+  "name": "A. Novak",
+  "carrier_id": "MESA",
+  "home_terminal": "PHX",
+  "normal_work_reporting_location": "PHX",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR044",
+  "name": "D. Lund",
+  "carrier_id": "MESA",
+  "home_terminal": "IND",
+  "normal_work_reporting_location": "IND",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR045",
+  "name": "B. Duval",
+  "carrier_id": "MESA",
+  "home_terminal": "DEN",
+  "normal_work_reporting_location": "DEN",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR046",
   "name": "A. Byrne",
   "carrier_id": "PRAIRIE",
   "home_terminal": "CHI",
@@ -432,19 +368,251 @@
   "vehicle": "property-carrying tractor with a sleeper berth"
  },
  {
-  "driver_id": "DR055",
-  "name": "B. Quinn",
+  "driver_id": "DR047",
+  "name": "B. Vega",
   "carrier_id": "MESA",
   "home_terminal": "DEN",
   "normal_work_reporting_location": "DEN",
   "vehicle": "property-carrying tractor with a sleeper berth"
  },
  {
-  "driver_id": "DR056",
-  "name": "A. Ito",
+  "driver_id": "DR048",
+  "name": "D. Farah",
+  "carrier_id": "MESA",
+  "home_terminal": "IND",
+  "normal_work_reporting_location": "IND",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR049",
+  "name": "B. Mwangi",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "IND",
+  "normal_work_reporting_location": "IND",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR050",
+  "name": "C. Petrov",
+  "carrier_id": "MESA",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR051",
+  "name": "C. Marsh",
   "carrier_id": "MESA",
   "home_terminal": "PHX",
   "normal_work_reporting_location": "PHX",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR052",
+  "name": "A. Haas",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR053",
+  "name": "B. Park",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "PHX",
+  "normal_work_reporting_location": "PHX",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR054",
+  "name": "C. Adeyemi",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "DEN",
+  "normal_work_reporting_location": "DEN",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR055",
+  "name": "A. Lund",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR056",
+  "name": "C. Reyes",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "PHX",
+  "normal_work_reporting_location": "PHX",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR057",
+  "name": "C. Okoro",
+  "carrier_id": "MESA",
+  "home_terminal": "IND",
+  "normal_work_reporting_location": "IND",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR058",
+  "name": "C. Ruiz",
+  "carrier_id": "MESA",
+  "home_terminal": "IND",
+  "normal_work_reporting_location": "IND",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR059",
+  "name": "C. Vega",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "PHX",
+  "normal_work_reporting_location": "PHX",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR060",
+  "name": "C. Moreau",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "PHX",
+  "normal_work_reporting_location": "PHX",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR061",
+  "name": "C. Lind",
+  "carrier_id": "MESA",
+  "home_terminal": "DEN",
+  "normal_work_reporting_location": "DEN",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR062",
+  "name": "A. Reyes",
+  "carrier_id": "MESA",
+  "home_terminal": "PHX",
+  "normal_work_reporting_location": "PHX",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR063",
+  "name": "B. Moreau",
+  "carrier_id": "MESA",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR064",
+  "name": "B. Quinn",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "IND",
+  "normal_work_reporting_location": "IND",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR065",
+  "name": "A. Farah",
+  "carrier_id": "MESA",
+  "home_terminal": "DEN",
+  "normal_work_reporting_location": "DEN",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR066",
+  "name": "A. Petrov",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR067",
+  "name": "B. Osei",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR068",
+  "name": "B. Ito",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR069",
+  "name": "B. Okoro",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR070",
+  "name": "A. Okoro",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR071",
+  "name": "C. Quinn",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "DEN",
+  "normal_work_reporting_location": "DEN",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR072",
+  "name": "A. Kaya",
+  "carrier_id": "MESA",
+  "home_terminal": "PHX",
+  "normal_work_reporting_location": "PHX",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR073",
+  "name": "B. Marsh",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR074",
+  "name": "C. Lund",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "IND",
+  "normal_work_reporting_location": "IND",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR075",
+  "name": "A. Duval",
+  "carrier_id": "PRAIRIE",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR076",
+  "name": "C. Haas",
+  "carrier_id": "MESA",
+  "home_terminal": "DEN",
+  "normal_work_reporting_location": "DEN",
+  "vehicle": "property-carrying tractor with a sleeper berth"
+ },
+ {
+  "driver_id": "DR077",
+  "name": "C. Byrne",
+  "carrier_id": "MESA",
+  "home_terminal": "CHI",
+  "normal_work_reporting_location": "CHI",
   "vehicle": "property-carrying tractor with a sleeper berth"
  }
 ]

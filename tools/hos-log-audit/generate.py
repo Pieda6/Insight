@@ -180,6 +180,35 @@ def planted(w):
     g.release(minutes=900)
     w.driver("PRAIRIE", "CHI", g, ["sleeper-split", "reset-10"], [])
 
+    # near misses: 2.5 h + 7 h (under 10), 1 h 50 + 8 h 20 (short period under 2 h), 2.5 h + (6 h 40 berth
+    # + 1 h off) (no 7 consecutive berth hours): no pair, so the 14 hours still run from 12:00
+    def near(first, second, after):
+        g = Log(Z(19)).until("O", Z(21, 12))
+        g.add("N", 30).add("D", 300).add("S", first).add("D", 180)
+        for code, mins in second:
+            g.add(code, mins)
+        return g.add("D", after).release(minutes=900)
+
+    w.driver("PRAIRIE", "DEN", near(150, [("S", 420)], 180), ["sleeper-split"], [(Z(22, 6), "14_HOUR_WINDOW")])
+    w.driver("MESA", "PHX", near(110, [("S", 500)], 120), ["sleeper-split"], [(Z(22, 6, 40), "14_HOUR_WINDOW")])
+    w.driver("PRAIRIE", "IND", near(150, [("S", 400), ("O", 60)], 180), ["sleeper-split"],
+             [(Z(22, 6, 40), "14_HOUR_WINDOW")])
+    # 8 h berth + 2 h off is a 10-hour rest; with 10 minutes on duty between them it is not
+    for gap, exp in ((0, []), (10, [(Z(22, 9), "14_HOUR_WINDOW")])):
+        g = Log(Z(19)).until("O", Z(21, 12))
+        g.add("N", 30).add("D", 300).add("N", 30).add("D", 240).add("N", 30).add("S", 480)
+        if gap:
+            g.add("N", gap).add("O", 110)
+        else:
+            g.add("O", 120)
+        g.add("N", 30).add("D", 120).release(minutes=900)
+        w.driver("PRAIRIE", "CHI", g, ["reset-10"], exp)
+    # 29 consecutive non-driving minutes are not a break; 15 on duty + 15 off are
+    for off, exp in ((9, [(Z(21, 20, 59), "30_MINUTE_BREAK")]), (10, [])):
+        g = Log(Z(19)).until("O", Z(21, 12))
+        g.add("N", 30).add("D", 300).add("N", 20).add("O", off).add("D", 240).release(minutes=900)
+        w.driver("MESA", "DEN", g, ["break-30"], exp)
+
     # ---------------- 60/70 hours: carrier days, restarts, travel time ------------------------------------
     def week(term, days, start_h, on_minutes, log):
         for d in days:
@@ -290,7 +319,7 @@ def long_haul(w, carrier, term, weeks=3):
                 g.add("S", rng.choice([600, 630, 660, 720]))
         g.release(minutes=60)
     g.add("O", 600)
-    w.driver(carrier, term, g, ["filler"])
+    return g
 
 
 def split_runner(w, carrier, term):
@@ -315,7 +344,7 @@ def split_runner(w, carrier, term):
             g.add("N", 30).add("S", 660)
         else:
             g.add("N", 30).add("D", rng.choice([240, 300, 360])).add("N", 30).add("S", 630)
-    w.driver(carrier, term, g, ["filler"])
+    return g
 
 
 def regional(w, carrier, term, weeks=3):
@@ -332,18 +361,132 @@ def regional(w, carrier, term, weeks=3):
             g.add("N", rng.choice([20, 45, 90, 200]))
             g.release(home=rng.random() < 0.9, minutes=60)
     g.add("O", 900)
-    w.driver(carrier, term, g, ["filler"])
+    return g
+
+
+def tight_split(w, carrier, term):
+    """Sleeper-berth driver whose rests sit right at the thresholds: valid splits, splits just under
+    10 hours, a short period under 2 hours, a 'long' period with under 7 consecutive berth hours, a
+    10-hour rest broken by a short on-duty entry, and breaks a minute short of 30."""
+    g = Log(Z(5))
+    g.until("O", L(term, 7, rng.choice([3, 5, 7])))
+    for day in range(rng.choice([8, 9, 10])):
+        kind = rng.choice("abcdeff" if day % 2 else "abcde")
+        g.add("N", 30).add("D", rng.choice([240, 270, 300]))
+        if kind == "a":                                   # valid pair, limits respected afterwards
+            s1 = rng.choice([120, 135, 150, 180])
+            mid = rng.choice([150, 180, 210])
+            g.add("S", s1).add("D", mid).add("S", max(420, 600 - s1) + rng.choice([0, 15, 30]))
+            x = rng.choice([180, 240, 300])
+            y = max(0, min(rng.choice([60, 120, 180]), 660 - mid - x))
+            g.add("D", x)
+            if y:
+                g.add("N", 30).add("D", y)
+        elif kind == "b":                                 # 7+ hours in the berth but under 10 in total
+            s1 = rng.choice([120, 150])
+            g.add("S", s1).add("D", rng.choice([150, 180])).add("S", rng.choice([540, 570, 585]) - s1)
+            g.add("D", rng.choice([120, 180, 240])).add("N", 30).add("D", rng.choice([30, 60]))
+        elif kind == "c":                                 # first period under 2 hours
+            g.add("S", rng.choice([100, 110, 115])).add("D", rng.choice([150, 180]))
+            g.add("S", rng.choice([490, 500, 510])).add("D", rng.choice([120, 180, 240]))
+        elif kind == "d":                                 # long period has under 7 consecutive berth hours
+            g.add("S", rng.choice([150, 180])).add("D", rng.choice([150, 180]))
+            g.add("S", rng.choice([380, 400, 410])).add("O", rng.choice([50, 60, 70]))
+            g.add("D", rng.choice([120, 180, 240]))
+        elif kind == "e":                                 # 10 hours off interrupted by a short on-duty entry
+            g.add("N", 30).add("D", rng.choice([180, 240])).add("N", 30)
+            g.add("S", 480).add("N", rng.choice([5, 10, 15])).add("O", rng.choice([100, 110]))
+            g.add("N", 30).add("D", rng.choice([120, 180, 240]))
+        else:                                             # breaks of 29 and 30 minutes
+            g.add("N", 20).add("O", rng.choice([9, 10]))
+            g.add("D", rng.choice([200, 240])).add("N", 15).add("O", 15).add("D", rng.choice([60, 120]))
+        if day == 4:                                      # home for a restart mid-run
+            g.add("N", 30).release(minutes=rng.choice([2100, 2160]))
+        else:
+            g.add("N", 30).add("S", rng.choice([600, 630, 660]))
+    g.release(minutes=900)
+    return g
+
+
+def contested(log):
+    """True when a log would need a reading the regulation leaves open: a tour with more than two
+    rest periods that could pair, a valid pair with driving beyond the original limits before the
+    second period or beyond the recalculated limits after it, a pure off-duty half of a pair, or a
+    34-hour rest that contains sleeper-berth time."""
+    def m(x):
+        return int((datetime.strptime(x, "%Y-%m-%dT%H:%MZ").replace(tzinfo=UTC) - Z(1)).total_seconds() // 60)
+    t0 = m(log.segs[0]["start"])
+    st = []
+    for sg in log.segs:
+        st.extend({"off_duty": "O", "sleeper_berth": "S", "driving": "D",
+                   "on_duty_not_driving": "N"}[sg["status"]] * (m(sg["end"]) - m(sg["start"])))
+    rests, i = [], 0
+    while i < len(st):
+        if st[i] in "OS":
+            j = i
+            while j < len(st) and st[j] in "OS":
+                j += 1
+            rests.append((i, j))
+            i = j
+        else:
+            i += 1
+
+    def berth(a, b):
+        best = cur = 0
+        for k in range(a, b):
+            cur = cur + 1 if st[k] == "S" else 0
+            best = max(best, cur)
+        return best
+
+    def driven(a, b):
+        return sum(1 for k in range(a, b) if st[k] == "D")
+
+    for a, b in rests:
+        if b - a >= 34 * 60 and "S" in st[a:b] and "D" in st[b:]:
+            return True
+    resets = [r for r in rests if r[1] - r[0] >= 600]
+    for k, r in enumerate(resets):
+        start = r[1]
+        end = resets[k + 1][0] if k + 1 < len(resets) else len(st)
+        cands = [x for x in rests if start < x[0] and x[1] <= end and 120 <= x[1] - x[0] < 600]
+        if len(cands) > 2:
+            return True
+        if len(cands) == 2:
+            p, q = cands
+            if max(berth(*p), berth(*q)) >= 420 and (p[1] - p[0]) + (q[1] - q[0]) >= 600:
+                if berth(*p) == 0 or berth(*q) == 0:
+                    return True
+                for t in range(start, q[0]):
+                    if st[t] == "D" and (t >= start + 840 or driven(start, t) >= 660):
+                        return True
+                for t in range(q[1], end):
+                    if st[t] == "D" and (t >= p[1] + 840 + (q[1] - q[0]) or driven(p[1], t) >= 660):
+                        return True
+    return False
+
+
+REJECTED = []
+
+
+def filler(w, builder, carrier, term):
+    while True:
+        g = builder(w, carrier, term)
+        if not contested(g):
+            return w.driver(carrier, term, g, ["filler"])
+        REJECTED.append(builder.__name__)
 
 
 def main():
     w = World()
     planted(w)
     for _ in range(9):
-        long_haul(w, rng.choice(["PRAIRIE", "MESA"]), rng.choice(list(TERMINALS)))
+        filler(w, long_haul, rng.choice(["PRAIRIE", "MESA"]), rng.choice(list(TERMINALS)))
     for _ in range(5):
-        split_runner(w, rng.choice(["PRAIRIE", "MESA"]), rng.choice(list(TERMINALS)))
+        filler(w, split_runner, rng.choice(["PRAIRIE", "MESA"]), rng.choice(list(TERMINALS)))
     for _ in range(7):
-        regional(w, rng.choice(["PRAIRIE", "MESA"]), rng.choice(list(TERMINALS)))
+        filler(w, regional, rng.choice(["PRAIRIE", "MESA"]), rng.choice(list(TERMINALS)))
+    for _ in range(14):
+        filler(w, tight_split, rng.choice(["PRAIRIE", "MESA"]), rng.choice(list(TERMINALS)))
     # shuffle the driver ids so planted drivers are not grouped
     ids = [d["driver_id"] for d in w.drivers]
     new = ids[:]
@@ -365,7 +508,8 @@ def main():
     shutil.copytree(ENV, TST)
     (ROOT / "tests" / "case_tags.json").write_text(json.dumps(w.tags, indent=1, sort_keys=True) + "\n")
     (ROOT / "tests" / "golden.json").write_text(json.dumps(w.golden, indent=1, sort_keys=True) + "\n")
-    print(len(w.drivers), "drivers,", sum(len(v) for v in w.logs.values()), "segments,", len(w.golden), "golden")
+    print(len(w.drivers), "drivers,", sum(len(v) for v in w.logs.values()), "segments,", len(w.golden), "golden,",
+          len(REJECTED), "contested filler logs regenerated")
 
 
 if __name__ == "__main__":
