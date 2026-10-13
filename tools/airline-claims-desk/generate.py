@@ -114,6 +114,23 @@ class W:
         return cid
 
 
+def bag_limit(w, ticket):
+    """Minutes allowed before a checked bag is significantly delayed (260.2), from the itinerary."""
+    legs = [c for c in ticket["coupons"] if foreign(c["origin"]) != foreign(c["destination"])]
+    if not legs:
+        return 720
+    return 1800 if max(block(c["origin"], c["destination"]) for c in legs) > 720 else 900
+
+
+def asked_on(w, ticket, arr, delay, lost):
+    """The passenger asks for the bag-fee refund on the day the bag became significantly delayed (or lost),
+    so the request date and the day the refund fell due are the same; otherwise on delivery."""
+    lim = bag_limit(w, ticket)
+    if lost or delay > lim:
+        return (arr + timedelta(minutes=lim + 1)).date().isoformat()
+    return (arr + timedelta(minutes=delay)).date().isoformat()
+
+
 def T(day, h, m=0):
     return datetime(2026, 10, day, h, m, tzinfo=UTC) if day <= 31 else \
         datetime(2026, 11, day - 31, h, m, tzinfo=UTC)
@@ -365,7 +382,7 @@ def planted(w):
                "delivered_or_picked_up_at": None if lost else iso(arr + timedelta(minutes=delay_min)),
                "mishandled_baggage_report_filed": mbr, "exemption_facts": exemption,
                "bag_fee_subscription": subscription}
-        trig = trigger or (arr + timedelta(minutes=delay_min if not lost else 0)).date().isoformat()
+        trig = trigger or asked_on(w, t, arr, delay_min, lost)
         return w.add("baggage", t, inc, [], tags, expected, trig, bags)
 
     bag([("ORD", "LGA", T(33, 13))], 720, ["bag-threshold", "domestic"], (0, 0))
@@ -470,7 +487,7 @@ def filler(w, n):
                    "status": "delivered", "delivered_or_picked_up_at": iso(arr + timedelta(minutes=d)),
                    "mishandled_baggage_report_filed": rng.random() < 0.85, "exemption_facts": None,
                    "bag_fee_subscription": None}
-            w.add("baggage", t, inc, [], ["filler"], None, (arr + timedelta(minutes=d)).date().isoformat(), bags)
+            w.add("baggage", t, inc, [], ["filler"], None, asked_on(w, t, arr, d, False), bags)
         else:
             t = w.ticket(legs)
             items = [anc(rng.choice(["wifi", "advance_seat_selection", "inflight_meal"]),
