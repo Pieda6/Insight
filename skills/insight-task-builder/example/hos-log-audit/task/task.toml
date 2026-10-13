@@ -1,0 +1,31 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/hos-log-audit"
+description = "Hours-of-service audit for two property-carrying motor carriers: find every minute at which a driver began driving in breach of the 11-hour, 14-hour, 30-minute break or 60/70-hour limits of 49 CFR 395.3, applying the exceptions and definitions of 395.1 and 395.2."
+
+[metadata]
+difficulty_explanation = "Carrier safety departments audit driver logs against Part 395 every week, and every answer is an exact UTC minute. The 11-hour and 14-hour limits run from the first work after 10 consecutive hours off duty, where sleeper berth and off-duty time combine; a sleeper-berth split counts only if one period is 7 consecutive hours in the berth, neither is under 2 hours and together they reach 10, and then the limits run from the end of the first period and the 14 hours skip the second, while 5 h + 5 h or 2 h + 7.5 h do not qualify. The 30-minute break is any 30 consecutive non-driving minutes, but drivers who qualify for the 150 air-mile short-haul exception that tour are exempt: air miles are nautical (172.6 statute), the driver must be released at the reporting location within 14 hours and have had 10 hours off duty before. The 60/70-hour limit counts the carrier's own 24-hour periods (one carrier starts them at 06:00 local, terminals sit in four time zones) rather than a rolling 168 or 192 hours, uses 60/7 or 70/8 by whether the carrier operates every day, and restarts after 34 or more consecutive hours off. Carrier-directed travel is off duty only when 10 hours off follow it, which can turn a 32-hour gap into a restart or start the 14 hours early. Adverse driving conditions add 2 hours to the 11 and 14 only when not known beforehand, and the 16-hour exception needs five previous tours released at home, release within 16 hours and no use in the previous 6 days unless a 34-hour restart intervened; using it also costs the short-haul exemption that day. Each shortcut gets most drivers right and a planted set wrong. The records are synthetic but follow real long-haul, regional and split-sleeper patterns."
+solution_explanation = "For each driver, rebuild the status timeline in minutes, turning carrier-directed travel into off duty when 10 hours off follow it. Rest blocks of 10 hours or more (off duty, sleeper berth or both) end a tour; 34 hours or more restart the 60/70 count. In each tour, find sleeper-berth pairs: consecutive rest blocks of at least 2 hours, one with 7 consecutive berth hours, together at least 10; after the second, measure driving from the end of the first and the 14 hours from the end of the first plus the second's length. Decide the tour's adverse-condition extension (+2 h to 11 and 14 unless known beforehand), the 16-hour exception (five prior tours released home, release within 16 hours, no use in the previous 6 carrier days without a restart) and short-haul status (at most 172.6 statute miles, released home within 14 hours after 10 hours off duty). Then for every continuous driving stretch report, per rule, the first minute at which driving was not permitted: 11 hours of driving reached, 14 (or 16) hours elapsed, 8 hours of driving since a 30-minute non-driving break unless short-haul, or 60/70 hours on duty in the carrier days ending with the current one (or since the last restart)."
+verification_explanation = "The verifier recomputes every violation with its own independently written engine (engine.py, interval arithmetic rather than the reference solution's minute scan) from a private copy of the inputs that exists only in the verifier image, and never runs agent code. The engine is itself checked against 42 hand-worked planted drivers (golden.json). Tests check the exact header, value formats and ordering, the hand-worked drivers, one test per rule family (11 hours, 14 hours, 30-minute break, short-haul exception, adverse driving conditions, sleeper-berth periods and resets, 60/70-hour limits, restarts and travel time, the 16-hour exception) and finally the full set of violations. Reward is 1 only if every test passes."
+category = "Operations"
+subcategory = "Logistics"
+tags = ["hours-of-service", "49-cfr-395", "fmcsa", "eld", "trucking", "compliance", "time-zones", "python"]
+expert_time_estimate_hours = 7
+relevant_experience = "Motor carrier safety or compliance: auditing ELD records of duty status under 49 CFR 395.3 with the 395.1 exceptions (sleeper-berth split, short-haul, adverse driving conditions, the 16-hour exception, travel time) and the 395.2 definitions."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0

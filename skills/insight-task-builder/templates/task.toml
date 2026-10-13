@@ -1,0 +1,31 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/TASK-NAME"
+description = "ONE SENTENCE: the real job, what the agent decides, and the rule it applies."
+
+[metadata]
+difficulty_explanation = "ONE PARAGRAPH: who does this job for real, and the specific rule details and computations that decide answers (exclusions, exact thresholds, time or money arithmetic). End with: Each shortcut gets most records right and a planted set wrong. The data is synthetic but follows real <domain> patterns."
+solution_explanation = "ONE PARAGRAPH: how an expert solves it, in order, naming the rule sections."
+verification_explanation = "ONE PARAGRAPH: the verifier recomputes everything with its own independently written engine (engine.py, METHOD) from a private copy of the inputs that exists only in the verifier image, and never runs agent code. The engine is itself checked against N hand-worked planted cases (golden.json). Tests check the format, the hand-worked cases, one test per rule family (LIST) and finally the full output. Reward is 1 only if every test passes."
+category = "Operations"
+subcategory = "SUBCATEGORY"
+tags = ["tag-one", "tag-two", "python"]
+expert_time_estimate_hours = 7
+relevant_experience = "ONE SENTENCE: the professional background that knows these rules."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0
