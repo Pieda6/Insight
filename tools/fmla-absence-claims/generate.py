@@ -112,6 +112,8 @@ def sim(emp, absences, strict=True):
             h = mins
             if strict and mins > sched:
                 raise Reject("more hours than scheduled")
+            if d in HOLIDAYS and not emp["holidays"]:          # 825.200(h): leave of less than a week
+                h = 0
         if d in CLOSED[emp["employer"]]:
             h = 0
         if h == 0 or d < elig:
@@ -233,6 +235,32 @@ def planted(w):
     w.add("BRIGHTWATER", "5x8", "2016-02-01",
           [C(own, "2025-03-02", "2025-05-10"), C(care, "2025-06-01", "2025-10-18"), C(own, "2025-11-02", "2025-11-15")],
           ["caregiver", "rolling"], {0: 400 * H, 1: 800 * H, 2: 80 * H})
+    # intermittent leave on a holiday is less than a week of leave: the holiday does not count (825.200(h)).
+    # Dec 25 2025 (Thursday) 3 h: 0; the day before, Dec 24, 3 h: 3 h
+    w.add("BRIGHTWATER", "5x8", "2019-05-06", [I(own, "2025-12-24", 3), I(own, "2025-12-25", 3)],
+          ["holiday", "intermittent"], {0: 3 * H, 1: 0})
+    # ... unless the employee was scheduled to work the holiday: a nurse's 12 h on Thursday Jan 1 2026 counts
+    w.add("BRIGHTWATER", "3x12", "2019-05-06", [I(fam, "2026-01-01", 12)], ["holiday", "intermittent"],
+          {0: 12 * H}, holidays=True)
+    # near exhaustion (calendar year, 5 x 8): 11 weeks in 2025 (Feb 2 - Apr 19, 440 h) leave 40 h; intermittent
+    # 8 h on Labor Day Sep 1 does not count, so Sep 2-5 (4 x 8 = 32 h) and Sep 8 (8 h) all fit: 0, 32, 8
+    w.add("NORTHWIND", "5x8", "2020-03-02",
+          [C(own, "2025-02-02", "2025-04-19"), I(fam, "2025-09-01", 8), I(fam, "2025-09-02", 8),
+           I(fam, "2025-09-03", 8), I(fam, "2025-09-04", 8), I(fam, "2025-09-05", 8), I(fam, "2025-09-08", 8)],
+          ["holiday", "intermittent", "exhaustion"], {0: 440 * H, 1: 0, 2: 8 * H, 3: 8 * H, 4: 8 * H, 5: 8 * H,
+                                                      6: 8 * H})
+    # a closure week inside a long leave is not a full week of leave and is not charged; the weeks either side
+    # are full weeks (Irongate closure Jun 29 - Jul 5 2025, leave Jun 22 - Jul 12, 5 x 8): 80 h
+    w.add("IRONGATE", "5x8", "2017-09-11", [C(fam, "2025-06-22", "2025-07-12")], ["closure", "full-week"],
+          {0: 80 * H})
+    # caregiver and other leave in the single period (rolling, 4 x 10): 14 weeks caregiver from Mar 2 2025
+    # (Mar 2 - Jun 7, 560 h); 10 weeks own leave Jul 6 - Sep 13 (400 h; 12-week limit 480 h; combined 26 weeks
+    # = 1040 h, 960 h used); Oct 5-18 own leave: 12-week room 80 h, combined room 80 h: 80 h; intermittent 10 h
+    # Oct 21 2025: both limits are used up: 0
+    w.add("BRIGHTWATER", "4x10", "2016-02-01",
+          [C(care, "2025-03-02", "2025-06-07"), C(own, "2025-07-06", "2025-09-13"), C(own, "2025-10-05", "2025-10-18"),
+           I(own, "2025-10-21", 10)],
+          ["caregiver", "rolling", "exhaustion"], {0: 560 * H, 1: 400 * H, 2: 80 * H, 3: 0})
     # a nurse scheduled on holidays (3 x 12): Thursday Nov 27 2025 taken as a single day still counts 12 h
     w.add("BRIGHTWATER", "3x12", "2019-05-06", [C(fam, "2025-11-27", "2025-11-27")], ["holiday"], {0: 12 * H},
           holidays=True)

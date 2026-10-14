@@ -67,8 +67,12 @@ def slots(emp, absences, er):
             h = Fraction(0)
         out.append((x, h, a))
     for a in absences:
-        if a["type"] == "intermittent":
-            out.append((iso(a["start_date"]), Fraction(str(a["hours_absent"])), a))
+        if a["type"] == "intermittent":                    # less than a week: a holiday never counts unless worked
+            x = iso(a["start_date"])
+            h = Fraction(str(a["hours_absent"]))
+            if x in er.holidays and not emp["scheduled_to_work_on_holidays"]:
+                h = Fraction(0)
+            out.append((x, h, a))
     return sorted(out, key=lambda t: t[0])
 
 

@@ -67,6 +67,19 @@ def test_one_row_per_claim_in_input_order(rows):
     assert rows["order"] == order
 
 
+def test_no_employee_has_two_absences_on_one_day():
+    """The inputs never put two absences of one employee on the same day, so no same-day ordering is needed."""
+    from datetime import date, timedelta
+    seen = set()
+    for a in json.loads((engine.DATA / "absences.json").read_text()):
+        day, last = date.fromisoformat(a["start_date"]), date.fromisoformat(a["end_date"])
+        while day <= last:
+            key = (a["employee_id"], day)
+            assert key not in seen, key
+            seen.add(key)
+            day += timedelta(days=1)
+
+
 def test_values_are_well_formed(rows):
     """Hours with exactly two decimals."""
     for c, r in rows["by_id"].items():

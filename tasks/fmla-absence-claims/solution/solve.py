@@ -66,12 +66,9 @@ def employee(emp, absences, er):
     method = er["twelve_month_period_method"]
     for x, a, minutes in leave_days:
         day_sched = sched.get(NAMES[x.weekday()], 0)
-        if minutes is None:
-            off = day_sched
-            if x in holidays and not full_week(x) and not emp["scheduled_to_work_on_holidays"]:
-                off = 0
-        else:
-            off = minutes
+        off = day_sched if minutes is None else minutes
+        if x in holidays and not emp["scheduled_to_work_on_holidays"] and (minutes is not None or not full_week(x)):
+            off = 0                                    # 825.200(h): a holiday counts only inside a full week of leave
         if x in closed or off == 0 or x < eligible:
             continue
         if a["reason"] == "bonding" and x >= year_later(d(a["child_birth_date"])):   # 825.120(a)(2)

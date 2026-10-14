@@ -1,995 +1,6 @@
 [
  {
   "employee_id": "E001",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2014-12-22",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E002",
-  "employer_id": "IRONGATE",
-  "hire_date": "2016-04-17",
-  "weekly_schedule_hours": {
-   "Sunday": 12.0,
-   "Wednesday": 12.0,
-   "Thursday": 12.0
-  },
-  "scheduled_to_work_on_holidays": true
- },
- {
-  "employee_id": "E003",
-  "employer_id": "IRONGATE",
-  "hire_date": "2017-09-11",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E004",
-  "employer_id": "IRONGATE",
-  "hire_date": "2016-04-12",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E005",
-  "employer_id": "IRONGATE",
-  "hire_date": "2015-03-09",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E006",
-  "employer_id": "IRONGATE",
-  "hire_date": "2014-05-25",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E007",
-  "employer_id": "SUMMIT",
-  "hire_date": "2015-09-25",
-  "weekly_schedule_hours": {
-   "Monday": 10.0,
-   "Tuesday": 10.0,
-   "Wednesday": 10.0,
-   "Thursday": 10.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E008",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2017-11-05",
-  "weekly_schedule_hours": {
-   "Sunday": 12.0,
-   "Wednesday": 12.0,
-   "Thursday": 12.0
-  },
-  "scheduled_to_work_on_holidays": true
- },
- {
-  "employee_id": "E009",
-  "employer_id": "BRIGHTWATER",
-  "hire_date": "2016-09-15",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E010",
-  "employer_id": "IRONGATE",
-  "hire_date": "2021-03-21",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E011",
-  "employer_id": "IRONGATE",
-  "hire_date": "2019-11-27",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E012",
-  "employer_id": "SUMMIT",
-  "hire_date": "2016-05-15",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E013",
-  "employer_id": "IRONGATE",
-  "hire_date": "2017-03-07",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E014",
-  "employer_id": "SUMMIT",
-  "hire_date": "2014-05-06",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E015",
-  "employer_id": "IRONGATE",
-  "hire_date": "2018-08-19",
-  "weekly_schedule_hours": {
-   "Sunday": 12.0,
-   "Wednesday": 12.0,
-   "Thursday": 12.0
-  },
-  "scheduled_to_work_on_holidays": true
- },
- {
-  "employee_id": "E016",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2019-05-17",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E017",
-  "employer_id": "IRONGATE",
-  "hire_date": "2017-09-11",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E018",
-  "employer_id": "SUMMIT",
-  "hire_date": "2016-03-18",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E019",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2016-07-09",
-  "weekly_schedule_hours": {
-   "Sunday": 12.0,
-   "Wednesday": 12.0,
-   "Thursday": 12.0
-  },
-  "scheduled_to_work_on_holidays": true
- },
- {
-  "employee_id": "E020",
-  "employer_id": "SUMMIT",
-  "hire_date": "2019-01-08",
-  "weekly_schedule_hours": {
-   "Sunday": 12.0,
-   "Wednesday": 12.0,
-   "Thursday": 12.0
-  },
-  "scheduled_to_work_on_holidays": true
- },
- {
-  "employee_id": "E021",
-  "employer_id": "BRIGHTWATER",
-  "hire_date": "2023-11-09",
-  "weekly_schedule_hours": {
-   "Sunday": 12.0,
-   "Wednesday": 12.0,
-   "Thursday": 12.0
-  },
-  "scheduled_to_work_on_holidays": true
- },
- {
-  "employee_id": "E022",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2022-04-02",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E023",
-  "employer_id": "IRONGATE",
-  "hire_date": "2015-01-23",
-  "weekly_schedule_hours": {
-   "Monday": 10.0,
-   "Tuesday": 10.0,
-   "Wednesday": 10.0,
-   "Thursday": 10.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E024",
-  "employer_id": "BRIGHTWATER",
-  "hire_date": "2020-12-10",
-  "weekly_schedule_hours": {
-   "Monday": 10.0,
-   "Tuesday": 10.0,
-   "Wednesday": 10.0,
-   "Thursday": 10.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E025",
-  "employer_id": "SUMMIT",
-  "hire_date": "2019-08-09",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E026",
-  "employer_id": "SUMMIT",
-  "hire_date": "2019-10-08",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E027",
-  "employer_id": "IRONGATE",
-  "hire_date": "2016-11-01",
-  "weekly_schedule_hours": {
-   "Sunday": 12.0,
-   "Wednesday": 12.0,
-   "Thursday": 12.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E028",
-  "employer_id": "IRONGATE",
-  "hire_date": "2018-04-25",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E029",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2021-02-26",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E030",
-  "employer_id": "IRONGATE",
-  "hire_date": "2018-11-30",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E031",
-  "employer_id": "IRONGATE",
-  "hire_date": "2022-06-23",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E032",
-  "employer_id": "IRONGATE",
-  "hire_date": "2021-04-30",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E033",
-  "employer_id": "SUMMIT",
-  "hire_date": "2022-02-08",
-  "weekly_schedule_hours": {
-   "Monday": 10.0,
-   "Tuesday": 10.0,
-   "Wednesday": 10.0,
-   "Thursday": 10.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E034",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2018-11-04",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E035",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2014-08-23",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E036",
-  "employer_id": "IRONGATE",
-  "hire_date": "2019-12-17",
-  "weekly_schedule_hours": {
-   "Monday": 10.0,
-   "Tuesday": 10.0,
-   "Wednesday": 10.0,
-   "Thursday": 10.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E037",
-  "employer_id": "SUMMIT",
-  "hire_date": "2015-02-20",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E038",
-  "employer_id": "BRIGHTWATER",
-  "hire_date": "2016-02-01",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E039",
-  "employer_id": "BRIGHTWATER",
-  "hire_date": "2019-10-23",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E040",
-  "employer_id": "BRIGHTWATER",
-  "hire_date": "2020-08-26",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E041",
-  "employer_id": "SUMMIT",
-  "hire_date": "2023-12-07",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E042",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2018-10-09",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E043",
-  "employer_id": "BRIGHTWATER",
-  "hire_date": "2019-05-06",
-  "weekly_schedule_hours": {
-   "Monday": 10.0,
-   "Tuesday": 10.0,
-   "Wednesday": 10.0,
-   "Thursday": 10.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E044",
-  "employer_id": "IRONGATE",
-  "hire_date": "2019-09-02",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E045",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2025-03-10",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E046",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2014-04-05",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E047",
-  "employer_id": "BRIGHTWATER",
-  "hire_date": "2019-05-06",
-  "weekly_schedule_hours": {
-   "Sunday": 12.0,
-   "Wednesday": 12.0,
-   "Thursday": 12.0
-  },
-  "scheduled_to_work_on_holidays": true
- },
- {
-  "employee_id": "E048",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2014-07-28",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E049",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2020-03-02",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E050",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2020-03-02",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E051",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2016-09-23",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E052",
-  "employer_id": "SUMMIT",
-  "hire_date": "2017-07-17",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E053",
-  "employer_id": "SUMMIT",
-  "hire_date": "2023-08-03",
-  "weekly_schedule_hours": {
-   "Sunday": 12.0,
-   "Wednesday": 12.0,
-   "Thursday": 12.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E054",
-  "employer_id": "IRONGATE",
-  "hire_date": "2020-04-22",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E055",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2015-02-27",
-  "weekly_schedule_hours": {
-   "Monday": 10.0,
-   "Tuesday": 10.0,
-   "Wednesday": 10.0,
-   "Thursday": 10.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E056",
-  "employer_id": "BRIGHTWATER",
-  "hire_date": "2021-05-18",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E057",
-  "employer_id": "SUMMIT",
-  "hire_date": "2014-10-05",
-  "weekly_schedule_hours": {
-   "Sunday": 12.0,
-   "Wednesday": 12.0,
-   "Thursday": 12.0
-  },
-  "scheduled_to_work_on_holidays": true
- },
- {
-  "employee_id": "E058",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2018-06-20",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E059",
-  "employer_id": "IRONGATE",
-  "hire_date": "2016-01-25",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E060",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2020-03-02",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E061",
-  "employer_id": "SUMMIT",
-  "hire_date": "2017-04-23",
-  "weekly_schedule_hours": {
-   "Monday": 10.0,
-   "Tuesday": 10.0,
-   "Wednesday": 10.0,
-   "Thursday": 10.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E062",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2024-05-25",
-  "weekly_schedule_hours": {
-   "Monday": 10.0,
-   "Tuesday": 10.0,
-   "Wednesday": 10.0,
-   "Thursday": 10.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E063",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2016-04-15",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E064",
-  "employer_id": "IRONGATE",
-  "hire_date": "2024-05-16",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E065",
-  "employer_id": "BRIGHTWATER",
-  "hire_date": "2019-02-26",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E066",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2015-11-18",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E067",
-  "employer_id": "BRIGHTWATER",
-  "hire_date": "2017-01-13",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E068",
-  "employer_id": "IRONGATE",
-  "hire_date": "2021-03-27",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E069",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2023-03-07",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E070",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2023-07-07",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E071",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2020-03-02",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E072",
-  "employer_id": "IRONGATE",
-  "hire_date": "2016-02-12",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E073",
-  "employer_id": "SUMMIT",
-  "hire_date": "2019-06-16",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E074",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2022-12-20",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E075",
-  "employer_id": "SUMMIT",
-  "hire_date": "2021-08-26",
-  "weekly_schedule_hours": {
-   "Sunday": 12.0,
-   "Wednesday": 12.0,
-   "Thursday": 12.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E076",
-  "employer_id": "BRIGHTWATER",
-  "hire_date": "2023-03-12",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E077",
-  "employer_id": "SUMMIT",
-  "hire_date": "2015-09-09",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E078",
-  "employer_id": "SUMMIT",
-  "hire_date": "2024-11-22",
-  "weekly_schedule_hours": {
-   "Tuesday": 6.0,
-   "Wednesday": 6.0,
-   "Thursday": 6.0,
-   "Friday": 6.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E079",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2015-06-01",
-  "weekly_schedule_hours": {
-   "Monday": 8.0,
-   "Tuesday": 8.0,
-   "Wednesday": 8.0,
-   "Thursday": 8.0,
-   "Friday": 8.0
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E080",
-  "employer_id": "BRIGHTWATER",
-  "hire_date": "2023-04-18",
-  "weekly_schedule_hours": {
-   "Monday": 7.5,
-   "Tuesday": 7.5,
-   "Wednesday": 7.5,
-   "Thursday": 7.5,
-   "Friday": 7.5
-  },
-  "scheduled_to_work_on_holidays": false
- },
- {
-  "employee_id": "E081",
   "employer_id": "BRIGHTWATER",
   "hire_date": "2023-05-03",
   "weekly_schedule_hours": {
@@ -1002,9 +13,35 @@
   "scheduled_to_work_on_holidays": false
  },
  {
-  "employee_id": "E082",
-  "employer_id": "NORTHWIND",
-  "hire_date": "2023-04-20",
+  "employee_id": "E002",
+  "employer_id": "SUMMIT",
+  "hire_date": "2014-05-06",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E003",
+  "employer_id": "IRONGATE",
+  "hire_date": "2021-03-21",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E004",
+  "employer_id": "IRONGATE",
+  "hire_date": "2021-04-30",
   "weekly_schedule_hours": {
    "Monday": 8.0,
    "Tuesday": 8.0,
@@ -1015,7 +52,319 @@
   "scheduled_to_work_on_holidays": false
  },
  {
-  "employee_id": "E083",
+  "employee_id": "E005",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2016-02-01",
+  "weekly_schedule_hours": {
+   "Monday": 10.0,
+   "Tuesday": 10.0,
+   "Wednesday": 10.0,
+   "Thursday": 10.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E006",
+  "employer_id": "SUMMIT",
+  "hire_date": "2019-01-08",
+  "weekly_schedule_hours": {
+   "Sunday": 12.0,
+   "Wednesday": 12.0,
+   "Thursday": 12.0
+  },
+  "scheduled_to_work_on_holidays": true
+ },
+ {
+  "employee_id": "E007",
+  "employer_id": "SUMMIT",
+  "hire_date": "2019-06-16",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E008",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2020-03-02",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E009",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2023-04-18",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E010",
+  "employer_id": "IRONGATE",
+  "hire_date": "2017-09-11",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E011",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2016-07-09",
+  "weekly_schedule_hours": {
+   "Sunday": 12.0,
+   "Wednesday": 12.0,
+   "Thursday": 12.0
+  },
+  "scheduled_to_work_on_holidays": true
+ },
+ {
+  "employee_id": "E012",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2019-05-17",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E013",
+  "employer_id": "IRONGATE",
+  "hire_date": "2017-09-11",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E014",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2022-12-20",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E015",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2018-06-20",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E016",
+  "employer_id": "SUMMIT",
+  "hire_date": "2017-04-23",
+  "weekly_schedule_hours": {
+   "Monday": 10.0,
+   "Tuesday": 10.0,
+   "Wednesday": 10.0,
+   "Thursday": 10.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E017",
+  "employer_id": "IRONGATE",
+  "hire_date": "2015-01-23",
+  "weekly_schedule_hours": {
+   "Monday": 10.0,
+   "Tuesday": 10.0,
+   "Wednesday": 10.0,
+   "Thursday": 10.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E018",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2016-04-15",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E019",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2020-03-02",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E020",
+  "employer_id": "IRONGATE",
+  "hire_date": "2018-11-30",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E021",
+  "employer_id": "IRONGATE",
+  "hire_date": "2022-06-23",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E022",
+  "employer_id": "IRONGATE",
+  "hire_date": "2016-02-12",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E023",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2016-09-15",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E024",
+  "employer_id": "IRONGATE",
+  "hire_date": "2017-09-11",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E025",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2018-11-04",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E026",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2019-05-06",
+  "weekly_schedule_hours": {
+   "Sunday": 12.0,
+   "Wednesday": 12.0,
+   "Thursday": 12.0
+  },
+  "scheduled_to_work_on_holidays": true
+ },
+ {
+  "employee_id": "E027",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2019-10-23",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E028",
+  "employer_id": "SUMMIT",
+  "hire_date": "2015-09-09",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E029",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2023-11-09",
+  "weekly_schedule_hours": {
+   "Sunday": 12.0,
+   "Wednesday": 12.0,
+   "Thursday": 12.0
+  },
+  "scheduled_to_work_on_holidays": true
+ },
+ {
+  "employee_id": "E030",
   "employer_id": "IRONGATE",
   "hire_date": "2019-08-30",
   "weekly_schedule_hours": {
@@ -1027,7 +376,76 @@
   "scheduled_to_work_on_holidays": false
  },
  {
-  "employee_id": "E084",
+  "employee_id": "E031",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2019-05-06",
+  "weekly_schedule_hours": {
+   "Sunday": 12.0,
+   "Wednesday": 12.0,
+   "Thursday": 12.0
+  },
+  "scheduled_to_work_on_holidays": true
+ },
+ {
+  "employee_id": "E032",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2017-11-05",
+  "weekly_schedule_hours": {
+   "Sunday": 12.0,
+   "Wednesday": 12.0,
+   "Thursday": 12.0
+  },
+  "scheduled_to_work_on_holidays": true
+ },
+ {
+  "employee_id": "E033",
+  "employer_id": "IRONGATE",
+  "hire_date": "2014-05-25",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E034",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2016-09-23",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E035",
+  "employer_id": "SUMMIT",
+  "hire_date": "2024-11-22",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E036",
+  "employer_id": "SUMMIT",
+  "hire_date": "2023-08-03",
+  "weekly_schedule_hours": {
+   "Sunday": 12.0,
+   "Wednesday": 12.0,
+   "Thursday": 12.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E037",
   "employer_id": "NORTHWIND",
   "hire_date": "2014-08-25",
   "weekly_schedule_hours": {
@@ -1040,18 +458,157 @@
   "scheduled_to_work_on_holidays": false
  },
  {
-  "employee_id": "E085",
+  "employee_id": "E038",
   "employer_id": "IRONGATE",
-  "hire_date": "2022-05-24",
+  "hire_date": "2019-09-02",
   "weekly_schedule_hours": {
-   "Sunday": 12.0,
-   "Wednesday": 12.0,
-   "Thursday": 12.0
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
   },
   "scheduled_to_work_on_holidays": false
  },
  {
-  "employee_id": "E086",
+  "employee_id": "E039",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2020-08-26",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E040",
+  "employer_id": "IRONGATE",
+  "hire_date": "2020-04-22",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E041",
+  "employer_id": "IRONGATE",
+  "hire_date": "2018-04-25",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E042",
+  "employer_id": "IRONGATE",
+  "hire_date": "2019-12-17",
+  "weekly_schedule_hours": {
+   "Monday": 10.0,
+   "Tuesday": 10.0,
+   "Wednesday": 10.0,
+   "Thursday": 10.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E043",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2015-02-27",
+  "weekly_schedule_hours": {
+   "Monday": 10.0,
+   "Tuesday": 10.0,
+   "Wednesday": 10.0,
+   "Thursday": 10.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E044",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2016-02-01",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E045",
+  "employer_id": "SUMMIT",
+  "hire_date": "2016-05-15",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E046",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2014-07-28",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E047",
+  "employer_id": "SUMMIT",
+  "hire_date": "2019-10-08",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E048",
+  "employer_id": "SUMMIT",
+  "hire_date": "2023-12-07",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E049",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2019-05-06",
+  "weekly_schedule_hours": {
+   "Monday": 10.0,
+   "Tuesday": 10.0,
+   "Wednesday": 10.0,
+   "Thursday": 10.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E050",
   "employer_id": "NORTHWIND",
   "hire_date": "2017-01-24",
   "weekly_schedule_hours": {
@@ -1064,7 +621,512 @@
   "scheduled_to_work_on_holidays": false
  },
  {
+  "employee_id": "E051",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2025-03-10",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E052",
+  "employer_id": "IRONGATE",
+  "hire_date": "2015-03-09",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E053",
+  "employer_id": "SUMMIT",
+  "hire_date": "2017-07-17",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E054",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2014-12-22",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E055",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2023-07-07",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E056",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2020-03-02",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E057",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2024-05-25",
+  "weekly_schedule_hours": {
+   "Monday": 10.0,
+   "Tuesday": 10.0,
+   "Wednesday": 10.0,
+   "Thursday": 10.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E058",
+  "employer_id": "IRONGATE",
+  "hire_date": "2016-01-25",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E059",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2017-01-13",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E060",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2023-03-12",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E061",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2020-12-10",
+  "weekly_schedule_hours": {
+   "Monday": 10.0,
+   "Tuesday": 10.0,
+   "Wednesday": 10.0,
+   "Thursday": 10.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E062",
+  "employer_id": "IRONGATE",
+  "hire_date": "2016-04-12",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E063",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2021-02-26",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E064",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2023-04-20",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E065",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2018-10-09",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E066",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2020-03-02",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E067",
+  "employer_id": "SUMMIT",
+  "hire_date": "2015-02-20",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E068",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2019-05-06",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E069",
+  "employer_id": "IRONGATE",
+  "hire_date": "2024-05-16",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E070",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2019-02-26",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E071",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2015-11-18",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E072",
+  "employer_id": "SUMMIT",
+  "hire_date": "2019-08-09",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E073",
+  "employer_id": "SUMMIT",
+  "hire_date": "2021-08-26",
+  "weekly_schedule_hours": {
+   "Sunday": 12.0,
+   "Wednesday": 12.0,
+   "Thursday": 12.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E074",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2023-03-07",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E075",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2014-08-23",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E076",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2020-03-02",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E077",
+  "employer_id": "IRONGATE",
+  "hire_date": "2022-05-24",
+  "weekly_schedule_hours": {
+   "Sunday": 12.0,
+   "Wednesday": 12.0,
+   "Thursday": 12.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E078",
+  "employer_id": "BRIGHTWATER",
+  "hire_date": "2021-05-18",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E079",
+  "employer_id": "SUMMIT",
+  "hire_date": "2015-09-25",
+  "weekly_schedule_hours": {
+   "Monday": 10.0,
+   "Tuesday": 10.0,
+   "Wednesday": 10.0,
+   "Thursday": 10.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E080",
+  "employer_id": "IRONGATE",
+  "hire_date": "2016-04-17",
+  "weekly_schedule_hours": {
+   "Sunday": 12.0,
+   "Wednesday": 12.0,
+   "Thursday": 12.0
+  },
+  "scheduled_to_work_on_holidays": true
+ },
+ {
+  "employee_id": "E081",
+  "employer_id": "IRONGATE",
+  "hire_date": "2016-11-01",
+  "weekly_schedule_hours": {
+   "Sunday": 12.0,
+   "Wednesday": 12.0,
+   "Thursday": 12.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E082",
+  "employer_id": "IRONGATE",
+  "hire_date": "2017-03-07",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E083",
+  "employer_id": "SUMMIT",
+  "hire_date": "2022-02-08",
+  "weekly_schedule_hours": {
+   "Monday": 10.0,
+   "Tuesday": 10.0,
+   "Wednesday": 10.0,
+   "Thursday": 10.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E084",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2015-06-01",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E085",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2014-04-05",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E086",
+  "employer_id": "IRONGATE",
+  "hire_date": "2021-03-27",
+  "weekly_schedule_hours": {
+   "Monday": 7.5,
+   "Tuesday": 7.5,
+   "Wednesday": 7.5,
+   "Thursday": 7.5,
+   "Friday": 7.5
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
   "employee_id": "E087",
+  "employer_id": "NORTHWIND",
+  "hire_date": "2022-04-02",
+  "weekly_schedule_hours": {
+   "Monday": 8.0,
+   "Tuesday": 8.0,
+   "Wednesday": 8.0,
+   "Thursday": 8.0,
+   "Friday": 8.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E088",
+  "employer_id": "IRONGATE",
+  "hire_date": "2018-08-19",
+  "weekly_schedule_hours": {
+   "Sunday": 12.0,
+   "Wednesday": 12.0,
+   "Thursday": 12.0
+  },
+  "scheduled_to_work_on_holidays": true
+ },
+ {
+  "employee_id": "E089",
+  "employer_id": "SUMMIT",
+  "hire_date": "2014-10-05",
+  "weekly_schedule_hours": {
+   "Sunday": 12.0,
+   "Wednesday": 12.0,
+   "Thursday": 12.0
+  },
+  "scheduled_to_work_on_holidays": true
+ },
+ {
+  "employee_id": "E090",
+  "employer_id": "SUMMIT",
+  "hire_date": "2016-03-18",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E091",
+  "employer_id": "IRONGATE",
+  "hire_date": "2019-11-27",
+  "weekly_schedule_hours": {
+   "Tuesday": 6.0,
+   "Wednesday": 6.0,
+   "Thursday": 6.0,
+   "Friday": 6.0
+  },
+  "scheduled_to_work_on_holidays": false
+ },
+ {
+  "employee_id": "E092",
   "employer_id": "SUMMIT",
   "hire_date": "2018-01-08",
   "weekly_schedule_hours": {

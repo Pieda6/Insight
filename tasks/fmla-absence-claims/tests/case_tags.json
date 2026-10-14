@@ -51,7 +51,7 @@
   "filler"
  ],
  "A0018": [
-  "filler"
+  "closure"
  ],
  "A0019": [
   "filler"
@@ -132,8 +132,8 @@
   "filler"
  ],
  "A0045": [
-  "forward",
-  "exhaustion"
+  "holiday",
+  "intermittent"
  ],
  "A0046": [
   "filler"
@@ -157,8 +157,7 @@
   "filler"
  ],
  "A0053": [
-  "calendar-year",
-  "exhaustion"
+  "filler"
  ],
  "A0054": [
   "filler"
@@ -302,7 +301,8 @@
   "filler"
  ],
  "A0101": [
-  "filler"
+  "forward",
+  "exhaustion"
  ],
  "A0102": [
   "filler"
@@ -500,7 +500,9 @@
   "filler"
  ],
  "A0167": [
-  "filler"
+  "holiday",
+  "intermittent",
+  "exhaustion"
  ],
  "A0168": [
   "filler"
@@ -521,7 +523,7 @@
   "filler"
  ],
  "A0174": [
-  "holiday"
+  "filler"
  ],
  "A0175": [
   "filler"
@@ -668,7 +670,8 @@
   "filler"
  ],
  "A0223": [
-  "filler"
+  "holiday",
+  "full-week"
  ],
  "A0224": [
   "filler"
@@ -698,7 +701,7 @@
   "filler"
  ],
  "A0233": [
-  "holiday"
+  "filler"
  ],
  "A0234": [
   "filler"
@@ -779,7 +782,9 @@
   "filler"
  ],
  "A0260": [
-  "filler"
+  "holiday",
+  "intermittent",
+  "exhaustion"
  ],
  "A0261": [
   "filler"
@@ -794,8 +799,7 @@
   "filler"
  ],
  "A0265": [
-  "caregiver",
-  "rolling"
+  "filler"
  ],
  "A0266": [
   "filler"
@@ -1134,7 +1138,9 @@
   "filler"
  ],
  "A0378": [
-  "filler"
+  "caregiver",
+  "rolling",
+  "exhaustion"
  ],
  "A0379": [
   "filler"
@@ -1191,7 +1197,7 @@
   "filler"
  ],
  "A0397": [
-  "bonding"
+  "filler"
  ],
  "A0398": [
   "filler"
@@ -1230,7 +1236,8 @@
   "filler"
  ],
  "A0410": [
-  "filler"
+  "forward",
+  "exhaustion"
  ],
  "A0411": [
   "filler"
@@ -1347,7 +1354,8 @@
   "filler"
  ],
  "A0449": [
-  "filler"
+  "fixed-year",
+  "closure"
  ],
  "A0450": [
   "filler"
@@ -1488,8 +1496,7 @@
   "filler"
  ],
  "A0496": [
-  "rolling",
-  "exhaustion"
+  "filler"
  ],
  "A0497": [
   "filler"
@@ -1507,7 +1514,8 @@
   "filler"
  ],
  "A0502": [
-  "filler"
+  "rolling",
+  "exhaustion"
  ],
  "A0503": [
   "filler"
@@ -1609,7 +1617,9 @@
   "filler"
  ],
  "A0536": [
-  "filler"
+  "holiday",
+  "intermittent",
+  "exhaustion"
  ],
  "A0537": [
   "filler"
@@ -1726,8 +1736,7 @@
   "filler"
  ],
  "A0575": [
-  "forward",
-  "exhaustion"
+  "filler"
  ],
  "A0576": [
   "filler"
@@ -1823,8 +1832,7 @@
   "filler"
  ],
  "A0607": [
-  "holiday",
-  "full-week"
+  "filler"
  ],
  "A0608": [
   "filler"
@@ -1959,7 +1967,9 @@
   "filler"
  ],
  "A0652": [
-  "filler"
+  "holiday",
+  "intermittent",
+  "exhaustion"
  ],
  "A0653": [
   "filler"
@@ -2007,8 +2017,7 @@
   "filler"
  ],
  "A0668": [
-  "fixed-year",
-  "closure"
+  "filler"
  ],
  "A0669": [
   "filler"
@@ -2026,7 +2035,7 @@
   "filler"
  ],
  "A0674": [
-  "filler"
+  "caregiver"
  ],
  "A0675": [
   "filler"
@@ -2065,7 +2074,9 @@
   "filler"
  ],
  "A0687": [
-  "filler"
+  "caregiver",
+  "rolling",
+  "exhaustion"
  ],
  "A0688": [
   "filler"
@@ -2074,7 +2085,8 @@
   "filler"
  ],
  "A0690": [
-  "filler"
+  "calendar-year",
+  "exhaustion"
  ],
  "A0691": [
   "filler"
@@ -2107,7 +2119,8 @@
   "filler"
  ],
  "A0701": [
-  "filler"
+  "calendar-year",
+  "exhaustion"
  ],
  "A0702": [
   "filler"
@@ -2206,7 +2219,8 @@
   "filler"
  ],
  "A0734": [
-  "filler"
+  "caregiver",
+  "rolling"
  ],
  "A0735": [
   "filler"
@@ -2383,7 +2397,8 @@
   "filler"
  ],
  "A0793": [
-  "filler"
+  "rolling",
+  "exhaustion"
  ],
  "A0794": [
   "filler"
@@ -2479,7 +2494,8 @@
   "filler"
  ],
  "A0825": [
-  "filler"
+  "holiday",
+  "intermittent"
  ],
  "A0826": [
   "filler"
@@ -2509,7 +2525,9 @@
   "filler"
  ],
  "A0835": [
-  "filler"
+  "holiday",
+  "intermittent",
+  "exhaustion"
  ],
  "A0836": [
   "filler"
@@ -2518,8 +2536,7 @@
   "filler"
  ],
  "A0838": [
-  "calendar-year",
-  "exhaustion"
+  "filler"
  ],
  "A0839": [
   "filler"
@@ -2573,8 +2590,7 @@
   "filler"
  ],
  "A0856": [
-  "caregiver",
-  "rolling"
+  "filler"
  ],
  "A0857": [
   "filler"
@@ -2613,8 +2629,7 @@
   "filler"
  ],
  "A0869": [
-  "rolling",
-  "exhaustion"
+  "filler"
  ],
  "A0870": [
   "filler"
@@ -2722,7 +2737,7 @@
   "filler"
  ],
  "A0905": [
-  "filler"
+  "holiday"
  ],
  "A0906": [
   "filler"
@@ -2770,7 +2785,7 @@
   "filler"
  ],
  "A0921": [
-  "filler"
+  "holiday"
  ],
  "A0922": [
   "filler"
@@ -2926,8 +2941,7 @@
   "filler"
  ],
  "A0973": [
-  "rolling",
-  "exhaustion"
+  "filler"
  ],
  "A0974": [
   "filler"
@@ -3008,7 +3022,7 @@
   "filler"
  ],
  "A1000": [
-  "filler"
+  "bonding"
  ],
  "A1001": [
   "filler"
@@ -3077,7 +3091,9 @@
   "filler"
  ],
  "A1023": [
-  "filler"
+  "caregiver",
+  "rolling",
+  "exhaustion"
  ],
  "A1024": [
   "filler"
@@ -3221,7 +3237,8 @@
   "filler"
  ],
  "A1071": [
-  "filler"
+  "closure",
+  "full-week"
  ],
  "A1072": [
   "filler"
@@ -3278,7 +3295,7 @@
   "filler"
  ],
  "A1090": [
-  "eligibility"
+  "filler"
  ],
  "A1091": [
   "filler"
@@ -3332,7 +3349,8 @@
   "filler"
  ],
  "A1108": [
-  "filler"
+  "rolling",
+  "exhaustion"
  ],
  "A1109": [
   "filler"
@@ -3431,7 +3449,7 @@
   "filler"
  ],
  "A1141": [
-  "closure"
+  "filler"
  ],
  "A1142": [
   "filler"
@@ -3449,7 +3467,9 @@
   "filler"
  ],
  "A1147": [
-  "filler"
+  "holiday",
+  "intermittent",
+  "exhaustion"
  ],
  "A1148": [
   "filler"
@@ -3500,7 +3520,8 @@
   "filler"
  ],
  "A1164": [
-  "filler"
+  "rolling",
+  "exhaustion"
  ],
  "A1165": [
   "filler"
@@ -3548,7 +3569,7 @@
   "filler"
  ],
  "A1180": [
-  "caregiver"
+  "filler"
  ],
  "A1181": [
   "filler"
@@ -3602,7 +3623,7 @@
   "filler"
  ],
  "A1198": [
-  "filler"
+  "caregiver"
  ],
  "A1199": [
   "filler"
@@ -3728,7 +3749,9 @@
   "filler"
  ],
  "A1240": [
-  "filler"
+  "holiday",
+  "intermittent",
+  "exhaustion"
  ],
  "A1241": [
   "filler"
@@ -3761,7 +3784,9 @@
   "filler"
  ],
  "A1251": [
-  "filler"
+  "caregiver",
+  "rolling",
+  "exhaustion"
  ],
  "A1252": [
   "filler"
@@ -3833,7 +3858,8 @@
   "filler"
  ],
  "A1275": [
-  "filler"
+  "calendar-year",
+  "exhaustion"
  ],
  "A1276": [
   "filler"
@@ -3857,7 +3883,8 @@
   "filler"
  ],
  "A1283": [
-  "filler"
+  "caregiver",
+  "rolling"
  ],
  "A1284": [
   "filler"
@@ -3869,8 +3896,7 @@
   "filler"
  ],
  "A1287": [
-  "caregiver",
-  "rolling"
+  "filler"
  ],
  "A1288": [
   "filler"
@@ -3945,7 +3971,8 @@
   "filler"
  ],
  "A1312": [
-  "filler"
+  "caregiver",
+  "rolling"
  ],
  "A1313": [
   "filler"
@@ -3969,7 +3996,8 @@
   "filler"
  ],
  "A1320": [
-  "filler"
+  "forward",
+  "exhaustion"
  ],
  "A1321": [
   "filler"
@@ -4134,8 +4162,7 @@
   "filler"
  ],
  "A1375": [
-  "rolling",
-  "exhaustion"
+  "filler"
  ],
  "A1376": [
   "filler"
@@ -4153,8 +4180,7 @@
   "filler"
  ],
  "A1381": [
-  "forward",
-  "exhaustion"
+  "filler"
  ],
  "A1382": [
   "filler"
@@ -4196,8 +4222,7 @@
   "filler"
  ],
  "A1395": [
-  "rolling",
-  "exhaustion"
+  "filler"
  ],
  "A1396": [
   "filler"
@@ -4365,7 +4390,7 @@
   "filler"
  ],
  "A1451": [
-  "filler"
+  "eligibility"
  ],
  "A1452": [
   "filler"
@@ -4467,7 +4492,7 @@
   "filler"
  ],
  "A1485": [
-  "filler"
+  "caregiver"
  ],
  "A1486": [
   "filler"
@@ -4560,13 +4585,14 @@
   "filler"
  ],
  "A1516": [
-  "filler"
+  "rolling",
+  "exhaustion"
  ],
  "A1517": [
   "filler"
  ],
  "A1518": [
-  "caregiver"
+  "filler"
  ],
  "A1519": [
   "filler"
@@ -4707,7 +4733,7 @@
   "filler"
  ],
  "A1565": [
-  "caregiver"
+  "filler"
  ],
  "A1566": [
   "filler"
@@ -4746,8 +4772,7 @@
   "filler"
  ],
  "A1578": [
-  "calendar-year",
-  "exhaustion"
+  "filler"
  ],
  "A1579": [
   "filler"
@@ -4816,7 +4841,8 @@
   "filler"
  ],
  "A1601": [
-  "filler"
+  "holiday",
+  "intermittent"
  ],
  "A1602": [
   "filler"
@@ -4858,6 +4884,51 @@
   "filler"
  ],
  "A1615": [
+  "filler"
+ ],
+ "A1616": [
+  "filler"
+ ],
+ "A1617": [
+  "filler"
+ ],
+ "A1618": [
+  "filler"
+ ],
+ "A1619": [
+  "filler"
+ ],
+ "A1620": [
+  "filler"
+ ],
+ "A1621": [
+  "filler"
+ ],
+ "A1622": [
+  "filler"
+ ],
+ "A1623": [
+  "filler"
+ ],
+ "A1624": [
+  "filler"
+ ],
+ "A1625": [
+  "filler"
+ ],
+ "A1626": [
+  "filler"
+ ],
+ "A1627": [
+  "filler"
+ ],
+ "A1628": [
+  "filler"
+ ],
+ "A1629": [
+  "filler"
+ ],
+ "A1630": [
   "filler"
  ]
 }
