@@ -1,0 +1,25 @@
+{
+ "plan_name": "Northgate Industries Group Health Plan",
+ "plan_year": "calendar year",
+ "employees_on_a_typical_business_day": 1840,
+ "coverage_options": [
+  "PPO",
+  "HDHP"
+ ],
+ "applicable_premium_single_coverage_cents": {
+  "PPO": {
+   "2022": 55870,
+   "2023": 58310,
+   "2024": 61240,
+   "2025": 64815,
+   "2026": 68930
+  },
+  "HDHP": {
+   "2022": 37640,
+   "2023": 39525,
+   "2024": 41380,
+   "2025": 42110,
+   "2026": 44695
+  }
+ }
+}

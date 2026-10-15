@@ -1,0 +1,2879 @@
+[
+ {
+  "person_id": "P001E",
+  "election_notice_date": "2023-07-28",
+  "elected_on": "2023-08-04",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P002S",
+  "election_notice_date": "2022-12-26",
+  "elected_on": "2023-01-16",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P003E",
+  "election_notice_date": "2025-05-26",
+  "elected_on": "2025-06-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P003S",
+  "election_notice_date": "2025-05-26",
+  "elected_on": "2025-06-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P003C0",
+  "election_notice_date": "2025-05-26",
+  "elected_on": "2025-06-22",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P003C1",
+  "election_notice_date": "2025-05-26",
+  "elected_on": "2025-06-08",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P004E",
+  "election_notice_date": "2025-04-26",
+  "elected_on": "2025-05-10",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P004C0",
+  "election_notice_date": "2025-04-26",
+  "elected_on": "2025-04-28",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P005C0",
+  "election_notice_date": "2024-02-17",
+  "elected_on": "2024-03-02",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P006E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P006S",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P006C",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P007S",
+  "election_notice_date": "2023-04-02",
+  "elected_on": "2023-04-09",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P008S",
+  "election_notice_date": "2023-07-03",
+  "elected_on": "2023-07-20",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P009E",
+  "election_notice_date": "2025-06-08",
+  "elected_on": "2025-07-03",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P009S",
+  "election_notice_date": "2025-06-08",
+  "elected_on": "2025-09-01",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P009C0",
+  "election_notice_date": "2025-06-08",
+  "elected_on": "2025-07-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P009C1",
+  "election_notice_date": "2025-06-08",
+  "elected_on": "2025-07-04",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P010E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-06-04",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P011E",
+  "election_notice_date": "2025-08-09",
+  "elected_on": "2025-09-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P011C0",
+  "election_notice_date": "2025-08-09",
+  "elected_on": "2025-09-22",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P012E",
+  "election_notice_date": "2025-08-12",
+  "elected_on": "2025-08-14",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P012C0",
+  "election_notice_date": "2025-08-12",
+  "elected_on": "2025-08-26",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P012C1",
+  "election_notice_date": "2025-08-12",
+  "elected_on": null,
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P013E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P013C",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2026-04-02"
+ },
+ {
+  "person_id": "P014E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P014S",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2025-02-03"
+ },
+ {
+  "person_id": "P015E",
+  "election_notice_date": "2025-01-28",
+  "elected_on": "2025-03-14",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P016E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P016S",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-05-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P017E",
+  "election_notice_date": "2023-12-06",
+  "elected_on": "2024-01-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P018E",
+  "election_notice_date": "2025-03-19",
+  "elected_on": "2025-05-19",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P018S",
+  "election_notice_date": "2025-03-19",
+  "elected_on": "2025-03-26",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P019E",
+  "election_notice_date": "2022-08-25",
+  "elected_on": "2022-11-01",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P019C0",
+  "election_notice_date": "2022-08-25",
+  "elected_on": "2022-09-22",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P019C1",
+  "election_notice_date": "2022-08-25",
+  "elected_on": "2022-09-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P020E",
+  "election_notice_date": "2023-10-04",
+  "elected_on": "2023-10-18",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P020S",
+  "election_notice_date": "2023-10-04",
+  "elected_on": "2023-10-11",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P021S",
+  "election_notice_date": "2024-07-25",
+  "elected_on": "2024-08-22",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P022E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P022S",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P023S",
+  "election_notice_date": "2023-05-19",
+  "elected_on": "2023-06-08",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P023C0",
+  "election_notice_date": "2023-05-19",
+  "elected_on": "2023-06-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P024E",
+  "election_notice_date": "2023-03-18",
+  "elected_on": "2023-03-25",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P024S",
+  "election_notice_date": "2023-03-18",
+  "elected_on": "2023-03-25",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P025E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P025S",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P026E",
+  "election_notice_date": "2024-07-17",
+  "elected_on": "2024-07-24",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P026S",
+  "election_notice_date": "2024-07-17",
+  "elected_on": "2024-07-19",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P026C0",
+  "election_notice_date": "2024-07-17",
+  "elected_on": "2024-09-17",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P026C1",
+  "election_notice_date": "2024-07-17",
+  "elected_on": "2024-08-07",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2025-06-16"
+ },
+ {
+  "person_id": "P027E",
+  "election_notice_date": "2023-01-06",
+  "elected_on": "2023-01-27",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P027S",
+  "election_notice_date": "2023-01-06",
+  "elected_on": "2023-03-06",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P028E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-05-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P029E",
+  "election_notice_date": "2023-12-22",
+  "elected_on": "2024-01-15",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P029S",
+  "election_notice_date": "2023-12-22",
+  "elected_on": "2024-01-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P030S",
+  "election_notice_date": "2022-07-13",
+  "elected_on": null,
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P031E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-06-05",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P032E",
+  "election_notice_date": "2024-02-17",
+  "elected_on": "2024-04-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P032S",
+  "election_notice_date": "2024-02-17",
+  "elected_on": "2024-02-19",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P032C0",
+  "election_notice_date": "2024-02-17",
+  "elected_on": "2024-02-24",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": "2026-06-01"
+ },
+ {
+  "person_id": "P033E",
+  "election_notice_date": "2024-01-12",
+  "elected_on": "2024-01-19",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P033S",
+  "election_notice_date": "2024-01-12",
+  "elected_on": "2024-02-26",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P033C0",
+  "election_notice_date": "2024-01-12",
+  "elected_on": null,
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P033C1",
+  "election_notice_date": "2024-01-12",
+  "elected_on": "2024-01-19",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P034E",
+  "election_notice_date": "2023-05-05",
+  "elected_on": "2023-05-26",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P034C0",
+  "election_notice_date": "2023-05-05",
+  "elected_on": "2023-07-06",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P034C1",
+  "election_notice_date": "2023-05-05",
+  "elected_on": "2023-05-12",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P035E",
+  "election_notice_date": "2023-09-30",
+  "elected_on": "2023-10-07",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P035S",
+  "election_notice_date": "2023-09-30",
+  "elected_on": "2023-10-21",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": "2024-11-29"
+ },
+ {
+  "person_id": "P035C0",
+  "election_notice_date": "2023-09-30",
+  "elected_on": "2023-10-02",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2024-12-06"
+ },
+ {
+  "person_id": "P036E",
+  "election_notice_date": "2023-08-15",
+  "elected_on": "2023-08-17",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P037S",
+  "election_notice_date": "2025-04-07",
+  "elected_on": "2025-06-15",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P038E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P039E",
+  "election_notice_date": "2023-04-17",
+  "elected_on": "2023-06-16",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P039S",
+  "election_notice_date": "2023-04-17",
+  "elected_on": "2023-04-24",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P040S",
+  "election_notice_date": "2024-08-07",
+  "elected_on": "2024-08-09",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P041E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P041S",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P041C",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2026-04-02"
+ },
+ {
+  "person_id": "P042E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P043E",
+  "election_notice_date": "2024-09-05",
+  "elected_on": "2024-09-07",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P043C0",
+  "election_notice_date": "2024-09-05",
+  "elected_on": "2024-09-12",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P044S",
+  "election_notice_date": "2022-09-09",
+  "elected_on": "2022-11-09",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P045C",
+  "election_notice_date": "2024-09-02",
+  "elected_on": "2024-09-10",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P046S",
+  "election_notice_date": "2023-04-09",
+  "elected_on": "2023-06-07",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P046C0",
+  "election_notice_date": "2023-04-09",
+  "elected_on": "2023-06-08",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P046C1",
+  "election_notice_date": "2023-04-09",
+  "elected_on": "2023-04-23",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P047E",
+  "election_notice_date": "2023-11-29",
+  "elected_on": null,
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P047S",
+  "election_notice_date": "2023-11-29",
+  "elected_on": "2023-12-04",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2024-07-04"
+ },
+ {
+  "person_id": "P047C0",
+  "election_notice_date": "2023-11-29",
+  "elected_on": "2023-12-04",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P048E",
+  "election_notice_date": "2024-07-06",
+  "elected_on": "2024-08-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P048S",
+  "election_notice_date": "2024-07-06",
+  "elected_on": null,
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P049S",
+  "election_notice_date": "2024-07-01",
+  "elected_on": "2024-07-15",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P049C",
+  "election_notice_date": "2024-07-01",
+  "elected_on": "2024-07-15",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P050C0",
+  "election_notice_date": "2023-12-25",
+  "elected_on": "2024-01-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P051E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P051S",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P052E",
+  "election_notice_date": "2025-04-12",
+  "elected_on": "2025-05-08",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P053S",
+  "election_notice_date": "2024-10-28",
+  "elected_on": "2024-11-11",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P053C0",
+  "election_notice_date": "2024-10-28",
+  "elected_on": "2024-11-18",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P054C0",
+  "election_notice_date": "2022-10-19",
+  "elected_on": "2022-12-03",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P054C1",
+  "election_notice_date": "2022-10-19",
+  "elected_on": "2022-11-09",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P055E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P055S",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2025-01-20"
+ },
+ {
+  "person_id": "P056E",
+  "election_notice_date": "2024-12-08",
+  "elected_on": null,
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P056S",
+  "election_notice_date": "2024-12-08",
+  "elected_on": "2025-03-01",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P057E",
+  "election_notice_date": "2023-02-01",
+  "elected_on": "2023-02-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P057S",
+  "election_notice_date": "2023-02-01",
+  "elected_on": "2023-02-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P058E",
+  "election_notice_date": "2023-09-16",
+  "elected_on": "2023-10-03",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P058S",
+  "election_notice_date": "2023-09-16",
+  "elected_on": null,
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P058C0",
+  "election_notice_date": "2023-09-16",
+  "elected_on": null,
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P059E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P059S",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P060E",
+  "election_notice_date": "2025-08-22",
+  "elected_on": "2025-09-15",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P060C0",
+  "election_notice_date": "2025-08-22",
+  "elected_on": null,
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P060C1",
+  "election_notice_date": "2025-08-22",
+  "elected_on": "2025-09-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P061E",
+  "election_notice_date": "2023-08-23",
+  "elected_on": "2023-09-06",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P061S",
+  "election_notice_date": "2023-08-23",
+  "elected_on": "2023-09-13",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P061C0",
+  "election_notice_date": "2023-08-23",
+  "elected_on": null,
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P061C1",
+  "election_notice_date": "2023-08-23",
+  "elected_on": "2023-08-30",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P062E",
+  "election_notice_date": "2024-05-21",
+  "elected_on": "2024-06-11",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P062S",
+  "election_notice_date": "2024-05-21",
+  "elected_on": "2024-06-11",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2026-04-25"
+ },
+ {
+  "person_id": "P063E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P064E",
+  "election_notice_date": "2023-11-22",
+  "elected_on": "2023-12-22",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P064S",
+  "election_notice_date": "2023-11-22",
+  "elected_on": "2024-01-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": "2026-03-13"
+ },
+ {
+  "person_id": "P065E",
+  "election_notice_date": "2023-08-24",
+  "elected_on": "2023-09-07",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P065C0",
+  "election_notice_date": "2023-08-24",
+  "elected_on": "2023-08-31",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P065C1",
+  "election_notice_date": "2023-08-24",
+  "elected_on": "2023-08-31",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P066E",
+  "election_notice_date": "2023-06-29",
+  "elected_on": "2023-07-13",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P066S",
+  "election_notice_date": "2023-06-29",
+  "elected_on": "2023-07-01",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P067E",
+  "election_notice_date": "2024-09-10",
+  "elected_on": "2024-10-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P067S",
+  "election_notice_date": "2024-09-10",
+  "elected_on": "2024-12-02",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P068E",
+  "election_notice_date": "2023-01-03",
+  "elected_on": "2023-01-05",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P068S",
+  "election_notice_date": "2023-01-03",
+  "elected_on": "2023-01-17",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P068C0",
+  "election_notice_date": "2023-01-03",
+  "elected_on": "2023-01-05",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2024-07-27"
+ },
+ {
+  "person_id": "P068C1",
+  "election_notice_date": "2023-01-03",
+  "elected_on": "2023-01-10",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P069E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P069S",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P070E",
+  "election_notice_date": "2025-07-24",
+  "elected_on": "2025-08-04",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P070C0",
+  "election_notice_date": "2025-07-24",
+  "elected_on": "2025-09-28",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P071E",
+  "election_notice_date": "2022-12-09",
+  "elected_on": "2022-12-23",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P071S",
+  "election_notice_date": "2022-12-09",
+  "elected_on": "2022-12-30",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P072S",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P072E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P073E",
+  "election_notice_date": "2023-11-25",
+  "elected_on": "2023-11-28",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P073S",
+  "election_notice_date": "2023-11-25",
+  "elected_on": "2024-01-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2026-01-30"
+ },
+ {
+  "person_id": "P073C0",
+  "election_notice_date": "2023-11-25",
+  "elected_on": "2024-01-09",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2026-01-30"
+ },
+ {
+  "person_id": "P074E",
+  "election_notice_date": "2023-12-22",
+  "elected_on": "2024-01-03",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P074S",
+  "election_notice_date": "2023-12-22",
+  "elected_on": "2024-01-31",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P074C0",
+  "election_notice_date": "2023-12-22",
+  "elected_on": "2024-01-03",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P074C1",
+  "election_notice_date": "2023-12-22",
+  "elected_on": "2024-02-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P075E",
+  "election_notice_date": "2023-07-25",
+  "elected_on": "2023-08-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P075S",
+  "election_notice_date": "2023-07-25",
+  "elected_on": "2023-08-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": "2024-11-28"
+ },
+ {
+  "person_id": "P075C0",
+  "election_notice_date": "2023-07-25",
+  "elected_on": "2023-09-29",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P076E",
+  "election_notice_date": "2025-03-13",
+  "elected_on": "2025-03-20",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P076C0",
+  "election_notice_date": "2025-03-13",
+  "elected_on": "2025-03-27",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": "2026-06-25"
+ },
+ {
+  "person_id": "P077E",
+  "election_notice_date": "2022-12-04",
+  "elected_on": "2022-12-06",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P077S",
+  "election_notice_date": "2022-12-04",
+  "elected_on": "2022-12-25",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P078E",
+  "election_notice_date": "2022-09-06",
+  "elected_on": "2022-09-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P078S",
+  "election_notice_date": "2022-09-06",
+  "elected_on": "2022-09-13",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": "2022-10-09"
+ },
+ {
+  "person_id": "P079E",
+  "election_notice_date": "2024-11-20",
+  "elected_on": "2024-12-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P079S",
+  "election_notice_date": "2024-11-20",
+  "elected_on": "2024-12-11",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P080E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-05-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P081E",
+  "election_notice_date": "2022-09-01",
+  "elected_on": "2022-11-01",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P081C0",
+  "election_notice_date": "2022-09-01",
+  "elected_on": "2022-10-30",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P082E",
+  "election_notice_date": "2024-10-29",
+  "elected_on": "2024-11-05",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P082C0",
+  "election_notice_date": "2024-10-29",
+  "elected_on": "2024-11-12",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P083E",
+  "election_notice_date": "2023-05-21",
+  "elected_on": "2023-06-11",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P084E",
+  "election_notice_date": "2023-04-06",
+  "elected_on": "2023-04-27",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P084S",
+  "election_notice_date": "2023-04-06",
+  "elected_on": "2023-04-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": "2024-02-02"
+ },
+ {
+  "person_id": "P085E",
+  "election_notice_date": "2022-11-02",
+  "elected_on": "2022-12-31",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P085S",
+  "election_notice_date": "2022-11-02",
+  "elected_on": "2022-11-23",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P085C0",
+  "election_notice_date": "2022-11-02",
+  "elected_on": "2022-12-02",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2023-11-12"
+ },
+ {
+  "person_id": "P086E",
+  "election_notice_date": "2022-12-07",
+  "elected_on": "2023-01-21",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P086S",
+  "election_notice_date": "2022-12-07",
+  "elected_on": "2023-01-21",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": "2023-09-25"
+ },
+ {
+  "person_id": "P086C0",
+  "election_notice_date": "2022-12-07",
+  "elected_on": "2022-12-14",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": "2023-10-13"
+ },
+ {
+  "person_id": "P087S",
+  "election_notice_date": "2023-06-25",
+  "elected_on": "2023-08-24",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P088E",
+  "election_notice_date": "2023-02-02",
+  "elected_on": "2023-02-16",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P088S",
+  "election_notice_date": "2023-02-02",
+  "elected_on": "2023-02-23",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P089E",
+  "election_notice_date": "2024-01-30",
+  "elected_on": "2024-02-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P089S",
+  "election_notice_date": "2024-01-30",
+  "elected_on": "2024-04-03",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P090E",
+  "election_notice_date": "2024-03-24",
+  "elected_on": "2024-04-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P090C0",
+  "election_notice_date": "2024-03-24",
+  "elected_on": "2024-04-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P090C1",
+  "election_notice_date": "2024-03-24",
+  "elected_on": "2024-04-22",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P091E",
+  "election_notice_date": "2025-05-16",
+  "elected_on": "2025-05-26",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P091S",
+  "election_notice_date": "2025-05-16",
+  "elected_on": "2025-06-30",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P092E",
+  "election_notice_date": "2024-01-31",
+  "elected_on": "2024-02-07",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P092S",
+  "election_notice_date": "2024-01-31",
+  "elected_on": "2024-02-02",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P093E",
+  "election_notice_date": "2024-07-14",
+  "elected_on": "2024-07-24",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P093C0",
+  "election_notice_date": "2024-07-14",
+  "elected_on": "2024-08-28",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P094S",
+  "election_notice_date": "2023-03-11",
+  "elected_on": "2023-04-04",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P095E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P095C",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2025-03-20"
+ },
+ {
+  "person_id": "P096E",
+  "election_notice_date": "2024-12-12",
+  "elected_on": "2025-01-22",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P096S",
+  "election_notice_date": "2024-12-12",
+  "elected_on": "2025-01-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P097S",
+  "election_notice_date": "2025-05-26",
+  "elected_on": "2025-08-02",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P098E",
+  "election_notice_date": "2024-10-20",
+  "elected_on": "2024-11-10",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P098S",
+  "election_notice_date": "2024-10-20",
+  "elected_on": "2024-10-27",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2025-04-04"
+ },
+ {
+  "person_id": "P098C0",
+  "election_notice_date": "2024-10-20",
+  "elected_on": "2024-12-19",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P098C1",
+  "election_notice_date": "2024-10-20",
+  "elected_on": "2024-11-03",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P099E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P099S",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P100E",
+  "election_notice_date": "2024-10-25",
+  "elected_on": "2024-11-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P100S",
+  "election_notice_date": "2024-10-25",
+  "elected_on": "2024-11-01",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": "2026-05-03"
+ },
+ {
+  "person_id": "P101S",
+  "election_notice_date": "2023-05-04",
+  "elected_on": null,
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P102E",
+  "election_notice_date": "2025-09-21",
+  "elected_on": "2025-09-24",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P102S",
+  "election_notice_date": "2025-09-21",
+  "elected_on": "2025-11-22",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P103S",
+  "election_notice_date": "2024-01-20",
+  "elected_on": "2024-02-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P104E",
+  "election_notice_date": "2024-09-16",
+  "elected_on": "2024-12-02",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P104S",
+  "election_notice_date": "2024-09-16",
+  "elected_on": "2024-10-31",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P105E",
+  "election_notice_date": "2023-12-07",
+  "elected_on": "2023-12-28",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P105C0",
+  "election_notice_date": "2023-12-07",
+  "elected_on": "2023-12-21",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2024-06-07"
+ },
+ {
+  "person_id": "P105C1",
+  "election_notice_date": "2023-12-07",
+  "elected_on": "2023-12-21",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P106E",
+  "election_notice_date": "2024-03-20",
+  "elected_on": "2024-05-25",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P107E",
+  "election_notice_date": "2022-11-23",
+  "elected_on": "2022-12-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P108S",
+  "election_notice_date": "2025-03-05",
+  "elected_on": "2025-03-12",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P108C0",
+  "election_notice_date": "2025-03-05",
+  "elected_on": "2025-03-12",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P109E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P109S",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2025-01-15"
+ },
+ {
+  "person_id": "P110E",
+  "election_notice_date": "2023-10-14",
+  "elected_on": "2023-11-03",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P110S",
+  "election_notice_date": "2023-10-14",
+  "elected_on": "2023-12-16",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P111E",
+  "election_notice_date": "2025-08-31",
+  "elected_on": "2025-09-08",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P111C0",
+  "election_notice_date": "2025-08-31",
+  "elected_on": "2025-09-15",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P111C1",
+  "election_notice_date": "2025-08-31",
+  "elected_on": "2025-09-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P112E",
+  "election_notice_date": "2023-01-04",
+  "elected_on": "2023-01-11",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P112S",
+  "election_notice_date": "2023-01-04",
+  "elected_on": "2023-01-11",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P113E",
+  "election_notice_date": "2024-05-20",
+  "elected_on": "2024-06-03",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P113S",
+  "election_notice_date": "2024-05-20",
+  "elected_on": "2024-06-03",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P114E",
+  "election_notice_date": "2025-03-23",
+  "elected_on": "2025-03-25",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P114S",
+  "election_notice_date": "2025-03-23",
+  "elected_on": "2025-04-06",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P115S",
+  "election_notice_date": "2025-06-20",
+  "elected_on": "2025-06-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P116E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P117S",
+  "election_notice_date": "2025-02-18",
+  "elected_on": "2025-03-11",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P118E",
+  "election_notice_date": "2023-02-07",
+  "elected_on": "2023-05-02",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P118S",
+  "election_notice_date": "2023-02-07",
+  "elected_on": "2023-03-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P118C0",
+  "election_notice_date": "2023-02-07",
+  "elected_on": "2023-03-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2023-07-13"
+ },
+ {
+  "person_id": "P119S",
+  "election_notice_date": "2024-07-27",
+  "elected_on": "2024-09-28",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P120E",
+  "election_notice_date": "2024-06-02",
+  "elected_on": "2024-06-16",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P120S",
+  "election_notice_date": "2024-06-02",
+  "elected_on": "2024-06-04",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P120C0",
+  "election_notice_date": "2024-06-02",
+  "elected_on": "2024-06-09",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P120C1",
+  "election_notice_date": "2024-06-02",
+  "elected_on": "2024-06-04",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P121E",
+  "election_notice_date": "2025-05-09",
+  "elected_on": "2025-05-23",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P121S",
+  "election_notice_date": "2025-05-09",
+  "elected_on": "2025-07-06",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P122E",
+  "election_notice_date": "2025-03-01",
+  "elected_on": "2025-03-15",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P123E",
+  "election_notice_date": "2024-11-26",
+  "elected_on": "2024-12-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P123C0",
+  "election_notice_date": "2024-11-26",
+  "elected_on": "2024-12-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P124E",
+  "election_notice_date": "2025-06-01",
+  "elected_on": "2025-06-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P125E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P125C",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2025-05-05"
+ },
+ {
+  "person_id": "P126E",
+  "election_notice_date": "2023-10-04",
+  "elected_on": "2023-10-07",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P126S",
+  "election_notice_date": "2023-10-04",
+  "elected_on": "2023-10-06",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P127E",
+  "election_notice_date": "2025-01-25",
+  "elected_on": "2025-04-03",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P127S",
+  "election_notice_date": "2025-01-25",
+  "elected_on": "2025-02-15",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P128S",
+  "election_notice_date": "2025-05-22",
+  "elected_on": "2025-06-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P129E",
+  "election_notice_date": "2024-03-06",
+  "elected_on": "2024-04-15",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P129S",
+  "election_notice_date": "2024-03-06",
+  "elected_on": "2024-04-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2025-04-09"
+ },
+ {
+  "person_id": "P130E",
+  "election_notice_date": "2025-06-25",
+  "elected_on": "2025-07-08",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P130S",
+  "election_notice_date": "2025-06-25",
+  "elected_on": "2025-08-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P130C0",
+  "election_notice_date": "2025-06-25",
+  "elected_on": "2025-07-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P131S",
+  "election_notice_date": "2024-10-06",
+  "elected_on": "2024-10-13",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P132E",
+  "election_notice_date": "2023-01-18",
+  "elected_on": "2023-04-03",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P133E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P134E",
+  "election_notice_date": "2024-10-11",
+  "elected_on": "2024-11-03",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P134S",
+  "election_notice_date": "2024-10-11",
+  "elected_on": "2024-11-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2026-03-03"
+ },
+ {
+  "person_id": "P134C0",
+  "election_notice_date": "2024-10-11",
+  "elected_on": "2024-11-15",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2026-02-06"
+ },
+ {
+  "person_id": "P134C1",
+  "election_notice_date": "2024-10-11",
+  "elected_on": "2024-11-08",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2026-03-03"
+ },
+ {
+  "person_id": "P135E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P135S",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": "2025-06-30"
+ },
+ {
+  "person_id": "P135C",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2025-06-30"
+ },
+ {
+  "person_id": "P136E",
+  "election_notice_date": "2023-04-09",
+  "elected_on": "2023-05-08",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P136S",
+  "election_notice_date": "2023-04-09",
+  "elected_on": "2023-05-22",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P136C0",
+  "election_notice_date": "2023-04-09",
+  "elected_on": "2023-05-03",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P137E",
+  "election_notice_date": "2024-09-14",
+  "elected_on": "2024-10-05",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P137C0",
+  "election_notice_date": "2024-09-14",
+  "elected_on": "2024-09-28",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P138E",
+  "election_notice_date": "2023-04-03",
+  "elected_on": "2023-04-12",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P138S",
+  "election_notice_date": "2023-04-03",
+  "elected_on": "2023-04-12",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2023-12-01"
+ },
+ {
+  "person_id": "P138C",
+  "election_notice_date": "2023-04-03",
+  "elected_on": "2023-04-12",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2023-12-01"
+ },
+ {
+  "person_id": "P139S",
+  "election_notice_date": "2023-02-22",
+  "elected_on": "2023-03-03",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P140E",
+  "election_notice_date": "2023-01-30",
+  "elected_on": "2023-02-08",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P140S",
+  "election_notice_date": "2023-01-30",
+  "elected_on": "2023-02-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P140C0",
+  "election_notice_date": "2023-01-30",
+  "elected_on": "2023-02-15",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P140C1",
+  "election_notice_date": "2023-01-30",
+  "elected_on": "2023-02-08",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P141E",
+  "election_notice_date": "2023-05-22",
+  "elected_on": "2023-06-03",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P142S",
+  "election_notice_date": "2025-09-19",
+  "elected_on": "2025-10-10",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P143E",
+  "election_notice_date": "2023-09-26",
+  "elected_on": "2023-10-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P143S",
+  "election_notice_date": "2023-09-26",
+  "elected_on": "2023-11-29",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P144E",
+  "election_notice_date": "2024-02-26",
+  "elected_on": "2024-03-11",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P144S",
+  "election_notice_date": "2024-02-26",
+  "elected_on": "2024-03-11",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P145E",
+  "election_notice_date": "2023-12-09",
+  "elected_on": "2024-02-05",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P145S",
+  "election_notice_date": "2023-12-09",
+  "elected_on": null,
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P146E",
+  "election_notice_date": "2024-08-27",
+  "elected_on": "2024-09-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P146S",
+  "election_notice_date": "2024-08-27",
+  "elected_on": null,
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P147E",
+  "election_notice_date": "2024-09-25",
+  "elected_on": "2024-10-05",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P147S",
+  "election_notice_date": "2024-09-25",
+  "elected_on": "2024-10-05",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P148S",
+  "election_notice_date": "2024-05-13",
+  "elected_on": "2024-06-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P149E",
+  "election_notice_date": "2024-08-30",
+  "elected_on": "2024-09-03",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P150E",
+  "election_notice_date": "2022-08-08",
+  "elected_on": "2022-08-10",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P151E",
+  "election_notice_date": "2023-11-15",
+  "elected_on": null,
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P151S",
+  "election_notice_date": "2023-11-15",
+  "elected_on": "2024-01-14",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P152E",
+  "election_notice_date": "2023-10-14",
+  "elected_on": "2023-10-16",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P153E",
+  "election_notice_date": "2023-08-18",
+  "elected_on": "2023-09-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P153S",
+  "election_notice_date": "2023-08-18",
+  "elected_on": "2023-08-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2025-12-24"
+ },
+ {
+  "person_id": "P154C0",
+  "election_notice_date": "2024-03-25",
+  "elected_on": "2024-04-03",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P154C1",
+  "election_notice_date": "2024-03-25",
+  "elected_on": "2024-04-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P155S",
+  "election_notice_date": "2025-09-28",
+  "elected_on": "2025-11-25",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P156E",
+  "election_notice_date": "2024-09-12",
+  "elected_on": "2024-10-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P156S",
+  "election_notice_date": "2024-09-12",
+  "elected_on": "2024-10-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P156C0",
+  "election_notice_date": "2024-09-12",
+  "elected_on": "2024-10-03",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P157E",
+  "election_notice_date": "2023-12-06",
+  "elected_on": "2023-12-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P157S",
+  "election_notice_date": "2023-12-06",
+  "elected_on": "2023-12-09",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": "2024-03-31"
+ },
+ {
+  "person_id": "P157C0",
+  "election_notice_date": "2023-12-06",
+  "elected_on": "2023-12-09",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P158E",
+  "election_notice_date": "2023-08-25",
+  "elected_on": "2023-09-22",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P158S",
+  "election_notice_date": "2023-08-25",
+  "elected_on": "2023-09-11",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P158C0",
+  "election_notice_date": "2023-08-25",
+  "elected_on": "2023-09-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P159E",
+  "election_notice_date": "2023-06-15",
+  "elected_on": "2023-08-14",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P159S",
+  "election_notice_date": "2023-06-15",
+  "elected_on": "2023-06-18",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P160E",
+  "election_notice_date": "2023-11-15",
+  "elected_on": "2023-11-17",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P160S",
+  "election_notice_date": "2023-11-15",
+  "elected_on": "2023-12-06",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P161S",
+  "election_notice_date": "2023-01-12",
+  "elected_on": null,
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P162E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P162S",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2024-09-20"
+ },
+ {
+  "person_id": "P163E",
+  "election_notice_date": "2024-08-25",
+  "elected_on": "2024-09-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P163S",
+  "election_notice_date": "2024-08-25",
+  "elected_on": "2024-09-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P163C0",
+  "election_notice_date": "2024-08-25",
+  "elected_on": null,
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P164E",
+  "election_notice_date": "2023-06-30",
+  "elected_on": "2023-07-21",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P165E",
+  "election_notice_date": "2024-07-24",
+  "elected_on": "2024-08-04",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P165S",
+  "election_notice_date": "2024-07-24",
+  "elected_on": "2024-08-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P166E",
+  "election_notice_date": "2025-04-10",
+  "elected_on": "2025-04-17",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P166S",
+  "election_notice_date": "2025-04-10",
+  "elected_on": "2025-04-13",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P166C0",
+  "election_notice_date": "2025-04-10",
+  "elected_on": "2025-04-12",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P166C1",
+  "election_notice_date": "2025-04-10",
+  "elected_on": "2025-05-01",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P167E",
+  "election_notice_date": "2025-07-17",
+  "elected_on": "2025-07-31",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P168E",
+  "election_notice_date": "2022-09-28",
+  "elected_on": "2022-10-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P169S",
+  "election_notice_date": "2024-10-10",
+  "elected_on": "2024-10-17",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P170E",
+  "election_notice_date": "2024-10-05",
+  "elected_on": "2024-10-07",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P170S",
+  "election_notice_date": "2024-10-05",
+  "elected_on": "2024-10-26",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P170C0",
+  "election_notice_date": "2024-10-05",
+  "elected_on": "2024-10-19",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P170C1",
+  "election_notice_date": "2024-10-05",
+  "elected_on": null,
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P171E",
+  "election_notice_date": "2024-03-05",
+  "elected_on": "2024-03-26",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P171C0",
+  "election_notice_date": "2024-03-05",
+  "elected_on": "2024-05-02",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P172E",
+  "election_notice_date": "2024-01-14",
+  "elected_on": "2024-03-16",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P172S",
+  "election_notice_date": "2024-01-14",
+  "elected_on": "2024-01-17",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P172C0",
+  "election_notice_date": "2024-01-14",
+  "elected_on": "2024-01-21",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P173E",
+  "election_notice_date": "2023-11-22",
+  "elected_on": "2023-12-22",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P174E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P175C0",
+  "election_notice_date": "2023-11-04",
+  "elected_on": "2023-11-18",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P176E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P177E",
+  "election_notice_date": "2023-09-29",
+  "elected_on": null,
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P177S",
+  "election_notice_date": "2023-09-29",
+  "elected_on": "2023-10-13",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P177C0",
+  "election_notice_date": "2023-09-29",
+  "elected_on": "2023-10-13",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P178E",
+  "election_notice_date": "2023-10-04",
+  "elected_on": "2023-10-11",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P178S",
+  "election_notice_date": "2023-10-04",
+  "elected_on": "2023-10-25",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P179E",
+  "election_notice_date": "2024-07-11",
+  "elected_on": "2024-08-04",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P179S",
+  "election_notice_date": "2024-07-11",
+  "elected_on": "2024-08-15",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P179C0",
+  "election_notice_date": "2024-07-11",
+  "elected_on": "2024-08-08",
+  "coverage_option": "PPO",
+  "second_event_notice_date": "2026-04-20"
+ },
+ {
+  "person_id": "P180E",
+  "election_notice_date": "2023-01-20",
+  "elected_on": "2023-03-22",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P180S",
+  "election_notice_date": "2023-01-20",
+  "elected_on": "2023-02-10",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P180C0",
+  "election_notice_date": "2023-01-20",
+  "elected_on": "2023-02-03",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P181E",
+  "election_notice_date": "2023-01-28",
+  "elected_on": null,
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P181C0",
+  "election_notice_date": "2023-01-28",
+  "elected_on": "2023-02-03",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P181C1",
+  "election_notice_date": "2023-01-28",
+  "elected_on": "2023-02-03",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P182E",
+  "election_notice_date": "2024-10-13",
+  "elected_on": "2024-11-27",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P182S",
+  "election_notice_date": "2024-10-13",
+  "elected_on": "2024-11-03",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P183E",
+  "election_notice_date": "2025-06-19",
+  "elected_on": "2025-07-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P183S",
+  "election_notice_date": "2025-06-19",
+  "elected_on": "2025-07-08",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P184E",
+  "election_notice_date": "2022-06-22",
+  "elected_on": "2022-07-08",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P185E",
+  "election_notice_date": "2023-12-11",
+  "elected_on": "2024-01-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P186E",
+  "election_notice_date": "2023-05-30",
+  "elected_on": "2023-06-06",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P186S",
+  "election_notice_date": "2023-05-30",
+  "elected_on": "2023-06-01",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P187S",
+  "election_notice_date": "2024-01-03",
+  "elected_on": "2024-01-17",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P188S",
+  "election_notice_date": "2024-09-07",
+  "elected_on": "2024-09-21",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P189E",
+  "election_notice_date": "2025-08-10",
+  "elected_on": "2025-08-12",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P189S",
+  "election_notice_date": "2025-08-10",
+  "elected_on": "2025-08-17",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P189C0",
+  "election_notice_date": "2025-08-10",
+  "elected_on": "2025-08-24",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P190E",
+  "election_notice_date": "2024-01-05",
+  "elected_on": "2024-01-12",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P190C0",
+  "election_notice_date": "2024-01-05",
+  "elected_on": "2024-01-19",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P190C1",
+  "election_notice_date": "2024-01-05",
+  "elected_on": "2024-01-26",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P191C0",
+  "election_notice_date": "2024-06-22",
+  "elected_on": "2024-07-13",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P192E",
+  "election_notice_date": "2022-11-05",
+  "elected_on": "2022-11-12",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P192S",
+  "election_notice_date": "2022-11-05",
+  "elected_on": "2022-11-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P193S",
+  "election_notice_date": "2024-12-21",
+  "elected_on": "2025-01-04",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P193C0",
+  "election_notice_date": "2024-12-21",
+  "elected_on": "2025-02-21",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P194E",
+  "election_notice_date": "2023-03-20",
+  "elected_on": "2023-05-20",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P194S",
+  "election_notice_date": "2023-03-20",
+  "elected_on": "2023-05-19",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P194C0",
+  "election_notice_date": "2023-03-20",
+  "elected_on": "2023-04-19",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": "2023-05-14"
+ },
+ {
+  "person_id": "P195E",
+  "election_notice_date": "2024-01-12",
+  "elected_on": "2024-01-19",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P195S",
+  "election_notice_date": "2024-01-12",
+  "elected_on": "2024-03-11",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P195C0",
+  "election_notice_date": "2024-01-12",
+  "elected_on": "2024-02-02",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P196E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P197S",
+  "election_notice_date": "2023-02-18",
+  "elected_on": null,
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P198E",
+  "election_notice_date": "2023-03-02",
+  "elected_on": "2023-03-16",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P198C0",
+  "election_notice_date": "2023-03-02",
+  "elected_on": "2023-03-04",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P199C0",
+  "election_notice_date": "2023-07-25",
+  "elected_on": "2023-07-27",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P200S",
+  "election_notice_date": "2022-11-07",
+  "elected_on": "2022-11-14",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P200C0",
+  "election_notice_date": "2022-11-07",
+  "elected_on": "2022-11-14",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P200C1",
+  "election_notice_date": "2022-11-07",
+  "elected_on": "2022-12-07",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P201E",
+  "election_notice_date": "2022-08-06",
+  "elected_on": "2022-08-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P202E",
+  "election_notice_date": "2023-08-21",
+  "elected_on": "2023-10-21",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P202S",
+  "election_notice_date": "2023-08-21",
+  "elected_on": "2023-10-05",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P203S",
+  "election_notice_date": "2023-01-08",
+  "elected_on": "2023-01-22",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P204E",
+  "election_notice_date": "2023-05-29",
+  "elected_on": "2023-06-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P204S",
+  "election_notice_date": "2023-05-29",
+  "elected_on": "2023-08-02",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P204C0",
+  "election_notice_date": "2023-05-29",
+  "elected_on": "2023-06-15",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P204C1",
+  "election_notice_date": "2023-05-29",
+  "elected_on": "2023-06-08",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P205C0",
+  "election_notice_date": "2025-03-21",
+  "elected_on": "2025-04-22",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P206E",
+  "election_notice_date": "2022-10-16",
+  "elected_on": "2022-11-06",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P206S",
+  "election_notice_date": "2022-10-16",
+  "elected_on": "2022-10-30",
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P207E",
+  "election_notice_date": "2024-04-05",
+  "elected_on": "2024-04-20",
+  "coverage_option": "PPO",
+  "second_event_notice_date": null
+ },
+ {
+  "person_id": "P208E",
+  "election_notice_date": "2024-01-26",
+  "elected_on": null,
+  "coverage_option": "HDHP",
+  "second_event_notice_date": null
+ }
+]

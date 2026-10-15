@@ -1,0 +1,31 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/cobra-claims-review"
+description = "Adjudicate a COBRA administrator's claims queue: for 2,922 medical claims from 411 qualified beneficiaries in 208 families, decide whether each date of service falls inside COBRA continuation coverage under 26 CFR 54.4980B, across maximum coverage periods, the disability extension, second qualifying events, Medicare before a termination, elections, premium payments and early termination."
+
+[metadata]
+difficulty_explanation = "COBRA administrators decide every claim from a former plan member against the person's whole coverage history, and the answer for a date depends on several periods and premium rules that change each other. The maximum coverage period is 18 months after a termination or reduction of hours and 36 after a death, divorce or a child's 26th birthday. A disability found by Social Security for any time in the first 60 days stretches it to 29 months for the whole family, but only if the notice reaches the plan within 60 days of the determination and before the 18 months end, and the disabled person then owes 150% of the premium in months 19 to 29 while everyone else stays at 102%. A later divorce, death or 26th birthday stretches a spouse's or child's period to 36 months from the original start, but only if it falls inside the 18 months, or inside the 29 when the disability extension applies, and only if that person reported it within 60 days. A divorce does not extend a child, and an employee's Medicare entitlement is not a second event at all under this plan. When the employee had Medicare before a termination, dependents get the later of 36 months from the Medicare date and the regular period. Coverage needs a timely election (60 days from the later of the loss of coverage and the notice, applied retroactively) and every monthly premium paid in time (30-day grace period, but 45 days after the election for the first months) and in full, where a shortfall up to the lesser of $50 or 10% counts as full payment unless the plan sent a shortfall notice that was not cured within 30 days. Coverage ends early for other group coverage or Medicare only when it begins after the election, and a missed month ends coverage for good. The 2,922 claims sit at many of these boundaries, so a single misread rule changes some answers."
+solution_explanation = "For each family take the earliest event as the first qualifying event; COBRA starts the first day of the next month. Accept an election sent within 60 days after the later of that day and the notice. For an 18-month event, grant 29 months to the family if any beneficiary was disabled on or before day 60 and notified within 60 days of the determination and before the 18 months end. For each spouse or child, extend to 36 months from the start for a death, divorce (spouse only) or own 26th birthday inside the current period with notice within 60 days, and take the later of that and 36 months from the employee's Medicare date when Medicare came before the qualifying event. End coverage the day before other coverage or Medicare that begins after the election. Then walk the months from the start: each needs a payment sent by the later of 30 days after the first of the month and 45 days after the election, at 102% of that year's applicable premium (150% for the disabled person in months 19 to 29), short by no more than the lesser of $50 and 10%, with any shortfall notice cured within 30 days; the first failure ends coverage at the end of the previous month. A claim is covered if its date falls between the start and the last covered day."
+verification_explanation = "The verifier recomputes every claim with its own independently written engine (engine.py, which decides each claim on its own with day arithmetic and exact fractions, while the reference solution works in month indexes with decimals) from a private copy of the inputs that exists only in the verifier image, and never runs agent code. The engine is checked against 95 hand-worked planted claims (golden.json), and the generator's own third implementation reproduces the same answers for all 2,922 claims. Tests check that the inputs are consistent, the exact header, one row per claim in input order, the value format, the hand-worked claims, one test per rule family (maximum periods, election, premium payment, disability extension, second qualifying events, Medicare, early termination) and finally every row by exact match. Reward is 1 only if every test passes."
+category = "Operations"
+subcategory = "Claims"
+tags = ["cobra", "26-cfr-54-4980b", "benefits-administration", "continuation-coverage", "claims", "health-plan", "python"]
+expert_time_estimate_hours = 8
+relevant_experience = "COBRA administration and health plan claims adjudication: maximum coverage periods, disability extensions, second qualifying events, election periods, premium grace periods and shortfalls, and early termination under 26 CFR 54.4980B."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0

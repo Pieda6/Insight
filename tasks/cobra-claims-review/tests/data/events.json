@@ -1,0 +1,1682 @@
+[
+ {
+  "family_id": "F030",
+  "event": "death",
+  "date": "2022-06-03",
+  "person_id": null
+ },
+ {
+  "family_id": "F184",
+  "event": "termination",
+  "date": "2022-06-12",
+  "person_id": null
+ },
+ {
+  "family_id": "F201",
+  "event": "reduction_of_hours",
+  "date": "2022-06-27",
+  "person_id": null
+ },
+ {
+  "family_id": "F078",
+  "event": "termination",
+  "date": "2022-07-18",
+  "person_id": null
+ },
+ {
+  "family_id": "F150",
+  "event": "reduction_of_hours",
+  "date": "2022-07-19",
+  "person_id": null
+ },
+ {
+  "family_id": "F019",
+  "event": "reduction_of_hours",
+  "date": "2022-08-05",
+  "person_id": null
+ },
+ {
+  "family_id": "F044",
+  "event": "death",
+  "date": "2022-08-20",
+  "person_id": null
+ },
+ {
+  "family_id": "F081",
+  "event": "termination",
+  "date": "2022-08-22",
+  "person_id": null
+ },
+ {
+  "family_id": "F192",
+  "event": "termination",
+  "date": "2022-09-16",
+  "person_id": null
+ },
+ {
+  "family_id": "F168",
+  "event": "termination",
+  "date": "2022-09-18",
+  "person_id": null
+ },
+ {
+  "family_id": "F206",
+  "event": "reduction_of_hours",
+  "date": "2022-09-26",
+  "person_id": null
+ },
+ {
+  "family_id": "F200",
+  "event": "death",
+  "date": "2022-09-28",
+  "person_id": null
+ },
+ {
+  "family_id": "F054",
+  "event": "death",
+  "date": "2022-09-29",
+  "person_id": null
+ },
+ {
+  "family_id": "F078",
+  "event": "death",
+  "date": "2022-10-04",
+  "person_id": null
+ },
+ {
+  "family_id": "F085",
+  "event": "termination",
+  "date": "2022-10-13",
+  "person_id": null
+ },
+ {
+  "family_id": "F077",
+  "event": "reduction_of_hours",
+  "date": "2022-10-25",
+  "person_id": null
+ },
+ {
+  "family_id": "F071",
+  "event": "reduction_of_hours",
+  "date": "2022-10-30",
+  "person_id": null
+ },
+ {
+  "family_id": "F112",
+  "event": "reduction_of_hours",
+  "date": "2022-11-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F002",
+  "event": "divorce",
+  "date": "2022-11-16",
+  "person_id": null
+ },
+ {
+  "family_id": "F086",
+  "event": "termination",
+  "date": "2022-11-17",
+  "person_id": null
+ },
+ {
+  "family_id": "F107",
+  "event": "reduction_of_hours",
+  "date": "2022-11-18",
+  "person_id": null
+ },
+ {
+  "family_id": "F203",
+  "event": "divorce",
+  "date": "2022-11-19",
+  "person_id": null
+ },
+ {
+  "family_id": "F068",
+  "event": "termination",
+  "date": "2022-11-24",
+  "person_id": null
+ },
+ {
+  "family_id": "F027",
+  "event": "termination",
+  "date": "2022-11-27",
+  "person_id": null
+ },
+ {
+  "family_id": "F019",
+  "event": "employee_medicare_entitlement",
+  "date": "2022-12-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F057",
+  "event": "termination",
+  "date": "2022-12-13",
+  "person_id": null
+ },
+ {
+  "family_id": "F180",
+  "event": "termination",
+  "date": "2022-12-31",
+  "person_id": null
+ },
+ {
+  "family_id": "F161",
+  "event": "divorce",
+  "date": "2023-01-02",
+  "person_id": null
+ },
+ {
+  "family_id": "F140",
+  "event": "reduction_of_hours",
+  "date": "2023-01-10",
+  "person_id": null
+ },
+ {
+  "family_id": "F132",
+  "event": "termination",
+  "date": "2023-01-13",
+  "person_id": null
+ },
+ {
+  "family_id": "F112",
+  "event": "termination",
+  "date": "2023-01-18",
+  "person_id": null
+ },
+ {
+  "family_id": "F181",
+  "event": "termination",
+  "date": "2023-01-18",
+  "person_id": null
+ },
+ {
+  "family_id": "F088",
+  "event": "termination",
+  "date": "2023-01-28",
+  "person_id": null
+ },
+ {
+  "family_id": "F197",
+  "event": "divorce",
+  "date": "2023-01-29",
+  "person_id": null
+ },
+ {
+  "family_id": "F118",
+  "event": "reduction_of_hours",
+  "date": "2023-02-02",
+  "person_id": null
+ },
+ {
+  "family_id": "F139",
+  "event": "divorce",
+  "date": "2023-02-17",
+  "person_id": null
+ },
+ {
+  "family_id": "F198",
+  "event": "termination",
+  "date": "2023-02-20",
+  "person_id": null
+ },
+ {
+  "family_id": "F024",
+  "event": "termination",
+  "date": "2023-02-26",
+  "person_id": null
+ },
+ {
+  "family_id": "F046",
+  "event": "death",
+  "date": "2023-02-28",
+  "person_id": null
+ },
+ {
+  "family_id": "F194",
+  "event": "reduction_of_hours",
+  "date": "2023-02-28",
+  "person_id": null
+ },
+ {
+  "family_id": "F094",
+  "event": "divorce",
+  "date": "2023-03-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F039",
+  "event": "termination",
+  "date": "2023-03-08",
+  "person_id": null
+ },
+ {
+  "family_id": "F150",
+  "event": "termination",
+  "date": "2023-03-08",
+  "person_id": null
+ },
+ {
+  "family_id": "F007",
+  "event": "divorce",
+  "date": "2023-03-13",
+  "person_id": null
+ },
+ {
+  "family_id": "F138",
+  "event": "termination",
+  "date": "2023-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F084",
+  "event": "termination",
+  "date": "2023-03-17",
+  "person_id": null
+ },
+ {
+  "family_id": "F101",
+  "event": "divorce",
+  "date": "2023-03-25",
+  "person_id": null
+ },
+ {
+  "family_id": "F194",
+  "event": "child_reaches_26",
+  "date": "2023-03-25",
+  "person_id": "P194C0"
+ },
+ {
+  "family_id": "F034",
+  "event": "termination",
+  "date": "2023-03-26",
+  "person_id": null
+ },
+ {
+  "family_id": "F083",
+  "event": "termination",
+  "date": "2023-04-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F136",
+  "event": "termination",
+  "date": "2023-04-04",
+  "person_id": null
+ },
+ {
+  "family_id": "F186",
+  "event": "termination",
+  "date": "2023-04-20",
+  "person_id": null
+ },
+ {
+  "family_id": "F201",
+  "event": "termination",
+  "date": "2023-04-21",
+  "person_id": null
+ },
+ {
+  "family_id": "F088",
+  "event": "employee_medicare_entitlement",
+  "date": "2023-05-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F140",
+  "event": "employee_medicare_entitlement",
+  "date": "2023-05-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F087",
+  "event": "divorce",
+  "date": "2023-05-06",
+  "person_id": null
+ },
+ {
+  "family_id": "F023",
+  "event": "death",
+  "date": "2023-05-09",
+  "person_id": null
+ },
+ {
+  "family_id": "F066",
+  "event": "reduction_of_hours",
+  "date": "2023-05-10",
+  "person_id": null
+ },
+ {
+  "family_id": "F164",
+  "event": "termination",
+  "date": "2023-05-11",
+  "person_id": null
+ },
+ {
+  "family_id": "F118",
+  "event": "child_reaches_26",
+  "date": "2023-05-14",
+  "person_id": "P118C0"
+ },
+ {
+  "family_id": "F141",
+  "event": "termination",
+  "date": "2023-05-17",
+  "person_id": null
+ },
+ {
+  "family_id": "F204",
+  "event": "termination",
+  "date": "2023-05-19",
+  "person_id": null
+ },
+ {
+  "family_id": "F159",
+  "event": "termination",
+  "date": "2023-05-26",
+  "person_id": null
+ },
+ {
+  "family_id": "F199",
+  "event": "child_reaches_26",
+  "date": "2023-06-05",
+  "person_id": "P199C0"
+ },
+ {
+  "family_id": "F008",
+  "event": "death",
+  "date": "2023-06-10",
+  "person_id": null
+ },
+ {
+  "family_id": "F001",
+  "event": "termination",
+  "date": "2023-06-18",
+  "person_id": null
+ },
+ {
+  "family_id": "F036",
+  "event": "termination",
+  "date": "2023-06-26",
+  "person_id": null
+ },
+ {
+  "family_id": "F153",
+  "event": "termination",
+  "date": "2023-06-29",
+  "person_id": null
+ },
+ {
+  "family_id": "F202",
+  "event": "termination",
+  "date": "2023-07-02",
+  "person_id": null
+ },
+ {
+  "family_id": "F065",
+  "event": "termination",
+  "date": "2023-07-05",
+  "person_id": null
+ },
+ {
+  "family_id": "F061",
+  "event": "reduction_of_hours",
+  "date": "2023-07-14",
+  "person_id": null
+ },
+ {
+  "family_id": "F075",
+  "event": "reduction_of_hours",
+  "date": "2023-07-20",
+  "person_id": null
+ },
+ {
+  "family_id": "F177",
+  "event": "termination",
+  "date": "2023-08-10",
+  "person_id": null
+ },
+ {
+  "family_id": "F035",
+  "event": "termination",
+  "date": "2023-08-11",
+  "person_id": null
+ },
+ {
+  "family_id": "F178",
+  "event": "termination",
+  "date": "2023-08-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F158",
+  "event": "termination",
+  "date": "2023-08-20",
+  "person_id": null
+ },
+ {
+  "family_id": "F061",
+  "event": "termination",
+  "date": "2023-08-24",
+  "person_id": null
+ },
+ {
+  "family_id": "F020",
+  "event": "termination",
+  "date": "2023-08-25",
+  "person_id": null
+ },
+ {
+  "family_id": "F152",
+  "event": "termination",
+  "date": "2023-08-25",
+  "person_id": null
+ },
+ {
+  "family_id": "F027",
+  "event": "employee_medicare_entitlement",
+  "date": "2023-09-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F058",
+  "event": "termination",
+  "date": "2023-09-06",
+  "person_id": null
+ },
+ {
+  "family_id": "F019",
+  "event": "child_reaches_26",
+  "date": "2023-09-13",
+  "person_id": "P019C0"
+ },
+ {
+  "family_id": "F086",
+  "event": "death",
+  "date": "2023-09-13",
+  "person_id": null
+ },
+ {
+  "family_id": "F126",
+  "event": "reduction_of_hours",
+  "date": "2023-09-14",
+  "person_id": null
+ },
+ {
+  "family_id": "F143",
+  "event": "termination",
+  "date": "2023-09-16",
+  "person_id": null
+ },
+ {
+  "family_id": "F151",
+  "event": "termination",
+  "date": "2023-09-26",
+  "person_id": null
+ },
+ {
+  "family_id": "F160",
+  "event": "termination",
+  "date": "2023-09-26",
+  "person_id": null
+ },
+ {
+  "family_id": "F066",
+  "event": "termination",
+  "date": "2023-10-02",
+  "person_id": null
+ },
+ {
+  "family_id": "F073",
+  "event": "termination",
+  "date": "2023-10-06",
+  "person_id": null
+ },
+ {
+  "family_id": "F110",
+  "event": "reduction_of_hours",
+  "date": "2023-10-09",
+  "person_id": null
+ },
+ {
+  "family_id": "F175",
+  "event": "child_reaches_26",
+  "date": "2023-10-15",
+  "person_id": "P175C0"
+ },
+ {
+  "family_id": "F157",
+  "event": "termination",
+  "date": "2023-10-17",
+  "person_id": null
+ },
+ {
+  "family_id": "F145",
+  "event": "termination",
+  "date": "2023-10-20",
+  "person_id": null
+ },
+ {
+  "family_id": "F085",
+  "event": "child_reaches_26",
+  "date": "2023-10-28",
+  "person_id": "P085C0"
+ },
+ {
+  "family_id": "F105",
+  "event": "reduction_of_hours",
+  "date": "2023-10-28",
+  "person_id": null
+ },
+ {
+  "family_id": "F081",
+  "event": "employee_medicare_entitlement",
+  "date": "2023-11-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F197",
+  "event": "employee_medicare_entitlement",
+  "date": "2023-11-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F064",
+  "event": "termination",
+  "date": "2023-11-02",
+  "person_id": null
+ },
+ {
+  "family_id": "F138",
+  "event": "divorce",
+  "date": "2023-11-06",
+  "person_id": null
+ },
+ {
+  "family_id": "F047",
+  "event": "termination",
+  "date": "2023-11-09",
+  "person_id": null
+ },
+ {
+  "family_id": "F173",
+  "event": "termination",
+  "date": "2023-11-12",
+  "person_id": null
+ },
+ {
+  "family_id": "F190",
+  "event": "termination",
+  "date": "2023-11-16",
+  "person_id": null
+ },
+ {
+  "family_id": "F033",
+  "event": "termination",
+  "date": "2023-11-23",
+  "person_id": null
+ },
+ {
+  "family_id": "F195",
+  "event": "termination",
+  "date": "2023-11-23",
+  "person_id": null
+ },
+ {
+  "family_id": "F172",
+  "event": "termination",
+  "date": "2023-11-25",
+  "person_id": null
+ },
+ {
+  "family_id": "F017",
+  "event": "termination",
+  "date": "2023-12-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F185",
+  "event": "termination",
+  "date": "2023-12-06",
+  "person_id": null
+ },
+ {
+  "family_id": "F187",
+  "event": "divorce",
+  "date": "2023-12-14",
+  "person_id": null
+ },
+ {
+  "family_id": "F050",
+  "event": "child_reaches_26",
+  "date": "2023-12-15",
+  "person_id": "P050C0"
+ },
+ {
+  "family_id": "F029",
+  "event": "reduction_of_hours",
+  "date": "2023-12-17",
+  "person_id": null
+ },
+ {
+  "family_id": "F074",
+  "event": "termination",
+  "date": "2023-12-17",
+  "person_id": null
+ },
+ {
+  "family_id": "F092",
+  "event": "termination",
+  "date": "2023-12-22",
+  "person_id": null
+ },
+ {
+  "family_id": "F157",
+  "event": "divorce",
+  "date": "2023-12-27",
+  "person_id": null
+ },
+ {
+  "family_id": "F032",
+  "event": "termination",
+  "date": "2024-01-08",
+  "person_id": null
+ },
+ {
+  "family_id": "F103",
+  "event": "divorce",
+  "date": "2024-01-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F084",
+  "event": "death",
+  "date": "2024-01-21",
+  "person_id": null
+ },
+ {
+  "family_id": "F208",
+  "event": "termination",
+  "date": "2024-01-21",
+  "person_id": null
+ },
+ {
+  "family_id": "F089",
+  "event": "reduction_of_hours",
+  "date": "2024-01-25",
+  "person_id": null
+ },
+ {
+  "family_id": "F005",
+  "event": "child_reaches_26",
+  "date": "2024-01-28",
+  "person_id": "P005C0"
+ },
+ {
+  "family_id": "F112",
+  "event": "employee_medicare_entitlement",
+  "date": "2024-02-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F105",
+  "event": "child_reaches_26",
+  "date": "2024-02-08",
+  "person_id": "P105C0"
+ },
+ {
+  "family_id": "F144",
+  "event": "termination",
+  "date": "2024-02-12",
+  "person_id": null
+ },
+ {
+  "family_id": "F110",
+  "event": "termination",
+  "date": "2024-02-27",
+  "person_id": null
+ },
+ {
+  "family_id": "F171",
+  "event": "termination",
+  "date": "2024-02-29",
+  "person_id": null
+ },
+ {
+  "family_id": "F129",
+  "event": "reduction_of_hours",
+  "date": "2024-03-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F141",
+  "event": "employee_medicare_entitlement",
+  "date": "2024-03-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F154",
+  "event": "death",
+  "date": "2024-03-05",
+  "person_id": null
+ },
+ {
+  "family_id": "F090",
+  "event": "termination",
+  "date": "2024-03-14",
+  "person_id": null
+ },
+ {
+  "family_id": "F006",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F010",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F013",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F014",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F016",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F022",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F025",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F028",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F031",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F038",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F041",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F042",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F051",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F055",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F059",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F063",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F069",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F072",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F080",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F095",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F099",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F106",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F109",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F116",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F125",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F133",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F135",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F162",
+  "event": "reduction_of_hours",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F174",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F176",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F196",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F207",
+  "event": "termination",
+  "date": "2024-03-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F062",
+  "event": "termination",
+  "date": "2024-04-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F075",
+  "event": "termination",
+  "date": "2024-04-11",
+  "person_id": null
+ },
+ {
+  "family_id": "F120",
+  "event": "termination",
+  "date": "2024-04-23",
+  "person_id": null
+ },
+ {
+  "family_id": "F191",
+  "event": "child_reaches_26",
+  "date": "2024-05-03",
+  "person_id": "P191C0"
+ },
+ {
+  "family_id": "F047",
+  "event": "divorce",
+  "date": "2024-05-05",
+  "person_id": null
+ },
+ {
+  "family_id": "F148",
+  "event": "divorce",
+  "date": "2024-05-08",
+  "person_id": null
+ },
+ {
+  "family_id": "F113",
+  "event": "termination",
+  "date": "2024-05-10",
+  "person_id": null
+ },
+ {
+  "family_id": "F032",
+  "event": "divorce",
+  "date": "2024-05-18",
+  "person_id": null
+ },
+ {
+  "family_id": "F093",
+  "event": "termination",
+  "date": "2024-06-04",
+  "person_id": null
+ },
+ {
+  "family_id": "F026",
+  "event": "termination",
+  "date": "2024-06-07",
+  "person_id": null
+ },
+ {
+  "family_id": "F049",
+  "event": "death",
+  "date": "2024-06-10",
+  "person_id": null
+ },
+ {
+  "family_id": "F040",
+  "event": "death",
+  "date": "2024-06-18",
+  "person_id": null
+ },
+ {
+  "family_id": "F048",
+  "event": "termination",
+  "date": "2024-07-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F179",
+  "event": "reduction_of_hours",
+  "date": "2024-07-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F119",
+  "event": "death",
+  "date": "2024-07-07",
+  "person_id": null
+ },
+ {
+  "family_id": "F068",
+  "event": "child_reaches_26",
+  "date": "2024-07-12",
+  "person_id": "P068C0"
+ },
+ {
+  "family_id": "F165",
+  "event": "termination",
+  "date": "2024-07-14",
+  "person_id": null
+ },
+ {
+  "family_id": "F021",
+  "event": "divorce",
+  "date": "2024-07-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F188",
+  "event": "divorce",
+  "date": "2024-07-29",
+  "person_id": null
+ },
+ {
+  "family_id": "F137",
+  "event": "termination",
+  "date": "2024-08-05",
+  "person_id": null
+ },
+ {
+  "family_id": "F045",
+  "event": "child_reaches_26",
+  "date": "2024-08-14",
+  "person_id": "P045C"
+ },
+ {
+  "family_id": "F163",
+  "event": "termination",
+  "date": "2024-08-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F043",
+  "event": "reduction_of_hours",
+  "date": "2024-08-16",
+  "person_id": null
+ },
+ {
+  "family_id": "F131",
+  "event": "death",
+  "date": "2024-08-17",
+  "person_id": null
+ },
+ {
+  "family_id": "F146",
+  "event": "reduction_of_hours",
+  "date": "2024-08-17",
+  "person_id": null
+ },
+ {
+  "family_id": "F149",
+  "event": "termination",
+  "date": "2024-08-25",
+  "person_id": null
+ },
+ {
+  "family_id": "F162",
+  "event": "termination",
+  "date": "2024-08-30",
+  "person_id": null
+ },
+ {
+  "family_id": "F098",
+  "event": "termination",
+  "date": "2024-08-31",
+  "person_id": null
+ },
+ {
+  "family_id": "F169",
+  "event": "divorce",
+  "date": "2024-08-31",
+  "person_id": null
+ },
+ {
+  "family_id": "F064",
+  "event": "employee_medicare_entitlement",
+  "date": "2024-09-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F156",
+  "event": "termination",
+  "date": "2024-09-02",
+  "person_id": null
+ },
+ {
+  "family_id": "F182",
+  "event": "termination",
+  "date": "2024-09-03",
+  "person_id": null
+ },
+ {
+  "family_id": "F067",
+  "event": "termination",
+  "date": "2024-09-05",
+  "person_id": null
+ },
+ {
+  "family_id": "F104",
+  "event": "reduction_of_hours",
+  "date": "2024-09-06",
+  "person_id": null
+ },
+ {
+  "family_id": "F147",
+  "event": "termination",
+  "date": "2024-09-10",
+  "person_id": null
+ },
+ {
+  "family_id": "F100",
+  "event": "reduction_of_hours",
+  "date": "2024-09-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F053",
+  "event": "death",
+  "date": "2024-09-18",
+  "person_id": null
+ },
+ {
+  "family_id": "F082",
+  "event": "termination",
+  "date": "2024-09-19",
+  "person_id": null
+ },
+ {
+  "family_id": "F163",
+  "event": "child_reaches_26",
+  "date": "2024-09-24",
+  "person_id": "P163C0"
+ },
+ {
+  "family_id": "F170",
+  "event": "reduction_of_hours",
+  "date": "2024-09-25",
+  "person_id": null
+ },
+ {
+  "family_id": "F134",
+  "event": "termination",
+  "date": "2024-10-06",
+  "person_id": null
+ },
+ {
+  "family_id": "F020",
+  "event": "employee_medicare_entitlement",
+  "date": "2024-11-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F193",
+  "event": "death",
+  "date": "2024-11-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F079",
+  "event": "termination",
+  "date": "2024-11-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F123",
+  "event": "termination",
+  "date": "2024-11-16",
+  "person_id": null
+ },
+ {
+  "family_id": "F075",
+  "event": "divorce",
+  "date": "2024-11-18",
+  "person_id": null
+ },
+ {
+  "family_id": "F014",
+  "event": "divorce",
+  "date": "2024-11-20",
+  "person_id": null
+ },
+ {
+  "family_id": "F109",
+  "event": "divorce",
+  "date": "2024-11-20",
+  "person_id": null
+ },
+ {
+  "family_id": "F035",
+  "event": "death",
+  "date": "2024-11-24",
+  "person_id": null
+ },
+ {
+  "family_id": "F098",
+  "event": "divorce",
+  "date": "2024-11-25",
+  "person_id": null
+ },
+ {
+  "family_id": "F160",
+  "event": "employee_medicare_entitlement",
+  "date": "2024-12-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F096",
+  "event": "termination",
+  "date": "2024-12-02",
+  "person_id": null
+ },
+ {
+  "family_id": "F056",
+  "event": "reduction_of_hours",
+  "date": "2024-12-03",
+  "person_id": null
+ },
+ {
+  "family_id": "F015",
+  "event": "termination",
+  "date": "2024-12-09",
+  "person_id": null
+ },
+ {
+  "family_id": "F055",
+  "event": "employee_medicare_entitlement",
+  "date": "2025-01-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F157",
+  "event": "employee_medicare_entitlement",
+  "date": "2025-01-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F117",
+  "event": "divorce",
+  "date": "2025-01-09",
+  "person_id": null
+ },
+ {
+  "family_id": "F146",
+  "event": "termination",
+  "date": "2025-01-09",
+  "person_id": null
+ },
+ {
+  "family_id": "F127",
+  "event": "termination",
+  "date": "2025-01-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F122",
+  "event": "termination",
+  "date": "2025-01-20",
+  "person_id": null
+ },
+ {
+  "family_id": "F190",
+  "event": "employee_medicare_entitlement",
+  "date": "2025-02-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F095",
+  "event": "child_reaches_26",
+  "date": "2025-02-03",
+  "person_id": "P095C"
+ },
+ {
+  "family_id": "F125",
+  "event": "child_reaches_26",
+  "date": "2025-02-03",
+  "person_id": "P125C"
+ },
+ {
+  "family_id": "F129",
+  "event": "divorce",
+  "date": "2025-02-08",
+  "person_id": null
+ },
+ {
+  "family_id": "F114",
+  "event": "termination",
+  "date": "2025-02-11",
+  "person_id": null
+ },
+ {
+  "family_id": "F076",
+  "event": "termination",
+  "date": "2025-02-21",
+  "person_id": null
+ },
+ {
+  "family_id": "F108",
+  "event": "death",
+  "date": "2025-02-23",
+  "person_id": null
+ },
+ {
+  "family_id": "F018",
+  "event": "termination",
+  "date": "2025-02-27",
+  "person_id": null
+ },
+ {
+  "family_id": "F079",
+  "event": "employee_medicare_entitlement",
+  "date": "2025-03-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F166",
+  "event": "termination",
+  "date": "2025-03-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F004",
+  "event": "termination",
+  "date": "2025-03-07",
+  "person_id": null
+ },
+ {
+  "family_id": "F205",
+  "event": "child_reaches_26",
+  "date": "2025-03-11",
+  "person_id": "P205C0"
+ },
+ {
+  "family_id": "F091",
+  "event": "termination",
+  "date": "2025-03-27",
+  "person_id": null
+ },
+ {
+  "family_id": "F037",
+  "event": "death",
+  "date": "2025-04-02",
+  "person_id": null
+ },
+ {
+  "family_id": "F052",
+  "event": "termination",
+  "date": "2025-04-07",
+  "person_id": null
+ },
+ {
+  "family_id": "F145",
+  "event": "death",
+  "date": "2025-04-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F026",
+  "event": "child_reaches_26",
+  "date": "2025-04-18",
+  "person_id": "P026C1"
+ },
+ {
+  "family_id": "F124",
+  "event": "reduction_of_hours",
+  "date": "2025-04-22",
+  "person_id": null
+ },
+ {
+  "family_id": "F121",
+  "event": "reduction_of_hours",
+  "date": "2025-04-29",
+  "person_id": null
+ },
+ {
+  "family_id": "F003",
+  "event": "termination",
+  "date": "2025-05-06",
+  "person_id": null
+ },
+ {
+  "family_id": "F056",
+  "event": "termination",
+  "date": "2025-05-09",
+  "person_id": null
+ },
+ {
+  "family_id": "F128",
+  "event": "death",
+  "date": "2025-05-17",
+  "person_id": null
+ },
+ {
+  "family_id": "F097",
+  "event": "death",
+  "date": "2025-05-21",
+  "person_id": null
+ },
+ {
+  "family_id": "F115",
+  "event": "death",
+  "date": "2025-05-31",
+  "person_id": null
+ },
+ {
+  "family_id": "F009",
+  "event": "termination",
+  "date": "2025-06-03",
+  "person_id": null
+ },
+ {
+  "family_id": "F135",
+  "event": "death",
+  "date": "2025-06-12",
+  "person_id": null
+ },
+ {
+  "family_id": "F183",
+  "event": "termination",
+  "date": "2025-06-14",
+  "person_id": null
+ },
+ {
+  "family_id": "F130",
+  "event": "termination",
+  "date": "2025-06-15",
+  "person_id": null
+ },
+ {
+  "family_id": "F012",
+  "event": "termination",
+  "date": "2025-06-23",
+  "person_id": null
+ },
+ {
+  "family_id": "F167",
+  "event": "reduction_of_hours",
+  "date": "2025-06-27",
+  "person_id": null
+ },
+ {
+  "family_id": "F120",
+  "event": "employee_medicare_entitlement",
+  "date": "2025-07-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F189",
+  "event": "termination",
+  "date": "2025-07-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F070",
+  "event": "termination",
+  "date": "2025-07-19",
+  "person_id": null
+ },
+ {
+  "family_id": "F142",
+  "event": "divorce",
+  "date": "2025-07-31",
+  "person_id": null
+ },
+ {
+  "family_id": "F124",
+  "event": "employee_medicare_entitlement",
+  "date": "2025-08-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F060",
+  "event": "termination",
+  "date": "2025-08-02",
+  "person_id": null
+ },
+ {
+  "family_id": "F102",
+  "event": "termination",
+  "date": "2025-08-02",
+  "person_id": null
+ },
+ {
+  "family_id": "F011",
+  "event": "reduction_of_hours",
+  "date": "2025-08-04",
+  "person_id": null
+ },
+ {
+  "family_id": "F155",
+  "event": "divorce",
+  "date": "2025-08-19",
+  "person_id": null
+ },
+ {
+  "family_id": "F111",
+  "event": "termination",
+  "date": "2025-08-21",
+  "person_id": null
+ },
+ {
+  "family_id": "F117",
+  "event": "employee_medicare_entitlement",
+  "date": "2025-11-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F167",
+  "event": "termination",
+  "date": "2025-11-02",
+  "person_id": null
+ },
+ {
+  "family_id": "F153",
+  "event": "divorce",
+  "date": "2025-12-14",
+  "person_id": null
+ },
+ {
+  "family_id": "F179",
+  "event": "child_reaches_26",
+  "date": "2025-12-21",
+  "person_id": "P179C0"
+ },
+ {
+  "family_id": "F064",
+  "event": "divorce",
+  "date": "2026-01-12",
+  "person_id": null
+ },
+ {
+  "family_id": "F073",
+  "event": "death",
+  "date": "2026-01-18",
+  "person_id": null
+ },
+ {
+  "family_id": "F134",
+  "event": "death",
+  "date": "2026-02-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F076",
+  "event": "child_reaches_26",
+  "date": "2026-02-25",
+  "person_id": "P076C0"
+ },
+ {
+  "family_id": "F013",
+  "event": "child_reaches_26",
+  "date": "2026-03-10",
+  "person_id": "P013C"
+ },
+ {
+  "family_id": "F041",
+  "event": "child_reaches_26",
+  "date": "2026-03-10",
+  "person_id": "P041C"
+ },
+ {
+  "family_id": "F100",
+  "event": "divorce",
+  "date": "2026-03-19",
+  "person_id": null
+ },
+ {
+  "family_id": "F012",
+  "event": "employee_medicare_entitlement",
+  "date": "2026-04-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F012",
+  "event": "child_reaches_26",
+  "date": "2026-04-13",
+  "person_id": "P012C1"
+ },
+ {
+  "family_id": "F062",
+  "event": "death",
+  "date": "2026-04-20",
+  "person_id": null
+ },
+ {
+  "family_id": "F070",
+  "event": "employee_medicare_entitlement",
+  "date": "2026-05-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F189",
+  "event": "employee_medicare_entitlement",
+  "date": "2026-05-01",
+  "person_id": null
+ },
+ {
+  "family_id": "F032",
+  "event": "child_reaches_26",
+  "date": "2026-05-17",
+  "person_id": "P032C0"
+ },
+ {
+  "family_id": "F166",
+  "event": "divorce",
+  "date": "2026-05-18",
+  "person_id": null
+ },
+ {
+  "family_id": "F137",
+  "event": "child_reaches_26",
+  "date": "2026-05-25",
+  "person_id": "P137C0"
+ },
+ {
+  "family_id": "F058",
+  "event": "child_reaches_26",
+  "date": "2026-07-21",
+  "person_id": "P058C0"
+ }
+]
