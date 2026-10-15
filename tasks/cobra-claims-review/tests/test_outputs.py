@@ -28,6 +28,9 @@ GROUPS = {
     "second_qualifying_events": lambda t: t == "second-event",
     "medicare": lambda t: t in ("medicare", "medicare-before"),
     "early_termination": lambda t: t == "early-termination",
+    "fmla_leave": lambda t: t == "fmla-leave",
+    "waiver_and_revocation": lambda t: t == "waiver",
+    "incapable_child": lambda t: t == "incapable-child",
 }
 
 
@@ -63,7 +66,7 @@ def test_engine_matches_hand_worked_cases(truth):
 
 def test_inputs_are_consistent():
     """Every claim belongs to a person in a family with a qualifying event, every payment follows the election,
-    and all Medicare and other-coverage dates fall on the first of a month."""
+    every waiver comes before the election, and all Medicare and other-coverage dates fall on the first of a month."""
     people = {p["person_id"]: p for p in json.loads((engine.DATA / "people.json").read_text())}
     families = {e["family_id"] for e in json.loads((engine.DATA / "events.json").read_text())}
     elections = {e["person_id"]: e for e in json.loads((engine.DATA / "elections.json").read_text())}
@@ -71,6 +74,8 @@ def test_inputs_are_consistent():
         assert people[c["person_id"]]["family_id"] in families, c
     for x in json.loads((engine.DATA / "premium_payments.json").read_text()):
         assert elections[x["person_id"]]["elected_on"] <= x["sent_on"], x
+    for e in elections.values():
+        assert e["waived_on"] is None or e["elected_on"] is None or e["waived_on"] < e["elected_on"], e
     for p in people.values():
         for key in ("medicare_entitlement_date", "other_group_health_coverage_start"):
             assert p[key] is None or p[key].endswith("-01"), (p["person_id"], key)

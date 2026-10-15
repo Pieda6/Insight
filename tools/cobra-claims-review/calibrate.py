@@ -34,8 +34,8 @@ SHORTCUTS = {
                                  "return day(e[\"elected_on\"]) <= opens + timedelta(days=59)")],
     "election period 61 days": [("return day(e[\"elected_on\"]) <= opens + timedelta(days=60)",
                                  "return day(e[\"elected_on\"]) <= opens + timedelta(days=61)")],
-    "election not retroactive": [('"yes" if span and span[0] <= k <= span[1] else "no"',
-                                  '"yes" if span and span[0] <= k <= span[1] and c["date_of_service"] >= elections[c["person_id"]]["elected_on"] else "no"')],
+    "election not retroactive": [('"yes" if span and span[0] <= when <= span[1] else "no"',
+                                  '"yes" if span and span[0] <= when <= span[1] and c["date_of_service"] >= elections[c["person_id"]]["elected_on"] else "no"')],
     # ---- disability extension (54.4980B-7 Q/A-5, 54.4980B-8 Q/A-1)
     "disability extension ignored": [("months = 36 if not short_period else (29 if disabled else 18)",
                                       "months = 36 if not short_period else 18")],
@@ -89,6 +89,16 @@ SHORTCUTS = {
     "a missed month loses only that month": [("if pay is None:\n                    break", "if pay is None:\n                    k += 1\n                    continue")],
     "premium of the year COBRA began": [("base = Decimal(rates[option][str(k // 12)])", "base = Decimal(rates[option][str(start // 12)])")],
     "premium at 100%": [("else 102", "else 100")],
+    # ---- FMLA leave (54.4980B-10), waivers (54.4980B-6 Q/A-4), plan eligibility
+    "FMLA leave ignored (event on the termination date)": [('if qe["fmla_leave"]:', "if False:")],
+    "FMLA leave: event on its first day": [('qe_day = day(qe["fmla_leave"]["last_day"])', 'qe_day = day(qe["fmla_leave"]["first_day"])')],
+    "revoked waiver treated as retroactive": [('if elections[p]["waived_on"]:', "if False:")],
+    "revoked waiver: coverage from the first of the month": [("first_covered = elected\n", "first_covered = elected.replace(day=1)\n")],
+    "revoked waiver: premiums still owed from the start": [("k = month_index(first_covered)", "k = start")],
+    "incapable child's 26th birthday is a second event": [('''(e["person_id"] != p or people[p].get(
+                            "incapable_of_self_support_because_of_disability"))''', '(e["person_id"] != p)')],
+    "Medicare ends only the employee's COBRA": [("begins = day(people[p][key])",
+                                                 'begins = day(people[p][key]) if key != "medicare_entitlement_date" or role == "employee" else None')],
 }
 
 

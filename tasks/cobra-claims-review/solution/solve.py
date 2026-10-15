@@ -59,11 +59,13 @@ def main():
         base = Decimal(rates[option][str(k // 12)])
         return int((base * percent / 100).quantize(Decimal(1), rounding=ROUND_HALF_UP))
 
-    last_month = {}                                   # person -> (first month, last covered month) or None
+    last_month = {}                                   # person -> (first covered day, last covered day) or None
     for fid, members in family.items():
         evs = sorted(events[fid], key=lambda e: e["date"])
         qe = evs[0]
         qe_day = day(qe["date"])
+        if qe["fmla_leave"]:                          # 54.4980B-10: event on the last day of FMLA leave
+            qe_day = day(qe["fmla_leave"]["last_day"])
         start = month_index(qe_day) + 1               # coverage ends with the month of the event
         start_day = first_day(start)
         employee = next(p for p in members if people[p]["relationship"] == "employee")
@@ -101,7 +103,8 @@ def main():
                 for e in evs[1:]:
                     if e["event"] not in SECOND_EVENTS[role]:
                         continue
-                    if e["event"] == "child_reaches_26" and e["person_id"] != p:
+                    if e["event"] == "child_reaches_26" and (e["person_id"] != p or people[p].get(
+                            "incapable_of_self_support_because_of_disability")):
                         continue
                     when = day(e["date"])
                     told = day(elections[p]["second_event_notice_date"])
@@ -117,8 +120,11 @@ def main():
                     final = min(final, month_index(begins) - 1)
 
             option = elections[p]["coverage_option"]
+            first_covered = start_day
+            if elections[p]["waived_on"]:                 # revoked waiver: coverage from the revocation only
+                first_covered = elected
             covered_to = None
-            k = start
+            k = month_index(first_covered)
             while k <= final and first_day(k) <= date(2026, 9, 30):
                 percent = 150 if p in disabled and start + 18 <= k <= start + 28 else 102
                 owed = premium(option, k, percent)
@@ -141,9 +147,9 @@ def main():
             if covered_to is None:
                 last_month[p] = None
             elif k > final:
-                last_month[p] = (start, final)
+                last_month[p] = (first_covered, last_day(final))
             else:
-                last_month[p] = (start, covered_to)
+                last_month[p] = (first_covered, last_day(covered_to))
 
     OUT.mkdir(parents=True, exist_ok=True)
     with open(OUT / "claim_determinations.csv", "w", newline="") as f:
@@ -151,8 +157,8 @@ def main():
         w.writerow(["claim_id", "covered"])
         for c in load("claims.json"):
             span = last_month.get(c["person_id"])
-            k = month_index(day(c["date_of_service"]))
-            w.writerow([c["claim_id"], "yes" if span and span[0] <= k <= span[1] else "no"])
+            when = day(c["date_of_service"])
+            w.writerow([c["claim_id"], "yes" if span and span[0] <= when <= span[1] else "no"])
 
 
 if __name__ == "__main__":

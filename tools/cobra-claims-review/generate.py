@@ -80,7 +80,8 @@ SECOND = {"spouse": ("death", "divorce"), "child": ("death", "child_reaches_26")
 def sim(fam, strict=True):
     """Third implementation: {person: (first day, last day) of COBRA coverage, or None}; fam["info"] for filler."""
     first = fam["events"][0]
-    S = next_month(first["date"])                     # coverage lost at the end of the month; COBRA starts next day
+    qe_day = D(first.get("fmla_last") or first["date"])   # 54.4980B-10: the last day of FMLA leave
+    S = next_month(qe_day)                            # coverage lost at the end of the month; COBRA starts next day
     people = fam["people"]
     affected = qualified(first, people)
     base = 18 if first["type"] in ("termination", "reduction_of_hours") else 36
@@ -101,7 +102,7 @@ def sim(fam, strict=True):
             if not s:
                 continue
             on, det, nt = D(s["onset"]), D(s["determination"]), D(s["notice"])
-            if strict and (on == S + days(60) or det < S or not election_ok(people[p])):
+            if strict and (on == S + days(60) or det < S or not election_ok(people[p]) or people[p].get("waived")):
                 raise Reject("open disability reading")
             if on <= S + days(59) and nt <= det + days(60) and nt <= end18:
                 disabled.append(p)
@@ -113,6 +114,10 @@ def sim(fam, strict=True):
             out[p] = None
             continue
         el = D(q["elected"])
+        begin = S
+        if q.get("waived"):                           # 54.4980B-6 Q/A-4: a revoked waiver is not retroactive
+            assert D(q["waived"]) < el
+            begin = el
         end = add_months(S, 29 if ext29 else base) - DAY
         if base == 18 and q["role"] != "employee":
             period_end = end
@@ -121,6 +126,8 @@ def sim(fam, strict=True):
                     continue
                 if not S <= D(x["date"]) <= period_end:
                     continue
+                if x["type"] == "child_reaches_26" and q.get("incapable"):
+                    continue                          # still eligible under the plan: not a qualifying event
                 if strict and p in disabled:
                     raise Reject("second event for a disabled beneficiary (150% through month 36?)")
                 n = q.get("second_notice")
@@ -129,7 +136,7 @@ def sim(fam, strict=True):
                 if n and D(n) <= D(x["date"]) + days(60):
                     end = max(end, add_months(S, 36) - DAY)
             med = people[fam["employee"]].get("medicare")
-            if med and D(med) < D(first["date"]):
+            if med and D(med) < qe_day:
                 if strict and p in disabled:
                     raise Reject("disabled beneficiary with the Medicare-before period")
                 end = max(end, add_months(D(med), 36) - DAY)
@@ -140,7 +147,7 @@ def sim(fam, strict=True):
                 raise Reject("coverage begins on the election day")
             if v and D(v) > el:
                 last = min(last, D(v) - DAY)
-        m, paid_through = S, None
+        m, paid_through = month_start(begin), None
         while m <= last and m <= LAST:
             rate = 150 if p in disabled and add_months(S, 18) <= m < add_months(S, 29) else 102
             amt = due(q["option"], m, rate)
@@ -165,9 +172,9 @@ def sim(fam, strict=True):
         if paid_through is None:
             out[p] = None
         elif m <= last and m <= LAST:
-            out[p] = (S, paid_through)
+            out[p] = (begin, paid_through)
         else:
-            out[p] = (S, last)
+            out[p] = (begin, last)
     fam["info"] = {"S": S, "end18": end18, "ext29": ext29, "disabled": disabled,
                    "end29": add_months(S, 29) - DAY}
     return out
@@ -446,6 +453,42 @@ def planted(w):
                             payments=pays("PPO", S, END))}, [T]), ["election"],
           [("e", "2024-06-15", True), ("e", "2025-01-15", True)])
 
+    # FMLA leave Feb 20 to Apr 12 2024 without returning; the employer recorded the termination Jun 20. The
+    # qualifying event is Apr 12 (54.4980B-10): COBRA from May 1 2024, 18 months to Oct 31 2025
+    FM = {"type": "termination", "date": "2024-06-20", "fmla_first": D("2024-02-20"), "fmla_last": D("2024-04-12")}
+    w.add(fam_("e", {"e": P("employee", "1969-09-19", elected="2024-07-10", notice="2024-06-25",
+                            payments=pays("PPO", "2024-05-01", END)),
+                     "s": P("spouse", "1970-03-23", "HDHP", elected="2024-07-10", notice="2024-06-25",
+                            payments=pays("HDHP", "2024-05-01", END))}, [FM]),
+          ["fmla-leave", "maximum-period"],
+          [("e", "2024-05-15", True), ("e", "2025-10-31", True), ("e", "2025-11-15", False), ("s", "2025-12-20", False),
+           ("s", "2024-06-03", True)])
+    # the same, with no payment for May 2024: the first month is unpaid, so no coverage at all
+    w.add(fam_("e", {"e": P("employee", "1969-09-19", elected="2024-07-10", notice="2024-06-25",
+                            payments=pays("PPO", "2024-06-01", END))}, [FM]),
+          ["fmla-leave", "premiums"], [("e", "2024-06-15", False), ("e", "2025-02-15", False)])
+    # waiver Apr 10 2024 revoked May 20 (inside the election period that ends Jun 4): coverage from May 20, not
+    # retroactive; May is paid with the June payments. A revocation on Jun 10 is too late
+    w.add(fam_("e", {"e": P("employee", "1973-01-13", elected="2024-05-20", notice=NT, waived="2024-04-10",
+                            payments=pays("PPO", "2024-05-01", END, override={"2024-05-01": {"amount": 62465, "paid_on": D("2024-07-01")}}))},
+               [T]), ["waiver", "election"],
+          [("e", "2024-04-20", False), ("e", "2024-05-25", True), ("e", "2025-09-30", True), ("e", "2025-10-01", False)])
+    w.add(fam_("e", {"e": P("employee", "1973-01-13", elected="2024-06-10", notice=NT, waived="2024-04-10",
+                            payments=pays("PPO", "2024-06-01", END))}, [T]), ["waiver", "election", "boundary"],
+          [("e", "2024-06-20", False), ("e", "2024-12-20", False)])
+    # a child who cannot support themself because of a disability stays eligible at 26: the birthday (Jun 10 2025)
+    # is not a second qualifying event and the 18 months end Sep 30 2025
+    w.add(fam_("e", {"e": P("employee", "1968-02-02", elected=EL, notice=NT, payments=pays("PPO", S, END)),
+                     "c": P("child", "1999-06-10", elected=EL, notice=NT, payments=pays("PPO", S, END),
+                            second_notice="2025-07-01", incapable=True)},
+               [T, {"type": "child_reaches_26", "date": "2025-06-10", "person": "c"}]), ["second-event", "incapable-child"],
+          [("c", "2025-09-30", True), ("c", "2025-10-15", False), ("c", "2026-06-15", False)])
+    # the spouse turns 65 on Feb 14 2025: Medicare from Feb 1 2025, after the election, ends her COBRA Jan 31 2025
+    w.add(fam_("e", {"e": P("employee", "1962-05-05", elected=EL, notice=NT, payments=pays("PPO", S, END)),
+                     "s": P("spouse", "1960-02-14", elected=EL, notice=NT, payments=pays("PPO", S, END),
+                            medicare="2025-02-01")}, [T]), ["medicare", "early-termination"],
+          [("s", "2025-01-20", True), ("s", "2025-02-10", False), ("e", "2025-02-10", True)])
+
 
 def filler(w):
     qe = rng.choice(["termination"] * 6 + ["reduction_of_hours"] * 2 + ["death", "divorce", "child_reaches_26"])
@@ -457,6 +500,10 @@ def filler(w):
         people["s"] = P("spouse", born_e + days(rng.randrange(-1500, 1500)))
     for k in range(rng.choice([0, 0, 1, 2]) if qe != "child_reaches_26" else 1):
         people[f"c{k}"] = P("child", date(rng.randint(1996, 2012), rng.randint(1, 12), rng.randint(1, 28)))
+        if rng.random() < 0.15 and not (qe == "child_reaches_26" and k == 0):
+            people[f"c{k}"]["incapable"] = True
+            if rng.random() < 0.5:
+                people[f"c{k}"]["born"] = date(rng.randint(1985, 1996), rng.randint(1, 12), rng.randint(1, 28))
     first = {"type": qe, "date": qd}
     if qe == "child_reaches_26":
         b = people["c0"]["born"]
@@ -467,9 +514,22 @@ def filler(w):
             return False
     for c in [p for p in people if p.startswith("c")]:
         b = people[c]["born"]
-        if not (qe == "child_reaches_26" and c == "c0") and date(b.year + 26, b.month, b.day) < S:
+        if not (qe == "child_reaches_26" and c == "c0") and date(b.year + 26, b.month, b.day) < S \
+                and not people[c].get("incapable"):
             return False
     events = [first]
+    recorded = qd
+    if qe == "termination" and rng.random() < 0.3:     # employee did not return from FMLA leave
+        first["fmla_first"] = qd - days(rng.randrange(20, 84))
+        first["fmla_last"] = qd
+        first["date"] = recorded = qd + days(rng.choice([25, 40, 60, 75, 100]))
+        if month_start(recorded) == month_start(qd) or recorded > date(2025, 10, 1):
+            return False
+    if "s" in people and rng.random() < 0.6:          # Medicare from the month the spouse turns 65
+        b = people["s"]["born"].replace(day=rng.randint(2, 28))
+        people["s"]["born"] = b
+        if date(2020, 1, 1) <= date(b.year + 65, b.month, 1) <= LAST:
+            people["s"]["medicare"] = date(b.year + 65, b.month, 1)
     if qe in ("termination", "reduction_of_hours") and rng.random() < 0.2:
         people["e"]["medicare"] = add_months(month_start(qd), -rng.choice([2, 8, 15, 17, 19, 30]))
     elif rng.random() < 0.12 and qe != "death":
@@ -481,7 +541,7 @@ def filler(w):
     if qe == "reduction_of_hours" and rng.random() < 0.4:
         events.append({"type": "termination", "date": qd + days(rng.randrange(40, 300))})
     aff = qualified(first, people)
-    notice = qd + days(rng.choice([5, 10, 20, 40, 50]))
+    notice = recorded + days(rng.choice([5, 10, 20, 40, 50]))
     option = rng.choice(["PPO", "HDHP"])
     for p in aff:
         q = people[p]
@@ -493,6 +553,12 @@ def filler(w):
             continue
         q["elected"] = max(notice, S) + days(rng.choice([3, 10, 30, 45, 58, 59, 60, 61, 62]) if r < 0.3
                                              else rng.choice([2, 7, 14, 21]))
+        if rng.random() < 0.15:                       # waived first, then revoked the waiver
+            q["waived"] = notice + days(rng.choice([1, 3, 8]))
+            q["elected"] = q["waived"] + days(rng.choice([4, 15, 30, 45, 52]))
+            if q["elected"].day == 1 or q["elected"] <= q["waived"]:
+                q["elected"] += DAY
+            continue
         if rng.random() < 0.18 and p != "e" and qe in ("termination", "reduction_of_hours"):
             on = S + days(rng.choice([-40, 10, 45, 58, 59, 61, 62, 90]))
             det = S + days(rng.choice([90, 150, 300]))
@@ -528,6 +594,8 @@ def filler(w):
                     if people[c].get("elected") and rng.random() < 0.8:
                         people[c]["second_notice"] = turn + days(rng.choice([15, 50, 59, 60, 95, 120]))
     events = [events[0]] + sorted(events[1:], key=lambda e: e["date"])
+    if any(D(x["date"]) <= recorded for x in events[1:]):
+        return False
     for q in people.values():
         if q.get("second_notice") and q["second_notice"] > ASOF:
             q["second_notice"] = None
@@ -537,9 +605,10 @@ def filler(w):
         if not q.get("elected"):
             continue
         el = D(q["elected"])
+        begin = el if q.get("waived") else S
         initial_paid = el + days(rng.choice([3, 10, 20, 30, 40, 44, 45, 45, 46] if rng.random() < 0.35 else [5, 12, 20]))
         stop = add_months(S, rng.choice([12, 18, 24, 29, 30, 36, 40, 40]))
-        m = S
+        m = month_start(begin)
         while m <= LAST and m < stop:
             if p == "e" and death_on and m > death_on:
                 break
@@ -588,7 +657,7 @@ def filler(w):
                 continue
             # no claim on the first day of other coverage or Medicare, or on the day after a period counted from
             # the employee's Medicare date (the day-before conventions are stated, but keep them out of the data)
-            if a in (people[p].get("other_coverage"), people[p].get("medicare")):
+            if a in (people[p].get("other_coverage"), people[p].get("medicare"), people[p].get("elected")):
                 continue
             med = people["e"].get("medicare")
             if p != "e" and med and med < qd and a == add_months(med, 36):
@@ -630,6 +699,8 @@ def main():
                    "medicare_entitlement_date": D(q["medicare"]).isoformat() if q.get("medicare") else None,
                    "other_group_health_coverage_start": D(q["other_coverage"]).isoformat() if q.get("other_coverage") else None,
                    "ssa_disability_determination": None}
+            if q["role"] == "child":
+                rec["incapable_of_self_support_because_of_disability"] = bool(q.get("incapable"))
             if q.get("ssa"):
                 rec["ssa_disability_determination"] = {"disabled_since": q["ssa"]["onset"],
                                                        "determination_date": q["ssa"]["determination"],
@@ -637,6 +708,7 @@ def main():
             people_out.append(rec)
             if q.get("notice"):
                 elections.append({"person_id": pid[k], "election_notice_date": q["notice"].isoformat(),
+                                  "waived_on": D(q["waived"]).isoformat() if q.get("waived") else None,
                                   "elected_on": q["elected"].isoformat() if q.get("elected") else None,
                                   "coverage_option": q["option"],
                                   "second_event_notice_date": D(q["second_notice"]).isoformat() if q.get("second_notice") else None})
@@ -648,7 +720,9 @@ def main():
                                  "deficiency_sent_on": D(pay["deficiency_paid_on"]).isoformat() if pay.get("deficiency_paid_on") else None})
         for e in f["events"]:
             events_out.append({"family_id": fid, "event": e["type"], "date": D(e["date"]).isoformat(),
-                               "person_id": pid[e["person"]] if e.get("person") else None})
+                               "person_id": pid[e["person"]] if e.get("person") else None,
+                               "fmla_leave": {"first_day": D(e["fmla_first"]).isoformat(),
+                                              "last_day": D(e["fmla_last"]).isoformat()} if e.get("fmla_last") else None})
         ranges = sim(f, strict=False)
         for p, d, want in f["expected"]:
             rows.append((pid[p], D(d), covered(ranges, p, d), f["tags"], want is not None))

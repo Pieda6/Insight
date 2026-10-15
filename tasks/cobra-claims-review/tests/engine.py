@@ -54,7 +54,7 @@ class Plan:
     def family_facts(self, fid):
         evs = self.events[fid]
         first = evs[0]
-        qe_date = iso(first["date"])
+        qe_date = iso((first["fmla_leave"] or {}).get("last_day") or first["date"])
         begin = months_later(qe_date.replace(day=1), 1)
         eighteen = first["event"] in ("termination", "reduction_of_hours")
         disabled = []
@@ -83,7 +83,10 @@ class Plan:
         notice = iso(self.elections[pid]["second_event_notice_date"])
         extended = end
         for e in self.events[fid][1:]:
-            if e["event"] in allowed and (e["event"] != "child_reaches_26" or e["person_id"] == pid):
+            if e["event"] == "child_reaches_26" and (e["person_id"] != pid
+                                                     or person.get("incapable_of_self_support_because_of_disability")):
+                continue
+            if e["event"] in allowed:
                 when = iso(e["date"])
                 if begin <= when <= end and notice is not None and (notice - when).days <= 60:
                     extended = max(extended, period_last_day(begin, 36))
@@ -105,11 +108,14 @@ class Plan:
             return False
         if not begin <= when <= self.max_end(pid):
             return False
+        waived = el["waived_on"] is not None
+        if waived and when < elected:
+            return False
         for key in ("other_group_health_coverage_start", "medicare_entitlement_date"):
             starts = iso(person[key])
             if starts is not None and starts > elected and when >= starts:
                 return False
-        month = begin
+        month = elected.replace(day=1) if waived else begin
         while month <= when:
             in_extension = period_last_day(begin, 18) < month <= period_last_day(begin, 29)
             percent = 150 if pid in disabled and in_extension else 102

@@ -2,11 +2,11 @@
 
 - `generate.py` (seed 49800) writes `tasks/cobra-claims-review/environment/data/` (plan.json, people.json,
   events.json, elections.json, premium_payments.json, claims.json), the verifier copy in `tests/data/`,
-  `tests/case_tags.json` and `tests/golden.json` (95 hand-worked claims from 38 planted families; 208 families,
-  469 people, 9,537 payments, 2,922 claims in all). Its `sim` is a third implementation that re-checks every
+  `tests/case_tags.json` and `tests/golden.json` (114 hand-worked claims from 45 planted families; 214 families,
+  474 people, 9,548 payments, 2,885 claims in all). Its `sim` is a third implementation that re-checks every
   hand-worked answer and, in strict mode, rejects any filler family that needs an open reading. `sim_answers.json`
   holds its answers for every claim (dev only).
-- `calibrate.py` (needs writable `/app`): oracle passes, empty output fails, 52 misreadings (source edits of the
+- `calibrate.py` (needs writable `/app`): oracle passes, empty output fails, 59 misreadings (source edits of the
   reference solution) each fail at least one test.
 
 ## Why this replaced ssdi-work-review
@@ -35,3 +35,17 @@ birthday and employee Medicare effect on eligibility; single coverage; rounding;
 Rule text used: 26 CFR 54.4980B-2 (qualifying events), -3 (qualified beneficiaries), -6 (election), -7 (duration:
 Q/A-1 early termination, Q/A-4 maximum period, Q/A-5 disability, Q/A-6 second events, Q/A-7 Medicare before),
 -8 (premiums: 102% / 150%, 30-day grace, 45 days after election, shortfall of the lesser of $50 or 10%).
+
+## History
+- v1: artificiality A6 FAIL: the task.toml explanations spelled out the rules' conditions ("only if", "the later of",
+  "the first failure"). v2 rewrote them to cite the provisions.
+- v2: Pass@2 blocked with 1 valid trial (the other hit AgentSetupTimeoutError), and that trial solved all 2,922
+  claims in 7 minutes: every rule was textbook COBRA. v3 adds rules that are clear in the text but not the first
+  reading: 54.4980B-10 (the event of an employee who does not return from FMLA leave is the last day of the leave,
+  not the recorded termination), 54.4980B-6 Q/A-4 (a revoked waiver gives coverage only from the revocation, with
+  the plan giving the least coverage the rules allow), a child the plan keeps covering past 26 because of a
+  disability (the birthday is no second event), and spouses' own Medicare after the election. It drops instruction
+  sentences that gave answers away (no reinstatement, the day-before end, claims on or after COBRA's start).
+  Open readings kept out: FMLA termination recorded in the same month as the leave ends; other events between the
+  leave and the recorded termination; a disabled beneficiary who waived; claims on the revocation date; partial
+  payment in a revocation month (always paid in full, so proration does not matter).
