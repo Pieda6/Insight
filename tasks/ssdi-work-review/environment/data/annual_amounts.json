@@ -1,0 +1,46 @@
+{
+ "source": "Social Security Administration, annual SGA and trial work period amounts",
+ "unit": "dollars per month",
+ "by_year": {
+  "2018": {
+   "trial_work_period_service_month": 850,
+   "substantial_gainful_activity_non_blind": 1180,
+   "substantial_gainful_activity_blind": 1970
+  },
+  "2019": {
+   "trial_work_period_service_month": 880,
+   "substantial_gainful_activity_non_blind": 1220,
+   "substantial_gainful_activity_blind": 2040
+  },
+  "2020": {
+   "trial_work_period_service_month": 910,
+   "substantial_gainful_activity_non_blind": 1260,
+   "substantial_gainful_activity_blind": 2110
+  },
+  "2021": {
+   "trial_work_period_service_month": 940,
+   "substantial_gainful_activity_non_blind": 1310,
+   "substantial_gainful_activity_blind": 2190
+  },
+  "2022": {
+   "trial_work_period_service_month": 970,
+   "substantial_gainful_activity_non_blind": 1350,
+   "substantial_gainful_activity_blind": 2260
+  },
+  "2023": {
+   "trial_work_period_service_month": 1050,
+   "substantial_gainful_activity_non_blind": 1470,
+   "substantial_gainful_activity_blind": 2460
+  },
+  "2024": {
+   "trial_work_period_service_month": 1110,
+   "substantial_gainful_activity_non_blind": 1550,
+   "substantial_gainful_activity_blind": 2590
+  },
+  "2025": {
+   "trial_work_period_service_month": 1160,
+   "substantial_gainful_activity_non_blind": 1620,
+   "substantial_gainful_activity_blind": 2700
+  }
+ }
+}

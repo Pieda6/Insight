@@ -1,0 +1,31 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/ssdi-work-review"
+description = "Month-by-month Social Security disability determinations for a long-term disability insurer's offset claims: for 95 claimants who returned to work, decide for every month of entitlement through 2025 whether an SSDI benefit is payable and whether the month is a trial work month, under 20 CFR Part 404."
+
+[metadata]
+difficulty_explanation = "Disability claims units, benefits counselors and Social Security work-review staff make these monthly determinations, and each answer depends on the claimant's whole work history. Entitlement starts after five full calendar months of disability (a month counts only if disability began on its first day) and no earlier than 12 months before the filing month. The trial work period cannot start before the month of filing, counts months with gross wages above the year's trial work amount (impairment-related work expenses and subsidies do not reduce them), and ends with the ninth such month within any 60 consecutive months, so service months more than 59 months back drop out and a scattered history can run for years. A 36-month extended period follows; the first month of substantial gainful activity after the trial work period is the cessation month, paid with the next two grace months, after which months above the SGA amount (net of subsidies and expenses, with a higher amount for blind claimants, both changing every year) are unpaid and months below it are paid; the first SGA month after the extended period ends entitlement for good. Every threshold is strict (exactly the amount is not over it), and a month's status shifts whole years of later months, so one slip changes many rows."
+solution_explanation = "For each claimant, find the first month of entitlement (sixth full month of disability, not earlier than 12 months before the filing month), then walk the months through December 2025. Before the trial work period ends every month is payable; from the filing month on, a month with gross wages above the trial work amount is a service month, and the period ends at the ninth service month within the 60 months ending that month. In the next 36 months, the first month with countable earnings (gross less subsidy and impairment-related work expenses) above the year's SGA amount, using the blind amount for blind claimants, is the cessation month; it and the next two months are paid, and after that a month is paid only when it is not SGA. After the 36 months, months without SGA are paid until the first SGA month, which ends entitlement."
+verification_explanation = "The verifier recomputes every month with its own independently written engine (engine.py: it first locates the milestones, the entitlement start, the end of the trial work period by a sliding window over service months, the cessation month, the end of the extended period and the termination month, and derives each month from them, while the reference solution walks months as a state machine) from a private copy of the inputs that exists only in the verifier image, and never runs agent code. The engine is checked against 15 hand-worked planted claimants (golden.json), and the generator's own third implementation agrees. Tests check the header, values and sort order, that exactly the right months are listed for every claimant, the hand-worked claimants, one test per rule family (waiting period and retroactivity, trial work period, rolling 60-month window, countable earnings, cessation and grace, extended period and termination, boundaries) and every row by exact match. 19 shortcut solutions each fail at least one test. Reward is 1 only if every test passes."
+category = "Operations"
+subcategory = "Claims"
+tags = ["social-security", "ssdi", "20-cfr-404", "trial-work-period", "disability-claims", "ltd-offset", "python"]
+expert_time_estimate_hours = 8
+relevant_experience = "Disability claims or Social Security work incentives: SSDI waiting period and retroactivity, trial work period, extended period of eligibility, SGA with subsidies, IRWE and blindness, as applied in work continuing disability reviews and LTD offset administration."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0
