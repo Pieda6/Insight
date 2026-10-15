@@ -1,0 +1,538 @@
+[
+ {
+  "effective_date": "2018-12-01",
+  "monthly_rates_cents": {
+   "10": {
+    "veteran_alone": 14005
+   },
+   "20": {
+    "veteran_alone": 27685
+   },
+   "30": {
+    "veteran_alone": 42882,
+    "veteran_with_spouse": 47954,
+    "veteran_with_spouse_and_one_child": 51716,
+    "veteran_with_one_child": 46237,
+    "each_additional_child": 2540
+   },
+   "40": {
+    "veteran_alone": 61773,
+    "veteran_with_spouse": 68535,
+    "veteran_with_spouse_and_one_child": 73551,
+    "veteran_with_one_child": 66245,
+    "each_additional_child": 3386
+   },
+   "50": {
+    "veteran_alone": 87936,
+    "veteran_with_spouse": 96388,
+    "veteran_with_spouse_and_one_child": 102658,
+    "veteran_with_one_child": 93526,
+    "each_additional_child": 4233
+   },
+   "60": {
+    "veteran_alone": 111386,
+    "veteran_with_spouse": 121529,
+    "veteran_with_spouse_and_one_child": 129052,
+    "veteran_with_one_child": 118094,
+    "each_additional_child": 5079
+   },
+   "70": {
+    "veteran_alone": 140372,
+    "veteran_with_spouse": 152206,
+    "veteran_with_spouse_and_one_child": 160982,
+    "veteran_with_one_child": 148198,
+    "each_additional_child": 5926
+   },
+   "80": {
+    "veteran_alone": 163169,
+    "veteran_with_spouse": 176693,
+    "veteran_with_spouse_and_one_child": 186724,
+    "veteran_with_one_child": 172113,
+    "each_additional_child": 6772
+   },
+   "90": {
+    "veteran_alone": 183362,
+    "veteran_with_spouse": 198577,
+    "veteran_with_spouse_and_one_child": 209862,
+    "veteran_with_one_child": 193425,
+    "each_additional_child": 7619
+   },
+   "100": {
+    "veteran_alone": 305713,
+    "veteran_with_spouse": 322618,
+    "veteran_with_spouse_and_one_child": 335157,
+    "veteran_with_one_child": 316893,
+    "each_additional_child": 8465
+   }
+  }
+ },
+ {
+  "effective_date": "2019-12-01",
+  "monthly_rates_cents": {
+   "10": {
+    "veteran_alone": 14229
+   },
+   "20": {
+    "veteran_alone": 28128
+   },
+   "30": {
+    "veteran_alone": 43569,
+    "veteran_with_spouse": 48721,
+    "veteran_with_spouse_and_one_child": 52543,
+    "veteran_with_one_child": 46976,
+    "each_additional_child": 2580
+   },
+   "40": {
+    "veteran_alone": 62762,
+    "veteran_with_spouse": 69632,
+    "veteran_with_spouse_and_one_child": 74727,
+    "veteran_with_one_child": 67305,
+    "each_additional_child": 3440
+   },
+   "50": {
+    "veteran_alone": 89343,
+    "veteran_with_spouse": 97931,
+    "veteran_with_spouse_and_one_child": 104300,
+    "veteran_with_one_child": 95022,
+    "each_additional_child": 4300
+   },
+   "60": {
+    "veteran_alone": 113168,
+    "veteran_with_spouse": 123474,
+    "veteran_with_spouse_and_one_child": 131117,
+    "veteran_with_one_child": 119984,
+    "each_additional_child": 5160
+   },
+   "70": {
+    "veteran_alone": 142618,
+    "veteran_with_spouse": 154641,
+    "veteran_with_spouse_and_one_child": 163558,
+    "veteran_with_one_child": 150569,
+    "each_additional_child": 6020
+   },
+   "80": {
+    "veteran_alone": 165779,
+    "veteran_with_spouse": 179520,
+    "veteran_with_spouse_and_one_child": 189711,
+    "veteran_with_one_child": 174867,
+    "each_additional_child": 6880
+   },
+   "90": {
+    "veteran_alone": 186296,
+    "veteran_with_spouse": 201755,
+    "veteran_with_spouse_and_one_child": 213219,
+    "veteran_with_one_child": 196519,
+    "each_additional_child": 7740
+   },
+   "100": {
+    "veteran_alone": 310604,
+    "veteran_with_spouse": 327780,
+    "veteran_with_spouse_and_one_child": 340519,
+    "veteran_with_one_child": 321963,
+    "each_additional_child": 8601
+   }
+  }
+ },
+ {
+  "effective_date": "2020-12-01",
+  "monthly_rates_cents": {
+   "10": {
+    "veteran_alone": 14414
+   },
+   "20": {
+    "veteran_alone": 28493
+   },
+   "30": {
+    "veteran_alone": 44135,
+    "veteran_with_spouse": 49355,
+    "veteran_with_spouse_and_one_child": 53226,
+    "veteran_with_one_child": 47587,
+    "each_additional_child": 2614
+   },
+   "40": {
+    "veteran_alone": 63577,
+    "veteran_with_spouse": 70537,
+    "veteran_with_spouse_and_one_child": 75699,
+    "veteran_with_one_child": 68180,
+    "each_additional_child": 3485
+   },
+   "50": {
+    "veteran_alone": 90504,
+    "veteran_with_spouse": 99204,
+    "veteran_with_spouse_and_one_child": 105656,
+    "veteran_with_one_child": 96258,
+    "each_additional_child": 4356
+   },
+   "60": {
+    "veteran_alone": 114639,
+    "veteran_with_spouse": 125079,
+    "veteran_with_spouse_and_one_child": 132822,
+    "veteran_with_one_child": 121544,
+    "each_additional_child": 5227
+   },
+   "70": {
+    "veteran_alone": 144472,
+    "veteran_with_spouse": 156651,
+    "veteran_with_spouse_and_one_child": 165684,
+    "veteran_with_one_child": 152527,
+    "each_additional_child": 6099
+   },
+   "80": {
+    "veteran_alone": 167934,
+    "veteran_with_spouse": 181854,
+    "veteran_with_spouse_and_one_child": 192178,
+    "veteran_with_one_child": 177140,
+    "each_additional_child": 6970
+   },
+   "90": {
+    "veteran_alone": 188718,
+    "veteran_with_spouse": 204377,
+    "veteran_with_spouse_and_one_child": 215991,
+    "veteran_with_one_child": 199074,
+    "each_additional_child": 7841
+   },
+   "100": {
+    "veteran_alone": 314642,
+    "veteran_with_spouse": 332041,
+    "veteran_with_spouse_and_one_child": 344946,
+    "veteran_with_one_child": 326149,
+    "each_additional_child": 8712
+   }
+  }
+ },
+ {
+  "effective_date": "2021-12-01",
+  "monthly_rates_cents": {
+   "10": {
+    "veteran_alone": 15264
+   },
+   "20": {
+    "veteran_alone": 30174
+   },
+   "30": {
+    "veteran_alone": 46739,
+    "veteran_with_spouse": 52267,
+    "veteran_with_spouse_and_one_child": 56366,
+    "veteran_with_one_child": 50395,
+    "each_additional_child": 2768
+   },
+   "40": {
+    "veteran_alone": 67328,
+    "veteran_with_spouse": 74699,
+    "veteran_with_spouse_and_one_child": 80165,
+    "veteran_with_one_child": 72203,
+    "each_additional_child": 3691
+   },
+   "50": {
+    "veteran_alone": 95844,
+    "veteran_with_spouse": 105057,
+    "veteran_with_spouse_and_one_child": 111890,
+    "veteran_with_one_child": 101937,
+    "each_additional_child": 4613
+   },
+   "60": {
+    "veteran_alone": 121403,
+    "veteran_with_spouse": 132459,
+    "veteran_with_spouse_and_one_child": 140658,
+    "veteran_with_one_child": 128715,
+    "each_additional_child": 5536
+   },
+   "70": {
+    "veteran_alone": 152996,
+    "veteran_with_spouse": 165894,
+    "veteran_with_spouse_and_one_child": 175460,
+    "veteran_with_one_child": 161526,
+    "each_additional_child": 6458
+   },
+   "80": {
+    "veteran_alone": 177843,
+    "veteran_with_spouse": 192583,
+    "veteran_with_spouse_and_one_child": 203516,
+    "veteran_with_one_child": 187591,
+    "each_additional_child": 7381
+   },
+   "90": {
+    "veteran_alone": 199852,
+    "veteran_with_spouse": 216436,
+    "veteran_with_spouse_and_one_child": 228735,
+    "veteran_with_one_child": 210820,
+    "each_additional_child": 8304
+   },
+   "100": {
+    "veteran_alone": 333206,
+    "veteran_with_spouse": 351632,
+    "veteran_with_spouse_and_one_child": 365298,
+    "veteran_with_one_child": 345392,
+    "each_additional_child": 9226
+   }
+  }
+ },
+ {
+  "effective_date": "2022-12-01",
+  "monthly_rates_cents": {
+   "10": {
+    "veteran_alone": 16592
+   },
+   "20": {
+    "veteran_alone": 32799
+   },
+   "30": {
+    "veteran_alone": 50805,
+    "veteran_with_spouse": 56814,
+    "veteran_with_spouse_and_one_child": 61270,
+    "veteran_with_one_child": 54779,
+    "each_additional_child": 3009
+   },
+   "40": {
+    "veteran_alone": 73186,
+    "veteran_with_spouse": 81198,
+    "veteran_with_spouse_and_one_child": 87140,
+    "veteran_with_one_child": 78484,
+    "each_additional_child": 4012
+   },
+   "50": {
+    "veteran_alone": 104182,
+    "veteran_with_spouse": 114197,
+    "veteran_with_spouse_and_one_child": 121624,
+    "veteran_with_one_child": 110805,
+    "each_additional_child": 5015
+   },
+   "60": {
+    "veteran_alone": 131965,
+    "veteran_with_spouse": 143983,
+    "veteran_with_spouse_and_one_child": 152895,
+    "veteran_with_one_child": 139913,
+    "each_additional_child": 6017
+   },
+   "70": {
+    "veteran_alone": 166306,
+    "veteran_with_spouse": 180327,
+    "veteran_with_spouse_and_one_child": 190725,
+    "veteran_with_one_child": 175578,
+    "each_additional_child": 7020
+   },
+   "80": {
+    "veteran_alone": 193315,
+    "veteran_with_spouse": 209338,
+    "veteran_with_spouse_and_one_child": 221222,
+    "veteran_with_one_child": 203912,
+    "each_additional_child": 8023
+   },
+   "90": {
+    "veteran_alone": 217239,
+    "veteran_with_spouse": 235266,
+    "veteran_with_spouse_and_one_child": 248635,
+    "veteran_with_one_child": 229161,
+    "each_additional_child": 9026
+   },
+   "100": {
+    "veteran_alone": 362195,
+    "veteran_with_spouse": 382224,
+    "veteran_with_spouse_and_one_child": 397078,
+    "veteran_with_one_child": 375441,
+    "each_additional_child": 10029
+   }
+  }
+ },
+ {
+  "effective_date": "2023-12-01",
+  "monthly_rates_cents": {
+   "10": {
+    "veteran_alone": 17123
+   },
+   "20": {
+    "veteran_alone": 33849
+   },
+   "30": {
+    "veteran_alone": 52431,
+    "veteran_with_spouse": 58632,
+    "veteran_with_spouse_and_one_child": 63231,
+    "veteran_with_one_child": 56532,
+    "each_additional_child": 3105
+   },
+   "40": {
+    "veteran_alone": 75528,
+    "veteran_with_spouse": 83796,
+    "veteran_with_spouse_and_one_child": 89928,
+    "veteran_with_one_child": 80996,
+    "each_additional_child": 4140
+   },
+   "50": {
+    "veteran_alone": 107516,
+    "veteran_with_spouse": 117851,
+    "veteran_with_spouse_and_one_child": 125516,
+    "veteran_with_one_child": 114351,
+    "each_additional_child": 5175
+   },
+   "60": {
+    "veteran_alone": 136188,
+    "veteran_with_spouse": 148590,
+    "veteran_with_spouse_and_one_child": 157788,
+    "veteran_with_one_child": 144390,
+    "each_additional_child": 6210
+   },
+   "70": {
+    "veteran_alone": 171628,
+    "veteran_with_spouse": 186097,
+    "veteran_with_spouse_and_one_child": 196828,
+    "veteran_with_one_child": 181197,
+    "each_additional_child": 7245
+   },
+   "80": {
+    "veteran_alone": 199501,
+    "veteran_with_spouse": 216037,
+    "veteran_with_spouse_and_one_child": 228301,
+    "veteran_with_one_child": 210437,
+    "each_additional_child": 8280
+   },
+   "90": {
+    "veteran_alone": 224191,
+    "veteran_with_spouse": 242794,
+    "veteran_with_spouse_and_one_child": 256591,
+    "veteran_with_one_child": 236494,
+    "each_additional_child": 9315
+   },
+   "100": {
+    "veteran_alone": 373785,
+    "veteran_with_spouse": 394455,
+    "veteran_with_spouse_and_one_child": 409785,
+    "veteran_with_one_child": 387455,
+    "each_additional_child": 10350
+   }
+  }
+ },
+ {
+  "effective_date": "2024-12-01",
+  "monthly_rates_cents": {
+   "10": {
+    "veteran_alone": 17551
+   },
+   "20": {
+    "veteran_alone": 34695
+   },
+   "30": {
+    "veteran_alone": 53742,
+    "veteran_with_spouse": 60098,
+    "veteran_with_spouse_and_one_child": 64812,
+    "veteran_with_one_child": 57945,
+    "each_additional_child": 3183
+   },
+   "40": {
+    "veteran_alone": 77416,
+    "veteran_with_spouse": 85891,
+    "veteran_with_spouse_and_one_child": 92176,
+    "veteran_with_one_child": 83021,
+    "each_additional_child": 4244
+   },
+   "50": {
+    "veteran_alone": 110204,
+    "veteran_with_spouse": 120797,
+    "veteran_with_spouse_and_one_child": 128654,
+    "veteran_with_one_child": 117210,
+    "each_additional_child": 5304
+   },
+   "60": {
+    "veteran_alone": 139593,
+    "veteran_with_spouse": 152305,
+    "veteran_with_spouse_and_one_child": 161733,
+    "veteran_with_one_child": 148000,
+    "each_additional_child": 6365
+   },
+   "70": {
+    "veteran_alone": 175919,
+    "veteran_with_spouse": 190749,
+    "veteran_with_spouse_and_one_child": 201749,
+    "veteran_with_one_child": 185727,
+    "each_additional_child": 7426
+   },
+   "80": {
+    "veteran_alone": 204489,
+    "veteran_with_spouse": 221438,
+    "veteran_with_spouse_and_one_child": 234009,
+    "veteran_with_one_child": 215698,
+    "each_additional_child": 8487
+   },
+   "90": {
+    "veteran_alone": 229796,
+    "veteran_with_spouse": 248864,
+    "veteran_with_spouse_and_one_child": 263006,
+    "veteran_with_one_child": 242406,
+    "each_additional_child": 9548
+   },
+   "100": {
+    "veteran_alone": 383130,
+    "veteran_with_spouse": 404316,
+    "veteran_with_spouse_and_one_child": 420030,
+    "veteran_with_one_child": 397141,
+    "each_additional_child": 10609
+   }
+  }
+ },
+ {
+  "effective_date": "2025-12-01",
+  "monthly_rates_cents": {
+   "10": {
+    "veteran_alone": 18043
+   },
+   "20": {
+    "veteran_alone": 35667
+   },
+   "30": {
+    "veteran_alone": 55247,
+    "veteran_with_spouse": 61781,
+    "veteran_with_spouse_and_one_child": 66627,
+    "veteran_with_one_child": 59568,
+    "each_additional_child": 3272
+   },
+   "40": {
+    "veteran_alone": 79584,
+    "veteran_with_spouse": 88296,
+    "veteran_with_spouse_and_one_child": 94757,
+    "veteran_with_one_child": 85345,
+    "each_additional_child": 4362
+   },
+   "50": {
+    "veteran_alone": 113290,
+    "veteran_with_spouse": 124180,
+    "veteran_with_spouse_and_one_child": 132256,
+    "veteran_with_one_child": 120492,
+    "each_additional_child": 5453
+   },
+   "60": {
+    "veteran_alone": 143501,
+    "veteran_with_spouse": 156569,
+    "veteran_with_spouse_and_one_child": 166261,
+    "veteran_with_one_child": 152144,
+    "each_additional_child": 6543
+   },
+   "70": {
+    "veteran_alone": 180844,
+    "veteran_with_spouse": 196090,
+    "veteran_with_spouse_and_one_child": 207398,
+    "veteran_with_one_child": 190927,
+    "each_additional_child": 7634
+   },
+   "80": {
+    "veteran_alone": 210214,
+    "veteran_with_spouse": 227638,
+    "veteran_with_spouse_and_one_child": 240561,
+    "veteran_with_one_child": 221737,
+    "each_additional_child": 8725
+   },
+   "90": {
+    "veteran_alone": 236230,
+    "veteran_with_spouse": 255832,
+    "veteran_with_spouse_and_one_child": 270370,
+    "veteran_with_one_child": 249194,
+    "each_additional_child": 9815
+   },
+   "100": {
+    "veteran_alone": 393857,
+    "veteran_with_spouse": 415637,
+    "veteran_with_spouse_and_one_child": 431790,
+    "veteran_with_one_child": 408261,
+    "each_additional_child": 10906
+   }
+  }
+ }
+]
