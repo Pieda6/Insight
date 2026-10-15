@@ -2,728 +2,728 @@
  {
   "disability_id": "DX00001",
   "veteran_id": "V0001",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
  },
  {
   "disability_id": "DX00002",
   "veteran_id": "V0002",
-  "description": "Cervical strain",
-  "diagnostic_code": "5237"
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
  },
  {
   "disability_id": "DX00003",
+  "veteran_id": "V0002",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00004",
   "veteran_id": "V0002",
   "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
   "diagnostic_code": "8515"
  },
  {
-  "disability_id": "DX00004",
-  "veteran_id": "V0002",
-  "description": "Migraine headaches",
-  "diagnostic_code": "8100"
- },
- {
   "disability_id": "DX00005",
   "veteran_id": "V0003",
-  "description": "Right hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00006",
-  "veteran_id": "V0003",
-  "description": "Left ankle, limited motion",
-  "diagnostic_code": "5271"
- },
- {
-  "disability_id": "DX00007",
-  "veteran_id": "V0003",
-  "description": "Left shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
-  "disability_id": "DX00008",
-  "veteran_id": "V0003",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00009",
-  "veteran_id": "V0003",
-  "description": "Plantar fasciitis, left foot",
-  "diagnostic_code": "5269"
- },
- {
-  "disability_id": "DX00010",
-  "veteran_id": "V0004",
-  "description": "Plantar fasciitis, right foot",
-  "diagnostic_code": "5269"
- },
- {
-  "disability_id": "DX00011",
-  "veteran_id": "V0004",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
- },
- {
-  "disability_id": "DX00012",
-  "veteran_id": "V0004",
-  "description": "Scar of the chest wall",
-  "diagnostic_code": "7804"
- },
- {
-  "disability_id": "DX00013",
-  "veteran_id": "V0004",
-  "description": "Left hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00014",
-  "veteran_id": "V0005",
-  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00015",
-  "veteran_id": "V0005",
-  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00016",
-  "veteran_id": "V0005",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00017",
-  "veteran_id": "V0006",
-  "description": "Obstructive sleep apnea",
-  "diagnostic_code": "6847"
- },
- {
-  "disability_id": "DX00018",
-  "veteran_id": "V0006",
-  "description": "Right hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00019",
-  "veteran_id": "V0006",
   "description": "Cervical strain",
   "diagnostic_code": "5237"
  },
  {
-  "disability_id": "DX00020",
+  "disability_id": "DX00006",
+  "veteran_id": "V0003",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00007",
+  "veteran_id": "V0003",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00008",
+  "veteran_id": "V0003",
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00009",
+  "veteran_id": "V0003",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00010",
+  "veteran_id": "V0004",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00011",
+  "veteran_id": "V0004",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00012",
+  "veteran_id": "V0005",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00013",
+  "veteran_id": "V0005",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00014",
+  "veteran_id": "V0005",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00015",
+  "veteran_id": "V0006",
+  "description": "Left wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00016",
+  "veteran_id": "V0007",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00017",
+  "veteran_id": "V0007",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00018",
   "veteran_id": "V0007",
   "description": "Lumbosacral strain",
   "diagnostic_code": "5237"
  },
  {
+  "disability_id": "DX00019",
+  "veteran_id": "V0008",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00020",
+  "veteran_id": "V0008",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
   "disability_id": "DX00021",
-  "veteran_id": "V0007",
+  "veteran_id": "V0008",
   "description": "Right knee strain with limitation of flexion",
   "diagnostic_code": "5260"
  },
  {
   "disability_id": "DX00022",
-  "veteran_id": "V0007",
-  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00023",
-  "veteran_id": "V0007",
-  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
-  "diagnostic_code": "8515"
- },
- {
-  "disability_id": "DX00024",
-  "veteran_id": "V0008",
+  "veteran_id": "V0009",
   "description": "Lumbosacral strain",
   "diagnostic_code": "5237"
  },
  {
-  "disability_id": "DX00025",
-  "veteran_id": "V0008",
+  "disability_id": "DX00023",
+  "veteran_id": "V0010",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00024",
+  "veteran_id": "V0010",
   "description": "Right wrist strain, limitation of motion",
   "diagnostic_code": "5215"
  },
  {
+  "disability_id": "DX00025",
+  "veteran_id": "V0011",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
   "disability_id": "DX00026",
-  "veteran_id": "V0009",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
+  "veteran_id": "V0012",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
  },
  {
   "disability_id": "DX00027",
-  "veteran_id": "V0009",
-  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
-  "diagnostic_code": "8515"
+  "veteran_id": "V0013",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
  },
  {
   "disability_id": "DX00028",
-  "veteran_id": "V0010",
-  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00029",
-  "veteran_id": "V0010",
-  "description": "Left knee strain with limitation of flexion",
+  "veteran_id": "V0013",
+  "description": "Right knee strain with limitation of flexion",
   "diagnostic_code": "5260"
  },
  {
+  "disability_id": "DX00029",
+  "veteran_id": "V0013",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
   "disability_id": "DX00030",
-  "veteran_id": "V0011",
+  "veteran_id": "V0014",
   "description": "Posttraumatic stress disorder",
   "diagnostic_code": "9411"
  },
  {
   "disability_id": "DX00031",
-  "veteran_id": "V0011",
-  "description": "Right elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
+  "veteran_id": "V0014",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
  },
  {
   "disability_id": "DX00032",
-  "veteran_id": "V0011",
-  "description": "Left hip, limitation of flexion",
-  "diagnostic_code": "5252"
+  "veteran_id": "V0014",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
  },
  {
   "disability_id": "DX00033",
-  "veteran_id": "V0012",
-  "description": "Right elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
+  "veteran_id": "V0015",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
  },
  {
   "disability_id": "DX00034",
-  "veteran_id": "V0012",
-  "description": "Left hip, limitation of flexion",
-  "diagnostic_code": "5252"
+  "veteran_id": "V0015",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
  },
  {
   "disability_id": "DX00035",
-  "veteran_id": "V0012",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
+  "veteran_id": "V0015",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
  },
  {
   "disability_id": "DX00036",
-  "veteran_id": "V0012",
-  "description": "Right knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
+  "veteran_id": "V0016",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
  },
  {
   "disability_id": "DX00037",
-  "veteran_id": "V0013",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
+  "veteran_id": "V0017",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
  },
  {
   "disability_id": "DX00038",
-  "veteran_id": "V0013",
-  "description": "Obstructive sleep apnea",
-  "diagnostic_code": "6847"
+  "veteran_id": "V0017",
+  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
+  "diagnostic_code": "8515"
  },
  {
   "disability_id": "DX00039",
-  "veteran_id": "V0013",
-  "description": "Left elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
- },
- {
-  "disability_id": "DX00040",
-  "veteran_id": "V0014",
-  "description": "Cervical strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00041",
-  "veteran_id": "V0014",
-  "description": "Scar of the chest wall",
-  "diagnostic_code": "7804"
- },
- {
-  "disability_id": "DX00042",
-  "veteran_id": "V0014",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00043",
-  "veteran_id": "V0015",
-  "description": "Right wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
- },
- {
-  "disability_id": "DX00044",
-  "veteran_id": "V0015",
-  "description": "Left elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
- },
- {
-  "disability_id": "DX00045",
-  "veteran_id": "V0016",
-  "description": "Left knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00046",
-  "veteran_id": "V0016",
-  "description": "Right knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00047",
-  "veteran_id": "V0016",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00048",
   "veteran_id": "V0017",
-  "description": "Left shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
-  "disability_id": "DX00049",
-  "veteran_id": "V0017",
-  "description": "Cervical strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00050",
-  "veteran_id": "V0017",
-  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00051",
-  "veteran_id": "V0017",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00052",
-  "veteran_id": "V0017",
-  "description": "Left hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00053",
-  "veteran_id": "V0018",
-  "description": "Obstructive sleep apnea",
-  "diagnostic_code": "6847"
- },
- {
-  "disability_id": "DX00054",
-  "veteran_id": "V0019",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00055",
-  "veteran_id": "V0019",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00056",
-  "veteran_id": "V0019",
-  "description": "Left knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00057",
-  "veteran_id": "V0019",
-  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00058",
-  "veteran_id": "V0020",
-  "description": "Obstructive sleep apnea",
-  "diagnostic_code": "6847"
- },
- {
-  "disability_id": "DX00059",
-  "veteran_id": "V0020",
-  "description": "Left elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
- },
- {
-  "disability_id": "DX00060",
-  "veteran_id": "V0021",
   "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
   "diagnostic_code": "8515"
  },
  {
-  "disability_id": "DX00061",
-  "veteran_id": "V0022",
-  "description": "Right ankle, limited motion",
+  "disability_id": "DX00040",
+  "veteran_id": "V0018",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00041",
+  "veteran_id": "V0019",
+  "description": "Left ankle, limited motion",
   "diagnostic_code": "5271"
  },
  {
-  "disability_id": "DX00062",
-  "veteran_id": "V0022",
-  "description": "Left knee strain with limitation of flexion",
+  "disability_id": "DX00042",
+  "veteran_id": "V0019",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00043",
+  "veteran_id": "V0019",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00044",
+  "veteran_id": "V0019",
+  "description": "Right foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00045",
+  "veteran_id": "V0020",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00046",
+  "veteran_id": "V0020",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00047",
+  "veteran_id": "V0020",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00048",
+  "veteran_id": "V0020",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00049",
+  "veteran_id": "V0020",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00050",
+  "veteran_id": "V0020",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00051",
+  "veteran_id": "V0021",
+  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00052",
+  "veteran_id": "V0021",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00053",
+  "veteran_id": "V0021",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00054",
+  "veteran_id": "V0021",
+  "description": "Right knee strain with limitation of flexion",
   "diagnostic_code": "5260"
  },
  {
-  "disability_id": "DX00063",
+  "disability_id": "DX00055",
+  "veteran_id": "V0021",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00056",
+  "veteran_id": "V0022",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00057",
+  "veteran_id": "V0022",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00058",
+  "veteran_id": "V0022",
+  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00059",
   "veteran_id": "V0023",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00060",
+  "veteran_id": "V0023",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00061",
+  "veteran_id": "V0024",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00062",
+  "veteran_id": "V0024",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00063",
+  "veteran_id": "V0025",
   "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
   "diagnostic_code": "8515"
  },
  {
   "disability_id": "DX00064",
-  "veteran_id": "V0023",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
- },
- {
-  "disability_id": "DX00065",
-  "veteran_id": "V0024",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00066",
-  "veteran_id": "V0024",
-  "description": "Right shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
-  "disability_id": "DX00067",
-  "veteran_id": "V0024",
+  "veteran_id": "V0025",
   "description": "Hypertension",
   "diagnostic_code": "7101"
  },
  {
-  "disability_id": "DX00068",
-  "veteran_id": "V0024",
-  "description": "Left wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
+  "disability_id": "DX00065",
+  "veteran_id": "V0025",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
  },
  {
-  "disability_id": "DX00069",
-  "veteran_id": "V0025",
-  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
-  "diagnostic_code": "8515"
- },
- {
-  "disability_id": "DX00070",
-  "veteran_id": "V0025",
-  "description": "Lumbosacral strain",
+  "disability_id": "DX00066",
+  "veteran_id": "V0026",
+  "description": "Cervical strain",
   "diagnostic_code": "5237"
  },
  {
+  "disability_id": "DX00067",
+  "veteran_id": "V0027",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00068",
+  "veteran_id": "V0028",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00069",
+  "veteran_id": "V0029",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00070",
+  "veteran_id": "V0029",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
   "disability_id": "DX00071",
-  "veteran_id": "V0025",
+  "veteran_id": "V0029",
   "description": "Migraine headaches",
   "diagnostic_code": "8100"
  },
  {
   "disability_id": "DX00072",
-  "veteran_id": "V0025",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
+  "veteran_id": "V0029",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
  },
  {
   "disability_id": "DX00073",
-  "veteran_id": "V0026",
+  "veteran_id": "V0030",
   "description": "Posttraumatic stress disorder",
   "diagnostic_code": "9411"
  },
  {
   "disability_id": "DX00074",
-  "veteran_id": "V0026",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00075",
-  "veteran_id": "V0026",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00076",
-  "veteran_id": "V0026",
-  "description": "Obstructive sleep apnea",
-  "diagnostic_code": "6847"
- },
- {
-  "disability_id": "DX00077",
-  "veteran_id": "V0027",
-  "description": "Scar of the chest wall",
-  "diagnostic_code": "7804"
- },
- {
-  "disability_id": "DX00078",
-  "veteran_id": "V0027",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00079",
-  "veteran_id": "V0028",
-  "description": "Left elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
- },
- {
-  "disability_id": "DX00080",
-  "veteran_id": "V0028",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00081",
-  "veteran_id": "V0028",
-  "description": "Scar of the chest wall",
-  "diagnostic_code": "7804"
- },
- {
-  "disability_id": "DX00082",
-  "veteran_id": "V0028",
-  "description": "Right shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
-  "disability_id": "DX00083",
-  "veteran_id": "V0029",
-  "description": "Right knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00084",
-  "veteran_id": "V0029",
-  "description": "Left ankle, limited motion",
+  "veteran_id": "V0031",
+  "description": "Right ankle, limited motion",
   "diagnostic_code": "5271"
  },
  {
-  "disability_id": "DX00085",
-  "veteran_id": "V0029",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00086",
-  "veteran_id": "V0030",
-  "description": "Left hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00087",
-  "veteran_id": "V0030",
+  "disability_id": "DX00075",
+  "veteran_id": "V0031",
   "description": "Cervical strain",
   "diagnostic_code": "5237"
  },
  {
-  "disability_id": "DX00088",
-  "veteran_id": "V0030",
+  "disability_id": "DX00076",
+  "veteran_id": "V0031",
+  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00077",
+  "veteran_id": "V0031",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00078",
+  "veteran_id": "V0031",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00079",
+  "veteran_id": "V0032",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00080",
+  "veteran_id": "V0032",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00081",
+  "veteran_id": "V0032",
   "description": "Posttraumatic stress disorder",
   "diagnostic_code": "9411"
  },
  {
+  "disability_id": "DX00082",
+  "veteran_id": "V0032",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00083",
+  "veteran_id": "V0033",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00084",
+  "veteran_id": "V0034",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00085",
+  "veteran_id": "V0034",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00086",
+  "veteran_id": "V0034",
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00087",
+  "veteran_id": "V0034",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00088",
+  "veteran_id": "V0034",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
   "disability_id": "DX00089",
-  "veteran_id": "V0030",
+  "veteran_id": "V0034",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00090",
+  "veteran_id": "V0035",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00091",
+  "veteran_id": "V0035",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00092",
+  "veteran_id": "V0036",
   "description": "Tinnitus, recurrent",
   "diagnostic_code": "6260"
  },
  {
-  "disability_id": "DX00090",
-  "veteran_id": "V0031",
-  "description": "Obstructive sleep apnea",
-  "diagnostic_code": "6847"
- },
- {
-  "disability_id": "DX00091",
-  "veteran_id": "V0031",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
- },
- {
-  "disability_id": "DX00092",
-  "veteran_id": "V0032",
-  "description": "Left hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
   "disability_id": "DX00093",
-  "veteran_id": "V0033",
-  "description": "Obstructive sleep apnea",
-  "diagnostic_code": "6847"
+  "veteran_id": "V0037",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
  },
  {
   "disability_id": "DX00094",
-  "veteran_id": "V0033",
+  "veteran_id": "V0037",
   "description": "Right hip, limitation of flexion",
   "diagnostic_code": "5252"
  },
  {
   "disability_id": "DX00095",
-  "veteran_id": "V0034",
-  "description": "Left elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
+  "veteran_id": "V0037",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
  },
  {
   "disability_id": "DX00096",
-  "veteran_id": "V0035",
-  "description": "Right knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
+  "veteran_id": "V0037",
+  "description": "Left wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
  },
  {
   "disability_id": "DX00097",
-  "veteran_id": "V0035",
+  "veteran_id": "V0038",
   "description": "Left knee strain with limitation of flexion",
   "diagnostic_code": "5260"
  },
  {
   "disability_id": "DX00098",
-  "veteran_id": "V0036",
-  "description": "Plantar fasciitis, right foot",
-  "diagnostic_code": "5269"
+  "veteran_id": "V0038",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
  },
  {
   "disability_id": "DX00099",
-  "veteran_id": "V0036",
-  "description": "Migraine headaches",
-  "diagnostic_code": "8100"
- },
- {
-  "disability_id": "DX00100",
-  "veteran_id": "V0036",
-  "description": "Left knee strain with limitation of flexion",
+  "veteran_id": "V0038",
+  "description": "Right knee strain with limitation of flexion",
   "diagnostic_code": "5260"
  },
  {
+  "disability_id": "DX00100",
+  "veteran_id": "V0038",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
   "disability_id": "DX00101",
-  "veteran_id": "V0037",
+  "veteran_id": "V0038",
   "description": "Posttraumatic stress disorder",
   "diagnostic_code": "9411"
  },
  {
   "disability_id": "DX00102",
-  "veteran_id": "V0037",
-  "description": "Migraine headaches",
-  "diagnostic_code": "8100"
+  "veteran_id": "V0038",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
  },
  {
   "disability_id": "DX00103",
-  "veteran_id": "V0038",
-  "description": "Left wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
+  "veteran_id": "V0039",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
  },
  {
   "disability_id": "DX00104",
   "veteran_id": "V0039",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
  },
  {
   "disability_id": "DX00105",
   "veteran_id": "V0039",
-  "description": "Scar of the chest wall",
-  "diagnostic_code": "7804"
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
  },
  {
   "disability_id": "DX00106",
   "veteran_id": "V0039",
-  "description": "Left ankle, limited motion",
-  "diagnostic_code": "5271"
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
  },
  {
   "disability_id": "DX00107",
+  "veteran_id": "V0039",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00108",
+  "veteran_id": "V0039",
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00109",
+  "veteran_id": "V0040",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00110",
+  "veteran_id": "V0040",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00111",
+  "veteran_id": "V0040",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00112",
   "veteran_id": "V0040",
   "description": "Right ankle, limited motion",
   "diagnostic_code": "5271"
  },
  {
-  "disability_id": "DX00108",
-  "veteran_id": "V0040",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00109",
-  "veteran_id": "V0040",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00110",
-  "veteran_id": "V0040",
-  "description": "Right hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00111",
-  "veteran_id": "V0041",
-  "description": "Right hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00112",
-  "veteran_id": "V0041",
-  "description": "Plantar fasciitis, left foot",
-  "diagnostic_code": "5269"
- },
- {
   "disability_id": "DX00113",
-  "veteran_id": "V0042",
-  "description": "Plantar fasciitis, right foot",
-  "diagnostic_code": "5269"
+  "veteran_id": "V0040",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
  },
  {
   "disability_id": "DX00114",
-  "veteran_id": "V0042",
-  "description": "Obstructive sleep apnea",
-  "diagnostic_code": "6847"
+  "veteran_id": "V0041",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
  },
  {
   "disability_id": "DX00115",
-  "veteran_id": "V0042",
-  "description": "Plantar fasciitis, left foot",
-  "diagnostic_code": "5269"
+  "veteran_id": "V0041",
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
  },
  {
   "disability_id": "DX00116",
-  "veteran_id": "V0042",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
+  "veteran_id": "V0041",
+  "description": "Left wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
  },
  {
   "disability_id": "DX00117",
+  "veteran_id": "V0042",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00118",
+  "veteran_id": "V0042",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00119",
   "veteran_id": "V0042",
   "description": "Radiculopathy, right lower extremity (sciatic nerve)",
   "diagnostic_code": "8520"
  },
  {
-  "disability_id": "DX00118",
-  "veteran_id": "V0043",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00119",
-  "veteran_id": "V0043",
-  "description": "Left shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
   "disability_id": "DX00120",
-  "veteran_id": "V0043",
-  "description": "Left wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
+  "veteran_id": "V0042",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
  },
  {
   "disability_id": "DX00121",
   "veteran_id": "V0043",
-  "description": "Right shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
  },
  {
   "disability_id": "DX00122",
@@ -734,1807 +734,3253 @@
  {
   "disability_id": "DX00123",
   "veteran_id": "V0044",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00124",
+  "veteran_id": "V0044",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00125",
+  "veteran_id": "V0044",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00126",
+  "veteran_id": "V0045",
   "description": "Left knee strain with limitation of flexion",
   "diagnostic_code": "5260"
  },
  {
-  "disability_id": "DX00124",
-  "veteran_id": "V0045",
-  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00125",
-  "veteran_id": "V0045",
-  "description": "Right ankle, limited motion",
-  "diagnostic_code": "5271"
- },
- {
-  "disability_id": "DX00126",
-  "veteran_id": "V0046",
-  "description": "Right hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
   "disability_id": "DX00127",
-  "veteran_id": "V0046",
-  "description": "Left ankle, limited motion",
-  "diagnostic_code": "5271"
+  "veteran_id": "V0045",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
  },
  {
   "disability_id": "DX00128",
-  "veteran_id": "V0047",
+  "veteran_id": "V0045",
   "description": "Right wrist strain, limitation of motion",
   "diagnostic_code": "5215"
  },
  {
   "disability_id": "DX00129",
-  "veteran_id": "V0047",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
+  "veteran_id": "V0046",
+  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
  },
  {
   "disability_id": "DX00130",
-  "veteran_id": "V0047",
-  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
-  "diagnostic_code": "8515"
+  "veteran_id": "V0046",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
  },
  {
   "disability_id": "DX00131",
-  "veteran_id": "V0047",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00132",
-  "veteran_id": "V0047",
+  "veteran_id": "V0046",
   "description": "Left hip, limitation of flexion",
   "diagnostic_code": "5252"
  },
  {
+  "disability_id": "DX00132",
+  "veteran_id": "V0046",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
   "disability_id": "DX00133",
   "veteran_id": "V0047",
-  "description": "Right hip, limitation of flexion",
-  "diagnostic_code": "5252"
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
  },
  {
   "disability_id": "DX00134",
   "veteran_id": "V0048",
-  "description": "Cervical strain",
-  "diagnostic_code": "5237"
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
  },
  {
   "disability_id": "DX00135",
+  "veteran_id": "V0048",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00136",
+  "veteran_id": "V0048",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00137",
+  "veteran_id": "V0049",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00138",
   "veteran_id": "V0049",
   "description": "Posttraumatic stress disorder",
   "diagnostic_code": "9411"
  },
  {
-  "disability_id": "DX00136",
-  "veteran_id": "V0050",
-  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
+  "disability_id": "DX00139",
+  "veteran_id": "V0049",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
  },
  {
-  "disability_id": "DX00137",
-  "veteran_id": "V0050",
-  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
+  "disability_id": "DX00140",
+  "veteran_id": "V0049",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
  },
  {
-  "disability_id": "DX00138",
-  "veteran_id": "V0050",
-  "description": "Left knee strain with limitation of flexion",
+  "disability_id": "DX00141",
+  "veteran_id": "V0049",
+  "description": "Right knee strain with limitation of flexion",
   "diagnostic_code": "5260"
  },
  {
-  "disability_id": "DX00139",
-  "veteran_id": "V0050",
+  "disability_id": "DX00142",
+  "veteran_id": "V0049",
   "description": "Left hip, limitation of flexion",
   "diagnostic_code": "5252"
  },
  {
-  "disability_id": "DX00140",
-  "veteran_id": "V0051",
-  "description": "Left elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
+  "disability_id": "DX00143",
+  "veteran_id": "V0050",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
  },
  {
-  "disability_id": "DX00141",
+  "disability_id": "DX00144",
+  "veteran_id": "V0050",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00145",
+  "veteran_id": "V0050",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00146",
+  "veteran_id": "V0050",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00147",
+  "veteran_id": "V0051",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00148",
   "veteran_id": "V0051",
   "description": "Tinnitus, recurrent",
   "diagnostic_code": "6260"
  },
  {
-  "disability_id": "DX00142",
-  "veteran_id": "V0051",
-  "description": "Right elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
- },
- {
-  "disability_id": "DX00143",
-  "veteran_id": "V0052",
-  "description": "Left wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
- },
- {
-  "disability_id": "DX00144",
-  "veteran_id": "V0052",
-  "description": "Right knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00145",
-  "veteran_id": "V0053",
-  "description": "Obstructive sleep apnea",
-  "diagnostic_code": "6847"
- },
- {
-  "disability_id": "DX00146",
-  "veteran_id": "V0053",
-  "description": "Right elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
- },
- {
-  "disability_id": "DX00147",
-  "veteran_id": "V0054",
-  "description": "Right knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00148",
-  "veteran_id": "V0054",
-  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
   "disability_id": "DX00149",
-  "veteran_id": "V0054",
-  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
-  "diagnostic_code": "8515"
- },
- {
-  "disability_id": "DX00150",
-  "veteran_id": "V0055",
-  "description": "Plantar fasciitis, right foot",
-  "diagnostic_code": "5269"
- },
- {
-  "disability_id": "DX00151",
-  "veteran_id": "V0055",
-  "description": "Plantar fasciitis, left foot",
-  "diagnostic_code": "5269"
- },
- {
-  "disability_id": "DX00152",
-  "veteran_id": "V0056",
-  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
-  "diagnostic_code": "8515"
- },
- {
-  "disability_id": "DX00153",
-  "veteran_id": "V0056",
+  "veteran_id": "V0051",
   "description": "Right wrist strain, limitation of motion",
   "diagnostic_code": "5215"
  },
  {
-  "disability_id": "DX00154",
-  "veteran_id": "V0056",
-  "description": "Left wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
- },
- {
-  "disability_id": "DX00155",
-  "veteran_id": "V0057",
-  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
-  "diagnostic_code": "8515"
- },
- {
-  "disability_id": "DX00156",
-  "veteran_id": "V0057",
+  "disability_id": "DX00150",
+  "veteran_id": "V0051",
   "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
   "diagnostic_code": "8515"
  },
  {
+  "disability_id": "DX00151",
+  "veteran_id": "V0052",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00152",
+  "veteran_id": "V0052",
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00153",
+  "veteran_id": "V0052",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00154",
+  "veteran_id": "V0052",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00155",
+  "veteran_id": "V0052",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00156",
+  "veteran_id": "V0053",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
   "disability_id": "DX00157",
-  "veteran_id": "V0058",
-  "description": "Plantar fasciitis, left foot",
-  "diagnostic_code": "5269"
+  "veteran_id": "V0053",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
  },
  {
   "disability_id": "DX00158",
-  "veteran_id": "V0058",
+  "veteran_id": "V0053",
   "description": "Migraine headaches",
   "diagnostic_code": "8100"
  },
  {
   "disability_id": "DX00159",
-  "veteran_id": "V0059",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00160",
-  "veteran_id": "V0059",
-  "description": "Left hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00161",
-  "veteran_id": "V0059",
-  "description": "Left wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
- },
- {
-  "disability_id": "DX00162",
-  "veteran_id": "V0059",
-  "description": "Migraine headaches",
-  "diagnostic_code": "8100"
- },
- {
-  "disability_id": "DX00163",
-  "veteran_id": "V0060",
+  "veteran_id": "V0054",
   "description": "Left knee strain with limitation of flexion",
   "diagnostic_code": "5260"
  },
  {
-  "disability_id": "DX00164",
-  "veteran_id": "V0060",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
- },
- {
-  "disability_id": "DX00165",
-  "veteran_id": "V0061",
-  "description": "Migraine headaches",
-  "diagnostic_code": "8100"
- },
- {
-  "disability_id": "DX00166",
-  "veteran_id": "V0061",
+  "disability_id": "DX00160",
+  "veteran_id": "V0055",
   "description": "Right ankle, limited motion",
   "diagnostic_code": "5271"
  },
  {
-  "disability_id": "DX00167",
-  "veteran_id": "V0061",
+  "disability_id": "DX00161",
+  "veteran_id": "V0055",
   "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
   "diagnostic_code": "8515"
  },
  {
-  "disability_id": "DX00168",
-  "veteran_id": "V0061",
+  "disability_id": "DX00162",
+  "veteran_id": "V0055",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00163",
+  "veteran_id": "V0055",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00164",
+  "veteran_id": "V0055",
   "description": "Left hip, limitation of flexion",
   "diagnostic_code": "5252"
  },
  {
-  "disability_id": "DX00169",
-  "veteran_id": "V0062",
-  "description": "Left hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00170",
-  "veteran_id": "V0062",
-  "description": "Left knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00171",
-  "veteran_id": "V0062",
-  "description": "Right hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00172",
-  "veteran_id": "V0063",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
- },
- {
-  "disability_id": "DX00173",
-  "veteran_id": "V0064",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
- },
- {
-  "disability_id": "DX00174",
-  "veteran_id": "V0064",
-  "description": "Left wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
- },
- {
-  "disability_id": "DX00175",
-  "veteran_id": "V0064",
+  "disability_id": "DX00165",
+  "veteran_id": "V0056",
   "description": "Tinnitus, recurrent",
   "diagnostic_code": "6260"
  },
  {
-  "disability_id": "DX00176",
-  "veteran_id": "V0064",
-  "description": "Obstructive sleep apnea",
-  "diagnostic_code": "6847"
+  "disability_id": "DX00166",
+  "veteran_id": "V0057",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
  },
  {
-  "disability_id": "DX00177",
-  "veteran_id": "V0065",
+  "disability_id": "DX00167",
+  "veteran_id": "V0058",
+  "description": "Left wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00168",
+  "veteran_id": "V0058",
   "description": "Lumbosacral strain",
   "diagnostic_code": "5237"
  },
  {
+  "disability_id": "DX00169",
+  "veteran_id": "V0058",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00170",
+  "veteran_id": "V0059",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00171",
+  "veteran_id": "V0059",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00172",
+  "veteran_id": "V0059",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00173",
+  "veteran_id": "V0059",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00174",
+  "veteran_id": "V0060",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00175",
+  "veteran_id": "V0060",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00176",
+  "veteran_id": "V0060",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00177",
+  "veteran_id": "V0060",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
   "disability_id": "DX00178",
-  "veteran_id": "V0065",
-  "description": "Migraine headaches",
-  "diagnostic_code": "8100"
+  "veteran_id": "V0061",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
  },
  {
   "disability_id": "DX00179",
-  "veteran_id": "V0065",
+  "veteran_id": "V0061",
   "description": "Posttraumatic stress disorder",
   "diagnostic_code": "9411"
  },
  {
   "disability_id": "DX00180",
-  "veteran_id": "V0066",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
+  "veteran_id": "V0061",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
  },
  {
   "disability_id": "DX00181",
-  "veteran_id": "V0066",
-  "description": "Left elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
+  "veteran_id": "V0062",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
  },
  {
   "disability_id": "DX00182",
-  "veteran_id": "V0067",
-  "description": "Right elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
- },
- {
-  "disability_id": "DX00183",
-  "veteran_id": "V0067",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
- },
- {
-  "disability_id": "DX00184",
-  "veteran_id": "V0068",
-  "description": "Left knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00185",
-  "veteran_id": "V0068",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
- },
- {
-  "disability_id": "DX00186",
-  "veteran_id": "V0068",
-  "description": "Scar of the chest wall",
-  "diagnostic_code": "7804"
- },
- {
-  "disability_id": "DX00187",
-  "veteran_id": "V0068",
-  "description": "Left shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
-  "disability_id": "DX00188",
-  "veteran_id": "V0069",
+  "veteran_id": "V0062",
   "description": "Cervical strain",
   "diagnostic_code": "5237"
  },
  {
+  "disability_id": "DX00183",
+  "veteran_id": "V0063",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00184",
+  "veteran_id": "V0064",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00185",
+  "veteran_id": "V0064",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00186",
+  "veteran_id": "V0064",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00187",
+  "veteran_id": "V0064",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00188",
+  "veteran_id": "V0064",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
   "disability_id": "DX00189",
-  "veteran_id": "V0069",
-  "description": "Scar of the chest wall",
-  "diagnostic_code": "7804"
+  "veteran_id": "V0064",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
  },
  {
   "disability_id": "DX00190",
-  "veteran_id": "V0070",
+  "veteran_id": "V0064",
   "description": "Left wrist strain, limitation of motion",
   "diagnostic_code": "5215"
  },
  {
   "disability_id": "DX00191",
-  "veteran_id": "V0071",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
+  "veteran_id": "V0064",
+  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
+  "diagnostic_code": "8515"
  },
  {
   "disability_id": "DX00192",
-  "veteran_id": "V0072",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00193",
-  "veteran_id": "V0072",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00194",
-  "veteran_id": "V0073",
-  "description": "Right shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
-  "disability_id": "DX00195",
-  "veteran_id": "V0073",
+  "veteran_id": "V0065",
   "description": "Migraine headaches",
   "diagnostic_code": "8100"
  },
  {
+  "disability_id": "DX00193",
+  "veteran_id": "V0066",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00194",
+  "veteran_id": "V0066",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00195",
+  "veteran_id": "V0066",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
   "disability_id": "DX00196",
-  "veteran_id": "V0073",
-  "description": "Left shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
+  "veteran_id": "V0066",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
  },
  {
   "disability_id": "DX00197",
-  "veteran_id": "V0074",
-  "description": "Right wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
+  "veteran_id": "V0067",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
  },
  {
   "disability_id": "DX00198",
-  "veteran_id": "V0075",
-  "description": "Left knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00199",
-  "veteran_id": "V0075",
+  "veteran_id": "V0067",
   "description": "Radiculopathy, right lower extremity (sciatic nerve)",
   "diagnostic_code": "8520"
  },
  {
+  "disability_id": "DX00199",
+  "veteran_id": "V0067",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
   "disability_id": "DX00200",
-  "veteran_id": "V0076",
-  "description": "Scar of the chest wall",
-  "diagnostic_code": "7804"
+  "veteran_id": "V0067",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
  },
  {
   "disability_id": "DX00201",
-  "veteran_id": "V0076",
+  "veteran_id": "V0068",
   "description": "Radiculopathy, right lower extremity (sciatic nerve)",
   "diagnostic_code": "8520"
  },
  {
   "disability_id": "DX00202",
+  "veteran_id": "V0068",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00203",
+  "veteran_id": "V0068",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00204",
+  "veteran_id": "V0068",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00205",
+  "veteran_id": "V0068",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00206",
+  "veteran_id": "V0068",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00207",
+  "veteran_id": "V0069",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00208",
+  "veteran_id": "V0070",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00209",
+  "veteran_id": "V0071",
+  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00210",
+  "veteran_id": "V0071",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00211",
+  "veteran_id": "V0071",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00212",
+  "veteran_id": "V0071",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00213",
+  "veteran_id": "V0072",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00214",
+  "veteran_id": "V0072",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00215",
+  "veteran_id": "V0073",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00216",
+  "veteran_id": "V0074",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00217",
+  "veteran_id": "V0074",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00218",
+  "veteran_id": "V0075",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00219",
+  "veteran_id": "V0075",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00220",
+  "veteran_id": "V0075",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00221",
+  "veteran_id": "V0075",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00222",
   "veteran_id": "V0076",
   "description": "Tinnitus, recurrent",
   "diagnostic_code": "6260"
  },
  {
-  "disability_id": "DX00203",
+  "disability_id": "DX00223",
   "veteran_id": "V0077",
   "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
   "diagnostic_code": "8515"
  },
  {
-  "disability_id": "DX00204",
-  "veteran_id": "V0077",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
+  "disability_id": "DX00224",
+  "veteran_id": "V0078",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
  },
  {
-  "disability_id": "DX00205",
-  "veteran_id": "V0077",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
+  "disability_id": "DX00225",
+  "veteran_id": "V0078",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
  },
  {
-  "disability_id": "DX00206",
-  "veteran_id": "V0077",
-  "description": "Right shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
+  "disability_id": "DX00226",
+  "veteran_id": "V0078",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
  },
  {
-  "disability_id": "DX00207",
+  "disability_id": "DX00227",
   "veteran_id": "V0078",
   "description": "Right elbow tendinitis, limitation of flexion",
   "diagnostic_code": "5206"
  },
  {
-  "disability_id": "DX00208",
-  "veteran_id": "V0078",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00209",
-  "veteran_id": "V0078",
-  "description": "Left shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
-  "disability_id": "DX00210",
+  "disability_id": "DX00228",
   "veteran_id": "V0079",
-  "description": "Left ankle, limited motion",
-  "diagnostic_code": "5271"
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
  },
  {
-  "disability_id": "DX00211",
+  "disability_id": "DX00229",
   "veteran_id": "V0079",
-  "description": "Left shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
  },
  {
-  "disability_id": "DX00212",
+  "disability_id": "DX00230",
   "veteran_id": "V0079",
-  "description": "Obstructive sleep apnea",
-  "diagnostic_code": "6847"
- },
- {
-  "disability_id": "DX00213",
-  "veteran_id": "V0079",
-  "description": "Right hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00214",
-  "veteran_id": "V0080",
-  "description": "Right hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00215",
-  "veteran_id": "V0080",
   "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
   "diagnostic_code": "8515"
  },
  {
-  "disability_id": "DX00216",
-  "veteran_id": "V0081",
-  "description": "Left knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00217",
-  "veteran_id": "V0081",
-  "description": "Migraine headaches",
-  "diagnostic_code": "8100"
- },
- {
-  "disability_id": "DX00218",
-  "veteran_id": "V0081",
-  "description": "Left shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
-  "disability_id": "DX00219",
-  "veteran_id": "V0082",
-  "description": "Left hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00220",
-  "veteran_id": "V0082",
-  "description": "Migraine headaches",
-  "diagnostic_code": "8100"
- },
- {
-  "disability_id": "DX00221",
-  "veteran_id": "V0082",
+  "disability_id": "DX00231",
+  "veteran_id": "V0079",
   "description": "Right knee strain with limitation of flexion",
   "diagnostic_code": "5260"
  },
  {
-  "disability_id": "DX00222",
-  "veteran_id": "V0083",
-  "description": "Left ankle, limited motion",
-  "diagnostic_code": "5271"
- },
- {
-  "disability_id": "DX00223",
-  "veteran_id": "V0083",
-  "description": "Plantar fasciitis, right foot",
-  "diagnostic_code": "5269"
- },
- {
-  "disability_id": "DX00224",
-  "veteran_id": "V0083",
-  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00225",
-  "veteran_id": "V0084",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00226",
-  "veteran_id": "V0084",
-  "description": "Scar of the chest wall",
-  "diagnostic_code": "7804"
- },
- {
-  "disability_id": "DX00227",
-  "veteran_id": "V0085",
-  "description": "Left elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
- },
- {
-  "disability_id": "DX00228",
-  "veteran_id": "V0086",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00229",
-  "veteran_id": "V0086",
-  "description": "Migraine headaches",
-  "diagnostic_code": "8100"
- },
- {
-  "disability_id": "DX00230",
-  "veteran_id": "V0086",
-  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00231",
-  "veteran_id": "V0086",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
- },
- {
   "disability_id": "DX00232",
-  "veteran_id": "V0086",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00233",
-  "veteran_id": "V0087",
-  "description": "Obstructive sleep apnea",
-  "diagnostic_code": "6847"
- },
- {
-  "disability_id": "DX00234",
-  "veteran_id": "V0088",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
- },
- {
-  "disability_id": "DX00235",
-  "veteran_id": "V0088",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00236",
-  "veteran_id": "V0089",
-  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00237",
-  "veteran_id": "V0090",
-  "description": "Right hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00238",
-  "veteran_id": "V0090",
-  "description": "Scar of the chest wall",
-  "diagnostic_code": "7804"
- },
- {
-  "disability_id": "DX00239",
-  "veteran_id": "V0090",
-  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00240",
-  "veteran_id": "V0091",
-  "description": "Migraine headaches",
-  "diagnostic_code": "8100"
- },
- {
-  "disability_id": "DX00241",
-  "veteran_id": "V0091",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00242",
-  "veteran_id": "V0091",
-  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00243",
-  "veteran_id": "V0092",
-  "description": "Left knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00244",
-  "veteran_id": "V0092",
+  "veteran_id": "V0079",
   "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
   "diagnostic_code": "8515"
  },
  {
+  "disability_id": "DX00233",
+  "veteran_id": "V0079",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00234",
+  "veteran_id": "V0080",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00235",
+  "veteran_id": "V0080",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00236",
+  "veteran_id": "V0081",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00237",
+  "veteran_id": "V0081",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00238",
+  "veteran_id": "V0081",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00239",
+  "veteran_id": "V0082",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00240",
+  "veteran_id": "V0082",
+  "description": "Left wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00241",
+  "veteran_id": "V0082",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00242",
+  "veteran_id": "V0082",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00243",
+  "veteran_id": "V0083",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00244",
+  "veteran_id": "V0084",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
   "disability_id": "DX00245",
-  "veteran_id": "V0093",
+  "veteran_id": "V0085",
   "description": "Posttraumatic stress disorder",
   "diagnostic_code": "9411"
  },
  {
   "disability_id": "DX00246",
-  "veteran_id": "V0093",
-  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
+  "veteran_id": "V0086",
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
  },
  {
   "disability_id": "DX00247",
-  "veteran_id": "V0093",
-  "description": "Left hip, limitation of flexion",
-  "diagnostic_code": "5252"
+  "veteran_id": "V0086",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
  },
  {
   "disability_id": "DX00248",
-  "veteran_id": "V0093",
-  "description": "Plantar fasciitis, left foot",
-  "diagnostic_code": "5269"
- },
- {
-  "disability_id": "DX00249",
-  "veteran_id": "V0093",
-  "description": "Left knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00250",
-  "veteran_id": "V0093",
-  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00251",
-  "veteran_id": "V0094",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00252",
-  "veteran_id": "V0094",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00253",
-  "veteran_id": "V0094",
-  "description": "Scar of the chest wall",
-  "diagnostic_code": "7804"
- },
- {
-  "disability_id": "DX00254",
-  "veteran_id": "V0094",
-  "description": "Right knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00255",
-  "veteran_id": "V0094",
-  "description": "Left wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
- },
- {
-  "disability_id": "DX00256",
-  "veteran_id": "V0095",
-  "description": "Scar of the chest wall",
-  "diagnostic_code": "7804"
- },
- {
-  "disability_id": "DX00257",
-  "veteran_id": "V0095",
-  "description": "Obstructive sleep apnea",
-  "diagnostic_code": "6847"
- },
- {
-  "disability_id": "DX00258",
-  "veteran_id": "V0095",
-  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00259",
-  "veteran_id": "V0095",
-  "description": "Left knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00260",
-  "veteran_id": "V0096",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00261",
-  "veteran_id": "V0096",
-  "description": "Right shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
-  "disability_id": "DX00262",
-  "veteran_id": "V0097",
-  "description": "Cervical strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00263",
-  "veteran_id": "V0097",
-  "description": "Right knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00264",
-  "veteran_id": "V0098",
-  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00265",
-  "veteran_id": "V0098",
-  "description": "Left wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
- },
- {
-  "disability_id": "DX00266",
-  "veteran_id": "V0099",
-  "description": "Scar of the chest wall",
-  "diagnostic_code": "7804"
- },
- {
-  "disability_id": "DX00267",
-  "veteran_id": "V0099",
+  "veteran_id": "V0087",
   "description": "Tinnitus, recurrent",
   "diagnostic_code": "6260"
  },
  {
-  "disability_id": "DX00268",
-  "veteran_id": "V0099",
+  "disability_id": "DX00249",
+  "veteran_id": "V0087",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00250",
+  "veteran_id": "V0087",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00251",
+  "veteran_id": "V0088",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00252",
+  "veteran_id": "V0089",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00253",
+  "veteran_id": "V0089",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00254",
+  "veteran_id": "V0089",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00255",
+  "veteran_id": "V0089",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00256",
+  "veteran_id": "V0089",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00257",
+  "veteran_id": "V0090",
   "description": "Right knee strain with limitation of flexion",
   "diagnostic_code": "5260"
  },
  {
-  "disability_id": "DX00269",
-  "veteran_id": "V0100",
+  "disability_id": "DX00258",
+  "veteran_id": "V0090",
   "description": "Left knee strain with limitation of flexion",
   "diagnostic_code": "5260"
  },
  {
+  "disability_id": "DX00259",
+  "veteran_id": "V0091",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00260",
+  "veteran_id": "V0091",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00261",
+  "veteran_id": "V0091",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00262",
+  "veteran_id": "V0092",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00263",
+  "veteran_id": "V0092",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00264",
+  "veteran_id": "V0092",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00265",
+  "veteran_id": "V0093",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00266",
+  "veteran_id": "V0093",
+  "description": "Right foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00267",
+  "veteran_id": "V0093",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00268",
+  "veteran_id": "V0093",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00269",
+  "veteran_id": "V0094",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
   "disability_id": "DX00270",
-  "veteran_id": "V0100",
+  "veteran_id": "V0094",
   "description": "Left shoulder impingement, limitation of motion of the arm",
   "diagnostic_code": "5201"
  },
  {
   "disability_id": "DX00271",
-  "veteran_id": "V0100",
-  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
-  "diagnostic_code": "8515"
- },
- {
-  "disability_id": "DX00272",
-  "veteran_id": "V0101",
-  "description": "Cervical strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00273",
-  "veteran_id": "V0101",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00274",
-  "veteran_id": "V0101",
-  "description": "Left knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00275",
-  "veteran_id": "V0101",
-  "description": "Left elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
- },
- {
-  "disability_id": "DX00276",
-  "veteran_id": "V0101",
-  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "veteran_id": "V0095",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
   "diagnostic_code": "8520"
  },
  {
-  "disability_id": "DX00277",
-  "veteran_id": "V0102",
-  "description": "Left ankle, limited motion",
-  "diagnostic_code": "5271"
- },
- {
-  "disability_id": "DX00278",
-  "veteran_id": "V0102",
-  "description": "Cervical strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00279",
-  "veteran_id": "V0103",
-  "description": "Right shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
-  "disability_id": "DX00280",
-  "veteran_id": "V0103",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00281",
-  "veteran_id": "V0103",
+  "disability_id": "DX00272",
+  "veteran_id": "V0095",
   "description": "Right knee strain with limitation of flexion",
   "diagnostic_code": "5260"
  },
  {
-  "disability_id": "DX00282",
-  "veteran_id": "V0103",
+  "disability_id": "DX00273",
+  "veteran_id": "V0096",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00274",
+  "veteran_id": "V0097",
   "description": "Tinnitus, recurrent",
   "diagnostic_code": "6260"
  },
  {
-  "disability_id": "DX00283",
-  "veteran_id": "V0104",
+  "disability_id": "DX00275",
+  "veteran_id": "V0098",
   "description": "Hypertension",
   "diagnostic_code": "7101"
  },
  {
-  "disability_id": "DX00284",
-  "veteran_id": "V0105",
-  "description": "Left shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
-  "disability_id": "DX00285",
-  "veteran_id": "V0105",
-  "description": "Left knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00286",
-  "veteran_id": "V0106",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00287",
-  "veteran_id": "V0106",
-  "description": "Left knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00288",
-  "veteran_id": "V0106",
-  "description": "Obstructive sleep apnea",
-  "diagnostic_code": "6847"
- },
- {
-  "disability_id": "DX00289",
-  "veteran_id": "V0107",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00290",
-  "veteran_id": "V0107",
-  "description": "Cervical strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00291",
-  "veteran_id": "V0108",
+  "disability_id": "DX00276",
+  "veteran_id": "V0099",
   "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
   "diagnostic_code": "8515"
  },
  {
-  "disability_id": "DX00292",
-  "veteran_id": "V0108",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
+  "disability_id": "DX00277",
+  "veteran_id": "V0099",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
  },
  {
-  "disability_id": "DX00293",
-  "veteran_id": "V0108",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
+  "disability_id": "DX00278",
+  "veteran_id": "V0099",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
  },
  {
-  "disability_id": "DX00294",
-  "veteran_id": "V0109",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
+  "disability_id": "DX00279",
+  "veteran_id": "V0099",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
  },
  {
-  "disability_id": "DX00295",
-  "veteran_id": "V0109",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00296",
-  "veteran_id": "V0109",
-  "description": "Migraine headaches",
-  "diagnostic_code": "8100"
- },
- {
-  "disability_id": "DX00297",
-  "veteran_id": "V0110",
+  "disability_id": "DX00280",
+  "veteran_id": "V0100",
   "description": "Right ankle, limited motion",
   "diagnostic_code": "5271"
  },
  {
-  "disability_id": "DX00298",
-  "veteran_id": "V0110",
-  "description": "Right wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
+  "disability_id": "DX00281",
+  "veteran_id": "V0100",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
  },
  {
-  "disability_id": "DX00299",
-  "veteran_id": "V0111",
-  "description": "Left ankle, limited motion",
-  "diagnostic_code": "5271"
+  "disability_id": "DX00282",
+  "veteran_id": "V0100",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
  },
  {
-  "disability_id": "DX00300",
-  "veteran_id": "V0111",
+  "disability_id": "DX00283",
+  "veteran_id": "V0100",
   "description": "Tinnitus, recurrent",
   "diagnostic_code": "6260"
  },
  {
-  "disability_id": "DX00301",
-  "veteran_id": "V0111",
-  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00302",
-  "veteran_id": "V0112",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00303",
-  "veteran_id": "V0112",
+  "disability_id": "DX00284",
+  "veteran_id": "V0100",
   "description": "Left knee strain with limitation of flexion",
   "diagnostic_code": "5260"
  },
  {
-  "disability_id": "DX00304",
-  "veteran_id": "V0113",
-  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00305",
-  "veteran_id": "V0113",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00306",
-  "veteran_id": "V0113",
-  "description": "Right knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00307",
-  "veteran_id": "V0114",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00308",
-  "veteran_id": "V0114",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00309",
-  "veteran_id": "V0114",
-  "description": "Right elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
- },
- {
-  "disability_id": "DX00310",
-  "veteran_id": "V0115",
-  "description": "Right hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00311",
-  "veteran_id": "V0115",
-  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00312",
-  "veteran_id": "V0115",
-  "description": "Plantar fasciitis, left foot",
-  "diagnostic_code": "5269"
- },
- {
-  "disability_id": "DX00313",
-  "veteran_id": "V0116",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00314",
-  "veteran_id": "V0116",
+  "disability_id": "DX00285",
+  "veteran_id": "V0100",
   "description": "Left ankle, limited motion",
   "diagnostic_code": "5271"
  },
  {
+  "disability_id": "DX00286",
+  "veteran_id": "V0101",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00287",
+  "veteran_id": "V0101",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00288",
+  "veteran_id": "V0101",
+  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00289",
+  "veteran_id": "V0102",
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00290",
+  "veteran_id": "V0102",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00291",
+  "veteran_id": "V0102",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00292",
+  "veteran_id": "V0103",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00293",
+  "veteran_id": "V0103",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00294",
+  "veteran_id": "V0103",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00295",
+  "veteran_id": "V0103",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00296",
+  "veteran_id": "V0103",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00297",
+  "veteran_id": "V0103",
+  "description": "Left wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00298",
+  "veteran_id": "V0103",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00299",
+  "veteran_id": "V0104",
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00300",
+  "veteran_id": "V0104",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00301",
+  "veteran_id": "V0104",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00302",
+  "veteran_id": "V0104",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00303",
+  "veteran_id": "V0104",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00304",
+  "veteran_id": "V0104",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00305",
+  "veteran_id": "V0104",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00306",
+  "veteran_id": "V0105",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00307",
+  "veteran_id": "V0105",
+  "description": "Left wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00308",
+  "veteran_id": "V0105",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00309",
+  "veteran_id": "V0105",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00310",
+  "veteran_id": "V0106",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00311",
+  "veteran_id": "V0106",
+  "description": "Left wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00312",
+  "veteran_id": "V0106",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00313",
+  "veteran_id": "V0106",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00314",
+  "veteran_id": "V0107",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
   "disability_id": "DX00315",
-  "veteran_id": "V0117",
-  "description": "Plantar fasciitis, left foot",
-  "diagnostic_code": "5269"
+  "veteran_id": "V0108",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
  },
  {
   "disability_id": "DX00316",
-  "veteran_id": "V0118",
+  "veteran_id": "V0108",
   "description": "Scar of the chest wall",
   "diagnostic_code": "7804"
  },
  {
   "disability_id": "DX00317",
-  "veteran_id": "V0118",
+  "veteran_id": "V0109",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00318",
+  "veteran_id": "V0109",
   "description": "Hypertension",
   "diagnostic_code": "7101"
  },
  {
-  "disability_id": "DX00318",
-  "veteran_id": "V0119",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
   "disability_id": "DX00319",
-  "veteran_id": "V0119",
-  "description": "Left wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
+  "veteran_id": "V0109",
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
  },
  {
   "disability_id": "DX00320",
-  "veteran_id": "V0119",
-  "description": "Right wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
+  "veteran_id": "V0109",
+  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
  },
  {
   "disability_id": "DX00321",
-  "veteran_id": "V0120",
+  "veteran_id": "V0110",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00322",
+  "veteran_id": "V0111",
   "description": "Cervical strain",
   "diagnostic_code": "5237"
  },
  {
-  "disability_id": "DX00322",
-  "veteran_id": "V0121",
+  "disability_id": "DX00323",
+  "veteran_id": "V0111",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00324",
+  "veteran_id": "V0112",
+  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00325",
+  "veteran_id": "V0112",
   "description": "Hypertension",
   "diagnostic_code": "7101"
  },
  {
-  "disability_id": "DX00323",
-  "veteran_id": "V0121",
-  "description": "Right elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
- },
- {
-  "disability_id": "DX00324",
-  "veteran_id": "V0121",
-  "description": "Left ankle, limited motion",
-  "diagnostic_code": "5271"
- },
- {
-  "disability_id": "DX00325",
-  "veteran_id": "V0122",
-  "description": "Right knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
   "disability_id": "DX00326",
-  "veteran_id": "V0122",
-  "description": "Left shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
+  "veteran_id": "V0112",
+  "description": "Left wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
  },
  {
   "disability_id": "DX00327",
-  "veteran_id": "V0122",
+  "veteran_id": "V0112",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00328",
+  "veteran_id": "V0112",
   "description": "Left elbow tendinitis, limitation of flexion",
   "diagnostic_code": "5206"
  },
  {
-  "disability_id": "DX00328",
-  "veteran_id": "V0122",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
   "disability_id": "DX00329",
-  "veteran_id": "V0122",
-  "description": "Right wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
+  "veteran_id": "V0112",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
  },
  {
   "disability_id": "DX00330",
-  "veteran_id": "V0123",
+  "veteran_id": "V0113",
   "description": "Right knee strain with limitation of flexion",
   "diagnostic_code": "5260"
  },
  {
   "disability_id": "DX00331",
-  "veteran_id": "V0123",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
+  "veteran_id": "V0113",
+  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
  },
  {
   "disability_id": "DX00332",
-  "veteran_id": "V0123",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
+  "veteran_id": "V0113",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
  },
  {
   "disability_id": "DX00333",
-  "veteran_id": "V0124",
-  "description": "Cervical strain",
-  "diagnostic_code": "5237"
+  "veteran_id": "V0114",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
  },
  {
   "disability_id": "DX00334",
-  "veteran_id": "V0124",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
+  "veteran_id": "V0114",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
  },
  {
   "disability_id": "DX00335",
-  "veteran_id": "V0124",
+  "veteran_id": "V0115",
   "description": "Right elbow tendinitis, limitation of flexion",
   "diagnostic_code": "5206"
  },
  {
   "disability_id": "DX00336",
-  "veteran_id": "V0124",
-  "description": "Left wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
+  "veteran_id": "V0115",
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
  },
  {
   "disability_id": "DX00337",
-  "veteran_id": "V0125",
-  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
+  "veteran_id": "V0115",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
  },
  {
   "disability_id": "DX00338",
-  "veteran_id": "V0125",
-  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
-  "diagnostic_code": "8515"
+  "veteran_id": "V0115",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
  },
  {
   "disability_id": "DX00339",
-  "veteran_id": "V0125",
+  "veteran_id": "V0116",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00340",
+  "veteran_id": "V0117",
   "description": "Posttraumatic stress disorder",
   "diagnostic_code": "9411"
  },
  {
-  "disability_id": "DX00340",
-  "veteran_id": "V0126",
-  "description": "Right wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
- },
- {
   "disability_id": "DX00341",
-  "veteran_id": "V0126",
-  "description": "Left shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
+  "veteran_id": "V0118",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
  },
  {
   "disability_id": "DX00342",
-  "veteran_id": "V0126",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00343",
-  "veteran_id": "V0127",
+  "veteran_id": "V0118",
   "description": "Obstructive sleep apnea",
   "diagnostic_code": "6847"
  },
  {
-  "disability_id": "DX00344",
-  "veteran_id": "V0128",
+  "disability_id": "DX00343",
+  "veteran_id": "V0118",
   "description": "Tinnitus, recurrent",
   "diagnostic_code": "6260"
  },
  {
+  "disability_id": "DX00344",
+  "veteran_id": "V0118",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
   "disability_id": "DX00345",
-  "veteran_id": "V0128",
-  "description": "Right wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
+  "veteran_id": "V0119",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
  },
  {
   "disability_id": "DX00346",
-  "veteran_id": "V0129",
+  "veteran_id": "V0120",
   "description": "Left wrist strain, limitation of motion",
   "diagnostic_code": "5215"
  },
  {
   "disability_id": "DX00347",
-  "veteran_id": "V0129",
+  "veteran_id": "V0120",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00348",
+  "veteran_id": "V0120",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00349",
+  "veteran_id": "V0120",
+  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00350",
+  "veteran_id": "V0121",
   "description": "Posttraumatic stress disorder",
   "diagnostic_code": "9411"
  },
  {
-  "disability_id": "DX00348",
-  "veteran_id": "V0129",
-  "description": "Plantar fasciitis, right foot",
-  "diagnostic_code": "5269"
- },
- {
-  "disability_id": "DX00349",
-  "veteran_id": "V0129",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00350",
-  "veteran_id": "V0129",
-  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
-  "diagnostic_code": "8515"
- },
- {
   "disability_id": "DX00351",
-  "veteran_id": "V0130",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00352",
-  "veteran_id": "V0131",
-  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
-  "diagnostic_code": "8515"
- },
- {
-  "disability_id": "DX00353",
-  "veteran_id": "V0131",
-  "description": "Left shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
-  "disability_id": "DX00354",
-  "veteran_id": "V0132",
-  "description": "Right knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00355",
-  "veteran_id": "V0132",
-  "description": "Lumbosacral strain",
-  "diagnostic_code": "5237"
- },
- {
-  "disability_id": "DX00356",
-  "veteran_id": "V0132",
-  "description": "Left shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
-  "disability_id": "DX00357",
-  "veteran_id": "V0133",
+  "veteran_id": "V0121",
   "description": "Left ankle, limited motion",
   "diagnostic_code": "5271"
  },
  {
-  "disability_id": "DX00358",
-  "veteran_id": "V0133",
+  "disability_id": "DX00352",
+  "veteran_id": "V0121",
   "description": "Radiculopathy, left lower extremity (sciatic nerve)",
   "diagnostic_code": "8520"
  },
  {
-  "disability_id": "DX00359",
-  "veteran_id": "V0133",
-  "description": "Right shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
-  "disability_id": "DX00360",
-  "veteran_id": "V0134",
-  "description": "Left ankle, limited motion",
-  "diagnostic_code": "5271"
- },
- {
-  "disability_id": "DX00361",
-  "veteran_id": "V0135",
-  "description": "Left ankle, limited motion",
-  "diagnostic_code": "5271"
- },
- {
-  "disability_id": "DX00362",
-  "veteran_id": "V0135",
+  "disability_id": "DX00353",
+  "veteran_id": "V0121",
   "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
   "diagnostic_code": "8515"
  },
  {
-  "disability_id": "DX00363",
-  "veteran_id": "V0135",
-  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00364",
-  "veteran_id": "V0136",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
- },
- {
-  "disability_id": "DX00365",
-  "veteran_id": "V0137",
-  "description": "Plantar fasciitis, right foot",
-  "diagnostic_code": "5269"
- },
- {
-  "disability_id": "DX00366",
-  "veteran_id": "V0138",
-  "description": "Left wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
- },
- {
-  "disability_id": "DX00367",
-  "veteran_id": "V0138",
-  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
-  "diagnostic_code": "8515"
- },
- {
-  "disability_id": "DX00368",
-  "veteran_id": "V0138",
+  "disability_id": "DX00354",
+  "veteran_id": "V0121",
   "description": "Right elbow tendinitis, limitation of flexion",
   "diagnostic_code": "5206"
  },
  {
-  "disability_id": "DX00369",
-  "veteran_id": "V0138",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
+  "disability_id": "DX00355",
+  "veteran_id": "V0121",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
  },
  {
-  "disability_id": "DX00370",
-  "veteran_id": "V0139",
+  "disability_id": "DX00356",
+  "veteran_id": "V0122",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00357",
+  "veteran_id": "V0122",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00358",
+  "veteran_id": "V0122",
   "description": "Right wrist strain, limitation of motion",
   "diagnostic_code": "5215"
  },
  {
-  "disability_id": "DX00371",
-  "veteran_id": "V0140",
-  "description": "Left wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
+  "disability_id": "DX00359",
+  "veteran_id": "V0122",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
  },
  {
-  "disability_id": "DX00372",
-  "veteran_id": "V0140",
+  "disability_id": "DX00360",
+  "veteran_id": "V0122",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00361",
+  "veteran_id": "V0123",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00362",
+  "veteran_id": "V0123",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00363",
+  "veteran_id": "V0123",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00364",
+  "veteran_id": "V0123",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00365",
+  "veteran_id": "V0124",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00366",
+  "veteran_id": "V0124",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00367",
+  "veteran_id": "V0124",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00368",
+  "veteran_id": "V0124",
   "description": "Left ankle, limited motion",
   "diagnostic_code": "5271"
  },
  {
+  "disability_id": "DX00369",
+  "veteran_id": "V0124",
+  "description": "Right foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00370",
+  "veteran_id": "V0125",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00371",
+  "veteran_id": "V0126",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00372",
+  "veteran_id": "V0126",
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
   "disability_id": "DX00373",
-  "veteran_id": "V0140",
-  "description": "Plantar fasciitis, left foot",
-  "diagnostic_code": "5269"
+  "veteran_id": "V0127",
+  "description": "Left wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
  },
  {
   "disability_id": "DX00374",
-  "veteran_id": "V0140",
+  "veteran_id": "V0127",
   "description": "Posttraumatic stress disorder",
   "diagnostic_code": "9411"
  },
  {
   "disability_id": "DX00375",
-  "veteran_id": "V0141",
-  "description": "Right ankle, limited motion",
-  "diagnostic_code": "5271"
- },
- {
-  "disability_id": "DX00376",
-  "veteran_id": "V0141",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00377",
-  "veteran_id": "V0141",
-  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
-  "diagnostic_code": "8515"
- },
- {
-  "disability_id": "DX00378",
-  "veteran_id": "V0141",
-  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
-  "diagnostic_code": "8515"
- },
- {
-  "disability_id": "DX00379",
-  "veteran_id": "V0142",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00380",
-  "veteran_id": "V0142",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
- },
- {
-  "disability_id": "DX00381",
-  "veteran_id": "V0143",
-  "description": "Plantar fasciitis, left foot",
-  "diagnostic_code": "5269"
- },
- {
-  "disability_id": "DX00382",
-  "veteran_id": "V0143",
-  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "veteran_id": "V0127",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
   "diagnostic_code": "5201"
  },
  {
-  "disability_id": "DX00383",
-  "veteran_id": "V0143",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00384",
-  "veteran_id": "V0144",
-  "description": "Right knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00385",
-  "veteran_id": "V0144",
-  "description": "Plantar fasciitis, left foot",
-  "diagnostic_code": "5269"
- },
- {
-  "disability_id": "DX00386",
-  "veteran_id": "V0145",
+  "disability_id": "DX00376",
+  "veteran_id": "V0127",
   "description": "Lumbosacral strain",
   "diagnostic_code": "5237"
  },
  {
+  "disability_id": "DX00377",
+  "veteran_id": "V0127",
+  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00378",
+  "veteran_id": "V0128",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00379",
+  "veteran_id": "V0128",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00380",
+  "veteran_id": "V0129",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00381",
+  "veteran_id": "V0129",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00382",
+  "veteran_id": "V0129",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00383",
+  "veteran_id": "V0129",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00384",
+  "veteran_id": "V0129",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00385",
+  "veteran_id": "V0129",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00386",
+  "veteran_id": "V0130",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
   "disability_id": "DX00387",
-  "veteran_id": "V0145",
+  "veteran_id": "V0130",
   "description": "Obstructive sleep apnea",
   "diagnostic_code": "6847"
  },
  {
   "disability_id": "DX00388",
-  "veteran_id": "V0146",
-  "description": "Right wrist strain, limitation of motion",
-  "diagnostic_code": "5215"
- },
- {
-  "disability_id": "DX00389",
-  "veteran_id": "V0146",
-  "description": "Plantar fasciitis, left foot",
-  "diagnostic_code": "5269"
- },
- {
-  "disability_id": "DX00390",
-  "veteran_id": "V0147",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00391",
-  "veteran_id": "V0148",
-  "description": "Migraine headaches",
-  "diagnostic_code": "8100"
- },
- {
-  "disability_id": "DX00392",
-  "veteran_id": "V0148",
-  "description": "Left ankle, limited motion",
-  "diagnostic_code": "5271"
- },
- {
-  "disability_id": "DX00393",
-  "veteran_id": "V0148",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00394",
-  "veteran_id": "V0149",
-  "description": "Right knee strain with limitation of flexion",
-  "diagnostic_code": "5260"
- },
- {
-  "disability_id": "DX00395",
-  "veteran_id": "V0150",
-  "description": "Posttraumatic stress disorder",
-  "diagnostic_code": "9411"
- },
- {
-  "disability_id": "DX00396",
-  "veteran_id": "V0150",
-  "description": "Plantar fasciitis, left foot",
-  "diagnostic_code": "5269"
- },
- {
-  "disability_id": "DX00397",
-  "veteran_id": "V0150",
-  "description": "Right elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
- },
- {
-  "disability_id": "DX00398",
-  "veteran_id": "V0151",
-  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
-  "diagnostic_code": "8515"
- },
- {
-  "disability_id": "DX00399",
-  "veteran_id": "V0151",
-  "description": "Left hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00400",
-  "veteran_id": "V0152",
+  "veteran_id": "V0130",
   "description": "Left shoulder impingement, limitation of motion of the arm",
   "diagnostic_code": "5201"
  },
  {
-  "disability_id": "DX00401",
-  "veteran_id": "V0153",
+  "disability_id": "DX00389",
+  "veteran_id": "V0130",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00390",
+  "veteran_id": "V0130",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00391",
+  "veteran_id": "V0131",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00392",
+  "veteran_id": "V0132",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00393",
+  "veteran_id": "V0132",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00394",
+  "veteran_id": "V0132",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00395",
+  "veteran_id": "V0133",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00396",
+  "veteran_id": "V0134",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00397",
+  "veteran_id": "V0134",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00398",
+  "veteran_id": "V0134",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00399",
+  "veteran_id": "V0135",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00400",
+  "veteran_id": "V0135",
   "description": "Left wrist strain, limitation of motion",
   "diagnostic_code": "5215"
  },
  {
+  "disability_id": "DX00401",
+  "veteran_id": "V0135",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
   "disability_id": "DX00402",
-  "veteran_id": "V0153",
-  "description": "Left hip, limitation of flexion",
-  "diagnostic_code": "5252"
+  "veteran_id": "V0136",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
  },
  {
   "disability_id": "DX00403",
-  "veteran_id": "V0153",
+  "veteran_id": "V0136",
   "description": "Obstructive sleep apnea",
   "diagnostic_code": "6847"
  },
  {
   "disability_id": "DX00404",
-  "veteran_id": "V0154",
-  "description": "Right shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
+  "veteran_id": "V0137",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
  },
  {
   "disability_id": "DX00405",
-  "veteran_id": "V0154",
+  "veteran_id": "V0138",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00406",
+  "veteran_id": "V0139",
   "description": "Left knee strain with limitation of flexion",
   "diagnostic_code": "5260"
  },
  {
-  "disability_id": "DX00406",
-  "veteran_id": "V0155",
-  "description": "Left hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
   "disability_id": "DX00407",
-  "veteran_id": "V0155",
-  "description": "Left elbow tendinitis, limitation of flexion",
-  "diagnostic_code": "5206"
+  "veteran_id": "V0139",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
  },
  {
   "disability_id": "DX00408",
-  "veteran_id": "V0155",
+  "veteran_id": "V0139",
   "description": "Tinnitus, recurrent",
   "diagnostic_code": "6260"
  },
  {
   "disability_id": "DX00409",
-  "veteran_id": "V0155",
-  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00410",
-  "veteran_id": "V0155",
-  "description": "Scar of the chest wall",
-  "diagnostic_code": "7804"
- },
- {
-  "disability_id": "DX00411",
-  "veteran_id": "V0156",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00412",
-  "veteran_id": "V0156",
-  "description": "Tinnitus, recurrent",
-  "diagnostic_code": "6260"
- },
- {
-  "disability_id": "DX00413",
-  "veteran_id": "V0157",
-  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00414",
-  "veteran_id": "V0158",
-  "description": "Hypertension",
-  "diagnostic_code": "7101"
- },
- {
-  "disability_id": "DX00415",
-  "veteran_id": "V0158",
-  "description": "Left hip, limitation of flexion",
-  "diagnostic_code": "5252"
- },
- {
-  "disability_id": "DX00416",
-  "veteran_id": "V0158",
-  "description": "Right shoulder impingement, limitation of motion of the arm",
-  "diagnostic_code": "5201"
- },
- {
-  "disability_id": "DX00417",
-  "veteran_id": "V0159",
-  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
-  "diagnostic_code": "8520"
- },
- {
-  "disability_id": "DX00418",
-  "veteran_id": "V0159",
+  "veteran_id": "V0140",
   "description": "Left shoulder impingement, limitation of motion of the arm",
   "diagnostic_code": "5201"
  },
  {
-  "disability_id": "DX00419",
-  "veteran_id": "V0159",
+  "disability_id": "DX00410",
+  "veteran_id": "V0140",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00411",
+  "veteran_id": "V0140",
+  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00412",
+  "veteran_id": "V0141",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00413",
+  "veteran_id": "V0142",
+  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00414",
+  "veteran_id": "V0142",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00415",
+  "veteran_id": "V0142",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00416",
+  "veteran_id": "V0142",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00417",
+  "veteran_id": "V0143",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00418",
+  "veteran_id": "V0143",
   "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
   "diagnostic_code": "8515"
  },
  {
+  "disability_id": "DX00419",
+  "veteran_id": "V0143",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
   "disability_id": "DX00420",
-  "veteran_id": "V0160",
+  "veteran_id": "V0144",
   "description": "Lumbosacral strain",
   "diagnostic_code": "5237"
  },
  {
   "disability_id": "DX00421",
-  "veteran_id": "V0160",
+  "veteran_id": "V0145",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00422",
+  "veteran_id": "V0145",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00423",
+  "veteran_id": "V0145",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00424",
+  "veteran_id": "V0146",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00425",
+  "veteran_id": "V0146",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00426",
+  "veteran_id": "V0146",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00427",
+  "veteran_id": "V0146",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00428",
+  "veteran_id": "V0147",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00429",
+  "veteran_id": "V0148",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00430",
+  "veteran_id": "V0148",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00431",
+  "veteran_id": "V0148",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00432",
+  "veteran_id": "V0148",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00433",
+  "veteran_id": "V0149",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00434",
+  "veteran_id": "V0149",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00435",
+  "veteran_id": "V0149",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00436",
+  "veteran_id": "V0150",
   "description": "Left shoulder impingement, limitation of motion of the arm",
   "diagnostic_code": "5201"
  },
  {
-  "disability_id": "DX00422",
-  "veteran_id": "V0160",
+  "disability_id": "DX00437",
+  "veteran_id": "V0150",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00438",
+  "veteran_id": "V0150",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00439",
+  "veteran_id": "V0150",
+  "description": "Left wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00440",
+  "veteran_id": "V0151",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00441",
+  "veteran_id": "V0151",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00442",
+  "veteran_id": "V0151",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00443",
+  "veteran_id": "V0151",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00444",
+  "veteran_id": "V0151",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00445",
+  "veteran_id": "V0152",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00446",
+  "veteran_id": "V0153",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00447",
+  "veteran_id": "V0154",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00448",
+  "veteran_id": "V0154",
   "description": "Hypertension",
   "diagnostic_code": "7101"
  },
  {
-  "disability_id": "DX00423",
+  "disability_id": "DX00449",
+  "veteran_id": "V0155",
+  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00450",
+  "veteran_id": "V0155",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00451",
+  "veteran_id": "V0155",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00452",
+  "veteran_id": "V0155",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00453",
+  "veteran_id": "V0156",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00454",
+  "veteran_id": "V0157",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00455",
+  "veteran_id": "V0157",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00456",
+  "veteran_id": "V0158",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00457",
+  "veteran_id": "V0158",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00458",
+  "veteran_id": "V0158",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00459",
+  "veteran_id": "V0158",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00460",
+  "veteran_id": "V0158",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00461",
+  "veteran_id": "V0159",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00462",
   "veteran_id": "V0160",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00463",
+  "veteran_id": "V0160",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00464",
+  "veteran_id": "V0160",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00465",
+  "veteran_id": "V0161",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00466",
+  "veteran_id": "V0161",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00467",
+  "veteran_id": "V0161",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00468",
+  "veteran_id": "V0161",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00469",
+  "veteran_id": "V0162",
+  "description": "Right foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00470",
+  "veteran_id": "V0162",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00471",
+  "veteran_id": "V0162",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00472",
+  "veteran_id": "V0163",
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00473",
+  "veteran_id": "V0164",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00474",
+  "veteran_id": "V0164",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00475",
+  "veteran_id": "V0164",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00476",
+  "veteran_id": "V0165",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00477",
+  "veteran_id": "V0166",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00478",
+  "veteran_id": "V0166",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00479",
+  "veteran_id": "V0166",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00480",
+  "veteran_id": "V0166",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00481",
+  "veteran_id": "V0166",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00482",
+  "veteran_id": "V0167",
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00483",
+  "veteran_id": "V0167",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00484",
+  "veteran_id": "V0167",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00485",
+  "veteran_id": "V0167",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00486",
+  "veteran_id": "V0167",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00487",
+  "veteran_id": "V0168",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00488",
+  "veteran_id": "V0169",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00489",
+  "veteran_id": "V0169",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00490",
+  "veteran_id": "V0169",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00491",
+  "veteran_id": "V0169",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00492",
+  "veteran_id": "V0170",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00493",
+  "veteran_id": "V0170",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00494",
+  "veteran_id": "V0170",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00495",
+  "veteran_id": "V0170",
+  "description": "Right foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00496",
+  "veteran_id": "V0171",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00497",
+  "veteran_id": "V0171",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00498",
+  "veteran_id": "V0172",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00499",
+  "veteran_id": "V0172",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00500",
+  "veteran_id": "V0172",
+  "description": "Left wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00501",
+  "veteran_id": "V0172",
+  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00502",
+  "veteran_id": "V0172",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00503",
+  "veteran_id": "V0173",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00504",
+  "veteran_id": "V0173",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00505",
+  "veteran_id": "V0173",
   "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
   "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00506",
+  "veteran_id": "V0174",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00507",
+  "veteran_id": "V0174",
+  "description": "Right foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00508",
+  "veteran_id": "V0175",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00509",
+  "veteran_id": "V0176",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00510",
+  "veteran_id": "V0176",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00511",
+  "veteran_id": "V0176",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00512",
+  "veteran_id": "V0176",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00513",
+  "veteran_id": "V0177",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00514",
+  "veteran_id": "V0178",
+  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00515",
+  "veteran_id": "V0178",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00516",
+  "veteran_id": "V0178",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00517",
+  "veteran_id": "V0179",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00518",
+  "veteran_id": "V0179",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00519",
+  "veteran_id": "V0180",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00520",
+  "veteran_id": "V0180",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00521",
+  "veteran_id": "V0181",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00522",
+  "veteran_id": "V0181",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00523",
+  "veteran_id": "V0181",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00524",
+  "veteran_id": "V0181",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00525",
+  "veteran_id": "V0181",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00526",
+  "veteran_id": "V0182",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00527",
+  "veteran_id": "V0182",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00528",
+  "veteran_id": "V0183",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00529",
+  "veteran_id": "V0184",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00530",
+  "veteran_id": "V0184",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00531",
+  "veteran_id": "V0184",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00532",
+  "veteran_id": "V0185",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00533",
+  "veteran_id": "V0185",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00534",
+  "veteran_id": "V0185",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00535",
+  "veteran_id": "V0185",
+  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00536",
+  "veteran_id": "V0186",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00537",
+  "veteran_id": "V0186",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00538",
+  "veteran_id": "V0187",
+  "description": "Right foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00539",
+  "veteran_id": "V0187",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00540",
+  "veteran_id": "V0187",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00541",
+  "veteran_id": "V0187",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00542",
+  "veteran_id": "V0188",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00543",
+  "veteran_id": "V0188",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00544",
+  "veteran_id": "V0189",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00545",
+  "veteran_id": "V0189",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00546",
+  "veteran_id": "V0189",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00547",
+  "veteran_id": "V0190",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00548",
+  "veteran_id": "V0190",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00549",
+  "veteran_id": "V0190",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00550",
+  "veteran_id": "V0191",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00551",
+  "veteran_id": "V0191",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00552",
+  "veteran_id": "V0191",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00553",
+  "veteran_id": "V0191",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00554",
+  "veteran_id": "V0191",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00555",
+  "veteran_id": "V0191",
+  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00556",
+  "veteran_id": "V0192",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00557",
+  "veteran_id": "V0192",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00558",
+  "veteran_id": "V0193",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00559",
+  "veteran_id": "V0193",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00560",
+  "veteran_id": "V0193",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00561",
+  "veteran_id": "V0193",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00562",
+  "veteran_id": "V0193",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00563",
+  "veteran_id": "V0193",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00564",
+  "veteran_id": "V0194",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00565",
+  "veteran_id": "V0194",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00566",
+  "veteran_id": "V0195",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00567",
+  "veteran_id": "V0195",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00568",
+  "veteran_id": "V0196",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00569",
+  "veteran_id": "V0196",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00570",
+  "veteran_id": "V0196",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00571",
+  "veteran_id": "V0197",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00572",
+  "veteran_id": "V0197",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00573",
+  "veteran_id": "V0197",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00574",
+  "veteran_id": "V0197",
+  "description": "Right foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00575",
+  "veteran_id": "V0198",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00576",
+  "veteran_id": "V0198",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00577",
+  "veteran_id": "V0198",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00578",
+  "veteran_id": "V0198",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00579",
+  "veteran_id": "V0199",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00580",
+  "veteran_id": "V0199",
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00581",
+  "veteran_id": "V0200",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00582",
+  "veteran_id": "V0201",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00583",
+  "veteran_id": "V0201",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00584",
+  "veteran_id": "V0202",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00585",
+  "veteran_id": "V0202",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00586",
+  "veteran_id": "V0202",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00587",
+  "veteran_id": "V0203",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00588",
+  "veteran_id": "V0203",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00589",
+  "veteran_id": "V0203",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00590",
+  "veteran_id": "V0204",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00591",
+  "veteran_id": "V0204",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00592",
+  "veteran_id": "V0204",
+  "description": "Right foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00593",
+  "veteran_id": "V0204",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00594",
+  "veteran_id": "V0204",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00595",
+  "veteran_id": "V0204",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00596",
+  "veteran_id": "V0205",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00597",
+  "veteran_id": "V0205",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00598",
+  "veteran_id": "V0206",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00599",
+  "veteran_id": "V0206",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00600",
+  "veteran_id": "V0207",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00601",
+  "veteran_id": "V0207",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00602",
+  "veteran_id": "V0207",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00603",
+  "veteran_id": "V0207",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00604",
+  "veteran_id": "V0207",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00605",
+  "veteran_id": "V0208",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00606",
+  "veteran_id": "V0208",
+  "description": "Left shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00607",
+  "veteran_id": "V0208",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00608",
+  "veteran_id": "V0208",
+  "description": "Right wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00609",
+  "veteran_id": "V0208",
+  "description": "Carpal tunnel syndrome, right upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00610",
+  "veteran_id": "V0209",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00611",
+  "veteran_id": "V0209",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00612",
+  "veteran_id": "V0210",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00613",
+  "veteran_id": "V0210",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00614",
+  "veteran_id": "V0210",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00615",
+  "veteran_id": "V0211",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00616",
+  "veteran_id": "V0211",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00617",
+  "veteran_id": "V0211",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00618",
+  "veteran_id": "V0212",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00619",
+  "veteran_id": "V0212",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00620",
+  "veteran_id": "V0212",
+  "description": "Carpal tunnel syndrome, left upper extremity (median nerve)",
+  "diagnostic_code": "8515"
+ },
+ {
+  "disability_id": "DX00621",
+  "veteran_id": "V0212",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00622",
+  "veteran_id": "V0212",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00623",
+  "veteran_id": "V0212",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00624",
+  "veteran_id": "V0212",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00625",
+  "veteran_id": "V0213",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00626",
+  "veteran_id": "V0214",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00627",
+  "veteran_id": "V0214",
+  "description": "Left wrist strain, limitation of motion",
+  "diagnostic_code": "5215"
+ },
+ {
+  "disability_id": "DX00628",
+  "veteran_id": "V0214",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00629",
+  "veteran_id": "V0214",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00630",
+  "veteran_id": "V0214",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00631",
+  "veteran_id": "V0214",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00632",
+  "veteran_id": "V0215",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00633",
+  "veteran_id": "V0215",
+  "description": "Right shoulder impingement, limitation of motion of the arm",
+  "diagnostic_code": "5201"
+ },
+ {
+  "disability_id": "DX00634",
+  "veteran_id": "V0215",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00635",
+  "veteran_id": "V0215",
+  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00636",
+  "veteran_id": "V0215",
+  "description": "Tinnitus, recurrent",
+  "diagnostic_code": "6260"
+ },
+ {
+  "disability_id": "DX00637",
+  "veteran_id": "V0216",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00638",
+  "veteran_id": "V0216",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00639",
+  "veteran_id": "V0216",
+  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00640",
+  "veteran_id": "V0217",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00641",
+  "veteran_id": "V0217",
+  "description": "Migraine headaches",
+  "diagnostic_code": "8100"
+ },
+ {
+  "disability_id": "DX00642",
+  "veteran_id": "V0218",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00643",
+  "veteran_id": "V0218",
+  "description": "Left hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00644",
+  "veteran_id": "V0219",
+  "description": "Scar of the chest wall",
+  "diagnostic_code": "7804"
+ },
+ {
+  "disability_id": "DX00645",
+  "veteran_id": "V0219",
+  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00646",
+  "veteran_id": "V0219",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00647",
+  "veteran_id": "V0219",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00648",
+  "veteran_id": "V0220",
+  "description": "Obstructive sleep apnea",
+  "diagnostic_code": "6847"
+ },
+ {
+  "disability_id": "DX00649",
+  "veteran_id": "V0220",
+  "description": "Lumbosacral strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00650",
+  "veteran_id": "V0220",
+  "description": "Left knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00651",
+  "veteran_id": "V0220",
+  "description": "Left ankle, limited motion",
+  "diagnostic_code": "5271"
+ },
+ {
+  "disability_id": "DX00652",
+  "veteran_id": "V0220",
+  "description": "Hypertension",
+  "diagnostic_code": "7101"
+ },
+ {
+  "disability_id": "DX00653",
+  "veteran_id": "V0220",
+  "description": "Right hip, limitation of flexion",
+  "diagnostic_code": "5252"
+ },
+ {
+  "disability_id": "DX00654",
+  "veteran_id": "V0220",
+  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00655",
+  "veteran_id": "V0220",
+  "description": "Left foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00656",
+  "veteran_id": "V0221",
+  "description": "Cervical strain",
+  "diagnostic_code": "5237"
+ },
+ {
+  "disability_id": "DX00657",
+  "veteran_id": "V0221",
+  "description": "Right knee strain with limitation of flexion",
+  "diagnostic_code": "5260"
+ },
+ {
+  "disability_id": "DX00658",
+  "veteran_id": "V0221",
+  "description": "Left elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00659",
+  "veteran_id": "V0221",
+  "description": "Right elbow tendinitis, limitation of flexion",
+  "diagnostic_code": "5206"
+ },
+ {
+  "disability_id": "DX00660",
+  "veteran_id": "V0222",
+  "description": "Radiculopathy, right lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00661",
+  "veteran_id": "V0222",
+  "description": "Right foot injury",
+  "diagnostic_code": "5284"
+ },
+ {
+  "disability_id": "DX00662",
+  "veteran_id": "V0222",
+  "description": "Radiculopathy, left lower extremity (sciatic nerve)",
+  "diagnostic_code": "8520"
+ },
+ {
+  "disability_id": "DX00663",
+  "veteran_id": "V0222",
+  "description": "Posttraumatic stress disorder",
+  "diagnostic_code": "9411"
+ },
+ {
+  "disability_id": "DX00664",
+  "veteran_id": "V0222",
+  "description": "Right ankle, limited motion",
+  "diagnostic_code": "5271"
  }
 ]

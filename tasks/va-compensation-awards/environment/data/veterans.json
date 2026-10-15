@@ -1,103 +1,816 @@
 [
  {
   "veteran_id": "V0001",
-  "last_day_of_active_service": "2023-07-10",
+  "last_day_of_active_service": "2023-01-27",
   "separation_pay": null
  },
  {
   "veteran_id": "V0002",
-  "last_day_of_active_service": "2021-04-30",
+  "last_day_of_active_service": "2023-03-08",
   "separation_pay": null
  },
  {
   "veteran_id": "V0003",
-  "last_day_of_active_service": "2021-09-28",
-  "separation_pay": null
+  "last_day_of_active_service": "2024-09-30",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 1561541,
+   "federal_income_tax_withheld_cents": 343539
+  }
  },
  {
   "veteran_id": "V0004",
-  "last_day_of_active_service": "2021-03-31",
+  "last_day_of_active_service": "2025-02-06",
   "separation_pay": null
  },
  {
   "veteran_id": "V0005",
-  "last_day_of_active_service": "2022-07-31",
+  "last_day_of_active_service": "2024-12-05",
   "separation_pay": null
  },
  {
   "veteran_id": "V0006",
-  "last_day_of_active_service": "2023-01-25",
+  "last_day_of_active_service": "2022-01-10",
   "separation_pay": null
  },
  {
   "veteran_id": "V0007",
-  "last_day_of_active_service": "2020-06-30",
+  "last_day_of_active_service": "2022-05-11",
   "separation_pay": null
  },
  {
   "veteran_id": "V0008",
-  "last_day_of_active_service": "2024-12-14",
+  "last_day_of_active_service": "2024-10-26",
   "separation_pay": null
  },
  {
   "veteran_id": "V0009",
-  "last_day_of_active_service": "2021-11-30",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 1966275,
-   "federal_income_tax_withheld_cents": 432580
-  }
+  "last_day_of_active_service": "2024-12-31",
+  "separation_pay": null
  },
  {
   "veteran_id": "V0010",
-  "last_day_of_active_service": "2022-06-03",
+  "last_day_of_active_service": "2024-08-03",
   "separation_pay": null
  },
  {
   "veteran_id": "V0011",
-  "last_day_of_active_service": "2020-09-04",
+  "last_day_of_active_service": "2020-09-30",
   "separation_pay": null
  },
  {
   "veteran_id": "V0012",
-  "last_day_of_active_service": "2025-01-21",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 1194724,
-   "federal_income_tax_withheld_cents": 262839
-  }
+  "last_day_of_active_service": "2023-09-15",
+  "separation_pay": null
  },
  {
   "veteran_id": "V0013",
-  "last_day_of_active_service": "2019-12-02",
+  "last_day_of_active_service": "2023-09-12",
   "separation_pay": null
  },
  {
   "veteran_id": "V0014",
-  "last_day_of_active_service": "2024-01-03",
+  "last_day_of_active_service": "2020-10-17",
   "separation_pay": null
  },
  {
   "veteran_id": "V0015",
-  "last_day_of_active_service": "2020-05-17",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 2108465,
-   "federal_income_tax_withheld_cents": 463862
-  }
+  "last_day_of_active_service": "2019-10-09",
+  "separation_pay": null
  },
  {
   "veteran_id": "V0016",
-  "last_day_of_active_service": "2022-05-20",
+  "last_day_of_active_service": "2020-09-30",
   "separation_pay": null
  },
  {
   "veteran_id": "V0017",
-  "last_day_of_active_service": "2025-05-25",
+  "last_day_of_active_service": "2025-03-26",
   "separation_pay": null
  },
  {
   "veteran_id": "V0018",
+  "last_day_of_active_service": "2021-05-16",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0019",
+  "last_day_of_active_service": "2021-03-25",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0020",
+  "last_day_of_active_service": "2022-03-12",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0021",
+  "last_day_of_active_service": "2020-02-29",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0022",
+  "last_day_of_active_service": "2022-04-23",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 2024377,
+   "federal_income_tax_withheld_cents": 445362
+  }
+ },
+ {
+  "veteran_id": "V0023",
+  "last_day_of_active_service": "2021-12-14",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0024",
+  "last_day_of_active_service": "2020-09-18",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 542164,
+   "federal_income_tax_withheld_cents": 119276
+  }
+ },
+ {
+  "veteran_id": "V0025",
+  "last_day_of_active_service": "2019-10-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0026",
+  "last_day_of_active_service": "2024-03-07",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0027",
+  "last_day_of_active_service": "2024-01-21",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0028",
+  "last_day_of_active_service": "2025-03-10",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0029",
+  "last_day_of_active_service": "2024-09-24",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 702774,
+   "federal_income_tax_withheld_cents": 154610
+  }
+ },
+ {
+  "veteran_id": "V0030",
+  "last_day_of_active_service": "2022-01-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0031",
+  "last_day_of_active_service": "2025-03-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0032",
+  "last_day_of_active_service": "2024-10-31",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 1167907,
+   "federal_income_tax_withheld_cents": 256939
+  }
+ },
+ {
+  "veteran_id": "V0033",
+  "last_day_of_active_service": "2023-10-13",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0034",
+  "last_day_of_active_service": "2024-04-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0035",
+  "last_day_of_active_service": "2023-08-11",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0036",
+  "last_day_of_active_service": "2022-01-26",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0037",
+  "last_day_of_active_service": "2024-01-08",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0038",
+  "last_day_of_active_service": "2022-08-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0039",
+  "last_day_of_active_service": "2024-04-01",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0040",
+  "last_day_of_active_service": "2022-05-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0041",
+  "last_day_of_active_service": "2024-09-18",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0042",
+  "last_day_of_active_service": "2025-01-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0043",
+  "last_day_of_active_service": "2019-09-06",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0044",
+  "last_day_of_active_service": "2020-08-06",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 634295,
+   "federal_income_tax_withheld_cents": 139544
+  }
+ },
+ {
+  "veteran_id": "V0045",
+  "last_day_of_active_service": "2021-10-31",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 1427042,
+   "federal_income_tax_withheld_cents": 313949
+  }
+ },
+ {
+  "veteran_id": "V0046",
+  "last_day_of_active_service": "2023-09-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0047",
+  "last_day_of_active_service": "2021-12-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0048",
+  "last_day_of_active_service": "2022-05-20",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0049",
+  "last_day_of_active_service": "2024-04-16",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0050",
+  "last_day_of_active_service": "2023-11-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0051",
+  "last_day_of_active_service": "2023-12-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0052",
+  "last_day_of_active_service": "2025-05-04",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0053",
+  "last_day_of_active_service": "2023-09-22",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0054",
+  "last_day_of_active_service": "2023-05-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0055",
+  "last_day_of_active_service": "2024-08-14",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0056",
+  "last_day_of_active_service": "2023-05-09",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0057",
+  "last_day_of_active_service": "2021-03-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0058",
+  "last_day_of_active_service": "2021-11-16",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0059",
+  "last_day_of_active_service": "2025-01-29",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0060",
+  "last_day_of_active_service": "2025-03-17",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0061",
+  "last_day_of_active_service": "2024-08-17",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0062",
+  "last_day_of_active_service": "2023-11-26",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0063",
+  "last_day_of_active_service": "2021-04-20",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0064",
+  "last_day_of_active_service": "2025-04-20",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0065",
+  "last_day_of_active_service": "2023-03-27",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0066",
+  "last_day_of_active_service": "2023-09-10",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0067",
+  "last_day_of_active_service": "2023-10-22",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0068",
+  "last_day_of_active_service": "2025-04-13",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0069",
+  "last_day_of_active_service": "2022-09-26",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0070",
+  "last_day_of_active_service": "2024-02-12",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 975115,
+   "federal_income_tax_withheld_cents": 214525
+  }
+ },
+ {
+  "veteran_id": "V0071",
+  "last_day_of_active_service": "2023-02-21",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0072",
+  "last_day_of_active_service": "2023-01-27",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0073",
+  "last_day_of_active_service": "2021-11-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0074",
+  "last_day_of_active_service": "2022-02-08",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0075",
+  "last_day_of_active_service": "2020-12-15",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0076",
+  "last_day_of_active_service": "2023-05-09",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0077",
+  "last_day_of_active_service": "2024-11-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0078",
+  "last_day_of_active_service": "2025-03-05",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 2279739,
+   "federal_income_tax_withheld_cents": 501542
+  }
+ },
+ {
+  "veteran_id": "V0079",
+  "last_day_of_active_service": "2021-11-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0080",
+  "last_day_of_active_service": "2023-04-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0081",
+  "last_day_of_active_service": "2024-05-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0082",
+  "last_day_of_active_service": "2021-04-22",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 611934,
+   "federal_income_tax_withheld_cents": 134625
+  }
+ },
+ {
+  "veteran_id": "V0083",
+  "last_day_of_active_service": "2020-06-19",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 1621765,
+   "federal_income_tax_withheld_cents": 356788
+  }
+ },
+ {
+  "veteran_id": "V0084",
+  "last_day_of_active_service": "2021-05-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0085",
+  "last_day_of_active_service": "2022-03-24",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0086",
+  "last_day_of_active_service": "2023-01-06",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 2312376,
+   "federal_income_tax_withheld_cents": 508722
+  }
+ },
+ {
+  "veteran_id": "V0087",
+  "last_day_of_active_service": "2022-07-31",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 623892,
+   "federal_income_tax_withheld_cents": 137256
+  }
+ },
+ {
+  "veteran_id": "V0088",
+  "last_day_of_active_service": "2023-11-10",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0089",
+  "last_day_of_active_service": "2024-12-08",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 2140065,
+   "federal_income_tax_withheld_cents": 470814
+  }
+ },
+ {
+  "veteran_id": "V0090",
+  "last_day_of_active_service": "2024-07-02",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0091",
+  "last_day_of_active_service": "2021-03-11",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0092",
+  "last_day_of_active_service": "2025-05-31",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 1856028,
+   "federal_income_tax_withheld_cents": 408326
+  }
+ },
+ {
+  "veteran_id": "V0093",
+  "last_day_of_active_service": "2024-10-02",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0094",
+  "last_day_of_active_service": "2020-04-01",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0095",
+  "last_day_of_active_service": "2023-06-03",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0096",
+  "last_day_of_active_service": "2021-10-20",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0097",
+  "last_day_of_active_service": "2021-08-10",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0098",
+  "last_day_of_active_service": "2021-06-07",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0099",
+  "last_day_of_active_service": "2024-08-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0100",
+  "last_day_of_active_service": "2022-08-21",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0101",
+  "last_day_of_active_service": "2021-02-11",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0102",
+  "last_day_of_active_service": "2022-06-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0103",
+  "last_day_of_active_service": "2020-07-02",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0104",
+  "last_day_of_active_service": "2020-04-19",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0105",
+  "last_day_of_active_service": "2022-09-24",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0106",
+  "last_day_of_active_service": "2024-04-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0107",
+  "last_day_of_active_service": "2021-08-14",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0108",
+  "last_day_of_active_service": "2022-10-08",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0109",
+  "last_day_of_active_service": "2020-11-14",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 707707,
+   "federal_income_tax_withheld_cents": 155695
+  }
+ },
+ {
+  "veteran_id": "V0110",
+  "last_day_of_active_service": "2024-07-22",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 820854,
+   "federal_income_tax_withheld_cents": 180587
+  }
+ },
+ {
+  "veteran_id": "V0111",
+  "last_day_of_active_service": "2023-06-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0112",
+  "last_day_of_active_service": "2021-05-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0113",
+  "last_day_of_active_service": "2023-08-10",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0114",
+  "last_day_of_active_service": "2023-01-12",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0115",
+  "last_day_of_active_service": "2025-02-20",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 1660812,
+   "federal_income_tax_withheld_cents": 365378
+  }
+ },
+ {
+  "veteran_id": "V0116",
+  "last_day_of_active_service": "2019-09-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0117",
+  "last_day_of_active_service": "2022-01-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0118",
+  "last_day_of_active_service": "2021-06-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0119",
+  "last_day_of_active_service": "2020-09-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0120",
+  "last_day_of_active_service": "2021-11-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0121",
+  "last_day_of_active_service": "2022-08-03",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0122",
+  "last_day_of_active_service": "2024-01-26",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0123",
+  "last_day_of_active_service": "2024-05-10",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0124",
+  "last_day_of_active_service": "2025-01-02",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0125",
+  "last_day_of_active_service": "2021-11-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0126",
+  "last_day_of_active_service": "2022-10-15",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0127",
+  "last_day_of_active_service": "2024-04-07",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 841360,
+   "federal_income_tax_withheld_cents": 185099
+  }
+ },
+ {
+  "veteran_id": "V0128",
+  "last_day_of_active_service": "2024-04-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0129",
+  "last_day_of_active_service": "2021-03-09",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0130",
+  "last_day_of_active_service": "2023-04-18",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0131",
+  "last_day_of_active_service": "2022-12-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0132",
+  "last_day_of_active_service": "2023-06-18",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 766361,
+   "federal_income_tax_withheld_cents": 168599
+  }
+ },
+ {
+  "veteran_id": "V0133",
+  "last_day_of_active_service": "2024-12-22",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0134",
+  "last_day_of_active_service": "2020-11-06",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0135",
+  "last_day_of_active_service": "2024-05-14",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0136",
+  "last_day_of_active_service": "2024-06-25",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0137",
+  "last_day_of_active_service": "2023-01-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0138",
+  "last_day_of_active_service": "2019-12-22",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0139",
+  "last_day_of_active_service": "2021-10-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0140",
+  "last_day_of_active_service": "2020-08-11",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0141",
+  "last_day_of_active_service": "2022-12-26",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0142",
+  "last_day_of_active_service": "2020-03-18",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0143",
+  "last_day_of_active_service": "2025-03-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0144",
+  "last_day_of_active_service": "2021-07-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0145",
+  "last_day_of_active_service": "2020-06-06",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0146",
+  "last_day_of_active_service": "2020-04-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0147",
   "last_day_of_active_service": "2023-02-28",
   "separation_pay": {
    "kind": "nondisability separation pay",
@@ -106,821 +819,426 @@
   }
  },
  {
-  "veteran_id": "V0019",
-  "last_day_of_active_service": "2022-09-06",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0020",
-  "last_day_of_active_service": "2025-06-28",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0021",
-  "last_day_of_active_service": "2024-10-13",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0022",
-  "last_day_of_active_service": "2023-07-31",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 1504399,
-   "federal_income_tax_withheld_cents": 330967
-  }
- },
- {
-  "veteran_id": "V0023",
-  "last_day_of_active_service": "2024-07-31",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0024",
-  "last_day_of_active_service": "2020-10-11",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0025",
-  "last_day_of_active_service": "2019-07-07",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 405593,
-   "federal_income_tax_withheld_cents": 89230
-  }
- },
- {
-  "veteran_id": "V0026",
-  "last_day_of_active_service": "2020-07-09",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0027",
-  "last_day_of_active_service": "2020-04-11",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 407193,
-   "federal_income_tax_withheld_cents": 89582
-  }
- },
- {
-  "veteran_id": "V0028",
-  "last_day_of_active_service": "2020-10-25",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0029",
-  "last_day_of_active_service": "2022-03-31",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0030",
-  "last_day_of_active_service": "2019-08-17",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0031",
-  "last_day_of_active_service": "2022-07-31",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 1516720,
-   "federal_income_tax_withheld_cents": 333678
-  }
- },
- {
-  "veteran_id": "V0032",
-  "last_day_of_active_service": "2021-08-31",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0033",
-  "last_day_of_active_service": "2022-11-03",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0034",
-  "last_day_of_active_service": "2019-12-22",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0035",
-  "last_day_of_active_service": "2022-07-31",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0036",
-  "last_day_of_active_service": "2020-04-24",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0037",
-  "last_day_of_active_service": "2022-11-30",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0038",
-  "last_day_of_active_service": "2024-08-17",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0039",
-  "last_day_of_active_service": "2025-06-30",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0040",
-  "last_day_of_active_service": "2024-11-22",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0041",
-  "last_day_of_active_service": "2024-07-24",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0042",
-  "last_day_of_active_service": "2021-09-30",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 2339871,
-   "federal_income_tax_withheld_cents": 514771
-  }
- },
- {
-  "veteran_id": "V0043",
-  "last_day_of_active_service": "2022-12-01",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0044",
-  "last_day_of_active_service": "2020-05-07",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0045",
-  "last_day_of_active_service": "2021-09-14",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0046",
-  "last_day_of_active_service": "2020-02-13",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 1138218,
-   "federal_income_tax_withheld_cents": 250407
-  }
- },
- {
-  "veteran_id": "V0047",
-  "last_day_of_active_service": "2019-10-31",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0048",
-  "last_day_of_active_service": "2020-02-17",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0049",
-  "last_day_of_active_service": "2020-09-30",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0050",
-  "last_day_of_active_service": "2024-03-19",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0051",
-  "last_day_of_active_service": "2025-02-28",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0052",
-  "last_day_of_active_service": "2019-11-21",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0053",
-  "last_day_of_active_service": "2021-01-31",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0054",
-  "last_day_of_active_service": "2023-07-12",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0055",
-  "last_day_of_active_service": "2020-01-29",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 599787,
-   "federal_income_tax_withheld_cents": 131953
-  }
- },
- {
-  "veteran_id": "V0056",
-  "last_day_of_active_service": "2020-07-02",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0057",
-  "last_day_of_active_service": "2020-07-31",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 575556,
-   "federal_income_tax_withheld_cents": 126622
-  }
- },
- {
-  "veteran_id": "V0058",
-  "last_day_of_active_service": "2019-09-03",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0059",
-  "last_day_of_active_service": "2021-11-15",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 973761,
-   "federal_income_tax_withheld_cents": 214227
-  }
- },
- {
-  "veteran_id": "V0060",
-  "last_day_of_active_service": "2020-07-31",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0061",
-  "last_day_of_active_service": "2021-05-31",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0062",
-  "last_day_of_active_service": "2021-06-23",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0063",
-  "last_day_of_active_service": "2024-04-30",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0064",
-  "last_day_of_active_service": "2022-09-27",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0065",
-  "last_day_of_active_service": "2021-06-25",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0066",
-  "last_day_of_active_service": "2021-02-06",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0067",
-  "last_day_of_active_service": "2022-11-30",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0068",
-  "last_day_of_active_service": "2025-02-08",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0069",
-  "last_day_of_active_service": "2021-11-29",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0070",
-  "last_day_of_active_service": "2020-06-16",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0071",
-  "last_day_of_active_service": "2022-07-31",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0072",
-  "last_day_of_active_service": "2024-07-03",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0073",
-  "last_day_of_active_service": "2022-10-14",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0074",
-  "last_day_of_active_service": "2025-03-16",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0075",
-  "last_day_of_active_service": "2021-06-09",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0076",
-  "last_day_of_active_service": "2022-03-31",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0077",
-  "last_day_of_active_service": "2021-08-31",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 2375406,
-   "federal_income_tax_withheld_cents": 522589
-  }
- },
- {
-  "veteran_id": "V0078",
-  "last_day_of_active_service": "2021-08-03",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0079",
-  "last_day_of_active_service": "2019-07-14",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0080",
-  "last_day_of_active_service": "2021-09-07",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0081",
-  "last_day_of_active_service": "2021-10-11",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0082",
-  "last_day_of_active_service": "2025-03-13",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0083",
-  "last_day_of_active_service": "2022-03-31",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0084",
-  "last_day_of_active_service": "2022-02-20",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0085",
-  "last_day_of_active_service": "2019-12-13",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 968580,
-   "federal_income_tax_withheld_cents": 213087
-  }
- },
- {
-  "veteran_id": "V0086",
-  "last_day_of_active_service": "2022-10-31",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 2203021,
-   "federal_income_tax_withheld_cents": 484664
-  }
- },
- {
-  "veteran_id": "V0087",
-  "last_day_of_active_service": "2020-03-28",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0088",
-  "last_day_of_active_service": "2022-03-20",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0089",
-  "last_day_of_active_service": "2025-05-24",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0090",
-  "last_day_of_active_service": "2021-05-16",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0091",
-  "last_day_of_active_service": "2024-02-12",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0092",
-  "last_day_of_active_service": "2021-12-15",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0093",
-  "last_day_of_active_service": "2023-08-28",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0094",
-  "last_day_of_active_service": "2024-03-20",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0095",
-  "last_day_of_active_service": "2022-07-11",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 1309411,
-   "federal_income_tax_withheld_cents": 288070
-  }
- },
- {
-  "veteran_id": "V0096",
-  "last_day_of_active_service": "2025-02-04",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0097",
-  "last_day_of_active_service": "2021-06-30",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0098",
-  "last_day_of_active_service": "2024-10-31",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0099",
-  "last_day_of_active_service": "2022-10-18",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0100",
-  "last_day_of_active_service": "2022-07-07",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0101",
-  "last_day_of_active_service": "2020-12-25",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0102",
-  "last_day_of_active_service": "2025-04-23",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0103",
-  "last_day_of_active_service": "2020-01-11",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0104",
-  "last_day_of_active_service": "2025-02-22",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0105",
-  "last_day_of_active_service": "2023-12-19",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0106",
-  "last_day_of_active_service": "2020-07-14",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 2014489,
-   "federal_income_tax_withheld_cents": 443187
-  }
- },
- {
-  "veteran_id": "V0107",
-  "last_day_of_active_service": "2020-10-14",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0108",
-  "last_day_of_active_service": "2023-04-30",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0109",
-  "last_day_of_active_service": "2024-08-28",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0110",
-  "last_day_of_active_service": "2023-10-31",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0111",
-  "last_day_of_active_service": "2024-05-31",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 1621808,
-   "federal_income_tax_withheld_cents": 356797
-  }
- },
- {
-  "veteran_id": "V0112",
-  "last_day_of_active_service": "2023-11-30",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0113",
-  "last_day_of_active_service": "2023-05-30",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0114",
-  "last_day_of_active_service": "2025-01-04",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0115",
-  "last_day_of_active_service": "2019-10-02",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 1723968,
-   "federal_income_tax_withheld_cents": 379272
-  }
- },
- {
-  "veteran_id": "V0116",
-  "last_day_of_active_service": "2023-01-10",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0117",
-  "last_day_of_active_service": "2023-11-11",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0118",
-  "last_day_of_active_service": "2023-04-30",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0119",
-  "last_day_of_active_service": "2021-02-26",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0120",
-  "last_day_of_active_service": "2021-02-01",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 2198198,
-   "federal_income_tax_withheld_cents": 483603
-  }
- },
- {
-  "veteran_id": "V0121",
-  "last_day_of_active_service": "2020-10-31",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 413019,
-   "federal_income_tax_withheld_cents": 90864
-  }
- },
- {
-  "veteran_id": "V0122",
-  "last_day_of_active_service": "2024-09-17",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 1036935,
-   "federal_income_tax_withheld_cents": 228125
-  }
- },
- {
-  "veteran_id": "V0123",
-  "last_day_of_active_service": "2021-10-04",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0124",
-  "last_day_of_active_service": "2024-05-23",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0125",
-  "last_day_of_active_service": "2020-06-30",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 2001501,
-   "federal_income_tax_withheld_cents": 440330
-  }
- },
- {
-  "veteran_id": "V0126",
-  "last_day_of_active_service": "2022-05-31",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 810747,
-   "federal_income_tax_withheld_cents": 178364
-  }
- },
- {
-  "veteran_id": "V0127",
-  "last_day_of_active_service": "2021-10-29",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0128",
-  "last_day_of_active_service": "2023-03-19",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0129",
-  "last_day_of_active_service": "2021-07-12",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 2136907,
-   "federal_income_tax_withheld_cents": 470119
-  }
- },
- {
-  "veteran_id": "V0130",
-  "last_day_of_active_service": "2023-06-30",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0131",
-  "last_day_of_active_service": "2024-06-11",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0132",
-  "last_day_of_active_service": "2022-01-07",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0133",
-  "last_day_of_active_service": "2022-04-10",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0134",
-  "last_day_of_active_service": "2021-10-20",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0135",
-  "last_day_of_active_service": "2021-07-31",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0136",
-  "last_day_of_active_service": "2022-01-31",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0137",
-  "last_day_of_active_service": "2023-09-27",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0138",
-  "last_day_of_active_service": "2020-10-20",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0139",
-  "last_day_of_active_service": "2023-04-21",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0140",
-  "last_day_of_active_service": "2020-10-12",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 2203071,
-   "federal_income_tax_withheld_cents": 484675
-  }
- },
- {
-  "veteran_id": "V0141",
-  "last_day_of_active_service": "2021-02-06",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 534169,
-   "federal_income_tax_withheld_cents": 117517
-  }
- },
- {
-  "veteran_id": "V0142",
-  "last_day_of_active_service": "2019-11-05",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0143",
-  "last_day_of_active_service": "2020-04-07",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0144",
-  "last_day_of_active_service": "2022-07-28",
-  "separation_pay": null
- },
- {
-  "veteran_id": "V0145",
-  "last_day_of_active_service": "2021-07-04",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 609072,
-   "federal_income_tax_withheld_cents": 133995
-  }
- },
- {
-  "veteran_id": "V0146",
-  "last_day_of_active_service": "2020-07-09",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 529739,
-   "federal_income_tax_withheld_cents": 116542
-  }
- },
- {
-  "veteran_id": "V0147",
-  "last_day_of_active_service": "2022-08-31",
-  "separation_pay": null
- },
- {
   "veteran_id": "V0148",
-  "last_day_of_active_service": "2022-05-16",
-  "separation_pay": {
-   "kind": "nondisability separation pay",
-   "gross_cents": 1167810,
-   "federal_income_tax_withheld_cents": 256918
-  }
+  "last_day_of_active_service": "2024-11-15",
+  "separation_pay": null
  },
  {
   "veteran_id": "V0149",
-  "last_day_of_active_service": "2021-08-15",
-  "separation_pay": null
+  "last_day_of_active_service": "2020-12-10",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 2428948,
+   "federal_income_tax_withheld_cents": 534368
+  }
  },
  {
   "veteran_id": "V0150",
-  "last_day_of_active_service": "2025-04-17",
+  "last_day_of_active_service": "2020-03-05",
   "separation_pay": null
  },
  {
   "veteran_id": "V0151",
-  "last_day_of_active_service": "2022-08-23",
-  "separation_pay": null
+  "last_day_of_active_service": "2022-02-25",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 432775,
+   "federal_income_tax_withheld_cents": 95210
+  }
  },
  {
   "veteran_id": "V0152",
-  "last_day_of_active_service": "2020-01-27",
+  "last_day_of_active_service": "2022-04-30",
   "separation_pay": null
  },
  {
   "veteran_id": "V0153",
-  "last_day_of_active_service": "2021-07-05",
+  "last_day_of_active_service": "2020-11-23",
   "separation_pay": null
  },
  {
   "veteran_id": "V0154",
-  "last_day_of_active_service": "2022-10-15",
+  "last_day_of_active_service": "2025-05-31",
   "separation_pay": null
  },
  {
   "veteran_id": "V0155",
-  "last_day_of_active_service": "2020-07-16",
+  "last_day_of_active_service": "2020-06-09",
   "separation_pay": null
  },
  {
   "veteran_id": "V0156",
-  "last_day_of_active_service": "2021-08-31",
+  "last_day_of_active_service": "2020-01-28",
   "separation_pay": null
  },
  {
   "veteran_id": "V0157",
-  "last_day_of_active_service": "2019-12-28",
+  "last_day_of_active_service": "2025-05-28",
   "separation_pay": null
  },
  {
   "veteran_id": "V0158",
-  "last_day_of_active_service": "2019-08-31",
+  "last_day_of_active_service": "2022-04-04",
   "separation_pay": null
  },
  {
   "veteran_id": "V0159",
-  "last_day_of_active_service": "2024-07-13",
+  "last_day_of_active_service": "2020-12-30",
   "separation_pay": null
  },
  {
   "veteran_id": "V0160",
-  "last_day_of_active_service": "2024-09-30",
+  "last_day_of_active_service": "2025-01-05",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0161",
+  "last_day_of_active_service": "2019-10-31",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 538034,
+   "federal_income_tax_withheld_cents": 118367
+  }
+ },
+ {
+  "veteran_id": "V0162",
+  "last_day_of_active_service": "2024-10-22",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 2334031,
+   "federal_income_tax_withheld_cents": 513486
+  }
+ },
+ {
+  "veteran_id": "V0163",
+  "last_day_of_active_service": "2020-10-24",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0164",
+  "last_day_of_active_service": "2022-05-17",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 965253,
+   "federal_income_tax_withheld_cents": 212355
+  }
+ },
+ {
+  "veteran_id": "V0165",
+  "last_day_of_active_service": "2024-07-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0166",
+  "last_day_of_active_service": "2024-07-23",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 704752,
+   "federal_income_tax_withheld_cents": 155045
+  }
+ },
+ {
+  "veteran_id": "V0167",
+  "last_day_of_active_service": "2022-02-26",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0168",
+  "last_day_of_active_service": "2022-05-19",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 1004994,
+   "federal_income_tax_withheld_cents": 221098
+  }
+ },
+ {
+  "veteran_id": "V0169",
+  "last_day_of_active_service": "2025-04-10",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0170",
+  "last_day_of_active_service": "2024-04-28",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0171",
+  "last_day_of_active_service": "2021-10-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0172",
+  "last_day_of_active_service": "2023-05-08",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 1142156,
+   "federal_income_tax_withheld_cents": 251274
+  }
+ },
+ {
+  "veteran_id": "V0173",
+  "last_day_of_active_service": "2020-10-17",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0174",
+  "last_day_of_active_service": "2025-03-22",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0175",
+  "last_day_of_active_service": "2019-10-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0176",
+  "last_day_of_active_service": "2022-09-06",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0177",
+  "last_day_of_active_service": "2023-11-22",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0178",
+  "last_day_of_active_service": "2023-04-28",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0179",
+  "last_day_of_active_service": "2022-05-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0180",
+  "last_day_of_active_service": "2025-01-13",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0181",
+  "last_day_of_active_service": "2019-07-19",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 1481726,
+   "federal_income_tax_withheld_cents": 325979
+  }
+ },
+ {
+  "veteran_id": "V0182",
+  "last_day_of_active_service": "2025-01-20",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0183",
+  "last_day_of_active_service": "2021-11-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0184",
+  "last_day_of_active_service": "2023-07-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0185",
+  "last_day_of_active_service": "2022-11-16",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0186",
+  "last_day_of_active_service": "2023-03-17",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0187",
+  "last_day_of_active_service": "2025-04-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0188",
+  "last_day_of_active_service": "2022-08-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0189",
+  "last_day_of_active_service": "2024-11-18",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0190",
+  "last_day_of_active_service": "2023-03-18",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0191",
+  "last_day_of_active_service": "2023-04-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0192",
+  "last_day_of_active_service": "2025-03-09",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0193",
+  "last_day_of_active_service": "2023-04-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0194",
+  "last_day_of_active_service": "2024-08-18",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0195",
+  "last_day_of_active_service": "2020-08-05",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0196",
+  "last_day_of_active_service": "2019-12-02",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0197",
+  "last_day_of_active_service": "2024-07-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0198",
+  "last_day_of_active_service": "2024-07-08",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 2090190,
+   "federal_income_tax_withheld_cents": 459841
+  }
+ },
+ {
+  "veteran_id": "V0199",
+  "last_day_of_active_service": "2022-01-11",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0200",
+  "last_day_of_active_service": "2019-12-31",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 1727271,
+   "federal_income_tax_withheld_cents": 379999
+  }
+ },
+ {
+  "veteran_id": "V0201",
+  "last_day_of_active_service": "2020-09-26",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0202",
+  "last_day_of_active_service": "2025-06-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0203",
+  "last_day_of_active_service": "2022-03-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0204",
+  "last_day_of_active_service": "2024-02-14",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0205",
+  "last_day_of_active_service": "2024-12-14",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0206",
+  "last_day_of_active_service": "2019-11-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0207",
+  "last_day_of_active_service": "2024-04-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0208",
+  "last_day_of_active_service": "2024-04-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0209",
+  "last_day_of_active_service": "2021-07-12",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0210",
+  "last_day_of_active_service": "2025-02-23",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0211",
+  "last_day_of_active_service": "2024-06-09",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0212",
+  "last_day_of_active_service": "2023-06-18",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0213",
+  "last_day_of_active_service": "2021-08-15",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0214",
+  "last_day_of_active_service": "2024-01-23",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0215",
+  "last_day_of_active_service": "2022-02-28",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0216",
+  "last_day_of_active_service": "2021-08-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0217",
+  "last_day_of_active_service": "2022-11-30",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0218",
+  "last_day_of_active_service": "2025-01-31",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0219",
+  "last_day_of_active_service": "2024-05-19",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0220",
+  "last_day_of_active_service": "2025-02-03",
+  "separation_pay": {
+   "kind": "nondisability separation pay",
+   "gross_cents": 2548774,
+   "federal_income_tax_withheld_cents": 560730
+  }
+ },
+ {
+  "veteran_id": "V0221",
+  "last_day_of_active_service": "2024-07-13",
+  "separation_pay": null
+ },
+ {
+  "veteran_id": "V0222",
+  "last_day_of_active_service": "2021-11-26",
   "separation_pay": null
  }
 ]

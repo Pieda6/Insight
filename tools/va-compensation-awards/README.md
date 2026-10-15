@@ -2,10 +2,10 @@
 
 - `generate.py` (seed 38400) writes `tasks/va-compensation-awards/environment/data/` (veterans.json,
   disabilities.json, rating_decisions.json, dependents.json, compensation_rates.json), the verifier copy in
-  `tests/data/`, `tests/case_tags.json` and `tests/golden.json` (10 planted veterans worked by hand, 450 rows;
-  160 veterans, 7,200 rows in all). Its `sim` is the third implementation; in strict mode it rejects any veteran
+  `tests/data/`, `tests/case_tags.json` and `tests/golden.json` (22 planted veterans worked by hand, 990 rows;
+  222 veterans, 9,990 rows in all; hospital_and_convalescence.json added in v2). Its `sim` is the third implementation; in strict mode it rejects any veteran
   whose answer needs an open reading. `sim_answers.json` holds its answers (dev only).
-- `calibrate.py` (needs writable `/app`): oracle passes, empty output fails, 26 misreadings each fail a test.
+- `calibrate.py` (needs writable `/app`): oracle passes, empty output fails, 38 misreadings each fail a test.
 
 ## Why this replaced cobra-claims-review
 COBRA was solved 2/2 (v3) and 3,587/3,587 by a blind trial (v4): every rule was a textbook date or amount
@@ -26,3 +26,19 @@ recovery ledger interact per veteran per month.
 - No reductions, severances, temporary totals, TDIU, SMC, 3.324, drill pay, retired pay; children stay under 18;
   marriages continue. A scar is placed on the chest so no skin disability sits on a limb.
 Rates are this task's tables (built from the December 1, 2023 veteran-alone rates and the yearly COLAs).
+
+## v2 (after a blind trial solved v1 7,200/7,200)
+Built from the rule text the author pasted (rule_text.md): 3.31 (with (c)(5)), 3.105, 3.400, 3.401, 4.25, 4.26 (2023
+amendment), 4.29, 4.30. Added: 4.29 hospital totals with the authorized-absence rules ((a)(1) more than 4 days or
+more than 8 in total in the first 21 days, (a)(2) more than 14 days later), treatment beginning after admission
+(4.29(b)) and convalescence months (4.29(e)); 4.30 convalescent totals; the same-month payment exception
+3.31(c)(5); reductions under 3.105(e); Table I rounding as the official method (exact arithmetic now gives wrong
+answers); 4.26(b) for four extremities and the 4.26(d) most favorable exclusion; boundary-dense filler (claims,
+increases and dependent reports on the one-year date or the day after under 3.110).
+Open readings kept out: one-year limits ending on a weekend or holiday with receipt in the 3.110(b) extension;
+absences near day 21 and hospitalizations of 20 to 23 days (day counting); more than one 14-day absence (the
+"third consecutive" clause); long absences with convalescence; bilateral values ending in .5 when the rounding
+changes the rating; 60-day reduction periods ending near a month boundary or on a weekend that moves the month;
+reductions that do not lower the payment, during separation-pay recovery, or near a temporary total; temporary
+totals that overlap each other or a rating change; late dependent reports after a newly established qualifying
+rating (3.401(b) against 5110(f)).

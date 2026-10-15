@@ -26,6 +26,9 @@ GROUPS = {
     "combined_ratings_and_bilateral_factor": lambda t: t in ("combined-ratings", "bilateral"),
     "dependents": lambda t: t == "dependents",
     "separation_pay": lambda t: t == "separation-pay",
+    "temporary_total_ratings": lambda t: t == "temporary-total",
+    "reductions": lambda t: t == "reduction",
+    "one_year_limits": lambda t: t == "boundary",
 }
 
 
