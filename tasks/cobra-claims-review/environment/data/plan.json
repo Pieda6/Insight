@@ -21,5 +21,71 @@
    "2025": 42110,
    "2026": 44695
   }
+ },
+ "benefits_per_person_per_calendar_year": {
+  "PPO": {
+   "2021": {
+    "deductible_cents": 50000,
+    "coinsurance_percent": 20,
+    "out_of_pocket_maximum_cents": 400000
+   },
+   "2022": {
+    "deductible_cents": 50000,
+    "coinsurance_percent": 20,
+    "out_of_pocket_maximum_cents": 400000
+   },
+   "2023": {
+    "deductible_cents": 50000,
+    "coinsurance_percent": 20,
+    "out_of_pocket_maximum_cents": 400000
+   },
+   "2024": {
+    "deductible_cents": 75000,
+    "coinsurance_percent": 20,
+    "out_of_pocket_maximum_cents": 450000
+   },
+   "2025": {
+    "deductible_cents": 75000,
+    "coinsurance_percent": 20,
+    "out_of_pocket_maximum_cents": 500000
+   },
+   "2026": {
+    "deductible_cents": 100000,
+    "coinsurance_percent": 20,
+    "out_of_pocket_maximum_cents": 550000
+   }
+  },
+  "HDHP": {
+   "2021": {
+    "deductible_cents": 150000,
+    "coinsurance_percent": 10,
+    "out_of_pocket_maximum_cents": 650000
+   },
+   "2022": {
+    "deductible_cents": 150000,
+    "coinsurance_percent": 10,
+    "out_of_pocket_maximum_cents": 650000
+   },
+   "2023": {
+    "deductible_cents": 160000,
+    "coinsurance_percent": 10,
+    "out_of_pocket_maximum_cents": 700000
+   },
+   "2024": {
+    "deductible_cents": 165000,
+    "coinsurance_percent": 10,
+    "out_of_pocket_maximum_cents": 750000
+   },
+   "2025": {
+    "deductible_cents": 170000,
+    "coinsurance_percent": 10,
+    "out_of_pocket_maximum_cents": 800000
+   },
+   "2026": {
+    "deductible_cents": 175000,
+    "coinsurance_percent": 10,
+    "out_of_pocket_maximum_cents": 830000
+   }
+  }
  }
 }

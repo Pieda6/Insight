@@ -2,11 +2,11 @@
 
 - `generate.py` (seed 49800) writes `tasks/cobra-claims-review/environment/data/` (plan.json, people.json,
   events.json, elections.json, premium_payments.json, claims.json), the verifier copy in `tests/data/`,
-  `tests/case_tags.json` and `tests/golden.json` (114 hand-worked claims from 45 planted families; 214 families,
-  474 people, 9,548 payments, 2,885 claims in all). Its `sim` is a third implementation that re-checks every
+  `tests/case_tags.json` and `tests/golden.json` (118 hand-worked claims from 46 planted families; 215 families,
+  475 people, 9,578 payments, 3,587 claims in all). Its `sim` is a third implementation that re-checks every
   hand-worked answer and, in strict mode, rejects any filler family that needs an open reading. `sim_answers.json`
   holds its answers for every claim (dev only).
-- `calibrate.py` (needs writable `/app`): oracle passes, empty output fails, 59 misreadings (source edits of the
+- `calibrate.py` (needs writable `/app`): oracle passes, empty output fails, 65 misreadings (source edits of the
   reference solution) each fail at least one test.
 
 ## Why this replaced ssdi-work-review
@@ -49,3 +49,11 @@ Q/A-1 early termination, Q/A-4 maximum period, Q/A-5 disability, Q/A-6 second ev
   Open readings kept out: FMLA termination recorded in the same month as the leave ends; other events between the
   leave and the recorded termination; a disabled beneficiary who waived; claims on the revocation date; partial
   payment in a revocation month (always paid in full, so proration does not matter).
+- v3: Pass@2 2/2 solved in 9 minutes (gpt-6.1-sol). The yes/no answer per claim checked each rule in isolation;
+  the passed Operations/Claims task (fmla-absence-claims) asks for a number from a running ledger, so one wrong
+  decision changes later answers. v4 asks for the plan payment of every claim: each person's deductible and
+  out-of-pocket maximum per calendar year across active coverage and COBRA (54.4980B-5 credit), uncovered claims
+  count for nothing, coinsurance rounded half up. Claims under active coverage before the loss of coverage are in
+  the file. The instruction follows the FMLA task's layout. Open reading kept out: whether the out-of-pocket maximum
+  (not only the deductible) carries into COBRA; the generator drops active claims of any person where it would
+  change a payment. Planted claims exceed every deductible so coverage always shows in the payment.

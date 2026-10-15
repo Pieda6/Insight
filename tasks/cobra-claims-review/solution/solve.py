@@ -10,7 +10,7 @@ import csv
 import json
 from collections import defaultdict
 from datetime import date, timedelta
-from decimal import ROUND_HALF_UP, Decimal
+from decimal import ROUND_DOWN, ROUND_HALF_UP, Decimal
 from pathlib import Path
 
 DATA = Path("/app/data")
@@ -60,6 +60,7 @@ def main():
         return int((base * percent / 100).quantize(Decimal(1), rounding=ROUND_HALF_UP))
 
     last_month = {}                                   # person -> (first covered day, last covered day) or None
+    lost = {}                                         # person -> day active coverage was lost
     for fid, members in family.items():
         evs = sorted(events[fid], key=lambda e: e["date"])
         qe = evs[0]
@@ -79,6 +80,8 @@ def main():
             return day(e["elected_on"]) <= opens + timedelta(days=60)
 
         beneficiaries = [p for p in members if p in elections]
+        for p in beneficiaries:
+            lost[p] = start_day
         disabled = set()
         if short_period:
             for p in beneficiaries:
@@ -151,14 +154,36 @@ def main():
             else:
                 last_month[p] = (first_covered, last_day(covered_to))
 
+    # benefits: each person's deductible and out-of-pocket maximum run per calendar year across active coverage
+    # and COBRA (54.4980B-5: amounts before COBRA are credited); uncovered claims pay nothing and count for nothing
+    benefits = plan["benefits_per_person_per_calendar_year"]
+    claims = load("claims.json")
+    paid = {}
+    spent = defaultdict(lambda: [0, 0])              # (person, year) -> [deductible used, out of pocket]
+    for c in sorted(claims, key=lambda c: (c["person_id"], c["date_of_service"])):
+        p, when = c["person_id"], day(c["date_of_service"])
+        span = last_month.get(p)
+        if not (when < lost[p] or (span and span[0] <= when <= span[1])):
+            paid[c["claim_id"]] = 0
+            continue
+        b = benefits[elections[p]["coverage_option"]][str(when.year)]
+        used = spent[(p, when.year)]
+        allowed = c["allowed_amount_cents"]
+        toward_deductible = min(allowed, b["deductible_cents"] - used[0])
+        coinsurance = int((Decimal(allowed - toward_deductible) * b["coinsurance_percent"] / 100)
+                          .quantize(Decimal(1), rounding=ROUND_HALF_UP))
+        member = min(toward_deductible + coinsurance, b["out_of_pocket_maximum_cents"] - used[1])
+        used[0] += toward_deductible
+        used[1] += member
+        paid[c["claim_id"]] = allowed - member
+
     OUT.mkdir(parents=True, exist_ok=True)
-    with open(OUT / "claim_determinations.csv", "w", newline="") as f:
+    with open(OUT / "claim_payments.csv", "w", newline="") as f:
         w = csv.writer(f, lineterminator="\n")
-        w.writerow(["claim_id", "covered"])
-        for c in load("claims.json"):
-            span = last_month.get(c["person_id"])
-            when = day(c["date_of_service"])
-            w.writerow([c["claim_id"], "yes" if span and span[0] <= when <= span[1] else "no"])
+        w.writerow(["claim_id", "plan_payment"])
+        for c in claims:
+            cents = paid[c["claim_id"]]
+            w.writerow([c["claim_id"], f"{cents // 100}.{cents % 100:02d}"])
 
 
 if __name__ == "__main__":

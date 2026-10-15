@@ -27,6 +27,11 @@ rng = random.Random(49800)
 DAY = timedelta(days=1)
 PREMIUM = {"PPO": {2022: 55870, 2023: 58310, 2024: 61240, 2025: 64815, 2026: 68930},
            "HDHP": {2022: 37640, 2023: 39525, 2024: 41380, 2025: 42110, 2026: 44695}}
+# benefit design: deductible, coinsurance percent, out-of-pocket maximum (self-only, per calendar year)
+BENEFIT = {"PPO": {2021: (50000, 20, 400000), 2022: (50000, 20, 400000), 2023: (50000, 20, 400000),
+                   2024: (75000, 20, 450000), 2025: (75000, 20, 500000), 2026: (100000, 20, 550000)},
+           "HDHP": {2021: (150000, 10, 650000), 2022: (150000, 10, 650000), 2023: (160000, 10, 700000),
+                    2024: (165000, 10, 750000), 2025: (170000, 10, 800000), 2026: (175000, 10, 830000)}}
 LAST = date(2026, 9, 30)           # last date of service in the queue
 ASOF = date(2026, 10, 15)          # the files are complete as of this date
 LATEST_EVENT = ASOF - timedelta(days=60)
@@ -178,6 +183,37 @@ def sim(fam, strict=True):
     fam["info"] = {"S": S, "end18": end18, "ext29": ext29, "disabled": disabled,
                    "end29": add_months(S, 29) - DAY}
     return out
+
+
+def ledger(items, option, S, carry_ded=True, carry_oop=True):
+    """Plan payment in cents for each (date, allowed, covered), in date order. Deductible and out-of-pocket
+    maximum per person per calendar year; with carry_* False, amounts before COBRA (date < S) are kept apart."""
+    acc, out = {}, []
+    for d, allowed, cov in items:
+        if not cov:
+            out.append(0)
+            continue
+        ded, pct, oop = BENEFIT[option][d.year]
+        kd = (d.year, True if carry_ded else d < S)
+        ko = (d.year, True if carry_oop else d < S)
+        used_d, used_o = acc.get(("d",) + kd, 0), acc.get(("o",) + ko, 0)
+        d_part = min(allowed, ded - used_d)
+        coins = ((allowed - d_part) * pct + 50) // 100
+        share = min(d_part + coins, oop - used_o)
+        assert share >= d_part
+        acc[("d",) + kd] = used_d + d_part
+        acc[("o",) + ko] = used_o + share
+        out.append(allowed - share)
+    return out
+
+
+def claim_amount():
+    r = rng.random()
+    if r < 0.55:
+        return rng.randint(6000, 60000)
+    if r < 0.9:
+        return rng.randint(60000, 600000)
+    return rng.randint(1200000, 6000000)
 
 
 def covered(ranges, person, d):
@@ -489,6 +525,15 @@ def planted(w):
                             medicare="2025-02-01")}, [T]), ["medicare", "early-termination"],
           [("s", "2025-01-20", True), ("s", "2025-02-10", False), ("e", "2025-02-10", True)])
 
+    # deductible credit from active coverage (54.4980B-5): PPO 2024 deductible 750.00, 20% coinsurance. Feb 10
+    # 2024 under active coverage, 400.00 allowed: all deductible, plan pays 0.00. Apr 20 (COBRA), 1,000.00: 350.00
+    # deductible left, 20% of 650.00 = 130.00, the person pays 480.00, the plan 520.00. Jan 15 2025, 300.00: a new
+    # deductible, plan pays 0.00
+    w.add(fam_("e", {"e": P("employee", "1971-07-07", elected=EL, notice=NT, payments=pays("PPO", S, END))}, [T]),
+          ["deductible-credit"],
+          [("e", "2024-02-10", True, 40000, 0), ("e", "2024-04-20", True, 100000, 52000),
+           ("e", "2025-01-15", True, 30000, 0), ("e", "2025-03-03", True, 85000, 32000)])
+
 
 def filler(w):
     qe = rng.choice(["termination"] * 6 + ["reduction_of_hours"] * 2 + ["death", "divorce", "child_reaches_26"])
@@ -680,8 +725,9 @@ def main():
     planted(w)
     for f in w.fams:
         ranges = sim(f)
-        for p, d, want in f["expected"]:
-            got = covered(ranges, p, d)
+        for x in f["expected"]:
+            p, d, want = x[:3]
+            got = D(d) < f["info"]["S"] or covered(ranges, p, d)
             assert got == want, (f["tags"], p, d, got, want, ranges)
     n_planted = len(w.fams)
     rejected = 0
@@ -724,8 +770,40 @@ def main():
                                "fmla_leave": {"first_day": D(e["fmla_first"]).isoformat(),
                                               "last_day": D(e["fmla_last"]).isoformat()} if e.get("fmla_last") else None})
         ranges = sim(f, strict=False)
-        for p, d, want in f["expected"]:
-            rows.append((pid[p], D(d), covered(ranges, p, d), f["tags"], want is not None))
+        S = f["info"]["S"]
+        per = {}
+        for x in f["expected"]:
+            p, d = x[0], D(x[1])
+            # planted claims exceed any deductible, so covered or not always shows in the payment
+            allowed = x[3] if len(x) > 3 else (rng.randint(250000, 900000) if x[2] is not None else claim_amount())
+            per.setdefault(p, {})[d] = [allowed, d < S or covered(ranges, p, d), f["tags"], x[2] is not None,
+                                        x[4] if len(x) > 4 else None]
+        for p, q in f["people"].items():                   # claims under active coverage before COBRA
+            if not q.get("notice") or "deductible-credit" in f["tags"]:
+                continue
+            lo = date((S - DAY).year, 1, 1) - days(rng.choice([0, 0, 90]))
+            for _ in range(rng.choice([0, 1, 2, 2, 3, 4])):
+                d = lo + days(rng.randrange(0, max(1, (S - lo).days)))
+                if d < S and d not in per.get(p, {}):
+                    per.setdefault(p, {})[d] = [claim_amount(), True, ["active"], False, None]
+        for p, byday in per.items():
+            opt = f["people"][p]["option"]
+            dates = sorted(byday)
+            items = [(d, byday[d][0], byday[d][1]) for d in dates]
+            pays_ = ledger(items, opt, S)
+            if pays_ != ledger(items, opt, S, carry_oop=False):   # keep the out-of-pocket carry-over reading out
+                for d in dates:
+                    if d < S and "active" in byday[d][2]:
+                        del byday[d]
+                dates = sorted(byday)
+                items = [(d, byday[d][0], byday[d][1]) for d in dates]
+                pays_ = ledger(items, opt, S)
+                assert pays_ == ledger(items, opt, S, carry_oop=False)
+            for d, amt in zip(dates, pays_):
+                allowed, cov, tg, planted_, want_pay = byday[d]
+                if want_pay is not None:
+                    assert want_pay == amt, (f["tags"], p, d, amt, want_pay)
+                rows.append((pid[p], d, cov, tg, planted_, allowed, amt))
     rng.shuffle(rows)
     for rec in people_out + events_out + elections + payments:
         for v in json.dumps(rec).split('"'):
@@ -733,12 +811,13 @@ def main():
                 assert v <= ASOF.isoformat(), rec
     events_out.sort(key=lambda e: (e["date"], e["family_id"]))
     payments.sort(key=lambda x: (x["sent_on"], x["person_id"], x["coverage_month"]))
-    for n, (pid_, d, cov, tg, planted_) in enumerate(rows, 1):
+    for n, (pid_, d, cov, tg, planted_, allowed, amt) in enumerate(rows, 1):
         cid = f"C{n:05d}"
-        claims_out.append({"claim_id": cid, "person_id": pid_, "date_of_service": d.isoformat()})
+        claims_out.append({"claim_id": cid, "person_id": pid_, "date_of_service": d.isoformat(),
+                           "allowed_amount_cents": allowed})
         tags[cid] = tg
         if planted_:
-            golden[cid] = "yes" if cov else "no"
+            golden[cid] = f"{amt // 100}.{amt % 100:02d}"
     ENV.mkdir(parents=True, exist_ok=True)
     for old in ENV.iterdir():
         old.unlink()
@@ -746,7 +825,11 @@ def main():
     dump("plan.json", {"plan_name": "Northgate Industries Group Health Plan", "plan_year": "calendar year",
                        "employees_on_a_typical_business_day": 1840, "coverage_options": ["PPO", "HDHP"],
                        "applicable_premium_single_coverage_cents":
-                           {o: {str(y): v for y, v in r.items()} for o, r in PREMIUM.items()}})
+                           {o: {str(y): v for y, v in r.items()} for o, r in PREMIUM.items()},
+                       "benefits_per_person_per_calendar_year":
+                           {o: {str(y): {"deductible_cents": v[0], "coinsurance_percent": v[1],
+                                         "out_of_pocket_maximum_cents": v[2]} for y, v in r.items()}
+                            for o, r in BENEFIT.items()}})
     dump("people.json", people_out)
     dump("events.json", events_out)
     dump("elections.json", elections)
@@ -758,7 +841,7 @@ def main():
     (ROOT / "tests" / "case_tags.json").write_text(json.dumps(tags, indent=1, sort_keys=True) + "\n")
     (ROOT / "tests" / "golden.json").write_text(json.dumps(golden, indent=1, sort_keys=True) + "\n")
     (Path(__file__).resolve().parent / "sim_answers.json").write_text(
-        json.dumps({f"C{n:05d}": ("yes" if r[2] else "no") for n, r in enumerate(rows, 1)}, indent=0) + "\n")
+        json.dumps({f"C{n:05d}": f"{r[6] // 100}.{r[6] % 100:02d}" for n, r in enumerate(rows, 1)}, indent=0) + "\n")
     yes = sum(1 for r in rows if r[2])
     print(len(w.fams), "families,", len(people_out), "people,", len(payments), "payments,", len(claims_out), "claims (",
           yes, "yes ),", len(golden), "hand-worked claims,", rejected, "rejected")

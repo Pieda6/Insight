@@ -11,7 +11,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 TASK = ROOT / "tasks" / "cobra-claims-review"
-OUT = Path("/app/output/claim_determinations.csv")
+OUT = Path("/app/output/claim_payments.csv")
 SRC = (TASK / "solution" / "solve.py").read_text()
 OPENS = 'opens = max(start_day, day(e["election_notice_date"]))'
 DIS = 'within_first_60 = day(ssa["disabled_since"]) <= start_day + timedelta(days=59)'
@@ -34,8 +34,8 @@ SHORTCUTS = {
                                  "return day(e[\"elected_on\"]) <= opens + timedelta(days=59)")],
     "election period 61 days": [("return day(e[\"elected_on\"]) <= opens + timedelta(days=60)",
                                  "return day(e[\"elected_on\"]) <= opens + timedelta(days=61)")],
-    "election not retroactive": [('"yes" if span and span[0] <= when <= span[1] else "no"',
-                                  '"yes" if span and span[0] <= when <= span[1] and c["date_of_service"] >= elections[c["person_id"]]["elected_on"] else "no"')],
+    "election not retroactive": [("if not (when < lost[p] or (span and span[0] <= when <= span[1])):",
+                                  'if not (when < lost[p] or (span and span[0] <= when <= span[1] and c["date_of_service"] >= elections[p]["elected_on"])):')],
     # ---- disability extension (54.4980B-7 Q/A-5, 54.4980B-8 Q/A-1)
     "disability extension ignored": [("months = 36 if not short_period else (29 if disabled else 18)",
                                       "months = 36 if not short_period else 18")],
@@ -97,6 +97,21 @@ SHORTCUTS = {
     "revoked waiver: premiums still owed from the start": [("k = month_index(first_covered)", "k = start")],
     "incapable child's 26th birthday is a second event": [('''(e["person_id"] != p or people[p].get(
                             "incapable_of_self_support_because_of_disability"))''', '(e["person_id"] != p)')],
+    # ---- benefits ledger (54.4980B-5 and the plan's benefit terms)
+    "no deductible credit from active coverage": [("used = spent[(p, when.year)]", "used = spent[(p, when.year, when < lost[p])]")],
+    "claims before COBRA are not covered": [("if not (when < lost[p] or (span", "if not ((span")],
+    "uncovered claims still count toward the deductible": [
+        ("            paid[c[\"claim_id\"]] = 0\n            continue\n", "            pass\n")],
+    "coinsurance rounded down": [(".quantize(Decimal(1), rounding=ROUND_HALF_UP))\n        member",
+                                 ".quantize(Decimal(1), rounding=ROUND_DOWN))\n        member")],
+    "out-of-pocket maximum ignored": [('member = min(toward_deductible + coinsurance, b["out_of_pocket_maximum_cents"] - used[1])',
+                                      "member = toward_deductible + coinsurance")],
+    "deductible does not count toward the out-of-pocket maximum": [
+        ('member = min(toward_deductible + coinsurance, b["out_of_pocket_maximum_cents"] - used[1])',
+         'member = toward_deductible + min(coinsurance, b["out_of_pocket_maximum_cents"] - used[1])'),
+        ("used[1] += member", "used[1] += member - toward_deductible")],
+    "benefits of the year COBRA began": [('b = benefits[elections[p]["coverage_option"]][str(when.year)]',
+                                          'b = benefits[elections[p]["coverage_option"]][str(max(when, lost[p]).year if when >= lost[p] else when.year)] if False else benefits[elections[p]["coverage_option"]][str(lost[p].year if when >= lost[p] else when.year)]')],
     "Medicare ends only the employee's COBRA": [("begins = day(people[p][key])",
                                                  'begins = day(people[p][key]) if key != "medicare_entitlement_date" or role == "employee" else None')],
 }

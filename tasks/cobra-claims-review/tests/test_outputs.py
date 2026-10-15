@@ -6,6 +6,7 @@ hand-worked planted claims (golden.json). No agent code is executed.
 """
 import csv
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -15,11 +16,11 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE))
 import engine  # noqa: E402
 
-OUT = Path("/app/output/claim_determinations.csv")
-HEADER = "claim_id,covered"
-FIELDS = ("covered",)
+OUT = Path("/app/output/claim_payments.csv")
+HEADER = "claim_id,plan_payment"
+FIELDS = ("plan_payment",)
 TAGS = json.loads((HERE / "case_tags.json").read_text())
-GOLDEN = {k: {"covered": v} for k, v in json.loads((HERE / "golden.json").read_text()).items()}
+GOLDEN = {k: {"plan_payment": v} for k, v in json.loads((HERE / "golden.json").read_text()).items()}
 GROUPS = {
     "maximum_coverage_periods": lambda t: t == "maximum-period",
     "election_period": lambda t: t == "election",
@@ -31,6 +32,7 @@ GROUPS = {
     "fmla_leave": lambda t: t == "fmla-leave",
     "waiver_and_revocation": lambda t: t == "waiver",
     "incapable_child": lambda t: t == "incapable-child",
+    "deductible_credit": lambda t: t == "deductible-credit",
 }
 
 
@@ -41,7 +43,7 @@ def truth():
 
 @pytest.fixture(scope="module")
 def rows():
-    assert OUT.is_file(), "missing /app/output/claim_determinations.csv"
+    assert OUT.is_file(), "missing /app/output/claim_payments.csv"
     lines = OUT.read_text().splitlines()
     assert lines and lines[0] == HEADER, f"header must be exactly {HEADER}"
     assert all(line.strip() for line in lines[1:]), "blank lines are not allowed"
@@ -81,6 +83,15 @@ def test_inputs_are_consistent():
             assert p[key] is None or p[key].endswith("-01"), (p["person_id"], key)
 
 
+def test_no_person_has_two_claims_on_one_day():
+    """Claims of one person never share a date of service, so the order of the ledger is fixed."""
+    seen = set()
+    for c in json.loads((engine.DATA / "claims.json").read_text()):
+        key = (c["person_id"], c["date_of_service"])
+        assert key not in seen, key
+        seen.add(key)
+
+
 def test_one_row_per_claim_in_input_order(rows):
     """Exactly one row per claim, in the order of claims.json."""
     order = [c["claim_id"] for c in json.loads((engine.DATA / "claims.json").read_text())]
@@ -88,9 +99,9 @@ def test_one_row_per_claim_in_input_order(rows):
 
 
 def test_values_are_well_formed(rows):
-    """covered is yes or no."""
+    """Payments in dollars with exactly two decimals."""
     for c, r in rows["by_id"].items():
-        assert r["covered"] in ("yes", "no"), (c, r)
+        assert re.fullmatch(r"\d+\.\d{2}", r["plan_payment"]), (c, r)
 
 
 def test_hand_worked_cases(rows):

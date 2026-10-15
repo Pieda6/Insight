@@ -98,11 +98,13 @@ class Plan:
 
     def covered(self, pid, when):
         person = self.people[pid]
+        fid = person["family_id"]
+        first, qe_date, begin, eighteen, disabled = self.family_facts(fid)
+        if when < begin:                              # still under active coverage
+            return True
         el = self.elections.get(pid)
         if el is None or el["elected_on"] is None:
             return False
-        fid = person["family_id"]
-        first, qe_date, begin, eighteen, disabled = self.family_facts(fid)
         elected = iso(el["elected_on"])
         if (elected - max(begin, iso(el["election_notice_date"]))).days > 60:
             return False
@@ -137,7 +139,39 @@ class Plan:
         return True
 
 
+    def payments(self):
+        """Plan payment per claim. Ledgers per person and calendar year hold every covered claim, under active
+        coverage or COBRA (54.4980B-5 credits amounts before COBRA); each claim reads the ledger as it stood."""
+        benefits = load("plan.json")["benefits_per_person_per_calendar_year"]
+        claims = load("claims.json")
+        history = {}
+        for c in claims:
+            history.setdefault(c["person_id"], []).append(c)
+        result = {}
+        for pid, mine in history.items():
+            option = self.elections[pid]["coverage_option"]
+            mine.sort(key=lambda c: c["date_of_service"])
+            deductible_met, out_of_pocket = {}, {}
+            for c in mine:
+                when = iso(c["date_of_service"])
+                if not self.covered(pid, when):
+                    result[c["claim_id"]] = Fraction(0)
+                    continue
+                b = benefits[option][str(when.year)]
+                allowed = Fraction(c["allowed_amount_cents"])
+                before_d = deductible_met.get(when.year, Fraction(0))
+                before_o = out_of_pocket.get(when.year, Fraction(0))
+                ded = min(allowed, b["deductible_cents"] - before_d)
+                coins = math.floor((allowed - ded) * b["coinsurance_percent"] / 100 + Fraction(1, 2))
+                member = min(ded + coins, b["out_of_pocket_maximum_cents"] - before_o)
+                deductible_met[when.year] = before_d + ded
+                out_of_pocket[when.year] = before_o + member
+                result[c["claim_id"]] = allowed - member
+        return result
+
+
 def expected():
-    plan = Plan()
-    return {c["claim_id"]: {"covered": "yes" if plan.covered(c["person_id"], iso(c["date_of_service"])) else "no"}
-            for c in load("claims.json")}
+    def money(x):
+        assert x.denominator == 1
+        return f"{int(x) // 100}.{int(x) % 100:02d}"
+    return {k: {"plan_payment": money(v)} for k, v in Plan().payments().items()}
