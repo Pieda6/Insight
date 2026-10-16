@@ -1,0 +1,2263 @@
+[
+ {
+  "claim_id": "C0001",
+  "employee_id": "E0001",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-06-26T07:25",
+  "notice_filed_with_supervisor": "2024-07-12"
+ },
+ {
+  "claim_id": "C0002",
+  "employee_id": "E0002",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-02-24T12:00",
+  "notice_filed_with_supervisor": "2025-03-10"
+ },
+ {
+  "claim_id": "C0003",
+  "employee_id": "E0003",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-07-10T07:45",
+  "notice_filed_with_supervisor": "2024-07-24"
+ },
+ {
+  "claim_id": "C0004",
+  "employee_id": "E0004",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-01-07T06:50",
+  "notice_filed_with_supervisor": "2025-01-14"
+ },
+ {
+  "claim_id": "C0005",
+  "employee_id": "E0005",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-02-09T12:00",
+  "notice_filed_with_supervisor": "2026-02-19"
+ },
+ {
+  "claim_id": "C0006",
+  "employee_id": "E0006",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-10-30T07:58",
+  "notice_filed_with_supervisor": "2024-11-08"
+ },
+ {
+  "claim_id": "C0007",
+  "employee_id": "E0007",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-01-06T09:00",
+  "notice_filed_with_supervisor": "2025-01-06"
+ },
+ {
+  "claim_id": "C0008",
+  "employee_id": "E0008",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-05-06T06:45",
+  "notice_filed_with_supervisor": "2025-06-06"
+ },
+ {
+  "claim_id": "C0009",
+  "employee_id": "E0009",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-02-02T09:05",
+  "notice_filed_with_supervisor": "2026-03-05"
+ },
+ {
+  "claim_id": "C0010",
+  "employee_id": "E0010",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-09-18T11:00",
+  "notice_filed_with_supervisor": "2025-09-18"
+ },
+ {
+  "claim_id": "C0011",
+  "employee_id": "E0011",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2023-08-18T12:00",
+  "notice_filed_with_supervisor": "2023-09-17"
+ },
+ {
+  "claim_id": "C0012",
+  "employee_id": "E0012",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-09-20T12:00",
+  "notice_filed_with_supervisor": "2023-10-08"
+ },
+ {
+  "claim_id": "C0013",
+  "employee_id": "E0013",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-06-13T12:00",
+  "notice_filed_with_supervisor": "2024-06-28"
+ },
+ {
+  "claim_id": "C0014",
+  "employee_id": "E0014",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-02-27T06:33",
+  "notice_filed_with_supervisor": "2023-03-05"
+ },
+ {
+  "claim_id": "C0015",
+  "employee_id": "E0015",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-05-07T07:45",
+  "notice_filed_with_supervisor": "2024-05-13"
+ },
+ {
+  "claim_id": "C0016",
+  "employee_id": "E0016",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-24T07:25",
+  "notice_filed_with_supervisor": "2025-04-04"
+ },
+ {
+  "claim_id": "C0017",
+  "employee_id": "E0017",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-04-14T11:00",
+  "notice_filed_with_supervisor": "2025-04-21"
+ },
+ {
+  "claim_id": "C0018",
+  "employee_id": "E0018",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-01-29T07:33",
+  "notice_filed_with_supervisor": "2024-02-05"
+ },
+ {
+  "claim_id": "C0019",
+  "employee_id": "E0019",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-11-24T09:05",
+  "notice_filed_with_supervisor": "2025-12-02"
+ },
+ {
+  "claim_id": "C0020",
+  "employee_id": "E0020",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-04-02T10:30",
+  "notice_filed_with_supervisor": "2025-04-08"
+ },
+ {
+  "claim_id": "C0021",
+  "employee_id": "E0021",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-12-04T06:25",
+  "notice_filed_with_supervisor": "2023-12-06"
+ },
+ {
+  "claim_id": "C0022",
+  "employee_id": "E0022",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-02-13T09:35",
+  "notice_filed_with_supervisor": "2024-02-14"
+ },
+ {
+  "claim_id": "C0023",
+  "employee_id": "E0023",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-06-28T12:30",
+  "notice_filed_with_supervisor": "2024-07-12"
+ },
+ {
+  "claim_id": "C0024",
+  "employee_id": "E0024",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-10-21T13:30",
+  "notice_filed_with_supervisor": "2024-11-21"
+ },
+ {
+  "claim_id": "C0025",
+  "employee_id": "E0025",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-04-07T08:03",
+  "notice_filed_with_supervisor": "2023-05-07"
+ },
+ {
+  "claim_id": "C0026",
+  "employee_id": "E0026",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-31T11:00",
+  "notice_filed_with_supervisor": "2025-04-01"
+ },
+ {
+  "claim_id": "C0027",
+  "employee_id": "E0027",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-10-02T07:28",
+  "notice_filed_with_supervisor": "2023-10-11"
+ },
+ {
+  "claim_id": "C0028",
+  "employee_id": "E0028",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-04-27T06:20",
+  "notice_filed_with_supervisor": "2024-05-05"
+ },
+ {
+  "claim_id": "C0029",
+  "employee_id": "E0029",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-07-28T06:20",
+  "notice_filed_with_supervisor": "2025-08-08"
+ },
+ {
+  "claim_id": "C0030",
+  "employee_id": "E0030",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-04T10:15",
+  "notice_filed_with_supervisor": "2025-03-05"
+ },
+ {
+  "claim_id": "C0031",
+  "employee_id": "E0031",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-07-05T13:30",
+  "notice_filed_with_supervisor": "2024-07-13"
+ },
+ {
+  "claim_id": "C0032",
+  "employee_id": "E0032",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-10-28T13:00",
+  "notice_filed_with_supervisor": "2025-11-28"
+ },
+ {
+  "claim_id": "C0033",
+  "employee_id": "E0033",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-05-07T13:30",
+  "notice_filed_with_supervisor": "2025-06-07"
+ },
+ {
+  "claim_id": "C0034",
+  "employee_id": "E0034",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-02-27T07:20",
+  "notice_filed_with_supervisor": "2023-03-03"
+ },
+ {
+  "claim_id": "C0035",
+  "employee_id": "E0035",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-06-06T14:00",
+  "notice_filed_with_supervisor": "2025-06-06"
+ },
+ {
+  "claim_id": "C0036",
+  "employee_id": "E0036",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-04-11T08:35",
+  "notice_filed_with_supervisor": "2024-04-28"
+ },
+ {
+  "claim_id": "C0037",
+  "employee_id": "E0037",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-12-19T12:30",
+  "notice_filed_with_supervisor": "2026-01-19"
+ },
+ {
+  "claim_id": "C0038",
+  "employee_id": "E0038",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-07-15T13:30",
+  "notice_filed_with_supervisor": "2024-07-25"
+ },
+ {
+  "claim_id": "C0039",
+  "employee_id": "E0039",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-02-02T13:00",
+  "notice_filed_with_supervisor": "2023-02-19"
+ },
+ {
+  "claim_id": "C0040",
+  "employee_id": "E0040",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-11-15T07:50",
+  "notice_filed_with_supervisor": "2024-11-20"
+ },
+ {
+  "claim_id": "C0041",
+  "employee_id": "E0041",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-10-06T12:30",
+  "notice_filed_with_supervisor": "2025-10-21"
+ },
+ {
+  "claim_id": "C0042",
+  "employee_id": "E0042",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-31T06:58",
+  "notice_filed_with_supervisor": "2025-04-01"
+ },
+ {
+  "claim_id": "C0043",
+  "employee_id": "E0043",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-07-12T13:30",
+  "notice_filed_with_supervisor": "2024-07-18"
+ },
+ {
+  "claim_id": "C0044",
+  "employee_id": "E0044",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-04-03T07:58",
+  "notice_filed_with_supervisor": "2025-04-22"
+ },
+ {
+  "claim_id": "C0045",
+  "employee_id": "E0045",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-02-16T07:20",
+  "notice_filed_with_supervisor": "2023-02-18"
+ },
+ {
+  "claim_id": "C0046",
+  "employee_id": "E0046",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-04-29T13:30",
+  "notice_filed_with_supervisor": "2026-04-30"
+ },
+ {
+  "claim_id": "C0047",
+  "employee_id": "E0047",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-12-16T09:05",
+  "notice_filed_with_supervisor": "2023-12-24"
+ },
+ {
+  "claim_id": "C0048",
+  "employee_id": "E0048",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-10-30T06:33",
+  "notice_filed_with_supervisor": "2024-11-29"
+ },
+ {
+  "claim_id": "C0049",
+  "employee_id": "E0049",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2023-12-15T09:35",
+  "notice_filed_with_supervisor": "2024-01-01"
+ },
+ {
+  "claim_id": "C0050",
+  "employee_id": "E0050",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-12-16T12:00",
+  "notice_filed_with_supervisor": "2025-01-02"
+ },
+ {
+  "claim_id": "C0051",
+  "employee_id": "E0051",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-03-13T05:50",
+  "notice_filed_with_supervisor": "2023-03-14"
+ },
+ {
+  "claim_id": "C0052",
+  "employee_id": "E0052",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-02-12T07:03",
+  "notice_filed_with_supervisor": "2025-02-18"
+ },
+ {
+  "claim_id": "C0053",
+  "employee_id": "E0053",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-02-04T06:28",
+  "notice_filed_with_supervisor": "2025-02-19"
+ },
+ {
+  "claim_id": "C0054",
+  "employee_id": "E0054",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-07-08T10:30",
+  "notice_filed_with_supervisor": "2025-07-17"
+ },
+ {
+  "claim_id": "C0055",
+  "employee_id": "E0055",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-02-06T10:30",
+  "notice_filed_with_supervisor": "2025-02-18"
+ },
+ {
+  "claim_id": "C0056",
+  "employee_id": "E0056",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-01-06T09:00",
+  "notice_filed_with_supervisor": "2025-01-06"
+ },
+ {
+  "claim_id": "C0057",
+  "employee_id": "E0057",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-06-24T13:30",
+  "notice_filed_with_supervisor": "2023-07-09"
+ },
+ {
+  "claim_id": "C0058",
+  "employee_id": "E0058",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-07-07T07:33",
+  "notice_filed_with_supervisor": "2023-08-06"
+ },
+ {
+  "claim_id": "C0059",
+  "employee_id": "E0059",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-12-01T11:30",
+  "notice_filed_with_supervisor": "2025-12-20"
+ },
+ {
+  "claim_id": "C0060",
+  "employee_id": "E0060",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-04T10:15",
+  "notice_filed_with_supervisor": "2025-04-03"
+ },
+ {
+  "claim_id": "C0061",
+  "employee_id": "E0061",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-05-08T08:20",
+  "notice_filed_with_supervisor": "2024-05-08"
+ },
+ {
+  "claim_id": "C0062",
+  "employee_id": "E0062",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-10-25T07:28",
+  "notice_filed_with_supervisor": "2023-10-25"
+ },
+ {
+  "claim_id": "C0063",
+  "employee_id": "E0063",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-01-22T11:30",
+  "notice_filed_with_supervisor": "2025-01-24"
+ },
+ {
+  "claim_id": "C0064",
+  "employee_id": "E0064",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-04-18T06:50",
+  "notice_filed_with_supervisor": "2025-04-25"
+ },
+ {
+  "claim_id": "C0065",
+  "employee_id": "E0065",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-04-09T06:40",
+  "notice_filed_with_supervisor": "2025-04-09"
+ },
+ {
+  "claim_id": "C0066",
+  "employee_id": "E0066",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-02-03T12:30",
+  "notice_filed_with_supervisor": "2026-02-12"
+ },
+ {
+  "claim_id": "C0067",
+  "employee_id": "E0067",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-06-10T11:30",
+  "notice_filed_with_supervisor": "2023-07-11"
+ },
+ {
+  "claim_id": "C0068",
+  "employee_id": "E0068",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-10-02T07:25",
+  "notice_filed_with_supervisor": "2023-10-08"
+ },
+ {
+  "claim_id": "C0069",
+  "employee_id": "E0069",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-04-13T13:00",
+  "notice_filed_with_supervisor": "2026-04-28"
+ },
+ {
+  "claim_id": "C0070",
+  "employee_id": "E0070",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-12-05T11:00",
+  "notice_filed_with_supervisor": "2024-12-20"
+ },
+ {
+  "claim_id": "C0071",
+  "employee_id": "E0071",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-06-07T06:45",
+  "notice_filed_with_supervisor": "2024-06-24"
+ },
+ {
+  "claim_id": "C0072",
+  "employee_id": "E0072",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-01-06T09:00",
+  "notice_filed_with_supervisor": "2025-01-06"
+ },
+ {
+  "claim_id": "C0073",
+  "employee_id": "E0073",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-03-06T12:00",
+  "notice_filed_with_supervisor": "2023-04-05"
+ },
+ {
+  "claim_id": "C0074",
+  "employee_id": "E0074",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-11-28T11:30",
+  "notice_filed_with_supervisor": "2025-12-17"
+ },
+ {
+  "claim_id": "C0075",
+  "employee_id": "E0075",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-05-01T08:03",
+  "notice_filed_with_supervisor": "2025-05-20"
+ },
+ {
+  "claim_id": "C0076",
+  "employee_id": "E0076",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2023-04-17T09:35",
+  "notice_filed_with_supervisor": "2023-04-24"
+ },
+ {
+  "claim_id": "C0077",
+  "employee_id": "E0077",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-09-11T09:35",
+  "notice_filed_with_supervisor": "2023-10-12"
+ },
+ {
+  "claim_id": "C0078",
+  "employee_id": "E0078",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-02-21T05:50",
+  "notice_filed_with_supervisor": "2025-03-24"
+ },
+ {
+  "claim_id": "C0079",
+  "employee_id": "E0079",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-03-24T06:50",
+  "notice_filed_with_supervisor": "2026-03-29"
+ },
+ {
+  "claim_id": "C0080",
+  "employee_id": "E0080",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-01-06T09:00",
+  "notice_filed_with_supervisor": "2025-01-06"
+ },
+ {
+  "claim_id": "C0081",
+  "employee_id": "E0081",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-01-12T08:03",
+  "notice_filed_with_supervisor": "2026-01-25"
+ },
+ {
+  "claim_id": "C0082",
+  "employee_id": "E0082",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-07-30T07:03",
+  "notice_filed_with_supervisor": "2025-08-30"
+ },
+ {
+  "claim_id": "C0083",
+  "employee_id": "E0083",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-04-29T07:15",
+  "notice_filed_with_supervisor": "2024-05-29"
+ },
+ {
+  "claim_id": "C0084",
+  "employee_id": "E0084",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-04-08T06:28",
+  "notice_filed_with_supervisor": "2025-04-20"
+ },
+ {
+  "claim_id": "C0085",
+  "employee_id": "E0085",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-08-09T08:35",
+  "notice_filed_with_supervisor": "2024-08-23"
+ },
+ {
+  "claim_id": "C0086",
+  "employee_id": "E0086",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-02-10T07:33",
+  "notice_filed_with_supervisor": "2025-02-11"
+ },
+ {
+  "claim_id": "C0087",
+  "employee_id": "E0087",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-08-16T06:50",
+  "notice_filed_with_supervisor": "2023-09-15"
+ },
+ {
+  "claim_id": "C0088",
+  "employee_id": "E0088",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-09-06T07:03",
+  "notice_filed_with_supervisor": "2024-10-07"
+ },
+ {
+  "claim_id": "C0089",
+  "employee_id": "E0089",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-02-01T09:05",
+  "notice_filed_with_supervisor": "2025-02-08"
+ },
+ {
+  "claim_id": "C0090",
+  "employee_id": "E0090",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-09-26T07:03",
+  "notice_filed_with_supervisor": "2025-10-15"
+ },
+ {
+  "claim_id": "C0091",
+  "employee_id": "E0091",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-04-01T07:03",
+  "notice_filed_with_supervisor": "2024-04-19"
+ },
+ {
+  "claim_id": "C0092",
+  "employee_id": "E0092",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-06-20T10:30",
+  "notice_filed_with_supervisor": "2023-07-21"
+ },
+ {
+  "claim_id": "C0093",
+  "employee_id": "E0093",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-02-07T09:05",
+  "notice_filed_with_supervisor": "2025-02-22"
+ },
+ {
+  "claim_id": "C0094",
+  "employee_id": "E0094",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-03-03T10:00",
+  "notice_filed_with_supervisor": "2025-03-03"
+ },
+ {
+  "claim_id": "C0095",
+  "employee_id": "E0095",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-04T10:15",
+  "notice_filed_with_supervisor": "2025-03-05"
+ },
+ {
+  "claim_id": "C0096",
+  "employee_id": "E0096",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-04-10T08:20",
+  "notice_filed_with_supervisor": "2023-04-17"
+ },
+ {
+  "claim_id": "C0097",
+  "employee_id": "E0097",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-05-17T06:58",
+  "notice_filed_with_supervisor": "2023-05-28"
+ },
+ {
+  "claim_id": "C0098",
+  "employee_id": "E0098",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-04-11T07:50",
+  "notice_filed_with_supervisor": "2023-04-25"
+ },
+ {
+  "claim_id": "C0099",
+  "employee_id": "E0099",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-05-09T07:58",
+  "notice_filed_with_supervisor": "2025-06-08"
+ },
+ {
+  "claim_id": "C0100",
+  "employee_id": "E0100",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-06-29T07:20",
+  "notice_filed_with_supervisor": "2024-07-18"
+ },
+ {
+  "claim_id": "C0101",
+  "employee_id": "E0101",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-03-23T07:58",
+  "notice_filed_with_supervisor": "2026-04-07"
+ },
+ {
+  "claim_id": "C0102",
+  "employee_id": "E0102",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-20T09:05",
+  "notice_filed_with_supervisor": "2025-04-19"
+ },
+ {
+  "claim_id": "C0103",
+  "employee_id": "E0103",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-05-22T13:00",
+  "notice_filed_with_supervisor": "2023-05-31"
+ },
+ {
+  "claim_id": "C0104",
+  "employee_id": "E0104",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-03-10T07:20",
+  "notice_filed_with_supervisor": "2023-03-23"
+ },
+ {
+  "claim_id": "C0105",
+  "employee_id": "E0105",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-08-12T10:30",
+  "notice_filed_with_supervisor": "2025-08-20"
+ },
+ {
+  "claim_id": "C0106",
+  "employee_id": "E0106",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-05-08T06:50",
+  "notice_filed_with_supervisor": "2023-05-15"
+ },
+ {
+  "claim_id": "C0107",
+  "employee_id": "E0107",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-06-27T12:30",
+  "notice_filed_with_supervisor": "2023-07-06"
+ },
+ {
+  "claim_id": "C0108",
+  "employee_id": "E0108",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-11-18T13:30",
+  "notice_filed_with_supervisor": "2024-11-30"
+ },
+ {
+  "claim_id": "C0109",
+  "employee_id": "E0109",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-01-14T06:33",
+  "notice_filed_with_supervisor": "2026-01-24"
+ },
+ {
+  "claim_id": "C0110",
+  "employee_id": "E0110",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-04-25T10:30",
+  "notice_filed_with_supervisor": "2023-04-29"
+ },
+ {
+  "claim_id": "C0111",
+  "employee_id": "E0111",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-03-30T07:20",
+  "notice_filed_with_supervisor": "2026-04-17"
+ },
+ {
+  "claim_id": "C0112",
+  "employee_id": "E0112",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-12-19T09:05",
+  "notice_filed_with_supervisor": "2023-12-24"
+ },
+ {
+  "claim_id": "C0113",
+  "employee_id": "E0113",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-01-06T09:00",
+  "notice_filed_with_supervisor": "2025-01-06"
+ },
+ {
+  "claim_id": "C0114",
+  "employee_id": "E0114",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-06-26T07:20",
+  "notice_filed_with_supervisor": "2024-07-27"
+ },
+ {
+  "claim_id": "C0115",
+  "employee_id": "E0115",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-11-06T11:30",
+  "notice_filed_with_supervisor": "2025-11-06"
+ },
+ {
+  "claim_id": "C0116",
+  "employee_id": "E0116",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-05-09T06:50",
+  "notice_filed_with_supervisor": "2025-06-09"
+ },
+ {
+  "claim_id": "C0117",
+  "employee_id": "E0117",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-05-06T13:00",
+  "notice_filed_with_supervisor": "2025-05-07"
+ },
+ {
+  "claim_id": "C0118",
+  "employee_id": "E0118",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-07-04T07:33",
+  "notice_filed_with_supervisor": "2025-07-04"
+ },
+ {
+  "claim_id": "C0119",
+  "employee_id": "E0119",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-07-28T06:50",
+  "notice_filed_with_supervisor": "2025-08-01"
+ },
+ {
+  "claim_id": "C0120",
+  "employee_id": "E0120",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-17T11:30",
+  "notice_filed_with_supervisor": "2025-03-23"
+ },
+ {
+  "claim_id": "C0121",
+  "employee_id": "E0121",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-03-12T06:50",
+  "notice_filed_with_supervisor": "2026-03-19"
+ },
+ {
+  "claim_id": "C0122",
+  "employee_id": "E0122",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-12-23T07:28",
+  "notice_filed_with_supervisor": "2025-12-31"
+ },
+ {
+  "claim_id": "C0123",
+  "employee_id": "E0123",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-12-23T13:00",
+  "notice_filed_with_supervisor": "2024-12-31"
+ },
+ {
+  "claim_id": "C0124",
+  "employee_id": "E0124",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-02-07T10:30",
+  "notice_filed_with_supervisor": "2025-02-23"
+ },
+ {
+  "claim_id": "C0125",
+  "employee_id": "E0125",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2023-11-06T07:20",
+  "notice_filed_with_supervisor": "2023-11-23"
+ },
+ {
+  "claim_id": "C0126",
+  "employee_id": "E0126",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-09-09T06:28",
+  "notice_filed_with_supervisor": "2024-10-09"
+ },
+ {
+  "claim_id": "C0127",
+  "employee_id": "E0127",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-02-03T06:45",
+  "notice_filed_with_supervisor": "2026-02-09"
+ },
+ {
+  "claim_id": "C0128",
+  "employee_id": "E0128",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-11-22T13:30",
+  "notice_filed_with_supervisor": "2024-12-02"
+ },
+ {
+  "claim_id": "C0129",
+  "employee_id": "E0129",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-06-25T12:30",
+  "notice_filed_with_supervisor": "2024-06-28"
+ },
+ {
+  "claim_id": "C0130",
+  "employee_id": "E0130",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-06-19T07:20",
+  "notice_filed_with_supervisor": "2025-06-22"
+ },
+ {
+  "claim_id": "C0131",
+  "employee_id": "E0131",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-09-20T08:20",
+  "notice_filed_with_supervisor": "2025-09-25"
+ },
+ {
+  "claim_id": "C0132",
+  "employee_id": "E0132",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-03-28T08:20",
+  "notice_filed_with_supervisor": "2023-04-08"
+ },
+ {
+  "claim_id": "C0133",
+  "employee_id": "E0133",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-08-14T06:55",
+  "notice_filed_with_supervisor": "2023-08-27"
+ },
+ {
+  "claim_id": "C0134",
+  "employee_id": "E0134",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-04-02T08:05",
+  "notice_filed_with_supervisor": "2024-04-20"
+ },
+ {
+  "claim_id": "C0135",
+  "employee_id": "E0135",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-12-27T12:00",
+  "notice_filed_with_supervisor": "2024-01-04"
+ },
+ {
+  "claim_id": "C0136",
+  "employee_id": "E0136",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-08-04T12:30",
+  "notice_filed_with_supervisor": "2025-08-22"
+ },
+ {
+  "claim_id": "C0137",
+  "employee_id": "E0137",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-10-24T05:50",
+  "notice_filed_with_supervisor": "2024-11-12"
+ },
+ {
+  "claim_id": "C0138",
+  "employee_id": "E0138",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-12-31T09:05",
+  "notice_filed_with_supervisor": "2025-01-03"
+ },
+ {
+  "claim_id": "C0139",
+  "employee_id": "E0139",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-09-02T09:05",
+  "notice_filed_with_supervisor": "2024-09-14"
+ },
+ {
+  "claim_id": "C0140",
+  "employee_id": "E0140",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-07-21T06:50",
+  "notice_filed_with_supervisor": "2023-08-04"
+ },
+ {
+  "claim_id": "C0141",
+  "employee_id": "E0141",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-02-22T08:03",
+  "notice_filed_with_supervisor": "2023-03-09"
+ },
+ {
+  "claim_id": "C0142",
+  "employee_id": "E0142",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-08-08T11:30",
+  "notice_filed_with_supervisor": "2025-08-23"
+ },
+ {
+  "claim_id": "C0143",
+  "employee_id": "E0143",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-12-18T09:35",
+  "notice_filed_with_supervisor": "2025-01-17"
+ },
+ {
+  "claim_id": "C0144",
+  "employee_id": "E0144",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-11-29T06:20",
+  "notice_filed_with_supervisor": "2023-12-07"
+ },
+ {
+  "claim_id": "C0145",
+  "employee_id": "E0145",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-09-10T11:00",
+  "notice_filed_with_supervisor": "2024-09-22"
+ },
+ {
+  "claim_id": "C0146",
+  "employee_id": "E0146",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-03-26T07:45",
+  "notice_filed_with_supervisor": "2024-03-26"
+ },
+ {
+  "claim_id": "C0147",
+  "employee_id": "E0147",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-12-17T06:33",
+  "notice_filed_with_supervisor": "2025-12-19"
+ },
+ {
+  "claim_id": "C0148",
+  "employee_id": "E0148",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-05-12T08:35",
+  "notice_filed_with_supervisor": "2026-05-14"
+ },
+ {
+  "claim_id": "C0149",
+  "employee_id": "E0149",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-08-25T07:20",
+  "notice_filed_with_supervisor": "2023-09-05"
+ },
+ {
+  "claim_id": "C0150",
+  "employee_id": "E0150",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-03-28T08:35",
+  "notice_filed_with_supervisor": "2024-04-06"
+ },
+ {
+  "claim_id": "C0151",
+  "employee_id": "E0151",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-03-01T12:00",
+  "notice_filed_with_supervisor": "2024-03-03"
+ },
+ {
+  "claim_id": "C0152",
+  "employee_id": "E0152",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-08-28T11:30",
+  "notice_filed_with_supervisor": "2023-09-03"
+ },
+ {
+  "claim_id": "C0153",
+  "employee_id": "E0153",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-07-09T08:35",
+  "notice_filed_with_supervisor": "2024-08-09"
+ },
+ {
+  "claim_id": "C0154",
+  "employee_id": "E0154",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-09-04T06:58",
+  "notice_filed_with_supervisor": "2025-09-12"
+ },
+ {
+  "claim_id": "C0155",
+  "employee_id": "E0155",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-05-12T11:00",
+  "notice_filed_with_supervisor": "2025-05-22"
+ },
+ {
+  "claim_id": "C0156",
+  "employee_id": "E0156",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-10-30T12:00",
+  "notice_filed_with_supervisor": "2023-10-30"
+ },
+ {
+  "claim_id": "C0157",
+  "employee_id": "E0157",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-12-28T13:30",
+  "notice_filed_with_supervisor": "2024-01-27"
+ },
+ {
+  "claim_id": "C0158",
+  "employee_id": "E0158",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-07-28T09:05",
+  "notice_filed_with_supervisor": "2023-08-04"
+ },
+ {
+  "claim_id": "C0159",
+  "employee_id": "E0159",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-02-11T07:15",
+  "notice_filed_with_supervisor": "2023-03-14"
+ },
+ {
+  "claim_id": "C0160",
+  "employee_id": "E0160",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-03-20T07:50",
+  "notice_filed_with_supervisor": "2026-04-04"
+ },
+ {
+  "claim_id": "C0161",
+  "employee_id": "E0161",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-09-13T07:45",
+  "notice_filed_with_supervisor": "2024-09-30"
+ },
+ {
+  "claim_id": "C0162",
+  "employee_id": "E0162",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-04-26T07:58",
+  "notice_filed_with_supervisor": "2024-04-30"
+ },
+ {
+  "claim_id": "C0163",
+  "employee_id": "E0163",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-04-08T07:20",
+  "notice_filed_with_supervisor": "2024-04-17"
+ },
+ {
+  "claim_id": "C0164",
+  "employee_id": "E0164",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-04-21T06:50",
+  "notice_filed_with_supervisor": "2025-05-06"
+ },
+ {
+  "claim_id": "C0165",
+  "employee_id": "E0165",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-04-02T06:33",
+  "notice_filed_with_supervisor": "2024-04-04"
+ },
+ {
+  "claim_id": "C0166",
+  "employee_id": "E0166",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-09-18T12:00",
+  "notice_filed_with_supervisor": "2023-09-21"
+ },
+ {
+  "claim_id": "C0167",
+  "employee_id": "E0167",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-03-21T07:45",
+  "notice_filed_with_supervisor": "2023-04-03"
+ },
+ {
+  "claim_id": "C0168",
+  "employee_id": "E0168",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-02-13T10:30",
+  "notice_filed_with_supervisor": "2024-03-14"
+ },
+ {
+  "claim_id": "C0169",
+  "employee_id": "E0169",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-04-16T06:33",
+  "notice_filed_with_supervisor": "2024-05-16"
+ },
+ {
+  "claim_id": "C0170",
+  "employee_id": "E0170",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-03-16T09:35",
+  "notice_filed_with_supervisor": "2023-04-03"
+ },
+ {
+  "claim_id": "C0171",
+  "employee_id": "E0171",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-04-28T06:20",
+  "notice_filed_with_supervisor": "2026-05-11"
+ },
+ {
+  "claim_id": "C0172",
+  "employee_id": "E0172",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-06-24T11:00",
+  "notice_filed_with_supervisor": "2024-07-12"
+ },
+ {
+  "claim_id": "C0173",
+  "employee_id": "E0173",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-08-04T08:05",
+  "notice_filed_with_supervisor": "2025-09-03"
+ },
+ {
+  "claim_id": "C0174",
+  "employee_id": "E0174",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-07T07:55",
+  "notice_filed_with_supervisor": "2025-03-19"
+ },
+ {
+  "claim_id": "C0175",
+  "employee_id": "E0175",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-03-04T08:05",
+  "notice_filed_with_supervisor": "2024-04-04"
+ },
+ {
+  "claim_id": "C0176",
+  "employee_id": "E0176",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-06-10T13:00",
+  "notice_filed_with_supervisor": "2024-06-11"
+ },
+ {
+  "claim_id": "C0177",
+  "employee_id": "E0177",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-01-12T08:20",
+  "notice_filed_with_supervisor": "2026-01-24"
+ },
+ {
+  "claim_id": "C0178",
+  "employee_id": "E0178",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-10-10T06:33",
+  "notice_filed_with_supervisor": "2024-11-10"
+ },
+ {
+  "claim_id": "C0179",
+  "employee_id": "E0179",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-12-22T07:58",
+  "notice_filed_with_supervisor": "2025-12-28"
+ },
+ {
+  "claim_id": "C0180",
+  "employee_id": "E0180",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-12-18T12:00",
+  "notice_filed_with_supervisor": "2024-01-02"
+ },
+ {
+  "claim_id": "C0181",
+  "employee_id": "E0181",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-12-01T11:00",
+  "notice_filed_with_supervisor": "2025-12-08"
+ },
+ {
+  "claim_id": "C0182",
+  "employee_id": "E0182",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-10T13:30",
+  "notice_filed_with_supervisor": "2025-03-19"
+ },
+ {
+  "claim_id": "C0183",
+  "employee_id": "E0183",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-08-26T12:00",
+  "notice_filed_with_supervisor": "2025-09-26"
+ },
+ {
+  "claim_id": "C0184",
+  "employee_id": "E0184",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-10-20T08:05",
+  "notice_filed_with_supervisor": "2023-10-24"
+ },
+ {
+  "claim_id": "C0185",
+  "employee_id": "E0185",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2023-11-02T08:03",
+  "notice_filed_with_supervisor": "2023-11-02"
+ },
+ {
+  "claim_id": "C0186",
+  "employee_id": "E0186",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-11-27T12:00",
+  "notice_filed_with_supervisor": "2023-12-04"
+ },
+ {
+  "claim_id": "C0187",
+  "employee_id": "E0187",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-06-21T07:03",
+  "notice_filed_with_supervisor": "2024-06-25"
+ },
+ {
+  "claim_id": "C0188",
+  "employee_id": "E0188",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-10-31T13:00",
+  "notice_filed_with_supervisor": "2025-11-13"
+ },
+ {
+  "claim_id": "C0189",
+  "employee_id": "E0189",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-08-06T07:55",
+  "notice_filed_with_supervisor": "2024-08-08"
+ },
+ {
+  "claim_id": "C0190",
+  "employee_id": "E0190",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-03-29T13:30",
+  "notice_filed_with_supervisor": "2024-04-09"
+ },
+ {
+  "claim_id": "C0191",
+  "employee_id": "E0191",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-03-16T08:20",
+  "notice_filed_with_supervisor": "2026-04-16"
+ },
+ {
+  "claim_id": "C0192",
+  "employee_id": "E0192",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-03-16T07:15",
+  "notice_filed_with_supervisor": "2026-03-17"
+ },
+ {
+  "claim_id": "C0193",
+  "employee_id": "E0193",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-03-31T07:58",
+  "notice_filed_with_supervisor": "2026-04-15"
+ },
+ {
+  "claim_id": "C0194",
+  "employee_id": "E0194",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-05-08T08:05",
+  "notice_filed_with_supervisor": "2023-05-17"
+ },
+ {
+  "claim_id": "C0195",
+  "employee_id": "E0195",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-10-21T08:35",
+  "notice_filed_with_supervisor": "2024-11-03"
+ },
+ {
+  "claim_id": "C0196",
+  "employee_id": "E0196",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-03-20T12:30",
+  "notice_filed_with_supervisor": "2026-04-06"
+ },
+ {
+  "claim_id": "C0197",
+  "employee_id": "E0197",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-06-03T10:00",
+  "notice_filed_with_supervisor": "2025-06-03"
+ },
+ {
+  "claim_id": "C0198",
+  "employee_id": "E0198",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-01-26T07:50",
+  "notice_filed_with_supervisor": "2024-02-09"
+ },
+ {
+  "claim_id": "C0199",
+  "employee_id": "E0199",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-07-10T07:25",
+  "notice_filed_with_supervisor": "2023-07-18"
+ },
+ {
+  "claim_id": "C0200",
+  "employee_id": "E0200",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-07-23T13:30",
+  "notice_filed_with_supervisor": "2024-07-30"
+ },
+ {
+  "claim_id": "C0201",
+  "employee_id": "E0201",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-04-11T06:15",
+  "notice_filed_with_supervisor": "2025-04-18"
+ },
+ {
+  "claim_id": "C0202",
+  "employee_id": "E0202",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-10-16T10:30",
+  "notice_filed_with_supervisor": "2023-10-25"
+ },
+ {
+  "claim_id": "C0203",
+  "employee_id": "E0203",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-12-21T05:50",
+  "notice_filed_with_supervisor": "2024-01-03"
+ },
+ {
+  "claim_id": "C0204",
+  "employee_id": "E0204",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-10-15T11:00",
+  "notice_filed_with_supervisor": "2025-11-01"
+ },
+ {
+  "claim_id": "C0205",
+  "employee_id": "E0205",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-09-27T09:35",
+  "notice_filed_with_supervisor": "2023-10-11"
+ },
+ {
+  "claim_id": "C0206",
+  "employee_id": "E0206",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-09-16T12:00",
+  "notice_filed_with_supervisor": "2024-09-17"
+ },
+ {
+  "claim_id": "C0207",
+  "employee_id": "E0207",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-06-13T07:20",
+  "notice_filed_with_supervisor": "2023-07-02"
+ },
+ {
+  "claim_id": "C0208",
+  "employee_id": "E0208",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-04-26T06:50",
+  "notice_filed_with_supervisor": "2024-05-14"
+ },
+ {
+  "claim_id": "C0209",
+  "employee_id": "E0209",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-17T06:45",
+  "notice_filed_with_supervisor": "2025-04-17"
+ },
+ {
+  "claim_id": "C0210",
+  "employee_id": "E0210",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-01-12T08:03",
+  "notice_filed_with_supervisor": "2026-01-14"
+ },
+ {
+  "claim_id": "C0211",
+  "employee_id": "E0211",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-08-12T08:35",
+  "notice_filed_with_supervisor": "2025-09-11"
+ },
+ {
+  "claim_id": "C0212",
+  "employee_id": "E0212",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-04-09T08:35",
+  "notice_filed_with_supervisor": "2026-04-11"
+ },
+ {
+  "claim_id": "C0213",
+  "employee_id": "E0213",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-04-25T09:05",
+  "notice_filed_with_supervisor": "2024-04-29"
+ },
+ {
+  "claim_id": "C0214",
+  "employee_id": "E0214",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-07-03T13:30",
+  "notice_filed_with_supervisor": "2023-08-02"
+ },
+ {
+  "claim_id": "C0215",
+  "employee_id": "E0215",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-03-04T09:00",
+  "notice_filed_with_supervisor": "2025-03-04"
+ },
+ {
+  "claim_id": "C0216",
+  "employee_id": "E0216",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-05-06T10:30",
+  "notice_filed_with_supervisor": "2024-05-10"
+ },
+ {
+  "claim_id": "C0217",
+  "employee_id": "E0217",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-04-04T07:15",
+  "notice_filed_with_supervisor": "2026-05-04"
+ },
+ {
+  "claim_id": "C0218",
+  "employee_id": "E0218",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-04-10T06:20",
+  "notice_filed_with_supervisor": "2024-05-11"
+ },
+ {
+  "claim_id": "C0219",
+  "employee_id": "E0219",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-09-17T06:50",
+  "notice_filed_with_supervisor": "2024-10-17"
+ },
+ {
+  "claim_id": "C0220",
+  "employee_id": "E0220",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-05-02T07:45",
+  "notice_filed_with_supervisor": "2025-06-01"
+ },
+ {
+  "claim_id": "C0221",
+  "employee_id": "E0221",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-11-03T11:00",
+  "notice_filed_with_supervisor": "2025-11-09"
+ },
+ {
+  "claim_id": "C0222",
+  "employee_id": "E0222",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-08-27T06:50",
+  "notice_filed_with_supervisor": "2024-08-31"
+ },
+ {
+  "claim_id": "C0223",
+  "employee_id": "E0223",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-11-17T06:20",
+  "notice_filed_with_supervisor": "2025-11-23"
+ },
+ {
+  "claim_id": "C0224",
+  "employee_id": "E0224",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-07-25T06:33",
+  "notice_filed_with_supervisor": "2024-07-28"
+ },
+ {
+  "claim_id": "C0225",
+  "employee_id": "E0225",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-12-13T10:30",
+  "notice_filed_with_supervisor": "2025-12-16"
+ },
+ {
+  "claim_id": "C0226",
+  "employee_id": "E0226",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-05-19T12:30",
+  "notice_filed_with_supervisor": "2025-06-07"
+ },
+ {
+  "claim_id": "C0227",
+  "employee_id": "E0227",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-08-19T08:20",
+  "notice_filed_with_supervisor": "2024-09-02"
+ },
+ {
+  "claim_id": "C0228",
+  "employee_id": "E0228",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-09-15T09:35",
+  "notice_filed_with_supervisor": "2025-09-30"
+ },
+ {
+  "claim_id": "C0229",
+  "employee_id": "E0229",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-04-20T08:20",
+  "notice_filed_with_supervisor": "2023-05-01"
+ },
+ {
+  "claim_id": "C0230",
+  "employee_id": "E0230",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-07-29T09:05",
+  "notice_filed_with_supervisor": "2024-08-28"
+ },
+ {
+  "claim_id": "C0231",
+  "employee_id": "E0231",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-07-30T06:33",
+  "notice_filed_with_supervisor": "2024-08-14"
+ },
+ {
+  "claim_id": "C0232",
+  "employee_id": "E0232",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-04-09T07:20",
+  "notice_filed_with_supervisor": "2025-04-09"
+ },
+ {
+  "claim_id": "C0233",
+  "employee_id": "E0233",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-05-20T10:30",
+  "notice_filed_with_supervisor": "2024-05-29"
+ },
+ {
+  "claim_id": "C0234",
+  "employee_id": "E0234",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-04-26T09:35",
+  "notice_filed_with_supervisor": "2024-04-28"
+ },
+ {
+  "claim_id": "C0235",
+  "employee_id": "E0235",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-10-11T07:50",
+  "notice_filed_with_supervisor": "2025-10-14"
+ },
+ {
+  "claim_id": "C0236",
+  "employee_id": "E0236",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-09-19T08:03",
+  "notice_filed_with_supervisor": "2024-10-19"
+ },
+ {
+  "claim_id": "C0237",
+  "employee_id": "E0237",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-08-15T13:30",
+  "notice_filed_with_supervisor": "2025-08-23"
+ },
+ {
+  "claim_id": "C0238",
+  "employee_id": "E0238",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-04-02T13:00",
+  "notice_filed_with_supervisor": "2024-05-02"
+ },
+ {
+  "claim_id": "C0239",
+  "employee_id": "E0239",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-10-06T06:50",
+  "notice_filed_with_supervisor": "2025-10-19"
+ },
+ {
+  "claim_id": "C0240",
+  "employee_id": "E0240",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-06-14T12:30",
+  "notice_filed_with_supervisor": "2024-06-16"
+ },
+ {
+  "claim_id": "C0241",
+  "employee_id": "E0241",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-11-28T07:03",
+  "notice_filed_with_supervisor": "2023-12-16"
+ },
+ {
+  "claim_id": "C0242",
+  "employee_id": "E0242",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-08-24T07:28",
+  "notice_filed_with_supervisor": "2023-09-23"
+ },
+ {
+  "claim_id": "C0243",
+  "employee_id": "E0243",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2026-03-27T10:30",
+  "notice_filed_with_supervisor": "2026-04-06"
+ },
+ {
+  "claim_id": "C0244",
+  "employee_id": "E0244",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-09-24T07:33",
+  "notice_filed_with_supervisor": "2025-10-24"
+ },
+ {
+  "claim_id": "C0245",
+  "employee_id": "E0245",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-07-22T08:03",
+  "notice_filed_with_supervisor": "2024-08-22"
+ },
+ {
+  "claim_id": "C0246",
+  "employee_id": "E0246",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-06-27T06:28",
+  "notice_filed_with_supervisor": "2024-06-29"
+ },
+ {
+  "claim_id": "C0247",
+  "employee_id": "E0247",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-03-13T09:35",
+  "notice_filed_with_supervisor": "2026-03-13"
+ },
+ {
+  "claim_id": "C0248",
+  "employee_id": "E0248",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-06-03T10:30",
+  "notice_filed_with_supervisor": "2024-06-13"
+ },
+ {
+  "claim_id": "C0249",
+  "employee_id": "E0249",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-03-31T06:50",
+  "notice_filed_with_supervisor": "2023-04-13"
+ },
+ {
+  "claim_id": "C0250",
+  "employee_id": "E0250",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-07-23T09:05",
+  "notice_filed_with_supervisor": "2025-08-04"
+ },
+ {
+  "claim_id": "C0251",
+  "employee_id": "E0251",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-01-27T09:05",
+  "notice_filed_with_supervisor": "2025-02-26"
+ },
+ {
+  "claim_id": "C0252",
+  "employee_id": "E0252",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-06-11T06:20",
+  "notice_filed_with_supervisor": "2024-06-11"
+ },
+ {
+  "claim_id": "C0253",
+  "employee_id": "E0253",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-04T10:15",
+  "notice_filed_with_supervisor": "2025-03-05"
+ },
+ {
+  "claim_id": "C0254",
+  "employee_id": "E0254",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2026-02-09T08:20",
+  "notice_filed_with_supervisor": "2026-02-14"
+ },
+ {
+  "claim_id": "C0255",
+  "employee_id": "E0255",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-10-21T11:00",
+  "notice_filed_with_supervisor": "2024-10-30"
+ },
+ {
+  "claim_id": "C0256",
+  "employee_id": "E0256",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-03-03T10:00",
+  "notice_filed_with_supervisor": "2025-03-03"
+ },
+ {
+  "claim_id": "C0257",
+  "employee_id": "E0257",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-10-21T11:00",
+  "notice_filed_with_supervisor": "2024-11-08"
+ },
+ {
+  "claim_id": "C0258",
+  "employee_id": "E0258",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-08-29T07:28",
+  "notice_filed_with_supervisor": "2023-09-02"
+ },
+ {
+  "claim_id": "C0259",
+  "employee_id": "E0259",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2023-03-21T07:20",
+  "notice_filed_with_supervisor": "2023-03-26"
+ },
+ {
+  "claim_id": "C0260",
+  "employee_id": "E0260",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-04-11T10:30",
+  "notice_filed_with_supervisor": "2023-04-28"
+ },
+ {
+  "claim_id": "C0261",
+  "employee_id": "E0261",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-10-27T07:20",
+  "notice_filed_with_supervisor": "2025-11-01"
+ },
+ {
+  "claim_id": "C0262",
+  "employee_id": "E0262",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-06-23T06:50",
+  "notice_filed_with_supervisor": "2025-07-23"
+ },
+ {
+  "claim_id": "C0263",
+  "employee_id": "E0263",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2023-03-01T07:20",
+  "notice_filed_with_supervisor": "2023-03-11"
+ },
+ {
+  "claim_id": "C0264",
+  "employee_id": "E0264",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-01-06T12:00",
+  "notice_filed_with_supervisor": "2025-01-17"
+ },
+ {
+  "claim_id": "C0265",
+  "employee_id": "E0265",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2023-03-01T12:00",
+  "notice_filed_with_supervisor": "2023-03-05"
+ },
+ {
+  "claim_id": "C0266",
+  "employee_id": "E0266",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-12-19T11:30",
+  "notice_filed_with_supervisor": "2025-12-26"
+ },
+ {
+  "claim_id": "C0267",
+  "employee_id": "E0267",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-01-13T07:50",
+  "notice_filed_with_supervisor": "2025-02-13"
+ },
+ {
+  "claim_id": "C0268",
+  "employee_id": "E0268",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-09-12T11:00",
+  "notice_filed_with_supervisor": "2024-09-23"
+ },
+ {
+  "claim_id": "C0269",
+  "employee_id": "E0269",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-01-12T08:05",
+  "notice_filed_with_supervisor": "2026-01-19"
+ },
+ {
+  "claim_id": "C0270",
+  "employee_id": "E0270",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-09-24T06:33",
+  "notice_filed_with_supervisor": "2024-09-25"
+ },
+ {
+  "claim_id": "C0271",
+  "employee_id": "E0271",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-01-06T12:00",
+  "notice_filed_with_supervisor": "2025-01-13"
+ },
+ {
+  "claim_id": "C0272",
+  "employee_id": "E0272",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-04T10:15",
+  "notice_filed_with_supervisor": "2025-03-05"
+ },
+ {
+  "claim_id": "C0273",
+  "employee_id": "E0273",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-03-27T05:50",
+  "notice_filed_with_supervisor": "2023-04-07"
+ },
+ {
+  "claim_id": "C0274",
+  "employee_id": "E0274",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-04T10:30",
+  "notice_filed_with_supervisor": "2025-03-19"
+ },
+ {
+  "claim_id": "C0275",
+  "employee_id": "E0275",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-10-30T07:58",
+  "notice_filed_with_supervisor": "2023-11-13"
+ },
+ {
+  "claim_id": "C0276",
+  "employee_id": "E0276",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-04-28T08:35",
+  "notice_filed_with_supervisor": "2023-04-30"
+ },
+ {
+  "claim_id": "C0277",
+  "employee_id": "E0277",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-04-01T06:50",
+  "notice_filed_with_supervisor": "2024-04-13"
+ },
+ {
+  "claim_id": "C0278",
+  "employee_id": "E0278",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2026-05-01T06:33",
+  "notice_filed_with_supervisor": "2026-05-07"
+ },
+ {
+  "claim_id": "C0279",
+  "employee_id": "E0279",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-11-06T07:58",
+  "notice_filed_with_supervisor": "2024-11-14"
+ },
+ {
+  "claim_id": "C0280",
+  "employee_id": "E0280",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-06-17T06:50",
+  "notice_filed_with_supervisor": "2024-07-18"
+ },
+ {
+  "claim_id": "C0281",
+  "employee_id": "E0281",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-01-28T11:00",
+  "notice_filed_with_supervisor": "2026-01-28"
+ },
+ {
+  "claim_id": "C0282",
+  "employee_id": "E0282",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-01-06T08:20",
+  "notice_filed_with_supervisor": "2025-01-12"
+ },
+ {
+  "claim_id": "C0283",
+  "employee_id": "E0283",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-24T06:28",
+  "notice_filed_with_supervisor": "2025-04-23"
+ },
+ {
+  "claim_id": "C0284",
+  "employee_id": "E0284",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-01-06T09:00",
+  "notice_filed_with_supervisor": "2025-01-06"
+ },
+ {
+  "claim_id": "C0285",
+  "employee_id": "E0285",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2023-06-02T06:20",
+  "notice_filed_with_supervisor": "2023-06-18"
+ },
+ {
+  "claim_id": "C0286",
+  "employee_id": "E0286",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-01-30T06:45",
+  "notice_filed_with_supervisor": "2024-02-05"
+ },
+ {
+  "claim_id": "C0287",
+  "employee_id": "E0287",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-09-13T08:20",
+  "notice_filed_with_supervisor": "2024-09-23"
+ },
+ {
+  "claim_id": "C0288",
+  "employee_id": "E0288",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-01-06T09:00",
+  "notice_filed_with_supervisor": "2025-01-06"
+ },
+ {
+  "claim_id": "C0289",
+  "employee_id": "E0289",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-03-26T06:55",
+  "notice_filed_with_supervisor": "2024-04-14"
+ },
+ {
+  "claim_id": "C0290",
+  "employee_id": "E0290",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-02-28T06:28",
+  "notice_filed_with_supervisor": "2025-03-15"
+ },
+ {
+  "claim_id": "C0291",
+  "employee_id": "E0291",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-04T10:15",
+  "notice_filed_with_supervisor": "2025-04-04"
+ },
+ {
+  "claim_id": "C0292",
+  "employee_id": "E0292",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-05-30T09:05",
+  "notice_filed_with_supervisor": "2024-06-30"
+ },
+ {
+  "claim_id": "C0293",
+  "employee_id": "E0293",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2025-01-06T09:00",
+  "notice_filed_with_supervisor": "2025-01-06"
+ },
+ {
+  "claim_id": "C0294",
+  "employee_id": "E0294",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-07-16T07:33",
+  "notice_filed_with_supervisor": "2024-07-23"
+ },
+ {
+  "claim_id": "C0295",
+  "employee_id": "E0295",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-12-16T07:55",
+  "notice_filed_with_supervisor": "2025-12-19"
+ },
+ {
+  "claim_id": "C0296",
+  "employee_id": "E0296",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-01-07T11:00",
+  "notice_filed_with_supervisor": "2026-01-17"
+ },
+ {
+  "claim_id": "C0297",
+  "employee_id": "E0297",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-04-15T07:33",
+  "notice_filed_with_supervisor": "2024-04-22"
+ },
+ {
+  "claim_id": "C0298",
+  "employee_id": "E0298",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2026-01-05T08:20",
+  "notice_filed_with_supervisor": "2026-01-21"
+ },
+ {
+  "claim_id": "C0299",
+  "employee_id": "E0299",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-08-25T07:33",
+  "notice_filed_with_supervisor": "2025-08-27"
+ },
+ {
+  "claim_id": "C0300",
+  "employee_id": "E0300",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-03-17T12:00",
+  "notice_filed_with_supervisor": "2025-04-01"
+ },
+ {
+  "claim_id": "C0301",
+  "employee_id": "E0301",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-10-20T07:20",
+  "notice_filed_with_supervisor": "2025-10-30"
+ },
+ {
+  "claim_id": "C0302",
+  "employee_id": "E0302",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-10-16T06:28",
+  "notice_filed_with_supervisor": "2023-10-20"
+ },
+ {
+  "claim_id": "C0303",
+  "employee_id": "E0303",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-02-23T07:55",
+  "notice_filed_with_supervisor": "2023-03-25"
+ },
+ {
+  "claim_id": "C0304",
+  "employee_id": "E0304",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-06-10T12:00",
+  "notice_filed_with_supervisor": "2024-07-10"
+ },
+ {
+  "claim_id": "C0305",
+  "employee_id": "E0305",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-12-27T10:30",
+  "notice_filed_with_supervisor": "2026-01-26"
+ },
+ {
+  "claim_id": "C0306",
+  "employee_id": "E0306",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-04-27T09:05",
+  "notice_filed_with_supervisor": "2026-05-10"
+ },
+ {
+  "claim_id": "C0307",
+  "employee_id": "E0307",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2023-06-02T12:00",
+  "notice_filed_with_supervisor": "2023-06-11"
+ },
+ {
+  "claim_id": "C0308",
+  "employee_id": "E0308",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-06-03T08:35",
+  "notice_filed_with_supervisor": "2024-06-22"
+ },
+ {
+  "claim_id": "C0309",
+  "employee_id": "E0309",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2023-02-09T13:30",
+  "notice_filed_with_supervisor": "2023-03-11"
+ },
+ {
+  "claim_id": "C0310",
+  "employee_id": "E0310",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-02-26T11:30",
+  "notice_filed_with_supervisor": "2024-03-14"
+ },
+ {
+  "claim_id": "C0311",
+  "employee_id": "E0311",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-01-08T07:25",
+  "notice_filed_with_supervisor": "2024-01-12"
+ },
+ {
+  "claim_id": "C0312",
+  "employee_id": "E0312",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-07-20T09:05",
+  "notice_filed_with_supervisor": "2023-08-05"
+ },
+ {
+  "claim_id": "C0313",
+  "employee_id": "E0313",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2024-02-27T11:30",
+  "notice_filed_with_supervisor": "2024-03-28"
+ },
+ {
+  "claim_id": "C0314",
+  "employee_id": "E0314",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2025-01-20T06:50",
+  "notice_filed_with_supervisor": "2025-01-22"
+ },
+ {
+  "claim_id": "C0315",
+  "employee_id": "E0315",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-10-30T07:20",
+  "notice_filed_with_supervisor": "2023-11-29"
+ },
+ {
+  "claim_id": "C0316",
+  "employee_id": "E0316",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-05-13T06:25",
+  "notice_filed_with_supervisor": "2023-05-27"
+ },
+ {
+  "claim_id": "C0317",
+  "employee_id": "E0317",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2024-11-25T07:03",
+  "notice_filed_with_supervisor": "2024-12-12"
+ },
+ {
+  "claim_id": "C0318",
+  "employee_id": "E0318",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2026-02-23T09:35",
+  "notice_filed_with_supervisor": "2026-03-09"
+ },
+ {
+  "claim_id": "C0319",
+  "employee_id": "E0319",
+  "claim_type": "occupational disease (CA-2)",
+  "injury_date_time": "2023-12-15T08:35",
+  "notice_filed_with_supervisor": "2023-12-28"
+ },
+ {
+  "claim_id": "C0320",
+  "employee_id": "E0320",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-03-06T07:33",
+  "notice_filed_with_supervisor": "2023-03-17"
+ },
+ {
+  "claim_id": "C0321",
+  "employee_id": "E0321",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-09-11T10:30",
+  "notice_filed_with_supervisor": "2023-09-20"
+ },
+ {
+  "claim_id": "C0322",
+  "employee_id": "E0322",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-03-07T06:45",
+  "notice_filed_with_supervisor": "2023-03-21"
+ },
+ {
+  "claim_id": "C0323",
+  "employee_id": "E0323",
+  "claim_type": "traumatic injury (CA-1)",
+  "injury_date_time": "2023-03-06T12:30",
+  "notice_filed_with_supervisor": "2023-03-16"
+ }
+]

@@ -1,0 +1,989 @@
+{
+"C0001": [
+"filler"
+],
+"C0002": [
+"filler"
+],
+"C0003": [
+"filler"
+],
+"C0004": [
+"filler"
+],
+"C0005": [
+"filler"
+],
+"C0006": [
+"filler"
+],
+"C0007": [
+"pay-rate"
+],
+"C0008": [
+"filler"
+],
+"C0009": [
+"filler"
+],
+"C0010": [
+"filler"
+],
+"C0011": [
+"filler"
+],
+"C0012": [
+"filler"
+],
+"C0013": [
+"filler"
+],
+"C0014": [
+"filler"
+],
+"C0015": [
+"filler"
+],
+"C0016": [
+"filler"
+],
+"C0017": [
+"filler"
+],
+"C0018": [
+"filler"
+],
+"C0019": [
+"filler"
+],
+"C0020": [
+"filler"
+],
+"C0021": [
+"filler"
+],
+"C0022": [
+"filler"
+],
+"C0023": [
+"filler"
+],
+"C0024": [
+"filler"
+],
+"C0025": [
+"filler"
+],
+"C0026": [
+"part-time",
+"cop-cap"
+],
+"C0027": [
+"filler"
+],
+"C0028": [
+"filler"
+],
+"C0029": [
+"filler"
+],
+"C0030": [
+"recurrence",
+"boundary"
+],
+"C0031": [
+"filler"
+],
+"C0032": [
+"filler"
+],
+"C0033": [
+"filler"
+],
+"C0034": [
+"filler"
+],
+"C0035": [
+"days-off",
+"cop-days"
+],
+"C0036": [
+"filler"
+],
+"C0037": [
+"filler"
+],
+"C0038": [
+"filler"
+],
+"C0039": [
+"filler"
+],
+"C0040": [
+"filler"
+],
+"C0041": [
+"filler"
+],
+"C0042": [
+"filler"
+],
+"C0043": [
+"filler"
+],
+"C0044": [
+"filler"
+],
+"C0045": [
+"filler"
+],
+"C0046": [
+"filler"
+],
+"C0047": [
+"filler"
+],
+"C0048": [
+"filler"
+],
+"C0049": [
+"filler"
+],
+"C0050": [
+"filler"
+],
+"C0051": [
+"filler"
+],
+"C0052": [
+"filler"
+],
+"C0053": [
+"filler"
+],
+"C0054": [
+"filler"
+],
+"C0055": [
+"filler"
+],
+"C0056": [
+"cop-cap",
+"compensation"
+],
+"C0057": [
+"filler"
+],
+"C0058": [
+"filler"
+],
+"C0059": [
+"filler"
+],
+"C0060": [
+"eligibility",
+"boundary"
+],
+"C0061": [
+"filler"
+],
+"C0062": [
+"filler"
+],
+"C0063": [
+"filler"
+],
+"C0064": [
+"filler"
+],
+"C0065": [
+"cop-days",
+"injury-day",
+"days-off"
+],
+"C0066": [
+"filler"
+],
+"C0067": [
+"filler"
+],
+"C0068": [
+"filler"
+],
+"C0069": [
+"filler"
+],
+"C0070": [
+"filler"
+],
+"C0071": [
+"filler"
+],
+"C0072": [
+"dependents"
+],
+"C0073": [
+"filler"
+],
+"C0074": [
+"filler"
+],
+"C0075": [
+"filler"
+],
+"C0076": [
+"filler"
+],
+"C0077": [
+"filler"
+],
+"C0078": [
+"filler"
+],
+"C0079": [
+"filler"
+],
+"C0080": [
+"cop-cap",
+"leave-counted"
+],
+"C0081": [
+"filler"
+],
+"C0082": [
+"filler"
+],
+"C0083": [
+"filler"
+],
+"C0084": [
+"filler"
+],
+"C0085": [
+"filler"
+],
+"C0086": [
+"filler"
+],
+"C0087": [
+"filler"
+],
+"C0088": [
+"filler"
+],
+"C0089": [
+"filler"
+],
+"C0090": [
+"filler"
+],
+"C0091": [
+"filler"
+],
+"C0092": [
+"filler"
+],
+"C0093": [
+"filler"
+],
+"C0094": [
+"waiting-period",
+"boundary"
+],
+"C0095": [
+"recurrence",
+"boundary"
+],
+"C0096": [
+"filler"
+],
+"C0097": [
+"filler"
+],
+"C0098": [
+"filler"
+],
+"C0099": [
+"filler"
+],
+"C0100": [
+"filler"
+],
+"C0101": [
+"filler"
+],
+"C0102": [
+"filler"
+],
+"C0103": [
+"filler"
+],
+"C0104": [
+"filler"
+],
+"C0105": [
+"filler"
+],
+"C0106": [
+"filler"
+],
+"C0107": [
+"filler"
+],
+"C0108": [
+"filler"
+],
+"C0109": [
+"filler"
+],
+"C0110": [
+"filler"
+],
+"C0111": [
+"filler"
+],
+"C0112": [
+"filler"
+],
+"C0113": [
+"pay-rate"
+],
+"C0114": [
+"filler"
+],
+"C0115": [
+"filler"
+],
+"C0116": [
+"filler"
+],
+"C0117": [
+"cop-days",
+"partial-days"
+],
+"C0118": [
+"filler"
+],
+"C0119": [
+"filler"
+],
+"C0120": [
+"filler"
+],
+"C0121": [
+"filler"
+],
+"C0122": [
+"filler"
+],
+"C0123": [
+"filler"
+],
+"C0124": [
+"filler"
+],
+"C0125": [
+"filler"
+],
+"C0126": [
+"filler"
+],
+"C0127": [
+"filler"
+],
+"C0128": [
+"filler"
+],
+"C0129": [
+"filler"
+],
+"C0130": [
+"filler"
+],
+"C0131": [
+"filler"
+],
+"C0132": [
+"filler"
+],
+"C0133": [
+"filler"
+],
+"C0134": [
+"filler"
+],
+"C0135": [
+"filler"
+],
+"C0136": [
+"filler"
+],
+"C0137": [
+"filler"
+],
+"C0138": [
+"filler"
+],
+"C0139": [
+"filler"
+],
+"C0140": [
+"filler"
+],
+"C0141": [
+"filler"
+],
+"C0142": [
+"filler"
+],
+"C0143": [
+"filler"
+],
+"C0144": [
+"filler"
+],
+"C0145": [
+"filler"
+],
+"C0146": [
+"filler"
+],
+"C0147": [
+"filler"
+],
+"C0148": [
+"filler"
+],
+"C0149": [
+"filler"
+],
+"C0150": [
+"filler"
+],
+"C0151": [
+"filler"
+],
+"C0152": [
+"filler"
+],
+"C0153": [
+"filler"
+],
+"C0154": [
+"filler"
+],
+"C0155": [
+"filler"
+],
+"C0156": [
+"filler"
+],
+"C0157": [
+"filler"
+],
+"C0158": [
+"filler"
+],
+"C0159": [
+"filler"
+],
+"C0160": [
+"filler"
+],
+"C0161": [
+"filler"
+],
+"C0162": [
+"filler"
+],
+"C0163": [
+"filler"
+],
+"C0164": [
+"filler"
+],
+"C0165": [
+"filler"
+],
+"C0166": [
+"filler"
+],
+"C0167": [
+"filler"
+],
+"C0168": [
+"filler"
+],
+"C0169": [
+"filler"
+],
+"C0170": [
+"filler"
+],
+"C0171": [
+"filler"
+],
+"C0172": [
+"filler"
+],
+"C0173": [
+"filler"
+],
+"C0174": [
+"filler"
+],
+"C0175": [
+"filler"
+],
+"C0176": [
+"filler"
+],
+"C0177": [
+"filler"
+],
+"C0178": [
+"filler"
+],
+"C0179": [
+"filler"
+],
+"C0180": [
+"filler"
+],
+"C0181": [
+"filler"
+],
+"C0182": [
+"filler"
+],
+"C0183": [
+"filler"
+],
+"C0184": [
+"filler"
+],
+"C0185": [
+"filler"
+],
+"C0186": [
+"filler"
+],
+"C0187": [
+"filler"
+],
+"C0188": [
+"filler"
+],
+"C0189": [
+"filler"
+],
+"C0190": [
+"filler"
+],
+"C0191": [
+"filler"
+],
+"C0192": [
+"filler"
+],
+"C0193": [
+"filler"
+],
+"C0194": [
+"filler"
+],
+"C0195": [
+"filler"
+],
+"C0196": [
+"filler"
+],
+"C0197": [
+"days-off"
+],
+"C0198": [
+"filler"
+],
+"C0199": [
+"filler"
+],
+"C0200": [
+"filler"
+],
+"C0201": [
+"filler"
+],
+"C0202": [
+"filler"
+],
+"C0203": [
+"filler"
+],
+"C0204": [
+"filler"
+],
+"C0205": [
+"filler"
+],
+"C0206": [
+"filler"
+],
+"C0207": [
+"filler"
+],
+"C0208": [
+"filler"
+],
+"C0209": [
+"filler"
+],
+"C0210": [
+"filler"
+],
+"C0211": [
+"filler"
+],
+"C0212": [
+"filler"
+],
+"C0213": [
+"filler"
+],
+"C0214": [
+"filler"
+],
+"C0215": [
+"cola"
+],
+"C0216": [
+"filler"
+],
+"C0217": [
+"filler"
+],
+"C0218": [
+"filler"
+],
+"C0219": [
+"filler"
+],
+"C0220": [
+"filler"
+],
+"C0221": [
+"filler"
+],
+"C0222": [
+"filler"
+],
+"C0223": [
+"filler"
+],
+"C0224": [
+"filler"
+],
+"C0225": [
+"filler"
+],
+"C0226": [
+"filler"
+],
+"C0227": [
+"filler"
+],
+"C0228": [
+"filler"
+],
+"C0229": [
+"filler"
+],
+"C0230": [
+"filler"
+],
+"C0231": [
+"filler"
+],
+"C0232": [
+"cop-days",
+"injury-day"
+],
+"C0233": [
+"filler"
+],
+"C0234": [
+"filler"
+],
+"C0235": [
+"filler"
+],
+"C0236": [
+"filler"
+],
+"C0237": [
+"filler"
+],
+"C0238": [
+"filler"
+],
+"C0239": [
+"filler"
+],
+"C0240": [
+"filler"
+],
+"C0241": [
+"filler"
+],
+"C0242": [
+"filler"
+],
+"C0243": [
+"filler"
+],
+"C0244": [
+"filler"
+],
+"C0245": [
+"filler"
+],
+"C0246": [
+"filler"
+],
+"C0247": [
+"filler"
+],
+"C0248": [
+"filler"
+],
+"C0249": [
+"filler"
+],
+"C0250": [
+"filler"
+],
+"C0251": [
+"filler"
+],
+"C0252": [
+"filler"
+],
+"C0253": [
+"recurrence",
+"boundary"
+],
+"C0254": [
+"filler"
+],
+"C0255": [
+"filler"
+],
+"C0256": [
+"waiting-period",
+"boundary"
+],
+"C0257": [
+"filler"
+],
+"C0258": [
+"filler"
+],
+"C0259": [
+"filler"
+],
+"C0260": [
+"filler"
+],
+"C0261": [
+"filler"
+],
+"C0262": [
+"filler"
+],
+"C0263": [
+"filler"
+],
+"C0264": [
+"filler"
+],
+"C0265": [
+"filler"
+],
+"C0266": [
+"filler"
+],
+"C0267": [
+"filler"
+],
+"C0268": [
+"filler"
+],
+"C0269": [
+"filler"
+],
+"C0270": [
+"filler"
+],
+"C0271": [
+"filler"
+],
+"C0272": [
+"cop-days",
+"days-off"
+],
+"C0273": [
+"filler"
+],
+"C0274": [
+"filler"
+],
+"C0275": [
+"filler"
+],
+"C0276": [
+"filler"
+],
+"C0277": [
+"filler"
+],
+"C0278": [
+"filler"
+],
+"C0279": [
+"filler"
+],
+"C0280": [
+"filler"
+],
+"C0281": [
+"filler"
+],
+"C0282": [
+"filler"
+],
+"C0283": [
+"filler"
+],
+"C0284": [
+"eligibility",
+"boundary"
+],
+"C0285": [
+"filler"
+],
+"C0286": [
+"filler"
+],
+"C0287": [
+"filler"
+],
+"C0288": [
+"pay-rate"
+],
+"C0289": [
+"filler"
+],
+"C0290": [
+"filler"
+],
+"C0291": [
+"eligibility",
+"boundary",
+"waiting-period"
+],
+"C0292": [
+"filler"
+],
+"C0293": [
+"cola"
+],
+"C0294": [
+"filler"
+],
+"C0295": [
+"filler"
+],
+"C0296": [
+"filler"
+],
+"C0297": [
+"filler"
+],
+"C0298": [
+"filler"
+],
+"C0299": [
+"filler"
+],
+"C0300": [
+"filler"
+],
+"C0301": [
+"filler"
+],
+"C0302": [
+"filler"
+],
+"C0303": [
+"filler"
+],
+"C0304": [
+"filler"
+],
+"C0305": [
+"filler"
+],
+"C0306": [
+"filler"
+],
+"C0307": [
+"filler"
+],
+"C0308": [
+"filler"
+],
+"C0309": [
+"filler"
+],
+"C0310": [
+"filler"
+],
+"C0311": [
+"filler"
+],
+"C0312": [
+"filler"
+],
+"C0313": [
+"filler"
+],
+"C0314": [
+"filler"
+],
+"C0315": [
+"filler"
+],
+"C0316": [
+"filler"
+],
+"C0317": [
+"filler"
+],
+"C0318": [
+"filler"
+],
+"C0319": [
+"filler"
+],
+"C0320": [
+"filler"
+],
+"C0321": [
+"filler"
+],
+"C0322": [
+"filler"
+],
+"C0323": [
+"filler"
+]
+}

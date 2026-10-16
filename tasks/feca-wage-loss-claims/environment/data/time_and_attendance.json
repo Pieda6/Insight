@@ -1,0 +1,3964 @@
+[
+ {
+  "claim_id": "C0001",
+  "from": "2024-06-26",
+  "to": "2024-08-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0001",
+  "from": "2025-01-31",
+  "to": "2025-05-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0002",
+  "from": "2025-02-25",
+  "to": "2025-03-17",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0003",
+  "from": "2024-07-10",
+  "to": "2026-05-30",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0004",
+  "from": "2025-01-08",
+  "to": "2025-02-20",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0005",
+  "from": "2026-02-10",
+  "to": "2026-04-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0005",
+  "from": "2026-06-15",
+  "to": "2026-07-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0006",
+  "from": "2024-10-30",
+  "to": "2024-11-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0007",
+  "from": "2025-02-03",
+  "to": "2025-03-03",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0008",
+  "from": "2025-05-06",
+  "to": "2025-05-21",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0009",
+  "from": "2026-02-03",
+  "to": "2026-02-10",
+  "absence_requested_as": "sick leave",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0009",
+  "from": "2026-02-11",
+  "to": "2026-03-04",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0009",
+  "from": "2026-04-14",
+  "to": "2026-05-22",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0010",
+  "from": "2025-09-19",
+  "to": "2026-07-15",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0011",
+  "from": "2023-10-17",
+  "to": "2023-10-26",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0012",
+  "from": "2023-09-21",
+  "to": "2023-11-03",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0013",
+  "from": "2024-06-14",
+  "to": "2024-06-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0013",
+  "from": "2024-07-22",
+  "to": "2024-08-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0014",
+  "from": "2023-02-28",
+  "to": "2023-03-09",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0014",
+  "from": "2023-03-24",
+  "to": "2023-03-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0014",
+  "from": "2023-04-03",
+  "to": "2023-04-03",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0014",
+  "from": "2023-04-12",
+  "to": "2023-04-12",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0014",
+  "from": "2023-04-25",
+  "to": "2023-06-02",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0015",
+  "from": "2024-05-07",
+  "to": "2024-05-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0015",
+  "from": "2024-06-03",
+  "to": "2024-06-03",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0016",
+  "from": "2025-03-24",
+  "to": "2025-03-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0016",
+  "from": "2025-04-08",
+  "to": "2025-04-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0016",
+  "from": "2025-04-14",
+  "to": "2025-04-14",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0017",
+  "from": "2025-04-15",
+  "to": "2025-04-18",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0018",
+  "from": "2024-03-14",
+  "to": "2024-04-27",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0018",
+  "from": "2024-06-13",
+  "to": "2024-07-13",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0019",
+  "from": "2025-11-25",
+  "to": "2025-12-08",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0020",
+  "from": "2025-04-04",
+  "to": "2025-04-07",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0021",
+  "from": "2023-12-04",
+  "to": "2025-09-15",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0021",
+  "from": "2025-09-26",
+  "to": "2025-09-26",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0021",
+  "from": "2025-10-06",
+  "to": "2025-10-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0021",
+  "from": "2025-10-10",
+  "to": "2025-10-10",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0022",
+  "from": "2024-02-14",
+  "to": "2024-02-16",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0023",
+  "from": "2024-07-01",
+  "to": "2024-07-16",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0023",
+  "from": "2025-01-08",
+  "to": "2025-01-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0024",
+  "from": "2024-10-22",
+  "to": "2024-11-05",
+  "absence_requested_as": "annual leave",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0024",
+  "from": "2024-11-06",
+  "to": "2024-12-12",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0025",
+  "from": "2023-04-10",
+  "to": "2023-05-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0026",
+  "from": "2025-04-01",
+  "to": "2025-05-15",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0027",
+  "from": "2023-10-02",
+  "to": "2023-10-17",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0027",
+  "from": "2023-10-24",
+  "to": "2023-10-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0028",
+  "from": "2024-04-27",
+  "to": "2024-05-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0028",
+  "from": "2024-05-07",
+  "to": "2024-05-07",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0028",
+  "from": "2024-05-10",
+  "to": "2024-05-10",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0028",
+  "from": "2024-06-11",
+  "to": "2024-09-07",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0029",
+  "from": "2025-07-28",
+  "to": "2025-08-06",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0029",
+  "from": "2026-02-23",
+  "to": "2026-03-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0030",
+  "from": "2025-03-05",
+  "to": "2025-03-21",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0030",
+  "from": "2025-05-09",
+  "to": "2025-06-05",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0031",
+  "from": "2024-07-08",
+  "to": "2024-07-12",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0031",
+  "from": "2024-07-22",
+  "to": "2024-07-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0031",
+  "from": "2024-08-02",
+  "to": "2024-08-02",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0032",
+  "from": "2025-10-29",
+  "to": "2025-12-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0033",
+  "from": "2025-05-08",
+  "to": "2026-03-03",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0034",
+  "from": "2023-02-28",
+  "to": "2023-03-03",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0034",
+  "from": "2023-03-13",
+  "to": "2023-03-13",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0034",
+  "from": "2023-03-20",
+  "to": "2023-03-20",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0034",
+  "from": "2023-03-27",
+  "to": "2023-05-26",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0035",
+  "from": "2025-06-09",
+  "to": "2025-06-13",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0036",
+  "from": "2024-04-12",
+  "to": "2024-04-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0036",
+  "from": "2024-11-08",
+  "to": "2024-12-18",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0037",
+  "from": "2025-12-22",
+  "to": "2026-02-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0037",
+  "from": "2026-08-06",
+  "to": "2026-09-04",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0038",
+  "from": "2024-07-16",
+  "to": "2024-07-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0038",
+  "from": "2024-08-05",
+  "to": "2024-08-05",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0039",
+  "from": "2023-02-03",
+  "to": "2023-02-17",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0040",
+  "from": "2024-11-18",
+  "to": "2024-12-03",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0041",
+  "from": "2025-10-07",
+  "to": "2025-12-05",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0041",
+  "from": "2026-06-01",
+  "to": "2026-08-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0042",
+  "from": "2025-03-31",
+  "to": "2025-07-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0043",
+  "from": "2024-09-10",
+  "to": "2024-09-23",
+  "absence_requested_as": "sick leave",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0043",
+  "from": "2024-09-24",
+  "to": "2024-10-31",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0043",
+  "from": "2024-12-16",
+  "to": "2025-03-14",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0044",
+  "from": "2025-04-03",
+  "to": "2025-04-18",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0045",
+  "from": "2023-04-04",
+  "to": "2023-04-13",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0045",
+  "from": "2023-05-24",
+  "to": "2023-07-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0046",
+  "from": "2026-04-30",
+  "to": "2026-06-13",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0047",
+  "from": "2023-12-18",
+  "to": "2024-01-03",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0048",
+  "from": "2024-11-01",
+  "to": "2024-11-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0048",
+  "from": "2024-11-15",
+  "to": "2024-11-15",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0048",
+  "from": "2024-11-25",
+  "to": "2024-11-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0048",
+  "from": "2024-12-02",
+  "to": "2024-12-02",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0049",
+  "from": "2023-12-18",
+  "to": "2023-12-27",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0050",
+  "from": "2025-01-29",
+  "to": "2025-02-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0051",
+  "from": "2023-03-13",
+  "to": "2023-03-17",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0051",
+  "from": "2023-03-29",
+  "to": "2023-03-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0051",
+  "from": "2023-04-07",
+  "to": "2023-04-07",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0051",
+  "from": "2023-04-17",
+  "to": "2023-04-17",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0052",
+  "from": "2025-02-13",
+  "to": "2025-02-25",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0053",
+  "from": "2025-02-04",
+  "to": "2025-06-03",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0054",
+  "from": "2025-07-09",
+  "to": "2025-07-18",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0054",
+  "from": "2025-07-30",
+  "to": "2025-07-30",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0054",
+  "from": "2025-08-08",
+  "to": "2025-08-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0055",
+  "from": "2025-02-07",
+  "to": "2025-03-07",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0055",
+  "from": "2025-04-25",
+  "to": "2025-05-15",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0056",
+  "from": "2025-01-07",
+  "to": "2025-03-14",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0057",
+  "from": "2023-06-26",
+  "to": "2025-03-14",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0058",
+  "from": "2023-07-10",
+  "to": "2023-08-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0059",
+  "from": "2025-12-02",
+  "to": "2025-12-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0059",
+  "from": "2026-08-25",
+  "to": "2026-09-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0060",
+  "from": "2025-03-05",
+  "to": "2025-03-13",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0061",
+  "from": "2024-05-09",
+  "to": "2024-05-24",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0061",
+  "from": "2024-12-13",
+  "to": "2025-01-10",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0062",
+  "from": "2023-10-25",
+  "to": "2024-01-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0063",
+  "from": "2025-01-23",
+  "to": "2025-02-21",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0064",
+  "from": "2025-04-18",
+  "to": "2025-04-19",
+  "absence_requested_as": "sick leave",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0064",
+  "from": "2025-04-21",
+  "to": "2025-05-31",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0065",
+  "from": "2025-04-09",
+  "to": "2025-04-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0066",
+  "from": "2026-02-04",
+  "to": "2026-02-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0067",
+  "from": "2023-06-12",
+  "to": "2024-06-15",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0067",
+  "from": "2024-07-08",
+  "to": "2024-07-27",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0068",
+  "from": "2023-10-02",
+  "to": "2025-08-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0069",
+  "from": "2026-04-14",
+  "to": "2026-05-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0070",
+  "from": "2024-12-06",
+  "to": "2024-12-20",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0071",
+  "from": "2024-06-07",
+  "to": "2024-07-26",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0071",
+  "from": "2024-08-02",
+  "to": "2024-08-02",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0071",
+  "from": "2024-08-12",
+  "to": "2024-08-12",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0072",
+  "from": "2025-02-03",
+  "to": "2025-03-03",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0073",
+  "from": "2023-03-07",
+  "to": "2023-05-20",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0074",
+  "from": "2025-12-01",
+  "to": "2025-12-15",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0075",
+  "from": "2025-05-02",
+  "to": "2025-05-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0075",
+  "from": "2025-05-13",
+  "to": "2025-05-13",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0076",
+  "from": "2023-04-18",
+  "to": "2023-05-17",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0077",
+  "from": "2023-09-12",
+  "to": "2023-09-19",
+  "absence_requested_as": "sick leave",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0077",
+  "from": "2023-09-20",
+  "to": "2023-11-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0078",
+  "from": "2025-02-21",
+  "to": "2025-12-17",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0079",
+  "from": "2026-03-24",
+  "to": "2026-04-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0079",
+  "from": "2026-04-22",
+  "to": "2026-04-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0079",
+  "from": "2026-04-29",
+  "to": "2026-04-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0080",
+  "from": "2025-01-07",
+  "to": "2025-01-10",
+  "absence_requested_as": "sick leave",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0080",
+  "from": "2025-01-13",
+  "to": "2025-03-14",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0081",
+  "from": "2026-01-13",
+  "to": "2026-01-16",
+  "absence_requested_as": "sick leave",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0081",
+  "from": "2026-01-19",
+  "to": "2026-01-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0081",
+  "from": "2026-02-06",
+  "to": "2026-02-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0082",
+  "from": "2025-07-31",
+  "to": "2025-08-15",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0083",
+  "from": "2024-04-29",
+  "to": "2024-05-03",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0083",
+  "from": "2024-05-15",
+  "to": "2024-05-15",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0083",
+  "from": "2024-05-21",
+  "to": "2024-05-21",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0084",
+  "from": "2025-04-08",
+  "to": "2025-04-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0084",
+  "from": "2025-04-21",
+  "to": "2025-04-21",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0084",
+  "from": "2025-04-30",
+  "to": "2025-04-30",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0085",
+  "from": "2024-08-10",
+  "to": "2024-10-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0086",
+  "from": "2025-02-11",
+  "to": "2025-03-12",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0086",
+  "from": "2025-03-24",
+  "to": "2025-03-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0087",
+  "from": "2023-10-02",
+  "to": "2023-10-31",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0088",
+  "from": "2024-09-09",
+  "to": "2026-06-12",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0089",
+  "from": "2025-02-03",
+  "to": "2025-02-19",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0089",
+  "from": "2025-03-12",
+  "to": "2025-04-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0090",
+  "from": "2025-09-27",
+  "to": "2025-10-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0090",
+  "from": "2026-04-25",
+  "to": "2026-07-24",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0091",
+  "from": "2024-04-02",
+  "to": "2025-08-22",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0092",
+  "from": "2023-06-21",
+  "to": "2024-09-13",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0093",
+  "from": "2025-02-10",
+  "to": "2025-03-26",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0094",
+  "from": "2025-03-04",
+  "to": "2025-03-17",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0095",
+  "from": "2025-03-05",
+  "to": "2025-03-21",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0095",
+  "from": "2025-05-06",
+  "to": "2025-06-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0096",
+  "from": "2023-04-11",
+  "to": "2024-06-10",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0097",
+  "from": "2023-05-17",
+  "to": "2023-06-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0098",
+  "from": "2023-05-26",
+  "to": "2023-06-09",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0098",
+  "from": "2023-12-19",
+  "to": "2024-02-16",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0099",
+  "from": "2025-05-09",
+  "to": "2025-06-20",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0099",
+  "from": "2025-07-14",
+  "to": "2025-08-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0100",
+  "from": "2024-07-01",
+  "to": "2026-04-21",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0100",
+  "from": "2026-06-22",
+  "to": "2026-07-11",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0101",
+  "from": "2026-03-23",
+  "to": "2026-04-07",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0101",
+  "from": "2026-04-14",
+  "to": "2026-04-14",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0101",
+  "from": "2026-04-23",
+  "to": "2026-04-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0101",
+  "from": "2026-04-28",
+  "to": "2026-04-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0102",
+  "from": "2025-05-05",
+  "to": "2026-02-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0103",
+  "from": "2023-05-23",
+  "to": "2023-05-26",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0103",
+  "from": "2023-06-05",
+  "to": "2023-06-05",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0104",
+  "from": "2023-03-11",
+  "to": "2024-01-04",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0105",
+  "from": "2025-08-13",
+  "to": "2025-08-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0105",
+  "from": "2025-10-10",
+  "to": "2025-11-07",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0106",
+  "from": "2023-05-09",
+  "to": "2023-05-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0107",
+  "from": "2023-06-28",
+  "to": "2023-07-18",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0107",
+  "from": "2023-07-26",
+  "to": "2023-07-26",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0108",
+  "from": "2024-11-19",
+  "to": "2025-01-09",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0108",
+  "from": "2025-07-29",
+  "to": "2025-10-27",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0109",
+  "from": "2026-01-16",
+  "to": "2026-01-30",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0110",
+  "from": "2023-04-26",
+  "to": "2023-04-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0111",
+  "from": "2026-03-31",
+  "to": "2026-04-09",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0111",
+  "from": "2026-08-10",
+  "to": "2026-09-09",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0112",
+  "from": "2024-02-01",
+  "to": "2024-03-15",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0112",
+  "from": "2024-03-28",
+  "to": "2024-03-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0112",
+  "from": "2024-07-16",
+  "to": "2024-08-05",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0113",
+  "from": "2025-02-03",
+  "to": "2025-03-03",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0114",
+  "from": "2024-06-27",
+  "to": "2025-09-29",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0114",
+  "from": "2026-01-28",
+  "to": "2026-03-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0115",
+  "from": "2025-11-07",
+  "to": "2025-12-22",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0116",
+  "from": "2025-05-12",
+  "to": "2026-03-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0117",
+  "from": "2025-05-07",
+  "to": "2025-05-09",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0117",
+  "from": "2025-05-20",
+  "to": "2025-05-20",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0117",
+  "from": "2025-05-29",
+  "to": "2025-05-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0117",
+  "from": "2025-06-04",
+  "to": "2025-06-04",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0118",
+  "from": "2025-07-07",
+  "to": "2025-09-04",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0119",
+  "from": "2025-07-29",
+  "to": "2025-08-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0120",
+  "from": "2025-03-18",
+  "to": "2025-03-21",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0120",
+  "from": "2025-03-31",
+  "to": "2025-03-31",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0121",
+  "from": "2026-03-12",
+  "to": "2026-03-27",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0122",
+  "from": "2025-12-23",
+  "to": "2026-01-05",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0123",
+  "from": "2025-02-21",
+  "to": "2025-05-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0124",
+  "from": "2025-02-10",
+  "to": "2025-03-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0125",
+  "from": "2023-11-06",
+  "to": "2023-12-19",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0126",
+  "from": "2024-09-09",
+  "to": "2026-08-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0127",
+  "from": "2026-02-03",
+  "to": "2026-03-04",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0127",
+  "from": "2026-04-21",
+  "to": "2026-05-21",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0128",
+  "from": "2024-11-25",
+  "to": "2025-09-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0129",
+  "from": "2024-06-26",
+  "to": "2024-10-23",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0129",
+  "from": "2025-07-11",
+  "to": "2025-09-09",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0130",
+  "from": "2025-08-18",
+  "to": "2025-09-05",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0130",
+  "from": "2025-11-07",
+  "to": "2026-02-05",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0131",
+  "from": "2025-09-22",
+  "to": "2025-10-01",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0132",
+  "from": "2023-03-29",
+  "to": "2025-03-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0132",
+  "from": "2025-05-17",
+  "to": "2025-07-16",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0133",
+  "from": "2023-08-14",
+  "to": "2023-09-12",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0133",
+  "from": "2024-03-06",
+  "to": "2024-06-04",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0134",
+  "from": "2024-04-03",
+  "to": "2024-04-12",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0134",
+  "from": "2024-04-17",
+  "to": "2024-04-17",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0134",
+  "from": "2024-04-20",
+  "to": "2024-04-20",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0134",
+  "from": "2024-04-25",
+  "to": "2024-04-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0134",
+  "from": "2024-05-23",
+  "to": "2024-06-12",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0135",
+  "from": "2023-12-28",
+  "to": "2024-02-09",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0135",
+  "from": "2024-02-22",
+  "to": "2024-02-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0136",
+  "from": "2025-08-05",
+  "to": "2025-08-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0136",
+  "from": "2025-08-25",
+  "to": "2025-08-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0136",
+  "from": "2025-08-29",
+  "to": "2025-08-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0136",
+  "from": "2025-09-05",
+  "to": "2025-09-05",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0137",
+  "from": "2024-10-24",
+  "to": "2024-11-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0137",
+  "from": "2024-11-15",
+  "to": "2024-11-15",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0138",
+  "from": "2025-02-14",
+  "to": "2025-03-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0139",
+  "from": "2024-10-18",
+  "to": "2026-06-01",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0140",
+  "from": "2023-07-21",
+  "to": "2023-10-03",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0140",
+  "from": "2023-10-16",
+  "to": "2023-10-16",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0140",
+  "from": "2024-03-27",
+  "to": "2024-04-16",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0141",
+  "from": "2023-02-23",
+  "to": "2023-02-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0142",
+  "from": "2025-09-23",
+  "to": "2025-09-26",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0143",
+  "from": "2024-12-19",
+  "to": "2025-02-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0144",
+  "from": "2023-11-29",
+  "to": "2023-12-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0144",
+  "from": "2024-06-11",
+  "to": "2024-08-09",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0145",
+  "from": "2024-09-11",
+  "to": "2024-09-26",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0146",
+  "from": "2024-03-26",
+  "to": "2024-06-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0147",
+  "from": "2025-12-18",
+  "to": "2026-01-16",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0147",
+  "from": "2026-01-26",
+  "to": "2026-01-26",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0147",
+  "from": "2026-03-09",
+  "to": "2026-05-08",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0148",
+  "from": "2026-06-29",
+  "to": "2026-08-12",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0149",
+  "from": "2023-08-28",
+  "to": "2024-06-21",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0149",
+  "from": "2024-07-01",
+  "to": "2024-07-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0150",
+  "from": "2024-05-13",
+  "to": "2024-06-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0151",
+  "from": "2024-03-04",
+  "to": "2024-04-17",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0151",
+  "from": "2024-06-04",
+  "to": "2024-06-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0152",
+  "from": "2023-10-13",
+  "to": "2023-10-18",
+  "absence_requested_as": "annual leave",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0152",
+  "from": "2023-10-19",
+  "to": "2023-11-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0152",
+  "from": "2024-01-12",
+  "to": "2024-03-12",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0153",
+  "from": "2024-07-10",
+  "to": "2024-07-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0153",
+  "from": "2025-01-28",
+  "to": "2025-02-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0154",
+  "from": "2025-09-04",
+  "to": "2025-09-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0154",
+  "from": "2025-09-29",
+  "to": "2025-09-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0155",
+  "from": "2025-05-13",
+  "to": "2025-05-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0155",
+  "from": "2025-09-22",
+  "to": "2025-10-10",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0156",
+  "from": "2023-10-31",
+  "to": "2023-11-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0156",
+  "from": "2023-12-20",
+  "to": "2023-12-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0157",
+  "from": "2024-02-26",
+  "to": "2026-01-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0157",
+  "from": "2026-03-16",
+  "to": "2026-04-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0158",
+  "from": "2023-07-31",
+  "to": "2024-08-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0158",
+  "from": "2024-10-07",
+  "to": "2024-10-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0159",
+  "from": "2023-02-11",
+  "to": "2023-03-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0160",
+  "from": "2026-03-23",
+  "to": "2026-04-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0161",
+  "from": "2024-09-13",
+  "to": "2024-10-03",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0162",
+  "from": "2024-04-26",
+  "to": "2024-06-07",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0163",
+  "from": "2024-04-09",
+  "to": "2024-04-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0163",
+  "from": "2024-05-09",
+  "to": "2024-05-09",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0163",
+  "from": "2024-05-13",
+  "to": "2024-05-13",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0163",
+  "from": "2024-05-23",
+  "to": "2024-05-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0163",
+  "from": "2025-01-10",
+  "to": "2025-01-30",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0164",
+  "from": "2025-06-04",
+  "to": "2025-06-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0164",
+  "from": "2025-06-16",
+  "to": "2025-06-16",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0165",
+  "from": "2024-04-03",
+  "to": "2024-05-16",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0165",
+  "from": "2024-06-26",
+  "to": "2024-08-05",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0166",
+  "from": "2023-09-19",
+  "to": "2023-09-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0167",
+  "from": "2023-03-21",
+  "to": "2024-05-17",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0168",
+  "from": "2024-02-14",
+  "to": "2024-02-24",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0169",
+  "from": "2024-04-17",
+  "to": "2024-05-30",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0170",
+  "from": "2023-03-17",
+  "to": "2024-08-05",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0170",
+  "from": "2024-08-12",
+  "to": "2024-08-12",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0170",
+  "from": "2024-08-19",
+  "to": "2024-08-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0170",
+  "from": "2024-08-23",
+  "to": "2024-08-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0170",
+  "from": "2025-02-24",
+  "to": "2025-03-26",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0171",
+  "from": "2026-04-28",
+  "to": "2026-05-07",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0172",
+  "from": "2024-06-25",
+  "to": "2024-06-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0173",
+  "from": "2025-08-05",
+  "to": "2025-08-18",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0174",
+  "from": "2025-03-07",
+  "to": "2025-03-14",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0175",
+  "from": "2024-03-05",
+  "to": "2024-03-25",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0176",
+  "from": "2024-06-11",
+  "to": "2024-07-10",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0176",
+  "from": "2024-07-16",
+  "to": "2024-07-16",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0177",
+  "from": "2026-01-13",
+  "to": "2026-01-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0177",
+  "from": "2026-02-04",
+  "to": "2026-02-04",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0177",
+  "from": "2026-02-11",
+  "to": "2026-02-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0177",
+  "from": "2026-02-23",
+  "to": "2026-02-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0177",
+  "from": "2026-03-16",
+  "to": "2026-04-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0178",
+  "from": "2024-10-11",
+  "to": "2025-08-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0179",
+  "from": "2025-12-22",
+  "to": "2026-03-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0180",
+  "from": "2023-12-20",
+  "to": "2024-02-02",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0181",
+  "from": "2026-01-30",
+  "to": "2026-02-07",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0182",
+  "from": "2025-03-11",
+  "to": "2026-09-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0183",
+  "from": "2025-08-27",
+  "to": "2025-10-09",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0184",
+  "from": "2023-10-23",
+  "to": "2023-11-07",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0185",
+  "from": "2023-12-16",
+  "to": "2023-12-30",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0185",
+  "from": "2024-07-09",
+  "to": "2024-10-07",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0186",
+  "from": "2023-11-28",
+  "to": "2024-01-11",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0186",
+  "from": "2024-02-28",
+  "to": "2024-04-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0187",
+  "from": "2024-06-22",
+  "to": "2024-06-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0188",
+  "from": "2025-11-01",
+  "to": "2026-01-14",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0188",
+  "from": "2026-02-04",
+  "to": "2026-03-16",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0189",
+  "from": "2024-08-06",
+  "to": "2024-08-22",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0189",
+  "from": "2024-10-22",
+  "to": "2024-12-21",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0190",
+  "from": "2024-05-13",
+  "to": "2024-06-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0190",
+  "from": "2024-07-01",
+  "to": "2024-07-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0191",
+  "from": "2026-03-17",
+  "to": "2026-07-14",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0192",
+  "from": "2026-03-16",
+  "to": "2026-03-20",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0193",
+  "from": "2026-03-31",
+  "to": "2026-04-18",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0194",
+  "from": "2023-05-09",
+  "to": "2023-05-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0194",
+  "from": "2023-06-14",
+  "to": "2023-08-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0195",
+  "from": "2024-10-22",
+  "to": "2024-11-20",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0195",
+  "from": "2025-03-21",
+  "to": "2025-04-10",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0196",
+  "from": "2026-03-21",
+  "to": "2026-05-02",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0197",
+  "from": "2025-06-04",
+  "to": "2025-06-07",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0198",
+  "from": "2024-01-29",
+  "to": "2024-02-13",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0199",
+  "from": "2023-07-10",
+  "to": "2023-09-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0200",
+  "from": "2024-07-24",
+  "to": "2024-07-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0200",
+  "from": "2024-08-02",
+  "to": "2024-08-02",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0200",
+  "from": "2024-08-06",
+  "to": "2024-08-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0200",
+  "from": "2024-08-17",
+  "to": "2024-08-17",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0200",
+  "from": "2025-02-15",
+  "to": "2025-05-16",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0201",
+  "from": "2025-04-11",
+  "to": "2025-04-18",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0201",
+  "from": "2025-05-02",
+  "to": "2025-05-02",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0201",
+  "from": "2025-05-06",
+  "to": "2025-05-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0201",
+  "from": "2025-05-16",
+  "to": "2025-05-16",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0202",
+  "from": "2023-10-17",
+  "to": "2023-10-20",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0203",
+  "from": "2023-12-21",
+  "to": "2024-01-05",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0204",
+  "from": "2025-10-16",
+  "to": "2025-10-20",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0205",
+  "from": "2023-09-29",
+  "to": "2023-10-13",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0206",
+  "from": "2024-09-17",
+  "to": "2024-10-30",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0206",
+  "from": "2025-04-24",
+  "to": "2025-05-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0207",
+  "from": "2023-06-14",
+  "to": "2023-06-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0207",
+  "from": "2023-07-01",
+  "to": "2023-07-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0208",
+  "from": "2024-04-26",
+  "to": "2024-05-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0209",
+  "from": "2025-03-17",
+  "to": "2026-07-17",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0209",
+  "from": "2026-08-10",
+  "to": "2026-08-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0210",
+  "from": "2026-02-27",
+  "to": "2026-03-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0211",
+  "from": "2025-08-13",
+  "to": "2025-08-28",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0211",
+  "from": "2025-09-04",
+  "to": "2025-09-04",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0211",
+  "from": "2025-09-11",
+  "to": "2025-09-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0211",
+  "from": "2025-09-23",
+  "to": "2025-09-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0212",
+  "from": "2026-04-10",
+  "to": "2026-04-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0212",
+  "from": "2026-05-06",
+  "to": "2026-05-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0212",
+  "from": "2026-05-11",
+  "to": "2026-05-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0212",
+  "from": "2026-05-19",
+  "to": "2026-05-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0213",
+  "from": "2024-04-26",
+  "to": "2024-06-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0214",
+  "from": "2023-08-16",
+  "to": "2024-09-30",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0215",
+  "from": "2025-03-05",
+  "to": "2026-03-31",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0216",
+  "from": "2024-05-07",
+  "to": "2024-05-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0216",
+  "from": "2024-06-06",
+  "to": "2024-06-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0217",
+  "from": "2026-04-04",
+  "to": "2026-04-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0217",
+  "from": "2026-04-17",
+  "to": "2026-04-17",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0218",
+  "from": "2024-04-10",
+  "to": "2024-05-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0219",
+  "from": "2024-09-17",
+  "to": "2024-10-07",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0219",
+  "from": "2024-10-18",
+  "to": "2024-10-18",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0219",
+  "from": "2024-10-28",
+  "to": "2024-10-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0219",
+  "from": "2025-02-05",
+  "to": "2025-02-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0220",
+  "from": "2025-05-02",
+  "to": "2025-05-30",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0221",
+  "from": "2025-11-04",
+  "to": "2025-12-17",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0221",
+  "from": "2026-02-02",
+  "to": "2026-02-20",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0222",
+  "from": "2024-08-27",
+  "to": "2024-10-09",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0222",
+  "from": "2024-10-18",
+  "to": "2024-10-18",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0223",
+  "from": "2025-11-17",
+  "to": "2026-01-07",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0223",
+  "from": "2026-02-23",
+  "to": "2026-05-22",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0224",
+  "from": "2024-07-26",
+  "to": "2024-07-30",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0225",
+  "from": "2025-12-15",
+  "to": "2026-01-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0226",
+  "from": "2025-05-20",
+  "to": "2025-05-24",
+  "absence_requested_as": "annual leave",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0226",
+  "from": "2025-05-26",
+  "to": "2025-06-04",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0227",
+  "from": "2024-08-21",
+  "to": "2024-09-18",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0227",
+  "from": "2024-09-25",
+  "to": "2024-09-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0228",
+  "from": "2025-09-16",
+  "to": "2025-09-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0228",
+  "from": "2025-10-01",
+  "to": "2025-10-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0229",
+  "from": "2023-06-06",
+  "to": "2023-06-10",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0229",
+  "from": "2024-02-28",
+  "to": "2024-04-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0230",
+  "from": "2024-07-30",
+  "to": "2024-08-02",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0231",
+  "from": "2024-07-31",
+  "to": "2026-05-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0232",
+  "from": "2025-04-10",
+  "to": "2025-04-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0233",
+  "from": "2024-05-21",
+  "to": "2024-06-03",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0233",
+  "from": "2024-12-23",
+  "to": "2025-01-31",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0234",
+  "from": "2024-04-27",
+  "to": "2024-05-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0235",
+  "from": "2025-11-24",
+  "to": "2026-03-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0235",
+  "from": "2026-05-09",
+  "to": "2026-08-07",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0236",
+  "from": "2024-09-20",
+  "to": "2024-10-05",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0236",
+  "from": "2024-10-10",
+  "to": "2024-10-10",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0236",
+  "from": "2024-10-19",
+  "to": "2024-10-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0236",
+  "from": "2024-10-24",
+  "to": "2024-10-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0237",
+  "from": "2025-08-18",
+  "to": "2025-09-15",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0238",
+  "from": "2024-04-03",
+  "to": "2024-04-12",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0238",
+  "from": "2024-04-22",
+  "to": "2024-04-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0238",
+  "from": "2024-04-29",
+  "to": "2024-04-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0239",
+  "from": "2025-10-06",
+  "to": "2025-11-04",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0239",
+  "from": "2025-12-22",
+  "to": "2026-01-30",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0240",
+  "from": "2024-06-17",
+  "to": "2024-07-01",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0240",
+  "from": "2025-01-08",
+  "to": "2025-01-28",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0241",
+  "from": "2023-11-29",
+  "to": "2023-12-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0241",
+  "from": "2023-12-11",
+  "to": "2023-12-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0241",
+  "from": "2023-12-19",
+  "to": "2023-12-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0242",
+  "from": "2023-08-24",
+  "to": "2023-09-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0242",
+  "from": "2023-09-15",
+  "to": "2023-09-15",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0242",
+  "from": "2023-09-21",
+  "to": "2023-09-21",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0243",
+  "from": "2026-03-28",
+  "to": "2026-04-17",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0244",
+  "from": "2025-09-25",
+  "to": "2025-09-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0244",
+  "from": "2025-10-10",
+  "to": "2025-10-10",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0244",
+  "from": "2025-10-17",
+  "to": "2025-10-17",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0244",
+  "from": "2026-01-28",
+  "to": "2026-03-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0245",
+  "from": "2024-07-23",
+  "to": "2024-07-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0246",
+  "from": "2024-06-27",
+  "to": "2024-08-09",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0246",
+  "from": "2024-09-23",
+  "to": "2024-11-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0247",
+  "from": "2026-03-16",
+  "to": "2026-05-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0247",
+  "from": "2026-07-20",
+  "to": "2026-08-28",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0248",
+  "from": "2024-06-04",
+  "to": "2024-06-17",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0249",
+  "from": "2023-03-31",
+  "to": "2023-04-04",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0250",
+  "from": "2025-07-24",
+  "to": "2025-08-01",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0251",
+  "from": "2025-01-29",
+  "to": "2025-01-31",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0252",
+  "from": "2024-06-11",
+  "to": "2026-01-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0253",
+  "from": "2025-03-05",
+  "to": "2025-03-21",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0253",
+  "from": "2025-05-08",
+  "to": "2025-06-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0254",
+  "from": "2026-02-10",
+  "to": "2026-02-23",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0255",
+  "from": "2024-10-22",
+  "to": "2024-11-07",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0255",
+  "from": "2024-11-20",
+  "to": "2024-11-20",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0255",
+  "from": "2025-05-02",
+  "to": "2025-07-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0256",
+  "from": "2025-03-04",
+  "to": "2025-03-18",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0257",
+  "from": "2024-10-22",
+  "to": "2024-12-20",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0257",
+  "from": "2025-07-11",
+  "to": "2025-08-08",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0258",
+  "from": "2023-08-29",
+  "to": "2023-10-12",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0259",
+  "from": "2023-03-22",
+  "to": "2023-04-11",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0260",
+  "from": "2023-06-10",
+  "to": "2023-06-17",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0260",
+  "from": "2023-08-01",
+  "to": "2023-08-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0261",
+  "from": "2025-10-27",
+  "to": "2025-11-05",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0261",
+  "from": "2026-03-06",
+  "to": "2026-04-03",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0262",
+  "from": "2025-06-24",
+  "to": "2025-10-21",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0263",
+  "from": "2023-03-01",
+  "to": "2023-03-17",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0264",
+  "from": "2025-01-07",
+  "to": "2025-01-16",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0264",
+  "from": "2025-03-04",
+  "to": "2025-06-02",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0265",
+  "from": "2023-03-02",
+  "to": "2023-03-17",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0266",
+  "from": "2025-12-20",
+  "to": "2025-12-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0266",
+  "from": "2026-01-10",
+  "to": "2026-01-10",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0267",
+  "from": "2025-01-14",
+  "to": "2025-01-23",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0268",
+  "from": "2024-09-13",
+  "to": "2024-10-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0268",
+  "from": "2024-10-28",
+  "to": "2024-10-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0269",
+  "from": "2026-03-02",
+  "to": "2026-03-06",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0269",
+  "from": "2026-05-08",
+  "to": "2026-05-28",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0270",
+  "from": "2024-09-25",
+  "to": "2024-10-10",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0270",
+  "from": "2024-10-21",
+  "to": "2024-10-21",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0271",
+  "from": "2025-01-07",
+  "to": "2025-02-05",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0271",
+  "from": "2025-03-25",
+  "to": "2025-05-02",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0272",
+  "from": "2025-03-05",
+  "to": "2025-03-21",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0273",
+  "from": "2023-03-27",
+  "to": "2023-04-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0273",
+  "from": "2023-05-08",
+  "to": "2023-05-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0273",
+  "from": "2023-05-12",
+  "to": "2023-05-12",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0273",
+  "from": "2023-05-23",
+  "to": "2023-05-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0273",
+  "from": "2023-06-12",
+  "to": "2023-09-08",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0274",
+  "from": "2025-03-05",
+  "to": "2025-04-03",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0274",
+  "from": "2025-04-14",
+  "to": "2025-04-14",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0274",
+  "from": "2025-04-24",
+  "to": "2025-04-24",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0274",
+  "from": "2025-04-29",
+  "to": "2025-04-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0275",
+  "from": "2023-10-30",
+  "to": "2025-07-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0275",
+  "from": "2025-08-15",
+  "to": "2025-09-04",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0276",
+  "from": "2023-04-29",
+  "to": "2023-05-13",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0277",
+  "from": "2024-04-02",
+  "to": "2025-05-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0278",
+  "from": "2026-05-04",
+  "to": "2026-05-22",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0278",
+  "from": "2026-07-06",
+  "to": "2026-08-05",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0279",
+  "from": "2024-11-06",
+  "to": "2024-12-20",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0279",
+  "from": "2025-07-11",
+  "to": "2025-08-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0280",
+  "from": "2024-06-18",
+  "to": "2024-06-24",
+  "absence_requested_as": "sick leave",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0280",
+  "from": "2024-06-25",
+  "to": "2024-08-02",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0281",
+  "from": "2026-01-30",
+  "to": "2026-03-13",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0281",
+  "from": "2026-03-23",
+  "to": "2026-03-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0281",
+  "from": "2026-04-01",
+  "to": "2026-04-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0282",
+  "from": "2025-01-07",
+  "to": "2026-03-20",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0283",
+  "from": "2025-03-24",
+  "to": "2025-04-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0284",
+  "from": "2025-02-21",
+  "to": "2025-03-14",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0285",
+  "from": "2023-06-02",
+  "to": "2023-06-14",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0286",
+  "from": "2024-01-30",
+  "to": "2024-02-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0287",
+  "from": "2024-09-14",
+  "to": "2024-09-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0288",
+  "from": "2025-02-03",
+  "to": "2025-03-03",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0289",
+  "from": "2024-03-26",
+  "to": "2026-02-18",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0289",
+  "from": "2026-04-04",
+  "to": "2026-05-14",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0290",
+  "from": "2025-02-28",
+  "to": "2025-03-14",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0290",
+  "from": "2025-03-22",
+  "to": "2025-03-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0290",
+  "from": "2025-04-02",
+  "to": "2025-04-02",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0290",
+  "from": "2025-04-08",
+  "to": "2025-04-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0290",
+  "from": "2025-05-14",
+  "to": "2025-08-12",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0291",
+  "from": "2025-03-05",
+  "to": "2025-03-13",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0292",
+  "from": "2024-05-31",
+  "to": "2024-06-14",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0292",
+  "from": "2025-01-03",
+  "to": "2025-01-31",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0293",
+  "from": "2025-02-03",
+  "to": "2026-03-31",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0294",
+  "from": "2024-07-17",
+  "to": "2024-07-26",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0294",
+  "from": "2024-08-02",
+  "to": "2024-08-02",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0294",
+  "from": "2024-08-08",
+  "to": "2024-08-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0294",
+  "from": "2024-08-14",
+  "to": "2024-08-14",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0295",
+  "from": "2025-12-16",
+  "to": "2026-01-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0296",
+  "from": "2026-01-08",
+  "to": "2026-01-23",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0296",
+  "from": "2026-01-29",
+  "to": "2026-01-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0297",
+  "from": "2024-04-16",
+  "to": "2025-11-13",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0298",
+  "from": "2026-01-06",
+  "to": "2026-01-15",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0299",
+  "from": "2025-08-26",
+  "to": "2026-09-04",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0300",
+  "from": "2025-03-18",
+  "to": "2026-06-13",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0301",
+  "from": "2025-10-21",
+  "to": "2025-11-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0301",
+  "from": "2025-12-04",
+  "to": "2025-12-04",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0301",
+  "from": "2025-12-08",
+  "to": "2025-12-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0301",
+  "from": "2025-12-19",
+  "to": "2025-12-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0301",
+  "from": "2026-05-29",
+  "to": "2026-07-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0302",
+  "from": "2023-10-16",
+  "to": "2025-02-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0302",
+  "from": "2025-04-01",
+  "to": "2025-05-01",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0303",
+  "from": "2023-02-23",
+  "to": "2023-04-07",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0304",
+  "from": "2024-06-11",
+  "to": "2024-07-10",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0304",
+  "from": "2024-07-19",
+  "to": "2024-07-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0304",
+  "from": "2024-07-29",
+  "to": "2024-07-29",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0304",
+  "from": "2024-08-01",
+  "to": "2024-08-01",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0304",
+  "from": "2024-08-26",
+  "to": "2024-11-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0305",
+  "from": "2026-02-10",
+  "to": "2026-03-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0305",
+  "from": "2026-05-11",
+  "to": "2026-05-30",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0306",
+  "from": "2026-04-28",
+  "to": "2026-05-07",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0307",
+  "from": "2023-06-05",
+  "to": "2023-06-14",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0308",
+  "from": "2024-06-04",
+  "to": "2026-02-20",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0309",
+  "from": "2023-02-10",
+  "to": "2023-02-25",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0310",
+  "from": "2024-02-27",
+  "to": "2024-03-07",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0310",
+  "from": "2024-03-19",
+  "to": "2024-03-19",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0311",
+  "from": "2024-01-08",
+  "to": "2024-01-22",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0312",
+  "from": "2023-07-21",
+  "to": "2023-07-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0312",
+  "from": "2023-08-05",
+  "to": "2023-08-05",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0313",
+  "from": "2024-02-28",
+  "to": "2024-03-08",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0313",
+  "from": "2024-03-25",
+  "to": "2024-03-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0313",
+  "from": "2024-04-05",
+  "to": "2024-04-05",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0313",
+  "from": "2024-04-11",
+  "to": "2024-04-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0314",
+  "from": "2025-03-05",
+  "to": "2025-04-18",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0315",
+  "from": "2023-12-18",
+  "to": "2023-12-21",
+  "absence_requested_as": "annual leave",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0315",
+  "from": "2023-12-22",
+  "to": "2025-03-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0316",
+  "from": "2023-05-13",
+  "to": "2023-05-27",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0316",
+  "from": "2023-11-21",
+  "to": "2023-12-21",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0317",
+  "from": "2024-11-26",
+  "to": "2024-12-05",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0318",
+  "from": "2026-02-24",
+  "to": "2026-02-27",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0318",
+  "from": "2026-03-11",
+  "to": "2026-03-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0318",
+  "from": "2026-03-16",
+  "to": "2026-03-16",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0319",
+  "from": "2023-12-18",
+  "to": "2024-01-05",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0319",
+  "from": "2024-05-07",
+  "to": "2024-06-14",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0320",
+  "from": "2023-03-07",
+  "to": "2024-04-30",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0321",
+  "from": "2023-09-12",
+  "to": "2024-08-29",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0321",
+  "from": "2024-09-09",
+  "to": "2024-09-09",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 4
+ },
+ {
+  "claim_id": "C0321",
+  "from": "2024-09-17",
+  "to": "2024-09-17",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0321",
+  "from": "2024-09-25",
+  "to": "2024-09-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 2
+ },
+ {
+  "claim_id": "C0322",
+  "from": "2023-03-07",
+  "to": "2023-04-21",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0322",
+  "from": "2023-04-25",
+  "to": "2023-04-25",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 1
+ },
+ {
+  "claim_id": "C0322",
+  "from": "2023-05-03",
+  "to": "2023-05-03",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0322",
+  "from": "2023-05-11",
+  "to": "2023-05-11",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": 3
+ },
+ {
+  "claim_id": "C0323",
+  "from": "2023-04-20",
+  "to": "2023-04-28",
+  "absence_requested_as": "continuation of pay",
+  "hours_absent_per_day": null
+ },
+ {
+  "claim_id": "C0323",
+  "from": "2023-06-30",
+  "to": "2023-08-09",
+  "absence_requested_as": "leave without pay",
+  "hours_absent_per_day": null
+ }
+]

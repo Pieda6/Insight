@@ -1,0 +1,30 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/feca-wage-loss-claims"
+description = "Audit a federal agency's work injury claims under the Federal Employees' Compensation Act: for 323 traumatic injury and occupational disease claims, compute the days charged to continuation of pay, the last day charged, and the days and amount of wage-loss compensation payable under 5 U.S.C. 8105-8118 and 20 CFR Part 10."
+[metadata]
+difficulty_explanation = "Injury compensation specialists build every answer from day-by-day time and attendance records, and the provisions that decide it run as several clocks at once. Continuation of pay under 20 CFR 10.205, 10.207, 10.215 and 10.220 depends on the claim type, the 30-day notice limit and the 45-day limit for stopping work, and its 45 calendar days are charged under rules that treat the day of injury by the time of injury against the start of the shift, count part of a day as a whole day, count leave as continuation of pay, bring in regular days off from the workdays before or after them and the medical evidence on those days, count every disabled calendar day for part-time workers, and reopen after a return to work within 45 days of the first return. Wage-loss compensation then starts from the spells of pay loss that remain, with the waiting period of 5 U.S.C. 8117 and 20 CFR 10.401(a) decided by the length of the spell, a pay rate chosen under 10.5(s) and 8114 from the dates of injury, disability and any recurrence after six months back at work, the augmented rate of 8110 day by day as dependents come and go, and the cost-of-living adjustments of 10.420 by the one-year test. One misplaced day moves the 45th day of continuation of pay, which moves every later day of compensation. The 323 claims are dense with boundaries: injuries minutes before or after the shift begins, notices on day 30 or 31, first lost time on day 45 or 46, returns to absence 45 or 46 days after the first return, spells of 14 or 15 days, and recurrences and pay changes near the dates that decide them."
+solution_explanation = "The reference solution decides eligibility for continuation of pay under 20 CFR 10.205 and 10.220, then walks the calendar from the first day of disability after the injury, charging days under 10.215 (day of injury, partial days, leave, regular days off with the adjoining workdays and the medical evidence, part-time calendar days) and 10.207 (returns to work) up to 45. It then groups the remaining unpaid absences into spells of pay loss, applies the waiting period of 5 U.S.C. 8117 and 20 CFR 10.401(a), and pays each calendar day at the 8105 or 8110 percentage of the pay rate of 10.5(s) and 8114 (fixed annual rates with standby premium, daily wages times 260, 280 or 300, recurrences more than six months after a return), with the cost-of-living adjustments that 10.420 allows. Amounts are exact fractions rounded once per claim."
+verification_explanation = "The verifier recomputes every claim with its own independently written engine (engine.py, which works on ordinal day numbers and sets and groups pay loss by gaps of scheduled workdays, while the reference solution walks dated records with a calendar loop) from a private copy of the inputs that exists only in the verifier image, and never runs agent code. The generator, a third implementation, reproduces all 323 claims and rejects any claim whose answer would depend on an open reading. The engine is checked against 23 claims worked by hand (golden.json). Tests check that the inputs are consistent, the exact header, one row per claim in input order, the value format, the hand-worked claims, one test per rule family (continuation of pay days, the 45-day limit and leave, eligibility and time limits, returns to work, the waiting period, pay rate with dependents and cost-of-living adjustments) and finally every row by exact match. Reward is 1 only if every test passes."
+category = "Operations"
+subcategory = "Claims"
+tags = ["feca", "workers-compensation", "20-cfr-part-10", "continuation-of-pay", "federal-employees", "claims", "python"]
+expert_time_estimate_hours = 8
+relevant_experience = "Federal workers' compensation claims under the FECA: continuation of pay, CA-1 and CA-2 claims, the waiting period, pay rate for compensation purposes, augmented compensation and cost-of-living adjustments under 20 CFR Part 10."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0

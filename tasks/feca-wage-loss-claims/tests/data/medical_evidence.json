@@ -1,0 +1,2082 @@
+[
+ {
+  "claim_id": "C0001",
+  "totally_disabled_from": "2024-06-26",
+  "totally_disabled_to": "2024-08-08"
+ },
+ {
+  "claim_id": "C0001",
+  "totally_disabled_from": "2025-01-31",
+  "totally_disabled_to": "2025-05-01"
+ },
+ {
+  "claim_id": "C0002",
+  "totally_disabled_from": "2025-02-25",
+  "totally_disabled_to": "2025-03-17"
+ },
+ {
+  "claim_id": "C0003",
+  "totally_disabled_from": "2024-07-10",
+  "totally_disabled_to": "2026-05-30"
+ },
+ {
+  "claim_id": "C0004",
+  "totally_disabled_from": "2025-01-08",
+  "totally_disabled_to": "2025-02-20"
+ },
+ {
+  "claim_id": "C0005",
+  "totally_disabled_from": "2026-02-10",
+  "totally_disabled_to": "2026-04-24"
+ },
+ {
+  "claim_id": "C0005",
+  "totally_disabled_from": "2026-06-15",
+  "totally_disabled_to": "2026-07-24"
+ },
+ {
+  "claim_id": "C0006",
+  "totally_disabled_from": "2024-10-30",
+  "totally_disabled_to": "2024-11-01"
+ },
+ {
+  "claim_id": "C0007",
+  "totally_disabled_from": "2025-02-03",
+  "totally_disabled_to": "2025-03-03"
+ },
+ {
+  "claim_id": "C0008",
+  "totally_disabled_from": "2025-05-06",
+  "totally_disabled_to": "2025-05-21"
+ },
+ {
+  "claim_id": "C0009",
+  "totally_disabled_from": "2026-02-03",
+  "totally_disabled_to": "2026-03-04"
+ },
+ {
+  "claim_id": "C0009",
+  "totally_disabled_from": "2026-04-14",
+  "totally_disabled_to": "2026-05-22"
+ },
+ {
+  "claim_id": "C0010",
+  "totally_disabled_from": "2025-09-19",
+  "totally_disabled_to": "2026-07-15"
+ },
+ {
+  "claim_id": "C0011",
+  "totally_disabled_from": "2023-10-17",
+  "totally_disabled_to": "2023-10-26"
+ },
+ {
+  "claim_id": "C0012",
+  "totally_disabled_from": "2023-09-21",
+  "totally_disabled_to": "2023-11-03"
+ },
+ {
+  "claim_id": "C0013",
+  "totally_disabled_from": "2024-06-14",
+  "totally_disabled_to": "2024-06-29"
+ },
+ {
+  "claim_id": "C0013",
+  "totally_disabled_from": "2024-07-22",
+  "totally_disabled_to": "2024-08-01"
+ },
+ {
+  "claim_id": "C0014",
+  "totally_disabled_from": "2023-02-28",
+  "totally_disabled_to": "2023-03-09"
+ },
+ {
+  "claim_id": "C0014",
+  "totally_disabled_from": "2023-04-25",
+  "totally_disabled_to": "2023-06-02"
+ },
+ {
+  "claim_id": "C0015",
+  "totally_disabled_from": "2024-05-07",
+  "totally_disabled_to": "2024-05-22"
+ },
+ {
+  "claim_id": "C0016",
+  "totally_disabled_from": "2025-03-24",
+  "totally_disabled_to": "2025-03-28"
+ },
+ {
+  "claim_id": "C0017",
+  "totally_disabled_from": "2025-04-15",
+  "totally_disabled_to": "2025-04-20"
+ },
+ {
+  "claim_id": "C0018",
+  "totally_disabled_from": "2024-03-14",
+  "totally_disabled_to": "2024-04-27"
+ },
+ {
+  "claim_id": "C0018",
+  "totally_disabled_from": "2024-06-13",
+  "totally_disabled_to": "2024-07-13"
+ },
+ {
+  "claim_id": "C0019",
+  "totally_disabled_from": "2025-11-25",
+  "totally_disabled_to": "2025-12-08"
+ },
+ {
+  "claim_id": "C0020",
+  "totally_disabled_from": "2025-04-04",
+  "totally_disabled_to": "2025-04-07"
+ },
+ {
+  "claim_id": "C0021",
+  "totally_disabled_from": "2023-12-04",
+  "totally_disabled_to": "2025-09-15"
+ },
+ {
+  "claim_id": "C0022",
+  "totally_disabled_from": "2024-02-14",
+  "totally_disabled_to": "2024-02-16"
+ },
+ {
+  "claim_id": "C0023",
+  "totally_disabled_from": "2024-07-01",
+  "totally_disabled_to": "2024-07-16"
+ },
+ {
+  "claim_id": "C0023",
+  "totally_disabled_from": "2025-01-08",
+  "totally_disabled_to": "2025-01-28"
+ },
+ {
+  "claim_id": "C0024",
+  "totally_disabled_from": "2024-10-22",
+  "totally_disabled_to": "2024-12-12"
+ },
+ {
+  "claim_id": "C0025",
+  "totally_disabled_from": "2023-04-10",
+  "totally_disabled_to": "2023-05-22"
+ },
+ {
+  "claim_id": "C0026",
+  "totally_disabled_from": "2025-04-01",
+  "totally_disabled_to": "2025-05-15"
+ },
+ {
+  "claim_id": "C0027",
+  "totally_disabled_from": "2023-10-02",
+  "totally_disabled_to": "2023-10-17"
+ },
+ {
+  "claim_id": "C0028",
+  "totally_disabled_from": "2024-04-27",
+  "totally_disabled_to": "2024-05-01"
+ },
+ {
+  "claim_id": "C0028",
+  "totally_disabled_from": "2024-06-11",
+  "totally_disabled_to": "2024-09-07"
+ },
+ {
+  "claim_id": "C0029",
+  "totally_disabled_from": "2025-07-28",
+  "totally_disabled_to": "2025-08-06"
+ },
+ {
+  "claim_id": "C0029",
+  "totally_disabled_from": "2026-02-23",
+  "totally_disabled_to": "2026-03-25"
+ },
+ {
+  "claim_id": "C0030",
+  "totally_disabled_from": "2025-03-05",
+  "totally_disabled_to": "2025-03-21"
+ },
+ {
+  "claim_id": "C0030",
+  "totally_disabled_from": "2025-05-09",
+  "totally_disabled_to": "2025-06-05"
+ },
+ {
+  "claim_id": "C0031",
+  "totally_disabled_from": "2024-07-08",
+  "totally_disabled_to": "2024-07-12"
+ },
+ {
+  "claim_id": "C0032",
+  "totally_disabled_from": "2025-10-29",
+  "totally_disabled_to": "2025-12-27"
+ },
+ {
+  "claim_id": "C0033",
+  "totally_disabled_from": "2025-05-08",
+  "totally_disabled_to": "2026-03-03"
+ },
+ {
+  "claim_id": "C0034",
+  "totally_disabled_from": "2023-02-28",
+  "totally_disabled_to": "2023-03-03"
+ },
+ {
+  "claim_id": "C0034",
+  "totally_disabled_from": "2023-03-27",
+  "totally_disabled_to": "2023-05-26"
+ },
+ {
+  "claim_id": "C0035",
+  "totally_disabled_from": "2025-06-07",
+  "totally_disabled_to": "2025-06-13"
+ },
+ {
+  "claim_id": "C0036",
+  "totally_disabled_from": "2024-04-12",
+  "totally_disabled_to": "2024-04-19"
+ },
+ {
+  "claim_id": "C0036",
+  "totally_disabled_from": "2024-11-08",
+  "totally_disabled_to": "2024-12-18"
+ },
+ {
+  "claim_id": "C0037",
+  "totally_disabled_from": "2025-12-22",
+  "totally_disabled_to": "2026-02-11"
+ },
+ {
+  "claim_id": "C0037",
+  "totally_disabled_from": "2026-08-06",
+  "totally_disabled_to": "2026-09-04"
+ },
+ {
+  "claim_id": "C0038",
+  "totally_disabled_from": "2024-07-16",
+  "totally_disabled_to": "2024-07-19"
+ },
+ {
+  "claim_id": "C0039",
+  "totally_disabled_from": "2023-02-03",
+  "totally_disabled_to": "2023-02-17"
+ },
+ {
+  "claim_id": "C0040",
+  "totally_disabled_from": "2024-11-18",
+  "totally_disabled_to": "2024-12-03"
+ },
+ {
+  "claim_id": "C0041",
+  "totally_disabled_from": "2025-10-07",
+  "totally_disabled_to": "2025-12-05"
+ },
+ {
+  "claim_id": "C0041",
+  "totally_disabled_from": "2026-06-01",
+  "totally_disabled_to": "2026-08-28"
+ },
+ {
+  "claim_id": "C0042",
+  "totally_disabled_from": "2025-03-31",
+  "totally_disabled_to": "2025-07-28"
+ },
+ {
+  "claim_id": "C0043",
+  "totally_disabled_from": "2024-09-10",
+  "totally_disabled_to": "2024-10-31"
+ },
+ {
+  "claim_id": "C0043",
+  "totally_disabled_from": "2024-12-16",
+  "totally_disabled_to": "2025-03-14"
+ },
+ {
+  "claim_id": "C0044",
+  "totally_disabled_from": "2025-04-03",
+  "totally_disabled_to": "2025-04-18"
+ },
+ {
+  "claim_id": "C0045",
+  "totally_disabled_from": "2023-04-04",
+  "totally_disabled_to": "2023-04-13"
+ },
+ {
+  "claim_id": "C0045",
+  "totally_disabled_from": "2023-05-24",
+  "totally_disabled_to": "2023-07-22"
+ },
+ {
+  "claim_id": "C0046",
+  "totally_disabled_from": "2026-04-30",
+  "totally_disabled_to": "2026-06-13"
+ },
+ {
+  "claim_id": "C0047",
+  "totally_disabled_from": "2023-12-18",
+  "totally_disabled_to": "2024-01-03"
+ },
+ {
+  "claim_id": "C0048",
+  "totally_disabled_from": "2024-11-01",
+  "totally_disabled_to": "2024-11-08"
+ },
+ {
+  "claim_id": "C0049",
+  "totally_disabled_from": "2023-12-18",
+  "totally_disabled_to": "2023-12-27"
+ },
+ {
+  "claim_id": "C0050",
+  "totally_disabled_from": "2025-01-29",
+  "totally_disabled_to": "2025-02-27"
+ },
+ {
+  "claim_id": "C0051",
+  "totally_disabled_from": "2023-03-13",
+  "totally_disabled_to": "2023-03-17"
+ },
+ {
+  "claim_id": "C0052",
+  "totally_disabled_from": "2025-02-13",
+  "totally_disabled_to": "2025-02-25"
+ },
+ {
+  "claim_id": "C0053",
+  "totally_disabled_from": "2025-02-04",
+  "totally_disabled_to": "2025-06-03"
+ },
+ {
+  "claim_id": "C0054",
+  "totally_disabled_from": "2025-07-09",
+  "totally_disabled_to": "2025-07-18"
+ },
+ {
+  "claim_id": "C0055",
+  "totally_disabled_from": "2025-02-07",
+  "totally_disabled_to": "2025-03-09"
+ },
+ {
+  "claim_id": "C0055",
+  "totally_disabled_from": "2025-04-25",
+  "totally_disabled_to": "2025-05-15"
+ },
+ {
+  "claim_id": "C0056",
+  "totally_disabled_from": "2025-01-07",
+  "totally_disabled_to": "2025-03-14"
+ },
+ {
+  "claim_id": "C0057",
+  "totally_disabled_from": "2023-06-26",
+  "totally_disabled_to": "2025-03-14"
+ },
+ {
+  "claim_id": "C0058",
+  "totally_disabled_from": "2023-07-10",
+  "totally_disabled_to": "2023-08-22"
+ },
+ {
+  "claim_id": "C0059",
+  "totally_disabled_from": "2025-12-02",
+  "totally_disabled_to": "2025-12-06"
+ },
+ {
+  "claim_id": "C0059",
+  "totally_disabled_from": "2026-08-25",
+  "totally_disabled_to": "2026-09-24"
+ },
+ {
+  "claim_id": "C0060",
+  "totally_disabled_from": "2025-03-05",
+  "totally_disabled_to": "2025-03-13"
+ },
+ {
+  "claim_id": "C0061",
+  "totally_disabled_from": "2024-05-09",
+  "totally_disabled_to": "2024-05-24"
+ },
+ {
+  "claim_id": "C0061",
+  "totally_disabled_from": "2024-12-13",
+  "totally_disabled_to": "2025-01-10"
+ },
+ {
+  "claim_id": "C0062",
+  "totally_disabled_from": "2023-10-25",
+  "totally_disabled_to": "2024-01-06"
+ },
+ {
+  "claim_id": "C0063",
+  "totally_disabled_from": "2025-01-23",
+  "totally_disabled_to": "2025-02-21"
+ },
+ {
+  "claim_id": "C0064",
+  "totally_disabled_from": "2025-04-18",
+  "totally_disabled_to": "2025-05-31"
+ },
+ {
+  "claim_id": "C0065",
+  "totally_disabled_from": "2025-04-09",
+  "totally_disabled_to": "2025-04-13"
+ },
+ {
+  "claim_id": "C0066",
+  "totally_disabled_from": "2026-02-04",
+  "totally_disabled_to": "2026-02-19"
+ },
+ {
+  "claim_id": "C0067",
+  "totally_disabled_from": "2023-06-12",
+  "totally_disabled_to": "2024-06-15"
+ },
+ {
+  "claim_id": "C0067",
+  "totally_disabled_from": "2024-07-08",
+  "totally_disabled_to": "2024-07-27"
+ },
+ {
+  "claim_id": "C0068",
+  "totally_disabled_from": "2023-10-02",
+  "totally_disabled_to": "2025-08-22"
+ },
+ {
+  "claim_id": "C0069",
+  "totally_disabled_from": "2026-04-14",
+  "totally_disabled_to": "2026-05-28"
+ },
+ {
+  "claim_id": "C0070",
+  "totally_disabled_from": "2024-12-06",
+  "totally_disabled_to": "2024-12-20"
+ },
+ {
+  "claim_id": "C0071",
+  "totally_disabled_from": "2024-06-07",
+  "totally_disabled_to": "2024-07-26"
+ },
+ {
+  "claim_id": "C0072",
+  "totally_disabled_from": "2025-02-03",
+  "totally_disabled_to": "2025-03-03"
+ },
+ {
+  "claim_id": "C0073",
+  "totally_disabled_from": "2023-03-07",
+  "totally_disabled_to": "2023-05-20"
+ },
+ {
+  "claim_id": "C0074",
+  "totally_disabled_from": "2025-12-01",
+  "totally_disabled_to": "2025-12-15"
+ },
+ {
+  "claim_id": "C0075",
+  "totally_disabled_from": "2025-05-02",
+  "totally_disabled_to": "2025-05-06"
+ },
+ {
+  "claim_id": "C0076",
+  "totally_disabled_from": "2023-04-18",
+  "totally_disabled_to": "2023-05-17"
+ },
+ {
+  "claim_id": "C0077",
+  "totally_disabled_from": "2023-09-12",
+  "totally_disabled_to": "2023-11-25"
+ },
+ {
+  "claim_id": "C0078",
+  "totally_disabled_from": "2025-02-21",
+  "totally_disabled_to": "2025-12-17"
+ },
+ {
+  "claim_id": "C0079",
+  "totally_disabled_from": "2026-03-24",
+  "totally_disabled_to": "2026-04-08"
+ },
+ {
+  "claim_id": "C0080",
+  "totally_disabled_from": "2025-01-07",
+  "totally_disabled_to": "2025-03-14"
+ },
+ {
+  "claim_id": "C0081",
+  "totally_disabled_from": "2026-01-13",
+  "totally_disabled_to": "2026-01-28"
+ },
+ {
+  "claim_id": "C0082",
+  "totally_disabled_from": "2025-07-31",
+  "totally_disabled_to": "2025-08-15"
+ },
+ {
+  "claim_id": "C0083",
+  "totally_disabled_from": "2024-04-29",
+  "totally_disabled_to": "2024-05-03"
+ },
+ {
+  "claim_id": "C0084",
+  "totally_disabled_from": "2025-04-08",
+  "totally_disabled_to": "2025-04-11"
+ },
+ {
+  "claim_id": "C0085",
+  "totally_disabled_from": "2024-08-10",
+  "totally_disabled_to": "2024-10-23"
+ },
+ {
+  "claim_id": "C0086",
+  "totally_disabled_from": "2025-02-11",
+  "totally_disabled_to": "2025-03-12"
+ },
+ {
+  "claim_id": "C0087",
+  "totally_disabled_from": "2023-10-02",
+  "totally_disabled_to": "2023-10-31"
+ },
+ {
+  "claim_id": "C0088",
+  "totally_disabled_from": "2024-09-09",
+  "totally_disabled_to": "2026-06-12"
+ },
+ {
+  "claim_id": "C0089",
+  "totally_disabled_from": "2025-02-03",
+  "totally_disabled_to": "2025-02-19"
+ },
+ {
+  "claim_id": "C0089",
+  "totally_disabled_from": "2025-03-12",
+  "totally_disabled_to": "2025-04-11"
+ },
+ {
+  "claim_id": "C0090",
+  "totally_disabled_from": "2025-09-27",
+  "totally_disabled_to": "2025-10-06"
+ },
+ {
+  "claim_id": "C0090",
+  "totally_disabled_from": "2026-04-25",
+  "totally_disabled_to": "2026-07-24"
+ },
+ {
+  "claim_id": "C0091",
+  "totally_disabled_from": "2024-04-02",
+  "totally_disabled_to": "2025-08-22"
+ },
+ {
+  "claim_id": "C0092",
+  "totally_disabled_from": "2023-06-21",
+  "totally_disabled_to": "2024-09-13"
+ },
+ {
+  "claim_id": "C0093",
+  "totally_disabled_from": "2025-02-10",
+  "totally_disabled_to": "2025-03-26"
+ },
+ {
+  "claim_id": "C0094",
+  "totally_disabled_from": "2025-03-04",
+  "totally_disabled_to": "2025-03-17"
+ },
+ {
+  "claim_id": "C0095",
+  "totally_disabled_from": "2025-03-05",
+  "totally_disabled_to": "2025-03-21"
+ },
+ {
+  "claim_id": "C0095",
+  "totally_disabled_from": "2025-05-06",
+  "totally_disabled_to": "2025-06-24"
+ },
+ {
+  "claim_id": "C0096",
+  "totally_disabled_from": "2023-04-11",
+  "totally_disabled_to": "2024-06-10"
+ },
+ {
+  "claim_id": "C0097",
+  "totally_disabled_from": "2023-05-17",
+  "totally_disabled_to": "2023-06-29"
+ },
+ {
+  "claim_id": "C0098",
+  "totally_disabled_from": "2023-05-26",
+  "totally_disabled_to": "2023-06-09"
+ },
+ {
+  "claim_id": "C0098",
+  "totally_disabled_from": "2023-12-19",
+  "totally_disabled_to": "2024-02-16"
+ },
+ {
+  "claim_id": "C0099",
+  "totally_disabled_from": "2025-05-09",
+  "totally_disabled_to": "2025-06-22"
+ },
+ {
+  "claim_id": "C0099",
+  "totally_disabled_from": "2025-07-14",
+  "totally_disabled_to": "2025-08-22"
+ },
+ {
+  "claim_id": "C0100",
+  "totally_disabled_from": "2024-07-01",
+  "totally_disabled_to": "2026-04-21"
+ },
+ {
+  "claim_id": "C0100",
+  "totally_disabled_from": "2026-06-22",
+  "totally_disabled_to": "2026-07-11"
+ },
+ {
+  "claim_id": "C0101",
+  "totally_disabled_from": "2026-03-23",
+  "totally_disabled_to": "2026-04-07"
+ },
+ {
+  "claim_id": "C0102",
+  "totally_disabled_from": "2025-05-05",
+  "totally_disabled_to": "2026-02-27"
+ },
+ {
+  "claim_id": "C0103",
+  "totally_disabled_from": "2023-05-23",
+  "totally_disabled_to": "2023-05-26"
+ },
+ {
+  "claim_id": "C0104",
+  "totally_disabled_from": "2023-03-11",
+  "totally_disabled_to": "2024-01-04"
+ },
+ {
+  "claim_id": "C0105",
+  "totally_disabled_from": "2025-08-13",
+  "totally_disabled_to": "2025-08-22"
+ },
+ {
+  "claim_id": "C0105",
+  "totally_disabled_from": "2025-10-10",
+  "totally_disabled_to": "2025-11-07"
+ },
+ {
+  "claim_id": "C0106",
+  "totally_disabled_from": "2023-05-09",
+  "totally_disabled_to": "2023-05-24"
+ },
+ {
+  "claim_id": "C0107",
+  "totally_disabled_from": "2023-06-28",
+  "totally_disabled_to": "2023-07-18"
+ },
+ {
+  "claim_id": "C0108",
+  "totally_disabled_from": "2024-11-19",
+  "totally_disabled_to": "2025-01-09"
+ },
+ {
+  "claim_id": "C0108",
+  "totally_disabled_from": "2025-07-29",
+  "totally_disabled_to": "2025-10-27"
+ },
+ {
+  "claim_id": "C0109",
+  "totally_disabled_from": "2026-01-16",
+  "totally_disabled_to": "2026-01-30"
+ },
+ {
+  "claim_id": "C0110",
+  "totally_disabled_from": "2023-04-26",
+  "totally_disabled_to": "2023-04-30"
+ },
+ {
+  "claim_id": "C0111",
+  "totally_disabled_from": "2026-03-31",
+  "totally_disabled_to": "2026-04-09"
+ },
+ {
+  "claim_id": "C0111",
+  "totally_disabled_from": "2026-08-10",
+  "totally_disabled_to": "2026-09-09"
+ },
+ {
+  "claim_id": "C0112",
+  "totally_disabled_from": "2024-02-01",
+  "totally_disabled_to": "2024-03-15"
+ },
+ {
+  "claim_id": "C0112",
+  "totally_disabled_from": "2024-07-16",
+  "totally_disabled_to": "2024-08-05"
+ },
+ {
+  "claim_id": "C0113",
+  "totally_disabled_from": "2025-02-03",
+  "totally_disabled_to": "2025-03-03"
+ },
+ {
+  "claim_id": "C0114",
+  "totally_disabled_from": "2024-06-27",
+  "totally_disabled_to": "2025-09-29"
+ },
+ {
+  "claim_id": "C0114",
+  "totally_disabled_from": "2026-01-28",
+  "totally_disabled_to": "2026-03-28"
+ },
+ {
+  "claim_id": "C0115",
+  "totally_disabled_from": "2025-11-07",
+  "totally_disabled_to": "2025-12-22"
+ },
+ {
+  "claim_id": "C0116",
+  "totally_disabled_from": "2025-05-12",
+  "totally_disabled_to": "2026-03-06"
+ },
+ {
+  "claim_id": "C0117",
+  "totally_disabled_from": "2025-05-07",
+  "totally_disabled_to": "2025-05-09"
+ },
+ {
+  "claim_id": "C0118",
+  "totally_disabled_from": "2025-07-07",
+  "totally_disabled_to": "2025-09-04"
+ },
+ {
+  "claim_id": "C0119",
+  "totally_disabled_from": "2025-07-29",
+  "totally_disabled_to": "2025-08-03"
+ },
+ {
+  "claim_id": "C0120",
+  "totally_disabled_from": "2025-03-18",
+  "totally_disabled_to": "2025-03-21"
+ },
+ {
+  "claim_id": "C0121",
+  "totally_disabled_from": "2026-03-12",
+  "totally_disabled_to": "2026-03-27"
+ },
+ {
+  "claim_id": "C0122",
+  "totally_disabled_from": "2025-12-23",
+  "totally_disabled_to": "2026-01-05"
+ },
+ {
+  "claim_id": "C0123",
+  "totally_disabled_from": "2025-02-21",
+  "totally_disabled_to": "2025-05-06"
+ },
+ {
+  "claim_id": "C0124",
+  "totally_disabled_from": "2025-02-10",
+  "totally_disabled_to": "2025-03-25"
+ },
+ {
+  "claim_id": "C0125",
+  "totally_disabled_from": "2023-11-06",
+  "totally_disabled_to": "2023-12-19"
+ },
+ {
+  "claim_id": "C0126",
+  "totally_disabled_from": "2024-09-09",
+  "totally_disabled_to": "2026-08-25"
+ },
+ {
+  "claim_id": "C0127",
+  "totally_disabled_from": "2026-02-03",
+  "totally_disabled_to": "2026-03-04"
+ },
+ {
+  "claim_id": "C0127",
+  "totally_disabled_from": "2026-04-21",
+  "totally_disabled_to": "2026-05-21"
+ },
+ {
+  "claim_id": "C0128",
+  "totally_disabled_from": "2024-11-25",
+  "totally_disabled_to": "2025-09-19"
+ },
+ {
+  "claim_id": "C0129",
+  "totally_disabled_from": "2024-06-26",
+  "totally_disabled_to": "2024-10-23"
+ },
+ {
+  "claim_id": "C0129",
+  "totally_disabled_from": "2025-07-11",
+  "totally_disabled_to": "2025-09-09"
+ },
+ {
+  "claim_id": "C0130",
+  "totally_disabled_from": "2025-08-18",
+  "totally_disabled_to": "2025-09-05"
+ },
+ {
+  "claim_id": "C0130",
+  "totally_disabled_from": "2025-11-07",
+  "totally_disabled_to": "2026-02-05"
+ },
+ {
+  "claim_id": "C0131",
+  "totally_disabled_from": "2025-09-22",
+  "totally_disabled_to": "2025-10-01"
+ },
+ {
+  "claim_id": "C0132",
+  "totally_disabled_from": "2023-03-29",
+  "totally_disabled_to": "2025-03-29"
+ },
+ {
+  "claim_id": "C0132",
+  "totally_disabled_from": "2025-05-17",
+  "totally_disabled_to": "2025-07-16"
+ },
+ {
+  "claim_id": "C0133",
+  "totally_disabled_from": "2023-08-14",
+  "totally_disabled_to": "2023-09-12"
+ },
+ {
+  "claim_id": "C0133",
+  "totally_disabled_from": "2024-03-06",
+  "totally_disabled_to": "2024-06-04"
+ },
+ {
+  "claim_id": "C0134",
+  "totally_disabled_from": "2024-04-03",
+  "totally_disabled_to": "2024-04-12"
+ },
+ {
+  "claim_id": "C0134",
+  "totally_disabled_from": "2024-05-23",
+  "totally_disabled_to": "2024-06-12"
+ },
+ {
+  "claim_id": "C0135",
+  "totally_disabled_from": "2023-12-28",
+  "totally_disabled_to": "2024-02-09"
+ },
+ {
+  "claim_id": "C0136",
+  "totally_disabled_from": "2025-08-05",
+  "totally_disabled_to": "2025-08-08"
+ },
+ {
+  "claim_id": "C0137",
+  "totally_disabled_from": "2024-10-24",
+  "totally_disabled_to": "2024-11-08"
+ },
+ {
+  "claim_id": "C0138",
+  "totally_disabled_from": "2025-02-14",
+  "totally_disabled_to": "2025-03-31"
+ },
+ {
+  "claim_id": "C0139",
+  "totally_disabled_from": "2024-10-18",
+  "totally_disabled_to": "2026-06-01"
+ },
+ {
+  "claim_id": "C0140",
+  "totally_disabled_from": "2023-07-21",
+  "totally_disabled_to": "2023-10-03"
+ },
+ {
+  "claim_id": "C0140",
+  "totally_disabled_from": "2024-03-27",
+  "totally_disabled_to": "2024-04-16"
+ },
+ {
+  "claim_id": "C0141",
+  "totally_disabled_from": "2023-02-23",
+  "totally_disabled_to": "2023-02-27"
+ },
+ {
+  "claim_id": "C0142",
+  "totally_disabled_from": "2025-09-23",
+  "totally_disabled_to": "2025-09-26"
+ },
+ {
+  "claim_id": "C0143",
+  "totally_disabled_from": "2024-12-19",
+  "totally_disabled_to": "2025-02-02"
+ },
+ {
+  "claim_id": "C0144",
+  "totally_disabled_from": "2023-11-29",
+  "totally_disabled_to": "2023-12-01"
+ },
+ {
+  "claim_id": "C0144",
+  "totally_disabled_from": "2024-06-11",
+  "totally_disabled_to": "2024-08-09"
+ },
+ {
+  "claim_id": "C0145",
+  "totally_disabled_from": "2024-09-11",
+  "totally_disabled_to": "2024-09-26"
+ },
+ {
+  "claim_id": "C0146",
+  "totally_disabled_from": "2024-03-26",
+  "totally_disabled_to": "2024-06-08"
+ },
+ {
+  "claim_id": "C0147",
+  "totally_disabled_from": "2025-12-18",
+  "totally_disabled_to": "2026-01-16"
+ },
+ {
+  "claim_id": "C0147",
+  "totally_disabled_from": "2026-03-09",
+  "totally_disabled_to": "2026-05-08"
+ },
+ {
+  "claim_id": "C0148",
+  "totally_disabled_from": "2026-06-29",
+  "totally_disabled_to": "2026-08-12"
+ },
+ {
+  "claim_id": "C0149",
+  "totally_disabled_from": "2023-08-28",
+  "totally_disabled_to": "2024-06-21"
+ },
+ {
+  "claim_id": "C0150",
+  "totally_disabled_from": "2024-05-13",
+  "totally_disabled_to": "2024-06-27"
+ },
+ {
+  "claim_id": "C0151",
+  "totally_disabled_from": "2024-03-04",
+  "totally_disabled_to": "2024-04-17"
+ },
+ {
+  "claim_id": "C0151",
+  "totally_disabled_from": "2024-06-04",
+  "totally_disabled_to": "2024-06-24"
+ },
+ {
+  "claim_id": "C0152",
+  "totally_disabled_from": "2023-10-13",
+  "totally_disabled_to": "2023-11-27"
+ },
+ {
+  "claim_id": "C0152",
+  "totally_disabled_from": "2024-01-12",
+  "totally_disabled_to": "2024-03-12"
+ },
+ {
+  "claim_id": "C0153",
+  "totally_disabled_from": "2024-07-10",
+  "totally_disabled_to": "2024-07-19"
+ },
+ {
+  "claim_id": "C0153",
+  "totally_disabled_from": "2025-01-28",
+  "totally_disabled_to": "2025-02-27"
+ },
+ {
+  "claim_id": "C0154",
+  "totally_disabled_from": "2025-09-04",
+  "totally_disabled_to": "2025-09-19"
+ },
+ {
+  "claim_id": "C0155",
+  "totally_disabled_from": "2025-05-13",
+  "totally_disabled_to": "2025-05-22"
+ },
+ {
+  "claim_id": "C0155",
+  "totally_disabled_from": "2025-09-22",
+  "totally_disabled_to": "2025-10-10"
+ },
+ {
+  "claim_id": "C0156",
+  "totally_disabled_from": "2023-10-31",
+  "totally_disabled_to": "2023-11-29"
+ },
+ {
+  "claim_id": "C0156",
+  "totally_disabled_from": "2023-12-20",
+  "totally_disabled_to": "2023-12-29"
+ },
+ {
+  "claim_id": "C0157",
+  "totally_disabled_from": "2024-02-26",
+  "totally_disabled_to": "2026-01-27"
+ },
+ {
+  "claim_id": "C0157",
+  "totally_disabled_from": "2026-03-16",
+  "totally_disabled_to": "2026-04-24"
+ },
+ {
+  "claim_id": "C0158",
+  "totally_disabled_from": "2023-07-31",
+  "totally_disabled_to": "2024-08-23"
+ },
+ {
+  "claim_id": "C0158",
+  "totally_disabled_from": "2024-10-07",
+  "totally_disabled_to": "2024-10-25"
+ },
+ {
+  "claim_id": "C0159",
+  "totally_disabled_from": "2023-02-11",
+  "totally_disabled_to": "2023-03-11"
+ },
+ {
+  "claim_id": "C0160",
+  "totally_disabled_from": "2026-03-23",
+  "totally_disabled_to": "2026-04-01"
+ },
+ {
+  "claim_id": "C0161",
+  "totally_disabled_from": "2024-09-13",
+  "totally_disabled_to": "2024-10-03"
+ },
+ {
+  "claim_id": "C0162",
+  "totally_disabled_from": "2024-04-26",
+  "totally_disabled_to": "2024-06-07"
+ },
+ {
+  "claim_id": "C0163",
+  "totally_disabled_from": "2024-04-09",
+  "totally_disabled_to": "2024-04-24"
+ },
+ {
+  "claim_id": "C0163",
+  "totally_disabled_from": "2025-01-10",
+  "totally_disabled_to": "2025-01-30"
+ },
+ {
+  "claim_id": "C0164",
+  "totally_disabled_from": "2025-06-04",
+  "totally_disabled_to": "2025-06-06"
+ },
+ {
+  "claim_id": "C0165",
+  "totally_disabled_from": "2024-04-03",
+  "totally_disabled_to": "2024-05-16"
+ },
+ {
+  "claim_id": "C0165",
+  "totally_disabled_from": "2024-06-26",
+  "totally_disabled_to": "2024-08-05"
+ },
+ {
+  "claim_id": "C0166",
+  "totally_disabled_from": "2023-09-19",
+  "totally_disabled_to": "2023-09-23"
+ },
+ {
+  "claim_id": "C0167",
+  "totally_disabled_from": "2023-03-21",
+  "totally_disabled_to": "2024-05-17"
+ },
+ {
+  "claim_id": "C0168",
+  "totally_disabled_from": "2024-02-14",
+  "totally_disabled_to": "2024-02-24"
+ },
+ {
+  "claim_id": "C0169",
+  "totally_disabled_from": "2024-04-17",
+  "totally_disabled_to": "2024-05-30"
+ },
+ {
+  "claim_id": "C0170",
+  "totally_disabled_from": "2023-03-17",
+  "totally_disabled_to": "2024-08-05"
+ },
+ {
+  "claim_id": "C0170",
+  "totally_disabled_from": "2025-02-24",
+  "totally_disabled_to": "2025-03-26"
+ },
+ {
+  "claim_id": "C0171",
+  "totally_disabled_from": "2026-04-28",
+  "totally_disabled_to": "2026-05-07"
+ },
+ {
+  "claim_id": "C0172",
+  "totally_disabled_from": "2024-06-25",
+  "totally_disabled_to": "2024-06-28"
+ },
+ {
+  "claim_id": "C0173",
+  "totally_disabled_from": "2025-08-05",
+  "totally_disabled_to": "2025-08-18"
+ },
+ {
+  "claim_id": "C0174",
+  "totally_disabled_from": "2025-03-07",
+  "totally_disabled_to": "2025-03-14"
+ },
+ {
+  "claim_id": "C0175",
+  "totally_disabled_from": "2024-03-05",
+  "totally_disabled_to": "2024-03-25"
+ },
+ {
+  "claim_id": "C0176",
+  "totally_disabled_from": "2024-06-11",
+  "totally_disabled_to": "2024-07-10"
+ },
+ {
+  "claim_id": "C0177",
+  "totally_disabled_from": "2026-01-13",
+  "totally_disabled_to": "2026-01-28"
+ },
+ {
+  "claim_id": "C0177",
+  "totally_disabled_from": "2026-03-16",
+  "totally_disabled_to": "2026-04-24"
+ },
+ {
+  "claim_id": "C0178",
+  "totally_disabled_from": "2024-10-11",
+  "totally_disabled_to": "2025-08-06"
+ },
+ {
+  "claim_id": "C0179",
+  "totally_disabled_from": "2025-12-22",
+  "totally_disabled_to": "2026-03-06"
+ },
+ {
+  "claim_id": "C0180",
+  "totally_disabled_from": "2023-12-20",
+  "totally_disabled_to": "2024-02-02"
+ },
+ {
+  "claim_id": "C0181",
+  "totally_disabled_from": "2026-01-30",
+  "totally_disabled_to": "2026-02-07"
+ },
+ {
+  "claim_id": "C0182",
+  "totally_disabled_from": "2025-03-11",
+  "totally_disabled_to": "2026-09-23"
+ },
+ {
+  "claim_id": "C0183",
+  "totally_disabled_from": "2025-08-27",
+  "totally_disabled_to": "2025-10-09"
+ },
+ {
+  "claim_id": "C0184",
+  "totally_disabled_from": "2023-10-23",
+  "totally_disabled_to": "2023-11-07"
+ },
+ {
+  "claim_id": "C0185",
+  "totally_disabled_from": "2023-12-16",
+  "totally_disabled_to": "2023-12-30"
+ },
+ {
+  "claim_id": "C0185",
+  "totally_disabled_from": "2024-07-09",
+  "totally_disabled_to": "2024-10-07"
+ },
+ {
+  "claim_id": "C0186",
+  "totally_disabled_from": "2023-11-28",
+  "totally_disabled_to": "2024-01-11"
+ },
+ {
+  "claim_id": "C0186",
+  "totally_disabled_from": "2024-02-28",
+  "totally_disabled_to": "2024-04-08"
+ },
+ {
+  "claim_id": "C0187",
+  "totally_disabled_from": "2024-06-22",
+  "totally_disabled_to": "2024-06-29"
+ },
+ {
+  "claim_id": "C0188",
+  "totally_disabled_from": "2025-11-01",
+  "totally_disabled_to": "2026-01-14"
+ },
+ {
+  "claim_id": "C0188",
+  "totally_disabled_from": "2026-02-04",
+  "totally_disabled_to": "2026-03-16"
+ },
+ {
+  "claim_id": "C0189",
+  "totally_disabled_from": "2024-08-06",
+  "totally_disabled_to": "2024-08-22"
+ },
+ {
+  "claim_id": "C0189",
+  "totally_disabled_from": "2024-10-22",
+  "totally_disabled_to": "2024-12-21"
+ },
+ {
+  "claim_id": "C0190",
+  "totally_disabled_from": "2024-05-13",
+  "totally_disabled_to": "2024-06-24"
+ },
+ {
+  "claim_id": "C0191",
+  "totally_disabled_from": "2026-03-17",
+  "totally_disabled_to": "2026-07-14"
+ },
+ {
+  "claim_id": "C0192",
+  "totally_disabled_from": "2026-03-16",
+  "totally_disabled_to": "2026-03-20"
+ },
+ {
+  "claim_id": "C0193",
+  "totally_disabled_from": "2026-03-31",
+  "totally_disabled_to": "2026-04-18"
+ },
+ {
+  "claim_id": "C0194",
+  "totally_disabled_from": "2023-05-09",
+  "totally_disabled_to": "2023-05-24"
+ },
+ {
+  "claim_id": "C0194",
+  "totally_disabled_from": "2023-06-14",
+  "totally_disabled_to": "2023-08-11"
+ },
+ {
+  "claim_id": "C0195",
+  "totally_disabled_from": "2024-10-22",
+  "totally_disabled_to": "2024-11-20"
+ },
+ {
+  "claim_id": "C0195",
+  "totally_disabled_from": "2025-03-21",
+  "totally_disabled_to": "2025-04-10"
+ },
+ {
+  "claim_id": "C0196",
+  "totally_disabled_from": "2026-03-21",
+  "totally_disabled_to": "2026-05-02"
+ },
+ {
+  "claim_id": "C0197",
+  "totally_disabled_from": "2025-06-04",
+  "totally_disabled_to": "2025-06-09"
+ },
+ {
+  "claim_id": "C0198",
+  "totally_disabled_from": "2024-01-29",
+  "totally_disabled_to": "2024-02-13"
+ },
+ {
+  "claim_id": "C0199",
+  "totally_disabled_from": "2023-07-10",
+  "totally_disabled_to": "2023-09-22"
+ },
+ {
+  "claim_id": "C0200",
+  "totally_disabled_from": "2024-07-24",
+  "totally_disabled_to": "2024-07-27"
+ },
+ {
+  "claim_id": "C0200",
+  "totally_disabled_from": "2025-02-15",
+  "totally_disabled_to": "2025-05-16"
+ },
+ {
+  "claim_id": "C0201",
+  "totally_disabled_from": "2025-04-11",
+  "totally_disabled_to": "2025-04-20"
+ },
+ {
+  "claim_id": "C0202",
+  "totally_disabled_from": "2023-10-17",
+  "totally_disabled_to": "2023-10-22"
+ },
+ {
+  "claim_id": "C0203",
+  "totally_disabled_from": "2023-12-21",
+  "totally_disabled_to": "2024-01-05"
+ },
+ {
+  "claim_id": "C0204",
+  "totally_disabled_from": "2025-10-16",
+  "totally_disabled_to": "2025-10-20"
+ },
+ {
+  "claim_id": "C0205",
+  "totally_disabled_from": "2023-09-29",
+  "totally_disabled_to": "2023-10-13"
+ },
+ {
+  "claim_id": "C0206",
+  "totally_disabled_from": "2024-09-17",
+  "totally_disabled_to": "2024-10-30"
+ },
+ {
+  "claim_id": "C0206",
+  "totally_disabled_from": "2025-04-24",
+  "totally_disabled_to": "2025-05-23"
+ },
+ {
+  "claim_id": "C0207",
+  "totally_disabled_from": "2023-06-14",
+  "totally_disabled_to": "2023-06-23"
+ },
+ {
+  "claim_id": "C0208",
+  "totally_disabled_from": "2024-04-26",
+  "totally_disabled_to": "2024-05-11"
+ },
+ {
+  "claim_id": "C0209",
+  "totally_disabled_from": "2025-03-17",
+  "totally_disabled_to": "2026-07-17"
+ },
+ {
+  "claim_id": "C0209",
+  "totally_disabled_from": "2026-08-10",
+  "totally_disabled_to": "2026-08-28"
+ },
+ {
+  "claim_id": "C0210",
+  "totally_disabled_from": "2026-02-27",
+  "totally_disabled_to": "2026-03-27"
+ },
+ {
+  "claim_id": "C0211",
+  "totally_disabled_from": "2025-08-13",
+  "totally_disabled_to": "2025-08-28"
+ },
+ {
+  "claim_id": "C0212",
+  "totally_disabled_from": "2026-04-10",
+  "totally_disabled_to": "2026-04-26"
+ },
+ {
+  "claim_id": "C0213",
+  "totally_disabled_from": "2024-04-26",
+  "totally_disabled_to": "2024-06-08"
+ },
+ {
+  "claim_id": "C0214",
+  "totally_disabled_from": "2023-08-16",
+  "totally_disabled_to": "2024-09-30"
+ },
+ {
+  "claim_id": "C0215",
+  "totally_disabled_from": "2025-03-05",
+  "totally_disabled_to": "2026-03-31"
+ },
+ {
+  "claim_id": "C0216",
+  "totally_disabled_from": "2024-05-07",
+  "totally_disabled_to": "2024-05-22"
+ },
+ {
+  "claim_id": "C0217",
+  "totally_disabled_from": "2026-04-04",
+  "totally_disabled_to": "2026-04-08"
+ },
+ {
+  "claim_id": "C0218",
+  "totally_disabled_from": "2024-04-10",
+  "totally_disabled_to": "2024-05-23"
+ },
+ {
+  "claim_id": "C0219",
+  "totally_disabled_from": "2024-09-17",
+  "totally_disabled_to": "2024-10-07"
+ },
+ {
+  "claim_id": "C0219",
+  "totally_disabled_from": "2025-02-05",
+  "totally_disabled_to": "2025-02-25"
+ },
+ {
+  "claim_id": "C0220",
+  "totally_disabled_from": "2025-05-02",
+  "totally_disabled_to": "2025-06-01"
+ },
+ {
+  "claim_id": "C0221",
+  "totally_disabled_from": "2025-11-04",
+  "totally_disabled_to": "2025-12-17"
+ },
+ {
+  "claim_id": "C0221",
+  "totally_disabled_from": "2026-02-02",
+  "totally_disabled_to": "2026-02-20"
+ },
+ {
+  "claim_id": "C0222",
+  "totally_disabled_from": "2024-08-27",
+  "totally_disabled_to": "2024-10-09"
+ },
+ {
+  "claim_id": "C0223",
+  "totally_disabled_from": "2025-11-17",
+  "totally_disabled_to": "2026-01-07"
+ },
+ {
+  "claim_id": "C0223",
+  "totally_disabled_from": "2026-02-23",
+  "totally_disabled_to": "2026-05-22"
+ },
+ {
+  "claim_id": "C0224",
+  "totally_disabled_from": "2024-07-26",
+  "totally_disabled_to": "2024-07-30"
+ },
+ {
+  "claim_id": "C0225",
+  "totally_disabled_from": "2025-12-15",
+  "totally_disabled_to": "2026-01-28"
+ },
+ {
+  "claim_id": "C0226",
+  "totally_disabled_from": "2025-05-20",
+  "totally_disabled_to": "2025-06-04"
+ },
+ {
+  "claim_id": "C0227",
+  "totally_disabled_from": "2024-08-21",
+  "totally_disabled_to": "2024-09-18"
+ },
+ {
+  "claim_id": "C0228",
+  "totally_disabled_from": "2025-09-16",
+  "totally_disabled_to": "2025-09-19"
+ },
+ {
+  "claim_id": "C0229",
+  "totally_disabled_from": "2023-06-06",
+  "totally_disabled_to": "2023-06-10"
+ },
+ {
+  "claim_id": "C0229",
+  "totally_disabled_from": "2024-02-28",
+  "totally_disabled_to": "2024-04-27"
+ },
+ {
+  "claim_id": "C0230",
+  "totally_disabled_from": "2024-07-30",
+  "totally_disabled_to": "2024-08-02"
+ },
+ {
+  "claim_id": "C0231",
+  "totally_disabled_from": "2024-07-31",
+  "totally_disabled_to": "2026-05-11"
+ },
+ {
+  "claim_id": "C0232",
+  "totally_disabled_from": "2025-04-10",
+  "totally_disabled_to": "2025-04-13"
+ },
+ {
+  "claim_id": "C0233",
+  "totally_disabled_from": "2024-05-21",
+  "totally_disabled_to": "2024-06-03"
+ },
+ {
+  "claim_id": "C0233",
+  "totally_disabled_from": "2024-12-23",
+  "totally_disabled_to": "2025-01-31"
+ },
+ {
+  "claim_id": "C0234",
+  "totally_disabled_from": "2024-04-27",
+  "totally_disabled_to": "2024-05-11"
+ },
+ {
+  "claim_id": "C0235",
+  "totally_disabled_from": "2025-11-24",
+  "totally_disabled_to": "2026-03-23"
+ },
+ {
+  "claim_id": "C0235",
+  "totally_disabled_from": "2026-05-09",
+  "totally_disabled_to": "2026-08-07"
+ },
+ {
+  "claim_id": "C0236",
+  "totally_disabled_from": "2024-09-20",
+  "totally_disabled_to": "2024-10-05"
+ },
+ {
+  "claim_id": "C0237",
+  "totally_disabled_from": "2025-08-18",
+  "totally_disabled_to": "2025-09-15"
+ },
+ {
+  "claim_id": "C0238",
+  "totally_disabled_from": "2024-04-03",
+  "totally_disabled_to": "2024-04-12"
+ },
+ {
+  "claim_id": "C0239",
+  "totally_disabled_from": "2025-10-06",
+  "totally_disabled_to": "2025-11-04"
+ },
+ {
+  "claim_id": "C0239",
+  "totally_disabled_from": "2025-12-22",
+  "totally_disabled_to": "2026-01-30"
+ },
+ {
+  "claim_id": "C0240",
+  "totally_disabled_from": "2024-06-17",
+  "totally_disabled_to": "2024-07-01"
+ },
+ {
+  "claim_id": "C0240",
+  "totally_disabled_from": "2025-01-08",
+  "totally_disabled_to": "2025-01-28"
+ },
+ {
+  "claim_id": "C0241",
+  "totally_disabled_from": "2023-11-29",
+  "totally_disabled_to": "2023-12-03"
+ },
+ {
+  "claim_id": "C0242",
+  "totally_disabled_from": "2023-08-24",
+  "totally_disabled_to": "2023-09-08"
+ },
+ {
+  "claim_id": "C0243",
+  "totally_disabled_from": "2026-03-28",
+  "totally_disabled_to": "2026-04-17"
+ },
+ {
+  "claim_id": "C0244",
+  "totally_disabled_from": "2025-09-25",
+  "totally_disabled_to": "2025-09-27"
+ },
+ {
+  "claim_id": "C0244",
+  "totally_disabled_from": "2026-01-28",
+  "totally_disabled_to": "2026-03-28"
+ },
+ {
+  "claim_id": "C0245",
+  "totally_disabled_from": "2024-07-23",
+  "totally_disabled_to": "2024-07-27"
+ },
+ {
+  "claim_id": "C0246",
+  "totally_disabled_from": "2024-06-27",
+  "totally_disabled_to": "2024-08-09"
+ },
+ {
+  "claim_id": "C0246",
+  "totally_disabled_from": "2024-09-23",
+  "totally_disabled_to": "2024-11-01"
+ },
+ {
+  "claim_id": "C0247",
+  "totally_disabled_from": "2026-03-16",
+  "totally_disabled_to": "2026-05-29"
+ },
+ {
+  "claim_id": "C0247",
+  "totally_disabled_from": "2026-07-20",
+  "totally_disabled_to": "2026-08-28"
+ },
+ {
+  "claim_id": "C0248",
+  "totally_disabled_from": "2024-06-04",
+  "totally_disabled_to": "2024-06-17"
+ },
+ {
+  "claim_id": "C0249",
+  "totally_disabled_from": "2023-03-31",
+  "totally_disabled_to": "2023-04-04"
+ },
+ {
+  "claim_id": "C0250",
+  "totally_disabled_from": "2025-07-24",
+  "totally_disabled_to": "2025-08-01"
+ },
+ {
+  "claim_id": "C0251",
+  "totally_disabled_from": "2025-01-29",
+  "totally_disabled_to": "2025-01-31"
+ },
+ {
+  "claim_id": "C0252",
+  "totally_disabled_from": "2024-06-11",
+  "totally_disabled_to": "2026-01-23"
+ },
+ {
+  "claim_id": "C0253",
+  "totally_disabled_from": "2025-03-05",
+  "totally_disabled_to": "2025-03-21"
+ },
+ {
+  "claim_id": "C0253",
+  "totally_disabled_from": "2025-05-08",
+  "totally_disabled_to": "2025-06-27"
+ },
+ {
+  "claim_id": "C0254",
+  "totally_disabled_from": "2026-02-10",
+  "totally_disabled_to": "2026-02-23"
+ },
+ {
+  "claim_id": "C0255",
+  "totally_disabled_from": "2024-10-22",
+  "totally_disabled_to": "2024-11-07"
+ },
+ {
+  "claim_id": "C0255",
+  "totally_disabled_from": "2025-05-02",
+  "totally_disabled_to": "2025-07-01"
+ },
+ {
+  "claim_id": "C0256",
+  "totally_disabled_from": "2025-03-04",
+  "totally_disabled_to": "2025-03-18"
+ },
+ {
+  "claim_id": "C0257",
+  "totally_disabled_from": "2024-10-22",
+  "totally_disabled_to": "2024-12-20"
+ },
+ {
+  "claim_id": "C0257",
+  "totally_disabled_from": "2025-07-11",
+  "totally_disabled_to": "2025-08-08"
+ },
+ {
+  "claim_id": "C0258",
+  "totally_disabled_from": "2023-08-29",
+  "totally_disabled_to": "2023-10-12"
+ },
+ {
+  "claim_id": "C0259",
+  "totally_disabled_from": "2023-03-22",
+  "totally_disabled_to": "2023-04-11"
+ },
+ {
+  "claim_id": "C0260",
+  "totally_disabled_from": "2023-06-10",
+  "totally_disabled_to": "2023-06-17"
+ },
+ {
+  "claim_id": "C0260",
+  "totally_disabled_from": "2023-08-01",
+  "totally_disabled_to": "2023-08-19"
+ },
+ {
+  "claim_id": "C0261",
+  "totally_disabled_from": "2025-10-27",
+  "totally_disabled_to": "2025-11-05"
+ },
+ {
+  "claim_id": "C0261",
+  "totally_disabled_from": "2026-03-06",
+  "totally_disabled_to": "2026-04-03"
+ },
+ {
+  "claim_id": "C0262",
+  "totally_disabled_from": "2025-06-24",
+  "totally_disabled_to": "2025-10-21"
+ },
+ {
+  "claim_id": "C0263",
+  "totally_disabled_from": "2023-03-01",
+  "totally_disabled_to": "2023-03-17"
+ },
+ {
+  "claim_id": "C0264",
+  "totally_disabled_from": "2025-01-07",
+  "totally_disabled_to": "2025-01-16"
+ },
+ {
+  "claim_id": "C0264",
+  "totally_disabled_from": "2025-03-04",
+  "totally_disabled_to": "2025-06-02"
+ },
+ {
+  "claim_id": "C0265",
+  "totally_disabled_from": "2023-03-02",
+  "totally_disabled_to": "2023-03-17"
+ },
+ {
+  "claim_id": "C0266",
+  "totally_disabled_from": "2025-12-20",
+  "totally_disabled_to": "2025-12-29"
+ },
+ {
+  "claim_id": "C0267",
+  "totally_disabled_from": "2025-01-14",
+  "totally_disabled_to": "2025-01-23"
+ },
+ {
+  "claim_id": "C0268",
+  "totally_disabled_from": "2024-09-13",
+  "totally_disabled_to": "2024-10-11"
+ },
+ {
+  "claim_id": "C0269",
+  "totally_disabled_from": "2026-03-02",
+  "totally_disabled_to": "2026-03-06"
+ },
+ {
+  "claim_id": "C0269",
+  "totally_disabled_from": "2026-05-08",
+  "totally_disabled_to": "2026-05-28"
+ },
+ {
+  "claim_id": "C0270",
+  "totally_disabled_from": "2024-09-25",
+  "totally_disabled_to": "2024-10-10"
+ },
+ {
+  "claim_id": "C0271",
+  "totally_disabled_from": "2025-01-07",
+  "totally_disabled_to": "2025-02-05"
+ },
+ {
+  "claim_id": "C0271",
+  "totally_disabled_from": "2025-03-25",
+  "totally_disabled_to": "2025-05-02"
+ },
+ {
+  "claim_id": "C0272",
+  "totally_disabled_from": "2025-03-05",
+  "totally_disabled_to": "2025-03-21"
+ },
+ {
+  "claim_id": "C0273",
+  "totally_disabled_from": "2023-03-27",
+  "totally_disabled_to": "2023-04-25"
+ },
+ {
+  "claim_id": "C0273",
+  "totally_disabled_from": "2023-06-12",
+  "totally_disabled_to": "2023-09-08"
+ },
+ {
+  "claim_id": "C0274",
+  "totally_disabled_from": "2025-03-05",
+  "totally_disabled_to": "2025-04-03"
+ },
+ {
+  "claim_id": "C0275",
+  "totally_disabled_from": "2023-10-30",
+  "totally_disabled_to": "2025-07-01"
+ },
+ {
+  "claim_id": "C0275",
+  "totally_disabled_from": "2025-08-15",
+  "totally_disabled_to": "2025-09-04"
+ },
+ {
+  "claim_id": "C0276",
+  "totally_disabled_from": "2023-04-29",
+  "totally_disabled_to": "2023-05-13"
+ },
+ {
+  "claim_id": "C0277",
+  "totally_disabled_from": "2024-04-02",
+  "totally_disabled_to": "2025-05-23"
+ },
+ {
+  "claim_id": "C0278",
+  "totally_disabled_from": "2026-05-04",
+  "totally_disabled_to": "2026-05-22"
+ },
+ {
+  "claim_id": "C0278",
+  "totally_disabled_from": "2026-07-06",
+  "totally_disabled_to": "2026-08-05"
+ },
+ {
+  "claim_id": "C0279",
+  "totally_disabled_from": "2024-11-06",
+  "totally_disabled_to": "2024-12-22"
+ },
+ {
+  "claim_id": "C0279",
+  "totally_disabled_from": "2025-07-11",
+  "totally_disabled_to": "2025-08-08"
+ },
+ {
+  "claim_id": "C0280",
+  "totally_disabled_from": "2024-06-18",
+  "totally_disabled_to": "2024-08-02"
+ },
+ {
+  "claim_id": "C0281",
+  "totally_disabled_from": "2026-01-30",
+  "totally_disabled_to": "2026-03-13"
+ },
+ {
+  "claim_id": "C0282",
+  "totally_disabled_from": "2025-01-07",
+  "totally_disabled_to": "2026-03-20"
+ },
+ {
+  "claim_id": "C0283",
+  "totally_disabled_from": "2025-03-24",
+  "totally_disabled_to": "2025-04-08"
+ },
+ {
+  "claim_id": "C0284",
+  "totally_disabled_from": "2025-02-21",
+  "totally_disabled_to": "2025-03-14"
+ },
+ {
+  "claim_id": "C0285",
+  "totally_disabled_from": "2023-06-02",
+  "totally_disabled_to": "2023-06-14"
+ },
+ {
+  "claim_id": "C0286",
+  "totally_disabled_from": "2024-01-30",
+  "totally_disabled_to": "2024-02-08"
+ },
+ {
+  "claim_id": "C0287",
+  "totally_disabled_from": "2024-09-14",
+  "totally_disabled_to": "2024-09-28"
+ },
+ {
+  "claim_id": "C0288",
+  "totally_disabled_from": "2025-02-03",
+  "totally_disabled_to": "2025-03-03"
+ },
+ {
+  "claim_id": "C0289",
+  "totally_disabled_from": "2024-03-26",
+  "totally_disabled_to": "2026-02-18"
+ },
+ {
+  "claim_id": "C0289",
+  "totally_disabled_from": "2026-04-04",
+  "totally_disabled_to": "2026-05-14"
+ },
+ {
+  "claim_id": "C0290",
+  "totally_disabled_from": "2025-02-28",
+  "totally_disabled_to": "2025-03-14"
+ },
+ {
+  "claim_id": "C0290",
+  "totally_disabled_from": "2025-05-14",
+  "totally_disabled_to": "2025-08-12"
+ },
+ {
+  "claim_id": "C0291",
+  "totally_disabled_from": "2025-03-05",
+  "totally_disabled_to": "2025-03-13"
+ },
+ {
+  "claim_id": "C0292",
+  "totally_disabled_from": "2024-05-31",
+  "totally_disabled_to": "2024-06-14"
+ },
+ {
+  "claim_id": "C0292",
+  "totally_disabled_from": "2025-01-03",
+  "totally_disabled_to": "2025-01-31"
+ },
+ {
+  "claim_id": "C0293",
+  "totally_disabled_from": "2025-02-03",
+  "totally_disabled_to": "2026-03-31"
+ },
+ {
+  "claim_id": "C0294",
+  "totally_disabled_from": "2024-07-17",
+  "totally_disabled_to": "2024-07-26"
+ },
+ {
+  "claim_id": "C0295",
+  "totally_disabled_from": "2025-12-16",
+  "totally_disabled_to": "2026-01-28"
+ },
+ {
+  "claim_id": "C0296",
+  "totally_disabled_from": "2026-01-08",
+  "totally_disabled_to": "2026-01-23"
+ },
+ {
+  "claim_id": "C0297",
+  "totally_disabled_from": "2024-04-16",
+  "totally_disabled_to": "2025-11-13"
+ },
+ {
+  "claim_id": "C0298",
+  "totally_disabled_from": "2026-01-06",
+  "totally_disabled_to": "2026-01-15"
+ },
+ {
+  "claim_id": "C0299",
+  "totally_disabled_from": "2025-08-26",
+  "totally_disabled_to": "2026-09-04"
+ },
+ {
+  "claim_id": "C0300",
+  "totally_disabled_from": "2025-03-18",
+  "totally_disabled_to": "2026-06-13"
+ },
+ {
+  "claim_id": "C0301",
+  "totally_disabled_from": "2025-10-21",
+  "totally_disabled_to": "2025-11-19"
+ },
+ {
+  "claim_id": "C0301",
+  "totally_disabled_from": "2026-05-29",
+  "totally_disabled_to": "2026-07-08"
+ },
+ {
+  "claim_id": "C0302",
+  "totally_disabled_from": "2023-10-16",
+  "totally_disabled_to": "2025-02-19"
+ },
+ {
+  "claim_id": "C0302",
+  "totally_disabled_from": "2025-04-01",
+  "totally_disabled_to": "2025-05-01"
+ },
+ {
+  "claim_id": "C0303",
+  "totally_disabled_from": "2023-02-23",
+  "totally_disabled_to": "2023-04-07"
+ },
+ {
+  "claim_id": "C0304",
+  "totally_disabled_from": "2024-06-11",
+  "totally_disabled_to": "2024-07-10"
+ },
+ {
+  "claim_id": "C0304",
+  "totally_disabled_from": "2024-08-26",
+  "totally_disabled_to": "2024-11-22"
+ },
+ {
+  "claim_id": "C0305",
+  "totally_disabled_from": "2026-02-10",
+  "totally_disabled_to": "2026-03-25"
+ },
+ {
+  "claim_id": "C0305",
+  "totally_disabled_from": "2026-05-11",
+  "totally_disabled_to": "2026-05-30"
+ },
+ {
+  "claim_id": "C0306",
+  "totally_disabled_from": "2026-04-28",
+  "totally_disabled_to": "2026-05-07"
+ },
+ {
+  "claim_id": "C0307",
+  "totally_disabled_from": "2023-06-05",
+  "totally_disabled_to": "2023-06-14"
+ },
+ {
+  "claim_id": "C0308",
+  "totally_disabled_from": "2024-06-04",
+  "totally_disabled_to": "2026-02-20"
+ },
+ {
+  "claim_id": "C0309",
+  "totally_disabled_from": "2023-02-10",
+  "totally_disabled_to": "2023-02-25"
+ },
+ {
+  "claim_id": "C0310",
+  "totally_disabled_from": "2024-02-27",
+  "totally_disabled_to": "2024-03-07"
+ },
+ {
+  "claim_id": "C0311",
+  "totally_disabled_from": "2024-01-08",
+  "totally_disabled_to": "2024-01-22"
+ },
+ {
+  "claim_id": "C0312",
+  "totally_disabled_from": "2023-07-21",
+  "totally_disabled_to": "2023-07-25"
+ },
+ {
+  "claim_id": "C0313",
+  "totally_disabled_from": "2024-02-28",
+  "totally_disabled_to": "2024-03-10"
+ },
+ {
+  "claim_id": "C0314",
+  "totally_disabled_from": "2025-03-05",
+  "totally_disabled_to": "2025-04-18"
+ },
+ {
+  "claim_id": "C0315",
+  "totally_disabled_from": "2023-12-18",
+  "totally_disabled_to": "2025-03-27"
+ },
+ {
+  "claim_id": "C0316",
+  "totally_disabled_from": "2023-05-13",
+  "totally_disabled_to": "2023-05-27"
+ },
+ {
+  "claim_id": "C0316",
+  "totally_disabled_from": "2023-11-21",
+  "totally_disabled_to": "2023-12-21"
+ },
+ {
+  "claim_id": "C0317",
+  "totally_disabled_from": "2024-11-26",
+  "totally_disabled_to": "2024-12-05"
+ },
+ {
+  "claim_id": "C0318",
+  "totally_disabled_from": "2026-02-24",
+  "totally_disabled_to": "2026-03-01"
+ },
+ {
+  "claim_id": "C0319",
+  "totally_disabled_from": "2023-12-18",
+  "totally_disabled_to": "2024-01-05"
+ },
+ {
+  "claim_id": "C0319",
+  "totally_disabled_from": "2024-05-07",
+  "totally_disabled_to": "2024-06-14"
+ },
+ {
+  "claim_id": "C0320",
+  "totally_disabled_from": "2023-03-07",
+  "totally_disabled_to": "2024-04-30"
+ },
+ {
+  "claim_id": "C0321",
+  "totally_disabled_from": "2023-09-12",
+  "totally_disabled_to": "2024-08-29"
+ },
+ {
+  "claim_id": "C0322",
+  "totally_disabled_from": "2023-03-07",
+  "totally_disabled_to": "2023-04-21"
+ },
+ {
+  "claim_id": "C0323",
+  "totally_disabled_from": "2023-04-20",
+  "totally_disabled_to": "2023-04-28"
+ },
+ {
+  "claim_id": "C0323",
+  "totally_disabled_from": "2023-06-30",
+  "totally_disabled_to": "2023-08-09"
+ }
+]

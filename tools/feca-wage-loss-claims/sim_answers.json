@@ -1,0 +1,1940 @@
+{
+"C0001": {
+"cop_days": "44",
+"last_cop_day": "2024-08-08",
+"compensation_days": "91",
+"compensation": "12181.65"
+},
+"C0002": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "21",
+"compensation": "3539.70"
+},
+"C0003": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "690",
+"compensation": "120138.05"
+},
+"C0004": {
+"cop_days": "44",
+"last_cop_day": "2025-02-20",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0005": {
+"cop_days": "45",
+"last_cop_day": "2026-03-26",
+"compensation_days": "69",
+"compensation": "4757.34"
+},
+"C0006": {
+"cop_days": "3",
+"last_cop_day": "2024-11-01",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0007": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "29",
+"compensation": "3850.73"
+},
+"C0008": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "16",
+"compensation": "2063.74"
+},
+"C0009": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "61",
+"compensation": "11624.27"
+},
+"C0010": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "300",
+"compensation": "41345.60"
+},
+"C0011": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "7",
+"compensation": "1370.98"
+},
+"C0012": {
+"cop_days": "44",
+"last_cop_day": "2023-11-03",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0013": {
+"cop_days": "27",
+"last_cop_day": "2024-08-01",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0014": {
+"cop_days": "13",
+"last_cop_day": "2023-04-12",
+"compensation_days": "39",
+"compensation": "3730.18"
+},
+"C0015": {
+"cop_days": "17",
+"last_cop_day": "2024-06-03",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0016": {
+"cop_days": "7",
+"last_cop_day": "2025-04-14",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0017": {
+"cop_days": "6",
+"last_cop_day": "2025-04-20",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0018": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "76",
+"compensation": "7277.63"
+},
+"C0019": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "11",
+"compensation": "1114.74"
+},
+"C0020": {
+"cop_days": "4",
+"last_cop_day": "2025-04-07",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0021": {
+"cop_days": "3",
+"last_cop_day": "2025-10-10",
+"compensation_days": "652",
+"compensation": "85892.26"
+},
+"C0022": {
+"cop_days": "3",
+"last_cop_day": "2024-02-16",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0023": {
+"cop_days": "16",
+"last_cop_day": "2024-07-16",
+"compensation_days": "21",
+"compensation": "3004.92"
+},
+"C0024": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "37",
+"compensation": "2887.07"
+},
+"C0025": {
+"cop_days": "43",
+"last_cop_day": "2023-05-22",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0026": {
+"cop_days": "45",
+"last_cop_day": "2025-05-15",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0027": {
+"cop_days": "17",
+"last_cop_day": "2023-10-24",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0028": {
+"cop_days": "7",
+"last_cop_day": "2024-05-10",
+"compensation_days": "89",
+"compensation": "16667.56"
+},
+"C0029": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "38",
+"compensation": "5856.09"
+},
+"C0030": {
+"cop_days": "17",
+"last_cop_day": "2025-03-21",
+"compensation_days": "28",
+"compensation": "3179.49"
+},
+"C0031": {
+"cop_days": "7",
+"last_cop_day": "2024-08-02",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0032": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "60",
+"compensation": "6187.25"
+},
+"C0033": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "300",
+"compensation": "43341.54"
+},
+"C0034": {
+"cop_days": "45",
+"last_cop_day": "2023-05-04",
+"compensation_days": "22",
+"compensation": "2781.08"
+},
+"C0035": {
+"cop_days": "7",
+"last_cop_day": "2025-06-13",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0036": {
+"cop_days": "8",
+"last_cop_day": "2024-04-19",
+"compensation_days": "41",
+"compensation": "6087.15"
+},
+"C0037": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "82",
+"compensation": "11847.70"
+},
+"C0038": {
+"cop_days": "5",
+"last_cop_day": "2024-08-05",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0039": {
+"cop_days": "15",
+"last_cop_day": "2023-02-17",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0040": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "16",
+"compensation": "2024.57"
+},
+"C0041": {
+"cop_days": "45",
+"last_cop_day": "2025-11-20",
+"compensation_days": "104",
+"compensation": "26039.46"
+},
+"C0042": {
+"cop_days": "45",
+"last_cop_day": "2025-05-14",
+"compensation_days": "75",
+"compensation": "16972.82"
+},
+"C0043": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "127",
+"compensation": "13449.90"
+},
+"C0044": {
+"cop_days": "16",
+"last_cop_day": "2025-04-18",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0045": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "67",
+"compensation": "14182.86"
+},
+"C0046": {
+"cop_days": "45",
+"last_cop_day": "2026-06-13",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0047": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "17",
+"compensation": "2474.15"
+},
+"C0048": {
+"cop_days": "11",
+"last_cop_day": "2024-12-02",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0049": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "7",
+"compensation": "1031.25"
+},
+"C0050": {
+"cop_days": "30",
+"last_cop_day": "2025-02-27",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0051": {
+"cop_days": "8",
+"last_cop_day": "2023-04-17",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0052": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "10",
+"compensation": "1396.15"
+},
+"C0053": {
+"cop_days": "45",
+"last_cop_day": "2025-03-20",
+"compensation_days": "75",
+"compensation": "10712.91"
+},
+"C0054": {
+"cop_days": "12",
+"last_cop_day": "2025-08-08",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0055": {
+"cop_days": "31",
+"last_cop_day": "2025-03-09",
+"compensation_days": "21",
+"compensation": "2572.23"
+},
+"C0056": {
+"cop_days": "45",
+"last_cop_day": "2025-02-20",
+"compensation_days": "22",
+"compensation": "2498.17"
+},
+"C0057": {
+"cop_days": "45",
+"last_cop_day": "2023-08-09",
+"compensation_days": "583",
+"compensation": "51669.85"
+},
+"C0058": {
+"cop_days": "44",
+"last_cop_day": "2023-08-22",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0059": {
+"cop_days": "5",
+"last_cop_day": "2025-12-06",
+"compensation_days": "31",
+"compensation": "3255.72"
+},
+"C0060": {
+"cop_days": "9",
+"last_cop_day": "2025-03-13",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0061": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "45",
+"compensation": "12772.19"
+},
+"C0062": {
+"cop_days": "45",
+"last_cop_day": "2023-12-08",
+"compensation_days": "29",
+"compensation": "2950.59"
+},
+"C0063": {
+"cop_days": "30",
+"last_cop_day": "2025-02-21",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0064": {
+"cop_days": "44",
+"last_cop_day": "2025-05-31",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0065": {
+"cop_days": "5",
+"last_cop_day": "2025-04-13",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0066": {
+"cop_days": "16",
+"last_cop_day": "2026-02-19",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0067": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "390",
+"compensation": "41952.00"
+},
+"C0068": {
+"cop_days": "45",
+"last_cop_day": "2023-11-15",
+"compensation_days": "646",
+"compensation": "100160.99"
+},
+"C0069": {
+"cop_days": "45",
+"last_cop_day": "2026-05-28",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0070": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "15",
+"compensation": "2002.57"
+},
+"C0071": {
+"cop_days": "2",
+"last_cop_day": "2024-08-12",
+"compensation_days": "50",
+"compensation": "4290.00"
+},
+"C0072": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "29",
+"compensation": "3491.76"
+},
+"C0073": {
+"cop_days": "45",
+"last_cop_day": "2023-04-20",
+"compensation_days": "30",
+"compensation": "6476.29"
+},
+"C0074": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "15",
+"compensation": "2678.40"
+},
+"C0075": {
+"cop_days": "6",
+"last_cop_day": "2025-05-13",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0076": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "30",
+"compensation": "5363.41"
+},
+"C0077": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "67",
+"compensation": "12288.61"
+},
+"C0078": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "300",
+"compensation": "34261.81"
+},
+"C0079": {
+"cop_days": "18",
+"last_cop_day": "2026-04-29",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0080": {
+"cop_days": "45",
+"last_cop_day": "2025-02-20",
+"compensation_days": "22",
+"compensation": "2498.17"
+},
+"C0081": {
+"cop_days": "17",
+"last_cop_day": "2026-02-06",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0082": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "16",
+"compensation": "2577.60"
+},
+"C0083": {
+"cop_days": "7",
+"last_cop_day": "2024-05-21",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0084": {
+"cop_days": "6",
+"last_cop_day": "2025-04-30",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0085": {
+"cop_days": "45",
+"last_cop_day": "2024-09-23",
+"compensation_days": "30",
+"compensation": "4009.15"
+},
+"C0086": {
+"cop_days": "31",
+"last_cop_day": "2025-03-24",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0087": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "30",
+"compensation": "5330.52"
+},
+"C0088": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "642",
+"compensation": "87546.80"
+},
+"C0089": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "48",
+"compensation": "8482.71"
+},
+"C0090": {
+"cop_days": "10",
+"last_cop_day": "2025-10-06",
+"compensation_days": "91",
+"compensation": "15907.50"
+},
+"C0091": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "508",
+"compensation": "87691.41"
+},
+"C0092": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "451",
+"compensation": "85076.18"
+},
+"C0093": {
+"cop_days": "45",
+"last_cop_day": "2025-03-26",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0094": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "11",
+"compensation": "1249.08"
+},
+"C0095": {
+"cop_days": "45",
+"last_cop_day": "2025-06-02",
+"compensation_days": "22",
+"compensation": "2498.17"
+},
+"C0096": {
+"cop_days": "45",
+"last_cop_day": "2023-05-25",
+"compensation_days": "382",
+"compensation": "85739.45"
+},
+"C0097": {
+"cop_days": "44",
+"last_cop_day": "2023-06-29",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0098": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "75",
+"compensation": "6352.53"
+},
+"C0099": {
+"cop_days": "45",
+"last_cop_day": "2025-06-22",
+"compensation_days": "40",
+"compensation": "7434.68"
+},
+"C0100": {
+"cop_days": "45",
+"last_cop_day": "2024-08-14",
+"compensation_days": "635",
+"compensation": "89630.25"
+},
+"C0101": {
+"cop_days": "19",
+"last_cop_day": "2026-04-28",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0102": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "299",
+"compensation": "23465.48"
+},
+"C0103": {
+"cop_days": "5",
+"last_cop_day": "2023-06-05",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0104": {
+"cop_days": "45",
+"last_cop_day": "2023-04-24",
+"compensation_days": "255",
+"compensation": "48957.90"
+},
+"C0105": {
+"cop_days": "10",
+"last_cop_day": "2025-08-22",
+"compensation_days": "29",
+"compensation": "3624.79"
+},
+"C0106": {
+"cop_days": "16",
+"last_cop_day": "2023-05-24",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0107": {
+"cop_days": "1",
+"last_cop_day": "2023-07-26",
+"compensation_days": "21",
+"compensation": "3818.70"
+},
+"C0108": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "143",
+"compensation": "27384.76"
+},
+"C0109": {
+"cop_days": "15",
+"last_cop_day": "2026-01-30",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0110": {
+"cop_days": "5",
+"last_cop_day": "2023-04-30",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0111": {
+"cop_days": "10",
+"last_cop_day": "2026-04-09",
+"compensation_days": "31",
+"compensation": "4241.39"
+},
+"C0112": {
+"cop_days": "45",
+"last_cop_day": "2024-03-28",
+"compensation_days": "21",
+"compensation": "2989.60"
+},
+"C0113": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "29",
+"compensation": "3688.21"
+},
+"C0114": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "520",
+"compensation": "79247.30"
+},
+"C0115": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "46",
+"compensation": "6929.95"
+},
+"C0116": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "299",
+"compensation": "31287.19"
+},
+"C0117": {
+"cop_days": "6",
+"last_cop_day": "2025-06-04",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0118": {
+"cop_days": "45",
+"last_cop_day": "2025-08-20",
+"compensation_days": "15",
+"compensation": "1399.73"
+},
+"C0119": {
+"cop_days": "6",
+"last_cop_day": "2025-08-03",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0120": {
+"cop_days": "5",
+"last_cop_day": "2025-03-31",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0121": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "16",
+"compensation": "3006.18"
+},
+"C0122": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "11",
+"compensation": "2137.20"
+},
+"C0123": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "75",
+"compensation": "7374.73"
+},
+"C0124": {
+"cop_days": "44",
+"last_cop_day": "2025-03-25",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0125": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "44",
+"compensation": "9804.99"
+},
+"C0126": {
+"cop_days": "45",
+"last_cop_day": "2024-10-23",
+"compensation_days": "671",
+"compensation": "63989.30"
+},
+"C0127": {
+"cop_days": "30",
+"last_cop_day": "2026-03-04",
+"compensation_days": "31",
+"compensation": "2902.93"
+},
+"C0128": {
+"cop_days": "45",
+"last_cop_day": "2025-01-08",
+"compensation_days": "254",
+"compensation": "53240.09"
+},
+"C0129": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "181",
+"compensation": "25053.43"
+},
+"C0130": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "110",
+"compensation": "20221.57"
+},
+"C0131": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "7",
+"compensation": "687.36"
+},
+"C0132": {
+"cop_days": "45",
+"last_cop_day": "2023-05-12",
+"compensation_days": "748",
+"compensation": "91112.09"
+},
+"C0133": {
+"cop_days": "30",
+"last_cop_day": "2023-09-12",
+"compensation_days": "91",
+"compensation": "13176.15"
+},
+"C0134": {
+"cop_days": "34",
+"last_cop_day": "2024-06-12",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0135": {
+"cop_days": "45",
+"last_cop_day": "2024-02-22",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0136": {
+"cop_days": "7",
+"last_cop_day": "2025-09-05",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0137": {
+"cop_days": "17",
+"last_cop_day": "2024-11-15",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0138": {
+"cop_days": "45",
+"last_cop_day": "2025-03-30",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0139": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "592",
+"compensation": "81892.41"
+},
+"C0140": {
+"cop_days": "1",
+"last_cop_day": "2023-10-16",
+"compensation_days": "96",
+"compensation": "16398.77"
+},
+"C0141": {
+"cop_days": "5",
+"last_cop_day": "2023-02-27",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0142": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "1",
+"compensation": "97.47"
+},
+"C0143": {
+"cop_days": "45",
+"last_cop_day": "2025-02-01",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0144": {
+"cop_days": "3",
+"last_cop_day": "2023-12-01",
+"compensation_days": "60",
+"compensation": "5685.16"
+},
+"C0145": {
+"cop_days": "16",
+"last_cop_day": "2024-09-26",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0146": {
+"cop_days": "45",
+"last_cop_day": "2024-05-09",
+"compensation_days": "30",
+"compensation": "5473.43"
+},
+"C0147": {
+"cop_days": "31",
+"last_cop_day": "2026-01-26",
+"compensation_days": "61",
+"compensation": "14310.07"
+},
+"C0148": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "45",
+"compensation": "5723.04"
+},
+"C0149": {
+"cop_days": "1",
+"last_cop_day": "2024-07-01",
+"compensation_days": "299",
+"compensation": "34855.40"
+},
+"C0150": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "46",
+"compensation": "5294.74"
+},
+"C0151": {
+"cop_days": "45",
+"last_cop_day": "2024-04-17",
+"compensation_days": "21",
+"compensation": "1684.77"
+},
+"C0152": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "101",
+"compensation": "8533.74"
+},
+"C0153": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "38",
+"compensation": "4378.66"
+},
+"C0154": {
+"cop_days": "17",
+"last_cop_day": "2025-09-29",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0155": {
+"cop_days": "10",
+"last_cop_day": "2025-05-22",
+"compensation_days": "19",
+"compensation": "3147.01"
+},
+"C0156": {
+"cop_days": "40",
+"last_cop_day": "2023-12-29",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0157": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "742",
+"compensation": "155325.47"
+},
+"C0158": {
+"cop_days": "45",
+"last_cop_day": "2023-09-13",
+"compensation_days": "364",
+"compensation": "56228.70"
+},
+"C0159": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "29",
+"compensation": "3756.02"
+},
+"C0160": {
+"cop_days": "10",
+"last_cop_day": "2026-04-01",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0161": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "21",
+"compensation": "3568.40"
+},
+"C0162": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "43",
+"compensation": "3861.57"
+},
+"C0163": {
+"cop_days": "19",
+"last_cop_day": "2024-05-23",
+"compensation_days": "21",
+"compensation": "4121.65"
+},
+"C0164": {
+"cop_days": "4",
+"last_cop_day": "2025-06-16",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0165": {
+"cop_days": "45",
+"last_cop_day": "2024-06-26",
+"compensation_days": "40",
+"compensation": "6909.43"
+},
+"C0166": {
+"cop_days": "5",
+"last_cop_day": "2023-09-23",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0167": {
+"cop_days": "45",
+"last_cop_day": "2023-05-04",
+"compensation_days": "379",
+"compensation": "75900.22"
+},
+"C0168": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "8",
+"compensation": "1773.33"
+},
+"C0169": {
+"cop_days": "44",
+"last_cop_day": "2024-05-30",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0170": {
+"cop_days": "3",
+"last_cop_day": "2024-08-23",
+"compensation_days": "539",
+"compensation": "45905.68"
+},
+"C0171": {
+"cop_days": "10",
+"last_cop_day": "2026-05-07",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0172": {
+"cop_days": "4",
+"last_cop_day": "2024-06-28",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0173": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "11",
+"compensation": "2459.87"
+},
+"C0174": {
+"cop_days": "8",
+"last_cop_day": "2025-03-14",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0175": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "21",
+"compensation": "3427.20"
+},
+"C0176": {
+"cop_days": "31",
+"last_cop_day": "2024-07-16",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0177": {
+"cop_days": "19",
+"last_cop_day": "2026-02-23",
+"compensation_days": "40",
+"compensation": "5955.43"
+},
+"C0178": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "300",
+"compensation": "32247.69"
+},
+"C0179": {
+"cop_days": "45",
+"last_cop_day": "2026-02-04",
+"compensation_days": "30",
+"compensation": "5228.31"
+},
+"C0180": {
+"cop_days": "45",
+"last_cop_day": "2024-02-02",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0181": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "6",
+"compensation": "1016.51"
+},
+"C0182": {
+"cop_days": "45",
+"last_cop_day": "2025-04-24",
+"compensation_days": "517",
+"compensation": "47908.67"
+},
+"C0183": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "44",
+"compensation": "3530.18"
+},
+"C0184": {
+"cop_days": "16",
+"last_cop_day": "2023-11-07",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0185": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "106",
+"compensation": "19068.30"
+},
+"C0186": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "86",
+"compensation": "14856.71"
+},
+"C0187": {
+"cop_days": "8",
+"last_cop_day": "2024-06-29",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0188": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "116",
+"compensation": "12822.46"
+},
+"C0189": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "78",
+"compensation": "16450.71"
+},
+"C0190": {
+"cop_days": "44",
+"last_cop_day": "2024-07-01",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0191": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "120",
+"compensation": "25028.65"
+},
+"C0192": {
+"cop_days": "5",
+"last_cop_day": "2026-03-20",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0193": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "19",
+"compensation": "3138.80"
+},
+"C0194": {
+"cop_days": "45",
+"last_cop_day": "2023-07-12",
+"compensation_days": "30",
+"compensation": "5782.80"
+},
+"C0195": {
+"cop_days": "30",
+"last_cop_day": "2024-11-20",
+"compensation_days": "21",
+"compensation": "2330.03"
+},
+"C0196": {
+"cop_days": "43",
+"last_cop_day": "2026-05-02",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0197": {
+"cop_days": "6",
+"last_cop_day": "2025-06-09",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0198": {
+"cop_days": "16",
+"last_cop_day": "2024-02-13",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0199": {
+"cop_days": "45",
+"last_cop_day": "2023-08-23",
+"compensation_days": "30",
+"compensation": "2939.84"
+},
+"C0200": {
+"cop_days": "7",
+"last_cop_day": "2024-08-17",
+"compensation_days": "91",
+"compensation": "10037.98"
+},
+"C0201": {
+"cop_days": "13",
+"last_cop_day": "2025-05-16",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0202": {
+"cop_days": "6",
+"last_cop_day": "2023-10-22",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0203": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "16",
+"compensation": "2705.54"
+},
+"C0204": {
+"cop_days": "5",
+"last_cop_day": "2025-10-20",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0205": {
+"cop_days": "15",
+"last_cop_day": "2023-10-13",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0206": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "74",
+"compensation": "14119.41"
+},
+"C0207": {
+"cop_days": "11",
+"last_cop_day": "2023-07-01",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0208": {
+"cop_days": "16",
+"last_cop_day": "2024-05-11",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0209": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "507",
+"compensation": "42202.11"
+},
+"C0210": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "29",
+"compensation": "3282.97"
+},
+"C0211": {
+"cop_days": "3",
+"last_cop_day": "2025-09-23",
+"compensation_days": "16",
+"compensation": "3458.98"
+},
+"C0212": {
+"cop_days": "20",
+"last_cop_day": "2026-05-19",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0213": {
+"cop_days": "44",
+"last_cop_day": "2024-06-08",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0214": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "412",
+"compensation": "77982.77"
+},
+"C0215": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "392",
+"compensation": "44512.82"
+},
+"C0216": {
+"cop_days": "17",
+"last_cop_day": "2024-06-06",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0217": {
+"cop_days": "6",
+"last_cop_day": "2026-04-17",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0218": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "44",
+"compensation": "6439.26"
+},
+"C0219": {
+"cop_days": "2",
+"last_cop_day": "2024-10-28",
+"compensation_days": "42",
+"compensation": "4983.58"
+},
+"C0220": {
+"cop_days": "31",
+"last_cop_day": "2025-06-01",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0221": {
+"cop_days": "44",
+"last_cop_day": "2025-12-17",
+"compensation_days": "19",
+"compensation": "2669.53"
+},
+"C0222": {
+"cop_days": "45",
+"last_cop_day": "2024-10-18",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0223": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "141",
+"compensation": "21999.17"
+},
+"C0224": {
+"cop_days": "5",
+"last_cop_day": "2024-07-30",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0225": {
+"cop_days": "45",
+"last_cop_day": "2026-01-28",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0226": {
+"cop_days": "16",
+"last_cop_day": "2025-06-04",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0227": {
+"cop_days": "30",
+"last_cop_day": "2024-09-25",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0228": {
+"cop_days": "5",
+"last_cop_day": "2025-10-01",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0229": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "62",
+"compensation": "12832.00"
+},
+"C0230": {
+"cop_days": "4",
+"last_cop_day": "2024-08-02",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0231": {
+"cop_days": "45",
+"last_cop_day": "2024-09-13",
+"compensation_days": "605",
+"compensation": "62345.88"
+},
+"C0232": {
+"cop_days": "4",
+"last_cop_day": "2025-04-13",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0233": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "51",
+"compensation": "4134.27"
+},
+"C0234": {
+"cop_days": "15",
+"last_cop_day": "2024-05-11",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0235": {
+"cop_days": "45",
+"last_cop_day": "2026-01-07",
+"compensation_days": "166",
+"compensation": "25574.22"
+},
+"C0236": {
+"cop_days": "19",
+"last_cop_day": "2024-10-24",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0237": {
+"cop_days": "29",
+"last_cop_day": "2025-09-15",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0238": {
+"cop_days": "12",
+"last_cop_day": "2024-04-29",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0239": {
+"cop_days": "30",
+"last_cop_day": "2025-11-04",
+"compensation_days": "40",
+"compensation": "8710.47"
+},
+"C0240": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "36",
+"compensation": "6006.53"
+},
+"C0241": {
+"cop_days": "7",
+"last_cop_day": "2023-12-19",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0242": {
+"cop_days": "18",
+"last_cop_day": "2023-09-21",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0243": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "21",
+"compensation": "2057.78"
+},
+"C0244": {
+"cop_days": "5",
+"last_cop_day": "2025-10-17",
+"compensation_days": "60",
+"compensation": "5484.57"
+},
+"C0245": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "2",
+"compensation": "225.64"
+},
+"C0246": {
+"cop_days": "45",
+"last_cop_day": "2024-09-23",
+"compensation_days": "39",
+"compensation": "8456.22"
+},
+"C0247": {
+"cop_days": "45",
+"last_cop_day": "2026-04-29",
+"compensation_days": "70",
+"compensation": "7593.89"
+},
+"C0248": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "11",
+"compensation": "854.67"
+},
+"C0249": {
+"cop_days": "5",
+"last_cop_day": "2023-04-04",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0250": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "6",
+"compensation": "1048.21"
+},
+"C0251": {
+"cop_days": "3",
+"last_cop_day": "2025-01-31",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0252": {
+"cop_days": "45",
+"last_cop_day": "2024-07-25",
+"compensation_days": "547",
+"compensation": "120938.09"
+},
+"C0253": {
+"cop_days": "45",
+"last_cop_day": "2025-06-04",
+"compensation_days": "23",
+"compensation": "2611.72"
+},
+"C0254": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "11",
+"compensation": "866.61"
+},
+"C0255": {
+"cop_days": "1",
+"last_cop_day": "2024-11-20",
+"compensation_days": "78",
+"compensation": "10275.94"
+},
+"C0256": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "15",
+"compensation": "1703.30"
+},
+"C0257": {
+"cop_days": "45",
+"last_cop_day": "2024-12-05",
+"compensation_days": "44",
+"compensation": "7161.60"
+},
+"C0258": {
+"cop_days": "45",
+"last_cop_day": "2023-10-12",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0259": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "21",
+"compensation": "1983.60"
+},
+"C0260": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "24",
+"compensation": "4420.76"
+},
+"C0261": {
+"cop_days": "10",
+"last_cop_day": "2025-11-05",
+"compensation_days": "29",
+"compensation": "2429.89"
+},
+"C0262": {
+"cop_days": "45",
+"last_cop_day": "2025-08-07",
+"compensation_days": "75",
+"compensation": "10684.29"
+},
+"C0263": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "17",
+"compensation": "1676.98"
+},
+"C0264": {
+"cop_days": "10",
+"last_cop_day": "2025-01-16",
+"compensation_days": "91",
+"compensation": "23838.98"
+},
+"C0265": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "16",
+"compensation": "1899.30"
+},
+"C0266": {
+"cop_days": "11",
+"last_cop_day": "2026-01-10",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0267": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "7",
+"compensation": "1390.15"
+},
+"C0268": {
+"cop_days": "30",
+"last_cop_day": "2024-10-28",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0269": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "23",
+"compensation": "3900.40"
+},
+"C0270": {
+"cop_days": "17",
+"last_cop_day": "2024-10-21",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0271": {
+"cop_days": "30",
+"last_cop_day": "2025-02-05",
+"compensation_days": "39",
+"compensation": "5859.12"
+},
+"C0272": {
+"cop_days": "17",
+"last_cop_day": "2025-03-21",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0273": {
+"cop_days": "33",
+"last_cop_day": "2023-05-23",
+"compensation_days": "89",
+"compensation": "16502.10"
+},
+"C0274": {
+"cop_days": "33",
+"last_cop_day": "2025-04-29",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0275": {
+"cop_days": "45",
+"last_cop_day": "2023-12-13",
+"compensation_days": "587",
+"compensation": "68248.91"
+},
+"C0276": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "15",
+"compensation": "1516.22"
+},
+"C0277": {
+"cop_days": "45",
+"last_cop_day": "2024-05-16",
+"compensation_days": "372",
+"compensation": "105296.63"
+},
+"C0278": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "50",
+"compensation": "5476.07"
+},
+"C0279": {
+"cop_days": "45",
+"last_cop_day": "2024-12-20",
+"compensation_days": "29",
+"compensation": "4863.40"
+},
+"C0280": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "39",
+"compensation": "4618.16"
+},
+"C0281": {
+"cop_days": "45",
+"last_cop_day": "2026-04-01",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0282": {
+"cop_days": "45",
+"last_cop_day": "2025-02-20",
+"compensation_days": "393",
+"compensation": "81715.87"
+},
+"C0283": {
+"cop_days": "16",
+"last_cop_day": "2025-04-08",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0284": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "22",
+"compensation": "2498.17"
+},
+"C0285": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "10",
+"compensation": "2219.22"
+},
+"C0286": {
+"cop_days": "10",
+"last_cop_day": "2024-02-08",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0287": {
+"cop_days": "15",
+"last_cop_day": "2024-09-28",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0288": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "29",
+"compensation": "3399.27"
+},
+"C0289": {
+"cop_days": "45",
+"last_cop_day": "2024-05-09",
+"compensation_days": "691",
+"compensation": "126822.81"
+},
+"C0290": {
+"cop_days": "3",
+"last_cop_day": "2025-04-08",
+"compensation_days": "106",
+"compensation": "19598.89"
+},
+"C0291": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "6",
+"compensation": "681.32"
+},
+"C0292": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "44",
+"compensation": "8140.63"
+},
+"C0293": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "422",
+"compensation": "48017.98"
+},
+"C0294": {
+"cop_days": "13",
+"last_cop_day": "2024-08-14",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0295": {
+"cop_days": "44",
+"last_cop_day": "2026-01-28",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0296": {
+"cop_days": "17",
+"last_cop_day": "2026-01-29",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0297": {
+"cop_days": "45",
+"last_cop_day": "2024-05-30",
+"compensation_days": "532",
+"compensation": "93748.92"
+},
+"C0298": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "7",
+"compensation": "940.77"
+},
+"C0299": {
+"cop_days": "45",
+"last_cop_day": "2025-10-09",
+"compensation_days": "330",
+"compensation": "30519.67"
+},
+"C0300": {
+"cop_days": "45",
+"last_cop_day": "2025-05-01",
+"compensation_days": "408",
+"compensation": "78655.45"
+},
+"C0301": {
+"cop_days": "33",
+"last_cop_day": "2025-12-19",
+"compensation_days": "41",
+"compensation": "3535.41"
+},
+"C0302": {
+"cop_days": "45",
+"last_cop_day": "2023-11-29",
+"compensation_days": "479",
+"compensation": "68897.80"
+},
+"C0303": {
+"cop_days": "44",
+"last_cop_day": "2023-04-07",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0304": {
+"cop_days": "33",
+"last_cop_day": "2024-08-01",
+"compensation_days": "89",
+"compensation": "13881.07"
+},
+"C0305": {
+"cop_days": "44",
+"last_cop_day": "2026-03-25",
+"compensation_days": "20",
+"compensation": "4381.32"
+},
+"C0306": {
+"cop_days": "10",
+"last_cop_day": "2026-05-07",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0307": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "7",
+"compensation": "1152.33"
+},
+"C0308": {
+"cop_days": "45",
+"last_cop_day": "2024-07-18",
+"compensation_days": "582",
+"compensation": "65805.61"
+},
+"C0309": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "16",
+"compensation": "2403.96"
+},
+"C0310": {
+"cop_days": "11",
+"last_cop_day": "2024-03-19",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0311": {
+"cop_days": "15",
+"last_cop_day": "2024-01-22",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0312": {
+"cop_days": "6",
+"last_cop_day": "2023-08-05",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0313": {
+"cop_days": "15",
+"last_cop_day": "2024-04-11",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0314": {
+"cop_days": "45",
+"last_cop_day": "2025-04-18",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0315": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "462",
+"compensation": "81080.30"
+},
+"C0316": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "46",
+"compensation": "7594.38"
+},
+"C0317": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "7",
+"compensation": "1088.31"
+},
+"C0318": {
+"cop_days": "8",
+"last_cop_day": "2026-03-16",
+"compensation_days": "0",
+"compensation": "0.00"
+},
+"C0319": {
+"cop_days": "0",
+"last_cop_day": "none",
+"compensation_days": "58",
+"compensation": "13081.68"
+},
+"C0320": {
+"cop_days": "45",
+"last_cop_day": "2023-04-20",
+"compensation_days": "376",
+"compensation": "56616.92"
+},
+"C0321": {
+"cop_days": "3",
+"last_cop_day": "2024-09-25",
+"compensation_days": "353",
+"compensation": "65270.09"
+},
+"C0322": {
+"cop_days": "3",
+"last_cop_day": "2023-05-11",
+"compensation_days": "46",
+"compensation": "4654.68"
+},
+"C0323": {
+"cop_days": "9",
+"last_cop_day": "2023-04-28",
+"compensation_days": "41",
+"compensation": "3193.52"
+}
+}
