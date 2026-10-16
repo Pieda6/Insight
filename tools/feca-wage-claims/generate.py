@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the feca-wage-loss-claims inputs (dev only, never shipped).
+"""Generate the feca-wage-claims inputs (dev only, never shipped).
 
 An agency's injury compensation office audits traumatic injury and occupational disease claims of its employees under the
 FECA (5 U.S.C. 8105, 8110, 8114, 8117, 8118; 20 CFR 10.5, 10.200-10.224, 10.400-10.425). For each claim it needs the
@@ -13,7 +13,7 @@ from datetime import date, datetime, time, timedelta
 from fractions import Fraction
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2] / "tasks" / "feca-wage-loss-claims"
+ROOT = Path(__file__).resolve().parents[2] / "tasks" / "feca-wage-claims"
 ENV, TST = ROOT / "environment" / "data", ROOT / "tests" / "data"
 rng = random.Random(81180)
 DAY = timedelta(days=1)

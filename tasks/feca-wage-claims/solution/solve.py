@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reference solution for feca-wage-loss-claims (5 U.S.C. 8105, 8110, 8114, 8117, 8118; 20 CFR 10.5, 10.200-10.224,
+"""Reference solution for feca-wage-claims (5 U.S.C. 8105, 8110, 8114, 8117, 8118; 20 CFR 10.5, 10.200-10.224,
 10.400-10.425).
 
 Per claim: decide COP eligibility (traumatic injury, notice within 30 days, time lost within 45 days), walk the days

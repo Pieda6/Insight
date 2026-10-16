@@ -1,4 +1,4 @@
-"""Verifier for feca-wage-loss-claims.
+"""Verifier for feca-wage-claims.
 
 Continuation of pay and wage-loss compensation for every claim are recomputed by an independent model of the FECA and
 20 CFR Part 10 (engine.py) from the verifier's private copy of the inputs; the engine is itself checked against the

@@ -1,6 +1,6 @@
-# feca-wage-loss-claims dev tools (never upload these)
+# feca-wage-claims dev tools (never upload these)
 
-- `generate.py` (seed 81180) writes `tasks/feca-wage-loss-claims/environment/data/` (employees.json, claims.json,
+- `generate.py` (seed 81180) writes `tasks/feca-wage-claims/environment/data/` (employees.json, claims.json,
   time_and_attendance.json, medical_evidence.json, cost_of_living_adjustments.json), the verifier copy in `tests/data/`,
   `tests/case_tags.json` and `tests/golden.json` (23 claims worked by hand; 323 claims in all). Its `sim` is the third
   implementation; in strict mode it rejects any claim whose answer would depend on an open reading.

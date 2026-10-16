@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Dev-only calibration for feca-wage-loss-claims (never uploaded): oracle passes, empty output fails, and each
+"""Dev-only calibration for feca-wage-claims (never uploaded): oracle passes, empty output fails, and each
 common misreading of the FECA and 20 CFR Part 10 fails at least one test. Each misreading is a small source edit of the
 reference solution. Needs a writable /app."""
 import csv
@@ -10,7 +10,7 @@ import types
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-TASK = ROOT / "tasks" / "feca-wage-loss-claims"
+TASK = ROOT / "tasks" / "feca-wage-claims"
 OUT = Path("/app/output/claim_determinations.csv")
 SRC = (TASK / "solution" / "solve.py").read_text()
 SHORTCUTS = {
