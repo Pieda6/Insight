@@ -302,9 +302,12 @@ def temp_totals(vet, strict=True):
                     disch = min(disch, a + days(8 - absent))
                     break
                 absent += length
+        if strict and disch < dis and (dis - disch).days > 19:
+            raise Reject("return after an absence treated as discharge (a fresh 21 days?)")
         length = (disch - sc_from).days
-        if strict and 19 < length < 24:
-            raise Reject("hospitalization of about 21 days")
+        away = sum((min(b, disch) - a).days + 1 for a, b in st["absences"] if a < disch)
+        if strict and (19 < length < 24 or 19 < length - away < 24 or (length > 21) != (length - away > 21)):
+            raise Reject("hospitalization of about 21 days, with or without the days away")
         if length < 21:
             continue
         end = add_months_end(disch, st["months"])
@@ -313,8 +316,8 @@ def temp_totals(vet, strict=True):
             raise Reject("more than one long absence (third consecutive 14-day reading)")
         for a, b in long_absences:                     # 4.29(a)(2)
             if (b - a).days + 1 > 14:
-                if strict and st["months"]:
-                    raise Reject("long absence with convalescence")
+                if strict and (st["months"] or (dis - b).days > 19):
+                    raise Reject("long absence with convalescence, or a long stay after it")
                 end = min(end, month_end(a))
         same = (sc_from.year, sc_from.month) == (end.year, end.month)
         out.append((sc_from, end, same))
@@ -350,6 +353,11 @@ def sim(vet, strict=True):
     while m <= LASTM:
         months.append(m)
         m = next_month(m)
+    if strict:
+        for st in vet["stays"]:
+            begin = st["admitted"] if st["kind"] == "hospital" else st["start"]
+            if segs[st["disability"]][0][0] > begin - days(30):
+                raise Reject("treatment of a disability not yet service connected")
     basis = {m: month_basis(vet, segs, totals, m, strict) or 0 for m in months}
     if strict:
         for s, e, same in totals:
@@ -504,6 +512,15 @@ def planted():
                                  PTSD + ([("original", "2023-03-01", "2022-01-01", 50)],),
                                  ("obstructive sleep apnea", "6847", None, None, [("original", "2023-03-01", "2022-01-01", 50)])]),
                 ["bilateral", "combined-ratings"], {"2023-01": (90, 0, 0)}))
+    # 4.26(d) again: left leg 10 and 10, right leg 20 and 30, PTSD 70 and sleep apnea 50: all four in the factor give
+    # 90; leaving one left-leg 10% out gives 100
+    out.append((V("2021-09-30", [leg("{side} knee strain with limitation of flexion", "5260", "left") + ([("original", "2022-02-01", "2021-03-01", 10)],),
+                                 leg("{side} foot injury", "5284", "left") + ([("original", "2022-02-01", "2021-03-01", 10)],),
+                                 leg("{side} knee strain with limitation of flexion", "5260", "right") + ([("original", "2022-02-01", "2021-03-01", 20)],),
+                                 leg("{side} hip, limitation of flexion", "5252", "right") + ([("original", "2022-02-01", "2021-03-01", 30)],),
+                                 PTSD + ([("original", "2022-02-01", "2021-03-01", 70)],),
+                                 ("obstructive sleep apnea", "6847", None, None, [("original", "2022-02-01", "2021-03-01", 50)])]),
+                ["bilateral", "combined-ratings"], {"2023-01": (100, 0, 0)}))
     # dependents (3.401(b)): reported within the year counts from the birth; reported later counts from the report;
     # a marriage reported on its anniversary counts from the marriage, a day later from the report
     out.append((V("2022-01-31", [PTSD + ([("original", "2022-06-01", "2021-10-01", 50)],)],
@@ -530,8 +547,8 @@ def planted():
     # days: discharged on the ninth day of absence (Nov 18), no total rating
     out.append((V("2021-11-30", [PTSD + ([("original", "2022-05-02", "2021-06-01", 50)],)],
                   stays=[H("D1", "2024-02-05", "2024-03-20"), H("D1", "2024-07-02", "2024-07-29"),
-                         H("D1", "2024-09-03", "2024-10-20", [("2024-09-10", "2024-09-15")]),
-                         H("D1", "2024-11-04", "2024-12-20", [("2024-11-06", "2024-11-09"), ("2024-11-12", "2024-11-15"), ("2024-11-18", "2024-11-18")])]),
+                         H("D1", "2024-09-03", "2024-09-24", [("2024-09-10", "2024-09-15")]),
+                         H("D1", "2024-11-04", "2024-11-28", [("2024-11-06", "2024-11-09"), ("2024-11-12", "2024-11-15"), ("2024-11-18", "2024-11-18")])]),
                 ["temporary-total", "payment-start"],
                 {"2024-02": (50, 0, 0), "2024-03": (100, 0, 0), "2024-04": (50, 0, 0), "2024-06": (50, 0, 0), "2024-07": (100, 0, 0),
                  "2024-08": (50, 0, 0), "2024-10": (50, 0, 0), "2024-12": (50, 0, 0)}))
@@ -599,6 +616,18 @@ def filler():
             continue
         used.add((desc, side))
         picks.append((desc, code, limb, side, ratings))
+    if rng.random() < 0.18:                             # several 10% leg or arm disabilities on both sides
+        limb = rng.choice(["leg", "leg", "arm"])
+        opts = [x for x in CATALOG if x[2] == limb and 10 in x[3]]
+        for side in ("left", "left", "right", "right"):
+            c = rng.choice(opts)
+            if (c[0], side) not in used:
+                used.add((c[0], side))
+                picks.append((c[0], c[1], c[2], side, [10]))
+        for c in rng.sample([x for x in CATALOG if x[2] is None and max(x[3]) >= 30], 2):
+            if (c[0], None) not in used:
+                used.add((c[0], None))
+                picks.append((c[0], c[1], None, None, [r for r in c[3] if r >= 30][-1:]))
     for _ in range(rng.choice([0, 1, 1, 2, 3])):          # more limb disabilities, often on the other side
         limbs = [p for p in picks if p[2]]
         if not limbs:
@@ -677,11 +706,16 @@ def filler():
     while rng.random() < 0.75 and t < date(2026, 6, 1):
         kind = rng.random()
         if kind < 0.3:
-            stays.append(C(rng.choice(keys), t, t + days(rng.choice([0, 0, 2, 5])), rng.choice([1, 2, 3])))
+            ready = [k for k, x in zip(keys, dis) if (sep + DAY if x[4][0][1] <= year_after(sep) else max(x[4][0][1], x[4][0][2])) < t - days(40)]
+            if ready:
+                stays.append(C(rng.choice(ready), t, t + days(rng.choice([0, 0, 2, 5])), rng.choice([1, 2, 3])))
             t = t + days(rng.randrange(150, 400))
             continue
         adm = t
         length = rng.choice([10, 15, 18, 24, 26, 30, 45, 60]) if rng.random() < 0.8 else rng.randrange(24, 90)
+        if rng.random() < 0.3:                          # a stay inside one calendar month
+            adm = date(t.year, t.month, rng.randint(1, 4))
+            length = rng.randint(24, 26)
         absences = []
         z = rng.random()
         if z < 0.25:                                   # short absences in the first 21 days
@@ -695,17 +729,25 @@ def filler():
                 d0 = d0 + days(ln + 1)
             if (absences[-1][1] - adm).days + 1 >= 19:
                 absences = []
+            elif total_target == 9:                    # treated as discharged on the ninth day away
+                length = (absences[-1][1] - adm).days + rng.randrange(2, 12)
+            else:
+                length = max(length, 34)
         elif z < 0.38:
             a = adm + days(rng.randrange(3, 12))
-            absences.append((a, a + days(rng.choice([4, 5, 7]) - 1)))
+            ln = rng.choice([4, 5, 7])
+            absences.append((a, a + days(ln - 1)))
+            length = (a - adm).days + ln + rng.randrange(2, 12) if ln > 4 else max(length, 34)
         elif z < 0.55 and length >= 45:
             a = adm + days(rng.randrange(25, 30))
             ln = rng.choice([14, 15, 20])
             absences.append((a, a + days(ln - 1)))
-            length = max(length, (a + days(ln) - adm).days)
+            length = (a - adm).days + ln + rng.randrange(1, 10)
         sc_from = adm + days(rng.choice([5, 10, 18])) if (rng.random() < 0.15 and not absences) else None
         months = rng.choice([0, 0, 0, 1, 2, 3]) if not any((b - a).days >= 13 for a, b in absences) else 0
-        stays.append(H(rng.choice(keys), adm, adm + days(length), absences, months, sc_from))
+        ready = [k for k, x in zip(keys, dis) if (sep + DAY if x[4][0][1] <= year_after(sep) else max(x[4][0][1], x[4][0][2])) < adm - days(40)]
+        if ready:
+            stays.append(H(rng.choice(ready), adm, adm + days(length), absences, months, sc_from))
         t = adm + days(length) + days(rng.randrange(150, 400))
     sep_pay = None
     if rng.random() < 0.2:

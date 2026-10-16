@@ -42,3 +42,12 @@ changes the rating; 60-day reduction periods ending near a month boundary or on 
 reductions that do not lower the payment, during separation-pay recovery, or near a temporary total; temporary
 totals that overlap each other or a rating change; late dependent reports after a newly established qualifying
 rating (3.401(b) against 5110(f)).
+- v2 blind trial (fresh agent, cold): 9,850/9,990 rows, 54 veterans wrong. It raised two open readings that were then
+  removed from the data: a return after an absence treated as discharge (a fresh 21-day count?) and treatment
+  before service connection (4.29(b) "if otherwise in order"); stays with absences now end within 19 days of the
+  absence that counts as discharge, the 21-day test gives the same answer with or without the days away, and stays
+  are only for disabilities already service connected. Rerunning the trial's own script on the corrected data:
+  every remaining wrong row traces to a misreading under the pasted text: 3.31(c)(5) applied to 4.30 ratings and
+  to 4.29 stays whose convalescence months run past the month ("including any period of post-hospitalization
+  convalescence"), and the 4.26(d) most favorable exclusion. A second 4.26(d) veteran and single-month stays
+  (with and without convalescence) were added for density.

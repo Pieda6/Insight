@@ -1,1011 +1,848 @@
 [
  {
-  "record_id": "H00044",
-  "veteran_id": "V0043",
-  "disability_id": "DX00121",
+  "record_id": "H00094",
+  "veteran_id": "V0098",
+  "disability_id": "DX00395",
   "kind": "hospital treatment",
-  "admitted": "2020-10-21",
-  "treatment_for_this_disability_began": "2020-10-21",
-  "discharged": "2020-11-05",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00214",
-  "veteran_id": "V0200",
-  "disability_id": "DX00581",
-  "kind": "surgery or cast",
-  "admitted": "2021-02-20",
-  "treatment_for_this_disability_began": "2021-02-20",
-  "discharged": "2021-02-20",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00147",
-  "veteran_id": "V0142",
-  "disability_id": "DX00415",
-  "kind": "hospital treatment",
-  "admitted": "2021-03-23",
-  "treatment_for_this_disability_began": "2021-03-23",
-  "discharged": "2021-04-07",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2021-03-25",
-    "last_day_absent": "2021-03-27"
-   },
-   {
-    "first_day_absent": "2021-03-29",
-    "last_day_absent": "2021-03-30"
-   },
-   {
-    "first_day_absent": "2021-04-01",
-    "last_day_absent": "2021-04-03"
-   }
-  ],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00216",
-  "veteran_id": "V0206",
-  "disability_id": "DX00599",
-  "kind": "surgery or cast",
-  "admitted": "2021-04-26",
-  "treatment_for_this_disability_began": "2021-04-26",
-  "discharged": "2021-05-01",
+  "admitted": "2020-04-02",
+  "treatment_for_this_disability_began": "2020-04-02",
+  "discharged": "2020-04-27",
   "authorized_absences": [],
   "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00157",
-  "veteran_id": "V0145",
-  "disability_id": "DX00421",
-  "kind": "hospital treatment",
-  "admitted": "2021-07-14",
-  "treatment_for_this_disability_began": "2021-07-14",
-  "discharged": "2021-07-24",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00114",
-  "veteran_id": "V0104",
-  "disability_id": "DX00301",
+  "record_id": "H00095",
+  "veteran_id": "V0098",
+  "disability_id": "DX00397",
   "kind": "surgery or cast",
-  "admitted": "2021-07-19",
-  "treatment_for_this_disability_began": "2021-07-19",
-  "discharged": "2021-07-19",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00011",
-  "veteran_id": "V0015",
-  "disability_id": "DX00035",
-  "kind": "hospital treatment",
-  "admitted": "2021-08-01",
-  "treatment_for_this_disability_began": "2021-08-01",
-  "discharged": "2021-08-31",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00144",
-  "veteran_id": "V0138",
-  "disability_id": "DX00405",
-  "kind": "hospital treatment",
-  "admitted": "2021-08-11",
-  "treatment_for_this_disability_began": "2021-08-29",
-  "discharged": "2021-08-29",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00045",
-  "veteran_id": "V0043",
-  "disability_id": "DX00121",
-  "kind": "hospital treatment",
-  "admitted": "2021-08-15",
-  "treatment_for_this_disability_began": "2021-08-15",
-  "discharged": "2021-10-07",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2021-08-17",
-    "last_day_absent": "2021-08-18"
-   },
-   {
-    "first_day_absent": "2021-08-20",
-    "last_day_absent": "2021-08-23"
-   },
-   {
-    "first_day_absent": "2021-08-25",
-    "last_day_absent": "2021-08-27"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00211",
-  "veteran_id": "V0196",
-  "disability_id": "DX00569",
-  "kind": "hospital treatment",
-  "admitted": "2021-08-20",
-  "treatment_for_this_disability_began": "2021-08-20",
-  "discharged": "2021-09-04",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00047",
-  "veteran_id": "V0044",
-  "disability_id": "DX00123",
-  "kind": "hospital treatment",
-  "admitted": "2021-09-28",
-  "treatment_for_this_disability_began": "2021-09-28",
-  "discharged": "2021-11-12",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2021-10-26",
-    "last_day_absent": "2021-11-09"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00115",
-  "veteran_id": "V0104",
-  "disability_id": "DX00303",
-  "kind": "surgery or cast",
-  "admitted": "2021-12-22",
-  "treatment_for_this_disability_began": "2021-12-22",
-  "discharged": "2021-12-22",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00198",
-  "veteran_id": "V0173",
-  "disability_id": "DX00503",
-  "kind": "surgery or cast",
-  "admitted": "2021-12-29",
-  "treatment_for_this_disability_began": "2021-12-29",
-  "discharged": "2022-01-03",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00148",
-  "veteran_id": "V0142",
-  "disability_id": "DX00415",
-  "kind": "hospital treatment",
-  "admitted": "2022-01-17",
-  "treatment_for_this_disability_began": "2022-01-17",
-  "discharged": "2022-02-26",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2022-01-19",
-    "last_day_absent": "2022-01-20"
-   },
-   {
-    "first_day_absent": "2022-01-22",
-    "last_day_absent": "2022-01-23"
-   },
-   {
-    "first_day_absent": "2022-01-25",
-    "last_day_absent": "2022-01-26"
-   },
-   {
-    "first_day_absent": "2022-01-28",
-    "last_day_absent": "2022-01-29"
-   }
-  ],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00124",
-  "veteran_id": "V0112",
-  "disability_id": "DX00325",
-  "kind": "surgery or cast",
-  "admitted": "2022-01-18",
-  "treatment_for_this_disability_began": "2022-01-18",
-  "discharged": "2022-01-20",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00217",
-  "veteran_id": "V0206",
-  "disability_id": "DX00599",
-  "kind": "hospital treatment",
-  "admitted": "2022-02-17",
-  "treatment_for_this_disability_began": "2022-02-17",
-  "discharged": "2022-03-04",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00023",
-  "veteran_id": "V0024",
-  "disability_id": "DX00061",
-  "kind": "surgery or cast",
-  "admitted": "2022-03-02",
-  "treatment_for_this_disability_began": "2022-03-02",
-  "discharged": "2022-03-02",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00163",
-  "veteran_id": "V0146",
-  "disability_id": "DX00425",
-  "kind": "hospital treatment",
-  "admitted": "2022-03-18",
-  "treatment_for_this_disability_began": "2022-03-18",
-  "discharged": "2022-04-13",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00212",
-  "veteran_id": "V0196",
-  "disability_id": "DX00570",
-  "kind": "hospital treatment",
-  "admitted": "2022-03-18",
-  "treatment_for_this_disability_began": "2022-03-18",
-  "discharged": "2022-04-11",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00158",
-  "veteran_id": "V0145",
-  "disability_id": "DX00422",
-  "kind": "hospital treatment",
-  "admitted": "2022-03-29",
-  "treatment_for_this_disability_began": "2022-03-29",
-  "discharged": "2022-04-24",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2022-03-31",
-    "last_day_absent": "2022-04-01"
-   },
-   {
-    "first_day_absent": "2022-04-03",
-    "last_day_absent": "2022-04-05"
-   },
-   {
-    "first_day_absent": "2022-04-07",
-    "last_day_absent": "2022-04-09"
-   }
-  ],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00046",
-  "veteran_id": "V0043",
-  "disability_id": "DX00121",
-  "kind": "surgery or cast",
-  "admitted": "2022-04-01",
-  "treatment_for_this_disability_began": "2022-04-01",
-  "discharged": "2022-04-03",
+  "admitted": "2020-12-15",
+  "treatment_for_this_disability_began": "2020-12-15",
+  "discharged": "2020-12-15",
   "authorized_absences": [],
   "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00166",
-  "veteran_id": "V0149",
-  "disability_id": "DX00434",
-  "kind": "hospital treatment",
-  "admitted": "2022-04-10",
-  "treatment_for_this_disability_began": "2022-04-10",
-  "discharged": "2022-05-25",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00215",
-  "veteran_id": "V0201",
-  "disability_id": "DX00583",
-  "kind": "surgery or cast",
-  "admitted": "2022-05-14",
-  "treatment_for_this_disability_began": "2022-05-14",
-  "discharged": "2022-05-14",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00090",
-  "veteran_id": "V0091",
-  "disability_id": "DX00260",
-  "kind": "hospital treatment",
-  "admitted": "2022-05-16",
-  "treatment_for_this_disability_began": "2022-05-16",
-  "discharged": "2022-06-30",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2022-06-13",
-    "last_day_absent": "2022-06-26"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00108",
-  "veteran_id": "V0103",
-  "disability_id": "DX00297",
-  "kind": "surgery or cast",
-  "admitted": "2022-05-21",
-  "treatment_for_this_disability_began": "2022-05-21",
-  "discharged": "2022-05-21",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00073",
-  "veteran_id": "V0075",
-  "disability_id": "DX00218",
-  "kind": "hospital treatment",
-  "admitted": "2022-06-16",
-  "treatment_for_this_disability_began": "2022-06-16",
-  "discharged": "2022-06-26",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2022-06-18",
-    "last_day_absent": "2022-06-20"
-   },
-   {
-    "first_day_absent": "2022-06-22",
-    "last_day_absent": "2022-06-24"
-   },
-   {
-    "first_day_absent": "2022-06-26",
-    "last_day_absent": "2022-06-27"
-   },
-   {
-    "first_day_absent": "2022-06-29",
-    "last_day_absent": "2022-06-29"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00069",
-  "veteran_id": "V0074",
+  "record_id": "H00050",
+  "veteran_id": "V0052",
   "disability_id": "DX00216",
   "kind": "hospital treatment",
-  "admitted": "2022-08-20",
-  "treatment_for_this_disability_began": "2022-08-20",
-  "discharged": "2022-10-28",
+  "admitted": "2021-07-04",
+  "treatment_for_this_disability_began": "2021-07-04",
+  "discharged": "2021-08-07",
   "authorized_absences": [
    {
-    "first_day_absent": "2022-09-18",
-    "last_day_absent": "2022-10-07"
+    "first_day_absent": "2021-07-06",
+    "last_day_absent": "2021-07-07"
+   },
+   {
+    "first_day_absent": "2021-07-09",
+    "last_day_absent": "2021-07-12"
+   },
+   {
+    "first_day_absent": "2021-07-14",
+    "last_day_absent": "2021-07-15"
    }
   ],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00076",
-  "veteran_id": "V0082",
-  "disability_id": "DX00240",
+  "record_id": "H00034",
+  "veteran_id": "V0038",
+  "disability_id": "DX00152",
+  "kind": "hospital treatment",
+  "admitted": "2021-07-05",
+  "treatment_for_this_disability_began": "2021-07-05",
+  "discharged": "2021-07-15",
+  "authorized_absences": [],
+  "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00143",
+  "veteran_id": "V0159",
+  "disability_id": "DX00630",
   "kind": "surgery or cast",
-  "admitted": "2022-09-24",
-  "treatment_for_this_disability_began": "2022-09-24",
-  "discharged": "2022-09-26",
+  "admitted": "2021-07-29",
+  "treatment_for_this_disability_began": "2021-07-29",
+  "discharged": "2021-07-31",
+  "authorized_absences": [],
+  "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00173",
+  "veteran_id": "V0201",
+  "disability_id": "DX00804",
+  "kind": "surgery or cast",
+  "admitted": "2021-08-16",
+  "treatment_for_this_disability_began": "2021-08-16",
+  "discharged": "2021-08-18",
   "authorized_absences": [],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00218",
-  "veteran_id": "V0206",
-  "disability_id": "DX00599",
-  "kind": "hospital treatment",
-  "admitted": "2022-10-05",
-  "treatment_for_this_disability_began": "2022-10-05",
-  "discharged": "2022-10-20",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2022-10-07",
-    "last_day_absent": "2022-10-09"
-   },
-   {
-    "first_day_absent": "2022-10-11",
-    "last_day_absent": "2022-10-14"
-   },
-   {
-    "first_day_absent": "2022-10-16",
-    "last_day_absent": "2022-10-16"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00125",
-  "veteran_id": "V0112",
-  "disability_id": "DX00328",
+  "record_id": "H00121",
+  "veteran_id": "V0135",
+  "disability_id": "DX00543",
   "kind": "surgery or cast",
-  "admitted": "2022-11-06",
-  "treatment_for_this_disability_began": "2022-11-06",
-  "discharged": "2022-11-11",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00203",
-  "veteran_id": "V0183",
-  "disability_id": "DX00528",
-  "kind": "hospital treatment",
-  "admitted": "2022-11-25",
-  "treatment_for_this_disability_began": "2022-11-25",
-  "discharged": "2022-12-05",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2022-11-27",
-    "last_day_absent": "2022-11-29"
-   },
-   {
-    "first_day_absent": "2022-12-01",
-    "last_day_absent": "2022-12-02"
-   },
-   {
-    "first_day_absent": "2022-12-04",
-    "last_day_absent": "2022-12-07"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00199",
-  "veteran_id": "V0173",
-  "disability_id": "DX00503",
-  "kind": "hospital treatment",
-  "admitted": "2022-12-24",
-  "treatment_for_this_disability_began": "2022-12-24",
-  "discharged": "2023-01-08",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00091",
-  "veteran_id": "V0091",
-  "disability_id": "DX00261",
-  "kind": "hospital treatment",
-  "admitted": "2023-01-03",
-  "treatment_for_this_disability_began": "2023-01-03",
-  "discharged": "2023-02-17",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2023-01-30",
-    "last_day_absent": "2023-02-13"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00101",
-  "veteran_id": "V0098",
-  "disability_id": "DX00275",
-  "kind": "surgery or cast",
-  "admitted": "2023-01-05",
-  "treatment_for_this_disability_began": "2023-01-05",
-  "discharged": "2023-01-07",
+  "admitted": "2021-09-12",
+  "treatment_for_this_disability_began": "2021-09-12",
+  "discharged": "2021-09-12",
   "authorized_absences": [],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00193",
-  "veteran_id": "V0171",
-  "disability_id": "DX00497",
-  "kind": "hospital treatment",
-  "admitted": "2023-01-17",
-  "treatment_for_this_disability_began": "2023-01-17",
-  "discharged": "2023-03-18",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00164",
-  "veteran_id": "V0146",
-  "disability_id": "DX00427",
+  "record_id": "H00110",
+  "veteran_id": "V0120",
+  "disability_id": "DX00474",
   "kind": "surgery or cast",
-  "admitted": "2023-01-23",
-  "treatment_for_this_disability_began": "2023-01-23",
-  "discharged": "2023-01-23",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00019",
-  "veteran_id": "V0023",
-  "disability_id": "DX00060",
-  "kind": "hospital treatment",
-  "admitted": "2023-02-05",
-  "treatment_for_this_disability_began": "2023-02-05",
-  "discharged": "2023-02-20",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00013",
-  "veteran_id": "V0018",
-  "disability_id": "DX00040",
-  "kind": "hospital treatment",
-  "admitted": "2023-02-16",
-  "treatment_for_this_disability_began": "2023-02-26",
-  "discharged": "2023-03-23",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00081",
-  "veteran_id": "V0084",
-  "disability_id": "DX00244",
-  "kind": "hospital treatment",
-  "admitted": "2023-02-17",
-  "treatment_for_this_disability_began": "2023-02-17",
-  "discharged": "2023-03-15",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00149",
-  "veteran_id": "V0142",
-  "disability_id": "DX00416",
-  "kind": "hospital treatment",
-  "admitted": "2023-02-22",
-  "treatment_for_this_disability_began": "2023-03-04",
-  "discharged": "2023-05-18",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00099",
-  "veteran_id": "V0096",
-  "disability_id": "DX00273",
-  "kind": "hospital treatment",
-  "admitted": "2023-03-08",
-  "treatment_for_this_disability_began": "2023-03-08",
-  "discharged": "2023-04-07",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2023-03-10",
-    "last_day_absent": "2023-03-12"
-   },
-   {
-    "first_day_absent": "2023-03-14",
-    "last_day_absent": "2023-03-17"
-   },
-   {
-    "first_day_absent": "2023-03-19",
-    "last_day_absent": "2023-03-19"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00213",
-  "veteran_id": "V0196",
-  "disability_id": "DX00570",
-  "kind": "surgery or cast",
-  "admitted": "2023-03-24",
-  "treatment_for_this_disability_began": "2023-03-24",
-  "discharged": "2023-03-29",
+  "admitted": "2021-11-20",
+  "treatment_for_this_disability_began": "2021-11-20",
+  "discharged": "2021-11-20",
   "authorized_absences": [],
   "convalescence_months_granted": 2
  },
  {
   "record_id": "H00159",
-  "veteran_id": "V0145",
-  "disability_id": "DX00422",
-  "kind": "surgery or cast",
-  "admitted": "2023-04-07",
-  "treatment_for_this_disability_began": "2023-04-07",
-  "discharged": "2023-04-12",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00219",
-  "veteran_id": "V0206",
-  "disability_id": "DX00599",
+  "veteran_id": "V0178",
+  "disability_id": "DX00707",
   "kind": "hospital treatment",
-  "admitted": "2023-04-07",
-  "treatment_for_this_disability_began": "2023-04-07",
-  "discharged": "2023-04-17",
+  "admitted": "2021-12-09",
+  "treatment_for_this_disability_began": "2021-12-09",
+  "discharged": "2021-12-30",
   "authorized_absences": [
    {
-    "first_day_absent": "2023-04-09",
-    "last_day_absent": "2023-04-10"
-   },
-   {
-    "first_day_absent": "2023-04-12",
-    "last_day_absent": "2023-04-13"
-   },
-   {
-    "first_day_absent": "2023-04-15",
-    "last_day_absent": "2023-04-17"
-   },
-   {
-    "first_day_absent": "2023-04-19",
-    "last_day_absent": "2023-04-20"
+    "first_day_absent": "2021-12-15",
+    "last_day_absent": "2021-12-19"
    }
   ],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00056",
-  "veteran_id": "V0063",
-  "disability_id": "DX00183",
+  "record_id": "H00165",
+  "veteran_id": "V0192",
+  "disability_id": "DX00764",
   "kind": "hospital treatment",
-  "admitted": "2023-04-09",
-  "treatment_for_this_disability_began": "2023-04-09",
-  "discharged": "2023-04-27",
+  "admitted": "2022-01-01",
+  "treatment_for_this_disability_began": "2022-01-01",
+  "discharged": "2022-01-25",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2022-01-07",
+    "last_day_absent": "2022-01-13"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00136",
+  "veteran_id": "V0152",
+  "disability_id": "DX00604",
+  "kind": "hospital treatment",
+  "admitted": "2022-01-04",
+  "treatment_for_this_disability_began": "2022-01-04",
+  "discharged": "2022-01-29",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00157",
+  "veteran_id": "V0176",
+  "disability_id": "DX00693",
+  "kind": "surgery or cast",
+  "admitted": "2022-01-16",
+  "treatment_for_this_disability_began": "2022-01-16",
+  "discharged": "2022-01-16",
   "authorized_absences": [],
   "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00172",
-  "veteran_id": "V0153",
-  "disability_id": "DX00446",
-  "kind": "surgery or cast",
-  "admitted": "2023-04-10",
-  "treatment_for_this_disability_began": "2023-04-10",
-  "discharged": "2023-04-10",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00109",
-  "veteran_id": "V0103",
-  "disability_id": "DX00292",
-  "kind": "hospital treatment",
-  "admitted": "2023-04-22",
-  "treatment_for_this_disability_began": "2023-04-22",
-  "discharged": "2023-05-18",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00077",
-  "veteran_id": "V0083",
-  "disability_id": "DX00243",
-  "kind": "hospital treatment",
-  "admitted": "2023-05-18",
-  "treatment_for_this_disability_began": "2023-05-18",
-  "discharged": "2023-06-05",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
  },
  {
   "record_id": "H00167",
-  "veteran_id": "V0149",
-  "disability_id": "DX00435",
+  "veteran_id": "V0193",
+  "disability_id": "DX00767",
   "kind": "hospital treatment",
-  "admitted": "2023-06-09",
-  "treatment_for_this_disability_began": "2023-06-09",
-  "discharged": "2023-08-15",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00181",
-  "veteran_id": "V0159",
-  "disability_id": "DX00461",
-  "kind": "surgery or cast",
-  "admitted": "2023-06-27",
-  "treatment_for_this_disability_began": "2023-06-27",
-  "discharged": "2023-06-27",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00134",
-  "veteran_id": "V0129",
-  "disability_id": "DX00380",
-  "kind": "hospital treatment",
-  "admitted": "2023-07-10",
-  "treatment_for_this_disability_began": "2023-07-10",
-  "discharged": "2023-08-03",
+  "admitted": "2022-02-15",
+  "treatment_for_this_disability_began": "2022-02-15",
+  "discharged": "2022-04-08",
   "authorized_absences": [
    {
-    "first_day_absent": "2023-07-13",
-    "last_day_absent": "2023-07-17"
+    "first_day_absent": "2022-03-15",
+    "last_day_absent": "2022-03-29"
    }
   ],
-  "convalescence_months_granted": 2
+  "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00092",
-  "veteran_id": "V0091",
-  "disability_id": "DX00260",
-  "kind": "hospital treatment",
-  "admitted": "2023-07-28",
-  "treatment_for_this_disability_began": "2023-07-28",
-  "discharged": "2023-08-28",
+  "record_id": "H00144",
+  "veteran_id": "V0159",
+  "disability_id": "DX00631",
+  "kind": "surgery or cast",
+  "admitted": "2022-02-28",
+  "treatment_for_this_disability_began": "2022-02-28",
+  "discharged": "2022-02-28",
   "authorized_absences": [],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00004",
-  "veteran_id": "V0006",
-  "disability_id": "DX00015",
+  "record_id": "H00011",
+  "veteran_id": "V0013",
+  "disability_id": "DX00059",
   "kind": "hospital treatment",
-  "admitted": "2023-08-04",
-  "treatment_for_this_disability_began": "2023-08-04",
-  "discharged": "2023-09-11",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2023-08-09",
-    "last_day_absent": "2023-08-15"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00020",
-  "veteran_id": "V0023",
-  "disability_id": "DX00060",
-  "kind": "hospital treatment",
-  "admitted": "2023-08-14",
-  "treatment_for_this_disability_began": "2023-08-14",
-  "discharged": "2023-09-01",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2023-08-16",
-    "last_day_absent": "2023-08-18"
-   },
-   {
-    "first_day_absent": "2023-08-20",
-    "last_day_absent": "2023-08-22"
-   },
-   {
-    "first_day_absent": "2023-08-24",
-    "last_day_absent": "2023-08-26"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00173",
-  "veteran_id": "V0153",
-  "disability_id": "DX00446",
-  "kind": "hospital treatment",
-  "admitted": "2023-09-16",
-  "treatment_for_this_disability_began": "2023-09-16",
-  "discharged": "2023-09-26",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2023-09-18",
-    "last_day_absent": "2023-09-21"
-   },
-   {
-    "first_day_absent": "2023-09-23",
-    "last_day_absent": "2023-09-24"
-   },
-   {
-    "first_day_absent": "2023-09-26",
-    "last_day_absent": "2023-09-28"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00024",
-  "veteran_id": "V0025",
-  "disability_id": "DX00064",
-  "kind": "hospital treatment",
-  "admitted": "2023-09-25",
-  "treatment_for_this_disability_began": "2023-09-25",
-  "discharged": "2023-12-05",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2023-10-20",
-    "last_day_absent": "2023-11-08"
-   }
-  ],
+  "admitted": "2022-03-02",
+  "treatment_for_this_disability_began": "2022-03-02",
+  "discharged": "2022-04-01",
+  "authorized_absences": [],
   "convalescence_months_granted": 0
  },
  {
   "record_id": "H00051",
-  "veteran_id": "V0058",
-  "disability_id": "DX00167",
-  "kind": "hospital treatment",
-  "admitted": "2023-10-12",
-  "treatment_for_this_disability_began": "2023-10-12",
-  "discharged": "2023-11-05",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2023-10-14",
-    "last_day_absent": "2023-10-15"
-   },
-   {
-    "first_day_absent": "2023-10-17",
-    "last_day_absent": "2023-10-20"
-   },
-   {
-    "first_day_absent": "2023-10-22",
-    "last_day_absent": "2023-10-24"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00119",
-  "veteran_id": "V0108",
-  "disability_id": "DX00316",
+  "veteran_id": "V0053",
+  "disability_id": "DX00221",
   "kind": "surgery or cast",
-  "admitted": "2023-10-24",
-  "treatment_for_this_disability_began": "2023-10-24",
-  "discharged": "2023-10-24",
+  "admitted": "2022-03-26",
+  "treatment_for_this_disability_began": "2022-03-26",
+  "discharged": "2022-03-26",
   "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00064",
-  "veteran_id": "V0072",
-  "disability_id": "DX00214",
-  "kind": "hospital treatment",
-  "admitted": "2023-11-02",
-  "treatment_for_this_disability_began": "2023-11-02",
-  "discharged": "2023-12-02",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2023-11-04",
-    "last_day_absent": "2023-11-06"
-   },
-   {
-    "first_day_absent": "2023-11-08",
-    "last_day_absent": "2023-11-09"
-   },
-   {
-    "first_day_absent": "2023-11-11",
-    "last_day_absent": "2023-11-13"
-   }
-  ],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00070",
-  "veteran_id": "V0074",
-  "disability_id": "DX00217",
-  "kind": "hospital treatment",
-  "admitted": "2023-11-14",
-  "treatment_for_this_disability_began": "2023-12-02",
-  "discharged": "2023-12-10",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00188",
-  "veteran_id": "V0168",
-  "disability_id": "DX00487",
-  "kind": "hospital treatment",
-  "admitted": "2023-11-17",
-  "treatment_for_this_disability_began": "2023-11-17",
-  "discharged": "2023-12-05",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00176",
-  "veteran_id": "V0156",
-  "disability_id": "DX00453",
-  "kind": "hospital treatment",
-  "admitted": "2023-12-06",
-  "treatment_for_this_disability_began": "2023-12-06",
-  "discharged": "2023-12-30",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2023-12-11",
-    "last_day_absent": "2023-12-17"
-   }
-  ],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00204",
-  "veteran_id": "V0183",
-  "disability_id": "DX00528",
-  "kind": "hospital treatment",
-  "admitted": "2023-12-14",
-  "treatment_for_this_disability_began": "2023-12-14",
-  "discharged": "2024-01-28",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2023-12-21",
-    "last_day_absent": "2023-12-25"
-   }
-  ],
   "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00122",
+  "veteran_id": "V0135",
+  "disability_id": "DX00542",
+  "kind": "hospital treatment",
+  "admitted": "2022-04-07",
+  "treatment_for_this_disability_began": "2022-04-07",
+  "discharged": "2022-04-17",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
  },
  {
   "record_id": "H00033",
-  "veteran_id": "V0036",
-  "disability_id": "DX00092",
+  "veteran_id": "V0035",
+  "disability_id": "DX00139",
   "kind": "hospital treatment",
-  "admitted": "2024-01-06",
-  "treatment_for_this_disability_began": "2024-01-06",
-  "discharged": "2024-02-26",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2024-01-12",
-    "last_day_absent": "2024-01-15"
-   }
-  ],
-  "convalescence_months_granted": 0
+  "admitted": "2022-04-16",
+  "treatment_for_this_disability_began": "2022-04-16",
+  "discharged": "2022-05-01",
+  "authorized_absences": [],
+  "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00222",
-  "veteran_id": "V0209",
-  "disability_id": "DX00610",
+  "record_id": "H00174",
+  "veteran_id": "V0201",
+  "disability_id": "DX00804",
+  "kind": "surgery or cast",
+  "admitted": "2022-05-16",
+  "treatment_for_this_disability_began": "2022-05-16",
+  "discharged": "2022-05-16",
+  "authorized_absences": [],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00111",
+  "veteran_id": "V0120",
+  "disability_id": "DX00473",
   "kind": "hospital treatment",
-  "admitted": "2024-01-13",
-  "treatment_for_this_disability_began": "2024-01-13",
-  "discharged": "2024-03-15",
+  "admitted": "2022-07-17",
+  "treatment_for_this_disability_began": "2022-07-17",
+  "discharged": "2022-08-04",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2022-07-19",
+    "last_day_absent": "2022-07-21"
+   },
+   {
+    "first_day_absent": "2022-07-23",
+    "last_day_absent": "2022-07-24"
+   },
+   {
+    "first_day_absent": "2022-07-26",
+    "last_day_absent": "2022-07-28"
+   },
+   {
+    "first_day_absent": "2022-07-30",
+    "last_day_absent": "2022-07-30"
+   }
+  ],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00057",
+  "veteran_id": "V0060",
+  "disability_id": "DX00263",
+  "kind": "surgery or cast",
+  "admitted": "2022-08-11",
+  "treatment_for_this_disability_began": "2022-08-11",
+  "discharged": "2022-08-11",
   "authorized_absences": [],
   "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00194",
-  "veteran_id": "V0171",
-  "disability_id": "DX00497",
+  "record_id": "H00158",
+  "veteran_id": "V0176",
+  "disability_id": "DX00697",
   "kind": "hospital treatment",
-  "admitted": "2024-01-16",
-  "treatment_for_this_disability_began": "2024-01-16",
-  "discharged": "2024-03-01",
+  "admitted": "2022-08-11",
+  "treatment_for_this_disability_began": "2022-08-11",
+  "discharged": "2022-09-25",
+  "authorized_absences": [],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00013",
+  "veteran_id": "V0014",
+  "disability_id": "DX00060",
+  "kind": "hospital treatment",
+  "admitted": "2022-09-04",
+  "treatment_for_this_disability_began": "2022-09-04",
+  "discharged": "2022-09-28",
+  "authorized_absences": [],
+  "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00024",
+  "veteran_id": "V0027",
+  "disability_id": "DX00108",
+  "kind": "hospital treatment",
+  "admitted": "2022-09-18",
+  "treatment_for_this_disability_began": "2022-09-28",
+  "discharged": "2022-09-28",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00189",
+  "veteran_id": "V0214",
+  "disability_id": "DX00855",
+  "kind": "hospital treatment",
+  "admitted": "2022-09-20",
+  "treatment_for_this_disability_began": "2022-09-20",
+  "discharged": "2022-10-24",
   "authorized_absences": [
    {
-    "first_day_absent": "2024-01-18",
-    "last_day_absent": "2024-01-21"
+    "first_day_absent": "2022-09-22",
+    "last_day_absent": "2022-09-23"
    },
    {
-    "first_day_absent": "2024-01-23",
-    "last_day_absent": "2024-01-24"
+    "first_day_absent": "2022-09-25",
+    "last_day_absent": "2022-09-26"
    },
    {
-    "first_day_absent": "2024-01-26",
-    "last_day_absent": "2024-01-27"
+    "first_day_absent": "2022-09-28",
+    "last_day_absent": "2022-09-29"
+   },
+   {
+    "first_day_absent": "2022-10-01",
+    "last_day_absent": "2022-10-02"
    }
   ],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00102",
-  "veteran_id": "V0098",
-  "disability_id": "DX00275",
+  "record_id": "H00137",
+  "veteran_id": "V0152",
+  "disability_id": "DX00608",
   "kind": "hospital treatment",
-  "admitted": "2024-01-29",
-  "treatment_for_this_disability_began": "2024-01-29",
-  "discharged": "2024-03-27",
+  "admitted": "2022-09-24",
+  "treatment_for_this_disability_began": "2022-09-24",
+  "discharged": "2022-11-29",
+  "authorized_absences": [],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00100",
+  "veteran_id": "V0105",
+  "disability_id": "DX00426",
+  "kind": "hospital treatment",
+  "admitted": "2022-10-01",
+  "treatment_for_this_disability_began": "2022-10-01",
+  "discharged": "2022-11-04",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2022-10-11",
+    "last_day_absent": "2022-10-14"
+   }
+  ],
+  "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00012",
+  "veteran_id": "V0013",
+  "disability_id": "DX00059",
+  "kind": "hospital treatment",
+  "admitted": "2022-10-17",
+  "treatment_for_this_disability_began": "2022-10-17",
+  "discharged": "2022-11-20",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00055",
+  "veteran_id": "V0057",
+  "disability_id": "DX00244",
+  "kind": "hospital treatment",
+  "admitted": "2022-11-04",
+  "treatment_for_this_disability_began": "2022-11-04",
+  "discharged": "2022-11-28",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2022-11-11",
+    "last_day_absent": "2022-11-17"
+   }
+  ],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00039",
+  "veteran_id": "V0041",
+  "disability_id": "DX00162",
+  "kind": "hospital treatment",
+  "admitted": "2022-12-01",
+  "treatment_for_this_disability_began": "2022-12-01",
+  "discharged": "2023-01-04",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2022-12-03",
+    "last_day_absent": "2022-12-05"
+   },
+   {
+    "first_day_absent": "2022-12-07",
+    "last_day_absent": "2022-12-10"
+   },
+   {
+    "first_day_absent": "2022-12-12",
+    "last_day_absent": "2022-12-12"
+   }
+  ],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00084",
+  "veteran_id": "V0083",
+  "disability_id": "DX00342",
+  "kind": "surgery or cast",
+  "admitted": "2022-12-02",
+  "treatment_for_this_disability_began": "2022-12-02",
+  "discharged": "2022-12-07",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00149",
+  "veteran_id": "V0167",
+  "disability_id": "DX00654",
+  "kind": "hospital treatment",
+  "admitted": "2022-12-15",
+  "treatment_for_this_disability_began": "2022-12-15",
+  "discharged": "2023-01-04",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2022-12-19",
+    "last_day_absent": "2022-12-23"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00182",
+  "veteran_id": "V0205",
+  "disability_id": "DX00813",
+  "kind": "hospital treatment",
+  "admitted": "2022-12-15",
+  "treatment_for_this_disability_began": "2022-12-15",
+  "discharged": "2023-01-08",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00166",
+  "veteran_id": "V0192",
+  "disability_id": "DX00762",
+  "kind": "hospital treatment",
+  "admitted": "2022-12-25",
+  "treatment_for_this_disability_began": "2022-12-25",
+  "discharged": "2023-01-28",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2022-12-29",
+    "last_day_absent": "2023-01-01"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00175",
+  "veteran_id": "V0201",
+  "disability_id": "DX00803",
+  "kind": "hospital treatment",
+  "admitted": "2023-01-04",
+  "treatment_for_this_disability_began": "2023-01-04",
+  "discharged": "2023-01-28",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00097",
+  "veteran_id": "V0104",
+  "disability_id": "DX00423",
+  "kind": "hospital treatment",
+  "admitted": "2023-01-27",
+  "treatment_for_this_disability_began": "2023-01-27",
+  "discharged": "2023-03-13",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2023-02-02",
+    "last_day_absent": "2023-02-05"
+   }
+  ],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00047",
+  "veteran_id": "V0047",
+  "disability_id": "DX00193",
+  "kind": "hospital treatment",
+  "admitted": "2023-02-12",
+  "treatment_for_this_disability_began": "2023-02-22",
+  "discharged": "2023-03-11",
   "authorized_absences": [],
   "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00039",
-  "veteran_id": "V0040",
-  "disability_id": "DX00110",
+  "record_id": "H00138",
+  "veteran_id": "V0155",
+  "disability_id": "DX00617",
   "kind": "hospital treatment",
-  "admitted": "2024-02-01",
-  "treatment_for_this_disability_began": "2024-02-11",
-  "discharged": "2024-02-19",
+  "admitted": "2023-02-14",
+  "treatment_for_this_disability_began": "2023-02-14",
+  "discharged": "2023-02-24",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00058",
+  "veteran_id": "V0060",
+  "disability_id": "DX00263",
+  "kind": "hospital treatment",
+  "admitted": "2023-02-20",
+  "treatment_for_this_disability_began": "2023-03-02",
+  "discharged": "2023-04-04",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00123",
+  "veteran_id": "V0135",
+  "disability_id": "DX00543",
+  "kind": "hospital treatment",
+  "admitted": "2023-03-01",
+  "treatment_for_this_disability_began": "2023-03-01",
+  "discharged": "2023-03-11",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00044",
+  "veteran_id": "V0043",
+  "disability_id": "DX00171",
+  "kind": "hospital treatment",
+  "admitted": "2023-04-14",
+  "treatment_for_this_disability_began": "2023-04-14",
+  "discharged": "2023-05-29",
   "authorized_absences": [],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00182",
-  "veteran_id": "V0159",
-  "disability_id": "DX00461",
-  "kind": "hospital treatment",
-  "admitted": "2024-02-03",
-  "treatment_for_this_disability_began": "2024-02-03",
-  "discharged": "2024-02-13",
+  "record_id": "H00112",
+  "veteran_id": "V0120",
+  "disability_id": "DX00474",
+  "kind": "surgery or cast",
+  "admitted": "2023-04-20",
+  "treatment_for_this_disability_began": "2023-04-20",
+  "discharged": "2023-04-22",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00052",
+  "veteran_id": "V0053",
+  "disability_id": "DX00220",
+  "kind": "surgery or cast",
+  "admitted": "2023-04-25",
+  "treatment_for_this_disability_began": "2023-04-25",
+  "discharged": "2023-04-25",
   "authorized_absences": [],
   "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00190",
+  "veteran_id": "V0214",
+  "disability_id": "DX00856",
+  "kind": "surgery or cast",
+  "admitted": "2023-05-02",
+  "treatment_for_this_disability_began": "2023-05-02",
+  "discharged": "2023-05-02",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00168",
+  "veteran_id": "V0193",
+  "disability_id": "DX00766",
+  "kind": "hospital treatment",
+  "admitted": "2023-05-04",
+  "treatment_for_this_disability_began": "2023-05-04",
+  "discharged": "2023-05-29",
+  "authorized_absences": [],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00154",
+  "veteran_id": "V0173",
+  "disability_id": "DX00683",
+  "kind": "surgery or cast",
+  "admitted": "2023-05-08",
+  "treatment_for_this_disability_began": "2023-05-08",
+  "discharged": "2023-05-13",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00101",
+  "veteran_id": "V0105",
+  "disability_id": "DX00426",
+  "kind": "surgery or cast",
+  "admitted": "2023-05-29",
+  "treatment_for_this_disability_began": "2023-05-29",
+  "discharged": "2023-05-29",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00006",
+  "veteran_id": "V0009",
+  "disability_id": "DX00041",
+  "kind": "hospital treatment",
+  "admitted": "2023-06-15",
+  "treatment_for_this_disability_began": "2023-06-15",
+  "discharged": "2023-06-25",
+  "authorized_absences": [],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00092",
+  "veteran_id": "V0096",
+  "disability_id": "DX00389",
+  "kind": "surgery or cast",
+  "admitted": "2023-07-02",
+  "treatment_for_this_disability_began": "2023-07-02",
+  "discharged": "2023-07-04",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00176",
+  "veteran_id": "V0201",
+  "disability_id": "DX00804",
+  "kind": "hospital treatment",
+  "admitted": "2023-07-29",
+  "treatment_for_this_disability_began": "2023-07-29",
+  "discharged": "2023-08-18",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2023-07-31",
+    "last_day_absent": "2023-08-01"
+   },
+   {
+    "first_day_absent": "2023-08-03",
+    "last_day_absent": "2023-08-05"
+   },
+   {
+    "first_day_absent": "2023-08-07",
+    "last_day_absent": "2023-08-08"
+   },
+   {
+    "first_day_absent": "2023-08-10",
+    "last_day_absent": "2023-08-11"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00124",
+  "veteran_id": "V0136",
+  "disability_id": "DX00544",
+  "kind": "hospital treatment",
+  "admitted": "2023-08-10",
+  "treatment_for_this_disability_began": "2023-08-20",
+  "discharged": "2023-10-05",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00056",
+  "veteran_id": "V0057",
+  "disability_id": "DX00243",
+  "kind": "hospital treatment",
+  "admitted": "2023-08-27",
+  "treatment_for_this_disability_began": "2023-08-27",
+  "discharged": "2023-10-17",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2023-09-24",
+    "last_day_absent": "2023-10-13"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00025",
+  "veteran_id": "V0027",
+  "disability_id": "DX00109",
+  "kind": "hospital treatment",
+  "admitted": "2023-09-19",
+  "treatment_for_this_disability_began": "2023-09-19",
+  "discharged": "2023-10-07",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00130",
+  "veteran_id": "V0142",
+  "disability_id": "DX00557",
+  "kind": "hospital treatment",
+  "admitted": "2023-10-27",
+  "treatment_for_this_disability_began": "2023-10-27",
+  "discharged": "2023-11-08",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2023-10-30",
+    "last_day_absent": "2023-11-05"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00195",
+  "veteran_id": "V0223",
+  "disability_id": "DX00892",
+  "kind": "hospital treatment",
+  "admitted": "2023-11-03",
+  "treatment_for_this_disability_began": "2023-11-03",
+  "discharged": "2023-11-29",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00081",
+  "veteran_id": "V0082",
+  "disability_id": "DX00341",
+  "kind": "hospital treatment",
+  "admitted": "2023-11-14",
+  "treatment_for_this_disability_began": "2023-11-14",
+  "discharged": "2023-12-02",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00085",
+  "veteran_id": "V0083",
+  "disability_id": "DX00344",
+  "kind": "hospital treatment",
+  "admitted": "2023-12-03",
+  "treatment_for_this_disability_began": "2023-12-03",
+  "discharged": "2023-12-29",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00098",
+  "veteran_id": "V0104",
+  "disability_id": "DX00422",
+  "kind": "hospital treatment",
+  "admitted": "2024-01-02",
+  "treatment_for_this_disability_began": "2024-01-02",
+  "discharged": "2024-02-05",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2024-01-04",
+    "last_day_absent": "2024-01-06"
+   },
+   {
+    "first_day_absent": "2024-01-08",
+    "last_day_absent": "2024-01-10"
+   },
+   {
+    "first_day_absent": "2024-01-12",
+    "last_day_absent": "2024-01-13"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00001",
+  "veteran_id": "V0004",
+  "disability_id": "DX00016",
+  "kind": "hospital treatment",
+  "admitted": "2024-01-16",
+  "treatment_for_this_disability_began": "2024-01-16",
+  "discharged": "2024-03-05",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2024-02-13",
+    "last_day_absent": "2024-02-26"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00059",
+  "veteran_id": "V0060",
+  "disability_id": "DX00263",
+  "kind": "hospital treatment",
+  "admitted": "2024-02-02",
+  "treatment_for_this_disability_began": "2024-02-02",
+  "discharged": "2024-02-28",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
  },
  {
   "record_id": "H00065",
-  "veteran_id": "V0073",
-  "disability_id": "DX00215",
+  "veteran_id": "V0069",
+  "disability_id": "DX00296",
+  "kind": "hospital treatment",
+  "admitted": "2024-02-04",
+  "treatment_for_this_disability_began": "2024-02-04",
+  "discharged": "2024-02-21",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2024-02-06",
+    "last_day_absent": "2024-02-09"
+   },
+   {
+    "first_day_absent": "2024-02-11",
+    "last_day_absent": "2024-02-14"
+   },
+   {
+    "first_day_absent": "2024-02-16",
+    "last_day_absent": "2024-02-16"
+   }
+  ],
+  "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00040",
+  "veteran_id": "V0041",
+  "disability_id": "DX00159",
+  "kind": "hospital treatment",
+  "admitted": "2024-02-05",
+  "treatment_for_this_disability_began": "2024-02-05",
+  "discharged": "2024-03-06",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00074",
+  "veteran_id": "V0078",
+  "disability_id": "DX00324",
   "kind": "hospital treatment",
   "admitted": "2024-02-05",
   "treatment_for_this_disability_began": "2024-02-05",
@@ -1014,36 +851,20 @@
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00100",
-  "veteran_id": "V0096",
-  "disability_id": "DX00273",
+  "record_id": "H00053",
+  "veteran_id": "V0053",
+  "disability_id": "DX00223",
   "kind": "hospital treatment",
-  "admitted": "2024-02-19",
-  "treatment_for_this_disability_began": "2024-02-19",
-  "discharged": "2024-05-04",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2024-02-29",
-    "last_day_absent": "2024-03-06"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00032",
-  "veteran_id": "V0035",
-  "disability_id": "DX00090",
-  "kind": "surgery or cast",
-  "admitted": "2024-02-27",
-  "treatment_for_this_disability_began": "2024-02-27",
-  "discharged": "2024-03-03",
+  "admitted": "2024-02-18",
+  "treatment_for_this_disability_began": "2024-02-18",
+  "discharged": "2024-04-03",
   "authorized_absences": [],
-  "convalescence_months_granted": 3
+  "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00171",
-  "veteran_id": "V0152",
-  "disability_id": "DX00445",
+  "record_id": "H00148",
+  "veteran_id": "V0166",
+  "disability_id": "DX00651",
   "kind": "surgery or cast",
   "admitted": "2024-03-05",
   "treatment_for_this_disability_began": "2024-03-05",
@@ -1052,158 +873,235 @@
   "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00210",
-  "veteran_id": "V0191",
-  "disability_id": "DX00554",
+  "record_id": "H00139",
+  "veteran_id": "V0155",
+  "disability_id": "DX00616",
   "kind": "hospital treatment",
-  "admitted": "2024-03-07",
-  "treatment_for_this_disability_began": "2024-03-07",
-  "discharged": "2024-05-06",
+  "admitted": "2024-03-13",
+  "treatment_for_this_disability_began": "2024-03-13",
+  "discharged": "2024-04-05",
   "authorized_absences": [
    {
-    "first_day_absent": "2024-03-09",
-    "last_day_absent": "2024-03-11"
-   },
-   {
-    "first_day_absent": "2024-03-13",
-    "last_day_absent": "2024-03-14"
-   },
-   {
-    "first_day_absent": "2024-03-16",
-    "last_day_absent": "2024-03-17"
-   },
-   {
-    "first_day_absent": "2024-03-19",
-    "last_day_absent": "2024-03-19"
+    "first_day_absent": "2024-03-24",
+    "last_day_absent": "2024-03-30"
    }
   ],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00150",
-  "veteran_id": "V0142",
-  "disability_id": "DX00415",
+  "record_id": "H00128",
+  "veteran_id": "V0141",
+  "disability_id": "DX00553",
   "kind": "hospital treatment",
-  "admitted": "2024-03-11",
-  "treatment_for_this_disability_began": "2024-03-11",
-  "discharged": "2024-04-27",
+  "admitted": "2024-04-01",
+  "treatment_for_this_disability_began": "2024-04-01",
+  "discharged": "2024-05-16",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00067",
+  "veteran_id": "V0070",
+  "disability_id": "DX00297",
+  "kind": "hospital treatment",
+  "admitted": "2024-04-02",
+  "treatment_for_this_disability_began": "2024-04-02",
+  "discharged": "2024-04-21",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2024-04-04",
+    "last_day_absent": "2024-04-05"
+   },
+   {
+    "first_day_absent": "2024-04-07",
+    "last_day_absent": "2024-04-09"
+   },
+   {
+    "first_day_absent": "2024-04-11",
+    "last_day_absent": "2024-04-14"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00020",
+  "veteran_id": "V0025",
+  "disability_id": "DX00104",
+  "kind": "hospital treatment",
+  "admitted": "2024-04-18",
+  "treatment_for_this_disability_began": "2024-04-18",
+  "discharged": "2024-05-08",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2024-04-26",
+    "last_day_absent": "2024-04-30"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00007",
+  "veteran_id": "V0009",
+  "disability_id": "DX00041",
+  "kind": "surgery or cast",
+  "admitted": "2024-04-21",
+  "treatment_for_this_disability_began": "2024-04-21",
+  "discharged": "2024-04-26",
   "authorized_absences": [],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00059",
-  "veteran_id": "V0069",
-  "disability_id": "DX00207",
+  "record_id": "H00017",
+  "veteran_id": "V0024",
+  "disability_id": "DX00103",
   "kind": "hospital treatment",
-  "admitted": "2024-03-14",
-  "treatment_for_this_disability_began": "2024-03-14",
-  "discharged": "2024-03-24",
+  "admitted": "2024-04-27",
+  "treatment_for_this_disability_began": "2024-05-02",
+  "discharged": "2024-05-27",
   "authorized_absences": [],
-  "convalescence_months_granted": 2
+  "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00078",
-  "veteran_id": "V0083",
-  "disability_id": "DX00243",
+  "record_id": "H00015",
+  "veteran_id": "V0018",
+  "disability_id": "DX00074",
   "kind": "hospital treatment",
-  "admitted": "2024-03-18",
-  "treatment_for_this_disability_began": "2024-03-18",
-  "discharged": "2024-04-02",
+  "admitted": "2024-05-03",
+  "treatment_for_this_disability_began": "2024-05-03",
+  "discharged": "2024-06-06",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2024-05-05",
+    "last_day_absent": "2024-05-06"
+   },
+   {
+    "first_day_absent": "2024-05-08",
+    "last_day_absent": "2024-05-09"
+   },
+   {
+    "first_day_absent": "2024-05-11",
+    "last_day_absent": "2024-05-12"
+   },
+   {
+    "first_day_absent": "2024-05-14",
+    "last_day_absent": "2024-05-15"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00131",
+  "veteran_id": "V0142",
+  "disability_id": "DX00559",
+  "kind": "hospital treatment",
+  "admitted": "2024-05-03",
+  "treatment_for_this_disability_began": "2024-05-03",
+  "discharged": "2024-06-17",
   "authorized_absences": [],
   "convalescence_months_granted": 0
  },
  {
   "record_id": "H00093",
-  "veteran_id": "V0091",
-  "disability_id": "DX00260",
+  "veteran_id": "V0096",
+  "disability_id": "DX00389",
   "kind": "hospital treatment",
-  "admitted": "2024-03-21",
-  "treatment_for_this_disability_began": "2024-03-21",
-  "discharged": "2024-04-16",
+  "admitted": "2024-05-04",
+  "treatment_for_this_disability_began": "2024-05-04",
+  "discharged": "2024-05-25",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2024-05-06",
+    "last_day_absent": "2024-05-07"
+   },
+   {
+    "first_day_absent": "2024-05-09",
+    "last_day_absent": "2024-05-10"
+   },
+   {
+    "first_day_absent": "2024-05-12",
+    "last_day_absent": "2024-05-15"
+   },
+   {
+    "first_day_absent": "2024-05-17",
+    "last_day_absent": "2024-05-17"
+   }
+  ],
+  "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00026",
+  "veteran_id": "V0027",
+  "disability_id": "DX00113",
+  "kind": "surgery or cast",
+  "admitted": "2024-05-26",
+  "treatment_for_this_disability_began": "2024-05-26",
+  "discharged": "2024-05-28",
   "authorized_absences": [],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00088",
+  "veteran_id": "V0093",
+  "disability_id": "DX00373",
+  "kind": "hospital treatment",
+  "admitted": "2024-06-04",
+  "treatment_for_this_disability_began": "2024-06-04",
+  "discharged": "2024-06-27",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2024-06-06",
+    "last_day_absent": "2024-06-08"
+   },
+   {
+    "first_day_absent": "2024-06-10",
+    "last_day_absent": "2024-06-13"
+   },
+   {
+    "first_day_absent": "2024-06-15",
+    "last_day_absent": "2024-06-16"
+   }
+  ],
   "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00178",
-  "veteran_id": "V0158",
-  "disability_id": "DX00459",
+  "record_id": "H00177",
+  "veteran_id": "V0201",
+  "disability_id": "DX00803",
   "kind": "surgery or cast",
-  "admitted": "2024-03-22",
-  "treatment_for_this_disability_began": "2024-03-22",
-  "discharged": "2024-03-27",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00160",
-  "veteran_id": "V0145",
-  "disability_id": "DX00423",
-  "kind": "surgery or cast",
-  "admitted": "2024-04-19",
-  "treatment_for_this_disability_began": "2024-04-19",
-  "discharged": "2024-04-21",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00110",
-  "veteran_id": "V0103",
-  "disability_id": "DX00293",
-  "kind": "hospital treatment",
-  "admitted": "2024-04-28",
-  "treatment_for_this_disability_began": "2024-04-28",
-  "discharged": "2024-05-08",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00025",
-  "veteran_id": "V0025",
-  "disability_id": "DX00064",
-  "kind": "hospital treatment",
-  "admitted": "2024-05-19",
-  "treatment_for_this_disability_began": "2024-06-06",
-  "discharged": "2024-06-12",
+  "admitted": "2024-06-21",
+  "treatment_for_this_disability_began": "2024-06-21",
+  "discharged": "2024-06-26",
   "authorized_absences": [],
   "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00057",
-  "veteran_id": "V0063",
-  "disability_id": "DX00183",
-  "kind": "surgery or cast",
-  "admitted": "2024-05-23",
-  "treatment_for_this_disability_began": "2024-05-23",
-  "discharged": "2024-05-23",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00120",
-  "veteran_id": "V0108",
-  "disability_id": "DX00315",
+  "record_id": "H00125",
+  "veteran_id": "V0136",
+  "disability_id": "DX00544",
   "kind": "hospital treatment",
-  "admitted": "2024-05-25",
-  "treatment_for_this_disability_began": "2024-05-25",
-  "discharged": "2024-06-12",
-  "authorized_absences": [],
+  "admitted": "2024-06-30",
+  "treatment_for_this_disability_began": "2024-06-30",
+  "discharged": "2024-07-22",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2024-07-02",
+    "last_day_absent": "2024-07-05"
+   },
+   {
+    "first_day_absent": "2024-07-07",
+    "last_day_absent": "2024-07-08"
+   },
+   {
+    "first_day_absent": "2024-07-10",
+    "last_day_absent": "2024-07-12"
+   }
+  ],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00021",
-  "veteran_id": "V0023",
-  "disability_id": "DX00060",
-  "kind": "surgery or cast",
-  "admitted": "2024-06-01",
-  "treatment_for_this_disability_began": "2024-06-01",
-  "discharged": "2024-06-01",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00066",
-  "veteran_id": "V0073",
-  "disability_id": "DX00215",
+  "record_id": "H00075",
+  "veteran_id": "V0078",
+  "disability_id": "DX00324",
   "kind": "hospital treatment",
   "admitted": "2024-07-02",
   "treatment_for_this_disability_began": "2024-07-02",
@@ -1212,81 +1110,68 @@
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00016",
-  "veteran_id": "V0022",
-  "disability_id": "DX00057",
+  "record_id": "H00035",
+  "veteran_id": "V0039",
+  "disability_id": "DX00154",
   "kind": "hospital treatment",
-  "admitted": "2024-07-21",
-  "treatment_for_this_disability_began": "2024-07-21",
-  "discharged": "2024-09-19",
+  "admitted": "2024-07-03",
+  "treatment_for_this_disability_began": "2024-07-03",
+  "discharged": "2024-07-27",
   "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00140",
-  "veteran_id": "V0134",
-  "disability_id": "DX00397",
-  "kind": "hospital treatment",
-  "admitted": "2024-07-26",
-  "treatment_for_this_disability_began": "2024-07-26",
-  "discharged": "2024-09-25",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00168",
-  "veteran_id": "V0149",
-  "disability_id": "DX00434",
-  "kind": "hospital treatment",
-  "admitted": "2024-08-03",
-  "treatment_for_this_disability_began": "2024-08-03",
-  "discharged": "2024-08-21",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2024-08-05",
-    "last_day_absent": "2024-08-07"
-   },
-   {
-    "first_day_absent": "2024-08-09",
-    "last_day_absent": "2024-08-12"
-   },
-   {
-    "first_day_absent": "2024-08-14",
-    "last_day_absent": "2024-08-14"
-   }
-  ],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00034",
-  "veteran_id": "V0036",
-  "disability_id": "DX00092",
-  "kind": "hospital treatment",
-  "admitted": "2024-08-17",
-  "treatment_for_this_disability_began": "2024-08-17",
-  "discharged": "2024-09-12",
+  "record_id": "H00169",
+  "veteran_id": "V0196",
+  "disability_id": "DX00780",
+  "kind": "surgery or cast",
+  "admitted": "2024-07-10",
+  "treatment_for_this_disability_began": "2024-07-10",
+  "discharged": "2024-07-15",
   "authorized_absences": [],
   "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00082",
-  "veteran_id": "V0085",
-  "disability_id": "DX00245",
-  "kind": "surgery or cast",
-  "admitted": "2024-08-22",
-  "treatment_for_this_disability_began": "2024-08-22",
-  "discharged": "2024-08-22",
+  "record_id": "H00163",
+  "veteran_id": "V0188",
+  "disability_id": "DX00738",
+  "kind": "hospital treatment",
+  "admitted": "2024-07-20",
+  "treatment_for_this_disability_began": "2024-07-20",
+  "discharged": "2024-09-18",
   "authorized_absences": [],
-  "convalescence_months_granted": 1
+  "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00067",
-  "veteran_id": "V0073",
-  "disability_id": "DX00215",
+  "record_id": "H00066",
+  "veteran_id": "V0069",
+  "disability_id": "DX00296",
+  "kind": "surgery or cast",
+  "admitted": "2024-08-12",
+  "treatment_for_this_disability_began": "2024-08-12",
+  "discharged": "2024-08-12",
+  "authorized_absences": [],
+  "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00102",
+  "veteran_id": "V0107",
+  "disability_id": "DX00431",
+  "kind": "hospital treatment",
+  "admitted": "2024-09-01",
+  "treatment_for_this_disability_began": "2024-09-01",
+  "discharged": "2024-09-26",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00076",
+  "veteran_id": "V0078",
+  "disability_id": "DX00324",
   "kind": "hospital treatment",
   "admitted": "2024-09-03",
   "treatment_for_this_disability_began": "2024-09-03",
-  "discharged": "2024-10-20",
+  "discharged": "2024-09-24",
   "authorized_absences": [
    {
     "first_day_absent": "2024-09-10",
@@ -1296,182 +1181,98 @@
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00174",
-  "veteran_id": "V0153",
-  "disability_id": "DX00446",
+  "record_id": "H00082",
+  "veteran_id": "V0082",
+  "disability_id": "DX00335",
+  "kind": "hospital treatment",
+  "admitted": "2024-09-17",
+  "treatment_for_this_disability_began": "2024-09-17",
+  "discharged": "2024-11-07",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00004",
+  "veteran_id": "V0008",
+  "disability_id": "DX00031",
   "kind": "surgery or cast",
-  "admitted": "2024-09-03",
-  "treatment_for_this_disability_began": "2024-09-03",
-  "discharged": "2024-09-05",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00208",
-  "veteran_id": "V0185",
-  "disability_id": "DX00532",
-  "kind": "hospital treatment",
-  "admitted": "2024-09-03",
-  "treatment_for_this_disability_began": "2024-09-03",
-  "discharged": "2024-10-03",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00087",
-  "veteran_id": "V0087",
-  "disability_id": "DX00248",
-  "kind": "hospital treatment",
-  "admitted": "2024-09-07",
-  "treatment_for_this_disability_began": "2024-09-07",
-  "discharged": "2024-09-25",
+  "admitted": "2024-09-22",
+  "treatment_for_this_disability_began": "2024-09-22",
+  "discharged": "2024-09-22",
   "authorized_absences": [],
   "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00197",
-  "veteran_id": "V0172",
-  "disability_id": "DX00501",
+  "record_id": "H00045",
+  "veteran_id": "V0044",
+  "disability_id": "DX00176",
+  "kind": "hospital treatment",
+  "admitted": "2024-10-02",
+  "treatment_for_this_disability_began": "2024-10-02",
+  "discharged": "2024-10-18",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2024-10-04",
+    "last_day_absent": "2024-10-05"
+   },
+   {
+    "first_day_absent": "2024-10-07",
+    "last_day_absent": "2024-10-08"
+   },
+   {
+    "first_day_absent": "2024-10-10",
+    "last_day_absent": "2024-10-11"
+   },
+   {
+    "first_day_absent": "2024-10-13",
+    "last_day_absent": "2024-10-15"
+   }
+  ],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00113",
+  "veteran_id": "V0123",
+  "disability_id": "DX00484",
   "kind": "surgery or cast",
-  "admitted": "2024-09-12",
-  "treatment_for_this_disability_began": "2024-09-12",
-  "discharged": "2024-09-12",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00085",
-  "veteran_id": "V0086",
-  "disability_id": "DX00247",
-  "kind": "hospital treatment",
-  "admitted": "2024-09-13",
-  "treatment_for_this_disability_began": "2024-09-13",
-  "discharged": "2024-11-20",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00063",
-  "veteran_id": "V0071",
-  "disability_id": "DX00210",
-  "kind": "hospital treatment",
-  "admitted": "2024-09-15",
-  "treatment_for_this_disability_began": "2024-09-15",
-  "discharged": "2024-10-22",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2024-09-17",
-    "last_day_absent": "2024-09-20"
-   },
-   {
-    "first_day_absent": "2024-09-22",
-    "last_day_absent": "2024-09-23"
-   },
-   {
-    "first_day_absent": "2024-09-25",
-    "last_day_absent": "2024-09-26"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00189",
-  "veteran_id": "V0168",
-  "disability_id": "DX00487",
-  "kind": "hospital treatment",
-  "admitted": "2024-09-24",
-  "treatment_for_this_disability_began": "2024-09-24",
-  "discharged": "2024-12-14",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00234",
-  "veteran_id": "V0222",
-  "disability_id": "DX00663",
-  "kind": "hospital treatment",
-  "admitted": "2024-09-27",
-  "treatment_for_this_disability_began": "2024-09-27",
-  "discharged": "2024-12-21",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00014",
-  "veteran_id": "V0019",
-  "disability_id": "DX00044",
-  "kind": "hospital treatment",
-  "admitted": "2024-10-01",
-  "treatment_for_this_disability_began": "2024-10-01",
-  "discharged": "2024-10-31",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00040",
-  "veteran_id": "V0040",
-  "disability_id": "DX00109",
-  "kind": "hospital treatment",
-  "admitted": "2024-10-06",
-  "treatment_for_this_disability_began": "2024-10-06",
-  "discharged": "2024-11-02",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00096",
-  "veteran_id": "V0095",
-  "disability_id": "DX00271",
-  "kind": "hospital treatment",
-  "admitted": "2024-10-06",
-  "treatment_for_this_disability_began": "2024-10-06",
-  "discharged": "2024-10-30",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00126",
-  "veteran_id": "V0114",
-  "disability_id": "DX00333",
-  "kind": "hospital treatment",
-  "admitted": "2024-10-15",
-  "treatment_for_this_disability_began": "2024-10-15",
-  "discharged": "2024-11-08",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2024-10-17",
-    "last_day_absent": "2024-10-19"
-   },
-   {
-    "first_day_absent": "2024-10-21",
-    "last_day_absent": "2024-10-22"
-   },
-   {
-    "first_day_absent": "2024-10-24",
-    "last_day_absent": "2024-10-26"
-   }
-  ],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00052",
-  "veteran_id": "V0058",
-  "disability_id": "DX00168",
-  "kind": "hospital treatment",
-  "admitted": "2024-11-03",
-  "treatment_for_this_disability_began": "2024-11-03",
-  "discharged": "2024-11-13",
+  "admitted": "2024-10-12",
+  "treatment_for_this_disability_began": "2024-10-12",
+  "discharged": "2024-10-17",
   "authorized_absences": [],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00068",
-  "veteran_id": "V0073",
-  "disability_id": "DX00215",
+  "record_id": "H00135",
+  "veteran_id": "V0149",
+  "disability_id": "DX00592",
+  "kind": "hospital treatment",
+  "admitted": "2024-11-03",
+  "treatment_for_this_disability_began": "2024-11-03",
+  "discharged": "2024-12-07",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2024-11-05",
+    "last_day_absent": "2024-11-07"
+   },
+   {
+    "first_day_absent": "2024-11-09",
+    "last_day_absent": "2024-11-11"
+   },
+   {
+    "first_day_absent": "2024-11-13",
+    "last_day_absent": "2024-11-14"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00077",
+  "veteran_id": "V0078",
+  "disability_id": "DX00324",
   "kind": "hospital treatment",
   "admitted": "2024-11-04",
   "treatment_for_this_disability_began": "2024-11-04",
-  "discharged": "2024-12-20",
+  "discharged": "2024-11-28",
   "authorized_absences": [
    {
     "first_day_absent": "2024-11-06",
@@ -1489,9 +1290,9 @@
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00131",
-  "veteran_id": "V0125",
-  "disability_id": "DX00370",
+  "record_id": "H00087",
+  "veteran_id": "V0089",
+  "disability_id": "DX00363",
   "kind": "hospital treatment",
   "admitted": "2024-11-04",
   "treatment_for_this_disability_began": "2024-11-04",
@@ -1509,173 +1310,134 @@
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00177",
-  "veteran_id": "V0156",
-  "disability_id": "DX00453",
-  "kind": "hospital treatment",
-  "admitted": "2024-11-05",
-  "treatment_for_this_disability_began": "2024-11-15",
-  "discharged": "2024-11-15",
+  "record_id": "H00150",
+  "veteran_id": "V0168",
+  "disability_id": "DX00658",
+  "kind": "surgery or cast",
+  "admitted": "2024-11-18",
+  "treatment_for_this_disability_began": "2024-11-18",
+  "discharged": "2024-11-18",
   "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00145",
-  "veteran_id": "V0141",
-  "disability_id": "DX00412",
-  "kind": "hospital treatment",
-  "admitted": "2024-11-06",
-  "treatment_for_this_disability_began": "2024-11-06",
-  "discharged": "2024-12-06",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2024-11-17",
-    "last_day_absent": "2024-11-23"
-   }
-  ],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00058",
-  "veteran_id": "V0067",
-  "disability_id": "DX00197",
-  "kind": "hospital treatment",
-  "admitted": "2024-11-07",
-  "treatment_for_this_disability_began": "2024-11-07",
-  "discharged": "2025-02-01",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2024-11-09",
-    "last_day_absent": "2024-11-12"
-   },
-   {
-    "first_day_absent": "2024-11-14",
-    "last_day_absent": "2024-11-17"
-   }
-  ],
   "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00179",
-  "veteran_id": "V0158",
-  "disability_id": "DX00459",
-  "kind": "hospital treatment",
-  "admitted": "2024-11-14",
-  "treatment_for_this_disability_began": "2024-11-14",
-  "discharged": "2024-12-14",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2024-11-16",
-    "last_day_absent": "2024-11-18"
-   },
-   {
-    "first_day_absent": "2024-11-20",
-    "last_day_absent": "2024-11-22"
-   },
-   {
-    "first_day_absent": "2024-11-24",
-    "last_day_absent": "2024-11-26"
-   }
-  ],
-  "convalescence_months_granted": 1
+  "record_id": "H00041",
+  "veteran_id": "V0041",
+  "disability_id": "DX00159",
+  "kind": "surgery or cast",
+  "admitted": "2024-11-22",
+  "treatment_for_this_disability_began": "2024-11-22",
+  "discharged": "2024-11-27",
+  "authorized_absences": [],
+  "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00009",
-  "veteran_id": "V0013",
-  "disability_id": "DX00028",
+  "record_id": "H00027",
+  "veteran_id": "V0027",
+  "disability_id": "DX00108",
   "kind": "hospital treatment",
-  "admitted": "2024-11-25",
-  "treatment_for_this_disability_began": "2024-11-25",
-  "discharged": "2024-12-21",
+  "admitted": "2024-12-03",
+  "treatment_for_this_disability_began": "2024-12-03",
+  "discharged": "2024-12-29",
+  "authorized_absences": [],
+  "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00140",
+  "veteran_id": "V0155",
+  "disability_id": "DX00616",
+  "kind": "hospital treatment",
+  "admitted": "2024-12-28",
+  "treatment_for_this_disability_began": "2024-12-28",
+  "discharged": "2025-01-11",
   "authorized_absences": [
    {
-    "first_day_absent": "2024-11-27",
-    "last_day_absent": "2024-11-29"
+    "first_day_absent": "2024-12-30",
+    "last_day_absent": "2025-01-02"
    },
    {
-    "first_day_absent": "2024-12-01",
-    "last_day_absent": "2024-12-03"
+    "first_day_absent": "2025-01-04",
+    "last_day_absent": "2025-01-07"
    },
    {
-    "first_day_absent": "2024-12-05",
-    "last_day_absent": "2024-12-06"
-   },
-   {
-    "first_day_absent": "2024-12-08",
-    "last_day_absent": "2024-12-08"
+    "first_day_absent": "2025-01-09",
+    "last_day_absent": "2025-01-09"
    }
   ],
   "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00206",
-  "veteran_id": "V0184",
-  "disability_id": "DX00531",
+  "record_id": "H00193",
+  "veteran_id": "V0220",
+  "disability_id": "DX00883",
   "kind": "hospital treatment",
-  "admitted": "2024-12-02",
-  "treatment_for_this_disability_began": "2024-12-02",
+  "admitted": "2024-12-28",
+  "treatment_for_this_disability_began": "2024-12-28",
+  "discharged": "2025-01-15",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00091",
+  "veteran_id": "V0095",
+  "disability_id": "DX00383",
+  "kind": "hospital treatment",
+  "admitted": "2025-01-01",
+  "treatment_for_this_disability_began": "2025-01-01",
+  "discharged": "2025-02-04",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2025-01-03",
+    "last_day_absent": "2025-01-05"
+   },
+   {
+    "first_day_absent": "2025-01-07",
+    "last_day_absent": "2025-01-10"
+   },
+   {
+    "first_day_absent": "2025-01-12",
+    "last_day_absent": "2025-01-12"
+   }
+  ],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00021",
+  "veteran_id": "V0025",
+  "disability_id": "DX00104",
+  "kind": "hospital treatment",
+  "admitted": "2025-01-02",
+  "treatment_for_this_disability_began": "2025-01-12",
+  "discharged": "2025-01-26",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00036",
+  "veteran_id": "V0039",
+  "disability_id": "DX00154",
+  "kind": "hospital treatment",
+  "admitted": "2025-01-02",
+  "treatment_for_this_disability_began": "2025-01-02",
   "discharged": "2025-01-28",
   "authorized_absences": [],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00071",
-  "veteran_id": "V0074",
-  "disability_id": "DX00217",
-  "kind": "hospital treatment",
-  "admitted": "2024-12-05",
-  "treatment_for_this_disability_began": "2024-12-05",
-  "discharged": "2024-12-15",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2024-12-15",
-    "last_day_absent": "2024-12-21"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00022",
-  "veteran_id": "V0023",
-  "disability_id": "DX00059",
+  "record_id": "H00178",
+  "veteran_id": "V0201",
+  "disability_id": "DX00804",
   "kind": "surgery or cast",
-  "admitted": "2024-12-11",
-  "treatment_for_this_disability_began": "2024-12-11",
-  "discharged": "2024-12-13",
+  "admitted": "2025-01-03",
+  "treatment_for_this_disability_began": "2025-01-03",
+  "discharged": "2025-01-03",
   "authorized_absences": [],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00229",
-  "veteran_id": "V0216",
-  "disability_id": "DX00638",
-  "kind": "hospital treatment",
-  "admitted": "2024-12-17",
-  "treatment_for_this_disability_began": "2024-12-17",
-  "discharged": "2025-02-02",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2025-01-13",
-    "last_day_absent": "2025-02-01"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00136",
-  "veteran_id": "V0131",
-  "disability_id": "DX00391",
-  "kind": "hospital treatment",
-  "admitted": "2024-12-23",
-  "treatment_for_this_disability_began": "2025-01-02",
-  "discharged": "2025-02-21",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00153",
-  "veteran_id": "V0144",
-  "disability_id": "DX00420",
+  "record_id": "H00061",
+  "veteran_id": "V0068",
+  "disability_id": "DX00294",
   "kind": "hospital treatment",
   "admitted": "2025-01-06",
   "treatment_for_this_disability_began": "2025-01-06",
@@ -1689,249 +1451,135 @@
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00195",
-  "veteran_id": "V0171",
-  "disability_id": "DX00497",
+  "record_id": "H00134",
+  "veteran_id": "V0148",
+  "disability_id": "DX00587",
   "kind": "hospital treatment",
-  "admitted": "2025-01-07",
-  "treatment_for_this_disability_began": "2025-01-17",
-  "discharged": "2025-01-17",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00185",
-  "veteran_id": "V0163",
-  "disability_id": "DX00472",
-  "kind": "hospital treatment",
-  "admitted": "2025-01-13",
-  "treatment_for_this_disability_began": "2025-01-13",
-  "discharged": "2025-01-28",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00205",
-  "veteran_id": "V0183",
-  "disability_id": "DX00528",
-  "kind": "hospital treatment",
-  "admitted": "2025-01-14",
-  "treatment_for_this_disability_began": "2025-01-14",
-  "discharged": "2025-02-13",
+  "admitted": "2025-01-12",
+  "treatment_for_this_disability_began": "2025-01-12",
+  "discharged": "2025-02-27",
   "authorized_absences": [
    {
-    "first_day_absent": "2025-01-16",
-    "last_day_absent": "2025-01-19"
-   },
-   {
-    "first_day_absent": "2025-01-21",
-    "last_day_absent": "2025-01-24"
-   }
-  ],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00223",
-  "veteran_id": "V0209",
-  "disability_id": "DX00610",
-  "kind": "hospital treatment",
-  "admitted": "2025-01-15",
-  "treatment_for_this_disability_began": "2025-01-15",
-  "discharged": "2025-01-30",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00138",
-  "veteran_id": "V0132",
-  "disability_id": "DX00393",
-  "kind": "hospital treatment",
-  "admitted": "2025-01-25",
-  "treatment_for_this_disability_began": "2025-01-25",
-  "discharged": "2025-02-09",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00075",
-  "veteran_id": "V0081",
-  "disability_id": "DX00236",
-  "kind": "hospital treatment",
-  "admitted": "2025-01-30",
-  "treatment_for_this_disability_began": "2025-01-30",
-  "discharged": "2025-02-14",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2025-02-01",
-    "last_day_absent": "2025-02-03"
-   },
-   {
-    "first_day_absent": "2025-02-05",
-    "last_day_absent": "2025-02-07"
-   },
-   {
-    "first_day_absent": "2025-02-09",
-    "last_day_absent": "2025-02-10"
-   }
-  ],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00060",
-  "veteran_id": "V0069",
-  "disability_id": "DX00207",
-  "kind": "hospital treatment",
-  "admitted": "2025-01-31",
-  "treatment_for_this_disability_began": "2025-01-31",
-  "discharged": "2025-02-26",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2025-02-02",
-    "last_day_absent": "2025-02-04"
-   },
-   {
-    "first_day_absent": "2025-02-06",
-    "last_day_absent": "2025-02-07"
-   },
-   {
-    "first_day_absent": "2025-02-09",
-    "last_day_absent": "2025-02-12"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00111",
-  "veteran_id": "V0103",
-  "disability_id": "DX00297",
-  "kind": "hospital treatment",
-  "admitted": "2025-02-10",
-  "treatment_for_this_disability_began": "2025-02-10",
-  "discharged": "2025-03-12",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2025-02-12",
-    "last_day_absent": "2025-02-15"
-   },
-   {
-    "first_day_absent": "2025-02-17",
-    "last_day_absent": "2025-02-18"
-   },
-   {
-    "first_day_absent": "2025-02-20",
+    "first_day_absent": "2025-02-08",
     "last_day_absent": "2025-02-22"
    }
   ],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00103",
-  "veteran_id": "V0098",
-  "disability_id": "DX00275",
-  "kind": "hospital treatment",
-  "admitted": "2025-02-19",
-  "treatment_for_this_disability_began": "2025-02-19",
-  "discharged": "2025-04-02",
-  "authorized_absences": [],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00151",
-  "veteran_id": "V0142",
-  "disability_id": "DX00416",
+  "record_id": "H00116",
+  "veteran_id": "V0132",
+  "disability_id": "DX00531",
   "kind": "surgery or cast",
-  "admitted": "2025-02-22",
-  "treatment_for_this_disability_began": "2025-02-22",
-  "discharged": "2025-02-22",
+  "admitted": "2025-01-14",
+  "treatment_for_this_disability_began": "2025-01-14",
+  "discharged": "2025-01-14",
   "authorized_absences": [],
   "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00079",
-  "veteran_id": "V0083",
-  "disability_id": "DX00243",
+  "record_id": "H00099",
+  "veteran_id": "V0104",
+  "disability_id": "DX00423",
   "kind": "hospital treatment",
-  "admitted": "2025-03-05",
-  "treatment_for_this_disability_began": "2025-03-05",
-  "discharged": "2025-05-11",
+  "admitted": "2025-02-03",
+  "treatment_for_this_disability_began": "2025-02-03",
+  "discharged": "2025-02-27",
+  "authorized_absences": [],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00078",
+  "veteran_id": "V0080",
+  "disability_id": "DX00330",
+  "kind": "surgery or cast",
+  "admitted": "2025-02-11",
+  "treatment_for_this_disability_began": "2025-02-11",
+  "discharged": "2025-02-11",
+  "authorized_absences": [],
+  "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00170",
+  "veteran_id": "V0198",
+  "disability_id": "DX00788",
+  "kind": "surgery or cast",
+  "admitted": "2025-02-14",
+  "treatment_for_this_disability_began": "2025-02-14",
+  "discharged": "2025-02-16",
+  "authorized_absences": [],
+  "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00096",
+  "veteran_id": "V0099",
+  "disability_id": "DX00403",
+  "kind": "hospital treatment",
+  "admitted": "2025-03-01",
+  "treatment_for_this_disability_began": "2025-03-01",
+  "discharged": "2025-04-15",
   "authorized_absences": [],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00029",
-  "veteran_id": "V0033",
-  "disability_id": "DX00083",
-  "kind": "hospital treatment",
-  "admitted": "2025-03-08",
-  "treatment_for_this_disability_began": "2025-03-08",
-  "discharged": "2025-04-03",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00129",
-  "veteran_id": "V0122",
-  "disability_id": "DX00356",
+  "record_id": "H00104",
+  "veteran_id": "V0117",
+  "disability_id": "DX00463",
   "kind": "hospital treatment",
   "admitted": "2025-03-09",
   "treatment_for_this_disability_began": "2025-03-09",
   "discharged": "2025-03-24",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2025-03-15",
-    "last_day_absent": "2025-03-21"
-   }
-  ],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00227",
-  "veteran_id": "V0214",
-  "disability_id": "DX00631",
-  "kind": "surgery or cast",
-  "admitted": "2025-03-17",
-  "treatment_for_this_disability_began": "2025-03-17",
-  "discharged": "2025-03-22",
   "authorized_absences": [],
-  "convalescence_months_granted": 2
+  "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00118",
-  "veteran_id": "V0107",
-  "disability_id": "DX00314",
+  "record_id": "H00129",
+  "veteran_id": "V0141",
+  "disability_id": "DX00553",
   "kind": "hospital treatment",
-  "admitted": "2025-04-13",
-  "treatment_for_this_disability_began": "2025-04-13",
-  "discharged": "2025-04-23",
+  "admitted": "2025-03-23",
+  "treatment_for_this_disability_began": "2025-03-23",
+  "discharged": "2025-04-18",
   "authorized_absences": [],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00097",
-  "veteran_id": "V0095",
-  "disability_id": "DX00272",
-  "kind": "hospital treatment",
-  "admitted": "2025-04-18",
-  "treatment_for_this_disability_began": "2025-04-18",
-  "discharged": "2025-05-18",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00083",
-  "veteran_id": "V0085",
-  "disability_id": "DX00245",
+  "record_id": "H00008",
+  "veteran_id": "V0009",
+  "disability_id": "DX00041",
   "kind": "surgery or cast",
-  "admitted": "2025-04-29",
-  "treatment_for_this_disability_began": "2025-04-29",
-  "discharged": "2025-04-29",
+  "admitted": "2025-04-04",
+  "treatment_for_this_disability_began": "2025-04-04",
+  "discharged": "2025-04-09",
   "authorized_absences": [],
-  "convalescence_months_granted": 3
+  "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00154",
-  "veteran_id": "V0144",
-  "disability_id": "DX00420",
+  "record_id": "H00089",
+  "veteran_id": "V0093",
+  "disability_id": "DX00374",
+  "kind": "hospital treatment",
+  "admitted": "2025-04-20",
+  "treatment_for_this_disability_began": "2025-04-20",
+  "discharged": "2025-06-04",
+  "authorized_absences": [],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00126",
+  "veteran_id": "V0136",
+  "disability_id": "DX00544",
+  "kind": "surgery or cast",
+  "admitted": "2025-04-26",
+  "treatment_for_this_disability_began": "2025-04-26",
+  "discharged": "2025-04-26",
+  "authorized_absences": [],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00062",
+  "veteran_id": "V0068",
+  "disability_id": "DX00294",
   "kind": "hospital treatment",
   "admitted": "2025-05-01",
   "treatment_for_this_disability_began": "2025-05-20",
@@ -1940,211 +1588,191 @@
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00116",
-  "veteran_id": "V0105",
-  "disability_id": "DX00309",
+  "record_id": "H00068",
+  "veteran_id": "V0070",
+  "disability_id": "DX00297",
   "kind": "hospital treatment",
-  "admitted": "2025-05-05",
-  "treatment_for_this_disability_began": "2025-05-05",
-  "discharged": "2025-06-19",
+  "admitted": "2025-05-15",
+  "treatment_for_this_disability_began": "2025-05-15",
+  "discharged": "2025-06-05",
   "authorized_absences": [
    {
-    "first_day_absent": "2025-05-11",
-    "last_day_absent": "2025-05-17"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00141",
-  "veteran_id": "V0135",
-  "disability_id": "DX00401",
-  "kind": "hospital treatment",
-  "admitted": "2025-05-12",
-  "treatment_for_this_disability_began": "2025-05-12",
-  "discharged": "2025-05-30",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00161",
-  "veteran_id": "V0145",
-  "disability_id": "DX00422",
-  "kind": "surgery or cast",
-  "admitted": "2025-05-13",
-  "treatment_for_this_disability_began": "2025-05-13",
-  "discharged": "2025-05-18",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00121",
-  "veteran_id": "V0108",
-  "disability_id": "DX00316",
-  "kind": "hospital treatment",
-  "admitted": "2025-05-24",
-  "treatment_for_this_disability_began": "2025-05-24",
-  "discharged": "2025-07-10",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2025-06-01",
-    "last_day_absent": "2025-06-05"
+    "first_day_absent": "2025-05-25",
+    "last_day_absent": "2025-05-29"
    }
   ],
   "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00175",
-  "veteran_id": "V0153",
-  "disability_id": "DX00446",
+  "record_id": "H00018",
+  "veteran_id": "V0024",
+  "disability_id": "DX00102",
   "kind": "hospital treatment",
-  "admitted": "2025-05-29",
-  "treatment_for_this_disability_began": "2025-05-29",
-  "discharged": "2025-06-08",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2025-06-09",
-    "last_day_absent": "2025-06-15"
-   }
-  ],
+  "admitted": "2025-06-02",
+  "treatment_for_this_disability_began": "2025-06-02",
+  "discharged": "2025-06-27",
+  "authorized_absences": [],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00048",
-  "veteran_id": "V0054",
+  "record_id": "H00031",
+  "veteran_id": "V0033",
+  "disability_id": "DX00133",
+  "kind": "hospital treatment",
+  "admitted": "2025-06-04",
+  "treatment_for_this_disability_began": "2025-06-04",
+  "discharged": "2025-06-19",
+  "authorized_absences": [],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00042",
+  "veteran_id": "V0041",
   "disability_id": "DX00159",
   "kind": "surgery or cast",
-  "admitted": "2025-05-31",
-  "treatment_for_this_disability_began": "2025-05-31",
-  "discharged": "2025-05-31",
+  "admitted": "2025-06-17",
+  "treatment_for_this_disability_began": "2025-06-17",
+  "discharged": "2025-06-17",
   "authorized_absences": [],
-  "convalescence_months_granted": 1
+  "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00035",
-  "veteran_id": "V0036",
-  "disability_id": "DX00092",
-  "kind": "surgery or cast",
-  "admitted": "2025-06-01",
-  "treatment_for_this_disability_began": "2025-06-01",
-  "discharged": "2025-06-03",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00180",
-  "veteran_id": "V0158",
-  "disability_id": "DX00457",
+  "record_id": "H00164",
+  "veteran_id": "V0188",
+  "disability_id": "DX00738",
   "kind": "hospital treatment",
-  "admitted": "2025-06-06",
-  "treatment_for_this_disability_began": "2025-06-06",
-  "discharged": "2025-07-16",
+  "admitted": "2025-07-11",
+  "treatment_for_this_disability_began": "2025-07-11",
+  "discharged": "2025-07-21",
   "authorized_absences": [],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00209",
-  "veteran_id": "V0185",
-  "disability_id": "DX00532",
-  "kind": "surgery or cast",
-  "admitted": "2025-06-07",
-  "treatment_for_this_disability_began": "2025-06-07",
-  "discharged": "2025-06-09",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00105",
-  "veteran_id": "V0099",
-  "disability_id": "DX00279",
-  "kind": "surgery or cast",
-  "admitted": "2025-06-10",
-  "treatment_for_this_disability_began": "2025-06-10",
-  "discharged": "2025-06-15",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00017",
-  "veteran_id": "V0022",
-  "disability_id": "DX00058",
-  "kind": "surgery or cast",
-  "admitted": "2025-06-21",
-  "treatment_for_this_disability_began": "2025-06-21",
-  "discharged": "2025-06-23",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00221",
-  "veteran_id": "V0208",
-  "disability_id": "DX00606",
-  "kind": "hospital treatment",
-  "admitted": "2025-06-28",
-  "treatment_for_this_disability_began": "2025-06-28",
-  "discharged": "2025-07-13",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00055",
-  "veteran_id": "V0062",
-  "disability_id": "DX00182",
-  "kind": "hospital treatment",
-  "admitted": "2025-07-05",
-  "treatment_for_this_disability_began": "2025-07-23",
-  "discharged": "2025-07-20",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00190",
-  "veteran_id": "V0168",
-  "disability_id": "DX00487",
+  "record_id": "H00037",
+  "veteran_id": "V0040",
+  "disability_id": "DX00155",
   "kind": "hospital treatment",
   "admitted": "2025-07-12",
   "treatment_for_this_disability_began": "2025-07-12",
-  "discharged": "2025-08-11",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00086",
-  "veteran_id": "V0086",
-  "disability_id": "DX00246",
-  "kind": "hospital treatment",
-  "admitted": "2025-07-18",
-  "treatment_for_this_disability_began": "2025-07-18",
-  "discharged": "2025-08-13",
+  "discharged": "2025-07-30",
   "authorized_absences": [],
   "convalescence_months_granted": 0
  },
  {
   "record_id": "H00132",
-  "veteran_id": "V0128",
-  "disability_id": "DX00379",
+  "veteran_id": "V0146",
+  "disability_id": "DX00579",
   "kind": "surgery or cast",
-  "admitted": "2025-07-27",
-  "treatment_for_this_disability_began": "2025-07-27",
-  "discharged": "2025-07-27",
+  "admitted": "2025-07-21",
+  "treatment_for_this_disability_began": "2025-07-21",
+  "discharged": "2025-07-21",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00188",
+  "veteran_id": "V0212",
+  "disability_id": "DX00847",
+  "kind": "hospital treatment",
+  "admitted": "2025-07-21",
+  "treatment_for_this_disability_began": "2025-07-21",
+  "discharged": "2025-08-05",
   "authorized_absences": [],
   "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00139",
-  "veteran_id": "V0132",
-  "disability_id": "DX00392",
-  "kind": "surgery or cast",
+  "record_id": "H00106",
+  "veteran_id": "V0118",
+  "disability_id": "DX00464",
+  "kind": "hospital treatment",
   "admitted": "2025-08-01",
   "treatment_for_this_disability_began": "2025-08-01",
-  "discharged": "2025-08-01",
+  "discharged": "2025-08-27",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00054",
+  "veteran_id": "V0054",
+  "disability_id": "DX00230",
+  "kind": "surgery or cast",
+  "admitted": "2025-08-02",
+  "treatment_for_this_disability_began": "2025-08-02",
+  "discharged": "2025-08-02",
   "authorized_absences": [],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00155",
-  "veteran_id": "V0144",
-  "disability_id": "DX00420",
+  "record_id": "H00179",
+  "veteran_id": "V0201",
+  "disability_id": "DX00803",
+  "kind": "hospital treatment",
+  "admitted": "2025-08-04",
+  "treatment_for_this_disability_began": "2025-08-04",
+  "discharged": "2025-08-29",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00194",
+  "veteran_id": "V0220",
+  "disability_id": "DX00880",
+  "kind": "hospital treatment",
+  "admitted": "2025-08-04",
+  "treatment_for_this_disability_began": "2025-08-04",
+  "discharged": "2025-08-23",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2025-08-09",
+    "last_day_absent": "2025-08-15"
+   }
+  ],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00117",
+  "veteran_id": "V0132",
+  "disability_id": "DX00527",
+  "kind": "hospital treatment",
+  "admitted": "2025-08-05",
+  "treatment_for_this_disability_began": "2025-08-05",
+  "discharged": "2025-09-08",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2025-08-07",
+    "last_day_absent": "2025-08-08"
+   },
+   {
+    "first_day_absent": "2025-08-10",
+    "last_day_absent": "2025-08-12"
+   },
+   {
+    "first_day_absent": "2025-08-14",
+    "last_day_absent": "2025-08-16"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00010",
+  "veteran_id": "V0011",
+  "disability_id": "DX00045",
+  "kind": "hospital treatment",
+  "admitted": "2025-08-08",
+  "treatment_for_this_disability_began": "2025-08-08",
+  "discharged": "2025-09-11",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2025-08-15",
+    "last_day_absent": "2025-08-18"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00063",
+  "veteran_id": "V0068",
+  "disability_id": "DX00294",
   "kind": "surgery or cast",
   "admitted": "2025-08-14",
   "treatment_for_this_disability_began": "2025-08-14",
@@ -2153,38 +1781,70 @@
   "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00183",
-  "veteran_id": "V0162",
-  "disability_id": "DX00469",
+  "record_id": "H00120",
+  "veteran_id": "V0134",
+  "disability_id": "DX00539",
+  "kind": "hospital treatment",
+  "admitted": "2025-08-19",
+  "treatment_for_this_disability_began": "2025-08-19",
+  "discharged": "2025-08-29",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00146",
+  "veteran_id": "V0163",
+  "disability_id": "DX00643",
   "kind": "surgery or cast",
-  "admitted": "2025-08-18",
-  "treatment_for_this_disability_began": "2025-08-18",
-  "discharged": "2025-08-18",
+  "admitted": "2025-08-20",
+  "treatment_for_this_disability_began": "2025-08-20",
+  "discharged": "2025-08-25",
   "authorized_absences": [],
   "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00225",
-  "veteran_id": "V0211",
-  "disability_id": "DX00615",
+  "record_id": "H00115",
+  "veteran_id": "V0130",
+  "disability_id": "DX00520",
   "kind": "hospital treatment",
-  "admitted": "2025-08-22",
-  "treatment_for_this_disability_began": "2025-08-22",
-  "discharged": "2025-10-02",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00152",
-  "veteran_id": "V0142",
-  "disability_id": "DX00415",
-  "kind": "hospital treatment",
-  "admitted": "2025-08-31",
-  "treatment_for_this_disability_began": "2025-08-31",
-  "discharged": "2025-10-18",
+  "admitted": "2025-08-28",
+  "treatment_for_this_disability_began": "2025-08-28",
+  "discharged": "2025-10-15",
   "authorized_absences": [
    {
-    "first_day_absent": "2025-09-02",
+    "first_day_absent": "2025-09-25",
+    "last_day_absent": "2025-10-08"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00028",
+  "veteran_id": "V0027",
+  "disability_id": "DX00110",
+  "kind": "hospital treatment",
+  "admitted": "2025-09-01",
+  "treatment_for_this_disability_began": "2025-09-01",
+  "discharged": "2025-10-25",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2025-09-27",
+    "last_day_absent": "2025-10-16"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00161",
+  "veteran_id": "V0185",
+  "disability_id": "DX00730",
+  "kind": "hospital treatment",
+  "admitted": "2025-09-01",
+  "treatment_for_this_disability_began": "2025-09-01",
+  "discharged": "2025-10-05",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2025-09-03",
     "last_day_absent": "2025-09-04"
    },
    {
@@ -2193,84 +1853,191 @@
    },
    {
     "first_day_absent": "2025-09-09",
-    "last_day_absent": "2025-09-11"
+    "last_day_absent": "2025-09-10"
    },
    {
-    "first_day_absent": "2025-09-13",
+    "first_day_absent": "2025-09-12",
     "last_day_absent": "2025-09-13"
    }
   ],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00061",
-  "veteran_id": "V0069",
-  "disability_id": "DX00207",
-  "kind": "hospital treatment",
+  "record_id": "H00151",
+  "veteran_id": "V0168",
+  "disability_id": "DX00659",
+  "kind": "surgery or cast",
   "admitted": "2025-09-03",
   "treatment_for_this_disability_began": "2025-09-03",
-  "discharged": "2025-10-18",
+  "discharged": "2025-09-08",
   "authorized_absences": [],
+  "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00073",
+  "veteran_id": "V0077",
+  "disability_id": "DX00323",
+  "kind": "hospital treatment",
+  "admitted": "2025-09-04",
+  "treatment_for_this_disability_began": "2025-09-04",
+  "discharged": "2025-10-08",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2025-09-06",
+    "last_day_absent": "2025-09-08"
+   },
+   {
+    "first_day_absent": "2025-09-10",
+    "last_day_absent": "2025-09-13"
+   },
+   {
+    "first_day_absent": "2025-09-15",
+    "last_day_absent": "2025-09-15"
+   }
+  ],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00170",
-  "veteran_id": "V0151",
-  "disability_id": "DX00444",
-  "kind": "hospital treatment",
-  "admitted": "2025-09-07",
-  "treatment_for_this_disability_began": "2025-09-07",
-  "discharged": "2025-09-25",
+  "record_id": "H00103",
+  "veteran_id": "V0107",
+  "disability_id": "DX00429",
+  "kind": "surgery or cast",
+  "admitted": "2025-09-06",
+  "treatment_for_this_disability_began": "2025-09-06",
+  "discharged": "2025-09-06",
   "authorized_absences": [],
   "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00112",
-  "veteran_id": "V0103",
-  "disability_id": "DX00296",
-  "kind": "surgery or cast",
+  "record_id": "H00029",
+  "veteran_id": "V0028",
+  "disability_id": "DX00117",
+  "kind": "hospital treatment",
   "admitted": "2025-09-08",
   "treatment_for_this_disability_began": "2025-09-08",
-  "discharged": "2025-09-08",
+  "discharged": "2025-10-26",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2025-10-07",
+    "last_day_absent": "2025-10-20"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00155",
+  "veteran_id": "V0175",
+  "disability_id": "DX00692",
+  "kind": "hospital treatment",
+  "admitted": "2025-09-11",
+  "treatment_for_this_disability_began": "2025-09-11",
+  "discharged": "2025-10-02",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2025-09-13",
+    "last_day_absent": "2025-09-14"
+   },
+   {
+    "first_day_absent": "2025-09-16",
+    "last_day_absent": "2025-09-18"
+   },
+   {
+    "first_day_absent": "2025-09-20",
+    "last_day_absent": "2025-09-21"
+   },
+   {
+    "first_day_absent": "2025-09-23",
+    "last_day_absent": "2025-09-24"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00187",
+  "veteran_id": "V0211",
+  "disability_id": "DX00846",
+  "kind": "hospital treatment",
+  "admitted": "2025-09-13",
+  "treatment_for_this_disability_began": "2025-09-13",
+  "discharged": "2025-10-07",
   "authorized_absences": [],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00169",
-  "veteran_id": "V0149",
-  "disability_id": "DX00435",
+  "record_id": "H00083",
+  "veteran_id": "V0082",
+  "disability_id": "DX00338",
+  "kind": "surgery or cast",
+  "admitted": "2025-09-17",
+  "treatment_for_this_disability_began": "2025-09-17",
+  "discharged": "2025-09-17",
+  "authorized_absences": [],
+  "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00141",
+  "veteran_id": "V0155",
+  "disability_id": "DX00616",
   "kind": "hospital treatment",
-  "admitted": "2025-09-13",
-  "treatment_for_this_disability_began": "2025-09-13",
-  "discharged": "2025-12-07",
+  "admitted": "2025-09-23",
+  "treatment_for_this_disability_began": "2025-10-03",
+  "discharged": "2025-11-22",
+  "authorized_absences": [],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00119",
+  "veteran_id": "V0133",
+  "disability_id": "DX00537",
+  "kind": "surgery or cast",
+  "admitted": "2025-09-27",
+  "treatment_for_this_disability_began": "2025-09-27",
+  "discharged": "2025-09-27",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00005",
+  "veteran_id": "V0008",
+  "disability_id": "DX00037",
+  "kind": "hospital treatment",
+  "admitted": "2025-09-28",
+  "treatment_for_this_disability_began": "2025-09-28",
+  "discharged": "2025-11-01",
   "authorized_absences": [
    {
-    "first_day_absent": "2025-10-10",
-    "last_day_absent": "2025-10-24"
+    "first_day_absent": "2025-10-03",
+    "last_day_absent": "2025-10-06"
    }
   ],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00230",
-  "veteran_id": "V0216",
-  "disability_id": "DX00638",
-  "kind": "hospital treatment",
-  "admitted": "2025-09-18",
-  "treatment_for_this_disability_began": "2025-09-18",
-  "discharged": "2025-11-17",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2025-09-21",
-    "last_day_absent": "2025-09-25"
-   }
-  ],
-  "convalescence_months_granted": 0
+  "record_id": "H00108",
+  "veteran_id": "V0119",
+  "disability_id": "DX00468",
+  "kind": "surgery or cast",
+  "admitted": "2025-09-30",
+  "treatment_for_this_disability_began": "2025-09-30",
+  "discharged": "2025-09-30",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00156",
-  "veteran_id": "V0144",
-  "disability_id": "DX00420",
+  "record_id": "H00002",
+  "veteran_id": "V0005",
+  "disability_id": "DX00019",
+  "kind": "hospital treatment",
+  "admitted": "2025-10-01",
+  "treatment_for_this_disability_began": "2025-10-11",
+  "discharged": "2025-10-25",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00064",
+  "veteran_id": "V0068",
+  "disability_id": "DX00294",
   "kind": "hospital treatment",
   "admitted": "2025-10-01",
   "treatment_for_this_disability_began": "2025-10-01",
@@ -2279,993 +2046,703 @@
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00196",
-  "veteran_id": "V0171",
-  "disability_id": "DX00497",
+  "record_id": "H00046",
+  "veteran_id": "V0044",
+  "disability_id": "DX00176",
   "kind": "hospital treatment",
-  "admitted": "2025-10-04",
-  "treatment_for_this_disability_began": "2025-10-04",
-  "discharged": "2025-10-19",
+  "admitted": "2025-10-18",
+  "treatment_for_this_disability_began": "2025-10-18",
+  "discharged": "2025-12-02",
   "authorized_absences": [],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00224",
-  "veteran_id": "V0209",
-  "disability_id": "DX00610",
-  "kind": "hospital treatment",
-  "admitted": "2025-10-05",
-  "treatment_for_this_disability_began": "2025-10-05",
-  "discharged": "2025-10-15",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00053",
-  "veteran_id": "V0058",
-  "disability_id": "DX00169",
-  "kind": "hospital treatment",
-  "admitted": "2025-10-10",
-  "treatment_for_this_disability_began": "2025-10-10",
-  "discharged": "2025-11-09",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00038",
-  "veteran_id": "V0039",
-  "disability_id": "DX00103",
+  "record_id": "H00184",
+  "veteran_id": "V0207",
+  "disability_id": "DX00817",
   "kind": "surgery or cast",
-  "admitted": "2025-10-17",
-  "treatment_for_this_disability_began": "2025-10-17",
-  "discharged": "2025-10-17",
+  "admitted": "2025-10-25",
+  "treatment_for_this_disability_began": "2025-10-25",
+  "discharged": "2025-10-25",
   "authorized_absences": [],
-  "convalescence_months_granted": 2
+  "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00030",
-  "veteran_id": "V0034",
-  "disability_id": "DX00085",
-  "kind": "hospital treatment",
-  "admitted": "2025-10-22",
-  "treatment_for_this_disability_began": "2025-10-22",
-  "discharged": "2025-11-01",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2025-10-24",
-    "last_day_absent": "2025-10-27"
-   },
-   {
-    "first_day_absent": "2025-10-29",
-    "last_day_absent": "2025-10-31"
-   },
-   {
-    "first_day_absent": "2025-11-02",
-    "last_day_absent": "2025-11-03"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00186",
-  "veteran_id": "V0163",
-  "disability_id": "DX00472",
-  "kind": "hospital treatment",
-  "admitted": "2025-10-23",
-  "treatment_for_this_disability_began": "2025-10-23",
-  "discharged": "2025-11-22",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00130",
-  "veteran_id": "V0123",
-  "disability_id": "DX00364",
-  "kind": "hospital treatment",
+  "record_id": "H00172",
+  "veteran_id": "V0200",
+  "disability_id": "DX00802",
+  "kind": "surgery or cast",
   "admitted": "2025-10-31",
   "treatment_for_this_disability_began": "2025-10-31",
-  "discharged": "2025-12-15",
+  "discharged": "2025-10-31",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00009",
+  "veteran_id": "V0009",
+  "disability_id": "DX00039",
+  "kind": "hospital treatment",
+  "admitted": "2025-11-01",
+  "treatment_for_this_disability_began": "2025-11-01",
+  "discharged": "2025-11-15",
   "authorized_absences": [
    {
-    "first_day_absent": "2025-11-10",
-    "last_day_absent": "2025-11-13"
+    "first_day_absent": "2025-11-06",
+    "last_day_absent": "2025-11-12"
    }
   ],
-  "convalescence_months_granted": 0
+  "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00041",
-  "veteran_id": "V0040",
-  "disability_id": "DX00110",
+  "record_id": "H00171",
+  "veteran_id": "V0198",
+  "disability_id": "DX00791",
   "kind": "hospital treatment",
-  "admitted": "2025-11-05",
-  "treatment_for_this_disability_began": "2025-11-05",
-  "discharged": "2025-12-01",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00162",
-  "veteran_id": "V0145",
-  "disability_id": "DX00421",
-  "kind": "hospital treatment",
-  "admitted": "2025-11-08",
-  "treatment_for_this_disability_began": "2025-11-08",
-  "discharged": "2026-01-09",
+  "admitted": "2025-11-04",
+  "treatment_for_this_disability_began": "2025-11-04",
+  "discharged": "2025-12-08",
   "authorized_absences": [
    {
-    "first_day_absent": "2025-11-11",
-    "last_day_absent": "2025-11-14"
+    "first_day_absent": "2025-11-06",
+    "last_day_absent": "2025-11-07"
+   },
+   {
+    "first_day_absent": "2025-11-09",
+    "last_day_absent": "2025-11-12"
+   },
+   {
+    "first_day_absent": "2025-11-14",
+    "last_day_absent": "2025-11-15"
    }
   ],
   "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00015",
-  "veteran_id": "V0019",
-  "disability_id": "DX00044",
+  "record_id": "H00133",
+  "veteran_id": "V0147",
+  "disability_id": "DX00586",
+  "kind": "surgery or cast",
+  "admitted": "2025-11-06",
+  "treatment_for_this_disability_began": "2025-11-06",
+  "discharged": "2025-11-06",
+  "authorized_absences": [],
+  "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00192",
+  "veteran_id": "V0218",
+  "disability_id": "DX00871",
   "kind": "hospital treatment",
-  "admitted": "2025-11-16",
-  "treatment_for_this_disability_began": "2025-11-16",
-  "discharged": "2025-11-26",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2025-11-18",
-    "last_day_absent": "2025-11-19"
-   },
-   {
-    "first_day_absent": "2025-11-21",
-    "last_day_absent": "2025-11-24"
-   },
-   {
-    "first_day_absent": "2025-11-26",
-    "last_day_absent": "2025-11-28"
-   }
-  ],
+  "admitted": "2025-12-02",
+  "treatment_for_this_disability_began": "2025-12-02",
+  "discharged": "2025-12-27",
+  "authorized_absences": [],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00142",
-  "veteran_id": "V0135",
-  "disability_id": "DX00401",
-  "kind": "surgery or cast",
-  "admitted": "2025-11-16",
-  "treatment_for_this_disability_began": "2025-11-16",
-  "discharged": "2025-11-21",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00037",
-  "veteran_id": "V0037",
-  "disability_id": "DX00093",
-  "kind": "surgery or cast",
-  "admitted": "2025-11-19",
-  "treatment_for_this_disability_began": "2025-11-19",
-  "discharged": "2025-11-19",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00106",
-  "veteran_id": "V0099",
-  "disability_id": "DX00278",
+  "record_id": "H00014",
+  "veteran_id": "V0015",
+  "disability_id": "DX00063",
   "kind": "hospital treatment",
-  "admitted": "2025-11-22",
-  "treatment_for_this_disability_began": "2025-11-22",
-  "discharged": "2026-01-06",
+  "admitted": "2025-12-03",
+  "treatment_for_this_disability_began": "2025-12-03",
+  "discharged": "2025-12-28",
   "authorized_absences": [],
-  "convalescence_months_granted": 2
+  "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00137",
-  "veteran_id": "V0131",
-  "disability_id": "DX00391",
+  "record_id": "H00003",
+  "veteran_id": "V0007",
+  "disability_id": "DX00030",
   "kind": "hospital treatment",
-  "admitted": "2025-11-24",
-  "treatment_for_this_disability_began": "2025-11-24",
-  "discharged": "2025-12-04",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00010",
-  "veteran_id": "V0013",
-  "disability_id": "DX00029",
-  "kind": "hospital treatment",
-  "admitted": "2025-11-25",
-  "treatment_for_this_disability_began": "2025-11-25",
-  "discharged": "2025-12-13",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00080",
-  "veteran_id": "V0083",
-  "disability_id": "DX00243",
-  "kind": "surgery or cast",
-  "admitted": "2025-11-25",
-  "treatment_for_this_disability_began": "2025-11-25",
-  "discharged": "2025-11-25",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00007",
-  "veteran_id": "V0010",
-  "disability_id": "DX00024",
-  "kind": "hospital treatment",
-  "admitted": "2025-11-28",
-  "treatment_for_this_disability_began": "2025-11-28",
-  "discharged": "2025-12-13",
-  "authorized_absences": [],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00107",
-  "veteran_id": "V0100",
-  "disability_id": "DX00285",
-  "kind": "hospital treatment",
-  "admitted": "2025-11-30",
-  "treatment_for_this_disability_began": "2025-11-30",
-  "discharged": "2025-12-26",
+  "admitted": "2025-12-04",
+  "treatment_for_this_disability_began": "2025-12-04",
+  "discharged": "2026-01-07",
   "authorized_absences": [
-   {
-    "first_day_absent": "2025-12-02",
-    "last_day_absent": "2025-12-04"
-   },
    {
     "first_day_absent": "2025-12-06",
     "last_day_absent": "2025-12-09"
    },
    {
     "first_day_absent": "2025-12-11",
-    "last_day_absent": "2025-12-11"
+    "last_day_absent": "2025-12-12"
+   },
+   {
+    "first_day_absent": "2025-12-14",
+    "last_day_absent": "2025-12-15"
    }
   ],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00207",
-  "veteran_id": "V0184",
-  "disability_id": "DX00530",
+  "record_id": "H00070",
+  "veteran_id": "V0073",
+  "disability_id": "DX00306",
   "kind": "hospital treatment",
-  "admitted": "2025-12-03",
-  "treatment_for_this_disability_began": "2025-12-03",
-  "discharged": "2026-01-05",
+  "admitted": "2025-12-04",
+  "treatment_for_this_disability_began": "2025-12-04",
+  "discharged": "2025-12-20",
   "authorized_absences": [
    {
-    "first_day_absent": "2025-12-07",
-    "last_day_absent": "2025-12-11"
-   }
-  ],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00191",
-  "veteran_id": "V0169",
-  "disability_id": "DX00489",
-  "kind": "hospital treatment",
-  "admitted": "2025-12-11",
-  "treatment_for_this_disability_began": "2025-12-11",
-  "discharged": "2025-12-29",
-  "authorized_absences": [
+    "first_day_absent": "2025-12-06",
+    "last_day_absent": "2025-12-09"
+   },
    {
-    "first_day_absent": "2025-12-13",
+    "first_day_absent": "2025-12-11",
     "last_day_absent": "2025-12-14"
    },
    {
     "first_day_absent": "2025-12-16",
-    "last_day_absent": "2025-12-17"
-   },
-   {
-    "first_day_absent": "2025-12-19",
-    "last_day_absent": "2025-12-21"
-   },
-   {
-    "first_day_absent": "2025-12-23",
-    "last_day_absent": "2025-12-24"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00233",
-  "veteran_id": "V0221",
-  "disability_id": "DX00659",
-  "kind": "hospital treatment",
-  "admitted": "2025-12-11",
-  "treatment_for_this_disability_began": "2025-12-16",
-  "discharged": "2025-12-26",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00127",
-  "veteran_id": "V0115",
-  "disability_id": "DX00336",
-  "kind": "hospital treatment",
-  "admitted": "2025-12-12",
-  "treatment_for_this_disability_began": "2025-12-12",
-  "discharged": "2025-12-27",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00098",
-  "veteran_id": "V0095",
-  "disability_id": "DX00271",
-  "kind": "hospital treatment",
-  "admitted": "2025-12-13",
-  "treatment_for_this_disability_began": "2025-12-13",
-  "discharged": "2025-12-31",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2025-12-15",
-    "last_day_absent": "2025-12-18"
-   },
-   {
-    "first_day_absent": "2025-12-20",
-    "last_day_absent": "2025-12-21"
-   },
-   {
-    "first_day_absent": "2025-12-23",
-    "last_day_absent": "2025-12-25"
+    "last_day_absent": "2025-12-16"
    }
   ],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00146",
-  "veteran_id": "V0141",
-  "disability_id": "DX00412",
-  "kind": "surgery or cast",
+  "record_id": "H00147",
+  "veteran_id": "V0165",
+  "disability_id": "DX00650",
+  "kind": "hospital treatment",
+  "admitted": "2025-12-11",
+  "treatment_for_this_disability_began": "2025-12-11",
+  "discharged": "2026-01-29",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2026-01-05",
+    "last_day_absent": "2026-01-19"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00160",
+  "veteran_id": "V0184",
+  "disability_id": "DX00726",
+  "kind": "hospital treatment",
   "admitted": "2025-12-13",
   "treatment_for_this_disability_began": "2025-12-13",
-  "discharged": "2025-12-15",
+  "discharged": "2026-01-12",
   "authorized_absences": [],
   "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00072",
-  "veteran_id": "V0074",
-  "disability_id": "DX00216",
+  "record_id": "H00105",
+  "veteran_id": "V0117",
+  "disability_id": "DX00463",
   "kind": "hospital treatment",
-  "admitted": "2025-12-21",
-  "treatment_for_this_disability_began": "2025-12-21",
-  "discharged": "2026-01-08",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00027",
-  "veteran_id": "V0029",
-  "disability_id": "DX00069",
-  "kind": "hospital treatment",
-  "admitted": "2025-12-24",
-  "treatment_for_this_disability_began": "2025-12-24",
-  "discharged": "2026-01-03",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00165",
-  "veteran_id": "V0148",
-  "disability_id": "DX00429",
-  "kind": "hospital treatment",
-  "admitted": "2026-01-08",
-  "treatment_for_this_disability_began": "2026-01-08",
-  "discharged": "2026-01-23",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00050",
-  "veteran_id": "V0055",
-  "disability_id": "DX00162",
-  "kind": "hospital treatment",
-  "admitted": "2026-01-11",
-  "treatment_for_this_disability_began": "2026-01-11",
-  "discharged": "2026-01-26",
+  "admitted": "2025-12-15",
+  "treatment_for_this_disability_began": "2025-12-15",
+  "discharged": "2026-01-18",
   "authorized_absences": [
    {
-    "first_day_absent": "2026-01-21",
-    "last_day_absent": "2026-01-27"
+    "first_day_absent": "2025-12-17",
+    "last_day_absent": "2025-12-20"
+   },
+   {
+    "first_day_absent": "2025-12-22",
+    "last_day_absent": "2025-12-25"
    }
   ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00022",
+  "veteran_id": "V0025",
+  "disability_id": "DX00104",
+  "kind": "surgery or cast",
+  "admitted": "2025-12-22",
+  "treatment_for_this_disability_began": "2025-12-22",
+  "discharged": "2025-12-22",
+  "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00079",
+  "veteran_id": "V0080",
+  "disability_id": "DX00327",
+  "kind": "surgery or cast",
+  "admitted": "2026-01-02",
+  "treatment_for_this_disability_began": "2026-01-02",
+  "discharged": "2026-01-04",
+  "authorized_absences": [],
   "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00220",
-  "veteran_id": "V0207",
-  "disability_id": "DX00602",
-  "kind": "surgery or cast",
-  "admitted": "2026-01-21",
-  "treatment_for_this_disability_began": "2026-01-21",
-  "discharged": "2026-01-21",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00026",
-  "veteran_id": "V0026",
-  "disability_id": "DX00066",
+  "record_id": "H00180",
+  "veteran_id": "V0201",
+  "disability_id": "DX00804",
   "kind": "hospital treatment",
-  "admitted": "2026-01-22",
-  "treatment_for_this_disability_began": "2026-01-22",
-  "discharged": "2026-02-21",
+  "admitted": "2026-01-02",
+  "treatment_for_this_disability_began": "2026-01-02",
+  "discharged": "2026-02-05",
   "authorized_absences": [
    {
-    "first_day_absent": "2026-02-01",
-    "last_day_absent": "2026-02-05"
+    "first_day_absent": "2026-01-04",
+    "last_day_absent": "2026-01-06"
+   },
+   {
+    "first_day_absent": "2026-01-08",
+    "last_day_absent": "2026-01-09"
+   },
+   {
+    "first_day_absent": "2026-01-11",
+    "last_day_absent": "2026-01-12"
+   },
+   {
+    "first_day_absent": "2026-01-14",
+    "last_day_absent": "2026-01-14"
    }
   ],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00143",
-  "veteran_id": "V0136",
-  "disability_id": "DX00403",
+  "record_id": "H00152",
+  "veteran_id": "V0169",
+  "disability_id": "DX00668",
   "kind": "hospital treatment",
-  "admitted": "2026-01-23",
-  "treatment_for_this_disability_began": "2026-01-23",
-  "discharged": "2026-02-22",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2026-01-25",
-    "last_day_absent": "2026-01-27"
-   },
-   {
-    "first_day_absent": "2026-01-29",
-    "last_day_absent": "2026-02-01"
-   },
-   {
-    "first_day_absent": "2026-02-03",
-    "last_day_absent": "2026-02-04"
-   }
-  ],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00001",
-  "veteran_id": "V0001",
-  "disability_id": "DX00001",
-  "kind": "hospital treatment",
-  "admitted": "2026-01-29",
-  "treatment_for_this_disability_began": "2026-01-29",
-  "discharged": "2026-02-13",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00074",
-  "veteran_id": "V0077",
-  "disability_id": "DX00223",
-  "kind": "surgery or cast",
-  "admitted": "2026-01-29",
-  "treatment_for_this_disability_began": "2026-01-29",
+  "admitted": "2026-01-03",
+  "treatment_for_this_disability_began": "2026-01-03",
   "discharged": "2026-01-29",
   "authorized_absences": [],
   "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00184",
-  "veteran_id": "V0162",
-  "disability_id": "DX00469",
+  "record_id": "H00127",
+  "veteran_id": "V0140",
+  "disability_id": "DX00551",
   "kind": "surgery or cast",
-  "admitted": "2026-02-02",
-  "treatment_for_this_disability_began": "2026-02-02",
+  "admitted": "2026-01-07",
+  "treatment_for_this_disability_began": "2026-01-07",
+  "discharged": "2026-01-07",
+  "authorized_absences": [],
+  "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00048",
+  "veteran_id": "V0049",
+  "disability_id": "DX00200",
+  "kind": "hospital treatment",
+  "admitted": "2026-01-17",
+  "treatment_for_this_disability_began": "2026-01-17",
+  "discharged": "2026-03-03",
+  "authorized_absences": [],
+  "convalescence_months_granted": 2
+ },
+ {
+  "record_id": "H00181",
+  "veteran_id": "V0203",
+  "disability_id": "DX00809",
+  "kind": "hospital treatment",
+  "admitted": "2026-01-18",
+  "treatment_for_this_disability_began": "2026-01-18",
   "discharged": "2026-02-02",
   "authorized_absences": [],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00023",
+  "veteran_id": "V0026",
+  "disability_id": "DX00105",
+  "kind": "hospital treatment",
+  "admitted": "2026-01-24",
+  "treatment_for_this_disability_began": "2026-01-24",
+  "discharged": "2026-02-03",
+  "authorized_absences": [],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00088",
-  "veteran_id": "V0088",
-  "disability_id": "DX00251",
+  "record_id": "H00016",
+  "veteran_id": "V0023",
+  "disability_id": "DX00099",
   "kind": "hospital treatment",
+  "admitted": "2026-02-06",
+  "treatment_for_this_disability_began": "2026-02-06",
+  "discharged": "2026-02-28",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2026-02-08",
+    "last_day_absent": "2026-02-10"
+   },
+   {
+    "first_day_absent": "2026-02-12",
+    "last_day_absent": "2026-02-14"
+   },
+   {
+    "first_day_absent": "2026-02-16",
+    "last_day_absent": "2026-02-18"
+   }
+  ],
+  "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00080",
+  "veteran_id": "V0081",
+  "disability_id": "DX00331",
+  "kind": "surgery or cast",
   "admitted": "2026-02-07",
   "treatment_for_this_disability_began": "2026-02-07",
-  "discharged": "2026-05-02",
+  "discharged": "2026-02-12",
   "authorized_absences": [],
-  "convalescence_months_granted": 0
+  "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00084",
-  "veteran_id": "V0085",
-  "disability_id": "DX00245",
-  "kind": "hospital treatment",
-  "admitted": "2026-02-09",
-  "treatment_for_this_disability_began": "2026-02-09",
-  "discharged": "2026-02-24",
+  "record_id": "H00153",
+  "veteran_id": "V0171",
+  "disability_id": "DX00677",
+  "kind": "surgery or cast",
+  "admitted": "2026-02-12",
+  "treatment_for_this_disability_began": "2026-02-12",
+  "discharged": "2026-02-12",
   "authorized_absences": [],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00228",
-  "veteran_id": "V0214",
-  "disability_id": "DX00631",
+  "record_id": "H00086",
+  "veteran_id": "V0088",
+  "disability_id": "DX00361",
+  "kind": "hospital treatment",
+  "admitted": "2026-02-15",
+  "treatment_for_this_disability_began": "2026-02-15",
+  "discharged": "2026-03-11",
+  "authorized_absences": [],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00049",
+  "veteran_id": "V0050",
+  "disability_id": "DX00207",
   "kind": "surgery or cast",
   "admitted": "2026-02-17",
   "treatment_for_this_disability_began": "2026-02-17",
   "discharged": "2026-02-17",
   "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00113",
-  "veteran_id": "V0103",
-  "disability_id": "DX00294",
-  "kind": "hospital treatment",
-  "admitted": "2026-02-24",
-  "treatment_for_this_disability_began": "2026-02-24",
-  "discharged": "2026-04-19",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2026-02-26",
-    "last_day_absent": "2026-02-28"
-   },
-   {
-    "first_day_absent": "2026-03-02",
-    "last_day_absent": "2026-03-04"
-   },
-   {
-    "first_day_absent": "2026-03-06",
-    "last_day_absent": "2026-03-07"
-   }
-  ],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00226",
-  "veteran_id": "V0212",
-  "disability_id": "DX00624",
-  "kind": "hospital treatment",
-  "admitted": "2026-02-24",
-  "treatment_for_this_disability_began": "2026-02-24",
-  "discharged": "2026-03-06",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2026-02-26",
-    "last_day_absent": "2026-02-28"
-   },
-   {
-    "first_day_absent": "2026-03-02",
-    "last_day_absent": "2026-03-05"
-   },
-   {
-    "first_day_absent": "2026-03-07",
-    "last_day_absent": "2026-03-08"
-   }
-  ],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00062",
-  "veteran_id": "V0070",
-  "disability_id": "DX00208",
+  "record_id": "H00030",
+  "veteran_id": "V0031",
+  "disability_id": "DX00122",
+  "kind": "surgery or cast",
+  "admitted": "2026-02-19",
+  "treatment_for_this_disability_began": "2026-02-19",
+  "discharged": "2026-02-24",
+  "authorized_absences": [],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00156",
+  "veteran_id": "V0175",
+  "disability_id": "DX00692",
   "kind": "hospital treatment",
-  "admitted": "2026-02-25",
-  "treatment_for_this_disability_began": "2026-02-25",
-  "discharged": "2026-04-26",
+  "admitted": "2026-03-04",
+  "treatment_for_this_disability_began": "2026-03-04",
+  "discharged": "2026-04-07",
   "authorized_absences": [
    {
-    "first_day_absent": "2026-02-27",
-    "last_day_absent": "2026-02-28"
+    "first_day_absent": "2026-03-06",
+    "last_day_absent": "2026-03-09"
    },
    {
-    "first_day_absent": "2026-03-02",
-    "last_day_absent": "2026-03-03"
+    "first_day_absent": "2026-03-11",
+    "last_day_absent": "2026-03-13"
    },
    {
-    "first_day_absent": "2026-03-05",
-    "last_day_absent": "2026-03-08"
+    "first_day_absent": "2026-03-15",
+    "last_day_absent": "2026-03-15"
    }
   ],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00005",
-  "veteran_id": "V0007",
-  "disability_id": "DX00016",
+  "record_id": "H00072",
+  "veteran_id": "V0076",
+  "disability_id": "DX00313",
   "kind": "surgery or cast",
-  "admitted": "2026-02-27",
-  "treatment_for_this_disability_began": "2026-02-27",
-  "discharged": "2026-03-04",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00054",
-  "veteran_id": "V0060",
-  "disability_id": "DX00174",
-  "kind": "hospital treatment",
-  "admitted": "2026-02-27",
-  "treatment_for_this_disability_began": "2026-02-27",
-  "discharged": "2026-03-29",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00192",
-  "veteran_id": "V0170",
-  "disability_id": "DX00495",
-  "kind": "hospital treatment",
-  "admitted": "2026-03-08",
-  "treatment_for_this_disability_began": "2026-03-08",
+  "admitted": "2026-03-13",
+  "treatment_for_this_disability_began": "2026-03-13",
   "discharged": "2026-03-18",
   "authorized_absences": [],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00006",
-  "veteran_id": "V0008",
-  "disability_id": "DX00020",
-  "kind": "surgery or cast",
-  "admitted": "2026-03-11",
-  "treatment_for_this_disability_began": "2026-03-11",
-  "discharged": "2026-03-11",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00128",
-  "veteran_id": "V0121",
-  "disability_id": "DX00351",
+  "record_id": "H00162",
+  "veteran_id": "V0186",
+  "disability_id": "DX00735",
   "kind": "hospital treatment",
-  "admitted": "2026-03-14",
-  "treatment_for_this_disability_began": "2026-03-14",
-  "discharged": "2026-04-01",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2026-03-16",
-    "last_day_absent": "2026-03-18"
-   },
-   {
-    "first_day_absent": "2026-03-20",
-    "last_day_absent": "2026-03-21"
-   },
-   {
-    "first_day_absent": "2026-03-23",
-    "last_day_absent": "2026-03-25"
-   }
-  ],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00043",
-  "veteran_id": "V0042",
-  "disability_id": "DX00119",
-  "kind": "surgery or cast",
-  "admitted": "2026-03-17",
-  "treatment_for_this_disability_began": "2026-03-17",
-  "discharged": "2026-03-22",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00202",
-  "veteran_id": "V0178",
-  "disability_id": "DX00516",
-  "kind": "hospital treatment",
-  "admitted": "2026-03-19",
-  "treatment_for_this_disability_began": "2026-03-19",
+  "admitted": "2026-03-15",
+  "treatment_for_this_disability_began": "2026-03-15",
   "discharged": "2026-04-14",
   "authorized_absences": [],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00036",
-  "veteran_id": "V0036",
-  "disability_id": "DX00092",
+  "record_id": "H00118",
+  "veteran_id": "V0132",
+  "disability_id": "DX00525",
   "kind": "surgery or cast",
   "admitted": "2026-03-20",
   "treatment_for_this_disability_began": "2026-03-20",
-  "discharged": "2026-03-22",
+  "discharged": "2026-03-25",
   "authorized_absences": [],
-  "convalescence_months_granted": 2
+  "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00095",
-  "veteran_id": "V0093",
-  "disability_id": "DX00265",
-  "kind": "hospital treatment",
-  "admitted": "2026-03-20",
-  "treatment_for_this_disability_began": "2026-03-30",
-  "discharged": "2026-05-04",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00122",
-  "veteran_id": "V0108",
-  "disability_id": "DX00315",
-  "kind": "hospital treatment",
-  "admitted": "2026-03-21",
-  "treatment_for_this_disability_began": "2026-03-21",
-  "discharged": "2026-04-05",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00231",
-  "veteran_id": "V0219",
-  "disability_id": "DX00646",
-  "kind": "hospital treatment",
-  "admitted": "2026-03-22",
-  "treatment_for_this_disability_began": "2026-03-22",
-  "discharged": "2026-05-21",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2026-03-24",
-    "last_day_absent": "2026-03-26"
-   },
-   {
-    "first_day_absent": "2026-03-28",
-    "last_day_absent": "2026-03-29"
-   },
-   {
-    "first_day_absent": "2026-03-31",
-    "last_day_absent": "2026-04-03"
-   }
-  ],
-  "convalescence_months_granted": 1
- },
- {
-  "record_id": "H00133",
-  "veteran_id": "V0128",
-  "disability_id": "DX00378",
+  "record_id": "H00183",
+  "veteran_id": "V0206",
+  "disability_id": "DX00815",
   "kind": "surgery or cast",
-  "admitted": "2026-03-24",
-  "treatment_for_this_disability_began": "2026-03-24",
-  "discharged": "2026-03-26",
+  "admitted": "2026-03-23",
+  "treatment_for_this_disability_began": "2026-03-23",
+  "discharged": "2026-03-23",
   "authorized_absences": [],
-  "convalescence_months_granted": 1
+  "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00002",
-  "veteran_id": "V0002",
-  "disability_id": "DX00004",
+  "record_id": "H00038",
+  "veteran_id": "V0040",
+  "disability_id": "DX00155",
   "kind": "hospital treatment",
-  "admitted": "2026-03-26",
-  "treatment_for_this_disability_began": "2026-03-26",
-  "discharged": "2026-04-19",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00104",
-  "veteran_id": "V0098",
-  "disability_id": "DX00275",
-  "kind": "surgery or cast",
   "admitted": "2026-04-02",
   "treatment_for_this_disability_began": "2026-04-02",
-  "discharged": "2026-04-02",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00008",
-  "veteran_id": "V0012",
-  "disability_id": "DX00026",
-  "kind": "hospital treatment",
-  "admitted": "2026-04-03",
-  "treatment_for_this_disability_began": "2026-04-03",
-  "discharged": "2026-04-13",
-  "authorized_absences": [],
+  "discharged": "2026-04-17",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2026-04-04",
+    "last_day_absent": "2026-04-05"
+   },
+   {
+    "first_day_absent": "2026-04-07",
+    "last_day_absent": "2026-04-10"
+   },
+   {
+    "first_day_absent": "2026-04-12",
+    "last_day_absent": "2026-04-14"
+   }
+  ],
   "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00123",
-  "veteran_id": "V0110",
-  "disability_id": "DX00321",
+  "record_id": "H00060",
+  "veteran_id": "V0063",
+  "disability_id": "DX00273",
   "kind": "hospital treatment",
-  "admitted": "2026-04-13",
-  "treatment_for_this_disability_began": "2026-04-13",
-  "discharged": "2026-05-13",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00201",
-  "veteran_id": "V0177",
-  "disability_id": "DX00513",
-  "kind": "hospital treatment",
-  "admitted": "2026-04-13",
-  "treatment_for_this_disability_began": "2026-04-13",
-  "discharged": "2026-06-27",
+  "admitted": "2026-04-04",
+  "treatment_for_this_disability_began": "2026-04-04",
+  "discharged": "2026-05-08",
   "authorized_absences": [
    {
-    "first_day_absent": "2026-05-12",
-    "last_day_absent": "2026-05-26"
+    "first_day_absent": "2026-04-09",
+    "last_day_absent": "2026-04-12"
    }
   ],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00031",
-  "veteran_id": "V0034",
-  "disability_id": "DX00086",
+  "record_id": "H00071",
+  "veteran_id": "V0074",
+  "disability_id": "DX00311",
   "kind": "hospital treatment",
-  "admitted": "2026-04-16",
-  "treatment_for_this_disability_began": "2026-04-16",
-  "discharged": "2026-06-27",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2026-04-27",
-    "last_day_absent": "2026-05-01"
-   }
-  ],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00200",
-  "veteran_id": "V0174",
-  "disability_id": "DX00507",
-  "kind": "hospital treatment",
-  "admitted": "2026-04-26",
-  "treatment_for_this_disability_began": "2026-04-26",
-  "discharged": "2026-05-11",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00094",
-  "veteran_id": "V0092",
-  "disability_id": "DX00262",
-  "kind": "surgery or cast",
-  "admitted": "2026-04-27",
-  "treatment_for_this_disability_began": "2026-04-27",
-  "discharged": "2026-04-29",
+  "admitted": "2026-04-04",
+  "treatment_for_this_disability_began": "2026-04-04",
+  "discharged": "2026-04-19",
   "authorized_absences": [],
   "convalescence_months_granted": 3
  },
  {
-  "record_id": "H00232",
-  "veteran_id": "V0220",
-  "disability_id": "DX00649",
-  "kind": "surgery or cast",
-  "admitted": "2026-05-01",
-  "treatment_for_this_disability_began": "2026-05-01",
-  "discharged": "2026-05-03",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00012",
-  "veteran_id": "V0017",
-  "disability_id": "DX00037",
+  "record_id": "H00043",
+  "veteran_id": "V0041",
+  "disability_id": "DX00156",
   "kind": "hospital treatment",
-  "admitted": "2026-05-04",
-  "treatment_for_this_disability_began": "2026-05-04",
-  "discharged": "2026-06-16",
+  "admitted": "2026-04-09",
+  "treatment_for_this_disability_began": "2026-04-09",
+  "discharged": "2026-05-06",
   "authorized_absences": [
    {
-    "first_day_absent": "2026-05-08",
-    "last_day_absent": "2026-05-11"
+    "first_day_absent": "2026-04-18",
+    "last_day_absent": "2026-04-24"
    }
   ],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00028",
-  "veteran_id": "V0032",
-  "disability_id": "DX00080",
+  "record_id": "H00145",
+  "veteran_id": "V0160",
+  "disability_id": "DX00633",
   "kind": "hospital treatment",
-  "admitted": "2026-05-04",
-  "treatment_for_this_disability_began": "2026-05-04",
-  "discharged": "2026-05-22",
+  "admitted": "2026-04-22",
+  "treatment_for_this_disability_began": "2026-04-22",
+  "discharged": "2026-05-02",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00109",
+  "veteran_id": "V0119",
+  "disability_id": "DX00469",
+  "kind": "surgery or cast",
+  "admitted": "2026-04-23",
+  "treatment_for_this_disability_began": "2026-04-23",
+  "discharged": "2026-04-28",
   "authorized_absences": [],
   "convalescence_months_granted": 1
  },
  {
-  "record_id": "H00003",
-  "veteran_id": "V0003",
-  "disability_id": "DX00006",
-  "kind": "surgery or cast",
-  "admitted": "2026-05-05",
-  "treatment_for_this_disability_began": "2026-05-05",
-  "discharged": "2026-05-07",
+  "record_id": "H00185",
+  "veteran_id": "V0208",
+  "disability_id": "DX00822",
+  "kind": "hospital treatment",
+  "admitted": "2026-04-30",
+  "treatment_for_this_disability_began": "2026-04-30",
+  "discharged": "2026-05-18",
   "authorized_absences": [],
-  "convalescence_months_granted": 3
+  "convalescence_months_granted": 2
  },
  {
-  "record_id": "H00135",
-  "veteran_id": "V0130",
-  "disability_id": "DX00388",
+  "record_id": "H00069",
+  "veteran_id": "V0070",
+  "disability_id": "DX00298",
+  "kind": "hospital treatment",
+  "admitted": "2026-05-02",
+  "treatment_for_this_disability_began": "2026-05-02",
+  "discharged": "2026-06-05",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2026-05-04",
+    "last_day_absent": "2026-05-06"
+   },
+   {
+    "first_day_absent": "2026-05-08",
+    "last_day_absent": "2026-05-10"
+   },
+   {
+    "first_day_absent": "2026-05-12",
+    "last_day_absent": "2026-05-13"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00186",
+  "veteran_id": "V0210",
+  "disability_id": "DX00841",
   "kind": "hospital treatment",
   "admitted": "2026-05-06",
   "treatment_for_this_disability_began": "2026-05-06",
-  "discharged": "2026-05-21",
-  "authorized_absences": [],
+  "discharged": "2026-05-30",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2026-05-08",
+    "last_day_absent": "2026-05-09"
+   },
+   {
+    "first_day_absent": "2026-05-11",
+    "last_day_absent": "2026-05-12"
+   },
+   {
+    "first_day_absent": "2026-05-14",
+    "last_day_absent": "2026-05-16"
+   },
+   {
+    "first_day_absent": "2026-05-18",
+    "last_day_absent": "2026-05-19"
+   }
+  ],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00089",
-  "veteran_id": "V0090",
-  "disability_id": "DX00258",
+  "record_id": "H00114",
+  "veteran_id": "V0124",
+  "disability_id": "DX00491",
   "kind": "hospital treatment",
-  "admitted": "2026-05-11",
-  "treatment_for_this_disability_began": "2026-05-11",
-  "discharged": "2026-06-10",
-  "authorized_absences": [],
-  "convalescence_months_granted": 0
- },
- {
-  "record_id": "H00042",
-  "veteran_id": "V0040",
-  "disability_id": "DX00110",
-  "kind": "surgery or cast",
   "admitted": "2026-05-12",
   "treatment_for_this_disability_began": "2026-05-12",
-  "discharged": "2026-05-12",
-  "authorized_absences": [],
-  "convalescence_months_granted": 2
- },
- {
-  "record_id": "H00117",
-  "veteran_id": "V0105",
-  "disability_id": "DX00306",
-  "kind": "hospital treatment",
-  "admitted": "2026-05-21",
-  "treatment_for_this_disability_began": "2026-05-21",
-  "discharged": "2026-05-31",
+  "discharged": "2026-06-15",
   "authorized_absences": [
    {
-    "first_day_absent": "2026-05-23",
-    "last_day_absent": "2026-05-26"
+    "first_day_absent": "2026-05-14",
+    "last_day_absent": "2026-05-15"
    },
    {
-    "first_day_absent": "2026-05-28",
-    "last_day_absent": "2026-05-31"
-   }
-  ],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00049",
-  "veteran_id": "V0054",
-  "disability_id": "DX00159",
-  "kind": "surgery or cast",
-  "admitted": "2026-05-23",
-  "treatment_for_this_disability_began": "2026-05-23",
-  "discharged": "2026-05-25",
-  "authorized_absences": [],
-  "convalescence_months_granted": 3
- },
- {
-  "record_id": "H00187",
-  "veteran_id": "V0166",
-  "disability_id": "DX00477",
-  "kind": "hospital treatment",
-  "admitted": "2026-05-24",
-  "treatment_for_this_disability_began": "2026-05-24",
-  "discharged": "2026-06-23",
-  "authorized_absences": [
-   {
-    "first_day_absent": "2026-05-26",
-    "last_day_absent": "2026-05-27"
+    "first_day_absent": "2026-05-17",
+    "last_day_absent": "2026-05-20"
    },
    {
-    "first_day_absent": "2026-05-29",
-    "last_day_absent": "2026-06-01"
-   },
-   {
-    "first_day_absent": "2026-06-03",
-    "last_day_absent": "2026-06-04"
+    "first_day_absent": "2026-05-22",
+    "last_day_absent": "2026-05-23"
    }
   ],
   "convalescence_months_granted": 0
  },
  {
-  "record_id": "H00018",
-  "veteran_id": "V0022",
-  "disability_id": "DX00056",
+  "record_id": "H00107",
+  "veteran_id": "V0118",
+  "disability_id": "DX00465",
   "kind": "hospital treatment",
-  "admitted": "2026-05-30",
-  "treatment_for_this_disability_began": "2026-05-30",
-  "discharged": "2026-06-29",
+  "admitted": "2026-05-15",
+  "treatment_for_this_disability_began": "2026-05-15",
+  "discharged": "2026-06-16",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00032",
+  "veteran_id": "V0033",
+  "disability_id": "DX00132",
+  "kind": "hospital treatment",
+  "admitted": "2026-05-16",
+  "treatment_for_this_disability_began": "2026-05-16",
+  "discharged": "2026-05-31",
   "authorized_absences": [],
   "convalescence_months_granted": 3
+ },
+ {
+  "record_id": "H00191",
+  "veteran_id": "V0217",
+  "disability_id": "DX00869",
+  "kind": "hospital treatment",
+  "admitted": "2026-05-16",
+  "treatment_for_this_disability_began": "2026-05-16",
+  "discharged": "2026-05-31",
+  "authorized_absences": [],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00019",
+  "veteran_id": "V0024",
+  "disability_id": "DX00102",
+  "kind": "hospital treatment",
+  "admitted": "2026-05-22",
+  "treatment_for_this_disability_began": "2026-05-22",
+  "discharged": "2026-07-03",
+  "authorized_absences": [
+   {
+    "first_day_absent": "2026-06-16",
+    "last_day_absent": "2026-06-29"
+   }
+  ],
+  "convalescence_months_granted": 0
+ },
+ {
+  "record_id": "H00142",
+  "veteran_id": "V0155",
+  "disability_id": "DX00617",
+  "kind": "surgery or cast",
+  "admitted": "2026-05-27",
+  "treatment_for_this_disability_began": "2026-05-27",
+  "discharged": "2026-05-27",
+  "authorized_absences": [],
+  "convalescence_months_granted": 1
+ },
+ {
+  "record_id": "H00090",
+  "veteran_id": "V0093",
+  "disability_id": "DX00374",
+  "kind": "surgery or cast",
+  "admitted": "2026-05-29",
+  "treatment_for_this_disability_began": "2026-05-29",
+  "discharged": "2026-06-03",
+  "authorized_absences": [],
+  "convalescence_months_granted": 2
  }
 ]

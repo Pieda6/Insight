@@ -1,2523 +1,1983 @@
 {
-"V0011,2023-01": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0011,2023-02": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0011,2023-03": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0011,2023-04": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0011,2023-05": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0011,2023-06": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0011,2023-07": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0011,2023-08": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0011,2023-09": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0011,2023-10": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0011,2023-11": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0011,2023-12": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0011,2024-01": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0011,2024-02": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0011,2024-03": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0011,2024-04": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0011,2024-05": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0011,2024-06": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0011,2024-07": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0011,2024-08": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0011,2024-09": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0011,2024-10": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0011,2024-11": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0011,2024-12": {
-"combined_rating": "30",
-"payment": "537.42"
-},
-"V0011,2025-01": {
-"combined_rating": "30",
-"payment": "537.42"
-},
-"V0011,2025-02": {
-"combined_rating": "30",
-"payment": "537.42"
-},
-"V0011,2025-03": {
-"combined_rating": "30",
-"payment": "537.42"
-},
-"V0011,2025-04": {
-"combined_rating": "30",
-"payment": "537.42"
-},
-"V0011,2025-05": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0011,2025-06": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0011,2025-07": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0011,2025-08": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0011,2025-09": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0011,2025-10": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0011,2025-11": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0011,2025-12": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0011,2026-01": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0011,2026-02": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0011,2026-03": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0011,2026-04": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0011,2026-05": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0011,2026-06": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0011,2026-07": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0011,2026-08": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0011,2026-09": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0016,2023-01": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0016,2023-02": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0016,2023-03": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0016,2023-04": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0016,2023-05": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0016,2023-06": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0016,2023-07": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0016,2023-08": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0016,2023-09": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0016,2023-10": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0016,2023-11": {
-"combined_rating": "30",
-"payment": "508.05"
-},
-"V0016,2023-12": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0016,2024-01": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0016,2024-02": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0016,2024-03": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0016,2024-04": {
-"combined_rating": "30",
-"payment": "524.31"
-},
-"V0016,2024-05": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0016,2024-06": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0016,2024-07": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0016,2024-08": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0016,2024-09": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0016,2024-10": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0016,2024-11": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0016,2024-12": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0016,2025-01": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0016,2025-02": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0016,2025-03": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0016,2025-04": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0016,2025-05": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0016,2025-06": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0016,2025-07": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0016,2025-08": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0016,2025-09": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0016,2025-10": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0016,2025-11": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0016,2025-12": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0016,2026-01": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0016,2026-02": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0016,2026-03": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0016,2026-04": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0016,2026-05": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0016,2026-06": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0016,2026-07": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0016,2026-08": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0016,2026-09": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0030,2023-01": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0030,2023-02": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0030,2023-03": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0030,2023-04": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0030,2023-05": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0030,2023-06": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0030,2023-07": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0030,2023-08": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0030,2023-09": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0030,2023-10": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0030,2023-11": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0030,2023-12": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0030,2024-01": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0030,2024-02": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0030,2024-03": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0030,2024-04": {
-"combined_rating": "50",
-"payment": "1143.51"
-},
-"V0030,2024-05": {
-"combined_rating": "50",
-"payment": "1143.51"
-},
-"V0030,2024-06": {
-"combined_rating": "50",
-"payment": "1143.51"
-},
-"V0030,2024-07": {
-"combined_rating": "50",
-"payment": "1195.26"
-},
-"V0030,2024-08": {
-"combined_rating": "50",
-"payment": "1195.26"
-},
-"V0030,2024-09": {
-"combined_rating": "50",
-"payment": "1195.26"
-},
-"V0030,2024-10": {
-"combined_rating": "50",
-"payment": "1306.91"
-},
-"V0030,2024-11": {
-"combined_rating": "50",
-"payment": "1306.91"
-},
-"V0030,2024-12": {
-"combined_rating": "50",
-"payment": "1339.58"
-},
-"V0030,2025-01": {
-"combined_rating": "50",
-"payment": "1339.58"
-},
-"V0030,2025-02": {
-"combined_rating": "50",
-"payment": "1339.58"
-},
-"V0030,2025-03": {
-"combined_rating": "50",
-"payment": "1339.58"
-},
-"V0030,2025-04": {
-"combined_rating": "50",
-"payment": "1339.58"
-},
-"V0030,2025-05": {
-"combined_rating": "50",
-"payment": "1339.58"
-},
-"V0030,2025-06": {
-"combined_rating": "50",
-"payment": "1339.58"
-},
-"V0030,2025-07": {
-"combined_rating": "50",
-"payment": "1339.58"
-},
-"V0030,2025-08": {
-"combined_rating": "50",
-"payment": "1339.58"
-},
-"V0030,2025-09": {
-"combined_rating": "50",
-"payment": "1339.58"
-},
-"V0030,2025-10": {
-"combined_rating": "50",
-"payment": "1339.58"
-},
-"V0030,2025-11": {
-"combined_rating": "50",
-"payment": "1339.58"
-},
-"V0030,2025-12": {
-"combined_rating": "50",
-"payment": "1377.09"
-},
-"V0030,2026-01": {
-"combined_rating": "50",
-"payment": "1377.09"
-},
-"V0030,2026-02": {
-"combined_rating": "50",
-"payment": "1377.09"
-},
-"V0030,2026-03": {
-"combined_rating": "50",
-"payment": "1377.09"
-},
-"V0030,2026-04": {
-"combined_rating": "50",
-"payment": "1377.09"
-},
-"V0030,2026-05": {
-"combined_rating": "50",
-"payment": "1377.09"
-},
-"V0030,2026-06": {
-"combined_rating": "50",
-"payment": "1377.09"
-},
-"V0030,2026-07": {
-"combined_rating": "50",
-"payment": "1377.09"
-},
-"V0030,2026-08": {
-"combined_rating": "50",
-"payment": "1377.09"
-},
-"V0030,2026-09": {
-"combined_rating": "50",
-"payment": "1377.09"
-},
-"V0038,2023-01": {
-"combined_rating": "90",
-"payment": "2172.39"
-},
-"V0038,2023-02": {
-"combined_rating": "90",
-"payment": "2172.39"
-},
-"V0038,2023-03": {
-"combined_rating": "90",
-"payment": "2172.39"
-},
-"V0038,2023-04": {
-"combined_rating": "90",
-"payment": "2172.39"
-},
-"V0038,2023-05": {
-"combined_rating": "90",
-"payment": "2172.39"
-},
-"V0038,2023-06": {
-"combined_rating": "90",
-"payment": "2172.39"
-},
-"V0038,2023-07": {
-"combined_rating": "90",
-"payment": "2172.39"
-},
-"V0038,2023-08": {
-"combined_rating": "90",
-"payment": "2172.39"
-},
-"V0038,2023-09": {
-"combined_rating": "90",
-"payment": "2172.39"
-},
-"V0038,2023-10": {
-"combined_rating": "90",
-"payment": "2172.39"
-},
-"V0038,2023-11": {
-"combined_rating": "90",
-"payment": "2172.39"
-},
-"V0038,2023-12": {
-"combined_rating": "90",
-"payment": "2241.91"
-},
-"V0038,2024-01": {
-"combined_rating": "90",
-"payment": "2241.91"
-},
-"V0038,2024-02": {
-"combined_rating": "90",
-"payment": "2241.91"
-},
-"V0038,2024-03": {
-"combined_rating": "90",
-"payment": "2241.91"
-},
-"V0038,2024-04": {
-"combined_rating": "90",
-"payment": "2241.91"
-},
-"V0038,2024-05": {
-"combined_rating": "90",
-"payment": "2241.91"
-},
-"V0038,2024-06": {
-"combined_rating": "90",
-"payment": "2241.91"
-},
-"V0038,2024-07": {
-"combined_rating": "90",
-"payment": "2241.91"
-},
-"V0038,2024-08": {
-"combined_rating": "90",
-"payment": "2241.91"
-},
-"V0038,2024-09": {
-"combined_rating": "90",
-"payment": "2241.91"
-},
-"V0038,2024-10": {
-"combined_rating": "90",
-"payment": "2241.91"
-},
-"V0038,2024-11": {
-"combined_rating": "90",
-"payment": "2241.91"
-},
-"V0038,2024-12": {
-"combined_rating": "90",
-"payment": "2297.96"
-},
-"V0038,2025-01": {
-"combined_rating": "90",
-"payment": "2297.96"
-},
-"V0038,2025-02": {
-"combined_rating": "90",
-"payment": "2297.96"
-},
-"V0038,2025-03": {
-"combined_rating": "90",
-"payment": "2297.96"
-},
-"V0038,2025-04": {
-"combined_rating": "90",
-"payment": "2297.96"
-},
-"V0038,2025-05": {
-"combined_rating": "90",
-"payment": "2297.96"
-},
-"V0038,2025-06": {
-"combined_rating": "90",
-"payment": "2297.96"
-},
-"V0038,2025-07": {
-"combined_rating": "90",
-"payment": "2297.96"
-},
-"V0038,2025-08": {
-"combined_rating": "90",
-"payment": "2297.96"
-},
-"V0038,2025-09": {
-"combined_rating": "90",
-"payment": "2297.96"
-},
-"V0038,2025-10": {
-"combined_rating": "90",
-"payment": "2297.96"
-},
-"V0038,2025-11": {
-"combined_rating": "90",
-"payment": "2297.96"
-},
-"V0038,2025-12": {
-"combined_rating": "90",
-"payment": "2362.30"
-},
-"V0038,2026-01": {
-"combined_rating": "90",
-"payment": "2362.30"
-},
-"V0038,2026-02": {
-"combined_rating": "90",
-"payment": "2362.30"
-},
-"V0038,2026-03": {
-"combined_rating": "90",
-"payment": "2362.30"
-},
-"V0038,2026-04": {
-"combined_rating": "90",
-"payment": "2362.30"
-},
-"V0038,2026-05": {
-"combined_rating": "90",
-"payment": "2362.30"
-},
-"V0038,2026-06": {
-"combined_rating": "90",
-"payment": "2362.30"
-},
-"V0038,2026-07": {
-"combined_rating": "90",
-"payment": "2362.30"
-},
-"V0038,2026-08": {
-"combined_rating": "90",
-"payment": "2362.30"
-},
-"V0038,2026-09": {
-"combined_rating": "90",
-"payment": "2362.30"
-},
-"V0047,2023-01": {
-"combined_rating": "70",
-"payment": "1663.06"
-},
-"V0047,2023-02": {
-"combined_rating": "70",
-"payment": "1663.06"
-},
-"V0047,2023-03": {
-"combined_rating": "70",
-"payment": "1663.06"
-},
-"V0047,2023-04": {
-"combined_rating": "70",
-"payment": "1663.06"
-},
-"V0047,2023-05": {
-"combined_rating": "70",
-"payment": "1663.06"
-},
-"V0047,2023-06": {
-"combined_rating": "70",
-"payment": "1663.06"
-},
-"V0047,2023-07": {
-"combined_rating": "70",
-"payment": "1663.06"
-},
-"V0047,2023-08": {
-"combined_rating": "70",
-"payment": "1663.06"
-},
-"V0047,2023-09": {
-"combined_rating": "70",
-"payment": "1663.06"
-},
-"V0047,2023-10": {
-"combined_rating": "70",
-"payment": "1663.06"
-},
-"V0047,2023-11": {
-"combined_rating": "70",
-"payment": "1663.06"
-},
-"V0047,2023-12": {
-"combined_rating": "70",
-"payment": "1716.28"
-},
-"V0047,2024-01": {
-"combined_rating": "70",
-"payment": "1716.28"
-},
-"V0047,2024-02": {
-"combined_rating": "70",
-"payment": "1716.28"
-},
-"V0047,2024-03": {
-"combined_rating": "70",
-"payment": "1716.28"
-},
-"V0047,2024-04": {
-"combined_rating": "70",
-"payment": "1716.28"
-},
-"V0047,2024-05": {
-"combined_rating": "70",
-"payment": "1716.28"
-},
-"V0047,2024-06": {
-"combined_rating": "70",
-"payment": "1716.28"
-},
-"V0047,2024-07": {
-"combined_rating": "70",
-"payment": "1716.28"
-},
-"V0047,2024-08": {
-"combined_rating": "70",
-"payment": "1716.28"
-},
-"V0047,2024-09": {
-"combined_rating": "70",
-"payment": "1716.28"
-},
-"V0047,2024-10": {
-"combined_rating": "70",
-"payment": "1716.28"
-},
-"V0047,2024-11": {
-"combined_rating": "70",
-"payment": "1716.28"
-},
-"V0047,2024-12": {
-"combined_rating": "70",
-"payment": "1759.19"
-},
-"V0047,2025-01": {
-"combined_rating": "70",
-"payment": "1759.19"
-},
-"V0047,2025-02": {
-"combined_rating": "70",
-"payment": "1759.19"
-},
-"V0047,2025-03": {
-"combined_rating": "70",
-"payment": "1759.19"
-},
-"V0047,2025-04": {
-"combined_rating": "70",
-"payment": "1759.19"
-},
-"V0047,2025-05": {
-"combined_rating": "70",
-"payment": "1759.19"
-},
-"V0047,2025-06": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0047,2025-07": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0047,2025-08": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0047,2025-09": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0047,2025-10": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0047,2025-11": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0047,2025-12": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0047,2026-01": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0047,2026-02": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0047,2026-03": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0047,2026-04": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0047,2026-05": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0047,2026-06": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0047,2026-07": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0047,2026-08": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0047,2026-09": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0048,2023-01": {
+"V0017,2023-01": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2023-02": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2023-03": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2023-04": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2023-05": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2023-06": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2023-07": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2023-08": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2023-09": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2023-10": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2023-11": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2023-12": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2024-01": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2024-02": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2024-03": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2024-04": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2024-05": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0017,2024-06": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0017,2024-07": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0017,2024-08": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0017,2024-09": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0017,2024-10": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0017,2024-11": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0017,2024-12": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0017,2025-01": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0017,2025-02": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0017,2025-03": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0017,2025-04": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0017,2025-05": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0017,2025-06": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0017,2025-07": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0017,2025-08": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0017,2025-09": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0017,2025-10": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0017,2025-11": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0017,2025-12": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0017,2026-01": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0017,2026-02": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0017,2026-03": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0017,2026-04": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0017,2026-05": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0017,2026-06": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0017,2026-07": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0017,2026-08": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0017,2026-09": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0068,2023-01": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0048,2023-02": {
+"V0068,2023-02": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0048,2023-03": {
+"V0068,2023-03": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0048,2023-04": {
+"V0068,2023-04": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0048,2023-05": {
+"V0068,2023-05": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0048,2023-06": {
+"V0068,2023-06": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0048,2023-07": {
+"V0068,2023-07": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0048,2023-08": {
+"V0068,2023-08": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0048,2023-09": {
+"V0068,2023-09": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0048,2023-10": {
+"V0068,2023-10": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0048,2023-11": {
+"V0068,2023-11": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0048,2023-12": {
+"V0068,2023-12": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0048,2024-01": {
+"V0068,2024-01": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0048,2024-02": {
+"V0068,2024-02": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0048,2024-03": {
+"V0068,2024-03": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0048,2024-04": {
+"V0068,2024-04": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0048,2024-05": {
+"V0068,2024-05": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0048,2024-06": {
+"V0068,2024-06": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0048,2024-07": {
+"V0068,2024-07": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0048,2024-08": {
+"V0068,2024-08": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0048,2024-09": {
+"V0068,2024-09": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0048,2024-10": {
+"V0068,2024-10": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0048,2024-11": {
+"V0068,2024-11": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0048,2024-12": {
+"V0068,2024-12": {
 "combined_rating": "40",
 "payment": "774.16"
 },
-"V0048,2025-01": {
+"V0068,2025-01": {
 "combined_rating": "40",
 "payment": "774.16"
 },
-"V0048,2025-02": {
-"combined_rating": "40",
-"payment": "774.16"
-},
-"V0048,2025-03": {
-"combined_rating": "40",
-"payment": "774.16"
-},
-"V0048,2025-04": {
-"combined_rating": "40",
-"payment": "774.16"
-},
-"V0048,2025-05": {
-"combined_rating": "40",
-"payment": "774.16"
-},
-"V0048,2025-06": {
-"combined_rating": "40",
-"payment": "774.16"
-},
-"V0048,2025-07": {
-"combined_rating": "40",
-"payment": "774.16"
-},
-"V0048,2025-08": {
-"combined_rating": "40",
-"payment": "774.16"
-},
-"V0048,2025-09": {
-"combined_rating": "40",
-"payment": "774.16"
-},
-"V0048,2025-10": {
-"combined_rating": "40",
-"payment": "774.16"
-},
-"V0048,2025-11": {
-"combined_rating": "40",
-"payment": "774.16"
-},
-"V0048,2025-12": {
-"combined_rating": "40",
-"payment": "795.84"
-},
-"V0048,2026-01": {
-"combined_rating": "40",
-"payment": "795.84"
-},
-"V0048,2026-02": {
-"combined_rating": "40",
-"payment": "795.84"
-},
-"V0048,2026-03": {
-"combined_rating": "40",
-"payment": "795.84"
-},
-"V0048,2026-04": {
-"combined_rating": "40",
-"payment": "795.84"
-},
-"V0048,2026-05": {
-"combined_rating": "40",
-"payment": "795.84"
-},
-"V0048,2026-06": {
-"combined_rating": "40",
-"payment": "795.84"
-},
-"V0048,2026-07": {
-"combined_rating": "40",
-"payment": "795.84"
-},
-"V0048,2026-08": {
-"combined_rating": "40",
-"payment": "795.84"
-},
-"V0048,2026-09": {
-"combined_rating": "40",
-"payment": "795.84"
-},
-"V0056,2023-01": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0056,2023-02": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0056,2023-03": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0056,2023-04": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0056,2023-05": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0056,2023-06": {
-"combined_rating": "10",
-"payment": "165.92"
-},
-"V0056,2023-07": {
-"combined_rating": "10",
-"payment": "165.92"
-},
-"V0056,2023-08": {
-"combined_rating": "10",
-"payment": "165.92"
-},
-"V0056,2023-09": {
-"combined_rating": "10",
-"payment": "165.92"
-},
-"V0056,2023-10": {
-"combined_rating": "10",
-"payment": "165.92"
-},
-"V0056,2023-11": {
-"combined_rating": "10",
-"payment": "165.92"
-},
-"V0056,2023-12": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0056,2024-01": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0056,2024-02": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0056,2024-03": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0056,2024-04": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0056,2024-05": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0056,2024-06": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0056,2024-07": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0056,2024-08": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0056,2024-09": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0056,2024-10": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0056,2024-11": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0056,2024-12": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0056,2025-01": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0056,2025-02": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0056,2025-03": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0056,2025-04": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0056,2025-05": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0056,2025-06": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0056,2025-07": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0056,2025-08": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0056,2025-09": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0056,2025-10": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0056,2025-11": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0056,2025-12": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0056,2026-01": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0056,2026-02": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0056,2026-03": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0056,2026-04": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0056,2026-05": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0056,2026-06": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0056,2026-07": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0056,2026-08": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0056,2026-09": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0073,2023-01": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0073,2023-02": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0073,2023-03": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0073,2023-04": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0073,2023-05": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0073,2023-06": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0073,2023-07": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0073,2023-08": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0073,2023-09": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0073,2023-10": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0073,2023-11": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0073,2023-12": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0073,2024-01": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0073,2024-02": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0073,2024-03": {
-"combined_rating": "100",
-"payment": "3737.85"
-},
-"V0073,2024-04": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0073,2024-05": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0073,2024-06": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0073,2024-07": {
-"combined_rating": "100",
-"payment": "3737.85"
-},
-"V0073,2024-08": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0073,2024-09": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0073,2024-10": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0073,2024-11": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0073,2024-12": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0073,2025-01": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0073,2025-02": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0073,2025-03": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0073,2025-04": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0073,2025-05": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0073,2025-06": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0073,2025-07": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0073,2025-08": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0073,2025-09": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0073,2025-10": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0073,2025-11": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0073,2025-12": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0073,2026-01": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0073,2026-02": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0073,2026-03": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0073,2026-04": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0073,2026-05": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0073,2026-06": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0073,2026-07": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0073,2026-08": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0073,2026-09": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0076,2023-01": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2023-02": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2023-03": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2023-04": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2023-05": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2023-06": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2023-07": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2023-08": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2023-09": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2023-10": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2023-11": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2023-12": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2024-01": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2024-02": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2024-03": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2024-04": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2024-05": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0076,2024-06": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0076,2024-07": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0076,2024-08": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0076,2024-09": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0076,2024-10": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0076,2024-11": {
-"combined_rating": "10",
-"payment": "171.23"
-},
-"V0076,2024-12": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0076,2025-01": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0076,2025-02": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0076,2025-03": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0076,2025-04": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0076,2025-05": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0076,2025-06": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0076,2025-07": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0076,2025-08": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0076,2025-09": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0076,2025-10": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0076,2025-11": {
-"combined_rating": "10",
-"payment": "175.51"
-},
-"V0076,2025-12": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0076,2026-01": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0076,2026-02": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0076,2026-03": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0076,2026-04": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0076,2026-05": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0076,2026-06": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0076,2026-07": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0076,2026-08": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0076,2026-09": {
-"combined_rating": "10",
-"payment": "180.43"
-},
-"V0102,2023-01": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0102,2023-02": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0102,2023-03": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0102,2023-04": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0102,2023-05": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0102,2023-06": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0102,2023-07": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0102,2023-08": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0102,2023-09": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0102,2023-10": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0102,2023-11": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0102,2023-12": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0102,2024-01": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0102,2024-02": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0102,2024-03": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0102,2024-04": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0102,2024-05": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0102,2024-06": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0102,2024-07": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0102,2024-08": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0102,2024-09": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0102,2024-10": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0102,2024-11": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0102,2024-12": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0102,2025-01": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0102,2025-02": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0102,2025-03": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0102,2025-04": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0102,2025-05": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0102,2025-06": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0102,2025-07": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0102,2025-08": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0102,2025-09": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0102,2025-10": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0102,2025-11": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0102,2025-12": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0102,2026-01": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0102,2026-02": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0102,2026-03": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0102,2026-04": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0102,2026-05": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0102,2026-06": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0102,2026-07": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0102,2026-08": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0102,2026-09": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0117,2023-01": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0117,2023-02": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0117,2023-03": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0117,2023-04": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0117,2023-05": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0117,2023-06": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0117,2023-07": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0117,2023-08": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0117,2023-09": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0117,2023-10": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0117,2023-11": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0117,2023-12": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0117,2024-01": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0117,2024-02": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0117,2024-03": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0117,2024-04": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0117,2024-05": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0117,2024-06": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0117,2024-07": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0117,2024-08": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0117,2024-09": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0117,2024-10": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0117,2024-11": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0117,2024-12": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0117,2025-01": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0117,2025-02": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0117,2025-03": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0117,2025-04": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0117,2025-05": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0117,2025-06": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0117,2025-07": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0117,2025-08": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0117,2025-09": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0117,2025-10": {
-"combined_rating": "50",
-"payment": "1207.97"
-},
-"V0117,2025-11": {
-"combined_rating": "50",
-"payment": "1207.97"
-},
-"V0117,2025-12": {
-"combined_rating": "50",
-"payment": "1241.80"
-},
-"V0117,2026-01": {
-"combined_rating": "50",
-"payment": "1241.80"
-},
-"V0117,2026-02": {
-"combined_rating": "50",
-"payment": "1241.80"
-},
-"V0117,2026-03": {
-"combined_rating": "50",
-"payment": "1241.80"
-},
-"V0117,2026-04": {
-"combined_rating": "50",
-"payment": "1241.80"
-},
-"V0117,2026-05": {
-"combined_rating": "50",
-"payment": "1241.80"
-},
-"V0117,2026-06": {
-"combined_rating": "50",
-"payment": "1241.80"
-},
-"V0117,2026-07": {
-"combined_rating": "50",
-"payment": "1241.80"
-},
-"V0117,2026-08": {
-"combined_rating": "50",
-"payment": "1241.80"
-},
-"V0117,2026-09": {
-"combined_rating": "50",
-"payment": "1241.80"
-},
-"V0119,2023-01": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0119,2023-02": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0119,2023-03": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0119,2023-04": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0119,2023-05": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0119,2023-06": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0119,2023-07": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0119,2023-08": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0119,2023-09": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0119,2023-10": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0119,2023-11": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0119,2023-12": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0119,2024-01": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0119,2024-02": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0119,2024-03": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0119,2024-04": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0119,2024-05": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0119,2024-06": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0119,2024-07": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0119,2024-08": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0119,2024-09": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0119,2024-10": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0119,2024-11": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0119,2024-12": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0119,2025-01": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0119,2025-02": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0119,2025-03": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0119,2025-04": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0119,2025-05": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0119,2025-06": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0119,2025-07": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0119,2025-08": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0119,2025-09": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0119,2025-10": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0119,2025-11": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0119,2025-12": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0119,2026-01": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0119,2026-02": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0119,2026-03": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0119,2026-04": {
-"combined_rating": "70",
-"payment": "1808.44"
-},
-"V0119,2026-05": {
-"combined_rating": "70",
-"payment": "1808.44"
-},
-"V0119,2026-06": {
-"combined_rating": "70",
-"payment": "1808.44"
-},
-"V0119,2026-07": {
-"combined_rating": "70",
-"payment": "1808.44"
-},
-"V0119,2026-08": {
-"combined_rating": "70",
-"payment": "1808.44"
-},
-"V0119,2026-09": {
-"combined_rating": "70",
-"payment": "1808.44"
-},
-"V0125,2023-01": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0125,2023-02": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0125,2023-03": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0125,2023-04": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0125,2023-05": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0125,2023-06": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0125,2023-07": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0125,2023-08": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0125,2023-09": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0125,2023-10": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0125,2023-11": {
-"combined_rating": "50",
-"payment": "1041.82"
-},
-"V0125,2023-12": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0125,2024-01": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0125,2024-02": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0125,2024-03": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0125,2024-04": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0125,2024-05": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0125,2024-06": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0125,2024-07": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0125,2024-08": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0125,2024-09": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0125,2024-10": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0125,2024-11": {
-"combined_rating": "50",
-"payment": "1075.16"
-},
-"V0125,2024-12": {
+"V0068,2025-02": {
 "combined_rating": "100",
 "payment": "3831.30"
 },
-"V0125,2025-01": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0125,2025-02": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0125,2025-03": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0125,2025-04": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0125,2025-05": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0125,2025-06": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0125,2025-07": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0125,2025-08": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0125,2025-09": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0125,2025-10": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0125,2025-11": {
-"combined_rating": "50",
-"payment": "1102.04"
-},
-"V0125,2025-12": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0125,2026-01": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0125,2026-02": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0125,2026-03": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0125,2026-04": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0125,2026-05": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0125,2026-06": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0125,2026-07": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0125,2026-08": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0125,2026-09": {
-"combined_rating": "50",
-"payment": "1132.90"
-},
-"V0126,2023-01": {
-"combined_rating": "40",
-"payment": "731.86"
-},
-"V0126,2023-02": {
-"combined_rating": "40",
-"payment": "731.86"
-},
-"V0126,2023-03": {
-"combined_rating": "40",
-"payment": "731.86"
-},
-"V0126,2023-04": {
-"combined_rating": "40",
-"payment": "731.86"
-},
-"V0126,2023-05": {
-"combined_rating": "40",
-"payment": "731.86"
-},
-"V0126,2023-06": {
-"combined_rating": "40",
-"payment": "731.86"
-},
-"V0126,2023-07": {
-"combined_rating": "40",
-"payment": "731.86"
-},
-"V0126,2023-08": {
-"combined_rating": "40",
-"payment": "731.86"
-},
-"V0126,2023-09": {
-"combined_rating": "40",
-"payment": "731.86"
-},
-"V0126,2023-10": {
-"combined_rating": "40",
-"payment": "731.86"
-},
-"V0126,2023-11": {
-"combined_rating": "40",
-"payment": "731.86"
-},
-"V0126,2023-12": {
-"combined_rating": "40",
-"payment": "755.28"
-},
-"V0126,2024-01": {
-"combined_rating": "40",
-"payment": "755.28"
-},
-"V0126,2024-02": {
-"combined_rating": "40",
-"payment": "755.28"
-},
-"V0126,2024-03": {
-"combined_rating": "40",
-"payment": "755.28"
-},
-"V0126,2024-04": {
-"combined_rating": "40",
-"payment": "755.28"
-},
-"V0126,2024-05": {
-"combined_rating": "40",
-"payment": "755.28"
-},
-"V0126,2024-06": {
-"combined_rating": "40",
-"payment": "755.28"
-},
-"V0126,2024-07": {
-"combined_rating": "40",
-"payment": "755.28"
-},
-"V0126,2024-08": {
-"combined_rating": "40",
-"payment": "755.28"
-},
-"V0126,2024-09": {
-"combined_rating": "40",
-"payment": "755.28"
-},
-"V0126,2024-10": {
-"combined_rating": "40",
-"payment": "755.28"
-},
-"V0126,2024-11": {
-"combined_rating": "40",
-"payment": "755.28"
-},
-"V0126,2024-12": {
+"V0068,2025-03": {
 "combined_rating": "40",
 "payment": "774.16"
 },
-"V0126,2025-01": {
+"V0068,2025-04": {
 "combined_rating": "40",
 "payment": "774.16"
 },
-"V0126,2025-02": {
+"V0068,2025-05": {
 "combined_rating": "40",
 "payment": "774.16"
 },
-"V0126,2025-03": {
+"V0068,2025-06": {
+"combined_rating": "100",
+"payment": "3831.30"
+},
+"V0068,2025-07": {
 "combined_rating": "40",
 "payment": "774.16"
 },
-"V0126,2025-04": {
+"V0068,2025-08": {
 "combined_rating": "40",
 "payment": "774.16"
 },
-"V0126,2025-05": {
-"combined_rating": "40",
-"payment": "774.16"
+"V0068,2025-09": {
+"combined_rating": "100",
+"payment": "3831.30"
 },
-"V0126,2025-06": {
-"combined_rating": "40",
-"payment": "774.16"
+"V0068,2025-10": {
+"combined_rating": "100",
+"payment": "3831.30"
 },
-"V0126,2025-07": {
-"combined_rating": "40",
-"payment": "774.16"
+"V0068,2025-11": {
+"combined_rating": "100",
+"payment": "3831.30"
 },
-"V0126,2025-08": {
-"combined_rating": "40",
-"payment": "774.16"
+"V0068,2025-12": {
+"combined_rating": "100",
+"payment": "3938.57"
 },
-"V0126,2025-09": {
-"combined_rating": "40",
-"payment": "774.16"
-},
-"V0126,2025-10": {
-"combined_rating": "40",
-"payment": "774.16"
-},
-"V0126,2025-11": {
-"combined_rating": "40",
-"payment": "774.16"
-},
-"V0126,2025-12": {
+"V0068,2026-01": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0126,2026-01": {
+"V0068,2026-02": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0126,2026-02": {
+"V0068,2026-03": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0126,2026-03": {
+"V0068,2026-04": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0126,2026-04": {
+"V0068,2026-05": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0126,2026-05": {
+"V0068,2026-06": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0126,2026-06": {
+"V0068,2026-07": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0126,2026-07": {
+"V0068,2026-08": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0126,2026-08": {
+"V0068,2026-09": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0126,2026-09": {
+"V0078,2023-01": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0078,2023-02": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0078,2023-03": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0078,2023-04": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0078,2023-05": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0078,2023-06": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0078,2023-07": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0078,2023-08": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0078,2023-09": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0078,2023-10": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0078,2023-11": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0078,2023-12": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0078,2024-01": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0078,2024-02": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0078,2024-03": {
+"combined_rating": "100",
+"payment": "3737.85"
+},
+"V0078,2024-04": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0078,2024-05": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0078,2024-06": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0078,2024-07": {
+"combined_rating": "100",
+"payment": "3737.85"
+},
+"V0078,2024-08": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0078,2024-09": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0078,2024-10": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0078,2024-11": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0078,2024-12": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0078,2025-01": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0078,2025-02": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0078,2025-03": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0078,2025-04": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0078,2025-05": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0078,2025-06": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0078,2025-07": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0078,2025-08": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0078,2025-09": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0078,2025-10": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0078,2025-11": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0078,2025-12": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0078,2026-01": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0078,2026-02": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0078,2026-03": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0078,2026-04": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0078,2026-05": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0078,2026-06": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0078,2026-07": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0078,2026-08": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0078,2026-09": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0084,2023-01": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0084,2023-02": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0084,2023-03": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0084,2023-04": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0084,2023-05": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0084,2023-06": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0084,2023-07": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0084,2023-08": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0084,2023-09": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0084,2023-10": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0084,2023-11": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0084,2023-12": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0084,2024-01": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0084,2024-02": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0084,2024-03": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0084,2024-04": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0084,2024-05": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0084,2024-06": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0084,2024-07": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0084,2024-08": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0084,2024-09": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0084,2024-10": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0084,2024-11": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0084,2024-12": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0084,2025-01": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0084,2025-02": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0084,2025-03": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0084,2025-04": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0084,2025-05": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0084,2025-06": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0084,2025-07": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0084,2025-08": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0084,2025-09": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0084,2025-10": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0084,2025-11": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0084,2025-12": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0084,2026-01": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0084,2026-02": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0084,2026-03": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0084,2026-04": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0084,2026-05": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0084,2026-06": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0084,2026-07": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0084,2026-08": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0084,2026-09": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0089,2023-01": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0089,2023-02": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0089,2023-03": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0089,2023-04": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0089,2023-05": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0089,2023-06": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0089,2023-07": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0089,2023-08": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0089,2023-09": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0089,2023-10": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0089,2023-11": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0089,2023-12": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0089,2024-01": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0089,2024-02": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0089,2024-03": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0089,2024-04": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0089,2024-05": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0089,2024-06": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0089,2024-07": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0089,2024-08": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0089,2024-09": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0089,2024-10": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0089,2024-11": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0089,2024-12": {
+"combined_rating": "100",
+"payment": "3831.30"
+},
+"V0089,2025-01": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0089,2025-02": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0089,2025-03": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0089,2025-04": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0089,2025-05": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0089,2025-06": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0089,2025-07": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0089,2025-08": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0089,2025-09": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0089,2025-10": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0089,2025-11": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0089,2025-12": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0089,2026-01": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0089,2026-02": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0089,2026-03": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0089,2026-04": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0089,2026-05": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0089,2026-06": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0089,2026-07": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0089,2026-08": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0089,2026-09": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0110,2023-01": {
+"combined_rating": "40",
+"payment": "731.86"
+},
+"V0110,2023-02": {
+"combined_rating": "40",
+"payment": "731.86"
+},
+"V0110,2023-03": {
+"combined_rating": "40",
+"payment": "731.86"
+},
+"V0110,2023-04": {
+"combined_rating": "40",
+"payment": "731.86"
+},
+"V0110,2023-05": {
+"combined_rating": "40",
+"payment": "731.86"
+},
+"V0110,2023-06": {
+"combined_rating": "40",
+"payment": "731.86"
+},
+"V0110,2023-07": {
+"combined_rating": "40",
+"payment": "731.86"
+},
+"V0110,2023-08": {
+"combined_rating": "40",
+"payment": "731.86"
+},
+"V0110,2023-09": {
+"combined_rating": "40",
+"payment": "731.86"
+},
+"V0110,2023-10": {
+"combined_rating": "40",
+"payment": "731.86"
+},
+"V0110,2023-11": {
+"combined_rating": "40",
+"payment": "731.86"
+},
+"V0110,2023-12": {
+"combined_rating": "40",
+"payment": "755.28"
+},
+"V0110,2024-01": {
+"combined_rating": "40",
+"payment": "755.28"
+},
+"V0110,2024-02": {
+"combined_rating": "40",
+"payment": "755.28"
+},
+"V0110,2024-03": {
+"combined_rating": "40",
+"payment": "755.28"
+},
+"V0110,2024-04": {
+"combined_rating": "40",
+"payment": "755.28"
+},
+"V0110,2024-05": {
+"combined_rating": "40",
+"payment": "755.28"
+},
+"V0110,2024-06": {
+"combined_rating": "40",
+"payment": "755.28"
+},
+"V0110,2024-07": {
+"combined_rating": "40",
+"payment": "755.28"
+},
+"V0110,2024-08": {
+"combined_rating": "40",
+"payment": "755.28"
+},
+"V0110,2024-09": {
+"combined_rating": "40",
+"payment": "755.28"
+},
+"V0110,2024-10": {
+"combined_rating": "40",
+"payment": "755.28"
+},
+"V0110,2024-11": {
+"combined_rating": "40",
+"payment": "755.28"
+},
+"V0110,2024-12": {
+"combined_rating": "40",
+"payment": "774.16"
+},
+"V0110,2025-01": {
+"combined_rating": "40",
+"payment": "774.16"
+},
+"V0110,2025-02": {
+"combined_rating": "40",
+"payment": "774.16"
+},
+"V0110,2025-03": {
+"combined_rating": "40",
+"payment": "774.16"
+},
+"V0110,2025-04": {
+"combined_rating": "40",
+"payment": "774.16"
+},
+"V0110,2025-05": {
+"combined_rating": "40",
+"payment": "774.16"
+},
+"V0110,2025-06": {
+"combined_rating": "40",
+"payment": "774.16"
+},
+"V0110,2025-07": {
+"combined_rating": "40",
+"payment": "774.16"
+},
+"V0110,2025-08": {
+"combined_rating": "40",
+"payment": "774.16"
+},
+"V0110,2025-09": {
+"combined_rating": "40",
+"payment": "774.16"
+},
+"V0110,2025-10": {
+"combined_rating": "40",
+"payment": "774.16"
+},
+"V0110,2025-11": {
+"combined_rating": "40",
+"payment": "774.16"
+},
+"V0110,2025-12": {
 "combined_rating": "40",
 "payment": "795.84"
+},
+"V0110,2026-01": {
+"combined_rating": "40",
+"payment": "795.84"
+},
+"V0110,2026-02": {
+"combined_rating": "40",
+"payment": "795.84"
+},
+"V0110,2026-03": {
+"combined_rating": "40",
+"payment": "795.84"
+},
+"V0110,2026-04": {
+"combined_rating": "40",
+"payment": "795.84"
+},
+"V0110,2026-05": {
+"combined_rating": "40",
+"payment": "795.84"
+},
+"V0110,2026-06": {
+"combined_rating": "40",
+"payment": "795.84"
+},
+"V0110,2026-07": {
+"combined_rating": "40",
+"payment": "795.84"
+},
+"V0110,2026-08": {
+"combined_rating": "40",
+"payment": "795.84"
+},
+"V0110,2026-09": {
+"combined_rating": "40",
+"payment": "795.84"
+},
+"V0112,2023-01": {
+"combined_rating": "70",
+"payment": "1663.06"
+},
+"V0112,2023-02": {
+"combined_rating": "70",
+"payment": "1663.06"
+},
+"V0112,2023-03": {
+"combined_rating": "70",
+"payment": "1663.06"
+},
+"V0112,2023-04": {
+"combined_rating": "70",
+"payment": "1663.06"
+},
+"V0112,2023-05": {
+"combined_rating": "70",
+"payment": "1663.06"
+},
+"V0112,2023-06": {
+"combined_rating": "70",
+"payment": "1663.06"
+},
+"V0112,2023-07": {
+"combined_rating": "70",
+"payment": "1663.06"
+},
+"V0112,2023-08": {
+"combined_rating": "70",
+"payment": "1663.06"
+},
+"V0112,2023-09": {
+"combined_rating": "70",
+"payment": "1663.06"
+},
+"V0112,2023-10": {
+"combined_rating": "70",
+"payment": "1663.06"
+},
+"V0112,2023-11": {
+"combined_rating": "70",
+"payment": "1663.06"
+},
+"V0112,2023-12": {
+"combined_rating": "70",
+"payment": "1716.28"
+},
+"V0112,2024-01": {
+"combined_rating": "70",
+"payment": "1716.28"
+},
+"V0112,2024-02": {
+"combined_rating": "70",
+"payment": "1716.28"
+},
+"V0112,2024-03": {
+"combined_rating": "70",
+"payment": "1716.28"
+},
+"V0112,2024-04": {
+"combined_rating": "70",
+"payment": "1716.28"
+},
+"V0112,2024-05": {
+"combined_rating": "70",
+"payment": "1716.28"
+},
+"V0112,2024-06": {
+"combined_rating": "70",
+"payment": "1716.28"
+},
+"V0112,2024-07": {
+"combined_rating": "70",
+"payment": "1716.28"
+},
+"V0112,2024-08": {
+"combined_rating": "70",
+"payment": "1716.28"
+},
+"V0112,2024-09": {
+"combined_rating": "70",
+"payment": "1716.28"
+},
+"V0112,2024-10": {
+"combined_rating": "70",
+"payment": "1716.28"
+},
+"V0112,2024-11": {
+"combined_rating": "70",
+"payment": "1716.28"
+},
+"V0112,2024-12": {
+"combined_rating": "70",
+"payment": "1759.19"
+},
+"V0112,2025-01": {
+"combined_rating": "70",
+"payment": "1759.19"
+},
+"V0112,2025-02": {
+"combined_rating": "70",
+"payment": "1759.19"
+},
+"V0112,2025-03": {
+"combined_rating": "70",
+"payment": "1759.19"
+},
+"V0112,2025-04": {
+"combined_rating": "70",
+"payment": "1759.19"
+},
+"V0112,2025-05": {
+"combined_rating": "70",
+"payment": "1759.19"
+},
+"V0112,2025-06": {
+"combined_rating": "70",
+"payment": "1759.19"
+},
+"V0112,2025-07": {
+"combined_rating": "70",
+"payment": "1759.19"
+},
+"V0112,2025-08": {
+"combined_rating": "70",
+"payment": "1759.19"
+},
+"V0112,2025-09": {
+"combined_rating": "70",
+"payment": "1759.19"
+},
+"V0112,2025-10": {
+"combined_rating": "70",
+"payment": "1759.19"
+},
+"V0112,2025-11": {
+"combined_rating": "70",
+"payment": "1759.19"
+},
+"V0112,2025-12": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0112,2026-01": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0112,2026-02": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0112,2026-03": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0112,2026-04": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0112,2026-05": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0112,2026-06": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0112,2026-07": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0112,2026-08": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0112,2026-09": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0116,2023-01": {
+"combined_rating": "80",
+"payment": "1933.15"
+},
+"V0116,2023-02": {
+"combined_rating": "80",
+"payment": "1933.15"
+},
+"V0116,2023-03": {
+"combined_rating": "80",
+"payment": "1933.15"
+},
+"V0116,2023-04": {
+"combined_rating": "80",
+"payment": "1933.15"
+},
+"V0116,2023-05": {
+"combined_rating": "80",
+"payment": "1933.15"
+},
+"V0116,2023-06": {
+"combined_rating": "80",
+"payment": "1933.15"
+},
+"V0116,2023-07": {
+"combined_rating": "80",
+"payment": "1933.15"
+},
+"V0116,2023-08": {
+"combined_rating": "80",
+"payment": "1933.15"
+},
+"V0116,2023-09": {
+"combined_rating": "80",
+"payment": "1933.15"
+},
+"V0116,2023-10": {
+"combined_rating": "80",
+"payment": "1933.15"
+},
+"V0116,2023-11": {
+"combined_rating": "80",
+"payment": "1933.15"
+},
+"V0116,2023-12": {
+"combined_rating": "80",
+"payment": "1995.01"
+},
+"V0116,2024-01": {
+"combined_rating": "80",
+"payment": "1995.01"
+},
+"V0116,2024-02": {
+"combined_rating": "80",
+"payment": "1995.01"
+},
+"V0116,2024-03": {
+"combined_rating": "80",
+"payment": "1995.01"
+},
+"V0116,2024-04": {
+"combined_rating": "80",
+"payment": "1995.01"
+},
+"V0116,2024-05": {
+"combined_rating": "80",
+"payment": "1995.01"
+},
+"V0116,2024-06": {
+"combined_rating": "80",
+"payment": "1995.01"
+},
+"V0116,2024-07": {
+"combined_rating": "80",
+"payment": "1995.01"
+},
+"V0116,2024-08": {
+"combined_rating": "80",
+"payment": "1995.01"
+},
+"V0116,2024-09": {
+"combined_rating": "80",
+"payment": "1995.01"
+},
+"V0116,2024-10": {
+"combined_rating": "80",
+"payment": "1995.01"
+},
+"V0116,2024-11": {
+"combined_rating": "80",
+"payment": "1995.01"
+},
+"V0116,2024-12": {
+"combined_rating": "80",
+"payment": "2044.89"
+},
+"V0116,2025-01": {
+"combined_rating": "80",
+"payment": "2044.89"
+},
+"V0116,2025-02": {
+"combined_rating": "80",
+"payment": "2044.89"
+},
+"V0116,2025-03": {
+"combined_rating": "80",
+"payment": "2044.89"
+},
+"V0116,2025-04": {
+"combined_rating": "80",
+"payment": "2044.89"
+},
+"V0116,2025-05": {
+"combined_rating": "80",
+"payment": "2044.89"
+},
+"V0116,2025-06": {
+"combined_rating": "80",
+"payment": "2044.89"
+},
+"V0116,2025-07": {
+"combined_rating": "80",
+"payment": "2044.89"
+},
+"V0116,2025-08": {
+"combined_rating": "80",
+"payment": "2044.89"
+},
+"V0116,2025-09": {
+"combined_rating": "80",
+"payment": "2044.89"
+},
+"V0116,2025-10": {
+"combined_rating": "80",
+"payment": "2044.89"
+},
+"V0116,2025-11": {
+"combined_rating": "80",
+"payment": "2044.89"
+},
+"V0116,2025-12": {
+"combined_rating": "80",
+"payment": "2102.14"
+},
+"V0116,2026-01": {
+"combined_rating": "80",
+"payment": "2102.14"
+},
+"V0116,2026-02": {
+"combined_rating": "80",
+"payment": "2102.14"
+},
+"V0116,2026-03": {
+"combined_rating": "80",
+"payment": "2102.14"
+},
+"V0116,2026-04": {
+"combined_rating": "80",
+"payment": "2102.14"
+},
+"V0116,2026-05": {
+"combined_rating": "80",
+"payment": "2102.14"
+},
+"V0116,2026-06": {
+"combined_rating": "80",
+"payment": "2102.14"
+},
+"V0116,2026-07": {
+"combined_rating": "80",
+"payment": "2102.14"
+},
+"V0116,2026-08": {
+"combined_rating": "80",
+"payment": "2102.14"
+},
+"V0116,2026-09": {
+"combined_rating": "80",
+"payment": "2102.14"
+},
+"V0122,2023-01": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0122,2023-02": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0122,2023-03": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0122,2023-04": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0122,2023-05": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0122,2023-06": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0122,2023-07": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0122,2023-08": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0122,2023-09": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0122,2023-10": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0122,2023-11": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0122,2023-12": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0122,2024-01": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0122,2024-02": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0122,2024-03": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0122,2024-04": {
+"combined_rating": "50",
+"payment": "1143.51"
+},
+"V0122,2024-05": {
+"combined_rating": "50",
+"payment": "1143.51"
+},
+"V0122,2024-06": {
+"combined_rating": "50",
+"payment": "1143.51"
+},
+"V0122,2024-07": {
+"combined_rating": "50",
+"payment": "1195.26"
+},
+"V0122,2024-08": {
+"combined_rating": "50",
+"payment": "1195.26"
+},
+"V0122,2024-09": {
+"combined_rating": "50",
+"payment": "1195.26"
+},
+"V0122,2024-10": {
+"combined_rating": "50",
+"payment": "1306.91"
+},
+"V0122,2024-11": {
+"combined_rating": "50",
+"payment": "1306.91"
+},
+"V0122,2024-12": {
+"combined_rating": "50",
+"payment": "1339.58"
+},
+"V0122,2025-01": {
+"combined_rating": "50",
+"payment": "1339.58"
+},
+"V0122,2025-02": {
+"combined_rating": "50",
+"payment": "1339.58"
+},
+"V0122,2025-03": {
+"combined_rating": "50",
+"payment": "1339.58"
+},
+"V0122,2025-04": {
+"combined_rating": "50",
+"payment": "1339.58"
+},
+"V0122,2025-05": {
+"combined_rating": "50",
+"payment": "1339.58"
+},
+"V0122,2025-06": {
+"combined_rating": "50",
+"payment": "1339.58"
+},
+"V0122,2025-07": {
+"combined_rating": "50",
+"payment": "1339.58"
+},
+"V0122,2025-08": {
+"combined_rating": "50",
+"payment": "1339.58"
+},
+"V0122,2025-09": {
+"combined_rating": "50",
+"payment": "1339.58"
+},
+"V0122,2025-10": {
+"combined_rating": "50",
+"payment": "1339.58"
+},
+"V0122,2025-11": {
+"combined_rating": "50",
+"payment": "1339.58"
+},
+"V0122,2025-12": {
+"combined_rating": "50",
+"payment": "1377.09"
+},
+"V0122,2026-01": {
+"combined_rating": "50",
+"payment": "1377.09"
+},
+"V0122,2026-02": {
+"combined_rating": "50",
+"payment": "1377.09"
+},
+"V0122,2026-03": {
+"combined_rating": "50",
+"payment": "1377.09"
+},
+"V0122,2026-04": {
+"combined_rating": "50",
+"payment": "1377.09"
+},
+"V0122,2026-05": {
+"combined_rating": "50",
+"payment": "1377.09"
+},
+"V0122,2026-06": {
+"combined_rating": "50",
+"payment": "1377.09"
+},
+"V0122,2026-07": {
+"combined_rating": "50",
+"payment": "1377.09"
+},
+"V0122,2026-08": {
+"combined_rating": "50",
+"payment": "1377.09"
+},
+"V0122,2026-09": {
+"combined_rating": "50",
+"payment": "1377.09"
+},
+"V0128,2023-01": {
+"combined_rating": "90",
+"payment": "2172.39"
+},
+"V0128,2023-02": {
+"combined_rating": "90",
+"payment": "2172.39"
+},
+"V0128,2023-03": {
+"combined_rating": "90",
+"payment": "2172.39"
+},
+"V0128,2023-04": {
+"combined_rating": "90",
+"payment": "2172.39"
+},
+"V0128,2023-05": {
+"combined_rating": "90",
+"payment": "2172.39"
+},
+"V0128,2023-06": {
+"combined_rating": "90",
+"payment": "2172.39"
+},
+"V0128,2023-07": {
+"combined_rating": "90",
+"payment": "2172.39"
+},
+"V0128,2023-08": {
+"combined_rating": "90",
+"payment": "2172.39"
+},
+"V0128,2023-09": {
+"combined_rating": "90",
+"payment": "2172.39"
+},
+"V0128,2023-10": {
+"combined_rating": "90",
+"payment": "2172.39"
+},
+"V0128,2023-11": {
+"combined_rating": "90",
+"payment": "2172.39"
+},
+"V0128,2023-12": {
+"combined_rating": "90",
+"payment": "2241.91"
+},
+"V0128,2024-01": {
+"combined_rating": "90",
+"payment": "2241.91"
+},
+"V0128,2024-02": {
+"combined_rating": "90",
+"payment": "2241.91"
+},
+"V0128,2024-03": {
+"combined_rating": "90",
+"payment": "2241.91"
+},
+"V0128,2024-04": {
+"combined_rating": "90",
+"payment": "2241.91"
+},
+"V0128,2024-05": {
+"combined_rating": "90",
+"payment": "2241.91"
+},
+"V0128,2024-06": {
+"combined_rating": "90",
+"payment": "2241.91"
+},
+"V0128,2024-07": {
+"combined_rating": "90",
+"payment": "2241.91"
+},
+"V0128,2024-08": {
+"combined_rating": "90",
+"payment": "2241.91"
+},
+"V0128,2024-09": {
+"combined_rating": "90",
+"payment": "2241.91"
+},
+"V0128,2024-10": {
+"combined_rating": "90",
+"payment": "2241.91"
+},
+"V0128,2024-11": {
+"combined_rating": "90",
+"payment": "2241.91"
+},
+"V0128,2024-12": {
+"combined_rating": "90",
+"payment": "2297.96"
+},
+"V0128,2025-01": {
+"combined_rating": "90",
+"payment": "2297.96"
+},
+"V0128,2025-02": {
+"combined_rating": "90",
+"payment": "2297.96"
+},
+"V0128,2025-03": {
+"combined_rating": "90",
+"payment": "2297.96"
+},
+"V0128,2025-04": {
+"combined_rating": "90",
+"payment": "2297.96"
+},
+"V0128,2025-05": {
+"combined_rating": "90",
+"payment": "2297.96"
+},
+"V0128,2025-06": {
+"combined_rating": "90",
+"payment": "2297.96"
+},
+"V0128,2025-07": {
+"combined_rating": "90",
+"payment": "2297.96"
+},
+"V0128,2025-08": {
+"combined_rating": "90",
+"payment": "2297.96"
+},
+"V0128,2025-09": {
+"combined_rating": "90",
+"payment": "2297.96"
+},
+"V0128,2025-10": {
+"combined_rating": "90",
+"payment": "2297.96"
+},
+"V0128,2025-11": {
+"combined_rating": "90",
+"payment": "2297.96"
+},
+"V0128,2025-12": {
+"combined_rating": "90",
+"payment": "2362.30"
+},
+"V0128,2026-01": {
+"combined_rating": "90",
+"payment": "2362.30"
+},
+"V0128,2026-02": {
+"combined_rating": "90",
+"payment": "2362.30"
+},
+"V0128,2026-03": {
+"combined_rating": "90",
+"payment": "2362.30"
+},
+"V0128,2026-04": {
+"combined_rating": "90",
+"payment": "2362.30"
+},
+"V0128,2026-05": {
+"combined_rating": "90",
+"payment": "2362.30"
+},
+"V0128,2026-06": {
+"combined_rating": "90",
+"payment": "2362.30"
+},
+"V0128,2026-07": {
+"combined_rating": "90",
+"payment": "2362.30"
+},
+"V0128,2026-08": {
+"combined_rating": "90",
+"payment": "2362.30"
+},
+"V0128,2026-09": {
+"combined_rating": "90",
+"payment": "2362.30"
+},
+"V0137,2023-01": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0137,2023-02": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0137,2023-03": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0137,2023-04": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0137,2023-05": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0137,2023-06": {
+"combined_rating": "10",
+"payment": "165.92"
+},
+"V0137,2023-07": {
+"combined_rating": "10",
+"payment": "165.92"
+},
+"V0137,2023-08": {
+"combined_rating": "10",
+"payment": "165.92"
+},
+"V0137,2023-09": {
+"combined_rating": "10",
+"payment": "165.92"
+},
+"V0137,2023-10": {
+"combined_rating": "10",
+"payment": "165.92"
+},
+"V0137,2023-11": {
+"combined_rating": "10",
+"payment": "165.92"
+},
+"V0137,2023-12": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0137,2024-01": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0137,2024-02": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0137,2024-03": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0137,2024-04": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0137,2024-05": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0137,2024-06": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0137,2024-07": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0137,2024-08": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0137,2024-09": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0137,2024-10": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0137,2024-11": {
+"combined_rating": "10",
+"payment": "171.23"
+},
+"V0137,2024-12": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0137,2025-01": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0137,2025-02": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0137,2025-03": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0137,2025-04": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0137,2025-05": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0137,2025-06": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0137,2025-07": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0137,2025-08": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0137,2025-09": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0137,2025-10": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0137,2025-11": {
+"combined_rating": "10",
+"payment": "175.51"
+},
+"V0137,2025-12": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0137,2026-01": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0137,2026-02": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0137,2026-03": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0137,2026-04": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0137,2026-05": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0137,2026-06": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0137,2026-07": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0137,2026-08": {
+"combined_rating": "10",
+"payment": "180.43"
+},
+"V0137,2026-09": {
+"combined_rating": "10",
+"payment": "180.43"
 },
 "V0139,2023-01": {
 "combined_rating": "50",
@@ -2652,1311 +2112,2031 @@
 "payment": "1102.04"
 },
 "V0139,2025-10": {
-"combined_rating": "30",
-"payment": "537.42"
+"combined_rating": "50",
+"payment": "1102.04"
 },
 "V0139,2025-11": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0139,2025-12": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0139,2026-01": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0139,2026-02": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0139,2026-03": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0139,2026-04": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0139,2026-05": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0139,2026-06": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0139,2026-07": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0139,2026-08": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0139,2026-09": {
+"combined_rating": "70",
+"payment": "1808.44"
+},
+"V0154,2023-01": {
+"combined_rating": "0",
+"payment": "0.00"
+},
+"V0154,2023-02": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0154,2023-03": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0154,2023-04": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0154,2023-05": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0154,2023-06": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0154,2023-07": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0154,2023-08": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0154,2023-09": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0154,2023-10": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0154,2023-11": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0154,2023-12": {
+"combined_rating": "20",
+"payment": "338.49"
+},
+"V0154,2024-01": {
+"combined_rating": "20",
+"payment": "338.49"
+},
+"V0154,2024-02": {
+"combined_rating": "20",
+"payment": "338.49"
+},
+"V0154,2024-03": {
+"combined_rating": "30",
+"payment": "586.32"
+},
+"V0154,2024-04": {
+"combined_rating": "30",
+"payment": "586.32"
+},
+"V0154,2024-05": {
+"combined_rating": "30",
+"payment": "586.32"
+},
+"V0154,2024-06": {
+"combined_rating": "30",
+"payment": "586.32"
+},
+"V0154,2024-07": {
+"combined_rating": "30",
+"payment": "586.32"
+},
+"V0154,2024-08": {
+"combined_rating": "30",
+"payment": "586.32"
+},
+"V0154,2024-09": {
+"combined_rating": "30",
+"payment": "586.32"
+},
+"V0154,2024-10": {
+"combined_rating": "30",
+"payment": "586.32"
+},
+"V0154,2024-11": {
+"combined_rating": "30",
+"payment": "586.32"
+},
+"V0154,2024-12": {
+"combined_rating": "30",
+"payment": "600.98"
+},
+"V0154,2025-01": {
+"combined_rating": "30",
+"payment": "600.98"
+},
+"V0154,2025-02": {
+"combined_rating": "30",
+"payment": "600.98"
+},
+"V0154,2025-03": {
+"combined_rating": "30",
+"payment": "600.98"
+},
+"V0154,2025-04": {
+"combined_rating": "30",
+"payment": "600.98"
+},
+"V0154,2025-05": {
+"combined_rating": "30",
+"payment": "600.98"
+},
+"V0154,2025-06": {
+"combined_rating": "30",
+"payment": "600.98"
+},
+"V0154,2025-07": {
+"combined_rating": "30",
+"payment": "600.98"
+},
+"V0154,2025-08": {
+"combined_rating": "30",
+"payment": "600.98"
+},
+"V0154,2025-09": {
+"combined_rating": "30",
+"payment": "600.98"
+},
+"V0154,2025-10": {
+"combined_rating": "30",
+"payment": "600.98"
+},
+"V0154,2025-11": {
+"combined_rating": "30",
+"payment": "600.98"
+},
+"V0154,2025-12": {
+"combined_rating": "30",
+"payment": "617.81"
+},
+"V0154,2026-01": {
+"combined_rating": "30",
+"payment": "617.81"
+},
+"V0154,2026-02": {
+"combined_rating": "30",
+"payment": "617.81"
+},
+"V0154,2026-03": {
+"combined_rating": "30",
+"payment": "617.81"
+},
+"V0154,2026-04": {
+"combined_rating": "30",
+"payment": "617.81"
+},
+"V0154,2026-05": {
+"combined_rating": "30",
+"payment": "617.81"
+},
+"V0154,2026-06": {
+"combined_rating": "30",
+"payment": "617.81"
+},
+"V0154,2026-07": {
+"combined_rating": "30",
+"payment": "617.81"
+},
+"V0154,2026-08": {
+"combined_rating": "30",
+"payment": "617.81"
+},
+"V0154,2026-09": {
+"combined_rating": "30",
+"payment": "617.81"
+},
+"V0157,2023-01": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0157,2023-02": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0157,2023-03": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0157,2023-04": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0157,2023-05": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0157,2023-06": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0157,2023-07": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0157,2023-08": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0157,2023-09": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0157,2023-10": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0157,2023-11": {
+"combined_rating": "50",
+"payment": "1041.82"
+},
+"V0157,2023-12": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0157,2024-01": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0157,2024-02": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0157,2024-03": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0157,2024-04": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0157,2024-05": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0157,2024-06": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0157,2024-07": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0157,2024-08": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0157,2024-09": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0157,2024-10": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0157,2024-11": {
+"combined_rating": "50",
+"payment": "1075.16"
+},
+"V0157,2024-12": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0157,2025-01": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0157,2025-02": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0157,2025-03": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0157,2025-04": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0157,2025-05": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0157,2025-06": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0157,2025-07": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0157,2025-08": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0157,2025-09": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0157,2025-10": {
+"combined_rating": "50",
+"payment": "1207.97"
+},
+"V0157,2025-11": {
+"combined_rating": "50",
+"payment": "1207.97"
+},
+"V0157,2025-12": {
+"combined_rating": "50",
+"payment": "1241.80"
+},
+"V0157,2026-01": {
+"combined_rating": "50",
+"payment": "1241.80"
+},
+"V0157,2026-02": {
+"combined_rating": "50",
+"payment": "1241.80"
+},
+"V0157,2026-03": {
+"combined_rating": "50",
+"payment": "1241.80"
+},
+"V0157,2026-04": {
+"combined_rating": "50",
+"payment": "1241.80"
+},
+"V0157,2026-05": {
+"combined_rating": "50",
+"payment": "1241.80"
+},
+"V0157,2026-06": {
+"combined_rating": "50",
+"payment": "1241.80"
+},
+"V0157,2026-07": {
+"combined_rating": "50",
+"payment": "1241.80"
+},
+"V0157,2026-08": {
+"combined_rating": "50",
+"payment": "1241.80"
+},
+"V0157,2026-09": {
+"combined_rating": "50",
+"payment": "1241.80"
+},
+"V0166,2023-01": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0166,2023-02": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0166,2023-03": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0166,2023-04": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0166,2023-05": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0166,2023-06": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0166,2023-07": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0166,2023-08": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0166,2023-09": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0166,2023-10": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0166,2023-11": {
+"combined_rating": "20",
+"payment": "327.99"
+},
+"V0166,2023-12": {
+"combined_rating": "20",
+"payment": "338.49"
+},
+"V0166,2024-01": {
+"combined_rating": "20",
+"payment": "338.49"
+},
+"V0166,2024-02": {
+"combined_rating": "20",
+"payment": "338.49"
+},
+"V0166,2024-03": {
+"combined_rating": "20",
+"payment": "338.49"
+},
+"V0166,2024-04": {
+"combined_rating": "100",
+"payment": "3944.55"
+},
+"V0166,2024-05": {
+"combined_rating": "100",
+"payment": "3944.55"
+},
+"V0166,2024-06": {
+"combined_rating": "100",
+"payment": "3944.55"
+},
+"V0166,2024-07": {
+"combined_rating": "20",
+"payment": "338.49"
+},
+"V0166,2024-08": {
+"combined_rating": "20",
+"payment": "338.49"
+},
+"V0166,2024-09": {
+"combined_rating": "20",
+"payment": "338.49"
+},
+"V0166,2024-10": {
+"combined_rating": "20",
+"payment": "338.49"
+},
+"V0166,2024-11": {
+"combined_rating": "20",
+"payment": "338.49"
+},
+"V0166,2024-12": {
+"combined_rating": "20",
+"payment": "346.95"
+},
+"V0166,2025-01": {
+"combined_rating": "20",
+"payment": "346.95"
+},
+"V0166,2025-02": {
+"combined_rating": "20",
+"payment": "346.95"
+},
+"V0166,2025-03": {
+"combined_rating": "20",
+"payment": "346.95"
+},
+"V0166,2025-04": {
+"combined_rating": "20",
+"payment": "346.95"
+},
+"V0166,2025-05": {
+"combined_rating": "20",
+"payment": "346.95"
+},
+"V0166,2025-06": {
+"combined_rating": "20",
+"payment": "346.95"
+},
+"V0166,2025-07": {
+"combined_rating": "20",
+"payment": "346.95"
+},
+"V0166,2025-08": {
+"combined_rating": "20",
+"payment": "346.95"
+},
+"V0166,2025-09": {
+"combined_rating": "20",
+"payment": "346.95"
+},
+"V0166,2025-10": {
+"combined_rating": "20",
+"payment": "346.95"
+},
+"V0166,2025-11": {
+"combined_rating": "20",
+"payment": "346.95"
+},
+"V0166,2025-12": {
+"combined_rating": "20",
+"payment": "356.67"
+},
+"V0166,2026-01": {
+"combined_rating": "20",
+"payment": "356.67"
+},
+"V0166,2026-02": {
+"combined_rating": "20",
+"payment": "356.67"
+},
+"V0166,2026-03": {
+"combined_rating": "20",
+"payment": "356.67"
+},
+"V0166,2026-04": {
+"combined_rating": "20",
+"payment": "356.67"
+},
+"V0166,2026-05": {
+"combined_rating": "20",
+"payment": "356.67"
+},
+"V0166,2026-06": {
+"combined_rating": "20",
+"payment": "356.67"
+},
+"V0166,2026-07": {
+"combined_rating": "20",
+"payment": "356.67"
+},
+"V0166,2026-08": {
+"combined_rating": "20",
+"payment": "356.67"
+},
+"V0166,2026-09": {
+"combined_rating": "20",
+"payment": "356.67"
+},
+"V0172,2023-01": {
+"combined_rating": "30",
+"payment": "508.05"
+},
+"V0172,2023-02": {
+"combined_rating": "30",
+"payment": "508.05"
+},
+"V0172,2023-03": {
+"combined_rating": "30",
+"payment": "508.05"
+},
+"V0172,2023-04": {
+"combined_rating": "30",
+"payment": "508.05"
+},
+"V0172,2023-05": {
+"combined_rating": "30",
+"payment": "508.05"
+},
+"V0172,2023-06": {
+"combined_rating": "30",
+"payment": "508.05"
+},
+"V0172,2023-07": {
+"combined_rating": "30",
+"payment": "508.05"
+},
+"V0172,2023-08": {
+"combined_rating": "30",
+"payment": "508.05"
+},
+"V0172,2023-09": {
+"combined_rating": "30",
+"payment": "508.05"
+},
+"V0172,2023-10": {
+"combined_rating": "30",
+"payment": "508.05"
+},
+"V0172,2023-11": {
+"combined_rating": "30",
+"payment": "508.05"
+},
+"V0172,2023-12": {
+"combined_rating": "30",
+"payment": "524.31"
+},
+"V0172,2024-01": {
+"combined_rating": "30",
+"payment": "524.31"
+},
+"V0172,2024-02": {
+"combined_rating": "30",
+"payment": "524.31"
+},
+"V0172,2024-03": {
+"combined_rating": "30",
+"payment": "524.31"
+},
+"V0172,2024-04": {
+"combined_rating": "30",
+"payment": "524.31"
+},
+"V0172,2024-05": {
+"combined_rating": "30",
+"payment": "524.31"
+},
+"V0172,2024-06": {
+"combined_rating": "30",
+"payment": "524.31"
+},
+"V0172,2024-07": {
+"combined_rating": "30",
+"payment": "524.31"
+},
+"V0172,2024-08": {
+"combined_rating": "30",
+"payment": "524.31"
+},
+"V0172,2024-09": {
+"combined_rating": "30",
+"payment": "524.31"
+},
+"V0172,2024-10": {
+"combined_rating": "30",
+"payment": "524.31"
+},
+"V0172,2024-11": {
+"combined_rating": "30",
+"payment": "524.31"
+},
+"V0172,2024-12": {
 "combined_rating": "30",
 "payment": "537.42"
 },
-"V0139,2025-12": {
+"V0172,2025-01": {
 "combined_rating": "30",
-"payment": "552.47"
+"payment": "537.42"
 },
-"V0139,2026-01": {
+"V0172,2025-02": {
 "combined_rating": "30",
-"payment": "552.47"
+"payment": "537.42"
 },
-"V0139,2026-02": {
+"V0172,2025-03": {
 "combined_rating": "30",
-"payment": "552.47"
+"payment": "537.42"
 },
-"V0139,2026-03": {
+"V0172,2025-04": {
 "combined_rating": "30",
-"payment": "552.47"
+"payment": "537.42"
 },
-"V0139,2026-04": {
-"combined_rating": "30",
-"payment": "552.47"
+"V0172,2025-05": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0139,2026-05": {
-"combined_rating": "30",
-"payment": "552.47"
+"V0172,2025-06": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0139,2026-06": {
-"combined_rating": "30",
-"payment": "552.47"
+"V0172,2025-07": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0139,2026-07": {
-"combined_rating": "30",
-"payment": "552.47"
+"V0172,2025-08": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0139,2026-08": {
-"combined_rating": "30",
-"payment": "552.47"
+"V0172,2025-09": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0139,2026-09": {
-"combined_rating": "30",
-"payment": "552.47"
+"V0172,2025-10": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0144,2023-01": {
+"V0172,2025-11": {
+"combined_rating": "50",
+"payment": "1102.04"
+},
+"V0172,2025-12": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0172,2026-01": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0172,2026-02": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0172,2026-03": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0172,2026-04": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0172,2026-05": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0172,2026-06": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0172,2026-07": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0172,2026-08": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0172,2026-09": {
+"combined_rating": "50",
+"payment": "1132.90"
+},
+"V0177,2023-01": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0144,2023-02": {
+"V0177,2023-02": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0144,2023-03": {
+"V0177,2023-03": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0144,2023-04": {
+"V0177,2023-04": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0144,2023-05": {
+"V0177,2023-05": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0144,2023-06": {
+"V0177,2023-06": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0144,2023-07": {
+"V0177,2023-07": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0144,2023-08": {
+"V0177,2023-08": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0144,2023-09": {
+"V0177,2023-09": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0144,2023-10": {
+"V0177,2023-10": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0144,2023-11": {
+"V0177,2023-11": {
 "combined_rating": "40",
 "payment": "731.86"
 },
-"V0144,2023-12": {
+"V0177,2023-12": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0144,2024-01": {
+"V0177,2024-01": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0144,2024-02": {
+"V0177,2024-02": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0144,2024-03": {
+"V0177,2024-03": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0144,2024-04": {
+"V0177,2024-04": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0144,2024-05": {
+"V0177,2024-05": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0144,2024-06": {
+"V0177,2024-06": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0144,2024-07": {
+"V0177,2024-07": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0144,2024-08": {
+"V0177,2024-08": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0144,2024-09": {
+"V0177,2024-09": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0144,2024-10": {
+"V0177,2024-10": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0144,2024-11": {
+"V0177,2024-11": {
 "combined_rating": "40",
 "payment": "755.28"
 },
-"V0144,2024-12": {
+"V0177,2024-12": {
 "combined_rating": "40",
 "payment": "774.16"
 },
-"V0144,2025-01": {
+"V0177,2025-01": {
 "combined_rating": "40",
 "payment": "774.16"
 },
-"V0144,2025-02": {
-"combined_rating": "100",
-"payment": "3831.30"
-},
-"V0144,2025-03": {
+"V0177,2025-02": {
 "combined_rating": "40",
 "payment": "774.16"
 },
-"V0144,2025-04": {
+"V0177,2025-03": {
 "combined_rating": "40",
 "payment": "774.16"
 },
-"V0144,2025-05": {
+"V0177,2025-04": {
 "combined_rating": "40",
 "payment": "774.16"
 },
-"V0144,2025-06": {
-"combined_rating": "100",
-"payment": "3831.30"
-},
-"V0144,2025-07": {
+"V0177,2025-05": {
 "combined_rating": "40",
 "payment": "774.16"
 },
-"V0144,2025-08": {
+"V0177,2025-06": {
 "combined_rating": "40",
 "payment": "774.16"
 },
-"V0144,2025-09": {
-"combined_rating": "100",
-"payment": "3831.30"
+"V0177,2025-07": {
+"combined_rating": "40",
+"payment": "774.16"
 },
-"V0144,2025-10": {
-"combined_rating": "100",
-"payment": "3831.30"
+"V0177,2025-08": {
+"combined_rating": "40",
+"payment": "774.16"
 },
-"V0144,2025-11": {
-"combined_rating": "100",
-"payment": "3831.30"
+"V0177,2025-09": {
+"combined_rating": "40",
+"payment": "774.16"
 },
-"V0144,2025-12": {
-"combined_rating": "100",
-"payment": "3938.57"
+"V0177,2025-10": {
+"combined_rating": "40",
+"payment": "774.16"
 },
-"V0144,2026-01": {
+"V0177,2025-11": {
+"combined_rating": "40",
+"payment": "774.16"
+},
+"V0177,2025-12": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0144,2026-02": {
+"V0177,2026-01": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0144,2026-03": {
+"V0177,2026-02": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0144,2026-04": {
+"V0177,2026-03": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0144,2026-05": {
+"V0177,2026-04": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0144,2026-06": {
+"V0177,2026-05": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0144,2026-07": {
+"V0177,2026-06": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0144,2026-08": {
+"V0177,2026-07": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0144,2026-09": {
+"V0177,2026-08": {
 "combined_rating": "40",
 "payment": "795.84"
 },
-"V0147,2023-01": {
+"V0177,2026-09": {
+"combined_rating": "40",
+"payment": "795.84"
+},
+"V0180,2023-01": {
 "combined_rating": "0",
 "payment": "0.00"
 },
-"V0147,2023-02": {
+"V0180,2023-02": {
 "combined_rating": "0",
 "payment": "0.00"
 },
-"V0147,2023-03": {
+"V0180,2023-03": {
 "combined_rating": "0",
 "payment": "0.00"
 },
-"V0147,2023-04": {
+"V0180,2023-04": {
 "combined_rating": "50",
 "payment": "0.00"
 },
-"V0147,2023-05": {
+"V0180,2023-05": {
 "combined_rating": "50",
 "payment": "0.00"
 },
-"V0147,2023-06": {
+"V0180,2023-06": {
 "combined_rating": "50",
 "payment": "0.00"
 },
-"V0147,2023-07": {
+"V0180,2023-07": {
 "combined_rating": "50",
 "payment": "0.00"
 },
-"V0147,2023-08": {
+"V0180,2023-08": {
 "combined_rating": "50",
 "payment": "0.00"
 },
-"V0147,2023-09": {
+"V0180,2023-09": {
 "combined_rating": "50",
 "payment": "0.00"
 },
-"V0147,2023-10": {
+"V0180,2023-10": {
 "combined_rating": "50",
 "payment": "0.00"
 },
-"V0147,2023-11": {
+"V0180,2023-11": {
 "combined_rating": "50",
 "payment": "0.00"
 },
-"V0147,2023-12": {
+"V0180,2023-12": {
 "combined_rating": "50",
 "payment": "0.00"
 },
-"V0147,2024-01": {
+"V0180,2024-01": {
 "combined_rating": "50",
 "payment": "0.00"
 },
-"V0147,2024-02": {
+"V0180,2024-02": {
 "combined_rating": "50",
 "payment": "0.00"
 },
-"V0147,2024-03": {
+"V0180,2024-03": {
 "combined_rating": "50",
 "payment": "935.20"
 },
-"V0147,2024-04": {
+"V0180,2024-04": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0147,2024-05": {
+"V0180,2024-05": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0147,2024-06": {
+"V0180,2024-06": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0147,2024-07": {
+"V0180,2024-07": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0147,2024-08": {
+"V0180,2024-08": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0147,2024-09": {
+"V0180,2024-09": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0147,2024-10": {
+"V0180,2024-10": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0147,2024-11": {
+"V0180,2024-11": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0147,2024-12": {
+"V0180,2024-12": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0147,2025-01": {
+"V0180,2025-01": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0147,2025-02": {
+"V0180,2025-02": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0147,2025-03": {
+"V0180,2025-03": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0147,2025-04": {
+"V0180,2025-04": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0147,2025-05": {
+"V0180,2025-05": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0147,2025-06": {
+"V0180,2025-06": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0147,2025-07": {
+"V0180,2025-07": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0147,2025-08": {
+"V0180,2025-08": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0147,2025-09": {
+"V0180,2025-09": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0147,2025-10": {
+"V0180,2025-10": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0147,2025-11": {
+"V0180,2025-11": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0147,2025-12": {
+"V0180,2025-12": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0147,2026-01": {
+"V0180,2026-01": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0147,2026-02": {
+"V0180,2026-02": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0147,2026-03": {
+"V0180,2026-03": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0147,2026-04": {
+"V0180,2026-04": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0147,2026-05": {
+"V0180,2026-05": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0147,2026-06": {
+"V0180,2026-06": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0147,2026-07": {
+"V0180,2026-07": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0147,2026-08": {
+"V0180,2026-08": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0147,2026-09": {
+"V0180,2026-09": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0152,2023-01": {
-"combined_rating": "20",
-"payment": "327.99"
+"V0187,2023-01": {
+"combined_rating": "30",
+"payment": "508.05"
 },
-"V0152,2023-02": {
-"combined_rating": "20",
-"payment": "327.99"
+"V0187,2023-02": {
+"combined_rating": "30",
+"payment": "508.05"
 },
-"V0152,2023-03": {
-"combined_rating": "20",
-"payment": "327.99"
+"V0187,2023-03": {
+"combined_rating": "30",
+"payment": "508.05"
 },
-"V0152,2023-04": {
-"combined_rating": "20",
-"payment": "327.99"
+"V0187,2023-04": {
+"combined_rating": "30",
+"payment": "508.05"
 },
-"V0152,2023-05": {
-"combined_rating": "20",
-"payment": "327.99"
+"V0187,2023-05": {
+"combined_rating": "30",
+"payment": "508.05"
 },
-"V0152,2023-06": {
-"combined_rating": "20",
-"payment": "327.99"
+"V0187,2023-06": {
+"combined_rating": "30",
+"payment": "508.05"
 },
-"V0152,2023-07": {
-"combined_rating": "20",
-"payment": "327.99"
+"V0187,2023-07": {
+"combined_rating": "30",
+"payment": "508.05"
 },
-"V0152,2023-08": {
-"combined_rating": "20",
-"payment": "327.99"
+"V0187,2023-08": {
+"combined_rating": "30",
+"payment": "508.05"
 },
-"V0152,2023-09": {
-"combined_rating": "20",
-"payment": "327.99"
+"V0187,2023-09": {
+"combined_rating": "30",
+"payment": "508.05"
 },
-"V0152,2023-10": {
-"combined_rating": "20",
-"payment": "327.99"
+"V0187,2023-10": {
+"combined_rating": "30",
+"payment": "508.05"
 },
-"V0152,2023-11": {
-"combined_rating": "20",
-"payment": "327.99"
+"V0187,2023-11": {
+"combined_rating": "30",
+"payment": "508.05"
 },
-"V0152,2023-12": {
-"combined_rating": "20",
-"payment": "338.49"
+"V0187,2023-12": {
+"combined_rating": "30",
+"payment": "524.31"
 },
-"V0152,2024-01": {
-"combined_rating": "20",
-"payment": "338.49"
+"V0187,2024-01": {
+"combined_rating": "30",
+"payment": "524.31"
 },
-"V0152,2024-02": {
-"combined_rating": "20",
-"payment": "338.49"
+"V0187,2024-02": {
+"combined_rating": "30",
+"payment": "524.31"
 },
-"V0152,2024-03": {
-"combined_rating": "20",
-"payment": "338.49"
+"V0187,2024-03": {
+"combined_rating": "30",
+"payment": "524.31"
 },
-"V0152,2024-04": {
-"combined_rating": "100",
-"payment": "3944.55"
+"V0187,2024-04": {
+"combined_rating": "30",
+"payment": "524.31"
 },
-"V0152,2024-05": {
-"combined_rating": "100",
-"payment": "3944.55"
+"V0187,2024-05": {
+"combined_rating": "50",
+"payment": "1075.16"
 },
-"V0152,2024-06": {
-"combined_rating": "100",
-"payment": "3944.55"
+"V0187,2024-06": {
+"combined_rating": "50",
+"payment": "1075.16"
 },
-"V0152,2024-07": {
-"combined_rating": "20",
-"payment": "338.49"
+"V0187,2024-07": {
+"combined_rating": "50",
+"payment": "1075.16"
 },
-"V0152,2024-08": {
-"combined_rating": "20",
-"payment": "338.49"
+"V0187,2024-08": {
+"combined_rating": "50",
+"payment": "1075.16"
 },
-"V0152,2024-09": {
-"combined_rating": "20",
-"payment": "338.49"
+"V0187,2024-09": {
+"combined_rating": "50",
+"payment": "1075.16"
 },
-"V0152,2024-10": {
-"combined_rating": "20",
-"payment": "338.49"
+"V0187,2024-10": {
+"combined_rating": "50",
+"payment": "1075.16"
 },
-"V0152,2024-11": {
-"combined_rating": "20",
-"payment": "338.49"
+"V0187,2024-11": {
+"combined_rating": "50",
+"payment": "1075.16"
 },
-"V0152,2024-12": {
-"combined_rating": "20",
-"payment": "346.95"
+"V0187,2024-12": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0152,2025-01": {
-"combined_rating": "20",
-"payment": "346.95"
+"V0187,2025-01": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0152,2025-02": {
-"combined_rating": "20",
-"payment": "346.95"
+"V0187,2025-02": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0152,2025-03": {
-"combined_rating": "20",
-"payment": "346.95"
+"V0187,2025-03": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0152,2025-04": {
-"combined_rating": "20",
-"payment": "346.95"
+"V0187,2025-04": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0152,2025-05": {
-"combined_rating": "20",
-"payment": "346.95"
+"V0187,2025-05": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0152,2025-06": {
-"combined_rating": "20",
-"payment": "346.95"
+"V0187,2025-06": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0152,2025-07": {
-"combined_rating": "20",
-"payment": "346.95"
+"V0187,2025-07": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0152,2025-08": {
-"combined_rating": "20",
-"payment": "346.95"
+"V0187,2025-08": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0152,2025-09": {
-"combined_rating": "20",
-"payment": "346.95"
+"V0187,2025-09": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0152,2025-10": {
-"combined_rating": "20",
-"payment": "346.95"
+"V0187,2025-10": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0152,2025-11": {
-"combined_rating": "20",
-"payment": "346.95"
+"V0187,2025-11": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0152,2025-12": {
-"combined_rating": "20",
-"payment": "356.67"
+"V0187,2025-12": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0152,2026-01": {
-"combined_rating": "20",
-"payment": "356.67"
+"V0187,2026-01": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0152,2026-02": {
-"combined_rating": "20",
-"payment": "356.67"
+"V0187,2026-02": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0152,2026-03": {
-"combined_rating": "20",
-"payment": "356.67"
+"V0187,2026-03": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0152,2026-04": {
-"combined_rating": "20",
-"payment": "356.67"
+"V0187,2026-04": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0152,2026-05": {
-"combined_rating": "20",
-"payment": "356.67"
+"V0187,2026-05": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0152,2026-06": {
-"combined_rating": "20",
-"payment": "356.67"
+"V0187,2026-06": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0152,2026-07": {
-"combined_rating": "20",
-"payment": "356.67"
+"V0187,2026-07": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0152,2026-08": {
-"combined_rating": "20",
-"payment": "356.67"
+"V0187,2026-08": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0152,2026-09": {
-"combined_rating": "20",
-"payment": "356.67"
+"V0187,2026-09": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0203,2023-01": {
+"V0194,2023-01": {
 "combined_rating": "50",
 "payment": "1041.82"
 },
-"V0203,2023-02": {
+"V0194,2023-02": {
 "combined_rating": "50",
 "payment": "1041.82"
 },
-"V0203,2023-03": {
+"V0194,2023-03": {
 "combined_rating": "50",
 "payment": "1041.82"
 },
-"V0203,2023-04": {
+"V0194,2023-04": {
 "combined_rating": "50",
 "payment": "1041.82"
 },
-"V0203,2023-05": {
+"V0194,2023-05": {
 "combined_rating": "50",
 "payment": "1041.82"
 },
-"V0203,2023-06": {
+"V0194,2023-06": {
 "combined_rating": "50",
 "payment": "1041.82"
 },
-"V0203,2023-07": {
+"V0194,2023-07": {
 "combined_rating": "50",
 "payment": "1041.82"
 },
-"V0203,2023-08": {
+"V0194,2023-08": {
 "combined_rating": "50",
 "payment": "1041.82"
 },
-"V0203,2023-09": {
+"V0194,2023-09": {
 "combined_rating": "50",
 "payment": "1041.82"
 },
-"V0203,2023-10": {
+"V0194,2023-10": {
 "combined_rating": "50",
 "payment": "1041.82"
 },
-"V0203,2023-11": {
+"V0194,2023-11": {
 "combined_rating": "50",
 "payment": "1041.82"
 },
-"V0203,2023-12": {
+"V0194,2023-12": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0203,2024-01": {
+"V0194,2024-01": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0203,2024-02": {
+"V0194,2024-02": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0203,2024-03": {
+"V0194,2024-03": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0203,2024-04": {
+"V0194,2024-04": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0203,2024-05": {
+"V0194,2024-05": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0203,2024-06": {
+"V0194,2024-06": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0203,2024-07": {
+"V0194,2024-07": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0203,2024-08": {
+"V0194,2024-08": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0203,2024-09": {
+"V0194,2024-09": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0203,2024-10": {
+"V0194,2024-10": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0203,2024-11": {
+"V0194,2024-11": {
 "combined_rating": "50",
 "payment": "1075.16"
 },
-"V0203,2024-12": {
+"V0194,2024-12": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0203,2025-01": {
+"V0194,2025-01": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0203,2025-02": {
+"V0194,2025-02": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0203,2025-03": {
+"V0194,2025-03": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0203,2025-04": {
+"V0194,2025-04": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0203,2025-05": {
+"V0194,2025-05": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0203,2025-06": {
+"V0194,2025-06": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0203,2025-07": {
+"V0194,2025-07": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0203,2025-08": {
+"V0194,2025-08": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0203,2025-09": {
+"V0194,2025-09": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0203,2025-10": {
+"V0194,2025-10": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0203,2025-11": {
+"V0194,2025-11": {
 "combined_rating": "50",
 "payment": "1102.04"
 },
-"V0203,2025-12": {
+"V0194,2025-12": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0203,2026-01": {
+"V0194,2026-01": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0203,2026-02": {
+"V0194,2026-02": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0203,2026-03": {
+"V0194,2026-03": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0203,2026-04": {
+"V0194,2026-04": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0203,2026-05": {
+"V0194,2026-05": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0203,2026-06": {
+"V0194,2026-06": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0203,2026-07": {
+"V0194,2026-07": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0203,2026-08": {
+"V0194,2026-08": {
 "combined_rating": "50",
 "payment": "1132.90"
 },
-"V0203,2026-09": {
+"V0194,2026-09": {
 "combined_rating": "50",
 "payment": "1132.90"
-},
-"V0213,2023-01": {
-"combined_rating": "0",
-"payment": "0.00"
-},
-"V0213,2023-02": {
-"combined_rating": "20",
-"payment": "327.99"
-},
-"V0213,2023-03": {
-"combined_rating": "20",
-"payment": "327.99"
-},
-"V0213,2023-04": {
-"combined_rating": "20",
-"payment": "327.99"
-},
-"V0213,2023-05": {
-"combined_rating": "20",
-"payment": "327.99"
-},
-"V0213,2023-06": {
-"combined_rating": "20",
-"payment": "327.99"
-},
-"V0213,2023-07": {
-"combined_rating": "20",
-"payment": "327.99"
-},
-"V0213,2023-08": {
-"combined_rating": "20",
-"payment": "327.99"
-},
-"V0213,2023-09": {
-"combined_rating": "20",
-"payment": "327.99"
-},
-"V0213,2023-10": {
-"combined_rating": "20",
-"payment": "327.99"
-},
-"V0213,2023-11": {
-"combined_rating": "20",
-"payment": "327.99"
-},
-"V0213,2023-12": {
-"combined_rating": "20",
-"payment": "338.49"
-},
-"V0213,2024-01": {
-"combined_rating": "20",
-"payment": "338.49"
-},
-"V0213,2024-02": {
-"combined_rating": "20",
-"payment": "338.49"
-},
-"V0213,2024-03": {
-"combined_rating": "30",
-"payment": "586.32"
-},
-"V0213,2024-04": {
-"combined_rating": "30",
-"payment": "586.32"
-},
-"V0213,2024-05": {
-"combined_rating": "30",
-"payment": "586.32"
-},
-"V0213,2024-06": {
-"combined_rating": "30",
-"payment": "586.32"
-},
-"V0213,2024-07": {
-"combined_rating": "30",
-"payment": "586.32"
-},
-"V0213,2024-08": {
-"combined_rating": "30",
-"payment": "586.32"
-},
-"V0213,2024-09": {
-"combined_rating": "30",
-"payment": "586.32"
-},
-"V0213,2024-10": {
-"combined_rating": "30",
-"payment": "586.32"
-},
-"V0213,2024-11": {
-"combined_rating": "30",
-"payment": "586.32"
-},
-"V0213,2024-12": {
-"combined_rating": "30",
-"payment": "600.98"
-},
-"V0213,2025-01": {
-"combined_rating": "30",
-"payment": "600.98"
-},
-"V0213,2025-02": {
-"combined_rating": "30",
-"payment": "600.98"
-},
-"V0213,2025-03": {
-"combined_rating": "30",
-"payment": "600.98"
-},
-"V0213,2025-04": {
-"combined_rating": "30",
-"payment": "600.98"
-},
-"V0213,2025-05": {
-"combined_rating": "30",
-"payment": "600.98"
-},
-"V0213,2025-06": {
-"combined_rating": "30",
-"payment": "600.98"
-},
-"V0213,2025-07": {
-"combined_rating": "30",
-"payment": "600.98"
-},
-"V0213,2025-08": {
-"combined_rating": "30",
-"payment": "600.98"
-},
-"V0213,2025-09": {
-"combined_rating": "30",
-"payment": "600.98"
-},
-"V0213,2025-10": {
-"combined_rating": "30",
-"payment": "600.98"
-},
-"V0213,2025-11": {
-"combined_rating": "30",
-"payment": "600.98"
-},
-"V0213,2025-12": {
-"combined_rating": "30",
-"payment": "617.81"
-},
-"V0213,2026-01": {
-"combined_rating": "30",
-"payment": "617.81"
-},
-"V0213,2026-02": {
-"combined_rating": "30",
-"payment": "617.81"
-},
-"V0213,2026-03": {
-"combined_rating": "30",
-"payment": "617.81"
-},
-"V0213,2026-04": {
-"combined_rating": "30",
-"payment": "617.81"
-},
-"V0213,2026-05": {
-"combined_rating": "30",
-"payment": "617.81"
-},
-"V0213,2026-06": {
-"combined_rating": "30",
-"payment": "617.81"
-},
-"V0213,2026-07": {
-"combined_rating": "30",
-"payment": "617.81"
-},
-"V0213,2026-08": {
-"combined_rating": "30",
-"payment": "617.81"
-},
-"V0213,2026-09": {
-"combined_rating": "30",
-"payment": "617.81"
 },
 "V0215,2023-01": {
-"combined_rating": "80",
-"payment": "1933.15"
+"combined_rating": "50",
+"payment": "1041.82"
 },
 "V0215,2023-02": {
-"combined_rating": "80",
-"payment": "1933.15"
+"combined_rating": "50",
+"payment": "1041.82"
 },
 "V0215,2023-03": {
-"combined_rating": "80",
-"payment": "1933.15"
+"combined_rating": "50",
+"payment": "1041.82"
 },
 "V0215,2023-04": {
-"combined_rating": "80",
-"payment": "1933.15"
+"combined_rating": "50",
+"payment": "1041.82"
 },
 "V0215,2023-05": {
-"combined_rating": "80",
-"payment": "1933.15"
+"combined_rating": "50",
+"payment": "1041.82"
 },
 "V0215,2023-06": {
-"combined_rating": "80",
-"payment": "1933.15"
+"combined_rating": "50",
+"payment": "1041.82"
 },
 "V0215,2023-07": {
-"combined_rating": "80",
-"payment": "1933.15"
+"combined_rating": "50",
+"payment": "1041.82"
 },
 "V0215,2023-08": {
-"combined_rating": "80",
-"payment": "1933.15"
+"combined_rating": "50",
+"payment": "1041.82"
 },
 "V0215,2023-09": {
-"combined_rating": "80",
-"payment": "1933.15"
+"combined_rating": "50",
+"payment": "1041.82"
 },
 "V0215,2023-10": {
-"combined_rating": "80",
-"payment": "1933.15"
+"combined_rating": "50",
+"payment": "1041.82"
 },
 "V0215,2023-11": {
-"combined_rating": "80",
-"payment": "1933.15"
+"combined_rating": "50",
+"payment": "1041.82"
 },
 "V0215,2023-12": {
-"combined_rating": "80",
-"payment": "1995.01"
+"combined_rating": "50",
+"payment": "1075.16"
 },
 "V0215,2024-01": {
-"combined_rating": "80",
-"payment": "1995.01"
+"combined_rating": "50",
+"payment": "1075.16"
 },
 "V0215,2024-02": {
-"combined_rating": "80",
-"payment": "1995.01"
+"combined_rating": "50",
+"payment": "1075.16"
 },
 "V0215,2024-03": {
-"combined_rating": "80",
-"payment": "1995.01"
+"combined_rating": "50",
+"payment": "1075.16"
 },
 "V0215,2024-04": {
-"combined_rating": "80",
-"payment": "1995.01"
+"combined_rating": "50",
+"payment": "1075.16"
 },
 "V0215,2024-05": {
-"combined_rating": "80",
-"payment": "1995.01"
+"combined_rating": "50",
+"payment": "1075.16"
 },
 "V0215,2024-06": {
-"combined_rating": "80",
-"payment": "1995.01"
+"combined_rating": "50",
+"payment": "1075.16"
 },
 "V0215,2024-07": {
-"combined_rating": "80",
-"payment": "1995.01"
+"combined_rating": "50",
+"payment": "1075.16"
 },
 "V0215,2024-08": {
-"combined_rating": "80",
-"payment": "1995.01"
+"combined_rating": "50",
+"payment": "1075.16"
 },
 "V0215,2024-09": {
-"combined_rating": "80",
-"payment": "1995.01"
+"combined_rating": "50",
+"payment": "1075.16"
 },
 "V0215,2024-10": {
-"combined_rating": "80",
-"payment": "1995.01"
+"combined_rating": "50",
+"payment": "1075.16"
 },
 "V0215,2024-11": {
-"combined_rating": "80",
-"payment": "1995.01"
+"combined_rating": "50",
+"payment": "1075.16"
 },
 "V0215,2024-12": {
-"combined_rating": "80",
-"payment": "2044.89"
+"combined_rating": "50",
+"payment": "1102.04"
 },
 "V0215,2025-01": {
-"combined_rating": "80",
-"payment": "2044.89"
+"combined_rating": "50",
+"payment": "1102.04"
 },
 "V0215,2025-02": {
-"combined_rating": "80",
-"payment": "2044.89"
+"combined_rating": "50",
+"payment": "1102.04"
 },
 "V0215,2025-03": {
-"combined_rating": "80",
-"payment": "2044.89"
+"combined_rating": "50",
+"payment": "1102.04"
 },
 "V0215,2025-04": {
-"combined_rating": "80",
-"payment": "2044.89"
+"combined_rating": "50",
+"payment": "1102.04"
 },
 "V0215,2025-05": {
-"combined_rating": "80",
-"payment": "2044.89"
+"combined_rating": "50",
+"payment": "1102.04"
 },
 "V0215,2025-06": {
-"combined_rating": "80",
-"payment": "2044.89"
+"combined_rating": "50",
+"payment": "1102.04"
 },
 "V0215,2025-07": {
-"combined_rating": "80",
-"payment": "2044.89"
+"combined_rating": "50",
+"payment": "1102.04"
 },
 "V0215,2025-08": {
-"combined_rating": "80",
-"payment": "2044.89"
+"combined_rating": "50",
+"payment": "1102.04"
 },
 "V0215,2025-09": {
-"combined_rating": "80",
-"payment": "2044.89"
+"combined_rating": "50",
+"payment": "1102.04"
 },
 "V0215,2025-10": {
-"combined_rating": "80",
-"payment": "2044.89"
+"combined_rating": "30",
+"payment": "537.42"
 },
 "V0215,2025-11": {
-"combined_rating": "80",
-"payment": "2044.89"
+"combined_rating": "30",
+"payment": "537.42"
 },
 "V0215,2025-12": {
-"combined_rating": "80",
-"payment": "2102.14"
+"combined_rating": "30",
+"payment": "552.47"
 },
 "V0215,2026-01": {
-"combined_rating": "80",
-"payment": "2102.14"
+"combined_rating": "30",
+"payment": "552.47"
 },
 "V0215,2026-02": {
-"combined_rating": "80",
-"payment": "2102.14"
+"combined_rating": "30",
+"payment": "552.47"
 },
 "V0215,2026-03": {
-"combined_rating": "80",
-"payment": "2102.14"
+"combined_rating": "30",
+"payment": "552.47"
 },
 "V0215,2026-04": {
-"combined_rating": "80",
-"payment": "2102.14"
+"combined_rating": "30",
+"payment": "552.47"
 },
 "V0215,2026-05": {
-"combined_rating": "80",
-"payment": "2102.14"
+"combined_rating": "30",
+"payment": "552.47"
 },
 "V0215,2026-06": {
-"combined_rating": "80",
-"payment": "2102.14"
+"combined_rating": "30",
+"payment": "552.47"
 },
 "V0215,2026-07": {
-"combined_rating": "80",
-"payment": "2102.14"
+"combined_rating": "30",
+"payment": "552.47"
 },
 "V0215,2026-08": {
-"combined_rating": "80",
-"payment": "2102.14"
+"combined_rating": "30",
+"payment": "552.47"
 },
 "V0215,2026-09": {
-"combined_rating": "80",
-"payment": "2102.14"
+"combined_rating": "30",
+"payment": "552.47"
 },
-"V0217,2023-01": {
+"V0219,2023-01": {
+"combined_rating": "100",
+"payment": "3621.95"
+},
+"V0219,2023-02": {
+"combined_rating": "100",
+"payment": "3621.95"
+},
+"V0219,2023-03": {
+"combined_rating": "100",
+"payment": "3621.95"
+},
+"V0219,2023-04": {
+"combined_rating": "100",
+"payment": "3621.95"
+},
+"V0219,2023-05": {
+"combined_rating": "100",
+"payment": "3621.95"
+},
+"V0219,2023-06": {
+"combined_rating": "100",
+"payment": "3621.95"
+},
+"V0219,2023-07": {
+"combined_rating": "100",
+"payment": "3621.95"
+},
+"V0219,2023-08": {
+"combined_rating": "100",
+"payment": "3621.95"
+},
+"V0219,2023-09": {
+"combined_rating": "100",
+"payment": "3621.95"
+},
+"V0219,2023-10": {
+"combined_rating": "100",
+"payment": "3621.95"
+},
+"V0219,2023-11": {
+"combined_rating": "100",
+"payment": "3621.95"
+},
+"V0219,2023-12": {
+"combined_rating": "100",
+"payment": "3737.85"
+},
+"V0219,2024-01": {
+"combined_rating": "100",
+"payment": "3737.85"
+},
+"V0219,2024-02": {
+"combined_rating": "100",
+"payment": "3737.85"
+},
+"V0219,2024-03": {
+"combined_rating": "100",
+"payment": "3737.85"
+},
+"V0219,2024-04": {
+"combined_rating": "100",
+"payment": "3737.85"
+},
+"V0219,2024-05": {
+"combined_rating": "100",
+"payment": "3737.85"
+},
+"V0219,2024-06": {
+"combined_rating": "100",
+"payment": "3737.85"
+},
+"V0219,2024-07": {
+"combined_rating": "100",
+"payment": "3737.85"
+},
+"V0219,2024-08": {
+"combined_rating": "100",
+"payment": "3737.85"
+},
+"V0219,2024-09": {
+"combined_rating": "100",
+"payment": "3737.85"
+},
+"V0219,2024-10": {
+"combined_rating": "100",
+"payment": "3737.85"
+},
+"V0219,2024-11": {
+"combined_rating": "100",
+"payment": "3737.85"
+},
+"V0219,2024-12": {
+"combined_rating": "100",
+"payment": "3831.30"
+},
+"V0219,2025-01": {
+"combined_rating": "100",
+"payment": "3831.30"
+},
+"V0219,2025-02": {
+"combined_rating": "100",
+"payment": "3831.30"
+},
+"V0219,2025-03": {
+"combined_rating": "100",
+"payment": "3831.30"
+},
+"V0219,2025-04": {
+"combined_rating": "100",
+"payment": "3831.30"
+},
+"V0219,2025-05": {
+"combined_rating": "100",
+"payment": "3831.30"
+},
+"V0219,2025-06": {
+"combined_rating": "100",
+"payment": "3831.30"
+},
+"V0219,2025-07": {
+"combined_rating": "100",
+"payment": "3831.30"
+},
+"V0219,2025-08": {
+"combined_rating": "100",
+"payment": "3831.30"
+},
+"V0219,2025-09": {
+"combined_rating": "100",
+"payment": "3831.30"
+},
+"V0219,2025-10": {
+"combined_rating": "100",
+"payment": "3831.30"
+},
+"V0219,2025-11": {
+"combined_rating": "100",
+"payment": "3831.30"
+},
+"V0219,2025-12": {
+"combined_rating": "100",
+"payment": "3938.57"
+},
+"V0219,2026-01": {
+"combined_rating": "100",
+"payment": "3938.57"
+},
+"V0219,2026-02": {
+"combined_rating": "100",
+"payment": "3938.57"
+},
+"V0219,2026-03": {
+"combined_rating": "100",
+"payment": "3938.57"
+},
+"V0219,2026-04": {
+"combined_rating": "100",
+"payment": "3938.57"
+},
+"V0219,2026-05": {
+"combined_rating": "100",
+"payment": "3938.57"
+},
+"V0219,2026-06": {
+"combined_rating": "100",
+"payment": "3938.57"
+},
+"V0219,2026-07": {
+"combined_rating": "100",
+"payment": "3938.57"
+},
+"V0219,2026-08": {
+"combined_rating": "100",
+"payment": "3938.57"
+},
+"V0219,2026-09": {
+"combined_rating": "100",
+"payment": "3938.57"
+},
+"V0222,2023-01": {
 "combined_rating": "70",
 "payment": "1663.06"
 },
-"V0217,2023-02": {
+"V0222,2023-02": {
 "combined_rating": "70",
 "payment": "1663.06"
 },
-"V0217,2023-03": {
+"V0222,2023-03": {
 "combined_rating": "70",
 "payment": "1663.06"
 },
-"V0217,2023-04": {
+"V0222,2023-04": {
 "combined_rating": "70",
 "payment": "1663.06"
 },
-"V0217,2023-05": {
+"V0222,2023-05": {
 "combined_rating": "70",
 "payment": "1663.06"
 },
-"V0217,2023-06": {
+"V0222,2023-06": {
 "combined_rating": "70",
 "payment": "1663.06"
 },
-"V0217,2023-07": {
+"V0222,2023-07": {
 "combined_rating": "70",
 "payment": "1663.06"
 },
-"V0217,2023-08": {
+"V0222,2023-08": {
 "combined_rating": "70",
 "payment": "1663.06"
 },
-"V0217,2023-09": {
+"V0222,2023-09": {
 "combined_rating": "70",
 "payment": "1663.06"
 },
-"V0217,2023-10": {
+"V0222,2023-10": {
 "combined_rating": "70",
 "payment": "1663.06"
 },
-"V0217,2023-11": {
+"V0222,2023-11": {
 "combined_rating": "70",
 "payment": "1663.06"
 },
-"V0217,2023-12": {
+"V0222,2023-12": {
 "combined_rating": "70",
 "payment": "1716.28"
 },
-"V0217,2024-01": {
+"V0222,2024-01": {
 "combined_rating": "70",
 "payment": "1716.28"
 },
-"V0217,2024-02": {
+"V0222,2024-02": {
 "combined_rating": "70",
 "payment": "1716.28"
 },
-"V0217,2024-03": {
+"V0222,2024-03": {
 "combined_rating": "70",
 "payment": "1716.28"
 },
-"V0217,2024-04": {
+"V0222,2024-04": {
 "combined_rating": "70",
 "payment": "1716.28"
 },
-"V0217,2024-05": {
+"V0222,2024-05": {
 "combined_rating": "70",
 "payment": "1716.28"
 },
-"V0217,2024-06": {
+"V0222,2024-06": {
 "combined_rating": "70",
 "payment": "1716.28"
 },
-"V0217,2024-07": {
+"V0222,2024-07": {
 "combined_rating": "70",
 "payment": "1716.28"
 },
-"V0217,2024-08": {
+"V0222,2024-08": {
 "combined_rating": "70",
 "payment": "1716.28"
 },
-"V0217,2024-09": {
+"V0222,2024-09": {
 "combined_rating": "70",
 "payment": "1716.28"
 },
-"V0217,2024-10": {
+"V0222,2024-10": {
 "combined_rating": "70",
 "payment": "1716.28"
 },
-"V0217,2024-11": {
+"V0222,2024-11": {
 "combined_rating": "70",
 "payment": "1716.28"
 },
-"V0217,2024-12": {
+"V0222,2024-12": {
 "combined_rating": "70",
 "payment": "1759.19"
 },
-"V0217,2025-01": {
+"V0222,2025-01": {
 "combined_rating": "70",
 "payment": "1759.19"
 },
-"V0217,2025-02": {
+"V0222,2025-02": {
 "combined_rating": "70",
 "payment": "1759.19"
 },
-"V0217,2025-03": {
+"V0222,2025-03": {
 "combined_rating": "70",
 "payment": "1759.19"
 },
-"V0217,2025-04": {
+"V0222,2025-04": {
 "combined_rating": "70",
 "payment": "1759.19"
 },
-"V0217,2025-05": {
+"V0222,2025-05": {
 "combined_rating": "70",
 "payment": "1759.19"
 },
-"V0217,2025-06": {
-"combined_rating": "70",
-"payment": "1759.19"
+"V0222,2025-06": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0217,2025-07": {
-"combined_rating": "70",
-"payment": "1759.19"
+"V0222,2025-07": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0217,2025-08": {
-"combined_rating": "70",
-"payment": "1759.19"
+"V0222,2025-08": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0217,2025-09": {
-"combined_rating": "70",
-"payment": "1759.19"
+"V0222,2025-09": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0217,2025-10": {
-"combined_rating": "70",
-"payment": "1759.19"
+"V0222,2025-10": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0217,2025-11": {
-"combined_rating": "70",
-"payment": "1759.19"
+"V0222,2025-11": {
+"combined_rating": "50",
+"payment": "1102.04"
 },
-"V0217,2025-12": {
-"combined_rating": "70",
-"payment": "1808.44"
+"V0222,2025-12": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0217,2026-01": {
-"combined_rating": "70",
-"payment": "1808.44"
+"V0222,2026-01": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0217,2026-02": {
-"combined_rating": "70",
-"payment": "1808.44"
+"V0222,2026-02": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0217,2026-03": {
-"combined_rating": "70",
-"payment": "1808.44"
+"V0222,2026-03": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0217,2026-04": {
-"combined_rating": "70",
-"payment": "1808.44"
+"V0222,2026-04": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0217,2026-05": {
-"combined_rating": "70",
-"payment": "1808.44"
+"V0222,2026-05": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0217,2026-06": {
-"combined_rating": "70",
-"payment": "1808.44"
+"V0222,2026-06": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0217,2026-07": {
-"combined_rating": "70",
-"payment": "1808.44"
+"V0222,2026-07": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0217,2026-08": {
-"combined_rating": "70",
-"payment": "1808.44"
+"V0222,2026-08": {
+"combined_rating": "50",
+"payment": "1132.90"
 },
-"V0217,2026-09": {
-"combined_rating": "70",
-"payment": "1808.44"
+"V0222,2026-09": {
+"combined_rating": "50",
+"payment": "1132.90"
 }
 }
