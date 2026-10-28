@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate the stormwater-inspection-audit inputs (dev only, never shipped).
+"""Generate the stormwater-inspection-audit inputs (authoring tool; not part of the agent or verifier images).
 
 Writes identical data to tasks/stormwater-inspection-audit/environment/data and tests/data, plus tests/golden.json
 (hand-worked rows of the planted sites) and tests/case_tags.json (rule families of the planted sites).
@@ -18,7 +18,7 @@ from sim import DAY, END_DAY, add_month, sensitive, sim  # noqa: E402
 import planted  # noqa: E402
 
 SEED = 40122
-ROOT = HERE.parents[1] / "tasks" / "stormwater-inspection-audit"
+ROOT = HERE.parent                                     # the task folder (this file lives in authoring/)
 START = date(2026, 1, 1)
 N_FILLER = 28
 
@@ -650,7 +650,9 @@ def main():
     (ROOT / "tests" / "golden.json").write_text(json.dumps(golden, indent=1, sort_keys=True) + "\n")
     (ROOT / "tests" / "case_tags.json").write_text(json.dumps(tags, indent=1, sort_keys=True) + "\n")
     answers = sorted(r for b in bundles for r in sim(b)[0])
-    (HERE / "sim_answers.json").write_text(json.dumps([list(r) for r in answers]) + "\n")
+    dev = HERE.parents[2] / "tools" / "stormwater-inspection-audit"     # author's workspace only, never in the task
+    if dev.is_dir():
+        (dev / "sim_answers.json").write_text(json.dumps([list(r) for r in answers]) + "\n")
     print(f"sites {len(bundles)} (planted {len(planted.SITES)}), rows {total}, "
           + ", ".join(f"{k} {len(v)}" for k, v in data.items()))
 

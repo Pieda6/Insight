@@ -1,4 +1,4 @@
-"""Hand-planted sites for stormwater-inspection-audit, each with its expected rows worked by hand (dev only).
+"""Hand-planted sites for stormwater-inspection-audit, each with its expected rows worked by hand (authoring tool).
 
 2026 calendar used below: Jul 6, 13, 20, 27, Aug 3, 10, 17, 24, 31, Sep 14, 21, 28 are Mondays; Aug 1 and Sep 5 are
 Saturdays; Sep 7 is Labor Day (no planted site works that day). The audit ends 2026-09-30 23:59.

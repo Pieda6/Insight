@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
-"""Dev-only calibration for stormwater-inspection-audit (never uploaded): the oracle passes, and each common
+"""Shortcut calibration for stormwater-inspection-audit (authoring tool): the oracle passes, and each common
 misreading of the 2022 Construction General Permit, written as a small source edit of the reference solution, fails
-at least one test. Runs without Docker or a writable /app (uses templates/local_check.py)."""
+at least one test. Runs without Docker or a writable /app (uses local_check.py next to this file)."""
 import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-sys.path.insert(0, str(HERE.parents[1] / "skills" / "insight-task-builder" / "templates"))
+sys.path.insert(0, str(HERE))
 from local_check import run_solution, run_tests  # noqa: E402
 
-TASK = HERE.parents[1] / "tasks" / "stormwater-inspection-audit"
+TASK = HERE.parent
 SRC = (TASK / "solution" / "solve.py").read_text()
 
 WEEKDAYS = ("sorted(date(2026, 1, 1) + timedelta(days=k) for k in range(273) "

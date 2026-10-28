@@ -1,4 +1,4 @@
-"""Generator-side model of the 2022 CGP requirements audited by stormwater-inspection-audit (dev only, never shipped).
+"""Generator-side model of the 2022 CGP requirements audited by stormwater-inspection-audit (authoring tool).
 
 This is the third implementation. It works on one site "bundle" at a time and, in strict mode, also reports the
 places where a second defensible reading of the permit could change the answer, so the generator can repair or
