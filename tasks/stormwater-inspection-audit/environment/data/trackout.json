@@ -1,0 +1,2557 @@
+[
+ {
+  "trackout_id": "T0001",
+  "site_id": "S22",
+  "area_id": "S22-A01",
+  "occurred": "2026-01-21T12:25",
+  "removed": "2026-01-21T12:30"
+ },
+ {
+  "trackout_id": "T0002",
+  "site_id": "S36",
+  "area_id": "S36-A01",
+  "occurred": "2026-01-22T12:25",
+  "removed": "2026-01-22T14:30"
+ },
+ {
+  "trackout_id": "T0003",
+  "site_id": "S06",
+  "area_id": "S06-A01",
+  "occurred": "2026-01-28T08:00",
+  "removed": "2026-01-29T09:00"
+ },
+ {
+  "trackout_id": "T0004",
+  "site_id": "S22",
+  "area_id": "S22-A03",
+  "occurred": "2026-01-28T13:10",
+  "removed": "2026-01-28T15:30"
+ },
+ {
+  "trackout_id": "T0005",
+  "site_id": "S33",
+  "area_id": "S33-A01",
+  "occurred": "2026-02-02T08:40",
+  "removed": "2026-02-02T09:40"
+ },
+ {
+  "trackout_id": "T0006",
+  "site_id": "S36",
+  "area_id": "S36-A01",
+  "occurred": "2026-02-03T11:10",
+  "removed": "2026-02-04T08:00"
+ },
+ {
+  "trackout_id": "T0007",
+  "site_id": "S31",
+  "area_id": "S31-A01",
+  "occurred": "2026-02-03T12:55",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0008",
+  "site_id": "S22",
+  "area_id": "S22-A01",
+  "occurred": "2026-02-04T17:00",
+  "removed": "2026-02-04T18:00"
+ },
+ {
+  "trackout_id": "T0009",
+  "site_id": "S06",
+  "area_id": "S06-A01",
+  "occurred": "2026-02-06T08:40",
+  "removed": "2026-02-06T15:00"
+ },
+ {
+  "trackout_id": "T0010",
+  "site_id": "S15",
+  "area_id": "S15-A01",
+  "occurred": "2026-02-09T13:00",
+  "removed": "2026-02-09T23:59"
+ },
+ {
+  "trackout_id": "T0011",
+  "site_id": "S17",
+  "area_id": "S17-A01",
+  "occurred": "2026-02-11T17:55",
+  "removed": "2026-02-11T18:55"
+ },
+ {
+  "trackout_id": "T0012",
+  "site_id": "S22",
+  "area_id": "S22-A03",
+  "occurred": "2026-02-12T12:40",
+  "removed": "2026-02-12T13:00"
+ },
+ {
+  "trackout_id": "T0013",
+  "site_id": "S02",
+  "area_id": "S02-A01",
+  "occurred": "2026-02-13T17:00",
+  "removed": "2026-02-13T18:00"
+ },
+ {
+  "trackout_id": "T0014",
+  "site_id": "S23",
+  "area_id": "S23-A01",
+  "occurred": "2026-02-14T15:55",
+  "removed": "2026-02-17T11:30"
+ },
+ {
+  "trackout_id": "T0015",
+  "site_id": "S36",
+  "area_id": "S36-A01",
+  "occurred": "2026-02-18T11:10",
+  "removed": "2026-02-18T17:30"
+ },
+ {
+  "trackout_id": "T0016",
+  "site_id": "S17",
+  "area_id": "S17-A01",
+  "occurred": "2026-02-19T17:25",
+  "removed": "2026-02-19T18:30"
+ },
+ {
+  "trackout_id": "T0017",
+  "site_id": "S33",
+  "area_id": "S33-A01",
+  "occurred": "2026-02-20T10:25",
+  "removed": "2026-02-20T15:30"
+ },
+ {
+  "trackout_id": "T0018",
+  "site_id": "S23",
+  "area_id": "S23-A01",
+  "occurred": "2026-02-20T15:00",
+  "removed": "2026-02-20T15:00"
+ },
+ {
+  "trackout_id": "T0019",
+  "site_id": "S06",
+  "area_id": "S06-A01",
+  "occurred": "2026-02-22T17:40",
+  "removed": "2026-02-24T09:00"
+ },
+ {
+  "trackout_id": "T0020",
+  "site_id": "S36",
+  "area_id": "S36-A01",
+  "occurred": "2026-02-26T16:25",
+  "removed": "2026-02-26T17:30"
+ },
+ {
+  "trackout_id": "T0021",
+  "site_id": "S15",
+  "area_id": "S15-A02",
+  "occurred": "2026-02-28T09:55",
+  "removed": "2026-03-02T08:30"
+ },
+ {
+  "trackout_id": "T0022",
+  "site_id": "S13",
+  "area_id": "S13-A01",
+  "occurred": "2026-03-02T07:25",
+  "removed": "2026-03-03T07:00"
+ },
+ {
+  "trackout_id": "T0023",
+  "site_id": "S02",
+  "area_id": "S02-A01",
+  "occurred": "2026-03-02T10:40",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0024",
+  "site_id": "S18",
+  "area_id": "S18-A01",
+  "occurred": "2026-03-02T14:00",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0025",
+  "site_id": "S24",
+  "area_id": "S24-A01",
+  "occurred": "2026-03-02T17:55",
+  "removed": "2026-03-03T07:00"
+ },
+ {
+  "trackout_id": "T0026",
+  "site_id": "S22",
+  "area_id": "S22-A01",
+  "occurred": "2026-03-03T08:40",
+  "removed": "2026-03-04T08:00"
+ },
+ {
+  "trackout_id": "T0027",
+  "site_id": "S07",
+  "area_id": "S07-A01",
+  "occurred": "2026-03-03T13:25",
+  "removed": "2026-03-03T14:00"
+ },
+ {
+  "trackout_id": "T0028",
+  "site_id": "S15",
+  "area_id": "S15-A01",
+  "occurred": "2026-03-06T17:40",
+  "removed": "2026-03-06T23:59"
+ },
+ {
+  "trackout_id": "T0029",
+  "site_id": "S31",
+  "area_id": "S31-A04",
+  "occurred": "2026-03-08T07:00",
+  "removed": "2026-03-09T15:00"
+ },
+ {
+  "trackout_id": "T0030",
+  "site_id": "S06",
+  "area_id": "S06-A03",
+  "occurred": "2026-03-09T08:55",
+  "removed": "2026-03-09T10:30"
+ },
+ {
+  "trackout_id": "T0031",
+  "site_id": "S05",
+  "area_id": "S05-A01",
+  "occurred": "2026-03-11T12:40",
+  "removed": "2026-03-12T07:00"
+ },
+ {
+  "trackout_id": "T0032",
+  "site_id": "S10",
+  "area_id": "S10-A01",
+  "occurred": "2026-03-11T13:40",
+  "removed": "2026-03-11T23:59"
+ },
+ {
+  "trackout_id": "T0033",
+  "site_id": "S33",
+  "area_id": "S33-A02",
+  "occurred": "2026-03-12T16:25",
+  "removed": "2026-03-12T17:00"
+ },
+ {
+  "trackout_id": "T0034",
+  "site_id": "S24",
+  "area_id": "S24-A01",
+  "occurred": "2026-03-13T15:40",
+  "removed": "2026-03-13T23:59"
+ },
+ {
+  "trackout_id": "T0035",
+  "site_id": "S07",
+  "area_id": "S07-A04",
+  "occurred": "2026-03-13T17:10",
+  "removed": "2026-03-13T17:30"
+ },
+ {
+  "trackout_id": "T0036",
+  "site_id": "S17",
+  "area_id": "S17-A01",
+  "occurred": "2026-03-15T09:10",
+  "removed": "2026-03-16T17:30"
+ },
+ {
+  "trackout_id": "T0037",
+  "site_id": "S13",
+  "area_id": "S13-A01",
+  "occurred": "2026-03-15T09:55",
+  "removed": "2026-03-16T15:30"
+ },
+ {
+  "trackout_id": "T0038",
+  "site_id": "S18",
+  "area_id": "S18-A06",
+  "occurred": "2026-03-18T12:10",
+  "removed": "2026-03-18T13:00"
+ },
+ {
+  "trackout_id": "T0039",
+  "site_id": "S32",
+  "area_id": "S32-A01",
+  "occurred": "2026-03-19T13:10",
+  "removed": "2026-03-19T15:00"
+ },
+ {
+  "trackout_id": "T0040",
+  "site_id": "S31",
+  "area_id": "S31-A01",
+  "occurred": "2026-03-19T15:25",
+  "removed": "2026-03-19T18:30"
+ },
+ {
+  "trackout_id": "T0041",
+  "site_id": "S22",
+  "area_id": "S22-A02",
+  "occurred": "2026-03-19T15:55",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0042",
+  "site_id": "S23",
+  "area_id": "S23-A04",
+  "occurred": "2026-03-20T08:40",
+  "removed": "2026-03-21T07:00"
+ },
+ {
+  "trackout_id": "T0043",
+  "site_id": "S30",
+  "area_id": "S30-A01",
+  "occurred": "2026-03-21T15:40",
+  "removed": "2026-03-23T17:00"
+ },
+ {
+  "trackout_id": "T0044",
+  "site_id": "S02",
+  "area_id": "S02-A03",
+  "occurred": "2026-03-22T12:40",
+  "removed": "2026-03-24T09:00"
+ },
+ {
+  "trackout_id": "T0045",
+  "site_id": "S06",
+  "area_id": "S06-A03",
+  "occurred": "2026-03-23T13:10",
+  "removed": "2026-03-25T12:30"
+ },
+ {
+  "trackout_id": "T0046",
+  "site_id": "S26",
+  "area_id": "S26-A01",
+  "occurred": "2026-03-23T15:10",
+  "removed": "2026-03-25T09:00"
+ },
+ {
+  "trackout_id": "T0047",
+  "site_id": "S12",
+  "area_id": "S12-A05",
+  "occurred": "2026-03-23T15:40",
+  "removed": "2026-03-24T10:00"
+ },
+ {
+  "trackout_id": "T0048",
+  "site_id": "S15",
+  "area_id": "S15-A01",
+  "occurred": "2026-03-24T09:10",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0049",
+  "site_id": "S24",
+  "area_id": "S24-A01",
+  "occurred": "2026-03-26T15:55",
+  "removed": "2026-03-26T16:00"
+ },
+ {
+  "trackout_id": "T0050",
+  "site_id": "S22",
+  "area_id": "S22-A02",
+  "occurred": "2026-03-27T07:10",
+  "removed": "2026-03-27T16:00"
+ },
+ {
+  "trackout_id": "T0051",
+  "site_id": "S19",
+  "area_id": "S19-A01",
+  "occurred": "2026-03-27T13:00",
+  "removed": "2026-03-27T18:00"
+ },
+ {
+  "trackout_id": "T0052",
+  "site_id": "S28",
+  "area_id": "S28-A02",
+  "occurred": "2026-03-27T14:10",
+  "removed": "2026-03-28T08:00"
+ },
+ {
+  "trackout_id": "T0053",
+  "site_id": "S33",
+  "area_id": "S33-A01",
+  "occurred": "2026-03-29T09:40",
+  "removed": "2026-03-31T07:00"
+ },
+ {
+  "trackout_id": "T0054",
+  "site_id": "S05",
+  "area_id": "S05-A02",
+  "occurred": "2026-03-30T13:00",
+  "removed": "2026-03-30T16:00"
+ },
+ {
+  "trackout_id": "T0055",
+  "site_id": "S08",
+  "area_id": "S08-A01",
+  "occurred": "2026-03-30T15:40",
+  "removed": "2026-03-30T17:30"
+ },
+ {
+  "trackout_id": "T0056",
+  "site_id": "S06",
+  "area_id": "S06-A01",
+  "occurred": "2026-03-31T13:10",
+  "removed": "2026-03-31T17:00"
+ },
+ {
+  "trackout_id": "T0057",
+  "site_id": "S17",
+  "area_id": "S17-A03",
+  "occurred": "2026-03-31T13:10",
+  "removed": "2026-03-31T14:30"
+ },
+ {
+  "trackout_id": "T0058",
+  "site_id": "S36",
+  "area_id": "S36-A04",
+  "occurred": "2026-04-01T14:25",
+  "removed": "2026-04-01T18:00"
+ },
+ {
+  "trackout_id": "T0059",
+  "site_id": "S02",
+  "area_id": "S02-A02",
+  "occurred": "2026-04-01T16:55",
+  "removed": "2026-04-01T17:55"
+ },
+ {
+  "trackout_id": "T0060",
+  "site_id": "S28",
+  "area_id": "S28-A02",
+  "occurred": "2026-04-04T07:55",
+  "removed": "2026-04-07T07:00"
+ },
+ {
+  "trackout_id": "T0061",
+  "site_id": "S15",
+  "area_id": "S15-A03",
+  "occurred": "2026-04-04T16:10",
+  "removed": "2026-04-06T10:30"
+ },
+ {
+  "trackout_id": "T0062",
+  "site_id": "S24",
+  "area_id": "S24-A03",
+  "occurred": "2026-04-05T09:40",
+  "removed": "2026-04-06T16:30"
+ },
+ {
+  "trackout_id": "T0063",
+  "site_id": "S04",
+  "area_id": "S04-A01",
+  "occurred": "2026-04-05T11:40",
+  "removed": "2026-04-08T10:00"
+ },
+ {
+  "trackout_id": "T0064",
+  "site_id": "S22",
+  "area_id": "S22-A03",
+  "occurred": "2026-04-06T12:40",
+  "removed": "2026-04-07T08:00"
+ },
+ {
+  "trackout_id": "T0065",
+  "site_id": "S18",
+  "area_id": "S18-A03",
+  "occurred": "2026-04-07T12:40",
+  "removed": "2026-04-08T07:00"
+ },
+ {
+  "trackout_id": "T0066",
+  "site_id": "S23",
+  "area_id": "S23-A03",
+  "occurred": "2026-04-08T16:10",
+  "removed": "2026-04-08T18:00"
+ },
+ {
+  "trackout_id": "T0067",
+  "site_id": "S21",
+  "area_id": "S21-A01",
+  "occurred": "2026-04-08T17:00",
+  "removed": "2026-04-09T10:00"
+ },
+ {
+  "trackout_id": "T0068",
+  "site_id": "S06",
+  "area_id": "S06-A03",
+  "occurred": "2026-04-09T12:00",
+  "removed": "2026-04-10T08:00"
+ },
+ {
+  "trackout_id": "T0069",
+  "site_id": "S36",
+  "area_id": "S36-A03",
+  "occurred": "2026-04-10T12:40",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0070",
+  "site_id": "S33",
+  "area_id": "S33-A02",
+  "occurred": "2026-04-10T15:10",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0071",
+  "site_id": "S08",
+  "area_id": "S08-A01",
+  "occurred": "2026-04-12T16:10",
+  "removed": "2026-04-13T23:59"
+ },
+ {
+  "trackout_id": "T0072",
+  "site_id": "S12",
+  "area_id": "S12-A01",
+  "occurred": "2026-04-12T17:40",
+  "removed": "2026-04-13T15:30"
+ },
+ {
+  "trackout_id": "T0073",
+  "site_id": "S05",
+  "area_id": "S05-A04",
+  "occurred": "2026-04-13T10:55",
+  "removed": "2026-04-13T14:30"
+ },
+ {
+  "trackout_id": "T0074",
+  "site_id": "S32",
+  "area_id": "S32-A02",
+  "occurred": "2026-04-13T11:40",
+  "removed": "2026-04-14T07:00"
+ },
+ {
+  "trackout_id": "T0075",
+  "site_id": "S17",
+  "area_id": "S17-A01",
+  "occurred": "2026-04-13T14:00",
+  "removed": "2026-04-13T16:30"
+ },
+ {
+  "trackout_id": "T0076",
+  "site_id": "S04",
+  "area_id": "S04-A01",
+  "occurred": "2026-04-14T10:00",
+  "removed": "2026-04-14T10:00"
+ },
+ {
+  "trackout_id": "T0077",
+  "site_id": "S18",
+  "area_id": "S18-A03",
+  "occurred": "2026-04-14T16:55",
+  "removed": "2026-04-15T08:00"
+ },
+ {
+  "trackout_id": "T0078",
+  "site_id": "S07",
+  "area_id": "S07-A02",
+  "occurred": "2026-04-15T16:40",
+  "removed": "2026-04-15T18:00"
+ },
+ {
+  "trackout_id": "T0079",
+  "site_id": "S19",
+  "area_id": "S19-A02",
+  "occurred": "2026-04-16T10:10",
+  "removed": "2026-04-16T18:00"
+ },
+ {
+  "trackout_id": "T0080",
+  "site_id": "S26",
+  "area_id": "S26-A06",
+  "occurred": "2026-04-16T16:25",
+  "removed": "2026-04-16T17:25"
+ },
+ {
+  "trackout_id": "T0081",
+  "site_id": "S33",
+  "area_id": "S33-A03",
+  "occurred": "2026-04-17T12:55",
+  "removed": "2026-04-17T23:59"
+ },
+ {
+  "trackout_id": "T0082",
+  "site_id": "S09",
+  "area_id": "S09-A04",
+  "occurred": "2026-04-19T17:55",
+  "removed": "2026-04-21T07:00"
+ },
+ {
+  "trackout_id": "T0083",
+  "site_id": "S32",
+  "area_id": "S32-A01",
+  "occurred": "2026-04-20T10:10",
+  "removed": "2026-04-20T14:00"
+ },
+ {
+  "trackout_id": "T0084",
+  "site_id": "S12",
+  "area_id": "S12-A01",
+  "occurred": "2026-04-20T15:00",
+  "removed": "2026-04-20T16:30"
+ },
+ {
+  "trackout_id": "T0085",
+  "site_id": "S15",
+  "area_id": "S15-A02",
+  "occurred": "2026-04-20T16:10",
+  "removed": "2026-04-21T09:00"
+ },
+ {
+  "trackout_id": "T0086",
+  "site_id": "S30",
+  "area_id": "S30-A01",
+  "occurred": "2026-04-21T07:40",
+  "removed": "2026-04-21T11:00"
+ },
+ {
+  "trackout_id": "T0087",
+  "site_id": "S02",
+  "area_id": "S02-A03",
+  "occurred": "2026-04-21T17:55",
+  "removed": "2026-04-22T08:00"
+ },
+ {
+  "trackout_id": "T0088",
+  "site_id": "S10",
+  "area_id": "S10-A03",
+  "occurred": "2026-04-22T10:25",
+  "removed": "2026-04-22T15:30"
+ },
+ {
+  "trackout_id": "T0089",
+  "site_id": "S24",
+  "area_id": "S24-A02",
+  "occurred": "2026-04-22T15:25",
+  "removed": "2026-04-22T17:00"
+ },
+ {
+  "trackout_id": "T0090",
+  "site_id": "S36",
+  "area_id": "S36-A02",
+  "occurred": "2026-04-23T14:25",
+  "removed": "2026-04-23T16:30"
+ },
+ {
+  "trackout_id": "T0091",
+  "site_id": "S28",
+  "area_id": "S28-A02",
+  "occurred": "2026-04-23T14:40",
+  "removed": "2026-04-24T10:00"
+ },
+ {
+  "trackout_id": "T0092",
+  "site_id": "S34",
+  "area_id": "S34-A01",
+  "occurred": "2026-04-24T08:00",
+  "removed": "2026-04-24T12:30"
+ },
+ {
+  "trackout_id": "T0093",
+  "site_id": "S22",
+  "area_id": "S22-A02",
+  "occurred": "2026-04-24T09:25",
+  "removed": "2026-04-24T16:30"
+ },
+ {
+  "trackout_id": "T0094",
+  "site_id": "S31",
+  "area_id": "S31-A01",
+  "occurred": "2026-04-24T16:00",
+  "removed": "2026-04-24T16:30"
+ },
+ {
+  "trackout_id": "T0095",
+  "site_id": "S06",
+  "area_id": "S06-A01",
+  "occurred": "2026-04-24T17:55",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0096",
+  "site_id": "S17",
+  "area_id": "S17-A04",
+  "occurred": "2026-04-25T09:10",
+  "removed": "2026-04-27T13:00"
+ },
+ {
+  "trackout_id": "T0097",
+  "site_id": "S23",
+  "area_id": "S23-A01",
+  "occurred": "2026-04-26T17:40",
+  "removed": "2026-04-27T23:59"
+ },
+ {
+  "trackout_id": "T0098",
+  "site_id": "S05",
+  "area_id": "S05-A03",
+  "occurred": "2026-04-27T08:55",
+  "removed": "2026-04-28T10:00"
+ },
+ {
+  "trackout_id": "T0099",
+  "site_id": "S08",
+  "area_id": "S08-A03",
+  "occurred": "2026-04-27T13:00",
+  "removed": "2026-04-27T23:59"
+ },
+ {
+  "trackout_id": "T0100",
+  "site_id": "S21",
+  "area_id": "S21-A05",
+  "occurred": "2026-04-28T16:55",
+  "removed": "2026-04-28T17:30"
+ },
+ {
+  "trackout_id": "T0101",
+  "site_id": "S10",
+  "area_id": "S10-A01",
+  "occurred": "2026-04-29T12:10",
+  "removed": "2026-04-29T16:30"
+ },
+ {
+  "trackout_id": "T0102",
+  "site_id": "S07",
+  "area_id": "S07-A02",
+  "occurred": "2026-04-29T14:40",
+  "removed": "2026-04-29T15:40"
+ },
+ {
+  "trackout_id": "T0103",
+  "site_id": "S34",
+  "area_id": "S34-A04",
+  "occurred": "2026-04-30T08:00",
+  "removed": "2026-04-30T23:59"
+ },
+ {
+  "trackout_id": "T0104",
+  "site_id": "S04",
+  "area_id": "S04-A01",
+  "occurred": "2026-04-30T08:55",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0105",
+  "site_id": "S30",
+  "area_id": "S30-A02",
+  "occurred": "2026-04-30T09:00",
+  "removed": "2026-04-30T17:00"
+ },
+ {
+  "trackout_id": "T0106",
+  "site_id": "S33",
+  "area_id": "S33-A02",
+  "occurred": "2026-04-30T11:40",
+  "removed": "2026-04-30T18:30"
+ },
+ {
+  "trackout_id": "T0107",
+  "site_id": "S19",
+  "area_id": "S19-A03",
+  "occurred": "2026-04-30T14:40",
+  "removed": "2026-04-30T17:30"
+ },
+ {
+  "trackout_id": "T0108",
+  "site_id": "S06",
+  "area_id": "S06-A02",
+  "occurred": "2026-05-01T13:40",
+  "removed": "2026-05-02T08:00"
+ },
+ {
+  "trackout_id": "T0109",
+  "site_id": "S31",
+  "area_id": "S31-A03",
+  "occurred": "2026-05-01T14:10",
+  "removed": "2026-05-01T23:59"
+ },
+ {
+  "trackout_id": "T0110",
+  "site_id": "S24",
+  "area_id": "S24-A01",
+  "occurred": "2026-05-01T16:25",
+  "removed": "2026-05-01T17:25"
+ },
+ {
+  "trackout_id": "T0111",
+  "site_id": "S18",
+  "area_id": "S18-A01",
+  "occurred": "2026-05-02T07:25",
+  "removed": "2026-05-04T10:30"
+ },
+ {
+  "trackout_id": "T0112",
+  "site_id": "S35",
+  "area_id": "S35-A05",
+  "occurred": "2026-05-02T09:25",
+  "removed": "2026-05-04T14:00"
+ },
+ {
+  "trackout_id": "T0113",
+  "site_id": "S15",
+  "area_id": "S15-A01",
+  "occurred": "2026-05-02T12:00",
+  "removed": "2026-05-04T15:30"
+ },
+ {
+  "trackout_id": "T0114",
+  "site_id": "S36",
+  "area_id": "S36-A01",
+  "occurred": "2026-05-03T08:10",
+  "removed": "2026-05-04T09:00"
+ },
+ {
+  "trackout_id": "T0115",
+  "site_id": "S32",
+  "area_id": "S32-A01",
+  "occurred": "2026-05-04T13:10",
+  "removed": "2026-05-04T18:30"
+ },
+ {
+  "trackout_id": "T0116",
+  "site_id": "S17",
+  "area_id": "S17-A02",
+  "occurred": "2026-05-05T11:55",
+  "removed": "2026-05-05T23:59"
+ },
+ {
+  "trackout_id": "T0117",
+  "site_id": "S13",
+  "area_id": "S13-A01",
+  "occurred": "2026-05-05T13:10",
+  "removed": "2026-05-05T14:10"
+ },
+ {
+  "trackout_id": "T0118",
+  "site_id": "S23",
+  "area_id": "S23-A04",
+  "occurred": "2026-05-05T13:55",
+  "removed": "2026-05-05T16:00"
+ },
+ {
+  "trackout_id": "T0119",
+  "site_id": "S26",
+  "area_id": "S26-A02",
+  "occurred": "2026-05-06T16:00",
+  "removed": "2026-05-06T23:59"
+ },
+ {
+  "trackout_id": "T0120",
+  "site_id": "S34",
+  "area_id": "S34-A04",
+  "occurred": "2026-05-06T16:25",
+  "removed": "2026-05-06T16:30"
+ },
+ {
+  "trackout_id": "T0121",
+  "site_id": "S07",
+  "area_id": "S07-A04",
+  "occurred": "2026-05-07T11:00",
+  "removed": "2026-05-07T14:30"
+ },
+ {
+  "trackout_id": "T0122",
+  "site_id": "S09",
+  "area_id": "S09-A04",
+  "occurred": "2026-05-07T11:55",
+  "removed": "2026-05-08T12:00"
+ },
+ {
+  "trackout_id": "T0123",
+  "site_id": "S24",
+  "area_id": "S24-A01",
+  "occurred": "2026-05-08T09:10",
+  "removed": "2026-05-09T07:00"
+ },
+ {
+  "trackout_id": "T0124",
+  "site_id": "S28",
+  "area_id": "S28-A01",
+  "occurred": "2026-05-08T10:55",
+  "removed": "2026-05-08T16:00"
+ },
+ {
+  "trackout_id": "T0125",
+  "site_id": "S15",
+  "area_id": "S15-A04",
+  "occurred": "2026-05-09T07:25",
+  "removed": "2026-05-11T12:00"
+ },
+ {
+  "trackout_id": "T0126",
+  "site_id": "S21",
+  "area_id": "S21-A01",
+  "occurred": "2026-05-09T12:00",
+  "removed": "2026-05-09T16:00"
+ },
+ {
+  "trackout_id": "T0127",
+  "site_id": "S31",
+  "area_id": "S31-A01",
+  "occurred": "2026-05-12T08:55",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0128",
+  "site_id": "S19",
+  "area_id": "S19-A02",
+  "occurred": "2026-05-12T15:40",
+  "removed": "2026-05-13T23:59"
+ },
+ {
+  "trackout_id": "T0129",
+  "site_id": "S36",
+  "area_id": "S36-A01",
+  "occurred": "2026-05-13T08:00",
+  "removed": "2026-05-13T17:30"
+ },
+ {
+  "trackout_id": "T0130",
+  "site_id": "S10",
+  "area_id": "S10-A05",
+  "occurred": "2026-05-14T12:40",
+  "removed": "2026-05-14T17:30"
+ },
+ {
+  "trackout_id": "T0131",
+  "site_id": "S02",
+  "area_id": "S02-A03",
+  "occurred": "2026-05-15T12:25",
+  "removed": "2026-05-15T17:00"
+ },
+ {
+  "trackout_id": "T0132",
+  "site_id": "S04",
+  "area_id": "S04-A04",
+  "occurred": "2026-05-15T14:55",
+  "removed": "2026-05-16T07:00"
+ },
+ {
+  "trackout_id": "T0133",
+  "site_id": "S30",
+  "area_id": "S30-A04",
+  "occurred": "2026-05-17T08:10",
+  "removed": "2026-05-18T15:00"
+ },
+ {
+  "trackout_id": "T0134",
+  "site_id": "S17",
+  "area_id": "S17-A01",
+  "occurred": "2026-05-17T13:55",
+  "removed": "2026-05-18T23:59"
+ },
+ {
+  "trackout_id": "T0135",
+  "site_id": "S33",
+  "area_id": "S33-A03",
+  "occurred": "2026-05-18T10:00",
+  "removed": "2026-05-18T13:30"
+ },
+ {
+  "trackout_id": "T0136",
+  "site_id": "S32",
+  "area_id": "S32-A02",
+  "occurred": "2026-05-19T13:40",
+  "removed": "2026-05-19T15:00"
+ },
+ {
+  "trackout_id": "T0137",
+  "site_id": "S35",
+  "area_id": "S35-A05",
+  "occurred": "2026-05-19T14:10",
+  "removed": "2026-05-21T09:00"
+ },
+ {
+  "trackout_id": "T0138",
+  "site_id": "S07",
+  "area_id": "S07-A02",
+  "occurred": "2026-05-19T14:25",
+  "removed": "2026-05-20T07:00"
+ },
+ {
+  "trackout_id": "T0139",
+  "site_id": "S12",
+  "area_id": "S12-A05",
+  "occurred": "2026-05-19T15:55",
+  "removed": "2026-05-19T18:00"
+ },
+ {
+  "trackout_id": "T0140",
+  "site_id": "S06",
+  "area_id": "S06-A03",
+  "occurred": "2026-05-21T07:40",
+  "removed": "2026-05-22T07:00"
+ },
+ {
+  "trackout_id": "T0141",
+  "site_id": "S18",
+  "area_id": "S18-A05",
+  "occurred": "2026-05-21T11:55",
+  "removed": "2026-05-22T23:59"
+ },
+ {
+  "trackout_id": "T0142",
+  "site_id": "S26",
+  "area_id": "S26-A01",
+  "occurred": "2026-05-21T14:00",
+  "removed": "2026-05-21T23:59"
+ },
+ {
+  "trackout_id": "T0143",
+  "site_id": "S34",
+  "area_id": "S34-A01",
+  "occurred": "2026-05-21T14:00",
+  "removed": "2026-05-26T17:00"
+ },
+ {
+  "trackout_id": "T0144",
+  "site_id": "S22",
+  "area_id": "S22-A02",
+  "occurred": "2026-05-22T14:10",
+  "removed": "2026-05-22T17:00"
+ },
+ {
+  "trackout_id": "T0145",
+  "site_id": "S10",
+  "area_id": "S10-A02",
+  "occurred": "2026-05-22T14:25",
+  "removed": "2026-05-23T07:00"
+ },
+ {
+  "trackout_id": "T0146",
+  "site_id": "S28",
+  "area_id": "S28-A03",
+  "occurred": "2026-05-22T17:25",
+  "removed": "2026-05-22T23:59"
+ },
+ {
+  "trackout_id": "T0147",
+  "site_id": "S04",
+  "area_id": "S04-A01",
+  "occurred": "2026-05-23T14:00",
+  "removed": "2026-05-26T23:59"
+ },
+ {
+  "trackout_id": "T0148",
+  "site_id": "S02",
+  "area_id": "S02-A02",
+  "occurred": "2026-05-24T08:00",
+  "removed": "2026-05-26T14:00"
+ },
+ {
+  "trackout_id": "T0149",
+  "site_id": "S36",
+  "area_id": "S36-A01",
+  "occurred": "2026-05-24T09:40",
+  "removed": "2026-05-26T13:00"
+ },
+ {
+  "trackout_id": "T0150",
+  "site_id": "S23",
+  "area_id": "S23-A04",
+  "occurred": "2026-05-25T08:55",
+  "removed": "2026-05-25T14:30"
+ },
+ {
+  "trackout_id": "T0151",
+  "site_id": "S17",
+  "area_id": "S17-A04",
+  "occurred": "2026-05-25T10:40",
+  "removed": "2026-05-26T12:00"
+ },
+ {
+  "trackout_id": "T0152",
+  "site_id": "S14",
+  "area_id": "S14-A01",
+  "occurred": "2026-05-26T09:00",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0153",
+  "site_id": "S21",
+  "area_id": "S21-A01",
+  "occurred": "2026-05-27T13:40",
+  "removed": "2026-05-27T14:40"
+ },
+ {
+  "trackout_id": "T0154",
+  "site_id": "S15",
+  "area_id": "S15-A01",
+  "occurred": "2026-05-27T17:00",
+  "removed": "2026-05-27T17:00"
+ },
+ {
+  "trackout_id": "T0155",
+  "site_id": "S13",
+  "area_id": "S13-A02",
+  "occurred": "2026-05-27T17:25",
+  "removed": "2026-05-27T18:30"
+ },
+ {
+  "trackout_id": "T0156",
+  "site_id": "S10",
+  "area_id": "S10-A04",
+  "occurred": "2026-05-28T08:00",
+  "removed": "2026-05-28T08:00"
+ },
+ {
+  "trackout_id": "T0157",
+  "site_id": "S08",
+  "area_id": "S08-A04",
+  "occurred": "2026-05-28T12:40",
+  "removed": "2026-05-28T18:00"
+ },
+ {
+  "trackout_id": "T0158",
+  "site_id": "S24",
+  "area_id": "S24-A01",
+  "occurred": "2026-05-28T16:00",
+  "removed": "2026-05-28T16:00"
+ },
+ {
+  "trackout_id": "T0159",
+  "site_id": "S07",
+  "area_id": "S07-A04",
+  "occurred": "2026-05-29T16:10",
+  "removed": "2026-05-30T08:00"
+ },
+ {
+  "trackout_id": "T0160",
+  "site_id": "S12",
+  "area_id": "S12-A01",
+  "occurred": "2026-05-31T09:25",
+  "removed": "2026-06-01T13:00"
+ },
+ {
+  "trackout_id": "T0161",
+  "site_id": "S04",
+  "area_id": "S04-A05",
+  "occurred": "2026-05-31T15:10",
+  "removed": "2026-06-02T10:00"
+ },
+ {
+  "trackout_id": "T0162",
+  "site_id": "S09",
+  "area_id": "S09-A04",
+  "occurred": "2026-06-01T12:55",
+  "removed": "2026-06-01T18:00"
+ },
+ {
+  "trackout_id": "T0163",
+  "site_id": "S06",
+  "area_id": "S06-A02",
+  "occurred": "2026-06-02T12:00",
+  "removed": "2026-06-03T07:00"
+ },
+ {
+  "trackout_id": "T0164",
+  "site_id": "S21",
+  "area_id": "S21-A03",
+  "occurred": "2026-06-02T15:55",
+  "removed": "2026-06-02T18:00"
+ },
+ {
+  "trackout_id": "T0165",
+  "site_id": "S15",
+  "area_id": "S15-A04",
+  "occurred": "2026-06-03T08:40",
+  "removed": "2026-06-03T17:30"
+ },
+ {
+  "trackout_id": "T0166",
+  "site_id": "S13",
+  "area_id": "S13-A02",
+  "occurred": "2026-06-03T17:00",
+  "removed": "2026-06-03T17:30"
+ },
+ {
+  "trackout_id": "T0167",
+  "site_id": "S22",
+  "area_id": "S22-A03",
+  "occurred": "2026-06-04T14:40",
+  "removed": "2026-06-04T17:30"
+ },
+ {
+  "trackout_id": "T0168",
+  "site_id": "S02",
+  "area_id": "S02-A03",
+  "occurred": "2026-06-05T08:55",
+  "removed": "2026-06-05T13:30"
+ },
+ {
+  "trackout_id": "T0169",
+  "site_id": "S23",
+  "area_id": "S23-A01",
+  "occurred": "2026-06-05T11:00",
+  "removed": "2026-06-06T08:00"
+ },
+ {
+  "trackout_id": "T0170",
+  "site_id": "S14",
+  "area_id": "S14-A06",
+  "occurred": "2026-06-05T12:40",
+  "removed": "2026-06-06T10:00"
+ },
+ {
+  "trackout_id": "T0171",
+  "site_id": "S30",
+  "area_id": "S30-A02",
+  "occurred": "2026-06-05T15:00",
+  "removed": "2026-06-06T07:00"
+ },
+ {
+  "trackout_id": "T0172",
+  "site_id": "S08",
+  "area_id": "S08-A02",
+  "occurred": "2026-06-05T17:25",
+  "removed": "2026-06-05T18:00"
+ },
+ {
+  "trackout_id": "T0173",
+  "site_id": "S17",
+  "area_id": "S17-A04",
+  "occurred": "2026-06-06T07:55",
+  "removed": "2026-06-09T08:00"
+ },
+ {
+  "trackout_id": "T0174",
+  "site_id": "S32",
+  "area_id": "S32-A02",
+  "occurred": "2026-06-06T09:55",
+  "removed": "2026-06-08T11:00"
+ },
+ {
+  "trackout_id": "T0175",
+  "site_id": "S28",
+  "area_id": "S28-A01",
+  "occurred": "2026-06-07T13:25",
+  "removed": "2026-06-08T09:30"
+ },
+ {
+  "trackout_id": "T0176",
+  "site_id": "S34",
+  "area_id": "S34-A03",
+  "occurred": "2026-06-07T13:55",
+  "removed": "2026-06-08T08:00"
+ },
+ {
+  "trackout_id": "T0177",
+  "site_id": "S05",
+  "area_id": "S05-A01",
+  "occurred": "2026-06-08T12:40",
+  "removed": "2026-06-08T23:59"
+ },
+ {
+  "trackout_id": "T0178",
+  "site_id": "S35",
+  "area_id": "S35-A02",
+  "occurred": "2026-06-08T15:55",
+  "removed": "2026-06-08T18:00"
+ },
+ {
+  "trackout_id": "T0179",
+  "site_id": "S36",
+  "area_id": "S36-A04",
+  "occurred": "2026-06-09T17:10",
+  "removed": "2026-06-10T08:00"
+ },
+ {
+  "trackout_id": "T0180",
+  "site_id": "S21",
+  "area_id": "S21-A04",
+  "occurred": "2026-06-10T07:00",
+  "removed": "2026-06-10T08:30"
+ },
+ {
+  "trackout_id": "T0181",
+  "site_id": "S26",
+  "area_id": "S26-A06",
+  "occurred": "2026-06-10T09:55",
+  "removed": "2026-06-11T08:00"
+ },
+ {
+  "trackout_id": "T0182",
+  "site_id": "S13",
+  "area_id": "S13-A03",
+  "occurred": "2026-06-10T15:40",
+  "removed": "2026-06-11T07:00"
+ },
+ {
+  "trackout_id": "T0183",
+  "site_id": "S33",
+  "area_id": "S33-A03",
+  "occurred": "2026-06-11T13:55",
+  "removed": "2026-06-11T23:59"
+ },
+ {
+  "trackout_id": "T0184",
+  "site_id": "S08",
+  "area_id": "S08-A03",
+  "occurred": "2026-06-12T11:40",
+  "removed": "2026-06-12T23:59"
+ },
+ {
+  "trackout_id": "T0185",
+  "site_id": "S07",
+  "area_id": "S07-A01",
+  "occurred": "2026-06-13T10:10",
+  "removed": "2026-06-15T11:30"
+ },
+ {
+  "trackout_id": "T0186",
+  "site_id": "S14",
+  "area_id": "S14-A06",
+  "occurred": "2026-06-14T11:00",
+  "removed": "2026-06-16T08:00"
+ },
+ {
+  "trackout_id": "T0187",
+  "site_id": "S17",
+  "area_id": "S17-A03",
+  "occurred": "2026-06-15T14:10",
+  "removed": "2026-06-15T15:30"
+ },
+ {
+  "trackout_id": "T0188",
+  "site_id": "S34",
+  "area_id": "S34-A06",
+  "occurred": "2026-06-16T17:25",
+  "removed": "2026-06-16T18:30"
+ },
+ {
+  "trackout_id": "T0189",
+  "site_id": "S06",
+  "area_id": "S06-A03",
+  "occurred": "2026-06-17T12:00",
+  "removed": "2026-06-17T16:00"
+ },
+ {
+  "trackout_id": "T0190",
+  "site_id": "S24",
+  "area_id": "S24-A02",
+  "occurred": "2026-06-17T17:25",
+  "removed": "2026-06-17T18:25"
+ },
+ {
+  "trackout_id": "T0191",
+  "site_id": "S05",
+  "area_id": "S05-A01",
+  "occurred": "2026-06-18T16:00",
+  "removed": "2026-06-18T17:00"
+ },
+ {
+  "trackout_id": "T0192",
+  "site_id": "S04",
+  "area_id": "S04-A05",
+  "occurred": "2026-06-19T08:40",
+  "removed": "2026-06-19T13:30"
+ },
+ {
+  "trackout_id": "T0193",
+  "site_id": "S22",
+  "area_id": "S22-A03",
+  "occurred": "2026-06-19T10:00",
+  "removed": "2026-06-20T08:00"
+ },
+ {
+  "trackout_id": "T0194",
+  "site_id": "S13",
+  "area_id": "S13-A03",
+  "occurred": "2026-06-19T11:55",
+  "removed": "2026-06-19T16:30"
+ },
+ {
+  "trackout_id": "T0195",
+  "site_id": "S08",
+  "area_id": "S08-A01",
+  "occurred": "2026-06-19T14:10",
+  "removed": "2026-06-22T10:00"
+ },
+ {
+  "trackout_id": "T0196",
+  "site_id": "S23",
+  "area_id": "S23-A04",
+  "occurred": "2026-06-19T14:55",
+  "removed": "2026-06-23T07:00"
+ },
+ {
+  "trackout_id": "T0197",
+  "site_id": "S31",
+  "area_id": "S31-A02",
+  "occurred": "2026-06-20T14:55",
+  "removed": "2026-06-22T09:00"
+ },
+ {
+  "trackout_id": "T0198",
+  "site_id": "S12",
+  "area_id": "S12-A03",
+  "occurred": "2026-06-20T16:10",
+  "removed": "2026-06-22T23:59"
+ },
+ {
+  "trackout_id": "T0199",
+  "site_id": "S21",
+  "area_id": "S21-A01",
+  "occurred": "2026-06-20T17:40",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0200",
+  "site_id": "S28",
+  "area_id": "S28-A02",
+  "occurred": "2026-06-21T12:10",
+  "removed": "2026-06-22T23:59"
+ },
+ {
+  "trackout_id": "T0201",
+  "site_id": "S18",
+  "area_id": "S18-A05",
+  "occurred": "2026-06-22T13:00",
+  "removed": "2026-06-23T09:00"
+ },
+ {
+  "trackout_id": "T0202",
+  "site_id": "S26",
+  "area_id": "S26-A03",
+  "occurred": "2026-06-23T08:40",
+  "removed": "2026-06-24T07:00"
+ },
+ {
+  "trackout_id": "T0203",
+  "site_id": "S15",
+  "area_id": "S15-A01",
+  "occurred": "2026-06-23T16:00",
+  "removed": "2026-06-23T17:00"
+ },
+ {
+  "trackout_id": "T0204",
+  "site_id": "S10",
+  "area_id": "S10-A02",
+  "occurred": "2026-06-24T11:10",
+  "removed": "2026-06-24T15:30"
+ },
+ {
+  "trackout_id": "T0205",
+  "site_id": "S36",
+  "area_id": "S36-A03",
+  "occurred": "2026-06-24T16:00",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0206",
+  "site_id": "S14",
+  "area_id": "S14-A06",
+  "occurred": "2026-06-26T09:00",
+  "removed": "2026-06-26T18:00"
+ },
+ {
+  "trackout_id": "T0207",
+  "site_id": "S35",
+  "area_id": "S35-A01",
+  "occurred": "2026-06-26T10:40",
+  "removed": "2026-06-27T10:00"
+ },
+ {
+  "trackout_id": "T0208",
+  "site_id": "S33",
+  "area_id": "S33-A03",
+  "occurred": "2026-06-26T12:10",
+  "removed": "2026-06-29T10:00"
+ },
+ {
+  "trackout_id": "T0209",
+  "site_id": "S09",
+  "area_id": "S09-A02",
+  "occurred": "2026-06-27T14:00",
+  "removed": "2026-06-27T16:00"
+ },
+ {
+  "trackout_id": "T0210",
+  "site_id": "S07",
+  "area_id": "S07-A04",
+  "occurred": "2026-06-27T14:10",
+  "removed": "2026-06-29T08:30"
+ },
+ {
+  "trackout_id": "T0211",
+  "site_id": "S31",
+  "area_id": "S31-A03",
+  "occurred": "2026-06-28T07:00",
+  "removed": "2026-06-29T16:00"
+ },
+ {
+  "trackout_id": "T0212",
+  "site_id": "S08",
+  "area_id": "S08-A03",
+  "occurred": "2026-06-30T09:25",
+  "removed": "2026-06-30T14:30"
+ },
+ {
+  "trackout_id": "T0213",
+  "site_id": "S30",
+  "area_id": "S30-A01",
+  "occurred": "2026-06-30T16:40",
+  "removed": "2026-06-30T18:00"
+ },
+ {
+  "trackout_id": "T0214",
+  "site_id": "S04",
+  "area_id": "S04-A03",
+  "occurred": "2026-07-02T09:25",
+  "removed": "2026-07-03T07:00"
+ },
+ {
+  "trackout_id": "T0215",
+  "site_id": "S34",
+  "area_id": "S34-A03",
+  "occurred": "2026-07-03T08:40",
+  "removed": "2026-07-07T09:00"
+ },
+ {
+  "trackout_id": "T0216",
+  "site_id": "S13",
+  "area_id": "S13-A03",
+  "occurred": "2026-07-04T09:25",
+  "removed": "2026-07-05T10:00"
+ },
+ {
+  "trackout_id": "T0217",
+  "site_id": "S32",
+  "area_id": "S32-A02",
+  "occurred": "2026-07-04T14:55",
+  "removed": "2026-07-07T09:00"
+ },
+ {
+  "trackout_id": "T0218",
+  "site_id": "S14",
+  "area_id": "S14-A06",
+  "occurred": "2026-07-06T10:55",
+  "removed": "2026-07-06T14:00"
+ },
+ {
+  "trackout_id": "T0219",
+  "site_id": "S19",
+  "area_id": "S19-A02",
+  "occurred": "2026-07-07T08:55",
+  "removed": "2026-07-07T12:00"
+ },
+ {
+  "trackout_id": "T0220",
+  "site_id": "S10",
+  "area_id": "S10-A01",
+  "occurred": "2026-07-07T10:25",
+  "removed": "2026-07-07T16:30"
+ },
+ {
+  "trackout_id": "T0221",
+  "site_id": "S24",
+  "area_id": "S24-A02",
+  "occurred": "2026-07-07T11:10",
+  "removed": "2026-07-08T09:00"
+ },
+ {
+  "trackout_id": "T0222",
+  "site_id": "S26",
+  "area_id": "S26-A04",
+  "occurred": "2026-07-07T11:40",
+  "removed": "2026-07-07T23:59"
+ },
+ {
+  "trackout_id": "T0223",
+  "site_id": "S05",
+  "area_id": "S05-A01",
+  "occurred": "2026-07-07T13:00",
+  "removed": "2026-07-08T07:00"
+ },
+ {
+  "trackout_id": "T0224",
+  "site_id": "S18",
+  "area_id": "S18-A03",
+  "occurred": "2026-07-07T13:55",
+  "removed": "2026-07-07T23:59"
+ },
+ {
+  "trackout_id": "T0225",
+  "site_id": "S12",
+  "area_id": "S12-A02",
+  "occurred": "2026-07-08T10:00",
+  "removed": "2026-07-08T11:30"
+ },
+ {
+  "trackout_id": "T0226",
+  "site_id": "S22",
+  "area_id": "S22-A02",
+  "occurred": "2026-07-09T17:25",
+  "removed": "2026-07-09T18:30"
+ },
+ {
+  "trackout_id": "T0227",
+  "site_id": "S21",
+  "area_id": "S21-A01",
+  "occurred": "2026-07-10T13:55",
+  "removed": "2026-07-10T23:59"
+ },
+ {
+  "trackout_id": "T0228",
+  "site_id": "S02",
+  "area_id": "S02-A04",
+  "occurred": "2026-07-10T17:25",
+  "removed": "2026-07-11T10:00"
+ },
+ {
+  "trackout_id": "T0229",
+  "site_id": "S15",
+  "area_id": "S15-A04",
+  "occurred": "2026-07-11T15:00",
+  "removed": "2026-07-15T09:00"
+ },
+ {
+  "trackout_id": "T0230",
+  "site_id": "S36",
+  "area_id": "S36-A04",
+  "occurred": "2026-07-12T10:10",
+  "removed": "2026-07-14T09:00"
+ },
+ {
+  "trackout_id": "T0231",
+  "site_id": "S08",
+  "area_id": "S08-A02",
+  "occurred": "2026-07-13T09:55",
+  "removed": "2026-07-13T10:55"
+ },
+ {
+  "trackout_id": "T0232",
+  "site_id": "S09",
+  "area_id": "S09-A05",
+  "occurred": "2026-07-13T17:00",
+  "removed": "2026-07-13T17:30"
+ },
+ {
+  "trackout_id": "T0233",
+  "site_id": "S10",
+  "area_id": "S10-A01",
+  "occurred": "2026-07-14T11:00",
+  "removed": "2026-07-14T23:59"
+ },
+ {
+  "trackout_id": "T0234",
+  "site_id": "S35",
+  "area_id": "S35-A01",
+  "occurred": "2026-07-15T08:55",
+  "removed": "2026-07-15T16:30"
+ },
+ {
+  "trackout_id": "T0235",
+  "site_id": "S33",
+  "area_id": "S33-A02",
+  "occurred": "2026-07-15T14:10",
+  "removed": "2026-07-15T15:30"
+ },
+ {
+  "trackout_id": "T0236",
+  "site_id": "S34",
+  "area_id": "S34-A05",
+  "occurred": "2026-07-15T16:55",
+  "removed": "2026-07-15T17:00"
+ },
+ {
+  "trackout_id": "T0237",
+  "site_id": "S31",
+  "area_id": "S31-A01",
+  "occurred": "2026-07-16T09:10",
+  "removed": "2026-07-16T14:00"
+ },
+ {
+  "trackout_id": "T0238",
+  "site_id": "S32",
+  "area_id": "S32-A02",
+  "occurred": "2026-07-16T11:10",
+  "removed": "2026-07-17T07:00"
+ },
+ {
+  "trackout_id": "T0239",
+  "site_id": "S02",
+  "area_id": "S02-A01",
+  "occurred": "2026-07-16T17:25",
+  "removed": "2026-07-16T17:30"
+ },
+ {
+  "trackout_id": "T0240",
+  "site_id": "S17",
+  "area_id": "S17-A04",
+  "occurred": "2026-07-17T09:25",
+  "removed": "2026-07-17T09:30"
+ },
+ {
+  "trackout_id": "T0241",
+  "site_id": "S24",
+  "area_id": "S24-A04",
+  "occurred": "2026-07-17T10:00",
+  "removed": "2026-07-17T11:00"
+ },
+ {
+  "trackout_id": "T0242",
+  "site_id": "S19",
+  "area_id": "S19-A04",
+  "occurred": "2026-07-17T12:55",
+  "removed": "2026-07-17T15:00"
+ },
+ {
+  "trackout_id": "T0243",
+  "site_id": "S18",
+  "area_id": "S18-A04",
+  "occurred": "2026-07-20T08:10",
+  "removed": "2026-07-20T14:30"
+ },
+ {
+  "trackout_id": "T0244",
+  "site_id": "S30",
+  "area_id": "S30-A02",
+  "occurred": "2026-07-20T09:55",
+  "removed": "2026-07-20T14:30"
+ },
+ {
+  "trackout_id": "T0245",
+  "site_id": "S12",
+  "area_id": "S12-A01",
+  "occurred": "2026-07-21T07:55",
+  "removed": "2026-07-21T08:00"
+ },
+ {
+  "trackout_id": "T0246",
+  "site_id": "S35",
+  "area_id": "S35-A01",
+  "occurred": "2026-07-21T12:55",
+  "removed": "2026-07-22T09:00"
+ },
+ {
+  "trackout_id": "T0247",
+  "site_id": "S04",
+  "area_id": "S04-A05",
+  "occurred": "2026-07-21T14:10",
+  "removed": "2026-07-21T15:10"
+ },
+ {
+  "trackout_id": "T0248",
+  "site_id": "S15",
+  "area_id": "S15-A05",
+  "occurred": "2026-07-22T10:25",
+  "removed": "2026-07-23T07:00"
+ },
+ {
+  "trackout_id": "T0249",
+  "site_id": "S28",
+  "area_id": "S28-A03",
+  "occurred": "2026-07-22T11:55",
+  "removed": "2026-07-22T23:59"
+ },
+ {
+  "trackout_id": "T0250",
+  "site_id": "S05",
+  "area_id": "S05-A02",
+  "occurred": "2026-07-22T15:55",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0251",
+  "site_id": "S31",
+  "area_id": "S31-A01",
+  "occurred": "2026-07-23T12:00",
+  "removed": "2026-07-23T14:00"
+ },
+ {
+  "trackout_id": "T0252",
+  "site_id": "S06",
+  "area_id": "S06-A02",
+  "occurred": "2026-07-23T16:25",
+  "removed": "2026-07-24T07:00"
+ },
+ {
+  "trackout_id": "T0253",
+  "site_id": "S14",
+  "area_id": "S14-A06",
+  "occurred": "2026-07-24T12:00",
+  "removed": "2026-07-24T17:00"
+ },
+ {
+  "trackout_id": "T0254",
+  "site_id": "S13",
+  "area_id": "S13-A03",
+  "occurred": "2026-07-24T17:40",
+  "removed": "2026-07-24T18:00"
+ },
+ {
+  "trackout_id": "T0255",
+  "site_id": "S22",
+  "area_id": "S22-A02",
+  "occurred": "2026-07-26T13:55",
+  "removed": "2026-07-29T08:00"
+ },
+ {
+  "trackout_id": "T0256",
+  "site_id": "S09",
+  "area_id": "S09-A01",
+  "occurred": "2026-07-27T13:25",
+  "removed": "2026-07-29T09:00"
+ },
+ {
+  "trackout_id": "T0257",
+  "site_id": "S07",
+  "area_id": "S07-A03",
+  "occurred": "2026-07-27T13:40",
+  "removed": "2026-07-27T18:00"
+ },
+ {
+  "trackout_id": "T0258",
+  "site_id": "S30",
+  "area_id": "S30-A01",
+  "occurred": "2026-07-28T08:00",
+  "removed": "2026-07-30T15:30"
+ },
+ {
+  "trackout_id": "T0259",
+  "site_id": "S21",
+  "area_id": "S21-A03",
+  "occurred": "2026-07-28T12:25",
+  "removed": "2026-07-28T14:00"
+ },
+ {
+  "trackout_id": "T0260",
+  "site_id": "S36",
+  "area_id": "S36-A04",
+  "occurred": "2026-07-28T14:25",
+  "removed": "2026-07-29T09:00"
+ },
+ {
+  "trackout_id": "T0261",
+  "site_id": "S32",
+  "area_id": "S32-A01",
+  "occurred": "2026-07-29T09:25",
+  "removed": "2026-07-29T15:00"
+ },
+ {
+  "trackout_id": "T0262",
+  "site_id": "S18",
+  "area_id": "S18-A03",
+  "occurred": "2026-07-29T15:00",
+  "removed": "2026-07-30T10:00"
+ },
+ {
+  "trackout_id": "T0263",
+  "site_id": "S13",
+  "area_id": "S13-A02",
+  "occurred": "2026-07-31T14:25",
+  "removed": "2026-08-01T10:00"
+ },
+ {
+  "trackout_id": "T0264",
+  "site_id": "S08",
+  "area_id": "S08-A04",
+  "occurred": "2026-08-02T10:00",
+  "removed": "2026-08-03T23:59"
+ },
+ {
+  "trackout_id": "T0265",
+  "site_id": "S34",
+  "area_id": "S34-A01",
+  "occurred": "2026-08-03T07:40",
+  "removed": "2026-08-03T10:30"
+ },
+ {
+  "trackout_id": "T0266",
+  "site_id": "S15",
+  "area_id": "S15-A04",
+  "occurred": "2026-08-03T12:25",
+  "removed": "2026-08-03T17:00"
+ },
+ {
+  "trackout_id": "T0267",
+  "site_id": "S30",
+  "area_id": "S30-A04",
+  "occurred": "2026-08-04T07:40",
+  "removed": "2026-08-04T23:59"
+ },
+ {
+  "trackout_id": "T0268",
+  "site_id": "S24",
+  "area_id": "S24-A02",
+  "occurred": "2026-08-04T14:00",
+  "removed": "2026-08-05T09:00"
+ },
+ {
+  "trackout_id": "T0269",
+  "site_id": "S17",
+  "area_id": "S17-A03",
+  "occurred": "2026-08-05T07:00",
+  "removed": "2026-08-06T10:00"
+ },
+ {
+  "trackout_id": "T0270",
+  "site_id": "S22",
+  "area_id": "S22-A02",
+  "occurred": "2026-08-05T16:10",
+  "removed": "2026-08-05T17:10"
+ },
+ {
+  "trackout_id": "T0271",
+  "site_id": "S31",
+  "area_id": "S31-A01",
+  "occurred": "2026-08-06T10:10",
+  "removed": "2026-08-06T16:30"
+ },
+ {
+  "trackout_id": "T0272",
+  "site_id": "S19",
+  "area_id": "S19-A03",
+  "occurred": "2026-08-06T15:25",
+  "removed": "2026-08-06T18:30"
+ },
+ {
+  "trackout_id": "T0273",
+  "site_id": "S35",
+  "area_id": "S35-A02",
+  "occurred": "2026-08-06T16:40",
+  "removed": "2026-08-08T07:00"
+ },
+ {
+  "trackout_id": "T0274",
+  "site_id": "S26",
+  "area_id": "S26-A03",
+  "occurred": "2026-08-08T08:25",
+  "removed": "2026-08-10T10:30"
+ },
+ {
+  "trackout_id": "T0275",
+  "site_id": "S25",
+  "area_id": "S25-A01",
+  "occurred": "2026-08-08T14:00",
+  "removed": "2026-08-10T08:00"
+ },
+ {
+  "trackout_id": "T0276",
+  "site_id": "S04",
+  "area_id": "S04-A04",
+  "occurred": "2026-08-08T14:55",
+  "removed": "2026-08-08T17:00"
+ },
+ {
+  "trackout_id": "T0277",
+  "site_id": "S02",
+  "area_id": "S02-A01",
+  "occurred": "2026-08-09T10:25",
+  "removed": "2026-08-11T10:00"
+ },
+ {
+  "trackout_id": "T0278",
+  "site_id": "S08",
+  "area_id": "S08-A03",
+  "occurred": "2026-08-11T12:10",
+  "removed": "2026-08-12T08:00"
+ },
+ {
+  "trackout_id": "T0279",
+  "site_id": "S36",
+  "area_id": "S36-A02",
+  "occurred": "2026-08-11T13:55",
+  "removed": "2026-08-11T23:59"
+ },
+ {
+  "trackout_id": "T0280",
+  "site_id": "S09",
+  "area_id": "S09-A06",
+  "occurred": "2026-08-11T14:55",
+  "removed": "2026-08-11T23:59"
+ },
+ {
+  "trackout_id": "T0281",
+  "site_id": "S32",
+  "area_id": "S32-A02",
+  "occurred": "2026-08-11T15:40",
+  "removed": "2026-08-11T18:30"
+ },
+ {
+  "trackout_id": "T0282",
+  "site_id": "S14",
+  "area_id": "S14-A02",
+  "occurred": "2026-08-12T08:00",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0283",
+  "site_id": "S35",
+  "area_id": "S35-A03",
+  "occurred": "2026-08-12T10:40",
+  "removed": "2026-08-12T23:59"
+ },
+ {
+  "trackout_id": "T0284",
+  "site_id": "S19",
+  "area_id": "S19-A01",
+  "occurred": "2026-08-13T16:00",
+  "removed": "2026-08-13T17:00"
+ },
+ {
+  "trackout_id": "T0285",
+  "site_id": "S24",
+  "area_id": "S24-A03",
+  "occurred": "2026-08-13T17:55",
+  "removed": "2026-08-13T18:00"
+ },
+ {
+  "trackout_id": "T0286",
+  "site_id": "S07",
+  "area_id": "S07-A03",
+  "occurred": "2026-08-16T07:40",
+  "removed": "2026-08-17T18:30"
+ },
+ {
+  "trackout_id": "T0287",
+  "site_id": "S25",
+  "area_id": "S25-A01",
+  "occurred": "2026-08-16T09:30",
+  "removed": "2026-08-18T11:00"
+ },
+ {
+  "trackout_id": "T0288",
+  "site_id": "S21",
+  "area_id": "S21-A03",
+  "occurred": "2026-08-17T15:00",
+  "removed": "2026-08-17T16:30"
+ },
+ {
+  "trackout_id": "T0289",
+  "site_id": "S04",
+  "area_id": "S04-A01",
+  "occurred": "2026-08-17T17:10",
+  "removed": "2026-08-17T18:10"
+ },
+ {
+  "trackout_id": "T0290",
+  "site_id": "S30",
+  "area_id": "S30-A04",
+  "occurred": "2026-08-18T13:10",
+  "removed": "2026-08-19T08:00"
+ },
+ {
+  "trackout_id": "T0291",
+  "site_id": "S12",
+  "area_id": "S12-A01",
+  "occurred": "2026-08-18T14:40",
+  "removed": "2026-08-19T08:00"
+ },
+ {
+  "trackout_id": "T0292",
+  "site_id": "S10",
+  "area_id": "S10-A04",
+  "occurred": "2026-08-18T15:55",
+  "removed": "2026-08-18T18:30"
+ },
+ {
+  "trackout_id": "T0293",
+  "site_id": "S36",
+  "area_id": "S36-A03",
+  "occurred": "2026-08-18T16:40",
+  "removed": "2026-08-19T07:00"
+ },
+ {
+  "trackout_id": "T0294",
+  "site_id": "S14",
+  "area_id": "S14-A05",
+  "occurred": "2026-08-18T17:00",
+  "removed": "2026-08-18T18:00"
+ },
+ {
+  "trackout_id": "T0295",
+  "site_id": "S15",
+  "area_id": "S15-A05",
+  "occurred": "2026-08-19T10:10",
+  "removed": "2026-08-19T11:30"
+ },
+ {
+  "trackout_id": "T0296",
+  "site_id": "S06",
+  "area_id": "S06-A01",
+  "occurred": "2026-08-19T11:00",
+  "removed": "2026-08-19T13:00"
+ },
+ {
+  "trackout_id": "T0297",
+  "site_id": "S23",
+  "area_id": "S23-A03",
+  "occurred": "2026-08-19T13:25",
+  "removed": "2026-08-20T08:00"
+ },
+ {
+  "trackout_id": "T0298",
+  "site_id": "S35",
+  "area_id": "S35-A05",
+  "occurred": "2026-08-19T17:55",
+  "removed": "2026-08-19T18:00"
+ },
+ {
+  "trackout_id": "T0299",
+  "site_id": "S13",
+  "area_id": "S13-A01",
+  "occurred": "2026-08-20T08:00",
+  "removed": "2026-08-20T12:00"
+ },
+ {
+  "trackout_id": "T0300",
+  "site_id": "S34",
+  "area_id": "S34-A04",
+  "occurred": "2026-08-20T12:00",
+  "removed": "2026-08-20T18:00"
+ },
+ {
+  "trackout_id": "T0301",
+  "site_id": "S26",
+  "area_id": "S26-A03",
+  "occurred": "2026-08-23T15:00",
+  "removed": "2026-08-25T07:00"
+ },
+ {
+  "trackout_id": "T0302",
+  "site_id": "S25",
+  "area_id": "S25-A02",
+  "occurred": "2026-08-24T07:30",
+  "removed": "2026-08-25T16:00"
+ },
+ {
+  "trackout_id": "T0303",
+  "site_id": "S31",
+  "area_id": "S31-A02",
+  "occurred": "2026-08-24T10:00",
+  "removed": "2026-08-24T18:00"
+ },
+ {
+  "trackout_id": "T0304",
+  "site_id": "S02",
+  "area_id": "S02-A04",
+  "occurred": "2026-08-24T10:40",
+  "removed": "2026-08-25T08:00"
+ },
+ {
+  "trackout_id": "T0305",
+  "site_id": "S17",
+  "area_id": "S17-A04",
+  "occurred": "2026-08-24T12:25",
+  "removed": "2026-08-25T10:00"
+ },
+ {
+  "trackout_id": "T0306",
+  "site_id": "S30",
+  "area_id": "S30-A02",
+  "occurred": "2026-08-24T14:00",
+  "removed": "2026-08-24T14:30"
+ },
+ {
+  "trackout_id": "T0307",
+  "site_id": "S05",
+  "area_id": "S05-A04",
+  "occurred": "2026-08-24T16:25",
+  "removed": "2026-08-24T18:30"
+ },
+ {
+  "trackout_id": "T0308",
+  "site_id": "S15",
+  "area_id": "S15-A04",
+  "occurred": "2026-08-25T15:10",
+  "removed": "2026-08-25T16:00"
+ },
+ {
+  "trackout_id": "T0309",
+  "site_id": "S09",
+  "area_id": "S09-A03",
+  "occurred": "2026-08-26T07:40",
+  "removed": "2026-08-26T12:30"
+ },
+ {
+  "trackout_id": "T0310",
+  "site_id": "S34",
+  "area_id": "S34-A01",
+  "occurred": "2026-08-26T11:10",
+  "removed": "2026-08-27T08:00"
+ },
+ {
+  "trackout_id": "T0311",
+  "site_id": "S33",
+  "area_id": "S33-A03",
+  "occurred": "2026-08-26T11:25",
+  "removed": "2026-08-26T13:00"
+ },
+ {
+  "trackout_id": "T0312",
+  "site_id": "S28",
+  "area_id": "S28-A01",
+  "occurred": "2026-08-27T15:00",
+  "removed": "2026-08-27T23:59"
+ },
+ {
+  "trackout_id": "T0313",
+  "site_id": "S24",
+  "area_id": "S24-A01",
+  "occurred": "2026-08-28T08:25",
+  "removed": "2026-08-28T12:00"
+ },
+ {
+  "trackout_id": "T0314",
+  "site_id": "S06",
+  "area_id": "S06-A03",
+  "occurred": "2026-08-29T09:40",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0315",
+  "site_id": "S07",
+  "area_id": "S07-A04",
+  "occurred": "2026-08-30T09:40",
+  "removed": "2026-09-01T07:00"
+ },
+ {
+  "trackout_id": "T0316",
+  "site_id": "S12",
+  "area_id": "S12-A03",
+  "occurred": "2026-08-31T08:10",
+  "removed": "2026-08-31T11:30"
+ },
+ {
+  "trackout_id": "T0317",
+  "site_id": "S17",
+  "area_id": "S17-A02",
+  "occurred": "2026-08-31T11:40",
+  "removed": "2026-08-31T12:30"
+ },
+ {
+  "trackout_id": "T0318",
+  "site_id": "S08",
+  "area_id": "S08-A01",
+  "occurred": "2026-08-31T15:40",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0319",
+  "site_id": "S30",
+  "area_id": "S30-A03",
+  "occurred": "2026-09-01T07:55",
+  "removed": "2026-09-01T09:30"
+ },
+ {
+  "trackout_id": "T0320",
+  "site_id": "S18",
+  "area_id": "S18-A02",
+  "occurred": "2026-09-01T08:00",
+  "removed": "2026-09-01T10:00"
+ },
+ {
+  "trackout_id": "T0321",
+  "site_id": "S31",
+  "area_id": "S31-A02",
+  "occurred": "2026-09-01T12:40",
+  "removed": "2026-09-01T18:00"
+ },
+ {
+  "trackout_id": "T0322",
+  "site_id": "S05",
+  "area_id": "S05-A01",
+  "occurred": "2026-09-01T15:10",
+  "removed": "2026-09-01T18:00"
+ },
+ {
+  "trackout_id": "T0323",
+  "site_id": "S21",
+  "area_id": "S21-A02",
+  "occurred": "2026-09-02T07:55",
+  "removed": "2026-09-02T15:30"
+ },
+ {
+  "trackout_id": "T0324",
+  "site_id": "S28",
+  "area_id": "S28-A02",
+  "occurred": "2026-09-02T17:40",
+  "removed": "2026-09-02T18:40"
+ },
+ {
+  "trackout_id": "T0325",
+  "site_id": "S14",
+  "area_id": "S14-A05",
+  "occurred": "2026-09-03T11:55",
+  "removed": "2026-09-03T14:00"
+ },
+ {
+  "trackout_id": "T0326",
+  "site_id": "S23",
+  "area_id": "S23-A05",
+  "occurred": "2026-09-04T08:40",
+  "removed": "2026-09-04T09:40"
+ },
+ {
+  "trackout_id": "T0327",
+  "site_id": "S10",
+  "area_id": "S10-A03",
+  "occurred": "2026-09-06T14:40",
+  "removed": "2026-09-07T14:30"
+ },
+ {
+  "trackout_id": "T0328",
+  "site_id": "S05",
+  "area_id": "S05-A03",
+  "occurred": "2026-09-08T13:40",
+  "removed": "2026-09-08T16:30"
+ },
+ {
+  "trackout_id": "T0329",
+  "site_id": "S21",
+  "area_id": "S21-A04",
+  "occurred": "2026-09-09T07:40",
+  "removed": "2026-09-09T09:30"
+ },
+ {
+  "trackout_id": "T0330",
+  "site_id": "S15",
+  "area_id": "S15-A01",
+  "occurred": "2026-09-09T10:00",
+  "removed": "2026-09-09T18:30"
+ },
+ {
+  "trackout_id": "T0331",
+  "site_id": "S13",
+  "area_id": "S13-A01",
+  "occurred": "2026-09-09T10:55",
+  "removed": "2026-09-09T13:30"
+ },
+ {
+  "trackout_id": "T0332",
+  "site_id": "S34",
+  "area_id": "S34-A03",
+  "occurred": "2026-09-09T11:00",
+  "removed": "2026-09-09T13:30"
+ },
+ {
+  "trackout_id": "T0333",
+  "site_id": "S09",
+  "area_id": "S09-A06",
+  "occurred": "2026-09-09T15:10",
+  "removed": "2026-09-09T23:59"
+ },
+ {
+  "trackout_id": "T0334",
+  "site_id": "S32",
+  "area_id": "S32-A02",
+  "occurred": "2026-09-10T09:55",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0335",
+  "site_id": "S24",
+  "area_id": "S24-A04",
+  "occurred": "2026-09-10T17:40",
+  "removed": "2026-09-10T18:40"
+ },
+ {
+  "trackout_id": "T0336",
+  "site_id": "S04",
+  "area_id": "S04-A04",
+  "occurred": "2026-09-12T09:00",
+  "removed": "2026-09-12T23:59"
+ },
+ {
+  "trackout_id": "T0337",
+  "site_id": "S33",
+  "area_id": "S33-A01",
+  "occurred": "2026-09-12T11:10",
+  "removed": "2026-09-15T09:00"
+ },
+ {
+  "trackout_id": "T0338",
+  "site_id": "S07",
+  "area_id": "S07-A01",
+  "occurred": "2026-09-13T09:00",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0339",
+  "site_id": "S31",
+  "area_id": "S31-A01",
+  "occurred": "2026-09-15T11:00",
+  "removed": "2026-09-15T16:30"
+ },
+ {
+  "trackout_id": "T0340",
+  "site_id": "S19",
+  "area_id": "S19-A01",
+  "occurred": "2026-09-15T12:40",
+  "removed": "2026-09-15T13:30"
+ },
+ {
+  "trackout_id": "T0341",
+  "site_id": "S34",
+  "area_id": "S34-A06",
+  "occurred": "2026-09-15T12:40",
+  "removed": "2026-09-15T16:30"
+ },
+ {
+  "trackout_id": "T0342",
+  "site_id": "S28",
+  "area_id": "S28-A01",
+  "occurred": "2026-09-15T16:00",
+  "removed": "2026-09-15T16:00"
+ },
+ {
+  "trackout_id": "T0343",
+  "site_id": "S36",
+  "area_id": "S36-A02",
+  "occurred": "2026-09-15T17:55",
+  "removed": "2026-09-15T18:00"
+ },
+ {
+  "trackout_id": "T0344",
+  "site_id": "S09",
+  "area_id": "S09-A04",
+  "occurred": "2026-09-16T10:10",
+  "removed": "2026-09-17T07:00"
+ },
+ {
+  "trackout_id": "T0345",
+  "site_id": "S10",
+  "area_id": "S10-A03",
+  "occurred": "2026-09-16T10:55",
+  "removed": "2026-09-16T15:30"
+ },
+ {
+  "trackout_id": "T0346",
+  "site_id": "S12",
+  "area_id": "S12-A02",
+  "occurred": "2026-09-16T12:40",
+  "removed": "2026-09-16T16:30"
+ },
+ {
+  "trackout_id": "T0347",
+  "site_id": "S05",
+  "area_id": "S05-A04",
+  "occurred": "2026-09-16T12:55",
+  "removed": "2026-09-16T13:30"
+ },
+ {
+  "trackout_id": "T0348",
+  "site_id": "S15",
+  "area_id": "S15-A01",
+  "occurred": "2026-09-16T17:55",
+  "removed": "2026-09-16T18:30"
+ },
+ {
+  "trackout_id": "T0349",
+  "site_id": "S06",
+  "area_id": "S06-A02",
+  "occurred": "2026-09-17T14:00",
+  "removed": "2026-09-19T09:00"
+ },
+ {
+  "trackout_id": "T0350",
+  "site_id": "S26",
+  "area_id": "S26-A01",
+  "occurred": "2026-09-18T07:25",
+  "removed": "2026-09-21T12:30"
+ },
+ {
+  "trackout_id": "T0351",
+  "site_id": "S17",
+  "area_id": "S17-A04",
+  "occurred": "2026-09-18T08:00",
+  "removed": "2026-09-18T08:00"
+ },
+ {
+  "trackout_id": "T0352",
+  "site_id": "S21",
+  "area_id": "S21-A01",
+  "occurred": "2026-09-19T08:00",
+  "removed": "2026-09-19T15:00"
+ },
+ {
+  "trackout_id": "T0353",
+  "site_id": "S33",
+  "area_id": "S33-A02",
+  "occurred": "2026-09-19T09:00",
+  "removed": "2026-09-21T23:59"
+ },
+ {
+  "trackout_id": "T0354",
+  "site_id": "S30",
+  "area_id": "S30-A01",
+  "occurred": "2026-09-19T12:40",
+  "removed": "2026-09-21T13:00"
+ },
+ {
+  "trackout_id": "T0355",
+  "site_id": "S14",
+  "area_id": "S14-A03",
+  "occurred": "2026-09-20T09:55",
+  "removed": "2026-09-22T08:00"
+ },
+ {
+  "trackout_id": "T0356",
+  "site_id": "S35",
+  "area_id": "S35-A01",
+  "occurred": "2026-09-20T12:55",
+  "removed": "2026-09-21T15:30"
+ },
+ {
+  "trackout_id": "T0357",
+  "site_id": "S04",
+  "area_id": "S04-A04",
+  "occurred": "2026-09-21T10:25",
+  "removed": "2026-09-21T18:00"
+ },
+ {
+  "trackout_id": "T0358",
+  "site_id": "S24",
+  "area_id": "S24-A02",
+  "occurred": "2026-09-21T12:10",
+  "removed": "2026-09-21T18:00"
+ },
+ {
+  "trackout_id": "T0359",
+  "site_id": "S13",
+  "area_id": "S13-A01",
+  "occurred": "2026-09-21T12:55",
+  "removed": "2026-09-21T18:30"
+ },
+ {
+  "trackout_id": "T0360",
+  "site_id": "S07",
+  "area_id": "S07-A03",
+  "occurred": "2026-09-25T07:40",
+  "removed": "2026-09-25T17:30"
+ },
+ {
+  "trackout_id": "T0361",
+  "site_id": "S18",
+  "area_id": "S18-A03",
+  "occurred": "2026-09-25T16:55",
+  "removed": "2026-09-25T17:30"
+ },
+ {
+  "trackout_id": "T0362",
+  "site_id": "S08",
+  "area_id": "S08-A01",
+  "occurred": "2026-09-26T09:25",
+  "removed": "2026-09-28T09:00"
+ },
+ {
+  "trackout_id": "T0363",
+  "site_id": "S02",
+  "area_id": "S02-A04",
+  "occurred": "2026-09-26T14:10",
+  "removed": null
+ },
+ {
+  "trackout_id": "T0364",
+  "site_id": "S33",
+  "area_id": "S33-A03",
+  "occurred": "2026-09-27T09:40",
+  "removed": "2026-09-28T16:30"
+ },
+ {
+  "trackout_id": "T0365",
+  "site_id": "S19",
+  "area_id": "S19-A01",
+  "occurred": "2026-09-27T13:00",
+  "removed": "2026-09-28T18:30"
+ }
+]

@@ -1,0 +1,133 @@
+{
+ "S01": [
+  "routine-inspection",
+  "report"
+ ],
+ "S02": [
+  "filler"
+ ],
+ "S03": [
+  "repeat-fix",
+  "maintenance",
+  "corrective-action"
+ ],
+ "S04": [
+  "filler"
+ ],
+ "S05": [
+  "filler"
+ ],
+ "S06": [
+  "filler"
+ ],
+ "S07": [
+  "filler"
+ ],
+ "S08": [
+  "filler"
+ ],
+ "S09": [
+  "filler"
+ ],
+ "S10": [
+  "filler"
+ ],
+ "S11": [
+  "acreage",
+  "stabilization"
+ ],
+ "S12": [
+  "filler"
+ ],
+ "S13": [
+  "filler"
+ ],
+ "S14": [
+  "filler"
+ ],
+ "S15": [
+  "filler"
+ ],
+ "S16": [
+  "acreage",
+  "stabilization"
+ ],
+ "S17": [
+  "filler"
+ ],
+ "S18": [
+  "filler"
+ ],
+ "S19": [
+  "filler"
+ ],
+ "S20": [
+  "acreage",
+  "stabilization"
+ ],
+ "S21": [
+  "filler"
+ ],
+ "S22": [
+  "filler"
+ ],
+ "S23": [
+  "filler"
+ ],
+ "S24": [
+  "filler"
+ ],
+ "S25": [
+  "business-day",
+  "trackout",
+  "maintenance"
+ ],
+ "S26": [
+  "filler"
+ ],
+ "S27": [
+  "stabilization",
+  "business-day"
+ ],
+ "S28": [
+  "filler"
+ ],
+ "S29": [
+  "corrective-action"
+ ],
+ "S30": [
+  "filler"
+ ],
+ "S31": [
+  "filler"
+ ],
+ "S32": [
+  "filler"
+ ],
+ "S33": [
+  "filler"
+ ],
+ "S34": [
+  "filler"
+ ],
+ "S35": [
+  "filler"
+ ],
+ "S36": [
+  "filler"
+ ],
+ "S37": [
+  "storm",
+  "business-day"
+ ],
+ "S38": [
+  "stabilized-area",
+  "storm",
+  "routine-inspection"
+ ],
+ "S39": [
+  "sensitive-water",
+  "storm",
+  "stabilization"
+ ]
+}

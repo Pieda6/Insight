@@ -1,0 +1,1897 @@
+[
+ {
+  "site_id": "S01",
+  "project": "housing subdivision, Toa Alta",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S01-W1",
+    "name": "Rio Gurabo",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S01-A01",
+    "description": "north slope",
+    "acres": "1.00",
+    "discharges_to": "S01-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S01-A02",
+    "description": "south slope",
+    "acres": "1.00",
+    "discharges_to": "S01-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S01-A03",
+    "description": "east lots",
+    "acres": "0.60",
+    "discharges_to": "S01-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S02",
+  "project": "hotel annex, Gurabo",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S02-W1",
+    "name": "Rio Manati",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S02-A01",
+    "description": "north slope",
+    "acres": "0.79",
+    "discharges_to": "S02-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S02-A02",
+    "description": "building pad",
+    "acres": "1.70",
+    "discharges_to": "S02-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S02-A03",
+    "description": "entrance drive",
+    "acres": "2.23",
+    "discharges_to": "S02-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S02-A04",
+    "description": "stockpile yard",
+    "acres": "1.28",
+    "discharges_to": "S02-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S03",
+  "project": "sports complex, Arecibo",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S03-W1",
+    "name": "Rio Gurabo",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S03-A01",
+    "description": "detention pond",
+    "acres": "2.00",
+    "discharges_to": "S03-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S04",
+  "project": "fire station, Dorado",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "06:30",
+   "end": "17:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S04-W1",
+    "name": "Rio Gurabo",
+    "impaired_for": [],
+    "antidegradation_tier": "2.5"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S04-A01",
+    "description": "stockpile yard",
+    "acres": "1.26",
+    "discharges_to": "S04-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S04-A02",
+    "description": "detention pond",
+    "acres": "0.93",
+    "discharges_to": "S04-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S04-A03",
+    "description": "parking lot",
+    "acres": "2.47",
+    "discharges_to": "S04-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S04-A04",
+    "description": "detention pond",
+    "acres": "0.85",
+    "discharges_to": "S04-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S04-A05",
+    "description": "detention pond",
+    "acres": "2.48",
+    "discharges_to": "S04-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S05",
+  "project": "retail center, Naranjito",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:30",
+   "end": "17:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S05-W1",
+    "name": "Rio Fajardo",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S05-A01",
+    "description": "west lots",
+    "acres": "1.12",
+    "discharges_to": "S05-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S05-A02",
+    "description": "north slope",
+    "acres": "1.73",
+    "discharges_to": "S05-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S05-A03",
+    "description": "stockpile yard",
+    "acres": "2.13",
+    "discharges_to": "S05-W1",
+    "work_completed_on": "2026-06-24"
+   },
+   {
+    "area_id": "S05-A04",
+    "description": "access road",
+    "acres": "0.95",
+    "discharges_to": "S05-W1",
+    "work_completed_on": "2026-06-26"
+   }
+  ]
+ },
+ {
+  "site_id": "S06",
+  "project": "pharmaceutical plant addition, Aguadilla",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "16:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S06-W1",
+    "name": "Rio Canovanas",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S06-A01",
+    "description": "entrance drive",
+    "acres": "1.48",
+    "discharges_to": "S06-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S06-A02",
+    "description": "south slope",
+    "acres": "1.59",
+    "discharges_to": "S06-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S06-A03",
+    "description": "lift station",
+    "acres": "3.17",
+    "discharges_to": "S06-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S07",
+  "project": "water storage tank, Vega Baja",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "17:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S07-W1",
+    "name": "Rio Espiritu Santo",
+    "impaired_for": [
+     "Total Phosphorus"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S07-A01",
+    "description": "east lots",
+    "acres": "1.03",
+    "discharges_to": "S07-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S07-A02",
+    "description": "north slope",
+    "acres": "1.24",
+    "discharges_to": "S07-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S07-A03",
+    "description": "west lots",
+    "acres": "1.69",
+    "discharges_to": "S07-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S07-A04",
+    "description": "building pad",
+    "acres": "2.04",
+    "discharges_to": "S07-W1",
+    "work_completed_on": "2026-09-09"
+   }
+  ]
+ },
+ {
+  "site_id": "S08",
+  "project": "medical office building, Yabucoa",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "06:30",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S08-W1",
+    "name": "Rio Bayamon",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   },
+   {
+    "water_id": "S08-W2",
+    "name": "Rio Bayamon",
+    "impaired_for": [
+     "Total Nitrogen"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S08-A01",
+    "description": "lift station",
+    "acres": "2.16",
+    "discharges_to": "S08-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S08-A02",
+    "description": "utility corridor",
+    "acres": "2.30",
+    "discharges_to": "S08-W2",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S08-A03",
+    "description": "parking lot",
+    "acres": "1.24",
+    "discharges_to": "S08-W2",
+    "work_completed_on": "2026-07-31"
+   },
+   {
+    "area_id": "S08-A04",
+    "description": "lift station",
+    "acres": "0.53",
+    "discharges_to": "S08-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S09",
+  "project": "data center pad, Hatillo",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S09-W1",
+    "name": "Rio Turabo",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S09-A01",
+    "description": "detention pond",
+    "acres": "1.38",
+    "discharges_to": "S09-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S09-A02",
+    "description": "lift station",
+    "acres": "0.68",
+    "discharges_to": "S09-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S09-A03",
+    "description": "north slope",
+    "acres": "1.60",
+    "discharges_to": "S09-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S09-A04",
+    "description": "lift station",
+    "acres": "1.52",
+    "discharges_to": "S09-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S09-A05",
+    "description": "parking lot",
+    "acres": "0.47",
+    "discharges_to": "S09-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S09-A06",
+    "description": "utility corridor",
+    "acres": "0.60",
+    "discharges_to": "S09-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S10",
+  "project": "parking structure, Carolina",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "17:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S10-W1",
+    "name": "Rio Cibuco",
+    "impaired_for": [
+     "Enterococci"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S10-A01",
+    "description": "east lots",
+    "acres": "1.15",
+    "discharges_to": "S10-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S10-A02",
+    "description": "stockpile yard",
+    "acres": "1.03",
+    "discharges_to": "S10-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S10-A03",
+    "description": "access road",
+    "acres": "2.57",
+    "discharges_to": "S10-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S10-A04",
+    "description": "parking lot",
+    "acres": "1.02",
+    "discharges_to": "S10-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S10-A05",
+    "description": "building pad",
+    "acres": "2.39",
+    "discharges_to": "S10-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S11",
+  "project": "apartment complex, Dorado",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S11-W1",
+    "name": "Rio Gurabo",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S11-A01",
+    "description": "building pad",
+    "acres": "3.00",
+    "discharges_to": "S11-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S11-A02",
+    "description": "stockpile yard",
+    "acres": "1.50",
+    "discharges_to": "S11-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S11-A03",
+    "description": "utility corridor",
+    "acres": "0.60",
+    "discharges_to": "S11-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S12",
+  "project": "fire station, Toa Alta",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S12-W1",
+    "name": "Rio Turabo",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S12-A01",
+    "description": "stockpile yard",
+    "acres": "1.96",
+    "discharges_to": "S12-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S12-A02",
+    "description": "west lots",
+    "acres": "1.91",
+    "discharges_to": "S12-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S12-A03",
+    "description": "building pad",
+    "acres": "1.47",
+    "discharges_to": "S12-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S12-A04",
+    "description": "stockpile yard",
+    "acres": "1.35",
+    "discharges_to": "S12-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S12-A05",
+    "description": "utility corridor",
+    "acres": "1.47",
+    "discharges_to": "S12-W1",
+    "work_completed_on": "2026-04-29"
+   }
+  ]
+ },
+ {
+  "site_id": "S13",
+  "project": "housing subdivision, Aguadilla",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "07:30",
+   "end": "17:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S13-W1",
+    "name": "Rio Cibuco",
+    "impaired_for": [
+     "pH",
+     "Mercury"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S13-A01",
+    "description": "utility corridor",
+    "acres": "0.48",
+    "discharges_to": "S13-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S13-A02",
+    "description": "entrance drive",
+    "acres": "0.46",
+    "discharges_to": "S13-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S13-A03",
+    "description": "east lots",
+    "acres": "0.96",
+    "discharges_to": "S13-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S14",
+  "project": "sports complex, Manati",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S14-W1",
+    "name": "Quebrada Blasina",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   },
+   {
+    "water_id": "S14-W2",
+    "name": "Rio Hondo",
+    "impaired_for": [
+     "Fecal Coliform"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S14-A01",
+    "description": "north slope",
+    "acres": "1.73",
+    "discharges_to": "S14-W2",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S14-A02",
+    "description": "utility corridor",
+    "acres": "1.03",
+    "discharges_to": "S14-W2",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S14-A03",
+    "description": "east lots",
+    "acres": "1.26",
+    "discharges_to": "S14-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S14-A04",
+    "description": "west lots",
+    "acres": "1.92",
+    "discharges_to": "S14-W2",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S14-A05",
+    "description": "parking lot",
+    "acres": "0.52",
+    "discharges_to": "S14-W1",
+    "work_completed_on": "2026-08-07"
+   },
+   {
+    "area_id": "S14-A06",
+    "description": "entrance drive",
+    "acres": "1.22",
+    "discharges_to": "S14-W1",
+    "work_completed_on": "2026-06-15"
+   }
+  ]
+ },
+ {
+  "site_id": "S15",
+  "project": "bridge approach, Naguabo",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "17:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S15-W1",
+    "name": "Rio Grande de Loiza",
+    "impaired_for": [],
+    "antidegradation_tier": "2"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S15-A01",
+    "description": "entrance drive",
+    "acres": "1.73",
+    "discharges_to": "S15-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S15-A02",
+    "description": "access road",
+    "acres": "2.03",
+    "discharges_to": "S15-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S15-A03",
+    "description": "parking lot",
+    "acres": "1.66",
+    "discharges_to": "S15-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S15-A04",
+    "description": "stockpile yard",
+    "acres": "1.56",
+    "discharges_to": "S15-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S15-A05",
+    "description": "access road",
+    "acres": "1.03",
+    "discharges_to": "S15-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S16",
+  "project": "logistics yard, Barceloneta",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S16-W1",
+    "name": "Rio Gurabo",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S16-A01",
+    "description": "building pad",
+    "acres": "3.00",
+    "discharges_to": "S16-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S16-A02",
+    "description": "west lots",
+    "acres": "2.00",
+    "discharges_to": "S16-W1",
+    "work_completed_on": "2026-07-31"
+   },
+   {
+    "area_id": "S16-A03",
+    "description": "lift station",
+    "acres": "0.10",
+    "discharges_to": "S16-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S17",
+  "project": "water storage tank, Toa Alta",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S17-W1",
+    "name": "Quebrada Blasina",
+    "impaired_for": [
+     "pH"
+    ],
+    "antidegradation_tier": "1"
+   },
+   {
+    "water_id": "S17-W2",
+    "name": "Rio Turabo",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S17-A01",
+    "description": "east lots",
+    "acres": "1.81",
+    "discharges_to": "S17-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S17-A02",
+    "description": "lift station",
+    "acres": "0.75",
+    "discharges_to": "S17-W1",
+    "work_completed_on": "2026-04-02"
+   },
+   {
+    "area_id": "S17-A03",
+    "description": "parking lot",
+    "acres": "2.51",
+    "discharges_to": "S17-W2",
+    "work_completed_on": "2026-08-07"
+   },
+   {
+    "area_id": "S17-A04",
+    "description": "south slope",
+    "acres": "1.19",
+    "discharges_to": "S17-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S18",
+  "project": "sewer pump station, Corozal",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "06:30",
+   "end": "17:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S18-W1",
+    "name": "Quebrada Blasina",
+    "impaired_for": [],
+    "antidegradation_tier": "3"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S18-A01",
+    "description": "stockpile yard",
+    "acres": "2.00",
+    "discharges_to": "S18-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S18-A02",
+    "description": "building pad",
+    "acres": "2.08",
+    "discharges_to": "S18-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S18-A03",
+    "description": "stockpile yard",
+    "acres": "0.68",
+    "discharges_to": "S18-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S18-A04",
+    "description": "stockpile yard",
+    "acres": "1.18",
+    "discharges_to": "S18-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S18-A05",
+    "description": "west lots",
+    "acres": "0.78",
+    "discharges_to": "S18-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S18-A06",
+    "description": "north slope",
+    "acres": "2.32",
+    "discharges_to": "S18-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S19",
+  "project": "distribution warehouse, Yabucoa",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S19-W1",
+    "name": "Quebrada Frontera",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S19-A01",
+    "description": "lift station",
+    "acres": "2.15",
+    "discharges_to": "S19-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S19-A02",
+    "description": "entrance drive",
+    "acres": "0.57",
+    "discharges_to": "S19-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S19-A03",
+    "description": "lift station",
+    "acres": "1.88",
+    "discharges_to": "S19-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S19-A04",
+    "description": "east lots",
+    "acres": "1.36",
+    "discharges_to": "S19-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S19-A05",
+    "description": "parking lot",
+    "acres": "2.03",
+    "discharges_to": "S19-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S20",
+  "project": "school expansion, Humacao",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S20-W1",
+    "name": "Rio Gurabo",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S20-A01",
+    "description": "building pad",
+    "acres": "3.00",
+    "discharges_to": "S20-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S20-A02",
+    "description": "parking lot",
+    "acres": "2.00",
+    "discharges_to": "S20-W1",
+    "work_completed_on": "2026-08-07"
+   }
+  ]
+ },
+ {
+  "site_id": "S21",
+  "project": "sports complex, Toa Alta",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S21-W1",
+    "name": "Quebrada Blasina",
+    "impaired_for": [
+     "Sedimentation/Siltation"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S21-A01",
+    "description": "detention pond",
+    "acres": "0.95",
+    "discharges_to": "S21-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S21-A02",
+    "description": "entrance drive",
+    "acres": "2.00",
+    "discharges_to": "S21-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S21-A03",
+    "description": "detention pond",
+    "acres": "2.26",
+    "discharges_to": "S21-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S21-A04",
+    "description": "lift station",
+    "acres": "1.51",
+    "discharges_to": "S21-W1",
+    "work_completed_on": "2026-07-11"
+   },
+   {
+    "area_id": "S21-A05",
+    "description": "detention pond",
+    "acres": "2.04",
+    "discharges_to": "S21-W1",
+    "work_completed_on": "2026-06-10"
+   }
+  ]
+ },
+ {
+  "site_id": "S22",
+  "project": "retail center, Toa Alta",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "06:30",
+   "end": "17:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S22-W1",
+    "name": "Rio Gurabo",
+    "impaired_for": [
+     "Fecal Coliform"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S22-A01",
+    "description": "lift station",
+    "acres": "2.47",
+    "discharges_to": "S22-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S22-A02",
+    "description": "access road",
+    "acres": "0.64",
+    "discharges_to": "S22-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S22-A03",
+    "description": "parking lot",
+    "acres": "2.03",
+    "discharges_to": "S22-W1",
+    "work_completed_on": "2026-08-12"
+   }
+  ]
+ },
+ {
+  "site_id": "S23",
+  "project": "highway interchange ramp, Naranjito",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S23-W1",
+    "name": "Rio Cagitas",
+    "impaired_for": [
+     "Total Phosphorus"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S23-A01",
+    "description": "utility corridor",
+    "acres": "1.97",
+    "discharges_to": "S23-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S23-A02",
+    "description": "west lots",
+    "acres": "0.70",
+    "discharges_to": "S23-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S23-A03",
+    "description": "west lots",
+    "acres": "2.29",
+    "discharges_to": "S23-W1",
+    "work_completed_on": "2026-04-10"
+   },
+   {
+    "area_id": "S23-A04",
+    "description": "lift station",
+    "acres": "2.19",
+    "discharges_to": "S23-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S23-A05",
+    "description": "utility corridor",
+    "acres": "0.85",
+    "discharges_to": "S23-W1",
+    "work_completed_on": "2026-06-09"
+   }
+  ]
+ },
+ {
+  "site_id": "S24",
+  "project": "apartment complex, Barceloneta",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S24-W1",
+    "name": "Rio Culebrinas",
+    "impaired_for": [
+     "Total Phosphorus"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S24-A01",
+    "description": "detention pond",
+    "acres": "1.77",
+    "discharges_to": "S24-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S24-A02",
+    "description": "east lots",
+    "acres": "1.78",
+    "discharges_to": "S24-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S24-A03",
+    "description": "parking lot",
+    "acres": "2.10",
+    "discharges_to": "S24-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S24-A04",
+    "description": "south slope",
+    "acres": "0.89",
+    "discharges_to": "S24-W1",
+    "work_completed_on": "2026-06-12"
+   }
+  ]
+ },
+ {
+  "site_id": "S25",
+  "project": "medical office building, Gurabo",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S25-W1",
+    "name": "Rio Hondo",
+    "impaired_for": [
+     "Mercury"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S25-A01",
+    "description": "building pad",
+    "acres": "1.20",
+    "discharges_to": "S25-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S25-A02",
+    "description": "parking lot",
+    "acres": "0.80",
+    "discharges_to": "S25-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S26",
+  "project": "hotel annex, Aguadilla",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "16:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S26-W1",
+    "name": "Rio Grande de Loiza",
+    "impaired_for": [
+     "Copper",
+     "Fecal Coliform"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S26-A01",
+    "description": "north slope",
+    "acres": "1.50",
+    "discharges_to": "S26-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S26-A02",
+    "description": "north slope",
+    "acres": "0.51",
+    "discharges_to": "S26-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S26-A03",
+    "description": "north slope",
+    "acres": "1.69",
+    "discharges_to": "S26-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S26-A04",
+    "description": "detention pond",
+    "acres": "2.43",
+    "discharges_to": "S26-W1",
+    "work_completed_on": "2026-08-14"
+   },
+   {
+    "area_id": "S26-A05",
+    "description": "access road",
+    "acres": "0.39",
+    "discharges_to": "S26-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S26-A06",
+    "description": "utility corridor",
+    "acres": "1.49",
+    "discharges_to": "S26-W1",
+    "work_completed_on": "2026-05-18"
+   }
+  ]
+ },
+ {
+  "site_id": "S27",
+  "project": "community center, Cidra",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S27-W1",
+    "name": "Rio Gurabo",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S27-A01",
+    "description": "access road",
+    "acres": "1.00",
+    "discharges_to": "S27-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S27-A02",
+    "description": "north slope",
+    "acres": "1.00",
+    "discharges_to": "S27-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S27-A03",
+    "description": "south slope",
+    "acres": "1.00",
+    "discharges_to": "S27-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S27-A04",
+    "description": "entrance drive",
+    "acres": "1.00",
+    "discharges_to": "S27-W1",
+    "work_completed_on": "2026-09-09"
+   }
+  ]
+ },
+ {
+  "site_id": "S28",
+  "project": "data center pad, Trujillo Alto",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:30",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S28-W1",
+    "name": "Rio Bayamon",
+    "impaired_for": [
+     "pH",
+     "Enterococci"
+    ],
+    "antidegradation_tier": "1"
+   },
+   {
+    "water_id": "S28-W2",
+    "name": "Rio Humacao",
+    "impaired_for": [],
+    "antidegradation_tier": "2"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S28-A01",
+    "description": "utility corridor",
+    "acres": "1.83",
+    "discharges_to": "S28-W2",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S28-A02",
+    "description": "access road",
+    "acres": "1.89",
+    "discharges_to": "S28-W2",
+    "work_completed_on": "2026-06-26"
+   },
+   {
+    "area_id": "S28-A03",
+    "description": "east lots",
+    "acres": "1.65",
+    "discharges_to": "S28-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S28-A04",
+    "description": "west lots",
+    "acres": "0.88",
+    "discharges_to": "S28-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S29",
+  "project": "fire station, Juncos",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S29-W1",
+    "name": "Rio Gurabo",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S29-A01",
+    "description": "parking lot",
+    "acres": "1.50",
+    "discharges_to": "S29-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S30",
+  "project": "community center, Gurabo",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "16:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S30-W1",
+    "name": "Rio Canovanas",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S30-A01",
+    "description": "north slope",
+    "acres": "2.11",
+    "discharges_to": "S30-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S30-A02",
+    "description": "detention pond",
+    "acres": "0.82",
+    "discharges_to": "S30-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S30-A03",
+    "description": "building pad",
+    "acres": "0.55",
+    "discharges_to": "S30-W1",
+    "work_completed_on": "2026-09-04"
+   },
+   {
+    "area_id": "S30-A04",
+    "description": "north slope",
+    "acres": "1.85",
+    "discharges_to": "S30-W1",
+    "work_completed_on": "2026-05-13"
+   },
+   {
+    "area_id": "S30-A05",
+    "description": "building pad",
+    "acres": "2.66",
+    "discharges_to": "S30-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S31",
+  "project": "pharmaceutical plant addition, Canovanas",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "17:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S31-W1",
+    "name": "Rio Hondo",
+    "impaired_for": [
+     "Fecal Coliform",
+     "Enterococci"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S31-A01",
+    "description": "stockpile yard",
+    "acres": "1.59",
+    "discharges_to": "S31-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S31-A02",
+    "description": "stockpile yard",
+    "acres": "1.90",
+    "discharges_to": "S31-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S31-A03",
+    "description": "stockpile yard",
+    "acres": "1.67",
+    "discharges_to": "S31-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S31-A04",
+    "description": "access road",
+    "acres": "0.84",
+    "discharges_to": "S31-W1",
+    "work_completed_on": "2026-08-12"
+   }
+  ]
+ },
+ {
+  "site_id": "S32",
+  "project": "sports complex, Cayey",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S32-W1",
+    "name": "Rio Yaguez",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   },
+   {
+    "water_id": "S32-W2",
+    "name": "Rio de la Plata",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S32-A01",
+    "description": "building pad",
+    "acres": "0.90",
+    "discharges_to": "S32-W2",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S32-A02",
+    "description": "lift station",
+    "acres": "0.48",
+    "discharges_to": "S32-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S32-A03",
+    "description": "entrance drive",
+    "acres": "2.05",
+    "discharges_to": "S32-W2",
+    "work_completed_on": "2026-06-10"
+   },
+   {
+    "area_id": "S32-A04",
+    "description": "utility corridor",
+    "acres": "0.57",
+    "discharges_to": "S32-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S33",
+  "project": "solar farm access roads, Trujillo Alto",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "06:30",
+   "end": "16:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S33-W1",
+    "name": "Rio Hondo",
+    "impaired_for": [
+     "Total Nitrogen"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S33-A01",
+    "description": "detention pond",
+    "acres": "1.01",
+    "discharges_to": "S33-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S33-A02",
+    "description": "entrance drive",
+    "acres": "1.80",
+    "discharges_to": "S33-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S33-A03",
+    "description": "building pad",
+    "acres": "0.96",
+    "discharges_to": "S33-W1",
+    "work_completed_on": "2026-08-28"
+   }
+  ]
+ },
+ {
+  "site_id": "S34",
+  "project": "school expansion, Quebradillas",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "16:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S34-W1",
+    "name": "Rio Grande de Loiza",
+    "impaired_for": [],
+    "antidegradation_tier": "2"
+   },
+   {
+    "water_id": "S34-W2",
+    "name": "Rio Cagitas",
+    "impaired_for": [
+     "Copper",
+     "pH"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S34-A01",
+    "description": "east lots",
+    "acres": "1.08",
+    "discharges_to": "S34-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S34-A02",
+    "description": "south slope",
+    "acres": "0.64",
+    "discharges_to": "S34-W1",
+    "work_completed_on": "2026-06-23"
+   },
+   {
+    "area_id": "S34-A03",
+    "description": "north slope",
+    "acres": "0.64",
+    "discharges_to": "S34-W2",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S34-A04",
+    "description": "south slope",
+    "acres": "1.85",
+    "discharges_to": "S34-W1",
+    "work_completed_on": "2026-08-12"
+   },
+   {
+    "area_id": "S34-A05",
+    "description": "utility corridor",
+    "acres": "2.14",
+    "discharges_to": "S34-W2",
+    "work_completed_on": "2026-07-17"
+   },
+   {
+    "area_id": "S34-A06",
+    "description": "access road",
+    "acres": "1.67",
+    "discharges_to": "S34-W2",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S35",
+  "project": "community center, Corozal",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "16:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S35-W1",
+    "name": "Rio Yaguez",
+    "impaired_for": [
+     "Enterococci"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S35-A01",
+    "description": "detention pond",
+    "acres": "2.66",
+    "discharges_to": "S35-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S35-A02",
+    "description": "detention pond",
+    "acres": "1.50",
+    "discharges_to": "S35-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S35-A03",
+    "description": "detention pond",
+    "acres": "1.55",
+    "discharges_to": "S35-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S35-A04",
+    "description": "south slope",
+    "acres": "1.32",
+    "discharges_to": "S35-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S35-A05",
+    "description": "detention pond",
+    "acres": "0.65",
+    "discharges_to": "S35-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S36",
+  "project": "medical office building, Aguadilla",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "06:30",
+   "end": "15:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S36-W1",
+    "name": "Quebrada Las Lajas",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   },
+   {
+    "water_id": "S36-W2",
+    "name": "Quebrada Blasina",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S36-A01",
+    "description": "building pad",
+    "acres": "2.27",
+    "discharges_to": "S36-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S36-A02",
+    "description": "lift station",
+    "acres": "2.58",
+    "discharges_to": "S36-W2",
+    "work_completed_on": "2026-06-17"
+   },
+   {
+    "area_id": "S36-A03",
+    "description": "utility corridor",
+    "acres": "2.24",
+    "discharges_to": "S36-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S36-A04",
+    "description": "detention pond",
+    "acres": "0.62",
+    "discharges_to": "S36-W2",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S37",
+  "project": "highway interchange ramp, Cayey",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "16:00"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S37-W1",
+    "name": "Rio Gurabo",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S37-A01",
+    "description": "access road",
+    "acres": "2.00",
+    "discharges_to": "S37-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S38",
+  "project": "distribution warehouse, Carolina",
+  "inspection_schedule": "Part 4.2.2",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S38-W1",
+    "name": "Rio Gurabo",
+    "impaired_for": [],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S38-A01",
+    "description": "building pad",
+    "acres": "2.00",
+    "discharges_to": "S38-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S38-A02",
+    "description": "detention pond",
+    "acres": "1.50",
+    "discharges_to": "S38-W1",
+    "work_completed_on": null
+   }
+  ]
+ },
+ {
+  "site_id": "S39",
+  "project": "water storage tank, Naguabo",
+  "inspection_schedule": "Part 4.2.1",
+  "normal_working_hours": {
+   "start": "07:00",
+   "end": "15:30"
+  },
+  "receiving_waters": [
+   {
+    "water_id": "S39-W1",
+    "name": "Quebrada Las Lajas",
+    "impaired_for": [],
+    "antidegradation_tier": "2.5"
+   },
+   {
+    "water_id": "S39-W2",
+    "name": "Rio Bayamon",
+    "impaired_for": [
+     "Mercury",
+     "Fecal Coliform"
+    ],
+    "antidegradation_tier": "1"
+   }
+  ],
+  "areas": [
+   {
+    "area_id": "S39-A01",
+    "description": "east lots",
+    "acres": "1.00",
+    "discharges_to": "S39-W1",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S39-A02",
+    "description": "west lots",
+    "acres": "1.00",
+    "discharges_to": "S39-W2",
+    "work_completed_on": null
+   },
+   {
+    "area_id": "S39-A03",
+    "description": "north slope",
+    "acres": "1.00",
+    "discharges_to": "S39-W1",
+    "work_completed_on": "2026-07-24"
+   }
+  ]
+ }
+]
