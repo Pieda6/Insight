@@ -1,0 +1,670 @@
+                                                           2022 Construction General Permit (CGP)
+
+
+
+                           Appendix A - Definitions and Acronyms
+
+   1. Definitions
+“Action Area” – all areas to be affected directly or indirectly by the Federal action and not
+merely the immediate area involved in the action. See 50 CFR 402. For the purposes of this
+permit and for application of the threatened and endangered species protection eligibility
+requirements, the following areas are included in the definition of action area:
+   •   The areas on the construction site where stormwater discharges originate and flow
+       toward the point of discharge into the receiving waters. This includes:
+               •    areas on the construction site where excavation, site development, or other
+                    ground disturbance activities occur, and
+               •    areas where stormwater controls will be constructed and operated, including
+                    any areas where stormwater flows to and from the stormwater controls.
+   •   The areas in the vicinity of the construction site where stormwater discharges flow from
+       the construction site to one or more points of discharge into receiving waters. (Example:
+       Where stormwater flows into an off-site ditch, swale, or gully that leads to receiving
+       waters.
+   •   The extent of the receiving water potentially affected by stormwater discharges from
+       your construction site through alteration of water chemistry, turbidity, temperature, or
+       bank structure (i.e., erosive flow), regardless of whether the construction site is adjacent
+       to the receiving water.
+“Agricultural Land” - cropland, grassland, rangeland, pasture, and other agricultural land, on
+which agricultural and forest-related products or livestock are produced and resource concerns
+may be addressed. Agricultural lands include cropped woodland, marshes, incidental areas
+included in the agricultural operation, and other types of agricultural land used for the
+production of livestock.
+“Antidegradation Policy” or “Antidegradation Requirements” - the water quality standards
+regulation that requires States and Tribes to establish a three-tiered antidegradation program:
+   1. Tier 1 maintains and protects existing uses and water quality conditions necessary to
+      support such uses. An existing use can be established by demonstrating that fishing,
+      swimming, or other uses have actually occurred since November 28, 1975, or that the
+      water quality is suitable to allow such uses to occur. Where an existing use is established,
+      it must be protected even if it is not listed in the water quality standards as a designated
+      use. Tier 1 requirements are applicable to all surface waters.
+   2. Tier 2 maintains and protects "high quality" waters -- waterbodies where existing
+      conditions are better than necessary to support CWA § 101(a)(2) "fishable/swimmable"
+      uses. Water quality can be lowered in such waters. However, State and Tribal Tier 2
+      programs identify procedures that must be followed and questions that must be
+      answered before a reduction in water quality can be allowed. In no case may water
+      quality be lowered to a level which would interfere with existing or designated uses.
+   3. Tier 3 maintains and protects water quality in outstanding national resource waters
+      (ONRWs). Except for certain temporary changes, water quality cannot be lowered in
+      such waters. ONRWs generally include the highest quality waters of the United States.
+      However, the ONRW classification also offers special protection for waters of exceptional
+      ecological significance, i.e., those which are important, unique, or sensitive ecologically.
+
+
+
+
+                                          Page A-1 of 13
+                                                            2022 Construction General Permit (CGP)
+
+
+       Decisions regarding which water bodies qualify to be ONRWs are made by States and
+       authorized Indian Tribes.
+“Arid Areas” – areas with an average annual rainfall of 0 to 10 inches. For assistance in
+determining average annual rainfall in specific locations, refer to the NOAA National Mapping
+webpage (https://www.ncdc.noaa.gov/cag/national/mapping), the PRISM Climate Group’s
+Time Series Values for individual locations (https://prism.oregonstate.edu/explorer/), or EPA’s US
+EPA EnviroAtlas (https://www.epa.gov/enviroatlas).
+“Bank” (e.g., stream bank or river bank) – the rising ground bordering the channel of a water of
+the U.S.
+“Biodegradable” – capable of decomposing under ambient soil conditions into naturally
+occurring materials over a period of time (e.g., one year).
+“Bluff” – a steep headland, promontory, riverbank, or cliff.
+“Borrow Areas” – the areas where materials are dug for use as fill, either onsite or off-site.
+“Business day” – for the purposes of this permit, a business day is a calendar day on which
+construction activities will take place.
+“Bypass” – the intentional diversion of waste streams from any portion of a treatment facility. See
+40 CFR 122.41(m)(1)(i).
+“Cationic Treatment Chemical” – polymers, flocculants, or other chemicals that contain an
+overall positive charge. Among other things, they are used to reduce turbidity in stormwater
+discharges by chemically bonding to the overall negative charge of suspended silts and other
+soil materials and causing them to bind together and settle out. Common examples of cationic
+treatment chemicals are chitosan and cationic PAM.
+“Commencement of Construction Activities” – the initial disturbance of soils (or ‘breaking
+ground’) associated with clearing, grading, or excavating activities or other construction-related
+activities (e.g., grubbing; stockpiling of fill material; placement of raw materials at the site).
+“Common Plan of Development or Sale” – A contiguous area where multiple separate and
+distinct construction activities may be taking place at different times on different schedules
+under one common plan. The "common plan" of development or sale is broadly defined as any
+announcement or piece of documentation (including a sign, public notice or hearing, sales
+pitch, advertisement, drawing, permit application, zoning request, computer design, etc.) or
+physical demarcation (including boundary signs, lot stakes, surveyor markings, etc.) indicating
+construction activities may occur on a specific plot.
+“Construction Activities” – earth-disturbing activities, such as the clearing, grading, and
+excavation of land, and other construction-related activities (e.g., grubbing; stockpiling of fill
+material; placement of raw materials at the site) that could lead to the generation of pollutants.
+Some of the types of pollutants that are typically found at construction sites are:
+   •   sediment;
+   •   nutrients;
+   •   heavy metals;
+   •   pesticides and herbicides;
+   •   oil and grease;
+   •   bacteria and viruses;
+   •   trash, debris, and solids;
+
+
+
+                                           Page A-2 of 13
+                                                           2022 Construction General Permit (CGP)
+
+
+   •   treatment polymers; and
+   •   any other toxic chemicals.
+“Construction and Development Effluent Limitations and New Source Performance Standards”
+(C&D Rule) – as published in 40 CFR § 450, the regulation requiring effluent limitations guidelines
+(ELGs) and new source performance standards (NSPS) for controlling the discharge of pollutants
+from construction sites.
+“Construction Site” or “Site” – the land or water area where construction activities will occur and
+where stormwater controls will be installed and maintained. The construction site includes
+construction support activities, which may be located at a different part of the property from
+where the primary construction activity will take place, or on a different piece of property
+altogether.
+“Construction Support Activity” – a construction-related activity that specifically supports the
+construction activity and involves earth disturbance or pollutant-generating activities of its own,
+and can include activities associated with concrete or asphalt batch plants, equipment staging
+yards, materials storage areas, excavated material disposal areas, and borrow areas.
+“Construction Waste” – discarded material (such as packaging materials; scrap construction
+materials; masonry products; timber, steel, pipe, and electrical cuttings; plastics; and styrofoam).
+“Conveyance Channel” – a temporary or permanent waterway designed and installed to safely
+convey stormwater flow within and out of a construction site.
+ “Critical Habitat” – as defined in the Endangered Species Act at 16 U.S.C. 1531 for a threatened
+or endangered species, (i) the specific areas within the geographical area occupied by the
+species, at the time it is listed in accordance with the provisions of section 4 of the Endangered
+Species Act, on which are found those physical or biological features essential to the
+conservation of the species and which may require special management considerations or
+protection; and (ii) specific areas outside the geographical area occupied by the species at the
+time it is listed in accordance with the provisions of section 4 of the Endangered Species Act,
+upon a determination by the Secretary that such areas are essential for the conservation of the
+species.
+“CWA” – the Clean Water Act or the Federal Water Pollution Control Act, 33 U.S.C. section 1251
+et seq.
+“Dewatering” – the act of draining accumulated stormwater and/or ground water from building
+foundations, vaults, and trenches, or other similar points of accumulation. Examples can include,
+but are not limited to:
+   •   Surface area dewatering: water pumped from disturbed surface areas (e.g., trenches,
+       sumps, excavation pits, or other excavations associated with construction where
+       sediment-laden ground water or surface water/storm inflow must be removed) or from
+       sediment basins or similar impoundments for maintenance or decommissioning purposes.
+   •   Ground water dewatering: water discharged from well development, well pump tests, or
+       pumping of ground water from a construction area. Common methods of ground water
+       dewatering from a construction area include sumps and wells, generally described as
+       follows:
+       -    Sumps: lowers ground water levels near the construction area. Dewatering using
+            sumps consists of pumping ground water out of a lower collection point(s) typically
+            gravity-fed by local ground water.
+       -    Wells: drilled wells, including bored/augured, driven, or jetted, which use vacuum or
+            pumping to lower the ground water at greater depths than sumps. The two most
+            common types of wells used for dewatering ground water are:
+
+
+
+                                          Page A-3 of 13
+                                                            2022 Construction General Permit (CGP)
+
+
+              Wellpoints: small-diameter shallow wells which are connected via a header pipe.
+               A pump creates a vacuum in the header pipe.
+              Deep Wells: larger-diameter holes, drilled relatively deep (typically greater than
+               10 feet), pumped by submersible electric pumps.
+“Dewatering Water” – as used in this permit, water discharged from dewatering operations.
+“Discharge” – when used without qualification, means the “discharge of a pollutant.”
+“Discharge of a Pollutant” – any addition of any “pollutant” or combination of pollutants to
+“waters of the United States” from any “point source,” or any addition of any pollutant or
+combination of pollutants to the waters of the “contiguous zone” or the ocean from any point
+source other than a vessel or other floating craft which is being used as a means of
+transportation. This includes additions of pollutants into waters of the United States from: surface
+runoff which is collected or channeled by man; discharges through pipes, sewers, or other
+conveyances, leading into privately owned treatment works. See 40 CFR 122.2.
+“Discharge Point” – for the purposes of this permit, the location where collected and
+concentrated stormwater flows or dewatering water are discharged from the construction site.
+“Discharge-Related Activity” – activities that cause, contribute to, or result in stormwater and
+allowable non-stormwater point source discharges, and measures such as the siting,
+construction, and operation of stormwater controls to control, reduce, or prevent pollutants from
+being discharged.
+“Discharge to an Impaired Water” – for the purposes of this permit, a discharge to an impaired
+water occurs if the first water of the U.S. to which you discharge is identified by a State, Tribe, or
+EPA pursuant to Section 303(d) of the Clean Water Act as not meeting an applicable water
+quality standard and (1) requires development of a total maximum daily load (TMDL) (pursuant
+to section 303(d) of the CWA; or (2) is addressed by an EPA-approved or established TMDL; or (3)
+is not in either of the above categories but the waterbody is covered by a pollution control
+program that meets the requirements of 40 CFR 130.7(b)(1). For discharges that enter a storm
+sewer system prior to discharge, the water of the U.S. to which you discharge is the first water of
+the U.S. that receives the stormwater discharge from the storm sewer system.
+“Domestic Waste” – for the purposes of this permit, typical household trash, garbage or rubbish
+items generated by construction activities.
+“Drainageway” – an open linear depression, whether constructed or natural, that functions for
+the collection and drainage of surface water.
+“Drought-Stricken Area” – for the purposes of this permit, an area in which the National Oceanic
+and Atmospheric Administration’s U.S. Seasonal Drought Outlook indicates for the period during
+which the construction will occur that any of the following conditions are likely: (1) “Drought to
+persist or intensify”, (2) “Drought ongoing, some improvement”, (3) “Drought likely to improve,
+impacts ease”, or (4) “Drought development likely”. See
+http://www.cpc.ncep.noaa.gov/products/expert_assessment/sdo_summary.php.
+“Earth-Disturbing Activity”– actions taken to alter the existing vegetation and/or underlying soil of
+a site, such as clearing, grading, site preparation (e.g., excavating, grubbing, cutting, and
+filling), soil compaction, and movement and stockpiling of top soils.
+“Earth-Disturbing Activities Conducted Prior to Active Mining Activities” – Consists of two classes
+of earth-disturbing (i.e., clearing, grading and excavation) activities:
+    a. activities performed for purposes of mine site preparation, including: cutting new rights of
+    way (except when related to access road construction); providing access to a mine site for
+    vehicles and equipment (except when related to access road construction); other earth
+    disturbances associated with site preparation activities on any areas where active mining
+
+
+
+                                           Page A-4 of 13
+                                                             2022 Construction General Permit (CGP)
+
+
+    activities have not yet commenced (e.g., for heap leach pads, waste rock facilities, tailings
+    impoundments, wastewater treatment plants); and
+    b. construction of staging areas to prepare for erecting structures such as to house project
+    personnel and equipment, mill buildings, etc., and construction of access roads.
+    Note: only earth-disturbing activities associated with the construction of staging areas and
+    the construction of access roads conducted prior to active mining (see (b) above) are
+    considered to be “construction” and therefore stormwater discharges from these activities
+    are eligible for coverage under this permit. See Part 1.2.1.b. The activities described in (a)
+    above are not considered to be “construction” and therefore stormwater discharges
+    associated with this activity are not eligible for coverage under this permit.
+“Effective Operating Condition” – for the purposes of this permit, a stormwater control is kept in
+effective operating condition if it has been implemented and maintained in such a manner that
+it is working as designed to minimize pollutant discharges.
+“Effluent Limitations” – for the purposes of this permit, any of the Part 2 or Part 3 requirements.
+“Effluent Limitations Guideline” (ELG) – defined in 40 CFR § 122.2 as a regulation published by the
+Administrator under section 304(b) of the CWA to adopt or revise effluent limitations.
+“Eligible” – for the purposes of this permit, refers to stormwater and allowable non-stormwater
+discharges that are authorized for coverage under this general permit.
+“Emergency-Related Project” – a project initiated in response to a public emergency (e.g., mud
+slides, earthquake, extreme flooding conditions, disruption in essential public services), for which
+the related work requires immediate authorization to avoid imminent endangerment to human
+health or the environment, or to reestablish essential public services.
+“Endangered Species” – defined in the Endangered Species Act at 16 U.S.C. 1531 as any
+species which is in danger of extinction throughout all or a significant portion of its range other
+than a species of the Class Insecta determined by the Secretary to constitute a pest whose
+protection under the provisions of this Act would present an overwhelming and overriding risk to
+man.
+“Excursion” – a measured value that exceeds a specified limit.
+“Existing Site” – a site where construction activities commenced prior to February 16, 2017.
+“Exit Points” – any points of egress from the construction site to be used by vehicles and
+equipment during construction activities.
+“Exposed Soils” – for the purposes of this permit, soils that as a result of earth-disturbing activities
+are left open to the elements.
+“Federal Facility” – any buildings, installations, structures, land, public works, equipment, aircraft,
+vessels, and other vehicles and property, owned by, or constructed or manufactured for the
+purpose of leasing to, the Federal government.
+“Federal Operator” – an entity that meets the definition of “Operator” in this permit and is either
+any department, agency or instrumentality of the executive, legislative, and judicial branches of
+the Federal government of the United States, or another entity, such as a private contractor,
+performing construction activity for any such department, agency, or instrumentality.
+“Final Stabilization” – on areas not covered by permanent structures, either (1) uniform, perennial
+vegetation (e.g., evenly distributed, without large bare areas) has been established, or for arid
+or semi-arid areas, will be established that provides 70 percent or more of the cover that is
+provided by vegetation native to local undisturbed areas, and/or (2) permanent non-
+
+
+
+
+                                            Page A-5 of 13
+                                                                2022 Construction General Permit (CGP)
+
+
+vegetative stabilization measures (e.g., riprap, gravel, gabions, and geotextiles) have been
+implemented to provide effective cover for exposed portions of the site
+“General Contractor” – for the purposes of this permit, the primary individual or company solely
+accountable to perform a contract. The general contractor typically supervises activities,
+coordinates the use of subcontractors, and is authorized to direct workers at a site to carry out
+activities required by the permit.
+“Hazardous Substances” or “Hazardous or Toxic Waste” – for the purposes of this permit, any
+liquid, solid, or contained gas that contain properties that are dangerous or potentially harmful
+to human health or the environment. See also 40 CFR §261.2.
+“Historic Property” – as defined in the National Historic Preservation Act regulations, means any
+prehistoric or historic district, site, building, structure, or object included in, or eligible for inclusion
+in, the National Register of Historic Places maintained by the Secretary of the Interior. This term
+includes artifacts, records, and remains that are related to and located within such properties.
+The term includes properties of traditional religious and cultural importance to an Indian Tribe or
+Native Hawaiian organization and that meet the National Register criteria.
+“Impaired Water”– a water identified by the State, Tribe, or EPA as not meeting an applicable
+water quality standard and (1) requires development of a TMDL (pursuant to section 303(d) of
+the CWA; or (2) is addressed by an EPA-approved or established TMDL; or (3) is not in either of
+the above categories but the waterbody is covered by a pollution control program that meets
+the requirements of 40 CFR 130.7(b)(1).
+“Impervious Surface” – for the purpose of this permit, any land surface with a low or no capacity
+for soil infiltration including, but not limited to, pavement, sidewalks, parking areas and
+driveways, packed gravel or soil, or rooftops.
+“Indian Country” or “Indian Country Lands” – defined at 40 CFR §122.2 as:
+    1. All land within the limits of any Indian reservation under the jurisdiction of the United
+       States Government, notwithstanding the issuance of any patent, and, including rights-of-
+       way running through the reservation;
+    2. All dependent Indian communities with the borders of the United States whether within
+       the originally or subsequently acquired territory thereof, and whether within or without
+       the limits of a State; and
+    3. All Indian allotments, the Indian titles to which have not been extinguished, including
+       rights-of-ways running through the same.
+“Infeasible” – for the purpose of this permit, infeasible means not technologically possible or not
+economically practicable and achievable in light of best industry practices. EPA notes that it
+does not intend for any permit requirement to conflict with State water rights law.
+“Install” or “Installation” – when used in connection with stormwater controls, to connect or set in
+position stormwater controls to make them operational.
+“Jar test” – a test designed to simulate full-scale coagulation/flocculation/sedimentation water
+treatment processes by taking into account the possible conditions.
+Lands of Exclusive Federal Jurisdiction – all land where the Federal government has exclusive
+jurisdiction in relative respects.
+“Landward” – positioned or located away from a waterbody, and towards the land.
+“Large Construction Activity” – defined at 40 CFR § 122.26(b)(14)(x) and incorporated here by
+reference. Large construction activity includes clearing, grading, and excavating resulting in a
+land disturbance that will disturb equal to or greater than five acres of land or will disturb less
+
+
+
+                                              Page A-6 of 13
+                                                            2022 Construction General Permit (CGP)
+
+
+than five acres of total land area but is part of a larger common plan of development or sale
+that will ultimately disturb equal to or greater than five acres. Large construction activity does
+not include routine maintenance that is performed to maintain the original line and grade,
+hydraulic capacity, or original purpose of the site.
+“Linear Construction Site” – includes the construction of roads, bridges, conduits, substructures,
+pipelines, sewer lines, towers, poles, cables, wires, connectors, switching, regulating and
+transforming equipment and associated ancillary facilities in a long, narrow area.
+“Minimize” – to reduce and/or eliminate to the extent achievable using stormwater controls that
+are technologically available and economically practicable and achievable in light of best
+industry practices.
+“Mining Activity” – for the purposes of this permit, includes mining-related construction activities
+defined at 40 CFR 122.26(b)(14)(x) and 122.26(b)(15)(i), and active mining activities defined at
+40 CFR 122.26(b)(14)(iii). Both of these sub categories of activities include earth-disturbing
+activities, with the latter also including such activities as: extraction, removal or recovery, and
+beneficiation of mined material from the earth; removal of overburden and waste rock to
+expose mineable material; and site reclamation and closure activities.
+“Mining Operations” – for the purposes of this permit, mining operations are grouped into two
+distinct categories, with distinct effluent limits and requirements applicable to each: 1) earth-
+disturbing activities conducted prior to active mining activities; and 2) active mining activities,
+which includes reclamation.
+“Municipal Separate Storm Sewer System” or “MS4” – defined at 40 CFR §122.26(b)(8) as a
+conveyance or system of conveyances (including roads with drainage systems, municipal
+streets, catch basins, curbs, gutters, ditches, manmade channels, or storm drains):
+   1. Owned and operated by a State, city, town, borough, county, parish, district,
+      association, or other public body (created by or pursuant to State law) having jurisdiction
+      over disposal of sewage, industrial wastes, stormwater, or other wastes, including special
+      districts under State law such as a sewer district, flood control district or drainage district,
+      or similar entity, or an Indian Tribe or an authorized Indian Tribal organization, or a
+      designated and approved management agency under section 208 of the CWA that
+      discharges to waters of the United States;
+   2. Designed or used for collecting or conveying stormwater;
+   3. Which is not a combined sewer; and
+   4. Which is not part of a Publicly Owned Treatment Works (POTW) as defined at 40 CFR
+      §122.2.
+“National Pollutant Discharge Elimination System” (NPDES) – defined at 40 CFR §122.2 as the
+national program for issuing, modifying, revoking and reissuing, terminating, monitoring and
+enforcing permits, and imposing and enforcing pretreatment requirements, under sections 307,
+402, 318, and 405 of CWA. The term includes an ‘approved program.’
+“Native Topsoil” – the uppermost layer of naturally occurring soil for a particular area, and is
+often rich in organic matter, biological activity, and nutrients.
+“Natural Buffer” – for the purposes of this permit, an area of undisturbed natural cover
+surrounding waters of the United States within which construction activities are restricted.
+Natural cover includes the vegetation, exposed rock, or barren ground that exists prior to
+commencement of earth-disturbing activities.
+
+
+
+
+                                           Page A-7 of 13
+                                                            2022 Construction General Permit (CGP)
+
+
+“Natural Vegetation” – vegetation that occurs spontaneously without regular management,
+maintenance, or species introductions or removals, and that generally has a strong component
+of native species..
+“New Operator of a Permitted Site” – an operator that through transfer of ownership and/or
+operation replaces the operator of an already permitted construction site that is either a “new
+site” or an “existing site”.
+“New Site” – a site where construction activities commenced on or after February 16, 2017.
+“New Source” – for the purposes of this permit, a construction project that commenced
+construction activities after February 1, 2010.
+“New Source Performance Standards (NSPS)” – for the purposes of this permit, NSPS are
+technology-based standards that apply to construction sites that are new sources under 40 CFR
+450.24.
+“Non-Stormwater Discharges” – discharges that do not originate from storm events. They can
+include, but are not limited to, discharges of process water, air conditioner condensate, non-
+contact cooling water, vehicle wash water, sanitary wastes, concrete washout water, paint
+wash water, irrigation water, or pipe testing water.
+“Non-Turbid” – a discharge that is free from visual turbidity.
+“Notice of Intent” (NOI) – the form (electronic or paper) required for authorization of coverage
+under the Construction General Permit.
+“Notice of Termination” (NOT) – the form (electronic or paper) required for terminating coverage
+under the Construction General Permit.
+“NPDES eReporting Tool” (NeT) – EPA’s online system for submitting electronic Construction
+General Permit forms.
+“Operational” – for the purposes of this permit, stormwater controls are made “operational”
+when they have been installed and implemented, are functioning as designed, and are
+properly maintained.
+“Operator” – for the purposes of this permit and in the context of stormwater discharges
+associated with construction activity, any party associated with a construction project that
+meets either of the following two criteria:
+   1. The party has operational control over construction plans and specifications, including
+      the ability to make modifications to those plans and specifications (e.g. in most cases this
+      is the owner of the site); or
+   2. The party has day-to-day operational control of those activities at a project that are
+      necessary to ensure compliance with the permit conditions (e.g., they are authorized to
+      direct workers at a site to carry out activities required by the permit; in most cases this is
+      the general contractor of the project).
+This definition is provided to inform permittees of EPA’s interpretation of how the regulatory
+definitions of “owner or operator” and “facility or activity” are applied to discharges of
+stormwater associated with construction activity. Subcontractors generally are not considered
+operators for the purposes of this permit.
+“Ordinary High Water Mark” – the line on the shore established by fluctuations of water and
+indicated by physical characteristics such as a clear, natural line impressed on the bank,
+shelving, changes in the character of soil, destruction of terrestrial vegetation, and/or the
+presence of litter and debris.
+
+
+
+
+                                           Page A-8 of 13
+                                                           2022 Construction General Permit (CGP)
+
+
+“Permitting Authority” – for the purposes of this permit, EPA, a Regional Administrator of EPA, or
+an authorized representative.
+“Point(s) of Discharge” – see “Discharge Point.”
+“Point Source” – any discernible, confined, and discrete conveyance, including but not limited
+to, any pipe, ditch, channel, tunnel, conduit, well, discrete fissure, container, rolling stock
+concentrated animal feeding operation, landfill leachate collection system, vessel or other
+floating craft from which pollutants are or may be discharged. This term does not include return
+flows from irrigated agriculture or agricultural stormwater runoff.
+“Pollutant” – defined at 40 CFR §122.2. A partial listing from this definition includes: dredged
+spoil, solid waste, sewage, garbage, sewage sludge, chemical wastes, biological materials,
+heat, wrecked or discarded equipment, rock, sand, cellar dirt, and industrial or municipal waste.
+ “Pollution Prevention Controls” – stormwater controls designed to reduce or eliminate the
+addition of pollutants to construction site discharges through analysis of pollutant sources,
+implementation of proper handling/disposal practices, employee education, and other actions.
+“Polymers” – for the purposes of this permit, coagulants and flocculants used to control erosion
+on soil or to enhance the sediment removal capabilities of sediment traps or basins. Common
+construction site polymers include polyacrylamide (PAM), chitosan, alum, polyaluminum
+chloride, and gypsum.
+“Prohibited Discharges” – discharges that are not allowed under this permit, including:
+   1. Wastewater from washout of concrete;
+   2. Wastewater from washout and cleanout of stucco, paint, form release oils, curing
+      compounds and other construction materials;
+   3. Fuels, oils, or other pollutants used in vehicle and equipment operation and
+      maintenance;
+   4. Soaps or solvents used in vehicle and equipment washing;
+   5. Toxic or hazardous substances from a spill or other release; and
+   6. Waste, garbage, floatable debris, construction debris, and sanitary waste.
+“Provisionally Covered Under this Permit” – for the purposes of this permit, EPA provides
+temporary coverage under this permit for emergency-related projects prior to receipt of a
+complete and accurate NOI. Discharges from earth-disturbing activities associated with the
+emergency-related projects are subject to the terms and conditions of the permit during the
+period of temporary coverage.
+“Qualified Person” – a person knowledgeable in the principles and practice of erosion and
+sediment controls and pollution prevention, who possesses the appropriate skills and training to
+assess conditions at the construction site that could impact stormwater quality, and the
+appropriate skills and training to assess the effectiveness of any stormwater controls selected
+and installed to meet the requirements of this permit.
+“Receiving Water” – a “Water of the United States” as defined in 40 CFR §122.2 into which the
+regulated stormwater discharges.
+“Run-On” – sources of stormwater that drain from land located upslope or upstream from the
+regulated site in question.
+“Seasonally Dry Period” – a month in which the long-term average total precipitation is less than
+or equal to 0.5 inches. Refer to EPA’s Seasonally Dry Period Locator and supporting maps for
+assistance in determining whether a site is operating during a seasonally dry period for the area,
+
+
+
+                                          Page A-9 of 13
+                                                             2022 Construction General Permit (CGP)
+
+
+located at https://www.epa.gov/npdes/construction-general-permit-resources-tools-and-
+templates.
+“Sediment-Related parameter” – for the purposes of this permit, a pollutant parameter that is
+closely related to sediment such as turbidity, total suspended solids (TSS), transparency,
+sedimentation, and siltation.
+“Semi-Arid Areas” – areas with an average annual rainfall of 10 to 20 inches. For assistance in
+determining average annual rainfall in specific locations, refer to the NOAA National Mapping
+webpage (https://www.ncdc.noaa.gov/cag/national/mapping), the PRISM Climate Group’s
+Time Series Values for individual locations (https://prism.oregonstate.edu/explorer/), or EPA’s US
+EPA EnviroAtlas (https://www.epa.gov/enviroatlas).
+“Shared Control” - for the purposes of this permit, a stormwater control, such as a sediment basin
+or pond, used by two or more operators that is installed and maintained for the purpose of
+minimizing and controlling pollutant discharges from a construction site with multiple operators
+associated with a common plan of development or sale. Any operators that are contributing
+stormwater from their construction activities to a shared control are considered to rely upon a
+shared control.
+“Small Construction Activity” – defined at 40 CFR §122.26(b)(15) and incorporated here by
+reference. A small construction activity includes clearing, grading, and excavating resulting in a
+land disturbance that will disturb equal to or greater than one (1) acre and less than five (5)
+acres of land or will disturb less than one (1) acre of total land area but is part of a larger
+common plan of development or sale that will ultimately disturb equal to or greater than one (1)
+acre and less than five (5) acres. Small construction activity does not include routine
+maintenance that is performed to maintain the original line and grade, hydraulic capacity, or
+original purpose of the site.
+“Small Residential Lot” – for the purpose of this permit, a lot being developed for residential
+purposes that will disturb less than 1 acre of land, but is part of a larger residential project that
+will ultimately disturb greater than or equal to 1 acre.
+“Snowmelt” – the conversion of snow into overland stormwater and ground water flow as a result
+of warmer temperatures.
+“Spill” – for the purpose of this permit, the release of a hazardous or toxic substance from its
+container or containment.
+“Stabilization” – the use of vegetative and/or non-vegetative cover to prevent erosion and
+sediment loss in areas exposed through the construction process.
+“Steep Slopes” – where a State, Tribe, local government, or industry technical manual (e.g.,
+stormwater BMP manual) has defined what is to be considered a “steep slope”, this permit’s
+definition automatically adopts that definition. Where no such definition exists, steep slopes are
+automatically defined as those that are 15 percent or greater in grade.
+“Storm Sewer System” – a conveyance or system of conveyances (including roads with drainage
+systems, municipal streets, catch basins, curbs, gutters, ditches, manmade channels, or storm
+drains) designed or used for collecting or conveying stormwater.
+“Stormwater” – stormwater runoff, snowmelt runoff, and surface runoff and drainage.
+“Stormwater Control” - refers to any best management practice or other method (including
+narrative effluent limitations) used to prevent or reduce the discharge of pollutants to waters of
+the United States.
+“Stormwater Discharge Associated with Construction Activity” – as used in this permit, a
+discharge of pollutants in stormwater to waters of the United States from areas where earth-
+
+
+
+                                           Page A-10 of 13
+                                                            2022 Construction General Permit (CGP)
+
+
+disturbing activities (e.g., clearing, grubbing, grading, or excavation) occur, or where
+construction materials or equipment storage or maintenance (e.g., fill piles, borrow area,
+concrete truck chute washdown, fueling), or other industrial stormwater directly related to the
+construction process (e.g., concrete or asphalt batch plants), are located.
+“Stormwater Inlet” – a structure placed below grade to conduct water used to collect
+stormwater runoff for conveyance purposes.
+“Stormwater Team” – the group of individuals responsible for oversight of the development and
+modifications of the SWPPP, and oversight of compliance with the permit requirements. The
+individuals on the “Stormwater Team” must be identified in the SWPPP.
+“Storm Event” – a precipitation event that results in a measurable amount of precipitation.
+“Storm Sewer” – a system of pipes (separate from sanitary sewers) that carries stormwater runoff
+from buildings and land surfaces.
+“Subcontractor” – for the purposes of this permit, an individual or company that takes a portion
+of a contract from the general contractor or from another subcontractor.
+“SWPPP” (Stormwater Pollution Prevention Plan) – a site-specific, written document that, among
+other things: (1) identifies potential sources of stormwater pollution at the construction site; (2)
+describes stormwater controls to reduce or eliminate pollutants in stormwater discharges from
+the construction site; and (3) identifies procedures the operator will implement to comply with
+the terms and conditions of this general permit.
+“Temporary Stabilization” – a condition where exposed soils or disturbed areas are provided
+temporary vegetative and/or non-vegetative protective cover to prevent erosion and sediment
+loss. Temporary stabilization may include temporary seeding, geotextiles, mulches, and other
+techniques to reduce or eliminate erosion until either final stabilization can be achieved or until
+further construction activities take place to re-disturb this area.
+“Thawing Conditions” – for the purposes of this permit, thawing conditions are expected based
+on the historical likelihood of two or more days with daytime temperatures greater than 32˚F. This
+date can be determined by looking at historical weather data. Note: the estimation of thawing
+conditions is for planning purposes only. During construction the permittee will be required to
+conduct site inspections based upon actual conditions (i.e., if thawing conditions occur sooner
+than expected, the permittee will be required to conduct inspections at the regular frequency).
+“Threatened Species” – defined in the Endangered Species Act at 16 U.S.C. 1531 as any species
+which is likely to become an endangered species within the foreseeable future throughout all or
+a significant portion of its range.
+“Tier 2 Waters” – for antidegradation purposes, pursuant to 40 CFR 131.12(a)(2), those waters that
+are characterized as having water quality that exceeds the levels necessary to support
+propagation of fish, shellfish, and wildlife and recreation in and on the water.
+“Tier 2.5 Waters” – for antidegradation purposes, those waters designated by States or Tribes as
+requiring a level of protection equal to and above that given to Tier 2 waters, but less than that
+given Tier 3 waters. Some States have special requirements for these waters.
+“Tier 3 Waters” – for antidegradation purposes, pursuant to 40 CFR 131.12(a)(3), Tier 3 waters are
+identified by States as having high quality waters constituting an Outstanding National Resource
+Water (ONRW), such as waters of National Parks and State Parks, wildlife refuges, and waters of
+exceptional recreational or ecological significance.
+“Total Maximum Daily Load” or “TMDL” – the sum of the individual wasteload allocations (WLAs)
+for point sources and load allocations (LAs) for nonpoint sources and natural background. If
+receiving water has only one point source discharger, the TMDL is the sum of that point source
+
+
+
+                                          Page A-11 of 13
+                                                            2022 Construction General Permit (CGP)
+
+
+WLA plus the LAs for any nonpoint sources of pollution and natural background sources,
+tributaries, or adjacent segments. TMDLs can be expressed in terms of mass per time, toxicity, or
+other appropriate measure.
+“Toxic Waste” – see “Hazardous Substances.”
+“Treatment Chemicals” – polymers, flocculants, or other chemicals used to reduce turbidity in
+stormwater.
+“Turbidity” – a condition of water quality characterized by the presence of suspended solids
+and/or organic material.
+“Uncontaminated Discharge” – in the context of authorized non-stormwater discharges, a
+discharge that meets applicable water quality standards.
+“Upland” – the dry land area above and ‘landward’ of the ordinary high water mark.
+“Upset” – Upset means an exceptional incident in which there is unintentional and temporary
+noncompliance with technology based permit effluent limitations because of factors beyond
+your reasonable control. An upset does not include noncompliance to the extent caused by
+operational error, improperly designed treatment facilities, inadequate treatment facilities, lack
+of preventive maintenance, or careless or improper operation. See 40 CFR 122.41(n)(1).
+“Visual Turbidity” – for the purposes of this permit, visual turbidity is present when there is a
+sediment plume in the discharge or the discharge appears cloudy, opaque, or has a visible
+contrast that can be visually identified by an observer.
+“Water-Dependent Structures” – structures or facilities that are required to be located directly
+adjacent to a waterbody or wetland, such as a marina, pier, boat ramp, etc.
+“Water Quality Standards” – defined in 40 CFR § 131.3, and are provisions of State (including
+Tribal) or Federal law which consist of a designated use or uses for the waters of the United
+States, water quality criteria for such waters based upon such uses, and an antidegradation
+policy to protect high-quality waters. Water quality standards protect the public health or
+welfare, enhance the quality of water and serve the purposes of the Act.
+“Waters of the United States” – see definition at 40 CFR 122.2.
+ “Wetland” – those areas that are inundated or saturated by surface or ground water at a
+frequency and duration sufficient to support, and that under normal circumstances do support,
+a prevalence of vegetation typically adapted for life in saturated soil conditions. Wetlands
+generally include swamps, marshes, bogs, and similar areas. On-site evaluations are typically
+required to confirm the presence and boundaries of wetlands.
+
+   2. Acronyms
+
+ACHP – Advisory Council on Historic Preservation
+BMP – Best Management Practice
+CBI – Confidential Business Information
+CGP – Construction General Permit
+CFR – Code of Federal Regulations
+CWA – Clean Water Act
+CZMA – Coastal Zone Management Act
+ECHO – EPA Enforcement and Compliance History Online
+
+
+
+                                          Page A-12 of 13
+                                                               2022 Construction General Permit (CGP)
+
+
+ELG – Effluent Limitations Guideline
+EPA – United States Environmental Protection Agency
+ESA – Endangered Species Act
+FR – Federal Register
+MS4 – Municipal Separate Storm Sewer System
+MSGP – Multi-Sector General Permit
+NEPA – National Environmental Policy Act
+NeT – NPDES eReporting Tool
+NTU - Nephelometric turbidity units
+NHPA – National Historic Preservation Act
+NMFS – United States National Marine Fisheries Service
+NPDES – National Pollutant Discharge Elimination System
+NOI – Notice of Intent
+NOT – Notice of Termination
+NPDES – National Pollutant Discharge Elimination System
+NRC – National Response Center
+NRCS – National Resources Conservation Service
+NSPS – New Source Performance Standards
+ONRW – Outstanding National Resource Water
+PAM – Polyacrylamide
+POTW – Publicly Owned Treatment Works
+RUSLE – Revised Universal Soil Loss Equation
+SDS – Safety Data Sheet
+SHPO – State Historic Preservation Office
+SPCC – Spill Prevention Control and Countermeasure
+SWPPP – Stormwater Pollution Prevention Plan
+THPO – Tribal Historic Preservation Office
+TMDL – Total Maximum Daily Load
+TSS – Total Suspended Solids
+UIC – Underground Injection Control
+USDA – United States Department of Agriculture
+USFWS – United States Fish and Wildlife Service
+USGS – United States Geological Survey
+WQS – Water Quality Standard
+
+
+
+
+                                             Page A-13 of 13
+
