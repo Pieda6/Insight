@@ -1,0 +1,10 @@
+systems 44, structures 530, rows 1060
+downstream cases {'A': 206, 'B': 283, 'C': 82, 'D': 243, 'E': 246}
+upstream conditions {'A': 107, 'B': 199, 'C': 444, 'D': 310}
+surcharged {'no': 1039, 'yes': 21}
+drop above 10 diameters: 9
+planted energy level near the rim: 15
+planted inflow invert near the initial energy level: 139
+planted receiving water near a threshold: 18
+planted structure energy level near an inflow pipe threshold: 53
+planted upstream grade line near the crown: 21

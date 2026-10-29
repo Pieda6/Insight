@@ -1,0 +1,17 @@
+The public works department is checking whether its storm drain systems surcharge in the 10-year design event and the 100-year check event. Evaluate the energy grade line of every system by FHWA HEC-22, 4th edition (February 2024), Section 9.4, with the FHWA inlet and access hole energy loss method of Section 9.1.6.7 at every structure.
+
+The data is in /app/data/. networks.json lists each system's structures (type inlet or access_hole, rim elevation, and floor: flat, depressed, half_benched, full_benched or improved, as in Table 9.5) and its pipes (upstream and downstream structure, with null for the pipe that discharges to the receiving water; diameter in inches; length; upstream and downstream inverts; Manning's n; and the angle between the pipe and the outflow pipe of the structure it enters, measured as in Figure 9.8 with 180 degrees for a straight run). Each structure has one outflow pipe and its invert is that pipe's upstream invert. inlet_flows.csv gives the flow each inlet captures in each event and outfalls.csv the receiving water elevation at each system's outfall. Elevations and lengths are in feet.
+
+The department's practice settles these points:
+- Inlets capture all their flow and flows are steady, so each pipe carries the sum of the inlet flows upstream of it.
+- At the outfall, the receiving water elevation takes the place of EGLa in Table 9.6. The receiving water is still, so the exit loss there is one velocity head (equation 9.5) instead of 0.4.
+- Full flow uses equations 9.2 and 9.4 as printed. Partly full flow uses Manning's equation 6.5 on the circular section, normal depth being the smaller depth that carries the flow; critical depth is the depth of minimum specific energy. g is 32.2 ft/s2.
+- In Tables 9.6 and 9.7 the first case or condition that applies, in table order, governs. Exit losses in cases B and C use the velocity at the face depth, EGLa less the pipe's downstream invert, as Example 9.2 does.
+- Friction loss uses equation 9.4 when the pipe's downstream end is in case A and the pipe slope otherwise. The velocity head at the upstream end, used for the HGL and equation 9.15, is the full-pipe one in case A and the normal-depth one otherwise.
+- As in Example 9.2, when the outflow pipe's upstream end is in condition D its grade lines are reset to normal depth and outlet control does not apply at the structure, and a structure with no inflow pipe takes no benching loss. Surface flow entering an inlet falls from the rim.
+- Nothing is rounded before the final values.
+- A structure surcharges when its EGLa is above its rim.
+
+Write /app/output/pipe_grades.csv with the header system_id,event,pipe_id,ds_case,us_condition,egl_ds_ft,egl_us_ft,structure_egl_ft,surcharged and one row for each pipe and event (10-year or 100-year), sorted by system_id, event and pipe_id. ds_case is the Table 9.6 case at the pipe's downstream end (A to E) and us_condition the Table 9.7 condition at its upstream end (A to D). egl_ds_ft and egl_us_ft are the pipe's energy grade line at its downstream and upstream ends, the latter after any condition D reset. structure_egl_ft is EGLa of the structure at the pipe's upstream end, and surcharged is yes or no for that structure. Elevations have three decimals and are accepted within 0.002 ft; the letters and surcharged must match exactly. Do not add extra columns, blank lines or explanations.
+
+You have 28800 seconds to complete this task. Do not cheat by using online solutions or hints specific to this task.

@@ -1,0 +1,13 @@
+  Table 9.6: 0.0013
+  Table 9.6 within 0.03 ft (count): 189
+  Table 9.7: 0.0011
+  Table 9.7 within 0.03 ft (count): 83
+  plunging test: 0.0024
+  plunging test within 0.03 ft (count): 144
+  surcharge: 0.0054
+  surcharge within 0.03 ft (count): 15
+comparisons closer than 0.001 ft to a threshold: 0
+rows: engine 1060, generator 1060, solution 1060
+generator vs engine: 0 letter or yes/no differences, largest elevation difference 2.27e-13 ft
+solution vs engine:  0 letter or yes/no differences, largest elevation difference 0.0005 ft (solution rounds to 3 decimals)
+AGREEMENT: OK
