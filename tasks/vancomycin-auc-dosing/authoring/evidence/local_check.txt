@@ -1,0 +1,3 @@
+ORACLE: 19 passed, 0 failed
+NOP:    2 passed, 17 failed (must have at least one failure)
+RESULT: OK

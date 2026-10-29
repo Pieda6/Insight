@@ -1,0 +1,4497 @@
+ASHP REPORT
+
+An audio interview that
+supplements the information in this article is available on AJHP’s website at
+www.ajhpvoices.org.
+Am J Health-Syst Pharm. 2020;77:835-864
+Michael J. Rybak, PharmD, MPH, PhD, FCCP,
+FIDP, FIDSA, Anti-Infective Research Laboratory,
+Department of Pharmacy Practice, Eugene
+Applebaum College of Pharmacy & Health Sciences,
+Wayne State University, Detroit, MI, School of
+Medicine, Wayne State University, Detroit, MI, and
+Detroit Receiving Hospital, Detroit, MI
+Jennifer Le, PharmD, MAS, FIDSA, FCCP,
+FCSHP, BCPS-AQ ID, Skaggs School of Pharmacy
+and Pharmaceutical Sciences, University of
+California San Diego, La Jolla, CA
+Thomas P. Lodise, PharmD, PhD, Albany College
+of Pharmacy and Health Sciences, Albany, NY, and
+Stratton VA Medical Center, Albany, NY
+Donald P. Levine, MD, FACP, FIDSA, School of
+Medicine, Wayne State University, Detroit, MI, and
+Detroit Receiving Hospital, Detroit, MI
+John S. Bradley, MD, JSB, FIDSA, FAAP,
+FPIDS, Department of Pediatrics, Division of
+Infectious Diseases, University of California at San
+Diego, La Jolla, CA, and Rady Children’s Hospital
+San Diego, San Diego, CA
+Catherine Liu, MD, FIDSA, Division of Allergy and
+Infectious Diseases, University of Washington, Seattle,
+WA, and Vaccine and Infectious Disease Division, Fred
+Hutchinson Cancer Research Center, Seattle, WA
+Bruce A. Mueller, PharmD, FCCP, FASN, FNKF,
+University of Michigan College of Pharmacy, Ann
+Arbor, MI
+Manjunath P. Pai, PharmD, FCCP, University of
+Michigan College of Pharmacy, Ann Arbor, MI
+Annie Wong-Beringer, PharmD, FCCP, FIDSA,
+University of Southern California School of
+Pharmacy, Los Angeles, CA
+John C. Rotschafer, PharmD, FCCP, University
+of Minnesota College of Pharmacy, Minneapolis, MN
+Keith A. Rodvold, PharmD, FCCP, FIDSA,
+University of Illinois College of Pharmacy, Chicago, IL
+Holly D. Maples, PharmD, University of Arkansas
+for Medical Sciences College of Pharmacy &
+Arkansas Children’s Hospital, Little Rock, AR
+Benjamin M. Lomaestro, PharmD, Albany
+Medical Center Hospital, Albany, NY
+
+Address correspondence to Dr. Rybak
+(m.rybak@wayne.edu).
+Keywords: nephrotoxicity, pharmacokinetics
+and pharmacodynamics, target attainment,
+vancomycin, vancomycin consensus guideline
+© American Society of Health-System
+Pharmacists 2020. All rights reserved.
+For permissions, please e-mail: journals.
+
+permissions@oup.com.
+
+DOI 10.1093/ajhp/zxaa036
+
+T
+
+he first consensus guideline for therapeutic monitoring of vancomycin
+in adult patients was published in 2009.
+A committee representing 3 organizations (the American Society for HealthSystem Pharmacists [ASHP], Infectious
+Diseases Society of America [IDSA],
+and Society for Infectious Diseases
+Pharmacists [SIDP]) searched and reviewed all relevant peer-reviewed data
+on vancomycin as it related to in vitro
+and in vivo pharmacokinetic and pharmacodynamic (PK/PD) characteristics,
+including information on clinical efficacy, toxicity, and vancomycin resistance
+in relation to serum drug concentration
+and monitoring. The data were summarized, and specific dosing and monitoring
+recommendations were made. The primary recommendations consisted of
+eliminating routine monitoring of serum
+peak concentrations, emphasizing a ratio
+of area under the curve over 24 hours
+to minimum inhibitory concentration
+(AUC/MIC) of ≥400 as the primary PK/
+PD predictor of vancomycin activity, and
+promoting serum trough concentrations
+of 15 to 20 mg/L as a surrogate marker
+for the optimal vancomycin AUC/MIC
+if the MIC was ≤1 mg/L in patients with
+normal renal function. The guideline also
+recommended, albeit with limited data
+support, that actual body weight be used
+to determine the vancomycin dosage and
+loading doses for severe infections in patients who were seriously ill.1
+Since those recommendations were
+generated, a number of publications
+have evaluated the impact of the 2009
+guidelines on clinical efficacy and toxicity in patients receiving vancomycin
+for the treatment of methicillin-resistant
+AM J HEALTH-SYST PHARM
+
+|
+
+Staphylococcus aureus (MRSA) infections. It should be noted, however, that
+when the recommendations were originally published, there were important
+issues not addressed and gaps in knowledge that could not be covered adequately because of insufficient data.
+In fact, adequate data were not available to make recommendations in the
+original guideline for specific dosing
+and monitoring for pediatric patients
+outside of the neonatal age group; specific recommendations for vancomycin
+dosage adjustment and monitoring
+in the morbidly obese patient population and patients with renal failure,
+including specific dialysis dosage adjustments; recommendations for the
+use of prolonged or continuous infusion (CI) vancomycin therapy; and
+safety data on the use of dosages that
+exceed 3 g per day. In addition, there
+were minimal to no data on the safety
+and efficacy of targeted trough concentrations of 15 to 20 mg/L.
+This consensus revision evaluates
+the current scientific data and controversies associated with vancomycin
+dosing and serum concentration monitoring for serious MRSA infections (including but not limited to bacteremia,
+sepsis, infective endocarditis, pneumonia, osteomyelitis, and meningitis)
+and provides new recommendations
+based on recent available evidence.
+Due to a lack of data to guide appropriate targets, the development of this
+guideline excluded evaluation of vancomycin for methicillin-susceptible
+S. aureus (MSSA) strains, coagulasenegative staphylococci, and other
+pathogens; thus, the extrapolation of
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020  835
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+Therapeutic monitoring of vancomycin for serious
+­methicillin-resistant Staphylococcus aureus infections:
+A revised consensus guideline and review by the American
+Society of Health-System Pharmacists, the Infectious Diseases
+Society of America, the Pediatric Infectious Diseases Society,
+and the Society of Infectious Diseases Pharmacists
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+Table 1. Grading System for Recommendations Based on Quality of
+Evidencea
+Category and Grade
+
+Definition
+
+Strength of
+recommendation
+A
+
+Good evidence to support a recommendation for or
+against use
+
+B
+
+Moderate evidence to support a recommendation for
+or against use
+
+C
+
+Poor evidence to support a recommendation
+
+Quality of evidence
+I
+
+Evidence from 1 or more properly randomized controlled trials
+
+II
+
+Evidence from 1 or more well-designed clinical trials,
+without randomization; from cohort or casecontrolled analytic studies (preferably from more
+than 1 center); from multiple time-series; or from
+dramatic results from uncontrolled experiments
+
+III
+
+Evidence from opinions of respected authorities,
+based on clinical experience, descriptive studies, or
+reports of expert committees
+
+Methods
+These are the consensus statements and guideline of ASHP, IDSA, the
+Pediatric Infectious Diseases Society
+(PIDS), and SIDP. Guideline panel composition consisted of physicians, pharmacists, and a clinical pharmacologist
+with expertise in clinical practice and/or
+research with vancomycin. Committee
+members were assigned key topics regarding vancomycin dosing and monitoring. A draft document addressing
+these specific areas was reviewed by all
+committee members and made available for public comments for 30 days
+through ASHP, IDSA, PIDS, and SIDP.
+The committee then met to review and
+revise the document based on the submitted comments, suggestions, and
+recommendations. After careful discussion and consideration, the document
+was revised and circulated among the
+committee and supporting organizations prior to final approval and publication. A search of PubMed and Embase
+was conducted using the following
+search terms: vancomycin, pharmacokinetics, pharmacodynamics, efficacy, resistance, toxicity, obesity, and pediatrics.
+All relevant and available peer-reviewed
+studies in the English-language literature published from 1958 through 2019
+were considered. Studies were rated by
+their quality of evidence, and the subsequent recommendations were graded
+using the classification schemata described in Table 1.
+
+836
+
+AM J HEALTH-SYST PHARM
+
+|
+
+Adapted from the Canadian Task Force on the Periodic Health Examination.2
+
+a
+
+Potential limitations of this review
+included the fact that there are few
+published randomized clinical trials
+of vancomycin dosing and monitoring
+available in the literature. Most published studies evaluating vancomycin
+dosing, dosage adjustment, and monitoring were retrospective PK or PD
+clinical assessments or retrospective
+observational studies in patients with
+MRSA infections.
+PK/PD efficacy targets. To
+optimize the dosing of any antimicrobial agent, a firm understanding of the
+drug’s exposure-effect and exposuretoxicity links are required. While a variety of PD indices for vancomycin have
+been suggested, an AUC/MIC ratio of
+≥400 (with the MIC determined by broth
+microdilution [BMD]) is the current accepted critical PK/PD index in light
+of our limited experience and studies
+evaluating AUC/MIC values of <400.1,3-7
+In vitro and in vivo assessments of PK/
+PD models applicable to human MRSA
+infection have found that bactericidal
+activity (ie, a 1- to 2-log reduction in bacterial inoculum in the animal model) is
+achieved when the vancomycin AUC/
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020
+
+MICBMD ratio approximates or exceeds
+400. Furthermore, in vitro data suggest that an AUC of <400 potentiates
+the emergence of MRSA resistance and
+vancomycin-intermediate S. aureus
+strains.8,9 There are also mounting clinical data, albeit mostly retrospective in
+nature, in support of this PK/PD target
+for vancomycin.10-18 A summary of these
+investigations and their findings can be
+found in eTable 1.10-17,19-23
+
+Clinical PK/PD Data: Adults
+While an AUC/MICBMD ratio of ≥400
+is currently considered the optimal
+PK/PD “efficacy” target, it is important
+to recognize that this target has been
+largely derived from retrospective,
+single-center, observational studies of
+patients with MRSA bloodstream infections.11-17 It is also important to recognize that most of the landmark clinical
+studies that established the contemporary PK/PD efficacy target relied on
+simple vancomycin clearance (CL) formulas based on daily vancomycin dose
+and estimated renal function to determine AUC values.10,11,13 Current evaluation of these data demonstrates that
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+guideline recommendations to these
+pathogens should be viewed with extreme caution. Furthermore, serious
+invasive MRSA infections exclude
+nonbacteremic skin and skin structure
+and urinary tract infections. Since this
+guideline focuses on optimization of
+vancomycin dosing and monitoring,
+recommendations on the appropriateness of vancomycin use, combination
+or alternative antibiotic therapy, and
+multiple medical interventions that
+may be necessary for successful treatment of invasive MRSA infections are
+beyond the scope of this guideline and
+will not be presented.
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+(bioMérieux USA, Hazelwood, MO)
+method, to arrive at an AUC/MICEtest
+value.12,14,15 The MICEtest value tends to
+be 1.5- to 2-fold higher than the MICBMD
+value; therefore, it is likely that the
+AUC threshold needed for response
+from these 3 studies,12,14,15 if calculated
+using the MICBMD, would align with the
+studies by Lodise et al16 and Casapao
+et al.17
+In an effort to surmount the
+limitations­associated with previous­
+single-center, retrospective vancomy­
+cin­exposure-response clinical analyses, a multicenter, observational
+prospective study was performed to
+evaluate the relationship between the
+prespecified day 2 AUC/MIC ratios (ie,
+AUC/MICEtest of ≥320 and AUC/MICBMD
+of ≥650) and outcomes in adult patients (n = 265) with MRSA bacteremia.
+In the multivariate analyses, treatment
+failure rates were not significantly different between the prespecified day 2
+AUC/MIC groups. Post hoc global outcomes analyses suggested that patients
+in the 2 lowest AUC exposure quintiles
+(ie, those with an AUC of ≤515 mg·h/L)
+experienced the best global outcome
+(defined as absence of both treatment
+failure and acute kidney injury [AKI]).
+While global outcomes were similar
+in the 2 lowest AUC-exposure quintiles, only 20% of the study population
+(n = 54) had an AUC of ≤400 mg·h/L,
+and it is unclear if efficacy outcomes
+are maintained at an AUC less than
+this threshold of 400 mg·h/L.23 Notably,
+the higher AUC value cited above (515
+mg·h/L) provides a new index that incorporates both efficacy and AKI that
+is still within the recommended AUC
+range of 400 to 600 mg·h/L (assuming a
+MIC of 1 mg/L).
+Collectively, recent studies highlight
+the importance of generating valid estimates of the AUC values through Bayesian
+modeling techniques when conducting
+vancomycin exposure-outcomes analyses
+in patients. Current vancomycin exposureeffectiveness data originated largely from
+studies of MRSA bacteremia, with some
+studies for pneumonia and infective endocarditis and none for osteomyelitis
+and meningitis. Furthermore, outcomes
+AM J HEALTH-SYST PHARM
+
+|
+
+data for a MIC of 2 mg/L are limited, suggesting the need for more studies to ascertain the optimal AUC/MIC target for this
+MIC value or consideration for the use of
+alternative antibiotics. The currently available data also highlight the critical need
+for large-scale, multicenter, randomized,
+vancomycin dose–optimized clinical outcomes trials. As data from future prospective, multicenter clinical studies emerge, it
+is important that clinicians recognize that
+our current understanding of the PK/PD
+target associated with maximal effect and
+toxicity is subject to change, and this may
+ultimately alter the current way we dose
+vancomycin to optimize effect and minimize toxicity.
+
+Toxicodynamics: AKI
+A major concern with vancomycin
+use is the occurrence of AKI. While
+multiple definitions of vancomycinassociated AKI have been employed in
+the literature, most studies defined it
+as an increase in the serum creatinine
+(SCr) level of ≥0.5 mg/dL, or a 50% increase from baseline in consecutive
+daily readings, or a decrease in calculated creatinine CL (CLcr) of 50% from
+baseline on 2 consecutive days in the
+absence of an alternative explanation.1
+Recently, it has been proposed that a
+more sensitive threshold (ie, an increase
+in SCr of ≥0.3 mg/dL over a 48-hour period) may be considered as an indicator
+of vancomycin-associated AKI. This
+threshold was adopted from the Acute
+Kidney Injury Network (AKIN) and
+the Kidney Disease: Improving Global
+Outcomes (KDIGO) criteria.27-29 The
+incidence of vancomycin-associated
+AKI has varied across published
+studies. In a meta-analysis by van Hal
+and colleagues,29 the prevalence of
+vancomycin-associated AKI varied
+from 5% to 43%. Similarly, a recent
+meta-analysis of 13 studies by Sinha
+Ray et al30 reported that the relative
+risk of AKI with vancomycin was 2.45
+(95% confidence interval, 1.69-3.55),
+with an attributable risk of 59%. Most
+episodes of AKI developed between 4
+and 17 days after initiation of therapy.
+Many patients, especially those who are
+critically ill, do not fully recover renal
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020  837
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+these CL formulas provide imprecise
+estimates of the AUC.24-26 This finding
+is not surprising, as there is considerable interpatient variability in vancomycin exposure profiles in clinical
+practice, and it is not possible to generate valid estimates of exposure variables in a given individual based on CL
+formulas that are derived from glomerular filtration rate estimation equations
+alone.10,11,13 In most cases, the formulabased approach will overestimate vancomycin CL by approximately 40% to
+50%.16
+While it has been cumbersome to
+estimate AUC in the clinical setting
+in the past, Neely and colleagues24 recently demonstrated that Bayesian software programs (refer to Therapeutic
+Monitoring section) can be used to generate accurate and reliable estimates of
+the daily AUC values with trough-only
+PK sampling. However, the accuracy
+of AUC estimation is higher with peak
+and trough measurements compared
+to trough-only PK sampling.24 Using
+this validated Bayesian method to estimate the daily AUC in a single-center,
+retrospective study of patients with
+MRSA bloodstream infections, Lodise
+and colleagues16 found that outcomes
+were maximized when day 1 and day
+2 AUC/MICBMD ratios exceeded 521
+and 650, respectively. Employing the
+same Bayesian approach to estimate
+daily AUC values, Casapao and colleagues17 also noted that the risk of
+vancomycin treatment failure among
+patients with MRSA infective endocarditis was greatest among those
+with an AUC/MICBMD ratio of ≤600 and
+that this exposure-failure relationship
+persisted after adjusting for factors
+such as intensive care unit (ICU) admission, presence of heteroresistant
+vancomycin-intermediate S. aureus,
+and other comorbidities. In contrast to
+the studies by Lodise et al and Casapao
+et al, several small-scale, retrospective clinical evaluations of vancomycin
+exposure-response reported lower
+Bayesian-derived thresholds for AUC/
+MIC since the AUC was measured at
+steady-state conditions and indexed
+to the MIC, as determined by the Etest
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+838
+
+AM J HEALTH-SYST PHARM
+
+|
+
+increased along the day 2 AUC continuum in a stepwise manner and that
+patients with day 2 AUC values of ≥793
+mg·h/L were at the greatest risk for AKI.23
+Given the understanding about potential toxic concentrations, there are
+also data to suggest that AUC-guided
+vancomycin dosing may reduce the occurrence of vancomycin-associated AKI.
+In a retrospective, quasi-experimental
+study of 1,280 hospitalized patients,
+Finch et al20 compared the incidence of
+nephrotoxicity in patients monitored by
+individualized AUC vs trough concentration. AUC-guided dosing was found
+to be independently associated with a
+significant decrease in AKI (odds ratio
+[OR], 0.52; 95% CI, 0.34-0.80; P = 0.003).20
+Median Bayesian-estimated AUC was
+significantly lower with AUC-guided
+dosing vs trough monitoring (474 [SD,
+360-611] mg·h/L vs. 705 [SD, 540-883]
+mg·h/L; P < 0.001). In the prospective
+study by Neely et al,22 252 patients were
+monitored via troughs of 10 to 20 mg/L
+in year 1 vs Bayesian-estimated AUC
+values of ≥400 mg·h/L in years 2 and 3
+of the investigation. Nephrotoxicity occurred in 8% of subjects in year 1 and
+in 0% and 2% of subjects in years 2 and
+3, respectively (P = 0.01). The median
+trough concentration and AUC values
+associated with AKI were 15.7 mg/L and
+625 mg·h/L, as compared with values
+of 8.7 mg/L and 423 mg·h/L in subjects
+without AKI (P = 0.02).22
+Collectively, the published clinical
+exposure-response analyses suggest
+that a daily AUC of ≥400 is the driver
+of effectiveness and that the risk of AKI
+is related to AUC and trough values.
+More importantly, these data provide
+the foundation for the current understanding of the therapeutic window
+for vancomycin. When evaluating the
+toxicodynamics of vancomycin, it is important to recognize other factors that
+may complicate or exacerbate the risk
+of AKI. Host-related factors associated
+with nephrotoxicity include increased
+weight, pre-existing renal dysfunction, and critical illness. Concurrent
+administration of nephrotoxic agents
+such as aminoglycosides, loop di­­
+uretics, amphotericin B, intravenous
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020
+
+(i.v.) contrast dye, and vasopressors
+has been shown to increase the risk of
+nephrotoxicity. Recently, piperacillin/
+tazobactam and flucloxacillin have
+been reported to increase the risk
+for AKI in patients receiving vancomycin.39-44 It is unclear if the threshold
+for vancomycin-induced AKI varies
+according to these covariates, but clinicians should be mindful of the potential for additional risk when prescribing
+vancomycin to patients when these
+conditions are present.34,40-50
+Based on the current best available evidence, daily vancomycin AUC
+values (assuming a MIC of 1 mg/L)
+should be maintained between 400 and
+600 mg·h/L to minimize the likelihood
+of nephrotoxicity and maximize efficacy for suspected or definitive serious
+invasive MRSA infections. Once culture
+results or the clinical presentation rule
+out invasive MRSA infection, the empiric use of vancomycin at guidelinerecommended exposures should be
+de-escalated, either by a decrease in
+vancomycin exposure or initiation of
+alternative antibiotics. Extrapolation
+of guideline recommendations to noninvasive MRSA and other pathogens
+should be viewed with extreme caution.
+
+Therapeutic Monitoring
+Therapeutic monitoring has centered on maintaining trough concentrations between 15 and 20 mg/L
+for serious infections due to MRSA.
+Previous expert guidelines recommended monitoring trough concentrations as a surrogate marker for the
+AUC/MIC ratio based on the historical
+difficulty in estimating the AUC in clinical practice.1,5 In the past, calculation
+of AUC in clinical practice involved collection of multiple vancomycin serum
+concentrations during the same dosing
+interval, with subsequent use of PK
+software that was not readily available
+at all institutions. As such, the guideline viewed trough-directed dosing as a
+more practical alternative to AUC/MICguided dosing in clinical practice.
+Although the recommendation
+to maintain trough values between
+15 and 20 mg/L for serious infections
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+function after AKI,31 and even mild AKI
+can significantly decrease long-term
+survival rates, increase morbidity, prolong hospitalizations, and escalate
+healthcare costs.22,32
+With any drug, an understanding of
+its toxicodynamic profile is required for
+optimal dosing. Several studies, largely
+retrospective in nature, have attempted
+to quantify the relationship between
+vancomycin exposure and probability
+of AKI.33,34 Although data are limited,
+the collective literature suggests that
+the risk of AKI increases as a function
+of the trough concentration, especially when maintained above 15 to
+20 mg/L.29 Similarly, there are recent
+data to suggest that the risk of AKI increases along the vancomycin AUC
+continuum, especially when the daily
+AUC exceeds 650 to 1,300 mg·h/L.24,33-35
+Furthermore, animal studies corroborate the finding that increased AUC
+rather than trough concentration is a
+strong predictor of AKI.36,37
+Suzuki et al33 evaluated the mean
+vancomycin AUC in relation to AKI.
+Most patients who developed AKI
+had AUC values between 600 and 800
+mg·h/L, compared with 400 to 600
+mg·h/L in those without AKI (P = 0.014).
+Furthermore, Lodise and colleagues34
+showed that the probability of AKI increased 2.5-fold among patients with
+AUC values above 1,300 mg·h/L compared with patients with lower values
+(30.8% vs 13.1%, P = 0.02). Although AUC
+values above 1,300 mg·h/L were associated with a substantial increase in AKI,
+an AUC exposure-response relationship
+appeared to exist, and the probability of
+a nephrotoxic event increased as a function of the daily AUC and patient’s body
+weight.38 A study by Zasowski et al21 also
+reported a similar relationship between
+Bayesian-estimated vancomycin AUC
+thresholds and AKI in 323 patients; AUC
+values of ≥1,218 mg·h/L for 0 to 48 hours,
+≥677 for 0 to 24 hours, and ≥683 for 24
+to 48 hours or troughs of ≥18.2 mg/L
+were associated with a 3- to 4-fold increased risk of nephrotoxicity. Similarly,
+the aforementioned multicenter, prospective study of patients with MRSA
+bloodstream infections found that AKI
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+First, the range of vancomycin MIC
+values among contemporary MRSA
+isolates is narrow, and the BMD MIC90
+in most institutions is 1 mg/L or less.58-62
+Second, measurement of MIC values is
+imprecise, with dilution of ±1 log2 and
+variation of 10% to 20% considered acceptable; therefore, the variability of
+reported MIC values encountered in
+routine clinical practice is likely to reflect measurement error.63 Third, there
+is a high degree of variability between
+commercially available MIC testing
+methods relative to the BMD method
+(see Vancomycin Susceptibility Testing
+section). Last, MIC results are typically
+not available within the first 72 hours
+of index culture collection, yet current data indicate that the vancomycin
+AUC/MIC ratio needs to be optimized
+early in the course of infection.
+Daily AUC values (assuming a
+MICBMD of 1 mg/L) should be maintained between 400 and 600 mg·h/L
+to maximize efficacy and minimize
+the likelihood of AKI. In the past, AUC
+monitoring required the collection of
+multiple concentrations over the same
+dosing interval. With these data, a clinician would calculate the AUC using the
+linear-trapezoid rule. This approach
+required precise collection of vancomycin concentrations, making it largely
+impractical outside of a research setting. However, this is no longer the case.
+It is now possible to accurately estimate
+the AUC with limited PK sampling.
+One such approach involves the use
+of Bayesian software programs to estimate the vancomycin AUC value with
+minimal PK sampling (ie, 1 or 2 vancomycin concentrations) and provide
+AUC-guided dosing recommendations
+in real time. An alternative approach
+involves use of 2 concentrations (peak
+and trough) and simple analytic PK
+equations to estimate AUC values.57,64
+Bayesian-derived AUC monitoring. Bayesian-guided dosing is
+based in part on Bayes’ Theorem, as it
+quantifies the sequential relationship
+between the estimated probability
+distribution of an individual patient’s
+PK parameter values (eg, volume [Vd]
+or CL) prior to administering the drug
+AM J HEALTH-SYST PHARM
+
+|
+
+based on the way the drug behaved
+in a population of prior patients
+(the Bayesian prior) and the revised
+probability distribution of a specific
+patient’s PK parameter values using
+exact dosing and drug concentration
+data (the Bayesian conditional posterior). In short, Bayesian dose optimization software uses a well-developed
+vancomycin population PK model as
+the Bayesian prior, together with the
+individual patient’s observed drug
+concentrations in the data file, to calculate a Bayesian posterior parameter
+value distribution for that patient.
+The dose optimization software then
+calculates the optimal dosing regimen based on the specific patient’s
+profile.65-67
+An advantage of the Bayesian approach is that vancomycin concentrations can be collected within the first 24
+to 48 hours rather than at steady-state
+conditions (after the third or fourth
+dose), and this information can be used
+to inform subsequent dosing (adaptive feedback control). As part of their
+output, Bayesian dosing programs provide innovative treatment schemes,
+such as front-loading doses with subsequent transition to a lower maintenance
+dosing regimen, to rapidly achieve
+target concentrations within the first 24
+to 48 hours among critically ill patients.
+The Bayesian approach also provides
+the ability to integrate covariates, such
+as CLcr, in the structural PK models (the
+Bayesian prior density file) that account
+for the pathophysiological changes that
+readily occur in critically ill patients.
+Incorporation of covariates that account
+for these “dynamic” changes serves
+as a way to identify dosing schemes
+that optimize effect and predict future
+dosing in a patient who has an evolving
+PK profile.67
+Bayesian dose-optimizing software
+programs are now readily available and
+can be used in real time to identify the
+optimal vancomycin dosage that readily
+achieves the AUC target (assuming
+a MICBMD of 1 mg/L).66,68 Bayesian
+programs offer numerous advantages
+over the traditional first-order equation software programs. Using richly
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020  839
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+due to MRSA has been well integrated
+into practice, the clinical benefits
+of maintaining higher vancomycin
+trough values have not been well documented.38,51-55 From a PK/PD perspective, it is not surprising that there are
+limited clinical data to support the
+range of 15 to 20 mg/L. Recent studies
+have demonstrated that trough values
+may not be an optimal surrogate for
+AUC values.26,56,57 While trough attainment ensures achievement of a minimum cumulative exposure, a wide
+range of concentration-time profiles
+can result in an identical trough value.
+Patel et al26 reported a wide range of
+AUC values from several different
+dosing regimens yielding similar trough
+values. The therapeutic discordance
+between trough and AUC values is not
+surprising, as the AUC is the integrated
+quantity of cumulative drug exposure
+(ie, the serum drug concentration–time
+curve over a defined interval). In contrast, the trough represents a single exposure point at the end of the dosing
+interval. In clinical practice, monitoring
+of trough concentrations will translate
+into achievement of one specific minimum daily AUC value, whereas the
+24-hour AUC (AUC24) largely represents
+the average concentration during that
+time period [AUC24 (mg·h/L) = average
+concentration (mg/L) x 24 (hours)]. For
+troughs of 15 to 20 mg/L, this typically
+equates to a daily AUC in excess of 400
+mg·h/L. However, there is considerable
+variability in the upper range of AUC
+values associated with a given trough
+value. Although trough-only monitoring is practical, the potential limitations surrounding the practice suggest
+that trough monitoring may be insufficient to guide vancomycin dosing in all
+patients.
+Although the AUC/MIC ratio is considered the PK/PD driver of efficacy for
+vancomycin, clinicians trying to optimize vancomycin treatment for patients
+with serious MRSA infections may be
+best advised to use AUC-guided dosing
+and assume a MICBMD of 1 mg/L (unless
+it is known, through BMD, to be greater
+or less than 1 mg/L). The MIC value is
+of less importance for several reasons.
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+840
+
+AM J HEALTH-SYST PHARM
+
+|
+
+proportional changes in observed
+AUC24.6,71-73 The major limitation of this
+approach is that it is not adaptive like
+the Bayesian approach, as it can only
+provide a snapshot of the AUC for the
+sampling period. As such, this AUC calculation will not be correct if a physiologic change such as renal dysfunction
+occurs during or after the sampling
+period. Furthermore, it is extremely difficult to estimate the vancomycin AUC24
+with the equation-based method in patients who receive multiple dosing regimens within a 24-hour period. If the
+vancomycin dosing interval is more
+frequent than once a day, the AUC24 will
+be a function of the number of identical
+doses administered during that interval
+(eg, AUC must be multiplied by 2 for a
+12-hour dosing interval to calculate the
+true AUC24). It is also highly preferred
+that concentrations are collected near
+steady-state conditions.
+Despite its drawbacks, this estimate of AUC is a clear step above
+trough-only or peak-only concentration interpretation and is familiar to
+most clinicians. Several large medical
+centers within the United States have
+already adopted this approach of acquiring 2 postdose serum concentration estimates of the AUC to perform
+routine vancomycin dosing and monitoring and have demonstrated a considerable improvement in safety over
+the current trough-only concentration
+monitoring method.37,64
+PK sampling time. Timing of
+achievement of targeted AUC values
+(assuming a MICBMD of 1 mg/L) remains unclear. The early AUC/MIC
+target ratios derived in animal models
+were based on the AUC value from 0 to
+24 hours.3,4 More recent clinical assessments that identified a link between
+AUC/MIC ratio and outcomes also assessed the AUC values achieved early
+in the course of therapy.1,3,5-7,10,13,20-22 The
+2009 vancomycin guideline stated that
+the trough should be assessed prior
+to steady-state conditions (ie, prior to
+the fourth dose).1,5 In fact, steady-state
+conditions are difficult to determine
+in clinical practice, and the timing of
+the fourth dose is more dependent on
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020
+
+the dosing interval (ie, 12 vs 24 hours)
+than steady-state conditions. Given
+the importance of early, appropriate
+therapy,74 targeted AUC exposures
+should be achieved early during the
+course of therapy, preferably within
+the first 24 to 48 hours. If monitoring
+is initiated after the first dose, the contribution of the loading dose to the
+actual AUC may vary depending on
+the magnitude of the loading dose vs
+maintenance doses. The decision to
+delay therapeutic monitoring beyond
+48 hours should be based on severity of
+infection and clinical judgment.
+
+Summary and
+recommendations:
+1. In patients with suspected or definitive
+serious MRSA infections, an individualized target of the AUC/MICBMD ratio
+of 400 to 600 (assuming a vancomycin
+MICBMD of 1 mg/L) should be advocated to achieve clinical efficacy while
+improving patient safety (A-II). Doses
+of 15 to 20 mg/kg (based on actual
+body weight) administered every 8 to
+12 hours as an intermittent infusion
+are recommended for most patients
+with normal renal function when assuming a MICBMD of 1 mg/L (A-II). In
+patients with normal renal function,
+these doses may not achieve the therapeutic AUC/MIC target when the MIC
+is 2 mg/L.
+2. Given the narrow vancomycin AUC
+range for therapeutic effect and
+minimal AKI risk, the most accurate
+and optimal way to manage vancomycin dosing should be through
+AUC-guided dosing and monitoring
+(A-II). We recommend to accomplish
+this in one of two ways.
+a. One approach relies on the collection of 2 concentrations (obtained
+near steady-state, postdistributional
+peak concentration [Cmax] at 1 to
+2 hours after infusion and trough
+concentration [Cmin] at the end of
+the dosing interval), preferably but
+not required during the same dosing
+interval (if possible) and utilizing
+first-order PK equations to estimate
+the AUC (A-II).
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+sampled vancomycin PK data from
+3 studies comprising 47 adults with
+varying renal function, Neely and colleagues24 demonstrated that Bayesian
+software programs, embedded with a
+PK model based on richly sampled vancomycin data as the Bayesian prior, can
+be used to generate accurate and reliable estimates of the daily AUC values
+with trough-only PK sampling. Of note,
+there was limited inclusion of special
+populations in this study, and it is unclear if this trough-only Bayesian AUC
+estimation approach can be applied
+to obese patients, critically ill patients,
+pediatric patients, and patients with
+unstable renal function. A randomized controlled study of 65 subjects by
+Al-Sulaiti et al69 showed that estimating
+AUC using both peak and trough concentrations (vs trough-only estimates)
+may improve vancomycin-associated
+therapeutic cure. Until more data are
+available, it is preferred to estimate the
+Bayesian AUC using 2 vancomycin concentrations (peak and trough).
+First-order PK analytic equations. Alternatively, the AUC can be
+accurately estimated based on the collection of 2 timed steady-state serum
+vancomycin concentrations and the
+use of first-order PK equations.57 The
+equations used to compute AUC from 2
+samples are based in part on an original
+approach proposed by Begg, Barclay,
+and Duffull70 for aminoglycosides
+and modified by Pai and Rodvold.57 It
+is preferred that a near steady-state,
+postdistributional peak (1 to 2 hours
+after end of infusion) and trough concentrations within the same dosing
+interval (if possible) are used when
+estimating the AUC with the equationbased methods.
+The major advantage of this approach is that it is simpler and relies on fewer assumptions than the
+Bayesian approach. The first-order PK
+equations used to estimate the AUC
+are also familiar to most clinicians,
+facilitating ease of use in practice.
+Once the AUC24 is estimated, the clinician simply revises the total daily dose
+to achieve the desired AUC24, as alterations of total daily dose will provide
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+3. When transitioning to AUC/MIC
+monitoring, clinicians should conservatively target AUC values for
+patients with suspected or documented serious infections due to
+MRSA assuming a vancomycin
+MICBMD of 1 mg/L or less at most
+institutions. Given the importance of
+early, appropriate therapy, vancomycin targeted exposure should be
+achieved early during the course of
+therapy, preferably within the first 24
+to 48 hours (A-II). As such, the use of
+Bayesian-derived AUC monitoring
+may be prudent in these cases since it
+does not require steady-state serum
+vancomycin concentrations to allow
+for early assessment of AUC target
+attainment.
+4. Trough-only monitoring, with a
+target of 15 to 20 mg/L, is no longer
+recommended based on efficacy
+and nephrotoxicity data in patients
+with serious infections due to MRSA
+(A-II). There is insufficient evidence
+to provide recommendations on
+whether trough-only or AUC-guided
+vancomycin monitoring should be
+used among patients with noninvasive MRSA or other infections.
+5. Vancomycin monitoring is recommended for patients receiving
+vancomycin for serious MRSA
+infections to achieve sustained
+targeted AUC values (assuming a
+
+MICBMD of 1 mg/L unless it is known
+to be greater or less than 1 mg/L
+by BMD). Independent of MRSA
+infection, vancomycin monitoring
+is also recommended for all patients at high risk for nephrotoxicity
+(eg, critically ill patients receiving
+concurrent nephrotoxins), patients
+with unstable (ie, deteriorating or
+significantly improving) renal function, and those receiving prolonged
+courses of therapy (more than 3 to
+5 days). We suggest the frequency
+of monitoring be based on clinical
+judgment; frequent or daily monitoring may be prudent for hemodynamically unstable patients (eg,
+those with end-stage renal disease),
+with once-weekly monitoring for
+hemodynamically stable patients
+(B-II).
+
+Vancomycin Susceptibility
+Testing
+With the MIC being a component
+of the vancomycin AUC/MIC targeted
+surrogate for efficacy, it is important
+to be aware of local and national vancomycin susceptibility patterns for
+MRSA. Although in some centers there
+has been a steady increase in the average vancomycin MIC over several
+decades, recent national and international studies that have evaluated
+MRSA susceptibility to glycopeptides,
+lipopeptides, and beta-lactams have
+demonstrated that vancomycin MICs
+have remained constant over time, with
+a MIC of ≤1 mg/L demonstrated for
+more than 90% of isolates.58-62 A metaanalysis of 29,234 MRSA strains from
+55 studies revealed that the MIC determinations performed by BMD, Etest,
+and automated systems were predominately 1 mg/L and that there was no evidence of a MIC creep phenomenon.75
+Furthermore, a global surveillance program reported that 95% of 57,319 MRSA
+isolates had MICs of 1 mg/L, with no
+signs of MIC creep over 20 years.76
+While there does not seem to be a large
+number of organisms with a vancomycin MIC of ≥2 mg/L when reference
+methods are used, there is considerable
+AM J HEALTH-SYST PHARM
+
+|
+
+variability in MIC results between the
+susceptibility testing methods.
+The challenge is that, according
+to the Clinical Laboratory Standards
+Institute (CLSI), acceptable variability
+for MIC measurement methods is within
+±1 doubling dilution (essential agreement), such that current susceptibility
+testing methods are unable, with high
+reproducibility, to distinguish MICs
+of 1 mg/L from MICs of 0.5 mg/L or
+2 mg/L. Most institutions routinely
+perform MIC testing using automa­
+ted systems: BD Phoenix (BD, Franklin
+Lakes, NJ), MicroScan WalkAway
+(Beckman Coulter, Brea, CA), or Vitek
+2 (bioMérieux), and in some cases the
+Etest methodology (bioMérieux). In a
+study of 161 MRSA blood isolates, when
+using the essential agreement definition of ±1 log2 dilution error, Vitek 2 and
+MicroScan WalkAway demonstrated a
+96.3% agreement with BMD, whereas
+BD Phoenix demonstrated an 88.8%
+agreement.77 The Etest method had the
+lowest agreement with BMD, at 76.4%
+(results were consistently higher by 1
+to 2 dilutions). The Etest will likely produce a higher value (0.5 to 2 dilutions
+higher) than BMD. In another study,
+92% of the strains were demonstrated
+to have a vancomycin MIC of 1 mg/L by
+BMD; corresponding figures were 70%
+for MicroScan WalkAway and Etest and
+41% for Vitek 1.78
+Rybak et al79 compared MicroScan
+WalkAway, Vitek 2, BD Phoenix, and
+Etest to BMD methods among 200
+MRSA strains. In contrast to previous
+studies, these investigators used an
+absolute agreement definition of ±0
+log2 dilution error to better characterize the precision. Using this definition, results with BD Phoenix
+and MicroScan WalkAway had the
+highest agreement with BMD (66.2%
+and 61.8%, respectively), followed
+by Vitek 2 (54.3%). As noted above,
+Etest tended to produce results that
+were 1 to 2 dilutions higher (agreement with BMD was 36.7%). However,
+when compared to BMD, Etest identified a MIC of 2 mg/L 80% of the time.
+When compared to BMD, Micro­
+Scan WalkAway (prompt method)
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020  841
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+b. The preferred approach to monitor
+AUC involves the use of Bayesian
+software programs, embedded with
+a PK model based on richly sampled
+vancomycin data as the Bayesian
+prior, to optimize the delivery of
+vancomycin based on the collection
+of 1 or 2 vancomycin concentrations,
+with at least 1 trough. It is preferred
+to obtain 2 PK samples (ie, at 1 to 2
+hours post infusion and at end of the
+dosing interval) to estimate the AUC
+with the Bayesian approach (A-II).
+A trough concentration alone may
+be sufficient to estimate the AUC
+with the Bayesian approach in some
+patients, but more data are needed
+across different patient populations
+to confirm the viability of using
+trough-only data (B-II).
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+Summary and
+recommendations:
+6. Based on current national vancomycin
+susceptibility surveillance data,
+under most circumstances of empiric
+dosing, the vancomycin MIC should
+be assumed to be 1 mg/L. When the
+MICBMD is >1 mg/L, the probability of
+achieving an AUC/MIC target of   ≥400
+is low with conventional dosing;
+higher doses may risk unnecessary
+toxicity, and the decision to change
+therapy should be based on clinical
+judgment. In addition, when the
+MICBMD is <1 mg/L, we do not recommend decreasing the dose to achieve
+the AUC/MIC target. It is important to
+note the limitations in automated susceptibility testing methods, including
+
+842
+
+AM J HEALTH-SYST PHARM
+
+|
+
+the lack of precision and variability
+in MIC results depending on method
+used (B-II).
+
+Continuous Infusion vs
+Intermittent Infusion
+Administration of vancomycin by
+continuous infusion (CI) has been
+evaluated as an alternative to intermittent infusion (II) with potential advantages of earlier target attainment, less
+variability in serum concentrations,
+ease of drug level monitoring (less dependence on sampling time or multiple
+concentrations to calculate AUC), and
+lower the potential risk of AKI.
+Comparative studies. Published
+studies that compared intermittent to
+continuous administration primarily
+focused on 2 distinct populations, adult
+critically ill patients in the ICU with suspected or documented infections and
+those receiving outpatient antimicrobial therapy (OPAT) for bone and joint
+infections.80-89 Most studies compared
+CI to II for the risk of AKI and attainment of target serum concentrations;
+only 4 studies included other outcome
+endpoints such as treatment failure and
+mortality.80,84,87,89 Measures of vancomycin drug exposure reported in clinical trials include trough and average
+steady-state concentrations and AUC24.
+One challenge when comparing clinical outcomes between CI and II is the
+lack of consistent reporting of exposure
+parameters between groups treated
+using the 2 dosing strategies. For CI,
+the most commonly reported drug exposure parameter was the steady-state
+concentration, while for II it was the
+trough concentration. For future investigations it would be beneficial to report
+AUC and/or average steady-state concentration for both CI and II groups to
+enable direct comparison of drug exposure between groups and correlate with
+efficacy and safety endpoints.
+Critically ill patients. A total of
+7 studies compared CI vs II of vancomycin in critically ill patients.81-87 Only
+one study, by Wysocki et al,80 evaluated both efficacy and safety in a prospective randomized trial comparing
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020
+
+vancomycin CI (n = 61) and II (n = 58)
+in 119 patients. Most patients had
+pneumonia or bacteremia, mostly due
+to MRSA. Mean serum steady-state and
+trough concentrations attained were
+24 mg/L and 15 mg/L, respectively,
+for both the CI and II groups. AUC24
+values were comparable between the
+CI and II groups, with significantly less
+variability in the CI group (P = 0.026).
+Clinical failure rates were similar in
+the CI and II groups on day 10 (21% vs
+26%) and at end of treatment (21% vs
+19%), although the mean AUC24 was
+shown to be lower in the CI group than
+in the II group (596 [SD, 159] mg·h/L
+vs 685 [SD, 260] mg·h/L, P < 0.05).
+Nephrotoxicity occurred in 18% of patients overall, with similar rates in the
+CI and II groups (16% vs 19%). However,
+dialysis was required more often in
+those who received CI vs II (6 of 10 patients vs 3 of 11 patients). Risk factors
+for nephrotoxicity such as diabetes and
+concomitant diuretic, aminoglycoside,
+and iodine use were similar between
+groups. It is notable that the study only
+had 23% power to detect a difference in
+clinical outcomes between groups.1
+Another study compared mortality among critically ill burn patients
+receiving CI (n = 90) or II (n = 81).84
+Mortality rates in the hospital and on
+days 14 and 28 were numerically higher
+for those receiving CI, but the differences did not reach statistical significance (10% vs 6.2%, 18.9% vs 11%, and
+32% vs 21%, respectively). However,
+when mortality was compared by treatment indications, those who received
+CI for non–gram-positive sepsis had
+significantly higher mortality (70% vs
+16.7%, P = 0.001); nearly half of this subgroup had gram-negative bacteremia or
+candidemia. It is possible that the difference in outcome may be attributed to
+differences in the management of those
+infections and not directly related to vancomycin administration. Nephrotoxicity
+occurred numerically less frequently in
+the CI group than in the II group (percentage of patients with increase in Scr
+of 0.5 mg/dL at end of therapy, 6.7% vs
+14.8%). While higher mean vancomycin
+concentrations were noted in the CI
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+overcalled MIC values of 1 mg/L by
+74.1%, and BD Phoenix and Vitek 2
+undercalled MIC values of 2 mg/L by
+76% and 20%, respectively.
+The high variability of MIC results
+among the 4 systems compared to
+BMD clearly poses a challenge to the
+clinician making treatment decisions
+based on MIC and poses questions as
+to the most relevant MIC method.79
+This variability between MIC values
+and testing methods routinely performed at most institutions further
+supports the use of AUC (assuming
+a MICBMD of 1 mg/L) to guide vancomycin empiric dosing. For nonserious
+infections, this variability may be inconsequential. In a critically ill patient
+infected by MRSA, who may require
+prompt achievement of the target
+AUC/MIC, it is imperative to verify
+the MIC by a standardized method
+(preferably BMD, as Etest may result
+in a higher MIC than BMD) as soon
+as possible to avoid a delay in effective therapy. An AUC/MICBMD of 400
+to 600 is approximately equivalent
+to an AUC/MICEtest of 200 to 400, reflecting values that are 1 to 2 dilutions
+higher than those yielded by Etest.
+Furthermore, there are no data to support decreasing the dose to achieve
+the targeted AUC/MIC of 400 to 600 if
+the MIC is less than 1 mg/L.
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+1-mg/L increase in serum concentration was associated with an 11% increase
+in the risk of nephrotoxicity, with lower
+odds in those receiving II. However, logistic regression analysis indicated the
+contrary in that II was associated with
+an 8-fold higher odds of nephrotoxicity
+(95% confidence interval, 2.87-23.41).
+The lack of information provided on
+confounding variables such as receipt of
+concomitant nephrotoxins and relative
+AUCs between treatment groups preclude drawing a definitive conclusion
+regarding the safety of CI, especially in
+light of the disparate results of bivariate
+and logistic regression analyses.
+Patients receiving OPAT. To date
+there have been 2 studies comparing
+the efficacy of vancomycin administration by CI vs II in patients whose
+therapy was initiated in the hospital and
+continued as OPAT. Duration of therapy
+ranged from 30 days to 14 weeks.87,89
+Most patients were treated for bone and
+joint and skin structure–related infections. In a small prospective study, rates
+of osteomyelitis cure, defined as remaining asymptomatic 12 months after
+completion of therapy, did not differ
+significantly between groups (94% vs
+78%, P = 0.3), but only 27 patients were
+evaluable.87 Another study retrospectively evaluated the efficacy of vancomycin in patients with MRSA infections;
+most had bone and joint and skin structure–related infections, while 10% had
+bloodstream infections or endocarditis.89 Rates of clinical failure were similar in the CI and II groups (19% [25 of
+133 patients] vs 25% [9 of 36], P = 0.41)
+after excluding 29% of study patients
+who had subtherapeutic serum vancomycin concentrations for more than
+1 week. However, it is not clear how
+frequent serum concentrations were
+monitored, if in-hospital treatment duration before OPAT differed between
+groups, and whether treatment success
+rates differed by type of infection.
+In studies that evaluated the safety of
+CI vancomycin as OPAT, treatment duration ranged from 4 to 14 weeks, with a reported average mean steady-state serum
+concentration of 13 to 30 mg/L.87,88 In
+a retrospective matched cohort study
+AM J HEALTH-SYST PHARM
+
+|
+
+of 80 patients, a trend towards less frequent occurrence of nephrotoxicity was
+observed in the CI group vs the II group
+(10% vs 25%, P = 0.139), and when nephrotoxicity did occur it had a later onset
+in the CI group (P = 0.036).88 Patients
+were matched by age, comorbid conditions, gender, baseline Scr, and receipt
+of concurrent nephrotoxins; those who
+had an Scr of ≥1.5 mg/dL at baseline,
+developed nephrotoxicity as inpatients
+prior to OPAT, or experienced hypotension resulting in renal dysfunction
+were excluded. In another retrospective
+study,90 the same investigators identified
+a steady-state average concentration of
+28 mg/L as the threshold breakpoint for
+the development of nephrotoxicity using
+CART (classification and regression
+tree) analysis: Nephrotoxicity occurred
+in 71.4% (5 of 7) and 11.6% (11 of 95) patients with steady-state concentrations
+of ≥28 mg/L and <28 mg/L, respectively.
+In one prospective study of an elderly
+cohort (mean age, 70 years) receiving
+high-dose vancomycin therapy by CI,
+with targeting of a steady-state concentration of 30 to 40 mg/L for a median
+duration of 6 weeks, nephrotoxicity occurred in 32% of patients. Additionally,
+4 patients in that study developed
+leukopenia.91
+Dosing and other considerations for use of CI. Most published
+studies of critically ill patients receiving
+vancomycin CI employed a loading
+dose of 15 to 20 mg/kg followed by daily
+maintenance infusions at doses of 30 to
+40 mg/kg (up to 60 mg/kg) to achieve
+a target steady-state concentration of
+20 to 25 mg/L. By simply multiplying
+the steady-state concentration by 24, a
+target steady-state concentration of 20
+to 25 mg/L would equate to an AUC24/
+MIC of 480 to 600 (assuming a MIC of
+1 mg/L). Of note, the PK/PD target for
+CI has not been validated. All of the PK/
+PD data supporting an AUC24/MIC ratio
+of >400 as the best correlate for clinical
+outcomes were derived from patients
+who received II vancomycin dosing.
+Rapid attainment of target serum
+concentrations has been cited as a potential advantage of CI over II when
+treating acute infections, particularly
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020  843
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+group relative to the II group (20 [SD, 3.8]
+mg/L vs 14.8 [SD, 4.4] mg/L, P < 0.001),
+which would be expected when comparing steady-state and trough concentrations, AUC24 was not reported, thereby
+precluding comparison of drug exposure
+between the CI and II groups.
+Five other studies compared serum
+drug concentrations achieved and the
+risk of nephrotoxicity between CI and
+II in critically ill patients.81-83,85,86 As expected, the ranges of measured vancomycin concentrations from the studies
+were significantly higher in the CI groups
+than in the II groups (steady-state concentrations of 20-25 mg/L vs troughs
+of 10-15 mg/L, respectively). Another
+study showed that a higher percentage
+of patients attained a vancomycin concentration of >20 mg/L at least once
+during the treatment course with CI
+vs II administration (63.2% vs 44.9%,
+P = 0.065).82 One study reported lower
+mean AUC24 with CI vs II (529 [SD, 98]
+mg·h/L vs 612 [SD, 213] mg·h/L, P value
+not stated), and increased steady-state
+concentration compared with trough
+(25 ± 4 vs 17 ± 4.7 mg/L, respectively,
+P = 0.42) with CI vs. II.83 The discordance
+observed in the relationship of trough
+concentration and AUC24 underscores
+the importance of measuring AUC24 to
+compare relative drug exposure with CI
+vs II in future studies.
+In general, the rate of nephrotoxicity
+was reported to be similar or numerically lower with CI vs II administration
+(range, 4%-16% vs 11%-19%); the same
+trend but higher rates were reported in
+studies that applied the AKIN criteria for
+nephrotoxicity (26%-28% vs 35%-37%).8183,85,86
+In addition, Saugel et al85 noted
+significantly less frequent need for renal
+replacement therapy (RRT) during vancomycin treatment for patients in the CI
+group than for those in the II group (7%
+[7 of 94 patients] vs 23% [12 of 52 patients] required RRT; P = 0.007). Of interest, in the largest retrospective study
+comparing CI and II, conducted in 1,430
+ICU patients, Hanrahan et al86 reported a
+higher rate of nephrotoxicity in those receiving CI vs II (25% [161 of 653 patients]
+vs 20% [77 of 390 patients]; P = 0.001);
+bivariate analysis indicated that every
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+Summary and
+recommendations:
+7. The pharmacokinetics of CI suggest
+that such regimens may be a reasonable alternative to conventional II
+dosing when the AUC target cannot
+be achieved (B-II). Based on currently available data, a loading dose
+of 15 to 20 mg/kg, followed by daily
+maintenance CI of 30 to 40 mg/kg
+(up to 60 mg/kg) to achieve a target
+steady-state concentration of 20 to
+25 mg/L may be considered for critically ill patients (B-II). AUC24 can
+be simply calculated by multiplying
+the steady-state concentration (ie,
+the desired therapeutic range of 20 to
+
+844
+
+AM J HEALTH-SYST PHARM
+
+|
+
+25 mg/L throughout the entire dosing
+interval) by a factor of 24. Attaining
+the desired drug exposure may be
+more readily accomplished given the
+ease of sampling time and dosage
+adjustment by changing the rate of
+infusion, which is a highly desirable
+feature in critically ill patients (B-II).
+8. The risk of developing nephrotoxicity
+with CI appears to be similar or lower
+than that with intermittent dosing
+when targeting a steady-state concentration of 15 to 25 mg/L and a trough
+concentration of 10 to 20 mg/L (B-II).
+Definitive studies are needed to compare drug exposure based on measured AUC24 and factors that predispose
+to development of nephrotoxicity, such
+as receipt of concomitant nephrotoxins, diuretics, and/or vasopressor
+therapy in patients receiving CI vs II of
+vancomycin.
+9. Incompatibility of vancomycin
+with other drugs commonly
+coadministered in the ICU requires
+the use of independent lines or multiple catheters when vancomycin is
+being considered for CI (A-III).
+
+Loading Doses
+Loading doses of vancomycin have
+been evaluated in several studies during
+the past decade.94-109 Providing loading
+doses of 20 to 35 mg/kg based on actual body weight rapidly achieves targeted ranges of serum vancomycin
+concentrations and decreases the risk of
+subtherapeutic concentrations during
+the first days of therapy. Loading doses are
+recommended in patients who are critically ill or in the ICU,95-102 require dialysis
+or renal replacement therapy,102-106 or are
+receiving vancomycin CI therapy.94-98,105,108
+While this approach is not currently supported by evidence from large randomized clinical trials, vancomycin loading
+doses can be considered in the treatment
+of serious MRSA infections. Vancomycin
+should be administered in a dilute solution (eg, concentrations of no more than
+5 mg/mL) and infused over a period of
+not less than 60 minutes or at a rate of
+10 to 15 mg/min (≥1 hour per 1,000 mg)
+to minimize infusion-related adverse
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020
+
+events. An infusion rate of 10 mg/min
+or less is associated with fewer infusionrelated events. Loading doses of 25 to
+35 mg/kg will require infusion times of
+at least 2 to 3 hours.99 After administration of the loading dose, the initiation of
+the maintenance dose should occur at
+the next dosing interval (eg, an interval
+of every 6 hours indicates initiating the
+maintenance dose 6 hours after the start
+of the loading dose).
+In most studies that have employed
+loading doses, vancomycin dosing was
+based on actual body weight. While
+this practice is commonplace, dosing
+by actual body weight assumes there
+is a linear relationship between key
+population PK parameters (ie, Vd and
+clearance) and the body size descriptor
+employed. While a wide variety of actual weight–based estimates of Vd (for
+example, 0.4 to 1 L/kg) have been reported in the literature,6 mounting
+data suggest that it is not entirely accurate to describe vancomycin Vd as
+being proportional to body weight,
+particularly among obese patients
+(refer to Dosing in Obesity section).
+As noted in several recent articles discussing vancomycin PK in obesity, as
+weight increases the coefficient used
+to calculate Vd decreases.48,110,111 At this
+point, dosing should be based on actual body weight, with doses capped
+at 3,000 mg (refer to Dosing in Obesity
+section.112 More intensive therapeutic
+monitoring should also be performed
+in obese patients.
+
+Summary and
+recommendations:
+10. In order to achieve rapid attainment of targeted concentrations in
+critically ill patients with suspected
+or documented serious MRSA infections, a loading dose of 20 to
+35 mg/kg can be considered for
+intermittent-infusion administration
+of vancomycin (B-II).1
+11. Loading doses should be based on
+actual body weight and not exceed
+3,000 mg (refer to Dosing in Obesity
+section). More intensive and early
+therapeutic monitoring should
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+in ICU patients early during the course
+of infection. In 2 comparative studies,
+target steady-state concentrations of 20
+to 25 mg/L were achieved more rapidly
+with use of CI vs II: in a mean time of
+36 (SD, 31) hours vs 51 (SD, 39) hours
+(P = 0.03) in one study and 16 (SD,
+8) hours vs 50 (SD, 21) hours (P < 0.001)
+in the other.81,83 Importantly, less variability in the steady-state concentration and fewer blood samples (a single
+steady-state concentration vs both
+peak and trough concentrations) are
+required to calculate AUC24 among patients receiving CI vs II. Timing of blood
+sampling for trough determinations
+is critical during II, whereas steadystate concentration can be measured
+any time after steady state has been
+reached during CI. In addition, vancomycin administration by CI in patients
+receiving OPAT has the theoretical advantage of a need for less frequent access to the i.v. catheter and thus less
+complications resulting from thrombus
+formation or infections. On the other
+hand, incompatibility of vancomycin
+with certain drugs (particularly at high
+concentrations), that are commonly
+administered in the critical care setting
+is a notable challenge of vancomycin
+CI.92,93 The use of proper concentration,
+alternative agents, independent lines,
+or multiple catheters may be warranted
+if vancomycin is to be administered by
+CI.
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+also be performed in obese patients
+(B-II).
+
+The original vancomycin dosing
+strategies predate our current definitions of obesity and understanding
+of drug pharmacokinetics in obesity.
+Obesity is defined as a body mass index
+(BMI) of ≥30 kg/m2 and is currently
+divided into 3 tiers: class I obesity
+(30.0-34.9 kg/m2), class II obesity (35.039.9 kg/m2), and class III, or morbid,
+obesity (≥40 kg/m2).113 The prevalence
+of obesity increased from approximately 10% in the 1950s to 39.8% in
+2015-2016, and the average US adult
+weighs approximately 83 kg, compared
+to the historical standard of 70 kg.114,115
+This shift in the distribution of body
+size is relevant to the calculation of
+vancomycin doses based on patient
+body weight. Obesity may be associated
+with an increased risk of vancomycininduced nephrotoxicity, in part due to
+supratherapeutic exposure resulting
+from maintenance doses calculated
+using actual body weight.45,116
+The selection of vancomycin
+loading dose is dependent on the estimated Vd. Pharmacokinetic studies
+have repeatedly demonstrated that the
+vancomycin Vd increases with actual
+body weight; however, this PK parameter does not increase with actual body
+weight in a proportionate manner and
+is not reliably predictable in obese individuals.111,117-121 Blouin and colleagues111
+demonstrated a statistically significant
+difference in weight-indexed Vd between obese and nonobese patients.
+Similarly, using data from 704 patients,
+Ducharme and colleagues118 found that
+mean weight-indexed vancomycin Vd
+decreased with increasing body size.
+The average weight-indexed Vd in a
+study by Bauer and colleagues119 was
+much lower in 24 morbidly obese patients (0.32 L/kg) than in 24 patients of
+normal weight (0.68 L/kg, P < 0.001).
+Recent studies in obese adults corroborate these findings and suggest that
+lower Vd estimates of approximately
+0.5 L/kg or weight-independent central
+
+AM J HEALTH-SYST PHARM
+
+|
+
+approaches to estimating vancomycin
+CL, such as that defined by Rodvold
+and colleagues,125 can be used to estimate the total daily maintenance dose.
+The population model–estimated vancomycin CL multiplied by the target
+AUC estimates the initial daily maintenance dose.112,120,122 For example,
+studies report an average vancomycin
+CL of approximately 6 L/h in obese
+patients that equates to achieving an
+AUC of approximately 500 mg·h/L with
+a daily dose of 3,000 mg. Empiric vancomycin maintenance dosages above
+4,500 mg/day are not expected in obese
+adults, because vancomycin CL rarely
+exceeds 9 L/h.112,120,121
+Population PK models of vancomycin cannot account for more than
+50% of the interindividual variabili­
+ty, which supports therapeutic drug
+­
+monitoring (TDM) in this population.117,118,120,122 A reliable estimate of
+vancomycin Vd is necessary for AUC
+estimation when AUC is based solely
+on a trough concentration measurement.24,121,126,127 This bias is addressed
+and precision is improved by measurement of both a peak (collected
+at least 1 hour after the end of infusion) and a trough concentration to
+estimate AUC accurately in obese
+patients.126 Once a reliable PK estimate of vancomycin elimination
+is determined by using these 2 concentration measurements, subsequent
+vancomycin AUC estimation is achievable with trough-only measurements
+by Bayesian methods in physiologically
+stable patients.57 For critically ill obese
+patients with unstable physiology, additional work to design adaptive feedback models to tailor doses is needed.
+
+Summary and
+recommendations:
+12. A vancomycin loading dose of 20
+to 25 mg/kg using actual body
+weight, with a maximum dose of
+3,000 mg, may be considered in
+obese adult patients with serious
+infections (B-II). Initial maintenance doses of vancomycin can be
+computed using a population PK
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020  845
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+Dosing in Obesity
+
+tendency estimates approaching 75 L
+are observed in obese adults.112,120,121
+The nonlinear relationship between
+vancomycin Vd and body weight can be
+resolved with piecewise functions of alternate weight descriptors, allometric
+scaling, use of lower mg/kg doses with
+increasing body size, or capping the
+dose at a threshold.118,122 The underlying
+rationale for a loading dose is rapid attainment of therapeutic concentrations. Therefore, using actual body
+weight–based loading doses of 20 to
+25 mg/kg (doses lower than previously
+recommended), with consideration of
+capping doses at 3,000 mg, is the most
+practical strategy in obese patients
+with serious infections.112 For example,
+this strategy would result in calculated
+loading doses of 1,500 to 2,500 mg in
+patients weighing 80 to 99 kg, 2,000
+to 3,000 mg in those weighing 100 to
+119 kg, and 2,500 to 3,000 mg in patients with a weight of ≥120 kg (doses
+rounded to the nearest 250 mg). The
+decision of whether or not to employ a
+loading dose, as well as the magnitude
+of this dose, should be driven by the
+severity of infection and the urgency
+to achieve a therapeutic concentration
+rather than by body size alone.
+Empiric maintenance dosing of
+vancomycin is reliant on estimated CL.
+Vancomycin CL is predicted by kidney
+function, which is most commonly
+estimated as CLcr with the CockcroftGault equation using patient age, sex,
+Scr, and body size.123 There is considerable controversy regarding the optimal
+body size metric for this calculation in
+obese patients.124 The Cockcroft-Gault
+equation predates the global standardization of Scr measurement traceable
+to isotopic-dilution mass spectrometry
+(IDMS) standards advocated to reduce
+intralaboratory and interlaboratory
+measurement variability.124 A recent
+population PK study by Crass and colleagues112 of obese patients (n = 346)
+with BMI values of 30.1 to 85.7 kg/m2
+and body weights of 70 to 294 kg provided an equation to estimate vancomycin CL based on age, sex, Scr (IDMS
+traceable), and allometrically scaled
+body weight. This model or similar
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+Renal Disease and Renal
+Replacement Therapies
+Intermittent
+hemodialysis.
+Despite the common use of vancomycin in patients receiving hemodialysis, there are few published outcome
+studies that provide guidance on the
+optimal PK/PD targets in this population. Previously published drug dosing
+recommendations generally targeted a
+predialysis serum concentration, even
+though other PD targets may be more
+appropriate. Predialysis vancomycin
+concentration to MRSA MIC ratios of
+>18.6 have been associated with improved bacteremic patient outcomes,
+suggesting that serum concentration
+monitoring is essential throughout the
+course of therapy.128 Dosing to achieve
+predialysis vancomycin concentrations
+of 10 to 20 mg/L, as has been done clinically,129 results in mean AUC24 values
+ranging from 250 to 450 mg·h/L, with
+some values below the AUC/MIC goals
+recommended in other populations.130
+Outcome studies validating the AUC24h
+goal of 400 to 600 mg·h/L used in other
+patient populations have not been conducted in the hemodialysis population.
+Nonetheless, the maintenance doses
+recommended in this section aim to
+reach this AUC24 target (ie, 400-600
+mg·h/L), as recommended throughout
+this document.
+Many dialysis-related factors affect
+the degree of vancomycin exposure in
+
+846
+
+AM J HEALTH-SYST PHARM
+
+|
+
+these patients. These considerations
+include the amount of time between
+vancomycin dose administration and
+the scheduled time of the next dialysis
+session,104 whether the dose is given
+during dialysis or after hemodialysis
+has ended, and the dialyzer’s permeability if the dose is administered
+intradialytically.131 Dialysis frequency
+also plays a role in dosing decisions.
+For non–critically ill patients receiving
+hemodialysis, 2 or 3 days is the most
+common interdialytic period. Some
+critically ill patients with severe catabolism and AKI may require more than
+thrice-weekly hemodialysis for optimal
+metabolic control, and their maintenance vancomycin doses should
+be based on serum concentration
+monitoring.132
+Vancomycin dosing in patients
+with acute or chronic kidney failure
+has transformed over time due to
+the changes in dialysis technology
+and techniques.133 Older (pre-1990s)
+hemodialyzers were not very permeable to large molecules. Vancomycin
+(with a molecular weight of 1,450 Da)
+was not considered “dialyzable” because it poorly crossed the hemodialysis membranes of the era. Indeed,
+even today’s vancomycin package insert, based on PK studies conducted
+in the 1980s, states that “vancomycin
+is poorly removed by dialysis.” 134 As
+hemodialysis membrane technology
+has improved, dialyzers have become
+far more permeable. Vancomycin is
+cleared substantially by contemporary
+high-permeability hemodialyzers135,136;
+consequently, vancomycin dosing
+strategies have changed substantially
+as well. For example, in spite of the
+package insert statement “In anuria,
+a dose of 1000 mg every 7 to 10 days
+has been recommended” and the
+statement that “vancomycin is poorly
+removed by dialysis,” 134 far more frequent doses are needed to maintain
+therapeutic serum concentrations in
+patients receiving hemodialysis. The
+extent of vancomycin removal by dialysis is dependent on the permeability
+of the hemodialyzer used131; consequently, investigators have developed
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020
+
+and published a wide variety of vancomycin dosing protocols in an attempt to
+compensate for the increase in vancomycin dialytic CL caused by increases
+in dialyzer permeability.
+An added complication of appropriate vancomycin dosing in patients
+receiving hemodialysis is the prevailing
+practice of administering the drug during
+the final hours of the hemodialysis process, thus resulting in some of the infused
+drug being removed immediately by the
+hemodialyzer. This practice started back
+when low-permeability dialyzers were
+used and little vancomycin was eliminated by hemodialysis. The practice has
+persisted at most dialysis units because
+most dialysis units treat 3 shifts of patients
+per day, and holding a dialysis chair for
+60 to 90 additional minutes while vancomycin infuses into a patient is not cost-effective. Indeed, it is more cost-effective
+to infuse “extra” vancomycin during the
+hemodialysis session to compensate for
+intradialytic loss than it is to keep a dialysis unit open later to allow vancomycin
+infusions. Intradialytically infused vancomycin results in reduced delivery of drug
+to the patient, similar to a first-pass phenomenon. The extent of intradialytic drug
+removal is variable and depends on patient and dialysis system factors, the most
+important of which is dialyzer membrane
+permeability.135,137-139 Approximately 20%
+to 40% of an intradialytically administered vancomycin dose is removed by
+the simultaneous hemodialysis, with the
+highly permeable dialyzers tending to the
+higher end of this range.137,140,141
+Maintenance dosing strategies that
+do not provide a dose with every hemodialysis session (eg, a maintenance
+dose is given with every second or
+third hemodialysis session) have been
+studied,102,142,143 but none have been
+found to meet vancomycin exposure
+goals in the last day of the dosing interval without giving massive doses
+that result in very high peak concentrations. Consequently, maintenance
+vancomycin doses are recommended
+to be administered with each hemodialysis session to ensure therapeutic
+serum concentrations throughout
+the dosing interval. In the typical
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+estimate of vancomycin clearance
+and the target AUC in obese patients.
+Empiric maintenance doses for most
+obese patients usually do not exceed
+4,500 mg/day, depending on their
+renal function (B-II). Early and frequent monitoring of AUC exposure is
+recommended for dose adjustment,
+especially when empiric doses exceed
+4,000 mg/day (A-II). Measurement
+of peak and trough concentrations is
+recommended to improve the accuracy of vancomycin AUC estimation
+and maintenance dose optimization in obese patients, aligning
+with recommendations 2 and 5 for
+nonobese adults.
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+other patient populations have not been
+conducted in the hemodialysis population. While determination of AUC/MIC
+attainment is recommended, limited
+serum concentration monitoring is possible in patients receiving hemodialysis
+in the outpatient setting for 2 reasons. The
+first reason is that frequent phlebotomy
+must be avoided in order to preserve
+future hemodialysis vascular access
+needs; the second is that it is impractical to obtain blood samples aside from
+the predialysis sample that is obtained
+from the blood catheter inserted for use
+in the dialysis process. Patients leave the
+dialysis unit after hemodialysis and do
+not return until the next dialysis session
+days later. Consequently, since data are
+unavailable for an optimal AUC target in
+these patients, and no data are available
+to demonstrate efficacy below an AUC
+threshold value of 400, the goal should
+be to attain the AUC target of 400 to 600
+mg·h/L used in other patient populations. It is most practical to continue
+monitoring based on predialysis concentrations and extrapolate these values
+to estimate AUC. Maintaining predialysis
+concentrations between 15 and 20 mg/L
+is likely to attain the AUC target of 400
+to 600 mg·h/L in the previous 24 hours,
+with higher AUC/MIC values occurring
+on days prior.
+
+Summary and
+recommendations:
+13. The following tabulation outlines
+recommended vancomycin loading
+and maintenance doses for patients receiving hemodialysis, with
+accounting for permeability of the
+dialyzer and whether the dose is administered intradialytically or after
+dialysis ends (B-II).
+Timing and Dialyzer
+Permeability
+
+Vancomycin
+Dose, mg/kga
+
+After dialysis ends
+Low permeability
+
+Loading: 25
+Maint.: 7.5b
+
+High permeability
+
+Loading: 25
+Maint.: 10b
+
+AM J HEALTH-SYST PHARM
+
+|
+
+Timing and Dialyzer
+Permeability
+
+Vancomycin
+Dose, mg/kga
+
+Intradialytic
+Low permeability
+
+Loading: 30
+Maint.: 7.5-10b
+
+High permeability
+
+Loading: 35
+Maint.: 10-15b
+
+From references 104, 129, 130, 137, 138, 140,
+and 147.
+b
+Thrice-weekly dose administration.
+a
+
+14. Since efficacy data are unavailable
+for AUC values of <400 mg·h/L,
+monitoring based on predialysis
+serum concentrations and extrapolating these values to estimate AUC
+is most practical. Maintaining
+predialysis concentrations between 15 and 20 mg/L is likely
+to achieve the AUC of 400 to 600
+mg·h/L in the previous 24 hours
+(C-III). Predialysis serum concentration monitoring should be
+performed not less than weekly and
+should drive subsequent dosing, as
+opposed to a strict weight-based
+recommendation, although these
+recommended doses provide a
+useful starting point until serum
+concentrations have been determined (B-II).
+
+Hybrid hemodialysis therapies. Contemporary renal replacement therapies used to treat kidney
+disease have expanded well beyond
+thrice-weekly, 3- to 4-hour hemodialysis sessions. In the outpatient setting,
+shorter, more frequent home hemodialysis treatments are used in a growing
+number of patients. In the inpatient setting, various types of “hybrid” hemodialysis therapies are employed. These
+hybrid treatments go by many names,
+including prolonged intermittent renal
+replacement therapy (PIRRT) and
+slow-low efficiency dialysis (SLED).
+Essentially these hybrid therapies use
+standard hemodialysis machines that
+run at slower blood and dialysate flow
+rates and for longer durations (usually
+6 to 12 hours per day). Even hemodialysis itself differs in the inpatient and
+outpatient settings, as patients with AKI
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020  847
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+thrice-weekly hemodialysis schedule,
+25% larger doses are needed for the
+3-day interdialytic period (eg, Friday to
+Monday) to maintain sufficient vancomycin exposure on the third day.130,144
+Dosing that is weight based appears to be superior to standard dosing
+schemes that do not account for patient
+size. Further, doses should be based on
+actual body weight rather than a calculated body weight (see Dosing in Obesity
+section for considerations on how to
+dose morbidly obese patients). Because
+vancomycin is water soluble, vancomycin dosing in fluid overloaded patients
+should also be based on actual body
+weight at the time of dosing rather than
+on some calculated adjusted weight.102-105
+Serum concentration monitoring
+is a valuable tool to guide vancomycin
+dosing in patients receiving dialysis,
+provided that serum concentrations are
+obtained and interpreted correctly. For
+example, blood sampling for assessment of vancomycin concentrations
+should not occur during or for at least
+2 hours after a hemodialysis treatment.
+These samples will not be reflective of
+the true vancomycin body load because
+of the dialytic removal of vancomycin.
+Vancomycin serum concentrations will
+be low immediately following a dialysis
+treatment but will rebound substantially as drug redistributes from the tissues back to the blood over the next few
+hours.131,142,145 Dosing decisions based
+on serum concentrations obtained
+during or soon after hemodialysis will
+be inherently incorrect and could result in administration of doses higher
+than necessary.145 Serum concentration
+monitoring performed with blood samples obtained prior to the hemodialysis
+treatment is recommended to guide
+dosing, although other serum concentration monitoring techniques have
+been suggested.146
+Dosing to achieve predialysis vancomycin concentrations of 10 to 20 mg/L,
+as has been conducted clinically,129 results in mean AUC24 values ranging from
+250 to 450 mg·h/L, often below the AUC/
+MIC goals recommended in other populations.130 Outcome studies validating the
+AUC target of 400 to 600 mg·h/L used in
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+Summary and
+recommendations:
+15. Loading doses of 20 to 25 mg/kg
+actual body weight should be used,
+
+848
+
+AM J HEALTH-SYST PHARM
+
+|
+
+recognizing that these hybrid dialysis
+therapies efficiently remove vancomycin (B-III). Initial doses should not
+be delayed to wait for a dialysis treatment to end. Maintenance doses of
+15 mg/kg should be given after hybrid
+hemodialysis ends or during the final
+60 to 90 minutes of dialysis, as is done
+with standard hemodialysis (B-III).130
+Concentration monitoring should
+guide further maintenance doses.
+
+Continuous renal replacement
+therapies.
+The use of continuous
+renal replacement therapy (CRRT) modalities like continuous venovenous
+hemofiltration (CVVH), continuous
+venovenous hemodialysis (CVVHD), and
+continuous venovenous hemodiafiltration
+(CVVHDF) has grown in popularity in
+critically ill patients with AKI because of
+their superior ability to provide fluid and
+solute balance. Provided these therapies
+operate in an uninterrupted fashion,
+vancomycin CL is relatively constant
+over the dosing interval, although CL
+may decline as the hemodiafilter clogs
+over time.151 Vancomycin is removed
+by CRRT and its CL is related closely to
+the rate of ultrafiltrate/dialysate flow,105
+with hemodiafilter type being of lesser
+importance, because contemporary
+hemodiafilters are all very permeable to
+the drug.
+In patients on CRRT, serum concentration attainment goals often are not met
+with conventional dosing.84,152 Although
+outcomes studies specific to patients receiving CRRT have not been conducted,
+it seems prudent to apply the same vancomycin AUC/MIC target (ie, 400-600)
+in these critically ill patients as is recommended throughout this document.
+
+Summary and
+recommendations:
+16. Loading doses of 20 to 25 mg/kg by
+actual body weight should be used
+in patients receiving CRRT at conventional, KDIGO-recommended
+effluent rates of 20 to 25 mL/kg/h
+(B-II).153 Initial maintenance
+dosing for CRRT with effluent rates
+of 20 to 25 mL/kg/h should be 7.5
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020
+
+to 10 mg/kg every 12 hours (B-II).
+Maintenance dose and dosing interval should be based on serum concentration monitoring, which should
+be conducted within the first 24
+hours to ensure AUC/MIC targets are
+met.154 In fluid overloaded patients,
+doses may be reduced as patients
+become euvolemic and drug Vd decreases. The use of CI of vancomycin
+in patients receiving CRRT appears
+to be growing,84,105 and this method
+could be used in place of intermittent
+vancomycin dosing, especially when
+high CRRT ultrafiltrate/dialysate
+flow rates are employed (B-II).
+
+Pediatric Patients
+In 2011, prior to the availability of
+alternative agents for MRSA in pediatrics, vancomycin was recommended
+as the drug of choice for invasive MRSA
+infections in children.5 Although there
+are limited prospective, comparative
+data on the value of vancomycin therapeutic monitoring in adults with respect
+to improving outcomes and decreasing
+toxicity, virtually no prospectively collected data on outcomes of MRSA infection in newborns, infants and children
+exist. Further, for newborns (particularly premature infants) compared with
+older infants, immature renal elimination mechanisms and a relative increase
+in Vd by body weight further complicate
+dosing guidelines during the first several weeks of life. Additional complexity
+for dosing strategies during early childhood is based on a continual maturation
+of glomerular filtration, which is directly
+related to vancomycin CL. The glomerular filtration rate increases through the
+first years of life to rates in school-aged
+children that are greater than those in
+adults, with subsequent decline during
+the teen years to adult normal rates.
+Such a diversity of PK parameter values
+based on developmental pharmacology
+from neonates to adolescents provides a challenge to develop generalized vancomycin dosing. However, this
+has improved with the application of
+population-based PK models using allometric scaling and renal maturation
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+are often hemodynamically unstable
+and lack sufficient vascular access for
+robust blood flow through the dialysis
+vascular access. All these hybrid dialysis therapies clear vancomycin to a
+different extent than standard intermittent hemodialysis.148,149 The timing of
+the vancomycin dose in relation to the
+hybrid hemodialysis session is essential in determining a dosing regimen.
+If hybrid hemodialysis is started soon
+after the dose is administered, much of
+the dose will be removed, whereas the
+same vancomycin dose given after the
+dialysis session ends will yield a much
+larger AUC24 and much higher average
+serum concentrations. As is the case
+with any hemodialysis therapy, serum
+concentrations obtained during or
+within 2 hours from the end of hemodialysis will be artificially low because
+dialysis will have efficiently removed
+vancomycin from the blood, and vancomycin located in the tissues will not
+have had time to redistribute back into
+the bloodstream. Calculation of maintenance doses based on an intra- or
+postdialytic vancomycin serum concentration may result in doses that are
+too high. Caution is recommended in
+basing any maintenance dosing on
+these serum concentration values.
+Little has been published on the
+patient outcomes achieved when vancomycin is used in patients receiving
+hybrid dialysis. Authors of one small
+case series of 27 courses of vancomycin
+given to patients receiving a hybrid hemodialysis therapy reported that prescribers have tried a wide variety of
+dosing schemes.150 By these authors’
+criteria, 89% of the prescribed vancomycin doses in their institution were
+too low. Given the absence of outcome
+data in patients receiving these therapies, it seems prudent to use the same
+vancomycin AUC goal recommended
+throughout this document (400 to 600
+mg·h/L assuming a MIC of 1 mg/L).
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+and outcomes data to support the
+higher end of the AUC target range in
+pediatrics, it is prudent to aim for an
+AUC/MIC of 400 in pediatrics to limit
+the development of exposure-related
+AKI. Furthermore, in pediatrics, an
+AUC/MIC target of 400 is more readily
+achievable than it is in adults and correlates to trough concentrations of 7
+to 10 mg/L rather than concentrations
+of 15 to 20 mg/L as are reported in
+adults. This wide variability in trough
+concentrations between these populations with regard to achieving an AUC/
+MIC of 400 corroborates the need for
+an AUC-guided approach to dosing
+and monitoring. It is possible that in
+otherwise healthy children with fewer
+comorbidities than are typically seen
+in adults, a lower target may yield outcomes equivalent to an AUC of 400 to
+600 mg·hr/L. The decision to retain or
+increase AUC target exposure should
+be based on clinical judgment in the
+management of these patients.
+With use of currently recommended
+vancomycin dosages of 45 to 60 mg/
+kg/day, widespread treatment failures
+in children have not been reported in
+the literature, which may be reflective
+of a younger host with a more robust
+systemic and immunologic response
+to infection, a different management
+approach (surgical and antibiotic) to
+invasive MRSA infection, lack of associated comorbidities, or publication bias.
+Prospective comparative clinical trials
+involving children with documented
+infections treated with different vancomycin dosages or exposures have not
+been published.
+Empiric maintenance regimen.
+Published retrospective PK/PD data
+in children suggest that current vancomycin dosing of 45 to 60 mg/kg/day
+(in divided doses administered every
+6 to 8 hours) may be insufficient to
+achieve currently recommended targets for adults of an AUC of 400 to 600
+mg·h/L (assuming a MIC of 1 mg/L).1
+In fact, higher dosages, ranging from
+60 to 80 mg/kg/day and given in divided doses every 6 hours, may be
+needed to achieve these targets for
+MRSA strains with a vancomycin MIC
+AM J HEALTH-SYST PHARM
+
+|
+
+of 1 mg/L or less, p
+­ resumably as a result of greater vancomycin CL than is
+seen in adults.1,161-164 For children infected by MRSA pathogens with a MIC
+of >1 mg/L, it is unlikely that the target
+exposure can be reliably achieved with
+previously investigated dosages of vancomycin in children.
+Le and colleagues164 utilized
+population-based PK modeling to analyze 1,660 vancomycin serum concentrations obtained at 2 institutions
+from 2003 to 2011 among 702 children
+older than 3 months of age with varying
+comorbidities. They demonstrated that
+4 important factors (age, weight, renal
+function as assessed by SCr, and MIC)
+contributed to vancomycin exposure.
+Monte Carlo simulations were created
+using population-based PK modeling
+with Bayesian estimation and MICs of
+clinical isolates as determined by Etest,
+with 85% of clinical isolates demonstrated to have a MICEtest of 1 mg/L or
+less. To achieve an AUC/MICEtest of ≥400
+in 90% of subjects, a dosage of 80 mg/kg/
+day was necessary, particularly in those
+less than 12 years of age with normal
+renal function. At a dosage of 80 mg/
+kg/day, the median AUC and median
+trough concentration were 675 mg·h/L
+and 16 mg/L, respectively. As expected,
+subjects 12 years of age or older achieved
+similar exposure at lower dosages of 60
+to 70 mg/kg/day. At a dosage of 60 to
+70 mg/kg/day (divided doses administered every 6 hours), an AUC of 400
+mg·h/L correlated to a mean trough of 8
+to 9 mg/L.164 The clinical applicability of
+this PK model for vancomyin CL estimation to determine AUC exposure was validated in a small study by Ploessl et al.165
+Other studies corroborated Le and
+colleagues’ findings regarding the need
+to use higher dosages, ranging from 60
+to 80 mg/kg/day, depending on age and
+renal function.162,164,166,167 Using the literature for vancomyin CL published in or
+before 2000 and Bayesian estimation
+for one 25-kg base subject, Frymoyer
+et al163 evaluated the relationship between AUC and trough concentrations,
+showing that a dosage of 60 mg/kg/day
+achieved trough concentrations of 7 to
+10 mg/L and an AUC/MIC of ≥400 in
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020  849
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+covariates. In a population-based PK
+study by Colin and colleagues155 that
+evaluated vancomycin PK throughout
+the entire age continuum from infancy
+to geriatric years using pooled data from
+14 studies, age, weight, and kidney function were important factors in estimating
+clearance. Careful monitoring in the
+pediatric population is prudent, especially with the evident dynamic changes
+in renal function in this population. As
+with adults, comorbidities and concurrent medications can influence vancomycin tissue distribution, elimination,
+and toxicity.
+Limitation of outcomes data.
+Recent retrospective studies on bacteremic S. aureus infections (both
+MRSA and MSSA strains) in children
+treated with vancomycin suggest that
+trough concentrations of >15 mg/L
+were not associated with improved
+outcomes, yet an increase in AKI
+was observed.156-158 Furthermore, another retrospective pediatric study
+evaluating outcomes of MRSA bacteremia as a function of an AUC/
+MICBMD of ≥400 did not show improved outcomes.159 Similarly, vancomycin trough concentrations of
+<10 mg/L, as compared with concentrations of >10 mg/L, were not associated with increased 30-day mortality
+and recurrent bacteremia in children, although the lower concentrations were associated with prolonged
+bacteremia.160
+In the absence of prospective, comparative outcomes data in children regarding unique AUC/MIC exposures
+necessary for clinical and microbiologic success in treating serious MRSA
+infections in different neonatal and
+pediatric populations to validate the
+observations reported in adults (see
+Clinical PK/PD Data: Adults section),
+dosing in children should be designed
+to achieve an AUC of 400 mg·h/L and
+potentially up to 600 mg·h/L (assuming
+a MIC of 1 mg/L). This PD target range,
+specifically a range closer to an AUC/
+MIC of 400 rather than 600, has been
+widely used by investigators to model
+pediatric dosing and therapeutic monitoring. With inadequate PK studies
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+850
+
+AM J HEALTH-SYST PHARM
+
+|
+
+every 8 hours) in renally impaired children achieved AUC exposure similar to
+that achieved with a dosage of 60 mg/kg/
+day in children with normal renal function. Notably, they showed that in 87%
+of children with initial renal impairment,
+vancomycin CL improved (with a lag in
+the recovery of renal function as assessed
+by SCr) within the first 5 days of therapy,
+indicating some degree of renal function
+recovery, a finding that provides support
+for ongoing vancomycin TDM. In addition, vancomycin CL does not always
+correlate well with renal function (as assessed by creatinine CL) in children, particularly in those who are acutely ill in the
+ICU setting and have varying degrees of
+renal dysfunction. Rapid return of renal
+function may occur over the first few days
+after ICU admission. As such, therapeutic
+monitoring of both serum concentrations
+and renal function should be conducted
+during vancomycin therapy.170,171
+Loading doses. Loading doses
+of 25 to 30 mg/kg for critically ill adults
+have been suggested to achieve steadystate concentrations more quickly, but
+preliminary data on pediatric patients
+suggest that the benefit of a loading
+dose of 30 mg/kg is quickly lost if the
+maintenance dose is insufficient to
+provide adequate ongoing exposure.167
+However, the concept of a loading dose
+accompanied by a daily maintenance
+dose sufficient to achieve the target
+exposure and initiated at a specified
+time after the loading dose should be
+investigated.
+Minimizing AKI risk. Similar to
+the literature on adults, the literature
+in pediatrics suggests, in aggregate,
+that the risk of AKI increases as a function of vancomycin exposure, especially when the trough concentration
+exceeds 15 to 20 mg/L. In fact, Fiorito
+and colleagues158 reported in a recent
+meta-analysis of 10 pediatric studies
+that troughs of ≥15 mg/L increased the
+OR for AKI by 2.7-fold (95% confidence
+interval, 1.82-4.05) and that AKI was
+further correlated with a stay in the pediatric ICU. McKamy and colleagues172
+published results of the first study that
+uncovered the association between
+vancomycin trough concentrations
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020
+
+greater than 15 to 20 mg/L and AKI in
+pediatric patients. In addition, they
+showed that children who received concurrent nephrotoxic drugs (particularly
+furosemide) and stayed in the pediatric
+ICU were also more likely to experience AKI. Four studies published later
+corroborated these findings, indicating
+that the interplay of multiple factors
+in addition to vancomycin exposure
+contributed to AKI.173-176 Interestingly,
+Sinclair et al174 reported that a 5-mg/kg
+dose augmentation or each additional
+day of vancomycin use increased the
+risk of AKI. Knoderer and colleagues173
+evaluated late-onset AKI (defined as
+occurring after 7 days of vancomycin
+therapy) and observed that young age
+(<1 year) was independently associated
+with late AKI.
+One pediatric study evaluated the
+relationship of AKI with vancomycin
+AUC and trough concentrations, both
+derived by Bayesian estimation. Le
+and colleagues19 conducted a large
+population-based PK analysis using
+1,576 serum concentrations collected
+from 680 pediatric subjects. A continuous exposure-response relationship
+was observed, with 10%, 33%, and 57%
+of patients who respectively achieved
+AUC values of ≥400, 800, and 1,000
+mg·h/L experiencing AKI. Even after
+adjusting for ICU stay and concomitant use of nephrotoxic drugs, an AUC
+of ≥800 mg·h/L and trough concentrations of ≥15 mg/L were independently
+associated with a greater than 2.5-fold
+increased risk of AKI. The linkage of
+AUC to AKI, along with the strong correlation between AUC and trough concentrations (Spearman’s coefficient,
+0.963; P < 0.001), reinforces AUC as a
+plausible PK/PD parameter for therapeutic monitoring that encompasses
+both therapeutic and toxic responses.
+Vancomycin exposure should be maintained at an AUC of <800 mg·h/L to
+minimize AKI risk. As such, vancomycin dosages of ≥100 mg/kg/day
+should be avoided given that the projected median AUC and trough values
+are 843 mg·h/L and 21 mg/L, respectively, at a dosage of 100 mg/kg/day.164
+However, enhanced renal clearance of
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+90% of children for MRSA pathogens
+with a MIC of 1 mg/L. However, their
+finding may not be extrapolatable to the
+entire pediatric population given the
+variable ages and renal function. In a
+second study, these investigators demonstrated that a dosage of 60 mg/kg/day
+achieved AUC/MICBMD values between
+386 and 583 (assuming a MICBMD of
+1 mg/L) in children 2 to 12 years of age,
+indicating that some younger children
+may require higher doses to achieve
+target AUC/MICBMD.162 The probability
+of target attainment was not provided,
+and dosages above 60 mg/kg/day were
+not evaluated in this study.
+Two retrospective studies that utilized non-Bayesian methods evaluated
+trough concentration targets of 10 to
+20 mg/L (a higher range than that used
+by Le et al164 and Frymoyer et al163, who
+also assessed AUC) in children 1 month
+to 18 years of age. An interesting finding
+of the study of Madigan et al166 was that
+a dosage of 60 mg/kg/day achieved the
+target trough concentration in only 17%
+of preschool-aged children 2 to 5 years
+old, which was the lowest attainment
+for any pediatric age group. Eiland and
+colleagues161 showed that dosages of
+70 to 80 mg/kg/day were necessary to
+achieve trough concentrations of 10 to
+20 mg/L. Another study, by Abdel et al,168
+demonstrated that dosages higher than
+60 mg/kg/day were necessary to achieve
+an AUC/MIC of ≥400 in children with
+cancer. The mean age in this study cohort was 6 (SD, 2.5) years; it is possible
+that young age with greater CL may have
+been a contributing factor for the need
+for an increased dose, an observation
+uncovered in studies by Le et al164 and
+Madigan et al.166
+As a drug that demonstrates renal
+elimination, vancomycin requires dosage
+adjustment in children with acute or
+chronic renal insufficiency. Le and colleagues169 conducted a population-based
+PK analysis with Bayesian methods that
+evaluated 63 case-control pairs (matched
+by age and weight) with 319 vancomycin
+serum concentrations. The mean age of
+this study cohort was 13 (SD, 6) years. The
+investigators reported that a vancomycin
+dosage of 45 mg/kg/day (ie, 15 mg/kg
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+in the various pediatric age groups, and
+the differences in tissue site-of-infection
+drug exposure (eg, common occurrence
+of multifocal complicated osteomyelitis
+in children requiring therapeutic bone
+concentrations, with rare occurrence
+of MRSA endocarditis) suggest that further studies in children that incorporate
+prospective assessment of clinical outcomes and large sample size are needed
+to identify the optimal dosing strategies for MRSA infections in pediatrics.
+Until additional data are available, the
+AUC target used in adults (ie, from 400
+up to 600 mg·h/L [assuming a MIC of
+1 mg/L]) appears to be the most appropriate initial target for vancomycin exposures in all pediatric age groups. For
+most children across the pediatric age
+groups, assuming a vancomycin MIC
+of 1 mg/L, published data suggest that
+a dosage of 60 to 80 mg/kg/day (given in
+divided doses every 6 hours) is required
+to achieve an AUC target of 400 to 600
+mg·h/L.
+
+Summary and
+recommendations:
+17. Based on an AUC target of 400
+mg·h/L (but potentially up to 600
+mg·hr/L, assuming a vancomycin
+MIC of ≤1 mg/L for MRSA) from
+adult data, the initial recommended
+vancomycin dosage for children with
+normal renal function and suspected
+serious MRSA infections (including
+pneumonia, pyomyositis, multifocal
+osteomyelitis, complicated bacteremia, and necrotizing fasciitis) is:
+•	
+60 to 80 mg/kg/day, in divided
+doses given every 6 hours, for children ages 3 months to less than
+12 years or
+•	
+60 to 70 mg/kg/day, in divided
+doses given every 6 to 8 hours, for
+those ≥12 years old (A-II).
+
+The maximum empiric daily dose is
+usually 3,600 mg in children with adequate renal function (C-III). Most
+children generally should not require
+more than 3,000 mg/day, and doses
+should be adjusted based on observed
+AM J HEALTH-SYST PHARM
+
+|
+
+concentrations to achieve the AUC/MIC
+target. Early monitoring of observed
+concentrations is recommended when
+doses exceed 2,000 to 3,000 mg/day (AIII). Furthermore, close monitoring of
+observed concentrations and renal function is prudent in patients with poor or
+augmented renal clearance, as resolution of their renal function abnormalities may occur within the first 5 days of
+therapy.
+18. AUC-guided therapeutic monitoring for vancomycin, preferably
+with Bayesian estimation, is suggested for all pediatric age groups,
+based on developmental changes
+of vancomycin CL documented
+from the newborn to the adolescent.
+Based on current available data,
+the suggestion for AUC-guided
+monitoring in pediatrics aligns with
+the approach for adults, including
+the application of Bayesian estimation for 1 trough concentration
+or first-order PK equations with 2
+concentrations (B-II). The Bayesian
+AUC-guided dosing strategy may be
+an optimal approach to individualize vancomycin therapy in pediatrics since it can incorporate varying
+ages, weights, and renal function.
+Both serum concentrations of vancomycin and renal function should
+be monitored since vancomycin CL
+and CLcr are not always well correlated in pediatrics. Furthermore, aggressive dosing to maintain target
+AUC exposure and decrease the
+risk of potential AKI in treatment
+of MRSA infection necessitates drug
+monitoring.
+19. Therapeutic monitoring may begin
+within 24 to 48 hours of vancomycin
+therapy for serious MRSA infections
+in children, as in adults (B-III). Any
+delay in therapeutic monitoring
+should be based on severity of infection and clinical judgment. Dosing
+adjustment should be made for those
+with renal insufficiency, those with
+obesity (see Pediatric Obesity), and
+those receiving concurrent nephrotoxic drug therapy. Following the
+initial dose, dosing adjustment is
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020  851
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+vancomycin may transiently occur in
+specific situations in children, in which
+case the dose of vancomycin may need
+to be higher than is usually prescribed
+to achieve an AUC of 400 mg·h/L,
+highlighting the need for therapeutic
+monitoring.
+Therapeutic monitoring. Recent
+literature on vancomycin in pediatrics
+has focused primarily on PK analysis
+to support optimal dosing. Le and colleagues177 conducted a populationbased PK analysis in 138 pediatric
+subjects who were more than 3 months
+of age, evaluating 712 serum vancomycin concentrations (collected mostly
+after the third or fourth dose). They
+showed that both accuracy and precision for estimating AUC24 (calculated
+by total daily dose over vancomycin CL,
+with the integration of Bayesian estimation) were improved using 2 concentrations (peak and trough), compared with
+trough-only monitoring. Furthermore,
+the 2-concentration approach improved the prediction of future AUC
+exposure in patients.177 Another study,
+by Stockmann et al,178 evaluated AUC‐
+based vancomycin monitoring in 23
+pediatric patients with cystic fibrosis.
+The researchers demonstrated that
+2 concentrations calculated using a
+standard PK equation and a trough
+concentration calculated using a
+Bayesian population-based PK model
+produced similar AUC estimations.
+Despite the availability of limited
+studies on vancomycin monitoring in
+pediatrics, the findings appear congruent with adult data supporting
+AUC-guided
+therapeutic
+monitoring that incorporates the Bayesian
+method, especially if only a single
+trough concentration is available.
+Furthermore, this AUC-guided monitoring approach also appears prudent
+in order to predict toxicity in light of
+AKI data in pediatrics.
+Overall, there are limited pediatric
+outcomes data to support the AUC
+target correlated with drug effectiveness
+in adults. Some of the differences found
+between adults and children treated for
+MRSA infections with vancomycin include the complexity of vancomycin CL
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+Pediatric obesity. Vancomycin
+is a large glycopeptide molecule that
+is hydrophilic, suggesting that distribution into tissues with high lipid concentrations, such as adipose tissue, is
+decreased, as noted above for adults
+(see Dosing in Obesity section). When
+vancomycin dosing is based on total
+body weight (mg/kg) for both obese
+and nonobese children, serum concentrations have been documented to
+be higher in obese children, assuming
+that renal CL is similar between the 2
+populations.179 Moffett retrospectively
+compared vancomycin pharmacokinetics in 24 obese children who were
+matched with 24 nonobese control
+children.180 Vancomycin dose administration per child was slightly higher
+in the obese children, which resulted
+in increased trough concentrations.
+Similarly, 2 retrospective non-Bayesian
+
+852
+
+AM J HEALTH-SYST PHARM
+
+|
+
+studies by Heble et al181 and Miller
+et al182 documented higher vancomycin
+trough concentrations in overweight
+and obese children, as compared to
+normal-weight children, with dosing
+based on total body weight. No increase
+in AKI was noted in the overweight
+children.182
+Collectively, non-Bayesian studies
+of obese children have evaluated maintenance regimens ranging from 40 to
+80 mg/kg/day (calculated using total
+body weight), with some instituting
+maximum doses of 1 to 2 g over 1 to 2
+hours.180,181,183,184 As an alternative to
+total body weight, one study recommended the use of body surface area to
+dose vancomycin, which necessitates
+establishing a different dosing regimen
+and obtaining height measurements
+that may not always be readily available in clinical practice.185 Body surface area is not typically used for dosing
+medications in children, except for
+chemotherapeutic agents.186
+Using a Bayesian population-based
+PK analysis of 389 vancomycin serum
+concentrations collected from 87
+pairs of obese and nonobese children
+(matched by age and baseline SCr), Le
+and colleagues187 showed that the Vd
+was strongly correlated with actual or
+total body weight and that CL correlated with allometric weight (ie, weight x
+0.75) and body surface area. Using this
+PK model, Nguyen and colleagues164,166
+concluded, using Monte Carlo simulations with Bayesian estimation, that
+vancomycin 60 mg/kg/day dosed by
+total body weight, as compared with
+other weight measures, resulted in the
+highest rate of achievement of the target
+AUC/MIC of ≥400 in obese children (ie,
+the target was achieved in 76% when
+vancomycin was given by total body
+weight, in 66% when given by adjusted
+body weight, and in 31% when given
+by allometric weight). Furthermore,
+when given dosages of vancomycin
+of 60 mg/kg/day by total body weight,
+fewer obese children of <12 vs ≥12 years
+of age achieved an AUC/MIC of ≥400
+(70% and 84%, respectively), an agebased observation also identified in
+nonobese children.164,166 Interestingly,
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020
+
+the use of a 20-mg/kg loading dose
+based on total body weight in obese
+children increased achievement of an
+AUC/MIC of ≥400, especially within the
+first 12 hours of therapy. In addition, 1
+of every 5 obese children had an AUC
+of ≥ 800 mg·h/L, indicating that routine
+therapeutic and safety monitoring is
+prudent.188
+
+Summary and
+recommendations:
+22. Data suggest that obese children are
+likely to have vancomycin exposures
+that may be statistically greater than
+those in normal-weight children when
+doses are calculated on a mg/kg basis,
+but these differences are not known
+to be of sufficient clinical importance
+to suggest different mg/kg empiric
+vancomycin dosages in obese children
+at this time. Similar to nonobese children, obese children < 12 years old,
+compared with those ≥ 12 years, may
+require a higher mg/kg dose (B-II).
+23. Therapeutic monitoring is likely to be
+of particular value in obese children,
+both for therapeutic response and
+the risk of AKI. The specific recommendations for therapeutic monitoring in nonobese children may also
+apply for obese children (B-II).
+24. A loading dose of 20 mg/kg by total
+body weight is recommended in
+obese children (A-III).
+
+Neonates.
+Vancomycin therapeutic monitoring is important in
+neonates, based on developmental
+considerations of prominent increasing
+renal function that occurs over the
+first several weeks of life.189 Models to
+predict vancomycin dosing have variously
+incorporated
+weight-based
+dosing, chronologic age–based dosing,
+postmenstrual age–based dosing, SCrbased dosing (except for the first week of
+life, when transplacental maternal creatinine in the neonatal circulation renders neonatal SCr values inaccurate in
+estimating renal function), or combinations of these strategies. Regardless of
+which model is used, therapeutic monitoring in the neonate is essential due to
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+important for those with acute renal
+insufficiency, but subsequent adjustment (particularly within the first
+5 days of therapy) may be necessary
+for those experiencing recovery of
+renal function. Sustained or subsequent decreases in dosage may be
+needed, particularly for those with
+chronic renal insufficiency and those
+receiving concurrent nephrotoxic
+drug therapy (B-III).
+20. Vancomycin exposure may be optimally maintained below the thresholds for AUC of 800 mg·h/L and for
+trough concentrations of 15 mg/L to
+minimize AKI (B-II). The safety of
+vancomycin dosages above 80 mg/
+kg/day has not been prospectively
+evaluated. Avoiding vancomycin
+dosages of ≥100 mg/kg/day is suggested since they are likely to surpass
+these thresholds (B-III).
+21. Insufficient data exist on which
+to base a recommendation for a
+loading dose among the nonobese
+pediatric population. Loading
+doses from adult studies may be
+considered, but further studies are
+needed to elucidate the appropriate
+dose for the various pediatric populations from the neonate to adolescent (C-III).
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+PK analysis was conducted to create
+a model for vancomycin CL that was
+based on weight, postmenstrual age,
+and SCr (measured by a modified kinetic Jaffé reaction). Monte Carlo
+simulations with Bayesian estimation
+demonstrated that trough concentrations ranging from 7 to 11 mg/L were
+highly predictive of an AUC24 of >400
+mg·h/L in at least 90% of neonates.
+Dosages to achieve this PK/PD target
+ranged from 15 to 20 mg/kg every 8 to 12
+hours, depending on postmenstrual age
+and SCr.194 Stockmann et al196 later supported the predictive performance and
+generalizability of this model in their
+study of 243 neonates with 734 vancomycin concentrations. While a trough
+concentration of 11 mg/L predicted the
+attainment of an AUC of ≥400 mg·h/L
+in 93% of neonates, Stockmann and
+colleagues noted that a trough concentration alone did not precisely predict
+AUC and concluded that Bayesian approaches to support vancomycin dosing
+decisions for neonates in the clinical
+setting are needed.196 Furthermore, Cies
+et al197 reported differences in vancomycin pharmacokinetics, in particular
+rapid vancomycin CL, in neonates with
+extracorporeal oxygenation life support, reiterating the need for Bayesianderived dosing decision support in this
+vulnerable population. Lastly, Leroux
+et al198 demonstrated the success of the
+clinical integration of a model-based
+vancomycin dosing calculator, developed from a population PK study, that
+was successful in improving the rate of
+attainment of a serum concentration of
+15 to 25 mg/L from 41% to 72% without
+any cases of AKI.
+As an alternative to intermittent administration, CI of vancomycin has been
+evaluated in infants. In a multicenter,
+randomized controlled trial involving
+111 infants less than 90 days of age, Gwee
+et al199 showed that the use of CI resulted
+in fewer dose adjustments and a lower
+mean daily dose than intermittent administration. The target trough concentrations were 10 to 20 mg/L for II, and the
+steady-state concentrations were 15 to
+25 mg/L for CI. The AUC and clinical outcomes, including nephrotoxicity, could
+AM J HEALTH-SYST PHARM
+
+|
+
+not be evaluated rigorously in this study
+due to the small sample size. Overall,
+the clinical utility of CI in neonates requires further evaluation, as the most
+common pathogen causing late-onset
+sepsis requiring vancomycin therapy is
+Staphylococcus epidermidis, with limited
+cases of S. aureus sepsis. While the optimal AUC/MIC target for S. epidermidis
+is not well studied, a lower target may be
+reasonable, but further data to support
+this recommendation are needed.
+The incidence of vancomycinassociated AKI reported in neonates
+has been low, ranging from 1% to
+9%.200 Nonetheless, a positive correlation between increasing vancomycin
+trough concentrations and AKI has
+been reported by Bhargava et al.201
+Furthermore, in a large, retrospective, multicenter, propensity score–
+matched cohort study of 533 neonates
+receiving vancomycin and gentamicin
+and 533 receiving gentamicin alone,
+Constance et al202 concluded that AKI
+was not associated with vancomycin
+alone but may occur in the presence
+of other recognized risk factors, including patent ductus arteriosus,
+concomitant nonsteroidal anti-inflammatory drug use, 1 or more positive blood cultures, low birth weight,
+and higher scores for severity of illness and risk of mortality.
+
+Summary and
+recommendations:
+25. Doses recommended to achieve an
+AUC of 400 mg·h/L (assuming a MIC
+of 1 mg/L) in neonates and infants
+up to 3 months old range from 10
+to 20 mg/kg every 8 to 48 hours,
+depending on postmenstrual age,
+weight, and SCr (A-II). AUC-guided
+therapeutic dosing and monitoring,
+preferably with Bayesian estimation,
+can best achieve the target vancomycin exposure likely to be required
+for a successful outcome of treatment for a MRSA infection for all
+neonates, regardless of gestational
+and chronologic age. The specific
+recommendations for AUC-guided
+therapeutic monitoring in children
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020  853
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+the rapid maturation of renal function
+over the first weeks of life.
+Mehrotra et al190 compared 4 models
+for predicting vancomycin serum concentrations, based on their population
+PK model, using a standard weightbased dose, a postmenstrual age–based
+dose, a postmenstrual and postnatal
+age–based dose, and a SCr-based dose.
+Serum creatinine–based dosing predicted trough concentrations with the
+smallest variability in both term and preterm neonates. However, for those who
+wish to achieve a target exposure based
+on high trough concentrations within a
+narrow range of 15 to 20 mg/L, it should
+be noted that only 13% to 21% of neonates were within this range across the
+4 dosing regimens. Marqués-Miñana
+et al191 also developed a population PK
+model and proposed dosing based on
+postmenstrual age. SCr-based rather
+than postmenstrual or postconceptional
+age–based dosing has been supported
+by Irikura et al192 and Capparelli et al.193
+However, when evaluating published
+neonatal PK models, no consensus on
+an optimal dosing regimen was achieved
+by experts on neonatal vancomycin,
+Zhao et al reported.194 After evaluating
+the predictive performance of 6 models,
+Zhao et al concluded the importance of
+evaluating analytical techniques for SCr
+and vancomycin concentrations best
+explained the variability of predictions
+between the models. Zhao et al found
+that the Jaffé method overestimated SCr
+concentrations when compared to the
+enzymatic method and that for vancomycin concentrations, the fluorescence
+polarization immunoassay method
+and enzyme-multiplied immunoassay
+method assays showed different predictive performances as well.194
+With the knowledge that AUC, as
+compared with trough concentrations,
+is a more achievable target in pediatrics, Frymoyer and colleagues195 evaluated the association between AUC and
+trough concentrations in neonates.
+Using 1,702 vancomycin concentrations
+(measured by the homogenous particleenhanced turbidimetric inhibition
+immunoassay) collected from 249 neonates up to 3 months of age, population
+
+854
+
+AM J HEALTH-SYST PHARM
+
+6. The pharmacokinetics of continuous infusion suggest that such regimens may be a reasonable alternative to conventional intermittent infusion dosing when the AUC target
+cannot be achieved (B-II).
+
+VOLUME 77
+
+NUMBER 11
+
+JUNE 1, 2020
+
+|
+
+Continued on next page
+
+9. Doses of 15 to 20 mg/kg (based on actual body weight) administered every 8 to 12 hours as an intermittent infusion are recommended for most patients with normal renal function when assuming a MICBMD of 1 mg/L (A-II). In patients with normal renal function, these doses may not achieve therapeutic AUC/MIC targets when the MIC is 2 mg/L.
+
+8. Given the narrow vancomycin AUC range for therapeutic effect and minimal associated risk of acute kidney injury (AKI), the most accurate and optimal way to manage vancomycin dosing should be through AUC-guided dosing and monitoring (A-II). We recommend to accomplish this in one of two ways:
+a. One approach relies on the collection of 2 concentrations (obtained near the steady-state, post-distributional peak concentration at 1 to 2 hours after infusion and trough at end
+of dosing interval), preferably but not required during the same dosing interval (if possible) and utilizing first-order pharmacokinetic (PK) equations to estimate the AUC (A-II).
+b. The preferred approach to monitor AUC involves the use of Bayesian software programs, embedded with a PK model based on richly sampled vancomycin data as the
+Bayesian prior, to optimize the delivery of vancomycin based on the collection of 1 or 2 vancomycin concentrations, with at least 1 trough. It is preferred to obtain 2 PK samples
+(ie, 1 to 2 hours post infusion and at the end of the dosing interval) to estimate the AUC with the Bayesian approach (A-II). A trough concentration alone may be sufficient to
+estimate the AUC with the Bayesian approach in some patients, but more data across different patient populations are needed to confirm the viability of using trough-only data
+(B-II).
+
+B. ADULTS
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+|
+
+7. Incompatibility of vancomycin with other drugs commonly coadministered in the ICU requires the use of independent lines or multiple catheters when vancomycin is being considered for continuous infusion (A-III).
+
+5. Based on current national vancomycin susceptibility surveillance data, under most circumstances for empiric dosing, the vancomycin MIC should be assumed to be 1 mg/L.
+When the MICBMD is greater than 1 mg/L, the probability of achieving an AUC/MIC target of ≥400 is low with conventional dosing; higher doses may risk unnecessary toxicity, and the decision to change therapy should be based on clinical judgment. In addition, when the MICBMD is less than 1 mg/L, we do not recommend decreasing the dose
+to achieve the AUC/MIC target. It is important to note the limitations in automated susceptibility testing methods, including the lack of precision and variability in MIC results
+depending on the method used (B-II).
+
+|
+
+4. Vancomycin monitoring is recommended for patients receiving vancomycin for serious MRSA infections to achieve a sustained targeted AUC (assuming a MICBMD of 1 mg/L
+unless it is known to be greater or less than 1 mg/L by BMD). Independent of MRSA infection, vancomycin monitoring is also recommended for all patients at high risk for
+nephrotoxicity (eg, critically ill patients receiving concurrent nephrotoxins), patients with unstable (ie, deteriorating or significantly improving) renal function, and those receiving
+prolonged courses of therapy (more than 3 to 5 days). We suggest the frequency of monitoring be based on clinical judgment; frequent or daily monitoring may be prudent for
+hemodynamically unstable patients (eg, those with end-stage renal disease), with once-weekly monitoring for hemodynamically stable patients (B-II).
+
+3. Trough-only monitoring, with a target of 15 to 20 mg/L, is no longer recommended, based on efficacy and nephrotoxicity data in patients with serious infections due to MRSA
+(A-II). There is insufficient evidence to provide recommendations on whether trough-only or AUC-guided vancomycin monitoring should be used among patients with noninvasive MRSA or other infections.
+
+2. When transitioning to AUC/MIC monitoring, clinicians should conservatively target AUCs for patients with suspected or documented serious infections due to MRSA, assuming
+a vancomycin MICBMD of 1 mg/L or less at most institutions. Given the importance of early, appropriate therapy, vancomycin targeted exposure should be achieved early during
+the course of therapy, preferably within the first 24 to 48 hours (A-II). As such, the use of Bayesian-derived AUC monitoring may be prudent in these cases since it does not require steady-state serum vancomycin concentrations to allow for early assessment of AUC target attainment.
+
+1. In patients with suspected or definitive serious MRSA infections, an individualized target AUC/MICBMD ratio of 400 to 600 (assuming a vancomycin MICBMD of 1 mg/L) should be
+advocated to achieve clinical efficacy while improving patient safety (A-II).
+
+A. ADULTS AND PEDIATRIC PATIENTS
+
+Table 2. Primary Recommendations for Vancomycin Dosing and Therapeutic Drug Monitoring
+
+ASHP REPORT
+GUIDELINE ON VANCOMYCIN MONITORING
+
+|
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020  855
+
+Continued on next page
+
+17. Based on an AUC target of 400 mg · h/L (but potentially up to 600 mg · hr/L assuming a MIC of ≤1 mg/L) from adult data, the initial recommended vancomycin dosage for children with normal renal function and suspected serious MRSA infections is 60 to 80 mg/kg/day, divided every 6 to 8 hours, for children ages 3 months and older (A-II).
+
+C. PEDIATRIC PATIENTS
+
+16. 
+Continuous Renal Replacement Therapy (CRRT): Loading doses of 20 to 25 mg/kg by actual body weight should be used in patients receiving CRRT at conventional, KDIGOrecommended effluent rates of 20 to 25 mL/kg/h (B-II). Initial maintenance dosing for CRRT with effluent rates of 20 to 25 mL/kg/h should be 7.5 to 10 mg/kg every 12 hours (BII). Maintenance dose and dosing interval should be based on serum concentration monitoring, which should be conducted within the first 24 hours to ensure AUC/MIC targets
+are met. In fluid overloaded patients, doses may be reduced as patients become euvolemic and drug Vd decreases. The use of CI vancomycin in patients receiving CRRT appears to be growing, and this method could be used in place of intermittent vancomycin dosing, especially when high CRRT ultrafiltrate/dialysate flow rates are employed (B-II).
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+AM J HEALTH-SYST PHARM
+
+15. Hybrid Dialysis Therapies (eg, Slow-Low Efficiency Dialysis [SLED]): Loading doses of 20 to 25 mg/kg actual body weight should be used, recognizing that these hybrid dialysis
+therapies efficiently remove vancomycin (B-III). Initial doses should not be delayed to wait for a dialysis treatment to end. Maintenance doses of 15 mg/kg should be given
+after hybrid hemodialysis ends or during the final 60 to 90 minutes of dialysis, as is done with standard hemodialysis (B-III). Concentration monitoring should guide further
+maintenance doses.
+
+14. Intermittent Hemodialysis: Since efficacy data are unavailable for an AUC of <400 mg · h/L, monitoring based on predialysis serum concentrations and extrapolating these
+values to estimate AUC is most practical. Maintaining predialysis concentrations between 15 and 20 mg/L is likely to achieve the AUC of 400 to 600 mg · h/L in the previous
+24 hours (C-III). Predialysis serum concentration monitoring should be performed not less than weekly and should drive subsequent dosing rather than a strict weight-based
+recommendation, although these recommended doses provide a useful starting point until serum concentrations have been determined (B-II).
+
+13. Adult Obesity: A vancomycin loading dose of 20 to 25 mg/kg using actual body weight, with a maximum of 3,000 mg, may be considered in obese adult patients with serious
+infections (B-II). Empiric maintenance doses for most obese patients usually do not exceed 4,500 mg/day, depending on their renal function (B-II). Early and frequent monitoring of AUC exposure is recommended for dose adjustment, especially when empiric doses exceed 4,000 mg/day (A-II).
+
+12. In order to achieve rapid attainment of targeted concentrations in critically ill patients with suspected or documented serious MRSA infections, a loading dose of 20 to 35 mg/
+kg can be considered for intermittent administration of vancomycin (B-II). Loading doses should be based on actual body weight and not exceed 3,000 mg. More intensive
+and early therapeutic monitoring should also be performed in obese patients (B-II).
+
+11. The risk of developing nephrotoxicity with CI appears to be similar or lower compared to intermittent dosing when targeting a steady-state concentration of 15 to 25 mg/L and
+a trough concentration of 10 to 20 mg/L, respectively (B-II). Definitive studies are needed to compare drug exposure based on measured AUC24 and factors that predispose to
+development of nephrotoxicity, such as receipt of concomitant nephrotoxins, diuretics, and/or vasopressor therapy in patients receiving continuous vs intermittent infusion of
+vancomycin.
+
+10. Continuous Infusion: Based on current available data, a loading dose of 15 to 20 mg/kg, followed by daily maintenance CI of 30 to 40 mg/kg (up to 60 mg/kg), to achieve a
+target steady-state concentration of 20 to 25 mg/L may be considered for critically ill patients (B-II). AUC24 can be simply calculated when multiplying the steady-state concentration (ie, desired therapeutic range of 20 to 25 mg/L throughout the entire dosing interval) by a factor of 24 (B-II). Attaining the desired drug exposure may be more readily
+accomplished, given the ease of sampling time and dosage adjustment, by changing the rate of infusion, which is a highly desirable feature in critically ill patients (B-II).
+
+B. ADULTS
+
+Table 2. Primary Recommendations for Vancomycin Dosing and Therapeutic Drug Monitoring
+
+Continued from previous page
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+ASHP REPORT
+
+856
+
+21. Vancomycin exposure may be optimally maintained below the thresholds for AUC of 800 mg · h/L and for trough concentrations of 15 mg/L to minimize AKI (B-II). The safety
+of vancomycin above 80 mg/kg/day has not been prospectively evaluated. Avoiding vancomycin dosages of ≥100 mg/kg/day is suggested since they are likely to surpass
+these thresholds (B-III).
+
+|
+
+NUMBER 11
+
+JUNE 1, 2020
+
+|
+
+|
+
+Abbreviations (not defined in body of table): AUC, area under the curve; BMD, broth micodilution; CL, clearance; ICU, intensive care unit; KDIGO, Kidney Disease: Improving Global Outcomes; MIC,
+minimum inhibitory concentration; MRSA, methicillin-resistant Staphylococcus aureus; SCr, serum creatinine; Vd, volume of distribution.
+
+25. Neonates: Dosages recommended to achieve an AUC of 400 mg · hr/L (assuming a MIC of 1 mg/L) in neonates and infants up to 3 months old range from 10 to 20 mg/kg
+every 8 to 48 hours depending on postmenstrual age, weight, and SCr (A-II).
+
+24. Pediatric Obesity: Therapeutic monitoring is likely to be of particular value in obese children, both for therapeutic response and to minimize the risk of AKI. The specific recommendations for therapeutic monitoring in nonobese children may also apply for obese children (B-II). A loading dose of 20 mg/kg by total body weight is recommended in
+obese children (A-III).
+
+23. Pediatric Obesity: Data suggest that obese children are likely to have vancomycin exposures that may be statistically greater than in normal-weight children when doses are
+calculated on a mg/kg basis, but these differences are not known to be of sufficient clinical importance to suggest different mg/kg empiric vancomycin dosages in obese children at this time. Similar to nonobese children, obese children < 12 years old, compared with those ≥ 12 years, may require higher mg/kg doses (B-II).
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+VOLUME 77
+
+22. Insufficient data exist on which to base a recommendation for a loading dose among the nonobese pediatric population. Loading doses from adult studies may be considered,
+but further studies are needed to elucidate the appropriate dose for the various pediatric populations, from neonates to adolescents (C-III).
+
+20. Therapeutic monitoring may begin within 24 to 48 hours of vancomycin therapy for serious MRSA infections in children, as in adults (B-III). Any delay in therapeutic monitoring
+should be based on severity of infection and clinical judgment. Dosing adjustment should be made for those with renal insufficiency, or those with obesity, or for those receiving concurrent nephrotoxic drug therapy. Following the initial dose, dosing adjustment is important for those with acute renal insufficiency, but subsequent adjustment (particularly within the first 5 days of therapy) may be necessary for those experiencing recovery of renal function. Sustained or subsequent decreases in dosage may be needed,
+particularly for those with chronic renal insufficiency and those receiving concurrent nephrotoxic drug therapy (B-III).
+
+AM J HEALTH-SYST PHARM
+
+19. AUC-guided therapeutic monitoring for vancomycin, preferably with Bayesian estimation, is suggested for all pediatric age groups, based on developmental changes of vancomycin CL documented from the newborn to the adolescent. Based on current available data, the suggestion for AUC-guided monitoring in pediatrics aligns with the approach
+for adults, including the application of Bayesian estimation for 1 trough concentration, or first-order PK equations with 2 concentrations (B-II). The Bayesian AUC-guided
+dosing strategy may be an optimal approach to individualize vancomycin therapy in pediatrics since it can incorporate varying ages, weights, and renal function. Both serum
+concentrations of vancomycin and renal function should be monitored since vancomycin CL and creatinine CL are not always well correlated in pediatrics. Furthermore, aggressive dosing to maintain target AUC exposure and decrease the risk of potential AKI in treatment of MRSA infection necessitates drug monitoring.
+
+18. The maximum empiric daily dose is usually 3,600 mg/day in children with adequate renal function (C-III). Most children generally should not require more than 3,000 mg/day,
+and doses should be adjusted based on observed concentrations to achieve the AUC/MIC target. Early monitoring of observed concentrations is recommended when doses
+exceed 2,000 to 3,000 mg/day (A-III). Furthermore, close monitoring of observed concentrations and renal function is prudent in patients with poor or augmented renal clearance as resolution of their renal function may occur within the first 5 days of therapy.
+
+C. PEDIATRIC PATIENTS
+
+Table 2. Primary Recommendations for Vancomycin Dosing and Therapeutic Drug Monitoring
+
+Continued from previous page
+
+ASHP REPORT
+GUIDELINE ON VANCOMYCIN MONITORING
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+should also apply for neonates (see
+recommendation 18, A-III).
+
+To optimize vancomycin use for the
+treatment of serious infections caused
+by MRSA, we recommend targeting an
+AUC/MICBMD ratio of 400 to 600 (assuming an MICBMD of 1 mg/L) for empiric dosing in both adult and pediatric
+patients to maximize clinical efficacy
+and minimize AKI risk. Furthermore,
+the AUC should be therapeutically
+monitored using 1 or 2 postdose concentrations (ie, a peak concentration
+measured after the early vancomycin
+tissue distribution phase and a trough
+level measured prior to the next dose),
+preferably integrating the Bayesian approach. The primary recommendations
+are summarized in Table 2. The successful use of these guideline recommendations to positively impact patient
+outcomes may require multifaceted
+interventions, including educational
+meetings, guideline implementation,
+and dissemination of educational material on vancomycin dosing, monitoring, and nephrotoxicity.203,204 While
+valuable literature pertaining to adults,
+children, and neonates has emerged
+since the last vancomycin guideline,
+future studies in all patient populations are necessary to address existing
+gaps, including (1) efficacy data to support vancomycin use in specific patient populations (including neonates
+and pediatric patients and patients
+with renal disease and obesity) and for
+other types of infections, (2) efficacy
+data for specific pathogens, including
+coagulase-negative
+staphylococcus
+and Streptococcus species; (3) robust
+pediatric efficacy data for MRSA and
+other gram-positive pathogens causing
+different types of serious infections;
+(4) optimal loading and maintenance
+dosing regimens for patients with obesity and renal insufficiency; (5) efficacy
+benefit and the need for a dosing algorithm (specifically incorporating a
+loading dose followed by maintenance
+infusion); and (6) toxicodynamics of
+vancomycin CI in critically ill patients.
+
+Dr. Wong-Beringer received a grant from
+Merck & Co. and consulted for Rempex
+Pharmaceuticals, INSMED, Merck & Co.,
+Nabriva Therapeutics, GlaxoSmithKline,
+Paratek Pharmaceuticals, Achaogen, Inc.,
+Bayer HealthCare, and SIGA Technologies.
+Dr. Bradley served on a planning committee
+for the US Food and Drug Administration
+and European Medicines Agency at the
+American College of Clinical Pharmacy’s
+annual meeting; participated in the design
+of a a pediatric clinical trial; served on an
+executive committee for the United States
+Committee on Antimicrobial Susceptibility
+Testing; and consulted for Achaogen,
+Allergan,
+ContraFect,
+GlaxoSmithKline,
+Janssen, Melinta, Merck, Nabrive, Pfizer,
+Theravance, and Zavante. Dr. Liu received a
+research grant from Nohla Therapeutics and
+was a member of an Independent Efficacy
+Adjudication Committee with Theravance.
+Dr. Le received research awards from the
+Sternfels Prize for Drug Safety Innovation,
+Duke University, the National Institutes of
+Health (NIH) and National Institute of Child
+Health and Human Development, and JMI
+Laboratories; was an invited advisory board
+member for FDA, the Asian Pacific Health
+Foundation, and Infectious Diseases and
+Therapy journal. Dr. Levine served on the data
+safety monitoring board for Contrafect and
+served on an adjudication panel for Novartis.
+Dr. Lodise received grants from the Antibiotic
+Resistance Leadership Group (ARLG), Merck
+& Co, and Motif Bio PLC; served as a health
+outcomes project consultant for Paratek
+Pharmaceuticals, Allergan, Merck & Co.,
+and Melinta Therapeutics; served on advisory boards for Paratek Pharmaceuticals,
+Motif Bio PLC, Achaogen, Nabriva, and
+Tetraphase; served as a consultant to Paratek
+Pharmaceuticals, ARLG, Allergan, Merck &
+Co., Melinta Therapeutics, Motif Bio PLC,
+Achaogen, Nabriva, and Tetraphase; and
+was a speaker for Melinta Therapeutics,
+Tetraphase, and Sunovion. Dr. Maples served
+as an international working group member
+for the European Cystic Fibrosis Society and
+North American Cystic Fibrosis Society,
+served on an advisory panel for the Centers
+for Disease Control and Prevention and Pew
+Charitable Trust, and was on a committee for
+the Arkansas Health Department. Dr. Mueller
+received research grants from Merck & Co.
+and Hope Pharmaceutical and served on an
+advisory board for NxStage and Baxter. Dr.
+Pai received a grant from Merck, Inc., served
+on an advisory board for Shinogi and Paratek
+Pharmaceuticals, and served on the meet the
+professor program for Merck. Dr. Rodvold received a grant from Theravance Biopharm,
+NIH, ARLG, and Allergan; consulted for BLC,
+Entasis, Merck, Paratek Pharmaceuticals,
+Shionogi, Tetraphase, and Wockhardt;
+
+AM J HEALTH-SYST PHARM
+
+|
+
+was a speaker at the American Society for
+Microbiology and European Society for
+Clinical Microbiology and Infectious Diseases
+ASM/ESCMID conference; served on the 2015–
+2019 Program Committee and was 2016–2018
+Program Co-Chairperson for the American
+Microbiology Society; and was a member
+of the 2017–2019 Antimicrobial Resistance
+Committee for IDSA. Dr. Rybak received research grants from Bayer Pharmaceuticals, the
+NIH Research Project Grant (RO1) Program,
+Merck, Allergan, the Michigan Department
+of Health and Human Services, Accelerate
+Diagnostics, Inc., NIH, Contrafect, Motif
+Biosciences, and the Michigan Translational
+Research and Commercialization Program;
+and served as a grant review panel member
+for NIH. The other authors have declared no
+potential conflicts of interest.
+
+References
+
+VOLUME 77
+
+1. Rybak MJ, Lomaestro BM,
+Rotschafer JC, et al. Therapeutic monitoring of vancomycin in adult patients:
+a consensus review of the American
+Society of Health-System Pharmacists,
+the Infectious Diseases Society of
+America, and the Society of Infectious
+Diseases Pharmacists. Am J Health-Syst
+Pharm. 2009; 66(1):82-98.
+2. The periodic health examination.
+Canadian Task Force on the Periodic
+Health Examination. Can Med Assoc J.
+1979; 121(9):1193-1254.
+3. Craig WA. Basic pharmacodynamics
+of antibacterials with clinical applications to the use of beta-lactams,
+glycopeptides, and linezolid.
+Infect Dis Clin North Am. 2003;
+17(3):479-501.
+4. Drusano GL. Antimicrobial pharmacodynamics: critical interactions of
+‘bug and drug’. Nat Rev Microbiol. 2004;
+2(4):289-300.
+5. Liu C, Bayer A, Cosgrove SE, Daum RS
+et al. Clinical practice guidelines by The
+Infectious Diseases Society of America
+for the treatment of methicillinresistant Staphylococcus aureus
+infections in adults and children: executive summary. Clin Infect Dis. 2011;
+52(3):285-292.
+6. Rybak MJ. The pharmacokinetic and
+pharmacodynamic properties of vancomycin. Clin Infect Dis. 2006; 42(Suppl
+1):S35-S39.
+7. Kullar R, Leonard SN, Davis SL et al.
+Validation of the effectiveness of a vancomycin nomogram in achieving target
+trough concentrations of 15-20 mg/L
+suggested by the vancomycin consensus guidelines. Pharmacotherapy.
+2011; 31(5):441-448.
+8. Singh NB, Yim J, Jahanbakhsh S,
+Sakoulas G, Rybak MJ. Impact of
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020  857
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+Conclusion
+
+Disclosures
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+858
+
+AM J HEALTH-SYST PHARM
+
+|
+
+patients with methicillin-resistant
+Staphylococcus aureus infective endocarditis. Antimicrob Agents Chemother.
+2015; 59(6):2978-2985.
+18. Mogle BT, Steele JM, Seabury RW,
+Dang UJ, Kufel WD. Implementation of
+a two-point pharmacokinetic AUCbased vancomycin therapeutic drug
+monitoring approach in patients with
+methicillin-resistant Staphylococcus
+aureus bacteraemia. Int J Antimicrob
+Agents. 2018; 52(6):805-810.
+19. Le J, Ny P, Capparelli E et al.
+Pharmacodynamic characteristics of
+nephrotoxicity associated with vancomycin use in children. J Pediatric Infect
+Dis Soc. 2015; 4(4):e109-e116.
+20. Finch NA, Zasowski EJ, Murray KP
+et al. A quasi-experiment to study the
+impact of vancomycin area under
+the concentration-time curve-guided
+dosing on vancomycin-associated nephrotoxicity. Antimicrob Agents Chemother.
+2017; 61(12):e01293-17.
+21. Zasowski EJ, Murray KP, Trinh TD et al.
+Identification of vancomycin exposuretoxicity thresholds in hospitalized
+patients receiving intravenous vancomycin. Antimicrob Agents Chemother.
+2018; 62(1):e01684-17.
+22. Neely MN, Kato L, Youn G et al.
+Prospective trial on the use of trough
+concentration versus area under the
+curve to determine therapeutic vancomycin dosing. Antimicrob Agents
+Chemother. 2018; 62(2):e02042-17.
+23. Lodise TP, Rosenkranz SL, Finnemeyer M
+et al. The emperor’s new clothes: prospective observational evaluation of the
+association between initial vancomycin
+exposure and failure rates among adult
+hospitalized patients with MRSA bloodstream infections (PROVIDE) [published
+online ahead of print June 3, 2019]. Clin
+Infect Dis. doi.10.1093/cid/ciz460.
+24. Neely MN, Youn G, Jones B et al.
+Are vancomycin trough concentrations adequate for optimal dosing?
+Antimicrob Agents Chemother. 2014;
+58(1):309-316.
+25. Lesar TS, Rotschafer JC, Strand LM,
+Zolem LD, Zaske DE. Gentamicin
+dosing errors with four commonly
+used nomograms. JAMA. 1982;
+248(10):1190-1193.
+26. Patel N, Pai MP, Rodvold KA,
+Lomaestro B, Drusano GL, Lodise TP.
+Vancomycin: we can’t get there
+from here. Clin Infect Dis. 2011;
+52(8):969-974.
+27. Mehta RL, Kellum JA, Shah SV et al.;
+Acute Kidney Injury Network. Acute
+Kidney Injury Network: report of an
+initiative to improve outcomes in
+acute kidney injury. Crit Care. 2007;
+11(2):R31.
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020
+
+28. Roy AK, Mc Gorrian C, Treacy C et al.
+A comparison of traditional and novel
+definitions (RIFLE, AKIN, and KDIGO)
+of acute kidney injury for the prediction
+of outcomes in acute decompensated
+heart failure. Cardiorenal Med. 2013;
+3(1):26-37.
+29. van Hal SJ, Paterson DL, Lodise TP.
+Systematic review and meta-analysis
+of vancomycin-induced nephrotoxicity
+associated with dosing schedules that
+maintain troughs between 15 and 20
+milligrams per liter. Antimicrob Agents
+Chemother. 2013; 57(2):734-744.
+30. Sinha Ray A, Haikal A, Hammoud KA,
+Yu AS. Vancomycin and the risk of
+AKI: a systematic review and metaanalysis. Clin J Am Soc Nephrol. 2016;
+11(12):2132-2140.
+31. Singbartl K, Kellum JA. AKI in the ICU:
+definition, epidemiology, risk stratification, and outcomes. Kidney Int. 2012;
+81(9):819-825.
+32. Linder A, Fjell C, Levin A, Walley KR,
+Russell JA, Boyd JH. Small acute increases in serum creatinine are associated with decreased long-term survival
+in the critically ill. Am J Respir Crit Care
+Med. 2014; 189(9):1075-81.
+33. Suzuki Y, Kawasaki K, Sato Y et al. Is
+peak concentration needed in therapeutic drug monitoring of vancomycin?
+A pharmacokinetic-pharmacodynamic
+analysis in patients with methicillinresistant Staphylococcus aureus
+pneumonia. Chemotherapy. 2012;
+58(4):308-312.
+34. Lodise TP, Patel N, Lomaestro BM,
+Rodvold KA, Drusano GL. Relationship
+between initial vancomycin
+concentration-time profile and nephrotoxicity among hospitalized patients.
+Clin Infect Dis. 2009; 49(4):507-514.
+35. Aljefri DM, Avedissian SN, Rhodes NJ,
+Postelnick MJ, Nguyen K, Scheetz MH.
+Vancomycin area under the curve and
+acute kidney injury: a meta-analysis.
+Clin Infect Dis. 2019; 69(11):1881-1887.
+36. Avedissian SN, Pais GM, O’Donnell JN
+et al. Twenty-four hour pharmacokinetic relationships for intravenous
+vancomycin and novel urinary biomarkers of acute kidney injury in a rat
+model. J Antimicrob Chemother. 2019;
+74(8):2326-2334.
+37. Rhodes NJ, Prozialeck WC, Lodise TP
+et al. Evaluation of vancomycin exposures associated with elevations in novel
+urinary biomarkers of acute kidney
+injury in vancomycin-treated rats.
+Antimicrob Agents Chemother. 2016;
+60(10):5742-5751.
+38. Lodise TP, Graves J, Evans A et al.
+Relationship between vancomycin
+MIC and failure among patients with
+methicillin-resistant Staphylococcus
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+cefazolin co-administration with
+vancomycin to reduce development of vancomycin-intermediate
+Staphylococcus aureus. Diagn Microbiol
+Infect Dis. 2018; 91(4):363-370.
+9. Vidaillac C, Gardete S, Tewhey R
+et al. Alternative mutational pathways to intermediate resistance to
+vancomycin in methicillin-resistant
+Staphylococcus aureus. J Infect Dis.
+2013; 208(1):67-74.
+10. Moise-Broder PA, Forrest A,
+Birmingham MC, Schentag JJ.
+Pharmacodynamics of vancomycin and
+other antimicrobials in patients with
+Staphylococcus aureus lower respiratory
+tract infections. Clin Pharmacokinet.
+2004; 43(13):925-942.
+11. Kullar R, Davis SL, Levine DP, Rybak MJ.
+Impact of vancomycin exposure on
+outcomes in patients with methicillinresistant Staphylococcus aureus bacteremia: support for consensus guidelines
+suggested targets. Clin Infect Dis. 2011;
+52(8):975-981.
+12. Brown J, Brown K, Forrest A.
+Vancomycin AUC24/MIC ratio in patients with complicated bacteremia
+and infective endocarditis due to
+methicillin-resistant Staphylococcus
+aureus and its association with attributable mortality during hospitalization.
+Antimicrob Agents Chemother. 2012;
+56(2):634-638.
+13. Holmes NE, Turnidge JD, Munckhof WJ
+et al. Vancomycin AUC/MIC ratio
+and 30-day mortality in patients with
+Staphylococcus aureus bacteremia.
+Antimicrob Agents Chemother. 2013;
+57(4):1654-1663.
+14. Gawronski KM, Goff DA, Brown J,
+Khadem TM, Bauer KA. A stewardship program’s retrospective evaluation of vancomycin AUC24/MIC and
+time to microbiological clearance in
+patients with methicillin-resistant
+Staphylococcus aureus bacteremia
+and osteomyelitis. Clin Ther. 2013;
+35(6):772-779.
+15. Jung Y, Song KH, Cho Je et al. Area
+under the concentration-time curve
+to minimum inhibitory concentration ratio as a predictor of vancomycin
+treatment outcome in methicillinresistant Staphylococcus aureus bacteraemia. Int J Antimicrob Agents. 2014;
+43(2):179-183.
+16. Lodise TP, Drusano GL, Zasowski E
+et al. Vancomycin exposure in patients with methicillin-resistant
+Staphylococcus aureus bloodstream
+infections: how much is enough? Clin
+Infect Dis. 2014; 59(5):666-675.
+17. Casapao AM, Lodise TP, Davis SL et al.
+Association between vancomycin day 1
+exposure profile and outcomes among
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+IMPACT-HAP Database. Clin Ther. 2012;
+34(1):149-157.
+48. Vance-Bryan K, Rotschafer JC,
+Gilliland SS, Rodvold KA,
+Fitzgerald CM, Guay DR. A comparative assessment of vancomycinassociated nephrotoxicity in the
+young versus the elderly hospitalized
+patient. J Antimicrob Chemother. 1994;
+33(4):811-821.
+49. Jeffres MN, Isakow W, Doherty JA,
+Micek ST, Kollef MH. A retrospective analysis of possible renal toxicity associated with vancomycin in
+patients with health care-associated
+methicillin-resistant Staphylococcus
+aureus pneumonia. Clin Ther. 2007;
+29(6):1107-1115.
+50. Fullmer A, McCue D, Feng C.
+Retrospective review of vancomycininduced nephrotoxicity in patients with
+leukemia. J Oncol Pharm Pract. 2014;
+20(6):403-408.
+51. Chung J, Oh JM, Cho EM et al. Optimal
+dose of vancomycin for treating
+methicillin-resistant Staphylococcus
+aureus pneumonia in critically ill patients. Anaesth Intensive Care. 2011;
+39(6):1030-1037.
+52. Hermsen ED, Hanson M,
+Sankaranarayanan J, Stoner JA,
+Florescu MC, Rupp ME. Clinical outcomes
+and nephrotoxicity associated with vancomycin trough concentrations during treatment of deep-seated infections. Expert
+Opin Drug Saf. 2010; 9(1):9-14.
+53. Hidayat LK, Hsu DI, Quist R,
+Shriner KA, Wong-Beringer A.
+High-dose vancomycin therapy for
+methicillin-resistant Staphylococcus
+aureus infections: efficacy and
+toxicity. Arch Intern Med. 2006;
+166(19):2138-2144.
+54. Kralovicová K, Spanik S, Halko J et al.
+Do vancomycin serum levels predict
+failures of vancomycin therapy or
+nephrotoxicity in cancer patients? J
+Chemother. 1997; 9(6):420-426.
+55. Zimmermann AE, Katona BG,
+Plaisance KI. Association of vancomycin serum concentrations with outcomes in patients with gram-positive
+bacteremia. Pharmacotherapy. 1995;
+15(1):85-91.
+56. Mohr JF, Murray BE. Point: vancomycin
+is not obsolete for the treatment of infection caused by methicillin-resistant
+Staphylococcus aureus. Clin Infect Dis.
+2007; 44(12):1536-1542.
+57. Pai MP, Neely M, Rodvold KA,
+Lodise TP. Innovative approaches to optimizing the delivery of vancomycin in
+individual patients. Adv Drug Deliv Rev.
+2014; 77:50-57.
+58. Diaz R, Afreixo V, Ramalheira E,
+Rodrigues C, Gago B. Evaluation of
+AM J HEALTH-SYST PHARM
+
+|
+
+vancomycin MIC creep in methicillin resistant Staphylococcus aureus
+infections—a systematic review and
+meta-analysis. Clin Microbiol Infect.
+2017; 24(2):97-104.
+59. Diaz R, Ramalheira E, Afreixo V, Gago B.
+Evaluation of vancomycin MIC creep in
+Staphylococcus aureus infections. J Glob
+Antimicrob Resist. 2017; 10:281-284.
+60. Sader HS, Farrell DJ, Flamm RK,
+Jones RN. Activity of ceftaroline and
+comparator agents tested against
+Staphylococcus aureus from patients
+with bloodstream infections in US
+medical centres (2009-13). J Antimicrob
+Chemother. 2015; 70(7):2053-2056.
+61. Pfaller MA, Sader HS, Flamm RK,
+Castanheira M, Smart JI, Mendes RE. In
+vitro activity of telavancin against clinically important gram-positive pathogens
+from 69 U.S. medical centers (2015): potency analysis by U.S. Census Divisions.
+Microb Drug Resist. 2017; 23(6):718-726.
+62. Duncan LR, Sader HS, Smart JI,
+Flamm RK, Mendes RE. Telavancin
+activity in vitro tested against a worldwide collection of gram-positive clinical
+isolates (2014). J Glob Antimicrob Resist.
+2017; 10:271-276.
+63. Mouton JW, Meletiadis J, Voss A,
+Turnidge J. Variation of MIC measurements: the contribution of strain and
+laboratory variability to measurement
+precision. J Antimicrob Chemother.
+2018; 73(9):2374-2379.
+64. Heil EL, Claeys KC, Mynatt RP et al.
+Making the change to area under the
+curve-based vancomycin dosing.
+Am J Health-Syst Pharm. 2018;
+75(24):1986-1995.
+65. Jelliffe RW, Schumitzky A. Modeling,
+adaptive control, and optimal drug
+therapy. Med Prog Technol. 1990;
+16(1-2):95-110.
+66. Bayard DS, Jelliffe RW. A Bayesian
+approach to tracking patients having
+changing pharmacokinetic parameters.
+J Pharmacokinet Pharmacodyn. 2004;
+31(1):75-107.
+67. Fuchs A, Csajka C, Thoma Y, Buclin T,
+Widmer N. Benchmarking therapeutic
+drug monitoring software: a review
+of available computer tools. Clin
+Pharmacokinet. 2013; 52(1):9-22.
+68. Turner RB, Kojiro K, Shephard EA et al.
+Review and validation of Bayesian
+dose-optimizing software and equations for calculation of the vancomycin
+area under the curve in critically ill
+patients. Pharmacotherapy. 2018;
+38(12):1174-1183.
+69. Al-Sulaiti FK, Nader AM, Saad MO et al.
+Clinical and pharmacokinetic outcomes
+of peak-trough-based versus trough-based
+vancomycin therapeutic drug monitoring
+approaches: a pragmatic randomized
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020  859
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+aureus bacteremia treated with vancomycin. Antimicrob Agents Chemother.
+2008; 52(9):3315-3320.
+39. Tong SYC, Lye DC, Yahav D, et al; for
+Australasian Society for Infectious
+Diseases Clinical Research Network.
+Effect of vancomycin or daptomycin
+with vs without an antistaphylococcal
+β-lactam on mortality, bacteremia,
+relapse, or treatment failure in patients with MRSA bacteremia: a
+randomized clinical trial. JAMA. 2020;
+323(6):527-537.
+40. Moenster RP, Linneman TW,
+Finnegan PM, Hand S, Thomas Z,
+McDonald JR. Acute renal failure
+associated with vancomycin and
+beta-lactams for the treatment of
+osteomyelitis in diabetics: piperacillintazobactam as compared with
+cefepime. Clin Microbiol Infect. 2014;
+20(6):O384-O389.
+41. Gomes DM, Smotherman C, Birch A
+et al. Comparison of acute kidney
+injury during treatment with vancomycin in combination with
+piperacillin-tazobactam or cefepime.
+Pharmacotherapy. 2014; 34(7):662-669.
+42. Burgess LD, Drew RH. Comparison
+of the incidence of vancomycininduced nephrotoxicity in hospitalized patients with and without
+concomitant piperacillin-tazobactam.
+Pharmacotherapy. 2014; 34(7):670-676.
+43. Navalkele B, Pogue JM, Karino S et al.
+Risk of acute kidney injury in patients
+on concomitant vancomycin and
+piperacillin-tazobactam compared to
+those on vancomycin and cefepime.
+Clin Infect Dis. 2017; 64(2):116-123.
+44. Karino S, Kaye KS, Navalkele B
+et al. Epidemiology of acute kidney
+injury among patients receiving
+concomitant vancomycin and
+piperacillin-tazobactam: opportunities for antimicrobial stewardship.
+Antimicrob Agents Chemother. 2016;
+60(6):3743-3750.
+45. Lodise TP, Lomaestro B, Graves J,
+Drusano GL. Larger vancomycin doses
+(at least four grams per day) are associated with an increased incidence
+of nephrotoxicity. Antimicrob Agents
+Chemother. 2008; 52(4):1330-1336.
+46. Minejima E, Choi J, Beringer P, Lou M,
+Tse E, Wong-Beringer A. Applying new
+diagnostic criteria for acute kidney
+injury to facilitate early identification of
+nephrotoxicity in vancomycin-treated
+patients. Antimicrob Agents Chemother.
+2011; 55(7):3278-3283.
+47. Cano EL, Haque NZ, Welch VL, et al.
+Incidence of nephrotoxicity and association with vancomycin use in
+intensive care unit patients with pneumonia: retrospective analysis of the
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+860
+
+AM J HEALTH-SYST PHARM
+
+|
+
+continuous infusion for treatment
+of ventilator-associated pneumonia
+in trauma patients. Am Surg. 2013;
+79(11):1185-1190.
+82. Tafelski S, Nachtigall I, Troeger U, et al.
+Observational clinical study on the
+effects of different dosing regimens on
+vancomycin target levels in critically ill
+patients: continuous versus intermittent
+application. J Infect Public Health. 2015;
+8(4):355-363.
+83. Hutschala D, Kinstner C, Skhirdladze K,
+Thalhammer F, Muller M, Tschernko E.
+Influence of vancomycin on renal function in critically ill patients after cardiac
+surgery: continuous versus intermittent infusion. Anesthesiology. 2009;
+111(2):356-365.
+84. Akers KS, Cota JM, Chung KK, Renz EM,
+Mende K, Murray CK. Serum vancomycin levels resulting from continuous
+or intermittent infusion in critically ill
+burn patients with or without continuous renal replacement therapy. J Burn
+Care Res. 2012; 33(6):e254-e262.
+85. Saugel B, Nowack MC, Hapfelmeier A et al.
+Continuous intravenous administration of
+vancomycin in medical intensive care unit
+patients. J Crit Care. 2013; 28(1):9-13.
+86. Hanrahan TP, Harlow G, Hutchinson J
+et al. Vancomycin-associated
+nephrotoxicity in the critically ill: a
+retrospective multivariate regression analysis*. Crit Care Med. 2014;
+42(12):2527-2536.
+87. Vuagnat A, Stern R, Lotthe A et al.
+High dose vancomycin for osteomyelitis: continuous vs. intermittent
+infusion. J Clin Pharm Ther. 2004;
+29(4):351-357.
+88. Ingram PR, Lye DC, Fisher DA, Goh WP,
+Tam VH. Nephrotoxicity of continuous versus intermittent infusion of
+vancomycin in outpatient parenteral
+antimicrobial therapy. Int J Antimicrob
+Agents. 2009; 34(6):570-574.
+89. Verrall AJ, Llorin R, Tam VH et al.
+Efficacy of continuous infusion of vancomycin for the outpatient treatment of
+methicillin-resistant Staphylococcus aureus infections. J Antimicrob Chemother.
+2012; 67(12):2970-2973.
+90. Ingram PR, Lye DC, Tambyah PA,
+Goh WP, Tam VH, Fisher DA. Risk
+factors for nephrotoxicity associated
+with continuous vancomycin infusion
+in outpatient parenteral antibiotic
+therapy. J Antimicrob Chemother. 2008;
+62(1):168-171.
+91. Dubée V, Zeller V, Lhotellier L et al.
+Continuous high-dose vancomycin
+combination therapy for methicillinresistant staphylococcal prosthetic
+hip infection: a prospective cohort
+study. Clin Microbiol Infect. 2013;
+19(2):E98-E105.
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020
+
+92.		 Raverdy V, Ampe E, Hecq JD,
+Tulkens PM. Stability and compatibility of vancomycin for administration by continuous infusion.
+J Antimicrob Chemother. 2013;
+68(5):1179-1182.
+93.		 Wade J, Cooper M, Ragan R. Simulated
+Y-site compatibility of vancomycin
+and piperacillin-tazobactam. Hosp
+Pharm. 2015; 50(5):376-379.
+94.		 de Waele JJ, Danneels I, Depuydt P,
+Decruyenaere J, Bourgeois M, Hoste E.
+Factors associated with inadequate
+early vancomycin levels in critically
+ill patients treated with continuous
+infusion. Int J Antimicrob Agents. 2013;
+41(5):434-438.
+95.		 Ocampos-Martinez E, Penaccini L,
+Scolletta S et al. Determinants of early
+inadequate vancomycin concentrations during continuous infusion
+in septic patients. Int J Antimicrob
+Agents. 2012; 39(4):332-337.
+96.		 Mohammedi I, Descloux E, Argaud L,
+Le Scanff J, Robert D. Loading dose of
+vancomycin in critically ill patients:
+15 mg/kg is a better choice than
+500 mg. Int J Antimicrob Agents. 2006;
+27(3):259-262.
+97.		 Li J, Udy AA, Kirkpatrick CM, Lipman J,
+Roberts JA. Improving vancomycin
+prescription in critical illness through
+a drug use evaluation process: a
+weight-based dosing intervention
+study. Int J Antimicrob Agents. 2012;
+39(1):69-72.
+98.		 Pea F, Furlanut M, Negri C et al.
+Prospectively validated dosing nomograms for maximizing the pharmacodynamics of vancomycin administered
+by continuous infusion in critically
+ill patients. Antimicrob Agents
+Chemother. 2009; 53(5):1863-1867.
+99.		 Roberts JA, Taccone FS, Udy AA,
+Vincent JL, Jacobs F, Lipman J.
+Vancomycin dosing in critically ill
+patients: robust methods for improved continuous-infusion regimens.
+Antimicrob Agents Chemother. 2011;
+55(6):2704-2709.
+100. Truong J, Levkovich BJ, Padiglione AA.
+Simple approach to improving vancomycin dosing in intensive care: a
+standardised loading dose results in
+earlier therapeutic levels. Intern Med J.
+2012; 42(1):23-29.
+101. Wang JT, Fang CT, Chen YC, Chang SC.
+Necessity of a loading dose when
+using vancomycin in critically ill patients. J Antimicrob Chemother. 2001;
+47(2):246.
+102. Barth RH, DeVincenzo N. Use
+of vancomycin in high-flux hemodialysis: experience with 130
+courses of therapy. Kidney Int. 1996;
+50(3):929-936.
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+controlled trial. Eur J Drug Metab
+Pharmacokinet. 2019; 44(5):639-652.
+70. Begg EJ, Barclay ML, Duffull SB. A
+suggested approach to once-daily
+aminoglycoside dosing. Br J Clin
+Pharmacol. 1995; 39(6):605-609.
+71. Bauer LA. Applied Clinical
+Pharmacokinetics. 2nd ed. New York,
+NY: McGraw-Hill Medical; 2008.
+72. Beringer P. Winter’s Basic Clinical
+Pharmacokinetics. 6th ed. Philadelphia,
+PA: Wolters Kluwer Health; 2018.
+73. Marsot A, Boulamery A, Bruguerolle B,
+Simon N. Vancomycin: a review of population pharmacokinetic analyses. Clin
+Pharmacokinet. 2012; 51(1):1-13.
+74. Lodise TP, McKinnon PS, Swiderski L,
+Rybak MJ. Outcomes analysis of
+delayed antibiotic treatment for
+hospital-acquired Staphylococcus aureus bacteremia. Clin Infect Dis. 2003;
+36(11):1418-1423.
+75. Diaz R, Afreixo V, Ramalheira E,
+Rodrigues C, Gago B. Evaluation of
+vancomycin MIC creep in methicillinresistant Staphylococcus aureus
+infections-a systematic review and
+meta-analysis. Clin Microbiol Infect.
+2018; 24(2):97-104.
+76. Diekema DJ, Pfaller MA, Shortridge D,
+Zervos M, Jones RN. Twenty-year
+trends in antimicrobial susceptibilities
+among Staphylococcus aureus from the
+SENTRY antimicrobial surveillance
+program. Open Forum Infect Dis. 2019;
+6(suppl 1):S47-S53.
+77. Kruzel MC, Lewis CT, Welsh KJ et al.
+Determination of vancomycin and
+daptomycin MICs by different testing
+methods for methicillin-resistant
+Staphylococcus aureus. J Clin Microbiol.
+2011; 49(6):2272-2273.
+78. Hsu DI, Hidayat LK, Quist R et al.
+Comparison of method-specific vancomycin minimum inhibitory concentration values and their predictability for
+treatment outcome of meticillin-resistant
+Staphylococcus aureus (MRSA) infections.
+Int J Antimicrob Agents. 2008; 32(5):378-385.
+79. Rybak MJ, Vidaillac C, Sader HS et al.
+Evaluation of vancomycin susceptibility testing for methicillin-resistant
+Staphylococcus aureus: comparison
+of etest and three automated testing
+methods. J Clin Microbiol. 2013;
+51(7):2077-2081.
+80. Wysocki M, Delatour F, Faurisson F
+et al. Continuous versus intermittent infusion of vancomycin in severe
+staphylococcal infections: prospective multicenter randomized study.
+Antimicrob Agents Chemother. 2001;
+45(9):2460-2467.
+81. Schmelzer TM, Christmas AB,
+Norton HJ, Heniford BT, Sing RF.
+Vancomycin intermittent dosing versus
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+among adults and youth: United
+States, 2015–2016. NCHS Data Brief.
+2017; (288):1-8.
+116. Choi YC, Saw S, Soliman D et al.
+Intravenous vancomycin associated
+with the development of nephrotoxicity in patients with class III
+obesity. Ann Pharmacother. 2017;
+51(11):937-944.
+117. Vance-Bryan K, Guay DR, Gilliland SS,
+Rodvold KA, Rotschafer JC. Effect of
+obesity on vancomycin pharmacokinetic parameters as determined by
+using a Bayesian forecasting technique. Antimicrob Agents Chemother.
+1993; 37(3):436-440.
+118. Ducharme MP, Slaughter RL,
+Edwards DJ. Vancomycin pharmacokinetics in a patient population:
+effect of age, gender, and body
+weight. Ther Drug Monit. 1994;
+16(5):513-518.
+119. Bauer LA, Black DJ, Lill JS.
+Vancomycin dosing in morbidly obese
+patients. Eur J Clin Pharmacol. 1998;
+54(8):621-625.
+120. Adane ED, Herald M, Koura F.
+Pharmacokinetics of vancomycin in
+extremely obese patients with suspected or confirmed Staphylococcus
+aureus infections. Pharmacotherapy.
+2015; 35(2):127-139.
+121. Hong J, Krop LC, Johns T, Pai MP.
+Individualized vancomycin dosing in
+obese patients: a two-sample measurement approach improves target
+attainment. Pharmacotherapy. 2015;
+35(5):455-463.
+122. Pai MP. Drug dosing based on weight
+and body surface area: mathematical assumptions and limitations in
+obese adults. Pharmacotherapy. 2012;
+32(9):856-868.
+123. Cockcroft DW, Gault MH. Prediction
+of creatinine clearance from serum
+creatinine. Nephron. 1976; 16(1):31-41.
+124. Matzke GR, Aronoff GR, Atkinson AJ
+Jr et al. Drug dosing consideration
+in patients with acute and chronic
+kidney disease-a clinical update from
+Kidney Disease Improving Global
+Outcomes (KDIGO). Kidney Int. 2011;
+80(11):1122-1137.
+125. Rodvold KA, Blum RA, Fischer JH
+et al. Vancomycin pharmacokinetics
+in patients with various degrees of
+renal function. Antimicrob Agents
+Chemother. 1988; 32(6):848-852.
+126. Pai MP, Hong J, Krop L. Peak measurement for vancomycin AUC estimation
+in obese adults improves precision
+and lowers bias. Antimicrob Agents
+Chemother. 2017; 61(4):e02490-16.
+127. Carreno JJ, Lomaestro B, Tietjan J,
+Lodise TP. Pilot study of a Bayesian
+approach to estimate vancomycin
+AM J HEALTH-SYST PHARM
+
+|
+
+exposure in obese patients with
+limited pharmacokinetic sampling.
+Antimicrob Agents Chemother. 2017;
+61(5):e02478-16.
+128. Fu CF, Huang JD, Wang JT, Lin SW,
+Wu CC. The ratio of pre-dialysis vancomycin trough serum concentration
+to minimum inhibitory concentration is associated with treatment
+outcomes in methicillin-resistant
+Staphylococcus aureus bacteremia.
+PLoS One. 2018; 13(3):e0193585.
+129. Zelenitsky SA, Ariano RE, McCrae ML,
+Vercaigne LM. Initial vancomycin
+dosing protocol to achieve therapeutic
+serum concentrations in patients
+undergoing hemodialysis. Clin Infect
+Dis. 2012; 55(4):527-533.
+130. Lewis SJ, Mueller BA. Contemporary
+vancomycin dosing in chronic hemodialysis patients does not meet AUC
+targets: development of a new dosing
+model using Monte Carlo simulation.
+Presentation at: Infectious Diseases
+Week; 2016; New Orleans LA.
+131. Scott MK, Mueller BA, Clark WR.
+Vancomycin mass transfer characteristics of high-flux cellulosic dialysers.
+Nephrol Dial Transplant. 1997;
+12(12):2647-2653.
+132. Clark WR, Mueller BA, Kraus MA,
+Macias WL. Extracorporeal therapy
+requirements for patients with acute
+renal failure. J Am Soc Nephrol. 1997;
+8(5):804-812.
+133. Mueller BA, Smoyer WE. Challenges
+in developing evidence-based drug
+dosing guidelines for adults and
+children receiving renal replacement
+therapy. Clin Pharmacol Ther. 2009;
+86(5):479-482.
+134. Vancomycin hydrochloride for injection [package insert]. Lake Forest, IL:
+Hospira, Inc.; March 2017.
+135. Lanese DM, Alfrey PS, Molitoris BA.
+Markedly increased clearance of vancomycin during hemodialysis using
+polysulfone dialyzers. Kidney Int. 1989;
+35(6):1409-1412.
+136. Quale JM, O’Halloran JJ,
+DeVincenzo N, Barth RH.
+Removal of vancomycin by highflux hemodialysis membranes.
+Antimicrob Agents Chemother. 1992;
+36(7):1424-1426.
+137. Scott MK, Macias WL, Kraus MA,
+Clark WR, Carfagna MA, Mueller BA.
+Effects of dialysis membrane on
+intradialytic vancomycin administration. Pharmacotherapy. 1997;
+17(2):256-262.
+138. Mason NA, Neudeck BL, Welage LS,
+Patel JA, Swartz RD. Comparison of 3
+vancomycin dosage regimens during
+hemodialysis with cellulose triacetate dialyzers: post-dialysis versus
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020  861
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+103. Brown M, Polisetty R, Gracely EJ,
+Cuhaci B, Schlecht HP. Weight-based
+loading of vancomycin in patients on
+hemodialysis. Clin Infect Dis. 2011;
+53(2):164-166.
+104. Vandecasteele SJ, de Bacquer D,
+de Vriese AS. Implementation of a dose
+calculator for vancomycin to achieve
+target trough levels of 15-20 microg/mL
+in persons undergoing hemodialysis.
+Clin Infect Dis. 2011; 53(2):124-129.
+105. Covajes C, Scolletta S, Penaccini L
+et al. Continuous infusion of vancomycin in septic patients receiving
+continuous renal replacement
+therapy. Int J Antimicrob Agents. 2013;
+41(3):261-266.
+106. Decker BS, Kays MB, Chambers M,
+Kraus MA, Moe SM, Sowinski KM.
+Vancomycin pharmacokinetics and
+pharmacodynamics during short daily
+hemodialysis. Clin J Am Soc Nephrol.
+2010; 5(11):1981-1987.
+107. Alfandari S, Levent T, Descamps D
+et al. Evaluation of glycopeptide use in
+nine French hospitals. Med Mal Infect.
+2010; 40(4):232-237.
+108. Hochart C, Berthon C, Corm S et al.
+Vancomycin serum concentration
+during febrile neutropenia in patients
+with acute myeloid leukemia. Med Mal
+Infect. 2011; 41(12):652-656.
+109. Lemaire X, Loiez C, Valette M et al.
+Comparison of vancomycin and
+teicoplanin trough serum levels in
+patients with infected orthopedic
+devices: new data for old therapies. J
+Infect Chemother. 2011; 17(3):370-374.
+110. Grace E. Altered vancomycin pharmacokinetics in obese and morbidly
+obese patients: what we have learned
+over the past 30 years. J Antimicrob
+Chemother. 2012; 67(6):1305-1310.
+111. Blouin RA, Bauer LA, Miller DD,
+Record KE, Griffen WO Jr. Vancomycin
+pharmacokinetics in normal
+and morbidly obese subjects.
+Antimicrob Agents Chemother. 1982;
+21(4):575-580.
+112. Crass RL, Dunn R, Hong J, Krop LC,
+Pai MP. Dosing vancomycin in the
+super obese: less is more. J Antimicrob
+Chemother. 2018; 73(11):3081-3086.
+113. Clinical guidelines on the identification, evaluation, and treatment
+of overweight and obesity in adults:
+executive summary. Expert Panel on
+the Identification, Evaluation, and
+Treatment of Overweight in Adults.
+Am J Clin Nutr. 1998; 68(4):899-917.
+114. Pastor PN, Reuben C, Xia H.
+Chartbook on Trends in the Health of
+Americans. Hyattsville, MD: National
+Center for Health Statistics; 2002.
+115. Hales CM, Carroll MD, Fryar CD,
+Ogden CL. Prevalence of obesity
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+862
+
+AM J HEALTH-SYST PHARM
+
+|
+
+modeled continuous renal replacement therapy. Blood Purif. 2011;
+32(2):82-88.
+152. Frazee EN, Kuper PJ, Schramm GE
+et al. Effect of continuous venovenous
+hemofiltration dose on achievement of
+adequate vancomycin trough concentrations. Antimicrob Agents Chemother.
+2012; 56(12):6181-6185.
+153. Kidney Disease: Improving Global
+Outcomes Acute Kidney Injury Work
+Group. KDIGO clinical practice guideline for acute kidney injury. Kidney Int
+Suppl. 2012(2):S1-S138.
+154. Chaijamorn W, Jitsurong A,
+Wiwattanawongsa K,
+Wanakamanee U, Dandecha P.
+Vancomycin clearance during continuous venovenous haemofiltration in
+critically ill patients. Int J Antimicrob
+Agents. 2011; 38(2):152-156.
+155. Colin PJ, Allegaert K, Thomson AH
+et al. Vancomycin Pharmacokinetics
+throughout life: results from a pooled
+population analysis and evaluation of
+current dosing recommendations. Clin
+Pharmacokinet. 2019; 58(6):767-780.
+156. McNeil JC, Kok EY, Forbes AR et al.
+Healthcare-associated Staphylococcus
+aureus bacteremia in children: evidence for reverse vancomycin creep
+and impact of vancomycin trough
+values on outcome. Pediatr Infect Dis J.
+2016; 35(3):263-268.
+157. McNeil JC, Kaplan SL, Vallejo JG. The
+influence of the route of antibiotic
+administration, methicillin susceptibility, vancomycin duration and serum
+trough concentration on outcomes of
+pediatric Staphylococcus aureus bacteremic osteoarticular infection. Pediatr
+Infect Dis J. 2017; 36(6):572-577.
+158. Fiorito TM, Luther MK, Dennehy PH,
+LaPlante KL, Matson KL.
+Nephrotoxicity with vancomycin in the
+pediatric population: a systematic review and meta-analysis. Pediatr Infect
+Dis J. 2018; 37(7):654-661.
+159. Hahn A, Frenck RW Jr, Allen-Staat M,
+Zou Y, Vinks AA. Evaluation of target
+attainment of vancomycin area under
+the curve in children with methicillinresistant Staphylococcus aureus
+bacteremia. Ther Drug Monit. 2015;
+37(5):619-625.
+160. Yoo RN, Kim SH, Lee J. Impact of initial
+vancomycin trough concentration on
+clinical and microbiological outcomes
+of methicillin-resistant Staphylococcus
+aureus bacteremia in children. J Korean
+Med Sci. 2017; 32(1):22-28.
+161. Eiland LS, English TM, Eiland EH 3rd.
+Assessment of vancomycin dosing and
+subsequent serum concentrations in
+pediatric patients. Ann Pharmacother.
+2011; 45(5):582-589.
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020
+
+162. Frymoyer A, Hersh AL, Benet LZ,
+Guglielmo BJ. Current recommended
+dosing of vancomycin for children
+with invasive methicillin-resistant
+Staphylococcus aureus infections is
+inadequate. Pediatr Infect Dis J. 2009;
+28(5):398-402.
+163. Frymoyer A, Guglielmo BJ, Hersh AL.
+Desired vancomycin trough serum
+concentration for treating invasive
+methicillin-resistant staphylococcal
+infections. Pediatr Infect Dis J. 2013;
+32(10):1077-1079.
+164. Le J, Bradley JS, Murray W et al.
+Improved vancomycin dosing in
+children using area under the curve
+exposure. Pediatr Infect Dis J. 2013;
+32(4):e155-e163.
+165. Ploessl C, White C, Manasco K.
+Correlation of a vancomycin pharmacokinetic model and trough serum
+concentrations in pediatric patients.
+Pediatr Infect Dis J. 2015; 34(10):e244
+-e247.
+166. Madigan T, Sieve RM, Graner KK,
+Banerjee R. The effect of age and
+weight on vancomycin serum
+trough concentrations in pediatric
+patients. Pharmacotherapy. 2013;
+33(12):1264-1272.
+167. Demirjian A, Finkelstein Y, NavaOcampo A et al. A randomized controlled trial of a vancomycin loading
+dose in children. Pediatr Infect Dis J.
+2013; 32(11):1217-1223.
+168. Abdel Hadi O, Al Omar S, Nazer LH,
+Mubarak S, Le J. Vancomycin pharmacokinetics and predicted dosage
+requirements in pediatric cancer
+patients. J Oncol Pharm Pract. 2016;
+22(3):448-453.
+169. Le J, Vaida F, Nguyen E et al.
+Population-based pharmacokinetic
+modeling of vancomycin in children
+with renal insufficiency. J Pharmacol
+Clin Toxicol. 2014; 2(1):1017-1026.
+170. Avedissian SN, Bradley E, Zhang D
+et al. Augmented renal clearance using
+population-based pharmacokinetic
+modeling in critically ill pediatric
+patients. Pediatr Crit Care Med. 2017;
+18(9):e388-e394.
+171. Zhang H, Wang Y, Gao P et al.
+Pharmacokinetic characteristics and
+clinical outcomes of vancomycin in
+young children with various degrees of
+renal function. J Clin Pharmacol. 2016;
+56(6):740-748.
+172. McKamy S, Hernandez E, Jahng M,
+Moriwaki T, Deveikis A, Le J. Incidence
+and risk factors influencing the development of vancomycin nephrotoxicity in children. J Pediatr. 2011;
+158(3):422-426.
+173. Knoderer CA, Gritzman AL,
+Nichols KR, Wilson AC. Late-occurring
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+intradialytic administration. Clin
+Nephrol. 2003; 60(2):96-104.
+139. Ariano RE, Fine A, Sitar DS, Rexrode S,
+Zelenitsky SA. Adequacy of a vancomycin dosing regimen in patients
+receiving high-flux hemodialysis. Am J
+Kidney Dis. 2005; 46(4):681-687.
+140. Lucksiri A, Scott MK, Mueller BA,
+Hamburger RJ, Sowinski KM.
+CAHP-210 dialyzer influence on
+intra-dialytic vancomycin removal.
+Nephrol Dial Transplant. 2002;
+17(9):1649-1654.
+141. Nyman HA, Agarwal A, Senekjian HO,
+Leypoldt JK, Cheung AK. Removal of
+vancomycin administered during dialysis by a high-flux dialyzer. Hemodial
+Int. 2018; 22(3):383-387.
+142. Pollard TA, Lampasona V, Akkerman S
+et al. Vancomycin redistribution:
+dosing recommendations following
+high-flux hemodialysis. Kidney Int.
+1994; 45(1):232-237.
+143. Crawford BS, Largen RF, Walton T,
+Doran JJ. Once-weekly vancomycin for
+patients receiving high-flux hemodialysis. Am J Health-Syst Pharm. 2008;
+65(13):1248-1253.
+144. El Nekidy WS, El-Masri MM,
+Umstead GS, Dehoorne-Smith M.
+Predicting maintenance doses of
+vancomycin for hospitalized patients
+undergoing hemodialysis. Can J Hosp
+Pharm. 2016; 69(5):341-347.
+145. Pallotta KE, Manley HJ. Vancomycin
+use in patients requiring hemodialysis:
+a literature review. Semin Dial. 2008;
+21(1):63-70.
+146. Pai AB, Pai MP. Vancomycin dosing
+in high flux hemodialysis: a limitedsampling algorithm. Am J Health-Syst
+Pharm. 2004; 61(17):1812-1816.
+147. Maxson R, Pate J, Starr J. Evaluation of
+weight-based vancomycin dosing for
+hospitalized hemodialysis patients.
+Ren Fail. 2016; 38(10):1677-1682.
+148. Kielstein JT, Czock D, Schöpke T et al.
+Pharmacokinetics and total elimination of meropenem and vancomycin
+in intensive care unit patients undergoing extended daily dialysis. Crit Care
+Med. 2006; 34(1):51-56.
+149. Scoville BA, Mueller BA. Medication
+dosing in critically ill patients with
+acute kidney injury treated with renal
+replacement therapy. Am J Kidney Dis.
+2013; 61(3):490-500.
+150. Harris LE, Reaves AB, Krauss AG,
+Griner J, Hudson JQ. Evaluation of antibiotic prescribing patterns in patients
+receiving sustained low-efficiency dialysis: opportunities for pharmacists.
+Int J Pharm Pract. 2013; 21(1):55-61.
+151. Pasko DA, Churchwell MD,
+Salama NN, Mueller BA. Longitudinal
+hemodiafilter performance in
+
+ASHP REPORT
+
+GUIDELINE ON VANCOMYCIN MONITORING
+
+and obese pediatric patients. J Pediatr
+Pharmacol Ther. 2014; 19(3):182-188.
+185. Camaione L, Elliott K, MitchellVan Steele A, Lomaestro B, Pai MP.
+Vancomycin dosing in children and
+young adults: back to the drawing
+board. Pharmacotherapy. 2013;
+33(12):1278-1287.
+186. Natale S, Bradley J, Nguyen WH et al.
+Pediatric obesity: pharmacokinetic
+alterations and effects on antimicrobial dosing. Pharmacotherapy. 2017;
+37(3):361-378.
+187. Le J, Capparelli EV, Wahid U et al.
+Bayesian estimation of vancomycin
+pharmacokinetics in obese children:
+matched case-control study. Clin Ther.
+2015; 37(6):1340-1351.
+188. Nguyen WN, Bradley JS, Capparelli EV
+et al. Optimal weight-based vancomycin dosing in obese children using
+Bayesian estimation. Presentation
+at: Interscience Conference
+on Antimicroial Agents and
+Chemotherapy; September 21, 2015;
+San Diego, CA.
+189. Rhodin MM, Anderson BJ, Peters AM
+et al. Human renal function maturation: a quantitative description
+using weight and postmenstrual age.
+Pediatr Nephrol. 2009; 24(1):67-76.
+190. Mehrotra N, Tang L, Phelps SJ,
+Meibohm B. Evaluation of vancomycin dosing regimens in preterm
+and term neonates using Monte Carlo
+simulations. Pharmacotherapy. 2012;
+32(5):408-419.
+191. Marqués-Miñana MR, Saadeddin A,
+Peris JE. Population pharmacokinetic
+analysis of vancomycin in neonates.
+A new proposal of initial dosage
+guideline. Br J Clin Pharmacol. 2010;
+70(5):713-720.
+192. Irikura M, Fujiyama A, Saita F et al.
+Evaluation of the vancomycin dosage
+regimen based on serum creatinine
+used in the neonatal intensive care
+unit. Pediatr Int. 2011; 53(6):1038-1044.
+193. Capparelli EV, Lane JR, Romanowski GL
+et al. The influences of renal function
+and maturation on vancomycin elimination in newborns and infants. J Clin
+Pharmacol. 2001; 41(9):927-934.
+194. Zhao W, Lopez E, Biran V,
+Durrmeyer X, Fakhoury M, JacqzAigrain E. Vancomycin continuous
+infusion in neonates: dosing optimisation and therapeutic drug monitoring.
+Arch Dis Child. 2013; 98(6):449-453.
+195. Frymoyer A, Hersh AL, El-Komy MH
+et al. Association between vancomycin
+trough concentration and area under
+
+AM J HEALTH-SYST PHARM
+
+|
+
+the concentration-time curve in neonates. Antimicrob Agents Chemother.
+2014; 58(11):6454-6461.
+196. Stockmann C, Hersh AL, Roberts JK
+et al. Predictive performance of a vancomycin population pharmacokinetic
+model in neonates. Infect Dis Ther.
+2015; 4(2):187-198.
+197. Cies JJ, Moore WS 2nd, Nichols K,
+Knoderer CA, Carella DM,
+Chopra A. Population pharmacokinetics and pharmacodynamic
+target attainment of vancomycin in
+neonates on extracorporeal life support. Pediatr Crit Care Med. 2017;
+18(10):977-985.
+198. Leroux S, Jacqz-Aigrain E, Biran V
+et al. Clinical utility and safety of
+a model-based patient-tailored
+dose of vancomycin in neonates.
+Antimicrob Agents Chemother. 2016;
+60(4):2039-2042.
+199. Gwee A, Cranswick N, McMullan B
+et al. Continuous versus intermittent vancomycin infusions in
+infants: a randomized controlled
+trial. Pediatrics. 2019; 143(2),
+pii:e20182179.
+200. Lestner JM, Hill LF, Heath PT,
+Sharland M. Vancomycin toxicity
+in neonates: a review of the evidence. Curr Opin Infect Dis. 2016;
+29(3):237-247.
+201. Bhargava V, Malloy M, Fonseca R.
+The association between vancomycin
+trough concentrations and acute
+kidney injury in the neonatal intensive care unit. BMC Pediatr. 2017;
+17(1):50.
+202. Constance JE, Balch AH, Stockmann C
+et al. A propensity-matched cohort
+study of vancomycin-associated
+nephrotoxicity in neonates. Arch
+Dis Child Fetal Neonatal Ed. 2016;
+101(3):F236-F243.
+203. Phillips CJ, Wisdom AJ,
+McKinnon RA, Woodman RJ,
+Gordon DL. Interventions targeting
+the prescribing and monitoring of
+vancomycin for hospitalized patients:
+a systematic review with metaanalysis. Infect Drug Resist. 2018;
+11:2081-2094.
+204. Phillips CJ, McKinnon RA,
+Woodman RJ, Gordon DL. Sustained
+improvement in vancomycin dosing
+and monitoring post-implementation
+of guidelines: results of a three-year
+follow-up after a multifaceted intervention in an Australian teaching
+hospital. J Infect Chemother. 2018;
+24(2):103-109.
+
+VOLUME 77
+
+|
+
+NUMBER 11
+
+|
+
+JUNE 1, 2020  863
+
+Downloaded from https://academic.oup.com/ajhp/article-abstract/77/11/835/5810200 by Biblioteca Nacional de Salud y Seguridad social user on 09 July 2020
+
+vancomycin-associated acute kidney
+injury in children receiving prolonged
+therapy. Ann Pharmacother. 2015;
+49(10):1113-1119.
+174. Sinclair EA, Yenokyan G, McMunn A,
+Fadrowski JJ, Milstone AM, Lee CK.
+Factors associated with acute kidney
+injury in children receiving vancomycin. Ann Pharmacother. 2014;
+48(12):1555-1562.
+175. Matson KL, Shaffer CL, Beck GL,
+Simonsen KA. Assessment of initial
+serum vancomycin trough concentrations and their association with initial
+empirical weight-based vancomycin
+dosing and development of nephrotoxicity in children: a multicenter
+retrospective study. Pharmacotherapy.
+2015; 35(3):337-343.
+176. Ragab AR, Al-Mazroua MK,
+Al-Harony MA. Incidence and
+predisposing factors of vancomycininduced nephrotoxicity in children.
+Infect Dis Ther. 2013; 2(1):37-46.
+177. Le J, Ngu B, Bradley JS et al.
+Vancomycin monitoring in children
+using Bayesian estimation. Ther Drug
+Monit. 2014; 36(4):510-518.
+178. Stockmann C, Olson J, Rashid J
+et al. An evaluation of vancomycin
+area under the curve estimation
+methods for children treated for
+acute pulmonary exacerbations of
+cystic fibrosis due to methicillinresistant Staphylococcus aureus. J Clin
+Pharmacol. 2019; 59(2):198-205.
+179. Kendrick JG, Carr RR, Ensom MH.
+Pharmacokinetics and drug dosing in
+obese children. J Pediatr Pharmacol
+Ther. 2010; 15(2):94-109.
+180. Moffett BS, Kim S, Edwards MS.
+Vancomycin dosing in obese pediatric
+patients. Clin Pediatr (Phila). 2011;
+50(5):442-446.
+181. Heble DE Jr, McPherson C, Nelson MP,
+Hunstad DA. Vancomycin trough
+concentrations in overweight or obese
+pediatric patients. Pharmacotherapy.
+2013; 33(12):1273-1277.
+182. Miller M, Miller JL, Hagemann TM,
+Harrison D, Chavez-Bueno S,
+Johnson PN. Vancomycin dosage
+in overweight and obese children.
+Am J Health-Syst Pharm. 2011;
+68(21):2062-2068.
+183. Nassar L, Hadad S, Gefen A et al.
+Prospective evaluation of the dosing
+regimen of vancomycin in children of
+different weight categories. Curr Drug
+Saf. 2012; 7(5):375-381.
+184. Eiland LS, Sonawane KB. Vancomycin
+dosing in healthy-weight, overweight,
+
+

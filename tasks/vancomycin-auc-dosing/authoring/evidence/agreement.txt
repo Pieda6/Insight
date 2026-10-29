@@ -1,0 +1,5 @@
+patients: engine 240, generator 240, solution 240
+generator vs engine: 0 exposure or dose differences, largest relative difference 1.8e-13
+solution vs engine:  0 exposure or dose differences, largest relative difference 2.6e-04 (solution rounds to its printed decimals)
+closest AUC24/MIC to 400 or 600: 0.055 percent
+AGREEMENT: OK
