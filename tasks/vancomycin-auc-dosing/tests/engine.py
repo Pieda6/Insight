@@ -124,7 +124,7 @@ def parse_result(text):
         v = float(tok[0])
     except ValueError:
         return None
-    if len(tok) > 2 or (len(tok) == 2 and tok[1] not in ("H", "L")):
+    if len(tok) > 2 or (len(tok) == 2 and tok[1] not in ("H", "L")) or not math.isfinite(v):
         return None
     return v
 
@@ -165,6 +165,8 @@ def evaluate(p, adm, lev, ords):
         if v is None:
             unreadable += 1
             continue
+        if not math.isfinite(t):
+            raise ValueError(f"{p['patient_id']}: collection time is not a finite number")
         after = [t - b for a, b in spans if t > b]
         if any(a <= t <= b for a, b in spans) or any(x < 1.0 for x in after):
             mistimed += 1
@@ -226,6 +228,8 @@ def evaluate(p, adm, lev, ords):
     if len(maint) > 1:
         tags.add("changed_orders")
     tags.add(f"exposure_{exposure}")
+    if not all(math.isfinite(x) for x in (ke, vol, auc48, auc24, ratio, raw)):
+        raise ValueError(f"{p['patient_id']}: non-finite result")
     return dict(ke=ke, volume=vol, auc48=auc48, auc24=auc24, exposure=exposure, new_dose=new, tags=tags)
 
 

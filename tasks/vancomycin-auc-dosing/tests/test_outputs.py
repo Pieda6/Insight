@@ -5,6 +5,7 @@ The engine is itself checked against textbook one-compartment results (golden.js
 """
 import csv
 import json
+import math
 import re
 import sys
 from pathlib import Path
@@ -22,6 +23,7 @@ GOLDEN = json.loads((HERE / "golden.json").read_text())
 
 
 def close(got, want):
+    assert math.isfinite(got) and math.isfinite(want), (got, want)
     return abs(got - want) <= REL * abs(want)
 
 
@@ -50,7 +52,10 @@ def rows():
 
 @pytest.fixture(scope="module")
 def got(rows):
-    return {r[0]: (float(r[1]), float(r[2]), float(r[3]), float(r[4]), r[5], int(r[6])) for r in rows}
+    out = {r[0]: (float(r[1]), float(r[2]), float(r[3]), float(r[4]), r[5], int(r[6])) for r in rows}
+    for pid, g in out.items():
+        assert all(math.isfinite(x) for x in g[:4]), f"{pid}: non-finite value {g}"
+    return out
 
 
 def _bad(truth, got, pick):
@@ -66,7 +71,7 @@ def test_engine_matches_textbook_results():
     """The engine reproduces closed-form one-compartment infusion results and the Sawchuk-Zaske elimination rate."""
     for ex in GOLDEN["examples"]:
         v = getattr(engine, ex["check"])(*ex["args"])
-        assert abs(v - ex["expect"]) <= ex["tol"], (ex["source"], v, ex["expect"])
+        assert math.isfinite(v) and abs(v - ex["expect"]) <= ex["tol"], (ex["source"], v, ex["expect"])
 
 
 def test_inputs_are_consistent():
