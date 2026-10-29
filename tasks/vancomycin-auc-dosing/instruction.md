@@ -14,8 +14,8 @@ Write /app/output/vancomycin_review.csv with the header patient_id,ke_per_h,volu
 - volume_l: the volume of distribution in liters, two decimals.
 - auc48: AUC in mg·h/L from the start of the first administration to 48 hours later, one decimal.
 - auc24_ss: steady-state 24-hour AUC in mg·h/L on the most recently ordered maintenance regimen, one decimal.
-- exposure: below, within or above the guideline's AUC/MIC target, using the MIC the guideline says to use.
-- new_dose_mg: the current dose when exposure is within; otherwise the dose at the current interval for an AUC/MIC of 500, rounded to the nearest 250 mg.
+- exposure: below, within or above the guideline's AUC target of 400 to 600 mg·h/L. As the guideline's Recommendation 6 advises, the MIC is taken as 1 mg/L for every patient; a measured MIC, by any method, changes neither the target nor the dose.
+- new_dose_mg: the current dose when exposure is within; otherwise the dose at the current interval for an AUC of 500 mg·h/L, rounded to the nearest 250 mg.
 
 Numbers are accepted within 0.5 percent; exposure and new_dose_mg must match exactly. Do not add extra columns, blank lines or explanations.
 

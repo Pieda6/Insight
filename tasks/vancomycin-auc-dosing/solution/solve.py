@@ -133,8 +133,7 @@ def main():
         tau = float(re.search(r"\d+", cur["frequency"]).group())
         auc24 = dose * 24.0 / tau / cl
         auc48 = sum(segment_area(sg, 48.0, ke) for sg in segs) / vol
-        mic_rec = p.get("isolate_mic")
-        mic = float(mic_rec["value_mg_l"]) if mic_rec and mic_rec["method"] == "broth microdilution" else 1.0
+        mic = 1.0                                          # guideline Recommendation 6: assume 1 mg/L
         ratio = auc24 / mic
         if 400.0 <= ratio <= 600.0:
             exposure, new = "within", int(dose)

@@ -46,13 +46,14 @@ SHORTCUTS = {
         ("e < t < e + 60 for s, e in spans", "s < t < s + 60 for s, e in spans"),
         ("        (ta, ca), (tb, cb) = good", "        (ta, ca), (tb, cb) = good[-2:]")],
     "flagged results (H) treated as unusable": [(r'(?:[HL])?\s*", r["result"])', r'", r["result"])')],
-    "MIC from any testing method": [('if mic_rec and mic_rec["method"] == "broth microdilution" else 1.0', 'if mic_rec else 1.0')],
-    "MIC always assumed 1 mg/L": [('if mic_rec and mic_rec["method"] == "broth microdilution" else 1.0', 'if False else 1.0')],
+    "measured broth microdilution MIC used instead of 1 mg/L": [
+        ("        mic = 1.0 ", "        _m = p.get('isolate_mic'); mic = float(_m['value_mg_l']) if _m and _m['method'] == 'broth microdilution' else 1.0 ")],
+    "measured MIC from any method used": [
+        ("        mic = 1.0 ", "        _m = p.get('isolate_mic'); mic = float(_m['value_mg_l']) if _m else 1.0 ")],
     "first maintenance order instead of the current one": [("key=lambda o: minutes(o[\"ordered\"]))", "key=lambda o: -minutes(o[\"ordered\"]))")],
     "new dose rounded down to 250 mg": [("math.floor(raw / 250.0 + 0.5)", "math.floor(raw / 250.0)")],
     "new dose rounded up to 250 mg": [("math.floor(raw / 250.0 + 0.5)", "math.ceil(raw / 250.0)")],
     "new dose also when exposure is within range": [('exposure, new = "within", int(dose)', 'exposure, new = "within", int(math.floor(500.0 * mic * cl * tau / 24.0 / 250.0 + 0.5) * 250)')],
-    "new dose aimed at AUC 500 regardless of MIC": [("raw = 500.0 * mic * cl * tau / 24.0", "raw = 500.0 * cl * tau / 24.0")],
     "48-hour AUC taken as twice the steady-state AUC24": [("auc48 = sum(segment_area(sg, 48.0, ke) for sg in segs) / vol", "auc48 = 2 * auc24")],
     "48-hour AUC by the linear trapezoid rule on hourly concentrations": [
         ("auc48 = sum(segment_area(sg, 48.0, ke) for sg in segs) / vol",

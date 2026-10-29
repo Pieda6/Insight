@@ -5,8 +5,8 @@ R/ke * (exp(-ke (t - min(t, end))) - exp(-ke (t - start))), the elimination rate
 falsi method on the concentration ratio, and the 48-hour AUC is integrated numerically with 24-point
 Gauss-Legendre quadrature between consecutive event times (the curve is smooth between them).
 
-Guideline: Rybak et al., Am J Health-Syst Pharm 2020;77:835-864 (AUC/MIC 400 to 600, MIC by broth microdilution
-otherwise 1 mg/L, postdistributional sampling at least 1 hour after the end of the infusion).
+Guideline: Rybak et al., Am J Health-Syst Pharm 2020;77:835-864 (AUC/MIC 400 to 600 with the MIC assumed to
+be 1 mg/L as Recommendation 6 says, postdistributional sampling at least 1 hour after the end of the infusion).
 """
 import csv
 import datetime as dt
@@ -191,8 +191,7 @@ def evaluate(p, adm, lev, ords):
     auc24 = dose * (24.0 / tau) / clearance
     auc48 = area(segs, 48.0, ke) / vol
     mic_info = p["isolate_mic"]
-    bmd = bool(mic_info) and mic_info["method"].lower() == "broth microdilution"
-    mic = mic_info["value_mg_l"] if bmd else 1.0
+    mic = 1.0                                  # Recommendation 6: measured MICs do not change the target
     ratio = auc24 / mic
     if ratio < 400:
         exposure = "below"
@@ -217,13 +216,11 @@ def evaluate(p, adm, lev, ords):
         tags.add("rejected_or_unreportable_results")
     if near_hour:
         tags.add("levels_near_one_hour_after_infusion")
-    if bmd and mic != 1.0:
-        tags.add("broth_microdilution_mic")
-    if mic_info and not bmd and mic_info["value_mg_l"] != 1.0:
-        tags.add("mic_by_other_methods")
-    if min(abs(ratio / 400 - 1), abs(ratio / 600 - 1)) <= 0.006:
+    if mic_info and mic_info["value_mg_l"] != 1.0:
+        tags.add("measured_mic_not_1")
+    if min(abs(ratio / 400 - 1), abs(ratio / 600 - 1)) <= 0.02:
         tags.add("near_target_edges")
-    if exposure != "within" and abs(raw / 250 - math.floor(raw / 250) - 0.5) * 250 <= 5:
+    if exposure != "within" and abs(raw / 250 - math.floor(raw / 250) - 0.5) * 250 / raw <= 0.02:
         tags.add("near_rounding_steps")
     if len(maint) > 1:
         tags.add("changed_orders")

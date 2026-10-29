@@ -80,19 +80,6 @@
  },
  {
   "patient_id": "VP-0008",
-  "unit": "CCU",
-  "age": 24,
-  "sex": "F",
-  "weight_kg": 122.8,
-  "height_cm": 167,
-  "serum_creatinine_mg_dl": 1.19,
-  "isolate_mic": {
-   "value_mg_l": 1.0,
-   "method": "broth microdilution"
-  }
- },
- {
-  "patient_id": "VP-0009",
   "unit": "6 West",
   "age": 34,
   "sex": "M",
@@ -102,7 +89,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0010",
+  "patient_id": "VP-0009",
   "unit": "CCU",
   "age": 49,
   "sex": "F",
@@ -115,7 +102,7 @@
   }
  },
  {
-  "patient_id": "VP-0011",
+  "patient_id": "VP-0010",
   "unit": "SICU",
   "age": 50,
   "sex": "F",
@@ -128,7 +115,7 @@
   }
  },
  {
-  "patient_id": "VP-0012",
+  "patient_id": "VP-0011",
   "unit": "6 West",
   "age": 60,
   "sex": "F",
@@ -138,7 +125,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0013",
+  "patient_id": "VP-0012",
   "unit": "CCU",
   "age": 60,
   "sex": "M",
@@ -151,7 +138,7 @@
   }
  },
  {
-  "patient_id": "VP-0014",
+  "patient_id": "VP-0013",
   "unit": "7 East",
   "age": 52,
   "sex": "M",
@@ -164,17 +151,7 @@
   }
  },
  {
-  "patient_id": "VP-0015",
-  "unit": "6 West",
-  "age": 22,
-  "sex": "F",
-  "weight_kg": 127.4,
-  "height_cm": 174,
-  "serum_creatinine_mg_dl": 0.9,
-  "isolate_mic": null
- },
- {
-  "patient_id": "VP-0016",
+  "patient_id": "VP-0014",
   "unit": "Step-down",
   "age": 55,
   "sex": "F",
@@ -184,7 +161,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0017",
+  "patient_id": "VP-0015",
   "unit": "6 West",
   "age": 48,
   "sex": "F",
@@ -197,7 +174,7 @@
   }
  },
  {
-  "patient_id": "VP-0018",
+  "patient_id": "VP-0016",
   "unit": "CCU",
   "age": 53,
   "sex": "F",
@@ -210,7 +187,7 @@
   }
  },
  {
-  "patient_id": "VP-0019",
+  "patient_id": "VP-0017",
   "unit": "SICU",
   "age": 34,
   "sex": "M",
@@ -220,7 +197,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0020",
+  "patient_id": "VP-0018",
   "unit": "Step-down",
   "age": 71,
   "sex": "M",
@@ -233,7 +210,7 @@
   }
  },
  {
-  "patient_id": "VP-0021",
+  "patient_id": "VP-0019",
   "unit": "Step-down",
   "age": 66,
   "sex": "M",
@@ -246,7 +223,7 @@
   }
  },
  {
-  "patient_id": "VP-0022",
+  "patient_id": "VP-0020",
   "unit": "MICU",
   "age": 41,
   "sex": "M",
@@ -256,7 +233,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0023",
+  "patient_id": "VP-0021",
   "unit": "7 East",
   "age": 62,
   "sex": "M",
@@ -269,7 +246,7 @@
   }
  },
  {
-  "patient_id": "VP-0024",
+  "patient_id": "VP-0022",
   "unit": "Step-down",
   "age": 33,
   "sex": "M",
@@ -282,7 +259,7 @@
   }
  },
  {
-  "patient_id": "VP-0025",
+  "patient_id": "VP-0023",
   "unit": "SICU",
   "age": 68,
   "sex": "M",
@@ -292,7 +269,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0026",
+  "patient_id": "VP-0024",
   "unit": "Step-down",
   "age": 29,
   "sex": "F",
@@ -305,7 +282,7 @@
   }
  },
  {
-  "patient_id": "VP-0027",
+  "patient_id": "VP-0025",
   "unit": "6 West",
   "age": 54,
   "sex": "F",
@@ -318,7 +295,7 @@
   }
  },
  {
-  "patient_id": "VP-0028",
+  "patient_id": "VP-0026",
   "unit": "Step-down",
   "age": 39,
   "sex": "M",
@@ -328,7 +305,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0029",
+  "patient_id": "VP-0027",
   "unit": "MICU",
   "age": 77,
   "sex": "M",
@@ -338,7 +315,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0030",
+  "patient_id": "VP-0028",
   "unit": "MICU",
   "age": 74,
   "sex": "M",
@@ -351,7 +328,7 @@
   }
  },
  {
-  "patient_id": "VP-0031",
+  "patient_id": "VP-0029",
   "unit": "MICU",
   "age": 42,
   "sex": "F",
@@ -364,7 +341,7 @@
   }
  },
  {
-  "patient_id": "VP-0032",
+  "patient_id": "VP-0030",
   "unit": "7 East",
   "age": 74,
   "sex": "M",
@@ -374,7 +351,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0033",
+  "patient_id": "VP-0031",
   "unit": "CCU",
   "age": 50,
   "sex": "F",
@@ -384,7 +361,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0034",
+  "patient_id": "VP-0032",
   "unit": "7 East",
   "age": 76,
   "sex": "M",
@@ -397,17 +374,7 @@
   }
  },
  {
-  "patient_id": "VP-0035",
-  "unit": "7 East",
-  "age": 59,
-  "sex": "M",
-  "weight_kg": 143.8,
-  "height_cm": 185,
-  "serum_creatinine_mg_dl": 1.78,
-  "isolate_mic": null
- },
- {
-  "patient_id": "VP-0036",
+  "patient_id": "VP-0033",
   "unit": "Step-down",
   "age": 67,
   "sex": "F",
@@ -417,20 +384,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0037",
-  "unit": "7 East",
-  "age": 39,
-  "sex": "F",
-  "weight_kg": 92.5,
-  "height_cm": 167,
-  "serum_creatinine_mg_dl": 1.27,
-  "isolate_mic": {
-   "value_mg_l": 0.5,
-   "method": "broth microdilution"
-  }
- },
- {
-  "patient_id": "VP-0038",
+  "patient_id": "VP-0034",
   "unit": "Step-down",
   "age": 67,
   "sex": "F",
@@ -443,20 +397,7 @@
   }
  },
  {
-  "patient_id": "VP-0039",
-  "unit": "Step-down",
-  "age": 83,
-  "sex": "M",
-  "weight_kg": 153.6,
-  "height_cm": 189,
-  "serum_creatinine_mg_dl": 0.41,
-  "isolate_mic": {
-   "value_mg_l": 1.0,
-   "method": "broth microdilution"
-  }
- },
- {
-  "patient_id": "VP-0040",
+  "patient_id": "VP-0035",
   "unit": "SICU",
   "age": 86,
   "sex": "M",
@@ -469,7 +410,7 @@
   }
  },
  {
-  "patient_id": "VP-0041",
+  "patient_id": "VP-0036",
   "unit": "6 West",
   "age": 69,
   "sex": "M",
@@ -482,7 +423,7 @@
   }
  },
  {
-  "patient_id": "VP-0042",
+  "patient_id": "VP-0037",
   "unit": "Step-down",
   "age": 44,
   "sex": "M",
@@ -492,7 +433,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0043",
+  "patient_id": "VP-0038",
   "unit": "CCU",
   "age": 59,
   "sex": "M",
@@ -505,7 +446,7 @@
   }
  },
  {
-  "patient_id": "VP-0044",
+  "patient_id": "VP-0039",
   "unit": "6 West",
   "age": 76,
   "sex": "F",
@@ -518,7 +459,7 @@
   }
  },
  {
-  "patient_id": "VP-0045",
+  "patient_id": "VP-0040",
   "unit": "6 West",
   "age": 57,
   "sex": "F",
@@ -528,7 +469,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0046",
+  "patient_id": "VP-0041",
   "unit": "CCU",
   "age": 26,
   "sex": "F",
@@ -538,7 +479,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0047",
+  "patient_id": "VP-0042",
   "unit": "6 West",
   "age": 72,
   "sex": "M",
@@ -548,20 +489,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0048",
-  "unit": "6 West",
-  "age": 57,
-  "sex": "F",
-  "weight_kg": 63.9,
-  "height_cm": 166,
-  "serum_creatinine_mg_dl": 1.93,
-  "isolate_mic": {
-   "value_mg_l": 1.0,
-   "method": "broth microdilution"
-  }
- },
- {
-  "patient_id": "VP-0049",
+  "patient_id": "VP-0043",
   "unit": "Step-down",
   "age": 77,
   "sex": "F",
@@ -574,7 +502,7 @@
   }
  },
  {
-  "patient_id": "VP-0050",
+  "patient_id": "VP-0044",
   "unit": "7 East",
   "age": 31,
   "sex": "M",
@@ -584,7 +512,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0051",
+  "patient_id": "VP-0045",
   "unit": "CCU",
   "age": 76,
   "sex": "M",
@@ -594,7 +522,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0052",
+  "patient_id": "VP-0046",
   "unit": "7 East",
   "age": 34,
   "sex": "F",
@@ -607,7 +535,7 @@
   }
  },
  {
-  "patient_id": "VP-0053",
+  "patient_id": "VP-0047",
   "unit": "Step-down",
   "age": 27,
   "sex": "F",
@@ -617,7 +545,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0054",
+  "patient_id": "VP-0048",
   "unit": "7 East",
   "age": 69,
   "sex": "M",
@@ -627,7 +555,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0055",
+  "patient_id": "VP-0049",
   "unit": "6 West",
   "age": 41,
   "sex": "M",
@@ -637,7 +565,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0056",
+  "patient_id": "VP-0050",
   "unit": "Step-down",
   "age": 39,
   "sex": "M",
@@ -650,7 +578,7 @@
   }
  },
  {
-  "patient_id": "VP-0057",
+  "patient_id": "VP-0051",
   "unit": "SICU",
   "age": 67,
   "sex": "M",
@@ -660,7 +588,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0058",
+  "patient_id": "VP-0052",
   "unit": "MICU",
   "age": 55,
   "sex": "F",
@@ -673,7 +601,7 @@
   }
  },
  {
-  "patient_id": "VP-0059",
+  "patient_id": "VP-0053",
   "unit": "CCU",
   "age": 32,
   "sex": "F",
@@ -683,7 +611,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0060",
+  "patient_id": "VP-0054",
   "unit": "MICU",
   "age": 44,
   "sex": "M",
@@ -696,7 +624,7 @@
   }
  },
  {
-  "patient_id": "VP-0061",
+  "patient_id": "VP-0055",
   "unit": "CCU",
   "age": 29,
   "sex": "F",
@@ -706,7 +634,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0062",
+  "patient_id": "VP-0056",
   "unit": "Step-down",
   "age": 86,
   "sex": "F",
@@ -719,7 +647,7 @@
   }
  },
  {
-  "patient_id": "VP-0063",
+  "patient_id": "VP-0057",
   "unit": "Step-down",
   "age": 65,
   "sex": "F",
@@ -729,7 +657,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0064",
+  "patient_id": "VP-0058",
   "unit": "7 East",
   "age": 83,
   "sex": "M",
@@ -742,17 +670,7 @@
   }
  },
  {
-  "patient_id": "VP-0065",
-  "unit": "6 West",
-  "age": 74,
-  "sex": "M",
-  "weight_kg": 173.0,
-  "height_cm": 151,
-  "serum_creatinine_mg_dl": 2.42,
-  "isolate_mic": null
- },
- {
-  "patient_id": "VP-0066",
+  "patient_id": "VP-0059",
   "unit": "MICU",
   "age": 37,
   "sex": "M",
@@ -762,7 +680,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0067",
+  "patient_id": "VP-0060",
   "unit": "7 East",
   "age": 74,
   "sex": "M",
@@ -775,7 +693,7 @@
   }
  },
  {
-  "patient_id": "VP-0068",
+  "patient_id": "VP-0061",
   "unit": "6 West",
   "age": 56,
   "sex": "F",
@@ -788,7 +706,7 @@
   }
  },
  {
-  "patient_id": "VP-0069",
+  "patient_id": "VP-0062",
   "unit": "MICU",
   "age": 36,
   "sex": "M",
@@ -801,7 +719,7 @@
   }
  },
  {
-  "patient_id": "VP-0070",
+  "patient_id": "VP-0063",
   "unit": "7 East",
   "age": 71,
   "sex": "M",
@@ -811,7 +729,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0071",
+  "patient_id": "VP-0064",
   "unit": "6 West",
   "age": 25,
   "sex": "M",
@@ -821,7 +739,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0072",
+  "patient_id": "VP-0065",
   "unit": "CCU",
   "age": 65,
   "sex": "M",
@@ -834,7 +752,7 @@
   }
  },
  {
-  "patient_id": "VP-0073",
+  "patient_id": "VP-0066",
   "unit": "7 East",
   "age": 56,
   "sex": "F",
@@ -847,7 +765,7 @@
   }
  },
  {
-  "patient_id": "VP-0074",
+  "patient_id": "VP-0067",
   "unit": "Step-down",
   "age": 70,
   "sex": "F",
@@ -860,7 +778,7 @@
   }
  },
  {
-  "patient_id": "VP-0075",
+  "patient_id": "VP-0068",
   "unit": "7 East",
   "age": 57,
   "sex": "M",
@@ -873,7 +791,7 @@
   }
  },
  {
-  "patient_id": "VP-0076",
+  "patient_id": "VP-0069",
   "unit": "MICU",
   "age": 59,
   "sex": "M",
@@ -886,7 +804,7 @@
   }
  },
  {
-  "patient_id": "VP-0077",
+  "patient_id": "VP-0070",
   "unit": "7 East",
   "age": 77,
   "sex": "F",
@@ -899,7 +817,7 @@
   }
  },
  {
-  "patient_id": "VP-0078",
+  "patient_id": "VP-0071",
   "unit": "MICU",
   "age": 33,
   "sex": "F",
@@ -912,7 +830,7 @@
   }
  },
  {
-  "patient_id": "VP-0079",
+  "patient_id": "VP-0072",
   "unit": "Step-down",
   "age": 49,
   "sex": "M",
@@ -925,7 +843,7 @@
   }
  },
  {
-  "patient_id": "VP-0080",
+  "patient_id": "VP-0073",
   "unit": "CCU",
   "age": 54,
   "sex": "M",
@@ -935,7 +853,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0081",
+  "patient_id": "VP-0074",
   "unit": "MICU",
   "age": 60,
   "sex": "M",
@@ -948,7 +866,7 @@
   }
  },
  {
-  "patient_id": "VP-0082",
+  "patient_id": "VP-0075",
   "unit": "Step-down",
   "age": 77,
   "sex": "M",
@@ -961,7 +879,7 @@
   }
  },
  {
-  "patient_id": "VP-0083",
+  "patient_id": "VP-0076",
   "unit": "Step-down",
   "age": 69,
   "sex": "M",
@@ -971,7 +889,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0084",
+  "patient_id": "VP-0077",
   "unit": "7 East",
   "age": 47,
   "sex": "M",
@@ -984,7 +902,7 @@
   }
  },
  {
-  "patient_id": "VP-0085",
+  "patient_id": "VP-0078",
   "unit": "6 West",
   "age": 62,
   "sex": "F",
@@ -994,7 +912,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0086",
+  "patient_id": "VP-0079",
   "unit": "Step-down",
   "age": 42,
   "sex": "M",
@@ -1007,7 +925,7 @@
   }
  },
  {
-  "patient_id": "VP-0087",
+  "patient_id": "VP-0080",
   "unit": "CCU",
   "age": 66,
   "sex": "M",
@@ -1017,7 +935,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0088",
+  "patient_id": "VP-0081",
   "unit": "MICU",
   "age": 35,
   "sex": "M",
@@ -1027,7 +945,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0089",
+  "patient_id": "VP-0082",
   "unit": "7 East",
   "age": 22,
   "sex": "M",
@@ -1040,7 +958,7 @@
   }
  },
  {
-  "patient_id": "VP-0090",
+  "patient_id": "VP-0083",
   "unit": "CCU",
   "age": 40,
   "sex": "M",
@@ -1053,7 +971,7 @@
   }
  },
  {
-  "patient_id": "VP-0091",
+  "patient_id": "VP-0084",
   "unit": "CCU",
   "age": 65,
   "sex": "F",
@@ -1066,7 +984,7 @@
   }
  },
  {
-  "patient_id": "VP-0092",
+  "patient_id": "VP-0085",
   "unit": "7 East",
   "age": 67,
   "sex": "F",
@@ -1079,7 +997,7 @@
   }
  },
  {
-  "patient_id": "VP-0093",
+  "patient_id": "VP-0086",
   "unit": "Step-down",
   "age": 89,
   "sex": "F",
@@ -1092,7 +1010,7 @@
   }
  },
  {
-  "patient_id": "VP-0094",
+  "patient_id": "VP-0087",
   "unit": "CCU",
   "age": 67,
   "sex": "F",
@@ -1102,20 +1020,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0095",
-  "unit": "Step-down",
-  "age": 23,
-  "sex": "M",
-  "weight_kg": 145.9,
-  "height_cm": 175,
-  "serum_creatinine_mg_dl": 2.0,
-  "isolate_mic": {
-   "value_mg_l": 1.0,
-   "method": "Etest"
-  }
- },
- {
-  "patient_id": "VP-0096",
+  "patient_id": "VP-0088",
   "unit": "SICU",
   "age": 80,
   "sex": "F",
@@ -1125,7 +1030,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0097",
+  "patient_id": "VP-0089",
   "unit": "7 East",
   "age": 44,
   "sex": "F",
@@ -1138,7 +1043,7 @@
   }
  },
  {
-  "patient_id": "VP-0098",
+  "patient_id": "VP-0090",
   "unit": "6 West",
   "age": 70,
   "sex": "M",
@@ -1148,7 +1053,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0099",
+  "patient_id": "VP-0091",
   "unit": "Step-down",
   "age": 78,
   "sex": "M",
@@ -1161,7 +1066,7 @@
   }
  },
  {
-  "patient_id": "VP-0100",
+  "patient_id": "VP-0092",
   "unit": "7 East",
   "age": 77,
   "sex": "M",
@@ -1174,7 +1079,7 @@
   }
  },
  {
-  "patient_id": "VP-0101",
+  "patient_id": "VP-0093",
   "unit": "6 West",
   "age": 61,
   "sex": "F",
@@ -1184,7 +1089,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0102",
+  "patient_id": "VP-0094",
   "unit": "SICU",
   "age": 67,
   "sex": "M",
@@ -1197,7 +1102,7 @@
   }
  },
  {
-  "patient_id": "VP-0103",
+  "patient_id": "VP-0095",
   "unit": "CCU",
   "age": 34,
   "sex": "F",
@@ -1207,7 +1112,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0104",
+  "patient_id": "VP-0096",
   "unit": "SICU",
   "age": 40,
   "sex": "F",
@@ -1217,7 +1122,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0105",
+  "patient_id": "VP-0097",
   "unit": "SICU",
   "age": 70,
   "sex": "M",
@@ -1230,7 +1135,7 @@
   }
  },
  {
-  "patient_id": "VP-0106",
+  "patient_id": "VP-0098",
   "unit": "MICU",
   "age": 25,
   "sex": "M",
@@ -1240,7 +1145,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0107",
+  "patient_id": "VP-0099",
   "unit": "6 West",
   "age": 21,
   "sex": "M",
@@ -1253,7 +1158,7 @@
   }
  },
  {
-  "patient_id": "VP-0108",
+  "patient_id": "VP-0100",
   "unit": "Step-down",
   "age": 69,
   "sex": "M",
@@ -1266,7 +1171,7 @@
   }
  },
  {
-  "patient_id": "VP-0109",
+  "patient_id": "VP-0101",
   "unit": "7 East",
   "age": 87,
   "sex": "M",
@@ -1276,7 +1181,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0110",
+  "patient_id": "VP-0102",
   "unit": "MICU",
   "age": 69,
   "sex": "F",
@@ -1289,7 +1194,7 @@
   }
  },
  {
-  "patient_id": "VP-0111",
+  "patient_id": "VP-0103",
   "unit": "SICU",
   "age": 73,
   "sex": "M",
@@ -1302,7 +1207,7 @@
   }
  },
  {
-  "patient_id": "VP-0112",
+  "patient_id": "VP-0104",
   "unit": "6 West",
   "age": 83,
   "sex": "M",
@@ -1312,7 +1217,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0113",
+  "patient_id": "VP-0105",
   "unit": "SICU",
   "age": 39,
   "sex": "F",
@@ -1325,7 +1230,7 @@
   }
  },
  {
-  "patient_id": "VP-0114",
+  "patient_id": "VP-0106",
   "unit": "Step-down",
   "age": 73,
   "sex": "F",
@@ -1335,7 +1240,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0115",
+  "patient_id": "VP-0107",
   "unit": "7 East",
   "age": 50,
   "sex": "F",
@@ -1345,7 +1250,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0116",
+  "patient_id": "VP-0108",
   "unit": "MICU",
   "age": 49,
   "sex": "F",
@@ -1358,7 +1263,7 @@
   }
  },
  {
-  "patient_id": "VP-0117",
+  "patient_id": "VP-0109",
   "unit": "7 East",
   "age": 54,
   "sex": "M",
@@ -1371,7 +1276,7 @@
   }
  },
  {
-  "patient_id": "VP-0118",
+  "patient_id": "VP-0110",
   "unit": "MICU",
   "age": 78,
   "sex": "M",
@@ -1384,7 +1289,7 @@
   }
  },
  {
-  "patient_id": "VP-0119",
+  "patient_id": "VP-0111",
   "unit": "MICU",
   "age": 40,
   "sex": "M",
@@ -1394,7 +1299,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0120",
+  "patient_id": "VP-0112",
   "unit": "MICU",
   "age": 40,
   "sex": "F",
@@ -1407,7 +1312,7 @@
   }
  },
  {
-  "patient_id": "VP-0121",
+  "patient_id": "VP-0113",
   "unit": "6 West",
   "age": 51,
   "sex": "M",
@@ -1417,7 +1322,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0122",
+  "patient_id": "VP-0114",
   "unit": "6 West",
   "age": 76,
   "sex": "F",
@@ -1430,7 +1335,7 @@
   }
  },
  {
-  "patient_id": "VP-0123",
+  "patient_id": "VP-0115",
   "unit": "7 East",
   "age": 89,
   "sex": "F",
@@ -1443,20 +1348,7 @@
   }
  },
  {
-  "patient_id": "VP-0124",
-  "unit": "6 West",
-  "age": 26,
-  "sex": "M",
-  "weight_kg": 74.6,
-  "height_cm": 171,
-  "serum_creatinine_mg_dl": 1.41,
-  "isolate_mic": {
-   "value_mg_l": 0.5,
-   "method": "broth microdilution"
-  }
- },
- {
-  "patient_id": "VP-0125",
+  "patient_id": "VP-0116",
   "unit": "SICU",
   "age": 47,
   "sex": "M",
@@ -1469,7 +1361,7 @@
   }
  },
  {
-  "patient_id": "VP-0126",
+  "patient_id": "VP-0117",
   "unit": "MICU",
   "age": 82,
   "sex": "F",
@@ -1482,7 +1374,7 @@
   }
  },
  {
-  "patient_id": "VP-0127",
+  "patient_id": "VP-0118",
   "unit": "CCU",
   "age": 54,
   "sex": "M",
@@ -1495,7 +1387,7 @@
   }
  },
  {
-  "patient_id": "VP-0128",
+  "patient_id": "VP-0119",
   "unit": "SICU",
   "age": 78,
   "sex": "F",
@@ -1508,7 +1400,7 @@
   }
  },
  {
-  "patient_id": "VP-0129",
+  "patient_id": "VP-0120",
   "unit": "MICU",
   "age": 37,
   "sex": "F",
@@ -1518,7 +1410,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0130",
+  "patient_id": "VP-0121",
   "unit": "CCU",
   "age": 43,
   "sex": "F",
@@ -1531,7 +1423,7 @@
   }
  },
  {
-  "patient_id": "VP-0131",
+  "patient_id": "VP-0122",
   "unit": "SICU",
   "age": 80,
   "sex": "F",
@@ -1544,7 +1436,7 @@
   }
  },
  {
-  "patient_id": "VP-0132",
+  "patient_id": "VP-0123",
   "unit": "SICU",
   "age": 78,
   "sex": "M",
@@ -1554,7 +1446,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0133",
+  "patient_id": "VP-0124",
   "unit": "MICU",
   "age": 36,
   "sex": "M",
@@ -1564,7 +1456,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0134",
+  "patient_id": "VP-0125",
   "unit": "Step-down",
   "age": 59,
   "sex": "M",
@@ -1577,7 +1469,7 @@
   }
  },
  {
-  "patient_id": "VP-0135",
+  "patient_id": "VP-0126",
   "unit": "CCU",
   "age": 27,
   "sex": "M",
@@ -1587,7 +1479,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0136",
+  "patient_id": "VP-0127",
   "unit": "Step-down",
   "age": 49,
   "sex": "F",
@@ -1597,7 +1489,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0137",
+  "patient_id": "VP-0128",
   "unit": "SICU",
   "age": 74,
   "sex": "M",
@@ -1610,7 +1502,7 @@
   }
  },
  {
-  "patient_id": "VP-0138",
+  "patient_id": "VP-0129",
   "unit": "CCU",
   "age": 75,
   "sex": "M",
@@ -1623,7 +1515,7 @@
   }
  },
  {
-  "patient_id": "VP-0139",
+  "patient_id": "VP-0130",
   "unit": "MICU",
   "age": 80,
   "sex": "M",
@@ -1636,7 +1528,7 @@
   }
  },
  {
-  "patient_id": "VP-0140",
+  "patient_id": "VP-0131",
   "unit": "SICU",
   "age": 44,
   "sex": "F",
@@ -1649,7 +1541,7 @@
   }
  },
  {
-  "patient_id": "VP-0141",
+  "patient_id": "VP-0132",
   "unit": "SICU",
   "age": 74,
   "sex": "F",
@@ -1662,7 +1554,7 @@
   }
  },
  {
-  "patient_id": "VP-0142",
+  "patient_id": "VP-0133",
   "unit": "SICU",
   "age": 54,
   "sex": "F",
@@ -1675,7 +1567,7 @@
   }
  },
  {
-  "patient_id": "VP-0143",
+  "patient_id": "VP-0134",
   "unit": "7 East",
   "age": 81,
   "sex": "M",
@@ -1688,7 +1580,7 @@
   }
  },
  {
-  "patient_id": "VP-0144",
+  "patient_id": "VP-0135",
   "unit": "SICU",
   "age": 70,
   "sex": "M",
@@ -1698,7 +1590,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0145",
+  "patient_id": "VP-0136",
   "unit": "7 East",
   "age": 86,
   "sex": "M",
@@ -1711,7 +1603,7 @@
   }
  },
  {
-  "patient_id": "VP-0146",
+  "patient_id": "VP-0137",
   "unit": "MICU",
   "age": 81,
   "sex": "M",
@@ -1721,7 +1613,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0147",
+  "patient_id": "VP-0138",
   "unit": "Step-down",
   "age": 35,
   "sex": "M",
@@ -1734,7 +1626,7 @@
   }
  },
  {
-  "patient_id": "VP-0148",
+  "patient_id": "VP-0139",
   "unit": "MICU",
   "age": 80,
   "sex": "F",
@@ -1747,7 +1639,7 @@
   }
  },
  {
-  "patient_id": "VP-0149",
+  "patient_id": "VP-0140",
   "unit": "Step-down",
   "age": 30,
   "sex": "F",
@@ -1760,7 +1652,7 @@
   }
  },
  {
-  "patient_id": "VP-0150",
+  "patient_id": "VP-0141",
   "unit": "MICU",
   "age": 31,
   "sex": "F",
@@ -1773,7 +1665,7 @@
   }
  },
  {
-  "patient_id": "VP-0151",
+  "patient_id": "VP-0142",
   "unit": "6 West",
   "age": 55,
   "sex": "M",
@@ -1783,7 +1675,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0152",
+  "patient_id": "VP-0143",
   "unit": "CCU",
   "age": 76,
   "sex": "F",
@@ -1796,7 +1688,7 @@
   }
  },
  {
-  "patient_id": "VP-0153",
+  "patient_id": "VP-0144",
   "unit": "MICU",
   "age": 32,
   "sex": "M",
@@ -1809,7 +1701,7 @@
   }
  },
  {
-  "patient_id": "VP-0154",
+  "patient_id": "VP-0145",
   "unit": "Step-down",
   "age": 35,
   "sex": "F",
@@ -1819,7 +1711,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0155",
+  "patient_id": "VP-0146",
   "unit": "SICU",
   "age": 39,
   "sex": "M",
@@ -1829,7 +1721,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0156",
+  "patient_id": "VP-0147",
   "unit": "Step-down",
   "age": 76,
   "sex": "M",
@@ -1842,7 +1734,7 @@
   }
  },
  {
-  "patient_id": "VP-0157",
+  "patient_id": "VP-0148",
   "unit": "Step-down",
   "age": 58,
   "sex": "M",
@@ -1855,7 +1747,7 @@
   }
  },
  {
-  "patient_id": "VP-0158",
+  "patient_id": "VP-0149",
   "unit": "CCU",
   "age": 79,
   "sex": "M",
@@ -1868,7 +1760,7 @@
   }
  },
  {
-  "patient_id": "VP-0159",
+  "patient_id": "VP-0150",
   "unit": "7 East",
   "age": 56,
   "sex": "F",
@@ -1881,7 +1773,7 @@
   }
  },
  {
-  "patient_id": "VP-0160",
+  "patient_id": "VP-0151",
   "unit": "6 West",
   "age": 34,
   "sex": "F",
@@ -1894,7 +1786,7 @@
   }
  },
  {
-  "patient_id": "VP-0161",
+  "patient_id": "VP-0152",
   "unit": "7 East",
   "age": 59,
   "sex": "M",
@@ -1907,7 +1799,7 @@
   }
  },
  {
-  "patient_id": "VP-0162",
+  "patient_id": "VP-0153",
   "unit": "6 West",
   "age": 64,
   "sex": "F",
@@ -1920,7 +1812,7 @@
   }
  },
  {
-  "patient_id": "VP-0163",
+  "patient_id": "VP-0154",
   "unit": "7 East",
   "age": 86,
   "sex": "F",
@@ -1933,7 +1825,7 @@
   }
  },
  {
-  "patient_id": "VP-0164",
+  "patient_id": "VP-0155",
   "unit": "SICU",
   "age": 42,
   "sex": "M",
@@ -1943,7 +1835,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0165",
+  "patient_id": "VP-0156",
   "unit": "7 East",
   "age": 65,
   "sex": "M",
@@ -1956,7 +1848,7 @@
   }
  },
  {
-  "patient_id": "VP-0166",
+  "patient_id": "VP-0157",
   "unit": "CCU",
   "age": 75,
   "sex": "M",
@@ -1969,7 +1861,7 @@
   }
  },
  {
-  "patient_id": "VP-0167",
+  "patient_id": "VP-0158",
   "unit": "7 East",
   "age": 57,
   "sex": "M",
@@ -1979,7 +1871,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0168",
+  "patient_id": "VP-0159",
   "unit": "6 West",
   "age": 80,
   "sex": "M",
@@ -1992,7 +1884,7 @@
   }
  },
  {
-  "patient_id": "VP-0169",
+  "patient_id": "VP-0160",
   "unit": "Step-down",
   "age": 70,
   "sex": "M",
@@ -2002,7 +1894,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0170",
+  "patient_id": "VP-0161",
   "unit": "CCU",
   "age": 25,
   "sex": "M",
@@ -2015,7 +1907,7 @@
   }
  },
  {
-  "patient_id": "VP-0171",
+  "patient_id": "VP-0162",
   "unit": "SICU",
   "age": 76,
   "sex": "F",
@@ -2028,7 +1920,7 @@
   }
  },
  {
-  "patient_id": "VP-0172",
+  "patient_id": "VP-0163",
   "unit": "CCU",
   "age": 52,
   "sex": "M",
@@ -2041,7 +1933,7 @@
   }
  },
  {
-  "patient_id": "VP-0173",
+  "patient_id": "VP-0164",
   "unit": "MICU",
   "age": 46,
   "sex": "F",
@@ -2054,7 +1946,7 @@
   }
  },
  {
-  "patient_id": "VP-0174",
+  "patient_id": "VP-0165",
   "unit": "CCU",
   "age": 78,
   "sex": "M",
@@ -2064,7 +1956,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0175",
+  "patient_id": "VP-0166",
   "unit": "Step-down",
   "age": 37,
   "sex": "F",
@@ -2077,7 +1969,7 @@
   }
  },
  {
-  "patient_id": "VP-0176",
+  "patient_id": "VP-0167",
   "unit": "MICU",
   "age": 77,
   "sex": "F",
@@ -2090,7 +1982,7 @@
   }
  },
  {
-  "patient_id": "VP-0177",
+  "patient_id": "VP-0168",
   "unit": "CCU",
   "age": 75,
   "sex": "M",
@@ -2100,7 +1992,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0178",
+  "patient_id": "VP-0169",
   "unit": "MICU",
   "age": 45,
   "sex": "F",
@@ -2113,7 +2005,7 @@
   }
  },
  {
-  "patient_id": "VP-0179",
+  "patient_id": "VP-0170",
   "unit": "SICU",
   "age": 78,
   "sex": "M",
@@ -2123,7 +2015,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0180",
+  "patient_id": "VP-0171",
   "unit": "MICU",
   "age": 59,
   "sex": "M",
@@ -2136,7 +2028,7 @@
   }
  },
  {
-  "patient_id": "VP-0181",
+  "patient_id": "VP-0172",
   "unit": "6 West",
   "age": 30,
   "sex": "M",
@@ -2146,7 +2038,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0182",
+  "patient_id": "VP-0173",
   "unit": "7 East",
   "age": 24,
   "sex": "F",
@@ -2156,7 +2048,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0183",
+  "patient_id": "VP-0174",
   "unit": "7 East",
   "age": 73,
   "sex": "M",
@@ -2169,7 +2061,7 @@
   }
  },
  {
-  "patient_id": "VP-0184",
+  "patient_id": "VP-0175",
   "unit": "6 West",
   "age": 66,
   "sex": "M",
@@ -2182,7 +2074,7 @@
   }
  },
  {
-  "patient_id": "VP-0185",
+  "patient_id": "VP-0176",
   "unit": "Step-down",
   "age": 43,
   "sex": "F",
@@ -2195,7 +2087,7 @@
   }
  },
  {
-  "patient_id": "VP-0186",
+  "patient_id": "VP-0177",
   "unit": "Step-down",
   "age": 87,
   "sex": "F",
@@ -2205,7 +2097,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0187",
+  "patient_id": "VP-0178",
   "unit": "7 East",
   "age": 58,
   "sex": "F",
@@ -2215,7 +2107,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0188",
+  "patient_id": "VP-0179",
   "unit": "MICU",
   "age": 86,
   "sex": "M",
@@ -2225,7 +2117,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0189",
+  "patient_id": "VP-0180",
   "unit": "MICU",
   "age": 75,
   "sex": "M",
@@ -2235,7 +2127,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0190",
+  "patient_id": "VP-0181",
   "unit": "Step-down",
   "age": 34,
   "sex": "M",
@@ -2248,7 +2140,7 @@
   }
  },
  {
-  "patient_id": "VP-0191",
+  "patient_id": "VP-0182",
   "unit": "MICU",
   "age": 38,
   "sex": "F",
@@ -2258,7 +2150,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0192",
+  "patient_id": "VP-0183",
   "unit": "Step-down",
   "age": 65,
   "sex": "F",
@@ -2271,7 +2163,7 @@
   }
  },
  {
-  "patient_id": "VP-0193",
+  "patient_id": "VP-0184",
   "unit": "MICU",
   "age": 81,
   "sex": "M",
@@ -2284,7 +2176,7 @@
   }
  },
  {
-  "patient_id": "VP-0194",
+  "patient_id": "VP-0185",
   "unit": "CCU",
   "age": 57,
   "sex": "M",
@@ -2294,7 +2186,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0195",
+  "patient_id": "VP-0186",
   "unit": "SICU",
   "age": 87,
   "sex": "M",
@@ -2307,7 +2199,7 @@
   }
  },
  {
-  "patient_id": "VP-0196",
+  "patient_id": "VP-0187",
   "unit": "CCU",
   "age": 27,
   "sex": "M",
@@ -2317,7 +2209,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0197",
+  "patient_id": "VP-0188",
   "unit": "SICU",
   "age": 72,
   "sex": "M",
@@ -2327,7 +2219,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0198",
+  "patient_id": "VP-0189",
   "unit": "7 East",
   "age": 45,
   "sex": "F",
@@ -2340,7 +2232,7 @@
   }
  },
  {
-  "patient_id": "VP-0199",
+  "patient_id": "VP-0190",
   "unit": "Step-down",
   "age": 25,
   "sex": "F",
@@ -2353,7 +2245,7 @@
   }
  },
  {
-  "patient_id": "VP-0200",
+  "patient_id": "VP-0191",
   "unit": "SICU",
   "age": 58,
   "sex": "F",
@@ -2363,7 +2255,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0201",
+  "patient_id": "VP-0192",
   "unit": "7 East",
   "age": 22,
   "sex": "F",
@@ -2373,7 +2265,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0202",
+  "patient_id": "VP-0193",
   "unit": "MICU",
   "age": 31,
   "sex": "M",
@@ -2386,7 +2278,7 @@
   }
  },
  {
-  "patient_id": "VP-0203",
+  "patient_id": "VP-0194",
   "unit": "CCU",
   "age": 89,
   "sex": "M",
@@ -2396,7 +2288,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0204",
+  "patient_id": "VP-0195",
   "unit": "CCU",
   "age": 50,
   "sex": "M",
@@ -2409,7 +2301,7 @@
   }
  },
  {
-  "patient_id": "VP-0205",
+  "patient_id": "VP-0196",
   "unit": "Step-down",
   "age": 42,
   "sex": "M",
@@ -2422,7 +2314,7 @@
   }
  },
  {
-  "patient_id": "VP-0206",
+  "patient_id": "VP-0197",
   "unit": "6 West",
   "age": 21,
   "sex": "F",
@@ -2435,7 +2327,7 @@
   }
  },
  {
-  "patient_id": "VP-0207",
+  "patient_id": "VP-0198",
   "unit": "CCU",
   "age": 65,
   "sex": "M",
@@ -2445,7 +2337,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0208",
+  "patient_id": "VP-0199",
   "unit": "6 West",
   "age": 65,
   "sex": "M",
@@ -2458,7 +2350,7 @@
   }
  },
  {
-  "patient_id": "VP-0209",
+  "patient_id": "VP-0200",
   "unit": "6 West",
   "age": 56,
   "sex": "F",
@@ -2471,7 +2363,7 @@
   }
  },
  {
-  "patient_id": "VP-0210",
+  "patient_id": "VP-0201",
   "unit": "6 West",
   "age": 84,
   "sex": "M",
@@ -2484,7 +2376,7 @@
   }
  },
  {
-  "patient_id": "VP-0211",
+  "patient_id": "VP-0202",
   "unit": "Step-down",
   "age": 65,
   "sex": "M",
@@ -2494,7 +2386,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0212",
+  "patient_id": "VP-0203",
   "unit": "CCU",
   "age": 74,
   "sex": "F",
@@ -2507,7 +2399,7 @@
   }
  },
  {
-  "patient_id": "VP-0213",
+  "patient_id": "VP-0204",
   "unit": "6 West",
   "age": 88,
   "sex": "M",
@@ -2520,7 +2412,7 @@
   }
  },
  {
-  "patient_id": "VP-0214",
+  "patient_id": "VP-0205",
   "unit": "MICU",
   "age": 89,
   "sex": "F",
@@ -2533,7 +2425,7 @@
   }
  },
  {
-  "patient_id": "VP-0215",
+  "patient_id": "VP-0206",
   "unit": "7 East",
   "age": 52,
   "sex": "F",
@@ -2546,7 +2438,7 @@
   }
  },
  {
-  "patient_id": "VP-0216",
+  "patient_id": "VP-0207",
   "unit": "7 East",
   "age": 62,
   "sex": "F",
@@ -2556,7 +2448,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0217",
+  "patient_id": "VP-0208",
   "unit": "SICU",
   "age": 29,
   "sex": "F",
@@ -2569,7 +2461,7 @@
   }
  },
  {
-  "patient_id": "VP-0218",
+  "patient_id": "VP-0209",
   "unit": "6 West",
   "age": 72,
   "sex": "M",
@@ -2582,7 +2474,7 @@
   }
  },
  {
-  "patient_id": "VP-0219",
+  "patient_id": "VP-0210",
   "unit": "MICU",
   "age": 64,
   "sex": "M",
@@ -2592,7 +2484,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0220",
+  "patient_id": "VP-0211",
   "unit": "SICU",
   "age": 51,
   "sex": "F",
@@ -2605,7 +2497,7 @@
   }
  },
  {
-  "patient_id": "VP-0221",
+  "patient_id": "VP-0212",
   "unit": "6 West",
   "age": 83,
   "sex": "F",
@@ -2615,7 +2507,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0222",
+  "patient_id": "VP-0213",
   "unit": "MICU",
   "age": 78,
   "sex": "M",
@@ -2625,7 +2517,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0223",
+  "patient_id": "VP-0214",
   "unit": "7 East",
   "age": 53,
   "sex": "M",
@@ -2638,7 +2530,7 @@
   }
  },
  {
-  "patient_id": "VP-0224",
+  "patient_id": "VP-0215",
   "unit": "CCU",
   "age": 76,
   "sex": "F",
@@ -2648,17 +2540,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0225",
-  "unit": "Step-down",
-  "age": 86,
-  "sex": "M",
-  "weight_kg": 64.6,
-  "height_cm": 186,
-  "serum_creatinine_mg_dl": 1.26,
-  "isolate_mic": null
- },
- {
-  "patient_id": "VP-0226",
+  "patient_id": "VP-0216",
   "unit": "MICU",
   "age": 36,
   "sex": "M",
@@ -2668,7 +2550,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0227",
+  "patient_id": "VP-0217",
   "unit": "6 West",
   "age": 85,
   "sex": "F",
@@ -2681,7 +2563,7 @@
   }
  },
  {
-  "patient_id": "VP-0228",
+  "patient_id": "VP-0218",
   "unit": "CCU",
   "age": 26,
   "sex": "M",
@@ -2694,7 +2576,7 @@
   }
  },
  {
-  "patient_id": "VP-0229",
+  "patient_id": "VP-0219",
   "unit": "MICU",
   "age": 45,
   "sex": "F",
@@ -2707,7 +2589,7 @@
   }
  },
  {
-  "patient_id": "VP-0230",
+  "patient_id": "VP-0220",
   "unit": "SICU",
   "age": 74,
   "sex": "M",
@@ -2720,7 +2602,7 @@
   }
  },
  {
-  "patient_id": "VP-0231",
+  "patient_id": "VP-0221",
   "unit": "SICU",
   "age": 69,
   "sex": "F",
@@ -2730,7 +2612,7 @@
   "isolate_mic": null
  },
  {
-  "patient_id": "VP-0232",
+  "patient_id": "VP-0222",
   "unit": "7 East",
   "age": 74,
   "sex": "F",
@@ -2743,7 +2625,7 @@
   }
  },
  {
-  "patient_id": "VP-0233",
+  "patient_id": "VP-0223",
   "unit": "7 East",
   "age": 56,
   "sex": "M",
@@ -2756,7 +2638,7 @@
   }
  },
  {
-  "patient_id": "VP-0234",
+  "patient_id": "VP-0224",
   "unit": "CCU",
   "age": 47,
   "sex": "M",
@@ -2769,7 +2651,7 @@
   }
  },
  {
-  "patient_id": "VP-0235",
+  "patient_id": "VP-0225",
   "unit": "Step-down",
   "age": 36,
   "sex": "M",
@@ -2782,7 +2664,7 @@
   }
  },
  {
-  "patient_id": "VP-0236",
+  "patient_id": "VP-0226",
   "unit": "SICU",
   "age": 76,
   "sex": "M",
@@ -2795,7 +2677,7 @@
   }
  },
  {
-  "patient_id": "VP-0237",
+  "patient_id": "VP-0227",
   "unit": "MICU",
   "age": 84,
   "sex": "F",
@@ -2808,7 +2690,7 @@
   }
  },
  {
-  "patient_id": "VP-0238",
+  "patient_id": "VP-0228",
   "unit": "SICU",
   "age": 50,
   "sex": "M",
@@ -2821,7 +2703,7 @@
   }
  },
  {
-  "patient_id": "VP-0239",
+  "patient_id": "VP-0229",
   "unit": "Step-down",
   "age": 22,
   "sex": "M",
@@ -2834,7 +2716,7 @@
   }
  },
  {
-  "patient_id": "VP-0240",
+  "patient_id": "VP-0230",
   "unit": "SICU",
   "age": 84,
   "sex": "F",
@@ -2843,6 +2725,124 @@
   "serum_creatinine_mg_dl": 2.15,
   "isolate_mic": {
    "value_mg_l": 0.5,
+   "method": "Etest"
+  }
+ },
+ {
+  "patient_id": "VP-0231",
+  "unit": "6 West",
+  "age": 77,
+  "sex": "M",
+  "weight_kg": 173.0,
+  "height_cm": 150,
+  "serum_creatinine_mg_dl": 1.13,
+  "isolate_mic": {
+   "value_mg_l": 1.0,
+   "method": "broth microdilution"
+  }
+ },
+ {
+  "patient_id": "VP-0232",
+  "unit": "Step-down",
+  "age": 60,
+  "sex": "F",
+  "weight_kg": 87.9,
+  "height_cm": 150,
+  "serum_creatinine_mg_dl": 0.75,
+  "isolate_mic": null
+ },
+ {
+  "patient_id": "VP-0233",
+  "unit": "6 West",
+  "age": 54,
+  "sex": "M",
+  "weight_kg": 139.2,
+  "height_cm": 168,
+  "serum_creatinine_mg_dl": 2.14,
+  "isolate_mic": null
+ },
+ {
+  "patient_id": "VP-0234",
+  "unit": "SICU",
+  "age": 66,
+  "sex": "F",
+  "weight_kg": 54.8,
+  "height_cm": 171,
+  "serum_creatinine_mg_dl": 1.78,
+  "isolate_mic": {
+   "value_mg_l": 1.0,
+   "method": "broth microdilution"
+  }
+ },
+ {
+  "patient_id": "VP-0235",
+  "unit": "7 East",
+  "age": 52,
+  "sex": "F",
+  "weight_kg": 114.7,
+  "height_cm": 155,
+  "serum_creatinine_mg_dl": 2.33,
+  "isolate_mic": {
+   "value_mg_l": 1.0,
+   "method": "broth microdilution"
+  }
+ },
+ {
+  "patient_id": "VP-0236",
+  "unit": "7 East",
+  "age": 86,
+  "sex": "F",
+  "weight_kg": 111.6,
+  "height_cm": 145,
+  "serum_creatinine_mg_dl": 0.74,
+  "isolate_mic": null
+ },
+ {
+  "patient_id": "VP-0237",
+  "unit": "Step-down",
+  "age": 43,
+  "sex": "F",
+  "weight_kg": 121.8,
+  "height_cm": 182,
+  "serum_creatinine_mg_dl": 1.51,
+  "isolate_mic": {
+   "value_mg_l": 0.5,
+   "method": "broth microdilution"
+  }
+ },
+ {
+  "patient_id": "VP-0238",
+  "unit": "SICU",
+  "age": 68,
+  "sex": "M",
+  "weight_kg": 146.2,
+  "height_cm": 161,
+  "serum_creatinine_mg_dl": 2.27,
+  "isolate_mic": null
+ },
+ {
+  "patient_id": "VP-0239",
+  "unit": "CCU",
+  "age": 48,
+  "sex": "F",
+  "weight_kg": 91.8,
+  "height_cm": 161,
+  "serum_creatinine_mg_dl": 0.81,
+  "isolate_mic": {
+   "value_mg_l": 0.75,
+   "method": "MicroScan"
+  }
+ },
+ {
+  "patient_id": "VP-0240",
+  "unit": "CCU",
+  "age": 33,
+  "sex": "M",
+  "weight_kg": 150.9,
+  "height_cm": 162,
+  "serum_creatinine_mg_dl": 0.62,
+  "isolate_mic": {
+   "value_mg_l": 1.5,
    "method": "Etest"
   }
  }

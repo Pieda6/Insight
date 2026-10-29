@@ -13,10 +13,10 @@ trough two intervals apart), plus unusable results (rejected specimens, results 
 drawn during an infusion or less than an hour after one). Level values are the true concentration with assay
 noise, to 0.1 mg/L. The answers are then fitted from the recorded data with sim.py.
 
-Planted values sit near the thresholds that change an answer: AUC24/MIC just inside and outside 400 and 600,
-doses just either side of a 250 mg rounding step, and levels drawn 55 to 59 or 61 to 65 minutes after an infusion
-ends. Every patient keeps at least 0.05 percent between AUC24/MIC and 400 or 600, at least 0.5 mg between the
-unrounded new dose and a rounding midpoint, and exactly one solution for the elimination rate between 0.0001 and
+Planted values sit near the thresholds that change an answer: AUC24 0.6 to 2 percent inside and outside 400 and 600,
+doses 0.6 to 2 percent either side of a 250 mg rounding midpoint, and levels drawn 55 to 59 or 61 to 65 minutes after an infusion
+ends. Every patient keeps at least 0.6 percent between AUC24 and 400 or 600 and between the unrounded new dose
+and a rounding midpoint (more than the 0.5 percent tolerance; the MIC is 1 mg/L for everyone, Recommendation 6), and exactly one solution for the elimination rate between 0.0001 and
 3 per hour.
 """
 import csv
@@ -35,6 +35,7 @@ import sim  # noqa: E402
 SEED = 20200601
 N = 240
 STATS = Counter()
+MARGIN = 0.006      # every boundary and rounding midpoint more than the 0.5 percent tolerance away
 EPOCH = dt.datetime(2026, 3, 10, 0, 0)       # after the 2026 DST change; all records before November
 
 
@@ -256,7 +257,7 @@ def answers(p):
     if ke is None:
         return None
     cur = max((o for o in p.orders if o[0] == "maint"), key=lambda o: o[1])
-    mic = p.mic["value_mg_l"] if p.mic and p.mic["method"] == "broth microdilution" else 1.0
+    mic = 1.0                                   # guideline Recommendation 6: measured MICs do not change the target
     cl = ke * V
     auc24 = cur[2] * 24 / cur[3] / cl
     auc48 = sim.auc_to(48.0, segs, ke, V)
@@ -274,7 +275,7 @@ def answers(p):
 def margins(a):
     m_ratio = min(abs(a["ratio"] / 400 - 1), abs(a["ratio"] / 600 - 1))
     frac = a["raw"] / 250 - math.floor(a["raw"] / 250)
-    m_round = abs(frac - 0.5) * 250 if a["exposure"] != "within" else 999
+    m_round = abs(frac - 0.5) * 250 / a["raw"] if a["exposure"] != "within" else 999   # relative
     return m_ratio, m_round
 
 
@@ -292,11 +293,11 @@ def plant(rng, p, goal):
             if a is None or not (0.01 <= a["ke"] <= 0.5 and 15 <= a["V"] <= 260):
                 continue
             mr, mro = margins(a)
-            if mr < 0.0005 or mro < 0.5:
+            if mr < MARGIN or mro < MARGIN:
                 continue
-            if goal == "ratio" and 0.0005 <= mr <= 0.006:
+            if goal == "ratio" and MARGIN <= mr <= 0.02:
                 best = (i, p.levels[i][1])
-            if goal == "round" and 0.5 <= mro <= 5 and a["exposure"] != "within":
+            if goal == "round" and MARGIN <= mro <= 0.02 and a["exposure"] != "within":
                 best = (i, p.levels[i][1])
             if best:
                 return True
@@ -326,7 +327,7 @@ def main():
                 STATS["planted dose near a 250 mg rounding step"] += 1
         a = answers(p)
         mr, mro = margins(a)
-        if a is None or mr < 0.0005 or mro < 0.5 or not (0.01 <= a["ke"] <= 0.5 and 15 <= a["V"] <= 260):
+        if a is None or mr < MARGIN or mro < MARGIN or not (0.01 <= a["ke"] <= 0.5 and 15 <= a["V"] <= 260):
             STATS["redrawn"] += 1
             continue
         p.ans = a
