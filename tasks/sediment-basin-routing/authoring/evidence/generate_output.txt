@@ -1,13 +1,13 @@
-S11 1 basins 3 storms 0 spill rows
-S05 1 basins 2 storms 0 spill rows
-S02 2 basins 5 storms 4 spill rows
-S10 2 basins 59 storms 12 spill rows
-S06 3 basins 58 storms 12 spill rows
-S12 1 basins 58 storms 4 spill rows
-S04 4 basins 63 storms 23 spill rows
-S08 3 basins 57 storms 17 spill rows
-S07 3 basins 61 storms 12 spill rows
-S01 3 basins 55 storms 20 spill rows
-S03 4 basins 57 storms 8 spill rows
-S09 1 basins 68 storms 4 spill rows
-sites 12, rows 1432, rain intervals 11168, state records 136
+S07 1 basins 0 forebays 2 storms 0 spill rows
+S04 1 basins 0 forebays 2 storms 0 spill rows
+S12 3 basins 1 forebays 7 storms 5 spill rows
+S02 3 basins 1 forebays 57 storms 1 spill rows
+S11 3 basins 1 forebays 66 storms 13 spill rows
+S03 3 basins 1 forebays 60 storms 8 spill rows
+S06 6 basins 3 forebays 58 storms 12 spill rows
+S09 3 basins 1 forebays 56 storms 15 spill rows
+S05 5 basins 2 forebays 59 storms 14 spill rows
+S08 5 basins 2 forebays 68 storms 19 spill rows
+S01 5 basins 2 forebays 61 storms 22 spill rows
+S10 3 basins 1 forebays 57 storms 15 spill rows
+sites 12, rows 2201, rain intervals 11128, state records 127
