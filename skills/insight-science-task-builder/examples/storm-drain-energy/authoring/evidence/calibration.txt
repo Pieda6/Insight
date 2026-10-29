@@ -1,0 +1,30 @@
+CAUGHT    41 of 1060 rows wrong  plunging test against Ei instead of Eai
+CAUGHT    67 of 1060 rows wrong  plunging test against the final level (Ea) by iterating once
+CAUGHT   200 of 1060 rows wrong  every inflow pipe in the flow-weighted angle
+CAUGHT     3 of 1060 rows wrong  no 10-diameter limit on the drop
+CAUGHT     3 of 1060 rows wrong  10-diameter limit applied to hk instead of zk
+CAUGHT   912 of 1060 rows wrong  entrance and exit loss coefficients swapped (0.4 and 0.2)
+CAUGHT    20 of 1060 rows wrong  benching without interpolation (unsubmerged below 2.5)
+CAUGHT    86 of 1060 rows wrong  benching coefficient also at terminal structures
+CAUGHT   151 of 1060 rows wrong  no zero floor on the added loss Ha
+CAUGHT   457 of 1060 rows wrong  no floor at the outflow pipe energy Ei
+CAUGHT   507 of 1060 rows wrong  outlet control kept in condition D
+CAUGHT   257 of 1060 rows wrong  no supercritical reset in condition D
+CAUGHT   193 of 1060 rows wrong  outfall exit loss 0.4 like a structure
+CAUGHT    37 of 1060 rows wrong  outfall exit loss only when submerged
+CAUGHT   105 of 1060 rows wrong  outfall starts at max(tailwater, invert + (yc + D)/2)
+CAUGHT   282 of 1060 rows wrong  case B and C exit loss with the full-pipe velocity
+CAUGHT   689 of 1060 rows wrong  friction slope from equation 9.4 in every case
+CAUGHT   624 of 1060 rows wrong  Hi from the full-pipe velocity head always
+CAUGHT   546 of 1060 rows wrong  surface inflow ignored (no plunging term from the inlet)
+CAUGHT    42 of 1060 rows wrong  case B only above both normal and critical depth
+CAUGHT   440 of 1060 rows wrong  Manning constant 1.49
+CAUGHT   132 of 1060 rows wrong  g = 32.174
+CAUGHT   542 of 1060 rows wrong  inflow angle taken as the deflection (180 - angle)
+CAUGHT   119 of 1060 rows wrong  C-theta with all inflow over outflow
+CAUGHT     3 of 1060 rows wrong  benching ratio from Ei instead of Eai
+CAUGHT   874 of 1060 rows wrong  intermediate values rounded to two decimals as in Example 9.2
+CAUGHT    94 of 1060 rows wrong  full-flow friction with the exact Manning constant (0.4632, 8/3)
+CAUGHT     9 of 1060 rows wrong  surcharge judged on the HGL (EGLa less the outflow velocity head)
+CAUGHT  1058 of 1060 rows wrong  Approximate Method (Table 9.4) instead of the FHWA method
+29 of 29 shortcuts caught

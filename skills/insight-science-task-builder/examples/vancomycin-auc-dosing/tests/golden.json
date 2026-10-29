@@ -1,0 +1,70 @@
+{
+ "examples": [
+  {
+   "source": "Single 1,000 mg infusion over 1 h, ke 0.1/h, V 50 L: C = R/(ke V)(1 - e^(-ke T)) = 1000/(0.1*50)*(1 - e^-0.1) = 19.0325 mg/L",
+   "check": "end_of_infusion_conc",
+   "args": [
+    1000,
+    1.0,
+    0.1,
+    50.0
+   ],
+   "expect": 19.0325163928081,
+   "tol": 1e-09
+  },
+  {
+   "source": "Steady-state peak, 1,000 mg over 1 h every 12 h, ke 0.1/h, V 50 L: Cmax,ss = C_end / (1 - e^(-ke tau)) = 27.2358 mg/L",
+   "check": "steady_state_peak",
+   "args": [
+    1000,
+    1.0,
+    12.0,
+    0.1,
+    50.0
+   ],
+   "expect": 27.23577382621344,
+   "tol": 1e-06
+  },
+  {
+   "source": "Sawchuk-Zaske: steady-state peak 1 h after the end of infusion and trough 0.5 h before the next dose, same interval: ke = ln(Cpeak/Ctrough)/(9.5 h) = 0.1/h",
+   "check": "two_level_ke",
+   "args": [
+    1000,
+    1.0,
+    12.0,
+    0.1,
+    50.0,
+    1.0,
+    0.5
+   ],
+   "expect": 0.1,
+   "tol": 1e-09
+  },
+  {
+   "source": "Steady-state AUC over one interval = dose / CL = 1000 / (0.1 * 50) = 200 mg h/L (AUC24 = 400 at every 12 h)",
+   "check": "auc_steady_interval",
+   "args": [
+    1000,
+    1.0,
+    12.0,
+    0.1,
+    50.0
+   ],
+   "expect": 200.0,
+   "tol": 1e-06
+  },
+  {
+   "source": "Steady-state AUC over one interval, 1,750 mg over 2 h every 8 h, ke 0.25/h, V 40 L: 1750 / 10 = 175 mg h/L",
+   "check": "auc_steady_interval",
+   "args": [
+    1750,
+    2.0,
+    8.0,
+    0.25,
+    40.0
+   ],
+   "expect": 175.0,
+   "tol": 1e-06
+  }
+ ]
+}

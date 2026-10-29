@@ -1,0 +1,1489 @@
+6.1.4     Manning’s Equation
+Water flows in an open channel because of the force of gravity. Friction between the water and
+the channel boundary, and energy loss from turbulence near the boundary, resist the water flow
+and cause the loss of energy over distance. In the idealized model of steady uniform flow there
+are no significant accelerations, streamlines are straight and parallel, and the pressure distribution
+is hydrostatic. This is the simplest flow condition to analyze, but one that does not occur in the
+real world. However, for many applications, the flow is essentially steady and any changes in
+width, depth, or direction (resulting in nonuniform flow) are sufficiently small that the flow can be
+considered uniform.
+The depth of flow in steady uniform flow is the normal depth. Designers commonly use Manning’s
+equation to characterize steady uniform flow conditions and to determine normal depth in a
+channel. Manning’s equation for discharge is:
+
+                                                 63
+Chapter 6 - Roadside and Median Channels                                           HEC-22, 4th edition
+
+
+     Ku
+Q=      A R 2/3 S1/2
+                 o
+                                                                                                  (6.5)
+     n
+
+where:
+  Ku           =   Unit conversion constant, 1.486 in CU (1.0 in SI)
+  Q            =   Discharge rate, ft/s3 (m/s3)
+  A            =   Cross-sectional flow area, ft2 (m2)
+  R            =   Hydraulic radius, ft (m)
+  So           =   Energy grade line slope, ft/ft (m/m)
+  n            =   Manning’s roughness coefficient
+
+Applied appropriately, Manning’s equation is a useful and reliable representation of steady
+uniform flow in open channels. Whenever the steady uniform flow model is appropriate, or a
+reasonable approximation of that condition exists, calculating the discharge capacity of a given
+channel section using Manning’s equation is straightforward. However, when working with a
+discharge from a hydrologic analysis, designers sizing a channel to convey that discharge will
+
+9.1.3       Hydraulic Capacity
+Storm drain size, shape, slope, and friction resistance control its hydraulic capacity. Several flow
+friction formulas describe the relationship between flow capacity and these parameters. Engineers
+most often use Manning’s equation for designing storm drains.
+Chapter 5 introduced Manning’s equation for computing the capacity for roadside and median
+channels. For circular storm drains flowing full, Manning’s equation becomes:
+    K 
+V =  V  D0.67 So0.5                                                                           (9.1)
+     n 
+
+    K 
+Q =  Q  D2.67 So 0.5                                                                          (9.2)
+     n 
+where:
+  V            =    Mean velocity, ft/s (m/s)
+  Q            =    Rate of flow, ft3/s (m3/s)
+  KV           =    Unit conversion constant, 0.59 in CU (0.397 in SI)
+  KQ           =    Unit conversion constant, 0.46 in CU (0.312 in SI)
+  n            =    Manning’s roughness coefficient
+  D            =    Storm drain diameter, ft (m)
+  So           =    Slope of the energy grade line, ft/ft (m/m)
+
+Table 9.1 provides representative values of the Manning’s roughness coefficient for various storm
+drain materials. Figure 9.1 illustrates storm drain conduit capacity sensitivity to the parameters in
+
+                                                 138
+HEC-22, 4th edition                                                 Chapter 9 - Storm Drain Conduits
+
+
+Manning’s equation. For example, doubling the diameter of a circular storm drain conduit
+increases its capacity by a factor of 6.35; doubling the slope increases capacity by a factor of 1.4;
+but doubling the roughness reduces pipe capacity by 50 percent.
+
+
+
+
+                            Figure 9.1. Storm drain capacity sensitivity.
+
+As shown in Figure 9.1, slope and
+Manning’s roughness coefficient represent                    Economies in Pipe Quantities
+continuous variables, while storm drain
+                                                        Pipe sizes involve some “economy of
+diameter comes in discrete sizes. For
+                                                        scale.” Often, ordering small quantities of
+example, circular conduit only comes in
+                                                        many different pipe sizes costs more than
+increments such as 3 inches or 6 inches. To
+                                                        specifying a more frequently used but
+limit inventory size, vendors typically stock
+                                                        larger pipe size for a project. Within
+circular conduit on 6-inch increments (e.g.,
+                                                        reason, the greater the total length of a
+12, 18, 24, and 30 inches) making it readily
+                                                        given size pipe on a project, the less that
+available, and thus less expensive, than
+                                                        size will cost per unit length. In addition,
+sizes on 3-inch increments not divisible by
+                                                        larger pipe sizes can provide added
+6. For example, 24-inch pipe usually costs
+                                                        hydraulic capacity.
+less than 21-inch pipe. While manufacturers
+often list 21-inch (along with 15-, 27-, and
+33-inch), designs rarely use those sizes.
+For circular conduits:
+   •   Peak flow occurs at 93 percent of the height of the circular pipe. Therefore, a design using
+       a circular pipe for full flow will be slightly conservative.
+   •   Velocity in a pipe flowing half-full equals that for full flow.
+   •   Flow velocities for flow depths greater than half-full are greater than velocities at full flow.
+   •   As the depth of flow falls below half-full, the flow velocity drops off rapidly.
+
+
+                                                  139
+Chapter 9 - Storm Drain Conduits                                                  HEC-22, 4th edition
+
+
+              Table 9.1 Manning’s roughness coefficients for storm drain conduits.
+
+                                                       Roughness or
+               Type of Culvert                          Corrugation               Manning’s n *
+ Concrete Pipe                                           Smooth                   0.010-0.011
+ Concrete Boxes                                          Smooth                   0.012-0.015
+ Spiral Rip Metal Pipe                                   Smooth                   0.012-0.013
+                                                    2-2/3 by 1/2 inch
+                                                        (annular)                 0.022-0.027
+
+                                               2-2/3 by 1/2 inch (helical)        0.011-0.023
+                                                  6 by 1 inch (helical)           0.022-0.025
+ Corrugated Metal Pipe, Pipe-Arch and                   5 by 1 inch               0.025-0.026
+ Box (Manning’s n varies with barrel size)
+                                                        3 by 1 inch               0.027-0.028
+                                                 6 by 2 inch (structural
+                                                                                  0.033-0.035
+                                                          plate)
+                                               9 by 2-1/2 inch (structural
+                                                                                  0.033-0.037
+                                                         plate)
+                                                         Smooth                   0.009-0.015
+ Corrugated Polyethylene
+                                                        Corrugated                0.018-0.025
+ Polyvinyl chloride (PVC)                            Smooth                    0.009-0.011
+*HDS-5 (FHWA 2012a) documents laboratory-derived Manning’s n values. Actual field values for
+culverts may vary depending on the effect of abrasion, corrosion, deflection, and joint conditions.
+
+
+The shape of a storm drain conduit also influences its capacity. Designers most commonly use
+circular storm drain conduits; using an alternate shape sometimes increases capacity. Table 9.2
+lists the increase in capacity obtained by using alternate conduit shapes with the same height as
+the original circular shape but with a different cross-sectional area. Although these alternate
+shapes generally cost more than circular shapes, specific project area conditions sometimes
+warrant their use. For example, limited headroom (vertical clearance) may warrant use of elliptical,
+pipe-arch, and box shapes. Standard practice orients elliptical and box shapes with the longer
+dimension horizontal. In case of limited horizontal clearance, orienting elliptical pipe vertically may
+enhance performance over circular pipe.
+Some shapes are not available from suppliers in all locations. Designers may wish to consult
+industry suppliers in their State before specifying a particular shape to ensure its availability for
+their project. Commonly, either pipe-arch or elliptical shapes are available, but not both.
+
+
+
+
+                                                 140
+HEC-22, 4th edition                                                   Chapter 9 - Storm Drain Conduits
+
+
+   Table 9.2. Increase in capacity of alternate shapes based on a circular pipe with the same
+                                              height.
+
+                                                 Area                      Conveyance
+                      Shape                (Percent Increase)           (Percent Increase)
+             Circular                               --                           --
+             Oval                                   63                          87
+             Arch                                   57                          78
+             Box (B = D)                            27                          27
+
+
+Example 9.1:         Pipe size alternative and capacity.
+Objective:           Estimate the pipe diameter to convey the design flow. Consider use of both
+                     concrete and helical corrugated metal pipes. Estimate the full flow capacity of
+                     the selected pipes.
+ Given:
+      Q          =         17.6 ft3/s (0.50 m3/s)
+      So         =         0.015 ft/ft (m/m)
+      n          =         0.013 for concrete, 0.017 for corrugated metal
+Step 1. Estimate the concrete circular pipe diameter.
+ Using equation 9.2, calculate the reinforced concrete pipe (RCP) diameter.
+ D = [(Q n)/(KQ So0.5)]0.375 = [(17.6)(0.013) /{(0.46)(0.015)0.5}]0.375 = 1.69 ft (20.3 inches)
+ Use D = 21-inch diameter standard pipe size.
+Step 2. Estimate helical corrugated metal pipe (CMP) diameter.
+ Using equation 9.2, calculate the CMP diameter.
+ D = [(Q n)/(KQ So0.5)] 0.375 = [(17.6)(0.017)/{(0.46)(0.015)0.5}] 0.375 = 1.87 ft (22.4 inches)
+ Use D = 24-inch diameter standard size. Note that the n value of 0.017 corresponds to the
+ value for a 24-inch CMP, as shown in Table 9.1.
+Step 3. Compute the full flow capacity for the concrete pipe.
+ Q = (KQ/n) D2.67 So0.5 = (0.46)/(0.013) (1.75)2.67 (0.015)0.5 = 19.3 ft3/s
+ V = (KV/n) D0.67 So0.5 = (0.59)/(0.013) (1.75)0.67 (0.015)0.5 = 8.0 ft/s
+Step 2. Compute the full flow capacity for the helical CMP.
+ Q = (KQ/n) D2.67 So0.5 = (0.46)/(0.017) (2.0)2.67 (0.015)0.5 = 21.1 ft3/s
+ V = (KV/n) D0.67 So0.5 = (0.59)/(0.017) (2.0)0.67 (0.015)0.5 = 6.8 ft/s
+Solution:            The RCP and CMP have design diameters of 21 inches (530 mm) and 24
+                     inches (610 mm), respectively. A rougher surface produces more friction,
+                     resulting in a larger diameter. The concrete pipe has a full flow capacity and
+                     velocity of 19.3 ft3/s (0.55 m3/s) and 8.0 ft/s (2.4 m/s). The metal pipe has a full
+                     flow capacity and velocity of 21.1 ft3/s (0.60 m3/s) and 6.8 ft/s (2.1 m/s).
+
+                                                     141
+Chapter 9 - Storm Drain Conduits                                                   HEC-22, 4th edition
+
+
+9.1.4      Energy Grade Line/Hydraulic Grade Line
+The “energy grade line” (EGL) refers to a conceptual line longitudinally connecting points of total
+energy along a channel or conduit carrying water. Total energy includes elevation (potential)
+head, velocity head, and pressure head. Calculating the EGL for the full length of the system
+represents a critical step in storm drain evaluation. Designers develop the EGL by calculating all
+losses through the system. The principle of conservation of energy states that the energy head at
+any cross-section equals that at any other downstream section, plus the losses occurring
+between. Designers typically describe the intervening losses as either friction losses or form
+(minor) losses. Understanding and estimating the hydraulic grade line (HGL) elevation depends
+on knowing the location of the EGL and the velocity at each cross-section.
+The HGL in an open channel is the surface level of flowing water at any point along the channel.
+In closed conduits flowing under pressure, the HGL is a conceptual line like the EGL, but without
+the velocity component. It describes the level to which water would rise in any connecting system
+open to the atmosphere (often represented as a vertical tube) at any point along the pipe. When
+determining the acceptability of a proposed storm drainage system, designers use HGL by
+establishing the elevation to which water will rise under design conditions.
+To determine the elevation of the HGL at any point, subtract the velocity head (V2/2g) from the
+EGL. Energy concepts introduced in Chapter 6 apply to pipe flow as well as open channel flow.
+Figure 9.2 illustrates the EGLs and HGLs for open channel and pressure flow in pipes.
+When water flows through the pipe and a space of air exists between the top of the water and the
+inside of the pipe, designers consider the flow to be open channel flow, with the HGL at the water
+surface. When the pipe flows full under pressure flow, the HGL will be above the crown of the
+pipe. When the flow in the pipe just reaches the point where the pipe is flowing full, the energy
+condition lies in an unstable condition between open channel flow and pressure flow (with flow
+often oscillating between open channel and pressure conditions). At this condition, the resistance
+of the total pipe circumference influences the flow. Under gravity full flow, the HGL coincides with
+the crown of the pipe.
+If the HGL exceeds the top elevation of a storm drain feature such as a junction box, access hole,
+or inlet, surcharging will occur, and water can flow out of the structure. If not secured, the structure
+lid can also be displaced, a condition known as a “blowout.”
+Engineers carefully plan designs based on open channel conditions as well, including evaluating
+the potential for excessive and inadvertent flooding created when a storm event larger than the
+design storm pressurizes the system. As designers perform hydraulic calculations, they frequently
+verify the existence of the desired flow condition. Under actual operating conditions, storm
+drainage systems may alternate between pressure and open channel flow conditions from one
+section to another.
+Section 9.1.6 presents methods for determining energy losses in a storm drain. Section 9.4
+presents a suggested detailed procedure for evaluating the EGL and the HGL for storm drainage
+systems.
+
+
+
+
+                                                 142
+HEC-22, 4th edition                                               Chapter 9 - Storm Drain Conduits
+
+
+
+
+                      Figure 9.2. Hydraulic and energy grade lines in pipe flow.
+
+9.1.5     Storm Drain Outfalls
+All storm drains have an outlet where flow from the storm drainage system discharges into a
+surface conveyance. The discharge point can be a natural river or stream, an existing stormwater
+conveyance system, or an existing or proposed channel that conveys stormwater away from the
+highway. Designers refer to the water surface elevation of the receiving water as the tailwater
+elevation. Outfall design involves consideration of the flowline or invert (inside bottom) elevation
+of the proposed storm drain outlet, tailwater elevations, energy dissipation needs, and the outlet
+structure orientation.
+HGL and EGL computations start at the tailwater depth or elevation at the storm drain outfall
+and proceed upstream. If the tailwater elevation is below the invert elevation of the outlet conduit,
+the tailwater has no influence on the HGL. If above the invert elevation but below critical depth in
+the outfall pipe, the tailwater also has no influence on the HGL. Higher tailwater elevations,
+especially those above the crown of the outlet conduit, create backwater conditions the designer
+considers in the HGL computations. In most cases, designers use the greater of the design
+tailwater elevation or the average of critical depth and the height of the storm drain conduit, (yc +
+D)/2, as the starting point for HGL evaluation.
+If the outfall channel is a river or stream, to adequately determine the elevation of the tailwater in
+the receiving stream, the designer can consider the joint or coincidental probability of two
+hydrologic events. Designers can evaluate the relative independence of the storm drainage
+system discharge by comparing the drainage area of the receiving stream to the area of the storm
+drainage system. The FHWA’s HEC-19 (FHWA 2022b) includes information on the occurrence of
+coincident flows that are applicable to storm sewers and the receiving streams.
+Designers should consider the potential for an excessive tailwater to cause flow to back up the
+storm drainage system and out of inlets and access holes, creating unexpected and perhaps
+hazardous flooding conditions. Flap gates placed at the outlet can sometimes alleviate this
+condition; otherwise, the designer may isolate the storm drain from the outfall with a pump station
+(see Chapter 12).
+Protection of the storm drain outlet may also depend on energy dissipation. Designers typically
+use such protection at the outlet to prevent erosion of the outfall bed and banks. As the HEC-14
+(FHWA 2006a) manual for designing an appropriate dissipator describes, engineers expecting
+high velocities should provide riprap aprons or energy dissipators.
+The orientation of the outfall is another important design consideration. Where practical,
+designers position the outlet of the storm drain in the outfall channel to orient its flow in a
+                                                 143
+  Chapter 9 - Storm Drain Conduits                                                  HEC-22, 4th edition
+
+
+  downstream direction relative to the receiving stream. This will reduce turbulence and the
+  potential for excessive erosion. If designers cannot orient the outfall structure in a downstream
+  direction, they will want to consider the potential for outlet scour. For example, where a storm
+  drain outfall discharges perpendicular to the direction of flow of the receiving channel, erosion
+  may occur on the opposite channel bank. If erosion potential exists, designers may consider a
+  channel bank lining of riprap or other suitable material on the bank. Alternatively, they could use
+  an energy dissipator structure at the storm drain outlet.
+
+  9.1.6         Energy Losses
+  To compute the HGL and EGL, designers estimate all energy losses in pipe runs and junctions.
+  In addition to the principal energy lost to friction in each conduit run, turbulence causes energy
+  (or head) losses at outlets, inlets, bends, transitions, junctions, and access holes.
+
+  9.1.6.1       Pipe Friction Losses
+  Friction or boundary shear loss represents the major loss in a storm drainage system. The head
+  loss due to friction in a pipe is computed as follows:
+
+   hf = S f L                                                                                       (9.3)
+
+  where:
+    hf            =   Friction loss, ft (m)
+    Sf            =   Friction slope, ft/ft (m/m)
+    L             =   Length of pipe, ft (m)
+
+  The friction slope is also the slope of the hydraulic gradient for a particular pipe run. Assuming
+  steady uniform flow (see Section 9.1.1), the friction slope is the same as the pipe slope for partially
+  full flow. Pipe friction loss for full flow in a circular pipe is:
+                           2
+     hf   Qn 
+ Sf =
+ =            2.67 
+                                                                                                    (9.4)
+     L   K QD 
+
+  where:
+    KQ            =   Unit conversion constant, 0.46 in CU (0.312 in SI)
+
+  9.1.6.2       Exit Losses
+  The exit loss from a storm drain outlet is a function of the change in velocity at the outlet of the
+  pipe. For a sudden expansion such as at an end wall, the exit loss equals:
+
+         V2 V2 
+=H0 1.0  o − d                                                                                    (9.5)
+         2g 2g 
+
+   where:
+     Vo           =   Average outlet velocity
+     Vd           =   Channel velocity downstream of outlet in the direction of the pipe flow
+     g            =   Gravitational acceleration, 32.2 ft/s2 (9.81 m/s2)
+
+
+
+
+                                                    144
+   HEC-22, 4th edition                                               Chapter 9 - Storm Drain Conduits
+
+
+   Note that when Vd = 0, as in a reservoir, the exit loss equals one velocity head. For part full flow
+   where the pipe outlets in a channel with water moving in the same direction as the outlet water,
+   consider the exit loss as virtually zero.
+
+   9.1.6.3    Bend Losses
+   Estimate the bend loss coefficient (Hb) for storm drain design (for bends in the pipe run, not in an
+   access hole structure) using the following formula (AASHTO 2014):
+
+                    V2
+=Hb 0.0033( ∆ )                                                                                   (9.6)
+                    2g
+
+   where:
+     ∆          =    Angle of bend, degrees
+
+   9.1.6.4    Transition Losses
+   Figure 9.3 shows an expansion transition. Typically, designers use access holes when pipe size
+   increases; however, in rare cases, expansions without an access hole may be appropriate.
+
+
+
+
+                          Figure 9.3. Angle of cone for pipe diameter changes.
+
+   Designers can express energy losses in expansions or contractions in open channel flow in terms
+   of the kinetic energy at the two ends:
+
+         V 22 V 12 
+=He K e      −                                                                                  (9.7)
+         2g 2g 
+
+   where:
+     Ke         =    Expansion coefficient
+     V1         =    Velocity upstream of transition, ft/s (m/s)
+     V2         =    Velocity downstream of transition, ft/s (m/s)
+     g          =    Gravitational acceleration, 32.2 ft/s2 (9.81 m/s2)
+
+   Table 9.3 presents typical values of Ke for gradual expansions.
+   Designers do not use contractions in storm drains because of the potential for clogging and safety
+   hazards when transitioning to a smaller pipe size. However, contractions have an analogous
+   energy loss relationship:
+
+
+
+                                                   145
+  Chapter 9 - Storm Drain Conduits                                                     HEC-22, 4th edition
+
+
+         V2 V2 
+=Hc K c  2 − 1                                                                                       (9.8)
+         2g 2g 
+
+  where:
+    Kc            =     Contraction coefficient
+    V1            =     Velocity upstream of transition, ft/s (m/s)
+    V2            =     Velocity downstream of transition, ft/s (m/s)
+    g             =     Gravitational acceleration, 32.2 ft/s2 (9.81 m/s2)
+
+        Table 9.3. Typical values for Ke for gradual enlargement of pipes in open channel flow.
+
+                                                              Angle of Cone
+        D2/D1          10°            20°              45°          60°       90°    120°      180°
+         1.5           0.17           0.40             1.06         1.21      1.14   1.07       1.00
+          3            0.17           0.40             .86          1.02      1.06   1.04       1.00
+
+
+
+                                                      Debris and Clogging
+       Storm drains invariably transport debris (potentially including litter, vegetative materials,
+       and many other items) off the watershed and into receiving waters. Much of this debris
+       could clog the system, accumulate with other debris, and obstruct the flow of stormwater.
+       Cardboard boxes, branches, and other items with at least one dimension greater than the
+       diameter of the conduits are common.
+       Although uncommon, persons (particularly children), pets, or livestock can be swept into
+       storm drains. Wild animals often inhabit them during dry periods.
+       To facilitate passage of debris through the system, and to reduce the risk of trapping
+       people or animals, designers typically ensure the maximum dimension (e.g., diameter) of
+       conduits does not decrease in the downstream direction.
+
+
+
+  9.1.6.5       Junction Losses
+  Figure 9.4 shows a pipe junction connecting a lateral pipe to a larger trunk pipe without using an
+  access hole structure. Underground pipe junctions represent both potential debris clogging
+  hazard points and access challenges for maintenance staff in the case of clogging. For these
+  reasons, designers use junction boxes with access as a preferable alternative where conduits
+  join. The minor loss equation for a pipe junction is a form of the momentum equation as follows:
+
+        (Qo Vo ) − (Qi Vi ) − (Ql Vl cos θ j )
+  Hj                                             + hi − ho                                             (9.9)
+                 0.5 g(A o + A i )
+
+  where:
+    Hj            =     Junction loss, ft (m)
+    Qo            =     Outlet flow, ft3/s (m3/s)
+    Qi            =     Inlet flow, ft3/s (m3/s)
+    Ql            =     Lateral flow, ft3/s (m3/s)
+
+                                                              146
+HEC-22, 4th edition                                                    Chapter 9 - Storm Drain Conduits
+
+
+   Vo              =   Outlet velocity, ft/s (m/s)
+   Vi              =   Inlet velocity, ft/s (m/s)
+   Vl              =   Lateral velocity, ft/s (m/s)
+   ho              =   Outlet velocity head, ft (m)
+   hi              =   Inlet velocity head, ft (m)
+   Ao              =   Outlet cross-sectional area, ft2 (m2)
+   Ai              =   Inlet cross-sectional area, ft2 (m2)
+   θj              =   Angle between the inflow trunk pipe and inflow lateral pipe
+
+
+
+
+                           Figure 9.4. Interior angle definition for pipe junctions.
+
+9.1.6.6       Approximate Method for Inlet and Access Hole Energy Loss
+Estimating inlet and access hole energy losses at the junction between inflow and outflow pipes
+presents more complexity than estimating junction losses. The Approximate Method is the
+simplest and appropriate only for preliminary design estimates. The method recognizes that initial
+layout of a storm drain system begins at its upstream end. The designer estimates sizes and
+establishes preliminary elevations as the design progresses downstream. The Approximate
+Method estimates losses across an access hole by multiplying the velocity head of the outflow
+pipe by a coefficient:
+
+             Vo2
+Hah = K ah                                                                                       (9.10)
+             2g
+
+
+
+
+                                                     147
+Chapter 9 - Storm Drain Conduits                                             HEC-22, 4th edition
+
+
+where:
+  Hah        =    Head loss across an access hole, ft (m)
+  Kah        =    Head loss coefficient
+  Vo         =    Outlet pipe velocity, ft/s (m/s)
+
+Table 9.4 presents applicable coefficients (Kah) and Figure 9.5 describes the angle of connection
+for the coefficients. With the estimated head loss, the designer estimates the initial pipe crown
+drop across an access hole (or inlet) structure to offset energy losses at the structure. The
+designer then uses the crown drop to establish the appropriate pipe invert elevations.
+However, access hole and inlet energy losses are more complex than a simple proportional
+relationship to outlet velocity head and interior angle. Therefore, this represents a preliminary
+estimate only and does not apply to EGL calculations.
+
+                                Table 9.4. Head loss coefficients.
+
+   Inlet/Access Hole          Structure Configuration                Kah          Source
+                             Straight run, square edge               0.50     FHWA (2012a)
+          Inlet
+                                Angled through 90°                   1.50            --
+                                    Straight run               min ~ 0.15      ASCE (1992)
+                                     90° angle                       1.00     UDFCD (2001)
+      Access Hole                   120° angle                       0.85     UDFCD (2001)
+                                    135° angle                       0.75     UDFCD (2001)
+                                   157.5° angle                      0.45     UDFCD (2001)
+
+
+
+
+                           Figure 9.5. Interior angle for access holes.
+
+9.1.6.7    FHWA Inlet and Access Hole Energy Loss
+Other FHWA research has produced other approaches for estimating inlet and access hole
+energy losses to improve on the Approximate Method (Chang and Kilgore 1989, Chang et al.
+1994, Kilgore 2006, Kerenyi et al. 2006). These also have limitations, some shared with the
+Approximate Method, including:
+
+
+
+
+                                               148
+HEC-22, 4th edition                                              Chapter 9 - Storm Drain Conduits
+
+
+   •   Limited representation of very different hydraulic conditions within access holes when
+       using or developing a single coefficient multiplied by an outlet velocity head.
+   •   Difficulties producing reasonable results on some surcharged systems and systems with
+       supercritical flows leaving the access hole.
+   •   Under-prediction of calculated versus observed access hole flow depths.
+   •   Dependence on relatively complex iterative methods.
+   •   Development of problematic solutions in some situations resulting from limitations in these
+       methods.
+To address these issues, the FHWA developed a more comprehensive method for estimating
+losses in access holes and inlets. The resulting approach classifies access holes and their
+hydraulic conditions in a manner analogous to inlet control and full flow for culverts (Kilgore 2005,
+Kilgore 2006, Kerenyi et al. 2006). The method then applies equations in appropriate forms for
+the given classification. In addition to avoiding the limitations described above, this method has
+the following benefits:
+   •   Uses hydraulically sound fundamentals for key computations (inlet control and full flow
+       analogies) as a foundation for extrapolating the method beyond laboratory data.
+   •   Incorporates an approach to handling surcharged systems with the full flow component of
+       the method.
+   •   Avoids problems associated with supercritical flows in outlet pipe by using a culvert inlet
+       control analogy.
+   •   Provides equivalent or better performance in predicting access hole water depth and
+       inflow EGL on the extensive FHWA laboratory dataset.
+   •   Presents a direct (non-iterative), simple, and manually verifiable computational procedure.
+The method includes three fundamental activities (with terms described in Figure 9.6):
+   •   Determines an initial access hole energy level (Eai) based on inlet control (weir and orifice)
+       or outlet control (partially full and full flow) equations.
+   •   Adjusts the initial access hole energy level based on benching, inflow angle(s), and
+       plunging flows to compute the final calculated energy level (Ea).
+   •   Calculates the exit loss from each inflow pipe and estimating the energy grade line (EGLo),
+       which will then be used to continue calculations upstream.
+
+
+
+
+                                                149
+Chapter 9 - Storm Drain Conduits                                                HEC-22, 4th edition
+
+
+
+
+                         Figure 9.6. Access hole energy level definitions.
+
+9.1.6.7.1       Determining Initial Access Hole Energy Level
+Calculate the initial energy level in the access hole structure (Eai) as the maximum of three
+possible conditions; these determine the hydraulic regime within the structure. The three
+conditions considered for the outlet pipe are:
+   •   Outlet control condition: 1) full flow condition—a common occurrence with a surcharged
+       storm drain system or if pipe capacity limits flow in the pipe; and 2) partially full flow
+       condition—considered for an outlet pipe flowing partially full and in subcritical flow.
+   •   Inlet control (submerged) condition: considered to possibly occur if the opening in the
+       access hole structure to the outlet pipe is limiting and the resulting water depth in the
+       access hole is sufficiently high that flow through the opening is treated as an orifice.
+   •   Inlet control (unsubmerged) condition: considered to possibly occur if the flow control is
+       also limited by the opening, but the resulting water level in the access hole involves
+       treating the opening as a weir.
+The method addresses one of the weaknesses of other methodologies: the large reliance on
+outflow pipe velocity. The full flow computation uses velocity head, but full flow only applies when
+the outflow pipe flows full. The two inlet control estimates depend only on discharge and pipe
+diameter. This improvement recognizes that velocity is not a reliable parameter because:
+   •   In cases where supercritical flow occurs in the outflow pipe, the upstream condition at the
+       access hole, not the velocity head, determines flow in the outflow pipe and the
+       corresponding velocity head.
+   •   In the laboratory setting used to derive most coefficients and methods, researchers do not
+       directly measured velocity. They calculate it from depth and the continuity relationship, so.
+       small errors in depth measurement can cause large variations in velocity head.
+   •   Velocities produced in laboratory experiments result from localized hydraulic conditions,
+       which do not necessarily represent the velocities calculated based on equilibrium pipe
+       hydraulics in storm drain computations.
+
+
+
+                                                150
+ HEC-22, 4th edition                                                  Chapter 9 - Storm Drain Conduits
+
+
+ Seeking to obtain values for other elements of total outflow pipe energy head (Ei), such as outflow
+ pipe depth (potential head) and pressure head, may exacerbate this issue. Consider Ei as the
+ sum of the potential, pressure, and velocity head components:
+
+        P   V2 
+ Ei =+
+     y  +                                                                                        (9.11)
+        γ   2g 
+
+ where:
+   Ei            =   Outflow pipe energy head, ft (m)
+   y             =   Outflow pipe depth (potential head), ft (m)
+   (P / γ)       =   Outflow pipe pressure head, ft (m)
+   (V2 / 2g)     =   Outflow pipe velocity head, ft (m)
+
+ Solving for equation 9.11 may cause a problem for certain conditions (e.g., where P cannot be
+ assumed to equal atmospheric pressure). Designers can also determine Ei by subtracting the
+ outflow pipe invert elevation (Zi) from the outflow pipe energy grade line (EGLi) (both known
+ values) at that location:
+
+Ei EGLi − Zi
+=                                                                                                    (9.12)
+
+ Knowing Ei serves as a check on the method. In circumstances with very low flow, the
+ computations may result in access hole energy levels less than the outflow pipe energy head. In
+ such cases, the designer sets the access energy level equal to the outflow pipe energy head.
+ To determine the initial estimate of the access hole energy level, the designer takes the maximum
+ of the three values:
+
+ Eai = max(Eaio ,Eais ,Eaiu )                                                                        (9.13)
+
+ where:
+   Eaio          =   Estimated access hole energy level for outlet control (full and partially full flow),
+                     ft (m)
+    Eais         =   Estimated access hole energy level for inlet control (submerged), ft (m)
+    Eaiu         =   Estimated access hole energy level for inlet control (unsubmerged), ft (m)
+
+ In the outlet control condition, the downstream storm drain system limits discharge out of the
+ access hole such that the outflow pipe either flows full or partially full in subcritical flow. The initial
+ structure energy level (Eaio) estimate is:
+
+ Eaio= Ei + Hi                                                                                       (9.14)
+
+ where:
+   Hi            =   Entrance loss assuming outlet control, calculated using equation 9.16, ft (m)
+
+            V2
+ Hi = K i                                                                                            (9.15)
+            2g
+
+ where:
+   Ki            =   Entrance loss coefficient = 0.2 (Kerenyi et al. 2006)
+
+                                                    151
+Chapter 9 - Storm Drain Conduits                                                  HEC-22, 4th edition
+
+
+As described earlier, using the concept of outflow pipe energy head (Ei) and equation 9.13 allows
+the designer to estimate energy level directly without considering the water surface within the
+access hole. Defining a one-dimensional velocity head in a location with highly turbulent multi-
+directional flow presents a challenge.
+Inlet control calculations employ a dimensionless ratio (the discharge intensity) adapted from the
+analysis of culverts. The discharge intensity (DI) parameter, or the ratio of discharge to pipe
+dimensions, describes the discharge intensity:
+
+          Q
+DI =                                                                                            (9.16)
+       A(gDo )0.5
+
+where:
+  A            =    Area of outflow pipe, ft2 (m2)
+  Do           =    Diameter of outflow pipe, ft (m)
+
+The submerged inlet control condition uses an orifice analogy to estimate the energy level
+(Eais). Researchers derived the equation using data with discharge intensities less than or equal
+to 1.6 resulting in:
+
+Eais = D o (DI)2                                                                                (9.17)
+
+Laboratory analyses (Kilgore 2005, Kilgore 2006) revealed that unsubmerged inlet control
+conditions involve DIs in a 0.0 to 0.5 range (though the equation is not limited to this range). The
+unsubmerged inlet control condition uses a weir analogy to estimate the energy level (Eaiu):
+
+Eaiu = 1.6D o (DI)0.67                                                                          (9.18)
+
+9.1.6.7.2           Adjusting for Benching, Angled Inflow, and Plunging Inflow
+Use the initial structure energy level 1 as a basis for estimating additional losses for: 1) discharges
+entering the structure at angles other than 180 degrees; 2) benching configurations; and 3)
+plunging flows entering the structure at elevations above the water depth in the access hole
+(treating flows entering a structure from an inlet or elevated incoming pipe as plunging flows).
+Use the principle of superposition to estimate the effects of these conditions and apply them to
+the initial access hole energy level. This additive approach avoids a problem experienced in other
+methods where extreme values of energy losses are obtained when a single multiplicative
+coefficient takes on an extreme value.
+The revised access hole energy level (Ea) equals the initial estimate (Eai) modified by each of the
+three factors covered in this section:
+
+Ea = Eai + HB + Hθ + HP                                                                         (9.19)
+
+where:
+  HB           =    Additional energy loss for benching (floor configuration), ft (m)
+  Hθ           =    Additional energy loss for angled inflows other than 180 degrees, ft (m)
+  HP           =    Additional energy loss for plunging flows, ft (m)
+
+Ea represents the level of the EGL in the access hole. However, if calculations result in an Ea less
+than the outflow pipe energy head (Ei), then set Ea equal to Ei.
+                                                  152
+  HEC-22, 4th edition                                              Chapter 9 - Storm Drain Conduits
+
+
+  Designers may also wish to know the water depth in the access hole (ya). A conservative approach
+  would use Ea as ya for design purposes.
+  Benching tends to direct flow through the access hole, resulting in a reduction in energy losses.
+  Figure 9.7 illustrates some typical bench configurations. Generally, from Figure 9.7 (a) to (e), the
+  energy losses tend to decrease.
+  For access hole benching, the additional benching energy loss is:
+
+HB CB (Eai − Ei )
+=                                                                                              (9.20)
+
+  where:
+    CB         =    Energy loss coefficient for benching.
+
+  Table 9.5 summarizes benching coefficients. A negative value indicates water depth will be
+  reduced rather than increased.
+
+
+
+
+                             Figure 9.7. Access hole benching methods.
+
+
+
+
+                                                  153
+  Chapter 9 - Storm Drain Conduits                                                     HEC-22, 4th edition
+
+
+                                    Table 9.5. Values for the coefficient, CB.
+
+                           Floor
+                        Configuration      Bench Submerged *        Bench Unsubmerged *
+                         Flat (level)              -0.05                     -0.05
+                         Depressed                  0.0                          0.0
+                        Half Benched               -0.05                     -0.85
+                        Full Benched               -0.25                     -0.93
+                          Improved                -0.60                    -0.98
+                    *A bench submerged condition has the properties of (Eai/Do)>2.5 and
+                    bench unsubmerged condition has the properties of (Eai/Do)<1.0. Use
+                    linear interpolation between the two values for intermediate values.
+  Address the effect of skewed inflows entering the structure by considering momentum vectors.
+  To maintain simplicity, the contribution of all inflows contributing to structure and with a hydraulic
+  connection (i.e., not plunging) resolves into a single flow weighted angle (θw):
+
+      Σ(Q j θ j )
+  θw =                                                                                              (9.21)
+       ΣQ j
+
+  where:
+    QJ              =   Contributing flow from inflow pipe, ft3/s (m3/s)
+    θJ              =   Angle measured from the outlet pipe (180 degrees is a straight pipe)
+
+  Figure 9.8 illustrates the orientation of the pipe inflow angle measurement. The angle for each of
+  the non-plunging inflow pipes references to the outlet pipe, so that the angle is not greater than
+  180 degrees. A straight pipe angle is 180 degrees. The summation only includes non-plunging
+  flows as indicated by the subscript j. If all flows are plunging, set θw to 180 degrees.
+  Then, calculate an angled inflow coefficient (Cθ) as follows:
+
+             ΣQ j   θ 
+  Cθ = 4.5      cos  w                                                                            (9.22)
+             Q0      2 
+
+  where:
+    Qo              =   Flow in outflow pipe, ft3/s (m3/s)
+
+  The angled inflow coefficient approaches zero as θw approaches 180 degrees and as the relative
+  inflow approaches zero. The additional angle inflow energy loss is:
+
+Hθ Cθ (Eai − Ei )
+=                                                                                                   (9.23)
+
+  Plunging inflow describes inflow (pipe or inlet) where the invert of the pipe (zk) is greater than
+  the estimated structure water depth (approximated by Eai). The value of zk represents the
+  difference between the access hole invert elevation and the inflow pipe invert elevation.
+
+
+
+
+                                                       154
+HEC-22, 4th edition                                             Chapter 9 - Storm Drain Conduits
+
+
+
+
+                         Figure 9.8. Access hole angled inflow definition.
+
+The method determines a relative plunge height (hk) for a plunging pipe (denoted by the subscript
+k) as:
+
+       (zk − Eai )
+hk =                                                                                       (9.24)
+          Do
+
+This relative plunge height allows determination of the plunging flow coefficient (CP):
+
+       Σ(Qk hk )
+CP =                                                                                       (9.25)
+         Qo
+
+                                               155
+  Chapter 9 - Storm Drain Conduits                                                 HEC-22, 4th edition
+
+
+  As the proportion of plunging flows approaches zero, CP also approaches zero. Equations 9.24
+  and 9.25 only apply to conditions where zk < 10Do. If zk > 10Do set it to 10Do.
+  The additional plunging inflow energy loss is given by:
+
+HP CP (Eai − Ei )
+=                                                                                               (9.26)
+
+  The method allows determination of the incremental benching (HB), inflow angle (Hθ), and
+  plunging energy (HP) terms. However, incremental losses can be small, possibly even small
+  enough to be “lost in the rounding.” Alternatively, compute Ha by algebraically rearranging the
+  benching, inflow angle, and plunging equations to yield:
+
+  Ha =   (CB + Cq + CP ) (Eai − Ei )                                                            (9.27)
+
+  Note that the value of Ha should always be positive. If the calculation yields a negative value, the
+  designer sets Ha equal to zero. The revised access hole energy level is:
+
+  E=
+   a Eai + Ha                                                                                   (9.28)
+
+  If the computed estimate of Ea is less than the outlet pipe energy (Ei), use the higher of the two
+  values for Ea.
+  Knowing the access hole energy level (Ea) and assuming the access hole invert (za) has the same
+  elevation as the outflow pipe invert (zi) allows determination of the access hole energy grade line
+  (EGLa):
+
+  EGL=
+     a Ea + Z a                                                                                 (9.29)
+
+  The potentially highly turbulent nature of flow within the access hole makes determination of water
+  depth problematic. However, designers can reasonably use EGLa as a comparison elevation to
+  check for potential surcharging of the system. Research has shown the difficulty of determining
+  velocity head within the access hole, even in controlled laboratory conditions (Kerenyi et al. 2006).
+
+  9.1.6.7.3         Calculating Inflow Pipe Exit Losses
+  In the final step, the designer calculates the EGL into each inflow pipe. Non-plunging inflow
+  pipes are pipes with a hydraulic connection to the water in the access hole. The designer
+  identifies inflow pipes operating under this condition when the revised access hole energy grade
+  line (Ea) is greater than the inflow pipe invert elevation (Zo). In this case, the inflow pipe energy
+  head equals:
+
+  EGL=
+     o Ea + Ho                                                                                  (9.30)
+
+  where:
+    EGLo        =   Inflow pipe energy head, ft (m)
+    Ea          =   Revised access hole energy grade line, ft (m)
+    Ho          =   Inflow pipe exit loss, ft (m)
+
+  The subscript “o” is used for the inlet pipe because the equation represents losses at the outlet
+  end of the inlet pipe. Calculate exit loss in the traditional manner using the inflow pipe velocity
+  head since a condition of supercritical flow is not a concern on the inflow pipe. The equation is:
+
+                                                  156
+HEC-22, 4th edition                                                Chapter 9 - Storm Drain Conduits
+
+
+           V2
+Ho = K o                                                                                     (9.31)
+           2g
+
+where:
+  Ko            =   Exit loss coefficient = 0.4, dimensionless (Kerenyi et al. 2006)
+
+Water discharging from plunging inflow pipes freely falls into the access hole. For plunging
+pipes, take the inflow pipe energy grade line (EGLo) as the energy grade line calculated from the
+inflow pipe hydraulics. In this case, EGLo does not depend on access hole water depth and losses.
+Determining the EGL for the outlet of a pipe has already been described in Section 9.1.5.
+For both the non-plunging and plunging cases, use the resulting EGL to continue computations
+upstream to the next access hole. At each access hole, repeat the three-step procedure of
+estimating: 1) entrance losses from entering the outlet pipe; 2) additional benching, angled inflow,
+and plunging losses within the access hole, and 3) exit losses leaving the inlet pipe and entering
+the access hole.
+
+9.2      Design Considerations
+
+9.4     Hydraulic and Energy Grade Line Evaluation
+This section presents a step-by-step procedure for calculation of the EGL and the HGL using the
+energy loss method. For most storm drainage systems, computer methods are the most efficient
+means of evaluating the EGL and the HGL. However, it is important that the designer understand
+the analysis process so that they can better interpret the output from computer generated storm
+drain designs. Figure 9.9 provides a sketch illustrating use of the two grade lines in developing a
+storm drainage system. The following procedure can be used as a template to construct a
+spreadsheet to compute the EGL and HGL.
+
+
+
+
+                      Figure 9.9. Energy and hydraulic grade line illustration.
+
+EGL computations begin at the outfall and are worked upstream taking each junction into
+consideration. Many storm drain systems are designed to function in a subcritical flow regime. In
+subcritical flow, pipe and access hole losses are summed to determine the upstream EGL levels.
+If supercritical flow occurs, pipe and access losses are not carried upstream. When a storm drain
+section is identified as being supercritical, the designer advances to the next upstream pipe
+section to determine its flow regime. This process continues until the storm drain system returns
+to a subcritical flow regime. The steps continue from the preliminary design in Section 9.3 with
+step 4.
+Step 4. Determine the tailwater elevation at the storm drain outfall.
+The designer estimates the water surface elevation at the discharge point of the storm drain
+system. This may be at a larger body of water such as a pond, lake, or tidally influenced receiving
+point. In these cases, the receiving water is assumed to have no velocity. The tailwater elevation
+may also be determined by a stream or the critical depth in the discharge pipe if the receiving
+elevation is lower than the pipe invert elevation. Estimating the tailwater elevation may involve
+coincident flow calculations, tidal condition assumptions, reservoir/detention pond routing
+assumptions, or other, unrelated calculations.
+Estimate critical depth in the conduit for the design discharge and calculate the elevation of critical
+depth at the outfall. If the water surface elevation in the receiving water is below that elevation,
+critical depth will dominate outfall conditions. If it is above critical depth, the receiving water will
+exert some influence on the energy state at the outfall.
+
+                                                 163
+Chapter 9 - Storm Drain Conduits                                                HEC-22, 4th edition
+
+
+From the initial elevation and the corresponding area of flow and discharge, compute the total
+energy at the outfall. The HGL elevation is the initial elevation, the EGL is that, plus the energy
+head.
+Step 5. Estimate the HGL and EGL at the downstream end of the next pipe.
+Beginning with the outfall pipe, estimate the HGL and EGL at the downstream end of the pipe,
+but just inside the pipe. The designer determines this from the tailwater elevation, physical pipe
+characteristics and design flow. This step is repeated for each pipe in the storm drain system. For
+subsequent pipes the designer uses the energy state in the downstream structure as the tailwater
+condition.
+The designer estimates the EGL at the downstream end based on one of the conditions
+comparing the pipe with the downstream EGL shown in Table 9.6. All cases apply for mildly sloped
+pipes. Cases A and E also apply to steep pipes. For the outfall pipe discharging to a receiving
+water, the tailwater elevation is substituted for EGLa.
+
+                  Table 9.6. Case conditions and downstream EGL estimates.
+
+       Case                     Situation                           EGLo Estimate
+         A        EGLa ≥ TOCo (submerged)               EGLa + exit loss
+         B        TOCo ≥ EGLa > BOCo +yn                BOCo + velocity head + exit loss
+         C        BOCo +yn ≥ EGLa > BOCo +yc            BOCo + max(EGLa + exit loss or
+                                                        normal depth + velocity head)
+         D        BOCo +yc ≥ EGLa > BOCo                BOCo + normal depth + velocity head
+         E        BOCo ≥ EGLa (plunging pipe)           BOCo + normal depth + velocity head
+
+
+Step 6. Estimate the HGL and EGL at the upstream end of the outfall pipe.
+Compute the elevation of the HGL at the upstream end of the conduit run (next structure
+upstream). The HGL is the depth of flow in the conduit plus change in elevation of the conduit
+(slope times length).
+Table 9.7 summarizes potential flow conditions within the conduit that determine calculation of
+the upstream pipe end EGL and HGL. For conditions A, B, and C, the HGL and EGL are computed
+using pipe friction and minor losses. For condition D, the designer computes the velocity head at
+normal depth. Added to the HGL elevation, that is the EGL elevation at the upper end of the
+conduit.
+
+                  Table 9.7. Flow conditions at the upstream end of a conduit.
+
+    Condition                   Situation                           Flow Condition
+         A        HGLi ≥ TOCi                           Full flow (surcharge)
+         B        TOCi ≥ HGLi > BOCi +yn and            Conduit not full but conditions are
+                  TOCi ≥ HGLi > BOCi +yc                downstream-controlled
+
+         C        BOCi +yn ≥ HGLi > BOCi +yc            Subcritical partial flow conditions
+         D        BOCi +yc ≥ HGLi                       Supercritical partial flow conditions
+
+
+
+                                               164
+HEC-22, 4th edition                                                Chapter 9 - Storm Drain Conduits
+
+
+Step 7. Calculate EGL and HGL in a structure.
+Most structures include one outlet pipe and
+one or more inlet pipes, except at the most
+upstream inlet structures. At each structure,                Iterative Solvers in Modern
+using the methods shown in Section 9.1.6,                            Spreadsheets
+calculate the energy losses through the                The spreadsheet programs currently in
+structure. The HGL at the structure will be            most common use exhibit built-in
+the HGL at the upstream end of the outflow             iterative solver functions. They can vary
+conduit (that was just calculated) and the             from simple univariate solvers to very
+losses. The HGL is calculated for the outflow          complex multivariate solvers with the
+discharge.                                             ability to set conditions on the solution.
+Consider each lateral or trunk line entering           Judicious use of these features greatly
+the structure. The HGL and EGL at the                  reduces the work required to perform
+structure will be estimated according to               many of the calculations shown herein.
+method in Section 9.1.6.7.                             In addition, macro programming
+Step 8. Repeat steps 5, 6, and 7 for all               languages could be of great benefit to
+        pipes and structures in the                    the user who takes the time to learn
+        storm drain system.                            how to use them.
+Continuing to work upstream, compute the
+HGL and EGL at the downstream end of the
+next pipe (step 5) and the upstream end of each pipe based on the HGL and EGL of the
+downstream end (step 6). Calculate the HGL and EGL in the next upstream structure (step 7).
+For a terminal structure, e.g., upstream inlet, no additional computations are needed for that storm
+drain branch. The designer continues with additional branches, if any.
+Both trunk lines and laterals often involve hydraulic drops into a junction as energy controls or to
+control the depth of trenching. It is desirable to avoid conduit runs that exhibit supercritical flow.
+Hydraulic jumps inside of conduits are difficult to predict and can result in “blowouts” or damage
+to structures. Hydraulic drops are preferable, and do not result in the shortening of travel time and
+the associated increase in rainfall intensity of high conduit velocities.
+Step 9. Examine the results.
+Compare EGL elevations to topographic elevations. Be sure that the ground surface is above the
+EGL. Also check that the exterior of the top of conduits is below the pavement structure, adjacent
+roadside features, and other appurtenances.
+The designer now has a complete set of calculations to validate against applicable design criteria.
+If the designer believes that the system can be improved by changes in conduit diameters, invert
+elevations, etc., the designer makes the appropriate changes and repeats the process.
+Example 9.2:     Storm drain design.
+Objective:       Determine appropriate pipe sizes and inverts for a storm drain system and
+                 evaluate the HGL for the system configuration.
+ Given:        Table 9.8 summarizes the rainfall data.
+               The pipes are RCP with a Manning’s n value of 0.013.
+               Minimum design pipe diameter is 18 inches (460 mm) for maintenance purposes.
+               Minimum cover is 3 ft (0.91 m).
+
+
+
+                                                 165
+Chapter 9 - Storm Drain Conduits                                                      HEC-22, 4th edition
+
+
+                           Table 9.8. Intensity-duration data for example.
+
+     Time (min)           5         10       15       20         30        40       50         60    120
+   Intensity (in/h)      7.1       5.9       5.1      4.5        3.5       3.0      2.6        2.4   1.4
+
+
+Step 1. Prepare a working plan for the layout and profile of the storm drain system.
+Figure 9.10 illustrates the proposed system layout including location of storm drains, access
+holes, and other structures. All structures have been numbered for reference.
+Step 2. Determine the hydrologic parameters for each inlet.
+Table 9.9 provides the drainage area information to compute the inlet design flows. Use the
+Rational Method to compute inlet design flows.
+
+                         Table 9.9. Drainage area information for example.
+
+    Structure          Structure         Drainage Area        Runoff             Time of Concentration
+    Number               Type                 (ac)           Coefficient                 (min)
+       40                Inlet               0.64                0.73                         3
+       41                Inlet               0.35                0.73                         2
+       42                Inlet               0.32                0.73                         2
+       43             Access hole             n/a                n/a                          n/a
+       44               Outlet                n/a                n/a                          n/a
+
+
+Step 3. Size and locate the pipes.
+ Figure 9.11 shows the roadway profile grade and ground elevations used as a starting point
+ for the vertical pipe alignment. Size the pipes assuming 100 percent capture by the inlets.
+Step 3a. Size and locate the upstream most pipe (pipe 40-41).
+ Estimate the design flow for pipe connecting structures 40 and 41. From Table 9.9 for inlet
+ number 40:
+ A = 0.64 ac
+ C = 0.73
+ Inlet time of concentration = 3 min (use minimum time of 5 min)
+ From Table 9.8:
+ I = 7.1 in/h
+ Q = CIA = (0.73)(7.1)(0.64) = 3.3 ft3/s
+ Pipe slope = 0.03 ft/ft (initially calculated from topography).
+ Estimate pipe diameter assuming full flow using equation 9.2:
+ D = [(Q n)/(KQ So0.5)]0.375 = [(3.3)(0.013) /{(0.46)(0.03)0.5}]0.375 = 0.8 ft (9.6 inches)
+ However, minimum pipe diameter is 18 inches. Use 18-inch pipe.
+
+                                                    166
+HEC-22, 4th edition                                         Chapter 9 - Storm Drain Conduits
+
+
+
+
+                      Figure 9.10. Roadway plan and section for example.
+
+
+
+
+                                             167
+Chapter 9 - Storm Drain Conduits                                         HEC-22, 4th edition
+
+
+
+
+                        Figure 9.11. Storm drain profiles for example.
+
+
+
+
+                                             168
+HEC-22, 4th edition                                               Chapter 9 - Storm Drain Conduits
+
+
+ Calculate full pipe capacity using equation 9.2:
+ Qf = (0.46/0.013)(1.5)2.67(0.03)0.5 = 18.1 ft3/s
+ Calculate full pipe velocity using equation 9.1:
+ Vf = (0.59/0.013)(1.5)0.67(0.03)0.5 = 10.3 ft/s
+ Calculate the design velocity for a pipe flowing partially full. For this example, use the following
+ approximation (software will calculate Vf from Manning’s equation for a partially full circular
+ section):
+      0.75 Vf if Q is less than or equal to 0.5 Qf
+      1.1Vf if Q is greater than 0.5 Qf
+ Q < 0.5 Qf, therefore, V = (0.75)(10.3) = 7.73 ft/s
+ Calculate the travel time in the pipe to estimate the cumulative time of concentration to
+ downstream pipes:
+ ts = L/V = 361 / 7.73 / 60 = 0.8 min; use 1 min
+ Since inlet 40 is the most upstream structure no crown drop is needed, therefore, the crown
+ drop is 0 ft.
+ Calculate the upstream invert elevation:
+ Zu/s = ground elevation - minimum cover -                  Pipe Wall Thickness and Cover
+ pipe diameter = 370.0 – 3.0 – 1.5 = 365.5 ft
+                                                          Designers select pipe invert
+ Calculate the downstream invert elevation:               elevations to be no higher than the
+ Zd/s = Zu/s – (S0)(L) = 365.5 – (0.03)(361.0) =          ground elevation less the sum of the
+ 354.67 ft                                                minimum cover, pipe wall thickness,
+                                                          and pipe diameter. This example
+ Validate that pipe has adequate cover at the             assumes that the pipe wall thickness
+ downstream end:                                          is implicitly included in the minimum
+ From Figure 9.11, the ground elevation is                cover. For jurisdictions where this is
+ 360.0 ft.                                                not the case, the wall thickness is
+                                                          explicitly added to the invert
+ Invert elevation + minimum cover + pipe                  elevation computation.
+ diameter = 354.67 + 3.0 + 1.5 = 359.17 ft;
+ less than ground elevation – OK
+Step 3b. Size and locate the next pipe (pipe 41-42).
+ Estimate the design flow for pipe connecting structures 41 and 42 considering all upstream
+ contributing areas. From Table 9.9:
+ A = 0.64 + 0.35 = 0.99 ac
+ C = 0.73
+ Inlet time of concentration = 2 min
+ System time of concentration = 3 + 1 = 4 min (use minimum time of 5 min)
+ From Table 9.8:
+ I = 7.1 in/h
+ Q = CIA = (0.73)(7.1)(0.99) = 5.1 ft3/s
+ D = Dmin = 1.5 ft
+                                                    169
+Chapter 9 - Storm Drain Conduits                                               HEC-22, 4th edition
+
+
+ V = 8.7 ft/s
+ Travel time = 0.6 min, use 1 min
+ Estimate crown drop using equation 9.10, loss coefficient from Table 9.4 equal to 0.5 for an
+ inlet – straight run:
+ Hah = (Kah)(V2 / 2g) = (0.5)(8.72 / 64.4) = 0.6 ft
+ Calculate the upstream invert:
+ Zu/s = 354.67 – 0.6 = 354.07 ft
+ Calculate the downstream invert:
+ Zd/s = Zu/s – (S0)( L) = 354.07 – (0.03)(328) = 344.23 ft
+Step 3c. Size and locate the next pipe (pipe 42 – 43).
+ Estimate the design flow for pipe connecting structures 42 and 43 considering all upstream
+ contributing areas. From Table 9.9:
+ A = 0.64 + 0.35 + 0.32 = 1.31 ac
+ C = 0.73
+ Inlet time of concentration = 2 min
+ System time of concentration = 3 + 1 + 1 = 5 min (use minimum time of 5 min)
+ From Table 9.8:
+ I = 7.1 in/h
+ Q = CIA = (0.73)(7.1)(1.31) = 6.75 ft3/s
+ D = 1.96 ft = use 2.0 ft
+ V = 2.6 ft/s
+ Travel time = 0.09 min, use 0 min
+ Estimate crown drop using equation 9.10, loss coefficient from Table 9.4 equal to 1.5 for inlet –
+ 90° angle:
+ Hah = (Kah)(V2 / 2g) = (1.5)(2.62 / 64.4) = 0.16 ft
+ Calculate the upstream invert:
+ Zu/s = 344.23 – 0.16 = 344.07 ft
+ Calculate the downstream invert:
+ Zd/s = Zu/s – (S0)(L) = 344.07 – (0.001)(14) = 344.06 ft
+Step 3d. Size and locate the next pipe (pipe 43-44).
+ Q = 6.75 ft3/s (no additional CA accumulated and no addition to the system time of
+ concentration)
+ D = 1.27 ft = use 2.0 ft (to prevent possible clogging, do not reduce conduit size)
+ V = 6.1 ft/s
+ Travel time = 0.15 min, use 0 min
+ Hah = (Kah)(V2 / 2g) = (1.5)(6.12 / 64.4) = 0.87 ft
+
+                                                  170
+HEC-22, 4th edition                                                 Chapter 9 - Storm Drain Conduits
+
+
+ Since this is the downstream most pipe, set the downstream invert:
+ Zd/s =330.71 ft (outfall elevation for the pipe)
+ Calculate the upstream invert:
+ Zu/s = Zd/s + (S0)(L) = 330.71 + (0.01)(55.8) = 331.27 ft
+ This invert results in a crown drop = 344.06 – 331.27 = 12.79 ft (which is greater than 0.87 ft)
+ Figure 9.11 summarizes the preliminary pipe lengths, diameters, and inverts for the example.
+Step 4. Determine the tailwater elevation at the storm drain outfall.
+ For the EGL and HGL computations, start at the downstream end at the outfall (structure 44).
+ Computations proceed in the upstream direction. From Figure 9.11:
+ HGLTW = downstream pool water surface elevation = 333.5 ft
+ EGLTW = 333.5 ft (assume no velocity head in the pool)
+Step 5. Estimate the HGL and EGL at the downstream end of pipe 43-44 (the outfall pipe).
+ BOCo = 330.71 ft
+ TOCo = 330.71 + 2.0 ft = 332.71 ft
+ Determine the applicable case from Table 9.6:
+ Is the downstream end of the pipe submerged (EGLTW > TOCo)?
+ 333.5 ft > 332.71 ft is true. Pipe is submerged (case A). Use full pipe flow.
+ Estimate the energy loss exiting the outfall pipe:
+ V = Q / A = 6.75 ft3/s / 3.14 ft2 (area of a 2 ft diameter circle) = 2.15 ft/s
+ V2 / 2g = (2.152) (64.4) =0.07 ft
+ Exit loss for an outfall:
+ Ho = (1.0)V2/2g = (1.0) (0.07) = 0.07 ft
+ EGLo = TW + Ho = 333.5 ft + 0.07 ft = 333.57 ft
+ HGLo = EGLo – V2/2g = 333.57 ft – 0.07 ft = 335.50 ft
+Step 6. Estimate the HGL and EGL at the upstream end of pipe 43-44.
+ At structure 43 for the pipe from structure 43 to 44 (pipe 43-44):
+ Pipe length, L = 55.8 ft
+ BOCi = 331.27 ft
+ TOCi = BOCi + D = 331.27 ft + 2.0 ft = 333.27 ft
+ Sf = [(Qn)/(KQD2.67)]2 = [(6.75)(0.013)/(0.46)(2.0)2.67] 2 = 0.00090 ft/ft
+ Hf = Sf L = (0.00090) (55.8) = 0.05 ft
+ No other losses in conduit: Hb, Hc, He, Hj = 0.0
+ EGLi = EGLo + pipe loss = 333.57 ft + 0.05 ft = 333.62 ft
+ HGLi = EGLi - V2/2g = 333.62 ft - 0.07 ft = 333.55 ft
+ Ei = EGLi – BOCi = 333.62 ft – 331.27 ft = 2.35 ft
+
+                                                    171
+Chapter 9 - Storm Drain Conduits                                                HEC-22, 4th edition
+
+
+ Determine the flow condition at the upstream end of the outflow pipe from Table 9.7:
+ HGLi (333.55 ft) > TOCi (333.27 ft), therefore, pipe is flowing full (surcharge) (condition A), and
+ losses are carried upstream as computed.
+Step 7. Calculate EGL and HGL at structure 43.
+ Eai = max(Eaio, Eais, Eaiu)
+ Compute Eaio using equations 9.14 and 9.15:
+ Hi = (Ko)(Vo2/2g) = (0.2)(0.07) = 0.014 ft
+ Eaio = Ei + Hi = 2.35 ft + 0.014 ft = 2.364 ft
+ Discharge intensity for outflow pipe (pipe 43-44):
+ DI = Q / [A(Dg)0.5] = 6.75 / [((π/4)(2.0)2)((2.0)(32.2))0.5] = 0.268
+ Compute Eais using equation 9.17:
+ Eais = (1.0)(DI) 2 (D) = (0.268) 2 (2.0) = 0.14 ft
+ Compute Eaiu using equation 9.18:
+ Eaiu = (1.6)(DI) 0.67 (D) = 1.6(0.268) 0.67 (2.0) = 1.32 ft
+ Select maximum (to two decimal places): Eai = 2.36 ft
+ Compute Ea:
+ For benching:
+ CB = -0.05, Eai / D < 1, therefore, assume flat bench, unsubmerged access hole
+ For angled inflow:
+ Cθ = 0.0 because the flow is plunging and θw = 180 even though there is a 45-degree bend
+ For plunging flow:
+ zk = 334.06 ft - 331.27 ft = 12.79 ft
+ hk = (zk - Eai ) / Do = (12.79 – 2.29)/(2.0) = 5.25
+ Cp = (Σ(Qk hk))/Qo = ((6.75)(5.25))/(6.75) = 5.25 (only one inflow)
+ Check to ensure net energy. Is Eai > Ei ? Since 2.36 > 2.35 OK
+ Ha = (Eai - Ei)(CB + Cθ + CP) = (2.36 – 2.35)(-0.05 + 0.0 + 5.25) = 0.05 ft (greater than 0)
+ Ea = Eai + Ha = 2.36 ft + 0.05 ft = 2.41 ft
+ EGLa = Ea + BOCi = 2.41 ft + 331.27 ft = 333.68 ft
+ Ground elevation = 347.76 ft. Since 347.76 ft > 333.68 ft HGL is OK
+Step 8. Repeat steps 5, 6, and 7 for all pipes and structures in the storm drain system.
+ Continue upstream with all pipes entering the structure analyzed in the previous step. In this
+ example, only one pipe enters structure 43. Go to step 5 for this pipe.
+Step 5 (for next pipe). Estimate the HGL and EGL at the downstream end of pipe 42-43.
+ One pipe enters structure 43 from structure 42 (pipe 42-43):
+ D = 2.0 ft
+
+                                                  172
+HEC-22, 4th edition                                                Chapter 9 - Storm Drain Conduits
+
+
+ Q = 6.75 ft3/s
+ L = 14.1 ft
+ BOCo = 344.06 ft
+ TOCo = BOCo + D = 344.06 ft + 2.0 ft = 346.06 ft
+ Determine the applicable case from Table 9.6:
+ Is the downstream end of the pipe submerged (EGLa > TOCo)?
+ EGLa (333.68 ft) > TOCo (346.06 ft) is not true. Pipe outlet is not submerged (case A).
+ Is the pipe plunging (EGLa < BOCo)?
+ EGLa (333.68 ft) < BOCo (344.06 ft) is true. Pipe is not plunging (case E)
+ V = 2.6 ft/s (part full flow)
+ Q/Qf = 6.75 / 7.12 = 0.95
+ yn = 1.56 ft
+ V2/2g = (2.6)2/(2)(32.2)= 0.10 ft
+ yc = 0.80 ft
+ Ho = 0.0
+ EGLo = (BOCo + yn) + V2/2g = 344.06 ft + 1.56 ft + 0.10 ft = 345.72 ft
+ HGLo = EGLo – V2/2g = 345.72 – 0.10 = 345.62 ft
+Step 6. Estimate the HGL and EGL at the upstream end of pipe 42-43.
+ BOCi = 344.07 ft
+ TOCi = BOCi + D = 344.07 ft + 2.0 ft = 346.07 ft
+ Pipe not full, so Sf = pipe slope. However, recall that the D/S conduit invert was dropped 2-3
+ inches, changing the original design slope.
+ Sf = (344.07 - 344.06) / 14.1 = 0.0007 ft/ft
+ Hf = Sf L = (0.0007)(14.1) = 0.01 ft
+ No other losses in conduit: Hb, Hc, He, Hj = 0
+ Total pipe loss = 0.01 ft
+ EGLi = EGLo + total pipe loss = 345.72 ft + 0.01 ft = 345.73 ft
+ HGLi = EGLi - V2/2g = 345.73 ft - 0.10 ft = 345.63 ft
+ Ei = EGLi - BOCi = 345.73 ft - 344.07ft = 1.66 ft
+ Determine the flow condition at the upstream end of the outflow pipe from Table 9.7:
+ HGLi (345.63 ft) < TOCi (346.07 ft), therefore not full flow (surcharged) (condition A).
+ yn = 1.56 ft
+ yc = 0.8 ft
+ BOCi +yn (344.07+1.56 = 345.63 ft) ≥ HGLi (345.63 ft) > BOCi +yc (344.07+0.8 = 344.87 ft),
+ therefore subcritical partial flow conditions (condition C). Therefore, losses are carried
+ upstream as computed.
+
+                                                  173
+Chapter 9 - Storm Drain Conduits                                                HEC-22, 4th edition
+
+
+Step 7. Calculate EGL and HGL at structure 42.
+ Eai = max(Eaio, Eais, Eaiu)
+ Compute Eaio using equations 9.14 and 9.15:
+ Hi = (Ko)(Vo2/2g) = (0.2)(0.10) = 0.02 ft
+ Eaio = Ei + Hi = 1.66 ft + 0.02 ft = 1.68 ft
+ Discharge intensity for the outflow pipe (pipe 42-43):
+ DI = Q / [A(Dg)0.5] = 6.75/[((π/4)(2.0)2)((2.0)(32.2))0.5] = 0.268
+ Compute Eais using equation 9.17:
+ Eais = (1.0)(DI) 2 (D) = (0.268) 2 (2.0) = 0.14 ft
+ Compute Eaiu using equation 9.18:
+ Eaiu = (1.6)(DI) 0.67 (D) = 1.6(0.268) 0.67 (2.0) = 1.32 ft
+ Select maximum (to two decimal places): Eai = 1.68 ft
+ CB = -0.05, Eai / D < 1, so assume flat bench, unsubmerged access hole
+ Cθ = 4.5 (Σ Qj /Qo) cos (θw/2) = 4.5 (5.1/6.75) cos (90/2) = 2.40
+ Plunging flow:
+ zk = 349.31 ft - 344.07 ft = 5.24
+ Hk = (zk – Eai)/Do = (5.24 – 1.68) / 2 = 1.78
+ Cp = Qk Hk / Qo = 1.65 (1.78) / 6.75 = 0.44
+ Check to ensure net energy:
+ Eai > Ei ? 1.68 ft > 1.66 ft therefore, OK
+ Ha = (Eai - Ei)(CB + Cθ + CP) = (1.68 - 1.66)(-0.05 + 2.40 + 0.44) = 0.06 ft
+ Ea = Eai + Ha = 1.68 ft + 0.06 ft = 1.74 ft
+ EGLa = Ea + BOCi = 1.74 ft + 344.07 ft = 345.81 ft
+ Surf. Elev. = 349.31 ft, 349.31 ft > 345.82 ft, therefore, surface elev. exceeds HGL. OK
+Step 8. Repeat steps 5, 6, and 7 for all pipes and structures in the storm drain system.
+ Continue upstream with all pipes entering the structure analyzed in the previous step. In this
+ example, only one pipe enters structure 42. Go to step 5 for this pipe.
+Step 5 (for next pipe). Estimate the HGL and EGL at the downstream end of pipe 41-42.
+ D = 1.5 ft
+ Q = 5.1 ft3/s
+ L = 328 ft
+ BOCo = 344.23 ft
+ TOCo = BOCo + D = 344.23 ft + 1.5 ft = 345.73 ft
+ Determine the applicable case from Table 9.6:
+ Is the downstream end of the pipe submerged (EGLa > TOCo)?
+
+                                                 174
+HEC-22, 4th edition                                                 Chapter 9 - Storm Drain Conduits
+
+
+ EGLa (345.81 ft) > TOCo (345.73 ft) is true. Pipe outlet is submerged (case A).
+ With submerged outlet: V = Q/A = 5.1/[(π/4)(1.5)2] = 2.9 ft/s
+ V2/2g = (2.9)2/(2)(32.2) = 0.13 ft
+ Ho = (0.4)V2/2g = 0.05 ft
+ EGLo = EGLa + Ho = 345.81 ft + 0.05 ft = 345.86 ft
+ HGLo = EGLo – V2/2g = 345.86 ft – 0.13 ft = 345.73 ft
+Step 6. Estimate the HGL and EGL at the upstream end of pipe 41-42.
+ BOCi = 354.07 ft
+ TOCi = BOCi + D = 354.07 ft + 1.5 ft = 355.57 ft
+ Sf = [(Qn)/(KQD2.67)]2 = [(5.1)(0.013)/(0.46)(1.5)2.67]2 = 0.0024 ft/ft
+ Hf = Sf L = (0.0024) (328.0) = 0.78 ft
+ No other conduit losses: Hb, Hc, He, Hj = 0.0
+ Total pipe loss = 0.78 ft
+ EGLi = EGLo + pipe loss = 345.86 ft + 0.78 ft = 346.64 ft
+ HGLi = EGLi - V2/2g = 346.64 ft - 0.13 ft = 346.51 ft
+ Determine the flow condition at the upstream end of the outflow pipe from Table 9.7:
+ HGLi (346.51 ft) < TOCi (355.57 ft), therefore, pipe is not flowing full (surcharge) (condition A).
+ Estimate yn and yc:
+ Q/Qf = 5.1 / 18.1 = 0.28
+ V/Vf = 0.86
+ V = (0.86)(10.3) = 8.86 ft/s
+ yn / D = 0.37
+ yn = (0.37) (1.5) = 0.56 ft
+ V2/2g = (8.86)2/(2)(32.2) = 1.22 ft
+ yc = 0.87 ft
+ BOCi +yc (354.07 + 0.87 = 354.94 ft) ≥ HGLi (346.51 ft), therefore, supercritical partial flow
+ conditions (condition D). Pipe losses not carried upstream. Recompute HGLi and EGLi.
+ HGLi = yn + BOCi = 0.56 ft + 354.07 ft = 354.63 ft
+ EGLi = HGLi + V2/2g = 354.63 ft + 1.22 ft = 355.85 ft
+ In this conduit, the flow is in a supercritical regime. Given that the D/S portion of the conduit is
+ nearly submerged by the access hole, there would likely be a hydraulic jump somewhere
+ within the barrel. Important observations are that the energy should not decrease when
+ moving up the conduit and assumptions of full flow could yield erroneous results.
+Step 7. Calculate EGL and HGL at structure 41.
+ Eai = max(Eaio, Eais, Eaiu)
+ Since condition D was identified in the previous step, Eaio = 0.00 ft
+
+                                                  175
+Chapter 9 - Storm Drain Conduits                                                   HEC-22, 4th edition
+
+
+ Discharge intensity for the outflow pipe (pipe 41-42):
+ DI = Q / [A(Dg)0.5] = 5.1/[((π/4)(1.5)2)((1.5)(32.2))0.5] = 0.415
+ Compute Eais using equation 9.17:
+ Eais = (1.0)(DI) 2 (D) = (0.415) 2 (1.5) = 0.26 ft
+ Compute Eaiu using equation 9.18:
+ Eaiu = (1.6)(DI) 0.67 (D) = 1.6(0.415) 0.67 (1.5) = 1.33 ft
+ Select maximum (to two decimal places): Eai = 1.33 ft
+ CB = -0.05, Eai / D < 1, so assume flat bench, unsubmerged access hole
+ Cθ = 0.0 since θw = 180
+ zk = 360.00 ft - 354.07 ft = 5.93
+ Hk = (zk – Eai) / Do = (5.93 – 1.33) / 1.5 = 3.06
+ Cp = Qk Hk / Qo = 1.8 (3.08) / 5.1 = 1.08
+ Check to ensure net energy:
+ Is Eai > Ei ?
+ 1.33 ft > 1.78 ft is not true. Since Eai is less than Ei, use Ei as the net energy.
+ Ea = Ei = 1.78 ft
+ EGLa = Ea + BOCi = 1.78 ft + 354.07 ft = 355.85 ft
+ Surface elevation (360.0 ft) > EGLa (355.85 ft) therefore HGL OK.
+Step 8. Repeat steps 5, 6, and 7 for all pipes and structures in the storm drain system.
+ Continue upstream with all pipes entering the structure analyzed in the previous step. In this
+ example, only one pipe enters structure 41. Go to step 5 for this pipe.
+Step 5 (for next pipe). Estimate the HGL and EGL at the downstream end of pipe 40-41.
+ D = 1.5 ft
+ Q = 3.3 ft3/s
+ L = 361.0 ft
+ BOCo = 354.67 ft
+ TOCo = BOCo + D = 354.67 ft + 1.5 ft = 356.17 ft
+ Determine the applicable case from Table 9.6:
+ Is the downstream end of the pipe submerged (EGLa > TOCo)?
+ 355.85 ft > 356.17 ft is not true. Pipe is not submerged (case A).
+ Is the pipe plunging (EGLa < BOCo)?
+ 355.85 ft < 354.67 ft is not true. Pipe is not plunging (case E).
+ Need to determine normal and critical depth to make case determination:
+ Q/Qf = 3.3 / 18.1 = 0.18
+ V/Vf = 0.74
+
+                                                 176
+HEC-22, 4th edition                                                    Chapter 9 - Storm Drain Conduits
+
+
+ V = (0.74)(10.3) = 7.62 ft/s
+ V2/2g = (7.62)2/(2)(32.2) = 0.90 ft
+ yn/df = 0.30
+ yn = (0.30) (1.5) = 0.45 ft
+ yc = 0.67 ft
+ TOCo (356.17 ft) > EGLa (355.85 ft) > BOCo + yn (355.34 ft) Therefore, condition is case B.
+ D/S face depth = EGLa - BOCo = 355.85 ft - 354.67 ft = 1.18 ft
+ Ratio of face depth to diameter: df / D = 1.18 / 1.5 = 0.79
+ Af / A = 0.84
+ Af = 0.84(1.77) = 1.49 ft2
+ Vf = Q / Af = 3.3 / 1.49 = 2.21 ft/s
+ Vf2/2g = (2.21)2/(2)(32.2) = 0.08 ft
+ Ho = (0.4)Vf2/2g = (0.4)(0.08) = 0.03 ft
+ EGLo = EGLa + Ho = 355.85 ft + 0.03 ft = 355.88 ft
+ HGLo = EGLo – V2/2g = 355.88 ft – 0.08 = 355.80 ft
+Step 6. Estimate the HGL and EGL at the upstream end of pipe 40-41.
+ BOCi = 365.50 ft
+ TOCi = BOCi + D = 365.50 ft + 1.5 ft = 367.00 ft
+ Since yn (0.45 ft) < yc (0.67 ft) pipe flow is supercritical. The flow condition (Table 9.7) is
+ supercritical partial flow (condition D). Pipe energy losses are not carried upstream.
+ HGLi = yn + BOCi = 0.45 ft + 365.50 ft = 365.95 ft
+ EGLi = HGLi + V2/2g = 365.95 ft + 0.90 ft = 366.85 ft
+ Given that the downstream portion of the conduit is partially submerged by the access hole,
+ there would likely be a hydraulic jump somewhere within the barrel.
+Step 7. Calculate EGL and HGL at structure 40.
+ Structure 40 is a terminal inlet with no incoming pipe.
+ Eai = max(Eaio, Eais, Eaiu)
+ Since condition D was identified in the previous step, Eaio = 0.00 ft
+ Discharge intensity for the outflow pipe (pipe 40-41):
+ DI = Q / [A(Dg)0.5] = 3.3 / [((π/4)(1.5)2)((1.5)(32.2))0.5] = 0.269
+ Compute Eais using equation 9.17:
+ Eais = (1.0)(DI) 2 (D) = (0.269) 2 (1.5) = 0.11 ft
+ Compute Eaiu using equation 9.18:
+ Eaiu = (1.6)(DI) 0.67 (D) = 1.6(0.269) 0.67 (1.5) = 1.00 ft
+ Select maximum (to two decimal places): Eai = 1.00 ft
+ CB = 0.0 (No inflow pipes, benching not a factor)
+                                                  177
+Chapter 9 - Storm Drain Conduits                                                     HEC-22, 4th edition
+
+
+ Cθ = 0.0 (No inflow pipes, angled inflow not a factor)
+ Plunging flow from the inlet:
+ zk = 370.0 ft - 365.50 ft = 4.50 ft
+ hk = (zk - Eai ) / Do = (4.50 – 1.00)/(1.5) = 2.34 ft
+ Cp = ((ΣQk)(hk))/Qo = ((3.3)(2.34))/(3.3) = 2.34
+ Check to ensure net energy:
+ Is Eai > Ei?
+ 1.00 ft > 1.35 ft, not true. Since Eai is less than Ei, use Ei as the net energy.
+ Ea = Ei = 1.35 ft
+ EGLa = Ea + BOCi = 1.35 ft + 365.50 ft = 366.85 ft
+ Surf. Elev. = 370.0 ft, 370.0 ft > 366.85 ft, therefore, surface elevation exceeds HGL, OK
+Step 8. Repeat steps 5, 6, and 7 for all pipes and structures in the storm drain system.
+ Continue upstream with all pipes entering the structure analyzed in the previous step. In this
+ example, structure 40 is a terminal structure with no incoming pipes. Go to step 9.
+Step 9. Examine the results.
+ The designer compares the EGL and HGL elevations with ground elevations and confirms
+ minimum cover satisfied. The designer also confirms that the pipe sizes and inverts are
+ reasonable and considers ways to improve the design.
+Solution:        The example illustrates many of the situations that may occur in designing a
+                 storm drain system. Many software tools are available to perform these

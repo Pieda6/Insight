@@ -1,0 +1,29 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/FOLDER-NAME"
+description = "ONE LONG SENTENCE: the job, the records, the method and standard, the outputs."
+
+[metadata]
+domain = "Science"
+field = "SUBCATEGORY EXACTLY AS ASSIGNED"
+subfield = "SPECIFIC AREA"
+tags = ["tag-one", "tag-two", "tag-three", "tag-four", "tag-five", "tag-six", "python"]
+expert_time_estimate_hours = 10
+relevant_experience = "ONE SENTENCE on the expertise the task needs."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0

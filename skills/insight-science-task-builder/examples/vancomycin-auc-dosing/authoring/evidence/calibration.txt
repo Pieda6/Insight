@@ -1,0 +1,21 @@
+CAUGHT   108 of 240 patients wrong  two-level steady-state equation for ke (ln of the level ratio over the time between them)
+CAUGHT   211 of 240 patients wrong  steady-state equations for ke and V (Sawchuk-Zaske, last dose only)
+CAUGHT    60 of 240 patients wrong  full ordered dose for every infusion (volumes infused ignored)
+CAUGHT    95 of 240 patients wrong  pauses ignored (one segment from start to stop)
+CAUGHT   126 of 240 patients wrong  infusion assumed to last the nominal hour per 1,000 mg
+CAUGHT    39 of 240 patients wrong  held doses counted as given
+CAUGHT    18 of 240 patients wrong  levels within 1 hour after an infusion kept (last two numeric levels used)
+CAUGHT    18 of 240 patients wrong  1-hour rule counted from the start of the infusion
+CRASHED (ValueError: not enough values to unpack (expected 2, got 1))  flagged results (H) treated as unusable
+CAUGHT    50 of 240 patients wrong  MIC from any testing method
+CAUGHT    45 of 240 patients wrong  MIC always assumed 1 mg/L
+CAUGHT    44 of 240 patients wrong  first maintenance order instead of the current one
+CAUGHT    93 of 240 patients wrong  new dose rounded down to 250 mg
+CAUGHT    84 of 240 patients wrong  new dose rounded up to 250 mg
+CAUGHT    29 of 240 patients wrong  new dose also when exposure is within range
+CAUGHT    40 of 240 patients wrong  new dose aimed at AUC 500 regardless of MIC
+CAUGHT   237 of 240 patients wrong  48-hour AUC taken as twice the steady-state AUC24
+CAUGHT    20 of 240 patients wrong  48-hour AUC by the linear trapezoid rule on hourly concentrations
+CAUGHT   172 of 240 patients wrong  48-hour AUC from the first maintenance dose
+CAUGHT    86 of 240 patients wrong  amounts from pump rate times running time
+20 of 20 shortcuts caught

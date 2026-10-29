@@ -1,0 +1,29 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/vancomycin-auc-dosing"
+description = "AUC-guided vancomycin dosing for 240 adults with serious MRSA infections under the 2020 ASHP/IDSA/PIDS/SIDP consensus guideline: from irregular administration and infusion pump records (late, held, paused, interrupted and partly given doses, rate changes, loading doses, order changes) and laboratory results (rejected, below the reporting limit, mistimed), fit each patient's one-compartment elimination rate and volume to the two usable levels by superposition, and report the 48-hour AUC, the steady-state AUC24, exposure against the AUC/MIC target with the broth microdilution MIC rule, and the new dose."
+
+[metadata]
+domain = "Science"
+field = "Medicine"
+subfield = "Clinical Pharmacology and Therapeutic Drug Monitoring"
+tags = ["pharmacokinetics", "therapeutic-drug-monitoring", "vancomycin", "auc-guided-dosing", "one-compartment-model", "mrsa", "clinical-pharmacy", "python"]
+expert_time_estimate_hours = 10
+relevant_experience = "Clinical pharmacokinetics and therapeutic drug monitoring: vancomycin AUC-guided dosing under the 2020 consensus guideline, one-compartment intermittent infusion models with superposition, fitting patient-specific parameters to measured drug levels, and reading hospital medication administration and laboratory records."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0

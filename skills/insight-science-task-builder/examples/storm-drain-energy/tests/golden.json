@@ -1,0 +1,332 @@
+{
+ "examples": [
+  {
+   "source": "HEC-22 Example 9.1 step 3: full-flow capacity of a 21-inch RCP at 0.015 (19.3 cfs)",
+   "check": "capacity_full",
+   "args": [
+    1.75,
+    0.013,
+    0.015
+   ],
+   "expect": 19.3,
+   "tol": 0.05
+  },
+  {
+   "source": "HEC-22 Example 9.1 step 4: full-flow capacity of a 24-inch CMP at 0.015 (21.1 cfs)",
+   "check": "capacity_full",
+   "args": [
+    2.0,
+    0.017,
+    0.015
+   ],
+   "expect": 21.1,
+   "tol": 0.05
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 3a: full-flow capacity of an 18-inch pipe at 0.03 (18.1 cfs)",
+   "check": "capacity_full",
+   "args": [
+    1.5,
+    0.013,
+    0.03
+   ],
+   "expect": 18.1,
+   "tol": 0.05
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 6, pipe 43-44: Sf = 0.00090",
+   "check": "friction_slope_full",
+   "args": [
+    6.75,
+    2.0,
+    0.013
+   ],
+   "expect": 0.0009,
+   "tol": 5e-06
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 7, structure 43: DI = 0.268",
+   "check": "discharge_intensity",
+   "args": [
+    6.75,
+    2.0
+   ],
+   "expect": 0.268,
+   "tol": 0.0005
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 7, structure 41: DI = 0.415",
+   "check": "discharge_intensity",
+   "args": [
+    5.1,
+    1.5
+   ],
+   "expect": 0.415,
+   "tol": 0.0005
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 7, structure 40: DI = 0.269",
+   "check": "discharge_intensity",
+   "args": [
+    3.3,
+    1.5
+   ],
+   "expect": 0.269,
+   "tol": 0.0005
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 7, structure 43: Eaio = 2.364 (Ei 2.35, velocity head 0.07)",
+   "check": "eaio",
+   "args": [
+    2.35,
+    0.07,
+    6.75,
+    2.0
+   ],
+   "expect": 2.364,
+   "tol": 0.0005
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 7, structure 43: Eais = 0.14",
+   "check": "eais",
+   "args": [
+    6.75,
+    2.0
+   ],
+   "expect": 0.14,
+   "tol": 0.005
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 7, structure 43: Eaiu = 1.32",
+   "check": "eaiu",
+   "args": [
+    6.75,
+    2.0
+   ],
+   "expect": 1.32,
+   "tol": 0.005
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 7, structure 41: Eais = 0.26",
+   "check": "eais",
+   "args": [
+    5.1,
+    1.5
+   ],
+   "expect": 0.26,
+   "tol": 0.005
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 7, structure 41: Eaiu = 1.33",
+   "check": "eaiu",
+   "args": [
+    5.1,
+    1.5
+   ],
+   "expect": 1.33,
+   "tol": 0.005
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 7, structure 40: Eais = 0.11",
+   "check": "eais",
+   "args": [
+    3.3,
+    1.5
+   ],
+   "expect": 0.11,
+   "tol": 0.005
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 7, structure 40: Eaiu = 1.00 (printed after rounding DI to 0.269; unrounded 0.995)",
+   "check": "eaiu",
+   "args": [
+    3.3,
+    1.5
+   ],
+   "expect": 1.0,
+   "tol": 0.006
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 7, structure 42: C-theta = 4.5 (5.1/6.75) cos(90/2) = 2.40",
+   "check": "angle_coefficient",
+   "args": [
+    [
+     [
+      5.1,
+      90
+     ]
+    ],
+    6.75
+   ],
+   "expect": 2.4,
+   "tol": 0.005
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 7, structure 42: Ea = 1.74 (flat floor, 5.1 cfs joining at 90 degrees, 1.65 cfs plunging 5.24 ft)",
+   "check": "structure_energy",
+   "args": {
+    "ei": 1.66,
+    "hv": 0.1,
+    "q": 6.75,
+    "dia": 2.0,
+    "floor": "flat",
+    "joined": [
+     [
+      5.1,
+      90
+     ]
+    ],
+    "plunging": [
+     [
+      1.65,
+      5.24
+     ]
+    ],
+    "outlet_control": true
+   },
+   "expect": 1.74,
+   "tol": 0.005
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 7, structure 41: condition D, Eai 1.33 below Ei, so Ea = Ei = 1.78",
+   "check": "structure_energy",
+   "args": {
+    "ei": 1.78,
+    "hv": 1.22,
+    "q": 5.1,
+    "dia": 1.5,
+    "floor": "flat",
+    "joined": [
+     [
+      3.3,
+      180
+     ]
+    ],
+    "plunging": [
+     [
+      1.8,
+      5.93
+     ]
+    ],
+    "outlet_control": false
+   },
+   "expect": 1.78,
+   "tol": 0.0005
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 7, structure 40: terminal inlet, condition D, Ea = Ei = 1.35",
+   "check": "structure_energy",
+   "args": {
+    "ei": 1.35,
+    "hv": 0.9,
+    "q": 3.3,
+    "dia": 1.5,
+    "floor": "flat",
+    "joined": [],
+    "plunging": [
+     [
+      3.3,
+      4.5
+     ]
+    ],
+    "outlet_control": false,
+    "terminal": true
+   },
+   "expect": 1.35,
+   "tol": 0.0005
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 7, structure 43: Ea = 2.41 printed after rounding Eai - Ei to 0.01; unrounded 2.436",
+   "check": "structure_energy",
+   "args": {
+    "ei": 2.35,
+    "hv": 0.07,
+    "q": 6.75,
+    "dia": 2.0,
+    "floor": "flat",
+    "joined": [],
+    "plunging": [
+     [
+      6.75,
+      12.79
+     ]
+    ],
+    "outlet_control": true
+   },
+   "expect": 2.41,
+   "tol": 0.03
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 6, pipe 41-42: yn/D = 0.37 read from the partial-flow chart at Q/Qf = 0.28",
+   "check": "yn_ratio",
+   "args": [
+    5.1,
+    1.5,
+    0.013,
+    0.03
+   ],
+   "expect": 0.37,
+   "tol": 0.012
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 5, pipe 40-41: yn/D = 0.30 read from the partial-flow chart at Q/Qf = 0.18",
+   "check": "yn_ratio",
+   "args": [
+    3.3,
+    1.5,
+    0.013,
+    0.03
+   ],
+   "expect": 0.3,
+   "tol": 0.015
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 6, pipe 41-42: yc = 0.87 ft",
+   "check": "critical_depth",
+   "args": [
+    5.1,
+    1.5
+   ],
+   "expect": 0.87,
+   "tol": 0.005
+  },
+  {
+   "source": "HEC-22 Example 9.2 step 5, pipe 40-41: yc = 0.67 ft (chart reading)",
+   "check": "critical_depth",
+   "args": [
+    3.3,
+    1.5
+   ],
+   "expect": 0.67,
+   "tol": 0.03
+  },
+  {
+   "source": "HEC-22 Table 9.5: half benched, Eai/Do = 1.75 lies halfway between -0.85 and -0.05",
+   "check": "bench_coefficient",
+   "args": [
+    "half_benched",
+    3.5,
+    2.0
+   ],
+   "expect": -0.45,
+   "tol": 1e-09
+  },
+  {
+   "source": "HEC-22 Section 9.1.6.7.2: zk above 10 Do is set to 10 Do (2 ft pipe, 25 ft drop, Eai 1.0)",
+   "check": "plunge_coefficient",
+   "args": [
+    [
+     [
+      2.0,
+      25.0
+     ]
+    ],
+    1.0,
+    2.0,
+    4.0
+   ],
+   "expect": 4.75,
+   "tol": 1e-09
+  }
+ ]
+}

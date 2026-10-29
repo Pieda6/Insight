@@ -1,0 +1,29 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/storm-drain-energy"
+description = "Evaluate the energy and hydraulic grade lines of 44 storm drain networks for a 10-year design event and a 100-year check event with FHWA HEC-22 4th edition Section 9.4 and the FHWA inlet and access hole energy loss method (Section 9.1.6.7): Table 9.6 cases at each pipe's outlet, Table 9.7 conditions at its inlet with supercritical resets, inlet and outlet control energy levels, benching, angled and plunging inflow losses at every structure, and surcharge at each rim."
+
+[metadata]
+domain = "Science"
+field = "Civil Engineering"
+subfield = "Urban Drainage and Storm Sewer Hydraulics"
+tags = ["hydraulics", "storm-drain", "energy-grade-line", "hydraulic-grade-line", "access-hole-losses", "open-channel-flow", "hec-22", "python"]
+expert_time_estimate_hours = 12
+relevant_experience = "Drainage engineering: storm drain design and analysis with FHWA HEC-22, energy and hydraulic grade line computations, pipe flow under full and partly full conditions (Manning's equation, normal and critical depth in circular sections), and junction and access hole energy losses."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0
