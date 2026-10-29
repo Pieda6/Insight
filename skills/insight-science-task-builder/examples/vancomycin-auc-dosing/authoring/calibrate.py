@@ -20,8 +20,32 @@ sys.path.insert(0, str(TASK / "tests"))
 from local_check import run_solution, run_tests  # noqa: E402
 import engine  # noqa: E402
 
-FIT = "        ke, vol = fit(segs, ta, ca, tb, cb)\n"
+FIT = "        cl, vol = fit(line, ta, ca, tb, cb)\n"
+SESS = "        sessions = [(s / 60.0 - t0, e / 60.0 - t0, c * ML_MIN_TO_L_H) for s, e, c in sessions_min]\n"
+AUC24 = "        auc24 = line.area(tb - 24.0, tb, cl, vol)              # the 24 hours before the later usable level\n"
 SHORTCUTS = {
+    # dialysis
+    "dialysis sessions ignored": [(SESS, SESS + "        sessions = []\n")],
+    "dialyzer clearance read as L/h (mL/min not converted)": [("ML_MIN_TO_L_H = 0.06", "ML_MIN_TO_L_H = 1.0")],
+    "dialyzer clearance converted with 60/100 instead of 60/1000": [("ML_MIN_TO_L_H = 0.06", "ML_MIN_TO_L_H = 0.6")],
+    "dialysis removal spread evenly over the whole course": [
+        (SESS, SESS + "        _tot = sum(c * (e - s) for s, e, c in sessions); _span = max([e for _, e, _ in sessions] + [1.0])\n"
+                      "        sessions = [(0.0, 1e6, _tot / _span)] if sessions else []\n")],
+    "levels drawn during dialysis kept": [
+        ("            if any(s <= t <= e for s, e, _ in sessions_min):\n                continue                                       # during a dialysis session\n", "")],
+    "superposition at one rate fitted from the level ratio (dialysis ignored in the fit)": [
+        (FIT, "        _l0 = Timeline(segs, [])\n        cl, vol = fit(_l0, ta, ca, tb, cb)\n")],
+    # sampling-period AUC and dose
+    "auc24 as daily dose over clearance (steady state)": [
+        (AUC24, "        _f = cur['frequency']; _tau = float(re.search(r'\\d+', _f).group()) if 'every' in _f else 48.0\n"
+                "        auc24 = dose * 24.0 / _tau / cl\n")],
+    "auc24 over the 24 hours after the earlier level": [(AUC24, "        auc24 = line.area(ta, ta + 24.0, cl, vol)\n")],
+    "auc24 between the two levels scaled to 24 hours": [(AUC24, "        auc24 = line.area(ta, tb, cl, vol) * 24.0 / (tb - ta)\n")],
+    "new dose from clearance at an AUC of 500 (steady-state formula)": [
+        ("            raw = dose * 500.0 / auc24                         # dose changes give proportional AUC changes",
+         "            _f = cur['frequency']; _tau = float(re.search(r'\\d+', _f).group()) if 'every' in _f else 48.0\n"
+         "            raw = 500.0 * cl * _tau / 24.0")],
+    # records
     "local times read as naive clock times (daylight saving ignored)": [
         ("    offset_h = 4 if start <= wall < end else 5", "    offset_h = 5")],
     "daylight saving applied from midnight instead of 02:00": [
@@ -31,48 +55,25 @@ SHORTCUTS = {
     "umol/L converted with the hydrochloride salt mass (1485.7 g/mol)": [("MG_PER_UMOL = 1.4493 ", "MG_PER_UMOL = 1.4857 ")],
     "original result kept instead of its correction": [
         ('if r["accession"] not in reports or r["status"] == "corrected":', 'if r["accession"] not in reports:')],
-    "two-level steady-state equation for ke (ln of the level ratio over the time between them)": [
-        (FIT, "        ke = abs(math.log(ca / cb)) / (tb - ta)\n        vol = total(segs, ta, ke) / ca\n")],
-    "steady-state equations for ke and V (Sawchuk-Zaske, last dose only)": [
-        (FIT, "        ke = abs(math.log(ca / cb)) / (tb - ta)\n"
-              "        last = [sg for sg in segs if sg[0] < ta][-1:]\n"
-              "        vol = total(last, ta, ke) / ca / 1.0\n")],
     "full ordered dose for every infusion (volumes infused ignored)": [
         ("segs.append((open_t, t, (vol - done_v) * conc))", "segs.append((open_t, t, (vol - done_v) * conc * float(start[0]['bag_volume_ml']) / max(float(rows[-1]['volume_infused_ml']), 1)))")],
     "pauses ignored (one segment from start to stop)": [
         ("                if ev in (\"start\", \"resume\"):\n                    open_t = t",
          "                if ev == \"start\":\n                    open_t = t\n                elif ev == \"resume\":\n                    pass")],
-    "infusion assumed to last the nominal hour per 1,000 mg": [
-        ("            spans.append((minutes(rows[0][\"time\"]), minutes(rows[-1][\"time\"])))",
-         "            _d = float(start[0]['dose_mg']); _s = minutes(rows[0]['time']) / 60.0\n"
-         "            segs = [sg for sg in segs if sg[0] < _s - 1e-9] + [(_s, _s + max(1.0, round(_d / 1000 * 2) / 2), _d)]\n"
-         "            spans.append((minutes(rows[0][\"time\"]), minutes(rows[-1][\"time\"])))")],
     "held doses counted as given": [
         ("            if not start:\n                continue                                       # not given",
          "            if not start:\n                _t = minutes(rows[0]['time']) / 60.0\n                segs.append((_t, _t + 1.0, float(rows[0]['dose_mg'])))\n                continue")],
-    "levels within 1 hour after an infusion kept (last two numeric levels used)": [
-        ("            if any(s <= t <= e or e < t < e + 60 for s, e in spans):", "            if any(s <= t <= e for s, e in spans):"),
-        ("        (ta, ca), (tb, cb) = good", "        (ta, ca), (tb, cb) = good[-2:]")],
-    "1-hour rule counted from the start of the infusion": [
-        ("e < t < e + 60 for s, e in spans", "s < t < s + 60 for s, e in spans"),
-        ("        (ta, ca), (tb, cb) = good", "        (ta, ca), (tb, cb) = good[-2:]")],
-    "flagged results (H) treated as unusable": [(r'(?:[HL])?\s*", r["result"])', r'", r["result"])')],
-    "measured broth microdilution MIC used instead of 1 mg/L": [
-        ("        mic = 1.0 ", "        _m = p.get('isolate_mic'); mic = float(_m['value_mg_l']) if _m and _m['method'] == 'broth microdilution' else 1.0 ")],
+    "levels within 1 hour after an infusion kept": [
+        ("            if any(s <= t <= e or e < t < e + 60 for s, e in spans):", "            if any(s <= t <= e for s, e in spans):")],
+    "1-hour rule counted from the start of the infusion": [("e < t < e + 60 for s, e in spans", "s < t < s + 60 for s, e in spans")],
     "measured MIC from any method used": [
-        ("        mic = 1.0 ", "        _m = p.get('isolate_mic'); mic = float(_m['value_mg_l']) if _m else 1.0 ")],
+        ("        if 400.0 <= auc24 <= 600.0:", "        _m = p.get('isolate_mic'); _mic = float(_m['value_mg_l']) if _m else 1.0\n        auc24 = auc24 / _mic\n        if 400.0 <= auc24 <= 600.0:")],
     "first maintenance order instead of the current one": [("key=lambda o: minutes(o[\"ordered\"]))", "key=lambda o: -minutes(o[\"ordered\"]))")],
     "new dose rounded down to 250 mg": [("math.floor(raw / 250.0 + 0.5)", "math.floor(raw / 250.0)")],
     "new dose rounded up to 250 mg": [("math.floor(raw / 250.0 + 0.5)", "math.ceil(raw / 250.0)")],
-    "new dose also when exposure is within range": [('exposure, new = "within", int(dose)', 'exposure, new = "within", int(math.floor(500.0 * mic * cl * tau / 24.0 / 250.0 + 0.5) * 250)')],
-    "48-hour AUC taken as twice the steady-state AUC24": [("auc48 = sum(segment_area(sg, 48.0, ke) for sg in segs) / vol", "auc48 = 2 * auc24")],
+    "new dose also when exposure is within range": [('exposure, new = "within", int(dose)', 'exposure, new = "within", int(math.floor(dose * 500.0 / auc24 / 250.0 + 0.5) * 250)')],
     "48-hour AUC by the linear trapezoid rule on hourly concentrations": [
-        ("auc48 = sum(segment_area(sg, 48.0, ke) for sg in segs) / vol",
-         "auc48 = sum((total(segs, h, ke) + total(segs, h + 1, ke)) / 2 for h in range(48)) / vol")],
-    "48-hour AUC from the first maintenance dose": [
-        ("auc48 = sum(segment_area(sg, 48.0, ke) for sg in segs) / vol",
-         "_m = sorted(s for s, _, _ in segs)\n        _o = [s for s in _m if s > 0][0] if any(o['frequency'] == 'once' for o in orders[pid]) else 0.0\n"
-         "        auc48 = sum(segment_area(sg, 48.0 + _o, ke) - segment_area(sg, _o, ke) for sg in segs) / vol")],
+        ("        auc48 = line.area(0.0, 48.0, cl, vol)", "        auc48 = sum((line.amount(h, cl, vol) + line.amount(h + 1, cl, vol)) / 2 for h in range(48)) / vol")],
     "amounts from pump rate times running time": [
         ("segs.append((open_t, t, (vol - done_v) * conc))", "segs.append((open_t, t, _rate * (t - open_t) * conc))"),
         ("                if ev in (\"start\", \"resume\"):\n                    open_t = t",
@@ -88,7 +89,7 @@ def count_wrong(out_dir):
     for pid, w in truth.items():
         g = got.get(pid)
         ok = g is not None and all(abs(float(g[k]) - w[x]) <= 0.005 * abs(w[x]) for k, x in
-                                   (("ke_per_h", "ke"), ("volume_l", "volume"), ("auc48", "auc48"), ("auc24_ss", "auc24"))) \
+                                   (("ke_per_h", "ke"), ("volume_l", "volume"), ("auc48", "auc48"), ("auc24", "auc24"))) \
             and g["exposure"] == w["exposure"] and int(g["new_dose_mg"]) == w["new_dose"]
         wrong += not ok
     return wrong, len(truth)

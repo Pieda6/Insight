@@ -65,6 +65,20 @@
    ],
    "expect": 175.0,
    "tol": 1e-06
+  },
+  {
+   "source": "Hand-worked: 1,000 mg over 1 h, CL 0.5 L/h, V 50 L, dialysis 3 to 7 h at 120 mL/min (7.2 L/h); C(10 h) = [R/k0 (1 - e^-k0)] e^-2k0 e^-4k1 e^-3k0 / V with k0 = 0.5/50, k1 = 7.7/50 = 10.2240 mg/L",
+   "check": "dialysis_example_conc",
+   "args": [],
+   "expect": 10.223985099369235,
+   "tol": 1e-09
+  },
+  {
+   "source": "AUC from 0 to 2,000 h of one 1,000 mg infusion over 1 h, CL 0.5 L/h, V 50 L, no dialysis = dose/CL minus the tail beyond 2,000 h, 2000 - A(2000 h)/(V k) = 1999.9999959 mg h/L",
+   "check": "total_auc_no_dialysis",
+   "args": [],
+   "expect": 1999.9999958570124,
+   "tol": 1e-06
   }
  ]
 }

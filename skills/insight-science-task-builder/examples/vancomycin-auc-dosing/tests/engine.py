@@ -1,12 +1,16 @@
 """Independent verifier model for vancomycin-auc-dosing.
 
-Written separately from the reference solution: concentrations are evaluated per segment in the form
-R/ke * (exp(-ke (t - min(t, end))) - exp(-ke (t - start))), the elimination rate is found by the Illinois regula
-falsi method on the concentration ratio, and the 48-hour AUC is integrated numerically with 24-point
-Gauss-Legendre quadrature between consecutive event times (the curve is smooth between them).
+Written separately from the reference solution: the amount in the body is carried through a sorted event list
+(infusion rate and dialyzer clearance changes) with an explicit state machine; the patient's clearance and volume
+are found by nested Illinois regula falsi (outer on volume, inner on the elimination rate from the level ratio);
+AUCs are integrated numerically with 24-point Gauss-Legendre quadrature between consecutive event times (the
+curve is smooth between them). The closed-form single-compartment functions below the records section serve the
+textbook checks in golden.json.
 
-Guideline: Rybak et al., Am J Health-Syst Pharm 2020;77:835-864 (AUC/MIC 400 to 600 with the MIC assumed to
-be 1 mg/L as Recommendation 6 says, postdistributional sampling at least 1 hour after the end of the infusion).
+Guideline: Rybak et al., Am J Health-Syst Pharm 2020;77:835-864: AUC/MIC 400 to 600 with the MIC assumed to be
+1 mg/L (Recommendation 6), postdistributional sampling at least 1 hour after the end of the infusion, removal by
+high-permeability dialyzers (p. 846), AUC from the sampling period and proportional dose changes (p. 840).
+
 """
 import csv
 import datetime as dt
@@ -108,6 +112,107 @@ def solve_ke(segs, t1, c1, t2, c2):
     return c
 
 
+# ---- with hemodialysis: event-by-event state, the dialyzer adds its clearance while a session runs ---------
+def _events(segs, hd):
+    ev = []
+    for s, e, mg in segs:
+        ev += [(s, "rate", mg / (e - s)), (e, "rate", -mg / (e - s))]
+    for s, e, c in hd:
+        ev += [(s, "dial", c), (e, "dial", -c)]
+    return sorted(ev)
+
+
+def state_amount(segs, hd, t, cl, vol, _ev=None):
+    """Amount in the body at t: walk the events, holding rate and dialyzer clearance constant between them."""
+    ev = _ev if _ev is not None else _events(segs, hd)
+    clock, amt, rate, dial = None, 0.0, 0.0, 0.0
+    for when, kind, delta in ev:
+        if when >= t:
+            break
+        if clock is not None and when > clock:
+            k = (cl + dial) / vol
+            x = math.exp(-k * (when - clock))
+            amt = amt * x + rate / k * (1.0 - x)
+        clock = when if clock is None or when > clock else clock
+        if kind == "rate":
+            rate += delta
+        else:
+            dial += delta
+    if clock is None:
+        return 0.0
+    k = (cl + dial) / vol
+    x = math.exp(-k * (t - clock))
+    return amt * x + rate / k * (1.0 - x)
+
+
+def conc_area(segs, hd, t_from, t_to, cl, vol):
+    """Integral of the concentration over [t_from, t_to] by Gauss-Legendre between event times."""
+    ev = _events(segs, hd)
+    lo = max(t_from, 0.0)
+    cuts = sorted({lo, t_to} | {w for w, _, _ in ev if lo < w < t_to})
+    tot = 0.0
+    for a, b in zip(cuts, cuts[1:]):
+        half, mid = (b - a) / 2, (a + b) / 2
+        tot += half * sum(w * state_amount(segs, hd, mid + half * x, cl, vol, ev) for x, w in zip(*GL))
+    return tot / vol
+
+
+def _illinois(f, a, b, tol=1e-15):
+    fa, fb = f(a), f(b)
+    side = 0
+    c = a
+    for _ in range(300):
+        c = (a * fb - b * fa) / (fb - fa)
+        fc = f(c)
+        if fc == 0 or abs(b - a) < tol * max(abs(b), 1e-300):
+            break
+        if (fc > 0) == (fb > 0):
+            b, fb = c, fc
+            if side == -1:
+                fa /= 2
+            side = -1
+        else:
+            a, fa = c, fc
+            if side == 1:
+                fb /= 2
+            side = 1
+    return c
+
+
+def solve_cl_vol(segs, hd, t1, c1, t2, c2):
+    """Nested Illinois: for each volume, the elimination rate from the level ratio; then the volume from level 1."""
+    ev = _events(segs, hd)
+    target = math.log(c1 / c2)
+
+    def ke_at(vol, strict=False):
+        f = lambda lk: math.log(state_amount(segs, hd, t1, math.exp(lk) * vol, vol, ev) /
+                                state_amount(segs, hd, t2, math.exp(lk) * vol, vol, ev)) - target
+        pts = [math.log(1e-4) + i * math.log(3e4) / 60 for i in range(61)]
+        vals = [f(x) for x in pts]
+        hits = [i for i in range(60) if (vals[i] > 0) != (vals[i + 1] > 0)]
+        if len(hits) != 1:
+            if strict:
+                raise ValueError("elimination rate not unique at the fitted volume")
+            return None                                   # not one elimination rate at this trial volume
+        return math.exp(_illinois(f, pts[hits[0]], pts[hits[0] + 1]))
+
+    def g(lv):
+        vol = math.exp(lv)
+        ke = ke_at(vol)
+        if ke is None:
+            return None
+        return state_amount(segs, hd, t1, ke * vol, vol, ev) / vol - c1
+    pts = [math.log(5.0) + i * math.log(300.0) / 40 for i in range(41)]
+    vals = [g(x) for x in pts]
+    hits = [i for i in range(40) if vals[i] is not None and vals[i + 1] is not None
+            and (vals[i] > 0) != (vals[i + 1] > 0)]
+    if len(hits) != 1:
+        raise ValueError("volume not unique")
+    vol = math.exp(_illinois(g, pts[hits[0]], pts[hits[0] + 1]))
+    ke = ke_at(vol, strict=True)
+    return ke * vol, vol
+
+
 # ---- records -----------------------------------------------------------------------------------------------
 def segments_of(rows):
     """Constant-rate segments (start h, end h, mg) of one administration from its pump events."""
@@ -154,7 +259,12 @@ def load(data=None):
     return pats, rows("administrations.csv"), rows("levels.csv"), rows("orders.csv")
 
 
-def evaluate(p, adm, lev, ords):
+def load_dialysis(data=None):
+    with open(Path(data or DATA) / "hemodialysis.csv", newline="") as fh:
+        return list(csv.DictReader(fh))
+
+
+def evaluate(p, adm, lev, ords, dial=()):
     """Everything about one patient: answers plus facts used to tag method families."""
     by_admin = {}
     for r in adm:
@@ -172,6 +282,13 @@ def evaluate(p, adm, lev, ords):
     t0 = min(s for s, _, _ in segs)
     segs = [(s - t0, e - t0, mg) for s, e, mg in segs]
     spans = [(a - t0, b - t0) for a, b in spans]
+    hd = []
+    for r in dial:
+        c = float(r["vancomycin_clearance_ml_min"]) * 60.0 / 1000.0          # mL/min -> L/h
+        if not math.isfinite(c):
+            raise ValueError("non-finite dialyzer clearance")
+        hd.append((hours(r["start"]) - t0, hours(r["stop"]) - t0, c))
+    during_dialysis = 0
 
     usable, mistimed, unreadable, near_hour = [], 0, 0, False
     latest = {}
@@ -197,6 +314,9 @@ def evaluate(p, adm, lev, ords):
             if any(0.9 <= x < 1.0 for x in after):
                 near_hour = True
             continue
+        if any(a <= t <= b for a, b, _ in hd):
+            during_dialysis += 1
+            continue
         if any(1.0 < x <= 1.1 for x in after):
             near_hour = True
         usable.append((t, v))
@@ -204,16 +324,14 @@ def evaluate(p, adm, lev, ords):
     if len(usable) != 2:
         raise ValueError(f"{p['patient_id']}: {len(usable)} usable levels")
     (t1, c1), (t2, c2) = usable
-    ke = solve_ke(segs, t1, c1, t2, c2)
-    vol = amount(segs, t1, ke) / c1
-    clearance = ke * vol
+    clearance, vol = solve_cl_vol(segs, hd, t1, c1, t2, c2)
+    ke = clearance / vol
 
-    maint = [o for o in ords if o["frequency"].startswith("every")]
+    maint = [o for o in ords if o["frequency"] != "once"]
     cur = max(maint, key=lambda o: hours(o["ordered"]))
     dose = float(cur["dose_mg"])
-    tau = float(cur["frequency"].split()[1])
-    auc24 = dose * (24.0 / tau) / clearance
-    auc48 = area(segs, 48.0, ke) / vol
+    auc24 = conc_area(segs, hd, t2 - 24.0, t2, clearance, vol)      # guideline p. 840: sampling-period AUC
+    auc48 = conc_area(segs, hd, 0.0, 48.0, clearance, vol)
     mic_info = p["isolate_mic"]
     mic = 1.0                                  # Recommendation 6: measured MICs do not change the target
     ratio = auc24 / mic
@@ -223,7 +341,7 @@ def evaluate(p, adm, lev, ords):
         exposure = "above"
     else:
         exposure = "within"
-    raw = 500 * mic * clearance * tau / 24
+    raw = dose * 500 * mic / auc24                                   # proportional dose change (p. 840)
     new = int(dose) if exposure == "within" else 250 * int(math.floor(raw / 250 + 0.5))
 
     before = [sp for sp in spans if sp[0] < t1]
@@ -250,6 +368,12 @@ def evaluate(p, adm, lev, ords):
         tags.add("changed_orders")
     if corrected:
         tags.add("corrected_results")
+    if hd:
+        tags.add("hemodialysis_patients")
+        if any(s < b and e > a for s, e, _ in segs for a, b, _ in hd):
+            tags.add("doses_given_during_dialysis")
+    if during_dialysis:
+        tags.add("levels_drawn_during_dialysis")
     if in_umol:
         tags.add("results_in_umol_per_l")
     first = min(sp[0] for sp in spans) + t0
@@ -267,11 +391,11 @@ def evaluate(p, adm, lev, ords):
 def expected(data=None):
     pats, adm, lev, ords = load(data)
     group = lambda rows: {k: [r for r in rows if r["patient_id"] == k] for k in {r["patient_id"] for r in rows}}
-    A, L, O = group(adm), group(lev), group(ords)
+    A, L, O, D = group(adm), group(lev), group(ords), group(load_dialysis(data))
     out = {}
     for p in pats:
         pid = p["patient_id"]
-        out[pid] = evaluate(p, A.get(pid, []), L.get(pid, []), O.get(pid, []))
+        out[pid] = evaluate(p, A.get(pid, []), L.get(pid, []), O.get(pid, []), D.get(pid, []))
     return dict(sorted(out.items()))
 
 
@@ -303,3 +427,12 @@ def auc_steady_interval(dose_mg, hours_inf, tau, ke, vol, n_doses=400):
     segs = [(i * tau, i * tau + hours_inf, dose_mg) for i in range(n_doses)]
     a, b = (n_doses - 1) * tau, n_doses * tau
     return (area(segs, b, ke) - area(segs, a, ke)) / vol
+
+
+def dialysis_example_conc():
+    """Concentration at 10 h for the hand-worked dialysis case in golden.json."""
+    return state_amount([(0.0, 1.0, 1000.0)], [(3.0, 7.0, 7.2)], 10.0, 0.5, 50.0) / 50.0
+
+
+def total_auc_no_dialysis():
+    return conc_area([(0.0, 1.0, 1000.0)], [], 0.0, 2000.0, 0.5, 50.0)

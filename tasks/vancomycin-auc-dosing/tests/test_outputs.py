@@ -17,7 +17,7 @@ sys.path.insert(0, str(HERE))
 import engine  # noqa: E402
 
 OUT = Path("/app/output/vancomycin_review.csv")
-HEADER = "patient_id,ke_per_h,volume_l,auc48,auc24_ss,exposure,new_dose_mg"
+HEADER = "patient_id,ke_per_h,volume_l,auc48,auc24,exposure,new_dose_mg"
 REL = 0.005
 GOLDEN = json.loads((HERE / "golden.json").read_text())
 
@@ -62,13 +62,13 @@ def _bad(truth, got, pick):
     bad = []
     for pid, w in truth.items():
         if pick(w) and not row_ok(got.get(pid), w):
-            bad.append((pid, got.get(pid), (round(w["ke"], 5), round(w["volume"], 2), round(w["auc48"], 1),
+            bad.append((pid, got.get(pid), (round(w["ke"], 6), round(w["volume"], 2), round(w["auc48"], 1),
                                             round(w["auc24"], 1), w["exposure"], w["new_dose"])))
     return bad
 
 
 def test_engine_matches_textbook_results():
-    """The engine reproduces closed-form one-compartment infusion results and the Sawchuk-Zaske elimination rate."""
+    """The engine reproduces closed-form one-compartment results, the Sawchuk-Zaske rate and a hand-worked dialysis case."""
     for ex in GOLDEN["examples"]:
         v = getattr(engine, ex["check"])(*ex["args"])
         assert math.isfinite(v) and abs(v - ex["expect"]) <= ex["tol"], (ex["source"], v, ex["expect"])
@@ -80,6 +80,7 @@ def test_inputs_are_consistent():
     ids = {p["patient_id"] for p in pats}
     assert {r["patient_id"] for r in adm} == ids and {r["patient_id"] for r in ords} == ids
     assert {r["patient_id"] for r in lev} <= ids
+    assert {r["patient_id"] for r in engine.load_dialysis()} <= ids
     first = {}
     for r in adm:
         first.setdefault(r["administration_id"], r["event"])
@@ -91,7 +92,7 @@ def test_values_are_well_formed(rows):
     ids = {p["patient_id"] for p in engine.load()[0]}
     for r in rows:
         assert r[0] in ids, r
-        assert re.fullmatch(r"\d+\.\d{5}", r[1]) and re.fullmatch(r"\d+\.\d{2}", r[2]), r
+        assert re.fullmatch(r"\d+\.\d{6}", r[1]) and re.fullmatch(r"\d+\.\d{2}", r[2]), r
         assert re.fullmatch(r"\d+\.\d", r[3]) and re.fullmatch(r"\d+\.\d", r[4]), r
         assert r[5] in ("below", "within", "above") and re.fullmatch(r"\d+", r[6]), r
 
@@ -105,6 +106,7 @@ FAMILIES = (
     "first_day_levels", "dose_given_between_levels", "irregular_administration_records", "mistimed_levels",
     "levels_near_one_hour_after_infusion", "rejected_or_unreportable_results", "measured_mic_not_1",
     "changed_orders", "course_crosses_clock_change", "results_in_umol_per_l", "corrected_results",
+    "hemodialysis_patients", "doses_given_during_dialysis", "levels_drawn_during_dialysis",
     "near_target_edges", "near_rounding_steps", "exposure_below",
     "exposure_within", "exposure_above",
 )

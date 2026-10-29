@@ -37,8 +37,9 @@ def main():
                         rel(g["auc24"], w["auc24"]))
         cat_gen += g["exposure"] != w["exposure"] or g["new"] != w["new_dose"]
         s = sol[pid]
-        worst_sol = max(worst_sol, rel(float(s["ke_per_h"]), w["ke"]), rel(float(s["volume_l"]), w["volume"]),
-                        rel(float(s["auc48"]), w["auc48"]), rel(float(s["auc24_ss"]), w["auc24"]))
+        # printed values must be the engine's values rounded to the stated decimals
+        worst_sol = max(worst_sol, abs(float(s["ke_per_h"]) - w["ke"]) / 5e-7, abs(float(s["volume_l"]) - w["volume"]) / 5e-3,
+                        abs(float(s["auc48"]) - w["auc48"]) / 5e-2, abs(float(s["auc24"]) - w["auc24"]) / 5e-2)
         cat_sol += s["exposure"] != w["exposure"] or int(s["new_dose_mg"]) != w["new_dose"]
     ratio_margin = min(min(abs(w["auc24"] / m / 400 - 1), abs(w["auc24"] / m / 600 - 1))
                        for w, m in ((w, gen[p]["mic"]) for p, w in truth.items()))
@@ -54,47 +55,23 @@ def main():
     round_margin = min(abs(gen[p]["raw"] / 250 - math.floor(gen[p]["raw"] / 250) - 0.5) * 250 / gen[p]["raw"]
                        for p in gen if gen[p]["exposure"] != "within")
     print(f"closest unrounded new dose to a rounding midpoint: {100 * round_margin:.3f} percent of the dose")
+    # the engine raises unless each patient has exactly one clearance and volume through both levels
     multi = 0
     for p in pats:
-        pid = p["patient_id"]
-        by = {}
-        for r in adm:
-            if r["patient_id"] == pid:
-                by.setdefault(r["administration_id"], []).append(r)
-        segs, spans = [], []
-        for rows in by.values():
-            sg, sp = engine.segments_of(rows)
-            if sp:
-                segs += sg
-                spans.append(sp)
-        t0 = min(a for a, _, _ in segs)
-        segs = [(a - t0, b - t0, m) for a, b, m in segs]
-        spans = [(a - t0, b - t0) for a, b in spans]
-        use = []
-        latest = {}
-        for r in lev:
-            if r["patient_id"] == pid and (r["status"] == "corrected" or r["accession"] not in latest):
-                latest[r["accession"]] = r
-        for r in latest.values():
-            v = engine.parse_result(r["result"])
-            if v is None:
-                continue
-            v *= engine.UMOL_TO_MG if r["units"] == "umol/L" else 1.0
-            t = engine.hours(r["collected"]) - t0
-            if not any(a <= t <= b or 0 < t - b < 1 for a, b in spans):
-                use.append((t, v))
-        (t1, c1), (t2, c2) = sorted(use)
-        f = lambda k: engine.amount(segs, t1, k) * c2 - engine.amount(segs, t2, k) * c1
-        pts = [10 ** (-6 + 8 * i / 2000) for i in range(2001)]
-        vals = [f(k) for k in pts]
-        multi += sum((vals[i] > 0) != (vals[i + 1] > 0) for i in range(2000)) != 1
-    print(f"patients without exactly one elimination-rate solution between 1e-6 and 100 per hour: {multi}")
+        try:
+            engine.evaluate(p, [r for r in adm if r["patient_id"] == p["patient_id"]],
+                            [r for r in lev if r["patient_id"] == p["patient_id"]],
+                            [r for r in ords if r["patient_id"] == p["patient_id"]],
+                            [r for r in engine.load_dialysis(TASK / "tests" / "data") if r["patient_id"] == p["patient_id"]])
+        except ValueError:
+            multi += 1
+    print(f"patients without exactly one fitted clearance and volume: {multi}")
     print(f"patients: engine {len(truth)}, generator {len(gen)}, solution {len(sol)}")
     print(f"generator vs engine: {cat_gen} exposure or dose differences, largest relative difference {worst_gen:.1e}")
-    print(f"solution vs engine:  {cat_sol} exposure or dose differences, largest relative difference {worst_sol:.1e}"
-          " (solution rounds to its printed decimals)")
+    print(f"solution vs engine:  {cat_sol} exposure or dose differences; largest printed-value difference "
+          f"{worst_sol:.3f} of half a unit in the last printed decimal (must be at most 1)")
     print(f"closest AUC24/MIC to 400 or 600: {100 * ratio_margin:.3f} percent")
-    ok = len(truth) == len(gen) == len(sol) and not cat_gen and not cat_sol and worst_gen < 1e-8 and worst_sol < 5e-4 \
+    ok = len(truth) == len(gen) == len(sol) and not cat_gen and not cat_sol and worst_gen < 1e-8 and worst_sol <= 1.0 + 1e-6 \
         and ratio_margin > 0.005 and round_margin > 0.005 and not multi
     print("AGREEMENT:", "OK" if ok else "PROBLEM")
     sys.exit(0 if ok else 1)

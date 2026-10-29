@@ -1,26 +1,29 @@
 patients per method family (engine tags):
-  changed_orders: 51
-  corrected_results: 62
-  course_crosses_clock_change: 139
-  dose_given_between_levels: 149
-  exposure_above: 110
-  exposure_below: 45
-  exposure_within: 85
-  first_day_levels: 56
-  irregular_administration_records: 210
-  levels_near_one_hour_after_infusion: 121
-  measured_mic_not_1: 113
-  mistimed_levels: 138
-  near_rounding_steps: 43
-  near_target_edges: 60
-  rejected_or_unreportable_results: 92
-  results_in_umol_per_l: 68
-patients with a loading dose order: 174
-patients with an order change: 51
-closest unrounded new dose to a rounding midpoint: 0.662 percent of the dose
-patients without exactly one elimination-rate solution between 1e-6 and 100 per hour: 0
+  changed_orders: 54
+  corrected_results: 71
+  course_crosses_clock_change: 157
+  dose_given_between_levels: 144
+  doses_given_during_dialysis: 38
+  exposure_above: 65
+  exposure_below: 88
+  exposure_within: 87
+  first_day_levels: 40
+  hemodialysis_patients: 74
+  irregular_administration_records: 203
+  levels_drawn_during_dialysis: 34
+  levels_near_one_hour_after_infusion: 109
+  measured_mic_not_1: 92
+  mistimed_levels: 135
+  near_rounding_steps: 51
+  near_target_edges: 62
+  rejected_or_unreportable_results: 94
+  results_in_umol_per_l: 65
+patients with a loading dose order: 183
+patients with an order change: 54
+closest unrounded new dose to a rounding midpoint: 0.614 percent of the dose
+patients without exactly one fitted clearance and volume: 0
 patients: engine 240, generator 240, solution 240
-generator vs engine: 0 exposure or dose differences, largest relative difference 1.9e-13
-solution vs engine:  0 exposure or dose differences, largest relative difference 3.6e-04 (solution rounds to its printed decimals)
-closest AUC24/MIC to 400 or 600: 0.605 percent
+generator vs engine: 0 exposure or dose differences, largest relative difference 2.2e-12
+solution vs engine:  0 exposure or dose differences; largest printed-value difference 0.999 of half a unit in the last printed decimal (must be at most 1)
+closest AUC24/MIC to 400 or 600: 0.606 percent
 AGREEMENT: OK

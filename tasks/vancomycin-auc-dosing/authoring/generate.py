@@ -80,7 +80,8 @@ class Patient:
         self.scr = round(rng.uniform(0.5, 2.6) if rng.random() < 0.8 else rng.uniform(0.4, 0.8), 2)
         crcl = (140 - self.age) * min(self.weight, 120) / (72 * self.scr) * (0.85 if self.sex == "F" else 1)
         crcl = min(max(crcl, 15), 160)
-        self.cl = 0.05 * crcl * rng.uniform(0.8, 1.25)
+        self.hd = rng.random() < 0.35            # end-stage kidney disease on thrice-weekly hemodialysis
+        self.cl = 0.05 * crcl * rng.uniform(0.8, 1.25) if not self.hd else rng.uniform(0.15, 0.7)
         self.v = 0.7 * self.weight * rng.uniform(0.75, 1.3)
         self.ke = self.cl / self.v
         if crcl > 90:
@@ -92,10 +93,14 @@ class Patient:
         target = rng.uniform(250, 950)
         dose = target * self.cl * self.tau / 24
         self.dose = int(min(max(round(dose / 250) * 250, 500), 2500))
+        if self.hd:
+            self.dose = int(min(max(round(self.weight * rng.uniform(7, 15) / 250) * 250, 500), 2000))
         self.loading = None
         if rng.random() < 0.7:
             self.loading = int(min(round(self.weight * rng.uniform(20, 35) / 250) * 250, 3000))
             self.loading = max(self.loading, 1000)
+        if self.hd:
+            self.loading = int(max(min(round(self.weight * rng.uniform(20, 25) / 250) * 250, 3000), 1000))
         r = rng.random()
         if r < 0.35:
             self.mic = None
@@ -143,6 +148,48 @@ class Patient:
             if j > 0 and rng.random() < 0.04 and j != len(plan) - 1:
                 admins.append({"id": aid, "dose": mg, "held": True, "time": s, "events": []})
                 continue
+            admins.append(self.infuse(aid, s, mg))
+        return admins
+
+    def build_hd(self, n_sessions):
+        """Thrice-weekly sessions; a dose with each session, given in its final hour or after it."""
+        rng = self.rng
+        self.sessions = []
+        t = self.start
+        gaps = [48, 48, 72]
+        g = rng.randrange(3)
+        clhd = rng.randint(80, 150)                       # mL/min, high-permeability dialyzer
+        for i in range(n_sessions):
+            dur = rng.randint(210, 240)
+            self.sessions.append((t, t + dur, clhd + rng.randint(-6, 6)))
+            t += gaps[(g + i) % 3] * 60 + rng.randint(-40, 40)
+        intra = rng.random() < 0.6
+        self.orders = [("once", self.start - rng.randint(15, 120), self.loading, None)]
+        change_at = rng.randint(2, 3) if rng.random() < 0.25 else None
+        first_dose = self.dose if change_at is None else int(min(max(self.dose + rng.choice([-500, -250, 250, 500]), 500), 2000))
+        self.orders.append(("maint", self.sessions[1][0] - rng.randint(60, 600), first_dose, "hd"))
+        admins = []
+        for i, (s0, e0, _) in enumerate(self.sessions):
+            if change_at is not None and i == change_at:
+                self.orders.append(("maint", s0 - rng.randint(60, 600), self.dose, "hd"))
+            mg = self.loading if i == 0 else (first_dose if (change_at is not None and i < change_at) else self.dose)
+            run = minutes_for(mg)
+            if intra:
+                start = e0 - run - rng.randint(0, 25)              # infusion during the final part of the session
+                STATS["doses given during dialysis"] += 1
+            else:
+                start = e0 + rng.randint(15, 90)
+            aid = f"{self.pid}-A{i + 1:02d}"
+            if i > 0 and rng.random() < 0.04 and i != len(self.sessions) - 1:
+                admins.append({"id": aid, "dose": mg, "held": True, "time": start, "events": []})
+                continue
+            admins.append(self.infuse(aid, start, mg))
+        return admins
+
+    def infuse(self, aid, s, mg):
+        """One administration with real-world pump irregularities."""
+        rng = self.rng
+        if True:
             bag = bag_for(mg)
             dur = minutes_for(mg)
             rate = round(bag / (dur / 60))
@@ -172,8 +219,7 @@ class Patient:
                 STATS["rate changes"] += 1
             else:
                 ev.append((s + round(run), "stop", bag, None))
-            admins.append({"id": aid, "dose": mg, "held": False, "time": s, "events": ev, "bag": bag})
-        return admins
+            return {"id": aid, "dose": mg, "held": False, "time": s, "events": ev, "bag": bag}
 
     def segments(self, admins):
         segs = []
@@ -203,41 +249,69 @@ class Patient:
         return out
 
 
-def usable(t, spans):
-    return all(not (s <= t <= e) and not (e < t < e + 60) for s, e in spans)
+def usable(t, spans, hd=()):
+    return all(not (s <= t <= e) and not (e < t < e + 60) for s, e in spans) and \
+        all(not (s <= t <= e) for s, e, _ in hd)
 
 
 def make_patient(rng, idx):
     p = Patient(rng, idx)
-    pattern = rng.choice(["ss_same", "trough_peak", "trough_peak", "first_day", "first_day", "spread", "spread"])
-    k = {"ss_same": rng.randint(3, 5), "trough_peak": rng.randint(3, 5), "first_day": 0, "spread": rng.randint(2, 4)}[pattern]
-    admins = p.build_doses(k + 4)
-    given = [a for a in admins if not a["held"]]
-    if k + 2 >= len(given):
-        return None
-    spans = p.intervals(admins)
-    end_k = given[k]["events"][-1][0]
-    start_next = given[k + 1]["events"][0][0]
-    if pattern in ("ss_same", "first_day"):
-        t_peak = end_k + rng.choice([rng.randint(61, 65), rng.randint(65, 120)])
-        t2 = start_next - rng.randint(5, 45) if pattern == "ss_same" else t_peak + rng.randint(240, 600)
-        times = [t_peak, t2]
-    elif pattern == "trough_peak":
-        t_tr = given[k]["events"][0][0] - rng.randint(5, 45)
-        times = [t_tr, end_k + rng.choice([rng.randint(61, 65), rng.randint(65, 120)])]
+    p.sessions = []
+    if p.hd:
+        n = rng.randint(4, 6)
+        admins = p.build_hd(n)
+        given = [a for a in admins if not a["held"]]
+        spans = p.intervals(admins)
+        ses = p.sessions
+        pattern = rng.choice(["hd_post_pre", "hd_post_pre", "hd_pre_pre", "hd_post_far"])
+        k = rng.randint(1, n - 3) if pattern == "hd_post_far" else rng.randint(1, n - 2)
+        if pattern == "hd_post_far" and k + 2 >= n:
+            return None
+        dose_k = next((a for a in given if ses[k][0] - 60 <= a["events"][0][0] <= ses[k][1] + 120), None)
+        after_k = max(ses[k][1], dose_k["events"][-1][0] if dose_k else ses[k][1])
+        pre = lambda m: ses[m][0] - rng.randint(5, 60)
+        if pattern == "hd_post_pre":
+            times = [after_k + rng.choice([rng.randint(61, 65), rng.randint(65, 240)]), pre(k + 1)]
+        elif pattern == "hd_pre_pre":
+            times = [pre(k), pre(k + 1)]
+        else:
+            times = [after_k + rng.randint(61, 240), pre(k + 2)]
     else:
-        t_peak = end_k + rng.randint(61, 120)
-        times = [t_peak, given[k + 2]["events"][0][0] - rng.randint(5, 45)]
-    if not all(usable(t, spans) for t in times) or times[0] >= times[1]:
+        pattern = rng.choice(["ss_same", "trough_peak", "trough_peak", "first_day", "first_day", "spread", "spread"])
+        k = {"ss_same": rng.randint(3, 5), "trough_peak": rng.randint(3, 5), "first_day": 0, "spread": rng.randint(2, 4)}[pattern]
+        admins = p.build_doses(k + 4)
+        given = [a for a in admins if not a["held"]]
+        if k + 2 >= len(given):
+            return None
+        spans = p.intervals(admins)
+        end_k = given[k]["events"][-1][0]
+        start_next = given[k + 1]["events"][0][0]
+        if pattern in ("ss_same", "first_day"):
+            t_peak = end_k + rng.choice([rng.randint(61, 65), rng.randint(65, 120)])
+            t2 = start_next - rng.randint(5, 45) if pattern == "ss_same" else t_peak + rng.randint(240, 600)
+            times = [t_peak, t2]
+        elif pattern == "trough_peak":
+            t_tr = given[k]["events"][0][0] - rng.randint(5, 45)
+            times = [t_tr, end_k + rng.choice([rng.randint(61, 65), rng.randint(65, 120)])]
+        else:
+            t_peak = end_k + rng.randint(61, 120)
+            times = [t_peak, given[k + 2]["events"][0][0] - rng.randint(5, 45)]
+    hd = p.sessions
+    if not all(usable(t, spans, hd) for t in times) or times[0] >= times[1]:
         return None
-    if any(t == s or t == e or t == e + 60 for t in times for s, e in spans):
+    if any(t == s or t == e or t == e + 60 for t in times for s, e in spans) or \
+            any(t == s or t == e for t in times for s, e, _ in hd):
         return None
     segs = p.segments(admins)
+    if not segs or times[0] <= segs[0][0]:
+        return None
     t0 = segs[0][0]
     rel = [[s - t0, e - t0, mg] for s, e, mg in segs]
+    hd_rel = [[s - t0, e - t0, c * 0.06] for s, e, c in hd]     # mL/min -> L/h
 
     def true_conc(t):
-        return sim.amount_at((t - t0) / 60, [(s / 60, e / 60, mg) for s, e, mg in rel], p.ke) / p.v
+        return sim.amount_at((t - t0) / 60, [(s / 60, e / 60, mg) for s, e, mg in rel],
+                             [(s / 60, e / 60, c) for s, e, c in hd_rel], p.cl, p.v) / p.v
 
     levels = []
     for t in times:
@@ -245,21 +319,27 @@ def make_patient(rng, idx):
         levels.append([t, round(c, 1), True])
     # unusable results
     extras = []
-    if rng.random() < 0.35:
-        a = rng.choice(given[1:k + 2])
+    pool = given[1:] if p.hd else given[1:k + 2]
+    if rng.random() < 0.35 and pool:
+        a = rng.choice(pool)
         s0, e0 = a["events"][0][0], a["events"][-1][0]
         extras.append((rng.randint(s0 + 5, e0 - 5), "during"))
     if rng.random() < 0.35:
-        a = rng.choice(given[:k + 2])
+        a = rng.choice(given[:max(2, k + 2)] if not p.hd else given)
         extras.append((a["events"][-1][0] + rng.choice([rng.randint(55, 59), rng.randint(20, 54)]), "early"))
+    if p.hd and rng.random() < 0.5:
+        s0, e0, _ = rng.choice(hd)
+        extras.append((rng.randint(s0 + 20, s0 + 90), "during dialysis"))
     if rng.random() < 0.2:
         extras.append((rng.choice(times) + rng.randint(-20, 20), "rejected"))
     if rng.random() < 0.25:
         extras.append((given[0]["events"][0][0] - rng.randint(30, 300), "baseline"))
     for t, why in extras:
-        if why in ("during", "early") and usable(t, spans):
+        if why in ("during", "early", "during dialysis") and usable(t, spans, hd):
             continue
-        if any(t == s or t == e or t == e + 60 for s, e in spans):
+        if any(t == s or t == e or t == e + 60 for s, e in spans) or any(t == s or t == e for s, e, _ in hd):
+            continue
+        if t <= t0 and why != "baseline":
             continue
         if why == "rejected":
             levels.append([t, rng.choice(["Specimen hemolyzed - recollect", "Clotted specimen - rejected",
@@ -269,10 +349,10 @@ def make_patient(rng, idx):
         else:
             levels.append([t, round(true_conc(t) * rng.uniform(0.92, 1.08), 1), False])
         STATS[f"unusable result ({why})"] += 1
-    p.admins, p.levels, p.segs, p.t0, p.pattern = admins, levels, rel, t0, pattern
+    p.admins, p.levels, p.segs, p.t0, p.pattern, p.hd_rel = admins, levels, rel, t0, pattern, hd_rel
     p.units, p.umol, p.corr = {}, {}, {}
     times = [t for a in admins for t in ([a["time"]] + [e[0] for e in a["events"]])]
-    times += [l[0] for l in levels] + [o[1] for o in p.orders]
+    times += [l[0] for l in levels] + [o[1] for o in p.orders] + [x for s, e, _ in hd for x in (s, e)]
     if any(ambiguous(t) for t in times):
         return None                     # nothing in the repeated November hour
     return p
@@ -280,18 +360,20 @@ def make_patient(rng, idx):
 
 def answers(p):
     segs = [(s / 60, e / 60, mg) for s, e, mg in p.segs]
+    hd = [(s / 60, e / 60, c) for s, e, c in p.hd_rel]
     use = [(t, c) for t, c, ok in p.levels if ok]
     (ta, ca), (tb, cb) = sorted(use)
-    ke, V, roots = sim.fit(segs, (ta - p.t0) / 60, ca, (tb - p.t0) / 60, cb)
-    if ke is None:
+    t1, t2 = (ta - p.t0) / 60, (tb - p.t0) / 60
+    cl, V, roots = sim.fit(segs, hd, t1, ca, t2, cb)
+    if cl is None:
         return None
+    ke = cl / V
     cur = max((o for o in p.orders if o[0] == "maint"), key=lambda o: o[1])
     mic = 1.0                                   # guideline Recommendation 6: measured MICs do not change the target
-    cl = ke * V
-    auc24 = cur[2] * 24 / cur[3] / cl
-    auc48 = sim.auc_to(48.0, segs, ke, V)
+    auc24 = sim.auc_between(t2 - 24.0, t2, segs, hd, cl, V)    # sampling-period AUC (guideline p. 840)
+    auc48 = sim.auc_between(0.0, 48.0, segs, hd, cl, V)
     ratio = auc24 / mic
-    raw = 500 * mic * cl * cur[3] / 24
+    raw = cur[2] * 500.0 / auc24                # proportional change of the dose (guideline p. 840)
     if 400 <= ratio <= 600:
         exposure, new = "within", cur[2]
     else:
@@ -309,27 +391,40 @@ def margins(a):
 
 
 def plant(rng, p, goal):
-    """Nudge one usable level by 0.1 mg/L steps until the goal margin falls in its band."""
+    """Move one usable level on its 0.1 grid so the goal margin lands in its band (0.6 to 2 percent)."""
     idx = [i for i, l in enumerate(p.levels) if l[2]]
-    best = None
+    rng.shuffle(idx)
     for i in idx:
         base = p.levels[i][1]
-        for step in range(-60, 61):
-            p.levels[i][1] = round(base + step * 0.1, 1)
-            if p.levels[i][1] <= 0.5:
+        a0 = answers(p)
+        p.levels[i][1] = round(base + 0.5, 1)
+        a1 = answers(p)
+        p.levels[i][1] = base
+        if a0 is None or a1 is None:
+            continue
+        key = "ratio" if goal == "ratio" else "raw"
+        x0, x1 = a0[key], a1[key]
+        if abs(x1 - x0) < 1e-9:
+            continue
+        d = rng.uniform(0.008, 0.018) * rng.choice([-1, 1])
+        if goal == "ratio":
+            edge = min((400, 600), key=lambda e: abs(x0 - e))
+            target = edge * (1 + d)
+        else:
+            mid = (math.floor(x0 / 250) + 0.5) * 250
+            target = mid * (1 + d)
+        step = round((target - x0) / (x1 - x0) * 5)            # in 0.1 mg/L steps
+        for extra in (0, 1, -1, 2, -2):
+            v = round(base + (step + extra) * 0.1, 1)
+            if v <= 0.5:
                 continue
+            p.levels[i][1] = v
             a = answers(p)
-            if a is None or not (0.01 <= a["ke"] <= 0.5 and 15 <= a["V"] <= 260):
-                continue
-            mr, mro = margins(a)
-            if mr < MARGIN or mro < MARGIN:
-                continue
-            if goal == "ratio" and MARGIN <= mr <= 0.02:
-                best = (i, p.levels[i][1])
-            if goal == "round" and MARGIN <= mro <= 0.02 and a["exposure"] != "within":
-                best = (i, p.levels[i][1])
-            if best:
-                return True
+            if a is not None and 0.004 <= a["ke"] <= 0.5 and 15 <= a["V"] <= 300:
+                mr, mro = margins(a)
+                ok = (MARGIN <= mr <= 0.02) if goal == "ratio" else (MARGIN <= mro <= 0.02 and a["exposure"] != "within")
+                if ok and mr >= MARGIN and mro >= MARGIN:
+                    return True
         p.levels[i][1] = base
     return False
 
@@ -344,7 +439,7 @@ def main():
             STATS["redrawn"] += 1
             continue
         a = answers(p)
-        if a is None or not (0.01 <= a["ke"] <= 0.5 and 15 <= a["V"] <= 260):
+        if a is None or not (0.004 <= a["ke"] <= 0.5 and 15 <= a["V"] <= 300):
             STATS["redrawn"] += 1
             continue
         r = rng.random()
@@ -356,7 +451,7 @@ def main():
                 STATS["planted dose near a 250 mg rounding step"] += 1
         a = answers(p)
         mr, mro = margins(a)
-        if a is None or mr < MARGIN or mro < MARGIN or not (0.01 <= a["ke"] <= 0.5 and 15 <= a["V"] <= 260):
+        if a is None or mr < MARGIN or mro < MARGIN or not (0.004 <= a["ke"] <= 0.5 and 15 <= a["V"] <= 300):
             STATS["redrawn"] += 1
             continue
         if p.unit_lab:
@@ -368,7 +463,7 @@ def main():
                     l[1] = p.umol[i] * UMOL
                     p.units[i] = "umol/L"
             b = answers(p)
-            ok = b is not None and min(margins(b)) >= MARGIN and 0.01 <= b["ke"] <= 0.5 and 15 <= b["V"] <= 260
+            ok = b is not None and min(margins(b)) >= MARGIN and 0.004 <= b["ke"] <= 0.5 and 15 <= b["V"] <= 300
             if ok:
                 a = b
                 STATS["patients with results in umol/L"] += 1
@@ -384,6 +479,12 @@ def main():
         last_usable = max(l[0] for l in p.levels if l[2])
         if p.segs[0][0] + p.t0 < DST_ON <= last_usable or p.segs[0][0] + p.t0 < DST_OFF <= last_usable:
             STATS["patients whose course crosses a clock change"] += 1
+        segs_h = [(x / 60, y / 60, mg) for x, y, mg in p.segs]
+        hd_h = [(x / 60, y / 60, c) for x, y, c in p.hd_rel]
+        (ta, ca), (tb, cb) = sorted((t, c) for t, c, ok in p.levels if ok)
+        if sim.count_solutions(segs_h, hd_h, (ta - p.t0) / 60, ca, (tb - p.t0) / 60, cb) != 1:
+            STATS["redrawn (more than one exact fit)"] += 1
+            continue
         p.ans = a
         pats.append(p)
         idx += 1
@@ -397,7 +498,7 @@ def main():
 
 def write(pats):
     rng = random.Random(SEED + 1)
-    patients, admin_rows, level_rows, order_rows = [], [], [], []
+    patients, admin_rows, level_rows, order_rows, hd_rows = [], [], [], [], []
     for p in pats:
         patients.append({"patient_id": p.pid, "unit": p.unit, "age": p.age, "sex": p.sex, "weight_kg": p.weight,
                          "height_cm": p.height, "serum_creatinine_mg_dl": p.scr, "isolate_mic": p.mic})
@@ -441,7 +542,9 @@ def write(pats):
                 level_rows.append([p.pid, acc, stamp(t), label, text, unit, "final"])
         for j, (kind, when, dose, tau) in enumerate(p.orders):
             order_rows.append([p.pid, f"{p.pid}-O{j + 1}", stamp(when), dose,
-                               "once" if tau is None else f"every {tau} hours"])
+                               "once" if tau is None else "after each hemodialysis" if tau == "hd" else f"every {tau} hours"])
+        for j, (s0, e0, c) in enumerate(p.sessions):
+            hd_rows.append([p.pid, f"{p.pid}-H{j + 1}", stamp(s0), stamp(e0), "high-flux", c])
     for root in (HERE.parent / "environment" / "data", HERE.parent / "tests" / "data"):
         root.mkdir(parents=True, exist_ok=True)
         (root / "patients.json").write_text(json.dumps(patients, indent=1) + "\n")
@@ -449,7 +552,9 @@ def write(pats):
                 ("administrations.csv", ["patient_id", "administration_id", "time", "event", "dose_mg", "bag_volume_ml",
                                          "rate_ml_h", "volume_infused_ml", "comment"], admin_rows),
                 ("levels.csv", ["patient_id", "accession", "collected", "test", "result", "units", "status"], level_rows),
-                ("orders.csv", ["patient_id", "order_id", "ordered", "dose_mg", "frequency"], order_rows)):
+                ("orders.csv", ["patient_id", "order_id", "ordered", "dose_mg", "frequency"], order_rows),
+                ("hemodialysis.csv", ["patient_id", "session_id", "start", "stop", "dialyzer",
+                                      "vancomycin_clearance_ml_min"], hd_rows)):
             with open(root / name, "w", newline="") as fh:
                 w = csv.writer(fh, lineterminator="\n")
                 w.writerow(header)
@@ -478,6 +583,7 @@ def rebuild_answers(data=None):
         return (wall - EPOCH).total_seconds() / 60 + (240 if edt else 300)
 
     adm, lev, ords = rows("administrations.csv"), rows("levels.csv"), rows("orders.csv")
+    dial = rows("hemodialysis.csv")
     out = {}
     for p in pats:
         pid = p["patient_id"]
@@ -501,6 +607,8 @@ def rebuild_answers(data=None):
                     segs.append([on, t, (v - v0) * conc])
                 v0, on = v, (t if r["event"] == "rate_change" else None)
             spans.append((mins(rs[0]["time"]), mins(rs[-1]["time"])))
+        hd = [(mins(r["start"]), mins(r["stop"]), float(r["vancomycin_clearance_ml_min"])) for r in dial
+              if r["patient_id"] == pid]
         levels = []
         mine = [r for r in lev if r["patient_id"] == pid]
         corrected = {r["accession"] for r in mine if r["status"] == "corrected"}
@@ -510,15 +618,16 @@ def rebuild_answers(data=None):
             m = re.match(r"^(\d+\.\d)( H)?$", r["result"])
             t = mins(r["collected"])
             v = float(m.group(1)) * (UMOL if r["units"] == "umol/L" else 1.0) if m else r["result"]
-            levels.append([t, v, bool(m) and usable(t, spans)])
+            levels.append([t, v, bool(m) and usable(t, spans, hd)])
         o = [r for r in ords if r["patient_id"] == pid]
         q = Patient.__new__(Patient)
         q.segs = segs
         q.t0 = min(s for s, _, _ in segs)
         q.segs = [[s - q.t0, e - q.t0, mg] for s, e, mg in segs]
         q.levels = levels
-        q.orders = [("once" if r["frequency"] == "once" else "maint", mins(r["ordered"]), int(r["dose_mg"]),
-                     None if r["frequency"] == "once" else int(r["frequency"].split()[1])) for r in o]
+        q.hd_rel = [[s - q.t0, e - q.t0, c * 0.06] for s, e, c in hd]
+        q.orders = [("once" if r["frequency"] == "once" else "maint", mins(r["ordered"]), int(r["dose_mg"]), None)
+                    for r in o]
         q.mic = p["isolate_mic"]
         out[pid] = answers(q)
     return out

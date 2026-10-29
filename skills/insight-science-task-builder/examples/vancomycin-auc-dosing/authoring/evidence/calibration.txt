@@ -1,25 +1,28 @@
-CAUGHT   164 of 240 patients wrong  local times read as naive clock times (daylight saving ignored)
-CAUGHT    18 of 240 patients wrong  daylight saving applied from midnight instead of 02:00
-CAUGHT    68 of 240 patients wrong  umol/L results read as mg/L
-CAUGHT    68 of 240 patients wrong  umol/L converted with the hydrochloride salt mass (1485.7 g/mol)
-CAUGHT    62 of 240 patients wrong  original result kept instead of its correction
-CAUGHT   149 of 240 patients wrong  two-level steady-state equation for ke (ln of the level ratio over the time between them)
-CAUGHT   199 of 240 patients wrong  steady-state equations for ke and V (Sawchuk-Zaske, last dose only)
-CAUGHT    61 of 240 patients wrong  full ordered dose for every infusion (volumes infused ignored)
-CAUGHT    99 of 240 patients wrong  pauses ignored (one segment from start to stop)
-CAUGHT   135 of 240 patients wrong  infusion assumed to last the nominal hour per 1,000 mg
-CAUGHT    29 of 240 patients wrong  held doses counted as given
-CAUGHT    21 of 240 patients wrong  levels within 1 hour after an infusion kept (last two numeric levels used)
-CAUGHT    21 of 240 patients wrong  1-hour rule counted from the start of the infusion
-CRASHED (IndexError: list index out of range)  flagged results (H) treated as unusable
-CAUGHT    34 of 240 patients wrong  measured broth microdilution MIC used instead of 1 mg/L
-CAUGHT   108 of 240 patients wrong  measured MIC from any method used
-CAUGHT    44 of 240 patients wrong  first maintenance order instead of the current one
-CAUGHT    73 of 240 patients wrong  new dose rounded down to 250 mg
-CAUGHT    82 of 240 patients wrong  new dose rounded up to 250 mg
-CAUGHT    53 of 240 patients wrong  new dose also when exposure is within range
-CAUGHT   239 of 240 patients wrong  48-hour AUC taken as twice the steady-state AUC24
-CAUGHT    19 of 240 patients wrong  48-hour AUC by the linear trapezoid rule on hourly concentrations
-CAUGHT   164 of 240 patients wrong  48-hour AUC from the first maintenance dose
-CAUGHT    86 of 240 patients wrong  amounts from pump rate times running time
-24 of 24 shortcuts caught
+CAUGHT    74 of 240 patients wrong  dialysis sessions ignored
+CRASHED (ValueError: math domain error)  dialyzer clearance read as L/h (mL/min not converted)
+CRASHED (ValueError: math domain error)  dialyzer clearance converted with 60/100 instead of 60/1000
+CAUGHT    74 of 240 patients wrong  dialysis removal spread evenly over the whole course
+CAUGHT    17 of 240 patients wrong  levels drawn during dialysis kept
+CAUGHT    74 of 240 patients wrong  superposition at one rate fitted from the level ratio (dialysis ignored in the fit)
+CAUGHT   231 of 240 patients wrong  auc24 as daily dose over clearance (steady state)
+CAUGHT   227 of 240 patients wrong  auc24 over the 24 hours after the earlier level
+CAUGHT   227 of 240 patients wrong  auc24 between the two levels scaled to 24 hours
+CAUGHT   102 of 240 patients wrong  new dose from clearance at an AUC of 500 (steady-state formula)
+CAUGHT   145 of 240 patients wrong  local times read as naive clock times (daylight saving ignored)
+CAUGHT    15 of 240 patients wrong  daylight saving applied from midnight instead of 02:00
+CAUGHT    65 of 240 patients wrong  umol/L results read as mg/L
+CAUGHT    65 of 240 patients wrong  umol/L converted with the hydrochloride salt mass (1485.7 g/mol)
+CAUGHT    71 of 240 patients wrong  original result kept instead of its correction
+CAUGHT    57 of 240 patients wrong  full ordered dose for every infusion (volumes infused ignored)
+CAUGHT    79 of 240 patients wrong  pauses ignored (one segment from start to stop)
+CAUGHT    26 of 240 patients wrong  held doses counted as given
+CAUGHT    71 of 240 patients wrong  levels within 1 hour after an infusion kept
+CAUGHT    71 of 240 patients wrong  1-hour rule counted from the start of the infusion
+CAUGHT    92 of 240 patients wrong  measured MIC from any method used
+CAUGHT    49 of 240 patients wrong  first maintenance order instead of the current one
+CAUGHT    75 of 240 patients wrong  new dose rounded down to 250 mg
+CAUGHT    78 of 240 patients wrong  new dose rounded up to 250 mg
+CAUGHT    52 of 240 patients wrong  new dose also when exposure is within range
+CAUGHT    17 of 240 patients wrong  48-hour AUC by the linear trapezoid rule on hourly concentrations
+CAUGHT    79 of 240 patients wrong  amounts from pump rate times running time
+27 of 27 shortcuts caught

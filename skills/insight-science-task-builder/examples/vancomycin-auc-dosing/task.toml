@@ -4,15 +4,15 @@ schema_version = "2.0"
 
 [task]
 name = "insight/vancomycin-auc-dosing"
-description = "AUC-guided vancomycin dosing for 240 adults with serious MRSA infections under the 2020 ASHP/IDSA/PIDS/SIDP consensus guideline: from irregular administration and infusion pump records (late, held, paused, interrupted and partly given doses, rate changes, loading doses, order changes) and laboratory results (rejected, below the reporting limit, mistimed, corrected, in mg/L or umol/L) with New York local times across daylight-saving changes, fit each patient's one-compartment elimination rate and volume to the two usable levels by superposition, and report the 48-hour AUC, the steady-state AUC24, exposure against the guideline AUC target with the MIC taken as 1 mg/L, and the new dose."
+description = "AUC-guided vancomycin dosing for 240 adults with serious MRSA infections, 74 on hemodialysis, under the 2020 ASHP/IDSA/PIDS/SIDP consensus guideline: from irregular administration and infusion pump records, dialysis sessions with dialyzer clearance, and laboratory results (rejected, below the reporting limit, mistimed, corrected, in mg/L or umol/L) with New York local times across daylight-saving changes, fit each patient's own clearance and volume through the two usable levels with the dialyzer clearance added during sessions, and report the 48-hour AUC, the sampling-period AUC24, exposure against the guideline target with the MIC taken as 1 mg/L, and the proportionally changed dose."
 
 [metadata]
 domain = "Science"
 field = "Medicine"
 subfield = "Clinical Pharmacology and Therapeutic Drug Monitoring"
-tags = ["pharmacokinetics", "therapeutic-drug-monitoring", "vancomycin", "auc-guided-dosing", "one-compartment-model", "mrsa", "clinical-pharmacy", "python"]
+tags = ["pharmacokinetics", "therapeutic-drug-monitoring", "vancomycin", "auc-guided-dosing", "hemodialysis", "one-compartment-model", "clinical-pharmacy", "python"]
 expert_time_estimate_hours = 10
-relevant_experience = "Clinical pharmacokinetics and therapeutic drug monitoring: vancomycin AUC-guided dosing under the 2020 consensus guideline, one-compartment intermittent infusion models with superposition, fitting patient-specific parameters to measured drug levels, and reading hospital medication administration and laboratory records."
+relevant_experience = "Clinical pharmacokinetics and therapeutic drug monitoring: vancomycin AUC-guided dosing under the 2020 consensus guideline, one-compartment infusion models with time-varying elimination during hemodialysis, fitting patient-specific parameters to measured drug levels, and reading hospital medication administration and laboratory records."
 
 [verifier]
 timeout_sec = 300.0
