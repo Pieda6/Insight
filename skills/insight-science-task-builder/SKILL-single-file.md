@@ -363,8 +363,12 @@ applied to real-looking data, where the natural shortcut gives near-right answer
 | storm-drain-energy | Science (Civil) | static pass after rename; later stages pending | HEC-22 Section 9.4 network grade lines with the FHWA access hole method |
 | vancomycin-auc-dosing v1 | Science (Medicine) | static, artificiality, oracle/nop, similarity, rubric all PASS; Pass@2 solved 2/2 (56 min) | the instruction defined the model exactly (superposition through both levels), listed which levels count, gave the MIC rule: every settled point removed a trap. All gates before Pass@2 pass with this design, so keep the structure and cut the instruction |
 | vancomycin-auc-dosing v2 | Science (Medicine) | Pass@2 0/2 (25 min), then deep review FAIL | both agents reproduced every PK value for all 240 patients and failed only on the MIC rule, which the instruction no longer stated and which I had written against the guideline's own Recommendation 6 (assume MIC 1 mg/L, do not lower the dose for MIC below 1). Lessons: a cited-but-unstated rule that decides answers fails U1/U2/U3; failures driven by a convention fail G-DIFF; and if agents get the whole scientific crux right, the task is too easy no matter what. Retired |
+| vancomycin-auc-dosing v3 | Science (Medicine) | MIC fixed per Rec. 6: Pass@2 solved 2/2 (16 min) | as predicted, once the only failure point was fixed the clean PK pipeline was solved |
+| vancomycin-auc-dosing v4 | Science (Medicine) | pending | added record realism stated in the instruction: New York local times with 139 of 240 courses crossing a 2026 DST change (ignoring DST: 164 of 240 wrong), a laboratory reporting umol/L (molar mass given), corrected results replacing originals by accession; margins 0.6 percent above the 0.5 percent tolerance |
 
 ## Patterns that work
+
+0. **Record realism that is stated but easy to mishandle in code** (what the passing legal tasks had): local times in a named time zone with courses crossing a daylight-saving change, mixed units with the conversion factor given, corrected or amended records that replace originals, held events. State each in one plain sentence in the data paragraph; never explain how to handle it. Avoid the ambiguous repeated hour.
 
 1. **The standard method breaks down partway.** The textbook route (steady-state equations, a
    single formula, assuming clean data) gives plausible numbers that are wrong for a large share of
@@ -1348,14 +1352,14 @@ if __name__ == "__main__":
 
 ---
 
-# Part 4: worked example (vancomycin-auc-dosing v2, retired after deep review; structure only)
+# Part 4: worked example (vancomycin-auc-dosing v4, key files)
 
 ## examples/vancomycin-auc-dosing/instruction.md
 
 ````markdown
 The infectious diseases pharmacy service is reviewing vancomycin therapy for 240 adults treated for serious MRSA infections. Following the 2020 consensus guideline of ASHP, IDSA, PIDS and SIDP (Rybak et al., Am J Health-Syst Pharm 2020;77:835-864), estimate each patient's exposure from their own measured levels and recommend a dose.
 
-The data is in /app/data/. patients.json gives each patient's details and the vancomycin MIC of their MRSA isolate with the testing method, or null when none was reported. administrations.csv is the administration and infusion pump record; the cumulative volume infused is recorded at every pause, rate change and stop, and not_given marks a held dose. levels.csv holds the vancomycin results as the laboratory reported them, and orders.csv the vancomycin orders. Times are local, to the minute.
+The data is in /app/data/. patients.json gives each patient's details and the vancomycin MIC of their MRSA isolate with the testing method, or null when none was reported. administrations.csv is the administration and infusion pump record; the cumulative volume infused is recorded at every pause, rate change and stop, and not_given marks a held dose. levels.csv holds the vancomycin results as the laboratory reported them, in mg/L or umol/L (vancomycin, 1449.3 g/mol), where a corrected result replaces the earlier result with the same accession, and orders.csv holds the vancomycin orders. Times are local New York time (America/New_York), to the minute.
 
 The service uses a one-compartment model with first-order elimination, fitted to each patient's two usable levels and everything documented as given. A level is usable when the laboratory reported a value for it and it was drawn neither while an administration was running, pauses included, nor less than 1 hour after one stopped; every patient has exactly two.
 
@@ -1369,8 +1373,8 @@ Write /app/output/vancomycin_review.csv with the header patient_id,ke_per_h,volu
 - volume_l: the volume of distribution in liters, two decimals.
 - auc48: AUC in mg·h/L from the start of the first administration to 48 hours later, one decimal.
 - auc24_ss: steady-state 24-hour AUC in mg·h/L on the most recently ordered maintenance regimen, one decimal.
-- exposure: below, within or above the guideline's AUC/MIC target, using the MIC the guideline says to use.
-- new_dose_mg: the current dose when exposure is within; otherwise the dose at the current interval for an AUC/MIC of 500, rounded to the nearest 250 mg.
+- exposure: below, within or above the guideline's AUC target of 400 to 600 mg·h/L. As the guideline's Recommendation 6 advises, the MIC is taken as 1 mg/L for every patient; a measured MIC, by any method, changes neither the target nor the dose.
+- new_dose_mg: the current dose when exposure is within; otherwise the dose at the current interval for an AUC of 500 mg·h/L, rounded to the nearest 250 mg.
 
 Numbers are accepted within 0.5 percent; exposure and new_dose_mg must match exactly. Do not add extra columns, blank lines or explanations.
 
@@ -1386,7 +1390,7 @@ schema_version = "2.0"
 
 [task]
 name = "insight/vancomycin-auc-dosing"
-description = "AUC-guided vancomycin dosing for 240 adults with serious MRSA infections under the 2020 ASHP/IDSA/PIDS/SIDP consensus guideline: from irregular administration and infusion pump records (late, held, paused, interrupted and partly given doses, rate changes, loading doses, order changes) and laboratory results (rejected, below the reporting limit, mistimed), fit each patient's one-compartment elimination rate and volume to the two usable levels by superposition, and report the 48-hour AUC, the steady-state AUC24, exposure against the AUC/MIC target with the broth microdilution MIC rule, and the new dose."
+description = "AUC-guided vancomycin dosing for 240 adults with serious MRSA infections under the 2020 ASHP/IDSA/PIDS/SIDP consensus guideline: from irregular administration and infusion pump records (late, held, paused, interrupted and partly given doses, rate changes, loading doses, order changes) and laboratory results (rejected, below the reporting limit, mistimed, corrected, in mg/L or umol/L) with New York local times across daylight-saving changes, fit each patient's one-compartment elimination rate and volume to the two usable levels by superposition, and report the 48-hour AUC, the steady-state AUC24, exposure against the guideline AUC target with the MIC taken as 1 mg/L, and the new dose."
 
 [metadata]
 domain = "Science"
@@ -1432,27 +1436,35 @@ drawn on the first day, around a dose, or two intervals apart; doses are late, e
 paused, slowed, sped up or stopped partway, so the drug actually given must be read from the pump's cumulative
 volumes; loading doses differ from maintenance doses, and orders change. The patient's parameters therefore have
 to come from superposition of every documented infusion in a one-compartment model, with the elimination rate
-solved from the ratio of the two levels. Choosing the two usable levels means discarding rejected and cancelled
-specimens and results below the reporting limit, and levels drawn while an infusion was running (pauses included)
-or less than an hour after it actually stopped (the guideline's postdistributional sampling window), judged
-against the documented stop, not the scheduled one. The MIC changes the target only when measured by broth
-microdilution, as the guideline advises. The data holds 240 patients, 204 with irregular records, 144 with
-mistimed levels, 50 with first-day levels and 146 with a dose given between their two levels. 41 patients have
-AUC24/MIC within 0.6 percent of 400 or 600 (37 of them planted by the generator), 48 have an unrounded new dose
-within 5 mg of a 250 mg rounding midpoint (39 planted), and 124 have a level drawn within 6 minutes of one hour after an infusion stopped (counts in
-authoring/evidence/agreement.txt and generate_output.txt). Each of 20 shortcuts tried (the steady-state equations, ignoring pauses,
-partial volumes or held doses, nominal infusion times, keeping mistimed levels, any-method MICs, other rounding,
-trapezoid or doubled AUCs) gets many patients right and others wrong. The patients are synthetic but follow the
-guideline's dosing ranges, infusion limits (at most 5 mg/mL and at least 1 hour per 1,000 mg) and published adult
-vancomycin clearance and volume ranges.
+solved from the ratio of the two levels. The records carry the details real hospital data has: times are New York
+local time and most courses cross the 2026 daylight-saving change in March or November, so elapsed time must be
+computed on a continuous clock (an hour lost or gained between a dose and a level moves the fitted elimination
+rate); one laboratory reports in umol/L, which must be converted with the molar mass of vancomycin; and some
+results were corrected after release, the corrected value replacing the original with the same accession.
+Choosing the two usable levels means discarding rejected and cancelled specimens and results below the reporting
+limit, and levels drawn while an infusion was running (pauses included) or less than an hour after it actually
+stopped (the guideline's postdistributional sampling window), judged against the documented stop. The MIC is 1
+mg/L for every patient, as the guideline's Recommendation 6 advises, although 113 patients have a measured MIC
+other than 1. The data holds 240 patients: 139 whose course crosses a clock change, 68 with results in umol/L, 62
+with a corrected result, 210 with irregular records, 138 with mistimed levels, 56 with first-day levels and 149
+with a dose given between their two levels. 60 patients have AUC24 within 2 percent of 400 or 600 (59 planted by
+the generator), 43 have an unrounded new dose within 2 percent of a 250 mg rounding midpoint (31 planted), and 121
+have a level drawn within 6 minutes of one hour after an infusion stopped (counts in
+authoring/evidence/agreement.txt and generate_output.txt). Each of 24 shortcuts tried (naive local times, umol/L
+read as mg/L, originals kept instead of corrections, the steady-state equations, ignoring pauses, partial volumes
+or held doses, nominal infusion times, keeping mistimed levels, using measured MICs, other rounding, trapezoid or
+doubled AUCs) gets many patients right and others wrong; ignoring the clock change alone gets 164 of 240 wrong. The
+patients are synthetic but follow the guideline's dosing ranges, infusion limits (at most 5 mg/mL and at least 1
+hour per 1,000 mg) and published adult vancomycin clearance and volume ranges.
 
 ## Solution
 
-The reference solution (solution/solve.py) turns each administration's pump events into constant-rate segments
-from the cumulative volumes, selects the two usable levels, writes each level as the sum of closed-form infusion
+The reference solution (solution/solve.py) converts New York local times to a continuous clock with the US
+daylight-saving rules, keeps each corrected result in place of its original, converts umol/L to mg/L, turns each
+administration's pump events into constant-rate segments from the cumulative volumes, selects the two usable levels, writes each level as the sum of closed-form infusion
 terms divided by the volume, solves the ratio of the two levels for the elimination rate by bisection after a
 scan for the bracket, takes the volume from either level, integrates the closed-form segment terms over the first
-48 hours, and applies the guideline target, the MIC rule and the dose rounding.
+48 hours, and applies the guideline target with an MIC of 1 mg/L and the dose rounding.
 
 ## Verification
 
@@ -1462,13 +1474,15 @@ method and integrates the 48-hour AUC numerically with 24-point Gauss-Legendre q
 from a private copy of the inputs that exists only in the verifier image, and never runs agent code. The data
 generator (authoring/sim.py, which propagates the amount in the body from event to event and uses a mass balance
 for the AUC) is a third implementation; the engine and generator agree within a relative 2e-13, every patient has
-exactly one solution for the elimination rate between 1e-6 and 100 per hour, and AUC24/MIC stays at least 0.05
-percent from 400 and 600 and the unrounded dose at least 0.5 mg from a rounding midpoint. The engine is checked
+exactly one solution for the elimination rate between 1e-6 and 100 per hour, and AUC24 stays at least 0.6
+percent from 400 and 600 and the unrounded dose at least 0.6 percent from a rounding midpoint, both more than the
+0.5 percent numeric tolerance. The engine is checked
 against closed-form one-compartment results: a single infusion, the steady-state peak, the Sawchuk-Zaske
 elimination rate from a steady-state peak and trough, and the steady-state AUC over an interval. Tests check that
 the inputs are consistent, the value formats, one row per patient in order, one test per method family (first-day
 levels, doses between the levels, irregular records, mistimed levels, levels near one hour after an infusion,
-rejected or unreportable results, broth microdilution and other-method MICs, changed orders, patients near the
+rejected or unreportable results, measured MICs other than 1 mg/L, changed orders, courses crossing a clock
+change, results in umol/L, corrected results, patients near the
 target edges and near rounding steps, and each exposure category) and finally every patient, with numbers within
 0.5 percent and exposure and new dose exact. Reward is 1 only if every test passes.
 ````
@@ -1485,17 +1499,24 @@ These files are not copied into the agent or verifier images. Run them from this
   `../tests/data`). True clearance comes from Cockcroft-Gault creatinine clearance (0.05 L/h per mL/min, times
   0.8 to 1.25) and true volume is about 0.7 L/kg (times 0.75 to 1.3). Regimens follow the guideline: maintenance
   doses sized for a spread of exposures every 8, 12 or 24 hours, loading doses of 20 to 35 mg/kg actual weight up
-  to 3,000 mg (156 of the 240 patients have a loading dose order; 60 have an order change), bags of at most 5 mg/mL, and at least 1 hour per 1,000 mg. Records
+  to 3,000 mg (174 of the 240 patients have a loading dose order; 51 have an order change), bags of at most 5 mg/mL, and at least 1 hour per 1,000 mg. Records
   include late and early starts, held doses, pauses, rate changes, partly given infusions and order changes.
   Two usable levels follow one of four patterns (steady-state peak and trough in one interval, trough then peak
   around one dose, first-day levels, peak and trough two intervals apart), with assay noise of up to 8 percent,
   to 0.1 mg/L; unusable results are rejected specimens, results below the reporting limit, and levels drawn
   during an infusion or less than an hour after one. Answers are fitted from the written records, and planted
   patients have one level moved in 0.1 mg/L steps to sit near a target edge or a rounding step.
+- Times are generated on a UTC clock and written as New York local time. 38 percent of courses start 2 to 36 hours
+  before the March 8, 2026 change and 38 percent before the November 1, 2026 change (139 patients' courses cross
+  one); no timestamp falls in the repeated hour 01:00 to 01:59 on November 1. 30 percent of patients have a
+  laboratory that reports umol/L (written to 0.1 umol/L, answers computed from the written value times 1.4493;
+  68 patients kept it after the margin checks). 15 percent of usable results get an earlier wrong result with the
+  same accession and a later corrected one (66 results, 62 patients).
 - `sim.py` is the generator's own model (third implementation).
 - `sources/rybak_2020_vancomycin_guideline.txt` is the text of the guideline extracted from the PDF. The rules
-  used come from pages 839 to 840 (AUC/MIC 400 to 600 assuming a broth microdilution MIC of 1 mg/L unless measured
-  otherwise; first-order equations need near steady-state levels and are hard to use with irregular dosing),
+  used come from pages 839 to 840 (AUC/MIC 400 to 600; first-order equations need near steady-state levels and are
+  hard to use with irregular dosing), page 842 (Recommendation 6: assume an MIC of 1 mg/L; do not lower the dose
+  when the broth microdilution MIC is below 1 mg/L),
   page 844 (infusion at most 5 mg/mL and at least 1 hour per 1,000 mg; loading doses 20 to 35 mg/kg up to 3,000
   mg) and page 845 (peak drawn at least 1 hour after the end of the infusion).
 
@@ -1505,16 +1526,18 @@ These files are not copied into the agent or verifier images. Run them from this
   the check that every patient has exactly one elimination-rate solution. Every count quoted in the READMEs comes
   from this file or from `evidence/generate_output.txt`.
 - `local_check.py ..` -> `evidence/local_check.txt`: oracle passes every test, empty output fails.
-- `calibrate.py` -> `evidence/calibration.txt`: 20 shortcut solutions and how many patients each gets wrong.
+- `calibrate.py` -> `evidence/calibration.txt`: 24 shortcut solutions and how many patients each gets wrong.
 - `generate.py` -> `evidence/generate_output.txt`: counts of patterns, exposures, irregularities and planted values.
 
 ## Settled readings (stated in instruction.md)
-One-compartment model with first-order elimination fitted to each patient's two usable levels and everything
+Times are New York local time (America/New_York); results are in mg/L or umol/L (vancomycin 1449.3 g/mol); a
+corrected result replaces the earlier result with the same accession. One-compartment model with first-order elimination fitted to each patient's two usable levels and everything
 documented as given; usable levels are reported values not drawn while an administration was running (pauses
 included) or less than 1 hour after it stopped; no Bayesian estimation or population priors; only the
 administration record decides what was given and when; nothing rounded before the final values; auc48 from the
-first administration's start; auc24_ss on the most recently ordered maintenance regimen; the guideline's AUC/MIC
-target and MIC rule (cited, not restated); new dose at the current interval for AUC/MIC 500, to the nearest 250
+first administration's start; auc24_ss on the most recently ordered maintenance regimen; the guideline's AUC target
+of 400 to 600 with the MIC taken as 1 mg/L for everyone (Recommendation 6), whatever was measured; new dose at the
+current interval for AUC 500, to the nearest 250
 mg, unchanged when within.
 ````
 
@@ -1539,8 +1562,21 @@ DATA = Path("/app/data")
 OUT = Path("/app/output")
 
 
+MG_PER_UMOL = 1.4493          # vancomycin 1449.3 g/mol: 1 umol/L = 1.4493 mg/L
+
+
+def nth_sunday(year, month, n):
+    first = dt.date(year, month, 1)
+    return first + dt.timedelta(days=(6 - first.weekday()) % 7 + 7 * (n - 1))
+
+
 def minutes(text):
-    return (dt.datetime.strptime(text.strip(), "%Y-%m-%d %H:%M") - dt.datetime(2000, 1, 1)).total_seconds() / 60.0
+    """Minutes on a continuous clock from a New York local time (US daylight saving rules)."""
+    wall = dt.datetime.strptime(text.strip(), "%Y-%m-%d %H:%M")
+    start = dt.datetime.combine(nth_sunday(wall.year, 3, 2), dt.time(2, 0))
+    end = dt.datetime.combine(nth_sunday(wall.year, 11, 1), dt.time(1, 0))
+    offset_h = 4 if start <= wall < end else 5                 # UTC = local + 4 h (EDT) or + 5 h (EST)
+    return (wall - dt.datetime(2000, 1, 1)).total_seconds() / 60.0 + 60 * offset_h
 
 
 def read_csv(name):
@@ -1637,15 +1673,20 @@ def main():
         t0 = min(s for s, _, _ in segs)
         segs = [(s - t0, e - t0, mg) for s, e, mg in segs]
 
+        reports = {}
+        for r in levels.get(pid, []):                          # a corrected result replaces the original
+            if r["accession"] not in reports or r["status"] == "corrected":
+                reports[r["accession"]] = r
         good = []
-        for r in levels.get(pid, []):
+        for r in reports.values():
             m = re.fullmatch(r"\s*(\d+(?:\.\d+)?)\s*(?:[HL])?\s*", r["result"])
             if not m:
                 continue                                       # rejected or below the reporting limit
             t = minutes(r["collected"])
             if any(s <= t <= e or e < t < e + 60 for s, e in spans):
                 continue                                       # during an infusion or less than 1 h after one
-            good.append((t / 60.0 - t0, float(m.group(1))))
+            value = float(m.group(1)) * (MG_PER_UMOL if r["units"] == "umol/L" else 1.0)
+            good.append((t / 60.0 - t0, value))
         good.sort()
         (ta, ca), (tb, cb) = good
         ke, vol = fit(segs, ta, ca, tb, cb)
@@ -1656,8 +1697,7 @@ def main():
         tau = float(re.search(r"\d+", cur["frequency"]).group())
         auc24 = dose * 24.0 / tau / cl
         auc48 = sum(segment_area(sg, 48.0, ke) for sg in segs) / vol
-        mic_rec = p.get("isolate_mic")
-        mic = float(mic_rec["value_mg_l"]) if mic_rec and mic_rec["method"] == "broth microdilution" else 1.0
+        mic = 1.0                                          # guideline Recommendation 6: assume 1 mg/L
         ratio = auc24 / mic
         if 400.0 <= ratio <= 600.0:
             exposure, new = "within", int(dose)
@@ -1787,8 +1827,9 @@ def test_rows_are_sorted_and_complete(truth, rows):
 
 FAMILIES = (
     "first_day_levels", "dose_given_between_levels", "irregular_administration_records", "mistimed_levels",
-    "levels_near_one_hour_after_infusion", "rejected_or_unreportable_results", "broth_microdilution_mic",
-    "mic_by_other_methods", "changed_orders", "near_target_edges", "near_rounding_steps", "exposure_below",
+    "levels_near_one_hour_after_infusion", "rejected_or_unreportable_results", "measured_mic_not_1",
+    "changed_orders", "course_crosses_clock_change", "results_in_umol_per_l", "corrected_results",
+    "near_target_edges", "near_rounding_steps", "exposure_below",
     "exposure_within", "exposure_above",
 )
 
@@ -1811,53 +1852,59 @@ def test_every_patient(truth, got):
 
 ````text
 patients per method family (engine tags):
-  broth_microdilution_mic: 30
-  changed_orders: 60
-  dose_given_between_levels: 146
-  exposure_above: 116
-  exposure_below: 55
-  exposure_within: 69
-  first_day_levels: 50
-  irregular_administration_records: 204
-  levels_near_one_hour_after_infusion: 124
-  mic_by_other_methods: 67
-  mistimed_levels: 144
-  near_rounding_steps: 48
-  near_target_edges: 41
-  rejected_or_unreportable_results: 96
-patients with a loading dose order: 156
-patients with an order change: 60
-closest unrounded new dose to a rounding midpoint: 0.58 mg
+  changed_orders: 51
+  corrected_results: 62
+  course_crosses_clock_change: 139
+  dose_given_between_levels: 149
+  exposure_above: 110
+  exposure_below: 45
+  exposure_within: 85
+  first_day_levels: 56
+  irregular_administration_records: 210
+  levels_near_one_hour_after_infusion: 121
+  measured_mic_not_1: 113
+  mistimed_levels: 138
+  near_rounding_steps: 43
+  near_target_edges: 60
+  rejected_or_unreportable_results: 92
+  results_in_umol_per_l: 68
+patients with a loading dose order: 174
+patients with an order change: 51
+closest unrounded new dose to a rounding midpoint: 0.662 percent of the dose
 patients without exactly one elimination-rate solution between 1e-6 and 100 per hour: 0
 patients: engine 240, generator 240, solution 240
-generator vs engine: 0 exposure or dose differences, largest relative difference 1.5e-13
-solution vs engine:  0 exposure or dose differences, largest relative difference 2.7e-04 (solution rounds to its printed decimals)
-closest AUC24/MIC to 400 or 600: 0.067 percent
+generator vs engine: 0 exposure or dose differences, largest relative difference 1.9e-13
+solution vs engine:  0 exposure or dose differences, largest relative difference 3.6e-04 (solution rounds to its printed decimals)
+closest AUC24/MIC to 400 or 600: 0.605 percent
 AGREEMENT: OK
 ````
 
 ## examples/vancomycin-auc-dosing/authoring/evidence/calibration.txt
 
 ````text
-CAUGHT   146 of 240 patients wrong  two-level steady-state equation for ke (ln of the level ratio over the time between them)
-CAUGHT   198 of 240 patients wrong  steady-state equations for ke and V (Sawchuk-Zaske, last dose only)
-CAUGHT    68 of 240 patients wrong  full ordered dose for every infusion (volumes infused ignored)
-CAUGHT    87 of 240 patients wrong  pauses ignored (one segment from start to stop)
-CAUGHT   139 of 240 patients wrong  infusion assumed to last the nominal hour per 1,000 mg
-CAUGHT    30 of 240 patients wrong  held doses counted as given
-CAUGHT    24 of 240 patients wrong  levels within 1 hour after an infusion kept (last two numeric levels used)
-CAUGHT    24 of 240 patients wrong  1-hour rule counted from the start of the infusion
-CRASHED (ValueError: not enough values to unpack (expected 2, got 1))  flagged results (H) treated as unusable
-CAUGHT    64 of 240 patients wrong  MIC from any testing method
-CAUGHT    30 of 240 patients wrong  MIC always assumed 1 mg/L
-CAUGHT    50 of 240 patients wrong  first maintenance order instead of the current one
-CAUGHT   105 of 240 patients wrong  new dose rounded down to 250 mg
-CAUGHT    66 of 240 patients wrong  new dose rounded up to 250 mg
-CAUGHT    46 of 240 patients wrong  new dose also when exposure is within range
-CAUGHT    27 of 240 patients wrong  new dose aimed at AUC 500 regardless of MIC
-CAUGHT   238 of 240 patients wrong  48-hour AUC taken as twice the steady-state AUC24
-CAUGHT    20 of 240 patients wrong  48-hour AUC by the linear trapezoid rule on hourly concentrations
-CAUGHT   151 of 240 patients wrong  48-hour AUC from the first maintenance dose
-CAUGHT    79 of 240 patients wrong  amounts from pump rate times running time
-20 of 20 shortcuts caught
+CAUGHT   164 of 240 patients wrong  local times read as naive clock times (daylight saving ignored)
+CAUGHT    18 of 240 patients wrong  daylight saving applied from midnight instead of 02:00
+CAUGHT    68 of 240 patients wrong  umol/L results read as mg/L
+CAUGHT    68 of 240 patients wrong  umol/L converted with the hydrochloride salt mass (1485.7 g/mol)
+CAUGHT    62 of 240 patients wrong  original result kept instead of its correction
+CAUGHT   149 of 240 patients wrong  two-level steady-state equation for ke (ln of the level ratio over the time between them)
+CAUGHT   199 of 240 patients wrong  steady-state equations for ke and V (Sawchuk-Zaske, last dose only)
+CAUGHT    61 of 240 patients wrong  full ordered dose for every infusion (volumes infused ignored)
+CAUGHT    99 of 240 patients wrong  pauses ignored (one segment from start to stop)
+CAUGHT   135 of 240 patients wrong  infusion assumed to last the nominal hour per 1,000 mg
+CAUGHT    29 of 240 patients wrong  held doses counted as given
+CAUGHT    21 of 240 patients wrong  levels within 1 hour after an infusion kept (last two numeric levels used)
+CAUGHT    21 of 240 patients wrong  1-hour rule counted from the start of the infusion
+CRASHED (IndexError: list index out of range)  flagged results (H) treated as unusable
+CAUGHT    34 of 240 patients wrong  measured broth microdilution MIC used instead of 1 mg/L
+CAUGHT   108 of 240 patients wrong  measured MIC from any method used
+CAUGHT    44 of 240 patients wrong  first maintenance order instead of the current one
+CAUGHT    73 of 240 patients wrong  new dose rounded down to 250 mg
+CAUGHT    82 of 240 patients wrong  new dose rounded up to 250 mg
+CAUGHT    53 of 240 patients wrong  new dose also when exposure is within range
+CAUGHT   239 of 240 patients wrong  48-hour AUC taken as twice the steady-state AUC24
+CAUGHT    19 of 240 patients wrong  48-hour AUC by the linear trapezoid rule on hourly concentrations
+CAUGHT   164 of 240 patients wrong  48-hour AUC from the first maintenance dose
+CAUGHT    86 of 240 patients wrong  amounts from pump rate times running time
+24 of 24 shortcuts caught
 ````

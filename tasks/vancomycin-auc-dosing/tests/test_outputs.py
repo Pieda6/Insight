@@ -104,7 +104,8 @@ def test_rows_are_sorted_and_complete(truth, rows):
 FAMILIES = (
     "first_day_levels", "dose_given_between_levels", "irregular_administration_records", "mistimed_levels",
     "levels_near_one_hour_after_infusion", "rejected_or_unreportable_results", "measured_mic_not_1",
-    "changed_orders", "near_target_edges", "near_rounding_steps", "exposure_below",
+    "changed_orders", "course_crosses_clock_change", "results_in_umol_per_l", "corrected_results",
+    "near_target_edges", "near_rounding_steps", "exposure_below",
     "exposure_within", "exposure_above",
 )
 

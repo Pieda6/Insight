@@ -22,6 +22,15 @@ import engine  # noqa: E402
 
 FIT = "        ke, vol = fit(segs, ta, ca, tb, cb)\n"
 SHORTCUTS = {
+    "local times read as naive clock times (daylight saving ignored)": [
+        ("    offset_h = 4 if start <= wall < end else 5", "    offset_h = 5")],
+    "daylight saving applied from midnight instead of 02:00": [
+        ('    start = dt.datetime.combine(nth_sunday(wall.year, 3, 2), dt.time(2, 0))\n    end = dt.datetime.combine(nth_sunday(wall.year, 11, 1), dt.time(1, 0))',
+         '    start = dt.datetime.combine(nth_sunday(wall.year, 3, 2), dt.time(0, 0))\n    end = dt.datetime.combine(nth_sunday(wall.year, 11, 1), dt.time(0, 0))')],
+    "umol/L results read as mg/L": [('(MG_PER_UMOL if r["units"] == "umol/L" else 1.0)', '1.0')],
+    "umol/L converted with the hydrochloride salt mass (1485.7 g/mol)": [("MG_PER_UMOL = 1.4493 ", "MG_PER_UMOL = 1.4857 ")],
+    "original result kept instead of its correction": [
+        ('if r["accession"] not in reports or r["status"] == "corrected":', 'if r["accession"] not in reports:')],
     "two-level steady-state equation for ke (ln of the level ratio over the time between them)": [
         (FIT, "        ke = abs(math.log(ca / cb)) / (tb - ta)\n        vol = total(segs, ta, ke) / ca\n")],
     "steady-state equations for ke and V (Sawchuk-Zaske, last dose only)": [
@@ -95,6 +104,10 @@ def main():
         for a, b in edits:
             assert s.count(a) >= 1, (name, a)
             s = s.replace(a, b)
+        # if a shortcut leaves other than two usable levels, keep going with the first two found
+        s = s.replace("        (ta, ca), (tb, cb) = good\n",
+                      "        good = good[:2] if len(good) >= 2 else good + [(good[0][0] + 1.0, good[0][1] * 0.9)]\n"
+                      "        (ta, ca), (tb, cb) = good\n")
         try:
             out = run_solution(TASK, source=s)
         except Exception as e:                      # noqa: BLE001

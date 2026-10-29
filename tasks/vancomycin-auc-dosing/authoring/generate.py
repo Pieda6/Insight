@@ -38,11 +38,26 @@ SEED = 20200601
 N = 240
 STATS = Counter()
 MARGIN = 0.006      # every boundary and rounding midpoint more than the 0.5 percent tolerance away
-EPOCH = dt.datetime(2026, 3, 10, 0, 0)       # after the 2026 DST change; all records before November
+EPOCH = dt.datetime(2026, 1, 1, 0, 0)        # internal clock: UTC minutes since this instant
+DST_ON = (dt.datetime(2026, 3, 8, 7, 0) - EPOCH).total_seconds() / 60    # 02:00 EST -> 03:00 EDT
+DST_OFF = (dt.datetime(2026, 11, 1, 6, 0) - EPOCH).total_seconds() / 60  # 02:00 EDT -> 01:00 EST
+UMOL = 1.4493                                 # mg/L per umol/L (vancomycin 1449.3 g/mol)
+
+
+def local(minutes):
+    """New York local wall time for a UTC minute."""
+    off = -4 if DST_ON <= minutes < DST_OFF else -5
+    return EPOCH + dt.timedelta(minutes=minutes + 60 * off)
 
 
 def stamp(minutes):
-    return (EPOCH + dt.timedelta(minutes=minutes)).strftime("%Y-%m-%d %H:%M")
+    return local(minutes).strftime("%Y-%m-%d %H:%M")
+
+
+def ambiguous(minutes):
+    """True for the repeated local hour on November 1 (01:00 to 01:59)."""
+    w = local(minutes)
+    return w.month == 11 and w.day == 1 and w.hour == 1
 
 
 def bag_for(dose):
@@ -90,7 +105,14 @@ class Patient:
             self.mic = {"value_mg_l": rng.choice([0.5, 0.75, 1.0, 1.5, 2.0]),
                         "method": rng.choice(["Etest", "Etest", "Vitek 2", "MicroScan"])}
         self.unit = rng.choice(["MICU", "SICU", "CCU", "6 West", "7 East", "Step-down"])
-        self.start = rng.randint(0, 60 * 24 * 70)
+        r = rng.random()
+        if r < 0.38:      # course crossing the March change
+            self.start = rng.randint(int(DST_ON) - 60 * 36, int(DST_ON) - 60 * 2)
+        elif r < 0.76:    # course crossing the November change
+            self.start = rng.randint(int(DST_OFF) - 60 * 36, int(DST_OFF) - 60 * 2)
+        else:
+            self.start = rng.randint(int(DST_ON) + 60 * 24 * 3, int(DST_OFF) - 60 * 24 * 12)
+        self.unit_lab = rng.random() < 0.3        # results from a laboratory reporting umol/L
 
     # ---- dosing record -----------------------------------------------------------------------------------
     def build_doses(self, n_maint):
@@ -248,6 +270,11 @@ def make_patient(rng, idx):
             levels.append([t, round(true_conc(t) * rng.uniform(0.92, 1.08), 1), False])
         STATS[f"unusable result ({why})"] += 1
     p.admins, p.levels, p.segs, p.t0, p.pattern = admins, levels, rel, t0, pattern
+    p.units, p.umol, p.corr = {}, {}, {}
+    times = [t for a in admins for t in ([a["time"]] + [e[0] for e in a["events"]])]
+    times += [l[0] for l in levels] + [o[1] for o in p.orders]
+    if any(ambiguous(t) for t in times):
+        return None                     # nothing in the repeated November hour
     return p
 
 
@@ -332,6 +359,31 @@ def main():
         if a is None or mr < MARGIN or mro < MARGIN or not (0.01 <= a["ke"] <= 0.5 and 15 <= a["V"] <= 260):
             STATS["redrawn"] += 1
             continue
+        if p.unit_lab:
+            # this patient's laboratory reports umol/L; answers come from the written values
+            saved = [l[1] for l in p.levels]
+            for i, l in enumerate(p.levels):
+                if isinstance(l[1], float):
+                    p.umol[i] = round(l[1] / UMOL, 1)
+                    l[1] = p.umol[i] * UMOL
+                    p.units[i] = "umol/L"
+            b = answers(p)
+            ok = b is not None and min(margins(b)) >= MARGIN and 0.01 <= b["ke"] <= 0.5 and 15 <= b["V"] <= 260
+            if ok:
+                a = b
+                STATS["patients with results in umol/L"] += 1
+            else:
+                for l, v in zip(p.levels, saved):
+                    l[1] = v
+                p.units, p.umol = {}, {}
+        for i, l in enumerate(p.levels):
+            if l[2] and rng.random() < 0.15:
+                shown = p.umol.get(i, l[1])
+                p.corr[i] = round(shown * rng.choice([rng.uniform(0.7, 0.9), rng.uniform(1.1, 1.35)]), 1)
+                STATS["corrected results"] += 1
+        last_usable = max(l[0] for l in p.levels if l[2])
+        if p.segs[0][0] + p.t0 < DST_ON <= last_usable or p.segs[0][0] + p.t0 < DST_OFF <= last_usable:
+            STATS["patients whose course crosses a clock change"] += 1
         p.ans = a
         pats.append(p)
         idx += 1
@@ -368,13 +420,25 @@ def write(pats):
                     note = "" if vol == a["bag"] else rng.choice(["IV infiltrated - discontinued", "bag leaking - discontinued"])
                     row = [p.pid, a["id"], stamp(t), "stop", "", "", "", vol, note]
                 admin_rows.append(row)
-        for j, (t, c, ok) in enumerate(sorted(p.levels, key=lambda l: l[0])):
+        for i in sorted(range(len(p.levels)), key=lambda k: p.levels[k][0]):
+            t, c, ok = p.levels[i]
+            unit = p.units.get(i, "mg/L")
+            if i in p.umol:
+                c = p.umol[i]
+            elif c == "<4.0" and p.unit_lab:
+                c = "<2.8"
+                unit = "umol/L"
             label = rng.choice(["Vancomycin, random", "Vancomycin, trough", "Vancomycin, peak", "Vancomycin level"])
             if isinstance(c, float):
-                text = f"{c:.1f}" + (" H" if c > 40 else "")
+                text = f"{c:.1f}" + (" H" if c > 40 and unit == "mg/L" else "")
             else:
                 text = c
-            level_rows.append([p.pid, f"L{rng.randint(10**7, 10**8 - 1)}", stamp(t), label, text, "mg/L"])
+            acc = f"L{rng.randint(10**7, 10**8 - 1)}"
+            if i in p.corr:
+                level_rows.append([p.pid, acc, stamp(t), label, f"{p.corr[i]:.1f}", unit, "final"])
+                level_rows.append([p.pid, acc, stamp(t), label, text, unit, "corrected"])
+            else:
+                level_rows.append([p.pid, acc, stamp(t), label, text, unit, "final"])
         for j, (kind, when, dose, tau) in enumerate(p.orders):
             order_rows.append([p.pid, f"{p.pid}-O{j + 1}", stamp(when), dose,
                                "once" if tau is None else f"every {tau} hours"])
@@ -384,7 +448,7 @@ def write(pats):
         for name, header, rows in (
                 ("administrations.csv", ["patient_id", "administration_id", "time", "event", "dose_mg", "bag_volume_ml",
                                          "rate_ml_h", "volume_infused_ml", "comment"], admin_rows),
-                ("levels.csv", ["patient_id", "accession", "collected", "test", "result", "units"], level_rows),
+                ("levels.csv", ["patient_id", "accession", "collected", "test", "result", "units", "status"], level_rows),
                 ("orders.csv", ["patient_id", "order_id", "ordered", "dose_mg", "frequency"], order_rows)):
             with open(root / name, "w", newline="") as fh:
                 w = csv.writer(fh, lineterminator="\n")
@@ -407,7 +471,11 @@ def rebuild_answers(data=None):
             return list(csv.DictReader(fh))
 
     def mins(s):
-        return (dt.datetime.strptime(s, "%Y-%m-%d %H:%M") - EPOCH).total_seconds() / 60
+        wall = dt.datetime.strptime(s, "%Y-%m-%d %H:%M")
+        edt = dt.datetime(2026, 3, 8, 3, 0) <= wall < dt.datetime(2026, 11, 1, 1, 0)
+        assert not (dt.datetime(2026, 3, 8, 2, 0) <= wall < dt.datetime(2026, 3, 8, 3, 0))
+        assert not (dt.datetime(2026, 11, 1, 1, 0) <= wall < dt.datetime(2026, 11, 1, 2, 0))
+        return (wall - EPOCH).total_seconds() / 60 + (240 if edt else 300)
 
     adm, lev, ords = rows("administrations.csv"), rows("levels.csv"), rows("orders.csv")
     out = {}
@@ -434,12 +502,15 @@ def rebuild_answers(data=None):
                 v0, on = v, (t if r["event"] == "rate_change" else None)
             spans.append((mins(rs[0]["time"]), mins(rs[-1]["time"])))
         levels = []
-        for r in lev:
-            if r["patient_id"] != pid:
-                continue
+        mine = [r for r in lev if r["patient_id"] == pid]
+        corrected = {r["accession"] for r in mine if r["status"] == "corrected"}
+        for r in mine:
+            if r["accession"] in corrected and r["status"] != "corrected":
+                continue                                   # replaced by its correction
             m = re.match(r"^(\d+\.\d)( H)?$", r["result"])
             t = mins(r["collected"])
-            levels.append([t, float(m.group(1)) if m else r["result"], bool(m) and usable(t, spans)])
+            v = float(m.group(1)) * (UMOL if r["units"] == "umol/L" else 1.0) if m else r["result"]
+            levels.append([t, v, bool(m) and usable(t, spans)])
         o = [r for r in ords if r["patient_id"] == pid]
         q = Patient.__new__(Patient)
         q.segs = segs

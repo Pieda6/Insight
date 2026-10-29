@@ -7,6 +7,8 @@ Each shortcut is a plausible misreading of the guideline, the records or the ins
 solution/solve.py text. A shortcut is caught when at least one test fails; the number of wrong patients shows how
 widely it shows up.
 """
+import sys
+sys.dont_write_bytecode = True       # never leave __pycache__ in the submitted task folder
 import csv
 import sys
 from pathlib import Path
@@ -20,6 +22,15 @@ import engine  # noqa: E402
 
 FIT = "        ke, vol = fit(segs, ta, ca, tb, cb)\n"
 SHORTCUTS = {
+    "local times read as naive clock times (daylight saving ignored)": [
+        ("    offset_h = 4 if start <= wall < end else 5", "    offset_h = 5")],
+    "daylight saving applied from midnight instead of 02:00": [
+        ('    start = dt.datetime.combine(nth_sunday(wall.year, 3, 2), dt.time(2, 0))\n    end = dt.datetime.combine(nth_sunday(wall.year, 11, 1), dt.time(1, 0))',
+         '    start = dt.datetime.combine(nth_sunday(wall.year, 3, 2), dt.time(0, 0))\n    end = dt.datetime.combine(nth_sunday(wall.year, 11, 1), dt.time(0, 0))')],
+    "umol/L results read as mg/L": [('(MG_PER_UMOL if r["units"] == "umol/L" else 1.0)', '1.0')],
+    "umol/L converted with the hydrochloride salt mass (1485.7 g/mol)": [("MG_PER_UMOL = 1.4493 ", "MG_PER_UMOL = 1.4857 ")],
+    "original result kept instead of its correction": [
+        ('if r["accession"] not in reports or r["status"] == "corrected":', 'if r["accession"] not in reports:')],
     "two-level steady-state equation for ke (ln of the level ratio over the time between them)": [
         (FIT, "        ke = abs(math.log(ca / cb)) / (tb - ta)\n        vol = total(segs, ta, ke) / ca\n")],
     "steady-state equations for ke and V (Sawchuk-Zaske, last dose only)": [
@@ -46,13 +57,14 @@ SHORTCUTS = {
         ("e < t < e + 60 for s, e in spans", "s < t < s + 60 for s, e in spans"),
         ("        (ta, ca), (tb, cb) = good", "        (ta, ca), (tb, cb) = good[-2:]")],
     "flagged results (H) treated as unusable": [(r'(?:[HL])?\s*", r["result"])', r'", r["result"])')],
-    "MIC from any testing method": [('if mic_rec and mic_rec["method"] == "broth microdilution" else 1.0', 'if mic_rec else 1.0')],
-    "MIC always assumed 1 mg/L": [('if mic_rec and mic_rec["method"] == "broth microdilution" else 1.0', 'if False else 1.0')],
+    "measured broth microdilution MIC used instead of 1 mg/L": [
+        ("        mic = 1.0 ", "        _m = p.get('isolate_mic'); mic = float(_m['value_mg_l']) if _m and _m['method'] == 'broth microdilution' else 1.0 ")],
+    "measured MIC from any method used": [
+        ("        mic = 1.0 ", "        _m = p.get('isolate_mic'); mic = float(_m['value_mg_l']) if _m else 1.0 ")],
     "first maintenance order instead of the current one": [("key=lambda o: minutes(o[\"ordered\"]))", "key=lambda o: -minutes(o[\"ordered\"]))")],
     "new dose rounded down to 250 mg": [("math.floor(raw / 250.0 + 0.5)", "math.floor(raw / 250.0)")],
     "new dose rounded up to 250 mg": [("math.floor(raw / 250.0 + 0.5)", "math.ceil(raw / 250.0)")],
     "new dose also when exposure is within range": [('exposure, new = "within", int(dose)', 'exposure, new = "within", int(math.floor(500.0 * mic * cl * tau / 24.0 / 250.0 + 0.5) * 250)')],
-    "new dose aimed at AUC 500 regardless of MIC": [("raw = 500.0 * mic * cl * tau / 24.0", "raw = 500.0 * cl * tau / 24.0")],
     "48-hour AUC taken as twice the steady-state AUC24": [("auc48 = sum(segment_area(sg, 48.0, ke) for sg in segs) / vol", "auc48 = 2 * auc24")],
     "48-hour AUC by the linear trapezoid rule on hourly concentrations": [
         ("auc48 = sum(segment_area(sg, 48.0, ke) for sg in segs) / vol",
@@ -92,6 +104,10 @@ def main():
         for a, b in edits:
             assert s.count(a) >= 1, (name, a)
             s = s.replace(a, b)
+        # if a shortcut leaves other than two usable levels, keep going with the first two found
+        s = s.replace("        (ta, ca), (tb, cb) = good\n",
+                      "        good = good[:2] if len(good) >= 2 else good + [(good[0][0] + 1.0, good[0][1] * 0.9)]\n"
+                      "        (ta, ca), (tb, cb) = good\n")
         try:
             out = run_solution(TASK, source=s)
         except Exception as e:                      # noqa: BLE001

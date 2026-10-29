@@ -1,23 +1,26 @@
 patients per method family (engine tags):
-  changed_orders: 60
-  dose_given_between_levels: 148
-  exposure_above: 118
-  exposure_below: 51
-  exposure_within: 71
-  first_day_levels: 52
-  irregular_administration_records: 203
-  levels_near_one_hour_after_infusion: 126
-  measured_mic_not_1: 98
-  mistimed_levels: 147
-  near_rounding_steps: 66
-  near_target_edges: 49
-  rejected_or_unreportable_results: 96
-patients with a loading dose order: 157
-patients with an order change: 60
-closest unrounded new dose to a rounding midpoint: 0.611 percent of the dose
+  changed_orders: 51
+  corrected_results: 62
+  course_crosses_clock_change: 139
+  dose_given_between_levels: 149
+  exposure_above: 110
+  exposure_below: 45
+  exposure_within: 85
+  first_day_levels: 56
+  irregular_administration_records: 210
+  levels_near_one_hour_after_infusion: 121
+  measured_mic_not_1: 113
+  mistimed_levels: 138
+  near_rounding_steps: 43
+  near_target_edges: 60
+  rejected_or_unreportable_results: 92
+  results_in_umol_per_l: 68
+patients with a loading dose order: 174
+patients with an order change: 51
+closest unrounded new dose to a rounding midpoint: 0.662 percent of the dose
 patients without exactly one elimination-rate solution between 1e-6 and 100 per hour: 0
 patients: engine 240, generator 240, solution 240
-generator vs engine: 0 exposure or dose differences, largest relative difference 1.5e-13
-solution vs engine:  0 exposure or dose differences, largest relative difference 2.8e-04 (solution rounds to its printed decimals)
-closest AUC24/MIC to 400 or 600: 0.743 percent
+generator vs engine: 0 exposure or dose differences, largest relative difference 1.9e-13
+solution vs engine:  0 exposure or dose differences, largest relative difference 3.6e-04 (solution rounds to its printed decimals)
+closest AUC24/MIC to 400 or 600: 0.605 percent
 AGREEMENT: OK

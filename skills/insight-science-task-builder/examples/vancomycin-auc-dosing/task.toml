@@ -4,7 +4,7 @@ schema_version = "2.0"
 
 [task]
 name = "insight/vancomycin-auc-dosing"
-description = "AUC-guided vancomycin dosing for 240 adults with serious MRSA infections under the 2020 ASHP/IDSA/PIDS/SIDP consensus guideline: from irregular administration and infusion pump records (late, held, paused, interrupted and partly given doses, rate changes, loading doses, order changes) and laboratory results (rejected, below the reporting limit, mistimed), fit each patient's one-compartment elimination rate and volume to the two usable levels by superposition, and report the 48-hour AUC, the steady-state AUC24, exposure against the AUC/MIC target with the broth microdilution MIC rule, and the new dose."
+description = "AUC-guided vancomycin dosing for 240 adults with serious MRSA infections under the 2020 ASHP/IDSA/PIDS/SIDP consensus guideline: from irregular administration and infusion pump records (late, held, paused, interrupted and partly given doses, rate changes, loading doses, order changes) and laboratory results (rejected, below the reporting limit, mistimed, corrected, in mg/L or umol/L) with New York local times across daylight-saving changes, fit each patient's one-compartment elimination rate and volume to the two usable levels by superposition, and report the 48-hour AUC, the steady-state AUC24, exposure against the guideline AUC target with the MIC taken as 1 mg/L, and the new dose."
 
 [metadata]
 domain = "Science"

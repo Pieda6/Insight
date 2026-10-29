@@ -18,8 +18,23 @@ DATA = Path(__file__).resolve().parent / "data"
 REF = dt.datetime(2026, 1, 1)
 
 
+UMOL_TO_MG = 1449.3 / 1000.0          # mg/L per umol/L
+
+
+def _dst_window(year):
+    """Local wall-clock bounds of US daylight time: second Sunday of March 02:00 to first Sunday of November 02:00."""
+    sundays = lambda m: [d for d in range(1, 15) if dt.date(year, m, d).weekday() == 6]
+    return (dt.datetime(year, 3, sundays(3)[1], 2, 0), dt.datetime(year, 11, sundays(11)[0], 2, 0))
+
+
 def hours(text):
-    return (dt.datetime.strptime(text, "%Y-%m-%d %H:%M") - REF).total_seconds() / 3600.0
+    """Hours since REF in UTC for a New York local timestamp."""
+    wall = dt.datetime.strptime(text, "%Y-%m-%d %H:%M")
+    on, off = _dst_window(wall.year)
+    if on <= wall < on + dt.timedelta(hours=1) or off - dt.timedelta(hours=1) <= wall < off:
+        raise ValueError(f"{text} is skipped or repeated in New York")
+    utc = wall + dt.timedelta(hours=4 if on <= wall < off else 5)
+    return (utc - REF).total_seconds() / 3600.0
 
 
 # ---- one-compartment model ----------------------------------------------------------------------------------
@@ -159,8 +174,17 @@ def evaluate(p, adm, lev, ords):
     spans = [(a - t0, b - t0) for a, b in spans]
 
     usable, mistimed, unreadable, near_hour = [], 0, 0, False
+    latest = {}
     for r in lev:
+        if r["status"] == "corrected" or r["accession"] not in latest:
+            latest[r["accession"]] = r
+    corrected = sum(r["status"] == "corrected" for r in latest.values())
+    in_umol = False
+    for r in latest.values():
         v = parse_result(r["result"])
+        if v is not None and r["units"] == "umol/L":
+            v *= UMOL_TO_MG
+            in_umol = True
         t = hours(r["collected"]) - t0
         if v is None:
             unreadable += 1
@@ -224,6 +248,16 @@ def evaluate(p, adm, lev, ords):
         tags.add("near_rounding_steps")
     if len(maint) > 1:
         tags.add("changed_orders")
+    if corrected:
+        tags.add("corrected_results")
+    if in_umol:
+        tags.add("results_in_umol_per_l")
+    first = min(sp[0] for sp in spans) + t0
+    w_on, w_off = _dst_window(2026)
+    on = (w_on + dt.timedelta(hours=5) - REF).total_seconds() / 3600.0      # 02:00 EST
+    off = (w_off + dt.timedelta(hours=4) - REF).total_seconds() / 3600.0    # 02:00 EDT
+    if any(first < c <= t2 + t0 for c in (on, off)):
+        tags.add("course_crosses_clock_change")
     tags.add(f"exposure_{exposure}")
     if not all(math.isfinite(x) for x in (ke, vol, auc48, auc24, ratio, raw)):
         raise ValueError(f"{p['patient_id']}: non-finite result")

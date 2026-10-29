@@ -16,27 +16,35 @@ drawn on the first day, around a dose, or two intervals apart; doses are late, e
 paused, slowed, sped up or stopped partway, so the drug actually given must be read from the pump's cumulative
 volumes; loading doses differ from maintenance doses, and orders change. The patient's parameters therefore have
 to come from superposition of every documented infusion in a one-compartment model, with the elimination rate
-solved from the ratio of the two levels. Choosing the two usable levels means discarding rejected and cancelled
-specimens and results below the reporting limit, and levels drawn while an infusion was running (pauses included)
-or less than an hour after it actually stopped (the guideline's postdistributional sampling window), judged
-against the documented stop, not the scheduled one. The MIC changes the target only when measured by broth
-microdilution, as the guideline advises. The data holds 240 patients, 204 with irregular records, 144 with
-mistimed levels, 50 with first-day levels and 146 with a dose given between their two levels. 41 patients have
-AUC24/MIC within 0.6 percent of 400 or 600 (37 of them planted by the generator), 48 have an unrounded new dose
-within 5 mg of a 250 mg rounding midpoint (39 planted), and 124 have a level drawn within 6 minutes of one hour after an infusion stopped (counts in
-authoring/evidence/agreement.txt and generate_output.txt). Each of 20 shortcuts tried (the steady-state equations, ignoring pauses,
-partial volumes or held doses, nominal infusion times, keeping mistimed levels, any-method MICs, other rounding,
-trapezoid or doubled AUCs) gets many patients right and others wrong. The patients are synthetic but follow the
-guideline's dosing ranges, infusion limits (at most 5 mg/mL and at least 1 hour per 1,000 mg) and published adult
-vancomycin clearance and volume ranges.
+solved from the ratio of the two levels. The records carry the details real hospital data has: times are New York
+local time and most courses cross the 2026 daylight-saving change in March or November, so elapsed time must be
+computed on a continuous clock (an hour lost or gained between a dose and a level moves the fitted elimination
+rate); one laboratory reports in umol/L, which must be converted with the molar mass of vancomycin; and some
+results were corrected after release, the corrected value replacing the original with the same accession.
+Choosing the two usable levels means discarding rejected and cancelled specimens and results below the reporting
+limit, and levels drawn while an infusion was running (pauses included) or less than an hour after it actually
+stopped (the guideline's postdistributional sampling window), judged against the documented stop. The MIC is 1
+mg/L for every patient, as the guideline's Recommendation 6 advises, although 113 patients have a measured MIC
+other than 1. The data holds 240 patients: 139 whose course crosses a clock change, 68 with results in umol/L, 62
+with a corrected result, 210 with irregular records, 138 with mistimed levels, 56 with first-day levels and 149
+with a dose given between their two levels. 60 patients have AUC24 within 2 percent of 400 or 600 (59 planted by
+the generator), 43 have an unrounded new dose within 2 percent of a 250 mg rounding midpoint (31 planted), and 121
+have a level drawn within 6 minutes of one hour after an infusion stopped (counts in
+authoring/evidence/agreement.txt and generate_output.txt). Each of 24 shortcuts tried (naive local times, umol/L
+read as mg/L, originals kept instead of corrections, the steady-state equations, ignoring pauses, partial volumes
+or held doses, nominal infusion times, keeping mistimed levels, using measured MICs, other rounding, trapezoid or
+doubled AUCs) gets many patients right and others wrong; ignoring the clock change alone gets 164 of 240 wrong. The
+patients are synthetic but follow the guideline's dosing ranges, infusion limits (at most 5 mg/mL and at least 1
+hour per 1,000 mg) and published adult vancomycin clearance and volume ranges.
 
 ## Solution
 
-The reference solution (solution/solve.py) turns each administration's pump events into constant-rate segments
-from the cumulative volumes, selects the two usable levels, writes each level as the sum of closed-form infusion
+The reference solution (solution/solve.py) converts New York local times to a continuous clock with the US
+daylight-saving rules, keeps each corrected result in place of its original, converts umol/L to mg/L, turns each
+administration's pump events into constant-rate segments from the cumulative volumes, selects the two usable levels, writes each level as the sum of closed-form infusion
 terms divided by the volume, solves the ratio of the two levels for the elimination rate by bisection after a
 scan for the bracket, takes the volume from either level, integrates the closed-form segment terms over the first
-48 hours, and applies the guideline target, the MIC rule and the dose rounding.
+48 hours, and applies the guideline target with an MIC of 1 mg/L and the dose rounding.
 
 ## Verification
 
@@ -46,12 +54,14 @@ method and integrates the 48-hour AUC numerically with 24-point Gauss-Legendre q
 from a private copy of the inputs that exists only in the verifier image, and never runs agent code. The data
 generator (authoring/sim.py, which propagates the amount in the body from event to event and uses a mass balance
 for the AUC) is a third implementation; the engine and generator agree within a relative 2e-13, every patient has
-exactly one solution for the elimination rate between 1e-6 and 100 per hour, and AUC24/MIC stays at least 0.05
-percent from 400 and 600 and the unrounded dose at least 0.5 mg from a rounding midpoint. The engine is checked
+exactly one solution for the elimination rate between 1e-6 and 100 per hour, and AUC24 stays at least 0.6
+percent from 400 and 600 and the unrounded dose at least 0.6 percent from a rounding midpoint, both more than the
+0.5 percent numeric tolerance. The engine is checked
 against closed-form one-compartment results: a single infusion, the steady-state peak, the Sawchuk-Zaske
 elimination rate from a steady-state peak and trough, and the steady-state AUC over an interval. Tests check that
 the inputs are consistent, the value formats, one row per patient in order, one test per method family (first-day
 levels, doses between the levels, irregular records, mistimed levels, levels near one hour after an infusion,
-rejected or unreportable results, broth microdilution and other-method MICs, changed orders, patients near the
+rejected or unreportable results, measured MICs other than 1 mg/L, changed orders, courses crossing a clock
+change, results in umol/L, corrected results, patients near the
 target edges and near rounding steps, and each exposure category) and finally every patient, with numbers within
 0.5 percent and exposure and new dose exact. Reward is 1 only if every test passes.

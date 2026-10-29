@@ -16,8 +16,21 @@ DATA = Path("/app/data")
 OUT = Path("/app/output")
 
 
+MG_PER_UMOL = 1.4493          # vancomycin 1449.3 g/mol: 1 umol/L = 1.4493 mg/L
+
+
+def nth_sunday(year, month, n):
+    first = dt.date(year, month, 1)
+    return first + dt.timedelta(days=(6 - first.weekday()) % 7 + 7 * (n - 1))
+
+
 def minutes(text):
-    return (dt.datetime.strptime(text.strip(), "%Y-%m-%d %H:%M") - dt.datetime(2000, 1, 1)).total_seconds() / 60.0
+    """Minutes on a continuous clock from a New York local time (US daylight saving rules)."""
+    wall = dt.datetime.strptime(text.strip(), "%Y-%m-%d %H:%M")
+    start = dt.datetime.combine(nth_sunday(wall.year, 3, 2), dt.time(2, 0))
+    end = dt.datetime.combine(nth_sunday(wall.year, 11, 1), dt.time(1, 0))
+    offset_h = 4 if start <= wall < end else 5                 # UTC = local + 4 h (EDT) or + 5 h (EST)
+    return (wall - dt.datetime(2000, 1, 1)).total_seconds() / 60.0 + 60 * offset_h
 
 
 def read_csv(name):
@@ -114,15 +127,20 @@ def main():
         t0 = min(s for s, _, _ in segs)
         segs = [(s - t0, e - t0, mg) for s, e, mg in segs]
 
+        reports = {}
+        for r in levels.get(pid, []):                          # a corrected result replaces the original
+            if r["accession"] not in reports or r["status"] == "corrected":
+                reports[r["accession"]] = r
         good = []
-        for r in levels.get(pid, []):
+        for r in reports.values():
             m = re.fullmatch(r"\s*(\d+(?:\.\d+)?)\s*(?:[HL])?\s*", r["result"])
             if not m:
                 continue                                       # rejected or below the reporting limit
             t = minutes(r["collected"])
             if any(s <= t <= e or e < t < e + 60 for s, e in spans):
                 continue                                       # during an infusion or less than 1 h after one
-            good.append((t / 60.0 - t0, float(m.group(1))))
+            value = float(m.group(1)) * (MG_PER_UMOL if r["units"] == "umol/L" else 1.0)
+            good.append((t / 60.0 - t0, value))
         good.sort()
         (ta, ca), (tb, cb) = good
         ke, vol = fit(segs, ta, ca, tb, cb)

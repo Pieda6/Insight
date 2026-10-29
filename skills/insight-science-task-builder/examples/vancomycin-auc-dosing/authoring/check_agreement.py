@@ -3,6 +3,8 @@
 
 Usage: python3 check_agreement.py      (from authoring/)
 """
+import sys
+sys.dont_write_bytecode = True       # never leave __pycache__ in the submitted task folder
 import csv
 import math
 import sys
@@ -49,9 +51,9 @@ def main():
     pats, adm, lev, ords = engine.load(TASK / "tests" / "data")
     print(f"patients with a loading dose order: {len({o['patient_id'] for o in ords if o['frequency'] == 'once'})}")
     print(f"patients with an order change: {fam['changed_orders']}")
-    round_margin = min(abs(gen[p]["raw"] / 250 - math.floor(gen[p]["raw"] / 250) - 0.5) * 250
+    round_margin = min(abs(gen[p]["raw"] / 250 - math.floor(gen[p]["raw"] / 250) - 0.5) * 250 / gen[p]["raw"]
                        for p in gen if gen[p]["exposure"] != "within")
-    print(f"closest unrounded new dose to a rounding midpoint: {round_margin:.2f} mg")
+    print(f"closest unrounded new dose to a rounding midpoint: {100 * round_margin:.3f} percent of the dose")
     multi = 0
     for p in pats:
         pid = p["patient_id"]
@@ -69,10 +71,15 @@ def main():
         segs = [(a - t0, b - t0, m) for a, b, m in segs]
         spans = [(a - t0, b - t0) for a, b in spans]
         use = []
+        latest = {}
         for r in lev:
-            v = engine.parse_result(r["result"]) if r["patient_id"] == pid else None
+            if r["patient_id"] == pid and (r["status"] == "corrected" or r["accession"] not in latest):
+                latest[r["accession"]] = r
+        for r in latest.values():
+            v = engine.parse_result(r["result"])
             if v is None:
                 continue
+            v *= engine.UMOL_TO_MG if r["units"] == "umol/L" else 1.0
             t = engine.hours(r["collected"]) - t0
             if not any(a <= t <= b or 0 < t - b < 1 for a, b in spans):
                 use.append((t, v))
@@ -88,7 +95,7 @@ def main():
           " (solution rounds to its printed decimals)")
     print(f"closest AUC24/MIC to 400 or 600: {100 * ratio_margin:.3f} percent")
     ok = len(truth) == len(gen) == len(sol) and not cat_gen and not cat_sol and worst_gen < 1e-8 and worst_sol < 5e-4 \
-        and ratio_margin >= 0.0005 and round_margin >= 0.5 and not multi
+        and ratio_margin > 0.005 and round_margin > 0.005 and not multi
     print("AGREEMENT:", "OK" if ok else "PROBLEM")
     sys.exit(0 if ok else 1)
 

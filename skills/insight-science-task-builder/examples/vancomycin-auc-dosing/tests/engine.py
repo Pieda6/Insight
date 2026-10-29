@@ -5,8 +5,8 @@ R/ke * (exp(-ke (t - min(t, end))) - exp(-ke (t - start))), the elimination rate
 falsi method on the concentration ratio, and the 48-hour AUC is integrated numerically with 24-point
 Gauss-Legendre quadrature between consecutive event times (the curve is smooth between them).
 
-Guideline: Rybak et al., Am J Health-Syst Pharm 2020;77:835-864 (AUC/MIC 400 to 600, MIC by broth microdilution
-otherwise 1 mg/L, postdistributional sampling at least 1 hour after the end of the infusion).
+Guideline: Rybak et al., Am J Health-Syst Pharm 2020;77:835-864 (AUC/MIC 400 to 600 with the MIC assumed to
+be 1 mg/L as Recommendation 6 says, postdistributional sampling at least 1 hour after the end of the infusion).
 """
 import csv
 import datetime as dt
@@ -18,8 +18,23 @@ DATA = Path(__file__).resolve().parent / "data"
 REF = dt.datetime(2026, 1, 1)
 
 
+UMOL_TO_MG = 1449.3 / 1000.0          # mg/L per umol/L
+
+
+def _dst_window(year):
+    """Local wall-clock bounds of US daylight time: second Sunday of March 02:00 to first Sunday of November 02:00."""
+    sundays = lambda m: [d for d in range(1, 15) if dt.date(year, m, d).weekday() == 6]
+    return (dt.datetime(year, 3, sundays(3)[1], 2, 0), dt.datetime(year, 11, sundays(11)[0], 2, 0))
+
+
 def hours(text):
-    return (dt.datetime.strptime(text, "%Y-%m-%d %H:%M") - REF).total_seconds() / 3600.0
+    """Hours since REF in UTC for a New York local timestamp."""
+    wall = dt.datetime.strptime(text, "%Y-%m-%d %H:%M")
+    on, off = _dst_window(wall.year)
+    if on <= wall < on + dt.timedelta(hours=1) or off - dt.timedelta(hours=1) <= wall < off:
+        raise ValueError(f"{text} is skipped or repeated in New York")
+    utc = wall + dt.timedelta(hours=4 if on <= wall < off else 5)
+    return (utc - REF).total_seconds() / 3600.0
 
 
 # ---- one-compartment model ----------------------------------------------------------------------------------
@@ -159,8 +174,17 @@ def evaluate(p, adm, lev, ords):
     spans = [(a - t0, b - t0) for a, b in spans]
 
     usable, mistimed, unreadable, near_hour = [], 0, 0, False
+    latest = {}
     for r in lev:
+        if r["status"] == "corrected" or r["accession"] not in latest:
+            latest[r["accession"]] = r
+    corrected = sum(r["status"] == "corrected" for r in latest.values())
+    in_umol = False
+    for r in latest.values():
         v = parse_result(r["result"])
+        if v is not None and r["units"] == "umol/L":
+            v *= UMOL_TO_MG
+            in_umol = True
         t = hours(r["collected"]) - t0
         if v is None:
             unreadable += 1
@@ -191,8 +215,7 @@ def evaluate(p, adm, lev, ords):
     auc24 = dose * (24.0 / tau) / clearance
     auc48 = area(segs, 48.0, ke) / vol
     mic_info = p["isolate_mic"]
-    bmd = bool(mic_info) and mic_info["method"].lower() == "broth microdilution"
-    mic = mic_info["value_mg_l"] if bmd else 1.0
+    mic = 1.0                                  # Recommendation 6: measured MICs do not change the target
     ratio = auc24 / mic
     if ratio < 400:
         exposure = "below"
@@ -217,16 +240,24 @@ def evaluate(p, adm, lev, ords):
         tags.add("rejected_or_unreportable_results")
     if near_hour:
         tags.add("levels_near_one_hour_after_infusion")
-    if bmd and mic != 1.0:
-        tags.add("broth_microdilution_mic")
-    if mic_info and not bmd and mic_info["value_mg_l"] != 1.0:
-        tags.add("mic_by_other_methods")
-    if min(abs(ratio / 400 - 1), abs(ratio / 600 - 1)) <= 0.006:
+    if mic_info and mic_info["value_mg_l"] != 1.0:
+        tags.add("measured_mic_not_1")
+    if min(abs(ratio / 400 - 1), abs(ratio / 600 - 1)) <= 0.02:
         tags.add("near_target_edges")
-    if exposure != "within" and abs(raw / 250 - math.floor(raw / 250) - 0.5) * 250 <= 5:
+    if exposure != "within" and abs(raw / 250 - math.floor(raw / 250) - 0.5) * 250 / raw <= 0.02:
         tags.add("near_rounding_steps")
     if len(maint) > 1:
         tags.add("changed_orders")
+    if corrected:
+        tags.add("corrected_results")
+    if in_umol:
+        tags.add("results_in_umol_per_l")
+    first = min(sp[0] for sp in spans) + t0
+    w_on, w_off = _dst_window(2026)
+    on = (w_on + dt.timedelta(hours=5) - REF).total_seconds() / 3600.0      # 02:00 EST
+    off = (w_off + dt.timedelta(hours=4) - REF).total_seconds() / 3600.0    # 02:00 EDT
+    if any(first < c <= t2 + t0 for c in (on, off)):
+        tags.add("course_crosses_clock_change")
     tags.add(f"exposure_{exposure}")
     if not all(math.isfinite(x) for x in (ke, vol, auc48, auc24, ratio, raw)):
         raise ValueError(f"{p['patient_id']}: non-finite result")

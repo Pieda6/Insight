@@ -11,6 +11,8 @@ pytest.mark.parametrize is used, so it works in ChatGPT's and Claude's sandboxes
 Also importable: run_solution(task_dir, source=None) and run_tests(task_dir, out_dir), used by
 calibrate.py to run shortcut versions of solve.py.
 """
+import sys
+sys.dont_write_bytecode = True       # never leave __pycache__ in the submitted task folder
 import inspect
 import shutil
 import sys

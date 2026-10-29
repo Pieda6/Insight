@@ -71,10 +71,15 @@ def main():
         segs = [(a - t0, b - t0, m) for a, b, m in segs]
         spans = [(a - t0, b - t0) for a, b in spans]
         use = []
+        latest = {}
         for r in lev:
-            v = engine.parse_result(r["result"]) if r["patient_id"] == pid else None
+            if r["patient_id"] == pid and (r["status"] == "corrected" or r["accession"] not in latest):
+                latest[r["accession"]] = r
+        for r in latest.values():
+            v = engine.parse_result(r["result"])
             if v is None:
                 continue
+            v *= engine.UMOL_TO_MG if r["units"] == "umol/L" else 1.0
             t = engine.hours(r["collected"]) - t0
             if not any(a <= t <= b or 0 < t - b < 1 for a, b in spans):
                 use.append((t, v))

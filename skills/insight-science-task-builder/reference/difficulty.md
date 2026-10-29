@@ -17,8 +17,12 @@ applied to real-looking data, where the natural shortcut gives near-right answer
 | storm-drain-energy | Science (Civil) | static pass after rename; later stages pending | HEC-22 Section 9.4 network grade lines with the FHWA access hole method |
 | vancomycin-auc-dosing v1 | Science (Medicine) | static, artificiality, oracle/nop, similarity, rubric all PASS; Pass@2 solved 2/2 (56 min) | the instruction defined the model exactly (superposition through both levels), listed which levels count, gave the MIC rule: every settled point removed a trap. All gates before Pass@2 pass with this design, so keep the structure and cut the instruction |
 | vancomycin-auc-dosing v2 | Science (Medicine) | Pass@2 0/2 (25 min), then deep review FAIL | both agents reproduced every PK value for all 240 patients and failed only on the MIC rule, which the instruction no longer stated and which I had written against the guideline's own Recommendation 6 (assume MIC 1 mg/L, do not lower the dose for MIC below 1). Lessons: a cited-but-unstated rule that decides answers fails U1/U2/U3; failures driven by a convention fail G-DIFF; and if agents get the whole scientific crux right, the task is too easy no matter what. Retired |
+| vancomycin-auc-dosing v3 | Science (Medicine) | MIC fixed per Rec. 6: Pass@2 solved 2/2 (16 min) | as predicted, once the only failure point was fixed the clean PK pipeline was solved |
+| vancomycin-auc-dosing v4 | Science (Medicine) | pending | added record realism stated in the instruction: New York local times with 139 of 240 courses crossing a 2026 DST change (ignoring DST: 164 of 240 wrong), a laboratory reporting umol/L (molar mass given), corrected results replacing originals by accession; margins 0.6 percent above the 0.5 percent tolerance |
 
 ## Patterns that work
+
+0. **Record realism that is stated but easy to mishandle in code** (what the passing legal tasks had): local times in a named time zone with courses crossing a daylight-saving change, mixed units with the conversion factor given, corrected or amended records that replace originals, held events. State each in one plain sentence in the data paragraph; never explain how to handle it. Avoid the ambiguous repeated hour.
 
 1. **The standard method breaks down partway.** The textbook route (steady-state equations, a
    single formula, assuming clean data) gives plausible numbers that are wrong for a large share of
