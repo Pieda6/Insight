@@ -16,7 +16,7 @@ applied to real-looking data, where the natural shortcut gives near-right answer
 | sediment-basin-routing | Science (Civil) | solved 2/2 twice (27 and 43 min) | an 850-word instruction that listed every convention and trap, plus 0.5 percent tolerances, turned a hard simulation into a recipe |
 | storm-drain-energy | Science (Civil) | static pass after rename; later stages pending | HEC-22 Section 9.4 network grade lines with the FHWA access hole method |
 | vancomycin-auc-dosing v1 | Science (Medicine) | static, artificiality, oracle/nop, similarity, rubric all PASS; Pass@2 solved 2/2 (56 min) | the instruction defined the model exactly (superposition through both levels), listed which levels count, gave the MIC rule: every settled point removed a trap. All gates before Pass@2 pass with this design, so keep the structure and cut the instruction |
-| vancomycin-auc-dosing v2 | Science (Medicine) | pending | 379-word instruction: request, data, one model sentence, a Restrictions list (no Bayesian or population priors; only the administration record counts; no intermediate rounding), output spec; guideline rules cited not restated; more non-steady-state level patterns |
+| vancomycin-auc-dosing v2 | Science (Medicine) | Pass@2 0/2 (25 min), then deep review FAIL | both agents reproduced every PK value for all 240 patients and failed only on the MIC rule, which the instruction no longer stated and which I had written against the guideline's own Recommendation 6 (assume MIC 1 mg/L, do not lower the dose for MIC below 1). Lessons: a cited-but-unstated rule that decides answers fails U1/U2/U3; failures driven by a convention fail G-DIFF; and if agents get the whole scientific crux right, the task is too easy no matter what. Retired |
 
 ## Patterns that work
 
@@ -34,6 +34,13 @@ applied to real-looking data, where the natural shortcut gives near-right answer
    table columns, a first-match order in a table.
 5. **Long continuous or networked computation** where an early error propagates (an outfall to
    every upstream structure; a whole dosing history into each level).
+
+## The two-sided lesson (read this before designing)
+
+- Pass@2 needs the agent to fail. The deep review needs every failure to land on the intended crux, with every rule that decides a graded answer stated in instruction.md (or following uniquely from text shipped or cited, and never contradicted by that text). So difficulty can never come from an unstated rule or convention.
+- Therefore the crux itself must be hard to execute even when fully disclosed. Vancomycin v2 showed that a one-compartment superposition fit over messy records, fully specified, is solved perfectly by the current model in 25 minutes. Pick a crux with long interacting computation (HOS clocks, network grade lines, coupled routing with exact categorical outputs) where a fully informed agent still slips.
+- Before building, check every rule you write against the source document's own recommendations, including summary recommendations elsewhere in the text (vancomycin Rec. 6 contradicted the MIC rule).
+- Margins must exceed tolerances: if continuous outputs are accepted within 0.5 percent, every category boundary and rounding midpoint must be more than 0.5 percent away (the deep review flags this as unresolved), or the categories must be computed from the agent's own numbers.
 
 ## The instruction-length lesson
 

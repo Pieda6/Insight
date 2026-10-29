@@ -38,8 +38,11 @@ Unzip into a new empty folder. Strip the timestamp prefix with `sed 's/^[0-9TZ:.
    `2/2 Mean: 1.000 ... 0:43:21` (solves and wall time), and
    `pass@2 blocked (too_many_solves): 2 valid trial(s), 2 solved`.
 7. **Budget:** `8_review _ Pass@2 attempt budget.txt`: `has used N of 15 counted Pass@2 attempts`.
-8. **Deep review and later:** verdicts are PR comments (for example "🤖 Automated Review"). Ask the
-   person to paste the whole comment.
+8. **Deep review and later:** the log only says `Deep review did not PASS (fail-closed)`. The verdict is the PR
+   comment "🤖 Automated Review": ask the person to paste the whole comment. It has the verdict, Blocking Issues
+   each ending in a Fix, Unresolved Checks, a gate ledger, and a trajectory analysis saying exactly where both agents
+   failed. Read the trajectory analysis first: if the agents got the whole crux right, fixing the blocker will make
+   the task solvable, so redesign instead of uploading the fix.
 
 ## Static checks that must all pass (copy of a passing run)
 
@@ -90,6 +93,8 @@ ctrf_reporting, do_not_modify_enforced, binary_reward, unambiguous, instructions
 | artificiality | A7 sequential imperative | Instruction written as steps ("first do X, then Y") | State outcomes and definitions, not procedure |
 | rubric | `no_extraneous_files | FAIL | tests/case_tags.json ... is read by nothing` | An unused file in tests/ | Delete it, or compute tags in engine.py |
 | pass2 | `pass@2 blocked (too_many_solves): 2 valid trial(s), 2 solved` (27 and 43 minutes) | Instruction was a recipe listing every trap and convention; tolerances loose | Rebuild in the lean style (`difficulty.md`); do not just add rules |
+| deep_review | `Verdict: FAIL — the decisive MIC-selection rule ... is not uniquely derivable from agent-visible material; both pass@2 trials independently adopted the "assume 1 mg/L" reading and failed only on it` (gates U1, U2, U3, T6.3, T10.3-CAT, T-ATTRIB, G-DIFF) | A decisive rule was only cited, and my version contradicted the guideline's Recommendation 6 | State every decisive rule in instruction.md, faithful to the source; never let failures hinge on a convention |
+| deep_review (unresolved) | `tolerances_justified (exposure boundary × 0.5% tolerance)`, `near_rounding_steps` | Category boundaries planted 0.05 percent away while numbers were accepted within 0.5 percent | Keep boundary and rounding margins larger than the numeric tolerance |
 | (person) | Links "don't exist" | URLs given from memory | Search first; give verified links |
 | (person) | A 1-page placeholder PDF | The repository page had no file | Tell them the expected page count and sections; check on arrival |
 

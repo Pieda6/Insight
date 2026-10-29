@@ -90,6 +90,13 @@ Breaking any of these has cost the person an attempt or a rejection before.
 19. **Do not target one model's quirks.** Difficulty comes from the real problem. Forum posts about
     a model's weaknesses are not design input; our own Pass@2 logs are.
 20. **Never create PRs, merge, or open a second PR.** The person uploads to the existing PR branch.
+21. **Every rule that decides a graded answer is stated in instruction.md and agrees with the source.** Check each
+    one against the source's own summary recommendations. Difficulty never comes from an unstated or
+    contestable rule (deep review U1/U2/U3, G-DIFF).
+22. **Margins larger than tolerances.** Category boundaries and rounding midpoints sit farther from the truth than
+    the numeric tolerance, or the deep review leaves it unresolved.
+23. **Read the deep review's trajectory analysis before fixing.** If both agents solved the scientific crux and
+    failed only on a blocker, the fixed task will be solved: tell the person and redesign.
 
 ## 3. The workflow
 

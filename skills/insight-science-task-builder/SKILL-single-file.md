@@ -90,6 +90,13 @@ Breaking any of these has cost the person an attempt or a rejection before.
 19. **Do not target one model's quirks.** Difficulty comes from the real problem. Forum posts about
     a model's weaknesses are not design input; our own Pass@2 logs are.
 20. **Never create PRs, merge, or open a second PR.** The person uploads to the existing PR branch.
+21. **Every rule that decides a graded answer is stated in instruction.md and agrees with the source.** Check each
+    one against the source's own summary recommendations. Difficulty never comes from an unstated or
+    contestable rule (deep review U1/U2/U3, G-DIFF).
+22. **Margins larger than tolerances.** Category boundaries and rounding midpoints sit farther from the truth than
+    the numeric tolerance, or the deep review leaves it unresolved.
+23. **Read the deep review's trajectory analysis before fixing.** If both agents solved the scientific crux and
+    failed only on a blocker, the fixed task will be solved: tell the person and redesign.
 
 ## 3. The workflow
 
@@ -265,8 +272,11 @@ Unzip into a new empty folder. Strip the timestamp prefix with `sed 's/^[0-9TZ:.
    `2/2 Mean: 1.000 ... 0:43:21` (solves and wall time), and
    `pass@2 blocked (too_many_solves): 2 valid trial(s), 2 solved`.
 7. **Budget:** `8_review _ Pass@2 attempt budget.txt`: `has used N of 15 counted Pass@2 attempts`.
-8. **Deep review and later:** verdicts are PR comments (for example "🤖 Automated Review"). Ask the
-   person to paste the whole comment.
+8. **Deep review and later:** the log only says `Deep review did not PASS (fail-closed)`. The verdict is the PR
+   comment "🤖 Automated Review": ask the person to paste the whole comment. It has the verdict, Blocking Issues
+   each ending in a Fix, Unresolved Checks, a gate ledger, and a trajectory analysis saying exactly where both agents
+   failed. Read the trajectory analysis first: if the agents got the whole crux right, fixing the blocker will make
+   the task solvable, so redesign instead of uploading the fix.
 
 ## Static checks that must all pass (copy of a passing run)
 
@@ -317,6 +327,8 @@ ctrf_reporting, do_not_modify_enforced, binary_reward, unambiguous, instructions
 | artificiality | A7 sequential imperative | Instruction written as steps ("first do X, then Y") | State outcomes and definitions, not procedure |
 | rubric | `no_extraneous_files | FAIL | tests/case_tags.json ... is read by nothing` | An unused file in tests/ | Delete it, or compute tags in engine.py |
 | pass2 | `pass@2 blocked (too_many_solves): 2 valid trial(s), 2 solved` (27 and 43 minutes) | Instruction was a recipe listing every trap and convention; tolerances loose | Rebuild in the lean style (`difficulty.md`); do not just add rules |
+| deep_review | `Verdict: FAIL — the decisive MIC-selection rule ... is not uniquely derivable from agent-visible material; both pass@2 trials independently adopted the "assume 1 mg/L" reading and failed only on it` (gates U1, U2, U3, T6.3, T10.3-CAT, T-ATTRIB, G-DIFF) | A decisive rule was only cited, and my version contradicted the guideline's Recommendation 6 | State every decisive rule in instruction.md, faithful to the source; never let failures hinge on a convention |
+| deep_review (unresolved) | `tolerances_justified (exposure boundary × 0.5% tolerance)`, `near_rounding_steps` | Category boundaries planted 0.05 percent away while numbers were accepted within 0.5 percent | Keep boundary and rounding margins larger than the numeric tolerance |
 | (person) | Links "don't exist" | URLs given from memory | Search first; give verified links |
 | (person) | A 1-page placeholder PDF | The repository page had no file | Tell them the expected page count and sections; check on arrival |
 
@@ -350,7 +362,7 @@ applied to real-looking data, where the natural shortcut gives near-right answer
 | sediment-basin-routing | Science (Civil) | solved 2/2 twice (27 and 43 min) | an 850-word instruction that listed every convention and trap, plus 0.5 percent tolerances, turned a hard simulation into a recipe |
 | storm-drain-energy | Science (Civil) | static pass after rename; later stages pending | HEC-22 Section 9.4 network grade lines with the FHWA access hole method |
 | vancomycin-auc-dosing v1 | Science (Medicine) | static, artificiality, oracle/nop, similarity, rubric all PASS; Pass@2 solved 2/2 (56 min) | the instruction defined the model exactly (superposition through both levels), listed which levels count, gave the MIC rule: every settled point removed a trap. All gates before Pass@2 pass with this design, so keep the structure and cut the instruction |
-| vancomycin-auc-dosing v2 | Science (Medicine) | pending | 379-word instruction: request, data, one model sentence, a Restrictions list (no Bayesian or population priors; only the administration record counts; no intermediate rounding), output spec; guideline rules cited not restated; more non-steady-state level patterns |
+| vancomycin-auc-dosing v2 | Science (Medicine) | Pass@2 0/2 (25 min), then deep review FAIL | both agents reproduced every PK value for all 240 patients and failed only on the MIC rule, which the instruction no longer stated and which I had written against the guideline's own Recommendation 6 (assume MIC 1 mg/L, do not lower the dose for MIC below 1). Lessons: a cited-but-unstated rule that decides answers fails U1/U2/U3; failures driven by a convention fail G-DIFF; and if agents get the whole scientific crux right, the task is too easy no matter what. Retired |
 
 ## Patterns that work
 
@@ -368,6 +380,13 @@ applied to real-looking data, where the natural shortcut gives near-right answer
    table columns, a first-match order in a table.
 5. **Long continuous or networked computation** where an early error propagates (an outfall to
    every upstream structure; a whole dosing history into each level).
+
+## The two-sided lesson (read this before designing)
+
+- Pass@2 needs the agent to fail. The deep review needs every failure to land on the intended crux, with every rule that decides a graded answer stated in instruction.md (or following uniquely from text shipped or cited, and never contradicted by that text). So difficulty can never come from an unstated rule or convention.
+- Therefore the crux itself must be hard to execute even when fully disclosed. Vancomycin v2 showed that a one-compartment superposition fit over messy records, fully specified, is solved perfectly by the current model in 25 minutes. Pick a crux with long interacting computation (HOS clocks, network grade lines, coupled routing with exact categorical outputs) where a fully informed agent still slips.
+- Before building, check every rule you write against the source document's own recommendations, including summary recommendations elsewhere in the text (vancomycin Rec. 6 contradicted the MIC rule).
+- Margins must exceed tolerances: if continuous outputs are accepted within 0.5 percent, every category boundary and rounding midpoint must be more than 0.5 percent away (the deep review flags this as unresolved), or the categories must be computed from the agent's own numbers.
 
 ## The instruction-length lesson
 
@@ -1329,7 +1348,7 @@ if __name__ == "__main__":
 
 ---
 
-# Part 4: worked example (vancomycin-auc-dosing v2, key files)
+# Part 4: worked example (vancomycin-auc-dosing v2, retired after deep review; structure only)
 
 ## examples/vancomycin-auc-dosing/instruction.md
 
