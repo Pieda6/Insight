@@ -1,0 +1,2685 @@
+United States
+Department of                             Part 630 Hydrology
+Agriculture
+
+Natural
+                                          National Engineering Handbook
+Resources
+Conservation
+Service
+
+
+
+
+Chapter 16                                Hydrographs
+
+
+
+
+                     Rain clouds
+                                                                                         Cloud formation
+
+
+
+
+                     Precipitation
+
+
+
+
+                                                                                                                                    n
+                                                                                                                             iratio
+                                                                                        Evaporation
+                                                                   n
+
+
+
+
+                                                                                                            ean
+                                                                tio
+
+
+
+
+                                                                                                                      Transp
+                                                                                         oil
+                                                              ta
+
+
+
+
+                                                                                                            from oc
+                                                            ge
+
+
+
+
+                                                                                            s
+                                                          ve
+
+
+
+
+                                                                                       from
+                                                        m
+
+
+
+                                                                       on
+                                                     fro
+
+
+
+
+                                                                                  ms
+                                                                    ati
+                                                      n
+                                                   tio
+
+
+
+
+                                                                     ir
+
+
+
+
+                                                                                   a
+                                                                               tre
+                                                                  sp
+                                                 ra
+                                               po
+
+
+
+
+                                                                an
+
+
+
+
+                                                                             ms
+                                             va
+
+
+
+
+                                                             Tr
+
+
+
+
+                  Surfa                       E
+                                                                            fro
+
+
+
+
+                           ce ru
+                                noff
+
+
+
+
+            Infiltration
+
+
+
+
+                                   Soil
+                                            Percolation
+
+                     Rock                                                                           Ocean
+                                                                  Ground water
+                     Deep percolation
+
+
+
+
+                                               (210–VI–NEH, March 2007)
+Chapter 16   Hydrographs                               Part 630
+                                                       National Engineering Handbook
+
+
+
+
+             March 2007
+
+
+
+
+             The U.S. Department of Agriculture (USDA) prohibits discrimination in all
+             its programs and activities on the basis of race, color, national origin, age,
+             disability, and where applicable, sex, marital status, familial status, parental
+             status, religion, sexual orientation, genetic information, political beliefs, re-
+             prisal, or because all or a part of an individual’s income is derived from any
+             public assistance program. (Not all prohibited bases apply to all programs.)
+             Persons with disabilities who require alternative means for communication
+             of program information (Braille, large print, audiotape, etc.) should con-
+             tact USDA’s TARGET Center at (202) 720–2600 (voice and TDD). To file a
+             complaint of discrimination, write to USDA, Director, Office of Civil Rights,
+             1400 Independence Avenue, SW., Washington, DC 20250–9410, or call (800)
+             795–3272 (voice) or (202) 720–6382 (TDD). USDA is an equal opportunity
+             provider and employer.
+
+
+                    (210–VI–NEH, March 2007)
+Acknowledgments
+
+
+Chapter 16 was originally prepared in 1971 by Dean Snider (retired) and
+was reprinted with minor revisions in 1972. This version was prepared by
+the Natural Resources Conservation Service (NRCS) under guidance of
+Donald E. Woodward, (retired), and Claudia C. Hoeft, national hydraulic
+engineer, Washington, DC. William H. Merkel, hydraulic engineer, pre-
+pared the section dealing with unit hydrograph development on gaged wa-
+tersheds. Katherine E. Chaison, engineering aide, developed the dimen-
+sionless unit hydrograph tables and plots in appendix 16B, and Helen Fox
+Moody, hydraulic engineer, edited and reviewed the chapter and developed
+the tables and figures for example 16–1.
+
+
+
+
+       (210–VI–NEH, March 2007)                                      16–i
+Chapter 16   Hydrographs                       Part 630
+                                               National Engineering Handbook
+
+
+
+
+16–ii               (210–VI–NEH, March 2007)
+Chapter 16             Hydrographs
+
+
+
+
+Contents:   630.1600   Introduction                                                                                           16–1
+
+            630.1601   Development of hydrograph relations                                                                       16–1
+                       (a) Types of hydrographs...................................................................................16–1
+
+            630.1602   Unit hydrograph                                                                                        16–2
+
+            630.1603   Application of unit hydrograph                                                                         16–4
+
+            630.1604   Unit hydrograph development for a gaged watershed                                                    16–14
+
+            630.1605   References                                                                                           16–23
+
+            Appendix 16A       Elements of a Unit Hydrograph                                                                16A–1
+
+            Appendix 16B       Dimensionless Unit Hydrographs with Peak Rate                                                16B–1
+            			                Factors from 100 to 600
+
+
+
+
+            Tables     Table 16–1           Ratios for dimensionless unit hydrograph and                                       16–4
+                                            mass curve
+
+                       Table 16–2           Computation of coordinates for unit hydrograph                                     16–9
+                                            for use in example 16–1
+
+                       Table 16–3           Rainfall tabulated in 0.3 hour increments from plot                              16–11
+                                            of rain gage chart in figure 16–3
+
+                       Table 16–4           Computation of a flood hydrograph                                                16–12
+
+                       Table 16–5           Relationship of m and PRF for DUH developed                                      16–15
+                                            from a Gamma equation
+
+                       Table 16–6           Storm event of February 2, 1996, at Alligator Creek                              16–18
+                                            near Clearwater, FL
+
+                       Table 16–7           Dimensionless unit hydrograph for Alligator Creek                                16–20
+                                            at Clearwater, FL, used in example 16–2
+
+
+                                 (210–VI–NEH, March 2007)                                                                        16–iii
+Chapter 16               Hydrographs                              Part 630
+                                                                  National Engineering Handbook
+
+
+
+
+                         Table 16B–1    Peak rate factor = 600                                    16B–1
+
+                         Table 16B–2    Peak rate factor = 550                                    16B–2
+
+                         Table 16B–3    Peak rate factor = 500                                    16B–3
+
+                         Table 16B–4    Peak rate factor = 450                                    16B–4
+
+                         Table 16B–5    Peak rate factor = 400                                    16B–5
+
+                         Table 16B–6    Peak rate factor = 350                                    16B–6
+
+                         Table 16B–7    Peak rate factor = 300                                    16B–7
+
+                         Table 16B–8    Peak rate factor = 250                                    16B–8
+
+                         Table 16B–9    Peak rate factor = 200                                    16B–9
+
+             		          Table 16B–10 Peak rate factor = 150		                                    16B–10
+
+             		          Table 16B–11 Peak rate factor = 100 		                                   16B–12
+
+
+
+
+             Figures		   Figure 16–1    Dimensionless unit hydrograph and mass curve                16–3
+
+             		 Figure 16–2 Effect of watershed shape on the peaks of unit                          16–5
+             					 hydrographs
+
+             		          Figure 16–3    Accumulated or mass rainfall and runoff curves for          16–7
+                                        CN 85 taken from a recording rain gage
+
+             		          Figure 16–4    Unit hydrograph from example 16–1                          16–10
+
+             		          Figure 16–5    Composite flood hydrograph from example 16–1               16–13
+
+             		          Figure 16–6    Cumulative rainfall used in example 16–2                   16–19
+
+             		          Figure 16–7    Dimensionless unit hydrograph used in example 16–2         16–20
+
+             		          Figure 16–8    Runoff hydrographs for example 16–2                        16–21
+
+
+
+
+16–iv                           (210–VI–NEH, March 2007)
+Chapter 16             Hydrographs                                Part 630
+                                                                  National Engineering Handbook
+
+
+
+
+             		 Figure 16A–1 Dimensionless curvilinear unit hydrograph and equiva-                16A–1
+             					 lent triangular hydrograph
+
+             		        Figure 16B–1    Peak rate factor = 600		                                   16B–1
+
+             		        Figure 16B–2    Peak rate factor = 550		                                   16B–2
+
+             		        Figure 16B–3    Peak rate factor = 500		                                   16B–3
+
+             		        Figure 16B–4    Peak rate factor = 450		                                   16B–4
+
+             		        Figure 16B–5    Peak rate factor = 400		                                   16B–5
+
+             		        Figure 16B–6    Peak rate factor = 350		                                   16B–6
+
+             		        Figure 16B–7    Peak rate factor = 300		                                   16B–7
+
+             		        Figure 16B–8    Peak rate factor = 250		                                   16B–8
+
+             		        Figure 16B–9    Peak rate factor = 200		                                   16B–9
+
+             		        Figure 16B–10 Peak rate factor = 150		                                     16B–11
+
+             		        Figure 16B–11 Peak rate factor = 100		                                     16B–13
+
+
+
+
+             Examples Example 16–1		 Composite flood hydrograph                                    16–7
+
+             		        Example 16–2		 Determining the DUH for a gaged watershed                   16–17
+
+
+
+
+                              (210–VI–NEH, March 2007)                                              16–v
+Chapter 16                            Hydrographs
+
+
+
+630.1600         Introduction                               630.1601 Development of
+                                                            hydrograph relations
+Hydrographs or some elements of them, such as peak
+rates, are used in the planning and design of water         Runoff occurring on uplands flows downstream in
+control structures. They are also used to show the          various patterns. These patterns of flow are affected
+hydrologic effects of existing or proposed watershed        by many factors including:
+projects and land use changes.
+                                                               • spatial and temporal distribution of rainfall
+                                                               • rate of snowmelt
+                                                               • hydraulics of streams
+                                                               • watershed and channel storage
+                                                               • geology and soil characteristics
+                                                               • watershed surface and cover conditions
+
+                                                            The graph of flow (rate versus time) at a stream sec-
+                                                            tion is called a hydrograph, of which no two are ex-
+                                                            actly alike. Computation methods for computing peak
+                                                            rates of flow are based upon empirical relations, start-
+                                                            ing with the Rational Method for peak discharge in the
+                                                            19th century, progressing to the unit hydrograph in the
+                                                            1930s, and then to more recent use of dimensionless or
+                                                            index hydrographs. The empirical relations are simple
+                                                            elements from which a hydrograph may be made as
+                                                            complex as needed.
+
+                                                            Difficulties with hydrograph development lie in the
+                                                            precise estimation of runoff from rainfall (NEH 630,
+                                                            chapter 10) and determination of flow paths (NEH 630,
+                                                            chapter 15).
+
+
+                                                            (a) Types of hydrographs
+
+                                                            This classification of hydrographs is a partial list, suit-
+                                                            able for use in watershed work.
+                                                               • Natural hydrograph—obtained directly from
+                                                                 the flow records of a gaged stream
+                                                               • Synthetic hydrograph—obtained by using
+                                                                 watershed parameters and storm characteristics
+                                                                 to simulate a natural hydrograph
+                                                               • Unit hydrograph—a discharge hydrograph
+                                                                 resulting from 1 inch of direct runoff distributed
+                                                                 uniformly over the watershed resulting from a
+                                                                 rainfall of a specified duration
+
+
+
+                                             (210–VI–NEH, March 2007)                                               16–1
+Chapter 16                             Hydrographs                              Part 630
+                                                                                National Engineering Handbook
+
+
+
+
+   • Dimensionless unit hydrograph (DUH)—a
+     hydrograph developed to represent several unit           630.1602          Unit hydrograph
+     hydrographs; plotted using the ratio of the basic
+     units time to peak and peak rate; also called an
+     index hydrograph                                         In the 1930s, L.K. Sherman (Sherman 1932, 1940)
+                                                              advanced the theory of the unit hydrograph, or unit
+                                                              graph. The unit hydrograph procedure assumes that
+                                                              discharge at any time is proportional to the volume
+                                                              of runoff and that time factors affecting hydrograph
+                                                              shape are constant.
+
+                                                              Field data and laboratory tests have shown that the
+                                                              assumption of a linear relationship among watershed
+                                                              components is not strictly true. The nonlinear rela-
+                                                              tionships have not been investigated sufficiently to
+                                                              ascertain their effects on a synthetic hydrograph. Until
+                                                              more information is available, the procedures of this
+                                                              chapter will be based on the unit hydrograph theory.
+
+                                                              The fundamental principles of invariance and superpo-
+                                                              sition make the unit graph an extremely flexible tool
+                                                              for developing synthetic hydrographs. These principles
+                                                              are:
+                                                                 • Principle of Invariance—the hydrograph of
+                                                                   surface runoff from a watershed resulting from a
+                                                                   given pattern of rainfall is constant
+                                                                 • Principle of Superposition—the hydrograph
+                                                                   resulting from a given pattern of rainfall excess
+                                                                   can be built up by superimposing the unit hy-
+                                                                   drographs because of the separate amounts of
+                                                                   rainfall excess occurring in each unit period; in-
+                                                                   cludes the principle of proportionality by which
+                                                                   the ordinates of the hydrograph are proportional
+                                                                   to the volume of rainfall excess
+
+                                                              The unit time or unit hydrograph duration is the
+                                                              duration for occurrence of precipitation excess. The
+                                                              optimum unit time is less than 20 percent of the time
+                                                              interval between the beginning of runoff from a short
+                                                              duration, high‑intensity storm and the peak discharge
+                                                              of the corresponding runoff.
+
+                                                              The storm duration is the actual duration of the
+                                                              precipitation excess. The duration varies with actual
+                                                              storms. The dimensionless unit hydrograph used
+                                                              by the Natural Resources Conservation Service
+                                                              (NRCS) was developed by Victor Mockus (fig. 16–1)
+                                                              (Mockus 1957). It was derived from many natural
+                                                              unit hydrographs from watersheds varying widely in
+                                                              size and geographical locations. This dimensionless
+
+16–2                                           (210–VI–NEH, March 2007)
+Chapter 16                                       Hydrographs                                 Part 630
+                                                                                             National Engineering Handbook
+
+
+
+
+ Figure 16–1            Dimensionless unit hydrograph and mass curve
+
+
+         1.0
+
+
+
+               .9
+                                                      Mass curve
+
+
+               .8
+
+
+
+               .7
+
+
+                                                             q=Discharge at time t
+               .6                                            qp=Peak discharge
+q/qp or Qa/Q
+
+
+
+
+                                                             Qa=Accumulated volume at time t
+                                                             Q=Total volume
+               .5                                            t=A selected time
+                                                             Tp=Time from beginning of rise to the peak
+
+
+               .4
+
+
+
+               .3
+
+
+
+
+               .2
+
+
+
+               .1
+                                                                       DUH
+
+
+
+               0
+                    0           1                 2                    3                 4                    5
+                                                           t/Tp
+
+
+
+
+                                                         (210–VI–NEH, March 2007)                                            16–3
+Chapter 16                                Hydrographs                               Part 630
+                                                                                    National Engineering Handbook
+
+
+
+
+curvilinear hydrograph, also shown in table 16–1, has
+its ordinate values expressed in a dimensionless ratio           630.1603 Application of unit
+q/qp or Qa/Q and its abscissa values as t/TP. This unit
+hydrograph has a point of inflection approximately               hydrograph
+1.7 times the time to peak (Tp). The unit hydrograph
+in table 16–1 has a peak rate factor (PRF) of 484 and            The unit hydrograph can be constructed for any loca-
+is the default provided in the WinTR–20 program. See             tion on a regularly shaped watershed, once the values
+appendix 16A for derivation of the standard NRCS                 of qp and Tp are defined (fig. 16–2, areas A and B).
+dimensionless hydrograph.
+                                                                 Area C in figure 16–2 is an irregularly shaped water-
+                                                                 shed having two regularly shaped areas (C2 and C1)
+                                                                 with a large difference in their time of concentration.
+Table 16–1    Ratios for dimensionless unit hydrograph and       This watershed requires the development of two unit
+              mass curve                                         hydrographs that may be added together, forming one
+                                                                 irregularly shaped unit hydrograph. This irregularly
+Time ratios    Discharge ratios   Mass curve ratios
+(t/Tp)              (q/qp)             (Qa/Q)                    shaped unit hydrograph may be used to develop a
+                                                                 flood hydrograph in the same way as the unit hydro-
+ 0                 .000                 .000                     graph developed from the dimensionless form (fig.
+  .1               .030                 .001                     16–1) is used to develop the flood hydrograph. See
+  .2               .100                 .006                     example 16–1 which develops a composite flood
+  .3               .190                 .017                     hydrograph for area A shown in figure 16–2. Also, each
+  .4               .310                 .035                     of the two unit hydrographs developed for areas C2
+  .5               .470                 .065                     and C1 in figure 16–2 may be used to develop flood
+  .6               .660                 .107                     hydrographs for the respective areas C2 and C1. The
+  .7               .820                 .163                     flood hydrographs from each area are then combined
+  .8               .930                 .228                     to form the hydrograph at the outlet of area C.
+  .9               .990                 .300
+ 1.0              1.000                 .375                     Many variables are integrated into the shape of a unit
+ 1.1               .990                 .450                     hydrograph. Since a dimensionless unit hydrograph is
+ 1.2               .930                 .522                     used and the only parameters readily available from
+ 1.3               .860                 .589                     field data are drainage area and time of concentra-
+ 1.4               .780                 .650                     tion, consideration should be given to dividing the
+ 1.5               .680                 .705                     watershed into hydrologic units of uniformly shaped
+ 1.6               .560                 .751                     areas. These subareas, if at all possible, should have
+ 1.7               .460                 .790                     a homogeneous drainage pattern, homogeneous land
+ 1.8               .390                 .822                     use and approximately the same size. To assure that
+ 1.9               .330                 .849                     all contributing subareas are adequately represented,
+ 2.0               .280                 .871                     it is suggested that no subarea exceed 20 square miles
+ 2.2               .207                 .908                     in area and that the ratio of the largest to the smallest
+ 2.4               .147                 .934                     drainage area not exceed 10.
+ 2.6               .107                 .953
+ 2.8               .077                 .967
+ 3.0               .055                 .977
+ 3.2               .040                 .984
+ 3.4               .029                 .989
+ 3.6               .021                 .993
+ 3.8               .015                 .995
+ 4.0               .011                 .997
+ 4.5               .005                 .999
+ 5.0               .000                1.000
+
+
+16–4                                              (210–VI–NEH, March 2007)
+Chapter 16                                                Hydrographs                                               Part 630
+                                                                                                                    National Engineering Handbook
+
+
+
+
+Figure 16–2               Effect of watershed shape on the peaks of unit hydrographs (Equations, definitions, and units for variables are
+                          found in appendix 16A.)
+
+ (a)
+
+
+
+
+                                                     Area A
+                                                                                                                      Area B
+
+
+
+
+                                                     D.A.=4.6 mi2
+       1,500                                         Tc=2.3 h
+                                                     ∆D=0.3 h
+                                                     qp=1455 ft3/s
+                                                                                                                              D.A.=4.6 mi2
+                                                     Tp=1.53 h
+                                                                                                                              Tc=6.0 h
+       1,000
+                                                                                                                              ∆D=0.8 h
+q (ft3/s)
+
+
+
+
+                                   Unit hydrograph                                                                            qp=557 ft3/s
+                                   from Area A
+                                                                                                                              Tp=4.0 h
+            500                                                             500                                            Unit hydrograph
+                                                                                                                           from Area B
+                                                                      q, ft3/s
+
+
+
+
+                                                                                                         zero at 20 hours
+              0                                                                  0
+                  0   1   2    3     4    5    6      7       8   9                  0   1   2   3   4    5     6      7      8    9
+                                   Time (h)                                                          Time (h)
+
+
+
+
+                                                                       (210–VI–NEH, March 2007)                                                     16–5
+Chapter 16                                         Hydrographs                                     Part 630
+                                                                                                   National Engineering Handbook
+
+
+
+
+Figure 16–2           Effect of watershed shape on the peaks of unit hydrographs (Equations, definitions, and units for variables are
+                      found in appendix 16A.)—Continued
+
+(b)
+       1,000
+                                                                      Area C2            Area C1
+                                                                      D.A.=2.0 mi2       D.A.=2.6 mi2
+q, ft3/s
+
+
+
+
+                                                                      Tc=1.5 h           Tc=6.0 h
+            500           Unit hydrograph
+                          from area C2                                ∆D=0.2 h           ∆D=0.8 h
+                                            Unit hydrograph           qp=988 ft3/s       qp=315 ft3/s
+                                            from area C1              Tp=1.0 h           Tp=4.0 h
+                                                                                                             (C1)
+              0
+                  0               5                    10                      15                       20
+                                                     Time (h)
+
+
+
+
+                                                                                                    (C2)
+     1,000
+q (ft3/s)
+
+
+
+
+            500                       Combined unit hydrograph
+                                      areas C1 and C2
+
+
+
+              0
+                  0              5                     10                     15                        20
+                                                     Time (h)
+
+
+
+
+16–6                                                          (210–VI–NEH, March 2007)
+      Chapter 16                                                   Hydrographs                          Part 630
+                                                                                                        National Engineering Handbook
+
+
+
+
+      Example 16–1                 Composite flood hydrograph
+
+
+       Given:                     Drainage area......................................4.6 square miles
+                                  Time of concentration........................2.3 hours
+                                  CN.........................................................85
+                                  Antecedent runoff condition.............II
+                                  Storm duration....................................6 hours
+
+       The equations used in this example are found in appendix 16A. It is recommended to read appendix 16A be-
+       fore reading the example.
+
+       Problem:                   Develop a composite flood hydrograph using the runoff produced by the rainfall taken from a
+                                  recording rain gage (fig. 16–3) on watershed (area A) shown in figure 16–2.
+
+
+
+         Figure 16–3                Accumulated or mass rainfall and runoff curves for CN 85 taken from a recording rain gage
+
+
+                      5
+
+
+
+                      4
+                                                    Rainfall
+
+                      3
+        Volume (in)
+
+
+
+
+                                               Runoff from
+                      2                        CN-85
+
+
+
+                      1
+
+
+
+                      0
+                          0   1           2        3           4          5         6
+                                                Time (h)
+
+
+
+
+1.0
+0.8
+0.6
+0.4
+0.2
+0.0
+
+
+
+
+                                                                           (210–VI–NEH, March 2007)                                     16–7
+Chapter 16                                  Hydrographs                          Part 630
+                                                                                 National Engineering Handbook
+
+
+
+
+Example 16–1    Composite flood hydrograph—Continued
+
+
+   Solution:
+    Step 1      Develop and plot unit hydrograph.
+                Using equation 16A–13 in appendix 16A, compute ∆D:
+                  ∆D = 0.133 Tc
+                  ∆D = 0.133 × 2.3 = 0.306,use 0.3 hours
+
+
+                Using equation 16A–7 from appendix 16A, compute Tp:
+           ∆D
+               +L Tp =
+   	        2
+           .30
+      Tp =     + (.6 × 2.3 ) = 1.53 h
+   	        2
+
+                Using equation 16A–6 from the appendix, compute qp for volume of runoff equal to 1 inch:
+                         484 AQ
+                  qp =
+                           Tp
+   	 
+                         484 × 4.6 × 1
+                  qp =                 = 1, 455 ft 3 / s
+   	                        1.53
+
+                The coordinates of the curvilinear unit hydrograph are shown in table 16–2, and the plotted
+                hydrograph is figure 16–4.
+
+       Step 2   Tabulate the ordinates of the unit hydrograph from figure 16–4 in 0.3 hour increments (∆D)
+                (table 16–4a, column 2).
+
+       Step 3
+     Check the volume under the unit hydrograph by summing the ordinates (table 16–4a, column 2)
+     and multiplying by ∆D.
+   	  9,914 × 0.3 = 2,974 (ft3/s)h
+
+    Compare this figure with the computed volume under the unit hydrograph:
+      645.33 ft 3 /s h      (     )
+  	 
+         mi 2 × in
+                       × 4.6 mi 2 × 1 in = 2, 969 ft 3 /s h     (     )
+                The difference between the two volumes in this example is less than 1 percent, and can be con-
+                sidered negligible.
+
+                If the volumes fail to check closely, reread the coordinates from figure 16–4 and adjust if neces-
+                sary until a reasonable balance in volume is attained.
+
+
+
+
+16–8                                                  (210–VI–NEH, March 2007)
+Chapter 16                                    Hydrographs                                   Part 630
+                                                                                            National Engineering Handbook
+
+
+
+
+Example 16–1      Composite flood hydrograph—Continued
+
+
+
+  Table 16–2     Computation of coordinates for unit hydrograph for use in example 16–1
+
+
+  Time ratios      Time         Discharge ratios   Discharges       Time ratios      Time          Discharge ratios   Discharges
+  (table 16–1) (col 1 × 1.53)     (table 16–1)   (col 3 × 1,455)    (table 16–1) (col 1 × 1.53)      (table 16–1)   (col 3 × 1,455)
+  (t/Tp)            (h)              (q/qp)          (ft3/s)        (t/Tp)            (h)               (q/qp)          (ft3/s)
+
+
+    (1)             (2)               (3)              (4)	  (1)                      (2)                (3)                (4)
+
+  0.000            0.000             0.0000            0            2.600            3.978              0.1070          156
+  0.100            0.153             0.0300           44            2.700            4.131              0.0920          134
+  0.200            0.306             0.1000         146             2.800            4.284              0.0770          112
+  0.300            0.459             0.1900         276             2.900            4.437              0.0660              96
+  0.400            0.612             0.3100         451             3.000            4.590              0.0550              80
+  0.500            0.765             0.4700         684             3.100            4.743              0.0475              69
+  0.600            0.918             0.6600         960             3.200            4.896              0.0400              58
+  0.700            1.071             0.8200        1193             3.300            5.049              0.0345              50
+  0.800            1.224             0.9300        1353             3.400            5.202              0.0290              42
+  0.900            1.377             0.9900        1440             3.500            5.355              0.0250              36
+  1.000            1.530             1.0000        1455             3.600            5.508              0.0210              31
+  1.100            1.683             0.9900        1440             3.700            5.661              0.0180              26
+  1.200            1.836             0.9300        1353             3.800            5.814              0.0150              22
+  1.300            1.989             0.8600        1251             3.900            5.967              0.0130           19
+  1.400            2.142             0.7800        1135             4.000            6.120              0.0110           16
+  1.500            2.295             0.6800         989             4.100            6.273              0.0098           14
+  1.600            2.448             0.5600         815             4.200            6.426              0.0086           13
+  1.700            2.601             0.4600         669             4.300            6.579              0.0074           11
+  1.800            2.754             0.3900         567             4.400            6.732              0.0062              9
+  1.900            2.907             0.3300         480             4.500            6.885              0.0050              7
+  2.000            3.060             0.2800         407             4.600            7.038              0.0040              6
+  2.100            3.213             0.2435         354             4.700            7.191              0.0030              4
+  2.200            3.366             0.2070         301             4.800            7.344              0.0020              3
+  2.300            3.519             0.1770         258             4.900            7.497              0.0010              1
+  2.400            3.672             0.1470         214             5.000            7.650              0.0000              0
+  2.500            3.825             0.1270         185
+
+
+
+                                                     (210–VI–NEH, March 2007)                                                     16–9
+Chapter 16                                              Hydrographs                            Part 630
+                                                                                               National Engineering Handbook
+
+
+
+
+Example 16–1                      Composite flood hydrograph—Continued
+
+
+
+       Figure 16–4                Unit hydrograph from example 16–1
+
+                      1,500
+
+                      1,400
+                                                                                                        Unit hydrograph
+                      1,300
+
+                      1,200
+
+                      1,100
+
+                      1,000
+  Discharge (ft3/s)
+
+
+
+
+                       900
+
+                       800
+
+                       700
+
+                       600
+
+                       500
+
+                       400
+
+                       300
+
+                       200
+
+                       100
+
+                         0
+                              0         1           2           3             4            5        6             7            8
+
+                                                                          Time (h)
+
+
+
+
+16–10                                                           (210–VI–NEH, March 2007)
+Chapter 16                                       Hydrographs                                    Part 630
+                                                                                                National Engineering Handbook
+
+
+
+
+Example 16–1           Composite flood hydrograph—Continued
+
+
+        Step 4          Tabulate the accumulated rainfall in 0.3-hour increments (table 16–3, column 2).
+
+        Step 5          Compute the accumulated runoff (table 16–3, column 3) using CN of 85 and moisture condition
+                        II.
+
+        Step 6          Tabulate the incremental runoff (table 16–3, column 4).
+
+        Step 7          Tabulate the incremental runoff in reverse order (table 16–3, column 5) on a strip of paper hav-
+                        ing the same line spacing as the paper used in step 2. A spreadsheet program may also be used
+                        to develop the composite hydrograph.
+
+        Step 8          Place the strip of paper between column 1 and column 2 of table 16–4(a) and slide down until
+                        the first increment of runoff (0.12) on the strip of paper is opposite the first discharge (140) on
+                        the unit hydrograph (column 2). Multiplying 0.12 × 140 = 16.8 (round to 17). Tabulate in column
+                        3 opposite the arrow on the strip of paper.
+
+        Step 9          Move the strip of paper down one line (table 16–4(b)) and compute (0.12 × 439) + (.27 × 140)
+                        = 90.48 (round to 90). Tabulate in column 3 opposite the arrow on the strip of paper. Continue
+                        moving the strip of paper containing the runoff down one line at a time and accumulatively
+                        multiply each runoff increment by the unit hydrograph discharge opposite the increment.
+
+  Table 16–3            Rainfall tabulated in 0.3 hour increments from plot of rain gage chart in figure 16–3
+
+
+  Time       Accum.           Accum.      Incremental Reversed   Time                Accum.     Accum.      Incremental   Reversed
+             rainfall         runoff 1/      runoff  incremental		                   rainfall   runoff 1/      runoff   incremental
+  (h)          (in)             (in)          (in)      runoff    (h)                  (in)       (in)          (in)       runoff
+
+
+  (1)            (2)             (3)	  (4)                  (5)           (1)          (2)        (3)           (4)             (5)
+
+                 0.0            0.00
+  0.3            0.37           0.00          0.00         0.09           3.3         2.71       1.35           0.01            0.00
+  0.6            0.87           0.12          0.12         0.19           3.6         2.77       1.40           0.05            0.00
+  0.9            1.40           0.39          0.27         0.24           3.9         2.91       1.51           0.11            0.06
+  1.2            1.89           0.72          0.33         0.31           4.2         3.20       1.76           0.25            0.12
+  1.5            2.24           0.98          0.26         0.42           4.5         3.62       2.12           0.36            0.18
+  1.8            2.48           1.16          0.18         0.36           4.8         4.08       2.54           0.42            0.26
+  2.1            2.63           1.28          0.12         0.25           5.1         4.43       2.85           0.31            0.33
+  2.4            2.70           1.34          0.06         0.11           5.4         4.70       3.09           0.24            0.27
+  2.7            2.70           1.34          0.00         0.05           5.7         4.90       3.28           0.19            0.12
+  3.0            2.70           1.34          0.00         0.01           6.0         5.00       3.37           0.09            0.00
+  1/ Runoff computed using CN 85 moisture condition II.
+
+
+
+
+                                                          (210–VI–NEH, March 2007)                                                     16–11
+Chapter 16                                                Hydrographs                                                                Part 630
+                                                                                                                                     National Engineering Handbook
+
+
+
+
+Example 16–1        Composite flood hydrograph—Continued
+
+
+ Table 16–4        Computation of a flood hydrograph
+
+              16–4(a)                                     16–4(b)                                                 16–4(c)                                               16–4(d)
+ 		     Reversed                   		            Reversed
+ 		   incremental                  		 incremental
+ 		      runoff                    		               runoff
+ 		       0.09		                   		               0.09
+ 		       0.19		                   		               0.19
+ 		       0.24		                   		               0.24
+ 		       0.31		                   		               0.31
+ 		       0.42		                   		               0.42
+ 		       0.36		                   		               0.36
+ 		       0.25		                   		               0.25
+ 		       0.11		                   		               0.11
+ 		       0.05		                   		               0.05
+ 		       0.01		                   		               0.01
+ 		       0.00		                   		               0.00
+ 		       0.00		                   		               0.00
+ 		       0.06		                   	              	 0.06	              	             	                               	           	              	                               	           	            
+          0.12                        (1)           0.12         (2)         (3)   (1) Reversed                        (2)           (3)           (1) Reversed                   (2)           (3)
+  (1)     0.18       (2)     (3) Time               0.18        Unit       Flood Time               incre.            Unit Flood Time incre.                                    Unit          Flood
+ Time     0.26      Unit    Flood 		                0.26	   hyd.  	  hyd.   		 runoff 	   hyd.   	   hyd.    		  	                                            runoff  	   hyd.   	   hyd.   
+          0.33      hyd.     hyd.   0.0             0.33            0.          0.     0.0			                             0.             0.       0.0		                              0.             0.
+  0.0     0.27         0.      0.      0.3          0.27         140.           0.     0.3			                         140.               0.       0.3		                          140.               0.
+  0.3     0.12      140.       0.     0.6           0.12         439.          17.     0.6		0.09                      439.             17.        0.6		                          439.             17.
+  0.6     0.00→     439.      17.     0.9           0.00→        923.          90.     0.9		0.19                      923.             90.        0.9		                          923.             90.
+  0.9		             923.              1.2		                   1,332.                   1.2		0.24                   1,332.            275.         1.2		                       1,332.             275.
+  1.2		           1,332.              1.5		                   1,455.                   1.5		0.31                   1,455.            590.         1.5		                       1,455.             590.
+  1.5		           1,455.              1.8		                   1,378.                   1.8		0.42                   1,378.            978.         1.8		                       1,378.             978.
+  1.8		           1,378.              2.1		                   1,166.                   2.1		0.36                   1,166. 1,334.                  2.1		                       1,166.          1,334.
+  2.1		           1,166.              2.4		                      873.                  2.4		0.25                      873. 1,566.                 2.4		                          873.         1,566.
+  2.4		             873.              2.7		                      601.                  2.7		0.11                      601. 1,629.                 2.7		                          601.         1,629.
+  2.7		             601.              3.0		                      436.                  3.0		0.05                      436. 1,528.                 3.0		                          436.         1,528.
+  3.0		             436.              3.3		                      324.                  3.3		0.01                      324. 1,310.                 3.3		                          324.         1,310.
+  3.3		             324.              3.6		                      235.                  3.6		0.00                      235. 1,056.                 3.6		                          235.         1,056.
+  3.6		             235.              3.9		                      171.                  3.9		0.00                      171.           842.         3.9		                          171.            842.
+  3.9		             171.              4.2		                      124.                  4.2		0.06                      124.           730.         4.2		                          124.            730.
+  4.2		             124.              4.5		                       90.                  4.5		0.12                        90.          769.         4.5		                            90.           769.
+  4.5		              90.              4.8		                       65.                  4.8		0.18                        65.          989.         4.8		                            65.           989.
+  4.8		              65.              5.1		                       47.                  5.1		0.26                        47. 1,358.                5.1		                            47.        1,358.
+  5.1		              47.              5.4		                       35.                  5.4		0.33                        35. 1,783.                5.4		                            35.        1,783.
+  5.4		              35.              5.7		                       25.                  5.7		0.27                        25. 2,142.                5.7		                            25.        2,142.
+  5.7		              25.              6.0		                       18.                  6.0		0.12                        18. 2,346.                6.0		                            18.        2,346.
+  6.0		              18.              6.3		                       14.                  6.3		0.00→                       14. 2,356.                6.3		                            14.        2,356.
+  6.3		              14.              6.6		                       11.                  6.6			                           11.                       6.6		                            11.        2,179.
+  6.6		              11.              6.9		                         7.                 6.9			                             7.                      6.9		                              7.       1,863.
+  6.9		                7.             7.2		                         4.                 7.2			                             4.                      7.2		                              4.       1,494.
+  7.2		                4.             7.5		                         1.                 7.5			                             1.                      7.5		                              1.       1,144.
+  7.5		                1.             7.8		                         0.                 7.8			                             0.                      7.8          0.09			0.                         845.
+  7.8		                0.             8.1			                                           8.1			                                                     8.1          0.19					                         611.
+  8.1			                              8.4			                                           8.4			                                                     8.4          0.24					                         441.
+  8.4			                              8.7			                                           8.7			                                                     8.7          0.31					                         320.
+  8.7			                              9.0			                                           9.0			                                                     9.0          0.42					                         232.
+  9.0			                              9.3			                                           9.3			                                                     9.3          0.36					                         168.
+  9.3			                              9.6			                                           9.6			                                                     9.6          0.25					                         122.
+  9.6			                              9.9			                                           9.9			                                                     9.9          0.11					                          89.
+  9.9			                            10.2			                                          10.2			                                                    10.2           0.05					                          65.
+ 10.2			                            10.5			                                          10.5			                                                    10.5           0.01					                          47.
+ 10.5			                            10.8			                                          10.8			                                                    10.8           0.00					                          34.
+ 10.8			                            11.1			                                          11.1			                                                    11.1           0.00					                          25.
+ 11.1			                            11.4			                                          11.4			                                                    11.4           0.06					                          17.
+ 11.4			                            11.7			                                          11.7			                                                    11.7           0.12					                          11.
+ 11.7			                            12.0			                                          12.0			                                                    12.0           0.18				                            7.
+ 12.0			                            12.3			                                          12.3			                                                    12.3           0.26				                            4.
+ 12.3			                            12.6			                                          12.6			                                                    12.6           0.33				                            2.
+ 12.6			                            12.9			                                          12.9			                                                    12.9           0.27				                            1.
+ 12.9			                            13.2			                                          13.2			                                                    13.2           0.12				                            0.
+ 13.2			                            13.5                                             13.5                                                       13.5           0.00→				                           0.
+ 13.5			                                                                                                                                        					 33,409
+ 		 Total        9,914
+
+
+16–12                                                                   (210–VI–NEH, March 2007)
+Chapter 16                                                   Hydrographs                                  Part 630
+                                                                                                          National Engineering Handbook
+
+
+
+
+Example 16–1                        Composite flood hydrograph—Continued
+
+
+                                    Table 16–4(c) shows the position of the strip of paper containing the runoff when the peak
+                                    discharge of the flood hydrograph (2,356 ft3/s) is reached. If only the peak discharge of the flood
+                                    hydrograph is desired, it can be found by making only a few computations, placing the larger
+                                    increments of runoff near the peak discharge of the unit hydrograph.
+
+                                    Table 16–4(d) shows the position of the strip of paper containing the runoff at the completion of
+                                    the flood hydrograph. The complete flood hydrograph is shown in column 3. These discharges
+                                    are plotted at their proper time sequence on figure 16–5, which is the complete flood hydrograph
+                                    for example 16–1.
+
+          Step 10                   Calculate the volume under the flood hydrograph by summing the ordinates (table 16–4(d), col-
+                                    umn 3) and multiplying by ∆D: 33,409 × 0.3 = 10,022.7 ft3/s‑h.
+
+
+
+   Figure 16–5                          Composite flood hydrograph from example 16–1
+
+
+                        2,500.000
+
+
+                                                                                                                  Composite flood
+                                                                                                                  hydrograph
+
+
+                        2,000.000
+    Discharge (ft3/s)
+
+
+
+
+                        1,500.000
+
+
+
+
+                        1,000.000
+
+
+
+
+                         500.000
+
+
+
+
+                               0
+                                    0       4     7     10    15   18      19   22      25      28   31     34    37     40    43     46
+
+                                                                                       Time (h)
+
+
+
+                                                                     (210–VI–NEH, March 2007)                                              16–13
+Chapter 16                              Hydrographs                               Part 630
+                                                                                  National Engineering Handbook
+
+
+
+
+                                                              project purpose and degree of detail. The DUH is
+630.1604 Unit hydrograph de-                                  used in WinTR–20 to develop the incremental runoff
+                                                              hydrograph for a short duration of rainfall excess
+velopment for a gaged watershed                               that results from rainfall assumed to be at uniform
+                                                              intensity. The rainfall distribution for the storm is
+The dimensionless unit hydrograph varies from water-          divided into several short duration increments each
+shed to watershed based on a number of factors. Some          with assumed uniform rainfall intensity and uniform
+of these factors are size of watershed, geomorphic            depth over a watershed (or subarea). This is consistent
+characteristics, geologic characteristics, watershed          with the assumption of unit hydrograph theory of
+slope, watershed length, amount of storage, degree            spatial and temporal uniformity.
+of channelization of the stream network, and degree
+of urbanization. The dimensionless unit hydrograph            Williams (James, Winsor, and Williams 1987) and
+(DUH) used as an NRCS standard for many years                 Meadows (Meadows and Ramsey 1991) developed
+has a peak rate factor of 484 and is described earlier        computer programs that automate this process
+in this chapter. This DUH was developed by Victor             through optimization techniques. The only required
+Mockus (Mockus 1957) from analysis of small water-            data are rainfall distribution and magnitude, measured
+sheds where the rainfall and streamflow were gaged.           hydrograph data, and watershed drainage area. The
+An alternative to the 484 DUH has been developed for          output from these programs includes the event run-
+the Delmarva region (Delaware, Maryland, Virginia             off curve number, unit hydrograph, peak rate factor,
+peninsula) based on data from four gaged watersheds           plots, and statistical analysis. These programs treat the
+(Welle, Woodward, and Moody 1980).                            watershed as a single unit (division of watershed into
+                                                              subareas is not simulated) assuming uniform rainfall
+Many reports have been published concerning devel-            and a single runoff curve number. They have been
+opment of the DUH for gaged watersheds in various             used to study unit hydrographs at many watersheds
+parts of the country including Maryland (McCuen               throughout the country (Woodward, Merkel, and Sheri-
+1989), Georgia, Florida, and Texas (Sheridan and              dan 1995). If the watershed is divided into subareas,
+Merkel 1993). The DUH, as well as time of concentra-          the procedure above is recommended for developing a
+tion, runoff curve number, stream Manning n values,           trial and error solution. The more subareas and reach-
+and other key parameters, may be calibrated to gage           es in the WinTR–20 input data, the more complicated
+data. Calibration of a hydrologic model may be based          this process becomes. However, if the steps are fol-
+on actual measurements for the watershed or studies           lowed, a hydrologic model calibrated in such a manner
+of nearby gaged watersheds, such as regional regres-          will make the best use of limited gage information at
+sion equations. A regional study of the DUH for gaged         other locations within the watershed.
+watersheds may reveal insights into what DUH to use
+for an ungaged watershed located within the region.           The shape of the DUH determines the peak rate factor.
+                                                              The higher the peak rate factor, the higher the peak
+Various engineering textbooks, such as Hydrology              discharge will be from the watershed. The 1972 ver-
+for Engineers (Linsley, Kohler, and Paulhus 1982),            sion of this chapter stated: “This constant has been
+have procedures for developing a unit hydrograph              known to vary from about 600 in steep terrain to 300 in
+from gaged rainfall and streamflow data. The method           very flat, swampy country.” Recent studies have shown
+presented in this chapter is somewhat different. It is a      the peak rate factor has a much wider range: from
+practical method using the NRCS WinTR–20 computer             below 100 to more than 600. The standard 484 DUH
+program. The primary concept upon which the method            was developed using graphical techniques and not an
+is based is that if the DUH is to be used in WinTR–20         equation. The gamma equation, however, fits the shape
+for analysis of hypothetical storms (such as design           of the 484 DUH fairly well. The gamma equation has
+storms, 100-year storm, probable maximum flood), the          the following form:
+DUH should be developed by calibrating WinTR–20                                                                     [16–1]
+                                                                                t  m    − m  tt   
+                                                                                                              
+                                                                     Q
+for measured rainfall and streamflow data for the                        = e m      e  p   
+watershed. Furthermore, the WinTR–20 input data                      Qp         t p                       
+                                                                                                             
+file should be organized in such a way as to represent
+the watershed stream network as determined by the
+
+16–14                                          (210–VI–NEH, March 2007)
+Chapter 16                                     Hydrographs                              Part 630
+                                                                                        National Engineering Handbook
+
+
+
+
+ where:                                                              DUH determination with WinTR–20
+ Q                                                                   Step 1—Derive input to the WinTR–20 model, enter
+    = ratio of discharge at a certain time to the peak
+ Qp   discharge of the unit hydrograph (UH)                          the data, and make preliminary simulations. If the
+ e = constant 2.7183                                                 stream gage is not at the watershed outlet, defining a
+ m = gamma equation shape factor                                     subarea or end of reach at the location of the stream
+  t = ratio of the time of DUH coordinate to time to                 gage is recommended. The original WinTR–20 input
+ tp                                                                  file should be copied to create a separate file for each
+      peak of the DUH
+                                                                     storm event to be analyzed. The object of this analysis
+                                                                     is to model the storm event over the watershed and
+Since the equation has only one parameter, m, one
+                                                                     adjust parameters, such as runoff curve number, base-
+value of m produces a unique DUH, and thus one
+                                                                     flow, time of concentration, and DUH, to provide the
+unique peak rate factor. The peak rate factor (PRF) is
+                                                                     best match with the measured streamflow hydrograph
+calculated from the DUH coordinates using the equa-
+                                                                     at the gage.
+tion 16–2.
+                                                                     Step 2—Examine rainfall and streamflow records to
+                             645.33
+             PRF =                                                   ensure there are periods of record where both rainfall
+                     ∑ DUH   coordinates   × ∆TDUH     [16–2]
+                                                                     and streamflow are measured. At the stream gage loca-
+                                                                     tion, select several flood events to be analyzed repre-
+ where:                                                              senting a range of magnitudes and for which rainfall
+ PRF    = peak rate factor                                           records are available. With respect to the time interval
+ Σ DUH coordinates = summation of the dimensionless                  of the data, generally the smaller the time interval the
+                     unit hydrograph coordinates                     better the results. At some point, the modeler needs to
+                                                                     assess the quality of data being used, locations of gag-
+ ∆TDUH = nondimensional time interval of the DUH
+                                                                     es (often a rain gage within the watershed boundary
+ 645.33 = unit conversion factor (see eq. 16–5, appen-               is not available), and whether the time interval of the
+          dix 16A)                                                   data is satisfactory. For example, if the stream gage is
+                                                                     a crest gage (only peak discharge is recorded) and the
+The gamma equation may be used to develop a DUH                      rain gage records daily precipitation, it is unlikely that
+with any desired peak rate factor.                                   a reasonable DUH can be developed. Other commonly
+                                                                     available data are hourly and 15-minute precipitation;
+The PRF is calculated after the DUH coordinates are                  daily, hourly, and peak streamflow; and breakpoint
+calculated. This means that various values of m must                 data (available for many Agricultural Research Service
+be tried in the equation until a desired PRF is reached.             (ARS) experimental watersheds). The ARS maintains
+Table 16–5 shows the relationship of m and PRF. The                  the Water Data Center, http://hydrolab.arsusda.gov/
+general steps to develop the DUH follow.                             wdc/arswater.html with an archive on experimen-
+                                                                     tal watersheds. The National Climatic Data Center
+                                                                     (NOAA), http://www.ncdc.noaa.gov/oa/ncdc.html) has
+Table 16–5      Relationship of m and PRF for DUH devel-             archived National Weather Service rainfall records,
+                oped from a Gamma equation
+                                                                     and the U.S. Geological Survey (USGS), http://water.
+m            PRF
+                                                                     usgs.gov/) has also archived streamflow records.
+
+0.26         101                                                     Step 3—For storm events with both measured rainfall
+                                                                     and streamflow, develop a cumulative rainfall distribu-
+1            238                                                     tion to be entered into the WinTR–20 data file. If the
+2            349                                                     watershed is small enough or if rainfall data are lim-
+3            433                                                     ited, a single rain gage may be used to represent uni-
+3.7          484                                                     form rainfall over the watershed. If more than one rain
+                                                                     gage is available, rainfall isohyets may be drawn over
+4            504                                                     the watershed and rainfall varied for each subarea.
+5            566
+
+
+                                                      (210–VI–NEH, March 2007)                                            16–15
+Chapter 16                              Hydrographs                             Part 630
+                                                                                National Engineering Handbook
+
+
+
+
+Step 4—Runoff volume may be determined for the                Problems inevitably occur when working with rainfall
+streamflow hydrograph and is recommended to be                and runoff data. Problems indicating that a particu-
+the first parameter calibrated. Runoff volume is the          lar event should not be included in the analysis may
+volume of the hydrograph above the baseflow. Several          include:
+baseflow separation methods are described in stan-
+                                                                 • a significant flood event with minor rainfall and
+dard hydrology texts, but in many small watersheds,
+                                                                   vice versa
+baseflow is relatively small and a constant baseflow
+can generally be assumed. The runoff curve number                • more runoff volume than rainfall (such as may
+for the watershed (or its subareas if so divided) should           happen with snowmelt events,) see NEH 630,
+be adjusted such that the storm event rainfall produc-             chapter 11, Snowmelt
+es the storm event runoff.
+                                                                 • timing of rainfall and runoff measurements may
+                                                                   be out of synchronization (for example, the
+Step 5—If the hydrograph at the gage has significant
+                                                                   hydrograph may begin rising before there is any
+baseflow, the value may be entered in the appropri-
+                                                                   rainfall)
+ate location in the WinTR–20 input file. Consideration
+should also be given to prorating the baseflow value
+                                                              If more than one storm event is analyzed, a wide range
+(based on drainage area) at other locations along the
+                                                              of event peak rate factors may result. The causes of
+stream network.
+                                                              these kinds of problems include:
+Step 6—Timing of the peak discharge at the gage is               • poor data quality
+dependent primarily upon the time of concentration
+                                                                 • nonuniform rainfall over the watershed
+and stream cross section rating tables. The value of
+Manning's n used for overland flow, concentrated flow,           • rainfall (magnitude and/or distribution) at the
+and channel flow is not known precisely. Using gage                gage not representing rainfall over the watershed
+data may help in refining these estimates. If the times
+                                                                 • partial area hydrology
+to peak of the measured and computed hydrographs
+are not similar, the timing factors of the watershed             • runoff curve number procedure not representing
+should be adjusted to bring the times to peak into                 the distribution of runoff over time
+closer agreement.
+                                                                 • frozen soil, snowmelt runoff, transmission loss,
+                                                                   or physical changes in the watershed over time
+Step 7—After the runoff volume and timing have
+                                                                   (urbanization, reservoir construction, channel
+been adjusted, the DUH may be calibrated by entering
+                                                                   modification)
+different DUHs in WinTR–20 with various peak rate
+factors. The objective is to match the peak discharge            • the DUH may even be sensitive to the magnitude
+and shape of the measured hydrograph as closely as                 of the storm and resulting flood
+possible.
+                                                              If the range of PRFs for the various storm events is
+Considerations to be made in selecting events to              wide, the data and watershed characteristics should be
+analyze should include single versus multiple peak            investigated to determine the reason. Judgment needs
+hydrographs, long versus short duration rainfalls, high       to be exercised in determining what DUH best repre-
+versus low event runoff curve numbers, and large              sents the watershed. Example 16–2 shows the proce-
+versus small flood events. Rainfall events separated by       dure to determine the dimensionless unit hydrograph
+a relatively short time span may not allow the stream-        for a gaged watershed.
+flow hydrograph to return to baseflow. Use of a com-
+plete hydrograph that begins and ends at baseflow is
+recommended.
+
+Consider rain gages close enough to the watershed lo-
+cation such that the rainfall measurements accurately
+represent the actual rainfall on the watershed.
+
+
+16–16                                          (210–VI–NEH, March 2007)
+Chapter 16                            Hydrographs                             Part 630
+                                                                              National Engineering Handbook
+
+
+
+
+Example 16–2   Determining the DUH for a gaged watershed
+
+
+
+  Watershed and storm event description:            The watershed selected for this example is Alligator Creek
+                                                    near Clearwater, Florida. Hourly discharge and rainfall data
+                                                    were provided by the U.S. Geological Survey. The watershed
+                                                    has a drainage area of 6.73 square miles. For simplicity,
+                                                    the watershed is treated as a single watershed and is not
+                                                    divided into subareas. The date of the storm event being
+                                                    analyzed is February 2, 1996. The storm had a duration of 15
+                                                    hours and a total rainfall of 3.69 inches. The peak discharge
+                                                    at the stream gage was 436 cubic feet per second.
+
+  Rainfall and runoff data:                         Columns 1 to 3 in table 16–6 show the time series of
+                                                    measured rainfall and stream discharge. The rainfall
+                                                    distribution for the storm event is plotted in figure 16–6.
+                                                    The baseflow of the hydrograph is 4.7 cubic feet per second.
+                                                    After subtracting the constant baseflow from the measured
+                                                    hydrograph, the runoff volume was computed to be 1.45
+                                                    inches. The runoff curve number corresponding to 3.69
+                                                    inches of rainfall and 1.45 inches of runoff is 75, which was
+                                                    used in WinTR–20 for the watershed runoff curve number.
+
+  Time of concentration:                            The time to peak of the measured hydrograph is 12 hours.
+                                                    Several trials of watershed time of concentration were made
+                                                    before arriving at the value of 8 hours. This resulted in the
+                                                    computed hydrograph having a time to peak of 12 hours.
+
+  Dimensionless Unit Hydrograph:                    A DUH for any desired peak rate factor may be developed
+                                                    from the gamma equation (16–1) described in this section.
+                                                    Appendix 16B has standard tables that have been developed
+                                                    for a DUH based on the gamma equation for peak rate fac-
+                                                    tors ranging from 100 to 600 (at increments of 50). The PRF
+                                                    for this individual storm event was between 200 and 250.
+                                                    The sum of the DUH coordinates in table 16–7 is 13.5361.
+                                                    Using the given nondimensional time step 0.2 and equation
+                                                    16–2 results in a calculated PRF of 238.37, and is rounded
+                                                    to 238. The final peak rate factor of 238 was selected (which
+                                                    gave a good fit of hydrograph shape and peak discharge).
+                                                    The DUH is listed in table 16–7 and plotted in figure 16–7.
+                                                    The computed hydrograph for this PRF is in column 4 of
+                                                    table 16–6. The comparison of the measured and computed
+                                                    hydrographs is shown in figure 16–8.
+
+
+
+
+                                              (210–VI–NEH, March 2007)                                         16–17
+Chapter 16                                Hydrographs                                 Part 630
+                                                                                      National Engineering Handbook
+
+
+
+
+Example 16–2     Determining the DUH for a gaged watershed—Continued
+
+
+   Table 16–6   Storm event of February 2, 1996, at Alligator Creek near Clearwater, FL
+
+
+   Time   Cumulative   Measured     Computed                                 Time   Cumulative    Measured       Computed
+           rainfall    discharge    discharge                                        rainfall     discharge      discharge
+  (h)        (in)        (ft3/s)      (ft3/s)                                (h)       (in)         (ft3/s)        (ft3/s)
+  (1)        (2)           (3)          (4)                                  (1)       (2)            (3)            (4)
+
+  0   0.00                 4.7          4.7                                  28		                   87.4              92.5
+  1   0.01                 4.7          4.7                                  29		                   81.4              81
+  2   0.06                 4.7          4.7                                  30		                   76.7              70.9
+  3   0.14                 5.0          4.7                                  31		                   71.6              62
+  4   0.34                 5.5          4.7                                  32		                   66.6              54.2
+  5   1.10                 7.8         13.9                                  33		                   63.4              47.4
+  6   1.66                24.8         48.5                                  34		                   59.2              41.4
+  7   2.54                98.8        121.1                                  35		                   56.2              36.1
+  8   3.30               199.5        211.2                                  36		                   53.2              31.4
+  9   3.62               292.9        315.3                                  37		                   50.8              27.6
+  10  3.66               362.5        379.6                                  38		                   47.5              24.4
+  11  3.67               416.1        414.1                                  39		                   45.7              21.7
+  12  3.67               436.4        425.9                                  40		                   44.3              19.2
+  13  3.67               424.9        421.6                                  41		                   42.5              17.1
+  14  3.68               395.0        407.2                                  42		                   40.8              15.3
+  15  3.69               357.8        386.2                                  43		                   39.1              13.8
+  16		                   316.8        360.8                                  44		                   37.8              12.4
+  17		                   279.1        333                                    45		                   36.5              11.3
+  18		                   244.6        304.3                                  46		                   35.3              10.3
+  19		                   215.0        275.9                                  47		                   34.5               9.4
+  20		                   187.1        248.4                                  48		                   33.7               8.7
+  21		                   165.9        222.4                                  49		                   32.5               8.1
+  22		                   146.7        198.2                                  50		                   31.8               7.6
+  23		                   132.2        175.8                                  51		                   31.0               7.1
+  24		                   119.9        155.2                                  52		                   30.2               6.7
+  25		                   110.4        136.6                                  53		                   29.5               6.4
+  26		                   100.8        120                                    54		                   28.8               6.1
+  27		                    93.0        105.4                                  55		                   27.7               5.8
+
+
+
+
+16–18                                             (210–VI–NEH, March 2007)
+Chapter 16                                            Hydrographs                            Part 630
+                                                                                             National Engineering Handbook
+
+
+
+
+Example 16–2                 Determining the DUH for a gaged watershed—Continued
+
+
+   Figure 16–6               Cumulative rainfall used in example 16–2
+
+
+                  4.00
+
+
+
+                  3.50                 Cumulative rainfall
+
+
+
+                  3.00
+
+
+
+                  2.50
+  Rainfall (in)
+
+
+
+
+                  2.00
+
+
+
+                  1.50
+
+
+
+                  1.00
+
+
+
+                  0.50
+
+
+
+                  0.00
+                         0         2              4           6             8           10          12            14         16
+
+                                                                        Time (h)
+
+
+
+
+                                                             (210–VI–NEH, March 2007)                                        16–19
+Chapter 16                                                              Hydrographs                                          Part 630
+                                                                                                                             National Engineering Handbook
+
+
+
+
+Example 16–2                            Determining the DUH for a gaged watershed—Continued
+
+
+  Table 16–7                            Dimensionless unit hydrograph for Alligator Creek at Clearwater, FL, used in example 16–2
+
+
+
+          Time                      Discharge    Time          Discharge      Time            Discharge   Time      Discharge   Time          Discharge
+          non-dim                    non-dim     non-dim        non-dim       non-dim          non-dim    non-dim    non-dim    non-dim        non-dim
+                              0.0            0           2.0         0.736           4.0         0.199        6.0       0.04            8.0          0.007
+                              0.2      0.445             2.2         0.663           4.2         0.172        6.2      0.034            8.2          0.006
+                              0.4      0.729             2.4         0.592           4.4         0.147        6.4      0.029            8.4          0.005
+                              0.6      0.895             2.6         0.525           4.6         0.126        6.6      0.024            8.6          0.004
+                              0.8      0.977             2.8         0.463           4.8         0.107        6.8      0.021            8.8      0.0036
+                              1.0            1           3.0         0.406           5.0         0.092        7.0      0.017            9.0          0.003
+                              1.2      0.983             3.2         0.355           5.2         0.078        7.2      0.015            9.2      0.0025
+                              1.4      0.938             3.4         0.308           5.4         0.066        7.4      0.012            9.4          0.002
+                              1.6      0.878             3.6         0.267           5.6         0.056        7.6       0.01            9.6          0.001
+                              1.8      0.809             3.8         0.231           5.8         0.048        7.8      0.009            9.8              0
+
+                                                                                                              sum DUH coordinates                    13.5361
+                                                                                                                                    PRF              238.
+  Figure 16–7                           Dimensionless unit hydrograph used in example 16–2
+
+                         1
+
+
+                        0.9                                                                                              Dim unit hyd
+
+
+                        0.8
+
+
+                        0.7
+  Discharge (non-dim)
+
+
+
+
+                        0.6
+
+
+                        0.5
+
+
+                        0.4
+
+
+                        0.3
+
+
+                        0.2
+
+
+                        0.1
+
+
+                         0
+                              0.0      1.0         2.0         3.0           4.0        5.0        6.0       7.0       8.0        9.0         10.0
+
+                                                                                   Time (non-dim)
+
+
+
+
+16–20                                                                              (210–VI–NEH, March 2007)
+Chapter 16                                                Hydrographs                           Part 630
+                                                                                                National Engineering Handbook
+
+
+
+
+Example 16–2                        Determining the DUH for a gaged watershed—Continued
+
+
+  Figure 16–8                       Runoff hydrographs for example 16–2
+
+
+                       450.0
+
+
+
+                       400.0                                                                              Measured hydrograph
+                                                                                                          Computed hydrograph
+
+                       350.0
+
+
+
+                       300.0
+   Discharge (ft3/s)
+
+
+
+
+                       250.0
+
+
+
+                       200.0
+
+
+
+                       150.0
+
+
+
+                       100.0
+
+
+
+                        50.0
+
+
+
+                         0.0
+                               -5              5               15                 25           35               45              55
+                                                                               Time (h)
+
+
+
+
+                                                                    (210–VI–NEH, March 2007)                                     16–21
+Chapter 16                             Hydrographs                             Part 630
+                                                                               National Engineering Handbook
+
+
+
+
+Example 16–2     Determining the DUH for a gaged watershed—Continued
+
+
+
+   Conclusion:                                       This procedure outlines the steps of developing the DUH
+                                                     by trial-and-error using WinTR–20. The comparison of
+                                                     the measured and computed hydrographs shows a good
+                                                     match of the rising hydrograph limb and the peak discharge
+                                                     and a less accurate fit of the falling limb. The measured
+                                                     hydrograph shows a slower recession at the tail of the
+                                                     hydrograph, which may represent delayed release of water
+                                                     from storage or delayed hydrograph response as a result of
+                                                     subsurface flow. Representing this in the DUH would re-
+                                                     quire a more complex mathematical representation, such as
+                                                     a gamma equation for the majority of the DUH shape and an
+                                                     exponential recession function to represent the tail of the
+                                                     DUH. If another shape of DUH is desired, it may be accom-
+                                                     modated in the steps described above.
+
+
+
+
+16–22                                          (210–VI–NEH, March 2007)
+Chapter 16                             Hydrographs                             Part 630
+                                                                               National Engineering Handbook
+
+
+
+
+                                                             U.S. Department of Agriculture, Natural Resources
+630.1605          References                                       Conservation Service. 2004. Estimation of direct
+                                                                   runoff from storm rainfall. National Engineering
+                                                                   Handbook, Part 630, Chapter 10. Washington,
+James, W., P. Winsor, and J. Williams. 1987. Synthetic             DC.
+    unit hydrograph. ASCE Journal of Water Re-
+    sources Planning and Management, Vol. 113, No.           U.S. Department of Agriculture, Natural Resources
+    1, pp. 70–81.                                                  Conservation Service. 1972. Time of concentra-
+                                                                   tion. National Engineering Handbook, Part 630,
+Linsley, R.K., M.A. Kohler, and J.L.H. Paulhus. 1982.              Chapter 15. Washington, DC.
+      Hydrology for engineers. McGraw-Hill Book Co.,
+      New York, NY.                                          Welle, P., D.E. Woodward, and H. Fox Moody. 1980. A
+                                                                  dimensionless unit hydrograph for the Delmarva
+McCuen, R. 1989. Calibration of hydrologic models for             Peninsula. American Society of Agricultural Engi-
+    Maryland. Maryland Department of Transporta-                  neers Paper Number 80–2013, St. Joseph, MI.
+    tion Report Number FHWA/MD–91/03.
+                                                             Woodward, D.E., W.H. Merkel, and J. Sheridan. 1995.
+Meadows, M., and E. Ramsey. 1991. User's manual for              NRCS unit hydrographs. In Water Resources En-
+    a unit hydrograph optimization program Project               gineering, Vol. 1, W.H. Espey, Jr., and P.G. Combs
+    Completion Report, Vol. I, U.S. Geological Sur-              (eds.), ASCE, New York, NY, pp. 1693–1697.
+    vey, Washington, DC.
+
+Mockus, V. 1957. Use of storm and watershed char-
+    acteristics in synthetic hydrograph analysis and
+    application. American Geophysical Union, Pacific
+    Southwest Region, Sacramento, CA.
+
+Sheridan, J.S., and W.H. Merkel. 1993. Determining
+     design unit hydrographs for small watersheds. In
+     Proc. Fed. Interagency Workshop on Hydrologic
+     Modeling Demands for the 90's, compiled by
+     J.S. Burton, USGS Water Resourc. Invest. Rep.
+     93–4018, pp. 8–42–8–49.
+
+Sherman, L.K. 1940. The hydraulics of surface runoff.
+    Civil Eng. 10:165–166.
+
+Sherman, L.K. 1932. Streamflow from rainfall by the
+    unit-graph method. Engineering News Record,
+    vol. 108, pp. 501–505.
+
+U.S. Department of Agriculture, Natural Resources
+      Conservation Service. WinTR–20, Ver. 1.00,
+      Computer Program for Project Formulation Hy-
+      drology. Washington, DC.
+
+U.S. Department of Agriculture, Natural Resources
+      Conservation Service. 2004. Snowmelt. National
+      Engineering Handbook, Part 630, Chapter 11.
+      Washington, DC.
+
+
+                                              (210–VI–NEH, March 2007)                                         16–23
+Appendix 16A                                                   Elements of a Unit Hydrograph
+
+
+The dimensionless curvilinear unit hydrograph (fig.                                           These relationships are useful in developing the peak
+16–1) has 37.5 percent of the total volume in the rising                                      rate equation for use with the dimensionless unit
+side, which is represented by one unit of time and one                                        hydrograph.
+unit of discharge. This dimensionless unit hydrograph
+also can be represented by an equivalent triangular                                           Peak rate equation
+hydrograph having the same units of time and dis-
+charge, thus having the same percent of volume in the                                         From figure 16A–1 the total volume under the triangu-
+rising side of the triangle (fig. 16A–1). This allows the                                     lar unit hydrograph is:
+base of the triangle to be solved in relation to the time
+to peak using the geometry of triangles. Solving for the                                                q p Tp       q p Tr       qp
+base length of the triangle, if one unit of time Tp equals                                         Q=
+                                                                                                          2
+                                                                                                                 +
+                                                                                                                         2
+                                                                                                                              =
+                                                                                                                                  2
+                                                                                                                                       (T + T )
+                                                                                                                                         p       r
+                                                                                                                                                         [16A–1]
+0.375 per cent of volume:
+                     1.00                                                                     With Q in inches and T in hours, solve for peak rate qP
+  Tb =                    = 2.67 units of time
+                     .375                                                                     in inches per hour:
+
+  Tr = Tb − Tp = 1.67 units of time or 1.67 Tp                                                                                           2Q
+                                                                                                                              qp =
+where:                                                                                                                                 Tp + Tr
+                                                                                                                                                         [16A–2]
+ Tb = time from beginning to end of the triangular
+       hydrograph
+ Tr = time from the peak to the end of the triangular
+       hydrograph
+ Tp = time from the beginning of the triangular
+       hydrograph to its peak
+
+
+
+Figure 16A–1                        Dimensionless curvilinear unit hydrograph and equivalent triangular hydrograph
+
+
+                         Excess rainfall
+                                 Lag
+               1.0
+                               ∆D
+                .9
+                                                                     Mass curve
+                                                                     of runoff
+                .8
+
+                .7
+q/qp or Qa/Q
+
+
+
+
+                .6
+                                                                                     qp
+                .5
+                                           Tc                      Point of inflection
+                .4
+
+                .3
+
+                .2
+
+                .1
+
+                0
+                     0                          1              2                          3                          4                               5
+                                 Tp                       Tr
+                                                    Tb
+                                                                            t/Tp
+
+
+                                                                       (210–VI–NEH, March 2007)                                                             16A–1
+Chapter 16                               Hydrographs                                 Part 630
+                                                                                     National Engineering Handbook
+
+
+
+
+Let:                                                              shape factor associated with the triangular hydrograph
+                               2                                  and, therefore, a change in the constant 484. This con-
+                        K=                                        stant has been known to vary from about 600 in steep
+                                T
+                             1+ r                                 terrain to 100 or less in flat, swampy country. The na-
+                                Tp
+                                                   [16A–3]        tional hydraulic engineer should concur in the use of a
+                                                                  dimensionless unit hydrograph other than that shown
+Therefore:                                                        in figure 16A–1. If the dimensionless shape of the
+                                KQ                                hydrograph needs to vary to perform a special job, the
+                         qp =
+                                Tp                                ratio of the percent of total volume in the rising side of
+                                                   [16A–4]        the unit hydrograph to the rising side of a triangle is a
+                                                                  useful tool in arriving at the peak rate factor.
+In making the conversion from inches per hour to cu-
+bic feet per second and putting the equation in terms             Figure 16A–1 shows that:
+ordinarily used, including drainage area A in square
+                                                                                               ∆D
+miles and time T in hours, equation 16–4 becomes the                                    Tp =      +L
+general equation:                                                                               2                [16A–7]
+                       645.33 × K × A × Q                         where:
+                  qp =                                             ∆D = duration of unit excess rainfall in hours
+                               Tp
+                                                [16A–5]            L = watershed lag in hours
+
+where:                                                            The lag of a watershed is defined in NEH 630, chapter
+ qp     = peak discharge in cubic feet per second                 15 as the time from the center of mass of excess rain-
+          (ft3/s)                                                 fall ( ∆D ) to the time to peak (Tp ) of a unit hydrograph.
+                                                                          2
+ 645.33 = conversion factor for the rate required to              Combining equations 16A–6 and 16A–7 results in equa-
+          discharge 1 inch from 1 square mile in 1                tion 16A–8:
+          hour, units of                                                                        484 AQ
+                            (        )
+                          ft 3 / s × h                                                     qp =
+                                                                                                ∆D
+                                                                                                    +L
+ 			                       mi 2 × in                                                             2                    [16A–8]
+ K      =    nondimensional factor
+                                                                  The average relationship of lag to time of concentra-
+ A      =    drainage area in square miles (mi2)
+                                                                  tion (Tc) is L = 0.6 Tc (NEH 630, chapter 15). Tc is
+ Q      =    runoff in inches (in)
+                                                                  expressed in hours.
+ Tp     =    time to peak in hours (h)
+                                                                  Substituting in equation 16A–8, the peak rate equation
+The relationship of the triangular unit hydrograph,
+                                                                  becomes:
+Tr = 1.67, gives K = 0.75. Then substituting into equa-
+tion 16–5 gives:                                                                             484 AQ
+                                                                                      qp =
+                            484 AQ                                                         ∆D
+                       qp =                                                                    + 0.6Tc
+                              Tp                                                            2                    [16A–9]
+                                                 [16A–6]
+                                                                  The time of concentration is defined in two ways in
+The peak rate factor for the triangular dimensionless             chapter 15:
+unit hydrograph is 484. The curvilinear dimensionless
+unit hydrograph of table 16–1 has a peak rate factor                 • The time for runoff to travel from the hydrauli-
+of 483.4 due to rounding of the discharge ratios to                    cally most distant point in the watershed to the
+either two or three decimal places. This discrepancy                   point in question.
+produces a negligible difference in the calculated peak
+discharges.                                                          • The time from the end of excess rainfall to the
+                                                                       point of inflection on the recedimg limb of the
+Any change in the dimensionless unit hydrograph                        unit hydrograph.
+reflecting a change in the percent of volume under the
+rising side would cause a corresponding change in the
+
+16A–2                                              (210–VI–NEH, March 2007)
+Chapter 16                                Hydrographs                       Part 630
+                                                                            National Engineering Handbook
+
+
+
+
+These two relationships are important because Tc is
+computed under the first definition and ∆D, the unit
+storm duration, is used to compute the time to peak
+(Tp) of the unit hydrograph. This in turn is applied to
+all of the points on the abscissa of the dimensionless
+unit hydrograph using the ratio t/Tp as shown in table
+16–1.
+
+The dimensionless unit hydrograph shown in figure
+16A–1 has a time to peak at one unit of time and point
+of inflection at approximately 1.7 units of time. Using
+the relationships Lag = 0.6 Tc and the point of inflec-
+tion = 1.7 Tp, ∆D will be 0.2 Tp. A small variation in
+DD is permissible; however, it should be no greater
+than 0.25 Tp. The standard NRCS dimensionless unit
+hydrograph is defined at an interval of 0.1 Tp (table
+16–1). If ∆D is 0.2 Tp , then during computations, every
+second point is used to develop the incremental flood
+hydrograph. If ∆D is 0.25 Tp or more, then the shape of
+the dimensionless unit hydrograph is not being repre-
+sented accurately. Example 16–1 illustrates the devel-
+opment of a composite flood hydrograph as shown in
+figure 16–5.
+
+Using the relationship shown on the dimensionless
+unit hydrograph in figure 16A–1, compute the relation-
+ship of ∆D to Tc:
+                     Tc + ∆D = 1.7 Tp
+                                            [16A–10]
+                   ∆D
+                        + 0.6 Tc = Tp
+                     2                      [16A–11]
+
+Combining these two equations results in a defined
+relationship between DD and Tc:
+
+                             ∆D          
+              Tc + ∆D = 1.7     + 0.6 Tc     [16A–12]
+                             2           
+                    0.15 ∆D = 0.02Tc
+
+                       ∆D = 0.133 Tc           [16A–13]
+
+
+
+
+                                                 (210–VI–NEH, March 2007)                                   16A–3
+Appendix 16B                                                       Dimensionless Unit Hydrographs with
+                                                                   Peak Rate Factors from 100 to 600
+
+This appendix has standard dimensionless unit hydrographs developed using the gamma equation. For each peak
+rate factor from 100 to 600, in increments of 50, a table has been prepared in the format for the NRCS WinTR–20
+computer program (see tables 16B–1 through 16B–11). A plot of each dimensionless unit hydrograph is included
+as figures 16B–1 through 16B–11. Refer to section 630.1604 for information on the development and use of these
+standard tables.
+
+
+
+Table 16B–1                           Peak rate factor = 600
+
+DIMENSIONLESS UNIT HYDROGRAPH:
+                    0.0        0.0004                                                   0.0108            0.0596         0.1703
+                    0.3392     0.5378                                                   0.7282            0.8785         0.9704
+                    1.0        0.9741                                                   0.9058            0.8101         0.7008
+                    0.5891     0.4831                                                   0.3875            0.3049         0.2358
+                    0.1795     0.1348                                                   0.0999            0.0732         0.0531
+                    0.0381     0.0271                                                   0.0191            0.0134         0.0093
+                    0.0064     0.0044                                                   0.003             0.002          0.0014
+                    0.0009     0.0006                                                   0.0004            0.0003         0.0002
+                    0.0001     0.0001                                                   0.0001            0.0
+
+
+
+Figure 16B–1                           Peak rate factor = 600
+
+
+                      1.0
+
+
+                      0.9                                                                                                    Dim hyd
+
+
+                      0.8
+
+
+                      0.7
+Discharge (non-dim)
+
+
+
+
+                      0.6
+
+
+                      0.5
+
+
+                      0.4
+
+
+                      0.3
+
+
+                      0.2
+
+
+                      0.1
+
+
+                      0.0
+                            0   0.2     0.4    0.6   0.8       1   1.2   1.4      1.6   1.8     2   2.2    2.4   2.6   2.8    3    3.2   3.4
+                                                                               Time (non-dim)
+
+
+
+
+                                                                          (210–VI–NEH, March 2007)                                             16B–1
+Chapter 16                                                       Hydrographs                                       Part 630
+                                                                                                                   National Engineering Handbook
+
+
+
+
+Table 16B–2                           Peak rate factor = 550
+
+DIMENSIONLESS UNIT HYDROGRAPH:
+                    0.0        0.0013                                                     0.0218         0.0923             0.2242
+                    0.4012     0.5922                                                     0.7649         0.8964             0.975
+                    1.0        0.9781                                                     0.9198         0.837              0.7405
+                    0.6396     0.5408                                                     0.449          0.3666             0.2951
+                    0.2344     0.184                                                      0.1429         0.1099             0.0837
+                    0.0633     0.0475                                                     0.0354         0.0262             0.0193
+                    0.0141     0.0103                                                     0.0074         0.0054             0.0038
+                    0.0027     0.002                                                      0.0014         0.001              0.0007
+                    0.0005     0.0003                                                     0.0002         0.0002             0.0001
+                    0.0001     0.0001                                                     0.0
+
+
+
+Figure 16B–2                           Peak rate factor = 550
+
+
+                      1.0
+
+
+                      0.9
+                                                                                                                               Dim hyd
+
+                      0.8
+
+
+                      0.7
+Discharge (non-dim)
+
+
+
+
+                      0.6
+
+
+                      0.5
+
+
+                      0.4
+
+
+                      0.3
+
+
+                      0.2
+
+
+                      0.1
+
+
+                      0.0
+                            0   0.2    0.4   0.6   0.8    1     1.2   1.4     1.6   1.8     2   2.2    2.4   2.6     2.8   3    3.2   3.4   3.6
+                                                                             Time (non-dim)
+
+
+
+
+16B–2                                                                       (210–VI–NEH, March 2007)
+Chapter 16                                                        Hydrographs                                        Part 630
+                                                                                                                     National Engineering Handbook
+
+
+
+
+Table 16B–3		 Peak rate factor = 500
+
+DIMENSIONLESS UNIT HYDROGRAPH:
+                    0.0        0.004                                                       0.0414              0.1376          0.2881
+                    0.4677     0.6466                                                      0.8001              0.913           0.9791
+                    1.0        0.9817                                                      0.9328              0.8623          0.7788
+                    0.6893     0.5996                                                      0.5135              0.4338          0.3621
+                    0.2989     0.2444                                                      0.198               0.1591          0.1269
+                    0.1006     0.0792                                                      0.062               0.0482          0.0374
+                    0.0288     0.0221                                                      0.0169              0.0129          0.0098
+                    0.0074     0.0056                                                      0.0042              0.0031          0.0023
+                    0.0017     0.0013                                                      0.001               0.0007          0.0005
+                    0.0004     0.0003                                                      0.0002              0.0002          0.0001
+                    0.0001     0.0001                                                      0.0
+
+Figure 16B–3		 Peak rate factor = 500
+
+
+                      1.0
+
+
+                      0.9                                                                                                            Dim hyd
+
+
+                      0.8
+
+
+                      0.7
+Discharge (non-dim)
+
+
+
+
+                      0.6
+
+
+                      0.5
+
+
+                      0.4
+
+
+                      0.3
+
+
+                      0.2
+
+
+                      0.1
+
+
+                      0.0
+                            0   0.2   0.4   0.6   0.8   1   1.2   1.4   1.6     1.8    2   2.2   2.4     2.6   2.8   3   3.2   3.4     3.6     3.8   4
+                                                                               Time (non-dim)
+
+
+
+
+                                                                              (210–VI–NEH, March 2007)                                                   16B–3
+Chapter 16                                                              Hydrographs                                           Part 630
+                                                                                                                              National Engineering Handbook
+
+
+
+
+Table 16B–4		 Peak rate factor = 450
+
+DIMENSIONLESS UNIT HYDROGRAPH:
+                    0.0        0.011                                                               0.0739               0.1975             0.3614
+                    0.5371     0.7                                                                 0.8333               0.9282             0.9829
+                    1.0        0.985                                                               0.9447               0.8859             0.8151
+                    0.7377     0.6581                                                              0.5798               0.5051             0.4357
+                    0.3725     0.3159                                                              0.266                0.2224             0.1849
+                    0.1528     0.1257                                                              0.1029               0.0838             0.068
+                    0.055      0.0443                                                              0.0356               0.0285             0.0227
+                    0.0181     0.0143                                                              0.0114               0.009              0.0071
+                    0.0056     0.0044                                                              0.0034               0.0027             0.0021
+                    0.0016     0.0013                                                              0.001                0.0008             0.0006
+                    0.0005     0.0004                                                              0.0003               0.0002             0.0002
+                    0.0001     0.0001                                                              0.0001               0.0001             0.0
+
+
+
+Figure 16B–4                            Peak rate factor = 450
+
+
+                      1.0
+
+
+                      0.9                                                                                                                       Dim hyd
+
+
+                      0.8
+
+
+                      0.7
+Discharge (non-dim)
+
+
+
+
+                      0.6
+
+
+                      0.5
+
+
+                      0.4
+
+
+                      0.3
+
+
+                      0.2
+
+
+                      0.1
+
+
+                      0.0
+                            0   0.2   0.4   0.6   0.8   1   1.2   1.4   1.6   1.8     2     2.2   2.4   2.6   2.8   3   3.2   3.4   3.6   3.8   4   4.2   4.4   4.6
+                                                                                          Time (non-dim)
+
+
+
+
+16B–4                                                                               (210–VI–NEH, March 2007)
+Chapter 16                                                       Hydrographs                                    Part 630
+                                                                                                                National Engineering Handbook
+
+
+
+
+Table 16B–5                          Peak rate factor = 400
+
+DIMENSIONLESS UNIT HYDROGRAPH:
+                    0.0        0.027                                                   0.1244            0.2732            0.4429
+                    0.6081     0.7517                                                  0.8642            0.9421            0.9863
+                    1.0        0.988                                                   0.9555            0.9076            0.8491
+                    0.7839     0.7155                                                  0.6465            0.579             0.5144
+                    0.4538     0.3977                                                  0.3465            0.3004            0.2591
+                    0.2224     0.1902                                                  0.162             0.1376            0.1164
+                    0.0982     0.0826                                                  0.0693            0.0579            0.0484
+                    0.0403     0.0335                                                  0.0278            0.023             0.019
+                    0.0157     0.0129                                                  0.0106            0.0087            0.0072
+                    0.0059     0.0048                                                  0.0039            0.0032            0.0026
+                    0.0021     0.0017                                                  0.0014            0.0011            0.0009
+                    0.0007     0.0006                                                  0.0005            0.0004            0.0003
+                    0.0003     0.0002                                                  0.0002            0.0001            0.0001
+                    0.0001     0.0001                                                  0.0001            0.0
+
+
+
+Figure 16B–5		Peak rate factor = 400
+
+
+                      1.0
+
+
+                      0.9
+                                                                                                                              Dim hyd
+
+                      0.8
+
+
+                      0.7
+Discharge (non-dim)
+
+
+
+
+                      0.6
+
+
+                      0.5
+
+
+                      0.4
+
+
+                      0.3
+
+
+                      0.2
+
+
+                      0.1
+
+
+                      0.0
+                            0   0.2 0.4 0.6 0.8   1   1.2 1.4 1.6 1.8   2    2.2 2.4 2.6 2.8     3   3.2 3.4 3.6 3.8   4   4.2 4.4 4.6 4.8   5
+                                                                                Time (non-dim)
+
+
+
+
+                                                                            (210–VI–NEH, March 2007)                                             16B–5
+Chapter 16                                                          Hydrographs                                   Part 630
+                                                                                                                  National Engineering Handbook
+
+
+
+
+Table 16B–6                           Peak rate factor = 350
+
+DIMENSIONLESS UNIT HYDROGRAPH:
+                    0.0        0.197                                                     0.53               0.8006          0.9546
+                    1.0        0.9651                                                    0.8803             0.7703          0.6532
+                    0.5402     0.4378                                                    0.349              0.2743          0.2131
+                    0.1638     0.1248                                                    0.0944             0.0708          0.0529
+                    0.0392     0.0289                                                    0.0213             0.0156          0.0114
+                    0.0082     0.006                                                     0.0043             0.0031          0.0022
+                    0.0016     0.0011                                                    0.0008             0.0006          0.0004
+                    0.0003     0.0002                                                    0.0001             0.0001          0.0001
+                    0.0001     0.0
+
+
+
+Figure 16B–6		Peak rate factor = 350
+
+
+                      1.0
+
+
+                      0.9
+                                                                                                                                Dim hyd
+                      0.8
+
+
+                      0.7
+Discharge (non-dim)
+
+
+
+
+                      0.6
+
+
+                      0.5
+
+
+                      0.4
+
+
+                      0.3
+
+
+                      0.2
+
+
+                      0.1
+
+
+                      0.0
+                            0   0.25 0.5 .075   1   1.25 1.5 1.75   2   2.25 2.5 2.75   3   3.25 3.5 3.75   4   4.25 4.5 4.75   5   5.25 5.5 5.75   6
+                                                                                  Time (non-dim)
+
+
+
+
+16B–6                                                                       (210–VI–NEH, March 2007)
+Chapter 16                                                          Hydrographs                                   Part 630
+                                                                                                                  National Engineering Handbook
+
+
+
+
+Table 16B–7                           Peak Rate Factor = 300
+
+DIMENSIONLESS UNIT HYDROGRAPH:
+                    0.0        0.2943                                                    0.6201             0.8458          0.9656
+                    1.0        0.9736                                                    0.9085             0.8217          0.7257
+                    0.629      0.5369                                                    0.4527             0.3776          0.3122
+                    0.2561     0.2087                                                    0.1691             0.1363          0.1093
+                    0.0873     0.0695                                                    0.0551             0.0436          0.0343
+                    0.027      0.0212                                                    0.0166             0.0129          0.0101
+                    0.0078     0.0061                                                    0.0047             0.0037          0.0028
+                    0.0022     0.0017                                                    0.0013             0.001           0.0008
+                    0.0006     0.0005                                                    0.0003             0.0003          0.0002
+                    0.0002     0.0001                                                    0.0001             0.0001          0.0001
+                    0.0
+
+
+
+Figure 16B–7		Peak rate factor = 300
+
+
+                      1.0
+
+
+                      0.9
+                                                                                                                                Dim hyd
+                      0.8
+
+
+                      0.7
+Discharge (non-dim)
+
+
+
+
+                      0.6
+
+
+                      0.5
+
+
+                      0.4
+
+
+                      0.3
+
+
+                      0.2
+
+
+                      0.1
+
+
+                      0.0
+                            0   0.25 0.5 .075   1   1.25 1.5 1.75   2   2.25 2.5 2.75   3   3.25 3.5 3.75   4   4.25 4.5 4.75   5   5.25 5.5 5.75   6
+                                                                                  Time (non-dim)
+
+
+
+
+                                                                            (210–VI–NEH, March 2007)                                                    16B–7
+Chapter 16                                                       Hydrographs                                  Part 630
+                                                                                                              National Engineering Handbook
+
+
+
+
+Table 16B–8                           Peak rate factor = 250
+
+DIMENSIONLESS UNIT HYDROGRAPH:
+                    0.0        0.4142                                                 0.7086             0.8863        0.9751
+                    1.0        0.9809                                                 0.9332             0.868         0.7937
+                    0.7159     0.6388                                                 0.5648             0.4957        0.4322
+                    0.3747     0.3233                                                 0.2778             0.2378        0.2028
+                    0.1725     0.1463                                                 0.1238             0.1045        0.088
+                    0.074      0.0621                                                 0.0521             0.0436        0.0364
+                    0.0304     0.0253                                                 0.0211             0.0175        0.0146
+                    0.0121     0.01                                                   0.0083             0.0069        0.0057
+                    0.0047     0.0039                                                 0.0032             0.0027        0.0022
+                    0.0018     0.0015                                                 0.0012             0.001         0.0008
+                    0.0007     0.0006                                                 0.0005             0.0004        0.0003
+                    0.0003     0.0002                                                 0.0002             0.0001        0.0001
+                    0.0001     0.0001                                                 0.0001             0.0001        0.0
+
+
+
+  Figure 16B–8                         Peak rate factor = 250
+
+
+                      1.0
+
+
+                      0.9
+                                                                                                                          Dim hyd
+
+                      0.8
+
+
+                      0.7
+Discharge (non-dim)
+
+
+
+
+                      0.6
+
+
+                      0.5
+
+
+                      0.4
+
+
+                      0.3
+
+
+                      0.2
+
+
+                      0.1
+
+
+                      0.0
+                            0   0.5       1      1.5     2      2.5   3        3.5    4      4.5     5      5.5    6     6.5    7     7.5
+                                                                               Time (non-dim)
+
+
+
+
+16B–8                                                                     (210–VI–NEH, March 2007)
+Chapter 16                                                         Hydrographs                                     Part 630
+                                                                                                                   National Engineering Handbook
+
+
+
+
+Table 16B–9                           Peak rate factor = 200
+
+DIMENSIONLESS UNIT HYDROGRAPH:
+                    0.0        0.5489                                                     0.7911              0.9212         0.983
+                    1.0        0.987                                                      0.954               0.9082         0.8545
+                    0.7966     0.7372                                                     0.6779              0.6203         0.565
+                    0.5128     0.4638                                                     0.4183              0.3763         0.3377
+                    0.3025     0.2704                                                     0.2413              0.2151         0.1914
+                    0.1701     0.151                                                      0.1339              0.1186         0.105
+                    0.0928     0.082                                                      0.0724              0.0638         0.0563
+                    0.0496     0.0437                                                     0.0384              0.0338         0.0297
+                    0.0261     0.0229                                                     0.0201              0.0176         0.0155
+                    0.0136     0.0119                                                     0.0104              0.0091         0.008
+                    0.007      0.0061                                                     0.0054              0.0047         0.0041
+                    0.0036     0.0031                                                     0.0027              0.0024         0.0021
+                    0.0018     0.0016                                                     0.0014              0.0012         0.0011
+                    0.0009     0.0008                                                     0.0007              0.0006         0.0005
+                    0.0005     0.0004                                                     0.0004              0.0003         0.0003
+                    0.0002     0.0002                                                     0.0002              0.0002         0.0001
+                    0.0001     0.0001                                                     0.0001              0.0001         0.0001
+                    0.0001     0.0001                                                     0.0
+
+
+
+Figure 16B–9                           Peak rate factor = 200
+
+
+                      1.0
+
+
+                      0.9                                                                                                          Dim hyd
+
+
+                      0.8
+
+
+                      0.7
+Discharge (non-dim)
+
+
+
+
+                      0.6
+
+
+                      0.5
+
+
+                      0.4
+
+
+                      0.3
+
+
+                      0.2
+
+
+                      0.1
+
+
+                      0.0
+                            0   0.5    1   1.5    2   2.5      3   3.5   4     4.5    5    5.5    6     6.5    7   7.5   8   8.5     9       9.5   10
+                                                                                 Time (non-dim)
+
+
+                                                                             (210–VI–NEH, March 2007)                                                   16B–9
+Chapter 16                              Hydrographs                           Part 630
+                                                                              National Engineering Handbook
+
+
+
+
+Table 16B–10   Peak rate factor = 150
+
+DIMENSIONLESS UNIT HYDROGRAPH:
+                    0.0        0.6869                     0.8635          0.9499       0.9893
+                    1.0        0.9918                     0.971           0.9415       0.9062
+                    0.8673     0.8262                     0.784           0.7415       0.6994
+                    0.6582     0.6181                     0.5794          0.5422       0.5067
+                    0.4729     0.4409                     0.4106          0.382        0.3551
+                    0.3298     0.3061                     0.2839          0.2631       0.2438
+                    0.2257     0.2088                     0.1931          0.1786       0.165
+                    0.1524     0.1407                     0.1299          0.1199       0.1106
+                    0.102      0.094                      0.0866          0.0798       0.0735
+                    0.0677     0.0623                     0.0574          0.0528       0.0486
+                    0.0447     0.0411                     0.0378          0.0348       0.032
+                    0.0294     0.027                      0.0248          0.0228       0.0209
+                    0.0192     0.0177                     0.0162          0.0149       0.0137
+                    0.0126     0.0115                     0.0106          0.0097       0.0089
+                    0.0082     0.0075                     0.0069          0.0063       0.0058
+                    0.0053     0.0049                     0.0045          0.0041       0.0037
+                    0.0034     0.0031                     0.0029          0.0026       0.0024
+                    0.0022     0.002                      0.0019          0.0017       0.0016
+                    0.0014     0.0013                     0.0012          0.0011       0.001
+                    0.0009     0.0008                     0.0008          0.0007       0.0007
+                    0.0006     0.0005                     0.0005          0.0005       0.0004
+                    0.0004     0.0004                     0.0003          0.0003       0.0003
+                    0.0002     0.0002                     0.0002          0.0002       0.0002
+                    0.0002     0.0001                     0.0001          0.0001       0.0001
+                    0.0001     0.0001                     0.0001          0.0001       0.0001
+                    0.0001     0.0001                     0.0001          0.0
+
+
+
+
+16B–10                                         (210–VI–NEH, March 2007)
+Chapter 16                                                       Hydrographs                              Part 630
+                                                                                                          National Engineering Handbook
+
+
+
+
+Figure 16B–10                       Peak rate factor = 150
+
+
+                      1.0
+
+
+                      0.9
+                                                                                                                       Dim hyd
+
+                      0.8
+
+
+                      0.7
+Discharge (non-dim)
+
+
+
+
+                      0.6
+
+
+                      0.5
+
+
+                      0.4
+
+
+                      0.3
+
+
+                      0.2
+
+
+                      0.1
+
+
+                      0.0
+                            0   1    2      3      4         5       6      7       8     9     10   11    12     13    14       15   16
+                                                                               Time (non-dim)
+
+
+
+
+                                                                         (210–VI–NEH, March 2007)                                          16B–11
+Chapter 16                              Hydrographs                           Part 630
+                                                                              National Engineering Handbook
+
+
+
+
+Table 16B–11   Peak rate factor = 100
+
+DIMENSIONLESS UNIT HYDROGRAPH:
+                    0.0        0.8142                     0.9228          0.9722       0.9941
+                    1.0        0.9955                     0.984           0.9675       0.9475
+                    0.925      0.9007                     0.8753          0.849        0.8223
+                    0.7954     0.7685                     0.7417          0.7153       0.6893
+                    0.6637     0.6387                     0.6143          0.5905       0.5674
+                    0.5449     0.5231                     0.5019          0.4815       0.4618
+                    0.4427     0.4243                     0.4065          0.3894       0.3729
+                    0.3571     0.3418                     0.3272          0.3131       0.2996
+                    0.2866     0.2741                     0.2621          0.2506       0.2396
+                    0.229      0.2189                     0.2092          0.1999       0.191
+                    0.1825     0.1743                     0.1665          0.159        0.1519
+                    0.145      0.1385                     0.1322          0.1262       0.1205
+                    0.115      0.1098                     0.1048          0.1          0.0954
+                    0.091      0.0869                     0.0829          0.0791       0.0754
+                    0.072      0.0686                     0.0655          0.0624       0.0596
+                    0.0568     0.0542                     0.0517          0.0493       0.047
+                    0.0448     0.0427                     0.0407          0.0388       0.037
+                    0.0353     0.0336                     0.0321          0.0306       0.0291
+                    0.0278     0.0265                     0.0252          0.024        0.0229
+                    0.0218     0.0208                     0.0198          0.0189       0.018
+                    0.0172     0.0164                     0.0156          0.0148       0.0141
+                    0.0135     0.0128                     0.0122          0.0117       0.0111
+                    0.0106     0.0101                     0.0096          0.0091       0.0087
+                    0.0083     0.0079                     0.0075          0.0072       0.0068
+                    0.0065     0.0062                     0.0059          0.0056       0.0054
+                    0.0051     0.0049                     0.0046          0.0044       0.0042
+                    0.004      0.0038                     0.0036          0.0035       0.0033
+                    0.0031     0.003                      0.0028          0.0027       0.0026
+                    0.0025     0.0023                     0.0022          0.0021       0.002
+                    0.0019     0.0018                     0.0017          0.0017       0.0016
+                    0.0015     0.0
+
+
+
+
+16B–12                                         (210–VI–NEH, March 2007)
+Chapter 16                                                       Hydrographs                                      Part 630
+                                                                                                                  National Engineering Handbook
+
+
+
+
+Figure 16B–11                           Peak rate factor = 100
+
+
+                      1.0
+
+
+                      0.9
+                                                                                                                                  Dim hyd
+
+                      0.8
+
+
+                      0.7
+Discharge (non-dim)
+
+
+
+
+                      0.6
+
+
+                      0.5
+
+
+                      0.4
+
+
+                      0.3
+
+
+                      0.2
+
+
+                      0.1
+
+
+                      0.0
+                            0   1   2    3    4   5    6    7    8   9   10    11   12   13   14   15   16   17    18   19   20    21   22   23   24
+                                                                               Time (non-dim)
+
+
+
+
+                                                                         (210–VI–NEH, March 2007)                                                      16B–13
+

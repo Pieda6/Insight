@@ -1,0 +1,29 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/sediment-basin-routing"
+description = "Simulate a wet season of runoff and sediment basin routing for 12 construction sites in Puerto Rico: from 6-minute rain gauge records, drainage areas whose curve numbers change as they are graded and stabilized, and trapezoidal basins with dewatering orifices, risers and emergency spillways (some in series), compute each basin's peak inflow, peak outflow, peak water surface elevation and spillway flow for every storm, using the NRCS curve number and dimensionless unit hydrograph methods (NEH Part 630) and HEC-22 stage-storage-discharge relations with storage-indication routing."
+
+[metadata]
+domain = "Engineering"
+field = "Civil Engineering"
+subfield = "Water Resources and Stormwater Hydrology"
+tags = ["hydrology", "detention-routing", "storage-indication", "nrcs-curve-number", "unit-hydrograph", "sediment-basin", "hec-22", "python"]
+expert_time_estimate_hours = 15
+relevant_experience = "Water resources engineering: NRCS curve number runoff and unit hydrograph methods (TR-55, TR-20, NEH Part 630), detention and sediment basin design, outlet structure rating with orifice and weir equations, and storage-indication (modified Puls) routing."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0

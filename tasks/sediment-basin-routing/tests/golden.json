@@ -1,0 +1,103 @@
+{
+ "examples": [
+  {
+   "check": "runoff",
+   "cn": 74,
+   "expect": 1.82,
+   "rain_in": 4.3,
+   "source": "NEH 630.10 example 10-1",
+   "tol": 0.005
+  },
+  {
+   "check": "runoff",
+   "cn": 80,
+   "expect": 0.72,
+   "rain_in": 2.25,
+   "source": "NEH 630.10 table 10-2",
+   "tol": 0.005
+  },
+  {
+   "check": "runoff",
+   "cn": 80,
+   "expect": 2.89,
+   "rain_in": 5.0,
+   "source": "NEH 630.10 table 10-2",
+   "tol": 0.005
+  },
+  {
+   "check": "tp",
+   "dd_h": 0.3,
+   "expect": 1.53,
+   "source": "NEH 630.16 example 16-1",
+   "tc_h": 2.3,
+   "tol": 0.005
+  },
+  {
+   "check": "qp",
+   "dd_h": 0.3,
+   "expect": 1455,
+   "source": "NEH 630.16 example 16-1",
+   "sq_mi": 4.6,
+   "tc_h": 2.3,
+   "tol": 1.0
+  },
+  {
+   "c": 0.6,
+   "check": "orifice",
+   "depth_ft": 3.3,
+   "diameter_ft": 0.49,
+   "expect": 1.59,
+   "source": "HEC-22 example 10.10",
+   "tol": 0.005
+  },
+  {
+   "check": "riser",
+   "co": 0.6,
+   "cw": 0.41,
+   "diameter_ft": 1.74,
+   "expect": 3.5,
+   "head_ft": 0.33,
+   "source": "HEC-22 example 10.11 (L = 5.5 ft; the printed 3.5 uses a rounded 18.32 constant, the equation gives 3.43)",
+   "tol": 0.1,
+   "weir_length_ft": 5.5
+  },
+  {
+   "check": "riser",
+   "co": 0.6,
+   "cw": 0.41,
+   "diameter_ft": 1.74,
+   "expect": 13.1,
+   "head_ft": 1.31,
+   "source": "HEC-22 example 10.11 (L = 5.5 ft)",
+   "tol": 0.05,
+   "weir_length_ft": 5.5
+  },
+  {
+   "D": 2,
+   "L": 100,
+   "W": 50,
+   "Z": 3,
+   "check": "storage",
+   "expect": 11896,
+   "source": "HEC-22 eq. 10.10 (L 100, W 50, Z 3, D 2)",
+   "tol": 0.5
+  }
+ ],
+ "rows": {
+  "S05|S05-B1|2026-04-20T10:00": {
+   "peak_inflow_cfs": 0.108
+  },
+  "S05|S05-B1|2026-05-01T03:00": {
+   "peak_inflow_cfs": 9.67
+  },
+  "S11|S11-B1|2026-04-14T14:00": {
+   "peak_inflow_cfs": 48.762
+  },
+  "S11|S11-B1|2026-05-02T13:00": {
+   "peak_inflow_cfs": 63.709
+  },
+  "S11|S11-B1|2026-06-09T16:30": {
+   "peak_inflow_cfs": 3.547
+  }
+ }
+}

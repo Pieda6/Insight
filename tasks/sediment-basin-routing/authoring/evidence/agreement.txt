@@ -1,0 +1,4 @@
+rows: solution 1432, engine 1432, generator 1432
+same basin-storm keys in all three: True
+engine vs generator (unrounded): max |peak inflow| 2.96e-07 cfs, max |peak outflow| 1.32e-06 cfs, max |peak stage| 5.91e-08 ft, spillway disagreements 0
+solution (3 decimals) vs engine: max |peak inflow| 5.00e-04 cfs, max |peak outflow| 5.00e-04 cfs, max |peak stage| 5.00e-04 ft, spillway disagreements 0

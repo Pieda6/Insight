@@ -1,0 +1,86 @@
+                                                                                                                     Urban Hydrology for Small Watersheds
+
+
+
+
+Table 2-2a              Runoff curve numbers for urban areas 1/
+
+
+
+                                                                                                                                   Curve numbers for
+------------------------------------------- Cover description -----------------------------------------               -----------hydrologic soil group -------------
+                                                                                         Average percent
+     Cover type and hydrologic condition                                              impervious area 2/              A             B             C            D
+
+Fully developed urban areas (vegetation established)
+
+Open space (lawns, parks, golf courses, cemeteries, etc.) 3/:
+       Poor condition (grass cover < 50%) ..........................................                                 68            79            86           89
+       Fair condition (grass cover 50% to 75%) ..................................                                    49            69            79           84
+       Good condition (grass cover > 75%) .........................................                                  39            61            74           80
+Impervious areas:
+   Paved parking lots, roofs, driveways, etc.
+       (excluding right-of-way) .............................................................                        98            98            98           98
+   Streets and roads:
+       Paved; curbs and storm sewers (excluding
+       right-of-way) ................................................................................                98            98            98           98
+       Paved; open ditches (including right-of-way) ..........................                                       83            89            92           93
+       Gravel (including right-of-way) .................................................                             76            85            89           91
+       Dirt (including right-of-way) ......................................................                          72            82            87           89
+Western desert urban areas:
+   Natural desert landscaping (pervious areas only) 4/ .....................                                         63            77            85           88
+   Artificial desert landscaping (impervious weed barrier,
+       desert shrub with 1- to 2-inch sand or gravel mulch
+       and basin borders) ......................................................................                     96            96            96           96
+Urban districts:
+   Commercial and business .................................................................                    85   89            92            94           95
+   Industrial .............................................................................................     72   81            88            91           93
+Residential districts by average lot size:
+   1/8 acre or less (town houses) ..........................................................                    65   77            85            90           92
+   1/4 acre ................................................................................................    38   61            75            83           87
+   1/3 acre ................................................................................................    30   57            72            81           86
+   1/2 acre ................................................................................................    25   54            70            80           85
+   1 acre ...................................................................................................   20   51            68            79           84
+   2 acres ..................................................................................................   12   46            65            77           82
+
+Developing urban areas
+
+Newly graded areas
+  (pervious areas only, no vegetation) 5/ ................................................................           77            86            91           94
+
+Idle lands (CN’s are determined using cover types
+    similar to those in table 2-2c).
+1 Average runoff condition, and Ia = 0.2S.
+2 The average percent impervious area shown was used to develop the composite CN’s. Other assumptions are as follows: impervious areas are
+  directly connected to the drainage system, impervious areas have a CN of 98, and pervious areas are considered equivalent to open space in
+  good hydrologic condition. CN’s for other combinations of conditions may be computed using figure 2-3 or 2-4.
+3 CN’s shown are equivalent to those of pasture. Composite CN’s may be computed for other combinations of open space
+
+  cover type.
+4 Composite CN’s for natural desert landscaping should be computed using figures 2-3 or 2-4 based on the impervious area percentage
+
+  (CN = 98) and the pervious area CN. The pervious area CN’s are assumed equivalent to desert shrub in poor hydrologic condition.
+5 Composite CN’s to use for the design of temporary measures during grading and construction should be computed using figure 2-3 or 2-4
+
+  based on the degree of development (impervious area percentage) and the CN’s for the newly graded pervious areas.
+
+
+
+
+                                                                            (210-VI-TR-55, Second Ed., June 1986)                                                  2–5
+Chapter 2                                                    Estimating Runoff                                   Technical Release 55
+                                                                                                                 Urban Hydrology for Small Watersheds
+
+
+
+
+Table 2-2b           Runoff curve numbers for cultivated agricultural lands 1/
+
+
+                                                                                                                            Curve numbers for
+------------------------------------------ Cover description ---------------------------------------------   ------------- hydrologic soil group ----------------
+                                                                                        Hydrologic
+Cover type                          Treatment 2/                                        condition 3/            A               B              C              D
+
+Fallow                          Bare soil                                                      —               77              86             91             94
+                                Crop residue cover (CR)                                       Poor             76              85             90             93
