@@ -4,6 +4,8 @@ Tracks the amount of drug in the body from event to event (state propagation) fo
 zero-order infusion segments and first-order elimination. The elimination rate is found from the two usable
 levels by a bracketed secant method on the log of the concentration ratio.
 """
+import sys
+sys.dont_write_bytecode = True       # never leave __pycache__ in the submitted task folder
 import math
 
 

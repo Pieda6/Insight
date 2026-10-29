@@ -19,6 +19,8 @@ ends. Every patient keeps at least 0.6 percent between AUC24 and 400 or 600 and 
 and a rounding midpoint (more than the 0.5 percent tolerance; the MIC is 1 mg/L for everyone, Recommendation 6), and exactly one solution for the elimination rate between 0.0001 and
 3 per hour.
 """
+import sys
+sys.dont_write_bytecode = True       # never leave __pycache__ in the submitted task folder
 import csv
 import datetime as dt
 import json

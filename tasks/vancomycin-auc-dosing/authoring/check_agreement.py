@@ -3,6 +3,8 @@
 
 Usage: python3 check_agreement.py      (from authoring/)
 """
+import sys
+sys.dont_write_bytecode = True       # never leave __pycache__ in the submitted task folder
 import csv
 import math
 import sys

@@ -7,6 +7,8 @@ Each shortcut is a plausible misreading of the guideline, the records or the ins
 solution/solve.py text. A shortcut is caught when at least one test fails; the number of wrong patients shows how
 widely it shows up.
 """
+import sys
+sys.dont_write_bytecode = True       # never leave __pycache__ in the submitted task folder
 import csv
 import sys
 from pathlib import Path
