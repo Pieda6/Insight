@@ -7,7 +7,7 @@ These files are not copied into the agent or verifier images. Run them from this
   `../tests/data`). True clearance comes from Cockcroft-Gault creatinine clearance (0.05 L/h per mL/min, times
   0.8 to 1.25) and true volume is about 0.7 L/kg (times 0.75 to 1.3). Regimens follow the guideline: maintenance
   doses sized for a spread of exposures every 8, 12 or 24 hours, loading doses of 20 to 35 mg/kg actual weight up
-  to 3,000 mg for 70 percent of patients, bags of at most 5 mg/mL, and at least 1 hour per 1,000 mg. Records
+  to 3,000 mg (184 of the 240 patients have a loading dose order; 49 have an order change), bags of at most 5 mg/mL, and at least 1 hour per 1,000 mg. Records
   include late and early starts, held doses, pauses, rate changes, partly given infusions and order changes.
   Two usable levels follow one of four patterns (steady-state peak and trough in one interval, trough then peak
   around one dose, first-day levels, peak and trough two intervals apart), with assay noise of up to 8 percent,
@@ -22,7 +22,10 @@ These files are not copied into the agent or verifier images. Run them from this
   mg) and page 845 (peak drawn at least 1 hour after the end of the infusion).
 
 ## Evidence (outputs saved in `evidence/`)
-- `check_agreement.py` -> `evidence/agreement.txt`: solution, engine and generator agree on all 240 patients.
+- `check_agreement.py` -> `evidence/agreement.txt`: solution, engine and generator agree on all 240 patients; it
+  also prints the per-family patient counts, the closest values to the target edges and rounding midpoints, and
+  the check that every patient has exactly one elimination-rate solution. Every count quoted in the READMEs comes
+  from this file or from `evidence/generate_output.txt`.
 - `local_check.py ..` -> `evidence/local_check.txt`: oracle passes every test, empty output fails.
 - `calibrate.py` -> `evidence/calibration.txt`: 20 shortcut solutions and how many patients each gets wrong.
 - `generate.py` -> `evidence/generate_output.txt`: counts of patterns, exposures, irregularities and planted values.
