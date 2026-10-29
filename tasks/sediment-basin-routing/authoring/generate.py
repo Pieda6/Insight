@@ -2,7 +2,7 @@
 """Generate the sediment-basin-routing inputs (authoring tool; not part of the agent or verifier images).
 
 Writes identical data to ../environment/data and ../tests/data, plus ../tests/golden.json (published NEH, TR-55
-and HEC-22 worked examples, and peak inflows of planted storms worked by hand) and ../tests/case_tags.json.
+and HEC-22 worked examples, and peak inflows of planted storms worked by hand).
 Random cases are adjusted until no spillway answer lies within 0.002 ft of a crest, so careful implementations
 cannot disagree on a yes/no.
 """
@@ -415,7 +415,6 @@ def main():
             (p / name).write_text(json.dumps(obj, indent=1) + "\n")
     (ROOT / "tests" / "golden.json").write_text(json.dumps({"rows": golden_rows, "examples": EXAMPLES}, indent=1,
                                                            sort_keys=True) + "\n")
-    (ROOT / "tests" / "case_tags.json").write_text(json.dumps(tags, indent=1, sort_keys=True) + "\n")
     print(f"sites {len(sites)}, rows {total}, rain intervals {len(rain_out)}, state records {len(states_out)}")
 
 

@@ -4,7 +4,7 @@ These files are not copied into the agent or verifier images. Run them from this
 
 ## Provenance
 - `generate.py` (seed 61717) builds the 12 sites (9 random, 3 planted), writes both data copies
-  (`../environment/data`, `../tests/data`), `../tests/golden.json` and `../tests/case_tags.json`.
+  (`../environment/data`, `../tests/data`), and `../tests/golden.json`.
   Rainfall is a 6-minute tipping-bucket record of Puerto Rico wet-season storms, with heavier storms from August
   and storm gaps placed just under and over six hours. Curve numbers are TR-55 table 2-2a values by soil group
   (open space good / newly graded / open space fair for the undisturbed, disturbed and stabilized states);

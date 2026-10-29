@@ -224,7 +224,7 @@ def expected(full=False):
     sites = json.loads((DATA / "sites.json").read_text())
     gauge = defaultdict(dict)
     for r in json.loads((DATA / "rain_gauge.json").read_text()):
-        gauge[r["site_id"]][point(r["interval_start"])] = int(r["rain_in"].replace(".", ""))
+        gauge[r["site_id"]][point(r["interval_start"])] = int(round(float(r["rain_in"]) * 100))
     hist = defaultdict(list)
     for r in json.loads((DATA / "area_states.json").read_text()):
         hist[r["area_id"]].append((point(r["effective_date"] + "T00:00"), r["state"]))
