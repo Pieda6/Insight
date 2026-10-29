@@ -184,7 +184,7 @@ def usable(t, spans):
 
 def make_patient(rng, idx):
     p = Patient(rng, idx)
-    pattern = rng.choice(["ss_same", "ss_same", "trough_peak", "first_day", "spread"])
+    pattern = rng.choice(["ss_same", "trough_peak", "trough_peak", "first_day", "first_day", "spread", "spread"])
     k = {"ss_same": rng.randint(3, 5), "trough_peak": rng.randint(3, 5), "first_day": 0, "spread": rng.randint(2, 4)}[pattern]
     admins = p.build_doses(k + 4)
     given = [a for a in admins if not a["held"]]

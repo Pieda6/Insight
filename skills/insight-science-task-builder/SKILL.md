@@ -146,8 +146,9 @@ the scientifically-grounded review (vancomycin-auc-dosing) has all of these:
    short settled point.
 5. **Exact decisions near thresholds**: many cases planted just inside and outside each boundary
    (0.05 to 0.6 percent, 0.002 to 0.03 ft, 55 to 65 minutes), with a guaranteed minimum margin.
-6. **A lean instruction** (450 to 600 words) that cites the standard, describes the data, settles
-   only the true ambiguities as "the practice settles these points", and specifies the output.
+6. **A lean instruction** (350 to 550 words) that cites the standard, describes the data, gives one
+   model sentence, a short Restrictions list, and the output spec. Rules the standard states are cited,
+   never restated. vancomycin v1 (all settled points spelled out) was solved 2/2 in 56 minutes.
 7. **An independent verifier** recomputing everything from a private data copy, checked against
    published worked examples.
 

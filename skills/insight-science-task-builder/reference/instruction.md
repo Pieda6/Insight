@@ -1,6 +1,6 @@
 # Writing instruction.md
 
-The instruction is a brief from a real office to a professional. 450 to 600 words. No em dashes.
+The instruction is a brief from a real office to a professional. 350 to 550 words. No em dashes.
 It must pass artificiality A1 to A7 and must not hand over the method.
 
 ## Structure (four paragraphs and a list)
@@ -26,6 +26,10 @@ It must pass artificiality A1 to A7 and must not hand over the method.
    add extra columns, blank lines or explanations."
 5. The fixed last line, exactly:
    `You have 28800 seconds to complete this task. Do not cheat by using online solutions or hints specific to this task.`
+
+## Restrictions list
+
+After the model sentence, add a short "Restrictions:" list of two to four "Do not ..." lines that rule out real alternative methods or readings a professional could choose (population priors, using orders instead of the administration record, intermediate rounding). Each must change the output, so the tests enforce it. Do not ban tools or libraries (rubric requirements_verifiable).
 
 ## Never
 

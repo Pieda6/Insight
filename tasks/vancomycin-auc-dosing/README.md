@@ -20,10 +20,10 @@ solved from the ratio of the two levels. Choosing the two usable levels means di
 specimens and results below the reporting limit, and levels drawn while an infusion was running (pauses included)
 or less than an hour after it actually stopped (the guideline's postdistributional sampling window), judged
 against the documented stop, not the scheduled one. The MIC changes the target only when measured by broth
-microdilution, as the guideline advises. The data holds 240 patients, 215 with irregular records, 130 with
-mistimed levels and 41 with first-day levels. 44 patients have AUC24/MIC within 0.6 percent of 400 or 600 (40 of
-them planted by the generator), 50 have an unrounded new dose within 5 mg of a 250 mg rounding midpoint (37
-planted), and 119 have a level drawn within 6 minutes of one hour after an infusion stopped (counts in
+microdilution, as the guideline advises. The data holds 240 patients, 204 with irregular records, 144 with
+mistimed levels, 50 with first-day levels and 146 with a dose given between their two levels. 41 patients have
+AUC24/MIC within 0.6 percent of 400 or 600 (37 of them planted by the generator), 48 have an unrounded new dose
+within 5 mg of a 250 mg rounding midpoint (39 planted), and 124 have a level drawn within 6 minutes of one hour after an infusion stopped (counts in
 authoring/evidence/agreement.txt and generate_output.txt). Each of 20 shortcuts tried (the steady-state equations, ignoring pauses,
 partial volumes or held doses, nominal infusion times, keeping mistimed levels, any-method MICs, other rounding,
 trapezoid or doubled AUCs) gets many patients right and others wrong. The patients are synthetic but follow the

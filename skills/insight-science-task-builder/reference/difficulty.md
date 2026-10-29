@@ -15,7 +15,8 @@ applied to real-looking data, where the natural shortcut gives near-right answer
 | stormwater-inspection-audit | Science (Civil) | failed scientifically-grounded | a regulatory rule engine is not science |
 | sediment-basin-routing | Science (Civil) | solved 2/2 twice (27 and 43 min) | an 850-word instruction that listed every convention and trap, plus 0.5 percent tolerances, turned a hard simulation into a recipe |
 | storm-drain-energy | Science (Civil) | static pass after rename; later stages pending | HEC-22 Section 9.4 network grade lines with the FHWA access hole method |
-| vancomycin-auc-dosing | Science (Medicine) | static, artificiality A1-A7, authoring review and scientifically-grounded all PASS after one counts fix | the pattern in SKILL.md section 4 |
+| vancomycin-auc-dosing v1 | Science (Medicine) | static, artificiality, oracle/nop, similarity, rubric all PASS; Pass@2 solved 2/2 (56 min) | the instruction defined the model exactly (superposition through both levels), listed which levels count, gave the MIC rule: every settled point removed a trap. All gates before Pass@2 pass with this design, so keep the structure and cut the instruction |
+| vancomycin-auc-dosing v2 | Science (Medicine) | pending | 379-word instruction: request, data, one model sentence, a Restrictions list (no Bayesian or population priors; only the administration record counts; no intermediate rounding), output spec; guideline rules cited not restated; more non-steady-state level patterns |
 
 ## Patterns that work
 
@@ -33,6 +34,10 @@ applied to real-looking data, where the natural shortcut gives near-right answer
    table columns, a first-match order in a table.
 5. **Long continuous or networked computation** where an early error propagates (an outfall to
    every upstream structure; a whole dosing history into each level).
+
+## The instruction-length lesson
+
+Every rule written into instruction.md is one the agent no longer has to know. Keep only what the standard does not settle, phrase choices among real alternatives as short Restrictions ("Do not use Bayesian estimation or population priors"), and cite the standard for everything it defines. Restrictions must change the answer (so they are verifiable through the output); never ban tools.
 
 ## Patterns that fail
 

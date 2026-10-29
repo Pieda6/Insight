@@ -1,12 +1,12 @@
-patients 240; exposure {'above': 111, 'below': 66, 'within': 63}; patterns {'ss_same': 95, 'trough_peak': 49, 'spread': 55, 'first_day': 41}
-MIC used {1.0: 195, 0.5: 32, 2.0: 13}
-partly given infusions: 119
-paused infusions: 188
-planted AUC24/MIC near 400 or 600: 40
-planted dose near a 250 mg rounding step: 37
-rate changes: 173
-redrawn: 18
-unusable result (baseline): 58
-unusable result (during): 73
-unusable result (early): 80
-unusable result (rejected): 42
+patients 240; exposure {'above': 116, 'within': 69, 'below': 55}; patterns {'ss_same': 45, 'trough_peak': 71, 'first_day': 50, 'spread': 74}
+MIC used {1.0: 210, 2.0: 9, 0.5: 21}
+partly given infusions: 122
+paused infusions: 176
+planted AUC24/MIC near 400 or 600: 37
+planted dose near a 250 mg rounding step: 39
+rate changes: 164
+redrawn: 23
+unusable result (baseline): 59
+unusable result (during): 91
+unusable result (early): 82
+unusable result (rejected): 49

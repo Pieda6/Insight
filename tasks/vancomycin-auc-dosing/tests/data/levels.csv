@@ -7,726 +7,748 @@ VP-0001,L22508683,2026-05-11 05:18,"Vancomycin, random",Unlabeled specimen - rej
 VP-0002,L37014320,2026-03-19 23:50,"Vancomycin, random",14.1,mg/L
 VP-0002,L68538868,2026-03-20 03:49,"Vancomycin, random",47.0 H,mg/L
 VP-0002,L24018412,2026-03-20 13:54,Vancomycin level,44.1 H,mg/L
-VP-0003,L31601904,2026-04-29 00:48,"Vancomycin, trough",11.0,mg/L
-VP-0003,L24647354,2026-04-30 00:54,"Vancomycin, trough",20.7,mg/L
-VP-0003,L41144612,2026-05-01 10:43,Vancomycin level,16.7,mg/L
-VP-0004,L71085829,2026-04-03 10:18,"Vancomycin, peak",21.6,mg/L
-VP-0004,L50807048,2026-04-03 13:25,"Vancomycin, trough",26.3,mg/L
-VP-0005,L93540096,2026-05-11 18:30,"Vancomycin, peak",7.6,mg/L
-VP-0005,L37517255,2026-05-12 08:06,"Vancomycin, peak",12.2,mg/L
-VP-0005,L36630384,2026-05-13 05:54,Vancomycin level,4.4,mg/L
-VP-0006,L86749818,2026-04-06 18:26,"Vancomycin, peak",22.9,mg/L
-VP-0006,L90072178,2026-04-07 05:14,Vancomycin level,18.2,mg/L
-VP-0006,L42574202,2026-04-07 14:58,"Vancomycin, random",14.7,mg/L
-VP-0007,L52018177,2026-05-07 10:45,"Vancomycin, random",23.0,mg/L
-VP-0007,L31093556,2026-05-07 13:36,"Vancomycin, peak",31.0,mg/L
-VP-0008,L68382506,2026-05-18 06:49,"Vancomycin, trough",17.1,mg/L
-VP-0008,L16746208,2026-05-18 23:55,Vancomycin level,29.3,mg/L
-VP-0008,L27305309,2026-05-19 12:26,"Vancomycin, trough",QNS - test cancelled,mg/L
-VP-0008,L86990513,2026-05-19 12:38,Vancomycin level,21.1,mg/L
-VP-0009,L57398889,2026-03-11 09:18,Vancomycin level,30.1,mg/L
-VP-0009,L76680121,2026-03-11 14:47,"Vancomycin, random",17.7,mg/L
-VP-0010,L49197320,2026-03-30 20:04,"Vancomycin, trough",<4.0,mg/L
-VP-0010,L15313559,2026-04-05 02:47,"Vancomycin, trough",49.6 H,mg/L
-VP-0010,L66625574,2026-04-06 23:54,"Vancomycin, peak",0.3,mg/L
-VP-0011,L74660516,2026-04-13 11:57,Vancomycin level,<4.0,mg/L
-VP-0011,L97214517,2026-04-16 18:23,"Vancomycin, random",48.7 H,mg/L
-VP-0011,L20092444,2026-04-17 16:36,"Vancomycin, random",19.6,mg/L
-VP-0012,L97134961,2026-04-05 11:59,"Vancomycin, trough",32.2,mg/L
-VP-0012,L95579022,2026-04-05 18:32,"Vancomycin, peak",14.0,mg/L
-VP-0013,L70820111,2026-04-11 22:28,"Vancomycin, random",<4.0,mg/L
-VP-0013,L19796462,2026-04-16 00:13,"Vancomycin, random",20.0,mg/L
-VP-0013,L38314024,2026-04-16 03:18,"Vancomycin, trough",30.0,mg/L
-VP-0013,L39800794,2026-04-17 01:34,Vancomycin level,28.5,mg/L
-VP-0014,L20892910,2026-04-09 03:14,Vancomycin level,<4.0,mg/L
-VP-0014,L27873327,2026-04-09 11:00,"Vancomycin, peak",28.1,mg/L
-VP-0014,L18559881,2026-04-11 08:25,"Vancomycin, peak",4.0,mg/L
-VP-0014,L95078499,2026-04-11 09:47,"Vancomycin, random",16.1,mg/L
-VP-0014,L60252429,2026-04-11 11:27,"Vancomycin, peak",21.8,mg/L
-VP-0015,L54596686,2026-05-12 13:46,"Vancomycin, random",3.3,mg/L
-VP-0015,L22918662,2026-05-12 22:49,"Vancomycin, peak",2.9,mg/L
-VP-0015,L66910261,2026-05-13 00:39,"Vancomycin, trough",5.5,mg/L
-VP-0016,L25491128,2026-04-22 08:30,"Vancomycin, trough",12.1,mg/L
-VP-0016,L29520300,2026-04-23 12:11,"Vancomycin, random",14.4,mg/L
-VP-0016,L78362686,2026-04-23 12:18,"Vancomycin, random",Clotted specimen - rejected,mg/L
-VP-0016,L60939618,2026-04-23 19:12,"Vancomycin, peak",5.7,mg/L
-VP-0017,L68393909,2026-03-24 05:24,"Vancomycin, peak",32.4,mg/L
-VP-0017,L80459836,2026-03-24 12:41,"Vancomycin, random",26.2,mg/L
-VP-0017,L65302762,2026-03-24 15:22,"Vancomycin, random",31.1,mg/L
-VP-0018,L94689013,2026-04-11 10:33,Vancomycin level,<4.0,mg/L
-VP-0018,L27458355,2026-04-14 06:08,"Vancomycin, trough",27.0,mg/L
-VP-0018,L24141899,2026-04-14 12:51,Vancomycin level,19.1,mg/L
-VP-0019,L94468462,2026-03-14 18:08,"Vancomycin, random",15.2,mg/L
-VP-0019,L41523890,2026-03-14 20:17,Vancomycin level,40.6 H,mg/L
-VP-0020,L86400396,2026-04-25 11:59,"Vancomycin, peak",18.0,mg/L
-VP-0020,L59163323,2026-04-26 08:22,"Vancomycin, random",16.2,mg/L
-VP-0021,L50677253,2026-04-20 12:25,"Vancomycin, trough",50.5 H,mg/L
-VP-0021,L39542207,2026-04-22 12:18,"Vancomycin, trough",15.1,mg/L
-VP-0021,L71162798,2026-04-24 09:17,"Vancomycin, peak",4.9,mg/L
-VP-0022,L71924166,2026-03-15 01:27,Vancomycin level,44.1 H,mg/L
-VP-0022,L44988562,2026-03-15 01:49,"Vancomycin, peak",Unlabeled specimen - rejected,mg/L
-VP-0022,L71660792,2026-03-15 01:59,"Vancomycin, peak",42.1 H,mg/L
-VP-0022,L20548961,2026-03-15 10:20,"Vancomycin, trough",26.3,mg/L
-VP-0023,L65159279,2026-05-08 04:23,Vancomycin level,9.4,mg/L
-VP-0023,L87814192,2026-05-11 05:35,"Vancomycin, trough",22.7,mg/L
-VP-0023,L43700824,2026-05-12 03:58,"Vancomycin, peak",15.0,mg/L
-VP-0024,L10417810,2026-05-07 11:25,"Vancomycin, peak",15.4,mg/L
-VP-0024,L20905983,2026-05-09 08:22,"Vancomycin, trough",18.2,mg/L
-VP-0024,L84285699,2026-05-09 11:36,"Vancomycin, trough",30.3,mg/L
-VP-0025,L25196703,2026-05-06 07:12,"Vancomycin, peak",<4.0,mg/L
-VP-0025,L40703455,2026-05-08 23:58,"Vancomycin, random",14.4,mg/L
-VP-0025,L41616124,2026-05-09 09:16,Vancomycin level,10.3,mg/L
-VP-0026,L91618133,2026-04-02 10:49,"Vancomycin, peak",21.8,mg/L
-VP-0026,L76528720,2026-04-02 13:22,Vancomycin level,35.5,mg/L
-VP-0027,L27602296,2026-03-19 22:48,"Vancomycin, random",23.3,mg/L
-VP-0027,L92816499,2026-03-20 20:06,"Vancomycin, random",10.6,mg/L
-VP-0028,L94834775,2026-05-12 01:21,Vancomycin level,<4.0,mg/L
-VP-0028,L96534205,2026-05-12 17:55,Vancomycin level,13.3,mg/L
-VP-0028,L67485085,2026-05-14 05:32,"Vancomycin, random",8.5,mg/L
-VP-0028,L70823260,2026-05-14 08:27,Vancomycin level,23.8,mg/L
-VP-0029,L63018094,2026-05-06 14:02,"Vancomycin, random",12.4,mg/L
-VP-0029,L75184411,2026-05-07 12:08,"Vancomycin, peak",6.5,mg/L
-VP-0030,L68369073,2026-04-10 14:13,Vancomycin level,3.6,mg/L
-VP-0030,L65546071,2026-04-13 17:03,"Vancomycin, peak",47.8 H,mg/L
-VP-0030,L99792610,2026-04-15 17:50,"Vancomycin, peak",37.3,mg/L
-VP-0030,L50284134,2026-04-16 13:03,Vancomycin level,12.1,mg/L
-VP-0031,L36210477,2026-04-03 09:11,"Vancomycin, random",28.1,mg/L
-VP-0031,L77977696,2026-04-03 10:14,Vancomycin level,25.3,mg/L
-VP-0031,L81369012,2026-04-04 11:17,Vancomycin level,25.4,mg/L
-VP-0031,L14355921,2026-04-05 07:37,"Vancomycin, random",13.0,mg/L
-VP-0032,L29721263,2026-04-07 13:57,Vancomycin level,19.3,mg/L
-VP-0032,L25737765,2026-04-07 18:51,"Vancomycin, trough",17.6,mg/L
-VP-0032,L77252546,2026-04-08 01:36,Vancomycin level,13.1,mg/L
-VP-0033,L33476414,2026-05-04 12:02,"Vancomycin, trough",9.9,mg/L
-VP-0033,L21746015,2026-05-06 09:00,"Vancomycin, random",8.7,mg/L
-VP-0033,L40207385,2026-05-06 09:09,Vancomycin level,QNS - test cancelled,mg/L
-VP-0033,L80231857,2026-05-06 11:10,"Vancomycin, peak",14.2,mg/L
-VP-0034,L46005339,2026-05-12 18:57,Vancomycin level,7.7,mg/L
-VP-0034,L67569290,2026-05-13 09:23,"Vancomycin, random",16.5,mg/L
-VP-0034,L63413378,2026-05-14 06:39,"Vancomycin, peak",12.1,mg/L
-VP-0035,L73543965,2026-04-09 21:32,"Vancomycin, random",<4.0,mg/L
-VP-0035,L27833211,2026-04-10 03:05,"Vancomycin, peak",22.9,mg/L
-VP-0035,L48636770,2026-04-10 08:15,"Vancomycin, peak",20.4,mg/L
-VP-0036,L96561400,2026-04-26 14:37,Vancomycin level,29.9,mg/L
-VP-0036,L27655074,2026-04-26 19:34,Vancomycin level,18.8,mg/L
-VP-0037,L87881426,2026-05-17 19:26,"Vancomycin, trough",13.3,mg/L
-VP-0037,L98271913,2026-05-17 23:45,"Vancomycin, random",26.4,mg/L
-VP-0038,L57957703,2026-03-13 05:18,"Vancomycin, random",27.4,mg/L
-VP-0038,L51384398,2026-03-13 07:49,"Vancomycin, trough",56.2 H,mg/L
-VP-0038,L37910950,2026-03-14 05:47,Vancomycin level,38.3,mg/L
-VP-0038,L81615500,2026-03-14 07:19,"Vancomycin, trough",59.2 H,mg/L
-VP-0039,L26201358,2026-03-30 18:53,"Vancomycin, peak",23.9,mg/L
-VP-0039,L99993015,2026-03-31 03:29,"Vancomycin, peak",5.8,mg/L
-VP-0040,L83377324,2026-03-25 09:07,"Vancomycin, peak",44.1 H,mg/L
-VP-0040,L83539354,2026-03-27 06:15,Vancomycin level,20.7,mg/L
-VP-0041,L18129741,2026-05-15 13:47,"Vancomycin, trough",<4.0,mg/L
-VP-0041,L91689496,2026-05-17 15:18,"Vancomycin, trough",7.1,mg/L
-VP-0041,L25984309,2026-05-17 19:18,"Vancomycin, peak",35.6,mg/L
-VP-0041,L77153547,2026-05-18 06:40,Vancomycin level,44.1 H,mg/L
-VP-0042,L89627502,2026-05-01 11:11,Vancomycin level,<4.0,mg/L
-VP-0042,L27145337,2026-05-03 04:01,Vancomycin level,22.7,mg/L
-VP-0042,L64668643,2026-05-03 12:49,"Vancomycin, random",8.0,mg/L
-VP-0043,L44033151,2026-05-09 08:10,"Vancomycin, trough",19.5,mg/L
-VP-0043,L53958563,2026-05-09 13:53,"Vancomycin, peak",11.1,mg/L
-VP-0043,L69472642,2026-05-09 15:36,"Vancomycin, peak",18.6,mg/L
-VP-0044,L18812096,2026-04-27 08:44,"Vancomycin, random",37.3,mg/L
-VP-0044,L66119930,2026-04-27 09:03,"Vancomycin, random",35.7,mg/L
-VP-0044,L69294509,2026-04-27 15:11,"Vancomycin, random",25.4,mg/L
-VP-0044,L55219038,2026-04-27 15:16,Vancomycin level,Specimen hemolyzed - recollect,mg/L
-VP-0044,L67284518,2026-04-27 17:41,"Vancomycin, random",21.5,mg/L
-VP-0045,L51166434,2026-05-16 14:35,Vancomycin level,QNS - test cancelled,mg/L
-VP-0045,L82699843,2026-05-16 14:52,"Vancomycin, peak",12.5,mg/L
-VP-0045,L83604582,2026-05-16 20:43,"Vancomycin, random",7.3,mg/L
-VP-0045,L99905982,2026-05-17 01:07,"Vancomycin, peak",8.1,mg/L
-VP-0045,L89113106,2026-05-17 02:19,"Vancomycin, random",20.3,mg/L
-VP-0046,L17222087,2026-03-17 15:12,"Vancomycin, trough",27.2,mg/L
-VP-0046,L49533841,2026-03-17 22:39,Vancomycin level,7.0,mg/L
-VP-0046,L96399262,2026-03-18 00:31,"Vancomycin, random",24.0,mg/L
-VP-0047,L42458341,2026-05-17 14:39,"Vancomycin, peak",<4.0,mg/L
-VP-0047,L48866242,2026-05-18 17:27,"Vancomycin, trough",25.5,mg/L
-VP-0047,L21814209,2026-05-19 04:10,"Vancomycin, trough",20.8,mg/L
-VP-0047,L57346914,2026-05-20 02:56,"Vancomycin, trough",11.7,mg/L
-VP-0047,L60123090,2026-05-20 05:40,Vancomycin level,21.0,mg/L
-VP-0048,L52958687,2026-04-03 06:18,"Vancomycin, peak",5.8,mg/L
-VP-0048,L30876264,2026-04-03 08:42,"Vancomycin, peak",13.5,mg/L
-VP-0048,L64134997,2026-04-04 06:10,"Vancomycin, random",6.6,mg/L
-VP-0049,L50581725,2026-03-18 08:26,"Vancomycin, random",26.3,mg/L
-VP-0049,L22130574,2026-03-18 10:24,Vancomycin level,27.1,mg/L
-VP-0049,L60510821,2026-03-18 19:41,"Vancomycin, trough",13.1,mg/L
-VP-0050,L95736384,2026-03-14 03:35,"Vancomycin, trough",21.0,mg/L
-VP-0050,L44840365,2026-03-15 15:42,"Vancomycin, trough",30.0,mg/L
-VP-0050,L23922884,2026-03-15 23:42,Vancomycin level,15.7,mg/L
-VP-0051,L57488086,2026-03-22 19:35,"Vancomycin, peak",<4.0,mg/L
-VP-0051,L58341108,2026-03-24 15:32,"Vancomycin, random",13.1,mg/L
-VP-0051,L85984226,2026-03-24 21:16,"Vancomycin, random",7.4,mg/L
-VP-0051,L61283295,2026-03-24 22:22,"Vancomycin, trough",14.1,mg/L
-VP-0052,L46025129,2026-03-27 16:34,"Vancomycin, trough",25.2,mg/L
-VP-0052,L36365337,2026-03-28 14:14,Vancomycin level,11.8,mg/L
-VP-0052,L59030566,2026-03-28 15:59,"Vancomycin, trough",30.9,mg/L
-VP-0053,L78126781,2026-04-06 15:00,Vancomycin level,<4.0,mg/L
-VP-0053,L30720840,2026-04-08 06:37,"Vancomycin, trough",13.7,mg/L
-VP-0053,L25930648,2026-04-09 08:25,"Vancomycin, trough",23.4,mg/L
-VP-0053,L58004401,2026-04-09 08:36,"Vancomycin, random",Specimen hemolyzed - recollect,mg/L
-VP-0053,L95652899,2026-04-09 18:08,"Vancomycin, trough",14.0,mg/L
-VP-0054,L50656316,2026-04-30 07:53,"Vancomycin, peak",20.8,mg/L
-VP-0054,L33958394,2026-04-30 14:00,Vancomycin level,17.9,mg/L
-VP-0055,L64024965,2026-04-10 04:08,"Vancomycin, peak",21.1,mg/L
-VP-0055,L28792032,2026-04-11 02:20,"Vancomycin, peak",13.8,mg/L
-VP-0055,L17920968,2026-04-11 03:24,Vancomycin level,19.4,mg/L
-VP-0056,L30655342,2026-04-04 06:25,"Vancomycin, random",<4.0,mg/L
-VP-0056,L69358981,2026-04-06 22:03,"Vancomycin, peak",17.8,mg/L
-VP-0056,L81100768,2026-04-07 02:38,"Vancomycin, trough",25.5,mg/L
-VP-0057,L56155257,2026-03-10 09:41,"Vancomycin, random",<4.0,mg/L
-VP-0057,L66150396,2026-03-11 22:47,"Vancomycin, trough",6.9,mg/L
-VP-0057,L49608280,2026-03-12 21:57,"Vancomycin, random",12.2,mg/L
-VP-0057,L99718343,2026-03-12 22:03,"Vancomycin, peak",Clotted specimen - rejected,mg/L
-VP-0057,L69955719,2026-03-13 01:39,"Vancomycin, peak",16.5,mg/L
-VP-0058,L68450127,2026-04-16 02:15,"Vancomycin, trough",35.4,mg/L
-VP-0058,L19865342,2026-04-16 10:57,"Vancomycin, random",24.7,mg/L
-VP-0058,L56330057,2026-04-16 12:54,Vancomycin level,38.2,mg/L
-VP-0059,L59690957,2026-05-17 01:39,"Vancomycin, trough",<4.0,mg/L
-VP-0059,L58617586,2026-05-18 03:22,"Vancomycin, peak",8.1,mg/L
-VP-0059,L26434767,2026-05-19 06:06,"Vancomycin, peak",17.6,mg/L
-VP-0059,L40026485,2026-05-21 02:18,Vancomycin level,8.7,mg/L
-VP-0060,L90647484,2026-04-02 21:47,Vancomycin level,7.6,mg/L
-VP-0060,L29896015,2026-04-03 00:55,Vancomycin level,20.8,mg/L
-VP-0061,L75780670,2026-03-22 16:32,Vancomycin level,18.5,mg/L
-VP-0061,L14519262,2026-03-22 17:43,Vancomycin level,17.1,mg/L
-VP-0061,L15200977,2026-03-24 12:36,"Vancomycin, random",5.9,mg/L
-VP-0062,L95762255,2026-05-01 11:19,Vancomycin level,68.1 H,mg/L
-VP-0062,L76243053,2026-05-02 06:52,Vancomycin level,Clotted specimen - rejected,mg/L
-VP-0062,L19949820,2026-05-02 07:09,"Vancomycin, random",15.9,mg/L
-VP-0063,L82915343,2026-03-31 20:15,"Vancomycin, trough",39.4,mg/L
-VP-0063,L17178503,2026-04-01 03:19,"Vancomycin, peak",28.0,mg/L
-VP-0063,L38307623,2026-04-01 05:28,Vancomycin level,39.0,mg/L
-VP-0064,L40223062,2026-05-08 19:21,"Vancomycin, peak",18.6,mg/L
-VP-0064,L84304149,2026-05-08 20:42,Vancomycin level,13.1,mg/L
-VP-0064,L69460484,2026-05-09 05:36,"Vancomycin, random",Specimen hemolyzed - recollect,mg/L
-VP-0064,L69809445,2026-05-09 05:39,Vancomycin level,10.3,mg/L
-VP-0064,L98002129,2026-05-09 06:17,"Vancomycin, peak",18.4,mg/L
-VP-0065,L65460675,2026-03-21 12:03,Vancomycin level,<4.0,mg/L
-VP-0065,L12663466,2026-03-24 16:22,"Vancomycin, peak",15.9,mg/L
-VP-0065,L59246049,2026-03-25 13:44,Vancomycin level,6.6,mg/L
-VP-0065,L17532164,2026-03-25 13:48,"Vancomycin, peak",Clotted specimen - rejected,mg/L
-VP-0065,L71917659,2026-03-25 15:52,"Vancomycin, random",21.1,mg/L
-VP-0066,L45137763,2026-05-09 22:48,Vancomycin level,27.6,mg/L
-VP-0066,L65231097,2026-05-10 20:41,"Vancomycin, peak",QNS - test cancelled,mg/L
-VP-0066,L33639464,2026-05-10 20:57,"Vancomycin, trough",16.6,mg/L
-VP-0067,L32036536,2026-04-08 10:47,"Vancomycin, peak",<4.0,mg/L
-VP-0067,L57076698,2026-04-10 14:38,"Vancomycin, trough",35.6,mg/L
-VP-0067,L74705331,2026-04-12 11:24,"Vancomycin, random",26.1,mg/L
-VP-0068,L11171833,2026-03-10 01:48,Vancomycin level,<4.0,mg/L
-VP-0068,L10909150,2026-03-11 06:54,"Vancomycin, peak",QNS - test cancelled,mg/L
-VP-0068,L18496993,2026-03-11 07:12,"Vancomycin, random",15.3,mg/L
-VP-0068,L92788457,2026-03-11 16:23,"Vancomycin, peak",20.5,mg/L
-VP-0068,L64847134,2026-03-12 02:54,"Vancomycin, random",12.0,mg/L
-VP-0069,L35442770,2026-04-26 09:41,Vancomycin level,20.1,mg/L
-VP-0069,L50212614,2026-04-27 11:47,Vancomycin level,39.7,mg/L
-VP-0069,L19487052,2026-04-27 11:54,"Vancomycin, random",40.9 H,mg/L
-VP-0069,L61714442,2026-04-29 09:04,Vancomycin level,18.9,mg/L
-VP-0070,L90831468,2026-05-17 15:44,"Vancomycin, trough",6.1,mg/L
-VP-0070,L64413603,2026-05-17 18:26,"Vancomycin, peak",17.8,mg/L
-VP-0071,L98200912,2026-05-15 00:13,"Vancomycin, trough",30.1,mg/L
-VP-0071,L59527431,2026-05-16 01:58,"Vancomycin, random",27.9,mg/L
-VP-0071,L37665091,2026-05-16 13:03,Vancomycin level,15.4,mg/L
-VP-0072,L60103911,2026-05-04 18:46,Vancomycin level,23.4,mg/L
-VP-0072,L93663692,2026-05-04 19:21,"Vancomycin, random",21.9,mg/L
-VP-0072,L37939247,2026-05-05 03:10,"Vancomycin, random",13.6,mg/L
-VP-0073,L22532100,2026-03-14 07:22,"Vancomycin, trough",44.1 H,mg/L
-VP-0073,L50782813,2026-03-14 14:23,Vancomycin level,27.9,mg/L
-VP-0074,L45120642,2026-04-20 14:42,Vancomycin level,18.4,mg/L
-VP-0074,L64457821,2026-04-21 12:10,"Vancomycin, peak",9.3,mg/L
-VP-0075,L29785016,2026-03-31 00:09,Vancomycin level,20.4,mg/L
-VP-0075,L93194692,2026-03-31 04:09,"Vancomycin, peak",53.3 H,mg/L
-VP-0075,L49130957,2026-04-01 03:32,Vancomycin level,53.4 H,mg/L
-VP-0076,L30199043,2026-04-09 20:19,"Vancomycin, random",35.2,mg/L
-VP-0076,L35102139,2026-04-13 20:35,"Vancomycin, random",30.3,mg/L
-VP-0076,L74838282,2026-04-14 18:04,"Vancomycin, random",10.0,mg/L
-VP-0077,L56347547,2026-03-19 01:00,"Vancomycin, random",<4.0,mg/L
-VP-0077,L49039653,2026-03-19 09:12,"Vancomycin, trough",26.8,mg/L
-VP-0077,L93420542,2026-03-20 08:39,"Vancomycin, random",21.8,mg/L
-VP-0077,L32222565,2026-03-21 05:16,"Vancomycin, trough",18.1,mg/L
-VP-0078,L15219555,2026-04-27 00:44,"Vancomycin, peak",25.3,mg/L
-VP-0078,L66088081,2026-04-27 07:07,Vancomycin level,21.3,mg/L
-VP-0079,L14647114,2026-04-27 09:18,"Vancomycin, trough",<4.0,mg/L
-VP-0079,L98490332,2026-04-28 14:10,"Vancomycin, trough",34.5,mg/L
-VP-0079,L75201483,2026-04-29 09:19,Vancomycin level,10.6,mg/L
-VP-0080,L54775225,2026-03-19 05:23,Vancomycin level,11.2,mg/L
-VP-0080,L69840803,2026-03-20 02:13,"Vancomycin, trough",7.3,mg/L
-VP-0081,L10197739,2026-04-09 14:25,"Vancomycin, random",18.7,mg/L
-VP-0081,L58724153,2026-04-09 17:58,Vancomycin level,35.2,mg/L
-VP-0082,L36417967,2026-05-09 07:59,"Vancomycin, peak",14.0,mg/L
-VP-0082,L99065368,2026-05-12 10:55,"Vancomycin, peak",43.7 H,mg/L
-VP-0082,L43537092,2026-05-13 05:49,"Vancomycin, peak",16.2,mg/L
-VP-0083,L41022352,2026-05-07 12:59,"Vancomycin, random",7.5,mg/L
-VP-0083,L38238371,2026-05-07 15:22,"Vancomycin, random",29.5,mg/L
-VP-0084,L20333056,2026-03-31 07:48,"Vancomycin, trough",16.7,mg/L
-VP-0084,L64337733,2026-03-31 11:11,"Vancomycin, random",31.4,mg/L
-VP-0085,L95451254,2026-03-27 02:29,"Vancomycin, trough",<4.0,mg/L
-VP-0085,L16348462,2026-03-29 05:37,Vancomycin level,23.8,mg/L
-VP-0085,L41727724,2026-03-30 08:15,"Vancomycin, random",18.5,mg/L
-VP-0085,L48384741,2026-03-31 03:17,Vancomycin level,7.8,mg/L
-VP-0086,L37875585,2026-05-03 12:08,"Vancomycin, trough",28.8,mg/L
-VP-0086,L25481489,2026-05-03 19:55,Vancomycin level,13.9,mg/L
-VP-0087,L82931997,2026-05-10 18:22,Vancomycin level,33.2,mg/L
-VP-0087,L64264669,2026-05-12 14:49,Vancomycin level,14.4,mg/L
-VP-0088,L92667104,2026-05-09 08:52,"Vancomycin, peak",36.4,mg/L
-VP-0088,L61860787,2026-05-10 04:26,Vancomycin level,19.4,mg/L
-VP-0089,L84775995,2026-04-30 11:12,Vancomycin level,32.9,mg/L
-VP-0089,L49670612,2026-04-30 11:54,"Vancomycin, peak",34.1,mg/L
-VP-0089,L22479079,2026-04-30 16:04,"Vancomycin, peak",21.4,mg/L
-VP-0089,L19333556,2026-04-30 16:23,Vancomycin level,Clotted specimen - rejected,mg/L
-VP-0090,L88654710,2026-04-04 20:48,"Vancomycin, random",<4.0,mg/L
-VP-0090,L36669247,2026-04-08 02:56,"Vancomycin, random",12.0,mg/L
-VP-0090,L22321252,2026-04-08 05:18,Vancomycin level,17.4,mg/L
-VP-0090,L55818973,2026-04-09 00:45,Vancomycin level,8.3,mg/L
-VP-0091,L56986592,2026-04-20 19:31,"Vancomycin, peak",35.5,mg/L
-VP-0091,L30418916,2026-04-21 04:48,"Vancomycin, peak",22.0,mg/L
-VP-0092,L49128517,2026-05-06 05:33,Vancomycin level,28.3,mg/L
-VP-0092,L56381859,2026-05-08 03:01,"Vancomycin, random",7.8,mg/L
-VP-0093,L83080728,2026-04-13 10:28,"Vancomycin, random",32.3,mg/L
-VP-0093,L55047049,2026-04-15 10:02,"Vancomycin, peak",34.0,mg/L
-VP-0093,L73501310,2026-04-15 13:40,"Vancomycin, random",69.5 H,mg/L
-VP-0094,L63030829,2026-03-31 03:03,"Vancomycin, peak",40.3 H,mg/L
-VP-0094,L77279827,2026-03-31 03:44,Vancomycin level,38.8,mg/L
-VP-0094,L31988990,2026-03-31 04:01,"Vancomycin, peak",Specimen hemolyzed - recollect,mg/L
-VP-0094,L38087786,2026-03-31 12:19,"Vancomycin, random",25.4,mg/L
-VP-0095,L27396687,2026-05-19 15:36,"Vancomycin, trough",12.2,mg/L
-VP-0095,L45602620,2026-05-19 17:57,"Vancomycin, trough",28.9,mg/L
-VP-0095,L24710569,2026-05-20 14:33,Vancomycin level,10.5,mg/L
-VP-0096,L29259051,2026-05-06 04:27,"Vancomycin, random",15.4,mg/L
-VP-0096,L49690657,2026-05-08 04:38,"Vancomycin, peak",8.7,mg/L
-VP-0096,L82520829,2026-05-08 08:05,"Vancomycin, random",24.6,mg/L
-VP-0097,L23322710,2026-05-05 00:05,"Vancomycin, trough",<4.0,mg/L
-VP-0097,L70492130,2026-05-05 14:03,"Vancomycin, random",29.6,mg/L
-VP-0097,L68565542,2026-05-06 02:10,"Vancomycin, random",18.1,mg/L
-VP-0097,L18426551,2026-05-06 06:06,"Vancomycin, random",31.9,mg/L
-VP-0098,L99388053,2026-05-02 12:34,"Vancomycin, random",18.2,mg/L
-VP-0098,L30541548,2026-05-03 23:10,"Vancomycin, random",15.5,mg/L
-VP-0098,L48192447,2026-05-04 03:33,"Vancomycin, random",30.5,mg/L
-VP-0099,L32020530,2026-04-28 19:14,Vancomycin level,13.5,mg/L
-VP-0099,L82113546,2026-04-28 23:12,"Vancomycin, trough",18.2,mg/L
-VP-0100,L87331418,2026-04-24 04:15,"Vancomycin, random",<4.0,mg/L
-VP-0100,L34351851,2026-04-24 11:36,"Vancomycin, peak",15.0,mg/L
-VP-0100,L92580301,2026-04-24 19:09,"Vancomycin, trough",12.3,mg/L
-VP-0101,L45811902,2026-05-16 18:45,"Vancomycin, peak",<4.0,mg/L
-VP-0101,L90153776,2026-05-17 00:35,Vancomycin level,27.6,mg/L
-VP-0101,L43757499,2026-05-17 05:32,Vancomycin level,27.1,mg/L
-VP-0101,L67664846,2026-05-17 08:19,Vancomycin level,24.2,mg/L
-VP-0102,L12928576,2026-04-05 09:13,"Vancomycin, random",24.0,mg/L
-VP-0102,L65145070,2026-04-05 10:02,"Vancomycin, peak",22.2,mg/L
-VP-0102,L52071373,2026-04-05 16:05,"Vancomycin, random",13.1,mg/L
-VP-0103,L89855711,2026-03-28 18:57,"Vancomycin, peak",<4.0,mg/L
-VP-0103,L17372163,2026-03-29 00:25,"Vancomycin, peak",18.2,mg/L
-VP-0103,L66888535,2026-04-02 00:46,"Vancomycin, trough",31.2,mg/L
-VP-0103,L78581807,2026-04-02 21:30,"Vancomycin, random",15.8,mg/L
-VP-0104,L73672076,2026-05-07 22:08,Vancomycin level,35.6,mg/L
-VP-0104,L66459539,2026-05-08 18:00,"Vancomycin, trough",21.6,mg/L
-VP-0105,L19525166,2026-05-07 16:41,"Vancomycin, random",<4.0,mg/L
-VP-0105,L59044109,2026-05-08 22:54,"Vancomycin, peak",33.8,mg/L
-VP-0105,L46393191,2026-05-09 16:45,"Vancomycin, random",18.5,mg/L
-VP-0106,L76487784,2026-04-08 04:34,"Vancomycin, trough",37.0,mg/L
-VP-0106,L26862650,2026-04-08 05:13,"Vancomycin, peak",36.7,mg/L
-VP-0106,L24203995,2026-04-09 01:38,Vancomycin level,10.1,mg/L
-VP-0107,L41855442,2026-04-27 01:31,"Vancomycin, peak",10.5,mg/L
-VP-0107,L68040575,2026-04-27 11:36,"Vancomycin, random",5.8,mg/L
-VP-0108,L82844513,2026-05-03 17:08,Vancomycin level,31.3,mg/L
-VP-0108,L48310814,2026-05-04 02:28,"Vancomycin, peak",10.2,mg/L
-VP-0108,L94484388,2026-05-04 05:30,"Vancomycin, trough",29.6,mg/L
-VP-0109,L54457723,2026-05-17 13:23,"Vancomycin, trough",36.9,mg/L
-VP-0109,L79979634,2026-05-17 21:35,"Vancomycin, random",15.4,mg/L
-VP-0110,L98975174,2026-04-21 11:31,Vancomycin level,25.3,mg/L
-VP-0110,L90339039,2026-04-23 11:11,Vancomycin level,22.0,mg/L
-VP-0110,L10422925,2026-04-24 08:39,"Vancomycin, random",13.5,mg/L
-VP-0111,L12591433,2026-04-24 22:49,Vancomycin level,35.0,mg/L
-VP-0111,L48215030,2026-04-25 17:37,"Vancomycin, peak",16.0,mg/L
-VP-0112,L72807533,2026-05-20 17:03,"Vancomycin, trough",39.9,mg/L
-VP-0112,L36952044,2026-05-20 22:45,Vancomycin level,23.3,mg/L
-VP-0113,L90157519,2026-03-23 08:42,"Vancomycin, peak",21.6,mg/L
-VP-0113,L73393878,2026-03-23 12:54,Vancomycin level,19.2,mg/L
-VP-0114,L84119982,2026-05-12 03:47,"Vancomycin, peak",<4.0,mg/L
-VP-0114,L36560589,2026-05-12 20:01,"Vancomycin, peak",20.8,mg/L
-VP-0114,L30651659,2026-05-14 07:43,Vancomycin level,10.7,mg/L
-VP-0114,L27425205,2026-05-14 17:26,"Vancomycin, peak",6.0,mg/L
-VP-0115,L40518955,2026-05-16 09:12,"Vancomycin, peak",<4.0,mg/L
-VP-0115,L44150617,2026-05-17 03:34,Vancomycin level,24.0,mg/L
-VP-0115,L83145935,2026-05-19 05:00,"Vancomycin, trough",29.9,mg/L
-VP-0115,L66311466,2026-05-19 14:15,"Vancomycin, random",25.4,mg/L
-VP-0115,L77354468,2026-05-19 17:09,"Vancomycin, random",27.9,mg/L
-VP-0116,L50825658,2026-05-07 18:44,"Vancomycin, trough",<4.0,mg/L
-VP-0116,L54430459,2026-05-09 22:26,"Vancomycin, random",5.8,mg/L
-VP-0116,L95085455,2026-05-10 01:14,"Vancomycin, peak",15.1,mg/L
-VP-0117,L73302738,2026-04-26 21:21,"Vancomycin, random",12.8,mg/L
-VP-0117,L69154686,2026-04-27 01:41,"Vancomycin, random",9.1,mg/L
-VP-0117,L18372381,2026-04-27 07:24,"Vancomycin, trough",15.8,mg/L
-VP-0118,L77903055,2026-05-03 19:00,Vancomycin level,<4.0,mg/L
-VP-0118,L85784539,2026-05-04 03:01,"Vancomycin, random",26.6,mg/L
-VP-0118,L43027588,2026-05-04 03:06,Vancomycin level,25.6,mg/L
-VP-0118,L85947662,2026-05-04 12:36,Vancomycin level,21.7,mg/L
-VP-0119,L22614601,2026-03-25 13:22,Vancomycin level,<4.0,mg/L
-VP-0119,L57918983,2026-03-28 07:31,"Vancomycin, peak",31.0,mg/L
-VP-0119,L47577563,2026-03-29 04:11,"Vancomycin, trough",4.4,mg/L
-VP-0119,L90949935,2026-03-29 05:35,Vancomycin level,18.5,mg/L
-VP-0120,L43987418,2026-04-12 18:26,"Vancomycin, peak",<4.0,mg/L
-VP-0120,L23624945,2026-04-13 20:09,"Vancomycin, random",20.7,mg/L
-VP-0120,L90904655,2026-04-17 18:06,"Vancomycin, trough",23.1,mg/L
-VP-0120,L46500793,2026-04-17 20:13,"Vancomycin, peak",33.8,mg/L
-VP-0121,L89920863,2026-03-15 20:25,"Vancomycin, peak",43.3 H,mg/L
-VP-0121,L20594522,2026-03-16 16:07,Vancomycin level,25.6,mg/L
-VP-0121,L80736324,2026-03-16 17:37,Vancomycin level,36.5,mg/L
-VP-0122,L42089443,2026-04-27 06:12,"Vancomycin, trough",<4.0,mg/L
-VP-0122,L26325259,2026-04-27 11:39,"Vancomycin, random",46.0 H,mg/L
-VP-0122,L69749286,2026-04-27 11:47,"Vancomycin, trough",44.6 H,mg/L
-VP-0122,L32347391,2026-04-27 21:32,"Vancomycin, trough",29.8,mg/L
-VP-0123,L47554523,2026-03-11 14:49,Vancomycin level,<4.0,mg/L
-VP-0123,L24491392,2026-03-13 17:57,Vancomycin level,13.8,mg/L
-VP-0123,L75711051,2026-03-14 04:07,"Vancomycin, trough",6.8,mg/L
-VP-0124,L31255488,2026-03-31 14:50,"Vancomycin, trough",45.8 H,mg/L
-VP-0124,L30063721,2026-03-31 15:38,Vancomycin level,47.1 H,mg/L
-VP-0124,L31745854,2026-04-01 12:06,"Vancomycin, peak",22.9,mg/L
-VP-0125,L19568745,2026-04-13 09:03,"Vancomycin, trough",22.2,mg/L
-VP-0125,L25426721,2026-04-13 22:19,"Vancomycin, random",7.3,mg/L
-VP-0126,L51668519,2026-04-14 05:35,"Vancomycin, peak",31.9,mg/L
-VP-0126,L16574888,2026-04-14 12:44,"Vancomycin, trough",17.2,mg/L
-VP-0126,L29591539,2026-04-14 12:49,"Vancomycin, trough",Unlabeled specimen - rejected,mg/L
-VP-0127,L45758428,2026-04-10 18:55,Vancomycin level,<4.0,mg/L
-VP-0127,L83239121,2026-04-12 14:01,"Vancomycin, trough",24.2,mg/L
-VP-0127,L89035201,2026-04-12 22:43,"Vancomycin, trough",26.4,mg/L
-VP-0127,L38378430,2026-04-13 09:11,"Vancomycin, trough",21.4,mg/L
-VP-0128,L26826331,2026-03-15 08:11,"Vancomycin, peak",Clotted specimen - rejected,mg/L
-VP-0128,L75391358,2026-03-15 08:29,"Vancomycin, peak",32.8,mg/L
-VP-0128,L63902047,2026-03-15 13:28,Vancomycin level,19.4,mg/L
-VP-0129,L40772853,2026-05-17 08:56,"Vancomycin, peak",23.1,mg/L
-VP-0129,L20849387,2026-05-17 23:10,"Vancomycin, peak",32.8,mg/L
-VP-0129,L64806113,2026-05-17 23:57,"Vancomycin, trough",36.0,mg/L
-VP-0129,L92660495,2026-05-18 20:04,"Vancomycin, trough",22.0,mg/L
-VP-0130,L90224941,2026-04-02 22:32,Vancomycin level,23.7,mg/L
-VP-0130,L55794506,2026-04-04 20:38,"Vancomycin, random",37.3,mg/L
-VP-0130,L60673406,2026-04-06 19:42,"Vancomycin, random",28.4,mg/L
-VP-0130,L89503699,2026-04-06 22:30,"Vancomycin, trough",43.8 H,mg/L
-VP-0131,L33734519,2026-03-31 07:49,"Vancomycin, trough",39.4,mg/L
-VP-0131,L73906149,2026-04-02 03:59,"Vancomycin, trough",21.1,mg/L
-VP-0132,L23987710,2026-04-26 10:16,"Vancomycin, peak",25.0,mg/L
-VP-0132,L92381132,2026-04-28 07:05,Vancomycin level,14.8,mg/L
-VP-0132,L84418615,2026-04-28 07:19,"Vancomycin, trough",Clotted specimen - rejected,mg/L
-VP-0133,L63734026,2026-03-29 14:37,"Vancomycin, random",43.8 H,mg/L
-VP-0133,L55181554,2026-03-30 05:21,"Vancomycin, peak",43.7 H,mg/L
-VP-0133,L77077341,2026-03-31 00:43,Vancomycin level,Clotted specimen - rejected,mg/L
-VP-0133,L66935655,2026-03-31 00:47,Vancomycin level,32.9,mg/L
-VP-0134,L91278260,2026-04-14 03:12,"Vancomycin, trough",<4.0,mg/L
-VP-0134,L68354571,2026-04-14 09:20,"Vancomycin, peak",31.7,mg/L
-VP-0134,L31928829,2026-04-14 16:13,"Vancomycin, trough",25.3,mg/L
-VP-0135,L79669217,2026-03-20 22:04,Vancomycin level,40.9 H,mg/L
-VP-0135,L54272218,2026-03-21 04:39,"Vancomycin, peak",26.5,mg/L
-VP-0135,L83920021,2026-03-21 07:10,"Vancomycin, random",33.6,mg/L
-VP-0136,L13975779,2026-03-20 22:28,"Vancomycin, random",24.1,mg/L
-VP-0136,L17439266,2026-03-21 23:22,"Vancomycin, peak",19.5,mg/L
-VP-0136,L41312084,2026-03-22 08:29,Vancomycin level,9.9,mg/L
-VP-0136,L37520717,2026-03-22 11:58,Vancomycin level,20.3,mg/L
-VP-0137,L12910346,2026-04-13 02:28,Vancomycin level,23.7,mg/L
-VP-0137,L30466043,2026-04-13 06:41,"Vancomycin, peak",15.9,mg/L
-VP-0138,L43911965,2026-03-18 22:27,"Vancomycin, random",<4.0,mg/L
-VP-0138,L46337995,2026-03-20 03:26,"Vancomycin, peak",39.9,mg/L
-VP-0138,L82548274,2026-03-24 03:43,"Vancomycin, trough",31.6,mg/L
-VP-0138,L19061028,2026-03-25 01:00,"Vancomycin, peak",19.2,mg/L
-VP-0139,L17941528,2026-04-13 21:49,Vancomycin level,<4.0,mg/L
-VP-0139,L16804396,2026-04-16 17:22,Vancomycin level,23.0,mg/L
-VP-0139,L56664542,2026-04-17 01:35,"Vancomycin, trough",Specimen hemolyzed - recollect,mg/L
-VP-0139,L28447265,2026-04-17 01:47,"Vancomycin, peak",9.1,mg/L
-VP-0139,L16964573,2026-04-17 02:52,"Vancomycin, trough",11.3,mg/L
-VP-0140,L37962754,2026-04-18 12:14,Vancomycin level,10.2,mg/L
-VP-0140,L84211720,2026-04-18 15:19,"Vancomycin, trough",22.4,mg/L
-VP-0141,L89292913,2026-04-28 07:13,"Vancomycin, random",4.3,mg/L
-VP-0141,L57268858,2026-04-28 07:16,"Vancomycin, peak",QNS - test cancelled,mg/L
-VP-0141,L43460247,2026-04-28 10:13,"Vancomycin, trough",20.4,mg/L
-VP-0142,L65904570,2026-04-14 09:49,Vancomycin level,31.8,mg/L
-VP-0142,L42519380,2026-04-14 18:22,"Vancomycin, trough",24.3,mg/L
-VP-0143,L69784229,2026-04-01 00:52,Vancomycin level,24.6,mg/L
-VP-0143,L26731102,2026-04-01 20:33,"Vancomycin, trough",5.1,mg/L
-VP-0144,L85893495,2026-04-28 01:17,Vancomycin level,38.9,mg/L
-VP-0144,L58733048,2026-04-28 13:42,"Vancomycin, trough",18.9,mg/L
-VP-0145,L28580657,2026-03-30 15:42,"Vancomycin, random",29.3,mg/L
-VP-0145,L37709916,2026-03-30 22:24,"Vancomycin, peak",27.3,mg/L
-VP-0145,L79854232,2026-03-31 00:52,"Vancomycin, trough",30.4,mg/L
-VP-0146,L18283405,2026-04-25 12:22,Vancomycin level,17.5,mg/L
-VP-0146,L84789605,2026-04-25 16:33,"Vancomycin, peak",12.6,mg/L
-VP-0147,L91964120,2026-05-18 09:48,Vancomycin level,30.8,mg/L
-VP-0147,L69792339,2026-05-22 08:03,"Vancomycin, random",23.9,mg/L
-VP-0147,L20852060,2026-05-22 11:41,"Vancomycin, peak",35.6,mg/L
-VP-0148,L82430787,2026-05-11 17:33,"Vancomycin, random",30.0,mg/L
-VP-0148,L14130658,2026-05-12 00:40,"Vancomycin, random",QNS - test cancelled,mg/L
-VP-0148,L81223882,2026-05-12 00:52,"Vancomycin, trough",16.5,mg/L
-VP-0149,L63916731,2026-03-28 18:37,"Vancomycin, peak",26.5,mg/L
-VP-0149,L22355389,2026-03-29 20:58,Vancomycin level,39.2,mg/L
-VP-0149,L60130616,2026-03-30 16:17,"Vancomycin, random",6.0,mg/L
-VP-0150,L54933445,2026-05-08 02:44,"Vancomycin, trough",6.2,mg/L
-VP-0150,L60690008,2026-05-08 11:06,Vancomycin level,4.7,mg/L
-VP-0150,L53809248,2026-05-08 13:34,"Vancomycin, random",13.3,mg/L
-VP-0151,L59468033,2026-03-26 17:43,"Vancomycin, trough",28.0,mg/L
-VP-0151,L95843460,2026-03-26 23:47,"Vancomycin, peak",15.1,mg/L
-VP-0151,L48492967,2026-03-26 23:58,Vancomycin level,Clotted specimen - rejected,mg/L
-VP-0152,L92421751,2026-03-21 00:46,"Vancomycin, trough",Specimen hemolyzed - recollect,mg/L
-VP-0152,L41163292,2026-03-21 01:06,Vancomycin level,22.6,mg/L
-VP-0152,L47996250,2026-03-21 06:07,"Vancomycin, random",16.1,mg/L
-VP-0153,L12540035,2026-03-15 11:45,"Vancomycin, random",5.5,mg/L
-VP-0153,L62550191,2026-03-15 15:32,Vancomycin level,31.1,mg/L
-VP-0153,L37672433,2026-03-15 15:52,Vancomycin level,QNS - test cancelled,mg/L
-VP-0154,L29566018,2026-03-25 14:50,Vancomycin level,12.0,mg/L
-VP-0154,L43301769,2026-03-26 14:24,"Vancomycin, trough",15.0,mg/L
-VP-0154,L72237463,2026-03-26 23:44,"Vancomycin, random",6.2,mg/L
-VP-0155,L69396104,2026-04-23 09:17,"Vancomycin, random",27.0,mg/L
-VP-0155,L27983572,2026-04-24 05:05,"Vancomycin, random",Specimen hemolyzed - recollect,mg/L
-VP-0155,L92511755,2026-04-24 05:15,Vancomycin level,9.2,mg/L
-VP-0156,L38712954,2026-04-20 17:30,"Vancomycin, random",24.8,mg/L
-VP-0156,L95339538,2026-04-21 14:27,Vancomycin level,14.5,mg/L
-VP-0156,L65654113,2026-04-21 14:46,"Vancomycin, random",Clotted specimen - rejected,mg/L
-VP-0157,L94206044,2026-03-27 23:34,"Vancomycin, random",24.9,mg/L
-VP-0157,L73209427,2026-03-28 20:45,"Vancomycin, peak",22.5,mg/L
-VP-0158,L22815348,2026-05-15 03:23,"Vancomycin, random",<4.0,mg/L
-VP-0158,L61036829,2026-05-16 10:24,Vancomycin level,29.4,mg/L
-VP-0158,L96861249,2026-05-16 20:31,"Vancomycin, peak",17.0,mg/L
-VP-0158,L19128313,2026-05-17 11:16,"Vancomycin, random",17.7,mg/L
-VP-0158,L90094210,2026-05-18 07:47,Vancomycin level,3.7,mg/L
-VP-0159,L93925399,2026-04-24 03:17,Vancomycin level,39.4,mg/L
-VP-0159,L20205776,2026-04-24 04:46,Vancomycin level,35.3,mg/L
-VP-0159,L84559097,2026-04-24 08:18,"Vancomycin, trough",24.2,mg/L
-VP-0160,L95311803,2026-04-09 22:03,Vancomycin level,<4.0,mg/L
-VP-0160,L65889297,2026-04-11 02:03,Vancomycin level,18.0,mg/L
-VP-0160,L22576732,2026-04-15 00:33,"Vancomycin, trough",23.4,mg/L
-VP-0160,L73233524,2026-04-15 00:52,"Vancomycin, trough",Unlabeled specimen - rejected,mg/L
-VP-0160,L56875040,2026-04-15 03:57,"Vancomycin, random",44.1 H,mg/L
-VP-0161,L85147566,2026-04-16 11:19,"Vancomycin, peak",<4.0,mg/L
-VP-0161,L96867694,2026-04-18 17:12,"Vancomycin, trough",25.3,mg/L
-VP-0161,L27100728,2026-04-19 04:21,"Vancomycin, peak",22.7,mg/L
-VP-0161,L36735812,2026-04-19 14:23,"Vancomycin, peak",20.3,mg/L
-VP-0162,L16221309,2026-04-18 11:19,"Vancomycin, random",22.2,mg/L
-VP-0162,L10069144,2026-04-19 14:58,Vancomycin level,43.2 H,mg/L
-VP-0162,L89436574,2026-04-20 00:12,"Vancomycin, trough",10.3,mg/L
-VP-0162,L88223054,2026-04-20 03:47,"Vancomycin, peak",48.5 H,mg/L
-VP-0163,L63261276,2026-05-03 08:08,"Vancomycin, trough",<4.0,mg/L
-VP-0163,L44712703,2026-05-05 14:51,Vancomycin level,23.0,mg/L
-VP-0163,L68507604,2026-05-07 11:38,"Vancomycin, trough",10.2,mg/L
-VP-0164,L25366254,2026-04-28 01:26,"Vancomycin, trough",17.2,mg/L
-VP-0164,L49907103,2026-04-28 05:48,Vancomycin level,15.0,mg/L
-VP-0164,L42525309,2026-04-28 22:53,Vancomycin level,21.7,mg/L
-VP-0165,L89006964,2026-04-15 22:15,"Vancomycin, random",22.6,mg/L
-VP-0165,L62526273,2026-04-17 18:10,"Vancomycin, trough",15.3,mg/L
-VP-0166,L36365893,2026-03-27 04:57,Vancomycin level,13.3,mg/L
-VP-0166,L56417288,2026-03-27 13:17,Vancomycin level,10.3,mg/L
-VP-0167,L81817497,2026-04-11 22:05,"Vancomycin, peak",21.3,mg/L
-VP-0167,L65005415,2026-04-11 23:21,"Vancomycin, trough",20.1,mg/L
-VP-0167,L50264486,2026-04-12 06:21,Vancomycin level,12.8,mg/L
-VP-0168,L39843172,2026-04-03 20:26,"Vancomycin, trough",18.2,mg/L
-VP-0168,L84676723,2026-04-06 21:20,"Vancomycin, trough",24.3,mg/L
-VP-0168,L67816493,2026-04-07 18:03,"Vancomycin, peak",13.7,mg/L
-VP-0169,L70831392,2026-04-07 08:23,"Vancomycin, random",24.6,mg/L
-VP-0169,L73050559,2026-04-07 15:24,"Vancomycin, peak",26.8,mg/L
-VP-0170,L58553677,2026-05-17 16:24,"Vancomycin, random",<4.0,mg/L
-VP-0170,L73250394,2026-05-18 07:29,"Vancomycin, random",33.9,mg/L
-VP-0170,L86116359,2026-05-19 20:53,"Vancomycin, random",24.4,mg/L
-VP-0170,L71103882,2026-05-20 04:51,Vancomycin level,18.5,mg/L
-VP-0171,L54600159,2026-03-21 11:52,Vancomycin level,40.2 H,mg/L
-VP-0171,L87617070,2026-03-23 07:22,"Vancomycin, random",30.8,mg/L
-VP-0172,L90566593,2026-03-31 10:07,"Vancomycin, trough",14.3,mg/L
-VP-0172,L83183484,2026-03-31 11:19,"Vancomycin, random",14.1,mg/L
-VP-0172,L82309709,2026-03-31 16:32,"Vancomycin, trough",8.8,mg/L
-VP-0173,L40951742,2026-05-01 19:23,"Vancomycin, random",20.3,mg/L
-VP-0173,L19216691,2026-05-02 14:26,"Vancomycin, peak",15.1,mg/L
-VP-0174,L39862205,2026-03-20 15:39,"Vancomycin, random",38.3,mg/L
-VP-0174,L68352964,2026-03-20 22:24,"Vancomycin, random",25.1,mg/L
-VP-0175,L76120845,2026-03-27 18:44,Vancomycin level,35.7,mg/L
-VP-0175,L92358510,2026-03-28 07:18,"Vancomycin, peak",19.9,mg/L
-VP-0175,L49286337,2026-03-28 10:44,"Vancomycin, trough",Specimen hemolyzed - recollect,mg/L
-VP-0175,L39278842,2026-03-28 10:47,"Vancomycin, random",29.5,mg/L
-VP-0176,L68837130,2026-03-17 01:14,"Vancomycin, random",30.4,mg/L
-VP-0176,L74586715,2026-03-18 04:12,"Vancomycin, trough",29.3,mg/L
-VP-0176,L29960614,2026-03-18 10:28,"Vancomycin, trough",26.8,mg/L
-VP-0177,L16497462,2026-04-08 20:13,Vancomycin level,<4.0,mg/L
-VP-0177,L55735613,2026-04-09 03:33,"Vancomycin, peak",22.2,mg/L
-VP-0177,L69150606,2026-04-09 03:39,"Vancomycin, trough",17.3,mg/L
-VP-0177,L33487843,2026-04-09 07:57,"Vancomycin, peak",19.2,mg/L
-VP-0177,L99284238,2026-04-09 13:39,"Vancomycin, random",21.9,mg/L
-VP-0178,L46133150,2026-04-18 14:49,"Vancomycin, random",28.6,mg/L
-VP-0178,L51193396,2026-04-18 23:21,"Vancomycin, peak",20.4,mg/L
-VP-0178,L46768082,2026-04-18 23:54,Vancomycin level,19.6,mg/L
-VP-0179,L17706834,2026-03-22 10:57,"Vancomycin, random",31.2,mg/L
-VP-0179,L58889806,2026-03-22 16:15,"Vancomycin, trough",16.8,mg/L
-VP-0179,L98938417,2026-03-22 16:22,"Vancomycin, peak",Specimen hemolyzed - recollect,mg/L
-VP-0180,L68534658,2026-03-19 09:20,"Vancomycin, trough",20.7,mg/L
-VP-0180,L12427861,2026-03-19 18:59,"Vancomycin, trough",13.4,mg/L
-VP-0181,L89243155,2026-03-29 15:16,"Vancomycin, peak",19.1,mg/L
-VP-0181,L52546590,2026-03-29 22:47,Vancomycin level,13.9,mg/L
-VP-0182,L84395736,2026-04-24 15:28,"Vancomycin, trough",34.4,mg/L
-VP-0182,L13953303,2026-04-25 12:14,Vancomycin level,Specimen hemolyzed - recollect,mg/L
-VP-0182,L27612157,2026-04-25 12:33,Vancomycin level,16.9,mg/L
-VP-0183,L16510439,2026-05-03 12:34,"Vancomycin, peak",23.7,mg/L
-VP-0183,L86026902,2026-05-05 02:16,"Vancomycin, trough",17.6,mg/L
-VP-0183,L61080282,2026-05-06 11:13,"Vancomycin, random",7.5,mg/L
-VP-0184,L19489159,2026-04-26 21:52,"Vancomycin, random",<4.0,mg/L
-VP-0184,L55508384,2026-04-28 10:51,Vancomycin level,14.9,mg/L
-VP-0184,L81802689,2026-04-28 12:40,"Vancomycin, peak",20.7,mg/L
-VP-0184,L41070668,2026-04-28 13:03,"Vancomycin, trough",22.9,mg/L
-VP-0185,L67282721,2026-05-05 21:27,Vancomycin level,43.0 H,mg/L
-VP-0185,L78882025,2026-05-05 22:15,"Vancomycin, random",40.8 H,mg/L
-VP-0185,L41457695,2026-05-06 20:18,Vancomycin level,23.8,mg/L
-VP-0186,L25400076,2026-04-18 14:39,"Vancomycin, random",<4.0,mg/L
-VP-0186,L32682101,2026-04-23 19:48,"Vancomycin, peak",37.8,mg/L
-VP-0186,L97460052,2026-04-23 21:09,"Vancomycin, trough",36.1,mg/L
-VP-0186,L46640993,2026-04-24 18:05,Vancomycin level,22.4,mg/L
-VP-0187,L59314451,2026-05-02 08:34,"Vancomycin, trough",20.2,mg/L
-VP-0187,L74288327,2026-05-02 17:49,Vancomycin level,14.0,mg/L
-VP-0188,L33895673,2026-04-30 09:52,"Vancomycin, random",9.8,mg/L
-VP-0188,L14028760,2026-04-30 13:10,"Vancomycin, random",31.0,mg/L
-VP-0189,L34268276,2026-03-21 05:14,Vancomycin level,27.6,mg/L
-VP-0189,L65088884,2026-03-21 08:27,"Vancomycin, trough",46.4 H,mg/L
-VP-0190,L80233524,2026-03-25 00:14,"Vancomycin, peak",44.5 H,mg/L
-VP-0190,L87363522,2026-03-25 21:22,Vancomycin level,15.9,mg/L
-VP-0191,L56003851,2026-04-16 11:41,Vancomycin level,11.5,mg/L
-VP-0191,L70507907,2026-04-16 21:25,Vancomycin level,7.0,mg/L
-VP-0192,L74346036,2026-04-13 09:36,"Vancomycin, trough",<4.0,mg/L
-VP-0192,L75288364,2026-04-13 17:15,Vancomycin level,36.2,mg/L
-VP-0192,L78794360,2026-04-15 17:09,"Vancomycin, random",48.2 H,mg/L
-VP-0192,L47386955,2026-04-15 17:11,Vancomycin level,Specimen hemolyzed - recollect,mg/L
-VP-0192,L79397506,2026-04-17 13:37,"Vancomycin, random",23.6,mg/L
-VP-0193,L91466538,2026-03-11 07:17,"Vancomycin, random",33.5,mg/L
-VP-0193,L78116858,2026-03-11 12:24,Vancomycin level,22.1,mg/L
-VP-0193,L21307676,2026-03-11 17:30,"Vancomycin, peak",30.6,mg/L
-VP-0194,L54650918,2026-04-15 09:47,"Vancomycin, trough",27.2,mg/L
-VP-0194,L54415868,2026-04-16 08:04,"Vancomycin, trough",17.7,mg/L
-VP-0194,L12196285,2026-04-16 11:41,"Vancomycin, trough",23.7,mg/L
-VP-0195,L23940086,2026-04-03 16:11,"Vancomycin, random",34.2,mg/L
-VP-0195,L82395138,2026-04-05 12:37,"Vancomycin, trough",12.9,mg/L
-VP-0196,L50615337,2026-04-18 20:28,"Vancomycin, trough",28.9,mg/L
-VP-0196,L31467801,2026-04-19 16:11,"Vancomycin, peak",20.2,mg/L
-VP-0197,L13115942,2026-05-19 06:03,Vancomycin level,26.5,mg/L
-VP-0197,L26343655,2026-05-19 17:17,"Vancomycin, peak",15.2,mg/L
-VP-0198,L88583692,2026-05-06 02:05,Vancomycin level,26.4,mg/L
-VP-0198,L54241391,2026-05-06 17:47,"Vancomycin, peak",28.6,mg/L
-VP-0198,L79482116,2026-05-07 00:40,"Vancomycin, random",16.5,mg/L
-VP-0199,L40737067,2026-05-13 22:34,"Vancomycin, trough",39.0,mg/L
-VP-0199,L96009492,2026-05-13 23:39,"Vancomycin, peak",35.0,mg/L
-VP-0199,L41851462,2026-05-14 08:45,"Vancomycin, peak",33.9,mg/L
-VP-0199,L53386383,2026-05-14 21:14,Vancomycin level,29.3,mg/L
-VP-0200,L84777858,2026-05-05 16:03,"Vancomycin, peak",32.0,mg/L
-VP-0200,L69164060,2026-05-05 22:40,"Vancomycin, trough",32.4,mg/L
-VP-0200,L87607077,2026-05-06 10:40,Vancomycin level,16.5,mg/L
-VP-0201,L13718514,2026-03-25 01:37,"Vancomycin, random",<4.0,mg/L
-VP-0201,L80596882,2026-03-26 17:34,"Vancomycin, peak",28.3,mg/L
-VP-0201,L25621429,2026-03-27 07:47,"Vancomycin, trough",23.1,mg/L
-VP-0201,L57915865,2026-03-28 01:52,Vancomycin level,14.1,mg/L
-VP-0202,L60173137,2026-05-13 18:41,"Vancomycin, peak",<4.0,mg/L
-VP-0202,L32910124,2026-05-14 00:40,Vancomycin level,31.7,mg/L
-VP-0202,L61665831,2026-05-15 13:29,"Vancomycin, peak",20.3,mg/L
-VP-0202,L10641443,2026-05-16 09:19,"Vancomycin, peak",13.7,mg/L
-VP-0203,L47392089,2026-04-06 01:26,"Vancomycin, trough",11.9,mg/L
-VP-0203,L78417401,2026-04-06 08:12,"Vancomycin, random",9.2,mg/L
-VP-0204,L95551395,2026-03-26 15:35,Vancomycin level,<4.0,mg/L
-VP-0204,L80729411,2026-03-28 11:18,"Vancomycin, trough",14.6,mg/L
-VP-0204,L46395574,2026-03-28 19:15,"Vancomycin, random",8.7,mg/L
-VP-0205,L25770200,2026-05-10 16:49,"Vancomycin, random",15.4,mg/L
-VP-0205,L74316544,2026-05-10 21:36,"Vancomycin, trough",32.0,mg/L
-VP-0206,L69457836,2026-03-16 19:12,"Vancomycin, random",39.9,mg/L
-VP-0206,L51000027,2026-03-17 16:53,"Vancomycin, peak",20.3,mg/L
-VP-0207,L75826213,2026-03-30 22:25,Vancomycin level,21.6,mg/L
-VP-0207,L60846653,2026-03-30 23:30,"Vancomycin, trough",21.7,mg/L
-VP-0207,L64195248,2026-03-31 05:34,"Vancomycin, trough",13.7,mg/L
-VP-0207,L75929689,2026-03-31 05:39,Vancomycin level,Specimen hemolyzed - recollect,mg/L
-VP-0207,L41411250,2026-03-31 07:46,"Vancomycin, trough",9.3,mg/L
-VP-0208,L39677781,2026-04-29 11:44,"Vancomycin, trough",18.2,mg/L
-VP-0208,L75309088,2026-04-30 00:23,"Vancomycin, peak",24.5,mg/L
-VP-0208,L33960542,2026-04-30 21:00,"Vancomycin, random",18.5,mg/L
-VP-0209,L84581996,2026-04-14 18:52,Vancomycin level,7.1,mg/L
-VP-0209,L65752355,2026-04-14 21:20,"Vancomycin, peak",11.2,mg/L
-VP-0209,L99510560,2026-04-15 02:05,Vancomycin level,10.2,mg/L
-VP-0210,L32184841,2026-03-16 23:08,"Vancomycin, trough",<4.0,mg/L
-VP-0210,L42872490,2026-03-19 17:58,Vancomycin level,21.1,mg/L
-VP-0210,L20466121,2026-03-20 03:29,"Vancomycin, random",9.9,mg/L
-VP-0211,L17354551,2026-03-22 20:00,Vancomycin level,11.2,mg/L
-VP-0211,L89407162,2026-03-23 05:47,"Vancomycin, trough",8.9,mg/L
-VP-0212,L94083473,2026-04-21 18:12,Vancomycin level,24.0,mg/L
-VP-0212,L66671261,2026-04-21 18:36,"Vancomycin, random",22.5,mg/L
-VP-0212,L92139909,2026-04-22 17:04,Vancomycin level,21.6,mg/L
-VP-0212,L66494896,2026-04-23 15:53,"Vancomycin, trough",14.8,mg/L
-VP-0213,L27439545,2026-03-17 08:35,"Vancomycin, trough",10.9,mg/L
-VP-0213,L28850280,2026-03-17 12:07,Vancomycin level,24.5,mg/L
-VP-0214,L68786816,2026-04-25 16:57,Vancomycin level,27.2,mg/L
-VP-0214,L99175242,2026-04-25 19:20,"Vancomycin, random",38.0,mg/L
-VP-0214,L96007113,2026-04-26 08:18,"Vancomycin, random",27.4,mg/L
-VP-0215,L54164355,2026-03-27 11:02,Vancomycin level,<4.0,mg/L
-VP-0215,L21528703,2026-03-30 03:01,"Vancomycin, trough",30.2,mg/L
-VP-0215,L65855564,2026-03-30 05:17,"Vancomycin, peak",34.8,mg/L
-VP-0215,L53514013,2026-03-30 13:06,"Vancomycin, random",22.5,mg/L
-VP-0216,L92715193,2026-05-05 00:27,Vancomycin level,23.9,mg/L
-VP-0216,L58981809,2026-05-05 13:20,"Vancomycin, random",26.5,mg/L
-VP-0216,L79309984,2026-05-06 02:25,"Vancomycin, trough",23.0,mg/L
-VP-0216,L95341313,2026-05-06 22:12,"Vancomycin, peak",15.7,mg/L
-VP-0217,L78008670,2026-03-21 04:43,Vancomycin level,15.4,mg/L
-VP-0217,L47929767,2026-03-21 06:57,"Vancomycin, random",18.3,mg/L
-VP-0217,L18840549,2026-03-22 04:05,"Vancomycin, random",Clotted specimen - rejected,mg/L
-VP-0217,L44936642,2026-03-22 04:14,"Vancomycin, random",7.0,mg/L
-VP-0218,L35184033,2026-04-15 17:26,Vancomycin level,36.8,mg/L
-VP-0218,L54686339,2026-04-16 14:09,"Vancomycin, random",Specimen hemolyzed - recollect,mg/L
-VP-0218,L21760658,2026-04-16 14:17,"Vancomycin, random",15.0,mg/L
-VP-0219,L77156779,2026-04-20 00:18,"Vancomycin, random",32.7,mg/L
-VP-0219,L30211788,2026-04-20 08:58,"Vancomycin, random",27.1,mg/L
-VP-0219,L21198520,2026-04-20 21:42,"Vancomycin, random",25.5,mg/L
-VP-0220,L79803312,2026-03-22 13:43,"Vancomycin, trough",33.2,mg/L
-VP-0220,L80063291,2026-03-22 23:26,"Vancomycin, peak",20.6,mg/L
-VP-0221,L44625190,2026-04-10 23:48,"Vancomycin, peak",24.4,mg/L
-VP-0221,L22356810,2026-04-11 01:36,Vancomycin level,24.7,mg/L
-VP-0221,L81925525,2026-04-11 01:54,"Vancomycin, trough",QNS - test cancelled,mg/L
-VP-0221,L54286097,2026-04-11 20:00,Vancomycin level,8.3,mg/L
-VP-0222,L99791850,2026-05-13 12:50,Vancomycin level,9.4,mg/L
-VP-0222,L42133404,2026-05-14 11:29,Vancomycin level,Specimen hemolyzed - recollect,mg/L
-VP-0222,L82079411,2026-05-14 11:39,"Vancomycin, peak",10.6,mg/L
-VP-0222,L12197140,2026-05-14 14:15,"Vancomycin, random",17.3,mg/L
-VP-0223,L59739053,2026-03-26 21:21,"Vancomycin, peak",8.3,mg/L
-VP-0223,L74314587,2026-03-27 06:55,"Vancomycin, peak",6.3,mg/L
-VP-0224,L35764250,2026-05-10 17:34,"Vancomycin, random",<4.0,mg/L
-VP-0224,L66018789,2026-05-12 17:25,"Vancomycin, random",15.3,mg/L
-VP-0224,L56296439,2026-05-12 22:15,"Vancomycin, random",26.1,mg/L
-VP-0225,L78811655,2026-04-26 05:30,"Vancomycin, random",<4.0,mg/L
-VP-0225,L73450964,2026-04-27 18:05,"Vancomycin, trough",23.5,mg/L
-VP-0225,L26440927,2026-04-27 22:51,"Vancomycin, random",13.2,mg/L
-VP-0226,L42288427,2026-03-15 22:27,Vancomycin level,25.3,mg/L
-VP-0226,L93731882,2026-03-16 04:12,"Vancomycin, random",21.1,mg/L
-VP-0226,L20367019,2026-03-16 04:25,"Vancomycin, trough",Unlabeled specimen - rejected,mg/L
-VP-0226,L77844355,2026-03-16 11:49,"Vancomycin, random",31.2,mg/L
-VP-0227,L81078910,2026-05-14 20:06,"Vancomycin, trough",41.8 H,mg/L
-VP-0227,L56323666,2026-05-15 06:04,"Vancomycin, peak",40.6 H,mg/L
-VP-0227,L48552049,2026-05-15 16:07,"Vancomycin, trough",19.8,mg/L
-VP-0228,L60687500,2026-03-29 16:12,"Vancomycin, random",11.1,mg/L
-VP-0228,L44421825,2026-03-29 19:28,"Vancomycin, trough",24.0,mg/L
-VP-0229,L49621754,2026-03-27 11:37,Vancomycin level,20.6,mg/L
-VP-0229,L68692780,2026-03-28 11:47,"Vancomycin, trough",24.5,mg/L
-VP-0229,L79694607,2026-03-28 21:21,Vancomycin level,16.5,mg/L
-VP-0230,L71248558,2026-04-15 07:07,"Vancomycin, peak",10.0,mg/L
-VP-0230,L45567827,2026-04-15 14:22,"Vancomycin, trough",8.0,mg/L
-VP-0231,L31445314,2026-05-12 02:32,"Vancomycin, random",<4.0,mg/L
-VP-0231,L81018359,2026-05-12 08:24,"Vancomycin, random",33.7,mg/L
-VP-0231,L47391995,2026-05-12 17:52,Vancomycin level,21.1,mg/L
-VP-0231,L32753049,2026-05-12 17:53,Vancomycin level,Clotted specimen - rejected,mg/L
-VP-0232,L54698149,2026-04-01 11:25,"Vancomycin, trough",24.5,mg/L
-VP-0232,L43131996,2026-04-01 16:43,"Vancomycin, peak",9.1,mg/L
-VP-0233,L95915761,2026-03-13 20:00,"Vancomycin, peak",31.4,mg/L
-VP-0233,L28753252,2026-03-14 16:27,Vancomycin level,26.3,mg/L
-VP-0234,L67461939,2026-04-29 20:23,"Vancomycin, random",41.0 H,mg/L
-VP-0234,L39658845,2026-05-01 15:29,"Vancomycin, trough",15.5,mg/L
-VP-0234,L27576745,2026-05-02 18:13,"Vancomycin, trough",13.7,mg/L
-VP-0234,L20156447,2026-05-03 04:39,Vancomycin level,6.5,mg/L
-VP-0235,L68961569,2026-04-21 19:37,Vancomycin level,<4.0,mg/L
-VP-0235,L72056008,2026-04-22 22:49,Vancomycin level,Clotted specimen - rejected,mg/L
-VP-0235,L74354887,2026-04-22 23:04,"Vancomycin, random",24.2,mg/L
-VP-0235,L82317704,2026-04-23 03:52,"Vancomycin, random",43.7 H,mg/L
-VP-0236,L50087390,2026-05-07 17:51,"Vancomycin, peak",26.1,mg/L
-VP-0236,L55600590,2026-05-08 02:52,"Vancomycin, random",19.8,mg/L
-VP-0236,L35093882,2026-05-08 05:41,Vancomycin level,30.7,mg/L
-VP-0237,L38118378,2026-04-03 08:39,"Vancomycin, random",11.0,mg/L
-VP-0237,L15553601,2026-04-04 06:20,Vancomycin level,7.2,mg/L
-VP-0238,L87199936,2026-03-29 06:32,Vancomycin level,24.8,mg/L
-VP-0238,L36485989,2026-03-29 19:23,"Vancomycin, peak",13.4,mg/L
-VP-0239,L29176666,2026-05-17 23:35,Vancomycin level,45.3 H,mg/L
-VP-0239,L87498544,2026-05-19 07:10,"Vancomycin, random",31.1,mg/L
-VP-0239,L80773416,2026-05-19 10:53,"Vancomycin, trough",45.9 H,mg/L
-VP-0240,L35594171,2026-03-26 12:45,"Vancomycin, random",34.1,mg/L
-VP-0240,L66044413,2026-03-26 21:35,"Vancomycin, random",28.0,mg/L
+VP-0003,L31601904,2026-04-28 19:14,"Vancomycin, trough",<4.0,mg/L
+VP-0003,L24647354,2026-04-29 00:55,"Vancomycin, trough",11.2,mg/L
+VP-0003,L41144612,2026-04-29 05:02,Vancomycin level,8.7,mg/L
+VP-0004,L50060777,2026-04-23 01:56,"Vancomycin, peak",<4.0,mg/L
+VP-0004,L28385594,2026-04-23 08:41,Vancomycin level,27.8,mg/L
+VP-0004,L34131556,2026-04-23 16:40,"Vancomycin, peak",20.0,mg/L
+VP-0004,L25916542,2026-04-23 18:38,"Vancomycin, peak",23.3,mg/L
+VP-0005,L36630384,2026-05-15 13:16,Vancomycin level,14.1,mg/L
+VP-0005,L59975276,2026-05-16 10:40,Vancomycin level,5.8,mg/L
+VP-0006,L60502410,2026-03-10 21:40,"Vancomycin, trough",18.8,mg/L
+VP-0006,L15974416,2026-03-11 03:24,Vancomycin level,16.4,mg/L
+VP-0006,L59558600,2026-03-11 03:42,"Vancomycin, peak",QNS - test cancelled,mg/L
+VP-0006,L42172241,2026-03-11 08:03,"Vancomycin, trough",20.6,mg/L
+VP-0007,L16746208,2026-04-09 05:41,Vancomycin level,<4.0,mg/L
+VP-0007,L27305309,2026-04-11 00:40,"Vancomycin, trough",10.4,mg/L
+VP-0007,L86990513,2026-04-11 21:33,Vancomycin level,6.1,mg/L
+VP-0008,L76680121,2026-03-29 03:35,"Vancomycin, random",<4.0,mg/L
+VP-0008,L48115796,2026-03-29 20:31,Vancomycin level,25.7,mg/L
+VP-0008,L39396517,2026-03-31 18:00,"Vancomycin, peak",16.6,mg/L
+VP-0008,L42536441,2026-03-31 20:01,"Vancomycin, peak",21.4,mg/L
+VP-0008,L46483896,2026-04-01 06:43,"Vancomycin, random",11.4,mg/L
+VP-0009,L74660516,2026-03-20 02:11,Vancomycin level,<4.0,mg/L
+VP-0009,L97214517,2026-03-21 05:14,"Vancomycin, random",18.8,mg/L
+VP-0009,L20092444,2026-03-22 08:53,"Vancomycin, random",19.8,mg/L
+VP-0009,L25961402,2026-03-22 16:25,"Vancomycin, peak",15.7,mg/L
+VP-0010,L50490879,2026-05-13 13:05,"Vancomycin, random",11.3,mg/L
+VP-0010,L61575671,2026-05-13 15:44,"Vancomycin, trough",19.6,mg/L
+VP-0011,L70820111,2026-04-30 07:59,"Vancomycin, random",<4.0,mg/L
+VP-0011,L19796462,2026-05-02 09:53,"Vancomycin, random",7.4,mg/L
+VP-0011,L38314024,2026-05-02 12:13,"Vancomycin, trough",10.3,mg/L
+VP-0011,L39800794,2026-05-02 22:48,Vancomycin level,10.6,mg/L
+VP-0012,L27873327,2026-05-11 07:13,"Vancomycin, peak",14.1,mg/L
+VP-0012,L18559881,2026-05-11 09:21,"Vancomycin, peak",Specimen hemolyzed - recollect,mg/L
+VP-0012,L95078499,2026-05-11 09:34,"Vancomycin, random",22.2,mg/L
+VP-0012,L60252429,2026-05-11 17:14,"Vancomycin, peak",22.7,mg/L
+VP-0013,L22918662,2026-04-26 00:42,"Vancomycin, peak",32.4,mg/L
+VP-0013,L66910261,2026-04-26 21:02,"Vancomycin, trough",9.8,mg/L
+VP-0013,L59459561,2026-04-26 21:06,Vancomycin level,Specimen hemolyzed - recollect,mg/L
+VP-0014,L14146354,2026-03-14 14:04,"Vancomycin, random",23.4,mg/L
+VP-0014,L26141031,2026-03-15 06:30,"Vancomycin, trough",37.1,mg/L
+VP-0014,L60939618,2026-03-16 00:51,"Vancomycin, peak",23.3,mg/L
+VP-0015,L68393909,2026-04-12 07:44,"Vancomycin, peak",36.9,mg/L
+VP-0015,L80459836,2026-04-12 08:26,"Vancomycin, random",32.0,mg/L
+VP-0015,L65302762,2026-04-12 12:38,"Vancomycin, random",26.9,mg/L
+VP-0016,L94689013,2026-03-24 05:24,Vancomycin level,32.4,mg/L
+VP-0016,L27458355,2026-03-24 12:41,"Vancomycin, trough",26.2,mg/L
+VP-0016,L24141899,2026-03-24 15:22,Vancomycin level,31.1,mg/L
+VP-0017,L94468462,2026-04-11 10:33,"Vancomycin, random",<4.0,mg/L
+VP-0017,L41523890,2026-04-14 06:08,Vancomycin level,27.0,mg/L
+VP-0017,L51030717,2026-04-14 12:51,Vancomycin level,19.1,mg/L
+VP-0018,L26784623,2026-03-10 14:54,"Vancomycin, peak",<4.0,mg/L
+VP-0018,L44534677,2026-03-13 20:37,"Vancomycin, trough",39.5,mg/L
+VP-0018,L75733171,2026-03-15 18:09,Vancomycin level,15.8,mg/L
+VP-0019,L55457497,2026-04-11 03:18,"Vancomycin, peak",<4.0,mg/L
+VP-0019,L35439944,2026-04-13 08:54,Vancomycin level,32.9,mg/L
+VP-0019,L30907349,2026-04-13 12:18,"Vancomycin, random",23.5,mg/L
+VP-0019,L65159279,2026-04-13 12:33,Vancomycin level,Clotted specimen - rejected,mg/L
+VP-0020,L87814192,2026-04-04 08:06,"Vancomycin, trough",33.8,mg/L
+VP-0020,L43700824,2026-04-05 01:11,"Vancomycin, peak",15.8,mg/L
+VP-0021,L12036897,2026-03-28 01:00,"Vancomycin, trough",37.8,mg/L
+VP-0021,L54689688,2026-03-29 20:45,Vancomycin level,9.8,mg/L
+VP-0022,L20905983,2026-03-25 14:50,"Vancomycin, trough",32.8,mg/L
+VP-0022,L84285699,2026-03-25 21:44,"Vancomycin, trough",23.8,mg/L
+VP-0022,L48943917,2026-03-25 22:01,"Vancomycin, trough",Specimen hemolyzed - recollect,mg/L
+VP-0023,L40703455,2026-03-20 07:04,"Vancomycin, random",34.3,mg/L
+VP-0023,L41616124,2026-03-21 19:38,Vancomycin level,33.7,mg/L
+VP-0023,L43870805,2026-03-22 16:40,Vancomycin level,11.6,mg/L
+VP-0024,L64601991,2026-05-10 13:51,"Vancomycin, random",33.5,mg/L
+VP-0024,L27602296,2026-05-10 21:49,"Vancomycin, random",28.3,mg/L
+VP-0024,L92816499,2026-05-10 22:02,"Vancomycin, random",Unlabeled specimen - rejected,mg/L
+VP-0024,L94644116,2026-05-10 22:56,"Vancomycin, random",30.0,mg/L
+VP-0025,L96534205,2026-03-29 19:10,Vancomycin level,<4.0,mg/L
+VP-0025,L67485085,2026-03-31 04:25,"Vancomycin, random",16.0,mg/L
+VP-0025,L70823260,2026-03-31 13:20,Vancomycin level,10.1,mg/L
+VP-0025,L36906276,2026-03-31 23:26,"Vancomycin, peak",8.7,mg/L
+VP-0026,L63018094,2026-04-25 16:15,"Vancomycin, random",19.4,mg/L
+VP-0026,L75184411,2026-04-25 19:02,"Vancomycin, peak",32.7,mg/L
+VP-0026,L93446995,2026-04-26 05:02,"Vancomycin, random",27.5,mg/L
+VP-0027,L68369073,2026-04-01 09:33,Vancomycin level,4.9,mg/L
+VP-0027,L65546071,2026-04-01 18:37,"Vancomycin, peak",3.7,mg/L
+VP-0027,L99792610,2026-04-01 20:09,"Vancomycin, peak",7.1,mg/L
+VP-0028,L96979959,2026-05-08 00:40,"Vancomycin, peak",39.5,mg/L
+VP-0028,L83095014,2026-05-10 00:08,"Vancomycin, trough",16.0,mg/L
+VP-0028,L36210477,2026-05-11 21:46,"Vancomycin, random",4.7,mg/L
+VP-0029,L14355921,2026-03-25 14:12,"Vancomycin, random",25.1,mg/L
+VP-0029,L29721263,2026-03-26 11:53,Vancomycin level,8.5,mg/L
+VP-0030,L77105040,2026-04-25 07:56,"Vancomycin, random",33.9,mg/L
+VP-0030,L56692064,2026-04-25 08:04,"Vancomycin, trough",Specimen hemolyzed - recollect,mg/L
+VP-0030,L33476414,2026-04-25 17:45,"Vancomycin, trough",25.5,mg/L
+VP-0031,L40207385,2026-05-02 00:54,Vancomycin level,30.4,mg/L
+VP-0031,L80231857,2026-05-02 23:37,"Vancomycin, peak",24.4,mg/L
+VP-0031,L46005339,2026-05-03 22:05,Vancomycin level,19.3,mg/L
+VP-0032,L67569290,2026-04-29 19:16,"Vancomycin, random",5.0,mg/L
+VP-0032,L63413378,2026-04-29 21:39,"Vancomycin, peak",16.9,mg/L
+VP-0033,L99302862,2026-05-06 09:25,Vancomycin level,9.5,mg/L
+VP-0033,L73543965,2026-05-06 09:34,"Vancomycin, random",Specimen hemolyzed - recollect,mg/L
+VP-0033,L27833211,2026-05-06 11:09,"Vancomycin, peak",12.3,mg/L
+VP-0034,L49845006,2026-05-18 21:38,"Vancomycin, peak",Unlabeled specimen - rejected,mg/L
+VP-0034,L73828739,2026-05-18 21:51,"Vancomycin, random",31.8,mg/L
+VP-0034,L27655074,2026-05-19 04:03,Vancomycin level,26.6,mg/L
+VP-0035,L38926507,2026-04-17 22:20,Vancomycin level,23.5,mg/L
+VP-0035,L87881426,2026-04-19 23:09,"Vancomycin, trough",19.0,mg/L
+VP-0035,L98271913,2026-04-20 10:10,"Vancomycin, random",12.0,mg/L
+VP-0036,L22273738,2026-05-18 13:21,"Vancomycin, random",<4.0,mg/L
+VP-0036,L31033597,2026-05-21 18:42,"Vancomycin, peak",43.4 H,mg/L
+VP-0036,L80953739,2026-05-22 18:15,"Vancomycin, peak",9.0,mg/L
+VP-0036,L37910950,2026-05-22 21:29,Vancomycin level,52.3 H,mg/L
+VP-0037,L61612435,2026-03-16 09:01,"Vancomycin, random",<4.0,mg/L
+VP-0037,L52311286,2026-03-18 21:52,Vancomycin level,19.8,mg/L
+VP-0037,L26201358,2026-03-19 01:19,"Vancomycin, peak",35.5,mg/L
+VP-0037,L99993015,2026-03-19 10:22,"Vancomycin, peak",20.1,mg/L
+VP-0038,L83539354,2026-05-06 08:05,Vancomycin level,14.4,mg/L
+VP-0038,L18129741,2026-05-06 10:18,"Vancomycin, trough",18.4,mg/L
+VP-0038,L91689496,2026-05-06 22:16,"Vancomycin, trough",16.2,mg/L
+VP-0038,L25984309,2026-05-06 23:25,"Vancomycin, peak",17.5,mg/L
+VP-0039,L89627502,2026-04-20 00:41,Vancomycin level,<4.0,mg/L
+VP-0039,L27145337,2026-04-22 08:35,Vancomycin level,28.8,mg/L
+VP-0039,L64668643,2026-04-23 04:06,"Vancomycin, random",14.0,mg/L
+VP-0040,L44033151,2026-03-28 19:58,"Vancomycin, trough",56.6 H,mg/L
+VP-0040,L53958563,2026-03-28 22:07,"Vancomycin, peak",48.0 H,mg/L
+VP-0040,L69472642,2026-03-28 22:22,"Vancomycin, peak",Clotted specimen - rejected,mg/L
+VP-0040,L12492965,2026-03-29 17:28,"Vancomycin, trough",17.5,mg/L
+VP-0041,L66119930,2026-04-01 23:19,"Vancomycin, random",12.0,mg/L
+VP-0041,L69294509,2026-04-04 03:09,"Vancomycin, random",46.3 H,mg/L
+VP-0041,L55219038,2026-04-05 22:46,Vancomycin level,10.1,mg/L
+VP-0042,L48386700,2026-04-24 06:02,Vancomycin level,21.5,mg/L
+VP-0042,L51166434,2026-04-25 02:18,Vancomycin level,11.5,mg/L
+VP-0043,L83604582,2026-04-22 12:07,"Vancomycin, random",19.7,mg/L
+VP-0043,L99905982,2026-04-22 12:48,"Vancomycin, peak",21.4,mg/L
+VP-0043,L89113106,2026-04-22 20:57,"Vancomycin, random",15.6,mg/L
+VP-0044,L32622594,2026-04-07 16:44,"Vancomycin, peak",34.0,mg/L
+VP-0044,L63301716,2026-04-08 13:58,"Vancomycin, random",20.6,mg/L
+VP-0044,L16875840,2026-04-08 17:22,"Vancomycin, peak",36.4,mg/L
+VP-0045,L51116485,2026-04-20 08:33,"Vancomycin, trough",45.7 H,mg/L
+VP-0045,L30940915,2026-04-20 16:35,"Vancomycin, trough",24.6,mg/L
+VP-0045,L37699975,2026-04-20 16:38,"Vancomycin, peak",Unlabeled specimen - rejected,mg/L
+VP-0046,L60123090,2026-04-28 15:25,Vancomycin level,18.4,mg/L
+VP-0046,L67766167,2026-04-29 15:07,"Vancomycin, trough",26.1,mg/L
+VP-0046,L73112562,2026-04-29 21:24,Vancomycin level,15.4,mg/L
+VP-0047,L80586113,2026-05-17 14:39,"Vancomycin, peak",<4.0,mg/L
+VP-0047,L30876264,2026-05-18 17:27,"Vancomycin, peak",25.5,mg/L
+VP-0047,L64134997,2026-05-19 04:10,"Vancomycin, random",20.8,mg/L
+VP-0047,L50581725,2026-05-20 02:56,"Vancomycin, random",11.7,mg/L
+VP-0047,L22130574,2026-05-20 05:40,Vancomycin level,21.0,mg/L
+VP-0048,L44840365,2026-03-28 02:32,"Vancomycin, trough",<4.0,mg/L
+VP-0048,L23922884,2026-03-31 05:33,Vancomycin level,9.5,mg/L
+VP-0048,L87361999,2026-03-31 08:33,"Vancomycin, random",17.0,mg/L
+VP-0049,L57488086,2026-03-19 07:16,"Vancomycin, peak",19.6,mg/L
+VP-0049,L58341108,2026-03-23 05:46,"Vancomycin, random",21.2,mg/L
+VP-0049,L85984226,2026-03-23 08:16,"Vancomycin, random",33.4,mg/L
+VP-0050,L42228823,2026-05-16 07:47,"Vancomycin, peak",<4.0,mg/L
+VP-0050,L65787416,2026-05-16 12:32,"Vancomycin, peak",6.1,mg/L
+VP-0050,L36792358,2026-05-16 17:08,"Vancomycin, trough",3.7,mg/L
+VP-0050,L13890848,2026-05-17 02:37,"Vancomycin, peak",34.4,mg/L
+VP-0051,L78126781,2026-03-11 23:36,Vancomycin level,24.5,mg/L
+VP-0051,L30720840,2026-03-12 09:35,"Vancomycin, trough",17.8,mg/L
+VP-0052,L58004401,2026-03-10 10:36,"Vancomycin, random",<4.0,mg/L
+VP-0052,L95652899,2026-03-10 16:30,"Vancomycin, trough",13.5,mg/L
+VP-0052,L48587859,2026-03-10 16:36,"Vancomycin, trough",14.6,mg/L
+VP-0052,L50656316,2026-03-11 00:52,"Vancomycin, peak",7.1,mg/L
+VP-0053,L13197295,2026-04-11 14:45,"Vancomycin, trough",15.7,mg/L
+VP-0053,L64024965,2026-04-11 17:37,"Vancomycin, peak",41.4 H,mg/L
+VP-0054,L28792032,2026-05-09 10:15,"Vancomycin, peak",42.4 H,mg/L
+VP-0054,L17920968,2026-05-09 10:33,Vancomycin level,Clotted specimen - rejected,mg/L
+VP-0054,L79202497,2026-05-10 07:35,"Vancomycin, random",18.8,mg/L
+VP-0055,L30655342,2026-03-12 08:13,"Vancomycin, random",3.9,mg/L
+VP-0055,L69358981,2026-03-12 22:01,"Vancomycin, peak",12.8,mg/L
+VP-0055,L81100768,2026-03-13 19:31,"Vancomycin, trough",8.9,mg/L
+VP-0056,L56155257,2026-05-13 09:26,"Vancomycin, random",12.6,mg/L
+VP-0056,L66150396,2026-05-14 04:51,"Vancomycin, trough",7.7,mg/L
+VP-0057,L49608280,2026-03-28 02:59,"Vancomycin, random",<4.0,mg/L
+VP-0057,L99718343,2026-03-30 06:58,"Vancomycin, peak",23.3,mg/L
+VP-0057,L69955719,2026-03-31 04:26,"Vancomycin, peak",15.7,mg/L
+VP-0058,L75243303,2026-03-25 16:36,"Vancomycin, trough",29.5,mg/L
+VP-0058,L68450127,2026-03-27 06:25,"Vancomycin, trough",28.9,mg/L
+VP-0058,L19865342,2026-03-27 14:46,"Vancomycin, random",17.2,mg/L
+VP-0059,L59690957,2026-03-20 17:57,"Vancomycin, trough",24.7,mg/L
+VP-0059,L58617586,2026-03-22 17:27,"Vancomycin, peak",9.1,mg/L
+VP-0059,L26434767,2026-03-22 21:28,"Vancomycin, peak",33.9,mg/L
+VP-0060,L90937786,2026-03-16 10:14,"Vancomycin, trough",8.4,mg/L
+VP-0060,L60815358,2026-03-16 12:39,"Vancomycin, trough",23.0,mg/L
+VP-0061,L29896015,2026-04-08 17:47,Vancomycin level,<4.0,mg/L
+VP-0061,L48685012,2026-04-11 08:44,"Vancomycin, peak",Specimen hemolyzed - recollect,mg/L
+VP-0061,L57175945,2026-04-11 08:45,"Vancomycin, peak",11.7,mg/L
+VP-0061,L75780670,2026-04-11 13:11,Vancomycin level,55.6 H,mg/L
+VP-0062,L14519262,2026-05-18 00:05,Vancomycin level,<4.0,mg/L
+VP-0062,L15200977,2026-05-18 05:45,"Vancomycin, random",28.5,mg/L
+VP-0062,L95762255,2026-05-18 11:50,Vancomycin level,26.5,mg/L
+VP-0063,L17178503,2026-04-02 21:47,"Vancomycin, peak",7.6,mg/L
+VP-0063,L38307623,2026-04-03 00:55,Vancomycin level,20.8,mg/L
+VP-0064,L40223062,2026-03-19 17:16,"Vancomycin, peak",20.6,mg/L
+VP-0064,L84304149,2026-03-19 23:21,Vancomycin level,16.8,mg/L
+VP-0065,L62867881,2026-03-23 20:49,Vancomycin level,<4.0,mg/L
+VP-0065,L55548727,2026-03-28 01:59,Vancomycin level,34.2,mg/L
+VP-0065,L73550183,2026-03-29 23:03,"Vancomycin, peak",27.5,mg/L
+VP-0066,L12663466,2026-03-24 21:17,"Vancomycin, peak",16.4,mg/L
+VP-0066,L59246049,2026-03-25 01:03,Vancomycin level,34.3,mg/L
+VP-0067,L45137763,2026-04-21 18:33,Vancomycin level,26.9,mg/L
+VP-0067,L65231097,2026-04-21 22:42,"Vancomycin, peak",36.8,mg/L
+VP-0068,L98260175,2026-05-05 01:47,Vancomycin level,16.9,mg/L
+VP-0068,L59396493,2026-05-05 15:19,"Vancomycin, trough",17.6,mg/L
+VP-0068,L39748372,2026-05-05 18:55,"Vancomycin, trough",25.5,mg/L
+VP-0069,L99213576,2026-04-11 23:10,"Vancomycin, peak",20.4,mg/L
+VP-0069,L74705331,2026-04-12 08:40,"Vancomycin, random",7.1,mg/L
+VP-0069,L75147860,2026-04-12 08:56,"Vancomycin, peak",Unlabeled specimen - rejected,mg/L
+VP-0069,L98940033,2026-04-12 12:08,"Vancomycin, random",17.3,mg/L
+VP-0070,L10909150,2026-04-10 14:46,"Vancomycin, peak",36.9,mg/L
+VP-0070,L18496993,2026-04-11 11:46,"Vancomycin, random",25.7,mg/L
+VP-0070,L92788457,2026-04-12 10:40,"Vancomycin, peak",24.3,mg/L
+VP-0071,L91792803,2026-04-27 20:27,Vancomycin level,30.7,mg/L
+VP-0071,L75011754,2026-04-28 03:50,Vancomycin level,5.6,mg/L
+VP-0072,L21875769,2026-04-19 20:37,"Vancomycin, peak",17.2,mg/L
+VP-0072,L62766121,2026-04-19 23:19,"Vancomycin, random",19.9,mg/L
+VP-0073,L64413603,2026-05-15 00:13,"Vancomycin, peak",30.1,mg/L
+VP-0073,L91945793,2026-05-16 01:58,"Vancomycin, trough",27.9,mg/L
+VP-0073,L42376565,2026-05-16 13:03,Vancomycin level,15.4,mg/L
+VP-0074,L59527431,2026-05-04 18:46,"Vancomycin, random",23.4,mg/L
+VP-0074,L37665091,2026-05-04 19:21,Vancomycin level,21.9,mg/L
+VP-0074,L60103911,2026-05-05 03:10,Vancomycin level,13.6,mg/L
+VP-0075,L37939247,2026-03-11 23:24,"Vancomycin, random",<4.0,mg/L
+VP-0075,L14239369,2026-03-12 06:08,"Vancomycin, peak",36.4,mg/L
+VP-0075,L33172680,2026-03-12 16:52,"Vancomycin, peak",44.7 H,mg/L
+VP-0075,L69118876,2026-03-13 07:00,"Vancomycin, random",42.3 H,mg/L
+VP-0075,L68960866,2026-03-14 02:54,"Vancomycin, peak",26.7,mg/L
+VP-0076,L45120642,2026-04-05 18:41,Vancomycin level,<4.0,mg/L
+VP-0076,L64457821,2026-04-07 08:23,"Vancomycin, peak",16.4,mg/L
+VP-0076,L20176157,2026-04-07 13:19,"Vancomycin, trough",28.5,mg/L
+VP-0077,L29785016,2026-04-17 22:39,Vancomycin level,<4.0,mg/L
+VP-0077,L93194692,2026-04-19 00:04,"Vancomycin, peak",42.1 H,mg/L
+VP-0077,L49130957,2026-04-19 22:54,Vancomycin level,26.0,mg/L
+VP-0077,L11928673,2026-04-20 21:39,Vancomycin level,24.2,mg/L
+VP-0077,L30199043,2026-04-21 00:50,"Vancomycin, random",45.1 H,mg/L
+VP-0078,L18214790,2026-05-03 17:39,"Vancomycin, trough",15.6,mg/L
+VP-0078,L42023205,2026-05-03 21:01,Vancomycin level,33.4,mg/L
+VP-0078,L98376255,2026-05-03 21:07,Vancomycin level,QNS - test cancelled,mg/L
+VP-0079,L34382762,2026-05-09 17:40,"Vancomycin, peak",11.0,mg/L
+VP-0079,L16197765,2026-05-09 20:44,"Vancomycin, peak",21.7,mg/L
+VP-0080,L32222565,2026-03-14 06:41,"Vancomycin, trough",<4.0,mg/L
+VP-0080,L15219555,2026-03-16 13:10,"Vancomycin, peak",37.8,mg/L
+VP-0080,L66088081,2026-03-18 09:33,Vancomycin level,20.3,mg/L
+VP-0081,L14647114,2026-03-23 16:17,"Vancomycin, trough",<4.0,mg/L
+VP-0081,L98490332,2026-03-25 20:19,"Vancomycin, trough",16.7,mg/L
+VP-0081,L75201483,2026-03-26 19:17,Vancomycin level,3.7,mg/L
+VP-0082,L37616766,2026-04-05 22:07,"Vancomycin, peak",20.3,mg/L
+VP-0082,L25965002,2026-04-06 11:14,Vancomycin level,37.2,mg/L
+VP-0082,L27641615,2026-04-06 11:56,"Vancomycin, peak",35.3,mg/L
+VP-0082,L10197739,2026-04-07 08:10,"Vancomycin, random",12.3,mg/L
+VP-0083,L87243335,2026-04-12 20:26,"Vancomycin, peak",11.5,mg/L
+VP-0083,L81542601,2026-04-13 01:35,"Vancomycin, random",18.5,mg/L
+VP-0084,L36417967,2026-05-18 20:58,"Vancomycin, peak",5.9,mg/L
+VP-0084,L99065368,2026-05-19 20:14,"Vancomycin, peak",8.6,mg/L
+VP-0084,L43537092,2026-05-19 22:56,"Vancomycin, peak",33.0,mg/L
+VP-0085,L16534102,2026-03-24 14:38,"Vancomycin, trough",<4.0,mg/L
+VP-0085,L34621863,2026-03-25 18:15,"Vancomycin, trough",22.1,mg/L
+VP-0085,L20333056,2026-03-26 07:53,"Vancomycin, trough",34.9,mg/L
+VP-0085,L64337733,2026-03-26 09:21,"Vancomycin, random",30.8,mg/L
+VP-0085,L34454983,2026-03-27 03:55,"Vancomycin, trough",15.8,mg/L
+VP-0086,L41727724,2026-04-20 19:36,"Vancomycin, random",12.6,mg/L
+VP-0086,L48384741,2026-04-21 01:12,Vancomycin level,6.6,mg/L
+VP-0087,L73285543,2026-05-05 19:45,"Vancomycin, trough",<4.0,mg/L
+VP-0087,L86557575,2026-05-08 01:54,"Vancomycin, random",38.1,mg/L
+VP-0087,L67018291,2026-05-08 22:50,"Vancomycin, trough",26.2,mg/L
+VP-0087,L64264669,2026-05-08 22:59,Vancomycin level,Clotted specimen - rejected,mg/L
+VP-0088,L56056469,2026-04-17 10:15,Vancomycin level,23.3,mg/L
+VP-0088,L61860787,2026-04-17 18:28,Vancomycin level,7.9,mg/L
+VP-0089,L84775995,2026-04-29 06:01,Vancomycin level,<4.0,mg/L
+VP-0089,L49670612,2026-04-30 17:24,"Vancomycin, peak",29.5,mg/L
+VP-0089,L22479079,2026-04-30 19:44,"Vancomycin, peak",29.7,mg/L
+VP-0089,L19333556,2026-05-01 08:39,Vancomycin level,22.0,mg/L
+VP-0090,L88654710,2026-03-25 11:04,"Vancomycin, random",<4.0,mg/L
+VP-0090,L36669247,2026-03-25 17:20,"Vancomycin, random",28.4,mg/L
+VP-0090,L22321252,2026-03-25 21:24,Vancomycin level,21.3,mg/L
+VP-0090,L55818973,2026-03-26 02:10,Vancomycin level,27.5,mg/L
+VP-0091,L56986592,2026-04-08 16:00,"Vancomycin, peak",<4.0,mg/L
+VP-0091,L30418916,2026-04-11 21:56,"Vancomycin, peak",38.3,mg/L
+VP-0091,L61588838,2026-04-12 20:34,Vancomycin level,43.2 H,mg/L
+VP-0091,L21478489,2026-04-13 16:52,"Vancomycin, peak",28.1,mg/L
+VP-0092,L67603028,2026-05-04 12:36,"Vancomycin, random",32.5,mg/L
+VP-0092,L17928522,2026-05-04 16:33,"Vancomycin, peak",18.6,mg/L
+VP-0093,L20464987,2026-03-17 06:46,"Vancomycin, peak",15.2,mg/L
+VP-0093,L60206187,2026-03-17 10:33,Vancomycin level,31.3,mg/L
+VP-0093,L85150700,2026-03-17 18:48,Vancomycin level,20.8,mg/L
+VP-0094,L77279827,2026-04-02 15:23,Vancomycin level,25.9,mg/L
+VP-0094,L31988990,2026-04-03 11:28,"Vancomycin, peak",17.1,mg/L
+VP-0095,L28745258,2026-04-23 15:37,"Vancomycin, trough",24.9,mg/L
+VP-0095,L63664611,2026-04-23 23:49,"Vancomycin, peak",17.2,mg/L
+VP-0096,L94027349,2026-04-22 11:05,"Vancomycin, random",36.3,mg/L
+VP-0096,L38440505,2026-04-24 10:55,"Vancomycin, trough",40.8 H,mg/L
+VP-0096,L11667531,2026-04-26 06:53,Vancomycin level,28.2,mg/L
+VP-0097,L19074446,2026-04-10 13:00,"Vancomycin, peak",<4.0,mg/L
+VP-0097,L23322710,2026-04-11 03:53,"Vancomycin, trough",19.2,mg/L
+VP-0097,L70492130,2026-04-12 04:38,"Vancomycin, random",13.9,mg/L
+VP-0097,L68565542,2026-04-13 01:18,"Vancomycin, random",10.7,mg/L
+VP-0098,L18426551,2026-03-31 10:51,"Vancomycin, random",35.7,mg/L
+VP-0098,L93808903,2026-03-31 20:12,"Vancomycin, trough",8.5,mg/L
+VP-0098,L68245512,2026-03-31 22:15,"Vancomycin, trough",38.7,mg/L
+VP-0099,L30541548,2026-03-19 21:09,"Vancomycin, random",20.1,mg/L
+VP-0099,L48192447,2026-03-19 23:05,"Vancomycin, random",35.6,mg/L
+VP-0099,L49024714,2026-03-20 19:54,"Vancomycin, trough",9.0,mg/L
+VP-0100,L82113546,2026-05-02 15:24,"Vancomycin, trough",18.5,mg/L
+VP-0100,L72767650,2026-05-03 18:06,"Vancomycin, trough",53.3 H,mg/L
+VP-0100,L87331418,2026-05-04 14:11,"Vancomycin, random",14.2,mg/L
+VP-0101,L34351851,2026-03-28 08:03,"Vancomycin, peak",43.5 H,mg/L
+VP-0101,L92580301,2026-03-28 20:21,"Vancomycin, trough",24.7,mg/L
+VP-0102,L90153776,2026-05-16 20:09,Vancomycin level,26.3,mg/L
+VP-0102,L43757499,2026-05-19 23:25,Vancomycin level,27.7,mg/L
+VP-0102,L67664846,2026-05-19 23:34,Vancomycin level,QNS - test cancelled,mg/L
+VP-0102,L92303248,2026-05-21 20:34,"Vancomycin, random",12.7,mg/L
+VP-0103,L18146109,2026-04-02 12:13,"Vancomycin, random",16.7,mg/L
+VP-0103,L50113792,2026-04-02 15:20,"Vancomycin, random",37.4,mg/L
+VP-0103,L10400740,2026-04-02 16:15,Vancomycin level,33.9,mg/L
+VP-0103,L52424230,2026-04-03 13:42,"Vancomycin, peak",18.4,mg/L
+VP-0104,L89855711,2026-03-18 01:01,"Vancomycin, peak",<4.0,mg/L
+VP-0104,L17372163,2026-03-18 05:23,"Vancomycin, peak",27.5,mg/L
+VP-0104,L66888535,2026-03-18 07:02,"Vancomycin, trough",27.6,mg/L
+VP-0104,L78581807,2026-03-18 07:22,"Vancomycin, random",QNS - test cancelled,mg/L
+VP-0104,L69935486,2026-03-18 14:34,"Vancomycin, trough",18.4,mg/L
+VP-0105,L66459539,2026-04-05 10:56,"Vancomycin, trough",<4.0,mg/L
+VP-0105,L98683771,2026-04-08 13:02,Vancomycin level,23.7,mg/L
+VP-0105,L98445999,2026-04-10 13:38,"Vancomycin, trough",10.0,mg/L
+VP-0105,L19525166,2026-04-10 17:04,"Vancomycin, random",57.7 H,mg/L
+VP-0106,L79758843,2026-04-05 16:04,"Vancomycin, peak",29.6,mg/L
+VP-0106,L46393191,2026-04-05 16:43,"Vancomycin, random",29.1,mg/L
+VP-0106,L96457139,2026-04-06 01:38,"Vancomycin, random",14.7,mg/L
+VP-0107,L59778862,2026-04-25 03:26,Vancomycin level,10.3,mg/L
+VP-0107,L92639963,2026-04-26 14:18,"Vancomycin, trough",13.3,mg/L
+VP-0107,L24203995,2026-04-27 11:31,Vancomycin level,5.8,mg/L
+VP-0108,L49935568,2026-03-31 20:40,"Vancomycin, peak",34.3,mg/L
+VP-0108,L89317619,2026-03-31 20:41,"Vancomycin, trough",Specimen hemolyzed - recollect,mg/L
+VP-0108,L68040575,2026-04-01 01:15,"Vancomycin, random",31.3,mg/L
+VP-0109,L76936017,2026-03-23 10:16,"Vancomycin, random",Specimen hemolyzed - recollect,mg/L
+VP-0109,L48310814,2026-03-23 10:17,"Vancomycin, peak",32.1,mg/L
+VP-0109,L94484388,2026-03-23 14:32,"Vancomycin, trough",24.1,mg/L
+VP-0109,L66333506,2026-03-24 05:46,"Vancomycin, trough",18.7,mg/L
+VP-0110,L54457723,2026-04-16 17:16,"Vancomycin, trough",<4.0,mg/L
+VP-0110,L79979634,2026-04-18 22:37,"Vancomycin, random",25.0,mg/L
+VP-0110,L64097877,2026-04-21 00:47,"Vancomycin, trough",30.9,mg/L
+VP-0110,L98975174,2026-04-21 20:42,Vancomycin level,6.2,mg/L
+VP-0111,L10422925,2026-05-17 19:48,"Vancomycin, random",39.5,mg/L
+VP-0111,L76331366,2026-05-18 18:13,Vancomycin level,38.9,mg/L
+VP-0111,L46232260,2026-05-19 16:09,"Vancomycin, random",25.6,mg/L
+VP-0112,L80297002,2026-03-23 14:28,"Vancomycin, peak",39.0,mg/L
+VP-0112,L28559611,2026-03-23 16:18,"Vancomycin, peak",45.8 H,mg/L
+VP-0112,L67600289,2026-03-25 14:04,Vancomycin level,28.0,mg/L
+VP-0113,L90157519,2026-04-18 00:16,"Vancomycin, peak",21.1,mg/L
+VP-0113,L73393878,2026-04-18 19:26,Vancomycin level,22.3,mg/L
+VP-0114,L75895302,2026-05-06 21:00,"Vancomycin, trough",19.9,mg/L
+VP-0114,L57108173,2026-05-06 23:05,"Vancomycin, trough",24.0,mg/L
+VP-0115,L13040735,2026-04-10 09:49,"Vancomycin, trough",<4.0,mg/L
+VP-0115,L58904992,2026-04-11 15:14,"Vancomycin, peak",10.2,mg/L
+VP-0115,L66045302,2026-04-11 15:15,"Vancomycin, trough",Clotted specimen - rejected,mg/L
+VP-0115,L29683690,2026-04-12 12:40,"Vancomycin, peak",9.5,mg/L
+VP-0116,L10209039,2026-04-05 17:59,Vancomycin level,37.7,mg/L
+VP-0116,L97669581,2026-04-06 01:22,Vancomycin level,17.0,mg/L
+VP-0117,L87552332,2026-03-15 17:24,"Vancomycin, trough",39.1,mg/L
+VP-0117,L50825658,2026-03-16 13:18,"Vancomycin, trough",4.8,mg/L
+VP-0118,L95085455,2026-04-20 10:20,"Vancomycin, peak",<4.0,mg/L
+VP-0118,L12117421,2026-04-23 11:56,Vancomycin level,1.3,mg/L
+VP-0118,L17763075,2026-04-23 16:23,Vancomycin level,24.3,mg/L
+VP-0119,L18372381,2026-03-23 18:12,"Vancomycin, trough",30.4,mg/L
+VP-0119,L77903055,2026-03-23 21:14,Vancomycin level,35.8,mg/L
+VP-0119,L85784539,2026-03-24 08:34,"Vancomycin, random",17.7,mg/L
+VP-0120,L64696310,2026-05-05 05:11,"Vancomycin, trough",<4.0,mg/L
+VP-0120,L89600167,2026-05-05 21:00,"Vancomycin, peak",11.2,mg/L
+VP-0120,L71513857,2026-05-07 08:36,"Vancomycin, peak",10.8,mg/L
+VP-0120,L50384525,2026-05-07 10:59,"Vancomycin, random",15.7,mg/L
+VP-0121,L95399736,2026-03-23 17:05,"Vancomycin, peak",25.2,mg/L
+VP-0121,L47577563,2026-03-23 17:22,"Vancomycin, trough",Unlabeled specimen - rejected,mg/L
+VP-0121,L90949935,2026-03-24 02:36,Vancomycin level,16.6,mg/L
+VP-0121,L68950579,2026-03-24 13:57,"Vancomycin, peak",10.0,mg/L
+VP-0122,L77697123,2026-04-01 04:50,"Vancomycin, peak",31.0,mg/L
+VP-0122,L23624945,2026-04-04 05:16,"Vancomycin, random",33.7,mg/L
+VP-0122,L90904655,2026-04-05 01:13,"Vancomycin, trough",20.2,mg/L
+VP-0123,L20594522,2026-03-19 23:27,Vancomycin level,18.5,mg/L
+VP-0123,L80736324,2026-03-20 21:08,Vancomycin level,12.8,mg/L
+VP-0124,L90856558,2026-03-26 09:45,"Vancomycin, trough",35.0,mg/L
+VP-0124,L26325259,2026-03-27 20:20,"Vancomycin, random",20.9,mg/L
+VP-0124,L69749286,2026-03-28 00:09,"Vancomycin, trough",38.3,mg/L
+VP-0125,L32347391,2026-04-06 23:35,"Vancomycin, trough",<4.0,mg/L
+VP-0125,L67510098,2026-04-07 04:29,"Vancomycin, trough",21.9,mg/L
+VP-0125,L80498865,2026-04-07 09:43,"Vancomycin, peak",10.3,mg/L
+VP-0125,L24491392,2026-04-07 15:49,Vancomycin level,26.1,mg/L
+VP-0126,L75711051,2026-04-06 01:11,"Vancomycin, trough",40.4 H,mg/L
+VP-0126,L20651963,2026-04-06 06:29,"Vancomycin, random",20.8,mg/L
+VP-0126,L31255488,2026-04-06 08:19,"Vancomycin, trough",40.2 H,mg/L
+VP-0126,L30063721,2026-04-06 09:56,Vancomycin level,58.0 H,mg/L
+VP-0127,L21679064,2026-04-22 10:29,"Vancomycin, trough",6.8,mg/L
+VP-0127,L19568745,2026-04-22 12:53,"Vancomycin, trough",QNS - test cancelled,mg/L
+VP-0127,L25426721,2026-04-22 12:59,"Vancomycin, random",27.4,mg/L
+VP-0127,L51668519,2026-04-23 11:17,"Vancomycin, peak",18.0,mg/L
+VP-0128,L16574888,2026-03-11 00:03,"Vancomycin, trough",14.8,mg/L
+VP-0128,L29591539,2026-03-11 04:59,"Vancomycin, trough",12.2,mg/L
+VP-0129,L34359798,2026-04-11 04:54,"Vancomycin, peak",<4.0,mg/L
+VP-0129,L89035201,2026-04-13 09:25,"Vancomycin, trough",30.2,mg/L
+VP-0129,L38378430,2026-04-14 06:52,"Vancomycin, trough",17.6,mg/L
+VP-0130,L26826331,2026-04-30 06:41,"Vancomycin, peak",26.4,mg/L
+VP-0130,L75391358,2026-04-30 23:12,"Vancomycin, peak",17.4,mg/L
+VP-0131,L63902047,2026-03-21 18:51,Vancomycin level,19.8,mg/L
+VP-0131,L72254403,2026-03-22 03:49,"Vancomycin, trough",16.6,mg/L
+VP-0131,L40772853,2026-03-22 17:46,"Vancomycin, peak",25.9,mg/L
+VP-0132,L96516641,2026-04-23 21:50,"Vancomycin, random",17.0,mg/L
+VP-0132,L64806113,2026-04-24 01:05,"Vancomycin, trough",23.3,mg/L
+VP-0132,L92660495,2026-04-24 14:18,"Vancomycin, trough",21.9,mg/L
+VP-0133,L80413274,2026-04-15 15:08,"Vancomycin, peak",14.1,mg/L
+VP-0133,L29201822,2026-04-16 12:59,"Vancomycin, peak",1.3,mg/L
+VP-0133,L67891116,2026-04-16 15:17,"Vancomycin, trough",16.2,mg/L
+VP-0134,L20385649,2026-04-19 07:34,"Vancomycin, peak",26.4,mg/L
+VP-0134,L39887736,2026-04-19 07:58,Vancomycin level,24.6,mg/L
+VP-0134,L49935259,2026-04-19 16:44,"Vancomycin, peak",16.4,mg/L
+VP-0134,L33734519,2026-04-20 03:26,"Vancomycin, trough",11.7,mg/L
+VP-0135,L65265599,2026-03-17 19:16,Vancomycin level,QNS - test cancelled,mg/L
+VP-0135,L23987710,2026-03-17 19:23,"Vancomycin, peak",27.2,mg/L
+VP-0135,L92381132,2026-03-18 06:58,Vancomycin level,33.9,mg/L
+VP-0135,L84418615,2026-03-18 15:06,"Vancomycin, trough",21.9,mg/L
+VP-0136,L89167251,2026-05-15 09:27,Vancomycin level,14.8,mg/L
+VP-0136,L55181554,2026-05-15 17:22,"Vancomycin, peak",8.5,mg/L
+VP-0137,L85419343,2026-03-31 03:04,Vancomycin level,25.8,mg/L
+VP-0137,L66935655,2026-03-31 07:17,Vancomycin level,20.9,mg/L
+VP-0138,L41846019,2026-03-18 23:08,Vancomycin level,<4.0,mg/L
+VP-0138,L72311716,2026-03-20 01:47,"Vancomycin, trough",25.0,mg/L
+VP-0138,L54272218,2026-03-23 03:29,"Vancomycin, peak",28.6,mg/L
+VP-0138,L83920021,2026-03-23 03:36,"Vancomycin, random",QNS - test cancelled,mg/L
+VP-0138,L12688666,2026-03-25 00:54,"Vancomycin, peak",16.8,mg/L
+VP-0139,L70972326,2026-05-12 09:16,"Vancomycin, random",24.6,mg/L
+VP-0139,L79247312,2026-05-12 09:30,"Vancomycin, trough",Unlabeled specimen - rejected,mg/L
+VP-0139,L37520717,2026-05-13 04:43,Vancomycin level,14.8,mg/L
+VP-0140,L30466043,2026-04-14 02:35,"Vancomycin, peak",37.6,mg/L
+VP-0140,L67233158,2026-04-14 21:40,Vancomycin level,19.8,mg/L
+VP-0141,L19699195,2026-05-02 10:35,"Vancomycin, trough",14.0,mg/L
+VP-0141,L59423779,2026-05-03 09:00,"Vancomycin, peak",6.8,mg/L
+VP-0141,L80275227,2026-05-03 12:36,"Vancomycin, peak",15.5,mg/L
+VP-0142,L19061028,2026-03-30 22:17,"Vancomycin, peak",23.0,mg/L
+VP-0142,L67013204,2026-03-31 15:03,"Vancomycin, trough",17.6,mg/L
+VP-0142,L61923423,2026-04-01 04:21,"Vancomycin, random",12.4,mg/L
+VP-0143,L52376212,2026-04-15 10:28,"Vancomycin, peak",16.4,mg/L
+VP-0143,L31127181,2026-04-15 19:40,"Vancomycin, trough",8.7,mg/L
+VP-0144,L62866598,2026-03-26 20:48,"Vancomycin, random",<4.0,mg/L
+VP-0144,L30728686,2026-03-28 03:56,"Vancomycin, trough",30.5,mg/L
+VP-0144,L63763334,2026-03-28 11:07,"Vancomycin, random",27.5,mg/L
+VP-0144,L89292913,2026-03-28 16:35,"Vancomycin, random",18.2,mg/L
+VP-0145,L75082594,2026-04-07 17:33,"Vancomycin, trough",<4.0,mg/L
+VP-0145,L65904570,2026-04-13 00:09,Vancomycin level,14.6,mg/L
+VP-0145,L42519380,2026-04-13 19:44,"Vancomycin, trough",8.9,mg/L
+VP-0145,L60569251,2026-04-13 20:41,"Vancomycin, peak",10.7,mg/L
+VP-0146,L26731102,2026-03-19 16:50,"Vancomycin, trough",20.6,mg/L
+VP-0146,L76589213,2026-03-20 19:56,"Vancomycin, peak",42.3 H,mg/L
+VP-0146,L58733048,2026-03-21 16:51,"Vancomycin, trough",23.2,mg/L
+VP-0146,L15305014,2026-03-21 20:27,"Vancomycin, peak",43.2 H,mg/L
+VP-0147,L85270846,2026-04-02 07:54,"Vancomycin, trough",23.5,mg/L
+VP-0147,L79854232,2026-04-02 23:23,"Vancomycin, trough",12.7,mg/L
+VP-0147,L79298155,2026-04-03 02:21,Vancomycin level,14.9,mg/L
+VP-0148,L18283405,2026-03-26 18:37,Vancomycin level,8.2,mg/L
+VP-0148,L84789605,2026-03-26 21:49,"Vancomycin, peak",13.2,mg/L
+VP-0149,L62078298,2026-03-14 15:27,"Vancomycin, random",14.6,mg/L
+VP-0149,L82876541,2026-03-14 22:09,Vancomycin level,4.7,mg/L
+VP-0150,L91964120,2026-04-08 14:18,Vancomycin level,30.6,mg/L
+VP-0150,L69792339,2026-04-08 21:50,"Vancomycin, random",19.5,mg/L
+VP-0151,L20852060,2026-03-14 21:26,"Vancomycin, peak",19.9,mg/L
+VP-0151,L82274015,2026-03-15 01:56,"Vancomycin, peak",13.4,mg/L
+VP-0151,L82430787,2026-03-15 08:48,"Vancomycin, random",24.2,mg/L
+VP-0152,L14130658,2026-03-24 11:29,"Vancomycin, random",<4.0,mg/L
+VP-0152,L81223882,2026-03-26 16:16,"Vancomycin, trough",24.3,mg/L
+VP-0152,L99574282,2026-03-26 19:01,Vancomycin level,36.5,mg/L
+VP-0152,L13006696,2026-03-27 05:24,"Vancomycin, peak",23.7,mg/L
+VP-0153,L63916731,2026-04-17 04:23,"Vancomycin, peak",29.2,mg/L
+VP-0153,L22355389,2026-04-17 04:27,Vancomycin level,26.1,mg/L
+VP-0153,L60130616,2026-04-17 08:30,"Vancomycin, random",21.7,mg/L
+VP-0154,L54933445,2026-03-27 10:55,"Vancomycin, trough",15.6,mg/L
+VP-0154,L60690008,2026-03-27 11:11,Vancomycin level,QNS - test cancelled,mg/L
+VP-0154,L53809248,2026-03-27 14:05,"Vancomycin, random",27.2,mg/L
+VP-0155,L38340334,2026-04-18 17:00,Vancomycin level,4.6,mg/L
+VP-0155,L48544669,2026-04-18 21:44,"Vancomycin, peak",43.4 H,mg/L
+VP-0155,L48492967,2026-04-19 19:51,Vancomycin level,50.7 H,mg/L
+VP-0156,L68302565,2026-04-24 14:56,"Vancomycin, peak",35.1,mg/L
+VP-0156,L92421751,2026-04-24 21:22,"Vancomycin, trough",Unlabeled specimen - rejected,mg/L
+VP-0156,L41163292,2026-04-24 21:24,Vancomycin level,25.3,mg/L
+VP-0156,L47996250,2026-04-25 00:23,"Vancomycin, random",27.9,mg/L
+VP-0156,L19749092,2026-04-25 01:51,"Vancomycin, random",31.3,mg/L
+VP-0157,L74804807,2026-03-28 04:16,Vancomycin level,QNS - test cancelled,mg/L
+VP-0157,L38283635,2026-03-28 04:24,"Vancomycin, trough",35.8,mg/L
+VP-0157,L90574586,2026-03-28 09:16,"Vancomycin, random",28.0,mg/L
+VP-0158,L64421030,2026-04-18 20:00,"Vancomycin, trough",<4.0,mg/L
+VP-0158,L30837242,2026-04-21 11:17,"Vancomycin, trough",16.5,mg/L
+VP-0158,L14539640,2026-04-21 13:50,"Vancomycin, trough",24.1,mg/L
+VP-0159,L15633544,2026-04-04 02:37,"Vancomycin, trough",41.8 H,mg/L
+VP-0159,L69396104,2026-04-04 10:15,"Vancomycin, random",19.4,mg/L
+VP-0160,L87541562,2026-04-01 20:14,"Vancomycin, trough",44.4 H,mg/L
+VP-0160,L92511755,2026-04-02 00:17,Vancomycin level,30.5,mg/L
+VP-0160,L26357899,2026-04-02 18:16,Vancomycin level,52.3 H,mg/L
+VP-0161,L84256884,2026-03-17 20:36,Vancomycin level,52.7 H,mg/L
+VP-0161,L92625815,2026-03-18 15:23,"Vancomycin, trough",26.9,mg/L
+VP-0161,L38736390,2026-03-19 14:24,"Vancomycin, random",8.5,mg/L
+VP-0162,L73209427,2026-05-03 16:12,"Vancomycin, peak",22.4,mg/L
+VP-0162,L28413799,2026-05-03 23:06,"Vancomycin, peak",19.7,mg/L
+VP-0162,L21931562,2026-05-04 13:30,"Vancomycin, peak",20.5,mg/L
+VP-0163,L68001447,2026-05-16 05:58,"Vancomycin, random",12.3,mg/L
+VP-0163,L47143872,2026-05-16 19:04,Vancomycin level,12.2,mg/L
+VP-0163,L19128313,2026-05-17 15:45,"Vancomycin, random",7.1,mg/L
+VP-0164,L35275312,2026-03-14 16:37,"Vancomycin, random",28.7,mg/L
+VP-0164,L75830827,2026-03-16 01:25,Vancomycin level,22.5,mg/L
+VP-0164,L65889297,2026-03-16 04:00,Vancomycin level,31.0,mg/L
+VP-0165,L34401882,2026-05-03 23:08,"Vancomycin, random",35.1,mg/L
+VP-0165,L18857403,2026-05-04 04:40,Vancomycin level,28.9,mg/L
+VP-0166,L96038547,2026-05-07 01:35,Vancomycin level,38.3,mg/L
+VP-0166,L85147566,2026-05-07 22:27,"Vancomycin, peak",40.4 H,mg/L
+VP-0166,L96867694,2026-05-10 21:37,"Vancomycin, trough",22.0,mg/L
+VP-0166,L27100728,2026-05-11 00:43,"Vancomycin, peak",34.1,mg/L
+VP-0167,L61941600,2026-04-12 09:03,"Vancomycin, trough",25.3,mg/L
+VP-0167,L82410550,2026-04-12 11:39,"Vancomycin, trough",20.7,mg/L
+VP-0167,L80258230,2026-04-13 07:29,"Vancomycin, random",Clotted specimen - rejected,mg/L
+VP-0167,L16221309,2026-04-13 07:30,"Vancomycin, random",17.7,mg/L
+VP-0168,L10069144,2026-05-12 10:04,Vancomycin level,22.0,mg/L
+VP-0168,L89436574,2026-05-12 17:56,"Vancomycin, trough",16.9,mg/L
+VP-0168,L88223054,2026-05-12 19:12,"Vancomycin, peak",25.2,mg/L
+VP-0169,L21886209,2026-05-18 20:01,"Vancomycin, trough",22.6,mg/L
+VP-0169,L63261276,2026-05-19 04:51,"Vancomycin, trough",18.2,mg/L
+VP-0169,L44712703,2026-05-19 08:00,Vancomycin level,32.6,mg/L
+VP-0170,L25366254,2026-05-10 11:28,"Vancomycin, trough",<4.0,mg/L
+VP-0170,L49907103,2026-05-13 13:26,Vancomycin level,18.5,mg/L
+VP-0170,L42525309,2026-05-13 14:49,Vancomycin level,8.0,mg/L
+VP-0170,L45436227,2026-05-13 23:09,"Vancomycin, trough",5.0,mg/L
+VP-0171,L89006964,2026-05-10 22:49,"Vancomycin, random",38.8,mg/L
+VP-0171,L62526273,2026-05-11 18:45,"Vancomycin, trough",22.5,mg/L
+VP-0172,L98695541,2026-04-17 19:41,Vancomycin level,36.3,mg/L
+VP-0172,L81817497,2026-04-18 15:20,"Vancomycin, peak",23.0,mg/L
+VP-0173,L40183132,2026-05-15 01:23,"Vancomycin, peak",10.2,mg/L
+VP-0173,L43264819,2026-05-15 22:00,"Vancomycin, trough",3.7,mg/L
+VP-0174,L13705472,2026-05-13 20:35,Vancomycin level,30.6,mg/L
+VP-0174,L54192760,2026-05-14 01:26,Vancomycin level,26.1,mg/L
+VP-0175,L13129569,2026-03-31 04:40,"Vancomycin, peak",32.1,mg/L
+VP-0175,L25505169,2026-04-02 06:17,Vancomycin level,33.4,mg/L
+VP-0175,L71103882,2026-04-02 11:03,Vancomycin level,14.7,mg/L
+VP-0176,L87617070,2026-04-16 03:38,"Vancomycin, random",28.9,mg/L
+VP-0176,L30173382,2026-04-20 02:12,Vancomycin level,19.1,mg/L
+VP-0176,L90566593,2026-04-20 05:43,"Vancomycin, trough",32.5,mg/L
+VP-0177,L83183484,2026-04-09 05:40,"Vancomycin, random",<4.0,mg/L
+VP-0177,L82309709,2026-04-09 13:40,"Vancomycin, trough",21.7,mg/L
+VP-0177,L51722631,2026-04-09 21:49,Vancomycin level,QNS - test cancelled,mg/L
+VP-0177,L76459302,2026-04-09 22:07,"Vancomycin, random",10.5,mg/L
+VP-0177,L40951742,2026-04-10 02:08,"Vancomycin, random",25.4,mg/L
+VP-0178,L75620245,2026-04-24 17:53,"Vancomycin, trough",33.3,mg/L
+VP-0178,L39862205,2026-04-25 19:51,"Vancomycin, random",40.5 H,mg/L
+VP-0178,L68352964,2026-04-27 16:54,"Vancomycin, random",20.6,mg/L
+VP-0179,L90677685,2026-03-26 17:30,Vancomycin level,16.2,mg/L
+VP-0179,L76120845,2026-03-26 21:30,Vancomycin level,40.8 H,mg/L
+VP-0180,L13049818,2026-04-03 05:06,"Vancomycin, peak",17.6,mg/L
+VP-0180,L35961699,2026-04-07 04:16,"Vancomycin, trough",22.0,mg/L
+VP-0180,L23365572,2026-04-07 07:48,"Vancomycin, random",48.2 H,mg/L
+VP-0181,L74586715,2026-04-21 23:34,"Vancomycin, trough",<4.0,mg/L
+VP-0181,L29960614,2026-04-28 05:21,"Vancomycin, trough",37.4,mg/L
+VP-0181,L49185612,2026-04-29 01:21,"Vancomycin, peak",13.9,mg/L
+VP-0182,L55735613,2026-03-16 22:10,"Vancomycin, peak",<4.0,mg/L
+VP-0182,L69150606,2026-03-18 18:29,"Vancomycin, trough",29.3,mg/L
+VP-0182,L33487843,2026-03-19 02:07,"Vancomycin, peak",20.6,mg/L
+VP-0182,L99284238,2026-03-19 07:04,"Vancomycin, random",31.8,mg/L
+VP-0182,L52469452,2026-03-19 15:10,"Vancomycin, peak",19.0,mg/L
+VP-0183,L51193396,2026-04-01 11:43,"Vancomycin, peak",29.8,mg/L
+VP-0183,L46768082,2026-04-01 16:04,Vancomycin level,20.4,mg/L
+VP-0183,L75598260,2026-04-01 16:23,Vancomycin level,Specimen hemolyzed - recollect,mg/L
+VP-0183,L18356696,2026-04-01 18:25,"Vancomycin, random",32.1,mg/L
+VP-0184,L58889806,2026-04-06 03:20,"Vancomycin, trough",14.3,mg/L
+VP-0184,L98938417,2026-04-08 13:07,"Vancomycin, peak",Specimen hemolyzed - recollect,mg/L
+VP-0184,L33050606,2026-04-08 13:18,"Vancomycin, trough",21.9,mg/L
+VP-0184,L30359551,2026-04-08 16:06,Vancomycin level,34.8,mg/L
+VP-0185,L47295585,2026-05-17 15:19,"Vancomycin, random",14.4,mg/L
+VP-0185,L52546590,2026-05-17 22:18,Vancomycin level,9.2,mg/L
+VP-0186,L35186546,2026-04-14 05:17,"Vancomycin, random",31.4,mg/L
+VP-0186,L13953303,2026-04-14 11:38,Vancomycin level,27.0,mg/L
+VP-0186,L27612157,2026-04-15 01:25,Vancomycin level,25.4,mg/L
+VP-0187,L45022094,2026-04-20 22:38,Vancomycin level,<4.0,mg/L
+VP-0187,L39876685,2026-04-23 05:11,"Vancomycin, random",28.5,mg/L
+VP-0187,L61080282,2026-04-26 03:35,"Vancomycin, random",18.9,mg/L
+VP-0187,L42648709,2026-04-26 07:23,Vancomycin level,30.5,mg/L
+VP-0188,L19489159,2026-04-04 05:24,"Vancomycin, random",18.5,mg/L
+VP-0188,L55508384,2026-04-04 10:54,Vancomycin level,14.5,mg/L
+VP-0188,L81802689,2026-04-04 13:17,"Vancomycin, peak",13.9,mg/L
+VP-0189,L41070668,2026-05-20 22:49,"Vancomycin, trough",Specimen hemolyzed - recollect,mg/L
+VP-0189,L78295647,2026-05-20 23:05,"Vancomycin, trough",18.6,mg/L
+VP-0189,L67282721,2026-05-21 02:23,Vancomycin level,39.5,mg/L
+VP-0190,L50144026,2026-03-25 01:10,"Vancomycin, trough",34.1,mg/L
+VP-0190,L90169132,2026-03-25 01:41,Vancomycin level,Specimen hemolyzed - recollect,mg/L
+VP-0190,L19722507,2026-03-25 01:48,"Vancomycin, random",30.2,mg/L
+VP-0190,L81122930,2026-03-25 08:14,"Vancomycin, random",8.3,mg/L
+VP-0190,L32682101,2026-03-25 11:58,"Vancomycin, peak",11.4,mg/L
+VP-0191,L46640993,2026-04-15 19:02,Vancomycin level,9.8,mg/L
+VP-0191,L31570101,2026-04-16 19:48,"Vancomycin, peak",22.5,mg/L
+VP-0191,L62240665,2026-04-17 08:08,"Vancomycin, peak",19.9,mg/L
+VP-0192,L33895673,2026-04-27 08:00,"Vancomycin, random",12.1,mg/L
+VP-0192,L14028760,2026-04-29 19:09,"Vancomycin, random",27.0,mg/L
+VP-0192,L34268276,2026-04-30 03:10,Vancomycin level,19.1,mg/L
+VP-0193,L24371825,2026-05-05 11:17,"Vancomycin, random",33.2,mg/L
+VP-0193,L80233524,2026-05-05 21:02,"Vancomycin, peak",38.9,mg/L
+VP-0193,L87363522,2026-05-05 21:35,Vancomycin level,35.5,mg/L
+VP-0193,L83362345,2026-05-06 07:04,"Vancomycin, peak",25.6,mg/L
+VP-0194,L62699168,2026-05-11 21:22,"Vancomycin, peak",33.9,mg/L
+VP-0194,L35349707,2026-05-12 20:02,Vancomycin level,QNS - test cancelled,mg/L
+VP-0194,L67200140,2026-05-12 20:15,Vancomycin level,25.0,mg/L
+VP-0195,L47386955,2026-03-25 00:47,Vancomycin level,<4.0,mg/L
+VP-0195,L79397506,2026-03-27 14:05,"Vancomycin, random",Clotted specimen - rejected,mg/L
+VP-0195,L91466538,2026-03-27 14:21,"Vancomycin, random",18.0,mg/L
+VP-0195,L78116858,2026-03-27 17:44,Vancomycin level,35.1,mg/L
+VP-0196,L28257042,2026-04-24 19:35,Vancomycin level,41.0 H,mg/L
+VP-0196,L27369895,2026-04-24 19:52,"Vancomycin, peak",QNS - test cancelled,mg/L
+VP-0196,L38734494,2026-04-25 04:25,"Vancomycin, peak",14.9,mg/L
+VP-0197,L18006297,2026-04-19 23:31,"Vancomycin, peak",47.0 H,mg/L
+VP-0197,L87422922,2026-04-20 22:29,"Vancomycin, random",14.7,mg/L
+VP-0197,L82395138,2026-04-21 01:57,"Vancomycin, trough",53.5 H,mg/L
+VP-0198,L46568785,2026-05-17 20:11,"Vancomycin, random",9.6,mg/L
+VP-0198,L50615337,2026-05-18 01:00,"Vancomycin, trough",6.5,mg/L
+VP-0198,L31467801,2026-05-18 07:19,"Vancomycin, peak",15.5,mg/L
+VP-0199,L51561636,2026-03-19 21:13,"Vancomycin, random",5.9,mg/L
+VP-0199,L33108272,2026-03-20 03:13,"Vancomycin, random",3.9,mg/L
+VP-0200,L54241391,2026-04-07 17:56,"Vancomycin, peak",<4.0,mg/L
+VP-0200,L79482116,2026-04-10 13:04,"Vancomycin, random",40.6 H,mg/L
+VP-0200,L97327341,2026-04-10 19:26,"Vancomycin, peak",26.2,mg/L
+VP-0201,L40737067,2026-03-29 23:48,"Vancomycin, trough",10.6,mg/L
+VP-0201,L96009492,2026-03-30 23:25,"Vancomycin, peak",5.1,mg/L
+VP-0201,L41851462,2026-03-31 02:00,"Vancomycin, peak",12.7,mg/L
+VP-0202,L44602473,2026-03-13 01:46,"Vancomycin, peak",24.2,mg/L
+VP-0202,L69164060,2026-03-13 06:51,"Vancomycin, trough",39.0,mg/L
+VP-0202,L87607077,2026-03-13 15:34,Vancomycin level,42.9 H,mg/L
+VP-0203,L57918685,2026-05-06 14:31,"Vancomycin, random",<4.0,mg/L
+VP-0203,L25621429,2026-05-09 17:25,"Vancomycin, trough",32.9,mg/L
+VP-0203,L57915865,2026-05-09 20:05,Vancomycin level,50.2 H,mg/L
+VP-0203,L49940441,2026-05-11 17:38,"Vancomycin, peak",16.6,mg/L
+VP-0204,L52709200,2026-04-08 18:22,"Vancomycin, trough",27.0,mg/L
+VP-0204,L58589780,2026-04-09 07:59,Vancomycin level,30.8,mg/L
+VP-0204,L67536819,2026-04-09 20:15,"Vancomycin, random",31.0,mg/L
+VP-0204,L47392089,2026-04-10 04:53,"Vancomycin, trough",24.0,mg/L
+VP-0205,L82140459,2026-05-11 01:03,"Vancomycin, random",<4.0,mg/L
+VP-0205,L95551395,2026-05-12 05:51,Vancomycin level,54.4 H,mg/L
+VP-0205,L80729411,2026-05-13 06:32,"Vancomycin, trough",54.2 H,mg/L
+VP-0205,L46395574,2026-05-15 04:43,"Vancomycin, random",31.6,mg/L
+VP-0205,L75501664,2026-05-16 03:59,"Vancomycin, trough",16.1,mg/L
+VP-0206,L33208555,2026-03-31 08:06,"Vancomycin, random",27.4,mg/L
+VP-0206,L76936315,2026-03-31 22:04,Vancomycin level,42.9 H,mg/L
+VP-0206,L17324070,2026-04-01 18:43,"Vancomycin, peak",28.7,mg/L
+VP-0206,L85579428,2026-04-01 18:50,Vancomycin level,QNS - test cancelled,mg/L
+VP-0207,L75826213,2026-03-19 11:14,Vancomycin level,26.8,mg/L
+VP-0207,L60846653,2026-03-20 11:09,"Vancomycin, trough",27.9,mg/L
+VP-0207,L64195248,2026-03-22 09:12,"Vancomycin, trough",23.1,mg/L
+VP-0207,L75929689,2026-03-22 12:39,Vancomycin level,32.5,mg/L
+VP-0208,L36945715,2026-04-14 03:06,"Vancomycin, trough",46.0 H,mg/L
+VP-0208,L39677781,2026-04-15 10:19,"Vancomycin, trough",12.3,mg/L
+VP-0209,L31701910,2026-03-23 18:35,"Vancomycin, trough",23.4,mg/L
+VP-0209,L84581996,2026-03-24 13:34,Vancomycin level,15.1,mg/L
+VP-0210,L71256024,2026-03-28 16:23,Vancomycin level,19.8,mg/L
+VP-0210,L27124863,2026-03-29 05:47,Vancomycin level,17.2,mg/L
+VP-0210,L78324554,2026-03-29 05:50,"Vancomycin, trough",Specimen hemolyzed - recollect,mg/L
+VP-0210,L42872490,2026-03-29 09:04,Vancomycin level,23.8,mg/L
+VP-0211,L20466121,2026-04-12 15:56,"Vancomycin, random",43.0 H,mg/L
+VP-0211,L14506196,2026-04-13 02:56,"Vancomycin, trough",40.5 H,mg/L
+VP-0211,L15080209,2026-04-13 22:56,"Vancomycin, random",12.1,mg/L
+VP-0212,L94083473,2026-05-13 09:52,Vancomycin level,25.7,mg/L
+VP-0212,L66671261,2026-05-14 00:44,"Vancomycin, random",29.1,mg/L
+VP-0212,L92139909,2026-05-14 00:51,Vancomycin level,QNS - test cancelled,mg/L
+VP-0212,L66494896,2026-05-14 21:30,"Vancomycin, trough",20.7,mg/L
+VP-0213,L95111347,2026-04-16 01:40,"Vancomycin, random",36.5,mg/L
+VP-0213,L27439545,2026-04-17 02:25,"Vancomycin, trough",31.4,mg/L
+VP-0213,L28850280,2026-04-18 23:16,Vancomycin level,19.9,mg/L
+VP-0214,L12021162,2026-05-02 12:48,Vancomycin level,21.1,mg/L
+VP-0214,L96007113,2026-05-02 17:15,"Vancomycin, random",40.0,mg/L
+VP-0214,L87896310,2026-05-03 01:38,"Vancomycin, random",52.7 H,mg/L
+VP-0215,L65390474,2026-05-19 02:32,"Vancomycin, random",23.5,mg/L
+VP-0215,L97882550,2026-05-19 10:17,"Vancomycin, peak",12.8,mg/L
+VP-0216,L25402655,2026-04-25 02:49,Vancomycin level,18.6,mg/L
+VP-0216,L63638556,2026-04-25 16:43,"Vancomycin, peak",24.9,mg/L
+VP-0216,L58981809,2026-04-26 12:53,"Vancomycin, random",38.8,mg/L
+VP-0216,L79309984,2026-04-26 23:40,"Vancomycin, trough",33.1,mg/L
+VP-0217,L95341313,2026-05-16 02:39,"Vancomycin, peak",27.8,mg/L
+VP-0217,L94579262,2026-05-16 05:25,Vancomycin level,53.8 H,mg/L
+VP-0217,L78008670,2026-05-17 04:05,Vancomycin level,56.0 H,mg/L
+VP-0218,L47929767,2026-03-12 02:20,"Vancomycin, random",23.6,mg/L
+VP-0218,L18840549,2026-03-12 15:48,"Vancomycin, random",28.4,mg/L
+VP-0218,L44936642,2026-03-12 17:16,"Vancomycin, random",26.3,mg/L
+VP-0218,L69556321,2026-03-13 06:13,"Vancomycin, trough",19.5,mg/L
+VP-0219,L26266826,2026-03-23 02:35,"Vancomycin, peak",<4.0,mg/L
+VP-0219,L26040638,2026-03-24 08:08,"Vancomycin, random",17.8,mg/L
+VP-0219,L30211788,2026-03-25 00:49,"Vancomycin, random",19.3,mg/L
+VP-0219,L21198520,2026-03-25 06:03,"Vancomycin, random",10.0,mg/L
+VP-0220,L79803312,2026-04-17 08:27,"Vancomycin, trough",Unlabeled specimen - rejected,mg/L
+VP-0220,L80063291,2026-04-17 08:42,"Vancomycin, peak",8.1,mg/L
+VP-0220,L16763178,2026-04-17 12:05,"Vancomycin, trough",15.2,mg/L
+VP-0221,L44625190,2026-05-04 00:51,"Vancomycin, peak",<4.0,mg/L
+VP-0221,L22356810,2026-05-04 14:59,Vancomycin level,27.9,mg/L
+VP-0221,L81925525,2026-05-04 16:22,"Vancomycin, trough",33.5,mg/L
+VP-0221,L54286097,2026-05-05 05:03,Vancomycin level,31.3,mg/L
+VP-0221,L66399694,2026-05-06 01:54,"Vancomycin, trough",26.8,mg/L
+VP-0222,L46833757,2026-03-31 05:20,"Vancomycin, trough",14.0,mg/L
+VP-0222,L12197140,2026-03-31 14:11,"Vancomycin, random",9.3,mg/L
+VP-0223,L59739053,2026-04-04 00:14,"Vancomycin, peak",43.2 H,mg/L
+VP-0223,L74314587,2026-04-04 01:30,"Vancomycin, peak",35.9,mg/L
+VP-0223,L89765602,2026-04-04 13:46,"Vancomycin, peak",25.8,mg/L
+VP-0224,L17022186,2026-05-07 14:33,Vancomycin level,23.8,mg/L
+VP-0224,L19551931,2026-05-08 00:33,"Vancomycin, trough",20.3,mg/L
+VP-0224,L95604898,2026-05-08 14:05,Vancomycin level,23.8,mg/L
+VP-0225,L92119877,2026-03-12 23:40,"Vancomycin, peak",12.0,mg/L
+VP-0225,L18891765,2026-03-13 02:27,Vancomycin level,28.8,mg/L
+VP-0226,L13773333,2026-03-20 05:37,Vancomycin level,27.7,mg/L
+VP-0226,L74359374,2026-03-20 08:59,"Vancomycin, random",52.2 H,mg/L
+VP-0227,L15422034,2026-03-27 00:13,"Vancomycin, trough",<4.0,mg/L
+VP-0227,L20367019,2026-03-27 07:02,"Vancomycin, trough",Specimen hemolyzed - recollect,mg/L
+VP-0227,L77844355,2026-03-27 07:20,"Vancomycin, random",19.3,mg/L
+VP-0227,L81078910,2026-03-27 17:12,"Vancomycin, trough",16.5,mg/L
+VP-0228,L99492193,2026-05-14 18:37,"Vancomycin, peak",29.7,mg/L
+VP-0228,L48552049,2026-05-15 21:27,"Vancomycin, trough",50.1 H,mg/L
+VP-0228,L60687500,2026-05-16 05:09,"Vancomycin, random",12.7,mg/L
+VP-0229,L23024202,2026-04-04 16:43,"Vancomycin, peak",21.5,mg/L
+VP-0229,L69159762,2026-04-04 22:52,Vancomycin level,19.3,mg/L
+VP-0230,L68692780,2026-05-13 10:12,"Vancomycin, trough",8.8,mg/L
+VP-0230,L79694607,2026-05-14 09:18,Vancomycin level,10.5,mg/L
+VP-0230,L73969808,2026-05-14 12:32,"Vancomycin, random",28.8,mg/L
+VP-0231,L45567827,2026-04-13 17:21,"Vancomycin, trough",<4.0,mg/L
+VP-0231,L31445314,2026-04-18 22:21,"Vancomycin, random",33.1,mg/L
+VP-0231,L81018359,2026-04-19 19:40,"Vancomycin, random",18.5,mg/L
+VP-0232,L67460154,2026-03-19 01:19,"Vancomycin, peak",12.1,mg/L
+VP-0232,L62070196,2026-03-19 05:22,"Vancomycin, trough",45.0 H,mg/L
+VP-0232,L54698149,2026-03-20 02:32,"Vancomycin, trough",16.3,mg/L
+VP-0233,L36007722,2026-03-23 14:23,"Vancomycin, trough",21.6,mg/L
+VP-0233,L95915761,2026-03-23 17:53,"Vancomycin, peak",33.6,mg/L
+VP-0233,L28753252,2026-03-24 06:34,Vancomycin level,33.3,mg/L
+VP-0233,L14676749,2026-03-24 13:46,"Vancomycin, peak",14.6,mg/L
+VP-0234,L90534922,2026-05-08 00:35,"Vancomycin, trough",20.5,mg/L
+VP-0234,L27576745,2026-05-09 08:26,"Vancomycin, trough",25.2,mg/L
+VP-0234,L20156447,2026-05-09 12:20,Vancomycin level,35.7,mg/L
+VP-0235,L93213366,2026-05-15 03:06,"Vancomycin, random",24.4,mg/L
+VP-0235,L68961569,2026-05-16 05:52,Vancomycin level,41.9 H,mg/L
+VP-0235,L72056008,2026-05-16 13:52,Vancomycin level,18.9,mg/L
+VP-0236,L92538235,2026-03-19 20:01,"Vancomycin, peak",<4.0,mg/L
+VP-0236,L50087390,2026-03-22 01:35,"Vancomycin, peak",20.5,mg/L
+VP-0236,L55600590,2026-03-25 03:32,"Vancomycin, random",24.7,mg/L
+VP-0236,L35093882,2026-03-26 00:33,Vancomycin level,10.0,mg/L
+VP-0237,L64991498,2026-05-15 09:34,"Vancomycin, trough",27.5,mg/L
+VP-0237,L32934029,2026-05-15 17:31,"Vancomycin, random",14.9,mg/L
+VP-0237,L87199936,2026-05-15 19:19,Vancomycin level,20.9,mg/L
+VP-0238,L36485989,2026-04-06 18:14,"Vancomycin, peak",6.4,mg/L
+VP-0238,L94478337,2026-04-06 18:19,"Vancomycin, peak",6.1,mg/L
+VP-0238,L29176666,2026-04-06 22:19,Vancomycin level,2.6,mg/L
+VP-0238,L87498544,2026-04-06 22:27,"Vancomycin, random",Clotted specimen - rejected,mg/L
+VP-0239,L66044413,2026-03-18 19:49,"Vancomycin, random",26.0,mg/L
+VP-0239,L14724436,2026-03-18 21:39,"Vancomycin, trough",26.6,mg/L
+VP-0239,L66959519,2026-03-19 04:21,"Vancomycin, peak",16.1,mg/L
+VP-0240,L35920948,2026-05-12 22:01,Vancomycin level,25.8,mg/L
+VP-0240,L11545651,2026-05-13 00:47,"Vancomycin, random",QNS - test cancelled,mg/L
+VP-0240,L93214993,2026-05-13 00:59,"Vancomycin, random",49.0 H,mg/L
