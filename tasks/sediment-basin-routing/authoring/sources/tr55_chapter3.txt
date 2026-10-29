@@ -1,0 +1,328 @@
+Chapter 3                                 Time of Concentration and Travel Time Technical Release 55
+Chapter 3                                 Time       of Concentration                  and
+                                                                                Urban Hydrology for Small Watersheds
+                                          Travel Time
+
+Travel time ( T t ) is the time it takes water to travel          Computation of travel time and
+from one location to another in a watershed. Tt is a                 time of concentration
+component of time of concentration ( T c ), which is
+the time for runoff to travel from the hydraulically              Water moves through a watershed as sheet flow,
+most distant point of the watershed to a point of                 shallow concentrated flow, open channel flow, or
+interest within the watershed. Tc is computed by                  some combination of these. The type that occurs is a
+summing all the travel times for consecutive compo-               function of the conveyance system and is best deter-
+nents of the drainage conveyance system.                          mined by field inspection.
+
+Tc influences the shape and peak of the runoff                    Travel time ( T t ) is the ratio of flow length to flow
+hydrograph. Urbanization usually decreases Tc,                    velocity:
+thereby increasing the peak discharge. But Tc can be                               L
+increased as a result of (a) ponding behind small or                      Tt =                                      [eq. 3-1]
+                                                                                 3600V
+inadequate drainage systems, including storm drain
+inlets and road culverts, or (b) reduction of land slope
+through grading.                                                  where:
+
+                                                                        Tt = travel time (hr)
+Factors affecting time of concen-
+                                                                        L = flow length (ft)
+   tration and travel time
+                                                                        V = average velocity (ft/s)
+                                                                     3600 = conversion factor from seconds to hours.
+Surface roughness
+
+One of the most significant effects of urban develop-             Time of concentration ( T c ) is the sum of Tt values for
+ment on flow velocity is less retardance to flow. That            the various consecutive flow segments:
+is, undeveloped areas with very slow and shallow
+overland flow through vegetation become modified by                       Tc = Tt 1 + Tt 2 + K Tt m                 [eq. 3-2]
+urban development: the flow is then delivered to
+streets, gutters, and storm sewers that transport runoff          where:
+downstream more rapidly. Travel time through the
+watershed is generally decreased.                                        Tc = time of concentration (hr)
+                                                                         m = number of flow segments
+Channel shape and flow patterns
+
+In small non-urban watersheds, much of the travel
+time results from overland flow in upstream areas.
+Typically, urbanization reduces overland flow lengths
+by conveying storm runoff into a channel as soon as
+possible. Since channel designs have efficient hydrau-
+lic characteristics, runoff flow velocity increases and
+travel time decreases.
+
+Slope
+
+Slopes may be increased or decreased by urbanization,
+depending on the extent of site grading or the extent
+to which storm sewers and street ditches are used in
+the design of the water management system. Slope will
+tend to increase when channels are straightened and
+decrease when overland flow is directed through
+storm sewers, street gutters, and diversions.
+
+
+
+                                             (210-VI-TR-55, Second Ed., June 1986)                                          3–1
+Chapter 3                                               Time of Concentration and Travel Time       Technical Release 55
+                                                                                                    Urban Hydrology for Small Watersheds
+
+
+
+
+Figure 3-1          Average velocities for estimating travel time for shallow concentrated flow
+
+
+                                          .50
+
+
+
+
+                                          .20
+
+
+
+
+                                          .10
+             Watercourse slope (ft/ft)
+
+
+
+
+                                          .06
+                                                                 ved
+
+
+
+
+                                          .04
+                                                                pa
+
+                                                                       ved
+                                                              Un
+
+                                                                     Pa
+
+
+
+
+                                          .02
+
+
+
+
+                                          .01
+
+
+
+
+                                         .005
+                                                1   2                        4        6            10                 20
+
+
+                                                                Average velocity (ft/sec)
+
+
+
+3–2                                                        (210-VI-TR-55, Second Ed., June 1986)
+Chapter 3                                                        Time of Concentration and Travel Time             Technical Release 55
+                                                                                                                   Urban Hydrology for Small Watersheds
+
+
+
+
+Sheet flow                                                                                 For sheet flow of less than 300 feet, use Manning’s
+                                                                                           kinematic solution (Overtop and Meadows 1976) to
+Sheet flow is flow over plane surfaces. It usually                                         compute Tt:
+occurs in the headwater of streams. With sheet flow,
+                                                                                                          0.007(nL )
+                                                                                                                      0.8
+the friction value (Manning’s n) is an effective rough-                                            Tt =                                            [eq. 3-3]
+ness coefficient that includes the effect of raindrop
+impact; drag over the plane surface; obstacles such as
+                                                                                                          (P2 )0.5 s 0.4
+litter, crop ridges, and rocks; and erosion and trans-                                     where:
+portation of sediment. These n values are for very
+shallow flow depths of about 0.1 foot or so. Table 3-1                                       Tt   = travel time (hr),
+gives Manning’s n values for sheet flow for various                                          n    = Manning’s roughness coefficient (table 3-1)
+surface conditions.                                                                          L    = flow length (ft)
+                                                                                             P2   = 2-year, 24-hour rainfall (in)
+                                                                                              s   = slope of hydraulic grade line
+Table 3-1             Roughness coefficients (Manning’s n) for                                        (land slope, ft/ft)
+                      sheet flow
+                                                                                           This simplified form of the Manning’s kinematic solu-
+           Surface description                                                 n 1/        tion is based on the following: (1) shallow steady
+                                                                                           uniform flow, (2) constant intensity of rainfall excess
+Smooth surfaces (concrete, asphalt,                                                        (that part of a rain available for runoff), (3) rainfall
+     gravel, or bare soil) ..........................................        0.011         duration of 24 hours, and (4) minor effect of infiltra-
+Fallow (no residue) ..................................................       0.05          tion on travel time. Rainfall depth can be obtained
+Cultivated soils:                                                                          from appendix B.
+     Residue cover ≤20% .........................................            0.06
+     Residue cover >20% .........................................            0.17          Shallow concentrated flow
+Grass:
+     Short grass prairie ............................................        0.15          After a maximum of 300 feet, sheet flow usually be-
+     Dense grasses 2/ ................................................       0.24          comes shallow concentrated flow. The average veloc-
+     Bermudagrass . .................................................        0.41          ity for this flow can be determined from figure 3-1, in
+Range (natural) .........................................................    0.13          which average velocity is a function of watercourse
+Woods:3/                                                                                   slope and type of channel. For slopes less than 0.005
+     Light underbrush ..............................................         0.40          ft/ft, use equations given in appendix F for figure 3-1.
+                                                                                           Tillage can affect the direction of shallow concen-
+      Dense underbrush ............................................          0.80
+                                                                                           trated flow. Flow may not always be directly down the
+1   The n values are a composite of information compiled by Engman                         watershed slope if tillage runs across the slope.
+    (1986).
+2   Includes species such as weeping lovegrass, bluegrass, buffalo
+    grass, blue grama grass, and native grass mixtures.
+                                                                                           After determining average velocity in figure 3-1, use
+3   When selecting n , consider cover to a height of about 0.1 ft. This                    equation 3-1 to estimate travel time for the shallow
+    is the only part of the plant cover that will obstruct sheet flow.                     concentrated flow segment.
+
+                                                                                           Open channels
+
+                                                                                           Open channels are assumed to begin where surveyed
+                                                                                           cross section information has been obtained, where
+                                                                                           channels are visible on aerial photographs, or where
+                                                                                           blue lines (indicating streams) appear on United States
+                                                                                           Geological Survey (USGS) quadrangle sheets.
+                                                                                           Manning’s equation or water surface profile informa-
+                                                                                           tion can be used to estimate average flow velocity.
+                                                                                           Average flow velocity is usually determined for bank-
+                                                                                           full elevation.
+
+
+                                                                      (210-VI-TR-55, Second Ed., June 1986)                                               3–3
+Chapter 3                                Time of Concentration and Travel Time            Technical Release 55
+                                                                                          Urban Hydrology for Small Watersheds
+
+
+
+
+Manning’s equation is:                                             • A culvert or bridge can act as a reservoir outlet if
+                  2 1                                                there is significant storage behind it. The proce-
+            1.49r 3 s 2                                              dures in TR-55 can be used to determine the peak
+      V=                                         [eq. 3-4]           flow upstream of the culvert. Detailed storage
+                n
+                                                                     routing procedures should be used to determine
+where:                                                               the outflow through the culvert.
+
+      V = average velocity (ft/s)                                 Example 3-1
+       r = hydraulic radius (ft) and is equal to a/pw
+             a = cross sectional flow area (ft2)                  The sketch below shows a watershed in Dyer County,
+           pw = wetted perimeter (ft)                             northwestern Tennessee. The problem is to compute
+       s = slope of the hydraulic grade line (channel             Tc at the outlet of the watershed (point D). The 2-year
+           slope, ft/ft)                                          24-hour rainfall depth is 3.6 inches. All three types of
+      n = Manning’s roughness coefficient for open                flow occur from the hydraulically most distant point
+           channel flow.                                          (A) to the point of interest (D). To compute Tc, first
+                                                                  determine Tt for each segment from the following
+Manning’s n values for open channel flow can be                   information:
+obtained from standard textbooks such as Chow
+(1959) or Linsley et al. (1982). After average velocity is        Segment AB: Sheet flow; dense grass; slope (s) = 0.01
+computed using equation 3-4, Tt for the channel seg-              ft/ft; and length (L) = 100 ft. Segment BC: Shallow
+ment can be estimated using equation 3-1.                         concentrated flow; unpaved; s = 0.01 ft/ft; and
+                                                                  L = 1,400 ft. Segment CD: Channel flow; Manning’s
+Reservoirs or lakes                                               n = .05; flow area (a) = 27 ft2; wetted perimeter
+                                                                  (pw) = 28.2 ft; s = 0.005 ft/ft; and L = 7,300 ft.
+Sometimes it is necessary to estimate the velocity of
+flow through a reservoir or lake at the outlet of a               See figure 3-2 for the computations made on
+watershed. This travel time is normally very small and            worksheet 3.
+can be assumed as zero.
+
+Limitations
+• Manning’s kinematic solution should not be used
+  for sheet flow longer than 300 feet. Equation 3-3
+  was developed for use with the four standard
+  rainfall intensity-duration relationships.                           100 ft        1,400 ft                7,300 ft
+                                                                   A            B                C                               D
+• In watersheds with storm sewers, carefully identify
+  the appropriate hydraulic flow path to estimate Tc.                                           (Not to scale)
+  Storm sewers generally handle only a small portion
+  of a large event. The rest of the peak flow travels
+  by streets, lawns, and so on, to the outlet. Consult a
+  standard hydraulics textbook to determine average
+  velocity in pipes for either pressure or nonpressure
+  flow.
+
+• The minimum Tc used in TR-55 is 0.1 hour.
+
+
+
+
+3–4                                          (210-VI-TR-55, Second Ed., June 1986)
+Chapter 3                                                      Time of Concentration and Travel Time                     Technical Release 55
+                                                                                                                         Urban Hydrology for Small Watersheds
+
+
+
+
+Figure 3-2     Worksheet 3 for example 3-1
+
+
+
+
+             Worksheet 3: Time of Concentration (Tc) or travel time (Tt)
+             Project                                                                                  By                       Date
+                        Heavenly Acres                                                                     DW                          10/6/85
+             Location                                                                                 Checked                  Date
+                            Dyer County, Tennessee                                                              NM                     10/8/85
+
+              Check one:             Present         X Developed
+              Check one:         X Tc          Tt through subarea
+                    Notes: Space for as many as two segments per flow type can be used for each worksheet.
+                           Include a map, schematic, or description of flow segments.
+
+              Sheet flow (Applicable to Tc only)
+
+                                                                                Segment ID                  AB
+               1. Surface description (table 3-1) ...................................                   Dense Grass
+               2. Manning’s roughness coefficient, n (table 3-1) ..........                                0.24
+               3. Flow length, L (total L ≤ 300 ft) ................................. ft                   100
+               4. Two-year 24-hour rainfall, P .................................. in                        3.6
+                                                          2
+               5. Land slope, s ........................................................ ft/ft             0.01
+
+               6.             0.007 (nL)
+                       Tt = _____________
+                                               0.8              Compute Tt ......... hr
+                                                                                                           0.30     +                 = 0.30
+                             P2 0.5 s0.4
+              Shallow concentrated flow
+
+                                                                              Segment ID                      BC
+              7. Surface description (paved or unpaved) .....................                              Unpaved
+              8. Flow length, L ...........................................................ft
+                                                                                                            1400
+              9. Watercourse slope, s ............................................ ft/ft
+                                                                                                             0.01
+              10. Average velocity, V (figure 3-1) ............................. ft/s
+                                                                                                             1.6
+              11.           L
+                    Tt = _______                   Compute Tt ........... hr
+                                                                                                           0.24      +                = 0.24
+                          3600 V
+
+              Channel flow
+
+                                                                            Segement ID                      CD
+             12. Cross sectional flow area, a                 ................................. ft2          27
+             13. Wetted perimeter, pw .............................................. ft                     28.2
+                                         a
+             14. Hydraulic radius, r =         Compute r ...................... ft                         0.957
+                                        pw
+             15 Channel slope, s ..................................................... ft/ft               0.005
+             16. Manning’s roughness coefficient, n ............................                           0.05
+                          1.49 r    s 2/3     1/2                                                           2.05
+             17. V = _______________               Compute V ................ft/s
+                                 n                                                                         7300
+             18. Flow length, L .......................................................... ft
+             19.
+                             L
+                    Tt = _________                     Compute Tt .............. hr                        0.99      +                =     0.99
+                          3600 V
+             20. Watershed or subarea Tc or Tt (add Tt in steps 6, 11, and 19) ....................................................... Hr   1.53
+
+
+
+
+                                                                      (210-VI-TR-55, Second Ed., June 1986)                                                     3–5
+Chapter 3   Time of Concentration and Travel Time      Technical Release 55
+                                                       Urban Hydrology for Small Watersheds
+
+
+

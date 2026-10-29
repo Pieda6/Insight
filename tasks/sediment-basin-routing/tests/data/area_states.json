@@ -8,73 +8,145 @@
  {
   "site_id": "S01",
   "area_id": "S01-A01",
-  "effective_date": "2026-05-19",
+  "effective_date": "2026-04-07",
   "state": "disturbed"
  },
  {
   "site_id": "S01",
   "area_id": "S01-A01",
-  "effective_date": "2026-07-17",
+  "effective_date": "2026-07-04",
   "state": "stabilized"
  },
  {
   "site_id": "S01",
-  "area_id": "S01-A01",
-  "effective_date": "2026-07-30",
-  "state": "disturbed"
- },
- {
-  "site_id": "S01",
   "area_id": "S01-A02",
-  "effective_date": "2026-04-01",
-  "state": "disturbed"
- },
- {
-  "site_id": "S01",
-  "area_id": "S01-A02",
-  "effective_date": "2026-05-24",
-  "state": "stabilized"
- },
- {
-  "site_id": "S01",
-  "area_id": "S01-A03",
   "effective_date": "2026-04-01",
   "state": "undisturbed"
  },
  {
   "site_id": "S01",
-  "area_id": "S01-A03",
-  "effective_date": "2026-05-08",
+  "area_id": "S01-A02",
+  "effective_date": "2026-05-23",
   "state": "disturbed"
  },
  {
   "site_id": "S01",
-  "area_id": "S01-A03",
-  "effective_date": "2026-06-21",
+  "area_id": "S01-A02",
+  "effective_date": "2026-07-08",
   "state": "stabilized"
  },
  {
   "site_id": "S01",
   "area_id": "S01-A03",
-  "effective_date": "2026-08-07",
-  "state": "disturbed"
- },
- {
-  "site_id": "S01",
-  "area_id": "S01-A04",
   "effective_date": "2026-04-01",
   "state": "disturbed"
  },
  {
   "site_id": "S01",
+  "area_id": "S01-A03",
+  "effective_date": "2026-05-05",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S01",
   "area_id": "S01-A04",
-  "effective_date": "2026-04-21",
+  "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S01",
+  "area_id": "S01-A04",
+  "effective_date": "2026-05-18",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S01",
+  "area_id": "S01-A04",
+  "effective_date": "2026-08-03",
   "state": "stabilized"
  },
  {
   "site_id": "S01",
   "area_id": "S01-A05",
   "effective_date": "2026-04-01",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S01",
+  "area_id": "S01-A05",
+  "effective_date": "2026-05-19",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S01",
+  "area_id": "S01-A06",
+  "effective_date": "2026-04-01",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S01",
+  "area_id": "S01-A06",
+  "effective_date": "2026-05-25",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S01",
+  "area_id": "S01-A07",
+  "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S01",
+  "area_id": "S01-A07",
+  "effective_date": "2026-04-21",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S01",
+  "area_id": "S01-A07",
+  "effective_date": "2026-05-14",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S01",
+  "area_id": "S01-A08",
+  "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S01",
+  "area_id": "S01-A08",
+  "effective_date": "2026-05-11",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S01",
+  "area_id": "S01-A08",
+  "effective_date": "2026-06-25",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S01",
+  "area_id": "S01-A09",
+  "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S01",
+  "area_id": "S01-A09",
+  "effective_date": "2026-04-17",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S01",
+  "area_id": "S01-A09",
+  "effective_date": "2026-06-14",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S01",
+  "area_id": "S01-A09",
+  "effective_date": "2026-07-22",
   "state": "disturbed"
  },
  {
@@ -85,32 +157,44 @@
  },
  {
   "site_id": "S02",
+  "area_id": "S02-A01",
+  "effective_date": "2026-05-05",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S02",
   "area_id": "S02-A02",
   "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S02",
+  "area_id": "S02-A02",
+  "effective_date": "2026-05-14",
   "state": "disturbed"
  },
  {
   "site_id": "S02",
   "area_id": "S02-A02",
-  "effective_date": "2026-08-01",
+  "effective_date": "2026-07-15",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S02",
+  "area_id": "S02-A03",
+  "effective_date": "2026-04-01",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S02",
+  "area_id": "S02-A03",
+  "effective_date": "2026-05-05",
   "state": "stabilized"
  },
  {
   "site_id": "S03",
   "area_id": "S03-A01",
   "effective_date": "2026-04-01",
-  "state": "disturbed"
- },
- {
-  "site_id": "S03",
-  "area_id": "S03-A01",
-  "effective_date": "2026-05-11",
-  "state": "stabilized"
- },
- {
-  "site_id": "S03",
-  "area_id": "S03-A01",
-  "effective_date": "2026-06-18",
   "state": "disturbed"
  },
  {
@@ -122,104 +206,38 @@
  {
   "site_id": "S03",
   "area_id": "S03-A02",
-  "effective_date": "2026-04-11",
-  "state": "disturbed"
- },
- {
-  "site_id": "S03",
-  "area_id": "S03-A02",
-  "effective_date": "2026-06-10",
-  "state": "stabilized"
- },
- {
-  "site_id": "S03",
-  "area_id": "S03-A02",
-  "effective_date": "2026-07-12",
-  "state": "disturbed"
- },
- {
-  "site_id": "S03",
-  "area_id": "S03-A03",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S03",
-  "area_id": "S03-A03",
-  "effective_date": "2026-05-09",
-  "state": "disturbed"
- },
- {
-  "site_id": "S03",
-  "area_id": "S03-A04",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S03",
-  "area_id": "S03-A04",
   "effective_date": "2026-04-13",
   "state": "disturbed"
  },
  {
   "site_id": "S03",
-  "area_id": "S03-A05",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S03",
-  "area_id": "S03-A05",
-  "effective_date": "2026-05-05",
-  "state": "disturbed"
- },
- {
-  "site_id": "S03",
-  "area_id": "S03-A05",
-  "effective_date": "2026-07-10",
+  "area_id": "S03-A02",
+  "effective_date": "2026-05-23",
   "state": "stabilized"
  },
  {
   "site_id": "S03",
-  "area_id": "S03-A06",
+  "area_id": "S03-A03",
   "effective_date": "2026-04-01",
   "state": "disturbed"
  },
  {
   "site_id": "S03",
-  "area_id": "S03-A06",
-  "effective_date": "2026-05-27",
+  "area_id": "S03-A04",
+  "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S03",
+  "area_id": "S03-A04",
+  "effective_date": "2026-04-09",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S03",
+  "area_id": "S03-A04",
+  "effective_date": "2026-06-10",
   "state": "stabilized"
- },
- {
-  "site_id": "S03",
-  "area_id": "S03-A07",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S03",
-  "area_id": "S03-A07",
-  "effective_date": "2026-05-14",
-  "state": "disturbed"
- },
- {
-  "site_id": "S03",
-  "area_id": "S03-A08",
-  "effective_date": "2026-04-01",
-  "state": "disturbed"
- },
- {
-  "site_id": "S03",
-  "area_id": "S03-A09",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S03",
-  "area_id": "S03-A09",
-  "effective_date": "2026-05-31",
-  "state": "disturbed"
  },
  {
   "site_id": "S04",
@@ -230,145 +248,133 @@
  {
   "site_id": "S04",
   "area_id": "S04-A01",
-  "effective_date": "2026-04-16",
-  "state": "disturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A01",
-  "effective_date": "2026-06-15",
-  "state": "stabilized"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A02",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A02",
-  "effective_date": "2026-04-14",
-  "state": "disturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A03",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A03",
-  "effective_date": "2026-05-10",
-  "state": "disturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A03",
-  "effective_date": "2026-06-09",
-  "state": "stabilized"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A04",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A04",
-  "effective_date": "2026-04-30",
-  "state": "disturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A05",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A05",
-  "effective_date": "2026-05-05",
-  "state": "disturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A05",
-  "effective_date": "2026-07-09",
-  "state": "stabilized"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A05",
-  "effective_date": "2026-08-02",
-  "state": "disturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A06",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A06",
-  "effective_date": "2026-05-27",
-  "state": "disturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A06",
-  "effective_date": "2026-06-25",
-  "state": "stabilized"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A06",
-  "effective_date": "2026-07-24",
-  "state": "disturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A07",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A07",
-  "effective_date": "2026-05-15",
-  "state": "disturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A08",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S04",
-  "area_id": "S04-A08",
-  "effective_date": "2026-04-23",
-  "state": "disturbed"
- },
- {
-  "site_id": "S05",
-  "area_id": "S05-A01",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S05",
-  "area_id": "S05-A01",
   "effective_date": "2026-05-01",
   "state": "disturbed"
+ },
+ {
+  "site_id": "S04",
+  "area_id": "S04-A02",
+  "effective_date": "2026-04-01",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A01",
+  "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A01",
+  "effective_date": "2026-04-11",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A01",
+  "effective_date": "2026-05-31",
+  "state": "stabilized"
  },
  {
   "site_id": "S05",
   "area_id": "S05-A02",
   "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A02",
+  "effective_date": "2026-05-05",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A02",
+  "effective_date": "2026-07-11",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A03",
+  "effective_date": "2026-04-01",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A04",
+  "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A04",
+  "effective_date": "2026-04-30",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A04",
+  "effective_date": "2026-06-20",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A04",
+  "effective_date": "2026-07-13",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A05",
+  "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A05",
+  "effective_date": "2026-05-28",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A05",
+  "effective_date": "2026-07-07",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A06",
+  "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A06",
+  "effective_date": "2026-05-10",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A06",
+  "effective_date": "2026-07-15",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A07",
+  "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A07",
+  "effective_date": "2026-04-27",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S05",
+  "area_id": "S05-A07",
+  "effective_date": "2026-07-23",
   "state": "stabilized"
  },
  {
@@ -380,32 +386,26 @@
  {
   "site_id": "S06",
   "area_id": "S06-A01",
-  "effective_date": "2026-04-29",
+  "effective_date": "2026-05-09",
   "state": "disturbed"
  },
  {
   "site_id": "S06",
-  "area_id": "S06-A02",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S06",
-  "area_id": "S06-A02",
-  "effective_date": "2026-04-26",
-  "state": "disturbed"
- },
- {
-  "site_id": "S06",
-  "area_id": "S06-A02",
-  "effective_date": "2026-06-07",
+  "area_id": "S06-A01",
+  "effective_date": "2026-07-17",
   "state": "stabilized"
  },
  {
   "site_id": "S06",
   "area_id": "S06-A02",
-  "effective_date": "2026-07-10",
+  "effective_date": "2026-04-01",
   "state": "disturbed"
+ },
+ {
+  "site_id": "S06",
+  "area_id": "S06-A02",
+  "effective_date": "2026-05-13",
+  "state": "stabilized"
  },
  {
   "site_id": "S06",
@@ -422,170 +422,14 @@
  {
   "site_id": "S06",
   "area_id": "S06-A04",
-  "effective_date": "2026-05-05",
-  "state": "disturbed"
- },
- {
-  "site_id": "S06",
-  "area_id": "S06-A05",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S06",
-  "area_id": "S06-A05",
-  "effective_date": "2026-04-17",
-  "state": "disturbed"
- },
- {
-  "site_id": "S06",
-  "area_id": "S06-A05",
-  "effective_date": "2026-06-18",
-  "state": "stabilized"
- },
- {
-  "site_id": "S06",
-  "area_id": "S06-A06",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S06",
-  "area_id": "S06-A06",
-  "effective_date": "2026-04-11",
-  "state": "disturbed"
- },
- {
-  "site_id": "S06",
-  "area_id": "S06-A07",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S06",
-  "area_id": "S06-A07",
-  "effective_date": "2026-04-29",
+  "effective_date": "2026-05-07",
   "state": "disturbed"
  },
  {
   "site_id": "S07",
   "area_id": "S07-A01",
   "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A01",
-  "effective_date": "2026-05-05",
   "state": "disturbed"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A02",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A02",
-  "effective_date": "2026-05-01",
-  "state": "disturbed"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A02",
-  "effective_date": "2026-07-27",
-  "state": "stabilized"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A03",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A03",
-  "effective_date": "2026-04-10",
-  "state": "disturbed"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A03",
-  "effective_date": "2026-07-05",
-  "state": "stabilized"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A04",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A04",
-  "effective_date": "2026-05-23",
-  "state": "disturbed"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A05",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A05",
-  "effective_date": "2026-05-24",
-  "state": "disturbed"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A05",
-  "effective_date": "2026-08-10",
-  "state": "stabilized"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A05",
-  "effective_date": "2026-09-15",
-  "state": "disturbed"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A06",
-  "effective_date": "2026-04-01",
-  "state": "disturbed"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A06",
-  "effective_date": "2026-05-12",
-  "state": "stabilized"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A06",
-  "effective_date": "2026-06-02",
-  "state": "disturbed"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A07",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A07",
-  "effective_date": "2026-04-19",
-  "state": "disturbed"
- },
- {
-  "site_id": "S07",
-  "area_id": "S07-A07",
-  "effective_date": "2026-06-07",
-  "state": "stabilized"
  },
  {
   "site_id": "S08",
@@ -595,129 +439,165 @@
  },
  {
   "site_id": "S08",
-  "area_id": "S08-A01",
+  "area_id": "S08-A02",
+  "effective_date": "2026-04-01",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S08",
+  "area_id": "S08-A02",
+  "effective_date": "2026-05-14",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S08",
+  "area_id": "S08-A03",
+  "effective_date": "2026-04-01",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S08",
+  "area_id": "S08-A04",
+  "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S08",
+  "area_id": "S08-A04",
   "effective_date": "2026-05-30",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S08",
+  "area_id": "S08-A04",
+  "effective_date": "2026-07-01",
   "state": "stabilized"
  },
  {
   "site_id": "S08",
-  "area_id": "S08-A02",
+  "area_id": "S08-A05",
+  "effective_date": "2026-04-01",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S08",
+  "area_id": "S08-A06",
   "effective_date": "2026-04-01",
   "state": "undisturbed"
  },
  {
   "site_id": "S08",
-  "area_id": "S08-A02",
-  "effective_date": "2026-04-28",
+  "area_id": "S08-A06",
+  "effective_date": "2026-05-03",
   "state": "disturbed"
  },
  {
   "site_id": "S08",
-  "area_id": "S08-A02",
-  "effective_date": "2026-06-26",
+  "area_id": "S08-A06",
+  "effective_date": "2026-06-03",
   "state": "stabilized"
  },
  {
   "site_id": "S08",
-  "area_id": "S08-A02",
-  "effective_date": "2026-08-13",
-  "state": "disturbed"
- },
- {
-  "site_id": "S08",
-  "area_id": "S08-A03",
+  "area_id": "S08-A07",
   "effective_date": "2026-04-01",
-  "state": "disturbed"
+  "state": "undisturbed"
  },
  {
   "site_id": "S08",
-  "area_id": "S08-A03",
-  "effective_date": "2026-04-06",
-  "state": "stabilized"
- },
- {
-  "site_id": "S08",
-  "area_id": "S08-A03",
+  "area_id": "S08-A07",
   "effective_date": "2026-05-18",
   "state": "disturbed"
  },
  {
   "site_id": "S08",
-  "area_id": "S08-A04",
+  "area_id": "S08-A07",
+  "effective_date": "2026-06-29",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S08",
+  "area_id": "S08-A08",
+  "effective_date": "2026-04-01",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S08",
+  "area_id": "S08-A08",
+  "effective_date": "2026-04-27",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S09",
+  "area_id": "S09-A01",
   "effective_date": "2026-04-01",
   "state": "undisturbed"
  },
  {
-  "site_id": "S08",
-  "area_id": "S08-A04",
+  "site_id": "S09",
+  "area_id": "S09-A01",
+  "effective_date": "2026-05-30",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S09",
+  "area_id": "S09-A02",
+  "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S09",
+  "area_id": "S09-A02",
+  "effective_date": "2026-05-02",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S09",
+  "area_id": "S09-A02",
+  "effective_date": "2026-07-27",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S09",
+  "area_id": "S09-A02",
+  "effective_date": "2026-09-03",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S09",
+  "area_id": "S09-A03",
+  "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S09",
+  "area_id": "S09-A03",
+  "effective_date": "2026-04-28",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S09",
+  "area_id": "S09-A03",
   "effective_date": "2026-05-28",
-  "state": "disturbed"
- },
- {
-  "site_id": "S08",
-  "area_id": "S08-A04",
-  "effective_date": "2026-06-23",
   "state": "stabilized"
  },
  {
-  "site_id": "S08",
-  "area_id": "S08-A04",
-  "effective_date": "2026-07-29",
-  "state": "disturbed"
- },
- {
-  "site_id": "S08",
-  "area_id": "S08-A05",
+  "site_id": "S09",
+  "area_id": "S09-A04",
   "effective_date": "2026-04-01",
   "state": "disturbed"
  },
  {
-  "site_id": "S08",
-  "area_id": "S08-A05",
-  "effective_date": "2026-05-04",
+  "site_id": "S09",
+  "area_id": "S09-A04",
+  "effective_date": "2026-05-12",
   "state": "stabilized"
  },
  {
   "site_id": "S09",
-  "area_id": "S09-A01",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S09",
-  "area_id": "S09-A01",
-  "effective_date": "2026-05-04",
+  "area_id": "S09-A04",
+  "effective_date": "2026-05-26",
   "state": "disturbed"
- },
- {
-  "site_id": "S09",
-  "area_id": "S09-A01",
-  "effective_date": "2026-07-02",
-  "state": "stabilized"
- },
- {
-  "site_id": "S09",
-  "area_id": "S09-A01",
-  "effective_date": "2026-07-26",
-  "state": "disturbed"
- },
- {
-  "site_id": "S09",
-  "area_id": "S09-A02",
-  "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S09",
-  "area_id": "S09-A02",
-  "effective_date": "2026-04-24",
-  "state": "disturbed"
- },
- {
-  "site_id": "S09",
-  "area_id": "S09-A02",
-  "effective_date": "2026-06-08",
-  "state": "stabilized"
  },
  {
   "site_id": "S10",
@@ -728,91 +608,157 @@
  {
   "site_id": "S10",
   "area_id": "S10-A01",
-  "effective_date": "2026-05-19",
+  "effective_date": "2026-04-23",
   "state": "disturbed"
  },
  {
   "site_id": "S10",
-  "area_id": "S10-A02",
-  "effective_date": "2026-04-01",
-  "state": "disturbed"
- },
- {
-  "site_id": "S10",
-  "area_id": "S10-A02",
-  "effective_date": "2026-04-24",
+  "area_id": "S10-A01",
+  "effective_date": "2026-05-13",
   "state": "stabilized"
  },
  {
   "site_id": "S10",
   "area_id": "S10-A02",
-  "effective_date": "2026-05-28",
+  "effective_date": "2026-04-01",
   "state": "disturbed"
  },
  {
   "site_id": "S10",
   "area_id": "S10-A03",
   "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S10",
+  "area_id": "S10-A03",
+  "effective_date": "2026-04-15",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S10",
+  "area_id": "S10-A03",
+  "effective_date": "2026-05-29",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S10",
+  "area_id": "S10-A04",
+  "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S10",
+  "area_id": "S10-A04",
+  "effective_date": "2026-04-18",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S10",
+  "area_id": "S10-A04",
+  "effective_date": "2026-06-11",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S10",
+  "area_id": "S10-A05",
+  "effective_date": "2026-04-01",
+  "state": "undisturbed"
+ },
+ {
+  "site_id": "S10",
+  "area_id": "S10-A05",
+  "effective_date": "2026-04-14",
   "state": "disturbed"
  },
  {
   "site_id": "S11",
   "area_id": "S11-A01",
   "effective_date": "2026-04-01",
-  "state": "disturbed"
- },
- {
-  "site_id": "S12",
-  "area_id": "S12-A01",
-  "effective_date": "2026-04-01",
   "state": "undisturbed"
  },
  {
-  "site_id": "S12",
-  "area_id": "S12-A01",
+  "site_id": "S11",
+  "area_id": "S11-A01",
+  "effective_date": "2026-05-29",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S11",
+  "area_id": "S11-A01",
+  "effective_date": "2026-07-17",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S11",
+  "area_id": "S11-A02",
+  "effective_date": "2026-04-01",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S11",
+  "area_id": "S11-A02",
+  "effective_date": "2026-05-07",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S11",
+  "area_id": "S11-A02",
+  "effective_date": "2026-06-03",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S11",
+  "area_id": "S11-A03",
+  "effective_date": "2026-04-01",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S11",
+  "area_id": "S11-A03",
   "effective_date": "2026-04-30",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S11",
+  "area_id": "S11-A04",
+  "effective_date": "2026-04-01",
+  "state": "disturbed"
+ },
+ {
+  "site_id": "S11",
+  "area_id": "S11-A04",
+  "effective_date": "2026-05-04",
+  "state": "stabilized"
+ },
+ {
+  "site_id": "S11",
+  "area_id": "S11-A04",
+  "effective_date": "2026-05-23",
   "state": "disturbed"
  },
  {
   "site_id": "S12",
   "area_id": "S12-A01",
-  "effective_date": "2026-05-24",
-  "state": "stabilized"
- },
- {
-  "site_id": "S12",
-  "area_id": "S12-A02",
   "effective_date": "2026-04-01",
-  "state": "undisturbed"
- },
- {
-  "site_id": "S12",
-  "area_id": "S12-A02",
-  "effective_date": "2026-05-01",
   "state": "disturbed"
  },
  {
   "site_id": "S12",
   "area_id": "S12-A02",
-  "effective_date": "2026-06-17",
-  "state": "stabilized"
- },
- {
-  "site_id": "S12",
-  "area_id": "S12-A02",
-  "effective_date": "2026-07-28",
+  "effective_date": "2026-04-01",
   "state": "disturbed"
  },
  {
   "site_id": "S12",
   "area_id": "S12-A03",
   "effective_date": "2026-04-01",
-  "state": "undisturbed"
+  "state": "disturbed"
  },
  {
   "site_id": "S12",
   "area_id": "S12-A03",
-  "effective_date": "2026-04-07",
-  "state": "disturbed"
+  "effective_date": "2026-08-01",
+  "state": "stabilized"
  }
 ]

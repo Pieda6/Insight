@@ -4,14 +4,14 @@ schema_version = "2.0"
 
 [task]
 name = "insight/sediment-basin-routing"
-description = "Simulate a wet season of runoff and sediment basin routing for 12 construction sites in Puerto Rico: from 6-minute rain gauge records, drainage areas whose curve numbers change as they are graded and stabilized, and trapezoidal basins with dewatering orifices, risers and emergency spillways (some in series), compute each basin's peak inflow, peak outflow, peak water surface elevation and spillway flow for every storm, using the NRCS curve number and dimensionless unit hydrograph methods (NEH Part 630) and HEC-22 stage-storage-discharge relations with storage-indication routing."
+description = "Simulate a wet season of runoff and sediment basin routing for 12 construction sites in Puerto Rico: from 6-minute rain gauge records, drainage areas whose curve numbers and TR-55 times of concentration change as they are graded and stabilized, and trapezoidal or surveyed basin cells with dewatering orifices, risers, emergency spillways and forebays behind submergible divider weirs, compute every cell's peak inflow, peak outflow, peak water surface and its time, spillway flow and spilled volume for every storm, using NRCS NEH Part 630 and TR-55 hydrology and HEC-22 stage-storage-discharge relations with coupled storage-indication routing."
 
 [metadata]
 domain = "Science"
 field = "Civil Engineering"
 subfield = "Water Resources and Stormwater Hydrology"
-tags = ["hydrology", "detention-routing", "storage-indication", "nrcs-curve-number", "unit-hydrograph", "sediment-basin", "hec-22", "python"]
-expert_time_estimate_hours = 15
+tags = ["hydrology", "detention-routing", "storage-indication", "nrcs-curve-number", "unit-hydrograph", "time-of-concentration", "sediment-basin", "hec-22", "python"]
+expert_time_estimate_hours = 18
 relevant_experience = "Water resources engineering: NRCS curve number runoff and unit hydrograph methods (TR-55, TR-20, NEH Part 630), detention and sediment basin design, outlet structure rating with orifice and weir equations, and storage-indication (modified Puls) routing."
 
 [verifier]

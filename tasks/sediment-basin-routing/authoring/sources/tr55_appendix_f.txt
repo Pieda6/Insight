@@ -1,0 +1,71 @@
+Relationships: Proceedings, International Symposium on
+Rainfall-Runoff Modeling. Mississippi State University.
+p. 353-364.
+
+
+
+                                               (210-VI-TR-55, Second Ed., June 1986)                                       E–1
+E–2   (210-VI-TR-55, Second Ed., June 1986)
+Appendix F                                   Equations for figures and exhibits
+
+
+This appendix presents the equations used in proce-                Figure 3-1 (average velocities for estimating travel
+dure applications to generate figures and exhibits in              time for shallow concentrated flow):
+TR-55.                                                                   Unpaved V = 16.1345 (s)0.5
+                                                                         Paved      V = 20.3282 (s)0.5
+
+                                                                   where
+Figure 2-1 (runoff equation):
+                                                                     V= average velocity (ft/s)
+                                   2                                 s = slope of hydraulic grade line
+                 1000      
+         P − .2      − 10 
+                             
+                                                                            (watercourse slope, ft/ft)
+                   CN
+     Q=                      
+                                                                   These two equations are based on the solution of
+                    1000     
+          P + 0.8        − 10                                    Manning’s equation (eq. 3-4) with different assump-
+                    CN       
+                                                                   tions for n (Manning’s roughness coefficient) and r
+                                                                   (hydraulic radius, ft). For unpaved areas, n is 0.05 and
+where                                                              r is 0.4; for paved areas, n is 0.025 and r is 0.2.
+  Q = runoff (in)
+  P = rainfall (in)                                                Exhibit 4 (unit peak discharges for SCS tvpe I, IA,
+ CN = runoff curve number                                               II, and III distributions):
+
+                                                                              ( )               ( )          [ ( )]
+                                                                                                                      2
+Figure 2-3 (composite CN with connected                                   log q u = C o + C 1 log Tc + C 2 log Tc
+impervious area):
+                                                                   where
+                     Pimp                                                      qu = unit peak discharge (csm/in)
+       CNc = CN p + 
+                     100     (
+                            98 − CN p   )                                       Tc = time of concentration (hr)
+                                                                                      (minimum, 0.1; maximum, 10.0)
+where
+                                                                         C0, C1, C2 = coefficients from table F-1
+    CNc = composite runoff curve number
+    CNp = pervious runoff curve number
+    Pimp = percent imperviousness.
+                                                                   Figure 6-1 (approximate detention basin routing
+                                                                   through single- and multiple-stage structures for
+                                                                   24-hour rainfalls of the indicated type):
+Figure 2-4 (composite CN with unconnected impervi-
+ous areas and total impervious area less than 30%):
+                                                                                                         2                3
+                                                                         VS            q         q         q 
+                                                                             = Co + C1  o  + C 2  o  + C 3  o 
+                   Pimp                                                               q1        q1        q1 
+     CNc = CN p + 
+                   100   (           )
+                          98 − CN p (1 − 0.5R )
+                                                                   where
+                                                                         Vr
+
+where                                                                         Vs/Vr = ratio of storage volume (Vs) to runoff
+  R = ratio of unconnected impervious area                                            volume (Vr)
+      to total impervious area.                                               qo/qi = ratio of peak outflow discharge (qo)
+                                                                                      to peak inflow discharge (qi)

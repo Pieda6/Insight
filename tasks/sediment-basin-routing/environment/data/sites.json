@@ -1,79 +1,1008 @@
 [
  {
   "site_id": "S01",
-  "project": "water treatment plant, Gurabo",
+  "project": "housing subdivision, Naguabo",
+  "two_year_24_hour_rainfall_in": 5.5,
   "basins": [
    {
     "basin_id": "S01-B1",
-    "bottom_elevation_ft": 416.63,
-    "bottom_length_ft": 132.0,
-    "bottom_width_ft": 48.5,
-    "side_slope_h_per_v": 2.0,
-    "embankment_top_ft": 421.0,
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 273.55,
+       "area_sqft": 2457
+      },
+      {
+       "elevation_ft": 274.0,
+       "area_sqft": 4583
+      },
+      {
+       "elevation_ft": 275.0,
+       "area_sqft": 8494
+      },
+      {
+       "elevation_ft": 276.0,
+       "area_sqft": 18451
+      },
+      {
+       "elevation_ft": 277.0,
+       "area_sqft": 30458
+      },
+      {
+       "elevation_ft": 278.0,
+       "area_sqft": 61999
+      },
+      {
+       "elevation_ft": 279.0,
+       "area_sqft": 96066
+      },
+      {
+       "elevation_ft": 280.0,
+       "area_sqft": 135146
+      }
+     ]
+    },
+    "embankment_top_ft": 278.2,
+    "cell": "main",
     "dewatering_orifice": {
-     "diameter_in": 2.0,
-     "invert_elevation_ft": 416.63,
+     "diameter_in": 2.5,
+     "invert_elevation_ft": 273.55,
      "discharge_coefficient": 0.6
     },
     "riser": {
-     "diameter_ft": 2.0,
-     "crest_elevation_ft": 418.89,
+     "diameter_ft": 3.0,
+     "crest_elevation_ft": 276.12,
      "weir_coefficient": 0.37,
      "orifice_coefficient": 0.6
     },
     "emergency_spillway": {
-     "crest_elevation_ft": 419.79,
+     "crest_elevation_ft": 277.17,
      "crest_length_ft": 20.0,
+     "weir_coefficient": 0.33
+    },
+    "discharges_to": null
+   },
+   {
+    "basin_id": "S01-B1F",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 274.26,
+     "bottom_length_ft": 86.0,
+     "bottom_width_ft": 35.8,
+     "side_slope_h_per_v": 3.0
+    },
+    "embankment_top_ft": 278.2,
+    "cell": "forebay",
+    "divider": {
+     "drains_into": "S01-B1",
+     "weir_crest_elevation_ft": 275.59,
+     "weir_length_ft": 8.0,
+     "weir_coefficient": 0.37,
+     "orifice": {
+      "diameter_in": 6.0,
+      "invert_elevation_ft": 274.26,
+      "discharge_coefficient": 0.6
+     }
+    }
+   },
+   {
+    "basin_id": "S01-B2",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 184.71,
+     "bottom_length_ft": 120.5,
+     "bottom_width_ft": 67.0,
+     "side_slope_h_per_v": 2.0
+    },
+    "embankment_top_ft": 188.8,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 3.0,
+     "invert_elevation_ft": 184.71,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 1.5,
+     "crest_elevation_ft": 186.45,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 187.19,
+     "crest_length_ft": 15.0,
+     "weir_coefficient": 0.31
+    },
+    "discharges_to": "S01-B3"
+   },
+   {
+    "basin_id": "S01-B3",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 183.8,
+     "bottom_length_ft": 198.0,
+     "bottom_width_ft": 72.7,
+     "side_slope_h_per_v": 3.0
+    },
+    "embankment_top_ft": 188.5,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 2.5,
+     "invert_elevation_ft": 183.8,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 2.0,
+     "crest_elevation_ft": 185.72,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 186.65,
+     "crest_length_ft": 20.0,
+     "weir_coefficient": 0.33
+    },
+    "discharges_to": null
+   },
+   {
+    "basin_id": "S01-B3F",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 184.43,
+     "bottom_length_ft": 73.0,
+     "bottom_width_ft": 43.0,
+     "side_slope_h_per_v": 2.0
+    },
+    "embankment_top_ft": 188.5,
+    "cell": "forebay",
+    "divider": {
+     "drains_into": "S01-B3",
+     "weir_crest_elevation_ft": 185.36,
+     "weir_length_ft": 3.0,
+     "weir_coefficient": 0.37,
+     "orifice": {
+      "diameter_in": 3.0,
+      "invert_elevation_ft": 184.43,
+      "discharge_coefficient": 0.6
+     }
+    }
+   }
+  ],
+  "drainage_areas": [
+   {
+    "area_id": "S01-A01",
+    "acres": 8.87,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: light underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 121.0,
+      "slope": 0.012
+     },
+     "shallow": {
+      "length_ft": 625.0,
+      "slope": 0.018,
+      "paved": true
+     }
+    },
+    "drains_to": "S01-B1F"
+   },
+   {
+    "area_id": "S01-A02",
+    "acres": 2.77,
+    "hydrologic_soil_group": "A",
+    "curve_numbers": {
+     "undisturbed": 39,
+     "disturbed": 77,
+     "stabilized": 49
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Grass: dense grasses",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 106.0,
+      "slope": 0.067
+     },
+     "shallow": {
+      "length_ft": 680.0,
+      "slope": 0.04,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 435.0,
+      "area_sqft": 1.5,
+      "wetted_perimeter_ft": 7.5,
+      "slope": 0.02,
+      "n": 0.035
+     }
+    },
+    "drains_to": "S01-B1F"
+   },
+   {
+    "area_id": "S01-A03",
+    "acres": 3.46,
+    "hydrologic_soil_group": "B",
+    "curve_numbers": {
+     "undisturbed": 61,
+     "disturbed": 86,
+     "stabilized": 69
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Grass: dense grasses",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 48.0,
+      "slope": 0.014
+     },
+     "shallow": {
+      "length_ft": 623.0,
+      "slope": 0.02,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 376.0,
+      "area_sqft": 6.4,
+      "wetted_perimeter_ft": 5.3,
+      "slope": 0.005,
+      "n": 0.05
+     }
+    },
+    "drains_to": "S01-B1"
+   },
+   {
+    "area_id": "S01-A04",
+    "acres": 7.38,
+    "hydrologic_soil_group": "A",
+    "curve_numbers": {
+     "undisturbed": 39,
+     "disturbed": 77,
+     "stabilized": 49
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 214.0,
+      "slope": 0.073
+     },
+     "shallow": {
+      "length_ft": 427.0,
+      "slope": 0.038,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 275.0,
+      "area_sqft": 6.7,
+      "wetted_perimeter_ft": 7.4,
+      "slope": 0.01,
+      "n": 0.04
+     }
+    },
+    "drains_to": "S01-B2"
+   },
+   {
+    "area_id": "S01-A05",
+    "acres": 4.29,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: light underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 87.0,
+      "slope": 0.075
+     },
+     "shallow": {
+      "length_ft": 427.0,
+      "slope": 0.021,
+      "paved": false
+     }
+    },
+    "drains_to": "S01-B2"
+   },
+   {
+    "area_id": "S01-A06",
+    "acres": 3.84,
+    "hydrologic_soil_group": "C",
+    "curve_numbers": {
+     "undisturbed": 74,
+     "disturbed": 91,
+     "stabilized": 79
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: dense underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 175.0,
+      "slope": 0.042
+     },
+     "shallow": {
+      "length_ft": 236.0,
+      "slope": 0.018,
+      "paved": false
+     }
+    },
+    "drains_to": "S01-B2"
+   },
+   {
+    "area_id": "S01-A07",
+    "acres": 3.22,
+    "hydrologic_soil_group": "A",
+    "curve_numbers": {
+     "undisturbed": 39,
+     "disturbed": 77,
+     "stabilized": 49
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 255.0,
+      "slope": 0.063
+     },
+     "shallow": {
+      "length_ft": 470.0,
+      "slope": 0.013,
+      "paved": true
+     }
+    },
+    "drains_to": "S01-B3F"
+   },
+   {
+    "area_id": "S01-A08",
+    "acres": 8.55,
+    "hydrologic_soil_group": "C",
+    "curve_numbers": {
+     "undisturbed": 74,
+     "disturbed": 91,
+     "stabilized": 79
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Grass: dense grasses",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 184.0,
+      "slope": 0.055
+     },
+     "shallow": {
+      "length_ft": 394.0,
+      "slope": 0.038,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 530.0,
+      "area_sqft": 6.3,
+      "wetted_perimeter_ft": 7.3,
+      "slope": 0.012,
+      "n": 0.03
+     }
+    },
+    "drains_to": "S01-B3F"
+   },
+   {
+    "area_id": "S01-A09",
+    "acres": 4.5,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: light underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 287.0,
+      "slope": 0.039
+     },
+     "shallow": {
+      "length_ft": 852.0,
+      "slope": 0.009,
+      "paved": false
+     }
+    },
+    "drains_to": "S01-B3F"
+   }
+  ]
+ },
+ {
+  "site_id": "S02",
+  "project": "solar farm, Cayey",
+  "two_year_24_hour_rainfall_in": 5.6,
+  "basins": [
+   {
+    "basin_id": "S02-B1",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 337.77,
+       "area_sqft": 256
+      },
+      {
+       "elevation_ft": 338.0,
+       "area_sqft": 407
+      },
+      {
+       "elevation_ft": 339.0,
+       "area_sqft": 956
+      },
+      {
+       "elevation_ft": 340.0,
+       "area_sqft": 2362
+      },
+      {
+       "elevation_ft": 341.0,
+       "area_sqft": 5234
+      },
+      {
+       "elevation_ft": 342.0,
+       "area_sqft": 11640
+      },
+      {
+       "elevation_ft": 343.0,
+       "area_sqft": 18483
+      },
+      {
+       "elevation_ft": 344.0,
+       "area_sqft": 30276
+      }
+     ]
+    },
+    "embankment_top_ft": 342.1,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 3.0,
+     "invert_elevation_ft": 337.77,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 1.5,
+     "crest_elevation_ft": 339.82,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 341.05,
+     "crest_length_ft": 15.0,
+     "weir_coefficient": 0.31
+    },
+    "discharges_to": null
+   },
+   {
+    "basin_id": "S02-B2",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 166.35,
+       "area_sqft": 3067
+      },
+      {
+       "elevation_ft": 167.0,
+       "area_sqft": 5316
+      },
+      {
+       "elevation_ft": 168.0,
+       "area_sqft": 8242
+      },
+      {
+       "elevation_ft": 169.0,
+       "area_sqft": 17067
+      },
+      {
+       "elevation_ft": 170.0,
+       "area_sqft": 32298
+      },
+      {
+       "elevation_ft": 171.0,
+       "area_sqft": 65083
+      },
+      {
+       "elevation_ft": 172.0,
+       "area_sqft": 143097
+      }
+     ]
+    },
+    "embankment_top_ft": 170.3,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 6.0,
+     "invert_elevation_ft": 166.35,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 2.0,
+     "crest_elevation_ft": 168.25,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 169.3,
+     "crest_length_ft": 12.0,
      "weir_coefficient": 0.29
     },
     "discharges_to": null
    },
    {
-    "basin_id": "S01-B2",
-    "bottom_elevation_ft": 214.71,
-    "bottom_length_ft": 139.0,
-    "bottom_width_ft": 82.0,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 221.2,
+    "basin_id": "S02-B2F",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 167.48,
+       "area_sqft": 780
+      },
+      {
+       "elevation_ft": 168.0,
+       "area_sqft": 1205
+      },
+      {
+       "elevation_ft": 169.0,
+       "area_sqft": 2917
+      },
+      {
+       "elevation_ft": 170.0,
+       "area_sqft": 4951
+      },
+      {
+       "elevation_ft": 171.0,
+       "area_sqft": 7629
+      },
+      {
+       "elevation_ft": 172.0,
+       "area_sqft": 15617
+      }
+     ]
+    },
+    "embankment_top_ft": 170.3,
+    "cell": "forebay",
+    "divider": {
+     "drains_into": "S02-B2",
+     "weir_crest_elevation_ft": 168.08,
+     "weir_length_ft": 6.0,
+     "weir_coefficient": 0.37,
+     "orifice": {
+      "diameter_in": 6.0,
+      "invert_elevation_ft": 167.48,
+      "discharge_coefficient": 0.6
+     }
+    }
+   }
+  ],
+  "drainage_areas": [
+   {
+    "area_id": "S02-A01",
+    "acres": 2.57,
+    "hydrologic_soil_group": "C",
+    "curve_numbers": {
+     "undisturbed": 74,
+     "disturbed": 91,
+     "stabilized": 79
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 187.0,
+      "slope": 0.06
+     },
+     "shallow": {
+      "length_ft": 180.0,
+      "slope": 0.041,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 367.0,
+      "area_sqft": 4.0,
+      "wetted_perimeter_ft": 10.0,
+      "slope": 0.023,
+      "n": 0.05
+     }
+    },
+    "drains_to": "S02-B1"
+   },
+   {
+    "area_id": "S02-A02",
+    "acres": 1.5,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: light underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 89.0,
+      "slope": 0.023
+     },
+     "shallow": {
+      "length_ft": 600.0,
+      "slope": 0.043,
+      "paved": false
+     }
+    },
+    "drains_to": "S02-B2F"
+   },
+   {
+    "area_id": "S02-A03",
+    "acres": 7.25,
+    "hydrologic_soil_group": "B",
+    "curve_numbers": {
+     "undisturbed": 61,
+     "disturbed": 86,
+     "stabilized": 69
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: dense underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 135.0,
+      "slope": 0.053
+     },
+     "shallow": {
+      "length_ft": 538.0,
+      "slope": 0.031,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 344.0,
+      "area_sqft": 6.7,
+      "wetted_perimeter_ft": 8.6,
+      "slope": 0.014,
+      "n": 0.05
+     }
+    },
+    "drains_to": "S02-B2"
+   }
+  ]
+ },
+ {
+  "site_id": "S03",
+  "project": "water treatment plant, Cidra",
+  "two_year_24_hour_rainfall_in": 5.4,
+  "basins": [
+   {
+    "basin_id": "S03-B1",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 236.14,
+       "area_sqft": 2560
+      },
+      {
+       "elevation_ft": 237.0,
+       "area_sqft": 5996
+      },
+      {
+       "elevation_ft": 238.0,
+       "area_sqft": 7993
+      },
+      {
+       "elevation_ft": 239.0,
+       "area_sqft": 14338
+      },
+      {
+       "elevation_ft": 240.0,
+       "area_sqft": 18860
+      },
+      {
+       "elevation_ft": 241.0,
+       "area_sqft": 40966
+      },
+      {
+       "elevation_ft": 242.0,
+       "area_sqft": 83370
+      },
+      {
+       "elevation_ft": 243.0,
+       "area_sqft": 190771
+      }
+     ]
+    },
+    "embankment_top_ft": 240.7,
+    "cell": "main",
     "dewatering_orifice": {
-     "diameter_in": 3.0,
-     "invert_elevation_ft": 214.71,
+     "diameter_in": 4.0,
+     "invert_elevation_ft": 236.14,
      "discharge_coefficient": 0.6
     },
     "riser": {
-     "diameter_ft": 1.5,
-     "crest_elevation_ft": 216.97,
+     "diameter_ft": 2.0,
+     "crest_elevation_ft": 238.64,
      "weir_coefficient": 0.37,
      "orifice_coefficient": 0.6
     },
     "emergency_spillway": {
-     "crest_elevation_ft": 218.34,
+     "crest_elevation_ft": 239.66,
+     "crest_length_ft": 15.0,
+     "weir_coefficient": 0.31
+    },
+    "discharges_to": "S03-B2"
+   },
+   {
+    "basin_id": "S03-B2",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 208.74,
+     "bottom_length_ft": 107.5,
+     "bottom_width_ft": 39.0,
+     "side_slope_h_per_v": 3.0
+    },
+    "embankment_top_ft": 214.4,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 5.0,
+     "invert_elevation_ft": 208.74,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 2.0,
+     "crest_elevation_ft": 210.96,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 212.15,
      "crest_length_ft": 8.0,
      "weir_coefficient": 0.29
     },
     "discharges_to": null
    },
    {
-    "basin_id": "S01-B3",
-    "bottom_elevation_ft": 360.56,
-    "bottom_length_ft": 104.0,
-    "bottom_width_ft": 52.7,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 366.2,
+    "basin_id": "S03-B2F",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 209.32,
+       "area_sqft": 599
+      },
+      {
+       "elevation_ft": 210.0,
+       "area_sqft": 966
+      },
+      {
+       "elevation_ft": 211.0,
+       "area_sqft": 2275
+      },
+      {
+       "elevation_ft": 212.0,
+       "area_sqft": 5042
+      },
+      {
+       "elevation_ft": 213.0,
+       "area_sqft": 11558
+      },
+      {
+       "elevation_ft": 214.0,
+       "area_sqft": 16569
+      },
+      {
+       "elevation_ft": 215.0,
+       "area_sqft": 27358
+      }
+     ]
+    },
+    "embankment_top_ft": 214.4,
+    "cell": "forebay",
+    "divider": {
+     "drains_into": "S03-B2",
+     "weir_crest_elevation_ft": 210.48,
+     "weir_length_ft": 4.0,
+     "weir_coefficient": 0.37,
+     "orifice": {
+      "diameter_in": 4.0,
+      "invert_elevation_ft": 209.32,
+      "discharge_coefficient": 0.6
+     }
+    }
+   }
+  ],
+  "drainage_areas": [
+   {
+    "area_id": "S03-A01",
+    "acres": 4.84,
+    "hydrologic_soil_group": "C",
+    "curve_numbers": {
+     "undisturbed": 74,
+     "disturbed": 91,
+     "stabilized": 79
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: light underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 85.0,
+      "slope": 0.042
+     },
+     "shallow": {
+      "length_ft": 959.0,
+      "slope": 0.055,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 406.0,
+      "area_sqft": 5.9,
+      "wetted_perimeter_ft": 6.0,
+      "slope": 0.011,
+      "n": 0.04
+     }
+    },
+    "drains_to": "S03-B1"
+   },
+   {
+    "area_id": "S03-A02",
+    "acres": 8.75,
+    "hydrologic_soil_group": "A",
+    "curve_numbers": {
+     "undisturbed": 39,
+     "disturbed": 77,
+     "stabilized": 49
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 264.0,
+      "slope": 0.048
+     },
+     "shallow": {
+      "length_ft": 155.0,
+      "slope": 0.026,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 412.0,
+      "area_sqft": 6.9,
+      "wetted_perimeter_ft": 9.8,
+      "slope": 0.028,
+      "n": 0.03
+     }
+    },
+    "drains_to": "S03-B1"
+   },
+   {
+    "area_id": "S03-A03",
+    "acres": 7.75,
+    "hydrologic_soil_group": "B",
+    "curve_numbers": {
+     "undisturbed": 61,
+     "disturbed": 86,
+     "stabilized": 69
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: light underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 205.0,
+      "slope": 0.036
+     },
+     "shallow": {
+      "length_ft": 852.0,
+      "slope": 0.047,
+      "paved": false
+     }
+    },
+    "drains_to": "S03-B2F"
+   },
+   {
+    "area_id": "S03-A04",
+    "acres": 2.76,
+    "hydrologic_soil_group": "C",
+    "curve_numbers": {
+     "undisturbed": 74,
+     "disturbed": 91,
+     "stabilized": 79
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 281.0,
+      "slope": 0.064
+     },
+     "shallow": {
+      "length_ft": 204.0,
+      "slope": 0.028,
+      "paved": true
+     }
+    },
+    "drains_to": "S03-B2F"
+   }
+  ]
+ },
+ {
+  "site_id": "S04",
+  "project": "housing subdivision, Arecibo",
+  "two_year_24_hour_rainfall_in": 4.5,
+  "basins": [
+   {
+    "basin_id": "S04-B1",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 310.0,
+     "bottom_length_ft": 120.0,
+     "bottom_width_ft": 60.0,
+     "side_slope_h_per_v": 3.0
+    },
+    "embankment_top_ft": 314.8,
+    "cell": "main",
     "dewatering_orifice": {
-     "diameter_in": 5.0,
-     "invert_elevation_ft": 360.56,
+     "diameter_in": 4.0,
+     "invert_elevation_ft": 310.0,
      "discharge_coefficient": 0.6
     },
     "riser": {
-     "diameter_ft": 1.5,
-     "crest_elevation_ft": 362.83,
+     "diameter_ft": 2.5,
+     "crest_elevation_ft": 312.5,
      "weir_coefficient": 0.37,
      "orifice_coefficient": 0.6
     },
     "emergency_spillway": {
-     "crest_elevation_ft": 363.92,
-     "crest_length_ft": 6.0,
+     "crest_elevation_ft": 313.8,
+     "crest_length_ft": 12.0,
      "weir_coefficient": 0.31
     },
     "discharges_to": null
@@ -81,80 +1010,2156 @@
   ],
   "drainage_areas": [
    {
-    "area_id": "S01-A01",
-    "acres": 5.81,
-    "time_of_concentration_h": 0.22,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S01-B1"
-   },
-   {
-    "area_id": "S01-A02",
-    "acres": 7.45,
-    "time_of_concentration_h": 0.54,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S01-B2"
-   },
-   {
-    "area_id": "S01-A03",
-    "acres": 3.94,
-    "time_of_concentration_h": 0.43,
+    "area_id": "S04-A01",
+    "acres": 32.0,
     "hydrologic_soil_group": "B",
     "curve_numbers": {
      "undisturbed": 61,
      "disturbed": 86,
      "stabilized": 69
     },
-    "drains_to": "S01-B2"
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: light underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 120.0,
+      "slope": 0.03
+     },
+     "shallow": {
+      "length_ft": 500.0,
+      "slope": 0.03,
+      "paved": false
+     }
+    },
+    "drains_to": "S04-B1"
    },
    {
-    "area_id": "S01-A04",
-    "acres": 3.25,
-    "time_of_concentration_h": 0.52,
+    "area_id": "S04-A02",
+    "acres": 32.0,
+    "hydrologic_soil_group": "B",
+    "curve_numbers": {
+     "undisturbed": 61,
+     "disturbed": 86,
+     "stabilized": 69
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: light underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 150.0,
+      "slope": 0.04
+     },
+     "shallow": {
+      "length_ft": 600.0,
+      "slope": 0.04,
+      "paved": false
+     }
+    },
+    "drains_to": "S04-B1"
+   }
+  ]
+ },
+ {
+  "site_id": "S05",
+  "project": "housing subdivision, Carolina",
+  "two_year_24_hour_rainfall_in": 4.7,
+  "basins": [
+   {
+    "basin_id": "S05-B1",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 230.41,
+       "area_sqft": 836
+      },
+      {
+       "elevation_ft": 231.0,
+       "area_sqft": 1553
+      },
+      {
+       "elevation_ft": 232.0,
+       "area_sqft": 3693
+      },
+      {
+       "elevation_ft": 233.0,
+       "area_sqft": 8818
+      },
+      {
+       "elevation_ft": 234.0,
+       "area_sqft": 20061
+      },
+      {
+       "elevation_ft": 235.0,
+       "area_sqft": 46934
+      },
+      {
+       "elevation_ft": 236.0,
+       "area_sqft": 105322
+      },
+      {
+       "elevation_ft": 237.0,
+       "area_sqft": 212320
+      }
+     ]
+    },
+    "embankment_top_ft": 234.8,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 2.5,
+     "invert_elevation_ft": 230.41,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 2.0,
+     "crest_elevation_ft": 232.92,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 233.81,
+     "crest_length_ft": 20.0,
+     "weir_coefficient": 0.31
+    },
+    "discharges_to": "S05-B2"
+   },
+   {
+    "basin_id": "S05-B1F",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 231.37,
+       "area_sqft": 476
+      },
+      {
+       "elevation_ft": 232.0,
+       "area_sqft": 969
+      },
+      {
+       "elevation_ft": 233.0,
+       "area_sqft": 2251
+      },
+      {
+       "elevation_ft": 234.0,
+       "area_sqft": 4416
+      },
+      {
+       "elevation_ft": 235.0,
+       "area_sqft": 6100
+      },
+      {
+       "elevation_ft": 236.0,
+       "area_sqft": 13674
+      },
+      {
+       "elevation_ft": 237.0,
+       "area_sqft": 17970
+      }
+     ]
+    },
+    "embankment_top_ft": 234.8,
+    "cell": "forebay",
+    "divider": {
+     "drains_into": "S05-B1",
+     "weir_crest_elevation_ft": 232.7,
+     "weir_length_ft": 4.0,
+     "weir_coefficient": 0.37,
+     "orifice": {
+      "diameter_in": 4.0,
+      "invert_elevation_ft": 231.37,
+      "discharge_coefficient": 0.6
+     }
+    }
+   },
+   {
+    "basin_id": "S05-B2",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 297.23,
+       "area_sqft": 2735
+      },
+      {
+       "elevation_ft": 298.0,
+       "area_sqft": 5517
+      },
+      {
+       "elevation_ft": 299.0,
+       "area_sqft": 8725
+      },
+      {
+       "elevation_ft": 300.0,
+       "area_sqft": 20258
+      },
+      {
+       "elevation_ft": 301.0,
+       "area_sqft": 38587
+      },
+      {
+       "elevation_ft": 302.0,
+       "area_sqft": 80521
+      },
+      {
+       "elevation_ft": 303.0,
+       "area_sqft": 179887
+      }
+     ]
+    },
+    "embankment_top_ft": 301.9,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 2.5,
+     "invert_elevation_ft": 297.23,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 3.0,
+     "crest_elevation_ft": 299.48,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 300.19,
+     "crest_length_ft": 6.0,
+     "weir_coefficient": 0.29
+    },
+    "discharges_to": "S05-B3"
+   },
+   {
+    "basin_id": "S05-B3",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 390.26,
+       "area_sqft": 1579
+      },
+      {
+       "elevation_ft": 391.0,
+       "area_sqft": 3418
+      },
+      {
+       "elevation_ft": 392.0,
+       "area_sqft": 7129
+      },
+      {
+       "elevation_ft": 393.0,
+       "area_sqft": 11067
+      },
+      {
+       "elevation_ft": 394.0,
+       "area_sqft": 18038
+      },
+      {
+       "elevation_ft": 395.0,
+       "area_sqft": 40746
+      },
+      {
+       "elevation_ft": 396.0,
+       "area_sqft": 63026
+      },
+      {
+       "elevation_ft": 397.0,
+       "area_sqft": 144100
+      }
+     ]
+    },
+    "embankment_top_ft": 395.8,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 5.0,
+     "invert_elevation_ft": 390.26,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 2.0,
+     "crest_elevation_ft": 392.36,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 393.54,
+     "crest_length_ft": 10.0,
+     "weir_coefficient": 0.33
+    },
+    "discharges_to": null
+   },
+   {
+    "basin_id": "S05-B3F",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 391.43,
+     "bottom_length_ft": 49.0,
+     "bottom_width_ft": 28.6,
+     "side_slope_h_per_v": 2.0
+    },
+    "embankment_top_ft": 395.8,
+    "cell": "forebay",
+    "divider": {
+     "drains_into": "S05-B3",
+     "weir_crest_elevation_ft": 392.24,
+     "weir_length_ft": 4.0,
+     "weir_coefficient": 0.37,
+     "orifice": {
+      "diameter_in": 4.0,
+      "invert_elevation_ft": 391.43,
+      "discharge_coefficient": 0.6
+     }
+    }
+   }
+  ],
+  "drainage_areas": [
+   {
+    "area_id": "S05-A01",
+    "acres": 4.72,
     "hydrologic_soil_group": "C",
     "curve_numbers": {
      "undisturbed": 74,
      "disturbed": 91,
      "stabilized": 79
     },
-    "drains_to": "S01-B2"
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 266.0,
+      "slope": 0.064
+     },
+     "shallow": {
+      "length_ft": 988.0,
+      "slope": 0.013,
+      "paved": false
+     }
+    },
+    "drains_to": "S05-B1"
    },
    {
-    "area_id": "S01-A05",
-    "acres": 7.29,
-    "time_of_concentration_h": 0.17,
+    "area_id": "S05-A02",
+    "acres": 2.77,
+    "hydrologic_soil_group": "C",
+    "curve_numbers": {
+     "undisturbed": 74,
+     "disturbed": 91,
+     "stabilized": 79
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: light underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 174.0,
+      "slope": 0.02
+     },
+     "shallow": {
+      "length_ft": 932.0,
+      "slope": 0.04,
+      "paved": false
+     }
+    },
+    "drains_to": "S05-B1F"
+   },
+   {
+    "area_id": "S05-A03",
+    "acres": 5.38,
     "hydrologic_soil_group": "D",
     "curve_numbers": {
      "undisturbed": 80,
      "disturbed": 94,
      "stabilized": 84
     },
-    "drains_to": "S01-B3"
+    "sheet_flow_surface": {
+     "undisturbed": "Grass: dense grasses",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 274.0,
+      "slope": 0.021
+     },
+     "shallow": {
+      "length_ft": 805.0,
+      "slope": 0.044,
+      "paved": true
+     }
+    },
+    "drains_to": "S05-B2"
+   },
+   {
+    "area_id": "S05-A04",
+    "acres": 4.11,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 47.0,
+      "slope": 0.012
+     },
+     "shallow": {
+      "length_ft": 805.0,
+      "slope": 0.028,
+      "paved": false
+     }
+    },
+    "drains_to": "S05-B2"
+   },
+   {
+    "area_id": "S05-A05",
+    "acres": 3.6,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: dense underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 43.0,
+      "slope": 0.075
+     },
+     "shallow": {
+      "length_ft": 1040.0,
+      "slope": 0.026,
+      "paved": true
+     },
+     "channel": {
+      "length_ft": 164.0,
+      "area_sqft": 4.6,
+      "wetted_perimeter_ft": 4.1,
+      "slope": 0.015,
+      "n": 0.03
+     }
+    },
+    "drains_to": "S05-B2"
+   },
+   {
+    "area_id": "S05-A06",
+    "acres": 3.65,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Grass: dense grasses",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 131.0,
+      "slope": 0.06
+     },
+     "shallow": {
+      "length_ft": 408.0,
+      "slope": 0.034,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 513.0,
+      "area_sqft": 5.3,
+      "wetted_perimeter_ft": 11.3,
+      "slope": 0.008,
+      "n": 0.04
+     }
+    },
+    "drains_to": "S05-B3F"
+   },
+   {
+    "area_id": "S05-A07",
+    "acres": 4.66,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: light underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 46.0,
+      "slope": 0.02
+     },
+     "shallow": {
+      "length_ft": 781.0,
+      "slope": 0.035,
+      "paved": false
+     }
+    },
+    "drains_to": "S05-B3F"
    }
   ]
  },
  {
-  "site_id": "S02",
-  "project": "retail center, Toa Alta",
+  "site_id": "S06",
+  "project": "distribution center, Caguas",
+  "two_year_24_hour_rainfall_in": 5.0,
   "basins": [
    {
-    "basin_id": "S02-B1",
-    "bottom_elevation_ft": 250.0,
-    "bottom_length_ft": 70.0,
-    "bottom_width_ft": 35.0,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 254.0,
+    "basin_id": "S06-B1",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 321.27,
+       "area_sqft": 900
+      },
+      {
+       "elevation_ft": 322.0,
+       "area_sqft": 2185
+      },
+      {
+       "elevation_ft": 323.0,
+       "area_sqft": 3857
+      },
+      {
+       "elevation_ft": 324.0,
+       "area_sqft": 5725
+      },
+      {
+       "elevation_ft": 325.0,
+       "area_sqft": 10515
+      },
+      {
+       "elevation_ft": 326.0,
+       "area_sqft": 21643
+      },
+      {
+       "elevation_ft": 327.0,
+       "area_sqft": 41802
+      }
+     ]
+    },
+    "embankment_top_ft": 325.7,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 4.0,
+     "invert_elevation_ft": 321.27,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 2.0,
+     "crest_elevation_ft": 323.43,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 324.48,
+     "crest_length_ft": 20.0,
+     "weir_coefficient": 0.29
+    },
+    "discharges_to": null
+   },
+   {
+    "basin_id": "S06-B1F",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 322.23,
+       "area_sqft": 474
+      },
+      {
+       "elevation_ft": 323.0,
+       "area_sqft": 699
+      },
+      {
+       "elevation_ft": 324.0,
+       "area_sqft": 1407
+      },
+      {
+       "elevation_ft": 325.0,
+       "area_sqft": 1885
+      },
+      {
+       "elevation_ft": 326.0,
+       "area_sqft": 3173
+      },
+      {
+       "elevation_ft": 327.0,
+       "area_sqft": 6068
+      }
+     ]
+    },
+    "embankment_top_ft": 325.7,
+    "cell": "forebay",
+    "divider": {
+     "drains_into": "S06-B1",
+     "weir_crest_elevation_ft": 323.47,
+     "weir_length_ft": 8.0,
+     "weir_coefficient": 0.37,
+     "orifice": {
+      "diameter_in": 6.0,
+      "invert_elevation_ft": 322.23,
+      "discharge_coefficient": 0.6
+     }
+    }
+   },
+   {
+    "basin_id": "S06-B2",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 363.58,
+       "area_sqft": 3628
+      },
+      {
+       "elevation_ft": 364.0,
+       "area_sqft": 4728
+      },
+      {
+       "elevation_ft": 365.0,
+       "area_sqft": 8755
+      },
+      {
+       "elevation_ft": 366.0,
+       "area_sqft": 17565
+      },
+      {
+       "elevation_ft": 367.0,
+       "area_sqft": 25182
+      },
+      {
+       "elevation_ft": 368.0,
+       "area_sqft": 56062
+      },
+      {
+       "elevation_ft": 369.0,
+       "area_sqft": 115171
+      }
+     ]
+    },
+    "embankment_top_ft": 367.2,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 5.0,
+     "invert_elevation_ft": 363.58,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 1.5,
+     "crest_elevation_ft": 365.27,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 366.18,
+     "crest_length_ft": 10.0,
+     "weir_coefficient": 0.33
+    },
+    "discharges_to": null
+   },
+   {
+    "basin_id": "S06-B2F",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 364.38,
+     "bottom_length_ft": 52.5,
+     "bottom_width_ft": 28.8,
+     "side_slope_h_per_v": 2.0
+    },
+    "embankment_top_ft": 367.2,
+    "cell": "forebay",
+    "divider": {
+     "drains_into": "S06-B2",
+     "weir_crest_elevation_ft": 365.04,
+     "weir_length_ft": 4.0,
+     "weir_coefficient": 0.37,
+     "orifice": {
+      "diameter_in": 4.0,
+      "invert_elevation_ft": 364.38,
+      "discharge_coefficient": 0.6
+     }
+    }
+   },
+   {
+    "basin_id": "S06-B3",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 216.81,
+     "bottom_length_ft": 110.5,
+     "bottom_width_ft": 60.8,
+     "side_slope_h_per_v": 3.0
+    },
+    "embankment_top_ft": 221.6,
+    "cell": "main",
     "dewatering_orifice": {
      "diameter_in": 3.0,
+     "invert_elevation_ft": 216.81,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 3.0,
+     "crest_elevation_ft": 218.71,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 219.59,
+     "crest_length_ft": 6.0,
+     "weir_coefficient": 0.29
+    },
+    "discharges_to": null
+   },
+   {
+    "basin_id": "S06-B3F",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 217.55,
+       "area_sqft": 754
+      },
+      {
+       "elevation_ft": 218.0,
+       "area_sqft": 1134
+      },
+      {
+       "elevation_ft": 219.0,
+       "area_sqft": 1961
+      },
+      {
+       "elevation_ft": 220.0,
+       "area_sqft": 4616
+      },
+      {
+       "elevation_ft": 221.0,
+       "area_sqft": 9131
+      },
+      {
+       "elevation_ft": 222.0,
+       "area_sqft": 13484
+      },
+      {
+       "elevation_ft": 223.0,
+       "area_sqft": 21300
+      }
+     ]
+    },
+    "embankment_top_ft": 221.6,
+    "cell": "forebay",
+    "divider": {
+     "drains_into": "S06-B3",
+     "weir_crest_elevation_ft": 218.42,
+     "weir_length_ft": 3.0,
+     "weir_coefficient": 0.37,
+     "orifice": {
+      "diameter_in": 4.0,
+      "invert_elevation_ft": 217.55,
+      "discharge_coefficient": 0.6
+     }
+    }
+   }
+  ],
+  "drainage_areas": [
+   {
+    "area_id": "S06-A01",
+    "acres": 5.98,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 257.0,
+      "slope": 0.048
+     },
+     "shallow": {
+      "length_ft": 915.0,
+      "slope": 0.026,
+      "paved": false
+     }
+    },
+    "drains_to": "S06-B1F"
+   },
+   {
+    "area_id": "S06-A02",
+    "acres": 7.74,
+    "hydrologic_soil_group": "B",
+    "curve_numbers": {
+     "undisturbed": 61,
+     "disturbed": 86,
+     "stabilized": 69
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Grass: dense grasses",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 249.0,
+      "slope": 0.01
+     },
+     "shallow": {
+      "length_ft": 950.0,
+      "slope": 0.041,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 645.0,
+      "area_sqft": 1.5,
+      "wetted_perimeter_ft": 7.2,
+      "slope": 0.027,
+      "n": 0.03
+     }
+    },
+    "drains_to": "S06-B2F"
+   },
+   {
+    "area_id": "S06-A03",
+    "acres": 6.3,
+    "hydrologic_soil_group": "C",
+    "curve_numbers": {
+     "undisturbed": 74,
+     "disturbed": 91,
+     "stabilized": 79
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Grass: dense grasses",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 226.0,
+      "slope": 0.032
+     },
+     "shallow": {
+      "length_ft": 101.0,
+      "slope": 0.056,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 468.0,
+      "area_sqft": 6.2,
+      "wetted_perimeter_ft": 4.7,
+      "slope": 0.02,
+      "n": 0.03
+     }
+    },
+    "drains_to": "S06-B3F"
+   },
+   {
+    "area_id": "S06-A04",
+    "acres": 7.44,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 65.0,
+      "slope": 0.048
+     },
+     "shallow": {
+      "length_ft": 998.0,
+      "slope": 0.012,
+      "paved": false
+     }
+    },
+    "drains_to": "S06-B3"
+   }
+  ]
+ },
+ {
+  "site_id": "S07",
+  "project": "retail center, Naguabo",
+  "two_year_24_hour_rainfall_in": 4.5,
+  "basins": [
+   {
+    "basin_id": "S07-B1",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 200.0,
+     "bottom_length_ft": 90.0,
+     "bottom_width_ft": 45.0,
+     "side_slope_h_per_v": 3.0
+    },
+    "embankment_top_ft": 204.8,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 4.0,
+     "invert_elevation_ft": 200.0,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 2.5,
+     "crest_elevation_ft": 202.5,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 203.8,
+     "crest_length_ft": 12.0,
+     "weir_coefficient": 0.31
+    },
+    "discharges_to": null
+   }
+  ],
+  "drainage_areas": [
+   {
+    "area_id": "S07-A01",
+    "acres": 16.0,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Grass: dense grasses",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 100.0,
+      "slope": 0.03
+     },
+     "shallow": {
+      "length_ft": 300.0,
+      "slope": 0.03,
+      "paved": false
+     }
+    },
+    "drains_to": "S07-B1"
+   }
+  ]
+ },
+ {
+  "site_id": "S08",
+  "project": "medical center, Caguas",
+  "two_year_24_hour_rainfall_in": 4.3,
+  "basins": [
+   {
+    "basin_id": "S08-B1",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 402.51,
+       "area_sqft": 2722
+      },
+      {
+       "elevation_ft": 403.0,
+       "area_sqft": 4677
+      },
+      {
+       "elevation_ft": 404.0,
+       "area_sqft": 10499
+      },
+      {
+       "elevation_ft": 405.0,
+       "area_sqft": 24949
+      },
+      {
+       "elevation_ft": 406.0,
+       "area_sqft": 39748
+      },
+      {
+       "elevation_ft": 407.0,
+       "area_sqft": 93826
+      },
+      {
+       "elevation_ft": 408.0,
+       "area_sqft": 204779
+      }
+     ]
+    },
+    "embankment_top_ft": 407.2,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 2.5,
+     "invert_elevation_ft": 402.51,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 2.5,
+     "crest_elevation_ft": 404.36,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 405.14,
+     "crest_length_ft": 6.0,
+     "weir_coefficient": 0.31
+    },
+    "discharges_to": "S08-B2"
+   },
+   {
+    "basin_id": "S08-B1F",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 403.57,
+     "bottom_length_ft": 62.0,
+     "bottom_width_ft": 30.4,
+     "side_slope_h_per_v": 2.0
+    },
+    "embankment_top_ft": 407.2,
+    "cell": "forebay",
+    "divider": {
+     "drains_into": "S08-B1",
+     "weir_crest_elevation_ft": 404.53,
+     "weir_length_ft": 4.0,
+     "weir_coefficient": 0.37,
+     "orifice": {
+      "diameter_in": 3.0,
+      "invert_elevation_ft": 403.57,
+      "discharge_coefficient": 0.6
+     }
+    }
+   },
+   {
+    "basin_id": "S08-B2",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 163.53,
+     "bottom_length_ft": 151.5,
+     "bottom_width_ft": 58.9,
+     "side_slope_h_per_v": 2.0
+    },
+    "embankment_top_ft": 171.1,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 3.0,
+     "invert_elevation_ft": 163.53,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 3.0,
+     "crest_elevation_ft": 165.95,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 167.23,
+     "crest_length_ft": 8.0,
+     "weir_coefficient": 0.33
+    },
+    "discharges_to": "S08-B3"
+   },
+   {
+    "basin_id": "S08-B3",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 211.72,
+     "bottom_length_ft": 99.5,
+     "bottom_width_ft": 48.6,
+     "side_slope_h_per_v": 3.0
+    },
+    "embankment_top_ft": 220.1,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 3.0,
+     "invert_elevation_ft": 211.72,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 2.0,
+     "crest_elevation_ft": 214.22,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 215.01,
+     "crest_length_ft": 8.0,
+     "weir_coefficient": 0.33
+    },
+    "discharges_to": null
+   },
+   {
+    "basin_id": "S08-B3F",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 212.24,
+     "bottom_length_ft": 50.0,
+     "bottom_width_ft": 25.4,
+     "side_slope_h_per_v": 2.0
+    },
+    "embankment_top_ft": 220.1,
+    "cell": "forebay",
+    "divider": {
+     "drains_into": "S08-B3",
+     "weir_crest_elevation_ft": 213.62,
+     "weir_length_ft": 8.0,
+     "weir_coefficient": 0.37,
+     "orifice": {
+      "diameter_in": 6.0,
+      "invert_elevation_ft": 212.24,
+      "discharge_coefficient": 0.6
+     }
+    }
+   }
+  ],
+  "drainage_areas": [
+   {
+    "area_id": "S08-A01",
+    "acres": 1.8,
+    "hydrologic_soil_group": "B",
+    "curve_numbers": {
+     "undisturbed": 61,
+     "disturbed": 86,
+     "stabilized": 69
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 273.0,
+      "slope": 0.07
+     },
+     "shallow": {
+      "length_ft": 493.0,
+      "slope": 0.027,
+      "paved": true
+     }
+    },
+    "drains_to": "S08-B1"
+   },
+   {
+    "area_id": "S08-A02",
+    "acres": 7.18,
+    "hydrologic_soil_group": "C",
+    "curve_numbers": {
+     "undisturbed": 74,
+     "disturbed": 91,
+     "stabilized": 79
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: dense underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 290.0,
+      "slope": 0.047
+     },
+     "shallow": {
+      "length_ft": 368.0,
+      "slope": 0.023,
+      "paved": false
+     }
+    },
+    "drains_to": "S08-B1F"
+   },
+   {
+    "area_id": "S08-A03",
+    "acres": 2.64,
+    "hydrologic_soil_group": "B",
+    "curve_numbers": {
+     "undisturbed": 61,
+     "disturbed": 86,
+     "stabilized": 69
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 84.0,
+      "slope": 0.05
+     },
+     "shallow": {
+      "length_ft": 560.0,
+      "slope": 0.028,
+      "paved": false
+     }
+    },
+    "drains_to": "S08-B1"
+   },
+   {
+    "area_id": "S08-A04",
+    "acres": 2.7,
+    "hydrologic_soil_group": "B",
+    "curve_numbers": {
+     "undisturbed": 61,
+     "disturbed": 86,
+     "stabilized": 69
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 156.0,
+      "slope": 0.038
+     },
+     "shallow": {
+      "length_ft": 1031.0,
+      "slope": 0.048,
+      "paved": false
+     }
+    },
+    "drains_to": "S08-B2"
+   },
+   {
+    "area_id": "S08-A05",
+    "acres": 4.67,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Grass: dense grasses",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 54.0,
+      "slope": 0.032
+     },
+     "shallow": {
+      "length_ft": 1011.0,
+      "slope": 0.022,
+      "paved": true
+     }
+    },
+    "drains_to": "S08-B2"
+   },
+   {
+    "area_id": "S08-A06",
+    "acres": 8.19,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Grass: dense grasses",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 148.0,
+      "slope": 0.023
+     },
+     "shallow": {
+      "length_ft": 180.0,
+      "slope": 0.053,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 525.0,
+      "area_sqft": 3.5,
+      "wetted_perimeter_ft": 9.6,
+      "slope": 0.007,
+      "n": 0.03
+     }
+    },
+    "drains_to": "S08-B2"
+   },
+   {
+    "area_id": "S08-A07",
+    "acres": 3.03,
+    "hydrologic_soil_group": "B",
+    "curve_numbers": {
+     "undisturbed": 61,
+     "disturbed": 86,
+     "stabilized": 69
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 190.0,
+      "slope": 0.047
+     },
+     "shallow": {
+      "length_ft": 153.0,
+      "slope": 0.023,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 152.0,
+      "area_sqft": 4.0,
+      "wetted_perimeter_ft": 5.4,
+      "slope": 0.017,
+      "n": 0.04
+     }
+    },
+    "drains_to": "S08-B3F"
+   },
+   {
+    "area_id": "S08-A08",
+    "acres": 4.5,
+    "hydrologic_soil_group": "B",
+    "curve_numbers": {
+     "undisturbed": 61,
+     "disturbed": 86,
+     "stabilized": 69
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: dense underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 261.0,
+      "slope": 0.076
+     },
+     "shallow": {
+      "length_ft": 488.0,
+      "slope": 0.024,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 363.0,
+      "area_sqft": 4.0,
+      "wetted_perimeter_ft": 4.7,
+      "slope": 0.011,
+      "n": 0.04
+     }
+    },
+    "drains_to": "S08-B3"
+   }
+  ]
+ },
+ {
+  "site_id": "S09",
+  "project": "retail center, Yabucoa",
+  "two_year_24_hour_rainfall_in": 4.4,
+  "basins": [
+   {
+    "basin_id": "S09-B1",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 177.81,
+       "area_sqft": 1912
+      },
+      {
+       "elevation_ft": 178.0,
+       "area_sqft": 3022
+      },
+      {
+       "elevation_ft": 179.0,
+       "area_sqft": 5653
+      },
+      {
+       "elevation_ft": 180.0,
+       "area_sqft": 7560
+      },
+      {
+       "elevation_ft": 181.0,
+       "area_sqft": 16964
+      },
+      {
+       "elevation_ft": 182.0,
+       "area_sqft": 28588
+      },
+      {
+       "elevation_ft": 183.0,
+       "area_sqft": 56053
+      },
+      {
+       "elevation_ft": 184.0,
+       "area_sqft": 82726
+      }
+     ]
+    },
+    "embankment_top_ft": 182.5,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 2.5,
+     "invert_elevation_ft": 177.81,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 2.0,
+     "crest_elevation_ft": 179.77,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 180.65,
+     "crest_length_ft": 8.0,
+     "weir_coefficient": 0.29
+    },
+    "discharges_to": "S09-B2"
+   },
+   {
+    "basin_id": "S09-B1F",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 178.71,
+     "bottom_length_ft": 43.0,
+     "bottom_width_ft": 24.9,
+     "side_slope_h_per_v": 2.0
+    },
+    "embankment_top_ft": 182.5,
+    "cell": "forebay",
+    "divider": {
+     "drains_into": "S09-B1",
+     "weir_crest_elevation_ft": 179.6,
+     "weir_length_ft": 3.0,
+     "weir_coefficient": 0.37,
+     "orifice": {
+      "diameter_in": 4.0,
+      "invert_elevation_ft": 178.71,
+      "discharge_coefficient": 0.6
+     }
+    }
+   },
+   {
+    "basin_id": "S09-B2",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 279.34,
+     "bottom_length_ft": 140.0,
+     "bottom_width_ft": 66.6,
+     "side_slope_h_per_v": 3.0
+    },
+    "embankment_top_ft": 285.5,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 5.0,
+     "invert_elevation_ft": 279.34,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 1.5,
+     "crest_elevation_ft": 281.42,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 282.36,
+     "crest_length_ft": 15.0,
+     "weir_coefficient": 0.33
+    },
+    "discharges_to": null
+   }
+  ],
+  "drainage_areas": [
+   {
+    "area_id": "S09-A01",
+    "acres": 8.94,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: dense underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 263.0,
+      "slope": 0.078
+     },
+     "shallow": {
+      "length_ft": 592.0,
+      "slope": 0.032,
+      "paved": false
+     }
+    },
+    "drains_to": "S09-B1F"
+   },
+   {
+    "area_id": "S09-A02",
+    "acres": 8.33,
+    "hydrologic_soil_group": "C",
+    "curve_numbers": {
+     "undisturbed": 74,
+     "disturbed": 91,
+     "stabilized": 79
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: light underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 150.0,
+      "slope": 0.047
+     },
+     "shallow": {
+      "length_ft": 252.0,
+      "slope": 0.046,
+      "paved": true
+     }
+    },
+    "drains_to": "S09-B2"
+   },
+   {
+    "area_id": "S09-A03",
+    "acres": 4.71,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 71.0,
+      "slope": 0.03
+     },
+     "shallow": {
+      "length_ft": 599.0,
+      "slope": 0.017,
+      "paved": false
+     }
+    },
+    "drains_to": "S09-B2"
+   },
+   {
+    "area_id": "S09-A04",
+    "acres": 7.25,
+    "hydrologic_soil_group": "A",
+    "curve_numbers": {
+     "undisturbed": 39,
+     "disturbed": 77,
+     "stabilized": 49
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: light underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 143.0,
+      "slope": 0.076
+     },
+     "shallow": {
+      "length_ft": 1076.0,
+      "slope": 0.055,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 568.0,
+      "area_sqft": 2.6,
+      "wetted_perimeter_ft": 6.5,
+      "slope": 0.012,
+      "n": 0.035
+     }
+    },
+    "drains_to": "S09-B2"
+   }
+  ]
+ },
+ {
+  "site_id": "S10",
+  "project": "sports complex, Carolina",
+  "two_year_24_hour_rainfall_in": 5.4,
+  "basins": [
+   {
+    "basin_id": "S10-B1",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 248.66,
+     "bottom_length_ft": 175.0,
+     "bottom_width_ft": 63.9,
+     "side_slope_h_per_v": 3.0
+    },
+    "embankment_top_ft": 254.0,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 6.0,
+     "invert_elevation_ft": 248.66,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 2.0,
+     "crest_elevation_ft": 250.62,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 251.82,
+     "crest_length_ft": 12.0,
+     "weir_coefficient": 0.29
+    },
+    "discharges_to": "S10-B2"
+   },
+   {
+    "basin_id": "S10-B1F",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 249.97,
+     "bottom_length_ft": 81.0,
+     "bottom_width_ft": 33.9,
+     "side_slope_h_per_v": 2.0
+    },
+    "embankment_top_ft": 254.0,
+    "cell": "forebay",
+    "divider": {
+     "drains_into": "S10-B1",
+     "weir_crest_elevation_ft": 250.85,
+     "weir_length_ft": 6.0,
+     "weir_coefficient": 0.37,
+     "orifice": {
+      "diameter_in": 3.0,
+      "invert_elevation_ft": 249.97,
+      "discharge_coefficient": 0.6
+     }
+    }
+   },
+   {
+    "basin_id": "S10-B2",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 223.74,
+       "area_sqft": 2029
+      },
+      {
+       "elevation_ft": 224.0,
+       "area_sqft": 3053
+      },
+      {
+       "elevation_ft": 225.0,
+       "area_sqft": 5330
+      },
+      {
+       "elevation_ft": 226.0,
+       "area_sqft": 11701
+      },
+      {
+       "elevation_ft": 227.0,
+       "area_sqft": 20430
+      },
+      {
+       "elevation_ft": 228.0,
+       "area_sqft": 27723
+      },
+      {
+       "elevation_ft": 229.0,
+       "area_sqft": 37102
+      },
+      {
+       "elevation_ft": 230.0,
+       "area_sqft": 64433
+      }
+     ]
+    },
+    "embankment_top_ft": 229.8,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 6.0,
+     "invert_elevation_ft": 223.74,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 2.0,
+     "crest_elevation_ft": 226.06,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 227.2,
+     "crest_length_ft": 6.0,
+     "weir_coefficient": 0.29
+    },
+    "discharges_to": null
+   }
+  ],
+  "drainage_areas": [
+   {
+    "area_id": "S10-A01",
+    "acres": 6.21,
+    "hydrologic_soil_group": "C",
+    "curve_numbers": {
+     "undisturbed": 74,
+     "disturbed": 91,
+     "stabilized": 79
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Grass: dense grasses",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 48.0,
+      "slope": 0.055
+     },
+     "shallow": {
+      "length_ft": 304.0,
+      "slope": 0.04,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 663.0,
+      "area_sqft": 5.6,
+      "wetted_perimeter_ft": 4.9,
+      "slope": 0.017,
+      "n": 0.03
+     }
+    },
+    "drains_to": "S10-B1F"
+   },
+   {
+    "area_id": "S10-A02",
+    "acres": 8.52,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: dense underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 108.0,
+      "slope": 0.06
+     },
+     "shallow": {
+      "length_ft": 468.0,
+      "slope": 0.043,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 192.0,
+      "area_sqft": 2.5,
+      "wetted_perimeter_ft": 5.1,
+      "slope": 0.023,
+      "n": 0.03
+     }
+    },
+    "drains_to": "S10-B1F"
+   },
+   {
+    "area_id": "S10-A03",
+    "acres": 5.77,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: dense underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 120.0,
+      "slope": 0.062
+     },
+     "shallow": {
+      "length_ft": 155.0,
+      "slope": 0.015,
+      "paved": false
+     }
+    },
+    "drains_to": "S10-B2"
+   },
+   {
+    "area_id": "S10-A04",
+    "acres": 5.56,
+    "hydrologic_soil_group": "A",
+    "curve_numbers": {
+     "undisturbed": 39,
+     "disturbed": 77,
+     "stabilized": 49
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Grass: dense grasses",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 48.0,
+      "slope": 0.011
+     },
+     "shallow": {
+      "length_ft": 713.0,
+      "slope": 0.04,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 114.0,
+      "area_sqft": 7.9,
+      "wetted_perimeter_ft": 7.0,
+      "slope": 0.03,
+      "n": 0.04
+     }
+    },
+    "drains_to": "S10-B2"
+   },
+   {
+    "area_id": "S10-A05",
+    "acres": 3.03,
+    "hydrologic_soil_group": "A",
+    "curve_numbers": {
+     "undisturbed": 39,
+     "disturbed": 77,
+     "stabilized": 49
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: light underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 85.0,
+      "slope": 0.04
+     },
+     "shallow": {
+      "length_ft": 523.0,
+      "slope": 0.043,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 486.0,
+      "area_sqft": 3.0,
+      "wetted_perimeter_ft": 11.9,
+      "slope": 0.014,
+      "n": 0.04
+     }
+    },
+    "drains_to": "S10-B2"
+   }
+  ]
+ },
+ {
+  "site_id": "S11",
+  "project": "distribution center, Caguas",
+  "two_year_24_hour_rainfall_in": 4.4,
+  "basins": [
+   {
+    "basin_id": "S11-B1",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 187.75,
+     "bottom_length_ft": 137.5,
+     "bottom_width_ft": 75.9,
+     "side_slope_h_per_v": 2.0
+    },
+    "embankment_top_ft": 192.0,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 4.0,
+     "invert_elevation_ft": 187.75,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 3.0,
+     "crest_elevation_ft": 190.3,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 191.02,
+     "crest_length_ft": 8.0,
+     "weir_coefficient": 0.29
+    },
+    "discharges_to": null
+   },
+   {
+    "basin_id": "S11-B2",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 203.2,
+     "bottom_length_ft": 115.0,
+     "bottom_width_ft": 40.4,
+     "side_slope_h_per_v": 3.0
+    },
+    "embankment_top_ft": 208.0,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 6.0,
+     "invert_elevation_ft": 203.2,
+     "discharge_coefficient": 0.6
+    },
+    "riser": {
+     "diameter_ft": 2.0,
+     "crest_elevation_ft": 205.32,
+     "weir_coefficient": 0.37,
+     "orifice_coefficient": 0.6
+    },
+    "emergency_spillway": {
+     "crest_elevation_ft": 206.7,
+     "crest_length_ft": 20.0,
+     "weir_coefficient": 0.33
+    },
+    "discharges_to": null
+   },
+   {
+    "basin_id": "S11-B2F",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 204.31,
+       "area_sqft": 676
+      },
+      {
+       "elevation_ft": 205.0,
+       "area_sqft": 1256
+      },
+      {
+       "elevation_ft": 206.0,
+       "area_sqft": 2526
+      },
+      {
+       "elevation_ft": 207.0,
+       "area_sqft": 3871
+      },
+      {
+       "elevation_ft": 208.0,
+       "area_sqft": 5586
+      },
+      {
+       "elevation_ft": 209.0,
+       "area_sqft": 13258
+      },
+      {
+       "elevation_ft": 210.0,
+       "area_sqft": 25290
+      }
+     ]
+    },
+    "embankment_top_ft": 208.0,
+    "cell": "forebay",
+    "divider": {
+     "drains_into": "S11-B2",
+     "weir_crest_elevation_ft": 205.43,
+     "weir_length_ft": 8.0,
+     "weir_coefficient": 0.37,
+     "orifice": {
+      "diameter_in": 3.0,
+      "invert_elevation_ft": 204.31,
+      "discharge_coefficient": 0.6
+     }
+    }
+   }
+  ],
+  "drainage_areas": [
+   {
+    "area_id": "S11-A01",
+    "acres": 1.83,
+    "hydrologic_soil_group": "C",
+    "curve_numbers": {
+     "undisturbed": 74,
+     "disturbed": 91,
+     "stabilized": 79
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 158.0,
+      "slope": 0.034
+     },
+     "shallow": {
+      "length_ft": 645.0,
+      "slope": 0.024,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 287.0,
+      "area_sqft": 3.0,
+      "wetted_perimeter_ft": 11.2,
+      "slope": 0.014,
+      "n": 0.05
+     }
+    },
+    "drains_to": "S11-B1"
+   },
+   {
+    "area_id": "S11-A02",
+    "acres": 6.76,
+    "hydrologic_soil_group": "A",
+    "curve_numbers": {
+     "undisturbed": 39,
+     "disturbed": 77,
+     "stabilized": 49
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Range (natural)",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 215.0,
+      "slope": 0.062
+     },
+     "shallow": {
+      "length_ft": 421.0,
+      "slope": 0.02,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 609.0,
+      "area_sqft": 2.6,
+      "wetted_perimeter_ft": 10.5,
+      "slope": 0.018,
+      "n": 0.03
+     }
+    },
+    "drains_to": "S11-B1"
+   },
+   {
+    "area_id": "S11-A03",
+    "acres": 6.72,
+    "hydrologic_soil_group": "C",
+    "curve_numbers": {
+     "undisturbed": 74,
+     "disturbed": 91,
+     "stabilized": 79
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: light underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: dense grasses"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 218.0,
+      "slope": 0.051
+     },
+     "shallow": {
+      "length_ft": 1062.0,
+      "slope": 0.02,
+      "paved": false
+     }
+    },
+    "drains_to": "S11-B1"
+   },
+   {
+    "area_id": "S11-A04",
+    "acres": 8.32,
+    "hydrologic_soil_group": "D",
+    "curve_numbers": {
+     "undisturbed": 80,
+     "disturbed": 94,
+     "stabilized": 84
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: dense underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Cultivated soils: residue cover >20%"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 207.0,
+      "slope": 0.023
+     },
+     "shallow": {
+      "length_ft": 491.0,
+      "slope": 0.032,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 535.0,
+      "area_sqft": 8.1,
+      "wetted_perimeter_ft": 9.6,
+      "slope": 0.015,
+      "n": 0.035
+     }
+    },
+    "drains_to": "S11-B2F"
+   }
+  ]
+ },
+ {
+  "site_id": "S12",
+  "project": "medical center, Cidra",
+  "two_year_24_hour_rainfall_in": 4.8,
+  "basins": [
+   {
+    "basin_id": "S12-B1",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 250.0,
+     "bottom_length_ft": 80.0,
+     "bottom_width_ft": 40.0,
+     "side_slope_h_per_v": 3.0
+    },
+    "embankment_top_ft": 254.1,
+    "cell": "main",
+    "dewatering_orifice": {
+     "diameter_in": 4.0,
      "invert_elevation_ft": 250.0,
      "discharge_coefficient": 0.6
     },
@@ -165,19 +3170,68 @@
      "orifice_coefficient": 0.6
     },
     "emergency_spillway": {
-     "crest_elevation_ft": 253.0,
+     "crest_elevation_ft": 253.1,
      "crest_length_ft": 8.0,
      "weir_coefficient": 0.29
     },
-    "discharges_to": "S02-B2"
+    "discharges_to": "S12-B2"
    },
    {
-    "basin_id": "S02-B2",
-    "bottom_elevation_ft": 240.0,
-    "bottom_length_ft": 110.0,
-    "bottom_width_ft": 50.0,
-    "side_slope_h_per_v": 2.0,
+    "basin_id": "S12-B1F",
+    "geometry": {
+     "type": "surveyed contours",
+     "contours": [
+      {
+       "elevation_ft": 250.8,
+       "area_sqft": 400.0
+      },
+      {
+       "elevation_ft": 251.0,
+       "area_sqft": 520.0
+      },
+      {
+       "elevation_ft": 252.0,
+       "area_sqft": 1150.0
+      },
+      {
+       "elevation_ft": 253.0,
+       "area_sqft": 1900.0
+      },
+      {
+       "elevation_ft": 254.0,
+       "area_sqft": 2700.0
+      },
+      {
+       "elevation_ft": 255.0,
+       "area_sqft": 3600.0
+      }
+     ]
+    },
+    "embankment_top_ft": 254.1,
+    "cell": "forebay",
+    "divider": {
+     "drains_into": "S12-B1",
+     "weir_crest_elevation_ft": 251.9,
+     "weir_length_ft": 4.0,
+     "weir_coefficient": 0.37,
+     "orifice": {
+      "diameter_in": 4.0,
+      "invert_elevation_ft": 250.8,
+      "discharge_coefficient": 0.6
+     }
+    }
+   },
+   {
+    "basin_id": "S12-B2",
+    "geometry": {
+     "type": "trapezoid",
+     "bottom_elevation_ft": 240.0,
+     "bottom_length_ft": 110.0,
+     "bottom_width_ft": 50.0,
+     "side_slope_h_per_v": 2.0
+    },
     "embankment_top_ft": 244.3,
+    "cell": "main",
     "dewatering_orifice": {
      "diameter_in": 4.0,
      "invert_elevation_ft": 240.0,
@@ -199,1247 +3253,92 @@
   ],
   "drainage_areas": [
    {
-    "area_id": "S02-A01",
-    "acres": 6.5,
-    "time_of_concentration_h": 0.3,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S02-B1"
-   },
-   {
-    "area_id": "S02-A02",
-    "acres": 4.2,
-    "time_of_concentration_h": 0.45,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S02-B2"
-   }
-  ]
- },
- {
-  "site_id": "S03",
-  "project": "sports complex, Dorado",
-  "basins": [
-   {
-    "basin_id": "S03-B1",
-    "bottom_elevation_ft": 279.67,
-    "bottom_length_ft": 187.0,
-    "bottom_width_ft": 75.4,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 283.9,
-    "dewatering_orifice": {
-     "diameter_in": 2.0,
-     "invert_elevation_ft": 279.67,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 2.5,
-     "crest_elevation_ft": 281.68,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 282.44,
-     "crest_length_ft": 8.0,
-     "weir_coefficient": 0.29
-    },
-    "discharges_to": null
-   },
-   {
-    "basin_id": "S03-B2",
-    "bottom_elevation_ft": 256.96,
-    "bottom_length_ft": 129.0,
-    "bottom_width_ft": 77.3,
-    "side_slope_h_per_v": 2.0,
-    "embankment_top_ft": 261.0,
-    "dewatering_orifice": {
-     "diameter_in": 3.0,
-     "invert_elevation_ft": 256.96,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 2.5,
-     "crest_elevation_ft": 258.73,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 260.04,
-     "crest_length_ft": 6.0,
-     "weir_coefficient": 0.29
-    },
-    "discharges_to": "S03-B3"
-   },
-   {
-    "basin_id": "S03-B3",
-    "bottom_elevation_ft": 251.17,
-    "bottom_length_ft": 180.5,
-    "bottom_width_ft": 77.5,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 255.8,
-    "dewatering_orifice": {
-     "diameter_in": 4.0,
-     "invert_elevation_ft": 251.17,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 2.0,
-     "crest_elevation_ft": 253.19,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 254.06,
-     "crest_length_ft": 8.0,
-     "weir_coefficient": 0.33
-    },
-    "discharges_to": "S03-B4"
-   },
-   {
-    "basin_id": "S03-B4",
-    "bottom_elevation_ft": 196.22,
-    "bottom_length_ft": 127.0,
-    "bottom_width_ft": 70.9,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 201.2,
-    "dewatering_orifice": {
-     "diameter_in": 3.0,
-     "invert_elevation_ft": 196.22,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 3.0,
-     "crest_elevation_ft": 198.54,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 199.83,
-     "crest_length_ft": 12.0,
-     "weir_coefficient": 0.31
-    },
-    "discharges_to": null
-   }
-  ],
-  "drainage_areas": [
-   {
-    "area_id": "S03-A01",
-    "acres": 1.92,
-    "time_of_concentration_h": 0.25,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S03-B1"
-   },
-   {
-    "area_id": "S03-A02",
-    "acres": 3.87,
-    "time_of_concentration_h": 0.16,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S03-B1"
-   },
-   {
-    "area_id": "S03-A03",
-    "acres": 8.64,
-    "time_of_concentration_h": 0.32,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S03-B1"
-   },
-   {
-    "area_id": "S03-A04",
-    "acres": 4.06,
-    "time_of_concentration_h": 0.43,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S03-B2"
-   },
-   {
-    "area_id": "S03-A05",
-    "acres": 4.63,
-    "time_of_concentration_h": 0.64,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S03-B2"
-   },
-   {
-    "area_id": "S03-A06",
-    "acres": 6.41,
-    "time_of_concentration_h": 0.21,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S03-B3"
-   },
-   {
-    "area_id": "S03-A07",
-    "acres": 8.75,
-    "time_of_concentration_h": 0.43,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S03-B3"
-   },
-   {
-    "area_id": "S03-A08",
-    "acres": 6.09,
-    "time_of_concentration_h": 0.36,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S03-B4"
-   },
-   {
-    "area_id": "S03-A09",
-    "acres": 5.29,
-    "time_of_concentration_h": 0.41,
-    "hydrologic_soil_group": "A",
-    "curve_numbers": {
-     "undisturbed": 39,
-     "disturbed": 77,
-     "stabilized": 49
-    },
-    "drains_to": "S03-B4"
-   }
-  ]
- },
- {
-  "site_id": "S04",
-  "project": "distribution center, Carolina",
-  "basins": [
-   {
-    "basin_id": "S04-B1",
-    "bottom_elevation_ft": 170.09,
-    "bottom_length_ft": 138.0,
-    "bottom_width_ft": 75.9,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 177.7,
-    "dewatering_orifice": {
-     "diameter_in": 2.0,
-     "invert_elevation_ft": 170.09,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 2.0,
-     "crest_elevation_ft": 172.54,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 173.75,
-     "crest_length_ft": 15.0,
-     "weir_coefficient": 0.31
-    },
-    "discharges_to": "S04-B2"
-   },
-   {
-    "basin_id": "S04-B2",
-    "bottom_elevation_ft": 325.81,
-    "bottom_length_ft": 153.0,
-    "bottom_width_ft": 86.3,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 334.0,
-    "dewatering_orifice": {
-     "diameter_in": 5.0,
-     "invert_elevation_ft": 325.81,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 2.0,
-     "crest_elevation_ft": 327.68,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 329.02,
-     "crest_length_ft": 15.0,
-     "weir_coefficient": 0.29
-    },
-    "discharges_to": "S04-B3"
-   },
-   {
-    "basin_id": "S04-B3",
-    "bottom_elevation_ft": 305.81,
-    "bottom_length_ft": 91.5,
-    "bottom_width_ft": 51.3,
-    "side_slope_h_per_v": 2.0,
-    "embankment_top_ft": 314.6,
-    "dewatering_orifice": {
-     "diameter_in": 3.0,
-     "invert_elevation_ft": 305.81,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 3.0,
-     "crest_elevation_ft": 308.26,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 309.0,
-     "crest_length_ft": 12.0,
-     "weir_coefficient": 0.29
-    },
-    "discharges_to": null
-   },
-   {
-    "basin_id": "S04-B4",
-    "bottom_elevation_ft": 318.27,
-    "bottom_length_ft": 161.5,
-    "bottom_width_ft": 70.3,
-    "side_slope_h_per_v": 2.0,
-    "embankment_top_ft": 324.2,
-    "dewatering_orifice": {
-     "diameter_in": 2.0,
-     "invert_elevation_ft": 318.27,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 2.0,
-     "crest_elevation_ft": 320.26,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 321.54,
-     "crest_length_ft": 6.0,
-     "weir_coefficient": 0.31
-    },
-    "discharges_to": null
-   }
-  ],
-  "drainage_areas": [
-   {
-    "area_id": "S04-A01",
-    "acres": 7.97,
-    "time_of_concentration_h": 0.19,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S04-B1"
-   },
-   {
-    "area_id": "S04-A02",
-    "acres": 9.03,
-    "time_of_concentration_h": 0.26,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S04-B1"
-   },
-   {
-    "area_id": "S04-A03",
-    "acres": 6.22,
-    "time_of_concentration_h": 0.26,
-    "hydrologic_soil_group": "B",
-    "curve_numbers": {
-     "undisturbed": 61,
-     "disturbed": 86,
-     "stabilized": 69
-    },
-    "drains_to": "S04-B1"
-   },
-   {
-    "area_id": "S04-A04",
-    "acres": 7.53,
-    "time_of_concentration_h": 0.39,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S04-B2"
-   },
-   {
-    "area_id": "S04-A05",
-    "acres": 7.74,
-    "time_of_concentration_h": 0.56,
-    "hydrologic_soil_group": "A",
-    "curve_numbers": {
-     "undisturbed": 39,
-     "disturbed": 77,
-     "stabilized": 49
-    },
-    "drains_to": "S04-B2"
-   },
-   {
-    "area_id": "S04-A06",
-    "acres": 5.8,
-    "time_of_concentration_h": 0.47,
-    "hydrologic_soil_group": "B",
-    "curve_numbers": {
-     "undisturbed": 61,
-     "disturbed": 86,
-     "stabilized": 69
-    },
-    "drains_to": "S04-B3"
-   },
-   {
-    "area_id": "S04-A07",
-    "acres": 9.03,
-    "time_of_concentration_h": 0.34,
-    "hydrologic_soil_group": "A",
-    "curve_numbers": {
-     "undisturbed": 39,
-     "disturbed": 77,
-     "stabilized": 49
-    },
-    "drains_to": "S04-B4"
-   },
-   {
-    "area_id": "S04-A08",
-    "acres": 1.83,
-    "time_of_concentration_h": 0.24,
-    "hydrologic_soil_group": "B",
-    "curve_numbers": {
-     "undisturbed": 61,
-     "disturbed": 86,
-     "stabilized": 69
-    },
-    "drains_to": "S04-B4"
-   }
-  ]
- },
- {
-  "site_id": "S05",
-  "project": "retail center, Vega Baja",
-  "basins": [
-   {
-    "basin_id": "S05-B1",
-    "bottom_elevation_ft": 310.0,
-    "bottom_length_ft": 90.0,
-    "bottom_width_ft": 45.0,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 314.4,
-    "dewatering_orifice": {
-     "diameter_in": 3.0,
-     "invert_elevation_ft": 310.0,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 2.0,
-     "crest_elevation_ft": 312.2,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 313.4,
-     "crest_length_ft": 10.0,
-     "weir_coefficient": 0.31
-    },
-    "discharges_to": null
-   }
-  ],
-  "drainage_areas": [
-   {
-    "area_id": "S05-A01",
-    "acres": 32.0,
-    "time_of_concentration_h": 0.75,
-    "hydrologic_soil_group": "B",
-    "curve_numbers": {
-     "undisturbed": 61,
-     "disturbed": 86,
-     "stabilized": 69
-    },
-    "drains_to": "S05-B1"
-   },
-   {
-    "area_id": "S05-A02",
-    "acres": 32.0,
-    "time_of_concentration_h": 0.75,
-    "hydrologic_soil_group": "B",
-    "curve_numbers": {
-     "undisturbed": 61,
-     "disturbed": 86,
-     "stabilized": 69
-    },
-    "drains_to": "S05-B1"
-   }
-  ]
- },
- {
-  "site_id": "S06",
-  "project": "water treatment plant, Vega Baja",
-  "basins": [
-   {
-    "basin_id": "S06-B1",
-    "bottom_elevation_ft": 170.05,
-    "bottom_length_ft": 176.0,
-    "bottom_width_ft": 94.1,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 175.6,
-    "dewatering_orifice": {
-     "diameter_in": 5.0,
-     "invert_elevation_ft": 170.05,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 2.5,
-     "crest_elevation_ft": 172.39,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 173.38,
-     "crest_length_ft": 6.0,
-     "weir_coefficient": 0.33
-    },
-    "discharges_to": null
-   },
-   {
-    "basin_id": "S06-B2",
-    "bottom_elevation_ft": 274.73,
-    "bottom_length_ft": 154.5,
-    "bottom_width_ft": 61.6,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 279.1,
-    "dewatering_orifice": {
-     "diameter_in": 5.0,
-     "invert_elevation_ft": 274.73,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 3.0,
-     "crest_elevation_ft": 277.0,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 277.97,
-     "crest_length_ft": 20.0,
-     "weir_coefficient": 0.31
-    },
-    "discharges_to": null
-   },
-   {
-    "basin_id": "S06-B3",
-    "bottom_elevation_ft": 415.73,
-    "bottom_length_ft": 241.5,
-    "bottom_width_ft": 85.5,
-    "side_slope_h_per_v": 2.0,
-    "embankment_top_ft": 420.1,
-    "dewatering_orifice": {
-     "diameter_in": 6.0,
-     "invert_elevation_ft": 415.73,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 2.5,
-     "crest_elevation_ft": 417.77,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 418.6,
-     "crest_length_ft": 15.0,
-     "weir_coefficient": 0.33
-    },
-    "discharges_to": null
-   }
-  ],
-  "drainage_areas": [
-   {
-    "area_id": "S06-A01",
-    "acres": 8.65,
-    "time_of_concentration_h": 0.57,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S06-B1"
-   },
-   {
-    "area_id": "S06-A02",
-    "acres": 8.53,
-    "time_of_concentration_h": 0.56,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S06-B1"
-   },
-   {
-    "area_id": "S06-A03",
-    "acres": 8.16,
-    "time_of_concentration_h": 0.24,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S06-B2"
-   },
-   {
-    "area_id": "S06-A04",
-    "acres": 5.92,
-    "time_of_concentration_h": 0.66,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S06-B2"
-   },
-   {
-    "area_id": "S06-A05",
-    "acres": 8.49,
-    "time_of_concentration_h": 0.44,
-    "hydrologic_soil_group": "A",
-    "curve_numbers": {
-     "undisturbed": 39,
-     "disturbed": 77,
-     "stabilized": 49
-    },
-    "drains_to": "S06-B3"
-   },
-   {
-    "area_id": "S06-A06",
-    "acres": 7.53,
-    "time_of_concentration_h": 0.65,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S06-B3"
-   },
-   {
-    "area_id": "S06-A07",
-    "acres": 4.89,
-    "time_of_concentration_h": 0.61,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S06-B3"
-   }
-  ]
- },
- {
-  "site_id": "S07",
-  "project": "retail center, Rio Grande",
-  "basins": [
-   {
-    "basin_id": "S07-B1",
-    "bottom_elevation_ft": 223.94,
-    "bottom_length_ft": 96.5,
-    "bottom_width_ft": 45.6,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 228.5,
-    "dewatering_orifice": {
-     "diameter_in": 3.0,
-     "invert_elevation_ft": 223.94,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 2.0,
-     "crest_elevation_ft": 226.48,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 227.53,
-     "crest_length_ft": 12.0,
-     "weir_coefficient": 0.31
-    },
-    "discharges_to": null
-   },
-   {
-    "basin_id": "S07-B2",
-    "bottom_elevation_ft": 221.61,
-    "bottom_length_ft": 156.5,
-    "bottom_width_ft": 86.7,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 225.9,
-    "dewatering_orifice": {
-     "diameter_in": 5.0,
-     "invert_elevation_ft": 221.61,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 2.5,
-     "crest_elevation_ft": 223.8,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 224.64,
-     "crest_length_ft": 15.0,
-     "weir_coefficient": 0.33
-    },
-    "discharges_to": "S07-B3"
-   },
-   {
-    "basin_id": "S07-B3",
-    "bottom_elevation_ft": 335.16,
-    "bottom_length_ft": 140.0,
-    "bottom_width_ft": 64.9,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 341.7,
-    "dewatering_orifice": {
-     "diameter_in": 5.0,
-     "invert_elevation_ft": 335.16,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 2.0,
-     "crest_elevation_ft": 337.68,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 339.0,
-     "crest_length_ft": 10.0,
-     "weir_coefficient": 0.31
-    },
-    "discharges_to": null
-   }
-  ],
-  "drainage_areas": [
-   {
-    "area_id": "S07-A01",
-    "acres": 3.77,
-    "time_of_concentration_h": 0.56,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S07-B1"
-   },
-   {
-    "area_id": "S07-A02",
-    "acres": 1.73,
-    "time_of_concentration_h": 0.44,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S07-B1"
-   },
-   {
-    "area_id": "S07-A03",
-    "acres": 5.03,
-    "time_of_concentration_h": 0.57,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S07-B2"
-   },
-   {
-    "area_id": "S07-A04",
-    "acres": 6.79,
-    "time_of_concentration_h": 0.28,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S07-B2"
-   },
-   {
-    "area_id": "S07-A05",
-    "acres": 2.06,
-    "time_of_concentration_h": 0.61,
-    "hydrologic_soil_group": "B",
-    "curve_numbers": {
-     "undisturbed": 61,
-     "disturbed": 86,
-     "stabilized": 69
-    },
-    "drains_to": "S07-B3"
-   },
-   {
-    "area_id": "S07-A06",
-    "acres": 7.05,
-    "time_of_concentration_h": 0.35,
-    "hydrologic_soil_group": "A",
-    "curve_numbers": {
-     "undisturbed": 39,
-     "disturbed": 77,
-     "stabilized": 49
-    },
-    "drains_to": "S07-B3"
-   },
-   {
-    "area_id": "S07-A07",
-    "acres": 8.02,
-    "time_of_concentration_h": 0.28,
-    "hydrologic_soil_group": "A",
-    "curve_numbers": {
-     "undisturbed": 39,
-     "disturbed": 77,
-     "stabilized": 49
-    },
-    "drains_to": "S07-B3"
-   }
-  ]
- },
- {
-  "site_id": "S08",
-  "project": "highway interchange, Vega Baja",
-  "basins": [
-   {
-    "basin_id": "S08-B1",
-    "bottom_elevation_ft": 259.42,
-    "bottom_length_ft": 89.0,
-    "bottom_width_ft": 47.6,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 264.4,
-    "dewatering_orifice": {
-     "diameter_in": 6.0,
-     "invert_elevation_ft": 259.42,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 3.0,
-     "crest_elevation_ft": 261.76,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 262.94,
-     "crest_length_ft": 10.0,
-     "weir_coefficient": 0.31
-    },
-    "discharges_to": null
-   },
-   {
-    "basin_id": "S08-B2",
-    "bottom_elevation_ft": 314.67,
-    "bottom_length_ft": 106.5,
-    "bottom_width_ft": 55.5,
-    "side_slope_h_per_v": 2.0,
-    "embankment_top_ft": 319.2,
-    "dewatering_orifice": {
-     "diameter_in": 5.0,
-     "invert_elevation_ft": 314.67,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 3.0,
-     "crest_elevation_ft": 316.79,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 317.72,
-     "crest_length_ft": 10.0,
-     "weir_coefficient": 0.31
-    },
-    "discharges_to": "S08-B3"
-   },
-   {
-    "basin_id": "S08-B3",
-    "bottom_elevation_ft": 245.12,
-    "bottom_length_ft": 193.5,
-    "bottom_width_ft": 90.2,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 249.8,
-    "dewatering_orifice": {
-     "diameter_in": 6.0,
-     "invert_elevation_ft": 245.12,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 2.5,
-     "crest_elevation_ft": 246.82,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 247.59,
-     "crest_length_ft": 15.0,
-     "weir_coefficient": 0.33
-    },
-    "discharges_to": null
-   }
-  ],
-  "drainage_areas": [
-   {
-    "area_id": "S08-A01",
-    "acres": 8.76,
-    "time_of_concentration_h": 0.26,
-    "hydrologic_soil_group": "B",
-    "curve_numbers": {
-     "undisturbed": 61,
-     "disturbed": 86,
-     "stabilized": 69
-    },
-    "drains_to": "S08-B1"
-   },
-   {
-    "area_id": "S08-A02",
-    "acres": 7.11,
-    "time_of_concentration_h": 0.51,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S08-B2"
-   },
-   {
-    "area_id": "S08-A03",
-    "acres": 3.32,
-    "time_of_concentration_h": 0.33,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S08-B2"
-   },
-   {
-    "area_id": "S08-A04",
-    "acres": 4.04,
-    "time_of_concentration_h": 0.24,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S08-B3"
-   },
-   {
-    "area_id": "S08-A05",
-    "acres": 8.35,
-    "time_of_concentration_h": 0.29,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S08-B3"
-   }
-  ]
- },
- {
-  "site_id": "S09",
-  "project": "housing subdivision, Gurabo",
-  "basins": [
-   {
-    "basin_id": "S09-B1",
-    "bottom_elevation_ft": 150.04,
-    "bottom_length_ft": 135.0,
-    "bottom_width_ft": 65.8,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 154.4,
-    "dewatering_orifice": {
-     "diameter_in": 2.5,
-     "invert_elevation_ft": 150.04,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 1.5,
-     "crest_elevation_ft": 152.05,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 153.22,
-     "crest_length_ft": 12.0,
-     "weir_coefficient": 0.33
-    },
-    "discharges_to": null
-   }
-  ],
-  "drainage_areas": [
-   {
-    "area_id": "S09-A01",
-    "acres": 1.86,
-    "time_of_concentration_h": 0.38,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S09-B1"
-   },
-   {
-    "area_id": "S09-A02",
-    "acres": 6.8,
-    "time_of_concentration_h": 0.29,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S09-B1"
-   }
-  ]
- },
- {
-  "site_id": "S10",
-  "project": "medical center, Cidra",
-  "basins": [
-   {
-    "basin_id": "S10-B1",
-    "bottom_elevation_ft": 214.73,
-    "bottom_length_ft": 52.5,
-    "bottom_width_ft": 30.8,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 218.9,
-    "dewatering_orifice": {
-     "diameter_in": 5.0,
-     "invert_elevation_ft": 214.73,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 1.5,
-     "crest_elevation_ft": 217.02,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 217.88,
-     "crest_length_ft": 20.0,
-     "weir_coefficient": 0.29
-    },
-    "discharges_to": null
-   },
-   {
-    "basin_id": "S10-B2",
-    "bottom_elevation_ft": 163.44,
-    "bottom_length_ft": 137.0,
-    "bottom_width_ft": 67.8,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 169.0,
-    "dewatering_orifice": {
-     "diameter_in": 5.0,
-     "invert_elevation_ft": 163.44,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 1.5,
-     "crest_elevation_ft": 165.54,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 166.78,
-     "crest_length_ft": 10.0,
-     "weir_coefficient": 0.31
-    },
-    "discharges_to": null
-   }
-  ],
-  "drainage_areas": [
-   {
-    "area_id": "S10-A01",
-    "acres": 2.01,
-    "time_of_concentration_h": 0.53,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S10-B1"
-   },
-   {
-    "area_id": "S10-A02",
-    "acres": 5.51,
-    "time_of_concentration_h": 0.19,
-    "hydrologic_soil_group": "B",
-    "curve_numbers": {
-     "undisturbed": 61,
-     "disturbed": 86,
-     "stabilized": 69
-    },
-    "drains_to": "S10-B2"
-   },
-   {
-    "area_id": "S10-A03",
-    "acres": 7.0,
-    "time_of_concentration_h": 0.62,
-    "hydrologic_soil_group": "C",
-    "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
-    },
-    "drains_to": "S10-B2"
-   }
-  ]
- },
- {
-  "site_id": "S11",
-  "project": "medical center, Caguas",
-  "basins": [
-   {
-    "basin_id": "S11-B1",
-    "bottom_elevation_ft": 200.0,
-    "bottom_length_ft": 220.0,
-    "bottom_width_ft": 110.0,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 204.8,
-    "dewatering_orifice": {
-     "diameter_in": 4.0,
-     "invert_elevation_ft": 200.0,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 3.0,
-     "crest_elevation_ft": 202.5,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 203.8,
-     "crest_length_ft": 12.0,
-     "weir_coefficient": 0.31
-    },
-    "discharges_to": null
-   }
-  ],
-  "drainage_areas": [
-   {
-    "area_id": "S11-A01",
-    "acres": 64.0,
-    "time_of_concentration_h": 0.75,
-    "hydrologic_soil_group": "D",
-    "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
-    },
-    "drains_to": "S11-B1"
-   }
-  ]
- },
- {
-  "site_id": "S12",
-  "project": "highway interchange, Carolina",
-  "basins": [
-   {
-    "basin_id": "S12-B1",
-    "bottom_elevation_ft": 388.03,
-    "bottom_length_ft": 181.0,
-    "bottom_width_ft": 82.4,
-    "side_slope_h_per_v": 3.0,
-    "embankment_top_ft": 392.5,
-    "dewatering_orifice": {
-     "diameter_in": 2.0,
-     "invert_elevation_ft": 388.03,
-     "discharge_coefficient": 0.6
-    },
-    "riser": {
-     "diameter_ft": 2.0,
-     "crest_elevation_ft": 389.65,
-     "weir_coefficient": 0.37,
-     "orifice_coefficient": 0.6
-    },
-    "emergency_spillway": {
-     "crest_elevation_ft": 390.76,
-     "crest_length_ft": 15.0,
-     "weir_coefficient": 0.31
-    },
-    "discharges_to": null
-   }
-  ],
-  "drainage_areas": [
-   {
     "area_id": "S12-A01",
-    "acres": 5.57,
-    "time_of_concentration_h": 0.45,
-    "hydrologic_soil_group": "A",
+    "acres": 5.5,
+    "hydrologic_soil_group": "C",
     "curve_numbers": {
-     "undisturbed": 39,
-     "disturbed": 77,
-     "stabilized": 49
+     "undisturbed": 74,
+     "disturbed": 91,
+     "stabilized": 79
     },
-    "drains_to": "S12-B1"
+    "sheet_flow_surface": {
+     "undisturbed": "Grass: dense grasses",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 242.0,
+      "slope": 0.056
+     },
+     "shallow": {
+      "length_ft": 174.0,
+      "slope": 0.051,
+      "paved": true
+     }
+    },
+    "drains_to": "S12-B1F"
    },
    {
     "area_id": "S12-A02",
-    "acres": 9.01,
-    "time_of_concentration_h": 0.26,
-    "hydrologic_soil_group": "D",
+    "acres": 2.5,
+    "hydrologic_soil_group": "A",
     "curve_numbers": {
-     "undisturbed": 80,
-     "disturbed": 94,
-     "stabilized": 84
+     "undisturbed": 39,
+     "disturbed": 77,
+     "stabilized": 49
+    },
+    "sheet_flow_surface": {
+     "undisturbed": "Woods: light underbrush",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 75.0,
+      "slope": 0.027
+     },
+     "shallow": {
+      "length_ft": 664.0,
+      "slope": 0.03,
+      "paved": false
+     },
+     "channel": {
+      "length_ft": 328.0,
+      "area_sqft": 6.2,
+      "wetted_perimeter_ft": 8.7,
+      "slope": 0.006,
+      "n": 0.05
+     }
     },
     "drains_to": "S12-B1"
    },
    {
     "area_id": "S12-A03",
-    "acres": 5.48,
-    "time_of_concentration_h": 0.53,
-    "hydrologic_soil_group": "C",
+    "acres": 4.0,
+    "hydrologic_soil_group": "A",
     "curve_numbers": {
-     "undisturbed": 74,
-     "disturbed": 91,
-     "stabilized": 79
+     "undisturbed": 39,
+     "disturbed": 77,
+     "stabilized": 49
     },
-    "drains_to": "S12-B1"
+    "sheet_flow_surface": {
+     "undisturbed": "Grass: dense grasses",
+     "disturbed": "Smooth surfaces (concrete, asphalt, gravel, or bare soil)",
+     "stabilized": "Grass: short grass prairie"
+    },
+    "flow_path": {
+     "sheet": {
+      "length_ft": 108.0,
+      "slope": 0.03
+     },
+     "shallow": {
+      "length_ft": 247.0,
+      "slope": 0.036,
+      "paved": false
+     }
+    },
+    "drains_to": "S12-B2"
    }
   ]
  }

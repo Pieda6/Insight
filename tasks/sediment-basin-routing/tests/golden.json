@@ -42,6 +42,32 @@
    "tol": 1.0
   },
   {
+   "check": "tc",
+   "expect": 1.53,
+   "p2_in": 3.6,
+   "path": {
+    "channel": {
+     "area_sqft": 27,
+     "length_ft": 7300,
+     "n": 0.05,
+     "slope": 0.005,
+     "wetted_perimeter_ft": 28.2
+    },
+    "shallow": {
+     "length_ft": 1400,
+     "paved": false,
+     "slope": 0.01
+    },
+    "sheet": {
+     "length_ft": 100,
+     "slope": 0.01
+    }
+   },
+   "source": "TR-55 example 3-1 (worksheet 3)",
+   "surface": "Grass: dense grasses",
+   "tol": 0.005
+  },
+  {
    "c": 0.6,
    "check": "orifice",
    "depth_ft": 3.3,
@@ -81,23 +107,37 @@
    "expect": 11896,
    "source": "HEC-22 eq. 10.10 (L 100, W 50, Z 3, D 2)",
    "tol": 0.5
+  },
+  {
+   "a1": 1000,
+   "a2": 4000,
+   "check": "conic",
+   "d": 1,
+   "expect": 2333.333,
+   "source": "HEC-22 eq. 10.19 (A1 1,000, A2 4,000, d 1)",
+   "tol": 0.01
+  },
+  {
+   "check": "villemonte",
+   "expect": 0.8454,
+   "h1": 1.0,
+   "h2": 0.5,
+   "source": "HEC-22 eq. 10.34 (h1 1.0, h2 0.5)",
+   "tol": 0.0005
   }
  ],
  "rows": {
-  "S05|S05-B1|2026-04-20T10:00": {
-   "peak_inflow_cfs": 0.108
+  "S04|S04-B1|2026-04-20T10:00": {
+   "peak_inflow_cfs": 0.302
   },
-  "S05|S05-B1|2026-05-01T03:00": {
-   "peak_inflow_cfs": 9.67
+  "S04|S04-B1|2026-05-01T03:00": {
+   "peak_inflow_cfs": 43.279
   },
-  "S11|S11-B1|2026-04-14T14:00": {
-   "peak_inflow_cfs": 48.762
+  "S07|S07-B1|2026-04-14T14:00": {
+   "peak_inflow_cfs": 14.952
   },
-  "S11|S11-B1|2026-05-02T13:00": {
-   "peak_inflow_cfs": 63.709
-  },
-  "S11|S11-B1|2026-06-09T16:30": {
-   "peak_inflow_cfs": 3.547
+  "S07|S07-B1|2026-05-02T13:00": {
+   "peak_inflow_cfs": 19.43
   }
  }
 }
