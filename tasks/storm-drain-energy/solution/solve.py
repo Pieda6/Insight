@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Reference solution for storm-drain-energy-grade.
+"""Reference solution for storm-drain-energy.
 
 Energy grade line evaluation of each storm drain network by FHWA HEC-22, 4th edition, Section 9.4, with the
 FHWA inlet and access hole energy loss method of Section 9.1.6.7 at every structure. Work starts at the outfall

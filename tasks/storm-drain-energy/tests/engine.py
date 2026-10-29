@@ -1,4 +1,4 @@
-"""Independent verifier model for storm-drain-energy-grade.
+"""Independent verifier model for storm-drain-energy.
 
 Written separately from the reference solution: networks are ordered once from the outfall with an explicit
 queue, circular sections are handled through the central angle, normal depth is found by a safeguarded Newton

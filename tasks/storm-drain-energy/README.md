@@ -1,4 +1,4 @@
-# storm-drain-energy-grade
+# storm-drain-energy
 
 Energy grade line evaluation of 44 storm drain networks (530 structures) for a 10-year design event and a 100-year
 check event. For every pipe and event the agent reports the Table 9.6 case at the pipe's downstream end, the

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build the storm drain networks for storm-drain-energy-grade.
+"""Build the storm drain networks for storm-drain-energy.
 
 Usage: python3 generate.py            (from authoring/; writes ../environment/data, ../tests/data)
 

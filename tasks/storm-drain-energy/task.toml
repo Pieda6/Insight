@@ -3,7 +3,7 @@ artifacts = ["/app/output/"]
 schema_version = "2.0"
 
 [task]
-name = "insight/storm-drain-energy-grade"
+name = "insight/storm-drain-energy"
 description = "Evaluate the energy and hydraulic grade lines of 44 storm drain networks for a 10-year design event and a 100-year check event with FHWA HEC-22 4th edition Section 9.4 and the FHWA inlet and access hole energy loss method (Section 9.1.6.7): Table 9.6 cases at each pipe's outlet, Table 9.7 conditions at its inlet with supercritical resets, inlet and outlet control energy levels, benching, angled and plunging inflow losses at every structure, and surcharge at each rim."
 
 [metadata]

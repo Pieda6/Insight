@@ -1,4 +1,4 @@
-"""Verifier for storm-drain-energy-grade.
+"""Verifier for storm-drain-energy.
 
 Every pipe and event is recomputed by an independent model (engine.py) from the verifier's private copy of the
 inputs. The engine is itself checked against the worked numbers of HEC-22 Examples 9.1 and 9.2 and Table 9.5

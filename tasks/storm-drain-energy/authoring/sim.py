@@ -1,4 +1,4 @@
-"""Generator's model for storm-drain-energy-grade (third implementation).
+"""Generator's model for storm-drain-energy (third implementation).
 
 Step functions over one pipe or one structure, so that generate.py can place near-threshold cases while it walks
 upstream, plus evaluate() for a whole system. Depths are solved by plain bisection in depth with a

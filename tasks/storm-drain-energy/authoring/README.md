@@ -1,4 +1,4 @@
-# Authoring tools for storm-drain-energy-grade
+# Authoring tools for storm-drain-energy
 
 These files are not copied into the agent or verifier images. Run them from this folder.
 
