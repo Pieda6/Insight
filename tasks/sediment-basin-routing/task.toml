@@ -7,7 +7,7 @@ name = "insight/sediment-basin-routing"
 description = "Simulate a wet season of runoff and sediment basin routing for 12 construction sites in Puerto Rico: from 6-minute rain gauge records, drainage areas whose curve numbers change as they are graded and stabilized, and trapezoidal basins with dewatering orifices, risers and emergency spillways (some in series), compute each basin's peak inflow, peak outflow, peak water surface elevation and spillway flow for every storm, using the NRCS curve number and dimensionless unit hydrograph methods (NEH Part 630) and HEC-22 stage-storage-discharge relations with storage-indication routing."
 
 [metadata]
-domain = "Engineering"
+domain = "Science"
 field = "Civil Engineering"
 subfield = "Water Resources and Stormwater Hydrology"
 tags = ["hydrology", "detention-routing", "storage-indication", "nrcs-curve-number", "unit-hydrograph", "sediment-basin", "hec-22", "python"]
