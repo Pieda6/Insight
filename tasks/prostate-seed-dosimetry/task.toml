@@ -4,15 +4,15 @@ schema_version = "2.0"
 
 [task]
 name = "insight/prostate-seed-dosimetry"
-description = "Post-implant dosimetry of 60 permanent prostate seed implants (eight iodine-125 and palladium-103 seed models) under the AAPM TG-43U1 protocol: from CT end-marker positions of 2,934 seeds, vendor certificates in air-kerma strength per seed, per batch or apparent activity with the vendor's exposure-rate constant, calibration times with UTC offsets and New York local implant times across daylight-saving changes, and duplicate detections, compute the total dose to complete decay at 1,080 urethra, rectum and prostate points with the 2D line-source formalism and the report's consensus datasets and rules for data outside the tables."
+description = "Edema-corrected post-implant evaluation of 20 permanent prostate seed implants (iodine-125 and palladium-103, eight consensus seed models) under AAPM TG-43U1 with the reporting indices of AAPM TG-137: from CT seed markers (two per seed, or one where the orientation was lost), vendor certificates in air-kerma strength per seed, per batch or in apparent activity with the vendor's exposure-rate constant, calibration times with UTC offsets, New York local implant and CT times across the 2026 daylight-saving changes, duplicate detections, slice contours of prostate, urethra and rectum, and the prostate volumes before the implant, at the end of the procedure and on the CT, integrate the TG-43U1 2D line-source dose rate (1D with the Appendix C short-distance model for one-marker seeds) over time while the edematous prostate shrinks, and report prostate D90, V100 and V150, urethral D10 and D30, rectal V100 and D2cc and four acceptance criteria per patient."
 
 [metadata]
 domain = "Science"
 field = "Medicine"
 subfield = "Medical Physics and Radiation Oncology"
-tags = ["medical-physics", "brachytherapy", "tg-43", "dosimetry", "prostate-cancer", "radiation-oncology", "python"]
-expert_time_estimate_hours = 8
-relevant_experience = "Clinical medical physics in brachytherapy: TG-43U1 dose calculation with the 2D line-source formalism and consensus datasets, source strength specification (air-kerma strength and apparent activity), radioactive decay of permanent implants, and post-implant CT dosimetry of prostate seed implants."
+tags = ["medical-physics", "brachytherapy", "tg-43", "post-implant-dosimetry", "prostate-edema", "dose-volume-histogram", "radiation-oncology", "python"]
+expert_time_estimate_hours = 16
+relevant_experience = "Clinical medical physics in prostate brachytherapy: TG-43U1 dose calculation with the 2D and 1D formalisms and the consensus datasets, source strength specification and decay, post-implant CT dosimetry with dose-volume indices, and the dosimetric effect of post-implant edema."
 
 [verifier]
 timeout_sec = 300.0

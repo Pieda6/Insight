@@ -20,15 +20,6 @@
   },
   {
    "check": "rate_1d",
-   "model": "2301",
-   "r": 0.5,
-   "theta": null,
-   "expect": 3.813,
-   "rel_tol": 0.0065,
-   "source": "TG-43U1 Table XV, 2301 at 0.5 cm"
-  },
-  {
-   "check": "rate_1d",
    "model": "MED3631-A/M",
    "r": 0.5,
    "theta": null,
@@ -44,15 +35,6 @@
    "expect": 3.922,
    "rel_tol": 0.0065,
    "source": "TG-43U1 Table XV, I25.S06 at 0.5 cm"
-  },
-  {
-   "check": "rate_1d",
-   "model": "IS-12501",
-   "r": 0.5,
-   "theta": null,
-   "expect": 3.426,
-   "rel_tol": 0.0065,
-   "source": "TG-43U1 Table XV, IS-12501 at 0.5 cm"
   },
   {
    "check": "rate_1d",
@@ -701,6 +683,137 @@
    "expect": 6.452405321338737,
    "rel_tol": 1e-09,
    "source": "ln g_L linear in r between 0.25 and 0.5 cm, F(0.5 cm, 60 deg) = 0.991 below the first F radius"
+  },
+  {
+   "check": "rate_1d",
+   "model": "2301",
+   "r": 0.5,
+   "theta": null,
+   "expect": 3.9557851200000003,
+   "rel_tol": 1e-09,
+   "source": "Eq. C3 with X = L below the first tabulated phi_an distance 1.0 cm: Lambda (r_min/r)^2 G_L(r_min, 90)/G_L(1, 90) g_L(r) phi_an(r_min), hand-worked for model 2301 at 0.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "IS-12501",
+   "r": 0.7,
+   "theta": null,
+   "expect": 1.7535762233311951,
+   "rel_tol": 1e-09,
+   "source": "Eq. C3 with X = L below the first tabulated phi_an distance 1.0 cm: Lambda (r_min/r)^2 G_L(r_min, 90)/G_L(1, 90) g_L(r) phi_an(r_min), hand-worked for model IS-12501 at 0.7 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6711",
+   "r": 0.3,
+   "theta": null,
+   "expect": 11.025953543311417,
+   "rel_tol": 1e-09,
+   "source": "Eq. C3 with X = L below the first tabulated phi_an distance 0.5 cm: Lambda (r_min/r)^2 G_L(r_min, 90)/G_L(1, 90) g_L(r) phi_an(r_min), hand-worked for model 6711 at 0.3 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "200",
+   "r": 0.2,
+   "theta": null,
+   "expect": 21.014507875574356,
+   "rel_tol": 1e-09,
+   "source": "Eq. C3 with X = L below the first tabulated phi_an distance 0.25 cm: Lambda (r_min/r)^2 G_L(r_min, 90)/G_L(1, 90) g_L(r) phi_an(r_min), hand-worked for model 200 at 0.2 cm"
+  },
+  {
+   "check": "dynamic_point_source",
+   "args": [
+    40.0,
+    60.0,
+    55.837006492648385,
+    480.0,
+    59.4,
+    2.0
+   ],
+   "expect": null,
+   "rel_tol": 1e-10,
+   "model": "6711",
+   "r": 2.0,
+   "theta": null,
+   "source": "Inverse-square point source under the edema model with alpha = lambda/lambda_e = 1 (I-125 half-life 59.4 d): the time integral has the closed form coded in engine.dynamic_point_source_closed_form"
+  },
+  {
+   "check": "dynamic_point_source",
+   "args": [
+    40.0,
+    60.0,
+    53.30024777306728,
+    480.0,
+    16.991,
+    2.0
+   ],
+   "expect": null,
+   "rel_tol": 1e-10,
+   "model": "200",
+   "r": 2.0,
+   "theta": null,
+   "source": "Inverse-square point source under the edema model with alpha = lambda/lambda_e = 2 (Pd-103 half-life 16.991 d): the time integral has the closed form coded in engine.dynamic_point_source_closed_form"
+  },
+  {
+   "check": "dynamic_point_source",
+   "args": [
+    40.0,
+    60.0,
+    48.844829541249055,
+    480.0,
+    16.991,
+    2.0
+   ],
+   "expect": null,
+   "rel_tol": 1e-10,
+   "model": "MED3633",
+   "r": 2.0,
+   "theta": null,
+   "source": "Inverse-square point source under the edema model with alpha = lambda/lambda_e = 1 (Pd-103 half-life 16.991 d): the time integral has the closed form coded in engine.dynamic_point_source_closed_form"
+  },
+  {
+   "check": "dynamic_point_source",
+   "args": [
+    40.0,
+    60.0,
+    57.79719443769067,
+    480.0,
+    59.4,
+    2.0
+   ],
+   "expect": null,
+   "rel_tol": 1e-10,
+   "model": "2301",
+   "r": 2.0,
+   "theta": null,
+   "source": "Inverse-square point source under the edema model with alpha = lambda/lambda_e = 2 (I-125 half-life 59.4 d): the time integral has the closed form coded in engine.dynamic_point_source_closed_form"
+  },
+  {
+   "check": "dynamic_total_tiny_edema",
+   "model": "6711",
+   "r": 1.5,
+   "theta": 60.0,
+   "expect": null,
+   "rel_tol": 1e-05,
+   "source": "An edema of one part per million leaves the total dose equal to the dose rate times the mean life"
+  },
+  {
+   "check": "dynamic_total_tiny_edema",
+   "model": "200",
+   "r": 0.8,
+   "theta": 20.0,
+   "expect": null,
+   "rel_tol": 1e-05,
+   "source": "An edema of one part per million leaves the total dose equal to the dose rate times the mean life"
+  },
+  {
+   "check": "dynamic_total_tiny_edema",
+   "model": "I25.S06",
+   "r": 3.0,
+   "theta": 85.0,
+   "expect": null,
+   "rel_tol": 1e-05,
+   "source": "An edema of one part per million leaves the total dose equal to the dose rate times the mean life"
   }
  ]
 }

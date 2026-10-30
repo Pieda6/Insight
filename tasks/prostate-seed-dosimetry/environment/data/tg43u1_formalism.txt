@@ -1,0 +1,597 @@
+AAPM TG-43U1 (Rivard et al., Med Phys 2004;31:633-674): Section III (dose-calculation formalism) and Appendices C (dose rate at small and large distances), D (anisotropy constant) and E (apparent activity), text extracted from the PDF with pdftotext -layout. Two-column pages read column by column; glyphs the PDF encodes privately are written as the characters they stand for.
+=== PDF PAGE 5 ===
+637        Rivard et al.: AAPM TG-43 update                                                                                                  637
+
+
+A. General 2D formalism
+   The general, two-dimensional (2D) dose-rate equation
+from the 1995 TG-43 protocol is retained,
+
+                           G L ( r, θ )
+   Ḋ ( r, θ ) =S K ·Λ·                   ·g ( r ) ·F ( r, θ ) ,   (1)
+                          G L( r 0 , θ 0 ) L
+
+where r denotes the distance (in centimeters) from the center
+of the active source to the point of interest, r 0 denotes the
+reference distance which is specified to be 1 cm in this pro-            FIG. 1. Coordinate system used for brachytherapy dosimetry calculations.
+tocol, and θ denotes the polar angle specifying the point-of-
+interest, P(r, θ ), relative to the source longitudinal axis. The
+reference angle, θ 0 , defines the source transverse plane, and          source approximation used for the geometry function (Sec.
+is specified to be 90° or π/2 radians (Fig. 1).                          III A 3). For evaluation of dose rates at small and large dis-
+    In clinical practice, source position and orientation are            tances, the reader is referred to Appendix C.
+identified by means of radio-opaque markers. Generally,
+these markers are positioned symmetrically within the source
+capsule such that the marker, the radioactivity distribution,            1. Air-kerma strength
+and the capsule have the same geometric center on the sym-
+metry axis of the source. Thus, determination of the location               This protocol proposes minor revisions to the definition of
+of the radioisotope distribution is based upon identification            air-kerma strength, S K , which was first introduced by the
+of the radio-opaque markers. All sources discussed in this               AAPM TG-32 report in 1987.22 Air-kerma strength has units
+document can be accurately represented by a capsule and                  of λ Gy m2 h-1 and is numerically identical to the quantity
+radio-opaque markers that are symmetric with respect to the              Reference Air Kerma Rate recommended by ICRU 38 and
+transverse plane, which by definition bisects the active                 ICRU 60.23,24 For convenience, these unit combinations
+source and specifies the origin of the dose-calculation for-             are denoted by the symbol U where 1 U=1 λ Gy m2 h-1
+malism. However, Eq. (1) can accommodate sources that are                =1 cGy cm2 h-1 .
+asymmetric with respect to the transverse plane. For sources                Air-kerma strength, S K , is the air-kerma rate, K̇ δ (d), in
+that exhibit all of the following characteristics: (i) the radio-        vacuo and due to photons of energy greater than δ, at dis-
+activity distribution is clearly asymmetric with respect to the          tance d, multiplied by the square of this distance, d 2 ,
+planes bisecting the capsule or marker; (ii) the extent of                  S K =K̇ δ ( d ) d 2 .                                             (2)
+asymmetry is known a priori or can be measured via imag-
+ing; and (iii) the source orientation can be determined under            The quantity d is the distance from the source center to the
+clinical implant circumstances (e.g., via CT or radiography),            point of K̇ δ (d) specification (usually but not necessarily as-
+then the source coordinate system origin should be posi-                 sociated with the point of measurement) which should be
+tioned at the geometric center of the radionuclide distribution          located on the transverse plane of the source. The distance d
+(as determined using positioning information obtained from               can be any distance that is large relative to the maximum
+the markers), not the geometric center of the exterior surface           linear dimension of the radioactivity distribution so that S K is
+of the capsule or marker. If radio-opaque markers do not                 independent of d. K̇ δ (d) is usually inferred from transverse-
+facilitate identification of source orientation and the asym-            plane air-kerma rate measurements performed in a free-air
+metrical distribution under clinical circumstances, then the             geometry at distances large in relation to the maximum linear
+geometric center of the source must be presumed to reside at             dimensions of the detector and source, typically of the order
+the radio-opaque marker centroid as is conventionally per-               of 1 meter. The qualification ''in vacuo'' means that the mea-
+formed.                                                                  surements should be corrected for photon attenuation and
+    The quantities used in Eq. (1) are defined and discussed             scattering in air and any other medium interposed between
+later. This formalism applies to sources with cylindrically              the source and detector, as well as photon scattering from
+symmetric dose distributions with respect to the source lon-             any nearby objects including walls, floors, and ceilings. Of
+gitudinal axis. In addition, the consensus datasets presented            course, air-kerma rate may also be calculated to subvert
+in Sec. IV B assume that dose distributions are symmetric                some of the limitations imposed on practical
+with respect to the transverse plane, i.e., that radioactivity           measurements.25 The energy cutoff, δ, is intended to exclude
+distributions to either side of the transverse plane are mirror          low-energy or contaminant photons (e.g., characteristic
+images of one another. However, this formalism is readily                x-rays originating in the outer layers of steel or titanium
+generalized to accommodate sources that are not symmetric                source cladding) that increase K̇ δ (d) without contributing
+with respect to the transverse plane.                                    significantly to dose at distances greater than 0.1 cm in tis-
+    Equation (1) includes additional notation compared with              sue. The value of δ is typically 5 keV for low-energy photon-
+the corresponding equation in the original TG-43 formalism,              emitting brachytherapy sources, and is dependent on the ap-
+namely the subscript ''L'' has been added to denote the line             plication.
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 6 ===
+638         Rivard et al.: AAPM TG-43 update                                                                                            638
+
+
+   In summary, the present definition of S K differs in two                strength standard (e.g., P=''N'' for NIST, or P=''T '' for the
+important ways from the original 1987 AAPM definition.                     in-house calibration-standard of Theragenics Corporation),
+First, the original AAPM definition of S K did not allow for a             ''qq'' denotes the year in which this source strength standard
+low-energy cutoff. Subsequent experience using free-air                    was implemented, and the ''S'' subscript denotes the word
+chambers as primary S K standards clearly indicates that fail-             standard.7 For example, Λ 97D,N99S indicates a dose-rate con-
+ure to exclude nonpenetrating radiations greatly increases                 stant determined from dosimetry measurements published in
+measurement uncertainty and invalidates theoretical dosime-                1997 and normalized to an S K traceable to the 1999 NIST
+try models. Second, the conditions that should prevail in an               standard. Additional notation may also be utilized such as
+                                                                           TLD Λ 97D,N85S for the dose-rate constant for the model 6702
+                                                                           6702
+experimental determination of S K are now explicitly stated.
+                                                                           source published in 1997 using TLDs and the 1985 NIST
+2. Dose-rate constant                                                      standard. These notations are useful for comparing results
+   The definition of the dose-rate constant in water, Λ, is                from multiple investigators, and readily highlight features
+unchanged from the original TG-43 protocol: it is the ratio of             such as utilization of the calibration procedure and whether
+dose rate at the reference position, P(r 0 , θ 0 ), and S K . Λ has        or not influence of titanium K-shell x rays is included.
+units of cGy h-1 U-1 which reduces to cm-2 ,
+                                                                           3. Geometry function
+      Ḋ ( r 0 , θ 0 )
+   Λ=                  .                                            (3)        Within the context of clinical brachytherapy dose calcula-
+           SK
+                                                                           tions, the purpose of the geometry function is to improve the
+The dose-rate constant depends on both the radionuclide and                accuracy with which dose rates can be estimated by interpo-
+source model, and is influenced by both the source internal                lation from data tabulated at discrete points. Physically, the
+design and the experimental methodology used by the pri-                   geometry function neglects scattering and attenuation, and
+mary standard to realize S K .                                             provides an effective inverse square-law correction based
+    In 1999, a notation was introduced, Λ nnD, PqqS , to identify          upon an approximate model of the spatial distribution of ra-
+both the dose-rate measurements or calculations used to de-                dioactivity within the source. Because the geometry function
+termine Ḋ(r 0 , θ 0 ) and the calibration standard to which this          is used only to interpolate between tabulated dose-rate values
+dose rate was normalized. The subscript ''D'' denotes refer-               at defined points, highly simplistic approximations yield suf-
+ence dose rate, ''nn'' denotes the year in which this refer-               ficient accuracy for treatment planning. This protocol recom-
+ence dose rate was published (either measurement or calcu-                 mends use of point- and line-source models giving rise to the
+lation), ''P'' denotes the provider or origin of the source                following geometry functions:
+
+
+
+   G P ( r, θ ) =r -2        point-source approximation,
+
+
+                    {
+                                                                                                                                        (4)
+                           β
+                                      if    θ =0°
+   G L ( r, θ ) =       Lr sin θ                         line-source approximation,
+                        ( r 2 -L 2 /4) -1   if   θ =0°
+
+
+
+where β is the angle, in radians, subtended by the tips of the             Use of such simple functions is warranted since their purpose
+hypothetical line source with respect to the calculation point,            is to facilitate interpolation between tabulated data entries for
+P(r, θ ).                                                                  duplication of the original dosimetry results.
+   In principle, either the point-source or line-source models                 In the case where the radioactivity is distributed over a
+may be consistently implemented in both the 1D and 2D                      right-cylindrical volume or annulus, this protocol recom-
+versions of the TG-43 formalism. In this case, the word                    mends taking active length to be the length of this cylinder.
+''consistently'' means that the geometry function used for                 For brachytherapy sources containing uniformly spaced mul-
+derivation of dose rates from TG-43 parameters should be                   tiple radioactive components, L should be taken as the effec-
+identical to that used to prepare the radial dose function and             tive length, L eff , given by
+2D anisotropy function data, including use of the same active
+                                                                              L eff=ΔS×N,                                               (5)
+length, L, used in G(r, θ ). Under these conditions, TG-43
+dose calculations will reproduce exactly the measured or                   where N represents the number of discrete pellets contained
+Monte Carlo-derived dose rates from which g(r) and F(r, θ )                in the source with a nominal pellet center-to-center spacing
+tables were derived. This protocol recommends consistent                   ΔS. If L eff is greater than the physical length of the source
+use of the line-source geometry function for evaluation of 2D              capsule (usually ~4.5 mm), the maximum separation (dis-
+dose distributions, and use of either point- or line-source                tance between proximal and distal aspects of the activity dis-
+geometry functions for evaluations of 1D dose distributions.               tribution) should be used as the active length, L. This tech-
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 7 ===
+639         Rivard et al.: AAPM TG-43 update                                                                                            639
+
+
+nique avoids singularities in evaluating G(r, θ ) for points of       off the transverse plane typically decreases as (i) r decreases,
+interest in tissue which are located on the hypothetical line         (ii) as θ approaches 0° or 180°, (iii) as encapsulation thick-
+source just beyond the tip and end of the physical source.            ness increases, and (iv) as photon energy decreases. How-
+   More complex forms of the geometry function have a role            ever, F(r, θ ) may exceed unity at { θ -90° { >±arcsin(L/2r)
+in accurately estimating dose at small distances outside the          for right-cylinder sources coated with low-energy photon
+tabulated data range, i.e., extrapolating g(r) and F(r, θ ) to        emitters due to screening of photons by the active element at
+small distances.26,27 Use of such expressions is permitted.           angles towards the transverse plane.
+However, most commercial brachytherapy treatment plan-                    As stated earlier, the active length, L, used to evaluate
+ning systems support only point- or line-source geometry              G L (r, θ ) in Eq. (4) shall be the same L used to extract g L (r)
+functions. Therefore, it is the responsibility of the physicist       and F(r, θ ) from dose distributions via Eqs. (6) and (8),
+to transform the tabulated TG-43 parameters given in this             respectively. Otherwise, significant errors in dosimetry re-
+protocol, which are based upon point- and line-source ap-             sults at small distances may arise. For example, at r
+proximations, to a format consistent with more complex ge-            =0.5 cm, a change in L from 3 to 5 mm results in a 5%
+ometry functions that may be available on their treatment             change in G L (r, θ 0 ).
+planning systems.28 -30
+4. Radial dose function
+                                                                      B. General 1D formalism
+   The radial dose function, g X (r), accounts for dose fall-off
+on the transverse-plane due to photon scattering and attenu-             While a 1D isotropic point-source approximation [Eq. (9)]
+ation, i.e., excluding fall-off included by the geometry func-        only approximates the true complex 2D dose distribution, it
+tion. g X (r) is defined by Eq. (6), and is equal to unity at r 0     simplifies source localization procedures by eliminating the
+=1 cm.                                                                need to determine the orientation of the source longitudinal
+                                                                      axis from imaging studies.
+                 Ḋ ( r, θ 0 ) G X ( r 0 θ 0 )
+   g X( r ) =                                   .               (6)
+                Ḋ ( r 0 , θ 0 ) G X ( r, θ 0 )                                                G X ( r, θ 0 )
+                                                                           Ḋ ( r ) =S K ·Λ·                   ·g ( r ) · φ an( r ) .    (9)
+The revised dose-calculation formalism has added the sub-                                      G X( r 0 , θ 0 ) X
+script ''X'' to the radial dose function and geometry function        Users should adopt one of the following implementations of
+to indicate whether a point-source, ''P,'' or line-source,            Eq. (9):
+''L,'' geometry function was used in transforming the data.
+Consequently, this protocol presents tables of both g P (r) and
+g L (r) values.                                                            Ḋ ( r ) =S K ·Λ·   ()r0 2
+                                                                                                 r
+                                                                                                      ·g P ( r ) · φ an( r ) ,          (10)
+    Equation (7) corrects a typographical error in the original
+TG-43 protocol.31 While table lookup via linear interpolation         or
+or any appropriate mathematical model fit to the data may be
+                                                                                               G L ( r, θ 0 )
+used to evaluate g X (r), some commercial treatment planning               Ḋ ( r ) =S K ·Λ·                   ·g ( r) · φ an( r ) .    (11)
+systems currently accommodate a fifth-order polynomial fit                                     G L( r 0 , θ 0 ) L
+to the tabulated g(r) data. Since this type of polynomial fit
+                                                                      While most treatment planning systems use the implementa-
+may produce erroneous results with large errors outside the
+                                                                      tions in Eq. (10), we recommend use of Eq. (11) due to
+radial range used to determine the fit, alternate fitting equa-
+                                                                      improved accuracy at small distances, e.g., r<1 cm. Linear
+tions have been proposed which are less susceptible to this
+                                                                      interpolation may be used to match the grid spacing of g X (r)
+effect,32
+                                                                      with the grid spacing of φ an(r).
+   g X ( r ) =a 0 +a 1 r+a 2 r 2 +a 3 r 3 +a 4 r 4 +a 5 r 5 .   (7)      These revised formulations require consistency between
+                                                                      the geometry function used for dose calculation and the ge-
+Parameters a 0 through a 5 should be determined so that they
+                                                                      ometry function used for extracting g X (r) from the
+fit the data within ±2%. Also, the radial range over which
+                                                                      transverse-plane dose distribution. Furthermore, these re-
+the fit meets this specification should be clearly specified.
+                                                                      vised formulations correct an inconsistency in Eq. (11) of the
+                                                                      original TG-43 protocol that indirectly recommended the fol-
+5. 2D anisotropy function                                             lowing incorrect equation:
+   The 2D anisotropy function, F(r, θ ), is defined as
+                                                                                              G P ( r, θ 0 )
+                 Ḋ ( r, θ ) G L ( r, θ 0 )                                Ḋ ( r ) =S K Λ·                   ·g ( r ) · φ an( r )
+   F ( r, θ ) =                             .                   (8)                           G P( r 0 , θ 0 ) L
+                Ḋ ( r, θ 0 ) G L ( r, θ )
+                                                                           ( not recommended) .                                         (12)
+Other than inclusion of the subscript L, this definition is
+identical to the original TG-43 definition.1 The 2D anisot-           While use of the wrong g X (r) datasets will typically give
+ropy function describes the variation in dose as a function of        errors in the calculated dose rate of less than 2% at distances
+polar angle relative to the transverse plane. While F(r, θ ) on       beyond 1 cm, average errors of 3%, 15%, and 74% arise at
+the transverse plane is defined as unity, the value of F(r, θ )       distances of 0.5, 0.25, and 0.1 cm, respectively. Clinical uti-
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 8 ===
+640             Rivard et al.: AAPM TG-43 update                                                                                640
+
+
+lization of the 1D dosimetry formalism presented in Eq. (12),             for the dose-rate constant ( EXPΛ) were averaged. Sepa-
+or other formalisms that inconsistently apply the geometry                rately, Λ values obtained using Monte Carlo techniques
+function, are not recommended.                                            ( MCΛ) were averaged. The consensus value recom-
+                                                                          mended in this protocol ( CONΛ) is the equally
+1. 1D anisotropy function                                                 weighted average of the separately averaged experi-
+   The 1D anisotropy function, φ an(r), is identical to the               mental and Monte Carlo Λ values. In cases where there
+anisotropy factor defined by the original TG-43 protocol. At              is only one experimental result and one Monte Carlo
+a given radial distance, φ an(r) is the ratio of the solid angle-         result: CONΛ= [ EXPΛ+ MCΛ ] /2.
+weighted dose rate, averaged over the entire 4 π steradian          (b)   Each candidate dataset was examined separately and
+space, to the dose rate at the same distance r on the trans-              eliminated from consideration if it was determined to
+verse plane, see Eq. (13),                                                have a problem, e.g., data inconsistency. Corrections
+                    [ π0 Ḋ ( r, θ ) sin( θ ) d θ                         for use of a nonliquid water measurement phantom
+      φ an( r ) =                                   .       (13)          were applied if not included in the original investiga-
+                           2Ḋ ( r, θ 0 )                                 tors' analysis.
+Note that one should integrate dose rate, not the values of the     (c)   For the 2D anisotropy function, F(r, θ ), and the radial
+2D anisotropy function to arrive at φ an(r).                              dose function, g(r), all candidate datasets for a given
+    With consistent use of the geometry function, both Eqs.               source model were transformed using identical line-
+(10) and (11) will exactly reproduce the solid-angle weighted             source geometry functions to permit fair comparison.
+dose rate at a given r. Of the two, Eq. (11) is recommended               The radial dose function was corrected for nonliquid
+because the line-source geometry function will provide more               water measurement medium if necessary. Assuming
+accurate interpolation and extrapolation at small distances.              that the different datasets agreed within experimental
+The accuracy achievable using the 1D formalism for prostate               uncertainties, the consensus data were defined as the
+implants was reported by Lindsay et al.,33 and Corbett                    ideal candidate dataset having the highest resolution,
+et al.34                                                                  covering the largest distance range, and having the
+    For brachytherapy treatment planning systems that do not
+                                                                          highest degree of smoothness. For most source models
+permit entry of φ an(r), Eqs. (10) or (11) can still be imple-
+                                                                          examined in this protocol, the consensus F(r, θ ) and
+mented by carefully modifying g X (r) to include φ an(r) as
+                                                                          g(r) data, CONF(r, θ ) and CONg(r), were taken from
+shown in Eq. (14). These modified dosimetry parameters,
+                                                                          the transformed Monte Carlo dataset.
+g ~ (r) and φ ~ , are defined as
+            ¯ an
+                                                                    (d)   A few entries in the tabulated consensus datasets were
+      g ~ ( r ) =g X ( r ) · φ an( r ) ,                                  taken from the nonideal candidate dataset(s) to cover a
+                                                                          larger range of distances and angles. These data were
+      φ ~ =1.
+      ¯ an                                                  (14)          italicized to indicate that they were not directly con-
+   While TG-43 introduced the anisotropy constant, φ
+                                                   ¯ an ,                 firmed by other measurements or calculations.
+LIBD no longer recommends its use. This is discussed in             (e)   The 1D anisotropy function, φ an(r), was derived using
+greater detail in Appendix D.                                             numerical integration of the dose rate, as calculated
+                                                                          from CONF(r, θ ) dataset, with respect to solid angle.
+IV. CONSENSUS DATASETS FOR CLINICAL                                       Use of the anisotropy constant, φ ¯ an , is discouraged as
+IMPLEMENTATION                                                            discussed in Appendix D.
+    The 125I and 103Pd source models reviewed in this proto-        (f)   When scientifically justified for a given source model,
+col (Fig. 2) satisfied the AAPM recommendations that com-                 exceptions or modifications to these rules were made,
+prehensive (2D) reference-quality dose-rate distribution data             and are described later. For example, if the datasets
+be accepted for publication by a peer-reviewed scientific                 were too noisy, they were rejected.
+journal on or before July 15, 2001. Appropriate publications        (g)   Following tabulation of g(r) and F(r, θ ) for all eight
+can report either Monte Carlo, or experimentally derived                  source models, overly dense datasets were down-
+TG-43 dosimetry parameters. As many as 12 sets of indepen-                sampled to permit reasonable comparisons. Removal of
+dently published data per source model were evaluated dur-                a dataset point was deemed reasonable if linear inter-
+ing preparation for this report. For each source model, a                 polation using adjacent points resulted in a difference
+single consensus dataset was derived from multiple pub-                   no larger than ±2% of the dataset point in question.
+lished datasets according to the following methodology.35 If              Similarly, because the various authors used different
+items essential to critical evaluation were omitted, the au-              table grids, it was necessary to interpolate some of the
+thors were contacted for information or clarification.                    data into the common mesh selected for presenting all
+(a)       The peer-reviewed literature was examined to identify           eight datasets. Linear-linear interpolation was used for
+          candidate dose distributions for each source model de-          F(r, θ ) datasets, and log-linear interpolation was used
+          rived either from experimental measurements or Monte            for g(r) datasets. Interpolated data are indicated by
+          Carlo simulations. Experimentally determined values             boldface.
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 37 ===
+669        Rivard et al.: AAPM TG-43 update                                                                                                                 669
+
+
+standard) and in the re-entrant chamber (NIST 1985 stan-                      mended for Eqs. (6) and (C1), and approach zero at large
+dard). The results indicate a combined ratio for the sources                  distances. Where measured and calculated Monte Carlo data
+of 0.897±0.028, in very good agreement with the determi-                      are not available, such as for RTP systems that require
+nation made in 1997-1998. This then confirmed the correct-                    F X (r, θ ) and g X (r) values at r=0, extrapolation using the
+ness of the WAFAC measurements in 2000-2001 and in                            aforementioned approach is recommended. While a first-
+1997-1998, and indicated that the problem was confined to                     order approach using linear extrapolation is also possible, the
+measurements made in 1999 (perhaps including late 1998).                      merits of this approach have not been demonstrated.
+   The conclusion is that NIST WAFAC measurements up to                           Calculation of G X (r, θ ) should employ Eq. (4) down to
+mid-1998 and after January 1 2000 are correct, and that cur-                  distances on the order of the interval between adjacent cal-
+rent dose-rate constants for the 6702 and 6711 sources, based                 culation points. Daskalov et al. have found that the nearest
+on the ratio NIST1999/NIST1985=0.897, are valid. How-                         neighbor method introduces uncertainties <2% for 0.1 cm
+ever, WAFAC air-kerma strengths measured in 1999 were                         along and away distances.154
+too large by 2% to 7%, and required dose-rate constant mea-
+surements normalized to NIST 1999 S K calibrations to be
+revised accordingly.130 All measured dose-rate constant data
+                                                                              2. Collaborative Ocular Melanoma Study dosimetry
+given in this protocol have been normalized to the S K,N99
+standard as corrected in January 2000.                                            In some specialized applications such as episcleral eye
+                                                                              plaque therapy, anisotropy corrections are prohibited when
+                                                                              following a protocol such as that published by the Collabo-
+                                                                              rative Ocular Melanoma Study (COMS).11,65,155-158 In eye
+APPENDIX C: EVALUATION OF DOSE RATE AT                                        plaque therapy, the sources are placed in a nearly spherical
+SMALL AND LARGE DISTANCES                                                     cup and within the target volume most of the seeds contrib-
+    Care must be taken in evaluating dose rates at distances                  ute dose along their transverse directions. In this setup, the
+falling outside the range of tabulated data, r min and r max ,                target volume receives very little dose in the longitudinal
+especially at r<0.5 cm. While difficult to measure, modern                    directions of the sources. For practical reasons, the COMS
+Monte Carlo techniques can easily calculate dose rates at                     protocol has recommended that for dose calculation within
+distances as small as 0.1 cm from the center of the                           the target volume of eye plaque brachytherapy, the seeds can
+source.152,153 This protocol recommends that g X (r) data be                  be identified as point sources provided one uses the dose
+extracted and tabulated from Monte Carlo-derived dose rates                   rates on the transverse-plane alone. This procedure results in
+for r>=0.1 cm if possible. F X (r, θ ) data are generally not                  the following expression for dose rate at different distances
+available, even from most Monte Carlo evaluations, at r                       from the sources. For distances smaller than r min , the nearest
+<0.25 cm. At shorter radii, points at small polar angles near                 neighbor approach should be used with the relevant r min
+0° and 180° are located inside the source capsule, implying                   value used in the radial dose function,
+that F X (r, θ ) cannot be readily defined over the full angular
+                                                                                                       G X ( r, θ 0 )
+interval [ 0°,90° ] . Essentially, the TG-43 formalism using a                   Ḋ ( r ) =S K ·Λ·                      ·g ( r )          for r<r min . (C2)
+polar coordinate system breaks down at r<L/2. Users are                                                G X ( r 0 , θ 0 ) X min
+warned that when working at small distances it is essential to
+use the same geometry function and L for evaluating ab-                       3. 1D dose calculations
+sorbed dose as when used in the conversion of measured or
+                                                                                 When anisotropy corrections are needed, and optimal ac-
+Monte Carlo data in the TG-43 parameter ratios. Often,
+                                                                              curacy is desired at distances less than r min , the minimum
+F X (r, θ ) and g X (r) will exhibit nonphysical properties due to
+                                                                              distance for which φ an(r) is tabulated, the following model
+breakdown of the line-source G L (r, θ ) very near the source.
+                                                                              can be used to extrapolate dose to short distances:
+    Three separate scenarios are described in the following
+sections.                                                                                                   G X ( r, θ 0 )
+
+
+
+                                                                                              {
+                                                                                                  S K ·Λ·                   ·g ( r ) · φ an( r ) ,   r>=r min ,
+1. 2D dose calculations                                                                                     G X( r 0 , θ 0 ) X
+    Evaluation of the 2D dose calculation formalism for dis-
+tances r<r min or r>r max , should be made using the nearest
+                                                                                 Ḋ ( r ) =
+                                                                                                  S K ·Λ·   ( )(
+                                                                                                               r                     )
+                                                                                                             r min 2 g L ( r ) G X ( r min , θ 0 )
+                                                                                                                     g L ( r min) G X ( r 0 , θ 0 )
+neighbor, zeroth-order approximation for selection of both
+                                                                                                    ·g X ( r min) · φ an( r min) ,       r<r min.
+F X (r, θ ) and g X (r),                                                                                                                                   (C3)
+
+
+
+                    {
+                                                                              For distances r>=r min , X= P and Eq. (C3) is equivalent to
+                        interpolated value,          r min<=r<=r max ,
+                                                                              the standard 1 formula, Eq. (10). The short-distance extrapo-
+   F X ( r, θ ) =       F X ( r min , θ ) ,   r<r min ,                (C1)   lation model (r<r min) is based on applying Williamson's
+                        F X ( r max , θ ) ,   r>r max.                        approximation, r -2 · φ
+                                                                                                    ¯ an->G(r, θ 0 )· φ an(r), to the short dis-
+                                                                              tance region, i.e., r -2 · φ an(r min)->G(r,θ0)·φan(r) for r
+                                                                              <r min .44 When X= P, the short-distance extrapolation
+g X (r) will follow the same extrapolation approach as recom-                 model simplifies as
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 38 ===
+670        Rivard et al.: AAPM TG-43 update                                                                                                 670
+
+
+
+   Ḋ ( r ) =S K ·Λ·   ( )(
+                       r 0 2 g L( r )
+                        r    g L ( r min)  )
+                                          ·g P ( r min) · φ an( r min) ,           Ḋ ( r ) =S K ·Λ·   ()
+                                                                                                        r0 2
+                                                                                                        r
+                                                                                                             ·g P ( r ) · φ
+                                                                                                                          ¯ an .
+
+   r<r min .                                                           (C4)   or
+
+No matter how sophisticated an extrapolation model is cho-                                             G L ( r, θ 0 )
+                                                                                   D ( r ) =S K ·Λ·                    ·g ( r ) · φ
+                                                                                                                                  ¯ an .   (D3)
+sen, users should realize that at r<0.25 cm where φ an(r)                                              G L( r 0 , θ 0 ) L
+data may not be available due to lack of assessment or due to
+positioning within the capsule, none of the 1D models de-                     APPENDIX E: APPARENT ACTIVITY
+scribed above yield quantitatively meaningful estimates of
+                                                                                  The quantity apparent activity, A app , is defined as the ac-
+the solid angle-weighted average dose.
+                                                                              tivity of an unfiltered point source of a given radionuclide
+                                                                              that has the same air-kerma strength as that of the given
+                                                                              encapsulated source. It has been widely used by vendors and
+APPENDIX D: ANISOTROPY CONSTANT                                               customers alike to specify the strength of sealed radioactive
+                                                                              sources such as 125I, 103Pd and 198Au. Furthermore, A app is
+   The definition of the anisotropy constant, φ¯ an , largely re-             used in the treatment planning of permanent implants using
+mains the same as that presented in TG-43, and is expanded                    103
+                                                                                 Pd and 125I interstitial sources. Using the apparent activity
+upon. Use of φ ¯ an , as commonly practiced at this time, does                as a method of source strength specification suffers from a
+not exactly reproduce either the measured or Monte Carlo                      number of problems. For example, vendors using apparent
+dosimetry data for r<1 cm. Therefore, it is strongly recom-                   activity to report source strength in essence convert a state-
+mended that users utilize φ an(r) and Eq. (11), or compensate                 ment of source output, e.g., S K , into A app by dividing S K by
+for treatment planning inadequacies using the method out-                     an assumed value of the exposure rate constant (Γ δ ) X . To
+lined in Eq. (14), for implementing 1D dosimetry formalism.                   calculate absorbed dose in a medium around such sources,
+   For those users who insist on using φ  ¯ an , the following                users shall multiply the vendor supplied A app value by the
+implementation will minimize dose-calculation errors at                       same (Γ δ ) X value. Although (Γ δ ) X is a clearly defined physi-
+small distances, e.g., r<=1 cm:                                                cal concept, it has no meaningful physical role in the dosim-
+
+
+                       ()
+                                                                              etry of output calibrated sources. Continued use of such
+                       r0 2                                                   dummy constants constitutes a significant potential source of
+   Ḋ ( r ) =S K ·Λ·        ·g L ( r ) · φ
+                                         ¯ an .                        (D1)
+                       r                                                      dosimetric error since the user may choose the wrong (Γ δ ) X
+                                                                              value. It is essential that users employ the same (Γ δ ) X values
+For this purpose, the inverse-square law weighted average of
+                                                                              as the manufacturer for dosimetric calculations rather than
+φ an(r) for r>1 cm should be used,
+                                                                              more physically accurate or definitive values taken from the
+                    φ r ·r -2
+            r                                                                 recent literature.
+           sum r>=1
+              max
+                  cm an( )
+   φ
+   ¯ an=                            .                                  (D2)       In 1999, NIST implemented a new primary standard for
+                          r -2
+                  r
+                sum r>=1
+                   max
+                       cm                                                     air-kerma strength.8 The AAPM has consistently taken the
+For instances where φ an(r) data are not available over con-                  position that S K should be the quantity used for specifying
+stant increments of r, linear interpolation of φ an(r) may be                 brachytherapy source strength for the purpose of defining
+                                                                              calibration standards, documenting source strength on cali-
+used for derivation of φ       ¯ an . The constraint on r is needed
+                                                                              bration reports and for all aspects of dose calculation and
+because dose distributions near typical brachytherapy
+                                                                              treatment prescription. Both users and vendors shall take ap-
+sources generally take the shape of prolate ellipsoids due to
+                                                                              propriate steps to adopt this new source-strength standard
+the dominating effects of solid angle. This is because F(r, θ )
+                                                                              correctly. To facilitate an unambiguous conversion of source
+excludes dose fall-off already included by the geometry
+                                                                              strength estimates and for transitional practice, the LIBD has
+function, and φ an(r) (and subsequently φ        ¯ an) do not. There-
+                                                                              recommended a set of data and equations for the conversion
+fore, φ an(r) rapidly increases as r<2L, and can assume val-                  of (S K /A app) for 125I and 103Pd interstitial brachytherapy
+ues much larger than unity. While nonintuitive, the use of                    sources. For all 125I and 103Pd sources, regardless of internal
+g L (r) with the point-source geometry function in Eq. (D1)                   construction, the values of (Γ δ ) X recommended were 1.45
+better approximates the average dose at small distances than                  and 1.476 R cm2 mCi-1 h-1 , respectively. When implement-
+the superficially more consistent expression g X (r)                          ing the TG-43 formalism based upon apparent activity speci-
+                ¯ an·G X (r 0 , θ 0 ) -1 again due to the ellipsoidal
+·G X (r, θ 0 )· φ                                                             fication, the recommended (S K /A app) conversion coefficients
+shape of the isodose surfaces. Thus r -2 · φ           ¯ an->G(r, θ 0 )        were 1.270 and 1.293 λ Gy m2 h-1 mCi-1 for 125I and 103Pd,
+· φ an(r). For sources with L->0.3 cm, this approximation is                   respectively. The authors discussed the importance of using a
+sufficiently good that errors introduced are often less than                  consistent set of values for the exposure rate constant (Γ δ ) X
+5% at distances <0.3 cm. 150-152 However, Williamson dem-                     for the evaluation of (S K /A app). 8 For example, adopting
+onstrated that Eq. (D1) can produce much larger errors for                    S K -to-A app conversion coefficients derived from modern
+low-energy sources with longer effective active lengths.44                    (Γ δ ) X values, different from the ones used by the authors;
+Because of this short-distance behavior, the following forms                  would require all users and vendors to redefine the relation-
+should not be used at r<0.5 cm:                                               ship between S K and A app ; would require updating of dosi-
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 40 ===
+672        Rivard et al.: AAPM TG-43 update                                                                                                                672
+
+37                                                                                60
+   J. F. Williamson, ''Comparison of measured and calculated dose rates in           S.-T. Chiu-Tsao and L. L. Anderson, ''Thermoluminescent dosimetry for
+   water near I-125 and Ir-192 seeds,'' Med. Phys. 18, 776 -786 (1991).              103
+                                                                                        Pd seeds (model 200) in solid water phantom,'' Med. Phys. 18, 449-
+38
+   D. M. Gearheart, A. Drogin, K. Sowards, A. S. Meigooni, and G. S.                 452 (1991).
+                                                                                  61
+   Ibbott, ''Dosimetric characteristics of a new 125I brachytherapy source,''        A. S. Meigooni, V. Mishra, H. Panth, and J. F. Williamson, ''Instrumen-
+   Med. Phys. 27, 2278 -2285 (2000).                                                 tation and dosimeter-size artifacts in quantitative thermoluminescent do-
+39
+   R. Nath and N. Yue, ''Dose distribution along the transverse axis of a new        simetry of low-dose fields,'' Med. Phys. 22, 555-561 (1995).
+   125                                                                            62
+      I source for interstitial brachytherapy,'' Med. Phys. 27, 2536 -2540           L. da Rosa and H. Nette, ''Thermoluminescent dosimeters for exposure
+   (2000).                                                                           assessment in gamma or x radiation fields with unknown spectral distri-
+40
+   J. I. Monroe and J. F. Williamson, ''Monte Carlo-aided dosimetry of the           bution,'' Appl. Radiat. Isot. 39, 191-197 (1988).
+                                                                                  63
+   Theragenics TheraSeed® Model 200 103Pd interstitial brachytherapy                 R. K. Das, Z. Li, H. Perera, and J. F. Williamson, ''Accuracy of Monte
+   seed,'' Med. Phys. 29, 609- 621 (2002).                                           Carlo photon transport simulation in characterizing brachytherapy dosim-
+41
+   B. N. Taylor and C. E. Kuyatt, ''Guidelines for evaluating and expressing         eter energy response artifacts,'' Phys. Med. Biol. 41, 995-1006 (1996).
+                                                                                  64
+   the uncertainty of NIST measurement results,'' NIST Technical Note                J. F. Williamson, J. F. Dempsey, A. S. Kirov, J. I. Monroe, W. R. Binns,
+   1297 (U.S. Government Printing Office, Washington, DC, 1994).                     and H. Hedtjärn, ''Plastic scintillator response to low-energy photons,''
+42
+   H. Hedtjarn, G. A. Carlsson, and J. F. Williamson, ''Monte Carlo-aided            Phys. Med. Biol. 44, 857- 872 (1999).
+                                                                                  65
+   dosimetry of the Symmetra model 125.S06 125I, interstitial brachytherapy          M. Schell, C. C. Ling, Z. C. Gromadzki, and K. R. Working, ''Dose
+   seed,'' Med. Phys. 27, 1076 -1085 (2000).                                         distributions of model 6702 I-125 seeds in water,'' Int. J. Radiat. Oncol.,
+43
+   J. H. Hubbell, ''Review of photon interaction cross section data in the           Biol., Phys. 13, 795-799 (1987).
+   medical and biological context,'' Phys. Med. Biol. 44, R1-R2 (1999).           66
+                                                                                     S-T. Chiu-Tsao, L. L. Anderson, K. O'Brien, and R. Sanna, ''Dose rate
+44
+   J. F. Williamson, ''Dosimetric characteristics of the DraxImage Model             determination for 125I seeds,'' Med. Phys. 17, 815- 825 (1990).
+                                                                                  67
+   LS-1 I-125 interstitial brachytherapy source design: A Monte Carlo in-            A. Piermattei, L. Azario, G. Monaco, A. Soriani, and G. Arcovito, ''
+   vestigation,'' Med. Phys. 29, 509-521 (2002).                                     p-type silicon detector for brachytherapy dosimetry,'' Med. Phys. 22,
+45
+   M. J. Rivard, ''Monte Carlo calculations of AAPM Task Group Report                835- 839 (1995).
+                                                                                  68
+   No. 43 dosimetry parameters for the MED3631-A/M 125I source,'' Med.               J. F. Williamson, H. Perera, Z. Li, and W. R. Lutz, ''Comparison of
+   Phys. 28, 629- 637 (2001).                                                        calculated and measured heterogeneity correction factors for 125I, 137Cs,
+46
+   J. F. Williamson, ''Monte Carlo modeling of the transverse-axis dose              and 192Ir brachytherapy sources near localized heterogeneities,'' Med.
+   distribution of the Model 200 103Pd interstitial brachytherapy source,''          Phys. 20, 209-222 (1993).
+   Med. Phys. 27, 643- 654 (2000).                                                69
+                                                                                     M. Ahmad, D. P. Fontenla, S-T. Chiu-Tsao, C. S. Chui, J. E. Reiff, L. L.
+47
+   M. S. Levenson, D. L. Banks, K. R. Eberhardt, L. M. Gill, W. F. Guthrie,          Anderson, D. Y. C. Huang, and M. C. Schell, ''Diode dosimetry of mod-
+   H. K. Liu, M. G. Vangel, J. H. Yen, and N. F. Zhang, ''An approach to             els 6711 and 6712 125I seeds in a water phantom,'' Med. Phys. 19, 391-
+   combining results from multiple methods motivated by the ISO GUM,''               399 (1992).
+   J. Res. Natl. Inst. Stand. Technol. 105, 571-579 (2000).                       70
+                                                                                     C. C. Ling, M. C. Schell, and E. D. Yorke, ''Two-dimensional dose dis-
+48
+   Z. Li, J. J. Fan, and J. R. Palta, ''Experimental measurements of dosim-          tribution of 125I seeds,'' Med. Phys. 12, 652- 655 (1985).
+   etric parameters on the transverse axis of a new 125I source,'' Med. Phys.     71
+                                                                                     T. D. Bohm, D. W. Pearson, and R. K. Das, ''Measurements and Monte
+   27, 1275-1280 (2000).                                                             Carlo calculations to determine the absolute detector response of radio-
+49
+   Z. Li, J. F. Williamson, and H. Perera, ''Monte Carlo calculation of              chromic film for brachytherapy dosimetry,'' Med. Phys. 28, 142-146
+   kerma-to-a-point in the vicinity of media interfaces,'' Phys. Med. Biol.          (2001).
+   38, 1825-1840 (1993).                                                          72
+                                                                                     A. Niroomand-Rad, C. R. Blackwell, B. M. Coursey, K. P. Gall, J. M.
+50
+   T. Kron, L. DeWerd, P. Mobit, J. Muniz, A. Pradhan, M. Toivonen, and              Galvin, W. L. McLaughlin, A. S. Meigooni, R. Nath, J. E. Rogers, and C.
+   M. Waligorski, ''A checklist for reporting of thermoluminescence dosim-           G. Soares, ''Radiochromic film dosimetry: Recommendations of AAPM
+   etry (TLD) measurements,'' Phys. Med. Biol. 44, L15-L17 (1999).                   Radiation Therapy Committee Task Group 55,'' Med. Phys. 25, 2093-
+51
+   J. F. Williamson, ''Monte Carlo evaluation of specific dose constants in          2115 (1998).
+   water for 125I seeds,'' Med. Phys. 15, 686 - 694 (1988).                       73
+                                                                                     D. Flühs, M. Heintz, F. Indenkämpen, C. Wieczorek, H. Kolanoski, and
+52
+   National Nuclear Data Center. Nuclear data from NuDat, a web-based                U. Quast, ''Direct reading measurement of absorbed dose with plastic
+   database maintained by the National Nuclear Data Center, Brookhaven               scintillators-The general concept and applications to ophthalmic plaque
+   National Laboratory, Upton, NY, USA; last database update reported as             dosimetry,'' Med. Phys. 23, 427- 434 (1996).
+                                                                                  74
+   August 12, 2000; http://www.nndc.bnl.gov/nndc/nudat/ last accessed Feb-           A. S. Kirov, C. Hurlbut, J. F. Dempsey, S. B. Shrinivas, J. W. Epstein, W.
+   ruary 17, 2004.                                                                   R. Binns, P. F. Dowkontt, and J. F. Williamson, ''Towards two-
+53
+   Lund/LBNL Nuclear Data Search (1999). Version 2.0, February 1999, by              dimensional brachytherapy dosimetry using plastic scintillator: New
+   S. Y. F. Chu, L. P. Ekström, and R. B. Firestone, providing the WWW              highly efficient water equivalent plastic scintillator materials,'' Med.
+   Table of Radioactive Isotopes, maintained by the Lawrence Berkeley                Phys. 26, 1515-1523 (1999).
+                                                                                  75
+   National Laboratory, Berkeley, CA, USA, and the Department of Physics,            S-T. Chiu-Tsao, A. de la Zerda, J. Lin, and J. H. Kim, ''High-sensitivity
+   Lund University, Sweden; http://nucleardata.nuclear.lu.se/nucleardata/toi/        GafChromic film dosimetry for 125I seed,'' Med. Phys. 21, 651- 657
+   last accessed February 17, 2004.                                                  (1994).
+54                                                                                76
+   S. M. Seltzer, ''Calculation of photon mass energy-transfer and mass              J. F. Dempsey, D. A. Low, A. S. Kirov, and J. F. Williamson, ''Quantita-
+   energy-absorption coefficients,'' Radiat. Res. 136, 147-170 (1993).               tive optical densitometry with scanning-laser film digitizers,'' Med. Phys.
+55
+   S. M. Seltzer and J. H. Hubbell, ''Tables and graphs of mass attenuation          26, 1721-1731 (1999).
+                                                                                  77
+   coefficients and mass energy-absorption coefficients for photon energies          G. H. Chan and W. V. Prestwich, ''Dosimetric properties of the new 125I
+   1 keV to 20 MeV for elements Z=1 to 92 and some dosimetric materi-                BrachySeed™ model LS-1 source,'' Med. Phys. 29, 190-200 (2002).
+   als,'' Japanese Society of Radiological Technology, ISSN 1340-7716             78
+                                                                                     M. J. Maryanski, G. S. Ibbott, P. Eastman, R. J. Schulz, and J. C. Gore,
+   (1995).                                                                           ''Radiation therapy dosimetry using magnetic resonance imaging of poly-
+56
+   M. J. Rivard, D. S. Waid, and J. G. Wierzbicki, ''Mass attenuation coef-          mer gels,'' Med. Phys. 23, 699-705 (1996).
+   ficients of Clear-Pb® for photons from 125I, 103Pd, 99mTc, 192Ir, 137Cs, and   79
+                                                                                     M. F. Chan, A. Y. C. Fung, Y-C. Hu, C-S. Chui, H. Amols, M. Zaider, and
+   60
+     Co,'' Health Phys. 77, 571-578 (1999).                                          D. Abramson, ''The measurement of three dimensional dose distribution
+57
+   ICRU 37 Stopping Powers for Electrons and Positrons, International                of a ruthenium-106 ophthalmological applicator using magnetic reso-
+   Commission on Radiation Units and Measurements (ICRU 37, Bethesda,                nance imaging of BANG polymer gels,'' J. Appl. Clin. Med. Phys. 2,
+   MD, 1989).                                                                        85- 89 (2001).
+58                                                                                80
+   Private communication with Steve Seltzer of NIST, September 13, 2001.             B. F. Hasson, ''Chemical dosimetry in the near-zone of brachytherapy
+59
+   N. S. Patel, S-T. Chiu-Tsao, J. F. Williamson, P. Fan, T. Duckworth, D.           sources,'' Med. Phys. 25, 2076 (1998).
+                                                                                  81
+   Shasha, and L. B. Harrison, ''Thermoluminescent dosimetry of the Sym-             A. S. Meigooni, Z. Bharucha, M. Yoe-Sein, and K. Sowards, ''Dosimetric
+   metra™ 125I model I25.S06 interstitial brachytherapy seed,'' Med. Phys.           characteristics of the Best® double-wall 103Pd brachytherapy source,''
+   28, 1761-1769 (2001).                                                             Med. Phys. 28, 2568 -2575 (2001).
+
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
