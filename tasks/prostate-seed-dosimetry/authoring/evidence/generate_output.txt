@@ -1,18 +1,40 @@
-patients 60, points 1080, seeds 2934, duplicate rows 29, batches 82, patients redrawn for geometry 174, lowest point dose 9.82 Gy
-  linear_g_interpolation: 483 points moved by more than 0.15%
-  point_source_radial_dose_function: 886 points moved by more than 0.15%
-  point_source_geometry: 1046 points moved by more than 0.15%
-  anisotropy_held_beyond_last_angle: 82 points moved by more than 0.15%
-  anisotropy_extrapolated_in_r: 51 points moved by more than 0.15%
-  one_dimensional_anisotropy_factor: 1045 points moved by more than 0.15%
-  no_mirror_beyond_90: 1053 points moved by more than 0.15%
-  capsule_length_for_L: 934 points moved by more than 0.15%
-  mean_life_144: 1080 points moved by more than 0.15%
-  apparent_activity_unconverted: 342 points moved by more than 0.15%
-  apparent_activity_fixed_coefficient: 164 points moved by more than 0.15%
-  batch_total_as_per_seed: 162 points moved by more than 0.15%
-  no_decay_to_implant: 1060 points moved by more than 0.15%
-  calibration_offset_ignored: 1080 points moved by more than 0.15%
-  implant_time_without_daylight_saving: 144 points moved by more than 0.15%
-  duplicates_kept: 288 points moved by more than 0.15%
-  first_marker_as_centre: 1062 points moved by more than 0.15%
+PT-001 6702         ('d90', 1) seeds 74 voxels 3676 D90/Rx 1.0033 V100 90.18 UD10/1.5Rx 0.8533 RV100 0.031  (78 s)
+PT-002 200          ('v100', -1) seeds 60 voxels 3791 D90/Rx 1.1196 V100 93.62 UD10/1.5Rx 1.0719 RV100 2.375  (117 s)
+PT-003 6711         ('ud10', 1) seeds 94 voxels 5343 D90/Rx 1.0984 V100 93.11 UD10/1.5Rx 1.0055 RV100 0.031  (172 s)
+PT-004 MED3633      ('rv100', -1) seeds 68 voxels 4948 D90/Rx 1.2688 V100 96.02 UD10/1.5Rx 1.1103 RV100 0.891  (191 s)
+PT-005 2301         ('d90', -1) seeds 82 voxels 4318 D90/Rx 0.9952 V100 89.84 UD10/1.5Rx 0.8919 RV100 0.000  (192 s)
+PT-006 200          ('v100', 1) seeds 89 voxels 3723 D90/Rx 1.2385 V100 96.41 UD10/1.5Rx 1.1216 RV100 0.453  (297 s)
+PT-007 MED3631-A/M  ('ud10', -1) seeds 84 voxels 6030 D90/Rx 0.9677 V100 87.75 UD10/1.5Rx 0.9963 RV100 0.016  (338 s)
+PT-008 MED3633      ('rv100', 1) seeds 98 voxels 6112 D90/Rx 1.1199 V100 92.23 UD10/1.5Rx 1.0609 RV100 1.125  (567 s)
+PT-009 I25.S06      ('d90', 1) seeds 70 voxels 4019 D90/Rx 1.0049 V100 90.18 UD10/1.5Rx 0.9451 RV100 0.641  (603 s)
+PT-010 200          ('v100', -1) seeds 90 voxels 5504 D90/Rx 1.1086 V100 93.67 UD10/1.5Rx 1.0582 RV100 0.016  (642 s)
+PT-011 IS-12501     ('ud10', 1) seeds 95 voxels 5489 D90/Rx 1.0296 V100 91.30 UD10/1.5Rx 1.0042 RV100 0.656  (647 s)
+PT-012 MED3633      ('rv100', -1) seeds 102 voxels 5778 D90/Rx 1.1046 V100 93.58 UD10/1.5Rx 0.9151 RV100 0.844  (1007 s)
+PT-013 6702         None seeds 73 voxels 4753 D90/Rx 1.0362 V100 92.07 UD10/1.5Rx 0.9236 RV100 0.094  (1025 s)
+PT-014 200          ('d90', -1) seeds 86 voxels 4592 D90/Rx 0.9953 V100 89.77 UD10/1.5Rx 0.9596 RV100 0.000  (1063 s)
+PT-015 6711         ('v100', 1) seeds 72 voxels 7222 D90/Rx 1.1939 V100 96.21 UD10/1.5Rx 1.0824 RV100 1.859  (1123 s)
+PT-016 MED3633      None seeds 88 voxels 4573 D90/Rx 1.0989 V100 92.60 UD10/1.5Rx 0.8608 RV100 0.000  (1169 s)
+PT-017 2301         ('ud10', -1) seeds 97 voxels 6416 D90/Rx 1.0553 V100 91.75 UD10/1.5Rx 0.9959 RV100 0.672  (1170 s)
+PT-018 200          ('rv100', 1) seeds 76 voxels 5767 D90/Rx 1.0499 V100 91.95 UD10/1.5Rx 0.9333 RV100 1.125  (1249 s)
+PT-019 MED3631-A/M  None seeds 102 voxels 5930 D90/Rx 1.0904 V100 93.08 UD10/1.5Rx 1.1417 RV100 0.031  (1268 s)
+PT-020 I25.S06      None seeds 85 voxels 6745 D90/Rx 1.0095 V100 90.48 UD10/1.5Rx 0.9876 RV100 0.000  (1327 s)
+patients 20, accepted seeds 1685, duplicate rows 16, one-marker seeds 299, batches 28, patients redrawn 84
+  static_dose: 139 values moved past the tag threshold
+  volume_scaling: 147 values moved past the tag threshold
+  scaled_about_preimplant_volume: 160 values moved past the tag threshold
+  integral_from_ct: 164 values moved past the tag threshold
+  two_d_for_single_marker: 31 values moved past the tag threshold
+  nearest_neighbour_instead_of_c3: 6 values moved past the tag threshold
+  linear_g_interpolation: 71 values moved past the tag threshold
+  anisotropy_held_beyond_last_angle: 4 values moved past the tag threshold
+  apparent_activity_unconverted: 54 values moved past the tag threshold
+  apparent_activity_fixed_coefficient: 15 values moved past the tag threshold
+  batch_total_as_per_seed: 55 values moved past the tag threshold
+  no_decay_to_implant: 143 values moved past the tag threshold
+  calibration_offset_ignored: 92 values moved past the tag threshold
+  negative_decay_clamped: 36 values moved past the tag threshold
+  implant_time_without_daylight_saving: 24 values moved past the tag threshold
+  duplicates_kept: 52 values moved past the tag threshold
+  floor_rank: 21 values moved past the tag threshold
+  urethra_subtracted_from_prostate: 53 values moved past the tag threshold
+  mean_life_144: 80 values moved past the tag threshold
