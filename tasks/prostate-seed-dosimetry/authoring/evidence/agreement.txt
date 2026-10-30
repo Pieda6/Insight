@@ -1,0 +1,31 @@
+patients 60, points 1080, accepted seeds 2934, duplicate detections 29 in 16 patients
+patients per seed model: {'6702': 8, '6711': 8, '2301': 8, 'MED3631-A/M': 8, 'I25.S06': 7, 'IS-12501': 7, '200': 7, 'MED3633': 7}
+patients per radionuclide: {'I-125': 46, 'Pd-103': 14}
+batches per strength unit: {'U_per_seed': 54, 'mCi_apparent': 19, 'U_total': 9}
+apparent-activity batches per exposure-rate constant: {'1.464': 10, '1.45': 5, '1.476': 3, '1.48': 1}
+patients with two batches: 22
+calibration UTC offsets: {'-05:00': 31, '-06:00': 8, '-07:00': 15, '-08:00': 8, '-04:00': 20}
+batches calibrated after the implant date: 17
+points per structure: {'urethra': 480, 'rectum': 240, 'prostate': 360}
+points per rule family (dose moves by more than 0.15 percent if the rule is misread):
+  anisotropy_extrapolated_in_r: 51
+  anisotropy_held_beyond_last_angle: 82
+  apparent_activity_fixed_coefficient: 164
+  apparent_activity_unconverted: 342
+  batch_total_as_per_seed: 162
+  calibration_offset_ignored: 1080
+  capsule_length_for_L: 934
+  duplicates_kept: 288
+  first_marker_as_centre: 1062
+  implant_time_without_daylight_saving: 144
+  linear_g_interpolation: 483
+  mean_life_144: 1080
+  no_decay_to_implant: 1060
+  no_mirror_beyond_90: 1053
+  one_dimensional_anisotropy_factor: 1045
+  point_source_geometry: 1046
+  point_source_radial_dose_function: 886
+lowest and highest point dose: 9.820 and 637.056 Gy
+generator vs engine worst relative difference: 5.1e-14
+solution printed values vs engine rounded to 3 decimals: worst difference 0.0000 Gy
+AGREEMENT: OK

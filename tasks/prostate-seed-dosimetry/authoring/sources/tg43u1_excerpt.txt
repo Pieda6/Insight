@@ -1,0 +1,1203 @@
+=== PDF PAGE 4 ===
+636       Rivard et al.: AAPM TG-43 update                                                                                   636
+
+
+melanoma and permanent lung implants,11,12 their most fre-       160 Gy, and both indicated a steep dependence of clinical
+quent indication today is for the treatment of prostate          outcome with dose in the range of 100 to 160 Gy. For ex-
+cancer.13 Prostate cancer is the most frequent type of cancer    ample, Stock reported freedom from biochemical failure
+in men in the United States with approximately 180 000 new       rates of 53%, 82%, 80%, 95%, and 89% for patients receiv-
+cases incident per year and an annual death rate of about        ing D 90⬍100 Gy, 100⭐D 90⬍120 Gy, 120⭐D 90⬍140 Gy,
+37 000.14 While approximately 60% of new cases are con-          140⭐D 90⬍160 Gy and D 90⭓ 160 Gy, respectively. The close
+fined to the organ at time of diagnosis, only about 2.2% of      correlation between D 90 and PSA–RFS, and a dose response
+these new cases were treated with brachytherapy in 1995.         in the clinical dose range of 100 to 160 Gy are strong justi-
+Since that time, the percentage has increased to about 30% of    fications for improved accuracy in the dosimetry for intersti-
+all eligible patients receiving implants in current practice.    tial brachytherapy, which is the focus of this work. The up-
+This increase was largely due to improvements in diagnosis       dated dosimetry formalism and changes in calibration
+and case selection facilitated by introduction of the prostate   standards recommended herein will result in changes to the
+specific antigen 共PSA兲 screening test, and to improved           clinical practice of brachytherapy. The clinical medical
+ultrasound-guided delivery techniques. In the United States,     physicist is advised that guidance on prescribed-to-
+the pioneering work was performed by a group of investiga-       administered dose ratios for 125I and 103Pd will be forthcom-
+tors based in Seattle.15 The most widely used technique uti-     ing in a subsequent report.
+lizes transrectal ultrasound 共TRUS兲 guided implantation of
+either 125I or 103Pd brachytherapy sources using a template-
+guided needle delivery system to avoid open surgery re-
+quired by the retropubic approach.16,17
+    Several studies have shown that clinical outcomes in pros-   III. TASK GROUP # 43 DOSIMETRY FORMALISM
+tate brachytherapy, both for the retropubic approach and the
+TRUS-guided technique, correlate with dose coverage pa-             As in the original TG-43 protocol, both 2D 共cylindrically
+rameters. The extensive clinical experience of Memorial          symmetric line source兲 and 1D 共point source兲 dose-
+Sloan Kettering Institute 共1078 patients with retropubic ap-     calculation formalisms are given. To correct small errors and
+proach surgery兲 from 1970–1987 was reviewed by Zelefsky          to better address implementation details neglected in the
+and Whitmore.18 Multivariate-analysis revealed a D 90 im-        original protocol, all quantities are defined. Throughout this
+plant dose of 140 Gy to be an independent predictor of           protocol, the following definitions are used:
+recurrence-free local control at 5, 10, and 15 years ( p         共1兲 A source is defined as any encapsulated radioactive ma-
+⫽0.001). D 90 is defined as the dose delivered to 90% of the         terial that may be used for brachytherapy. There are no
+prostate volume as outlined using post-implant CT images.            restrictions on the size or on its symmetry.
+Similarly, a review of 110 implants at Yale University using     共2兲 A point source is a dosimetric approximation whereby
+the retropubic implant approach from 1976 to 1986 reported           radioactivity is assumed to subtend a dimensionless
+a correlation ( p⫽0.02) of recurrence-free local control after       point with a dose distribution assumed to be spherically
+10 years with V 100 ; V 100 is defined as the percentage of          symmetric at a given radial distance r. The influence of
+target volume receiving the prescribed dose of 160 Gy.19             inverse square law, for the purpose of interpolating be-
+    Two recent retrospective studies of the TRUS technique           tween tabulated transverse-plane dose-rate values, can be
+demonstrate that the clinical outcome depends on dose deliv-         calculated using 1/r 2 .
+ered and prostate volume coverage. Stock et al. reported on      共3兲 The transverse-plane of a cylindrically symmetric source
+an experience of 134 prostate cancer patients implanted with         is that plane which is perpendicular to the longitudinal
+125
+   I and not treated with teletherapy or hormonal therapy.20         axis of the source and bisects the radioactivity distribu-
+They assessed rates of freedom from biochemical failure as a         tion.
+function of the D 90 dose. A significant increase in freedom     共4兲 A line source is a dosimetric approximation whereby ra-
+from biochemical failure 共92% vs 68% after 4 years兲 was              dioactivity is assumed to be uniformly distributed along
+observed (p⫽0.02) for patients (n⫽69) where D 90                     a 1D line-segment with active length L. While not accu-
+⭓140 Gy. Potters et al. recently reviewed the impact of vari-        rately characterizing the radioactivity distribution within
+ous dosimetry parameters on biochemical control for their            an actual source, this approximation is useful in charac-
+experience of 719 patients treated with permanent prostate           terizing the influence of inverse square law on a source’s
+brachytherapy.21 Many of these patients also received tele-          dose distribution for the purposes of interpolating be-
+therapy 共28%兲 or hormone therapy 共35%兲. Furthermore, 84%             tween or extrapolating beyond tabulated TG-43 param-
+of the implants used 103Pd with the remainder using 125I.            eter values within clinical brachytherapy treatment plan-
+Their results indicated that patient age, radionuclide selec-        ning systems.
+tion, and use of teletherapy did not significantly affect bio-   共5兲 A seed is defined as a cylindrical brachytherapy source
+chemical relapse-free survival 共PSA–RFS兲. The only dose-             with active length, L, or effective length, L eff 共described
+specification index that was predictive of PSA–RFS was               later in greater detail兲 less than or equal to 0.5 cm.
+D 90 .
+    Like the other two studies, studies by Stock et al. and         These parameters are utilized by the TG-43U1 formalism
+Potters et al. were based on pre-TG-43 prescription doses of     in the following sections.
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 5 ===
+637        Rivard et al.: AAPM TG-43 update                                                                                                  637
+
+
+A. General 2D formalism
+   The general, two-dimensional 共2D兲 dose-rate equation
+from the 1995 TG-43 protocol is retained,
+
+                           G L 共 r, ␪ 兲
+   Ḋ 共 r, ␪ 兲 ⫽S K •⌳•                   •g 共 r 兲 •F 共 r, ␪ 兲 ,   共1兲
+                          G L共 r 0 , ␪ 0 兲 L
+
+where r denotes the distance 共in centimeters兲 from the center
+of the active source to the point of interest, r 0 denotes the
+reference distance which is specified to be 1 cm in this pro-            FIG. 1. Coordinate system used for brachytherapy dosimetry calculations.
+tocol, and ␪ denotes the polar angle specifying the point-of-
+interest, P(r, ␪ ), relative to the source longitudinal axis. The
+reference angle, ␪ 0 , defines the source transverse plane, and          source approximation used for the geometry function 共Sec.
+is specified to be 90° or ␲/2 radians 共Fig. 1兲.                          III A 3兲. For evaluation of dose rates at small and large dis-
+    In clinical practice, source position and orientation are            tances, the reader is referred to Appendix C.
+identified by means of radio-opaque markers. Generally,
+these markers are positioned symmetrically within the source
+capsule such that the marker, the radioactivity distribution,            1. Air-kerma strength
+and the capsule have the same geometric center on the sym-
+metry axis of the source. Thus, determination of the location               This protocol proposes minor revisions to the definition of
+of the radioisotope distribution is based upon identification            air-kerma strength, S K , which was first introduced by the
+of the radio-opaque markers. All sources discussed in this               AAPM TG-32 report in 1987.22 Air-kerma strength has units
+document can be accurately represented by a capsule and                  of ␮ Gy m2 h-1 and is numerically identical to the quantity
+radio-opaque markers that are symmetric with respect to the              Reference Air Kerma Rate recommended by ICRU 38 and
+transverse plane, which by definition bisects the active                 ICRU 60.23,24 For convenience, these unit combinations
+source and specifies the origin of the dose-calculation for-             are denoted by the symbol U where 1 U⫽1 ␮ Gy m2 h⫺1
+malism. However, Eq. 共1兲 can accommodate sources that are                ⫽1 cGy cm2 h⫺1 .
+asymmetric with respect to the transverse plane. For sources                Air-kerma strength, S K , is the air-kerma rate, K̇ ␦ (d), in
+that exhibit all of the following characteristics: 共i兲 the radio-        vacuo and due to photons of energy greater than ␦, at dis-
+activity distribution is clearly asymmetric with respect to the          tance d, multiplied by the square of this distance, d 2 ,
+planes bisecting the capsule or marker; 共ii兲 the extent of                  S K ⫽K̇ ␦ 共 d 兲 d 2 .                                             共2兲
+asymmetry is known a priori or can be measured via imag-
+ing; and 共iii兲 the source orientation can be determined under            The quantity d is the distance from the source center to the
+clinical implant circumstances 共e.g., via CT or radiography兲,            point of K̇ ␦ (d) specification 共usually but not necessarily as-
+then the source coordinate system origin should be posi-                 sociated with the point of measurement兲 which should be
+tioned at the geometric center of the radionuclide distribution          located on the transverse plane of the source. The distance d
+共as determined using positioning information obtained from               can be any distance that is large relative to the maximum
+the markers兲, not the geometric center of the exterior surface           linear dimension of the radioactivity distribution so that S K is
+of the capsule or marker. If radio-opaque markers do not                 independent of d. K̇ ␦ (d) is usually inferred from transverse-
+facilitate identification of source orientation and the asym-            plane air-kerma rate measurements performed in a free-air
+metrical distribution under clinical circumstances, then the             geometry at distances large in relation to the maximum linear
+geometric center of the source must be presumed to reside at             dimensions of the detector and source, typically of the order
+the radio-opaque marker centroid as is conventionally per-               of 1 meter. The qualification ‘‘in vacuo’’ means that the mea-
+formed.                                                                  surements should be corrected for photon attenuation and
+    The quantities used in Eq. 共1兲 are defined and discussed             scattering in air and any other medium interposed between
+later. This formalism applies to sources with cylindrically              the source and detector, as well as photon scattering from
+symmetric dose distributions with respect to the source lon-             any nearby objects including walls, floors, and ceilings. Of
+gitudinal axis. In addition, the consensus datasets presented            course, air-kerma rate may also be calculated to subvert
+in Sec. IV B assume that dose distributions are symmetric                some of the limitations imposed on practical
+with respect to the transverse plane, i.e., that radioactivity           measurements.25 The energy cutoff, ␦, is intended to exclude
+distributions to either side of the transverse plane are mirror          low-energy or contaminant photons 共e.g., characteristic
+images of one another. However, this formalism is readily                x-rays originating in the outer layers of steel or titanium
+generalized to accommodate sources that are not symmetric                source cladding兲 that increase K̇ ␦ (d) without contributing
+with respect to the transverse plane.                                    significantly to dose at distances greater than 0.1 cm in tis-
+    Equation 共1兲 includes additional notation compared with              sue. The value of ␦ is typically 5 keV for low-energy photon-
+the corresponding equation in the original TG-43 formalism,              emitting brachytherapy sources, and is dependent on the ap-
+namely the subscript ‘‘L’’ has been added to denote the line             plication.
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 6 ===
+638         Rivard et al.: AAPM TG-43 update                                                                                            638
+
+
+   In summary, the present definition of S K differs in two                strength standard 共e.g., P⫽‘‘N’’ for NIST, or P⫽‘‘T ’’ for the
+important ways from the original 1987 AAPM definition.                     in-house calibration-standard of Theragenics Corporation兲,
+First, the original AAPM definition of S K did not allow for a             ‘‘qq’’ denotes the year in which this source strength standard
+low-energy cutoff. Subsequent experience using free-air                    was implemented, and the ‘‘S’’ subscript denotes the word
+chambers as primary S K standards clearly indicates that fail-             standard.7 For example, ⌳ 97D,N99S indicates a dose-rate con-
+ure to exclude nonpenetrating radiations greatly increases                 stant determined from dosimetry measurements published in
+measurement uncertainty and invalidates theoretical dosime-                1997 and normalized to an S K traceable to the 1999 NIST
+try models. Second, the conditions that should prevail in an               standard. Additional notation may also be utilized such as
+                                                                           TLD ⌳ 97D,N85S for the dose-rate constant for the model 6702
+                                                                           6702
+experimental determination of S K are now explicitly stated.
+                                                                           source published in 1997 using TLDs and the 1985 NIST
+2. Dose-rate constant                                                      standard. These notations are useful for comparing results
+   The definition of the dose-rate constant in water, ⌳, is                from multiple investigators, and readily highlight features
+unchanged from the original TG-43 protocol: it is the ratio of             such as utilization of the calibration procedure and whether
+dose rate at the reference position, P(r 0 , ␪ 0 ), and S K . ⌳ has        or not influence of titanium K-shell x rays is included.
+units of cGy h⫺1 U⫺1 which reduces to cm⫺2 ,
+                                                                           3. Geometry function
+      Ḋ 共 r 0 , ␪ 0 兲
+   ⌳⫽                  .                                            共3兲        Within the context of clinical brachytherapy dose calcula-
+           SK
+                                                                           tions, the purpose of the geometry function is to improve the
+The dose-rate constant depends on both the radionuclide and                accuracy with which dose rates can be estimated by interpo-
+source model, and is influenced by both the source internal                lation from data tabulated at discrete points. Physically, the
+design and the experimental methodology used by the pri-                   geometry function neglects scattering and attenuation, and
+mary standard to realize S K .                                             provides an effective inverse square-law correction based
+    In 1999, a notation was introduced, ⌳ nnD, PqqS , to identify          upon an approximate model of the spatial distribution of ra-
+both the dose-rate measurements or calculations used to de-                dioactivity within the source. Because the geometry function
+termine Ḋ(r 0 , ␪ 0 ) and the calibration standard to which this          is used only to interpolate between tabulated dose-rate values
+dose rate was normalized. The subscript ‘‘D’’ denotes refer-               at defined points, highly simplistic approximations yield suf-
+ence dose rate, ‘‘nn’’ denotes the year in which this refer-               ficient accuracy for treatment planning. This protocol recom-
+ence dose rate was published 共either measurement or calcu-                 mends use of point- and line-source models giving rise to the
+lation兲, ‘‘P’’ denotes the provider or origin of the source                following geometry functions:
+
+
+
+   G P 共 r, ␪ 兲 ⫽r ⫺2        point-source approximation,
+
+
+                    再
+                                                                                                                                        共4兲
+                           ␤
+                                      if    ␪ ⫽0°
+   G L 共 r, ␪ 兲 ⫽       Lr sin ␪                         line-source approximation,
+                        共 r 2 ⫺L 2 /4兲 ⫺1   if   ␪ ⫽0°
+
+
+
+where ␤ is the angle, in radians, subtended by the tips of the             Use of such simple functions is warranted since their purpose
+hypothetical line source with respect to the calculation point,            is to facilitate interpolation between tabulated data entries for
+P(r, ␪ ).                                                                  duplication of the original dosimetry results.
+   In principle, either the point-source or line-source models                 In the case where the radioactivity is distributed over a
+may be consistently implemented in both the 1D and 2D                      right-cylindrical volume or annulus, this protocol recom-
+versions of the TG-43 formalism. In this case, the word                    mends taking active length to be the length of this cylinder.
+‘‘consistently’’ means that the geometry function used for                 For brachytherapy sources containing uniformly spaced mul-
+derivation of dose rates from TG-43 parameters should be                   tiple radioactive components, L should be taken as the effec-
+identical to that used to prepare the radial dose function and             tive length, L eff , given by
+2D anisotropy function data, including use of the same active
+                                                                              L eff⫽⌬S⫻N,                                               共5兲
+length, L, used in G(r, ␪ ). Under these conditions, TG-43
+dose calculations will reproduce exactly the measured or                   where N represents the number of discrete pellets contained
+Monte Carlo-derived dose rates from which g(r) and F(r, ␪ )                in the source with a nominal pellet center-to-center spacing
+tables were derived. This protocol recommends consistent                   ⌬S. If L eff is greater than the physical length of the source
+use of the line-source geometry function for evaluation of 2D              capsule 共usually ⬃4.5 mm), the maximum separation 共dis-
+dose distributions, and use of either point- or line-source                tance between proximal and distal aspects of the activity dis-
+geometry functions for evaluations of 1D dose distributions.               tribution兲 should be used as the active length, L. This tech-
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 7 ===
+639         Rivard et al.: AAPM TG-43 update                                                                                            639
+
+
+nique avoids singularities in evaluating G(r, ␪ ) for points of       off the transverse plane typically decreases as 共i兲 r decreases,
+interest in tissue which are located on the hypothetical line         共ii兲 as ␪ approaches 0° or 180°, 共iii兲 as encapsulation thick-
+source just beyond the tip and end of the physical source.            ness increases, and 共iv兲 as photon energy decreases. How-
+   More complex forms of the geometry function have a role            ever, F(r, ␪ ) may exceed unity at 兩 ␪ ⫺90° 兩 ⬎⫾arcsin(L/2r)
+in accurately estimating dose at small distances outside the          for right-cylinder sources coated with low-energy photon
+tabulated data range, i.e., extrapolating g(r) and F(r, ␪ ) to        emitters due to screening of photons by the active element at
+small distances.26,27 Use of such expressions is permitted.           angles towards the transverse plane.
+However, most commercial brachytherapy treatment plan-                    As stated earlier, the active length, L, used to evaluate
+ning systems support only point- or line-source geometry              G L (r, ␪ ) in Eq. 共4兲 shall be the same L used to extract g L (r)
+functions. Therefore, it is the responsibility of the physicist       and F(r, ␪ ) from dose distributions via Eqs. 共6兲 and 共8兲,
+to transform the tabulated TG-43 parameters given in this             respectively. Otherwise, significant errors in dosimetry re-
+protocol, which are based upon point- and line-source ap-             sults at small distances may arise. For example, at r
+proximations, to a format consistent with more complex ge-            ⫽0.5 cm, a change in L from 3 to 5 mm results in a 5%
+ometry functions that may be available on their treatment             change in G L (r, ␪ 0 ).
+planning systems.28 –30
+4. Radial dose function
+                                                                      B. General 1D formalism
+   The radial dose function, g X (r), accounts for dose fall-off
+on the transverse-plane due to photon scattering and attenu-             While a 1D isotropic point-source approximation 关Eq. 共9兲兴
+ation, i.e., excluding fall-off included by the geometry func-        only approximates the true complex 2D dose distribution, it
+tion. g X (r) is defined by Eq. 共6兲, and is equal to unity at r 0     simplifies source localization procedures by eliminating the
+⫽1 cm.                                                                need to determine the orientation of the source longitudinal
+                                                                      axis from imaging studies.
+                 Ḋ 共 r, ␪ 0 兲 G X 共 r 0 ␪ 0 兲
+   g X共 r 兲 ⫽                                   .               共6兲
+                Ḋ 共 r 0 , ␪ 0 兲 G X 共 r, ␪ 0 兲                                                G X 共 r, ␪ 0 兲
+                                                                           Ḋ 共 r 兲 ⫽S K •⌳•                   •g 共 r 兲 • ␾ an共 r 兲 .    共9兲
+The revised dose-calculation formalism has added the sub-                                      G X共 r 0 , ␪ 0 兲 X
+script ‘‘X’’ to the radial dose function and geometry function        Users should adopt one of the following implementations of
+to indicate whether a point-source, ‘‘P,’’ or line-source,            Eq. 共9兲:
+‘‘L,’’ geometry function was used in transforming the data.
+Consequently, this protocol presents tables of both g P (r) and
+g L (r) values.                                                            Ḋ 共 r 兲 ⫽S K •⌳•   冉冊r0 2
+                                                                                                 r
+                                                                                                      •g P 共 r 兲 • ␾ an共 r 兲 ,          共10兲
+    Equation 共7兲 corrects a typographical error in the original
+TG-43 protocol.31 While table lookup via linear interpolation         or
+or any appropriate mathematical model fit to the data may be
+                                                                                               G L 共 r, ␪ 0 兲
+used to evaluate g X (r), some commercial treatment planning               Ḋ 共 r 兲 ⫽S K •⌳•                   •g 共 r兲 • ␾ an共 r 兲 .    共11兲
+systems currently accommodate a fifth-order polynomial fit                                     G L共 r 0 , ␪ 0 兲 L
+to the tabulated g(r) data. Since this type of polynomial fit
+                                                                      While most treatment planning systems use the implementa-
+may produce erroneous results with large errors outside the
+                                                                      tions in Eq. 共10兲, we recommend use of Eq. 共11兲 due to
+radial range used to determine the fit, alternate fitting equa-
+                                                                      improved accuracy at small distances, e.g., r⬍1 cm. Linear
+tions have been proposed which are less susceptible to this
+                                                                      interpolation may be used to match the grid spacing of g X (r)
+effect,32
+                                                                      with the grid spacing of ␾ an(r).
+   g X 共 r 兲 ⫽a 0 ⫹a 1 r⫹a 2 r 2 ⫹a 3 r 3 ⫹a 4 r 4 ⫹a 5 r 5 .   共7兲      These revised formulations require consistency between
+                                                                      the geometry function used for dose calculation and the ge-
+Parameters a 0 through a 5 should be determined so that they
+                                                                      ometry function used for extracting g X (r) from the
+fit the data within ⫾2%. Also, the radial range over which
+                                                                      transverse-plane dose distribution. Furthermore, these re-
+the fit meets this specification should be clearly specified.
+                                                                      vised formulations correct an inconsistency in Eq. 共11兲 of the
+                                                                      original TG-43 protocol that indirectly recommended the fol-
+5. 2D anisotropy function                                             lowing incorrect equation:
+   The 2D anisotropy function, F(r, ␪ ), is defined as
+                                                                                              G P 共 r, ␪ 0 兲
+                 Ḋ 共 r, ␪ 兲 G L 共 r, ␪ 0 兲                                Ḋ 共 r 兲 ⫽S K ⌳•                   •g 共 r 兲 • ␾ an共 r 兲
+   F 共 r, ␪ 兲 ⫽                             .                   共8兲                           G P共 r 0 , ␪ 0 兲 L
+                Ḋ 共 r, ␪ 0 兲 G L 共 r, ␪ 兲
+                                                                           共 not recommended兲 .                                         共12兲
+Other than inclusion of the subscript L, this definition is
+identical to the original TG-43 definition.1 The 2D anisot-           While use of the wrong g X (r) datasets will typically give
+ropy function describes the variation in dose as a function of        errors in the calculated dose rate of less than 2% at distances
+polar angle relative to the transverse plane. While F(r, ␪ ) on       beyond 1 cm, average errors of 3%, 15%, and 74% arise at
+the transverse plane is defined as unity, the value of F(r, ␪ )       distances of 0.5, 0.25, and 0.1 cm, respectively. Clinical uti-
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 8 ===
+640             Rivard et al.: AAPM TG-43 update                                                                                640
+
+
+lization of the 1D dosimetry formalism presented in Eq. 共12兲,             for the dose-rate constant ( EXP⌳) were averaged. Sepa-
+or other formalisms that inconsistently apply the geometry                rately, ⌳ values obtained using Monte Carlo techniques
+function, are not recommended.                                            ( MC⌳) were averaged. The consensus value recom-
+                                                                          mended in this protocol ( CON⌳) is the equally
+1. 1D anisotropy function                                                 weighted average of the separately averaged experi-
+   The 1D anisotropy function, ␾ an(r), is identical to the               mental and Monte Carlo ⌳ values. In cases where there
+anisotropy factor defined by the original TG-43 protocol. At              is only one experimental result and one Monte Carlo
+a given radial distance, ␾ an(r) is the ratio of the solid angle-         result: CON⌳⫽ 关 EXP⌳⫹ MC⌳ 兴 /2.
+weighted dose rate, averaged over the entire 4 ␲ steradian          共b兲   Each candidate dataset was examined separately and
+space, to the dose rate at the same distance r on the trans-              eliminated from consideration if it was determined to
+verse plane, see Eq. 共13兲,                                                have a problem, e.g., data inconsistency. Corrections
+                    兰 ␲0 Ḋ 共 r, ␪ 兲 sin共 ␪ 兲 d ␪                         for use of a nonliquid water measurement phantom
+      ␾ an共 r 兲 ⫽                                   .       共13兲          were applied if not included in the original investiga-
+                           2Ḋ 共 r, ␪ 0 兲                                 tors’ analysis.
+Note that one should integrate dose rate, not the values of the     共c兲   For the 2D anisotropy function, F(r, ␪ ), and the radial
+2D anisotropy function to arrive at ␾ an(r).                              dose function, g(r), all candidate datasets for a given
+    With consistent use of the geometry function, both Eqs.               source model were transformed using identical line-
+共10兲 and 共11兲 will exactly reproduce the solid-angle weighted             source geometry functions to permit fair comparison.
+dose rate at a given r. Of the two, Eq. 共11兲 is recommended               The radial dose function was corrected for nonliquid
+because the line-source geometry function will provide more               water measurement medium if necessary. Assuming
+accurate interpolation and extrapolation at small distances.              that the different datasets agreed within experimental
+The accuracy achievable using the 1D formalism for prostate               uncertainties, the consensus data were defined as the
+implants was reported by Lindsay et al.,33 and Corbett                    ideal candidate dataset having the highest resolution,
+et al.34                                                                  covering the largest distance range, and having the
+    For brachytherapy treatment planning systems that do not
+                                                                          highest degree of smoothness. For most source models
+permit entry of ␾ an(r), Eqs. 共10兲 or 共11兲 can still be imple-
+                                                                          examined in this protocol, the consensus F(r, ␪ ) and
+mented by carefully modifying g X (r) to include ␾ an(r) as
+                                                                          g(r) data, CONF(r, ␪ ) and CONg(r), were taken from
+shown in Eq. 共14兲. These modified dosimetry parameters,
+                                                                          the transformed Monte Carlo dataset.
+g ⬘ (r) and ␾ ⬘ , are defined as
+            ¯ an
+                                                                    共d兲   A few entries in the tabulated consensus datasets were
+      g ⬘ 共 r 兲 ⫽g X 共 r 兲 • ␾ an共 r 兲 ,                                  taken from the nonideal candidate dataset共s兲 to cover a
+                                                                          larger range of distances and angles. These data were
+      ␾ ⬘ ⫽1.
+      ¯ an                                                  共14兲          italicized to indicate that they were not directly con-
+   While TG-43 introduced the anisotropy constant, ␾
+                                                   ¯ an ,                 firmed by other measurements or calculations.
+LIBD no longer recommends its use. This is discussed in             共e兲   The 1D anisotropy function, ␾ an(r), was derived using
+greater detail in Appendix D.                                             numerical integration of the dose rate, as calculated
+                                                                          from CONF(r, ␪ ) dataset, with respect to solid angle.
+IV. CONSENSUS DATASETS FOR CLINICAL                                       Use of the anisotropy constant, ␾ ¯ an , is discouraged as
+IMPLEMENTATION                                                            discussed in Appendix D.
+    The 125I and 103Pd source models reviewed in this proto-        共f兲   When scientifically justified for a given source model,
+col 共Fig. 2兲 satisfied the AAPM recommendations that com-                 exceptions or modifications to these rules were made,
+prehensive 共2D兲 reference-quality dose-rate distribution data             and are described later. For example, if the datasets
+be accepted for publication by a peer-reviewed scientific                 were too noisy, they were rejected.
+journal on or before July 15, 2001. Appropriate publications        共g兲   Following tabulation of g(r) and F(r, ␪ ) for all eight
+can report either Monte Carlo, or experimentally derived                  source models, overly dense datasets were down-
+TG-43 dosimetry parameters. As many as 12 sets of indepen-                sampled to permit reasonable comparisons. Removal of
+dently published data per source model were evaluated dur-                a dataset point was deemed reasonable if linear inter-
+ing preparation for this report. For each source model, a                 polation using adjacent points resulted in a difference
+single consensus dataset was derived from multiple pub-                   no larger than ⫾2% of the dataset point in question.
+lished datasets according to the following methodology.35 If              Similarly, because the various authors used different
+items essential to critical evaluation were omitted, the au-              table grids, it was necessary to interpolate some of the
+thors were contacted for information or clarification.                    data into the common mesh selected for presenting all
+共a兲       The peer-reviewed literature was examined to identify           eight datasets. Linear–linear interpolation was used for
+          candidate dose distributions for each source model de-          F(r, ␪ ) datasets, and log-linear interpolation was used
+          rived either from experimental measurements or Monte            for g(r) datasets. Interpolated data are indicated by
+          Carlo simulations. Experimentally determined values             boldface.
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 11 ===
+643        Rivard et al.: AAPM TG-43 update                                                                                                         643
+
+
+TABLE I. NIST standard WAFAC calibration dates for air kerma strength for each manufacturer, and dose rate constant values. Note that for a given source
+type, the % change in ⌳ from the 1999 value is not necessarily equal to the average % change in air-kerma strength due the 1999 NIST WAFAC anomaly
+because some of the ⌳ values were calculated based on air-kerma strength measurements of a single seed.
+
+                                                              NIST date used by ADCL                     CON⌳                   % difference in ⌳
+            Manufacturer and source type                        and NIST as standard                关 cGy•h⫺1 •U⫺1 兴            from 1999 value
+                                                   125
+Amersham 6702                                         I             April 15, 1998                       1.036                         N/A
+                                                   125
+Amersham 6711                                         I             April 15, 1998                       0.965                         N/A
+Best Industries 2301                               125
+                                                      I            August 18, 2000                       1.018                        ⫹3.3%
+NASI MED3631-A/M                                   125
+                                                      I              June 30, 2001                       1.036                        ⫹1.0%
+Bebig/Theragenics I25.S06                          125
+                                                      I           January 27, 2001                       1.012                        ⫹2.2%
+Imagyn IS-12501                                    125
+                                                      I           October 21, 2000                       0.940                        ⫹3.5%
+Theragenics 200                                  103
+                                                     Pd                July 8, 2000                      0.686                        ⫹4.0%
+NASI MED3633                                     103
+                                                     Pd             April 23, 2001                       0.688                        ⫹4.3%
+
+
+
+
+small manufacturing changes on the uncertainty of calculated                  source geometry functions are presented in Tables II and III,
+dose-rate distributions. Therefore, the use of Monte Carlo                    respectively. Details used in the determination of g(r) for
+values without confirmation by experimental studies is                        each source model are provided in Appendix A.
+highly undesirable. Drawbacks of TLD dosimetry include 共a兲
+                                                                              4. 2D anisotropy function
+limited precision of repeated readings and spatial resolution;
+共b兲 a large and somewhat uncertain relative energy response                      Because Monte Carlo based datasets generally have supe-
+correction; 共c兲 failure of most investigators to monitor or                   rior smoothness, spatial and angular resolution, and distance
+control the composition of the measurement medium. For                        range, all anisotropy functions recommended in this protocol
+these reasons, the LIBD recommends using an equally                           are derived from Monte Carlo results which have been vali-
+weighted average of the average measured 共e.g., using                         dated by comparison to less complete experimental datasets.
+TLDs兲 and average calculated 共e.g., Monte Carlo derived兲                      A graphical comparison of datasets was performed, and the
+values 共see Table I for each source兲 since the two recom-                     agreement between the Monte Carlo datasets and the experi-
+mended dosimetry characterization techniques have comple-                     mental datasets was again expected to be ⫾10%. For ␪
+mentary strengths and limitations.                                            ⬎30°, observed differences between the datasets were typi-
+   The values in Table I are the average of experimental and                  cally ⬍5% with a maximum of about 9%. For ␪ ⭐30°, dif-
+Monte Carlo results, e.g., CON⌳, for each source model. Ex-                   ferences were larger 共typically ⬃10% with maximum
+perimental results normalized to the 1985 Loftus NIST stan-                   ⬃17%), and are attributed to volume averaging and the
+dard have been corrected to agree with the NIST WAFAC                         high-dose-rate gradient near the source longitudinal-axis as
+1999 standard as corrected in 2000.158 In those cases where                   well as uncertainties in the source geometry assumed by
+the authors did not correct for differences between Solid Wa-                 Monte Carlo simulations. Tables IV–XI present the F(r, ␪ )
+ter™ and liquid water, corrections were applied based on                      and ␾ an(r) data for the sources examined herein.
+Williamson’s Monte Carlo calculations.37 Also, a number of
+the cited experimental dosimetry papers published dose-rate                   C. Uncertainty analysis
+constants are normalized to WAFAC measurements per-
+                                                                                 Most of the experimental and computational investiga-
+formed in 1999. In these cases, appropriate corrections were
+                                                                              tions, especially those published prior to 1999, failed to in-
+made to the published dose-rate constant values.
+                                                                              clude a rigorous uncertainty analysis. Thus, the AAPM rec-
+                                                                              ommends that the generic uncertainty analysis described by
+3. Radial dose function                                                       Table XII, based on the best estimate of uncertainty of the
+   For each source, Monte Carlo values of g(r) were graphi-                   measured dose rate constants used to compute the CON⌳ val-
+cally compared with experimental values. A comparison of                      ues recommended by this report, should be included hence-
+the Monte Carlo and experimental g(r) results were ex-                        forth. In the future, the AAPM recommends that dosimetry
+pected to show an average agreement of ⫾10%. While the                        investigators include rigorous uncertainty analyses, specific
+observed differences were typically ⬍5% for r⭐5 cm, sys-                      to their methodology employed, in their published articles.
+tematic differences as large as 10% were observed due to use                  Table XII, based on the works of Gearheart et al.38 and Nath
+of outdated Monte Carlo cross-section libraries. Experimen-                   and Yue,39 assigns a total 1␴ uncertainty of 8%–9% to TLD
+tal values are difficult to measure at r⬍1 cm, but Monte                      measurements of dose-rate constant and an uncertainty of
+Carlo calculation of dose rate values are often available at                  5%–7% to measurements of relative quantities.
+smaller distances. In each case, the most complete dataset                       Based on results of Monroe and Williamson,37,40 purely
+共typically Monte Carlo values兲 was used since values were                     Monte Carlo estimates of the transverse-axis dose-rate per
+more readily available over a larger range of distances 共es-                  unit air-kerma strength typically have uncertainties of
+pecially at clinically significant distances closer than 1 cm兲                2%–3% at 1 cm and 3%–5% at 5 cm, depending on the type
+than provided by experimental measurements. The CONg(r)                       and magnitude of internal seed geometric uncertainties.
+data for all 125I and 103Pd sources and for line- and point-                  Since relatively little has been published on estimation of
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 12 ===
+644        Rivard et al.: AAPM TG-43 update                                                                                                                644
+
+
+TABLE II. Consensus g(r) values for six 125I sources. Interpolated data are boldface, and italicized data are nonconsensus data obtained from candidate
+datasets.
+
+                                  Line source approximation                                                        Point source approximation
+
+       Amersham Amersham   Best      NASI      Bebig    Imagyn
+         6702     6711     2301   MED3631-A/M I25.S06  IS12501 Amersham Amersham Best    NASI      Bebig Imagyn
+r 关cm兴 L⫽3.0 mm L⫽3.0 mm L⫽4.0 mm  L⫽4.2 mm  L⫽3.5 mm L⫽3.4 mm   6702     6711   2301 MED3631-A/M I25.S06 IS12501
+
+ 0.10     1.020       1.055        1.033                         1.010         1.022        0.673          0.696       0.579                    0.613    0.631
+ 0.15     1.022       1.078        1.029                         1.018         1.058        0.809          0.853       0.725                    0.760    0.799
+ 0.25     1.024       1.082        1.027           0.998         1.030         1.093        0.929          0.982       0.878        0.842       0.908    0.969
+ 0.50     1.030       1.071        1.028           1.025         1.030         1.080        1.008          1.048       0.991        0.985       1.001    1.051
+ 0.75     1.020       1.042        1.030           1.019         1.020         1.048        1.014          1.036       1.020        1.008       1.012    1.040
+ 1.00     1.000       1.000        1.000           1.000         1.000         1.000        1.000          1.000       1.000        1.000       1.000    1.000
+ 1.50     0.935       0.908        0.938           0.954         0.937         0.907        0.939          0.912       0.945        0.962       0.942    0.912
+ 2.00     0.861       0.814        0.866           0.836         0.857         0.808        0.866          0.819       0.875        0.845       0.863    0.814
+ 3.00     0.697       0.632        0.707           0.676         0.689         0.618        0.702          0.636       0.715        0.685       0.695    0.623
+ 4.00     0.553       0.496        0.555           0.523         0.538         0.463        0.557          0.499       0.562        0.530       0.543    0.467
+ 5.00     0.425       0.364        0.427           0.395         0.409         0.348        0.428          0.367       0.432        0.401       0.413    0.351
+ 6.00     0.322       0.270        0.320           0.293         0.313         0.253        0.324          0.272       0.324        0.297       0.316    0.255
+ 7.00     0.241       0.199        0.248           0.211         0.232         0.193        0.243          0.200       0.251        0.214       0.234    0.195
+ 8.00     0.179       0.148        0.187                         0.176         0.149        0.180          0.149       0.189                    0.178    0.150
+ 9.00     0.134       0.109        0.142                         0.134         0.100        0.135          0.110       0.144                    0.135    0.101
+10.00     0.0979      0.0803       0.103                         0.0957        0.075        0.0986         0.0809      0.104                    0.0967   0.076
+
+
+
+
+systematic 共type B兲 uncertainties of Monte Carlo-based dose                         y⫽ f 共 x 1 ,...,x N 兲 ,
+estimation, the following sections apply the principles of un-                                                                                            共15兲
+
+                                                                                                   冉 冊
+certainty analysis, as outlined in NIST Technical Note                                       N                        N⫺1      N
+                                                                                                    ⳵f     2
+                                                                                                                                     ⳵f ⳵f
+1297,41 to estimation of total uncertainty of Monte Carlo
+dose-rate constants, MC⌳, Monte Carlo radial dose functions
+                                                                                   ␴ 2y ⫽   兺
+                                                                                            i⫽1 ⳵ x i
+                                                                                                      ␴ x2 ⫹2 兺 兺
+                                                                                                              i⫽1 j⫽i⫹1 ⳵ x i ⳵ x j
+                                                                                                               i
+                                                                                                                                    ␴ x ,x ,    i   j
+
+
+MCg(r), consensus dose-rate constants, CON⌳, and absolute
+transverse-axis dose as evaluated by the dosimetric param-                      where ␴ x i ,x j 共assumed zero here兲 represents the covariance
+eters recommended by this report.                                               of the two variables. For each dosimetric quantity,
+   NIST Report 1297 recommends using the Law of Propa-                          Y (⌳,g(r), etc.兲, the total percent uncertainty, % ␴ Y , is con-
+gation of Uncertainty 共LPU兲 to estimate the uncertainty of a                    sidered to be composed of three sources: type B uncertainty
+quantity y, that has a functional dependence on measured or                     due to uncertainty of the underlying cross sections, % ␴ Y 兩 ␮ ;
+estimated quantities x 1 ,...,x N , as follows:                                 type B uncertainties arising from uncertainty of the seed geo-
+
+
+                      TABLE III. Consensus g(r) values for two 103Pd sources. Interpolated data are boldface, and italicized data are
+                      nonconsensus data obtained from candidate datasets.
+
+                                              Line source approximation                            Point source approximation
+
+                                       Theragenics 200         NASI MED3633
+                         r 关cm兴         L⫽4.23 mm                L⫽4.2 mm                Theragenics 200               NASI MED3633
+
+                          0.10             0.911                                                 0.494
+                          0.15             1.21                                                  0.831
+                          0.25             1.37                      1.331                       1.154                      1.123
+                          0.30             1.38                      1.322                       1.220                      1.170
+                          0.40             1.36                      1.286                       1.269                      1.201
+                          0.50             1.30                      1.243                       1.248                      1.194
+                          0.75             1.15                      1.125                       1.137                      1.113
+                          1.00             1.000                     1.000                       1.000                      1.000
+                          1.50             0.749                     0.770                       0.755                      0.776
+                          2.00             0.555                     0.583                       0.561                      0.589
+                          2.50             0.410                     0.438                       0.415                      0.443
+                          3.00             0.302                     0.325                       0.306                      0.329
+                          3.50             0.223                     0.241                       0.226                      0.244
+                          4.00             0.163                     0.177                       0.165                      0.179
+                          5.00             0.0887                    0.098                       0.0900                     0.099
+                          6.00             0.0482                    0.053                       0.0489                     0.054
+                          7.00             0.0262                    0.028                       0.0266                     0.028
+                         10.00             0.00615                                               0.00624
+
+
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 13 ===
+645       Rivard et al.: AAPM TG-43 update                                                                                645
+
+
+                   TABLE IV. F(r, ␪ ) for Amersham model 6702.
+
+                                                                                  r 关cm兴
+                   Polar angle
+                   ␪ 共degrees兲              0.5              1            2                 3            4         5
+
+                        0               0.385            0.420           0.493             0.533        0.569     0.589
+                        5               0.413            0.472           0.546             0.586        0.613     0.631
+                       10               0.531            0.584           0.630             0.660        0.681     0.697
+                       15               0.700            0.700           0.719             0.738        0.749     0.758
+                       20               0.788            0.789           0.793             0.805        0.810     0.814
+                       30               0.892            0.888           0.888             0.891        0.892     0.892
+                       40               0.949            0.948           0.944             0.944        0.944     0.944
+                       50               0.977            0.973           0.967             0.967        0.967     0.967
+                       60               0.989            0.985           0.983             0.983        0.983     0.983
+                       70               0.996            0.992           0.990             0.990        0.990     0.990
+                       80               1.000            0.998           0.998             0.998        0.998     0.998
+
+                     ␾ an(r)            0.986            0.960           0.952             0.951        0.954     0.954
+
+
+
+
+                   TABLE V. F(r, ␪ ) for Amersham model 6711.
+
+                                                                                  r 关cm兴
+                   Polar angle
+                   ␪ 共degrees兲              0.5              1            2                 3            4         5
+
+                        0               0.333            0.370           0.442             0.488        0.520     0.550
+                        5               0.400            0.429           0.497             0.535        0.561     0.587
+                       10               0.519            0.537           0.580             0.609        0.630     0.645
+                       20               0.716            0.705           0.727             0.743        0.752     0.760
+                       30               0.846            0.834           0.842             0.846        0.848     0.852
+                       40               0.926            0.925           0.926             0.926        0.928     0.928
+                       50               0.972            0.972           0.970             0.969        0.969     0.969
+                       60               0.991            0.991           0.987             0.987        0.987     0.987
+                       70               0.996            0.996           0.996             0.995        0.995     0.995
+                       80               1.000            1.000           1.000             0.999        0.999     0.999
+
+                     ␾ an(r)            0.973            0.944           0.941             0.942        0.943     0.944
+
+
+
+
+                   TABLE VI. F(r, ␪ ) for Best model 2301.
+
+                                                                                 r 关cm兴
+                   Polar angle
+                   ␪ 共degrees兲          1            2            3                4               5         6     7
+
+                        0             0.367        0.454         0.922           0.902          0.894     0.893   0.858
+                        5             0.724        0.720         0.726           0.738          0.753     0.771   0.800
+                       10             0.653        0.671         0.699           0.727          0.732     0.764   0.782
+                       20             0.785        0.794         0.809           0.814          0.825     0.852   0.821
+                       30             0.900        0.890         0.885           0.892          0.899     0.915   0.873
+                       40             0.982        0.954         0.947           0.939          0.943     0.976   0.937
+                       50             1.014        0.992         0.985           0.991          0.997     0.989   0.961
+                       60             1.030        1.010         1.009           1.007          1.010     1.019   1.002
+                       70             1.036        1.026         1.016           1.023          1.011     1.035   1.010
+                       80             1.010        1.030         1.019           1.017          1.010     1.020   1.005
+
+                     ␾ an(r)          0.945        0.987         0.968           0.971          0.969     0.991   0.969
+
+
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 14 ===
+646       Rivard et al.: AAPM TG-43 update                                                                                                646
+
+
+                   TABLE VII. F(r, ␪ ) for NASI model MED3631-A/M.
+
+                                                                                     r 关cm兴
+                   Polar angle
+                   ␪ 共degrees兲           0.25                0.5              1                  2                 5                 10
+
+                        0                1.038              0.690            0.702              0.667             0.718          0.771
+                       10                0.984              0.700            0.662              0.676             0.728          0.758
+                       20                0.916              0.761            0.747              0.764             0.794          0.815
+                       30                0.928              0.854            0.846              0.852             0.871          0.878
+                       40                0.941              0.909            0.906              0.909             0.918          0.914
+                       50                0.962              0.949            0.949              0.950             0.958          0.954
+                       60                0.975              0.975            0.975              0.975             0.983          0.972
+                       70                0.991              0.989            0.992              0.990             0.993          0.989
+                       80                0.999              0.999            1.003              0.996             0.998          0.999
+
+                     ␾ an(r)             1.288              1.008            0.952              0.945             0.948          0.948
+
+
+
+
+                   TABLE VIII. F(r, ␪ ) for Bebig/Theragenics model I25.S06. Italicized data are nonconsensus data obtained from
+                   candidate datasets.
+
+                                                                                  r 关cm兴
+                     Polar angle
+                     ␪ 共degrees兲       0.25           0.5           1         2             3            4             5         7
+
+                          0           0.302        0.429           0.512     0.579      0.610           0.631       0.649     0.684
+                          5           0.352        0.436           0.509     0.576      0.610           0.635       0.651     0.689
+                         10           0.440        0.476           0.557     0.622      0.651           0.672       0.689     0.721
+                         20           0.746        0.686           0.721     0.757      0.771           0.785       0.790     0.807
+                         30           0.886        0.820           0.828     0.846      0.857           0.862       0.867     0.874
+                         40           0.943        0.897           0.898     0.907      0.908           0.913       0.918     0.912
+                         50           0.969        0.946           0.942     0.947      0.944           0.947       0.949     0.946
+                         60           0.984        0.974           0.970     0.974      0.967           0.966       0.967     0.976
+                         70           0.994        0.989           0.988     0.990      0.984           0.985       0.987     0.994
+                         80           0.998        0.998           0.998     1.000      0.994           1.000       0.993     0.999
+
+                       ␾ an(r)        1.122        0.968           0.939     0.939      0.938           0.940       0.941     0.949
+
+
+
+
+                   TABLE IX. F(r, ␪ ) for Imagyn model IS-12501. Italicized data are nonconsensus data obtained from candidate
+                   datasets.
+
+                                                                                     r 关cm兴
+                        Polar angle
+                        ␪ 共degrees兲               1                     2               3                    5               7
+
+                                0                0.241               0.337            0.362               0.424             0.454
+                               10                0.327               0.399            0.440               0.486             0.510
+                               20                0.479               0.532            0.563               0.584             0.581
+                               30                0.634               0.663            0.681               0.706             0.700
+                               40                0.768               0.775            0.786               0.806             0.776
+                               50                0.867               0.870            0.878               0.875             0.849
+                               60                0.946               0.944            0.944               0.943             0.913
+                               70                0.986               0.985            0.987               0.974             0.955
+                               80                0.998               0.994            1.004               0.981             0.956
+
+                            ␾ an(r)              0.867               0.886            0.894               0.897             0.879
+
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 15 ===
+647             Rivard et al.: AAPM TG-43 update                                                                                                    647
+
+
+TABLE X. F(r, ␪ ) for Theragenics Corp. model 200. Italicized data are nonconsensus data obtained from candidate datasets.
+
+                                                                                          r 共cm兲
+  Polar angle
+  ␪ 共degrees兲            0.25              0.5            0.75             1                2               3               4              5      7.5
+
+         0               0.619            0.694           0.601           0.541           0.526            0.504           0.497         0.513   0.547
+         1               0.617            0.689           0.597           0.549           0.492            0.505           0.513         0.533   0.580
+         2               0.618            0.674           0.574           0.534           0.514            0.517           0.524         0.538   0.568
+         3               0.620            0.642           0.577           0.538           0.506            0.509           0.519         0.532   0.570
+         5               0.617            0.600           0.540           0.510           0.499            0.508           0.514         0.531   0.571
+         7               0.579            0.553           0.519           0.498           0.498            0.509           0.521         0.532   0.568
+        10               0.284            0.496           0.495           0.487           0.504            0.519           0.530         0.544   0.590
+        12               0.191            0.466           0.486           0.487           0.512            0.529           0.544         0.555   0.614
+        15               0.289            0.446           0.482           0.490           0.523            0.540           0.556         0.567   0.614
+        20               0.496            0.442           0.486           0.501           0.547            0.568           0.585         0.605   0.642
+        25               0.655            0.497           0.524           0.537           0.582            0.603           0.621         0.640   0.684
+        30               0.775            0.586           0.585           0.593           0.633            0.654           0.667         0.683   0.719
+        40               0.917            0.734           0.726           0.727           0.750            0.766           0.778         0.784   0.820
+        50               0.945            0.837           0.831           0.834           0.853            0.869           0.881         0.886   0.912
+        60               0.976            0.906           0.907           0.912           0.931            0.942           0.960         0.964   0.974
+        70               0.981            0.929           0.954           0.964           0.989            1.001           1.008         1.004   1.011
+        75               0.947            0.938           0.961           0.978           1.006            1.021           1.029         1.024   1.033
+        80               0.992            0.955           0.959           0.972           1.017            1.035           1.046         1.037   1.043
+        85               1.007            0.973           0.960           0.982           0.998            1.030           1.041         1.036   1.043
+
+      ␾ an(r)            1.130            0.880           0.859           0.855           0.870            0.884           0.895         0.897   0.918
+
+
+
+
+metric model, % ␴ Y 兩 geo ; and the type A statistical uncertainty,                 mated here are standard uncertainties, having a coverage fac-
+% ␴ Y 兩 s inherent to the Monte Carlo technique. Applying Eq.                       tor of unity, approximating a 68% level of confidence.
+共15兲, one obtains
+                                                                                    1. ⌳ uncertainty
+   % ␴ Y ⫽ 冑% ␴ Y2 兩 ␮ ⫹% ␴ Y2 兩 geo⫹% ␴ Y2 兩 s
+
+                 冑冉 冊                 冉             冊
+                                                                                       The influence of cross-section uncertainty was derived
+                       ⳵Y 2             ⳵Y 2                                        from the Monte Carlo data published by Hedtjarn et al.42
+             ⫽       %      % ␴ ␮2 ⫹ %       % ␴ Y2 兩 geo⫹% ␴ Y2 兩 s ,
+                       ⳵␮              ⳵ geo                                        This paper gives Monte Carlo estimates of ⌳ and g(r) cal-
+                                                                                    culated for two different cross-section libraries, DLC-99
+                                                                          共16兲
+                                                                                    共circa 1983兲 and DLC-146 共1995兲. The photoelectric cross
+where the relative uncertainty propagation factor is defined                        sections of the two libraries differ by about 2% between
+as                                                                                  1– 40 keV, corresponding to a 1.1% change in ␮ for the mean
+       ⳵Y x ⳵Y                                                                      photon energy emitted by 125I. Using these data to numeri-
+   %     ⬅     .                                                          共17兲      cally estimate the derivative in Eq. 共17兲, one obtains
+       ⳵x Y ⳵x
+                                                                                    % ⳵ ⌳/ ⳵ ␮ ⫽0.68. Assuming that % ␴ ␮ ⫽2%, 43 then uncer-
+The variable x denotes either the cross-section value, ␮, or                        tainty in ⌳ due only to cross-section uncertainty, % ␴ ⌳ 兩 ␮ , is
+geometric dimension, geo, of interest. The uncertainties esti-                      1.4%.
+
+
+
+                        TABLE XI. F(r, ␪ ) for NASI model MED3633.
+
+                                                                                          r 关cm兴
+                        Polar angle
+                        ␪ 共degrees兲               0.25             0.5             1                2               5               10
+
+                             0                    1.024           0.667           0.566            0.589           0.609           0.733
+                            10                    0.888           0.581           0.536            0.536           0.569           0.641
+                            20                    0.850           0.627           0.603            0.614           0.652           0.716
+                            30                    0.892           0.748           0.729            0.734           0.756           0.786
+                            40                    0.931           0.838           0.821            0.824           0.837           0.853
+                            50                    0.952           0.897           0.890            0.891           0.901           0.905
+                            60                    0.971           0.942           0.942            0.940           0.948           0.939
+                            70                    0.995           0.976           0.974            0.973           0.980           0.974
+                            80                    1.003           0.994           0.997            0.994           1.000           0.986
+
+                          ␾ an(r)                 1.257           0.962           0.903            0.895           0.898           0.917
+
+
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 19 ===
+651        Rivard et al.: AAPM TG-43 update                                                                                                       651
+
+
+TABLE XIII. Recommended nuclear data for 125I and 103Pd for brachytherapy dosimetry.
+
+                        125                                                                       103
+                        I (half-life⫽59.40⫾0.01 days)                                               Pd (half-life⫽16.991⫾0.019 days)
+         Photon energy 共keV兲                Photons per disintegration                 Photon energy 共keV兲               Photons per disintegration
+
+           27.202                                          0.406                         20.074                                      0.224
+           27.472                                          0.757                         20.216                                      0.423
+           30.98                                           0.202                         22.72                                       0.104
+           31.71                                           0.0439                        23.18                                       0.0194
+           35.492                                          0.0668                        39.75                                       0.00068
+                                                                                        294.98                                       0.00003
+                                                                                        357.5                                        0.00022
+                                                                                        497.1                                        0.00004
+
+Weighted mean energy⫽28.37 keV                        Total⫽1.476               Weighted mean energy⫽20.74 keV                     Total⫽0.7714
+                                               ⫺1     ⫺1                                                                    ⫺1
+               125
+                     I ⌫ 5 keV⫽0.0355 ␮ Gy•m •h
+                                           2
+                                                    •Bq                                     103
+                                                                                               Pd ⌫ 5 keV⫽0.0361 ␮ Gy•m •h
+                                                                                                                        2
+                                                                                                                                 •Bq⫺1
+
+
+
+
+The parameter ḋ(r 0 , ␪ 0 ) is the dose rate per history esti-              mum of six data points to fully constrain the fit. Because
+mated using Monte Carlo methods at the reference position,                   these fits tend to perform poorly at small distances where the
+and s K is the air-kerma strength per history estimated using                dose rate is highest, care should be taken to assure the fit is in
+Monte Carlo methods. Note the lower-case notation used to                    good agreement at these positions. Acceptable levels of
+differentiate the normalized parameter, e.g., dose rate per his-             agreement are outlined in the following section 共Sec. V兲.
+tory (cGy h⫺1 history⫺1 ) as compared to absolute dose rate
+(cGy h⫺1 ). Although Monte Carlo studies are potentially
+free from experimental artifacts such as positioning uncer-                  4. 2D anisotropy function
+tainties, energy response corrections, and signal-to-noise ra-
+tio limitations, such simulations require an accurate and                        When reporting 2D anisotropy function data, at a mini-
+complete geometric model of the source, selection of an ap-                  mum, F(r, ␪ ) should be tabulated at radial distances,
+propriate cross-section library, and careful selection of dose               r⫽ 兵 0.5, 1, 2, 3, 5, and 7 cm其 for 125I and 兵0.5, 1, 2, 3, and 5
+tallying 共estimation兲 and variance-reduction strategies. As                  cm其 for 103Pd, and from ␪⫽兵0° to 90° with 10° increments其
+with experimental studies, Monte Carlo-based dosimetry                       for all sources that are symmetric about the transverse plane.
+studies should include a complete uncertainty analysis such                  To minimize extrapolation errors 共see Appendix C兲, data
+as that provided in Sec. IV C.                                               should be determined over as wide a radial distance range as
+                                                                             reasonably possible given the experimental method or calcu-
+                                                                             lation technique. To minimize interpolation errors, data
+3. Radial dose function                                                      should also be obtained such that bilinear interpolation be-
+   The minimum distance range over which transverse-plane                    tween various F(r, ␪ ) data points produce errors less than
+dose-rate data shall be measured or calculated should be                     2%. When measuring 2D anisotropy function data with
+from 0.5 to 7 cm for 125I and from 0.5 to 5 cm for 103Pd.                    sources that are cylindrically symmetric and symmetric
+Special attention to accuracy and completeness should be                     about the transverse plane 共four identical quadrants兲, it is
+given to the 0.5 cm to 1.5 cm distance range, which is the                   recommended that investigators determine relative dose rates
+most critical for accurately calculating dose for typical pros-              a minimum of three times at each position analyzed. For
+tate and other volume implants and for accurately relating                   source designs that are asymmetric about the transverse
+absolute dose rates 共via the dose-rate constant兲 to the relative             plane or exhibit internal component shifts that may result in
+dose distribution. However, accurate dose characterization at                asymmetric dose distributions, F(r, ␪ ) should be similarly
+shorter distances is critical for some procedures 共e.g., epis-               tabulated, except with ␪⫽兵0° to 180° with 10° increments其.
+cleral eye plaque therapy兲 and for estimating hotspots in all                Because of the increased sampling capabilities using Monte
+implants. Accurate dose distributions at larger distances also               Carlo methods in comparison to experimental methods, in-
+contribute to overall dose-calculation accuracy and are im-                  vestigators using Monte Carlo methods should consider cal-
+portant for assessing dose to organs at risk. Thus dose rates                culating dose rates using much finer grids in high-gradient
+should be estimated down to the smallest distance supported                  regions such as near the source ends 共e.g., ␪ near 0° or
+by the methodology used. Some investigators have reported                    180°). Angular resolution of a few degrees near the ends
+g(r) data down to 1 mm or less. Monte Carlo simulation can                   may be needed, with 10° resolution elsewhere. For those
+easily estimate dose at submillimeter distances as well as                   source designs with anisotropic photon-fluence distributions
+distances of 10 to 15 cm. In addition, some investigators                    near the transverse plane, measurements and calculations
+have reported TLD or diode measurements at distances less                    having higher angular resolution are required to ensure that
+than 1 mm.                                                                   experimentally determined anisotropy functions are accu-
+   Since a fifth-order polynomial is frequently used for                     rately normalized and that air-kerma strength per simulated
+smoothing transverse-plane data, one should present a mini-                  history for Monte Carlo simulations is accurately calculated.
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 25 ===
+657        Rivard et al.: AAPM TG-43 update                                                                                                          657
+
+
+TABLE XV. Dose rates (cGy•h⫺1 •U⫺1 ) as a function of distance for 8 brachytherapy sources using the 1D dosimetry formalism of Eq. 共11兲 with interpolation
+for g L (r) and ␾ an(r).
+
+             Amersham         Amersham         Best model        NASI model          Bebig model       Imagyn model       Theragenics      NASI model
+r 共cm兲       model 6702       model 6711         2301           MED3631-A/M            I25.S06           IS-12501         model 200         MED3633
+
+   0.5         4.119            3.937            3.813             4.112               3.922              3.426            3.014             3.184
+   1.0         0.995            0.911            0.962             0.986               0.950              0.815            0.587             0.626
+   1.5         0.413            0.368            0.413             0.420               0.398              0.334            0.199             0.215
+   2.0         0.213            0.186            0.220             0.207               0.205              0.169            0.0837            0.0914
+   3.0         0.0768           0.0643           0.0783            0.0746              0.0733             0.0582           0.0206            0.0227
+   4.0         0.0344           0.0284           0.0347            0.0325              0.0323             0.0246           0.00634           0.00697
+   5.0         0.0169           0.0134           0.0171            0.0157              0.0157             0.0118           0.00221           0.00247
+   6.0         0.00890          0.00688          0.00908           0.00811             0.00840            0.00592          0.000846          0.000933
+   7.0         0.00490          0.00373          0.00506           0.00429             0.00459            0.00328          0.000342          0.000364
+
+
+
+
+algorithm and perform calculations using methods not based                        The dose rates calculated by the RTP system from a single
+upon Eqs. 共1兲, 共10兲, or 共11兲. In most cases, one can devise a                  source should be compared with the dose-rate distribution
+method to force the algorithm to generate the single-source                    derived from the tabulated parameters and equations pre-
+dose-rate distributions recommended here by using modified                     sented in this protocol. The user shall compare the RTP sys-
+values for the dosimetry parameters required by the RTP                        tem calculations with the dose-rate distributions derived
+system. This conversion should be performed with care. As                      from the appropriate 1D or 2D data tables from this protocol.
+with RTP systems based on the TG-43 dose calculation for-                      To facilitate this comparison, Table XV presents the
+malism, one should assure that the RTP system is generating                    transverse-plane dose rates 共incorporating the 1D anisotropy
+correct single-source dose-rate data by creating a single-                     function兲, derived from Eq. 共11兲 using the recommended
+source treatment plan with the modified parameters before                      data, as a function of distance for the brachytherapy sources
+clinical use. Meigooni et al. have described an example of                     included in this protocol. As has been recommended previ-
+this approach.99 The methods used to arrive at modified data,                  ously by the AAPM, this comparison should yield agreement
+as well as records of the evaluation of the RTP system,                        within ⫾2% over all angles and over the range of radial
+should be documented carefully and retained for use follow-                    distances commissioned.100–102
+ing installation of upgrades and for inspection by regulatory                     The user should determine the range of distances from the
+authorities. Extreme caution should be exercised whenever                      source over which the RTP calculations meet this recom-
+parameters should be entered or displayed that have units                      mended level of accuracy. Use of the RTP system should be
+that do not match the units on documentation printed by the                    limited to this range. If deviations between calculated results
+RTP system or displayed on its monitor. Procedures should                      and the published data 共such as that recommended in Table
+be developed and documented to describe exactly how the                        XV兲 exceed ⫾2%, the deficiencies of the RTP system
+modified data and parameters are related to the non-TG-43                      should be documented and further investigated by the user.
+parameters assumed by the RTP system. These procedures                         This is especially important for RTP systems that fit a model
+should address both clinical treatment planning practices and                  to published data, because such models are prone to large
+chart-checking procedures. Ratios of the unconventional                        errors outside the range of the reference data. In the high-
+units to the conventional units should be supplied, to facili-                 dose-gradient regions close to a source, particularly near the
+tate review of the planning method. Because this approach is                   ends of a source, the acceptable error may need to be larger.
+prone to errors in implementation or interpretation, this                      These deficiencies should be considered when evaluating
+method should be used as the last resort. The AAPM recom-                      treatment plans, and when considering the purchase of an
+mends using RTP systems that comply fully with the TG-43                       RTP system.
+formalism, whenever possible.                                                     To perform comparisons at the recommended level of pre-
+                                                                               cision, numerical point dose rates calculated by the RTP sys-
+                                                                               tem, rather than measured diameters of plotted isodose con-
+B. Acceptance testing and commissioning
+                                                                               tours, should be used. The user should evaluate any
+   Before a new RTP system or a new source model on an                         deviations from the recommended data, taking into consider-
+established RTP system is used for patient treatment plan-                     ation the uncertainty of calculations at very small distances.
+ning, thorough acceptance testing and commissioning shall                      The calculation matrix should be adjusted to a value appro-
+be carried out. The user should document the results of these                  priate for the high gradients near a source. For low-energy
+tests both for later reference, and for compliance with appli-                 photon-emitting sources, grid spacing should not exceed 1
+cable regulations. As a minimum, calculations of the dose-                     ⫻1⫻1 mm3 ; this size generally represents a reasonable
+rate distribution shall be performed for a single source of                    compromise between calculation speed and accuracy.
+each type to be used clinically. The recommendations of the                       Isodose curves should be generated as part of the commis-
+AAPM 共TG-40, TG-53, and TG-56兲 should be                                       sioning and continuing quality assurance procedures, but
+followed.100–102                                                               should be viewed as a test of the spatial accuracy of the
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 37 ===
+669        Rivard et al.: AAPM TG-43 update                                                                                                                 669
+
+
+standard兲 and in the re-entrant chamber 共NIST 1985 stan-                      mended for Eqs. 共6兲 and 共C1兲, and approach zero at large
+dard兲. The results indicate a combined ratio for the sources                  distances. Where measured and calculated Monte Carlo data
+of 0.897⫾0.028, in very good agreement with the determi-                      are not available, such as for RTP systems that require
+nation made in 1997–1998. This then confirmed the correct-                    F X (r, ␪ ) and g X (r) values at r⫽0, extrapolation using the
+ness of the WAFAC measurements in 2000–2001 and in                            aforementioned approach is recommended. While a first-
+1997–1998, and indicated that the problem was confined to                     order approach using linear extrapolation is also possible, the
+measurements made in 1999 共perhaps including late 1998兲.                      merits of this approach have not been demonstrated.
+   The conclusion is that NIST WAFAC measurements up to                           Calculation of G X (r, ␪ ) should employ Eq. 共4兲 down to
+mid-1998 and after January 1 2000 are correct, and that cur-                  distances on the order of the interval between adjacent cal-
+rent dose-rate constants for the 6702 and 6711 sources, based                 culation points. Daskalov et al. have found that the nearest
+on the ratio NIST1999/NIST1985⫽0.897, are valid. How-                         neighbor method introduces uncertainties ⬍2% for 0.1 cm
+ever, WAFAC air-kerma strengths measured in 1999 were                         along and away distances.154
+too large by 2% to 7%, and required dose-rate constant mea-
+surements normalized to NIST 1999 S K calibrations to be
+revised accordingly.130 All measured dose-rate constant data
+                                                                              2. Collaborative Ocular Melanoma Study dosimetry
+given in this protocol have been normalized to the S K,N99
+standard as corrected in January 2000.                                            In some specialized applications such as episcleral eye
+                                                                              plaque therapy, anisotropy corrections are prohibited when
+                                                                              following a protocol such as that published by the Collabo-
+                                                                              rative Ocular Melanoma Study 共COMS兲.11,65,155–158 In eye
+APPENDIX C: EVALUATION OF DOSE RATE AT                                        plaque therapy, the sources are placed in a nearly spherical
+SMALL AND LARGE DISTANCES                                                     cup and within the target volume most of the seeds contrib-
+    Care must be taken in evaluating dose rates at distances                  ute dose along their transverse directions. In this setup, the
+falling outside the range of tabulated data, r min and r max ,                target volume receives very little dose in the longitudinal
+especially at r⬍0.5 cm. While difficult to measure, modern                    directions of the sources. For practical reasons, the COMS
+Monte Carlo techniques can easily calculate dose rates at                     protocol has recommended that for dose calculation within
+distances as small as 0.1 cm from the center of the                           the target volume of eye plaque brachytherapy, the seeds can
+source.152,153 This protocol recommends that g X (r) data be                  be identified as point sources provided one uses the dose
+extracted and tabulated from Monte Carlo-derived dose rates                   rates on the transverse-plane alone. This procedure results in
+for r⭓0.1 cm if possible. F X (r, ␪ ) data are generally not                  the following expression for dose rate at different distances
+available, even from most Monte Carlo evaluations, at r                       from the sources. For distances smaller than r min , the nearest
+⬍0.25 cm. At shorter radii, points at small polar angles near                 neighbor approach should be used with the relevant r min
+0° and 180° are located inside the source capsule, implying                   value used in the radial dose function,
+that F X (r, ␪ ) cannot be readily defined over the full angular
+                                                                                                       G X 共 r, ␪ 0 兲
+interval 关 0°,90° 兴 . Essentially, the TG-43 formalism using a                   Ḋ 共 r 兲 ⫽S K •⌳•                      •g 共 r 兲          for r⬍r min . 共C2兲
+polar coordinate system breaks down at r⬍L/2. Users are                                                G X 共 r 0 , ␪ 0 兲 X min
+warned that when working at small distances it is essential to
+use the same geometry function and L for evaluating ab-                       3. 1D dose calculations
+sorbed dose as when used in the conversion of measured or
+                                                                                 When anisotropy corrections are needed, and optimal ac-
+Monte Carlo data in the TG-43 parameter ratios. Often,
+                                                                              curacy is desired at distances less than r min , the minimum
+F X (r, ␪ ) and g X (r) will exhibit nonphysical properties due to
+                                                                              distance for which ␾ an(r) is tabulated, the following model
+breakdown of the line-source G L (r, ␪ ) very near the source.
+                                                                              can be used to extrapolate dose to short distances:
+    Three separate scenarios are described in the following
+sections.                                                                                                   G X 共 r, ␪ 0 兲
+
+
+
+                                                                                              冦
+                                                                                                  S K •⌳•                   •g 共 r 兲 • ␾ an共 r 兲 ,   r⭓r min ,
+1. 2D dose calculations                                                                                     G X共 r 0 , ␪ 0 兲 X
+    Evaluation of the 2D dose calculation formalism for dis-
+tances r⬍r min or r⬎r max , should be made using the nearest
+                                                                                 Ḋ 共 r 兲 ⫽
+                                                                                                  S K •⌳•   冉 冊冉
+                                                                                                               r                     冊
+                                                                                                             r min 2 g L 共 r 兲 G X 共 r min , ␪ 0 兲
+                                                                                                                     g L 共 r min兲 G X 共 r 0 , ␪ 0 兲
+neighbor, zeroth-order approximation for selection of both
+                                                                                                    •g X 共 r min兲 • ␾ an共 r min兲 ,       r⬍r min.
+F X (r, ␪ ) and g X (r),                                                                                                                                   共C3兲
+
+
+
+                    再
+                                                                              For distances r⭓r min , X⫽ P and Eq. 共C3兲 is equivalent to
+                        interpolated value,          r min⭐r⭐r max ,
+                                                                              the standard 1 formula, Eq. 共10兲. The short-distance extrapo-
+   F X 共 r, ␪ 兲 ⫽       F X 共 r min , ␪ 兲 ,   r⬍r min ,                共C1兲   lation model (r⬍r min) is based on applying Williamson’s
+                        F X 共 r max , ␪ 兲 ,   r⬎r max.                        approximation, r ⫺2 • ␾
+                                                                                                    ¯ an⬇G(r, ␪ 0 )• ␾ an(r), to the short dis-
+                                                                              tance region, i.e., r ⫺2 • ␾ an(r min)⬇G(r,␪0)•␾an(r) for r
+                                                                              ⬍r min .44 When X⫽ P, the short-distance extrapolation
+g X (r) will follow the same extrapolation approach as recom-                 model simplifies as
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 38 ===
+670        Rivard et al.: AAPM TG-43 update                                                                                                 670
+
+
+
+   Ḋ 共 r 兲 ⫽S K •⌳•   冉 冊冉
+                       r 0 2 g L共 r 兲
+                        r    g L 共 r min兲  冊
+                                          •g P 共 r min兲 • ␾ an共 r min兲 ,           Ḋ 共 r 兲 ⫽S K •⌳•   冉冊
+                                                                                                        r0 2
+                                                                                                        r
+                                                                                                             •g P 共 r 兲 • ␾
+                                                                                                                          ¯ an .
+
+   r⬍r min .                                                           共C4兲   or
+
+No matter how sophisticated an extrapolation model is cho-                                             G L 共 r, ␪ 0 兲
+                                                                                   D 共 r 兲 ⫽S K •⌳•                    •g 共 r 兲 • ␾
+                                                                                                                                  ¯ an .   共D3兲
+sen, users should realize that at r⬍0.25 cm where ␾ an(r)                                              G L共 r 0 , ␪ 0 兲 L
+data may not be available due to lack of assessment or due to
+positioning within the capsule, none of the 1D models de-                     APPENDIX E: APPARENT ACTIVITY
+scribed above yield quantitatively meaningful estimates of
+                                                                                  The quantity apparent activity, A app , is defined as the ac-
+the solid angle-weighted average dose.
+                                                                              tivity of an unfiltered point source of a given radionuclide
+                                                                              that has the same air-kerma strength as that of the given
+                                                                              encapsulated source. It has been widely used by vendors and
+APPENDIX D: ANISOTROPY CONSTANT                                               customers alike to specify the strength of sealed radioactive
+                                                                              sources such as 125I, 103Pd and 198Au. Furthermore, A app is
+   The definition of the anisotropy constant, ␾¯ an , largely re-             used in the treatment planning of permanent implants using
+mains the same as that presented in TG-43, and is expanded                    103
+                                                                                 Pd and 125I interstitial sources. Using the apparent activity
+upon. Use of ␾ ¯ an , as commonly practiced at this time, does                as a method of source strength specification suffers from a
+not exactly reproduce either the measured or Monte Carlo                      number of problems. For example, vendors using apparent
+dosimetry data for r⬍1 cm. Therefore, it is strongly recom-                   activity to report source strength in essence convert a state-
+mended that users utilize ␾ an(r) and Eq. 共11兲, or compensate                 ment of source output, e.g., S K , into A app by dividing S K by
+for treatment planning inadequacies using the method out-                     an assumed value of the exposure rate constant (⌫ ␦ ) X . To
+lined in Eq. 共14兲, for implementing 1D dosimetry formalism.                   calculate absorbed dose in a medium around such sources,
+   For those users who insist on using ␾  ¯ an , the following                users shall multiply the vendor supplied A app value by the
+implementation will minimize dose-calculation errors at                       same (⌫ ␦ ) X value. Although (⌫ ␦ ) X is a clearly defined physi-
+small distances, e.g., r⭐1 cm:                                                cal concept, it has no meaningful physical role in the dosim-
+
+
+                       冉冊
+                                                                              etry of output calibrated sources. Continued use of such
+                       r0 2                                                   dummy constants constitutes a significant potential source of
+   Ḋ 共 r 兲 ⫽S K •⌳•        •g L 共 r 兲 • ␾
+                                         ¯ an .                        共D1兲
+                       r                                                      dosimetric error since the user may choose the wrong (⌫ ␦ ) X
+                                                                              value. It is essential that users employ the same (⌫ ␦ ) X values
+For this purpose, the inverse-square law weighted average of
+                                                                              as the manufacturer for dosimetric calculations rather than
+␾ an(r) for r⬎1 cm should be used,
+                                                                              more physically accurate or definitive values taken from the
+                    ␾ r •r ⫺2
+            r                                                                 recent literature.
+           兺 r⭓1
+              max
+                  cm an共 兲
+   ␾
+   ¯ an⫽                            .                                  共D2兲       In 1999, NIST implemented a new primary standard for
+                          r ⫺2
+                  r
+                兺 r⭓1
+                   max
+                       cm                                                     air-kerma strength.8 The AAPM has consistently taken the
+For instances where ␾ an(r) data are not available over con-                  position that S K should be the quantity used for specifying
+stant increments of r, linear interpolation of ␾ an(r) may be                 brachytherapy source strength for the purpose of defining
+                                                                              calibration standards, documenting source strength on cali-
+used for derivation of ␾       ¯ an . The constraint on r is needed
+                                                                              bration reports and for all aspects of dose calculation and
+because dose distributions near typical brachytherapy
+                                                                              treatment prescription. Both users and vendors shall take ap-
+sources generally take the shape of prolate ellipsoids due to
+                                                                              propriate steps to adopt this new source-strength standard
+the dominating effects of solid angle. This is because F(r, ␪ )
+                                                                              correctly. To facilitate an unambiguous conversion of source
+excludes dose fall-off already included by the geometry
+                                                                              strength estimates and for transitional practice, the LIBD has
+function, and ␾ an(r) 共and subsequently ␾        ¯ an) do not. There-
+                                                                              recommended a set of data and equations for the conversion
+fore, ␾ an(r) rapidly increases as r⬍2L, and can assume val-                  of (S K /A app) for 125I and 103Pd interstitial brachytherapy
+ues much larger than unity. While nonintuitive, the use of                    sources. For all 125I and 103Pd sources, regardless of internal
+g L (r) with the point-source geometry function in Eq. 共D1兲                   construction, the values of (⌫ ␦ ) X recommended were 1.45
+better approximates the average dose at small distances than                  and 1.476 R cm2 mCi⫺1 h⫺1 , respectively. When implement-
+the superficially more consistent expression g X (r)                          ing the TG-43 formalism based upon apparent activity speci-
+                ¯ an•G X (r 0 , ␪ 0 ) ⫺1 again due to the ellipsoidal
+•G X (r, ␪ 0 )• ␾                                                             fication, the recommended (S K /A app) conversion coefficients
+shape of the isodose surfaces. Thus r ⫺2 • ␾           ¯ an⬇G(r, ␪ 0 )        were 1.270 and 1.293 ␮ Gy m2 h⫺1 mCi⫺1 for 125I and 103Pd,
+• ␾ an(r). For sources with L⬇0.3 cm, this approximation is                   respectively. The authors discussed the importance of using a
+sufficiently good that errors introduced are often less than                  consistent set of values for the exposure rate constant (⌫ ␦ ) X
+5% at distances ⬍0.3 cm. 150–152 However, Williamson dem-                     for the evaluation of (S K /A app). 8 For example, adopting
+onstrated that Eq. 共D1兲 can produce much larger errors for                    S K -to-A app conversion coefficients derived from modern
+low-energy sources with longer effective active lengths.44                    (⌫ ␦ ) X values, different from the ones used by the authors;
+Because of this short-distance behavior, the following forms                  would require all users and vendors to redefine the relation-
+should not be used at r⬍0.5 cm:                                               ship between S K and A app ; would require updating of dosi-
+
+Medical Physics, Vol. 31, No. 3, March 2004
+
+=== PDF PAGE 40 ===
+672        Rivard et al.: AAPM TG-43 update                                                                                                                672
+
+37                                                                                60
+   J. F. Williamson, ‘‘Comparison of measured and calculated dose rates in           S.-T. Chiu-Tsao and L. L. Anderson, ‘‘Thermoluminescent dosimetry for
+   water near I-125 and Ir-192 seeds,’’ Med. Phys. 18, 776 –786 共1991兲.              103
+                                                                                        Pd seeds 共model 200兲 in solid water phantom,’’ Med. Phys. 18, 449–
+38
+   D. M. Gearheart, A. Drogin, K. Sowards, A. S. Meigooni, and G. S.                 452 共1991兲.
+                                                                                  61
+   Ibbott, ‘‘Dosimetric characteristics of a new 125I brachytherapy source,’’        A. S. Meigooni, V. Mishra, H. Panth, and J. F. Williamson, ‘‘Instrumen-
+   Med. Phys. 27, 2278 –2285 共2000兲.                                                 tation and dosimeter-size artifacts in quantitative thermoluminescent do-
+39
+   R. Nath and N. Yue, ‘‘Dose distribution along the transverse axis of a new        simetry of low-dose fields,’’ Med. Phys. 22, 555–561 共1995兲.
+   125                                                                            62
+      I source for interstitial brachytherapy,’’ Med. Phys. 27, 2536 –2540           L. da Rosa and H. Nette, ‘‘Thermoluminescent dosimeters for exposure
+   共2000兲.                                                                           assessment in gamma or x radiation fields with unknown spectral distri-
+40
+   J. I. Monroe and J. F. Williamson, ‘‘Monte Carlo-aided dosimetry of the           bution,’’ Appl. Radiat. Isot. 39, 191–197 共1988兲.
+                                                                                  63
+   Theragenics TheraSeed® Model 200 103Pd interstitial brachytherapy                 R. K. Das, Z. Li, H. Perera, and J. F. Williamson, ‘‘Accuracy of Monte
+   seed,’’ Med. Phys. 29, 609– 621 共2002兲.                                           Carlo photon transport simulation in characterizing brachytherapy dosim-
+41
+   B. N. Taylor and C. E. Kuyatt, ‘‘Guidelines for evaluating and expressing         eter energy response artifacts,’’ Phys. Med. Biol. 41, 995–1006 共1996兲.
+                                                                                  64
+   the uncertainty of NIST measurement results,’’ NIST Technical Note                J. F. Williamson, J. F. Dempsey, A. S. Kirov, J. I. Monroe, W. R. Binns,
+   1297 共U.S. Government Printing Office, Washington, DC, 1994兲.                     and H. Hedtjärn, ‘‘Plastic scintillator response to low-energy photons,’’
+42
+   H. Hedtjarn, G. A. Carlsson, and J. F. Williamson, ‘‘Monte Carlo-aided            Phys. Med. Biol. 44, 857– 872 共1999兲.
+                                                                                  65
+   dosimetry of the Symmetra model 125.S06 125I, interstitial brachytherapy          M. Schell, C. C. Ling, Z. C. Gromadzki, and K. R. Working, ‘‘Dose
+   seed,’’ Med. Phys. 27, 1076 –1085 共2000兲.                                         distributions of model 6702 I-125 seeds in water,’’ Int. J. Radiat. Oncol.,
+43
+   J. H. Hubbell, ‘‘Review of photon interaction cross section data in the           Biol., Phys. 13, 795–799 共1987兲.
+   medical and biological context,’’ Phys. Med. Biol. 44, R1–R2 共1999兲.           66
+                                                                                     S-T. Chiu-Tsao, L. L. Anderson, K. O’Brien, and R. Sanna, ‘‘Dose rate
+44
+   J. F. Williamson, ‘‘Dosimetric characteristics of the DraxImage Model             determination for 125I seeds,’’ Med. Phys. 17, 815– 825 共1990兲.
+                                                                                  67
+   LS-1 I-125 interstitial brachytherapy source design: A Monte Carlo in-            A. Piermattei, L. Azario, G. Monaco, A. Soriani, and G. Arcovito, ‘‘
+   vestigation,’’ Med. Phys. 29, 509–521 共2002兲.                                     p-type silicon detector for brachytherapy dosimetry,’’ Med. Phys. 22,
+45
+   M. J. Rivard, ‘‘Monte Carlo calculations of AAPM Task Group Report                835– 839 共1995兲.
+                                                                                  68
+   No. 43 dosimetry parameters for the MED3631-A/M 125I source,’’ Med.               J. F. Williamson, H. Perera, Z. Li, and W. R. Lutz, ‘‘Comparison of
+   Phys. 28, 629– 637 共2001兲.                                                        calculated and measured heterogeneity correction factors for 125I, 137Cs,
+46
+   J. F. Williamson, ‘‘Monte Carlo modeling of the transverse-axis dose              and 192Ir brachytherapy sources near localized heterogeneities,’’ Med.
+   distribution of the Model 200 103Pd interstitial brachytherapy source,’’          Phys. 20, 209–222 共1993兲.
+   Med. Phys. 27, 643– 654 共2000兲.                                                69
+                                                                                     M. Ahmad, D. P. Fontenla, S-T. Chiu-Tsao, C. S. Chui, J. E. Reiff, L. L.
+47
+   M. S. Levenson, D. L. Banks, K. R. Eberhardt, L. M. Gill, W. F. Guthrie,          Anderson, D. Y. C. Huang, and M. C. Schell, ‘‘Diode dosimetry of mod-
+   H. K. Liu, M. G. Vangel, J. H. Yen, and N. F. Zhang, ‘‘An approach to             els 6711 and 6712 125I seeds in a water phantom,’’ Med. Phys. 19, 391–
+   combining results from multiple methods motivated by the ISO GUM,’’               399 共1992兲.
+   J. Res. Natl. Inst. Stand. Technol. 105, 571–579 共2000兲.                       70
+                                                                                     C. C. Ling, M. C. Schell, and E. D. Yorke, ‘‘Two-dimensional dose dis-
+48
+   Z. Li, J. J. Fan, and J. R. Palta, ‘‘Experimental measurements of dosim-          tribution of 125I seeds,’’ Med. Phys. 12, 652– 655 共1985兲.
+   etric parameters on the transverse axis of a new 125I source,’’ Med. Phys.     71
+                                                                                     T. D. Bohm, D. W. Pearson, and R. K. Das, ‘‘Measurements and Monte
+   27, 1275–1280 共2000兲.                                                             Carlo calculations to determine the absolute detector response of radio-
+49
+   Z. Li, J. F. Williamson, and H. Perera, ‘‘Monte Carlo calculation of              chromic film for brachytherapy dosimetry,’’ Med. Phys. 28, 142–146
+   kerma-to-a-point in the vicinity of media interfaces,’’ Phys. Med. Biol.          共2001兲.
+   38, 1825–1840 共1993兲.                                                          72
+                                                                                     A. Niroomand-Rad, C. R. Blackwell, B. M. Coursey, K. P. Gall, J. M.
+50
+   T. Kron, L. DeWerd, P. Mobit, J. Muniz, A. Pradhan, M. Toivonen, and              Galvin, W. L. McLaughlin, A. S. Meigooni, R. Nath, J. E. Rogers, and C.
+   M. Waligorski, ‘‘A checklist for reporting of thermoluminescence dosim-           G. Soares, ‘‘Radiochromic film dosimetry: Recommendations of AAPM
+   etry 共TLD兲 measurements,’’ Phys. Med. Biol. 44, L15–L17 共1999兲.                   Radiation Therapy Committee Task Group 55,’’ Med. Phys. 25, 2093–
+51
+   J. F. Williamson, ‘‘Monte Carlo evaluation of specific dose constants in          2115 共1998兲.
+   water for 125I seeds,’’ Med. Phys. 15, 686 – 694 共1988兲.                       73
+                                                                                     D. Flühs, M. Heintz, F. Indenkämpen, C. Wieczorek, H. Kolanoski, and
+52
+   National Nuclear Data Center. Nuclear data from NuDat, a web-based                U. Quast, ‘‘Direct reading measurement of absorbed dose with plastic
+   database maintained by the National Nuclear Data Center, Brookhaven               scintillators—The general concept and applications to ophthalmic plaque
+   National Laboratory, Upton, NY, USA; last database update reported as             dosimetry,’’ Med. Phys. 23, 427– 434 共1996兲.
+                                                                                  74
+   August 12, 2000; http://www.nndc.bnl.gov/nndc/nudat/ last accessed Feb-           A. S. Kirov, C. Hurlbut, J. F. Dempsey, S. B. Shrinivas, J. W. Epstein, W.
+   ruary 17, 2004.                                                                   R. Binns, P. F. Dowkontt, and J. F. Williamson, ‘‘Towards two-
+53
+   Lund/LBNL Nuclear Data Search 共1999兲. Version 2.0, February 1999, by              dimensional brachytherapy dosimetry using plastic scintillator: New
+   S. Y. F. Chu, L. P. Ekström, and R. B. Firestone, providing the WWW              highly efficient water equivalent plastic scintillator materials,’’ Med.
+   Table of Radioactive Isotopes, maintained by the Lawrence Berkeley                Phys. 26, 1515–1523 共1999兲.
+                                                                                  75
+   National Laboratory, Berkeley, CA, USA, and the Department of Physics,            S-T. Chiu-Tsao, A. de la Zerda, J. Lin, and J. H. Kim, ‘‘High-sensitivity
+   Lund University, Sweden; http://nucleardata.nuclear.lu.se/nucleardata/toi/        GafChromic film dosimetry for 125I seed,’’ Med. Phys. 21, 651– 657
+   last accessed February 17, 2004.                                                  共1994兲.
+54                                                                                76
+   S. M. Seltzer, ‘‘Calculation of photon mass energy-transfer and mass              J. F. Dempsey, D. A. Low, A. S. Kirov, and J. F. Williamson, ‘‘Quantita-
+   energy-absorption coefficients,’’ Radiat. Res. 136, 147–170 共1993兲.               tive optical densitometry with scanning-laser film digitizers,’’ Med. Phys.
+55
+   S. M. Seltzer and J. H. Hubbell, ‘‘Tables and graphs of mass attenuation          26, 1721–1731 共1999兲.
+                                                                                  77
+   coefficients and mass energy-absorption coefficients for photon energies          G. H. Chan and W. V. Prestwich, ‘‘Dosimetric properties of the new 125I
+   1 keV to 20 MeV for elements Z⫽1 to 92 and some dosimetric materi-                BrachySeed™ model LS-1 source,’’ Med. Phys. 29, 190–200 共2002兲.
+   als,’’ Japanese Society of Radiological Technology, ISSN 1340-7716             78
+                                                                                     M. J. Maryanski, G. S. Ibbott, P. Eastman, R. J. Schulz, and J. C. Gore,
+   共1995兲.                                                                           ‘‘Radiation therapy dosimetry using magnetic resonance imaging of poly-
+56
+   M. J. Rivard, D. S. Waid, and J. G. Wierzbicki, ‘‘Mass attenuation coef-          mer gels,’’ Med. Phys. 23, 699–705 共1996兲.
+   ficients of Clear-Pb® for photons from 125I, 103Pd, 99mTc, 192Ir, 137Cs, and   79
+                                                                                     M. F. Chan, A. Y. C. Fung, Y-C. Hu, C-S. Chui, H. Amols, M. Zaider, and
+   60
+     Co,’’ Health Phys. 77, 571–578 共1999兲.                                          D. Abramson, ‘‘The measurement of three dimensional dose distribution
+57
+   ICRU 37 Stopping Powers for Electrons and Positrons, International                of a ruthenium-106 ophthalmological applicator using magnetic reso-
+   Commission on Radiation Units and Measurements 共ICRU 37, Bethesda,                nance imaging of BANG polymer gels,’’ J. Appl. Clin. Med. Phys. 2,
+   MD, 1989兲.                                                                        85– 89 共2001兲.
+58                                                                                80
+   Private communication with Steve Seltzer of NIST, September 13, 2001.             B. F. Hasson, ‘‘Chemical dosimetry in the near-zone of brachytherapy
+59
+   N. S. Patel, S-T. Chiu-Tsao, J. F. Williamson, P. Fan, T. Duckworth, D.           sources,’’ Med. Phys. 25, 2076 共1998兲.
+                                                                                  81
+   Shasha, and L. B. Harrison, ‘‘Thermoluminescent dosimetry of the Sym-             A. S. Meigooni, Z. Bharucha, M. Yoe-Sein, and K. Sowards, ‘‘Dosimetric
+   metra™ 125I model I25.S06 interstitial brachytherapy seed,’’ Med. Phys.           characteristics of the Best® double-wall 103Pd brachytherapy source,’’
+   28, 1761–1769 共2001兲.                                                             Med. Phys. 28, 2568 –2575 共2001兲.
+
+
+Medical Physics, Vol. 31, No. 3, March 2004
+

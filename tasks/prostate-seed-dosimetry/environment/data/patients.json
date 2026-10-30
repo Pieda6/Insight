@@ -1,0 +1,302 @@
+[
+ {
+  "patient_id": "PT-001",
+  "implant": "2026-06-14 11:01",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-002",
+  "implant": "2026-03-16 08:06",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-003",
+  "implant": "2026-02-28 08:29",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-004",
+  "implant": "2026-06-09 14:39",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-005",
+  "implant": "2026-11-09 10:36",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-006",
+  "implant": "2026-11-03 14:05",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-007",
+  "implant": "2026-02-27 07:30",
+  "prescription_gy": 125
+ },
+ {
+  "patient_id": "PT-008",
+  "implant": "2026-03-06 10:26",
+  "prescription_gy": 125
+ },
+ {
+  "patient_id": "PT-009",
+  "implant": "2026-06-05 07:31",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-010",
+  "implant": "2026-11-08 09:44",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-011",
+  "implant": "2026-11-03 10:25",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-012",
+  "implant": "2026-10-29 10:01",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-013",
+  "implant": "2026-06-04 11:22",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-014",
+  "implant": "2026-03-18 12:51",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-015",
+  "implant": "2026-06-11 15:39",
+  "prescription_gy": 125
+ },
+ {
+  "patient_id": "PT-016",
+  "implant": "2026-11-04 14:35",
+  "prescription_gy": 125
+ },
+ {
+  "patient_id": "PT-017",
+  "implant": "2026-06-17 15:17",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-018",
+  "implant": "2026-06-06 07:57",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-019",
+  "implant": "2026-06-22 10:40",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-020",
+  "implant": "2026-06-12 15:47",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-021",
+  "implant": "2026-06-21 08:25",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-022",
+  "implant": "2026-11-03 11:45",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-023",
+  "implant": "2026-06-11 07:30",
+  "prescription_gy": 125
+ },
+ {
+  "patient_id": "PT-024",
+  "implant": "2026-03-10 10:38",
+  "prescription_gy": 125
+ },
+ {
+  "patient_id": "PT-025",
+  "implant": "2026-03-07 14:32",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-026",
+  "implant": "2026-11-04 07:39",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-027",
+  "implant": "2026-02-25 07:34",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-028",
+  "implant": "2026-10-26 15:29",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-029",
+  "implant": "2026-02-28 11:57",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-030",
+  "implant": "2026-06-08 11:34",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-031",
+  "implant": "2026-06-16 14:58",
+  "prescription_gy": 125
+ },
+ {
+  "patient_id": "PT-032",
+  "implant": "2026-06-13 15:40",
+  "prescription_gy": 125
+ },
+ {
+  "patient_id": "PT-033",
+  "implant": "2026-11-11 12:16",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-034",
+  "implant": "2026-10-26 07:31",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-035",
+  "implant": "2026-06-09 14:50",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-036",
+  "implant": "2026-11-11 11:31",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-037",
+  "implant": "2026-06-24 08:59",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-038",
+  "implant": "2026-10-31 08:35",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-039",
+  "implant": "2026-10-21 09:17",
+  "prescription_gy": 125
+ },
+ {
+  "patient_id": "PT-040",
+  "implant": "2026-11-08 15:30",
+  "prescription_gy": 125
+ },
+ {
+  "patient_id": "PT-041",
+  "implant": "2026-03-18 12:35",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-042",
+  "implant": "2026-11-06 13:33",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-043",
+  "implant": "2026-11-04 12:02",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-044",
+  "implant": "2026-06-06 08:57",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-045",
+  "implant": "2026-03-04 07:07",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-046",
+  "implant": "2026-06-14 14:17",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-047",
+  "implant": "2026-03-07 10:15",
+  "prescription_gy": 125
+ },
+ {
+  "patient_id": "PT-048",
+  "implant": "2026-06-08 13:41",
+  "prescription_gy": 125
+ },
+ {
+  "patient_id": "PT-049",
+  "implant": "2026-06-12 08:29",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-050",
+  "implant": "2026-10-27 14:13",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-051",
+  "implant": "2026-06-04 07:40",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-052",
+  "implant": "2026-06-17 13:05",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-053",
+  "implant": "2026-10-23 09:21",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-054",
+  "implant": "2026-06-15 08:14",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-055",
+  "implant": "2026-03-18 15:49",
+  "prescription_gy": 125
+ },
+ {
+  "patient_id": "PT-056",
+  "implant": "2026-11-09 14:57",
+  "prescription_gy": 125
+ },
+ {
+  "patient_id": "PT-057",
+  "implant": "2026-11-12 12:03",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-058",
+  "implant": "2026-11-03 13:43",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-059",
+  "implant": "2026-06-08 08:41",
+  "prescription_gy": 145
+ },
+ {
+  "patient_id": "PT-060",
+  "implant": "2026-11-12 08:29",
+  "prescription_gy": 145
+ }
+]

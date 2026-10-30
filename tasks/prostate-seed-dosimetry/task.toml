@@ -1,0 +1,29 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/prostate-seed-dosimetry"
+description = "Post-implant dosimetry of 60 permanent prostate seed implants (eight iodine-125 and palladium-103 seed models) under the AAPM TG-43U1 protocol: from CT end-marker positions of 2,934 seeds, vendor certificates in air-kerma strength per seed, per batch or apparent activity with the vendor's exposure-rate constant, calibration times with UTC offsets and New York local implant times across daylight-saving changes, and duplicate detections, compute the total dose to complete decay at 1,080 urethra, rectum and prostate points with the 2D line-source formalism and the report's consensus datasets and rules for data outside the tables."
+
+[metadata]
+domain = "Science"
+field = "Medicine"
+subfield = "Medical Physics and Radiation Oncology"
+tags = ["medical-physics", "brachytherapy", "tg-43", "dosimetry", "prostate-cancer", "radiation-oncology", "python"]
+expert_time_estimate_hours = 8
+relevant_experience = "Clinical medical physics in brachytherapy: TG-43U1 dose calculation with the 2D line-source formalism and consensus datasets, source strength specification (air-kerma strength and apparent activity), radioactive decay of permanent implants, and post-implant CT dosimetry of prostate seed implants."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0

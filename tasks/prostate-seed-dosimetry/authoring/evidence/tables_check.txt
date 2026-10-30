@@ -1,0 +1,81 @@
+6702 g_L [0.1, 1.02] ... [10.0, 0.0979] (16 values) F r [0.5, 1.0, 2.0, 3.0, 4.0, 5.0] theta [0.0, 5.0, 10.0, 15.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0]
+6711 g_L [0.1, 1.055] ... [10.0, 0.0803] (16 values) F r [0.5, 1.0, 2.0, 3.0, 4.0, 5.0] theta [0.0, 5.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0]
+2301 g_L [0.1, 1.033] ... [10.0, 0.103] (16 values) F r [1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0] theta [0.0, 5.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0]
+MED3631-A/M g_L [0.25, 0.998] ... [7.0, 0.211] (11 values) F r [0.25, 0.5, 1.0, 2.0, 5.0, 10.0] theta [0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0]
+I25.S06 g_L [0.1, 1.01] ... [10.0, 0.0957] (16 values) F r [0.25, 0.5, 1.0, 2.0, 3.0, 4.0, 5.0, 7.0] theta [0.0, 5.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0]
+IS-12501 g_L [0.1, 1.022] ... [10.0, 0.075] (16 values) F r [1.0, 2.0, 3.0, 5.0, 7.0] theta [0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0]
+200 g_L [0.1, 0.911] ... [10.0, 0.00615] (18 values) F r [0.25, 0.5, 0.75, 1.0, 2.0, 3.0, 4.0, 5.0, 7.5] theta [0.0, 1.0, 2.0, 3.0, 5.0, 7.0, 10.0, 12.0, 15.0, 20.0, 25.0, 30.0, 40.0, 50.0, 60.0, 70.0, 75.0, 80.0, 85.0]
+MED3633 g_L [0.25, 1.331] ... [7.0, 0.028] (15 values) F r [0.25, 0.5, 1.0, 2.0, 5.0, 10.0] theta [0.0, 10.0, 20.0, 30.0, 40.0, 50.0, 60.0, 70.0, 80.0]
+r= 0.5 6702         computed 4.1192 printed 4.119 rel 0.0000
+r= 0.5 6711         computed 3.937 printed 3.937 rel 0.0000
+r= 0.5 2301         computed 3.8127 printed 3.813 rel 0.0001
+r= 0.5 MED3631-A/M  computed 4.1124 printed 4.112 rel 0.0001
+r= 0.5 I25.S06      computed 3.9217 printed 3.922 rel 0.0001
+r= 0.5 IS-12501     computed 3.4262 printed 3.426 rel 0.0001
+r= 0.5 200          computed 3.0135 printed 3.014 rel 0.0002
+r= 0.5 MED3633      computed 3.1607 printed 3.184 rel 0.0073
+r= 1.0 6702         computed 0.99456 printed 0.995 rel 0.0004
+r= 1.0 6711         computed 0.91096 printed 0.911 rel 0.0000
+r= 1.0 2301         computed 0.96201 printed 0.962 rel 0.0000
+r= 1.0 MED3631-A/M  computed 0.98627 printed 0.986 rel 0.0003
+r= 1.0 I25.S06      computed 0.95027 printed 0.95 rel 0.0003
+r= 1.0 IS-12501     computed 0.81498 printed 0.815 rel 0.0000
+r= 1.0 200          computed 0.58653 printed 0.587 rel 0.0008
+r= 1.0 MED3633      computed 0.62126 printed 0.626 rel 0.0076
+r= 1.5 6702         computed 0.41327 printed 0.413 rel 0.0006
+r= 1.5 6711         computed 0.36855 printed 0.368 rel 0.0015
+r= 1.5 2301         computed 0.41294 printed 0.413 rel 0.0002
+r= 1.5 MED3631-A/M  computed 0.41997 printed 0.42 rel 0.0001
+r= 1.5 I25.S06      computed 0.39794 printed 0.398 rel 0.0001
+r= 1.5 IS-12501     computed 0.33388 printed 0.334 rel 0.0004
+r= 1.5 200          computed 0.19856 printed 0.199 rel 0.0022
+r= 1.5 MED3633      computed 0.21336 printed 0.215 rel 0.0076
+r= 2.0 6702         computed 0.21348 printed 0.213 rel 0.0022
+r= 2.0 6711         computed 0.18582 printed 0.186 rel 0.0010
+r= 2.0 2301         computed 0.21967 printed 0.22 rel 0.0015
+r= 2.0 MED3631-A/M  computed 0.20683 printed 0.207 rel 0.0008
+r= 2.0 I25.S06      computed 0.20513 printed 0.205 rel 0.0007
+r= 2.0 IS-12501     computed 0.16943 printed 0.169 rel 0.0026
+r= 2.0 200          computed 0.083718 printed 0.0837 rel 0.0002
+r= 2.0 MED3633      computed 0.090719 printed 0.0914 rel 0.0075
+r= 3.0 6702         computed 0.076806 printed 0.0768 rel 0.0001
+r= 3.0 6711         computed 0.064257 printed 0.0643 rel 0.0007
+r= 3.0 2301         computed 0.078316 printed 0.0783 rel 0.0002
+r= 3.0 MED3631-A/M  computed 0.074561 printed 0.0746 rel 0.0005
+r= 3.0 I25.S06      computed 0.073324 printed 0.0733 rel 0.0003
+r= 3.0 IS-12501     computed 0.058194 printed 0.0582 rel 0.0001
+r= 3.0 200          computed 0.020615 printed 0.0206 rel 0.0007
+r= 3.0 MED3633      computed 0.022547 printed 0.0227 rel 0.0067
+r= 4.0 6702         computed 0.034398 printed 0.0344 rel 0.0001
+r= 4.0 6711         computed 0.028407 printed 0.0284 rel 0.0002
+r= 4.0 2301         computed 0.034711 printed 0.0347 rel 0.0003
+r= 4.0 MED3631-A/M  computed 0.032506 printed 0.0325 rel 0.0002
+r= 4.0 I25.S06      computed 0.03229 printed 0.0323 rel 0.0003
+r= 4.0 IS-12501     computed 0.024577 printed 0.0246 rel 0.0009
+r= 4.0 200          computed 0.0063411 printed 0.00634 rel 0.0002
+r= 4.0 MED3633      computed 0.0069199 printed 0.00697 rel 0.0072
+r= 5.0 6702         computed 0.016922 printed 0.0169 rel 0.0013
+r= 5.0 6711         computed 0.013358 printed 0.0134 rel 0.0031
+r= 5.0 2301         computed 0.017062 printed 0.0171 rel 0.0022
+r= 5.0 MED3631-A/M  computed 0.015734 printed 0.0157 rel 0.0022
+r= 5.0 I25.S06      computed 0.015731 printed 0.0157 rel 0.0020
+r= 5.0 IS-12501     computed 0.011845 printed 0.0118 rel 0.0038
+r= 5.0 200          computed 0.0022141 printed 0.00221 rel 0.0018
+r= 5.0 MED3633      computed 0.0024556 printed 0.00247 rel 0.0058
+r= 6.0 6702         computed 0.0089042 printed 0.0089 rel 0.0005
+r= 6.0 6711         computed 0.0068817 printed 0.00688 rel 0.0002
+r= 6.0 2301         computed 0.0090824 printed 0.00908 rel 0.0003
+r= 6.0 MED3631-A/M  computed 0.0081063 printed 0.00811 rel 0.0005
+r= 6.0 I25.S06      computed 0.0083967 printed 0.0084 rel 0.0004
+r= 6.0 IS-12501     computed 0.0059207 printed 0.00592 rel 0.0001
+r= 6.0 200          computed 0.0008435 printed 0.000846 rel 0.0030
+r= 6.0 MED3633      computed 0.00092632 printed 0.000933 rel 0.0072
+r= 7.0 6702         computed 0.0048965 printed 0.0049 rel 0.0007
+r= 7.0 6711         computed 0.0037266 printed 0.00373 rel 0.0009
+r= 7.0 2301         computed 0.0050571 printed 0.00506 rel 0.0006
+r= 7.0 MED3631-A/M  computed 0.0042893 printed 0.00429 rel 0.0002
+r= 7.0 I25.S06      computed 0.0045922 printed 0.00459 rel 0.0005
+r= 7.0 IS-12501     computed 0.0032849 printed 0.00328 rel 0.0015
+r= 7.0 200          computed 0.00034002 printed 0.000342 rel 0.0058
+r= 7.0 MED3633      computed 0.0003611 printed 0.000364 rel 0.0080
+Table XV agreement: worst relative difference 0.0080

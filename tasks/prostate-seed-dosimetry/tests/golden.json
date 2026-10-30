@@ -1,0 +1,706 @@
+{
+ "examples": [
+  {
+   "check": "rate_1d",
+   "model": "6702",
+   "r": 0.5,
+   "theta": null,
+   "expect": 4.119,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6702 at 0.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6711",
+   "r": 0.5,
+   "theta": null,
+   "expect": 3.937,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6711 at 0.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "2301",
+   "r": 0.5,
+   "theta": null,
+   "expect": 3.813,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 2301 at 0.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3631-A/M",
+   "r": 0.5,
+   "theta": null,
+   "expect": 4.112,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, MED3631-A/M at 0.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "I25.S06",
+   "r": 0.5,
+   "theta": null,
+   "expect": 3.922,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, I25.S06 at 0.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "IS-12501",
+   "r": 0.5,
+   "theta": null,
+   "expect": 3.426,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, IS-12501 at 0.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "200",
+   "r": 0.5,
+   "theta": null,
+   "expect": 3.014,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 200 at 0.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3633",
+   "r": 0.5,
+   "theta": null,
+   "expect": 3.184,
+   "rel_tol": 0.0085,
+   "source": "TG-43U1 Table XV, MED3633 at 0.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6702",
+   "r": 1.0,
+   "theta": null,
+   "expect": 0.995,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6702 at 1.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6711",
+   "r": 1.0,
+   "theta": null,
+   "expect": 0.911,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6711 at 1.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "2301",
+   "r": 1.0,
+   "theta": null,
+   "expect": 0.962,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 2301 at 1.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3631-A/M",
+   "r": 1.0,
+   "theta": null,
+   "expect": 0.986,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, MED3631-A/M at 1.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "I25.S06",
+   "r": 1.0,
+   "theta": null,
+   "expect": 0.95,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, I25.S06 at 1.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "IS-12501",
+   "r": 1.0,
+   "theta": null,
+   "expect": 0.815,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, IS-12501 at 1.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "200",
+   "r": 1.0,
+   "theta": null,
+   "expect": 0.587,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 200 at 1.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3633",
+   "r": 1.0,
+   "theta": null,
+   "expect": 0.626,
+   "rel_tol": 0.0085,
+   "source": "TG-43U1 Table XV, MED3633 at 1.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6702",
+   "r": 1.5,
+   "theta": null,
+   "expect": 0.413,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6702 at 1.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6711",
+   "r": 1.5,
+   "theta": null,
+   "expect": 0.368,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6711 at 1.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "2301",
+   "r": 1.5,
+   "theta": null,
+   "expect": 0.413,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 2301 at 1.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3631-A/M",
+   "r": 1.5,
+   "theta": null,
+   "expect": 0.42,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, MED3631-A/M at 1.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "I25.S06",
+   "r": 1.5,
+   "theta": null,
+   "expect": 0.398,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, I25.S06 at 1.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "IS-12501",
+   "r": 1.5,
+   "theta": null,
+   "expect": 0.334,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, IS-12501 at 1.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "200",
+   "r": 1.5,
+   "theta": null,
+   "expect": 0.199,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 200 at 1.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3633",
+   "r": 1.5,
+   "theta": null,
+   "expect": 0.215,
+   "rel_tol": 0.0085,
+   "source": "TG-43U1 Table XV, MED3633 at 1.5 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6702",
+   "r": 2.0,
+   "theta": null,
+   "expect": 0.213,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6702 at 2.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6711",
+   "r": 2.0,
+   "theta": null,
+   "expect": 0.186,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6711 at 2.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "2301",
+   "r": 2.0,
+   "theta": null,
+   "expect": 0.22,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 2301 at 2.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3631-A/M",
+   "r": 2.0,
+   "theta": null,
+   "expect": 0.207,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, MED3631-A/M at 2.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "I25.S06",
+   "r": 2.0,
+   "theta": null,
+   "expect": 0.205,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, I25.S06 at 2.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "IS-12501",
+   "r": 2.0,
+   "theta": null,
+   "expect": 0.169,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, IS-12501 at 2.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "200",
+   "r": 2.0,
+   "theta": null,
+   "expect": 0.0837,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 200 at 2.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3633",
+   "r": 2.0,
+   "theta": null,
+   "expect": 0.0914,
+   "rel_tol": 0.0085,
+   "source": "TG-43U1 Table XV, MED3633 at 2.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6702",
+   "r": 3.0,
+   "theta": null,
+   "expect": 0.0768,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6702 at 3.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6711",
+   "r": 3.0,
+   "theta": null,
+   "expect": 0.0643,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6711 at 3.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "2301",
+   "r": 3.0,
+   "theta": null,
+   "expect": 0.0783,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 2301 at 3.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3631-A/M",
+   "r": 3.0,
+   "theta": null,
+   "expect": 0.0746,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, MED3631-A/M at 3.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "I25.S06",
+   "r": 3.0,
+   "theta": null,
+   "expect": 0.0733,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, I25.S06 at 3.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "IS-12501",
+   "r": 3.0,
+   "theta": null,
+   "expect": 0.0582,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, IS-12501 at 3.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "200",
+   "r": 3.0,
+   "theta": null,
+   "expect": 0.0206,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 200 at 3.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3633",
+   "r": 3.0,
+   "theta": null,
+   "expect": 0.0227,
+   "rel_tol": 0.0085,
+   "source": "TG-43U1 Table XV, MED3633 at 3.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6702",
+   "r": 4.0,
+   "theta": null,
+   "expect": 0.0344,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6702 at 4.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6711",
+   "r": 4.0,
+   "theta": null,
+   "expect": 0.0284,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6711 at 4.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "2301",
+   "r": 4.0,
+   "theta": null,
+   "expect": 0.0347,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 2301 at 4.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3631-A/M",
+   "r": 4.0,
+   "theta": null,
+   "expect": 0.0325,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, MED3631-A/M at 4.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "I25.S06",
+   "r": 4.0,
+   "theta": null,
+   "expect": 0.0323,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, I25.S06 at 4.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "IS-12501",
+   "r": 4.0,
+   "theta": null,
+   "expect": 0.0246,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, IS-12501 at 4.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "200",
+   "r": 4.0,
+   "theta": null,
+   "expect": 0.00634,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 200 at 4.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3633",
+   "r": 4.0,
+   "theta": null,
+   "expect": 0.00697,
+   "rel_tol": 0.0085,
+   "source": "TG-43U1 Table XV, MED3633 at 4.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6702",
+   "r": 5.0,
+   "theta": null,
+   "expect": 0.0169,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6702 at 5.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6711",
+   "r": 5.0,
+   "theta": null,
+   "expect": 0.0134,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6711 at 5.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "2301",
+   "r": 5.0,
+   "theta": null,
+   "expect": 0.0171,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 2301 at 5.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3631-A/M",
+   "r": 5.0,
+   "theta": null,
+   "expect": 0.0157,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, MED3631-A/M at 5.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "I25.S06",
+   "r": 5.0,
+   "theta": null,
+   "expect": 0.0157,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, I25.S06 at 5.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "IS-12501",
+   "r": 5.0,
+   "theta": null,
+   "expect": 0.0118,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, IS-12501 at 5.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "200",
+   "r": 5.0,
+   "theta": null,
+   "expect": 0.00221,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 200 at 5.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3633",
+   "r": 5.0,
+   "theta": null,
+   "expect": 0.00247,
+   "rel_tol": 0.0085,
+   "source": "TG-43U1 Table XV, MED3633 at 5.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6702",
+   "r": 6.0,
+   "theta": null,
+   "expect": 0.0089,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6702 at 6.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6711",
+   "r": 6.0,
+   "theta": null,
+   "expect": 0.00688,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6711 at 6.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "2301",
+   "r": 6.0,
+   "theta": null,
+   "expect": 0.00908,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 2301 at 6.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3631-A/M",
+   "r": 6.0,
+   "theta": null,
+   "expect": 0.00811,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, MED3631-A/M at 6.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "I25.S06",
+   "r": 6.0,
+   "theta": null,
+   "expect": 0.0084,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, I25.S06 at 6.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "IS-12501",
+   "r": 6.0,
+   "theta": null,
+   "expect": 0.00592,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, IS-12501 at 6.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "200",
+   "r": 6.0,
+   "theta": null,
+   "expect": 0.000846,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 200 at 6.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3633",
+   "r": 6.0,
+   "theta": null,
+   "expect": 0.000933,
+   "rel_tol": 0.0085,
+   "source": "TG-43U1 Table XV, MED3633 at 6.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6702",
+   "r": 7.0,
+   "theta": null,
+   "expect": 0.0049,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6702 at 7.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "6711",
+   "r": 7.0,
+   "theta": null,
+   "expect": 0.00373,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 6711 at 7.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "2301",
+   "r": 7.0,
+   "theta": null,
+   "expect": 0.00506,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 2301 at 7.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3631-A/M",
+   "r": 7.0,
+   "theta": null,
+   "expect": 0.00429,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, MED3631-A/M at 7.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "I25.S06",
+   "r": 7.0,
+   "theta": null,
+   "expect": 0.00459,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, I25.S06 at 7.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "IS-12501",
+   "r": 7.0,
+   "theta": null,
+   "expect": 0.00328,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, IS-12501 at 7.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "200",
+   "r": 7.0,
+   "theta": null,
+   "expect": 0.000342,
+   "rel_tol": 0.0065,
+   "source": "TG-43U1 Table XV, 200 at 7.0 cm"
+  },
+  {
+   "check": "rate_1d",
+   "model": "MED3633",
+   "r": 7.0,
+   "theta": null,
+   "expect": 0.000364,
+   "rel_tol": 0.0085,
+   "source": "TG-43U1 Table XV, MED3633 at 7.0 cm"
+  },
+  {
+   "check": "rate_per_unit",
+   "model": "6711",
+   "r": 1.0,
+   "theta": 90.0,
+   "expect": 0.965,
+   "rel_tol": 1e-09,
+   "source": "Eq. 3: dose rate at the reference point equals Lambda"
+  },
+  {
+   "check": "rate_per_unit",
+   "model": "6711",
+   "r": 2.0,
+   "theta": 90.0,
+   "expect": 0.19747189088114633,
+   "rel_tol": 1e-09,
+   "source": "Eq. 1 on the transverse plane at 2 cm: Lambda G_L(2,90)/G_L(1,90) g_L(2) with g_L(2) = 0.814"
+  },
+  {
+   "check": "rate_per_unit",
+   "model": "6711",
+   "r": 3.0,
+   "theta": 45.0,
+   "expect": 0.06473933003928123,
+   "rel_tol": 1e-09,
+   "source": "Eq. 1 at 3 cm, 45 degrees: F midway between the 40 and 50 degree rows, g_L(3) = 0.632"
+  },
+  {
+   "check": "rate_per_unit",
+   "model": "6711",
+   "r": 3.0,
+   "theta": 135.0,
+   "expect": 0.06473933003928123,
+   "rel_tol": 1e-09,
+   "source": "Sec. III A: datasets symmetric about the transverse plane, so 135 degrees equals 45 degrees"
+  },
+  {
+   "check": "rate_per_unit",
+   "model": "6711",
+   "r": 7.0,
+   "theta": 85.0,
+   "expect": 0.003945740759630791,
+   "rel_tol": 1e-09,
+   "source": "Eq. C1 nearest neighbour F(5 cm) beyond 5 cm, Eq. 8 F = 1 at 90 degrees, g_L(7) = 0.199"
+  },
+  {
+   "check": "rate_per_unit",
+   "model": "6711",
+   "r": 0.4,
+   "theta": 60.0,
+   "expect": 6.452405321338737,
+   "rel_tol": 1e-09,
+   "source": "ln g_L linear in r between 0.25 and 0.5 cm, F(0.5 cm, 60 deg) = 0.991 below the first F radius"
+  }
+ ]
+}

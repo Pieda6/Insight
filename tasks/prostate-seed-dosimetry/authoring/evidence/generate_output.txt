@@ -1,0 +1,18 @@
+patients 60, points 1080, seeds 2934, duplicate rows 29, batches 82, patients redrawn for geometry 174, lowest point dose 9.82 Gy
+  linear_g_interpolation: 483 points moved by more than 0.15%
+  point_source_radial_dose_function: 886 points moved by more than 0.15%
+  point_source_geometry: 1046 points moved by more than 0.15%
+  anisotropy_held_beyond_last_angle: 82 points moved by more than 0.15%
+  anisotropy_extrapolated_in_r: 51 points moved by more than 0.15%
+  one_dimensional_anisotropy_factor: 1045 points moved by more than 0.15%
+  no_mirror_beyond_90: 1053 points moved by more than 0.15%
+  capsule_length_for_L: 934 points moved by more than 0.15%
+  mean_life_144: 1080 points moved by more than 0.15%
+  apparent_activity_unconverted: 342 points moved by more than 0.15%
+  apparent_activity_fixed_coefficient: 164 points moved by more than 0.15%
+  batch_total_as_per_seed: 162 points moved by more than 0.15%
+  no_decay_to_implant: 1060 points moved by more than 0.15%
+  calibration_offset_ignored: 1080 points moved by more than 0.15%
+  implant_time_without_daylight_saving: 144 points moved by more than 0.15%
+  duplicates_kept: 288 points moved by more than 0.15%
+  first_marker_as_centre: 1062 points moved by more than 0.15%
