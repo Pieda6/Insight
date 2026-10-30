@@ -14,7 +14,7 @@ Gauss-Jacobi in w = exp(-lambda_e t), whose weight w^(alpha - 1), alpha = lambda
 Gauss-Jacobi abscissae come from Newton iteration on the Jacobi polynomial recurrence.
 
 Per patient the dose per unit strength is tabulated as Q(r, theta) = K r^2 G_L(r, 90) / G_L(r, theta) on a uniform
-r grid (0.005 cm below 1 cm, 0.0125 cm above) and a 1-degree theta grid, read linearly in theta and log-linearly in
+r grid (about 0.005 cm below 1 cm, 0.01 cm above) and a 1-degree theta grid, read linearly in theta and log-linearly in
 r; pairs closer than 0.6 cm are integrated directly. Voxels: 2.5 mm cubes, centres inside the slice polygon by the
 winding number. Indices by ceiling rank on the descending dose list.
 """
@@ -300,8 +300,9 @@ class Kernel:
 
     def __init__(self, sd, edema, one_d):
         self.sd, self.one_d = sd, one_d
-        self.r0, self.h_fine, self.h_coarse = R_DIRECT * 0.98, 0.005, 0.0125
-        self.n_fine = int(round((1.0 - self.r0) / self.h_fine))
+        self.r0, self.h_coarse = R_DIRECT * 0.98, 0.01
+        self.n_fine = int(round((1.0 - self.r0) / 0.005))
+        self.h_fine = (1.0 - self.r0) / self.n_fine                 # the fine grid ends exactly at 1 cm
         rs = [self.r0 + i * self.h_fine for i in range(self.n_fine)]
         rs += [1.0 + i * self.h_coarse for i in range(int(math.ceil((R_TOP - 1.0) / self.h_coarse)) + 1)]
         self.rs = rs

@@ -34,7 +34,7 @@ N_PATIENTS = len(MODELS)
 PLANT = [("d90", +1), ("v100", -1), ("ud10", +1), ("rv100", -1), ("d90", -1), ("v100", +1), ("ud10", -1),
          ("rv100", +1), ("d90", +1), ("v100", -1), ("ud10", +1), ("rv100", -1), None, ("d90", -1), ("v100", +1),
          None, ("ud10", -1), ("rv100", +1), None, None]
-SINGLE_MARKER = {2, 3, 5, 8, 9, 12, 14, 16, 17, 19}          # patients (1-based) with one-marker seeds
+SINGLE_MARKER = {2, 3, 5, 8, 9, 11, 12, 14, 16, 17, 19}      # patients (1-based) with one-marker seeds
 TOL = {"gy": 0.001, "pct": 0.30, "cc": 0.030}                 # verifier tolerances
 MARGIN = {"d90": 0.003, "v100": 0.8, "ud10": 0.003, "rv100": 0.08}
 TAG = {"gy": 0.0015, "pct": 0.45, "cc": 0.045}                # a misreading is tagged when it moves a value this far
@@ -178,7 +178,13 @@ def make_patient(rng, k, model, want_single):
             seeds.append((ctr, ax))
     single = set()
     if want_single:
-        single = set(rng.sample(range(len(seeds)), rng.randint(1, 4)))
+        # seeds whose orientation was lost on the CT; for the models whose anisotropy factor starts at 1 cm they are
+        # the seeds nearest the urethra, where the Appendix C short-distance model changes the urethral indices
+        if d["anisotropy_factor_1d"][0][0] >= 1.0:
+            order = sorted(range(len(seeds)), key=lambda i: math.hypot(seeds[i][0][0] - x0, seeds[i][0][1] - y0))
+            single = set(order[:rng.randint(4, 6)])
+        else:
+            single = set(rng.sample(range(len(seeds)), rng.randint(1, 4)))
     per_seed = rng.uniform(0.35, 0.65) if nuc == "I-125" else rng.uniform(1.4, 2.3)
     nb = 2 if rng.random() < 0.4 else 1
     split = len(seeds) if nb == 1 else len(seeds) - rng.randint(4, 10)
