@@ -5,6 +5,11 @@ tg43u1_formalism.txt are written by tables.py and formalism_text.py), evidence/a
 own metrics (sim.py) and ../tests/case_tags.json with, per patient and column, the misreadings that move the value
 past the tag threshold.
 
+Planting: a global factor on every seed strength puts one criterion of each planted patient 0.3 to 0.6 percent
+(D90, urethral D10), 0.8 to 1.5 percentage points (V100) or 0.08 to 0.15 cc (rectal V100) from its threshold, on
+the side PLANT names; one patient is planted exactly on the rectal V100 line (64 voxels at or above the
+prescription, 1.000 cc, which meets the inclusive criterion) with the 65th voxel at least ON_LINE_GAP below the 64th.
+
 Ranges: prostate volume before implant 25 to 55 cc; edema 10 to 100 percent at the end of the procedure, resolving
 with a half-life of 4 to 25 days (Waterman et al., Int J Radiat Oncol Biol Phys 1998 reported a mean of about
 9 days and a range of 4 to 25 days); CT 7 to 25 days after a palladium-103 implant and 14 to 45 days after an
@@ -30,10 +35,12 @@ SEED = 20090137
 MODELS = ["6702", "200", "6711", "MED3633", "2301", "200", "MED3631-A/M", "MED3633", "I25.S06", "200",
           "IS-12501", "MED3633", "6702", "200", "6711", "MED3633", "2301", "200", "MED3631-A/M", "I25.S06"]
 N_PATIENTS = len(MODELS)
-# which criterion each patient is planted near, and on which side (None: unplanted)
+# which criterion each patient is planted near, and on which side (None: unplanted; side 0: exactly on the line,
+# rectal V100 of exactly 64 voxels = 1.000 cc, which meets the inclusive criterion)
 PLANT = [("d90", +1), ("v100", -1), ("ud10", +1), ("rv100", -1), ("d90", -1), ("v100", +1), ("ud10", -1),
          ("rv100", +1), ("d90", +1), ("v100", -1), ("ud10", +1), ("rv100", -1), None, ("d90", -1), ("v100", +1),
-         None, ("ud10", -1), ("rv100", +1), None, None]
+         None, ("ud10", -1), ("rv100", 0), None, None]
+ON_LINE_GAP = 0.005          # relative dose gap between rectum ranks 64 and 65 for the on-the-line patient
 SINGLE_MARKER = {2, 3, 5, 8, 9, 11, 12, 14, 16, 17, 19}      # patients (1-based) with one-marker seeds
 TOL = {"gy": 0.001, "pct": 0.30, "cc": 0.030}                 # verifier tolerances
 MARGIN = {"d90": 0.003, "v100": 0.8, "ud10": 0.003, "rv100": 0.08}
@@ -51,7 +58,7 @@ SHORTCUTS = {
     "negative_decay_clamped": {"clamp_negative_decay": True},
     "implant_time_without_daylight_saving": {"naive_time": True}, "duplicates_kept": {"keep_duplicates": True},
     "floor_rank": {"floor_rank": True}, "urethra_subtracted_from_prostate": {"urethra_subtracted": True},
-    "mean_life_144": {"tau_144": True},
+    "mean_life_144": {"tau_144": True}, "strict_criteria": {"strict_criteria": True},
 }
 COLS = ["d90_gy", "v100_pct", "v150_pct", "ud10_gy", "ud30_gy", "rv100_cc", "rd2cc_gy",
         "d90_meets", "v100_meets", "ud10_meets", "rv100_meets"]
@@ -327,22 +334,35 @@ def choose_scale(doses, rx, plant, rng):
         thr = (pro[k - 1] + pro[k]) / 2.0
         return rx / thr
     if crit == "rv100":
-        k = round((1.0 + side * rng.uniform(0.08, 0.15)) / sim.VOXEL_CC)
+        if side == 0:                  # exactly 64 voxels at or above the prescription, with a clear gap to the 65th
+            k = round(1.0 / sim.VOXEL_CC)
+            if (rec[k - 1] - rec[k]) / rec[k - 1] < ON_LINE_GAP:
+                return None
+        else:
+            k = round((1.0 + side * rng.uniform(0.08, 0.15)) / sim.VOXEL_CC)
         thr = (rec[k - 1] + rec[k]) / 2.0
         return rx / thr
     raise ValueError(crit)
 
 
-def margins_ok(doses, rx):
+def margins_ok(doses, rx, plant=None):
     m = sim.metrics(doses, rx)
+    on_line = plant == ("rv100", 0)
     # realism: a reportable implant, not a grossly under- or overdosed one
     if not (0.90 <= m["d90_gy"] / rx <= 1.30 and 85.0 <= m["v100_pct"] <= 99.5 and m["ud10_gy"] <= 1.9 * rx
             and m["rv100_cc"] <= 3.0):
         return False, m
     if abs(m["d90_gy"] / rx - 1) < MARGIN["d90"] or abs(m["v100_pct"] - 95.0) < MARGIN["v100"]:
         return False, m
-    if abs(m["ud10_gy"] / (1.5 * rx) - 1) < MARGIN["ud10"] or abs(m["rv100_cc"] - 1.0) < MARGIN["rv100"]:
+    if abs(m["ud10_gy"] / (1.5 * rx) - 1) < MARGIN["ud10"]:
         return False, m
+    if on_line:
+        if m["rv100_cc"] != 1.0:
+            return False, m
+    elif abs(m["rv100_cc"] - 1.0) < MARGIN["rv100"]:
+        return False, m
+    # stability: a 0.1 percent change of every dose moves V100, V150 and rectal V100 by less than half the tolerance
+    # and no criterion; for the on-the-line patient a 0.25 percent change leaves the 64-voxel count and every criterion
     for f in (0.999, 1.001):
         scaled = {k: [x * f for x in v] for k, v in doses.items()}
         ms = sim.metrics(scaled, rx)
@@ -352,6 +372,11 @@ def margins_ok(doses, rx):
             return False, m
         if any(ms[c] != m[c] for c in COLS if c.endswith("_meets")):
             return False, m
+    if on_line:
+        for f in (1 - ON_LINE_GAP / 2, 1 + ON_LINE_GAP / 2):
+            ms = sim.metrics({k: [x * f for x in v] for k, v in doses.items()}, rx)
+            if ms["rv100_cc"] != 1.0 or any(ms[c] != m[c] for c in COLS if c.endswith("_meets")):
+                return False, m
     return True, m
 
 
@@ -378,10 +403,13 @@ def main():
                     "batches": {b["batch_id"]: b for b in batch_rows(pid, model, batch_specs, per_seed, implant_utc)}}
             doses = sim.patient_doses(data, pid, vox=vox)
             scale = choose_scale(doses, pat["prescription_gy"], PLANT[k - 1], rng)
+            if scale is None:
+                redrawn += 1
+                continue
             rows = batch_rows(pid, model, batch_specs, per_seed * scale, implant_utc)
             data["batches"] = {b["batch_id"]: b for b in rows}
             doses = sim.patient_doses(data, pid, vox=vox)
-            ok, m = margins_ok(doses, pat["prescription_gy"])
+            ok, m = margins_ok(doses, pat["prescription_gy"], PLANT[k - 1])
             if ok:
                 break
             redrawn += 1

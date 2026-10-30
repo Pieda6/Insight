@@ -434,10 +434,16 @@ def metrics(doses, rx, v=None):
     k2 = math.ceil(2.0 / VOXEL_CC)
     k2 = math.floor(2.0 / VOXEL_CC) if fl else k2
     m["rd2cc_gy"] = rec[k2 - 1]
-    m["d90_meets"] = "yes" if m["d90_gy"] >= rx else "no"
-    m["v100_meets"] = "yes" if m["v100_pct"] >= 95.0 else "no"
-    m["ud10_meets"] = "yes" if m["ud10_gy"] <= 1.5 * rx else "no"
-    m["rv100_meets"] = "yes" if m["rv100_cc"] <= 1.0 else "no"
+    if v.get("strict_criteria"):            # misreading: strict inequalities (differs only exactly on a line)
+        m["d90_meets"] = "yes" if m["d90_gy"] > rx else "no"
+        m["v100_meets"] = "yes" if m["v100_pct"] > 95.0 else "no"
+        m["ud10_meets"] = "yes" if m["ud10_gy"] < 1.5 * rx else "no"
+        m["rv100_meets"] = "yes" if m["rv100_cc"] < 1.0 else "no"
+    else:
+        m["d90_meets"] = "yes" if m["d90_gy"] >= rx else "no"
+        m["v100_meets"] = "yes" if m["v100_pct"] >= 95.0 else "no"
+        m["ud10_meets"] = "yes" if m["ud10_gy"] <= 1.5 * rx else "no"
+        m["rv100_meets"] = "yes" if m["rv100_cc"] <= 1.0 else "no"
     for k, x in m.items():
         if not isinstance(x, str):
             assert math.isfinite(x), (k, x)

@@ -1,23 +1,23 @@
 21 shortcuts, each must fail at least one test
-caught    662 of 1080 points wrong  radial dose function interpolated linearly
-caught    955 of 1080 points wrong  point-source radial dose function g_P used in 2D
-caught   1061 of 1080 points wrong  point-source geometry function 1/r^2
-caught   1057 of 1080 points wrong  1D formalism with phi_an instead of F(r, theta)
-caught    121 of 1080 points wrong  F held at the last tabulated angle (no F = 1 at 90 degrees)
-caught     72 of 1080 points wrong  F extrapolated linearly beyond the tabulated distances
-caught   1062 of 1080 points wrong  angles beyond 90 degrees not mirrored
-caught    995 of 1080 points wrong  capsule length 0.45 cm used for L
-caught   1080 of 1080 points wrong  mean life taken as 1.44 T1/2
-caught    342 of 1080 points wrong  apparent activity used as if it were U
-caught    178 of 1080 points wrong  apparent activity converted with fixed 1.270 / 1.293 (not the vendor's constant)
-caught    162 of 1080 points wrong  batch total read as per seed
-caught   1061 of 1080 points wrong  no decay from calibration to implant
-caught   1080 of 1080 points wrong  calibration time zone offset ignored
-caught    144 of 1080 points wrong  implant time without daylight saving (EST all year)
-caught   1080 of 1080 points wrong  implant time read as UTC
-caught    288 of 1080 points wrong  duplicate detections kept
-caught   1068 of 1080 points wrong  first end marker taken as the seed centre
-caught   1074 of 1080 points wrong  seed axis ignored (every point on the transverse plane)
-caught    249 of 1080 points wrong  F interpolated in cos(theta) instead of theta
-caught   1080 of 1080 points wrong  dose rate only (no total to complete decay), as Gy per day times 30
+caught  138 of 220 values wrong  static dosimetry: dose rate at the CT positions times the mean life
+caught  154 of 220 values wrong  seed distances scaled by the volume ratio instead of its cube root
+caught  157 of 220 values wrong  distances scaled about the pre-implant volume instead of the CT volume
+caught  168 of 220 values wrong  dose integrated from the CT onward instead of from the implant
+caught   40 of 220 values wrong  one-marker seeds calculated with the 2D formalism along the slice axis
+caught    6 of 220 values wrong  nearest-neighbour anisotropy factor instead of Eq. C3 below its first distance
+caught   90 of 220 values wrong  radial dose function interpolated linearly
+caught    5 of 220 values wrong  F held at the last tabulated angle (no F = 1 at 90 degrees)
+caught   42 of 220 values wrong  apparent activity used as if it were U
+caught   20 of 220 values wrong  apparent activity converted with fixed 1.270 / 1.293 (not the vendor's constant)
+caught   37 of 220 values wrong  batch total read as per seed
+caught  164 of 220 values wrong  no decay from calibration to implant
+caught  105 of 220 values wrong  calibration time zone offset ignored
+caught   25 of 220 values wrong  certificates dated after the implant treated as calibrated at the implant
+caught   28 of 220 values wrong  implant and CT times without daylight saving (EST all year)
+caught   31 of 220 values wrong  duplicate detections kept
+caught   31 of 220 values wrong  indices at floor ranks instead of ceiling ranks
+caught   56 of 220 values wrong  urethra voxels removed from the prostate
+caught   82 of 220 values wrong  decay integral scaled as if the mean life were 1.44 T1/2
+caught    1 of 220 values wrong  strict inequalities for the criteria
+caught  110 of 220 values wrong  voxel centres on the lattice i x 2.5 mm instead of (i + 1/2) x 2.5 mm
 CALIBRATION: every shortcut caught

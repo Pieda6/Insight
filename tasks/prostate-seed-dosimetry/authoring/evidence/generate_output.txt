@@ -1,40 +1,41 @@
-PT-001 6702         ('d90', 1) seeds 74 voxels 3676 D90/Rx 1.0033 V100 90.18 UD10/1.5Rx 0.8533 RV100 0.031  (78 s)
-PT-002 200          ('v100', -1) seeds 60 voxels 3791 D90/Rx 1.1196 V100 93.62 UD10/1.5Rx 1.0719 RV100 2.375  (117 s)
-PT-003 6711         ('ud10', 1) seeds 94 voxels 5343 D90/Rx 1.0984 V100 93.11 UD10/1.5Rx 1.0055 RV100 0.031  (172 s)
-PT-004 MED3633      ('rv100', -1) seeds 68 voxels 4948 D90/Rx 1.2688 V100 96.02 UD10/1.5Rx 1.1103 RV100 0.891  (191 s)
-PT-005 2301         ('d90', -1) seeds 82 voxels 4318 D90/Rx 0.9952 V100 89.84 UD10/1.5Rx 0.8919 RV100 0.000  (192 s)
-PT-006 200          ('v100', 1) seeds 89 voxels 3723 D90/Rx 1.2385 V100 96.41 UD10/1.5Rx 1.1216 RV100 0.453  (297 s)
-PT-007 MED3631-A/M  ('ud10', -1) seeds 84 voxels 6030 D90/Rx 0.9677 V100 87.75 UD10/1.5Rx 0.9963 RV100 0.016  (338 s)
-PT-008 MED3633      ('rv100', 1) seeds 98 voxels 6112 D90/Rx 1.1199 V100 92.23 UD10/1.5Rx 1.0609 RV100 1.125  (567 s)
-PT-009 I25.S06      ('d90', 1) seeds 70 voxels 4019 D90/Rx 1.0049 V100 90.18 UD10/1.5Rx 0.9451 RV100 0.641  (603 s)
-PT-010 200          ('v100', -1) seeds 90 voxels 5504 D90/Rx 1.1086 V100 93.67 UD10/1.5Rx 1.0582 RV100 0.016  (642 s)
-PT-011 IS-12501     ('ud10', 1) seeds 95 voxels 5489 D90/Rx 1.0296 V100 91.30 UD10/1.5Rx 1.0042 RV100 0.656  (647 s)
-PT-012 MED3633      ('rv100', -1) seeds 102 voxels 5778 D90/Rx 1.1046 V100 93.58 UD10/1.5Rx 0.9151 RV100 0.844  (1007 s)
-PT-013 6702         None seeds 73 voxels 4753 D90/Rx 1.0362 V100 92.07 UD10/1.5Rx 0.9236 RV100 0.094  (1025 s)
-PT-014 200          ('d90', -1) seeds 86 voxels 4592 D90/Rx 0.9953 V100 89.77 UD10/1.5Rx 0.9596 RV100 0.000  (1063 s)
-PT-015 6711         ('v100', 1) seeds 72 voxels 7222 D90/Rx 1.1939 V100 96.21 UD10/1.5Rx 1.0824 RV100 1.859  (1123 s)
-PT-016 MED3633      None seeds 88 voxels 4573 D90/Rx 1.0989 V100 92.60 UD10/1.5Rx 0.8608 RV100 0.000  (1169 s)
-PT-017 2301         ('ud10', -1) seeds 97 voxels 6416 D90/Rx 1.0553 V100 91.75 UD10/1.5Rx 0.9959 RV100 0.672  (1170 s)
-PT-018 200          ('rv100', 1) seeds 76 voxels 5767 D90/Rx 1.0499 V100 91.95 UD10/1.5Rx 0.9333 RV100 1.125  (1249 s)
-PT-019 MED3631-A/M  None seeds 102 voxels 5930 D90/Rx 1.0904 V100 93.08 UD10/1.5Rx 1.1417 RV100 0.031  (1268 s)
-PT-020 I25.S06      None seeds 85 voxels 6745 D90/Rx 1.0095 V100 90.48 UD10/1.5Rx 0.9876 RV100 0.000  (1327 s)
-patients 20, accepted seeds 1685, duplicate rows 16, one-marker seeds 299, batches 28, patients redrawn 84
-  static_dose: 139 values moved past the tag threshold
-  volume_scaling: 147 values moved past the tag threshold
-  scaled_about_preimplant_volume: 160 values moved past the tag threshold
-  integral_from_ct: 164 values moved past the tag threshold
-  two_d_for_single_marker: 31 values moved past the tag threshold
-  nearest_neighbour_instead_of_c3: 6 values moved past the tag threshold
-  linear_g_interpolation: 71 values moved past the tag threshold
-  anisotropy_held_beyond_last_angle: 4 values moved past the tag threshold
-  apparent_activity_unconverted: 54 values moved past the tag threshold
-  apparent_activity_fixed_coefficient: 15 values moved past the tag threshold
-  batch_total_as_per_seed: 55 values moved past the tag threshold
-  no_decay_to_implant: 143 values moved past the tag threshold
-  calibration_offset_ignored: 92 values moved past the tag threshold
-  negative_decay_clamped: 36 values moved past the tag threshold
-  implant_time_without_daylight_saving: 24 values moved past the tag threshold
-  duplicates_kept: 52 values moved past the tag threshold
-  floor_rank: 21 values moved past the tag threshold
-  urethra_subtracted_from_prostate: 53 values moved past the tag threshold
+PT-001 6702         ('d90', 1) seeds 110 voxels 6931 D90/Rx 1.0038 V100 90.03 UD10/1.5Rx 1.1445 RV100 0.219  (22 s)
+PT-002 200          ('v100', -1) seeds 65 voxels 4827 D90/Rx 1.1477 V100 93.98 UD10/1.5Rx 1.1150 RV100 0.562  (60 s)
+PT-003 6711         ('ud10', 1) seeds 69 voxels 5268 D90/Rx 1.0343 V100 91.21 UD10/1.5Rx 1.0035 RV100 0.812  (195 s)
+PT-004 MED3633      ('rv100', -1) seeds 107 voxels 7835 D90/Rx 1.0865 V100 91.58 UD10/1.5Rx 1.0075 RV100 0.906  (487 s)
+PT-005 2301         ('d90', -1) seeds 77 voxels 6432 D90/Rx 0.9949 V100 89.88 UD10/1.5Rx 0.8599 RV100 0.188  (491 s)
+PT-006 200          ('v100', 1) seeds 87 voxels 6557 D90/Rx 1.2651 V100 95.88 UD10/1.5Rx 0.9905 RV100 1.281  (512 s)
+PT-007 MED3631-A/M  ('ud10', -1) seeds 78 voxels 5097 D90/Rx 1.2649 V100 97.51 UD10/1.5Rx 0.9945 RV100 0.000  (591 s)
+PT-008 MED3633      ('rv100', 1) seeds 101 voxels 6410 D90/Rx 1.0630 V100 91.63 UD10/1.5Rx 0.9213 RV100 1.094  (780 s)
+PT-009 I25.S06      ('d90', 1) seeds 62 voxels 3885 D90/Rx 1.0046 V100 90.22 UD10/1.5Rx 0.9740 RV100 0.031  (836 s)
+PT-010 200          ('v100', -1) seeds 77 voxels 5541 D90/Rx 1.1147 V100 93.87 UD10/1.5Rx 1.0476 RV100 0.000  (858 s)
+PT-011 IS-12501     ('ud10', 1) seeds 95 voxels 5578 D90/Rx 1.1440 V100 93.80 UD10/1.5Rx 1.0058 RV100 0.000  (861 s)
+PT-012 MED3633      ('rv100', -1) seeds 67 voxels 4170 D90/Rx 0.9376 V100 87.57 UD10/1.5Rx 0.9905 RV100 0.875  (1240 s)
+PT-013 6702         None seeds 60 voxels 4346 D90/Rx 1.0463 V100 92.39 UD10/1.5Rx 1.0188 RV100 0.125  (1355 s)
+PT-014 200          ('d90', -1) seeds 82 voxels 3414 D90/Rx 0.9963 V100 89.89 UD10/1.5Rx 1.1209 RV100 0.312  (1419 s)
+PT-015 6711         ('v100', 1) seeds 86 voxels 5744 D90/Rx 1.2661 V100 96.14 UD10/1.5Rx 1.1691 RV100 1.969  (1438 s)
+PT-016 MED3633      None seeds 63 voxels 6474 D90/Rx 0.9837 V100 89.55 UD10/1.5Rx 1.2338 RV100 1.422  (1457 s)
+PT-017 2301         ('ud10', -1) seeds 90 voxels 5638 D90/Rx 1.1227 V100 93.92 UD10/1.5Rx 0.9952 RV100 0.484  (1459 s)
+PT-018 200          ('rv100', 0) seeds 66 voxels 6728 D90/Rx 1.0086 V100 90.21 UD10/1.5Rx 1.0097 RV100 1.000  (1551 s)
+PT-019 MED3631-A/M  None seeds 84 voxels 5749 D90/Rx 1.0122 V100 90.39 UD10/1.5Rx 0.9436 RV100 0.000  (1591 s)
+PT-020 I25.S06      None seeds 76 voxels 6078 D90/Rx 1.0221 V100 91.00 UD10/1.5Rx 0.8507 RV100 0.000  (1624 s)
+patients 20, accepted seeds 1602, duplicate rows 11, one-marker seeds 287, batches 25, patients redrawn 101
+  static_dose: 129 values moved past the tag threshold
+  volume_scaling: 148 values moved past the tag threshold
+  scaled_about_preimplant_volume: 157 values moved past the tag threshold
+  integral_from_ct: 167 values moved past the tag threshold
+  two_d_for_single_marker: 34 values moved past the tag threshold
+  nearest_neighbour_instead_of_c3: 4 values moved past the tag threshold
+  linear_g_interpolation: 72 values moved past the tag threshold
+  anisotropy_held_beyond_last_angle: 2 values moved past the tag threshold
+  apparent_activity_unconverted: 42 values moved past the tag threshold
+  apparent_activity_fixed_coefficient: 16 values moved past the tag threshold
+  batch_total_as_per_seed: 37 values moved past the tag threshold
+  no_decay_to_implant: 163 values moved past the tag threshold
+  calibration_offset_ignored: 93 values moved past the tag threshold
+  negative_decay_clamped: 25 values moved past the tag threshold
+  implant_time_without_daylight_saving: 22 values moved past the tag threshold
+  duplicates_kept: 29 values moved past the tag threshold
+  floor_rank: 25 values moved past the tag threshold
+  urethra_subtracted_from_prostate: 52 values moved past the tag threshold
   mean_life_144: 80 values moved past the tag threshold
+  strict_criteria: 1 values moved past the tag threshold

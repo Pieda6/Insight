@@ -96,12 +96,22 @@ def main():
           f"(palladium-103 {min(r for r, pid in zip(ratio, truth) if nuc_of[pid] == 'Pd-103'):.3f} to "
           f"{max(r for r, pid in zip(ratio, truth) if nuc_of[pid] == 'Pd-103'):.3f})")
     rx = {p["patient_id"]: float(p["prescription_gy"]) for p in patients}
+    import generate
+    on_line = [p["patient_id"] for p, plant in zip(patients, generate.PLANT) if plant == ("rv100", 0)]
+    for pid in on_line:
+        rec = sorted(sim.patient_doses(data_of(DATA, pid), pid)["rectum"], reverse=True)
+        k = round(1.0 / sim.VOXEL_CC)
+        print(f"{pid} planted exactly on the rectal V100 line: {sum(d >= rx[pid] for d in rec)} rectum voxels at or above "
+              f"the prescription = {truth[pid]['rv100_cc']:.6f} cc, criterion {truth[pid]['rv100_meets']}; rank {k} voxel "
+              f"{100 * (rec[k - 1] / rx[pid] - 1):.3f} percent above the prescription, rank {k + 1} voxel "
+              f"{100 * (1 - rec[k] / rx[pid]):.3f} percent below it")
     dist = {"d90": [], "v100": [], "ud10": [], "rv100": []}
     for pid, m in truth.items():
         dist["d90"].append(abs(m["d90_gy"] / rx[pid] - 1))
         dist["v100"].append(abs(m["v100_pct"] - 95.0))
         dist["ud10"].append(abs(m["ud10_gy"] / (1.5 * rx[pid]) - 1))
-        dist["rv100"].append(abs(m["rv100_cc"] - 1.0))
+        if pid not in on_line:
+            dist["rv100"].append(abs(m["rv100_cc"] - 1.0))
     for k, v in dist.items():
         print(f"closest {k} to its line: {min(v):.4f} (margin {MARGIN[k]}); values within twice the margin: {sum(x < 2 * MARGIN[k] for x in v)}")
     crit = {c: collections.Counter(m[c] for m in truth.values()) for c in COLS if c.endswith("_meets")}
@@ -111,6 +121,14 @@ def main():
           f"{max(m['v100_pct'] for m in truth.values()):.2f} percent; urethral D10 {min(m['ud10_gy'] / rx[p] for p, m in truth.items()):.3f} to "
           f"{max(m['ud10_gy'] / rx[p] for p, m in truth.items()):.3f} of the prescription; rectal V100 "
           f"{min(m['rv100_cc'] for m in truth.values()):.3f} to {max(m['rv100_cc'] for m in truth.values()):.3f} cc")
+    planted = collections.Counter(f"{p[0]} {'above' if p[1] > 0 else 'below' if p[1] < 0 else 'on the line'}"
+                                  for p in generate.PLANT if p)
+    print(f"planted patients: {sum(planted.values())} ({dict(sorted(planted.items()))}); unplanted: {generate.PLANT.count(None)}")
+    golden = json.loads((TASK / "tests" / "golden.json").read_text())["examples"]
+    print(f"golden checks: {len(golden)} ({dict(collections.Counter(e['check'] for e in golden))}); rate_1d from Table XV: "
+          f"{sum(e['source'].startswith('TG-43U1 Table XV') for e in golden)}, from Eq. C3: "
+          f"{sum(e['source'].startswith('Eq. C3') for e in golden)}")
+    print(f"two-marker seeds: {sum(s['x2_mm'] != '' for s in accepted)}")
     fam = collections.Counter(t for a in gen.values() for tags in a["tags"].values() for t in tags)
     print("values per rule family (moved past the tag threshold when the rule is misread):")
     for t, n in sorted(fam.items()):
@@ -126,6 +144,13 @@ def main():
           and all(min(dist[k]) >= MARGIN[k] for k in dist) and t_engine < 240)
     print("AGREEMENT:", "OK" if ok else "PROBLEM")
     sys.exit(0 if ok else 1)
+
+
+def data_of(data_dir, pid):
+    """The generator model's input structure for one patient."""
+    data = sim.load(data_dir)
+    return {"src": data["src"], "patients": {pid: data["patients"][pid]}, "contours": {pid: data["contours"][pid]},
+            "seeds": {pid: data["seeds"][pid]}, "batches": {k: b for k, b in data["batches"].items() if b["patient_id"] == pid}}
 
 
 def engine_vox(slices):

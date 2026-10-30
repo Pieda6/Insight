@@ -1,0 +1,51 @@
+Real pytest run on a scratch copy of tests/ (OUT pointed at a scratch folder), oracle output then no output:
+=== oracle run ===
+solution run time 502 s
+
+real	8m22.360s
+user	8m15.616s
+sys	0m0.080s
+=== pytest with oracle output ===
+.........................                                                [100%]
+==================================== PASSES ====================================
+=========================== short test summary info ============================
+PASSED tests/test_outputs.py::test_engine_matches_report_and_closed_forms
+PASSED tests/test_outputs.py::test_inputs_are_consistent
+PASSED tests/test_outputs.py::test_values_are_well_formed
+PASSED tests/test_outputs.py::test_rows_are_sorted_and_complete
+PASSED tests/test_outputs.py::test_rule_family[static_dose]
+PASSED tests/test_outputs.py::test_rule_family[volume_scaling]
+PASSED tests/test_outputs.py::test_rule_family[scaled_about_preimplant_volume]
+PASSED tests/test_outputs.py::test_rule_family[integral_from_ct]
+PASSED tests/test_outputs.py::test_rule_family[two_d_for_single_marker]
+PASSED tests/test_outputs.py::test_rule_family[nearest_neighbour_instead_of_c3]
+PASSED tests/test_outputs.py::test_rule_family[linear_g_interpolation]
+PASSED tests/test_outputs.py::test_rule_family[anisotropy_held_beyond_last_angle]
+PASSED tests/test_outputs.py::test_rule_family[apparent_activity_unconverted]
+PASSED tests/test_outputs.py::test_rule_family[apparent_activity_fixed_coefficient]
+PASSED tests/test_outputs.py::test_rule_family[batch_total_as_per_seed]
+PASSED tests/test_outputs.py::test_rule_family[no_decay_to_implant]
+PASSED tests/test_outputs.py::test_rule_family[calibration_offset_ignored]
+PASSED tests/test_outputs.py::test_rule_family[negative_decay_clamped]
+PASSED tests/test_outputs.py::test_rule_family[implant_time_without_daylight_saving]
+PASSED tests/test_outputs.py::test_rule_family[duplicates_kept]
+PASSED tests/test_outputs.py::test_rule_family[floor_rank]
+PASSED tests/test_outputs.py::test_rule_family[urethra_subtracted_from_prostate]
+PASSED tests/test_outputs.py::test_rule_family[mean_life_144]
+PASSED tests/test_outputs.py::test_rule_family[strict_criteria]
+PASSED tests/test_outputs.py::test_every_value
+25 passed in 130.53s (0:02:10)
+
+real	2m11.034s
+user	1m43.790s
+sys	0m0.092s
+=== pytest with no output ===
+ERROR tests/test_outputs.py::test_rule_family[urethra_subtracted_from_prostate]
+ERROR tests/test_outputs.py::test_rule_family[mean_life_144] - AssertionError...
+ERROR tests/test_outputs.py::test_rule_family[strict_criteria] - AssertionErr...
+ERROR tests/test_outputs.py::test_every_value - AssertionError: missing /tmp/...
+2 passed, 23 errors in 130.82s (0:02:10)
+
+real	2m11.223s
+user	1m43.362s
+sys	0m0.081s

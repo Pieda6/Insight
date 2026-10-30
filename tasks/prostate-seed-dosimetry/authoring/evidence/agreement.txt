@@ -1,31 +1,47 @@
-patients 60, points 1080, accepted seeds 2934, duplicate detections 29 in 16 patients
-patients per seed model: {'6702': 8, '6711': 8, '2301': 8, 'MED3631-A/M': 8, 'I25.S06': 7, 'IS-12501': 7, '200': 7, 'MED3633': 7}
-patients per radionuclide: {'I-125': 46, 'Pd-103': 14}
-batches per strength unit: {'U_per_seed': 54, 'mCi_apparent': 19, 'U_total': 9}
-apparent-activity batches per exposure-rate constant: {'1.464': 10, '1.45': 5, '1.476': 3, '1.48': 1}
-patients with two batches: 22
-calibration UTC offsets: {'-05:00': 31, '-06:00': 8, '-07:00': 15, '-08:00': 8, '-04:00': 20}
-batches calibrated after the implant date: 17
-points per structure: {'urethra': 480, 'rectum': 240, 'prostate': 360}
-points per rule family (dose moves by more than 0.15 percent if the rule is misread):
-  anisotropy_extrapolated_in_r: 51
-  anisotropy_held_beyond_last_angle: 82
-  apparent_activity_fixed_coefficient: 164
-  apparent_activity_unconverted: 342
-  batch_total_as_per_seed: 162
-  calibration_offset_ignored: 1080
-  capsule_length_for_L: 934
-  duplicates_kept: 288
-  first_marker_as_centre: 1062
-  implant_time_without_daylight_saving: 144
-  linear_g_interpolation: 483
-  mean_life_144: 1080
-  no_decay_to_implant: 1060
-  no_mirror_beyond_90: 1053
-  one_dimensional_anisotropy_factor: 1045
-  point_source_geometry: 1046
-  point_source_radial_dose_function: 886
-lowest and highest point dose: 9.820 and 637.056 Gy
-generator vs engine worst relative difference: 5.1e-14
-solution printed values vs engine rounded to 3 decimals: worst difference 0.0000 Gy
+patients 20, accepted seeds 1602, one-marker seeds 282 in 11 patients, duplicate detections 11 in 5 patients
+patients per seed model: {'6702': 2, '200': 5, '6711': 2, 'MED3633': 4, '2301': 2, 'MED3631-A/M': 2, 'I25.S06': 2, 'IS-12501': 1}
+patients per radionuclide: {'I-125': 11, 'Pd-103': 9}
+batches per strength unit: {'U_total': 4, 'U_per_seed': 14, 'mCi_apparent': 7}
+apparent-activity batches per exposure-rate constant: {'1.476': 2, '1.464': 4, '1.45': 1}
+patients with two batches: 5
+calibration UTC offsets: {'-05:00': 9, '-04:00': 9, '-08:00': 2, '-07:00': 4, '-06:00': 1}
+batches calibrated after the implant date: 3
+voxels: prostate 63271, urethra 2003, rectum 47428, total 112702; per patient 3414 to 7835
+seed-voxel pairs: 9204394
+edema at implant 24 to 100 percent of the pre-implant volume; edema half-life 5.8 to 23.8 days; CT 8.0 to 43.0 days after the implant; scale factor at implant 1.040 to 1.199, after full resolution 0.864 to 0.983
+static D90 over edema-corrected D90: 0.871 to 1.055 (palladium-103 0.871 to 1.055)
+PT-018 planted exactly on the rectal V100 line: 64 rectum voxels at or above the prescription = 1.000000 cc, criterion yes; rank 64 voxel 0.255 percent above the prescription, rank 65 voxel 0.254 percent below it
+closest d90 to its line: 0.0037 (margin 0.003); values within twice the margin: 4
+closest v100 to its line: 0.8801 (margin 0.8); values within twice the margin: 6
+closest ud10 to its line: 0.0035 (margin 0.003); values within twice the margin: 4
+closest rv100 to its line: 0.0938 (margin 0.08); values within twice the margin: 3
+criteria: {'d90_meets': {'yes': 16, 'no': 4}, 'v100_meets': {'no': 17, 'yes': 3}, 'ud10_meets': {'no': 11, 'yes': 9}, 'rv100_meets': {'yes': 16, 'no': 4}}
+D90 as a fraction of the prescription: 0.938 to 1.266; V100 87.57 to 97.51 percent; urethral D10 1.276 to 1.851 of the prescription; rectal V100 0.000 to 1.969 cc
+planted patients: 16 ({'d90 above': 2, 'd90 below': 2, 'rv100 above': 1, 'rv100 below': 2, 'rv100 on the line': 1, 'ud10 above': 2, 'ud10 below': 2, 'v100 above': 2, 'v100 below': 2}); unplanted: 4
+golden checks: 87 ({'rate_1d': 74, 'rate_per_unit': 6, 'dynamic_point_source': 4, 'dynamic_total_tiny_edema': 3}); rate_1d from Table XV: 70, from Eq. C3: 4
+two-marker seeds: 1320
+values per rule family (moved past the tag threshold when the rule is misread):
+  anisotropy_held_beyond_last_angle: 2
+  apparent_activity_fixed_coefficient: 16
+  apparent_activity_unconverted: 42
+  batch_total_as_per_seed: 37
+  calibration_offset_ignored: 93
+  duplicates_kept: 29
+  floor_rank: 25
+  implant_time_without_daylight_saving: 22
+  integral_from_ct: 167
+  linear_g_interpolation: 72
+  mean_life_144: 80
+  nearest_neighbour_instead_of_c3: 4
+  negative_decay_clamped: 25
+  no_decay_to_implant: 163
+  scaled_about_preimplant_volume: 157
+  static_dose: 129
+  strict_criteria: 1
+  two_d_for_single_marker: 34
+  urethra_subtracted_from_prostate: 52
+  volume_scaling: 148
+generator vs engine worst difference: doses 1.8e-06 relative, percentages 0.0000 points, volumes 0.0000 cc; criteria differing: 0
+solution vs engine worst difference: doses 7.6e-06 relative, percentages 0.0050 points, volumes 0.0005 cc
+engine run time 118 s, solution run time 545 s
 AGREEMENT: OK

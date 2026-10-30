@@ -5,18 +5,16 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"apparent_activity_unconverted",
+"linear_g_interpolation",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
-"urethra_subtracted_from_prostate",
 "mean_life_144"
 ],
 "d90_meets": [
 "static_dose",
 "scaled_about_preimplant_volume",
-"integral_from_ct",
-"apparent_activity_unconverted"
+"integral_from_ct"
 ],
 "rd2cc_gy": [
 "static_dose",
@@ -24,62 +22,65 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
 "mean_life_144"
 ],
 "rv100_cc": [
+"static_dose",
+"volume_scaling",
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"batch_total_as_per_seed",
 "no_decay_to_implant"
 ],
-"rv100_meets": [],
+"rv100_meets": [
+"batch_total_as_per_seed"
+],
 "ud10_gy": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"apparent_activity_unconverted",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
 "floor_rank",
 "mean_life_144"
 ],
 "ud10_meets": [
-"no_decay_to_implant"
+"integral_from_ct"
 ],
 "ud30_gy": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"apparent_activity_unconverted",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
+"floor_rank",
 "mean_life_144"
 ],
 "v100_meets": [
-"no_decay_to_implant"
+"batch_total_as_per_seed"
 ],
 "v100_pct": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"apparent_activity_unconverted",
-"no_decay_to_implant",
-"urethra_subtracted_from_prostate"
+"batch_total_as_per_seed",
+"no_decay_to_implant"
 ],
 "v150_pct": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"apparent_activity_unconverted",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
-"duplicates_kept",
 "urethra_subtracted_from_prostate"
 ]
 },
@@ -89,13 +90,11 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"two_d_for_single_marker",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"implant_time_without_daylight_saving",
-"duplicates_kept",
+"negative_decay_clamped",
+"floor_rank",
 "urethra_subtracted_from_prostate",
 "mean_life_144"
 ],
@@ -109,12 +108,9 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"anisotropy_held_beyond_last_angle",
-"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"implant_time_without_daylight_saving",
-"duplicates_kept",
+"negative_decay_clamped",
 "mean_life_144"
 ],
 "rv100_cc": [
@@ -122,13 +118,11 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"batch_total_as_per_seed",
 "no_decay_to_implant",
-"duplicates_kept"
+"calibration_offset_ignored",
+"negative_decay_clamped"
 ],
-"rv100_meets": [
-"integral_from_ct"
-],
+"rv100_meets": [],
 "ud10_gy": [
 "static_dose",
 "volume_scaling",
@@ -136,12 +130,9 @@
 "integral_from_ct",
 "two_d_for_single_marker",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"implant_time_without_daylight_saving",
-"duplicates_kept",
-"floor_rank",
+"negative_decay_clamped",
 "mean_life_144"
 ],
 "ud10_meets": [
@@ -155,16 +146,14 @@
 "integral_from_ct",
 "two_d_for_single_marker",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"implant_time_without_daylight_saving",
-"duplicates_kept",
+"negative_decay_clamped",
+"floor_rank",
 "mean_life_144"
 ],
 "v100_meets": [
 "volume_scaling",
-"batch_total_as_per_seed",
 "no_decay_to_implant"
 ],
 "v100_pct": [
@@ -172,19 +161,17 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"batch_total_as_per_seed",
 "no_decay_to_implant",
-"duplicates_kept"
+"negative_decay_clamped"
 ],
 "v150_pct": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
+"negative_decay_clamped",
 "urethra_subtracted_from_prostate"
 ]
 },
@@ -195,16 +182,19 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
+"negative_decay_clamped",
 "urethra_subtracted_from_prostate",
 "mean_life_144"
 ],
 "d90_meets": [
 "static_dose",
 "scaled_about_preimplant_volume",
-"integral_from_ct"
+"integral_from_ct",
+"no_decay_to_implant",
+"negative_decay_clamped"
 ],
 "rd2cc_gy": [
 "static_dose",
@@ -212,32 +202,42 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
+"negative_decay_clamped",
 "mean_life_144"
 ],
 "rv100_cc": [
+"static_dose",
 "volume_scaling",
-"no_decay_to_implant"
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"batch_total_as_per_seed",
+"no_decay_to_implant",
+"negative_decay_clamped"
 ],
-"rv100_meets": [],
+"rv100_meets": [
+"volume_scaling",
+"batch_total_as_per_seed"
+],
 "ud10_gy": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"linear_g_interpolation",
-"apparent_activity_unconverted",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
+"negative_decay_clamped",
 "mean_life_144"
 ],
 "ud10_meets": [
 "static_dose",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"apparent_activity_unconverted"
+"no_decay_to_implant",
+"negative_decay_clamped"
 ],
 "ud30_gy": [
 "static_dose",
@@ -245,31 +245,32 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
+"negative_decay_clamped",
 "mean_life_144"
 ],
 "v100_meets": [
-"volume_scaling",
-"no_decay_to_implant"
+"batch_total_as_per_seed"
 ],
 "v100_pct": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"apparent_activity_unconverted",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
-"urethra_subtracted_from_prostate"
+"negative_decay_clamped"
 ],
 "v150_pct": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"apparent_activity_unconverted",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
+"negative_decay_clamped",
 "urethra_subtracted_from_prostate"
 ]
 },
@@ -280,12 +281,15 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
+"batch_total_as_per_seed",
+"no_decay_to_implant",
 "calibration_offset_ignored",
 "implant_time_without_daylight_saving",
 "urethra_subtracted_from_prostate",
 "mean_life_144"
 ],
 "d90_meets": [
+"static_dose",
 "scaled_about_preimplant_volume",
 "integral_from_ct"
 ],
@@ -295,6 +299,8 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
+"batch_total_as_per_seed",
+"no_decay_to_implant",
 "calibration_offset_ignored",
 "implant_time_without_daylight_saving",
 "mean_life_144"
@@ -304,10 +310,14 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
+"batch_total_as_per_seed",
+"no_decay_to_implant",
 "calibration_offset_ignored"
 ],
 "rv100_meets": [
-"volume_scaling"
+"volume_scaling",
+"batch_total_as_per_seed",
+"no_decay_to_implant"
 ],
 "ud10_gy": [
 "static_dose",
@@ -315,14 +325,18 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
+"batch_total_as_per_seed",
+"no_decay_to_implant",
 "calibration_offset_ignored",
 "implant_time_without_daylight_saving",
 "floor_rank",
 "mean_life_144"
 ],
 "ud10_meets": [
+"static_dose",
 "scaled_about_preimplant_volume",
-"integral_from_ct"
+"integral_from_ct",
+"calibration_offset_ignored"
 ],
 "ud30_gy": [
 "static_dose",
@@ -330,26 +344,34 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
+"batch_total_as_per_seed",
+"no_decay_to_implant",
 "calibration_offset_ignored",
 "implant_time_without_daylight_saving",
+"floor_rank",
 "mean_life_144"
 ],
 "v100_meets": [
-"static_dose",
-"scaled_about_preimplant_volume",
-"integral_from_ct"
+"volume_scaling",
+"batch_total_as_per_seed",
+"no_decay_to_implant"
 ],
 "v100_pct": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
-"integral_from_ct"
+"integral_from_ct",
+"batch_total_as_per_seed",
+"no_decay_to_implant",
+"urethra_subtracted_from_prostate"
 ],
 "v150_pct": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
+"batch_total_as_per_seed",
+"no_decay_to_implant",
 "calibration_offset_ignored",
 "urethra_subtracted_from_prostate"
 ]
@@ -361,18 +383,18 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "two_d_for_single_marker",
+"nearest_neighbour_instead_of_c3",
 "linear_g_interpolation",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
-"duplicates_kept",
+"floor_rank",
 "urethra_subtracted_from_prostate",
 "mean_life_144"
 ],
 "d90_meets": [
 "volume_scaling",
 "two_d_for_single_marker",
-"duplicates_kept",
+"no_decay_to_implant",
 "urethra_subtracted_from_prostate"
 ],
 "rd2cc_gy": [
@@ -384,11 +406,15 @@
 "linear_g_interpolation",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
-"duplicates_kept",
 "mean_life_144"
 ],
-"rv100_cc": [],
+"rv100_cc": [
+"volume_scaling",
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"two_d_for_single_marker",
+"no_decay_to_implant"
+],
 "rv100_meets": [],
 "ud10_gy": [
 "static_dose",
@@ -396,47 +422,45 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "two_d_for_single_marker",
+"linear_g_interpolation",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
-"duplicates_kept",
-"floor_rank",
 "mean_life_144"
 ],
-"ud10_meets": [],
+"ud10_meets": [
+"no_decay_to_implant"
+],
 "ud30_gy": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "two_d_for_single_marker",
+"linear_g_interpolation",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
-"duplicates_kept",
-"floor_rank",
 "mean_life_144"
 ],
-"v100_meets": [],
+"v100_meets": [
+"no_decay_to_implant"
+],
 "v100_pct": [
+"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "two_d_for_single_marker",
 "no_decay_to_implant",
-"negative_decay_clamped",
-"duplicates_kept",
 "urethra_subtracted_from_prostate"
 ],
 "v150_pct": [
+"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "two_d_for_single_marker",
 "nearest_neighbour_instead_of_c3",
 "no_decay_to_implant",
-"negative_decay_clamped",
-"duplicates_kept",
 "urethra_subtracted_from_prostate"
 ]
 },
@@ -447,16 +471,16 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"anisotropy_held_beyond_last_angle",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
+"negative_decay_clamped",
 "urethra_subtracted_from_prostate",
 "mean_life_144"
 ],
 "d90_meets": [
-"integral_from_ct"
+"integral_from_ct",
+"apparent_activity_unconverted"
 ],
 "rd2cc_gy": [
 "static_dose",
@@ -464,23 +488,27 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"anisotropy_held_beyond_last_angle",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
+"negative_decay_clamped",
 "mean_life_144"
 ],
 "rv100_cc": [
+"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"batch_total_as_per_seed",
-"no_decay_to_implant"
+"apparent_activity_unconverted",
+"no_decay_to_implant",
+"negative_decay_clamped"
 ],
 "rv100_meets": [
-"batch_total_as_per_seed",
-"no_decay_to_implant"
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"apparent_activity_unconverted",
+"no_decay_to_implant",
+"negative_decay_clamped"
 ],
 "ud10_gy": [
 "static_dose",
@@ -488,16 +516,16 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
+"negative_decay_clamped",
 "floor_rank",
 "mean_life_144"
 ],
 "ud10_meets": [
-"scaled_about_preimplant_volume",
-"integral_from_ct"
+"static_dose",
+"volume_scaling"
 ],
 "ud30_gy": [
 "static_dose",
@@ -505,23 +533,26 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
+"negative_decay_clamped",
+"floor_rank",
 "mean_life_144"
 ],
 "v100_meets": [
 "scaled_about_preimplant_volume",
-"integral_from_ct"
+"integral_from_ct",
+"apparent_activity_unconverted",
+"no_decay_to_implant",
+"negative_decay_clamped"
 ],
 "v100_pct": [
-"static_dose",
-"volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
 "no_decay_to_implant",
+"negative_decay_clamped",
 "urethra_subtracted_from_prostate"
 ],
 "v150_pct": [
@@ -529,10 +560,9 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
 "no_decay_to_implant",
-"calibration_offset_ignored",
-"duplicates_kept",
+"negative_decay_clamped",
 "urethra_subtracted_from_prostate"
 ]
 },
@@ -543,13 +573,16 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
+"no_decay_to_implant",
 "calibration_offset_ignored",
+"urethra_subtracted_from_prostate",
 "mean_life_144"
 ],
 "d90_meets": [
-"volume_scaling",
-"batch_total_as_per_seed"
+"integral_from_ct",
+"apparent_activity_unconverted"
 ],
 "rd2cc_gy": [
 "static_dose",
@@ -557,30 +590,32 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
+"no_decay_to_implant",
 "calibration_offset_ignored",
 "mean_life_144"
 ],
 "rv100_cc": [
-"volume_scaling",
-"batch_total_as_per_seed"
+"volume_scaling"
 ],
-"rv100_meets": [
-"batch_total_as_per_seed"
-],
+"rv100_meets": [],
 "ud10_gy": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
+"no_decay_to_implant",
 "calibration_offset_ignored",
+"floor_rank",
 "mean_life_144"
 ],
 "ud10_meets": [
 "volume_scaling",
-"batch_total_as_per_seed"
+"no_decay_to_implant"
 ],
 "ud30_gy": [
 "static_dose",
@@ -588,27 +623,35 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
+"no_decay_to_implant",
 "calibration_offset_ignored",
+"floor_rank",
 "mean_life_144"
 ],
 "v100_meets": [
-"volume_scaling",
-"batch_total_as_per_seed"
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"apparent_activity_unconverted"
 ],
 "v100_pct": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"batch_total_as_per_seed"
+"apparent_activity_unconverted",
+"no_decay_to_implant"
 ],
 "v150_pct": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
+"no_decay_to_implant",
+"calibration_offset_ignored",
 "urethra_subtracted_from_prostate"
 ]
 },
@@ -621,11 +664,13 @@
 "linear_g_interpolation",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"floor_rank",
+"implant_time_without_daylight_saving",
+"duplicates_kept",
 "urethra_subtracted_from_prostate",
 "mean_life_144"
 ],
 "d90_meets": [
+"static_dose",
 "scaled_about_preimplant_volume",
 "integral_from_ct"
 ],
@@ -637,6 +682,8 @@
 "linear_g_interpolation",
 "no_decay_to_implant",
 "calibration_offset_ignored",
+"implant_time_without_daylight_saving",
+"duplicates_kept",
 "mean_life_144"
 ],
 "rv100_cc": [
@@ -645,7 +692,8 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "no_decay_to_implant",
-"calibration_offset_ignored"
+"calibration_offset_ignored",
+"duplicates_kept"
 ],
 "rv100_meets": [
 "static_dose",
@@ -657,25 +705,30 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
+"two_d_for_single_marker",
 "linear_g_interpolation",
 "no_decay_to_implant",
 "calibration_offset_ignored",
+"implant_time_without_daylight_saving",
+"duplicates_kept",
+"floor_rank",
 "mean_life_144"
 ],
 "ud10_meets": [
-"static_dose",
-"scaled_about_preimplant_volume",
-"integral_from_ct"
+"volume_scaling",
+"no_decay_to_implant"
 ],
 "ud30_gy": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
+"two_d_for_single_marker",
 "linear_g_interpolation",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"floor_rank",
+"implant_time_without_daylight_saving",
+"duplicates_kept",
 "mean_life_144"
 ],
 "v100_meets": [
@@ -688,6 +741,7 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "no_decay_to_implant",
+"duplicates_kept",
 "urethra_subtracted_from_prostate"
 ],
 "v150_pct": [
@@ -697,6 +751,7 @@
 "integral_from_ct",
 "no_decay_to_implant",
 "calibration_offset_ignored",
+"duplicates_kept",
 "urethra_subtracted_from_prostate"
 ]
 },
@@ -706,12 +761,14 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
 "urethra_subtracted_from_prostate",
 "mean_life_144"
 ],
 "d90_meets": [
+"static_dose",
 "scaled_about_preimplant_volume",
 "integral_from_ct"
 ],
@@ -720,20 +777,17 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"two_d_for_single_marker",
 "linear_g_interpolation",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
 "mean_life_144"
 ],
 "rv100_cc": [
-"volume_scaling",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"no_decay_to_implant"
+"batch_total_as_per_seed"
 ],
 "rv100_meets": [
-"no_decay_to_implant"
+"batch_total_as_per_seed"
 ],
 "ud10_gy": [
 "static_dose",
@@ -741,12 +795,14 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "two_d_for_single_marker",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"floor_rank",
 "mean_life_144"
 ],
 "ud10_meets": [
+"volume_scaling",
+"batch_total_as_per_seed",
 "no_decay_to_implant"
 ],
 "ud30_gy": [
@@ -754,18 +810,22 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
+"two_d_for_single_marker",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
 "floor_rank",
 "mean_life_144"
 ],
 "v100_meets": [
-"no_decay_to_implant"
+"batch_total_as_per_seed"
 ],
 "v100_pct": [
+"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
 "urethra_subtracted_from_prostate"
 ],
@@ -774,6 +834,7 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
+"batch_total_as_per_seed",
 "no_decay_to_implant",
 "urethra_subtracted_from_prostate"
 ]
@@ -785,22 +846,17 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
-"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
 "implant_time_without_daylight_saving",
+"duplicates_kept",
 "urethra_subtracted_from_prostate",
 "mean_life_144"
 ],
 "d90_meets": [
 "static_dose",
 "scaled_about_preimplant_volume",
-"integral_from_ct",
-"apparent_activity_unconverted",
-"no_decay_to_implant",
-"negative_decay_clamped"
+"integral_from_ct"
 ],
 "rd2cc_gy": [
 "static_dose",
@@ -808,12 +864,10 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
-"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
 "implant_time_without_daylight_saving",
+"duplicates_kept",
 "mean_life_144"
 ],
 "rv100_cc": [
@@ -826,22 +880,18 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
-"apparent_activity_fixed_coefficient",
+"anisotropy_held_beyond_last_angle",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
 "implant_time_without_daylight_saving",
+"duplicates_kept",
 "floor_rank",
 "mean_life_144"
 ],
 "ud10_meets": [
 "static_dose",
 "scaled_about_preimplant_volume",
-"integral_from_ct",
-"apparent_activity_unconverted",
-"no_decay_to_implant",
-"negative_decay_clamped"
+"integral_from_ct"
 ],
 "ud30_gy": [
 "static_dose",
@@ -849,13 +899,11 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"anisotropy_held_beyond_last_angle",
-"apparent_activity_unconverted",
-"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
 "implant_time_without_daylight_saving",
+"duplicates_kept",
+"floor_rank",
 "mean_life_144"
 ],
 "v100_meets": [
@@ -866,10 +914,7 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"apparent_activity_unconverted",
-"no_decay_to_implant",
-"negative_decay_clamped",
-"urethra_subtracted_from_prostate"
+"duplicates_kept"
 ],
 "v150_pct": [
 "static_dose",
@@ -877,10 +922,8 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
 "no_decay_to_implant",
-"calibration_offset_ignored",
-"negative_decay_clamped",
+"duplicates_kept",
 "urethra_subtracted_from_prostate"
 ]
 },
@@ -892,22 +935,15 @@
 "integral_from_ct",
 "two_d_for_single_marker",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
-"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
 "duplicates_kept",
 "urethra_subtracted_from_prostate",
 "mean_life_144"
 ],
 "d90_meets": [
-"static_dose",
 "scaled_about_preimplant_volume",
-"integral_from_ct",
-"apparent_activity_unconverted",
-"no_decay_to_implant",
-"negative_decay_clamped"
+"integral_from_ct"
 ],
 "rd2cc_gy": [
 "static_dose",
@@ -915,30 +951,18 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "two_d_for_single_marker",
-"nearest_neighbour_instead_of_c3",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
-"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
 "duplicates_kept",
 "mean_life_144"
 ],
 "rv100_cc": [
-"static_dose",
 "volume_scaling",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
 "two_d_for_single_marker",
-"apparent_activity_unconverted",
-"no_decay_to_implant",
-"negative_decay_clamped",
-"duplicates_kept"
+"no_decay_to_implant"
 ],
-"rv100_meets": [
-"volume_scaling"
-],
+"rv100_meets": [],
 "ud10_gy": [
 "static_dose",
 "volume_scaling",
@@ -946,23 +970,15 @@
 "integral_from_ct",
 "two_d_for_single_marker",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
-"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
 "duplicates_kept",
-"floor_rank",
 "mean_life_144"
 ],
 "ud10_meets": [
 "static_dose",
 "scaled_about_preimplant_volume",
-"integral_from_ct",
-"apparent_activity_unconverted",
-"apparent_activity_fixed_coefficient",
-"no_decay_to_implant",
-"negative_decay_clamped"
+"integral_from_ct"
 ],
 "ud30_gy": [
 "static_dose",
@@ -971,25 +987,23 @@
 "integral_from_ct",
 "two_d_for_single_marker",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
-"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
 "duplicates_kept",
 "mean_life_144"
 ],
-"v100_meets": [],
+"v100_meets": [
+"volume_scaling",
+"no_decay_to_implant"
+],
 "v100_pct": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"two_d_for_single_marker",
-"apparent_activity_unconverted",
 "no_decay_to_implant",
-"negative_decay_clamped",
-"duplicates_kept"
+"duplicates_kept",
+"urethra_subtracted_from_prostate"
 ],
 "v150_pct": [
 "static_dose",
@@ -997,11 +1011,7 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "two_d_for_single_marker",
-"nearest_neighbour_instead_of_c3",
-"apparent_activity_unconverted",
-"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
-"negative_decay_clamped",
 "duplicates_kept",
 "urethra_subtracted_from_prostate"
 ]
@@ -1012,9 +1022,7 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"two_d_for_single_marker",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
 "no_decay_to_implant",
 "calibration_offset_ignored",
 "implant_time_without_daylight_saving",
@@ -1022,9 +1030,8 @@
 "mean_life_144"
 ],
 "d90_meets": [
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"apparent_activity_unconverted"
+"volume_scaling",
+"no_decay_to_implant"
 ],
 "rd2cc_gy": [
 "static_dose",
@@ -1032,7 +1039,6 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
 "no_decay_to_implant",
 "calibration_offset_ignored",
 "implant_time_without_daylight_saving",
@@ -1040,10 +1046,184 @@
 ],
 "rv100_cc": [
 "static_dose",
+"volume_scaling",
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"no_decay_to_implant",
+"calibration_offset_ignored"
+],
+"rv100_meets": [
+"volume_scaling",
+"no_decay_to_implant"
+],
+"ud10_gy": [
+"static_dose",
+"volume_scaling",
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"linear_g_interpolation",
+"no_decay_to_implant",
+"calibration_offset_ignored",
+"implant_time_without_daylight_saving",
+"floor_rank",
+"mean_life_144"
+],
+"ud10_meets": [
+"volume_scaling",
+"no_decay_to_implant",
+"floor_rank"
+],
+"ud30_gy": [
+"static_dose",
+"volume_scaling",
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"two_d_for_single_marker",
+"linear_g_interpolation",
+"no_decay_to_implant",
+"calibration_offset_ignored",
+"implant_time_without_daylight_saving",
+"floor_rank",
+"mean_life_144"
+],
+"v100_meets": [
+"no_decay_to_implant"
+],
+"v100_pct": [
+"static_dose",
+"volume_scaling",
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"no_decay_to_implant"
+],
+"v150_pct": [
+"static_dose",
+"volume_scaling",
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"no_decay_to_implant",
+"calibration_offset_ignored",
+"urethra_subtracted_from_prostate"
+]
+},
+"PT-013": {
+"d90_gy": [
+"static_dose",
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
+"no_decay_to_implant",
+"calibration_offset_ignored",
+"urethra_subtracted_from_prostate",
+"mean_life_144"
+],
+"d90_meets": [
+"integral_from_ct",
+"apparent_activity_unconverted"
+],
+"rd2cc_gy": [
+"static_dose",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
 "apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
+"no_decay_to_implant",
+"calibration_offset_ignored",
+"mean_life_144"
+],
+"rv100_cc": [
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"apparent_activity_unconverted",
+"no_decay_to_implant"
+],
+"rv100_meets": [],
+"ud10_gy": [
+"static_dose",
+"volume_scaling",
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
+"no_decay_to_implant",
+"calibration_offset_ignored",
+"mean_life_144"
+],
+"ud10_meets": [
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"apparent_activity_unconverted"
+],
+"ud30_gy": [
+"static_dose",
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
+"no_decay_to_implant",
+"calibration_offset_ignored",
+"floor_rank",
+"mean_life_144"
+],
+"v100_meets": [
+"no_decay_to_implant"
+],
+"v100_pct": [
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"apparent_activity_unconverted",
+"no_decay_to_implant"
+],
+"v150_pct": [
+"static_dose",
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
+"no_decay_to_implant",
+"urethra_subtracted_from_prostate"
+]
+},
+"PT-014": {
+"d90_gy": [
+"static_dose",
+"volume_scaling",
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"two_d_for_single_marker",
+"linear_g_interpolation",
+"no_decay_to_implant",
+"calibration_offset_ignored",
+"duplicates_kept",
+"urethra_subtracted_from_prostate",
+"mean_life_144"
+],
+"d90_meets": [
+"static_dose",
+"two_d_for_single_marker",
+"linear_g_interpolation",
+"no_decay_to_implant",
+"duplicates_kept",
+"urethra_subtracted_from_prostate"
+],
+"rd2cc_gy": [
+"static_dose",
+"volume_scaling",
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"two_d_for_single_marker",
+"linear_g_interpolation",
+"no_decay_to_implant",
+"calibration_offset_ignored",
+"duplicates_kept",
+"mean_life_144"
+],
+"rv100_cc": [
+"static_dose",
+"scaled_about_preimplant_volume",
+"integral_from_ct",
 "no_decay_to_implant"
 ],
 "rv100_meets": [
@@ -1055,191 +1235,20 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
 "no_decay_to_implant",
 "calibration_offset_ignored",
 "implant_time_without_daylight_saving",
 "mean_life_144"
 ],
 "ud10_meets": [
-"no_decay_to_implant"
-],
-"ud30_gy": [
-"static_dose",
-"volume_scaling",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"two_d_for_single_marker",
-"linear_g_interpolation",
-"apparent_activity_unconverted",
-"no_decay_to_implant",
-"calibration_offset_ignored",
-"implant_time_without_daylight_saving",
-"mean_life_144"
-],
-"v100_meets": [
-"no_decay_to_implant"
-],
-"v100_pct": [
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"apparent_activity_unconverted",
-"no_decay_to_implant",
-"urethra_subtracted_from_prostate"
-],
-"v150_pct": [
-"static_dose",
-"volume_scaling",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"apparent_activity_unconverted",
-"no_decay_to_implant",
-"calibration_offset_ignored",
-"urethra_subtracted_from_prostate"
-]
-},
-"PT-013": {
-"d90_gy": [
-"static_dose",
-"volume_scaling",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"apparent_activity_unconverted",
-"calibration_offset_ignored",
-"negative_decay_clamped",
-"urethra_subtracted_from_prostate",
-"mean_life_144"
-],
-"d90_meets": [
-"static_dose",
-"scaled_about_preimplant_volume",
 "integral_from_ct"
 ],
-"rd2cc_gy": [
-"static_dose",
-"volume_scaling",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"linear_g_interpolation",
-"apparent_activity_unconverted",
-"no_decay_to_implant",
-"calibration_offset_ignored",
-"negative_decay_clamped",
-"mean_life_144"
-],
-"rv100_cc": [
-"static_dose",
-"volume_scaling",
-"scaled_about_preimplant_volume",
-"integral_from_ct"
-],
-"rv100_meets": [],
-"ud10_gy": [
-"static_dose",
-"volume_scaling",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"apparent_activity_unconverted",
-"calibration_offset_ignored",
-"negative_decay_clamped",
-"floor_rank",
-"mean_life_144"
-],
-"ud10_meets": [
-"volume_scaling"
-],
 "ud30_gy": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"apparent_activity_unconverted",
-"no_decay_to_implant",
-"calibration_offset_ignored",
-"negative_decay_clamped",
-"mean_life_144"
-],
-"v100_meets": [
-"volume_scaling"
-],
-"v100_pct": [
-"static_dose",
-"volume_scaling",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"apparent_activity_unconverted",
-"negative_decay_clamped",
-"urethra_subtracted_from_prostate"
-],
-"v150_pct": [
-"static_dose",
-"volume_scaling",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"apparent_activity_unconverted",
-"no_decay_to_implant",
-"calibration_offset_ignored",
-"negative_decay_clamped",
-"urethra_subtracted_from_prostate"
-]
-},
-"PT-014": {
-"d90_gy": [
-"static_dose",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"two_d_for_single_marker",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
-"no_decay_to_implant",
-"calibration_offset_ignored",
-"implant_time_without_daylight_saving",
-"urethra_subtracted_from_prostate",
-"mean_life_144"
-],
-"d90_meets": [
-"static_dose",
-"linear_g_interpolation",
-"batch_total_as_per_seed",
-"no_decay_to_implant",
-"urethra_subtracted_from_prostate"
-],
-"rd2cc_gy": [
-"static_dose",
-"volume_scaling",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"linear_g_interpolation",
-"batch_total_as_per_seed",
-"no_decay_to_implant",
-"calibration_offset_ignored",
-"implant_time_without_daylight_saving",
-"mean_life_144"
-],
-"rv100_cc": [],
-"rv100_meets": [],
-"ud10_gy": [
-"static_dose",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"linear_g_interpolation",
-"batch_total_as_per_seed",
-"no_decay_to_implant",
-"calibration_offset_ignored",
-"implant_time_without_daylight_saving",
-"floor_rank",
-"mean_life_144"
-],
-"ud10_meets": [
-"batch_total_as_per_seed",
-"no_decay_to_implant"
-],
-"ud30_gy": [
-"static_dose",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"linear_g_interpolation",
-"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
 "implant_time_without_daylight_saving",
@@ -1249,18 +1258,23 @@
 "no_decay_to_implant"
 ],
 "v100_pct": [
+"static_dose",
+"volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"batch_total_as_per_seed",
-"no_decay_to_implant"
+"no_decay_to_implant",
+"duplicates_kept",
+"urethra_subtracted_from_prostate"
 ],
 "v150_pct": [
 "static_dose",
+"volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"batch_total_as_per_seed",
+"linear_g_interpolation",
 "no_decay_to_implant",
 "calibration_offset_ignored",
+"duplicates_kept",
 "urethra_subtracted_from_prostate"
 ]
 },
@@ -1273,13 +1287,10 @@
 "linear_g_interpolation",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
 "urethra_subtracted_from_prostate",
 "mean_life_144"
 ],
-"d90_meets": [
-"integral_from_ct"
-],
+"d90_meets": [],
 "rd2cc_gy": [
 "static_dose",
 "volume_scaling",
@@ -1288,7 +1299,6 @@
 "linear_g_interpolation",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
 "mean_life_144"
 ],
 "rv100_cc": [
@@ -1296,8 +1306,7 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"no_decay_to_implant",
-"duplicates_kept"
+"no_decay_to_implant"
 ],
 "rv100_meets": [
 "integral_from_ct"
@@ -1310,12 +1319,10 @@
 "linear_g_interpolation",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
 "floor_rank",
 "mean_life_144"
 ],
 "ud10_meets": [
-"scaled_about_preimplant_volume",
 "integral_from_ct"
 ],
 "ud30_gy": [
@@ -1326,22 +1333,18 @@
 "linear_g_interpolation",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
 "floor_rank",
 "mean_life_144"
 ],
 "v100_meets": [
-"static_dose",
-"scaled_about_preimplant_volume",
 "integral_from_ct"
 ],
 "v100_pct": [
-"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "no_decay_to_implant",
-"duplicates_kept"
+"urethra_subtracted_from_prostate"
 ],
 "v150_pct": [
 "static_dose",
@@ -1349,7 +1352,6 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "no_decay_to_implant",
-"duplicates_kept",
 "urethra_subtracted_from_prostate"
 ]
 },
@@ -1361,92 +1363,80 @@
 "integral_from_ct",
 "two_d_for_single_marker",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
-"floor_rank",
+"duplicates_kept",
 "urethra_subtracted_from_prostate",
 "mean_life_144"
 ],
 "d90_meets": [
-"static_dose",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"no_decay_to_implant",
-"negative_decay_clamped"
+"volume_scaling",
+"no_decay_to_implant"
 ],
 "rd2cc_gy": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
+"two_d_for_single_marker",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
+"duplicates_kept",
 "mean_life_144"
 ],
 "rv100_cc": [
 "volume_scaling",
-"batch_total_as_per_seed"
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"no_decay_to_implant"
 ],
 "rv100_meets": [
-"batch_total_as_per_seed"
+"scaled_about_preimplant_volume",
+"integral_from_ct"
 ],
 "ud10_gy": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
+"two_d_for_single_marker",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
-"floor_rank",
+"duplicates_kept",
 "mean_life_144"
 ],
 "ud10_meets": [
-"volume_scaling",
-"batch_total_as_per_seed"
+"integral_from_ct"
 ],
 "ud30_gy": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
+"two_d_for_single_marker",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
+"duplicates_kept",
 "mean_life_144"
 ],
-"v100_meets": [
-"volume_scaling",
-"batch_total_as_per_seed"
-],
+"v100_meets": [],
 "v100_pct": [
-"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"batch_total_as_per_seed",
-"no_decay_to_implant",
-"negative_decay_clamped",
-"urethra_subtracted_from_prostate"
+"no_decay_to_implant"
 ],
 "v150_pct": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"batch_total_as_per_seed",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"negative_decay_clamped",
+"duplicates_kept",
 "urethra_subtracted_from_prostate"
 ]
 },
@@ -1459,16 +1449,16 @@
 "two_d_for_single_marker",
 "nearest_neighbour_instead_of_c3",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
 "urethra_subtracted_from_prostate",
 "mean_life_144"
 ],
 "d90_meets": [
-"scaled_about_preimplant_volume",
-"integral_from_ct"
+"integral_from_ct",
+"apparent_activity_unconverted"
 ],
 "rd2cc_gy": [
 "static_dose",
@@ -1477,24 +1467,20 @@
 "integral_from_ct",
 "two_d_for_single_marker",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
 "mean_life_144"
 ],
 "rv100_cc": [
-"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"two_d_for_single_marker",
-"batch_total_as_per_seed",
-"no_decay_to_implant",
-"duplicates_kept"
+"apparent_activity_unconverted",
+"no_decay_to_implant"
 ],
 "rv100_meets": [
-"batch_total_as_per_seed"
+"no_decay_to_implant"
 ],
 "ud10_gy": [
 "static_dose",
@@ -1502,21 +1488,16 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "two_d_for_single_marker",
-"nearest_neighbour_instead_of_c3",
 "linear_g_interpolation",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
-"floor_rank",
 "mean_life_144"
 ],
 "ud10_meets": [
 "volume_scaling",
 "two_d_for_single_marker",
-"batch_total_as_per_seed",
-"no_decay_to_implant",
-"duplicates_kept"
+"no_decay_to_implant"
 ],
 "ud30_gy": [
 "static_dose",
@@ -1524,26 +1505,23 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "two_d_for_single_marker",
-"linear_g_interpolation",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
-"floor_rank",
 "mean_life_144"
 ],
 "v100_meets": [
-"batch_total_as_per_seed"
+"volume_scaling",
+"no_decay_to_implant"
 ],
 "v100_pct": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"two_d_for_single_marker",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
 "no_decay_to_implant",
-"duplicates_kept"
+"urethra_subtracted_from_prostate"
 ],
 "v150_pct": [
 "static_dose",
@@ -1552,9 +1530,8 @@
 "integral_from_ct",
 "two_d_for_single_marker",
 "nearest_neighbour_instead_of_c3",
-"batch_total_as_per_seed",
+"apparent_activity_unconverted",
 "no_decay_to_implant",
-"duplicates_kept",
 "urethra_subtracted_from_prostate"
 ]
 },
@@ -1565,8 +1542,7 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
-"apparent_activity_fixed_coefficient",
+"anisotropy_held_beyond_last_angle",
 "no_decay_to_implant",
 "calibration_offset_ignored",
 "implant_time_without_daylight_saving",
@@ -1574,9 +1550,9 @@
 "mean_life_144"
 ],
 "d90_meets": [
+"static_dose",
 "scaled_about_preimplant_volume",
-"integral_from_ct",
-"apparent_activity_unconverted"
+"integral_from_ct"
 ],
 "rd2cc_gy": [
 "static_dose",
@@ -1584,8 +1560,6 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
-"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored",
 "implant_time_without_daylight_saving",
@@ -1596,16 +1570,14 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"apparent_activity_unconverted",
-"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored"
 ],
 "rv100_meets": [
-"static_dose",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"apparent_activity_unconverted"
+"volume_scaling",
+"linear_g_interpolation",
+"no_decay_to_implant",
+"strict_criteria"
 ],
 "ud10_gy": [
 "static_dose",
@@ -1613,16 +1585,16 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
-"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored",
 "implant_time_without_daylight_saving",
+"floor_rank",
 "mean_life_144"
 ],
 "ud10_meets": [
-"volume_scaling",
-"no_decay_to_implant"
+"static_dose",
+"scaled_about_preimplant_volume",
+"integral_from_ct"
 ],
 "ud30_gy": [
 "static_dose",
@@ -1630,11 +1602,10 @@
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
-"apparent_activity_unconverted",
-"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored",
 "implant_time_without_daylight_saving",
+"floor_rank",
 "mean_life_144"
 ],
 "v100_meets": [
@@ -1646,107 +1617,91 @@
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"apparent_activity_unconverted",
-"no_decay_to_implant",
-"urethra_subtracted_from_prostate"
+"no_decay_to_implant"
 ],
 "v150_pct": [
 "static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"apparent_activity_unconverted",
+"linear_g_interpolation",
 "no_decay_to_implant",
 "urethra_subtracted_from_prostate"
 ]
 },
 "PT-019": {
 "d90_gy": [
-"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"linear_g_interpolation",
+"apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
 "urethra_subtracted_from_prostate",
 "mean_life_144"
 ],
 "d90_meets": [
-"static_dose",
 "scaled_about_preimplant_volume",
-"integral_from_ct"
+"integral_from_ct",
+"apparent_activity_unconverted"
 ],
 "rd2cc_gy": [
-"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
 "linear_g_interpolation",
+"apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
 "mean_life_144"
 ],
-"rv100_cc": [
-"volume_scaling",
-"no_decay_to_implant"
-],
-"rv100_meets": [
-"volume_scaling"
-],
+"rv100_cc": [],
+"rv100_meets": [],
 "ud10_gy": [
-"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"linear_g_interpolation",
+"apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
+"floor_rank",
 "mean_life_144"
 ],
-"ud10_meets": [
-"scaled_about_preimplant_volume",
-"integral_from_ct"
-],
+"ud10_meets": [],
 "ud30_gy": [
-"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
-"linear_g_interpolation",
+"apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
 "calibration_offset_ignored",
-"duplicates_kept",
 "mean_life_144"
 ],
-"v100_meets": [
-"volume_scaling",
-"no_decay_to_implant"
-],
+"v100_meets": [],
 "v100_pct": [
-"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
+"apparent_activity_unconverted",
 "no_decay_to_implant",
-"duplicates_kept"
+"urethra_subtracted_from_prostate"
 ],
 "v150_pct": [
-"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
+"apparent_activity_unconverted",
+"apparent_activity_fixed_coefficient",
 "no_decay_to_implant",
-"duplicates_kept",
 "urethra_subtracted_from_prostate"
 ]
 },
 "PT-020": {
 "d90_gy": [
-"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
@@ -1761,7 +1716,6 @@
 "integral_from_ct"
 ],
 "rd2cc_gy": [
-"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
@@ -1773,20 +1727,6 @@
 "rv100_cc": [],
 "rv100_meets": [],
 "ud10_gy": [
-"static_dose",
-"volume_scaling",
-"scaled_about_preimplant_volume",
-"integral_from_ct",
-"no_decay_to_implant",
-"calibration_offset_ignored",
-"floor_rank",
-"mean_life_144"
-],
-"ud10_meets": [
-"no_decay_to_implant"
-],
-"ud30_gy": [
-"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",
@@ -1795,9 +1735,18 @@
 "calibration_offset_ignored",
 "mean_life_144"
 ],
-"v100_meets": [
-"no_decay_to_implant"
+"ud10_meets": [],
+"ud30_gy": [
+"volume_scaling",
+"scaled_about_preimplant_volume",
+"integral_from_ct",
+"linear_g_interpolation",
+"no_decay_to_implant",
+"calibration_offset_ignored",
+"floor_rank",
+"mean_life_144"
 ],
+"v100_meets": [],
 "v100_pct": [
 "scaled_about_preimplant_volume",
 "integral_from_ct",
@@ -1805,7 +1754,6 @@
 "urethra_subtracted_from_prostate"
 ],
 "v150_pct": [
-"static_dose",
 "volume_scaling",
 "scaled_about_preimplant_volume",
 "integral_from_ct",

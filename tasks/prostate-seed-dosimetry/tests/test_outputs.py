@@ -148,7 +148,7 @@ FAMILIES = (
     "apparent_activity_unconverted", "apparent_activity_fixed_coefficient", "batch_total_as_per_seed",
     "no_decay_to_implant", "calibration_offset_ignored", "negative_decay_clamped",
     "implant_time_without_daylight_saving", "duplicates_kept", "floor_rank", "urethra_subtracted_from_prostate",
-    "mean_life_144",
+    "mean_life_144", "strict_criteria",
 )
 
 
