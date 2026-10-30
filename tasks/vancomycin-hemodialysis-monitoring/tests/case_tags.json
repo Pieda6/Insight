@@ -1,0 +1,9174 @@
+{
+"HD-001-S01": [
+"rounded_down"
+],
+"HD-001-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-001-S03": [
+"loading_dose_as_maintenance"
+],
+"HD-001-S04": [
+"no_hold_above_25"
+],
+"HD-001-S05": [
+"window_taken_as_three_hours",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-001-S06": [
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-001-S07": [
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-001-S08": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down"
+],
+"HD-001-S09": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down"
+],
+"HD-001-S10": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down"
+],
+"HD-001-S11": [
+"no_hold_above_25"
+],
+"HD-002-S01": [],
+"HD-002-S02": [
+"window_taken_as_three_hours",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-002-S03": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-002-S04": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-002-S05": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-002-S06": [
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-002-S07": [
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-002-S08": [
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-002-S09": [
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-002-S10": [
+"scaled_to_15",
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-002-S11": [
+"no_hold_above_25"
+],
+"HD-002-S12": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-003-S01": [],
+"HD-003-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-003-S03": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-003-S04": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-003-S05": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-003-S06": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-003-S07": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-003-S08": [
+"no_reset_on_change"
+],
+"HD-003-S09": [
+"no_reset_on_change"
+],
+"HD-003-S10": [
+"earliest_level_used",
+"no_reset_on_change"
+],
+"HD-003-S11": [
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_20",
+"unrounded_dose_carried"
+],
+"HD-003-S12": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down"
+],
+"HD-004-S01": [
+"rounded_down"
+],
+"HD-004-S02": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-004-S03": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-004-S04": [
+"no_hold_above_25"
+],
+"HD-004-S05": [
+"window_taken_as_three_hours",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-004-S06": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-004-S07": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-004-S08": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-004-S09": [
+"earliest_level_used",
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-004-S10": [
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-005-S01": [],
+"HD-005-S02": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-005-S03": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-005-S04": [
+"rounded_down"
+],
+"HD-005-S05": [
+"scaled_to_15",
+"rounded_down"
+],
+"HD-005-S06": [
+"scaled_to_15",
+"rounded_down"
+],
+"HD-005-S07": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down"
+],
+"HD-005-S08": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down"
+],
+"HD-005-S09": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down"
+],
+"HD-006-S01": [
+"rounded_down"
+],
+"HD-006-S02": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-006-S03": [
+"umol_read_as_mg",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-006-S04": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-006-S05": [
+"umol_read_as_mg",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-006-S06": [
+"umol_read_as_mg",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-006-S07": [
+"umol_read_as_mg",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-006-S08": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-006-S09": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-006-S10": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-006-S11": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-006-S12": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-007-S01": [],
+"HD-007-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-007-S03": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-007-S04": [
+"no_hold_above_25"
+],
+"HD-007-S05": [
+"no_hold_above_25"
+],
+"HD-007-S06": [
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-007-S07": [
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-007-S08": [
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-007-S09": [
+"two_hours_after_dialysis_ignored",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-007-S10": [
+"range_ends_exclusive",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-007-S11": [
+"window_taken_as_three_hours",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-008-S01": [
+"rounded_down"
+],
+"HD-008-S02": [
+"window_taken_as_three_hours",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-008-S03": [
+"window_taken_as_three_hours",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-008-S04": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-008-S05": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-008-S06": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-008-S07": [
+"umol_read_as_mg",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-008-S08": [
+"umol_read_as_mg",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-008-S09": [
+"umol_read_as_mg",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-008-S10": [
+"umol_read_as_mg",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-009-S01": [
+"loading_not_capped"
+],
+"HD-009-S02": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-009-S03": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-009-S04": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-009-S05": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-009-S06": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-009-S07": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-009-S08": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-009-S09": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-009-S10": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-009-S11": [
+"no_hold_above_25"
+],
+"HD-010-S01": [
+"loading_not_capped"
+],
+"HD-010-S02": [
+"scaled_to_15",
+"scaled_to_20",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-010-S03": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-010-S04": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-010-S05": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-010-S06": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-010-S07": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-010-S08": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-010-S09": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-011-S01": [
+"rounded_down"
+],
+"HD-011-S02": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-011-S03": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-011-S04": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-011-S05": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-011-S06": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-011-S07": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-011-S08": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-011-S09": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-012-S01": [
+"rounded_down"
+],
+"HD-012-S02": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-012-S03": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-012-S04": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-012-S05": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-012-S06": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-012-S07": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-012-S08": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-012-S09": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-013-S01": [
+"rounded_down"
+],
+"HD-013-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-013-S03": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-013-S04": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-013-S05": [
+"two_hours_after_dialysis_ignored",
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-013-S06": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-013-S07": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-013-S08": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-013-S09": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-013-S10": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-013-S11": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-013-S12": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-014-S01": [
+"rounded_down"
+],
+"HD-014-S02": [
+"umol_read_as_mg",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-014-S03": [
+"umol_read_as_mg",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-014-S04": [
+"umol_read_as_mg",
+"earliest_level_used",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-014-S05": [
+"umol_read_as_mg",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-014-S06": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-014-S07": [
+"window_taken_as_three_hours",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-014-S08": [
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-014-S09": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-014-S10": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-014-S11": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-014-S12": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change",
+"unrounded_dose_carried"
+],
+"HD-014-S13": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change",
+"unrounded_dose_carried"
+],
+"HD-015-S01": [],
+"HD-015-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-015-S03": [
+"earliest_level_used",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-015-S04": [
+"earliest_level_used",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-015-S05": [
+"earliest_level_used",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-015-S06": [
+"no_hold_above_25"
+],
+"HD-015-S07": [
+"earliest_level_used",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-015-S08": [
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-015-S09": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-015-S10": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-016-S01": [
+"loading_not_capped"
+],
+"HD-016-S02": [
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-016-S03": [
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-016-S04": [
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-016-S05": [
+"earliest_level_used",
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-016-S06": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-016-S07": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-016-S08": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-016-S09": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-016-S10": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-016-S11": [
+"window_taken_as_three_hours",
+"original_kept_over_correction",
+"earliest_level_used",
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-017-S01": [],
+"HD-017-S02": [
+"range_ends_exclusive",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-017-S03": [
+"no_hold_above_25"
+],
+"HD-017-S04": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-017-S05": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-017-S06": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-017-S07": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-017-S08": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-017-S09": [
+"no_hold_above_25"
+],
+"HD-017-S10": [
+"no_hold_above_25"
+],
+"HD-018-S01": [],
+"HD-018-S02": [
+"umol_read_as_mg",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-018-S03": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-018-S04": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-018-S05": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-018-S06": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-018-S07": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-018-S08": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-018-S09": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-018-S10": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-018-S11": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-019-S01": [
+"rounded_down"
+],
+"HD-019-S02": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-019-S03": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-019-S04": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-019-S05": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-019-S06": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-019-S07": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-019-S08": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-019-S09": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-019-S10": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-019-S11": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-019-S12": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-020-S01": [],
+"HD-020-S02": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-020-S03": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-020-S04": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-020-S05": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-020-S06": [
+"no_hold_above_25"
+],
+"HD-020-S07": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-020-S08": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-020-S09": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-020-S10": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-020-S11": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-020-S12": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-020-S13": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-021-S01": [],
+"HD-021-S02": [
+"umol_read_as_mg",
+"loading_dose_as_maintenance"
+],
+"HD-021-S03": [
+"umol_read_as_mg",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-021-S04": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-021-S05": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-021-S06": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-021-S07": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-021-S08": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-021-S09": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-021-S10": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-021-S11": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-021-S12": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-021-S13": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-022-S01": [
+"loading_not_capped"
+],
+"HD-022-S02": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-022-S03": [
+"no_hold_above_25"
+],
+"HD-022-S04": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-022-S05": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-022-S06": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-022-S07": [
+"no_hold_above_25"
+],
+"HD-022-S08": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-022-S09": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-023-S01": [
+"rounded_down"
+],
+"HD-023-S02": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-023-S03": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-023-S04": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-023-S05": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-023-S06": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-023-S07": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-023-S08": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-023-S09": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-023-S10": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-024-S01": [
+"loading_not_capped"
+],
+"HD-024-S02": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-024-S03": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-024-S04": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-024-S05": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-024-S06": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-024-S07": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-024-S08": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-024-S09": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-024-S10": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-025-S01": [
+"rounded_down"
+],
+"HD-025-S02": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-025-S03": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-025-S04": [
+"window_taken_as_three_hours",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-025-S05": [
+"no_hold_above_25"
+],
+"HD-025-S06": [
+"window_taken_as_three_hours",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-025-S07": [
+"window_taken_as_three_hours",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-025-S08": [
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-025-S09": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-025-S10": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-026-S01": [],
+"HD-026-S02": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-026-S03": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-026-S04": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-026-S05": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-026-S06": [
+"umol_read_as_mg",
+"earliest_level_used",
+"no_reset_on_change"
+],
+"HD-026-S07": [
+"no_reset_on_change"
+],
+"HD-026-S08": [
+"no_reset_on_change"
+],
+"HD-026-S09": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-026-S10": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-026-S11": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-026-S12": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-027-S01": [
+"rounded_down"
+],
+"HD-027-S02": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-027-S03": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-027-S04": [
+"umol_read_as_mg"
+],
+"HD-027-S05": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-027-S06": [
+"umol_read_as_mg",
+"rounded_down"
+],
+"HD-027-S07": [
+"umol_read_as_mg",
+"rounded_down"
+],
+"HD-027-S08": [
+"umol_read_as_mg",
+"rounded_down"
+],
+"HD-027-S09": [
+"umol_read_as_mg",
+"rounded_down"
+],
+"HD-027-S10": [
+"umol_read_as_mg",
+"rounded_down"
+],
+"HD-027-S11": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-028-S01": [],
+"HD-028-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-028-S03": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-028-S04": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-028-S05": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-028-S06": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-028-S07": [
+"earliest_level_used",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-028-S08": [
+"earliest_level_used",
+"range_ends_exclusive",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-028-S09": [
+"earliest_level_used",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-028-S10": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-028-S11": [
+"window_taken_as_three_hours",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-028-S12": [
+"window_taken_as_three_hours",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-029-S01": [],
+"HD-029-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-029-S03": [
+"loading_dose_as_maintenance"
+],
+"HD-029-S04": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-029-S05": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-029-S06": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-029-S07": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-029-S08": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-029-S09": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-029-S10": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-029-S11": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-029-S12": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-029-S13": [
+"umol_read_as_mg",
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-030-S01": [],
+"HD-030-S02": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-030-S03": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-030-S04": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-030-S05": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-030-S06": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-030-S07": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-030-S08": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-030-S09": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-030-S10": [
+"scaled_to_20",
+"rounded_down"
+],
+"HD-031-S01": [
+"rounded_down"
+],
+"HD-031-S02": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-031-S03": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-031-S04": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-031-S05": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-031-S06": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-031-S07": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-031-S08": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-031-S09": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-031-S10": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-031-S11": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-032-S01": [
+"rounded_down"
+],
+"HD-032-S02": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-032-S03": [
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-032-S04": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-032-S05": [
+"two_hours_after_dialysis_ignored",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-032-S06": [
+"no_reset_on_change"
+],
+"HD-032-S07": [
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-032-S08": [
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-032-S09": [
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-032-S10": [
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-033-S01": [],
+"HD-033-S02": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-033-S03": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-033-S04": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-033-S05": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-033-S06": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-033-S07": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-033-S08": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-033-S09": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-034-S01": [],
+"HD-034-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-034-S03": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-034-S04": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-034-S05": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-034-S06": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-034-S07": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-034-S08": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-034-S09": [
+"rounded_down"
+],
+"HD-034-S10": [
+"scaled_to_15",
+"rounded_down"
+],
+"HD-035-S01": [
+"rounded_down"
+],
+"HD-035-S02": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-035-S03": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-035-S04": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-035-S05": [
+"umol_read_as_mg",
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-035-S06": [
+"umol_read_as_mg",
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-035-S07": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-035-S08": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-035-S09": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-035-S10": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-035-S11": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-035-S12": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-035-S13": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-036-S01": [],
+"HD-036-S02": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-036-S03": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-036-S04": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-036-S05": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-036-S06": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-036-S07": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-036-S08": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-036-S09": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-036-S10": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-037-S01": [
+"rounded_down"
+],
+"HD-037-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-037-S03": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-037-S04": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-037-S05": [
+"no_hold_above_25"
+],
+"HD-037-S06": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-037-S07": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-037-S08": [
+"no_hold_above_25"
+],
+"HD-037-S09": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-037-S10": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-038-S01": [
+"loading_not_capped"
+],
+"HD-038-S02": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-038-S03": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-038-S04": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-038-S05": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-038-S06": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-038-S07": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-038-S08": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-038-S09": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-038-S10": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-039-S01": [],
+"HD-039-S02": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-039-S03": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-039-S04": [
+"range_ends_exclusive",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-039-S05": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-039-S06": [
+"window_taken_as_three_hours",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-039-S07": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-039-S08": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-039-S09": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-039-S10": [
+"window_taken_as_three_hours",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-039-S11": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-040-S01": [],
+"HD-040-S02": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-040-S03": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-040-S04": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-040-S05": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-040-S06": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-040-S07": [
+"no_hold_above_25"
+],
+"HD-040-S08": [
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-040-S09": [
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-040-S10": [
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-041-S01": [
+"rounded_down"
+],
+"HD-041-S02": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-041-S03": [
+"no_hold_above_25"
+],
+"HD-041-S04": [
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-041-S05": [
+"no_hold_above_25"
+],
+"HD-041-S06": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-041-S07": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-041-S08": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-041-S09": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-042-S01": [],
+"HD-042-S02": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-042-S03": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-042-S04": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-042-S05": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-042-S06": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-042-S07": [
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-042-S08": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-042-S09": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-042-S10": [
+"range_ends_exclusive",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-043-S01": [
+"rounded_down"
+],
+"HD-043-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-043-S03": [
+"loading_dose_as_maintenance"
+],
+"HD-043-S04": [
+"loading_dose_as_maintenance"
+],
+"HD-043-S05": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-043-S06": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-043-S07": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-043-S08": [
+"window_taken_as_three_hours",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-043-S09": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-043-S10": [
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-043-S11": [
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-044-S01": [
+"rounded_down"
+],
+"HD-044-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-044-S03": [
+"loading_dose_as_maintenance"
+],
+"HD-044-S04": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-044-S05": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-044-S06": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-044-S07": [
+"range_ends_exclusive",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-044-S08": [
+"no_hold_above_25"
+],
+"HD-044-S09": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-045-S01": [],
+"HD-045-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-045-S03": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-045-S04": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-045-S05": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-045-S06": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-045-S07": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-045-S08": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-045-S09": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-045-S10": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-045-S11": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-046-S01": [],
+"HD-046-S02": [
+"umol_read_as_mg",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-046-S03": [
+"umol_read_as_mg",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-046-S04": [
+"umol_read_as_mg",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-046-S05": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-046-S06": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-046-S07": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-046-S08": [
+"umol_read_as_mg",
+"no_reset_on_change"
+],
+"HD-046-S09": [
+"umol_read_as_mg",
+"no_reset_on_change"
+],
+"HD-046-S10": [
+"umol_read_as_mg",
+"no_reset_on_change"
+],
+"HD-047-S01": [
+"rounded_down"
+],
+"HD-047-S02": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-047-S03": [
+"original_kept_over_correction",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-047-S04": [
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-047-S05": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-047-S06": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-047-S07": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-047-S08": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-047-S09": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-048-S01": [
+"rounded_down"
+],
+"HD-048-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-048-S03": [
+"loading_dose_as_maintenance"
+],
+"HD-048-S04": [
+"loading_dose_as_maintenance"
+],
+"HD-048-S05": [
+"loading_dose_as_maintenance"
+],
+"HD-048-S06": [
+"loading_dose_as_maintenance"
+],
+"HD-048-S07": [
+"loading_dose_as_maintenance"
+],
+"HD-048-S08": [
+"no_hold_above_25"
+],
+"HD-048-S09": [
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-048-S10": [
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-048-S11": [
+"no_hold_above_25"
+],
+"HD-048-S12": [
+"no_hold_above_25"
+],
+"HD-049-S01": [
+"rounded_down"
+],
+"HD-049-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-049-S03": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-049-S04": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-049-S05": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-049-S06": [
+"no_hold_above_25"
+],
+"HD-049-S07": [
+"earliest_level_used",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-049-S08": [
+"no_hold_above_25"
+],
+"HD-049-S09": [
+"range_ends_exclusive",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-049-S10": [
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-049-S11": [
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-049-S12": [
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-050-S01": [
+"rounded_down"
+],
+"HD-050-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-050-S03": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-050-S04": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-050-S05": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-050-S06": [
+"window_taken_as_three_hours",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-050-S07": [
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-050-S08": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-050-S09": [
+"no_hold_above_25"
+],
+"HD-050-S10": [
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change",
+"hold_keeps_previous_dose"
+],
+"HD-051-S01": [],
+"HD-051-S02": [
+"umol_read_as_mg",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-051-S03": [
+"umol_read_as_mg",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-051-S04": [
+"umol_read_as_mg",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-051-S05": [
+"umol_read_as_mg",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-051-S06": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-051-S07": [
+"umol_read_as_mg",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-051-S08": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-051-S09": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-051-S10": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-051-S11": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-051-S12": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-051-S13": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-052-S01": [
+"rounded_down"
+],
+"HD-052-S02": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-052-S03": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_20",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-052-S04": [
+"rounded_down",
+"intradialytic_range_low_end"
+],
+"HD-052-S05": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end"
+],
+"HD-052-S06": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end"
+],
+"HD-052-S07": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end"
+],
+"HD-052-S08": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end"
+],
+"HD-052-S09": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-052-S10": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose"
+],
+"HD-053-S01": [],
+"HD-053-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-053-S03": [
+"loading_dose_as_maintenance"
+],
+"HD-053-S04": [
+"original_kept_over_correction",
+"loading_dose_as_maintenance"
+],
+"HD-053-S05": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-053-S06": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-053-S07": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-053-S08": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-053-S09": [
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-053-S10": [
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-054-S01": [],
+"HD-054-S02": [
+"no_hold_above_25"
+],
+"HD-054-S03": [
+"no_hold_above_25"
+],
+"HD-054-S04": [
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-054-S05": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-054-S06": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-054-S07": [
+"no_hold_above_25"
+],
+"HD-054-S08": [
+"no_hold_above_25"
+],
+"HD-054-S09": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-054-S10": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-055-S01": [
+"loading_not_capped"
+],
+"HD-055-S02": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-055-S03": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-055-S04": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-055-S05": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-055-S06": [
+"no_hold_above_25"
+],
+"HD-055-S07": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-055-S08": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-055-S09": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-055-S10": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-055-S11": [
+"no_hold_above_25"
+],
+"HD-055-S12": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-055-S13": [
+"range_ends_exclusive",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-056-S01": [],
+"HD-056-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-056-S03": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-056-S04": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-056-S05": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-056-S06": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-056-S07": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-056-S08": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-056-S09": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-056-S10": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-056-S11": [
+"no_hold_above_25"
+],
+"HD-057-S01": [
+"rounded_down"
+],
+"HD-057-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-057-S03": [
+"loading_dose_as_maintenance"
+],
+"HD-057-S04": [
+"loading_dose_as_maintenance"
+],
+"HD-057-S05": [
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-057-S06": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-057-S07": [
+"two_hours_after_dialysis_ignored",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-057-S08": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-057-S09": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-057-S10": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-057-S11": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-057-S12": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-057-S13": [
+"no_hold_above_25"
+],
+"HD-058-S01": [],
+"HD-058-S02": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-058-S03": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-058-S04": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-058-S05": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-058-S06": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-058-S07": [
+"no_hold_above_25"
+],
+"HD-058-S08": [
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-058-S09": [
+"no_hold_above_25"
+],
+"HD-058-S10": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change",
+"hold_keeps_previous_dose"
+],
+"HD-058-S11": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change",
+"hold_keeps_previous_dose"
+],
+"HD-059-S01": [],
+"HD-059-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-059-S03": [
+"no_hold_above_25"
+],
+"HD-059-S04": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-059-S05": [
+"earliest_level_used",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-059-S06": [
+"earliest_level_used",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-059-S07": [
+"earliest_level_used",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-059-S08": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-059-S09": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-060-S01": [
+"loading_not_capped"
+],
+"HD-060-S02": [
+"window_taken_as_three_hours",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-060-S03": [
+"window_taken_as_three_hours",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-060-S04": [
+"window_taken_as_three_hours",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-060-S05": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-060-S06": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-060-S07": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-060-S08": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-060-S09": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-060-S10": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-060-S11": [
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-060-S12": [
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-061-S01": [
+"loading_not_capped"
+],
+"HD-061-S02": [
+"umol_read_as_mg",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-061-S03": [
+"umol_read_as_mg",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-061-S04": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-061-S05": [
+"umol_read_as_mg",
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-061-S06": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-061-S07": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-061-S08": [
+"umol_read_as_mg",
+"original_kept_over_correction"
+],
+"HD-061-S09": [
+"umol_read_as_mg"
+],
+"HD-061-S10": [
+"umol_read_as_mg"
+],
+"HD-062-S01": [],
+"HD-062-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-062-S03": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-062-S04": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-062-S05": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-062-S06": [
+"first_session_weight_throughout"
+],
+"HD-062-S07": [
+"scaled_to_15",
+"rounded_down",
+"first_session_weight_throughout"
+],
+"HD-062-S08": [
+"scaled_to_15",
+"rounded_down",
+"first_session_weight_throughout"
+],
+"HD-062-S09": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"first_session_weight_throughout"
+],
+"HD-063-S01": [
+"rounded_down"
+],
+"HD-063-S02": [
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-063-S03": [
+"original_kept_over_correction",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-063-S04": [
+"original_kept_over_correction",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-063-S05": [
+"original_kept_over_correction",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-063-S06": [
+"intradialytic_range_low_end"
+],
+"HD-063-S07": [
+"no_hold_above_25"
+],
+"HD-063-S08": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-063-S09": [
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-063-S10": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose"
+],
+"HD-064-S01": [],
+"HD-064-S02": [
+"window_taken_as_three_hours",
+"loading_dose_as_maintenance"
+],
+"HD-064-S03": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"loading_dose_as_maintenance"
+],
+"HD-064-S04": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"loading_dose_as_maintenance"
+],
+"HD-064-S05": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-064-S06": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-064-S07": [
+"window_taken_as_three_hours",
+"two_hours_after_dialysis_ignored",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-064-S08": [
+"no_hold_above_25"
+],
+"HD-064-S09": [
+"no_hold_above_25"
+],
+"HD-064-S10": [
+"no_hold_above_25"
+],
+"HD-064-S11": [
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-065-S01": [
+"rounded_down"
+],
+"HD-065-S02": [
+"no_hold_above_25"
+],
+"HD-065-S03": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-065-S04": [
+"no_hold_above_25"
+],
+"HD-065-S05": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-065-S06": [
+"earliest_level_used",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-065-S07": [
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-065-S08": [
+"no_hold_above_25"
+],
+"HD-065-S09": [
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-065-S10": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-065-S11": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-065-S12": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-066-S01": [
+"rounded_down"
+],
+"HD-066-S02": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-066-S03": [
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-066-S04": [
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-066-S05": [
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-066-S06": [
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-066-S07": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-066-S08": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-066-S09": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-066-S10": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-066-S11": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-067-S01": [
+"loading_not_capped"
+],
+"HD-067-S02": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-067-S03": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-067-S04": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-067-S05": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-067-S06": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-067-S07": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-067-S08": [
+"no_hold_above_25"
+],
+"HD-067-S09": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-068-S01": [
+"loading_not_capped"
+],
+"HD-068-S02": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-068-S03": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-068-S04": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-068-S05": [
+"earliest_level_used",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-068-S06": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-068-S07": [
+"no_hold_above_25"
+],
+"HD-068-S08": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-068-S09": [
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-068-S10": [
+"no_hold_above_25"
+],
+"HD-068-S11": [
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-069-S01": [
+"rounded_down"
+],
+"HD-069-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-069-S03": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-069-S04": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-069-S05": [
+"umol_read_as_mg",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-069-S06": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-069-S07": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-069-S08": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change",
+"hold_keeps_previous_dose"
+],
+"HD-069-S09": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change",
+"hold_keeps_previous_dose"
+],
+"HD-069-S10": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-069-S11": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose"
+],
+"HD-069-S12": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-070-S01": [
+"rounded_down"
+],
+"HD-070-S02": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-070-S03": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-070-S04": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-070-S05": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-070-S06": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-070-S07": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-070-S08": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-070-S09": [
+"two_hours_after_dialysis_ignored",
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-070-S10": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-071-S01": [],
+"HD-071-S02": [
+"umol_read_as_mg",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-071-S03": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-071-S04": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-071-S05": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-071-S06": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-071-S07": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-071-S08": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-071-S09": [
+"umol_read_as_mg",
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-071-S10": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose"
+],
+"HD-071-S11": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose"
+],
+"HD-071-S12": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-071-S13": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-072-S01": [],
+"HD-072-S02": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-072-S03": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-072-S04": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-072-S05": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-072-S06": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-072-S07": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-072-S08": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-072-S09": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-072-S10": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-072-S11": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-072-S12": [
+"no_hold_above_25"
+],
+"HD-072-S13": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-073-S01": [
+"loading_not_capped"
+],
+"HD-073-S02": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-073-S03": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-073-S04": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-073-S05": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-073-S06": [
+"no_hold_above_25"
+],
+"HD-073-S07": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-073-S08": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-073-S09": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-073-S10": [
+"no_hold_above_25"
+],
+"HD-074-S01": [
+"rounded_down"
+],
+"HD-074-S02": [
+"umol_read_as_mg",
+"loading_dose_as_maintenance"
+],
+"HD-074-S03": [
+"umol_read_as_mg",
+"loading_dose_as_maintenance"
+],
+"HD-074-S04": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-074-S05": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-074-S06": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-074-S07": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-074-S08": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-074-S09": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-074-S10": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-074-S11": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-075-S01": [],
+"HD-075-S02": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-075-S03": [
+"no_hold_above_25"
+],
+"HD-075-S04": [
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-075-S05": [
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-075-S06": [
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-075-S07": [
+"no_hold_above_25"
+],
+"HD-075-S08": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-075-S09": [
+"no_hold_above_25"
+],
+"HD-075-S10": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-075-S11": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose"
+],
+"HD-075-S12": [
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose"
+],
+"HD-075-S13": [
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose"
+],
+"HD-076-S01": [
+"rounded_down"
+],
+"HD-076-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-076-S03": [
+"no_hold_above_25"
+],
+"HD-076-S04": [
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-076-S05": [
+"earliest_level_used",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-076-S06": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-076-S07": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-076-S08": [
+"original_kept_over_correction",
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-076-S09": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-076-S10": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-076-S11": [
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-077-S01": [
+"rounded_down"
+],
+"HD-077-S02": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-077-S03": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-077-S04": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-077-S05": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-077-S06": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-077-S07": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-077-S08": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-077-S09": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-077-S10": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-077-S11": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-077-S12": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-078-S01": [],
+"HD-078-S02": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-078-S03": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-078-S04": [
+"rounded_down"
+],
+"HD-078-S05": [
+"rounded_down"
+],
+"HD-078-S06": [
+"rounded_down"
+],
+"HD-078-S07": [
+"rounded_down"
+],
+"HD-078-S08": [
+"window_taken_as_three_hours",
+"rounded_down"
+],
+"HD-078-S09": [
+"window_taken_as_three_hours",
+"rounded_down"
+],
+"HD-079-S01": [
+"rounded_down"
+],
+"HD-079-S02": [
+"no_hold_above_25"
+],
+"HD-079-S03": [
+"no_hold_above_25"
+],
+"HD-079-S04": [
+"original_kept_over_correction",
+"rounded_down"
+],
+"HD-079-S05": [
+"rounded_down"
+],
+"HD-079-S06": [
+"no_hold_above_25"
+],
+"HD-079-S07": [
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-079-S08": [
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-079-S09": [
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-079-S10": [
+"no_hold_above_25"
+],
+"HD-079-S11": [
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-079-S12": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-080-S01": [],
+"HD-080-S02": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-080-S03": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-080-S04": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-080-S05": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-080-S06": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-080-S07": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-080-S08": [
+"umol_read_as_mg",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-080-S09": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-080-S10": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-080-S11": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-081-S01": [
+"rounded_down"
+],
+"HD-081-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-081-S03": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-081-S04": [
+"no_hold_above_25"
+],
+"HD-081-S05": [
+"no_hold_above_25"
+],
+"HD-081-S06": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose"
+],
+"HD-081-S07": [
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-081-S08": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-081-S09": [
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-081-S10": [
+"range_ends_exclusive",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-081-S11": [
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-081-S12": [
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-081-S13": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-082-S01": [
+"rounded_down"
+],
+"HD-082-S02": [
+"window_taken_as_three_hours",
+"loading_dose_as_maintenance"
+],
+"HD-082-S03": [
+"loading_dose_as_maintenance"
+],
+"HD-082-S04": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-082-S05": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-082-S06": [
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-082-S07": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-082-S08": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-082-S09": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-083-S01": [
+"rounded_down"
+],
+"HD-083-S02": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-083-S03": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-083-S04": [
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-083-S05": [
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-083-S06": [
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-083-S07": [
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-083-S08": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-083-S09": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-084-S01": [
+"rounded_down"
+],
+"HD-084-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-084-S03": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-084-S04": [
+"window_taken_as_three_hours",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-084-S05": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-084-S06": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-084-S07": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-084-S08": [
+"no_hold_above_25"
+],
+"HD-084-S09": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-085-S01": [
+"loading_not_capped"
+],
+"HD-085-S02": [
+"window_taken_as_three_hours",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-085-S03": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-085-S04": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-085-S05": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-085-S06": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-085-S07": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-085-S08": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-085-S09": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-085-S10": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-086-S01": [
+"rounded_down"
+],
+"HD-086-S02": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-086-S03": [
+"umol_read_as_mg",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-086-S04": [
+"umol_read_as_mg",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-086-S05": [
+"umol_read_as_mg",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-086-S06": [
+"umol_read_as_mg",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-086-S07": [
+"umol_read_as_mg",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-086-S08": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-086-S09": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-086-S10": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-086-S11": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-086-S12": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-087-S01": [],
+"HD-087-S02": [
+"no_hold_above_25"
+],
+"HD-087-S03": [
+"earliest_level_used",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-087-S04": [
+"window_taken_as_three_hours"
+],
+"HD-087-S05": [],
+"HD-087-S06": [
+"two_hours_after_dialysis_ignored"
+],
+"HD-087-S07": [
+"range_ends_exclusive"
+],
+"HD-087-S08": [],
+"HD-087-S09": [],
+"HD-088-S01": [],
+"HD-088-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-088-S03": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-088-S04": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-088-S05": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-088-S06": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-088-S07": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-088-S08": [
+"umol_read_as_mg",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-088-S09": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-089-S01": [],
+"HD-089-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-089-S03": [
+"loading_dose_as_maintenance"
+],
+"HD-089-S04": [
+"earliest_level_used",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-089-S05": [
+"no_hold_above_25"
+],
+"HD-089-S06": [
+"earliest_level_used",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-089-S07": [
+"earliest_level_used",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-089-S08": [
+"earliest_level_used",
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-089-S09": [
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-090-S01": [
+"rounded_down"
+],
+"HD-090-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-090-S03": [
+"no_hold_above_25"
+],
+"HD-090-S04": [
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-090-S05": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-090-S06": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-090-S07": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-090-S08": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-090-S09": [
+"original_kept_over_correction",
+"range_ends_exclusive",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-091-S01": [],
+"HD-091-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-091-S03": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-091-S04": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-091-S05": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-091-S06": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-091-S07": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-091-S08": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-091-S09": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-092-S01": [],
+"HD-092-S02": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-092-S03": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-092-S04": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-092-S05": [
+"window_taken_as_three_hours",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-092-S06": [
+"window_taken_as_three_hours",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-092-S07": [
+"original_kept_over_correction",
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-092-S08": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-092-S09": [
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-092-S10": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-092-S11": [
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-092-S12": [
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-093-S01": [],
+"HD-093-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-093-S03": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-093-S04": [
+"range_ends_exclusive",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-093-S05": [
+"no_hold_above_25"
+],
+"HD-093-S06": [
+"range_ends_exclusive",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-093-S07": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-093-S08": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-093-S09": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-093-S10": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-093-S11": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-093-S12": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-094-S01": [
+"loading_not_capped"
+],
+"HD-094-S02": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-094-S03": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-094-S04": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-094-S05": [
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-094-S06": [
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-094-S07": [
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-094-S08": [
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-094-S09": [
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-094-S10": [
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-094-S11": [
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-094-S12": [
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-095-S01": [],
+"HD-095-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-095-S03": [
+"loading_dose_as_maintenance"
+],
+"HD-095-S04": [
+"loading_dose_as_maintenance"
+],
+"HD-095-S05": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-095-S06": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-095-S07": [
+"rounded_down",
+"intradialytic_range_low_end"
+],
+"HD-095-S08": [
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down"
+],
+"HD-095-S09": [
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down"
+],
+"HD-095-S10": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-096-S01": [
+"rounded_down"
+],
+"HD-096-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-096-S03": [
+"loading_dose_as_maintenance"
+],
+"HD-096-S04": [
+"no_hold_above_25"
+],
+"HD-096-S05": [
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-096-S06": [
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-096-S07": [
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-096-S08": [
+"window_taken_as_three_hours",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-096-S09": [
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-096-S10": [
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-096-S11": [
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-096-S12": [
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-097-S01": [
+"rounded_down"
+],
+"HD-097-S02": [
+"no_hold_above_25"
+],
+"HD-097-S03": [
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-097-S04": [
+"earliest_level_used",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-097-S05": [
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-097-S06": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-097-S07": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-097-S08": [
+"no_hold_above_25"
+],
+"HD-097-S09": [
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-097-S10": [
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-098-S01": [],
+"HD-098-S02": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-098-S03": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-098-S04": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-098-S05": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-098-S06": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-098-S07": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-098-S08": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-098-S09": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-098-S10": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-098-S11": [
+"no_hold_above_25"
+],
+"HD-098-S12": [
+"no_hold_above_25"
+],
+"HD-099-S01": [
+"loading_not_capped"
+],
+"HD-099-S02": [
+"no_hold_above_25"
+],
+"HD-099-S03": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-099-S04": [
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-099-S05": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-099-S06": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-099-S07": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-099-S08": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-099-S09": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-099-S10": [
+"range_ends_exclusive",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-099-S11": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-099-S12": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-099-S13": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-100-S01": [],
+"HD-100-S02": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-100-S03": [
+"original_kept_over_correction",
+"range_ends_exclusive",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-100-S04": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-100-S05": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-100-S06": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-100-S07": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-100-S08": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-100-S09": [
+"no_hold_above_25"
+],
+"HD-100-S10": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-100-S11": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-100-S12": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-101-S01": [],
+"HD-101-S02": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-101-S03": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-101-S04": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-101-S05": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-101-S06": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-101-S07": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-101-S08": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-101-S09": [
+"no_hold_above_25"
+],
+"HD-101-S10": [
+"no_hold_above_25"
+],
+"HD-102-S01": [
+"rounded_down"
+],
+"HD-102-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-102-S03": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-102-S04": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-102-S05": [
+"no_hold_above_25"
+],
+"HD-102-S06": [
+"original_kept_over_correction",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-102-S07": [
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-102-S08": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-102-S09": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-102-S10": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-103-S01": [
+"rounded_down"
+],
+"HD-103-S02": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-103-S03": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-103-S04": [
+"window_taken_as_three_hours",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-103-S05": [
+"earliest_level_used",
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-103-S06": [
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-103-S07": [
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-103-S08": [
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-103-S09": [
+"original_kept_over_correction",
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-103-S10": [
+"original_kept_over_correction",
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-103-S11": [
+"original_kept_over_correction",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-103-S12": [
+"range_ends_exclusive",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-103-S13": [
+"range_ends_exclusive",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-104-S01": [
+"loading_not_capped"
+],
+"HD-104-S02": [
+"scaled_to_20",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-104-S03": [
+"scaled_to_20",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-104-S04": [
+"range_ends_exclusive",
+"scaled_to_20",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-104-S05": [
+"scaled_to_20",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-104-S06": [
+"scaled_to_20",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-104-S07": [
+"window_taken_as_three_hours",
+"scaled_to_20",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-104-S08": [
+"window_taken_as_three_hours",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-104-S09": [
+"window_taken_as_three_hours",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-105-S01": [
+"rounded_down"
+],
+"HD-105-S02": [
+"umol_read_as_mg",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-105-S03": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-105-S04": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-105-S05": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-105-S06": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-105-S07": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-105-S08": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-105-S09": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-105-S10": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-105-S11": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-105-S12": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-105-S13": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-106-S01": [
+"rounded_down"
+],
+"HD-106-S02": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-106-S03": [
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-106-S04": [
+"no_hold_above_25"
+],
+"HD-106-S05": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-106-S06": [
+"no_hold_above_25"
+],
+"HD-106-S07": [
+"window_taken_as_three_hours",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose"
+],
+"HD-106-S08": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose"
+],
+"HD-106-S09": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose"
+],
+"HD-106-S10": [
+"no_hold_above_25"
+],
+"HD-106-S11": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-106-S12": [
+"no_hold_above_25"
+],
+"HD-106-S13": [
+"window_taken_as_three_hours",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-107-S01": [
+"rounded_down"
+],
+"HD-107-S02": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-107-S03": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-107-S04": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-107-S05": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-107-S06": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-107-S07": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-107-S08": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-107-S09": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-107-S10": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-107-S11": [
+"umol_read_as_mg",
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-107-S12": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-107-S13": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-108-S01": [
+"loading_not_capped"
+],
+"HD-108-S02": [
+"umol_read_as_mg",
+"scaled_to_20",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-108-S03": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-108-S04": [
+"window_taken_as_three_hours",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-108-S05": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-108-S06": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-108-S07": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-108-S08": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-108-S09": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-108-S10": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-109-S01": [],
+"HD-109-S02": [
+"earliest_level_used",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-109-S03": [
+"no_hold_above_25"
+],
+"HD-109-S04": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-109-S05": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-109-S06": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-109-S07": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-109-S08": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-109-S09": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-109-S10": [
+"window_taken_as_three_hours",
+"two_hours_after_dialysis_ignored",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-109-S11": [
+"window_taken_as_three_hours",
+"two_hours_after_dialysis_ignored",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-109-S12": [
+"window_taken_as_three_hours",
+"two_hours_after_dialysis_ignored",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-110-S01": [
+"rounded_down"
+],
+"HD-110-S02": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-110-S03": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-110-S04": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-110-S05": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-110-S06": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-110-S07": [
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-110-S08": [
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-110-S09": [
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-111-S01": [],
+"HD-111-S02": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-111-S03": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-111-S04": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-111-S05": [
+"earliest_level_used",
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-111-S06": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-111-S07": [
+"no_hold_above_25"
+],
+"HD-111-S08": [
+"no_hold_above_25"
+],
+"HD-111-S09": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-112-S01": [],
+"HD-112-S02": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-112-S03": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-112-S04": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-112-S05": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-112-S06": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-112-S07": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-112-S08": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-112-S09": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-112-S10": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-112-S11": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-113-S01": [],
+"HD-113-S02": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-113-S03": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-113-S04": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-113-S05": [
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-113-S06": [
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-113-S07": [
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-113-S08": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end"
+],
+"HD-113-S09": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down"
+],
+"HD-113-S10": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down"
+],
+"HD-113-S11": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-113-S12": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried"
+],
+"HD-114-S01": [],
+"HD-114-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-114-S03": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-114-S04": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-114-S05": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-114-S06": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-114-S07": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-114-S08": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-114-S09": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-114-S10": [
+"umol_read_as_mg",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-115-S01": [
+"rounded_down"
+],
+"HD-115-S02": [
+"range_ends_exclusive",
+"loading_dose_as_maintenance"
+],
+"HD-115-S03": [
+"loading_dose_as_maintenance"
+],
+"HD-115-S04": [
+"loading_dose_as_maintenance"
+],
+"HD-115-S05": [
+"earliest_level_used",
+"range_ends_exclusive",
+"loading_dose_as_maintenance"
+],
+"HD-115-S06": [
+"earliest_level_used",
+"range_ends_exclusive",
+"loading_dose_as_maintenance"
+],
+"HD-115-S07": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-115-S08": [
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-115-S09": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-116-S01": [],
+"HD-116-S02": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-116-S03": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-116-S04": [
+"earliest_level_used",
+"scaled_to_20",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-116-S05": [
+"earliest_level_used",
+"scaled_to_20",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-116-S06": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-116-S07": [
+"no_hold_above_25"
+],
+"HD-116-S08": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-116-S09": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-116-S10": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-117-S01": [],
+"HD-117-S02": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-117-S03": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-117-S04": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-117-S05": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-117-S06": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-117-S07": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-117-S08": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-117-S09": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-117-S10": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-117-S11": [
+"umol_read_as_mg",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-117-S12": [
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-117-S13": [
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-118-S01": [
+"rounded_down"
+],
+"HD-118-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-118-S03": [
+"window_taken_as_three_hours",
+"loading_dose_as_maintenance"
+],
+"HD-118-S04": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-118-S05": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-118-S06": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-118-S07": [
+"no_hold_above_25"
+],
+"HD-118-S08": [
+"no_hold_above_25"
+],
+"HD-118-S09": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-118-S10": [
+"range_ends_exclusive",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-118-S11": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-119-S01": [
+"rounded_down"
+],
+"HD-119-S02": [
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-119-S03": [
+"no_hold_above_25"
+],
+"HD-119-S04": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-119-S05": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-119-S06": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-119-S07": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-119-S08": [
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-119-S09": [
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-119-S10": [
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-119-S11": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-119-S12": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-119-S13": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-120-S01": [
+"rounded_down"
+],
+"HD-120-S02": [
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-120-S03": [
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-120-S04": [
+"no_hold_above_25"
+],
+"HD-120-S05": [
+"range_ends_exclusive",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-120-S06": [
+"range_ends_exclusive",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-120-S07": [
+"original_kept_over_correction",
+"range_ends_exclusive",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-120-S08": [
+"range_ends_exclusive",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-120-S09": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-120-S10": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-120-S11": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-120-S12": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-120-S13": [
+"range_ends_exclusive",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-121-S01": [
+"loading_not_capped"
+],
+"HD-121-S02": [
+"no_hold_above_25"
+],
+"HD-121-S03": [
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-121-S04": [
+"no_hold_above_25"
+],
+"HD-121-S05": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-121-S06": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-121-S07": [
+"no_hold_above_25"
+],
+"HD-121-S08": [
+"earliest_level_used",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-121-S09": [
+"range_ends_exclusive",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-121-S10": [
+"no_hold_above_25"
+],
+"HD-121-S11": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose"
+],
+"HD-121-S12": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-122-S01": [],
+"HD-122-S02": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-122-S03": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-122-S04": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-122-S05": [
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-122-S06": [
+"original_kept_over_correction",
+"scaled_to_20",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-122-S07": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-122-S08": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-122-S09": [
+"no_hold_above_25"
+],
+"HD-122-S10": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-122-S11": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-123-S01": [
+"rounded_down"
+],
+"HD-123-S02": [
+"umol_read_as_mg",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-123-S03": [
+"umol_read_as_mg",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-123-S04": [
+"umol_read_as_mg",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-123-S05": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-123-S06": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-123-S07": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-123-S08": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-123-S09": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-123-S10": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-124-S01": [],
+"HD-124-S02": [
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-124-S03": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-124-S04": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-124-S05": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-124-S06": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-124-S07": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-124-S08": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-124-S09": [
+"no_hold_above_25"
+],
+"HD-124-S10": [
+"no_hold_above_25"
+],
+"HD-124-S11": [
+"window_taken_as_three_hours",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-125-S01": [
+"loading_not_capped"
+],
+"HD-125-S02": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-125-S03": [
+"earliest_level_used",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-125-S04": [
+"earliest_level_used",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-125-S05": [
+"earliest_level_used",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-125-S06": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-125-S07": [
+"earliest_level_used",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-125-S08": [
+"earliest_level_used",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-125-S09": [
+"earliest_level_used",
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-125-S10": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-125-S11": [
+"no_hold_above_25"
+],
+"HD-125-S12": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-125-S13": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-126-S01": [
+"rounded_down"
+],
+"HD-126-S02": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-126-S03": [
+"two_hours_after_dialysis_ignored",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-126-S04": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-126-S05": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-126-S06": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-126-S07": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-126-S08": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-126-S09": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-126-S10": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-126-S11": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-127-S01": [],
+"HD-127-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-127-S03": [
+"loading_dose_as_maintenance"
+],
+"HD-127-S04": [
+"loading_dose_as_maintenance"
+],
+"HD-127-S05": [
+"loading_dose_as_maintenance"
+],
+"HD-127-S06": [
+"loading_dose_as_maintenance"
+],
+"HD-127-S07": [
+"loading_dose_as_maintenance"
+],
+"HD-127-S08": [
+"no_hold_above_25"
+],
+"HD-127-S09": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-127-S10": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-127-S11": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-127-S12": [
+"no_hold_above_25"
+],
+"HD-128-S01": [
+"rounded_down"
+],
+"HD-128-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-128-S03": [
+"original_kept_over_correction",
+"scaled_to_20",
+"loading_dose_as_maintenance"
+],
+"HD-128-S04": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-128-S05": [
+"two_hours_after_dialysis_ignored",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-128-S06": [
+"no_hold_above_25"
+],
+"HD-128-S07": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-128-S08": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-128-S09": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-128-S10": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-128-S11": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-128-S12": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-128-S13": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-129-S01": [
+"rounded_down"
+],
+"HD-129-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-129-S03": [
+"loading_dose_as_maintenance"
+],
+"HD-129-S04": [
+"range_ends_exclusive",
+"loading_dose_as_maintenance"
+],
+"HD-129-S05": [
+"window_taken_as_three_hours",
+"range_ends_exclusive",
+"loading_dose_as_maintenance"
+],
+"HD-129-S06": [
+"window_taken_as_three_hours",
+"range_ends_exclusive",
+"loading_dose_as_maintenance"
+],
+"HD-129-S07": [
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-129-S08": [
+"window_taken_as_three_hours",
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-129-S09": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-129-S10": [
+"earliest_level_used",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-129-S11": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-130-S01": [
+"rounded_down"
+],
+"HD-130-S02": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-130-S03": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-130-S04": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-130-S05": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-130-S06": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-130-S07": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-130-S08": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-130-S09": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-130-S10": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-130-S11": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-130-S12": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-130-S13": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-131-S01": [
+"rounded_down"
+],
+"HD-131-S02": [
+"loading_dose_as_maintenance"
+],
+"HD-131-S03": [
+"no_hold_above_25"
+],
+"HD-131-S04": [
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-131-S05": [
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-131-S06": [
+"scaled_to_20",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-131-S07": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-131-S08": [
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-131-S09": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-131-S10": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-131-S11": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-132-S01": [
+"loading_not_capped"
+],
+"HD-132-S02": [
+"original_kept_over_correction",
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-132-S03": [
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-132-S04": [
+"earliest_level_used",
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-132-S05": [
+"earliest_level_used",
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-132-S06": [
+"no_reset_on_change"
+],
+"HD-132-S07": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"no_reset_on_change"
+],
+"HD-132-S08": [
+"no_hold_above_25"
+],
+"HD-132-S09": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose"
+],
+"HD-133-S01": [
+"rounded_down"
+],
+"HD-133-S02": [
+"umol_read_as_mg",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-133-S03": [
+"umol_read_as_mg",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-133-S04": [],
+"HD-133-S05": [
+"umol_read_as_mg"
+],
+"HD-133-S06": [
+"umol_read_as_mg",
+"scaled_to_20",
+"unrounded_dose_carried"
+],
+"HD-133-S07": [
+"umol_read_as_mg",
+"scaled_to_20",
+"unrounded_dose_carried"
+],
+"HD-133-S08": [
+"umol_read_as_mg",
+"scaled_to_20",
+"unrounded_dose_carried"
+],
+"HD-133-S09": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-133-S10": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down"
+],
+"HD-133-S11": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-133-S12": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-134-S01": [
+"loading_not_capped"
+],
+"HD-134-S02": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-134-S03": [
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-134-S04": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-134-S05": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-134-S06": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-134-S07": [
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-134-S08": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-134-S09": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-135-S01": [],
+"HD-135-S02": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-135-S03": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-135-S04": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-135-S05": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-135-S06": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-135-S07": [
+"no_hold_above_25"
+],
+"HD-135-S08": [
+"original_kept_over_correction",
+"no_hold_above_25"
+],
+"HD-135-S09": [
+"no_hold_above_25"
+],
+"HD-136-S01": [
+"rounded_down"
+],
+"HD-136-S02": [
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-136-S03": [
+"scaled_to_20",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-136-S04": [
+"scaled_to_20",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-136-S05": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-136-S06": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-136-S07": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-136-S08": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-136-S09": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-137-S01": [
+"loading_not_capped"
+],
+"HD-137-S02": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-137-S03": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-137-S04": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-137-S05": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-137-S06": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-137-S07": [
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-137-S08": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-137-S09": [
+"umol_read_as_mg",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-137-S10": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-137-S11": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change",
+"hold_keeps_previous_dose"
+],
+"HD-138-S01": [
+"loading_not_capped"
+],
+"HD-138-S02": [
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-138-S03": [
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-138-S04": [
+"range_ends_exclusive",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-138-S05": [
+"no_hold_above_25"
+],
+"HD-138-S06": [
+"range_ends_exclusive",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-138-S07": [
+"range_ends_exclusive",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-138-S08": [
+"range_ends_exclusive",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-138-S09": [
+"no_hold_above_25"
+],
+"HD-138-S10": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-139-S01": [
+"loading_not_capped"
+],
+"HD-139-S02": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-139-S03": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-139-S04": [
+"no_hold_above_25"
+],
+"HD-139-S05": [
+"range_ends_exclusive",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-139-S06": [
+"range_ends_exclusive",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-139-S07": [
+"no_hold_above_25"
+],
+"HD-139-S08": [
+"window_taken_as_three_hours",
+"range_ends_exclusive",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-139-S09": [
+"range_ends_exclusive",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-139-S10": [
+"window_taken_as_three_hours",
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-139-S11": [
+"rounded_down",
+"intradialytic_range_low_end",
+"no_reset_on_change"
+],
+"HD-140-S01": [
+"loading_not_capped"
+],
+"HD-140-S02": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_20",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-140-S03": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_20",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-140-S04": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_20",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-140-S05": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_20",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-140-S06": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_20",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-140-S07": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_20",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-140-S08": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-140-S09": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-140-S10": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-140-S11": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-140-S12": [
+"window_taken_as_three_hours",
+"umol_read_as_mg",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance",
+"first_session_weight_throughout"
+],
+"HD-141-S01": [
+"loading_not_capped"
+],
+"HD-141-S02": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-141-S03": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_20",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-141-S04": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_20",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-141-S05": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-141-S06": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-141-S07": [
+"umol_read_as_mg",
+"rounded_down",
+"hold_keeps_previous_dose"
+],
+"HD-141-S08": [
+"umol_read_as_mg",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-141-S09": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-141-S10": [
+"umol_read_as_mg",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-141-S11": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-141-S12": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-141-S13": [
+"umol_read_as_mg",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried"
+],
+"HD-142-S01": [],
+"HD-142-S02": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-142-S03": [
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-142-S04": [
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-142-S05": [
+"window_taken_as_three_hours",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-142-S06": [
+"no_hold_above_25"
+],
+"HD-142-S07": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-142-S08": [
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-142-S09": [
+"window_taken_as_three_hours",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-142-S10": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-143-S01": [
+"loading_not_capped"
+],
+"HD-143-S02": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-143-S03": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-143-S04": [
+"umol_read_as_mg",
+"earliest_level_used",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-143-S05": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-143-S06": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-143-S07": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-143-S08": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-143-S09": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-143-S10": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-143-S11": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-143-S12": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-143-S13": [
+"umol_read_as_mg",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-144-S01": [],
+"HD-144-S02": [
+"no_hold_above_25"
+],
+"HD-144-S03": [
+"no_hold_above_25"
+],
+"HD-144-S04": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-144-S05": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-144-S06": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-144-S07": [
+"earliest_level_used",
+"range_ends_exclusive",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-144-S08": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-144-S09": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-144-S10": [
+"two_hours_after_dialysis_ignored",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-144-S11": [
+"two_hours_after_dialysis_ignored",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-145-S01": [
+"rounded_down"
+],
+"HD-145-S02": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-145-S03": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-145-S04": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-145-S05": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-145-S06": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-145-S07": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-145-S08": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-145-S09": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-146-S01": [
+"rounded_down"
+],
+"HD-146-S02": [
+"window_taken_as_three_hours",
+"loading_dose_as_maintenance"
+],
+"HD-146-S03": [
+"window_taken_as_three_hours",
+"loading_dose_as_maintenance"
+],
+"HD-146-S04": [
+"window_taken_as_three_hours",
+"loading_dose_as_maintenance"
+],
+"HD-146-S05": [
+"earliest_level_used",
+"no_reset_on_change"
+],
+"HD-146-S06": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-146-S07": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change",
+"unrounded_dose_carried"
+],
+"HD-146-S08": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change",
+"unrounded_dose_carried"
+],
+"HD-146-S09": [
+"original_kept_over_correction",
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change",
+"unrounded_dose_carried"
+],
+"HD-146-S10": [
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"no_reset_on_change"
+],
+"HD-146-S11": [
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"no_reset_on_change",
+"unrounded_dose_carried"
+],
+"HD-147-S01": [],
+"HD-147-S02": [
+"scaled_to_15",
+"rounded_down",
+"loading_dose_as_maintenance"
+],
+"HD-147-S03": [
+"no_hold_above_25"
+],
+"HD-147-S04": [
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-147-S05": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-147-S06": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-147-S07": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-147-S08": [
+"window_taken_as_three_hours",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-147-S09": [
+"window_taken_as_three_hours",
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"hold_keeps_previous_dose",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-148-S01": [
+"rounded_down"
+],
+"HD-148-S02": [
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-148-S03": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-148-S04": [
+"no_hold_above_25"
+],
+"HD-148-S05": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-148-S06": [
+"no_hold_above_25"
+],
+"HD-148-S07": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-148-S08": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-148-S09": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-148-S10": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-148-S11": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-148-S12": [
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-149-S01": [],
+"HD-149-S02": [
+"umol_read_as_mg",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-149-S03": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-149-S04": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-149-S05": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-149-S06": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-149-S07": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"loading_dose_as_maintenance"
+],
+"HD-149-S08": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-149-S09": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-149-S10": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"unrounded_dose_carried",
+"loading_dose_as_maintenance"
+],
+"HD-149-S11": [
+"umol_read_as_mg",
+"no_hold_above_25"
+],
+"HD-149-S12": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-150-S01": [
+"rounded_down"
+],
+"HD-150-S02": [
+"no_hold_above_25"
+],
+"HD-150-S03": [
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-150-S04": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-150-S05": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-150-S06": [
+"earliest_level_used",
+"scaled_to_15",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-150-S07": [
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-150-S08": [
+"original_kept_over_correction",
+"earliest_level_used",
+"scaled_to_15",
+"scaled_to_20",
+"rounded_down",
+"intradialytic_range_low_end",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-150-S09": [
+"earliest_level_used",
+"no_hold_above_25"
+],
+"HD-150-S10": [
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-150-S11": [
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+],
+"HD-150-S12": [
+"original_kept_over_correction",
+"scaled_to_20",
+"rounded_down",
+"hold_keeps_previous_dose",
+"loading_dose_as_maintenance"
+]
+}

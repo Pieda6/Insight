@@ -1,0 +1,14 @@
+The hemodialysis unit is auditing vancomycin dosing for 150 patients with MRSA infections on maintenance hemodialysis. Following the 2020 consensus guideline of ASHP, IDSA, PIDS and SIDP (Rybak et al., Am J Health-Syst Pharm 2020;77:835-864) and the unit's protocol below, determine the vancomycin dose for every session.
+
+The data is in /app/data/. sessions.csv lists each dialysis session with its start and stop, the dialyzer's permeability (high or low), whether the session's vancomycin dose is given during the session (intradialytic) or after it ends (after_dialysis), and the patient's weight in kg before the session. levels.csv holds the vancomycin results as the laboratory reported them, in mg/L or umol/L (vancomycin, 1449.3 g/mol); a corrected result replaces the earlier result with the same accession. Times are local New York time (America/New_York), to the minute.
+
+The unit's protocol:
+- Doses in mg/kg come from the guideline's Recommendation 13 table for the session's dialyzer and timing, taking the middle of a range, and are multiplied by that session's weight. A patient's first session in the data gets the loading dose, which does not exceed 3,000 mg, as the guideline advises for loading doses.
+- A session's predialysis level is the latest numeric result drawn no more than 2 hours before the session starts that the guideline's sampling advice for patients on hemodialysis allows.
+- As Recommendation 14 advises, the predialysis level drives the maintenance dose. When it is below 15 or above 20 mg/L, the current maintenance dose is changed in proportion to bring the level to 17.5 mg/L and given at that session; when it is above 25 mg/L, that session's dose is held and the changed dose applies from the next session.
+- The current maintenance dose starts at the weight-based maintenance dose of the patient's second session. At a session whose dialyzer or timing differs from the session before, it restarts at that session's weight-based maintenance dose, which that session gets unchanged.
+- Each dose is rounded to the nearest 250 mg when it is set, and the rounded dose is the one carried forward. Nothing else is rounded.
+
+Write /app/output/session_doses.csv with the header patient_id,session_id,predialysis_level_mg_l,status,dose_mg and one row per session, sorted by patient_id and then session start. predialysis_level_mg_l is the session's predialysis level in mg/L with one decimal, or blank when there is none; status is none, below, within or above for that level against 15 to 20 mg/L; dose_mg is the dose for that session, 0 when held. Levels are accepted within 0.05 mg/L; status and dose_mg must match exactly. Do not add extra columns, blank lines or explanations.
+
+You have 28800 seconds to complete this task. Do not cheat by using online solutions or hints specific to this task.

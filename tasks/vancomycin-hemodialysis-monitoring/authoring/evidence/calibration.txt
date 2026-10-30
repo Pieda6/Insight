@@ -1,0 +1,17 @@
+15 shortcuts, each must fail at least one test
+caught     14 of 1633 sessions wrong  levels during or within 2 hours after an earlier session kept
+caught    134 of 1633 sessions wrong  window of 3 hours
+caught     58 of 1633 sessions wrong  window end exclusive (exactly 2 hours dropped)
+caught    458 of 1633 sessions wrong  umol/L read as mg/L
+caught    189 of 1633 sessions wrong  original kept over the correction
+caught    301 of 1633 sessions wrong  earliest level in the window
+caught     77 of 1633 sessions wrong  range ends exclusive
+caught    612 of 1633 sessions wrong  scaled to 15 mg/L
+caught   1043 of 1633 sessions wrong  rounded down
+caught     27 of 1633 sessions wrong  loading not capped
+caught    330 of 1633 sessions wrong  intradialytic range low end
+caught    120 of 1633 sessions wrong  no restart on a dialyzer or timing change
+caught    226 of 1633 sessions wrong  no hold above 25 mg/L
+caught    433 of 1633 sessions wrong  held session keeps the old dose for later
+caught   1023 of 1633 sessions wrong  loading dose carried as the maintenance dose
+CALIBRATION: every shortcut caught
