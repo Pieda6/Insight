@@ -69,13 +69,37 @@ def fmt_local(t):
     return t.strftime("%Y-%m-%d %H:%M")
 
 
-def polygon(cx, cy, ax, by, phases, n=36):
-    pts = []
-    for m in range(n):
-        ph = 2 * math.pi * m / n
-        rho = 1 + 0.04 * math.sin(2 * ph + phases[0]) + 0.03 * math.sin(3 * ph + phases[1]) + 0.02 * math.sin(5 * ph + phases[2])
-        pts.append([round(cx + ax * rho * math.cos(ph), 1), round(cy + by * rho * math.sin(ph), 1)])
-    return pts
+def polygon(rng, cx, cy, ax, by, phases, n=36):
+    """Closed contour with vertices written to 0.01 mm, redrawn with a small radial jitter until no voxel centre lies
+    within 0.02 mm of any edge, so that every point-in-polygon rule agrees on which voxels belong to it."""
+    for _ in range(200):
+        pts = []
+        for m in range(n):
+            ph = 2 * math.pi * m / n
+            rho = 1 + 0.04 * math.sin(2 * ph + phases[0]) + 0.03 * math.sin(3 * ph + phases[1]) + 0.02 * math.sin(5 * ph + phases[2])
+            jit = rng.uniform(-0.08, 0.08)                     # mm, enough to move an edge clear of a voxel centre
+            pts.append([round(cx + (ax * rho + jit) * math.cos(ph), 2), round(cy + (by * rho + jit) * math.sin(ph), 2)])
+        if edge_clear(pts):
+            return pts
+    raise RuntimeError("no clean polygon in 200 draws")
+
+
+def edge_clear(poly, min_mm=0.02):
+    """True when no voxel centre (i + 1/2) x 2.5 mm lies within min_mm of an edge of the polygon."""
+    xs = [p[0] for p in poly]
+    ys = [p[1] for p in poly]
+    for i in range(math.floor(min(xs) / 2.5 - 0.5), math.ceil(max(xs) / 2.5 - 0.5) + 1):
+        px = (i + 0.5) * 2.5
+        for j in range(math.floor(min(ys) / 2.5 - 0.5), math.ceil(max(ys) / 2.5 - 0.5) + 1):
+            py = (j + 0.5) * 2.5
+            for k in range(len(poly)):
+                x0, y0 = poly[k]
+                x1, y1 = poly[(k + 1) % len(poly)]
+                dx, dy = x1 - x0, y1 - y0
+                t = max(0.0, min(1.0, ((px - x0) * dx + (py - y0) * dy) / (dx * dx + dy * dy)))
+                if math.hypot(px - x0 - t * dx, py - y0 - t * dy) < min_mm:
+                    return False
+    return True
 
 
 def area(poly):
@@ -106,16 +130,16 @@ def build_contours(rng, centre_mm, a, b, c):
         az, bz = 10 * a * f, 10 * b * f
         if min(az, bz) < 2.0:
             continue
-        poly = polygon(x0, y0, az, bz, phases_p)
+        poly = polygon(rng, x0, y0, az, bz, phases_p)
         vol += area(poly) * 2.5
         prostate.append({"z_mm": round(z, 2), "points_mm": poly})
         if min(az, bz) > ur_rad + 3.5:
             ux = x0 + ur_amp * math.sin(math.pi * (z - z0) / (10 * c))
             uy = y0 + 0.08 * (z - z0)
-            urethra.append({"z_mm": round(z, 2), "points_mm": polygon(ux, uy, ur_rad, ur_rad, [0, 0, 0], 16)})
+            urethra.append({"z_mm": round(z, 2), "points_mm": polygon(rng, ux, uy, ur_rad, ur_rad, [0, 0, 0], 16)})
     for z in slice_positions(prostate[0]["z_mm"] - 5.5, prostate[-1]["z_mm"] + 5.5):
         ry = y0 - 10 * b - gap - rr + rng.uniform(-0.5, 0.5)
-        rectum.append({"z_mm": round(z, 2), "points_mm": polygon(x0 + rng.uniform(-2, 2), ry, rr * ratio, rr, phases_r, 32)})
+        rectum.append({"z_mm": round(z, 2), "points_mm": polygon(rng, x0 + rng.uniform(-2, 2), ry, rr * ratio, rr, phases_r, 32)})
     return {"prostate": prostate, "urethra": urethra, "rectum": rectum}, vol / 1000.0, (ur_amp,)
 
 
