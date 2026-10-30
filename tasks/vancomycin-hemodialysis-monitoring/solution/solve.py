@@ -2,7 +2,7 @@
 """Reference solution for vancomycin-hemodialysis-monitoring.
 
 Vancomycin dosing at each hemodialysis session by predialysis-concentration monitoring, following the 2020
-ASHP/IDSA/PIDS/SIDP guideline (Recommendations 13 and 14; sampling rule on page 846; loading cap on page 845) and the
+ASHP/IDSA/PIDS/SIDP guideline (Recommendations 13 and 14, page 847; sampling rule, page 848; loading cap, page 845) and the
 unit's protocol in the instruction. Sessions are processed in time order per patient, carrying the current
 maintenance dose from one session to the next.
 """
