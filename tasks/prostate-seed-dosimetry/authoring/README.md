@@ -41,13 +41,13 @@ These files are not copied into the agent or verifier images. Run them from this
 
 ## Settled readings
 Stated in instruction.md: New York local implant times; certificate units and the vendor's exposure-rate constant;
-calibration times with UTC offsets; duplicate detections named in review; seed centre at the marker midpoint with
-the axis through the markers; seeds fixed at their CT positions from the implant on; the 2D formalism with the
+calibration times with UTC offsets; duplicate detections named in review; the 2D formalism with the
 line-source geometry function; ln g_L linear in r and F bilinear in r and theta (the report allows any appropriate
 interpolation for clinical use, Sec. III A 4, and used these for its consensus data, Sec. IV); total dose to
-complete decay; 0.1 percent tolerance. Settled by the report: g_L with G_L (Eqs. 1, 6); F(r, 90 degrees) = 1
+complete decay; 0.1 percent tolerance. Settled by the report: the source centre at the radio-opaque marker centroid, with the axis through the
+markers (Sec. III A); g_L with G_L (Eqs. 1, 6); F(r, 90 degrees) = 1
 (Eq. 8); symmetry about the transverse plane for the consensus datasets (Sec. III A); nearest neighbour outside the
 tabulated distances for both g and F in 2D (Appendix C, Eq. C1); active length L from the dataset (Sec. III A 3);
 apparent activity times the vendor's own exposure-rate constant (Appendix E); half-lives (Table XIII, also in the
-data). Physics: mean life T1/2 / ln 2; air kerma per roentgen 0.876 cGy (the factor behind Appendix E's 1.270 =
+data). Post-implant dosimetry convention: seeds at their CT positions from the implant on. Physics: mean life T1/2 / ln 2; air kerma per roentgen 0.876 cGy (the factor behind Appendix E's 1.270 =
 1.45 x 0.876 and 1.293 = 1.476 x 0.876).
