@@ -158,7 +158,7 @@ def make_patient(rng, k, model, want_single):
         for j in range(-6, 7):
             x, y = 0.5 * i, 0.5 * j
             q = (x / (a * 0.97)) ** 2 + (y / (b * 0.97)) ** 2
-            if q <= 1 and math.hypot(x, y) >= 0.9 and (q > 0.45 or rng.random() < 0.15):
+            if q <= 1 and math.hypot(x, y) >= 0.65 and (q > 0.45 or rng.random() < 0.15):
                 needles.append((x, y))
     rng.shuffle(needles)
     needles = needles[:rng.randint(18, 26)]
@@ -178,11 +178,11 @@ def make_patient(rng, k, model, want_single):
             seeds.append((ctr, ax))
     single = set()
     if want_single:
-        # seeds whose orientation was lost on the CT; for the models whose anisotropy factor starts at 1 cm they are
-        # the seeds nearest the urethra, where the Appendix C short-distance model changes the urethral indices
+        # seeds whose orientation was not resolved on the CT: every seed for the patients evaluated with the 1D
+        # formalism throughout (the models whose anisotropy factor starts at 1 cm, where the Appendix C
+        # short-distance model matters), one to four seeds otherwise
         if d["anisotropy_factor_1d"][0][0] >= 1.0:
-            order = sorted(range(len(seeds)), key=lambda i: math.hypot(seeds[i][0][0] - x0, seeds[i][0][1] - y0))
-            single = set(order[:rng.randint(4, 6)])
+            single = set(range(len(seeds)))
         else:
             single = set(rng.sample(range(len(seeds)), rng.randint(1, 4)))
     per_seed = rng.uniform(0.35, 0.65) if nuc == "I-125" else rng.uniform(1.4, 2.3)
@@ -220,12 +220,12 @@ def make_patient(rng, k, model, want_single):
         row["review"] = "accepted"
         seed_rows.append(row)
     if rng.random() < 0.35:
-        two_marker = [r for r in seed_rows if r["x2_mm"] != ""]
         for _ in range(rng.randint(1, 3)):
-            srow = rng.choice(two_marker)
+            srow = rng.choice(seed_rows[:len(seeds)])
             dup = dict(srow)
             for key in ("x1_mm", "y1_mm", "z1_mm", "x2_mm", "y2_mm", "z2_mm"):
-                dup[key] = f"{float(srow[key]) + rng.uniform(-0.4, 0.4):.1f}"
+                if srow[key] != "":
+                    dup[key] = f"{float(srow[key]) + rng.uniform(-0.4, 0.4):.1f}"
             dup["seed_id"] = f"S{len(seed_rows) + 1:03d}"
             dup["review"] = f"duplicate of {srow['seed_id']}"
             seed_rows.append(dup)
