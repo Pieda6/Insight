@@ -19,35 +19,35 @@ These files are not copied into the agent or verifier images. Run them from this
   cm template at least 0.5 cm from the urethra, seeds 1 cm apart along each needle with 1.2 mm jitter; seed axes
   tilted 0 to 15 degrees (70 percent), 15 to 40 degrees (20 percent) or 40 to 90 degrees; end markers 3.5 to 4.5 mm
   apart, written to 0.1 mm, either order. Air-kerma strength 0.35 to 0.65 U (iodine-125) or 1.4 to 2.3 U
-  (palladium-103) per seed at implant. Certificates: 25 percent apparent activity with an exposure-rate constant of
-  1.45 or 1.464 (iodine-125) or 1.476 or 1.48 (palladium-103), 20 percent batch totals, the rest per seed;
+  (palladium-103) per seed at implant. Certificates: 25 percent apparent activity with a vendor conversion coefficient
+  of 1.270 or 1.282 U/mCi (iodine-125) or 1.293 or 1.297 (palladium-103), 20 percent batch totals, the rest per seed;
   calibrated at noon vendor time 6 days after to 21 days before the implant, in the vendor's zone (Central for
   Amersham and Imagyn, Eastern for Best, Bebig/Theragenics and Theragenics, Pacific for NASI). Implants 07:00 to
   15:59 New York time, mostly within 12 days of the March 8 or November 1, 2026 change. 35 percent of patients have
   a second batch of 4 to 10 seeds; 30 percent have 1 to 3 duplicate detections (markers within 0.4 mm of the seed
-  they repeat). Points: 8 urethra, 4 rectum, 3 on the prostate surface and 3 inside it; every point is at least
+  they repeat). Points: 8 urethra, 4 rectum, 3 on the prostate surface, 3 inside it and the two femoral heads 8.0
+  to 10.8 cm lateral; every point is at least
   0.30 cm from every seed centre (more than L/2, where the report says the polar formalism breaks down) and 0.05
   cm off every seed axis (174 drawn patients were redrawn for this). Answers are computed from the written values.
 - Families: a point carries a family tag when the generator's dose with that one rule misread differs by more
   than 0.15 percent from the correct dose.
 
 ## Evidence (outputs saved in `evidence/`)
-- `check_agreement.py` -> `evidence/agreement.txt`: solution, engine and generator agree on all 1,080 points; it
+- `check_agreement.py` -> `evidence/agreement.txt`: solution, engine and generator agree on all 1,200 points; it
   prints every count quoted in the READMEs.
 - `local_check.py ..` -> `evidence/local_check.txt`: oracle passes every test, empty output fails.
-- `calibrate.py` -> `evidence/calibration.txt`: 21 shortcut solutions and how many points each gets wrong.
+- `calibrate.py` -> `evidence/calibration.txt`: 22 shortcut solutions and how many points each gets wrong.
 - `tables.py` -> `evidence/tables_check.txt`: the Table XV check.
 - `generate.py` -> `evidence/generate_output.txt`.
 
 ## Settled readings
-Stated in instruction.md: New York local implant times; certificate units and the vendor's exposure-rate constant;
-calibration times with UTC offsets; duplicate detections named in review; the 2D formalism with the
-line-source geometry function; ln g_L linear in r and F bilinear in r and theta (the report allows any appropriate
-interpolation for clinical use, Sec. III A 4, and used these for its consensus data, Sec. IV); total dose to
-complete decay; 0.1 percent tolerance. Settled by the report: the source centre at the radio-opaque marker centroid, with the axis through the
-markers (Sec. III A); g_L with G_L (Eqs. 1, 6); F(r, 90 degrees) = 1
-(Eq. 8); symmetry about the transverse plane for the consensus datasets (Sec. III A); nearest neighbour outside the
-tabulated distances for both g and F in 2D (Appendix C, Eq. C1); active length L from the dataset (Sec. III A 3);
-apparent activity times the vendor's own exposure-rate constant (Appendix E); half-lives (Table XIII, also in the
-data). Post-implant dosimetry convention: seeds at their CT positions from the implant on. Physics: mean life T1/2 / ln 2; air kerma per roentgen 0.876 cGy (the factor behind Appendix E's 1.270 =
-1.45 x 0.876 and 1.293 = 1.476 x 0.876).
+Stated in instruction.md as facts: New York local implant times; certificate units and the vendor's conversion
+coefficient; calibration times with UTC offsets; duplicate detections named in review; seeds fixed at their CT
+positions from the implant on; the 2D formalism with the line-source geometry function; ln g_L linear in r and F
+bilinear in r and theta (the report allows any appropriate interpolation for clinical use and used these for its
+consensus data, Sec. IV); total dose to complete decay; nothing rounded before the final doses. Settled by the
+report: the source centre at the marker centroid with the axis through the markers (Sec. III A); g_L with G_L (Eqs.
+1, 6); F(r, 90 degrees) = 1 (Eq. 8); symmetry about the transverse plane (Sec. III A); nearest neighbour outside the
+tabulated distances for both g and F in 2D (Appendix C, Eq. C1); active length L from the dataset; apparent activity
+times the vendor's own coefficient (Appendix E); half-lives (Table XIII, also in the data). Physics: mean life
+T1/2 / ln 2.

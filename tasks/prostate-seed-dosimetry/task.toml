@@ -4,7 +4,7 @@ schema_version = "2.0"
 
 [task]
 name = "insight/prostate-seed-dosimetry"
-description = "Post-implant dosimetry of 60 permanent prostate seed implants (eight iodine-125 and palladium-103 seed models) under the AAPM TG-43U1 protocol: from CT end-marker positions of 2,934 seeds, vendor certificates in air-kerma strength per seed, per batch or apparent activity with the vendor's exposure-rate constant, calibration times with UTC offsets and New York local implant times across daylight-saving changes, and duplicate detections, compute the total dose to complete decay at 1,080 urethra, rectum and prostate points with the 2D line-source formalism and the report's consensus datasets and rules for data outside the tables."
+description = "Post-implant dosimetry of 60 permanent prostate seed implants (eight iodine-125 and palladium-103 seed models) under the AAPM TG-43U1 protocol: from the CT end markers of 2,939 seeds and the vendors' certificates, the total dose to complete decay at 1,200 urethra, rectum, prostate and femoral-head points with the report's 2D formalism and consensus datasets."
 
 [metadata]
 domain = "Science"

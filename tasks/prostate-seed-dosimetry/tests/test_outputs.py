@@ -21,13 +21,14 @@ import engine  # noqa: E402
 OUT = Path("/app/output/point_doses.csv")
 HEADER = "patient_id,point_id,dose_gy"
 REL = 0.001
+ABS = 0.0005
 GOLDEN = json.loads((HERE / "golden.json").read_text())
 TAGS = json.loads((HERE / "case_tags.json").read_text())
 
 
 def close(got, want):
     assert math.isfinite(got) and math.isfinite(want), (got, want)
-    return abs(got - want) <= REL * abs(want)
+    return abs(got - want) <= max(REL * abs(want), ABS)
 
 
 @pytest.fixture(scope="module")
@@ -57,7 +58,7 @@ def got(rows):
 
 
 def _bad(truth, got, pick):
-    return [(k, got.get(k), round(w, 3)) for k, w in truth.items()
+    return [(k, got.get(k), round(w, 4)) for k, w in truth.items()
             if pick(k) and (got.get(k) is None or not close(got[k], w))]
 
 
@@ -84,11 +85,11 @@ def test_inputs_are_consistent():
 
 
 def test_values_are_well_formed(rows):
-    """Known points and doses in Gy with three decimals."""
+    """Known points and doses in Gy with four decimals."""
     keys = {(p["patient_id"], p["point_id"]) for p in engine.load()[4]}
     for r in rows:
         assert (r[0], r[1]) in keys, r
-        assert re.fullmatch(r"\d+\.\d{3}", r[2]), r
+        assert re.fullmatch(r"\d+\.\d{4}", r[2]), r
 
 
 def test_rows_are_sorted_and_complete(truth, rows):
@@ -98,7 +99,8 @@ def test_rows_are_sorted_and_complete(truth, rows):
 
 FAMILIES = (
     "linear_g_interpolation", "point_source_radial_dose_function", "point_source_geometry",
-    "anisotropy_held_beyond_last_angle", "anisotropy_extrapolated_in_r", "one_dimensional_anisotropy_factor",
+    "anisotropy_held_beyond_last_angle", "anisotropy_extrapolated_in_r", "radial_dose_extrapolated",
+    "one_dimensional_anisotropy_factor",
     "no_mirror_beyond_90", "capsule_length_for_L", "mean_life_144", "apparent_activity_unconverted",
     "apparent_activity_fixed_coefficient", "batch_total_as_per_seed", "no_decay_to_implant",
     "calibration_offset_ignored", "implant_time_without_daylight_saving", "duplicates_kept", "first_marker_as_centre",
@@ -115,6 +117,6 @@ def test_rule_family(truth, got, family):
 
 
 def test_every_point(truth, got):
-    """Every point dose within 0.1 percent."""
+    """Every point dose within 0.1 percent (or 0.0005 Gy for the smallest doses)."""
     bad = _bad(truth, got, lambda k: True)
     assert not bad, f"{len(bad)} of {len(truth)} wrong, e.g. {bad[:4]}"

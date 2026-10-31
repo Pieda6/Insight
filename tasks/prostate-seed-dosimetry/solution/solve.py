@@ -6,7 +6,7 @@ Post-implant dosimetry of permanent prostate seed implants with the AAPM TG-43U1
 formalism with the line-source geometry function of Eq. (4) and g_L(r); F(r, theta) mirrored about the transverse
 plane (Sec. III A) and equal to 1 at 90 degrees (Eq. 8); nearest-neighbour values outside the tabulated distances
 (Appendix C, Eq. C1). Source strength: air-kerma strength per seed, from a batch total, or from apparent activity
-times the vendor's exposure-rate constant (Appendix E), decayed to the implant time with the Table XIII half-life.
+times the vendor's own conversion coefficient (Appendix E), decayed to the implant time with the Table XIII half-life.
 Total dose to complete decay: initial dose rate times the mean life, T1/2 / ln 2.
 """
 import csv
@@ -18,7 +18,6 @@ from pathlib import Path
 DATA = Path("/app/data")
 OUT = Path("/app/output")
 
-CGY_AIR_PER_R = 0.876                  # air kerma per roentgen (W/e = 33.97 J/C)
 REF_R, REF_THETA = 1.0, 90.0
 
 
@@ -95,7 +94,7 @@ def strength_per_seed(b):
     if unit == "U_total":
         return value / int(b["seeds_in_batch"])
     if unit == "mCi_apparent":
-        return value * float(b["exposure_rate_constant"]) * CGY_AIR_PER_R
+        return value * float(b["vendor_conversion_U_per_mCi"])
     raise ValueError(f"unknown strength unit {unit}")
 
 
@@ -136,7 +135,7 @@ def main():
             r = math.sqrt(sum(x * x for x in v))
             cos_t = max(-1.0, min(1.0, sum(v[k] * axis[k] for k in range(3)) / r))
             dose_cgy += source.dose_rate(sk, r, math.degrees(math.acos(cos_t))) * mean_life_h
-        out.append([p["patient_id"], p["point_id"], f"{dose_cgy / 100.0:.3f}"])
+        out.append([p["patient_id"], p["point_id"], f"{dose_cgy / 100.0:.4f}"])
 
     out.sort(key=lambda r: (r[0], r[1]))
     OUT.mkdir(parents=True, exist_ok=True)

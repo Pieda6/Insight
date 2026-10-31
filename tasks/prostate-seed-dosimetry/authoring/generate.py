@@ -99,7 +99,7 @@ def seed_strength(batch, implant_utc, v):
         elif v.get("app_fixed"):
             s *= 1.270 if SRC[model]["radionuclide"] == "I-125" else 1.293
         else:
-            s *= float(batch["exposure_rate_constant"]) * R_PER_ROENTGEN
+            s *= float(batch["vendor_conversion_U_per_mCi"])
     cal = dt.datetime.fromisoformat(batch["calibrated_at"])
     if v.get("ignore_offset"):
         cal = cal.replace(tzinfo=UTC)
@@ -137,7 +137,7 @@ def point_dose(p, seeds, batches, implant, v=None):
 SHORTCUTS = {
     "linear_g_interpolation": {"g_linear": True}, "point_source_radial_dose_function": {"g_point": True},
     "point_source_geometry": {"point_geometry": True}, "anisotropy_held_beyond_last_angle": {"no_90": True},
-    "anisotropy_extrapolated_in_r": {"f_extrap": True},
+    "anisotropy_extrapolated_in_r": {"f_extrap": True}, "radial_dose_extrapolated": {"g_extrap": True},
     "one_dimensional_anisotropy_factor": {"one_d": True}, "no_mirror_beyond_90": {"no_mirror": True},
     "capsule_length_for_L": {"length_045": True}, "mean_life_144": {"tau_144": True},
     "apparent_activity_unconverted": {"app_unconverted": True},
@@ -206,11 +206,11 @@ def make_patient(rng, k, model):
         s_cal = strength_at_implant * math.exp(math.log(2) * hours / t_half)
         u = rng.random()
         row = {"patient_id": pid, "batch_id": bid, "seed_model": model, "seeds_in_batch": count,
-               "calibrated_at": cal.isoformat(timespec="minutes"), "exposure_rate_constant": ""}
+               "calibrated_at": cal.isoformat(timespec="minutes"), "vendor_conversion_U_per_mCi": ""}
         if u < 0.25:
-            gamma = rng.choice([1.45, 1.464]) if SRC[model]["radionuclide"] == "I-125" else rng.choice([1.476, 1.48])
-            row.update(strength=f"{s_cal / (gamma * R_PER_ROENTGEN):.4f}", strength_unit="mCi_apparent",
-                       exposure_rate_constant=f"{gamma}")
+            coef = rng.choice([1.270, 1.282]) if SRC[model]["radionuclide"] == "I-125" else rng.choice([1.293, 1.297])
+            row.update(strength=f"{s_cal / coef:.4f}", strength_unit="mCi_apparent",
+                       vendor_conversion_U_per_mCi=f"{coef:.3f}")
         elif u < 0.45:
             row.update(strength=f"{s_cal * count:.3f}", strength_unit="U_total")
         else:
@@ -250,6 +250,8 @@ def make_patient(rng, k, model):
                                  c * u2)))
     for t in range(3):
         pts.append(("prostate", (rng.uniform(-0.7, 0.7) * a, rng.uniform(-0.7, 0.7) * b, rng.uniform(-0.7, 0.7) * c)))
+    for side in (-1, 1):                                          # femoral heads, 8 to 11 cm lateral
+        pts.append(("femoral_head", (side * rng.uniform(8.0, 10.8), rng.uniform(-1.0, 1.0), rng.uniform(-1.5, 0.5))))
     point_rows = []
     for j, (struct, q) in enumerate(pts):
         point_rows.append({"patient_id": pid, "point_id": f"P{j + 1:02d}", "structure": struct,
@@ -303,7 +305,7 @@ def main():
     lows = min(a["dose_gy"] for a in answers.values())
     print(f"patients {len(patients)}, points {len(points)}, seeds {sum(s['review'] == 'accepted' for s in seeds)}, "
           f"duplicate rows {sum(s['review'] != 'accepted' for s in seeds)}, batches {len(batches)}, "
-          f"patients redrawn for geometry {redrawn}, lowest point dose {lows:.2f} Gy")
+          f"patients redrawn for geometry {redrawn}, lowest point dose {lows:.4f} Gy")
     fam = {}
     for a in answers.values():
         for t in a["tags"]:

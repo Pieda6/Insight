@@ -701,6 +701,15 @@
    "expect": 6.452405321338737,
    "rel_tol": 1e-09,
    "source": "ln g_L linear in r between 0.25 and 0.5 cm, F(0.5 cm, 60 deg) = 0.991 below the first F radius"
+  },
+  {
+   "check": "rate_per_unit",
+   "model": "MED3631-A/M",
+   "r": 8.0,
+   "theta": 90.0,
+   "expect": 0.003464398492221832,
+   "rel_tol": 1e-09,
+   "source": "Eq. C1 nearest neighbour: g_L beyond its last distance (7 cm) held at 0.211; F = 1 at 90 degrees (Eq. 8)"
   }
  ]
 }

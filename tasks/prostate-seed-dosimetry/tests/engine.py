@@ -3,7 +3,7 @@
 2D formalism (Rivard et al., Med Phys 2004;31:633-674, Eq. 1) with the line-source geometry function (Eq. 4), the
 consensus data in data/source_data.json, nearest-neighbour values outside the tabulated distances (Appendix C,
 Eq. C1), F(r, 90 degrees) = 1 by definition (Eq. 8), mirror symmetry about the transverse plane (Sec. III A),
-apparent activity converted with the vendor's own exposure-rate constant (Appendix E), decay from calibration to
+apparent activity converted with the vendor's own coefficient (Appendix E), decay from calibration to
 implant with the Table XIII half-lives, and the total dose to complete decay (initial dose rate times the mean life).
 """
 import bisect
@@ -14,7 +14,6 @@ import math
 from pathlib import Path
 
 DATA = Path(__file__).resolve().parent / "data"
-CGY_PER_R = 0.876
 LN2 = math.log(2.0)
 
 
@@ -111,7 +110,7 @@ def per_seed_strength(batch, src):
     if unit == "U_total":
         return value / int(batch["seeds_in_batch"])
     if unit == "mCi_apparent":
-        return value * float(batch["exposure_rate_constant"]) * CGY_PER_R
+        return value * float(batch["vendor_conversion_U_per_mCi"])          # Appendix E: the vendor's own coefficient
     raise ValueError(unit)
 
 

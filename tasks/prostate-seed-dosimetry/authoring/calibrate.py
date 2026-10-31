@@ -32,14 +32,19 @@ SHORTCUTS = {
          "        j, w = lerp_index(self.f_r, r)\n        rs = self.f_r\n"
          "        j = 0 if r < rs[0] else (len(rs) - 2 if r > rs[-1] else j)\n"
          "        w = (r - rs[j]) / (rs[j + 1] - rs[j])\n")],
+    "radial dose function extrapolated beyond the table (ln g linear)": [
+        ("        j, w = lerp_index([a for a, _ in self.g], r)\n",
+         "        j, w = lerp_index([a for a, _ in self.g], r)\n        xs = [a for a, _ in self.g]\n"
+         "        j = 0 if r < xs[0] else (len(xs) - 2 if r > xs[-1] else j)\n"
+         "        w = (r - xs[j]) / (xs[j + 1] - xs[j])\n")],
     "angles beyond 90 degrees not mirrored": [("        if theta > 90.0:\n            theta = 180.0 - theta\n", "")],
     "capsule length 0.45 cm used for L": [('self.L = d["active_length_cm"]', 'self.L = 0.45')],
     "mean life taken as 1.44 T1/2": [("half_h / math.log(2), centre", "half_h * 1.44, centre")],
     "apparent activity used as if it were U": [
-        ('return value * float(b["exposure_rate_constant"]) * CGY_AIR_PER_R', "return value")],
-    "apparent activity converted with fixed 1.270 / 1.293 (not the vendor's constant)": [
-        ('return value * float(b["exposure_rate_constant"]) * CGY_AIR_PER_R',
-         'return value * (1.270 if float(b["exposure_rate_constant"]) < 1.47 else 1.293)')],
+        ('return value * float(b["vendor_conversion_U_per_mCi"])', "return value")],
+    "apparent activity converted with fixed 1.270 / 1.293 (not the vendor's coefficient)": [
+        ('return value * float(b["vendor_conversion_U_per_mCi"])',
+         'return value * (1.270 if float(b["vendor_conversion_U_per_mCi"]) < 1.29 else 1.293)')],
     "batch total read as per seed": [('return value / int(b["seeds_in_batch"])', "return value")],
     "no decay from calibration to implant": [("sk = strength_per_seed(b) * math.exp(-math.log(2) * hours / half_h)",
                                               "sk = strength_per_seed(b)")],
@@ -77,7 +82,7 @@ def main():
         out = local_check.run_solution(TASK, src)
         with open(out / "point_doses.csv") as fh:
             got = {(r["patient_id"], r["point_id"]): float(r["dose_gy"]) for r in csv.DictReader(fh)}
-        wrong = sum(abs(got[k] - w) > 0.001 * w for k, w in truth.items())
+        wrong = sum(abs(got[k] - w) > max(0.001 * w, 0.0005) for k, w in truth.items())
         passed, failed = local_check.run_tests(TASK, out)
         caught = bool(failed)
         all_caught &= caught
