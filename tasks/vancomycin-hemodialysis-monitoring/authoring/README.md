@@ -29,8 +29,8 @@ These files are not copied into the agent or verifier images. Run them from this
 From the guideline: Recommendation 13 doses by permeability and timing; Recommendation 14 target of 15 to 20 mg/L and
 monitoring driving subsequent dosing once concentrations have been determined (weight-based doses as the starting
 point); no sampling during or for at least 2 hours after hemodialysis (page 848); loading doses at most 3,000 mg
-(page 845). Stated as facts in instruction.md: each result belongs to the session that follows it; midpoint of a dose range; the weight before that session; a dose changed in proportion to
-bring the level to 17.5 mg/L when it is outside the target; doses prepared to the nearest 250 mg.
+(page 845). Stated as facts in instruction.md: each result belongs to the session that follows it; midpoint of a dose range; the weight before that session; 17.5 mg/L as the aim of a dose change (the
+proportional change itself follows the guideline, page 840); doses prepared to the nearest 250 mg.
 
 ## Evidence (outputs saved in `evidence/`)
 - `agreement.txt`: solution, engine and generator agree on all 1,651 sessions, with every count quoted in the READMEs.
