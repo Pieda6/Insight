@@ -1,17 +1,103 @@
-{"sessions": [
- {"patient_id": "G", "session_id": "G-S1", "start": "2026-03-02 08:00", "stop": "2026-03-02 12:00", "dialyzer": "high", "vancomycin_timing": "after_dialysis", "pre_weight_kg": "80.0"},
- {"patient_id": "G", "session_id": "G-S2", "start": "2026-03-04 08:00", "stop": "2026-03-04 12:00", "dialyzer": "high", "vancomycin_timing": "after_dialysis", "pre_weight_kg": "80.0"},
- {"patient_id": "G", "session_id": "G-S3", "start": "2026-03-06 08:00", "stop": "2026-03-06 12:00", "dialyzer": "high", "vancomycin_timing": "after_dialysis", "pre_weight_kg": "80.0"},
- {"patient_id": "G", "session_id": "G-S4", "start": "2026-03-09 08:00", "stop": "2026-03-09 12:00", "dialyzer": "high", "vancomycin_timing": "after_dialysis", "pre_weight_kg": "80.0"},
- {"patient_id": "G", "session_id": "G-S5", "start": "2026-03-09 14:30", "stop": "2026-03-09 16:00", "dialyzer": "high", "vancomycin_timing": "intradialytic", "pre_weight_kg": "79.0"}],
+{
+ "sessions": [
+  {
+   "patient_id": "G",
+   "session_id": "G-S1",
+   "start": "2026-03-02 08:00",
+   "stop": "2026-03-02 12:00",
+   "dialyzer": "high",
+   "vancomycin_timing": "after_dialysis",
+   "pre_weight_kg": "80.0"
+  },
+  {
+   "patient_id": "G",
+   "session_id": "G-S2",
+   "start": "2026-03-04 08:00",
+   "stop": "2026-03-04 12:00",
+   "dialyzer": "high",
+   "vancomycin_timing": "after_dialysis",
+   "pre_weight_kg": "80.0"
+  },
+  {
+   "patient_id": "G",
+   "session_id": "G-S3",
+   "start": "2026-03-06 08:00",
+   "stop": "2026-03-06 12:00",
+   "dialyzer": "high",
+   "vancomycin_timing": "after_dialysis",
+   "pre_weight_kg": "80.0"
+  },
+  {
+   "patient_id": "G",
+   "session_id": "G-S4",
+   "start": "2026-03-09 08:00",
+   "stop": "2026-03-09 12:00",
+   "dialyzer": "high",
+   "vancomycin_timing": "after_dialysis",
+   "pre_weight_kg": "80.0"
+  },
+  {
+   "patient_id": "G",
+   "session_id": "G-S5",
+   "start": "2026-03-09 14:30",
+   "stop": "2026-03-09 16:00",
+   "dialyzer": "high",
+   "vancomycin_timing": "intradialytic",
+   "pre_weight_kg": "79.0"
+  }
+ ],
  "levels": [
- {"patient_id": "G", "accession": "G1", "collected": "2026-03-04 07:30", "result": "12.0", "units": "mg/L", "status": "final"},
- {"patient_id": "G", "accession": "G2", "collected": "2026-03-06 07:00", "result": "30.0", "units": "umol/L", "status": "final"},
- {"patient_id": "G", "accession": "G3", "collected": "2026-03-09 13:40", "result": "9.0", "units": "mg/L", "status": "final"}],
+  {
+   "patient_id": "G",
+   "accession": "G1",
+   "collected": "2026-03-04 07:30",
+   "result": "12.0",
+   "units": "mg/L",
+   "status": "final"
+  },
+  {
+   "patient_id": "G",
+   "accession": "G2",
+   "collected": "2026-03-06 07:00",
+   "result": "30.0",
+   "units": "umol/L",
+   "status": "final"
+  },
+  {
+   "patient_id": "G",
+   "accession": "G3",
+   "collected": "2026-03-09 13:40",
+   "result": "9.0",
+   "units": "mg/L",
+   "status": "final"
+  }
+ ],
  "expect": {
- "G-S1": [null, "none", 2000],
- "G-S2": [12.0, "below", 1000],
- "G-S3": [43.479, "above", 0],
- "G-S4": [null, "none", 500],
- "G-S5": [null, "none", 1000]},
- "worked": "S1 loading 25 mg/kg x 80 kg = 2000. S2: maintenance 10 x 80 = 800 -> 750; level 12.0 below 15, 750 x 17.5/12 = 1093.75 -> 1000. S3: 30.0 umol/L x 1.4493 = 43.479 mg/L above 25: held, current 1000 x 17.5/43.479 = 402.5 -> 500. S4 no level (the 2026-03-06 draw is not before S4's window): 500. S5 timing changes to intradialytic: reset to 12.5 mg/kg x 79.0 = 987.5 -> 1000; the 13:40 draw is only 1 h 40 min after S4 ended, so it is not used."}
+  "G-S1": [
+   null,
+   "none",
+   2000
+  ],
+  "G-S2": [
+   12.0,
+   "below",
+   1000
+  ],
+  "G-S3": [
+   43.479,
+   "above",
+   500
+  ],
+  "G-S4": [
+   null,
+   "none",
+   500
+  ],
+  "G-S5": [
+   null,
+   "none",
+   500
+  ]
+ },
+ "worked": "S1 loading 25 mg/kg x 80 kg = 2000. S2: no level determined before it, so the weight-based maintenance dose 10 x 80 = 800 -> 750; its level 12.0 is below 15: 750 x 17.5/12 = 1093.75 -> 1000. S3: 30.0 umol/L x 1.4493 = 43.479 mg/L, above 20: 1000 x 17.5/43.479 = 402.5 -> 500. S4: no level (the 2026-03-06 draw is days before S4): the previous dose, 500. S5: the 13:40 draw is only 1 h 40 min after S4 ended, so it is not used; levels have been determined, so the timing change does not bring back weight-based dosing: 500."
+}

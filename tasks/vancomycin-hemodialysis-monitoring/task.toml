@@ -4,7 +4,7 @@ schema_version = "2.0"
 
 [task]
 name = "insight/vancomycin-hemodialysis-monitoring"
-description = "Vancomycin dosing by predialysis-concentration monitoring for 150 patients on maintenance hemodialysis (1,633 sessions) under the 2020 ASHP/IDSA/PIDS/SIDP guideline: loading and maintenance doses from Recommendation 13 by dialyzer permeability and dose timing, the guideline's hemodialysis sampling rule for which levels count, and a session-by-session chain of proportional changes, holds and restarts that carries every decision forward, from laboratory records in mg/L or umol/L with corrected results and New York local times."
+description = "Vancomycin dosing by predialysis-concentration monitoring for 150 patients on maintenance hemodialysis (1,652 sessions) under the 2020 ASHP/IDSA/PIDS/SIDP guideline: loading and maintenance doses from Recommendation 13 by dialyzer permeability and dose timing, the guideline's hemodialysis sampling rule for which levels count, and a session-by-session chain in which weight-based doses give way to level-driven proportional changes that carry every decision forward, from laboratory records in mg/L or umol/L with corrected results and New York local times."
 
 [metadata]
 domain = "Science"

@@ -11,26 +11,27 @@ These files are not copied into the agent or verifier images. Run them from this
   Dialyzer high permeability (70 percent) or low, dose given intradialytically or after dialysis (half each); 30
   percent of patients change one of them during the course. Weights 52 to 112 kg, drifting up to 1.2 kg per session.
   Levels before about 65 percent of sessions after the first, 18 percent of them drawn 118 to 122 minutes before the
-  start; 45 percent of values at or within 1.5 mg/L of 15, 20 or 25; 12 percent corrected later under the same
+  start; 45 percent of values at or within 1.5 mg/L of 15 or 20; 12 percent corrected later under the same
   accession; repeat draws, rejected or cancelled specimens and post-dialysis levels. 30 percent of patients have a
   laboratory reporting umol/L (to 0.1 umol/L; answers use the written value times 1.4493).
-- Patients are redrawn when a dose would sit within 0.2 mg of a rounding midpoint, a level within 0.0001 mg/L of 15,
-  20 or 25 other than exactly, or a draw within 0.5 minute of the window edge other than exactly.
+- Patients are redrawn when a dose would sit within 0.2 mg of a rounding midpoint, a level within 0.0001 mg/L of 15
+  or 20 other than exactly, or a draw within 0.5 minute of the window edge other than exactly.
 - `sources/rybak_2020_vancomycin_guideline.txt`: the guideline text. Rules used: Recommendation 13 table (page 847:
   loading 25 mg/kg after dialysis, 30 or 35 mg/kg intradialytic for low or high permeability; maintenance 7.5
   or 10 mg/kg after dialysis, 7.5 to 10 or 10 to 15 mg/kg intradialytic); Recommendation 14 (predialysis 15 to 20
   mg/L, monitoring drives subsequent dosing, page 847); page 848 sampling advice (not during or for at least 2 hours
   after hemodialysis); page 845 (loading doses not exceeding 3,000 mg).
 
-## Settled readings (the unit's policy, environment/data/protocol.md)
-Middle of a range in the table; the session's own weight; loading at the first session in the data; the latest
-numeric result drawn no more than 2 hours before the start, among those the sampling advice allows; proportional
-change to 17.5 mg/L outside 15 to 20, given at that session; hold above 25 with the changed dose applying from the
-next session; current dose starting at the second session's weight-based maintenance dose and restarting on a
-dialyzer or timing change; rounding to 250 mg when set, the rounded dose carried forward.
+## Settled readings
+From the guideline: Recommendation 13 doses by permeability and timing; Recommendation 14 target of 15 to 20 mg/L and
+monitoring driving subsequent dosing once concentrations have been determined (weight-based doses as the starting
+point); no sampling during or for at least 2 hours after hemodialysis (page 848); loading doses at most 3,000 mg
+(page 845). Stated as the unit's practice in instruction.md: predialysis blood drawn in the 2 hours before a session,
+the latest result used; midpoint of a dose range; the weight before that session; a dose changed in proportion to
+bring the level to 17.5 mg/L when it is outside the target; doses prepared to the nearest 250 mg.
 
 ## Evidence (outputs saved in `evidence/`)
-- `agreement.txt`: solution, engine and generator agree on all 1,633 sessions, with every count quoted in the READMEs.
+- `agreement.txt`: solution, engine and generator agree on all 1,652 sessions, with every count quoted in the READMEs.
 - `local_check.txt` (`python3 local_check.py ..`): oracle passes every test, empty output fails.
 - `calibration.txt` (`calibrate.py`): 15 shortcut solutions and how many sessions each gets wrong.
 - `generate_output.txt`.

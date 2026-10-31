@@ -24,15 +24,10 @@ S = {
     "loading not capped": [("min(w * LOADING[key], 3000.0)", "w * LOADING[key]")],
     "intradialytic range low end": [('("intradialytic", "low"): 8.75, ("intradialytic", "high"): 12.5',
                                      '("intradialytic", "low"): 7.5, ("intradialytic", "high"): 10.0')],
-    "no restart on a dialyzer or timing change": [
-        ('elif key != (ss[k - 1]["vancomycin_timing"], ss[k - 1]["dialyzer"]):', "elif False:")],
-    "no hold above 25 mg/L": [("dose = 0 if level > HOLD else current", "dose = current")],
-    "held session keeps the old dose for later": [
-        ("                    current = to_250(current * TARGET / level)\n                    dose = 0 if level > HOLD else current",
-         "                    new = to_250(current * TARGET / level)\n                    dose = 0 if level > HOLD else new\n"
-         "                    current = current if level > HOLD else new")],
-    "loading dose carried as the maintenance dose": [("dose = to_250(min(w * LOADING[key], 3000.0))",
-                                                      "dose = current = to_250(min(w * LOADING[key], 3000.0))")],
+    "loading dose carried as the maintenance dose": [("base = previous if have_level else to_250(w * MAINTENANCE[key])", "base = previous if (have_level or k == 1) else to_250(w * MAINTENANCE[key])")],
+    "weight-based doses after levels are known": [("base = previous if have_level else to_250(w * MAINTENANCE[key])", "base = to_250(w * MAINTENANCE[key])")],
+    "previous dose carried before any level": [("base = previous if have_level else to_250(w * MAINTENANCE[key])", "base = previous if (have_level or k >= 2) else to_250(w * MAINTENANCE[key])")],
+    "dose not rounded before it is carried": [("            previous = dose\n", "            previous = dose if k == 0 else (base * TARGET / level if status in ('below', 'above') else base)\n")],
 }
 
 
@@ -47,7 +42,7 @@ def main():
             src = src.replace(old, new)
         out = local_check.run_solution(TASK, src)
         with open(out / "session_doses.csv") as fh:
-            got = {r["session_id"]: (r["status"], int(r["dose_mg"])) for r in csv.DictReader(fh)}
+            got = {r["session_id"]: (r["status"], round(float(r["dose_mg"]))) for r in csv.DictReader(fh)}
         wrong = sum(got[k] != w[1:] for k, w in truth.items())
         failed = bool(local_check.run_tests(TASK, out)[1])
         ok_all &= failed

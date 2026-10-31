@@ -3,8 +3,9 @@
 
 Vancomycin dosing at each hemodialysis session by predialysis-concentration monitoring, following the 2020
 ASHP/IDSA/PIDS/SIDP guideline (Recommendations 13 and 14, page 847; sampling rule, page 848; loading cap, page 845) and the
-unit's protocol in the instruction. Sessions are processed in time order per patient, carrying the current
-maintenance dose from one session to the next.
+unit's practice stated in the instruction. Sessions are processed in time order per patient: weight-based doses
+until a predialysis level has been determined, then the previous dose, changed in proportion when a level is out of
+range.
 """
 import csv
 import datetime as dt
@@ -14,7 +15,7 @@ from pathlib import Path
 DATA = Path("/app/data")
 OUT = Path("/app/output")
 MG_PER_UMOL = 1.4493                 # vancomycin 1449.3 g/mol
-TARGET, LOW, HIGH, HOLD = 17.5, 15.0, 20.0, 25.0
+TARGET, LOW, HIGH = 17.5, 15.0, 20.0
 LOADING = {("after_dialysis", "low"): 25.0, ("after_dialysis", "high"): 25.0,
            ("intradialytic", "low"): 30.0, ("intradialytic", "high"): 35.0}
 MAINTENANCE = {("after_dialysis", "low"): 7.5, ("after_dialysis", "high"): 10.0,
@@ -66,7 +67,7 @@ def main():
                 continue                                   # rejected, cancelled or below the reporting limit
             draws.append((minutes(r["collected"]), x * (MG_PER_UMOL if r["units"] == "umol/L" else 1.0)))
         spans = [(minutes(s["start"]), minutes(s["stop"])) for s in ss]
-        current = None
+        have_level, previous = False, None
         for k, s in enumerate(ss):
             start = spans[k][0]
             ok = [(t, x) for t, x in draws if start - 120 <= t < start
@@ -84,17 +85,12 @@ def main():
             w = float(s["pre_weight_kg"])
             if k == 0:
                 dose = to_250(min(w * LOADING[key], 3000.0))
-            elif key != (ss[k - 1]["vancomycin_timing"], ss[k - 1]["dialyzer"]):
-                current = to_250(w * MAINTENANCE[key])
-                dose = current
             else:
-                if current is None:
-                    current = to_250(w * MAINTENANCE[key])
-                if status in ("below", "above"):
-                    current = to_250(current * TARGET / level)
-                    dose = 0 if level > HOLD else current
-                else:
-                    dose = current
+                # Rec. 14: weight-based doses until predialysis levels have been determined, then levels drive dosing
+                base = previous if have_level else to_250(w * MAINTENANCE[key])
+                dose = to_250(base * TARGET / level) if status in ("below", "above") else base
+            have_level = have_level or level is not None
+            previous = dose
             out.append([pid, s["session_id"], "" if level is None else f"{level:.1f}", status, dose])
 
     OUT.mkdir(parents=True, exist_ok=True)

@@ -74,7 +74,6 @@ def test_engine_matches_hand_worked_patient():
 def test_inputs_are_consistent():
     """Every level belongs to a patient with sessions; dialyzers, timings and units are known."""
     sessions, levels = engine.load()
-    assert (engine.DATA / "protocol.md").is_file()
     ids = {s["patient_id"] for s in sessions}
     assert {r["patient_id"] for r in levels} <= ids
     assert all(s["dialyzer"] in ("high", "low") and s["vancomycin_timing"] in ("intradialytic", "after_dialysis")
@@ -102,8 +101,8 @@ def test_rows_are_complete_and_ordered(truth, rows):
 FAMILIES = (
     "window_taken_as_three_hours", "two_hours_after_dialysis_ignored", "umol_read_as_mg",
     "original_kept_over_correction", "earliest_level_used", "range_ends_exclusive", "scaled_to_15", "scaled_to_20",
-    "rounded_down", "loading_not_capped", "intradialytic_range_low_end", "no_reset_on_change", "no_hold_above_25",
-    "hold_keeps_previous_dose", "unrounded_dose_carried", "loading_dose_as_maintenance",
+    "rounded_down", "loading_not_capped", "intradialytic_range_low_end", "weight_based_after_levels",
+    "previous_dose_carried_before_any_level", "unrounded_dose_carried", "loading_dose_carried",
     "first_session_weight_throughout",
 )
 

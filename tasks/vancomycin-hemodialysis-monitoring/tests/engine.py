@@ -1,5 +1,6 @@
-"""Independent engine for the verifier: the unit's predialysis-monitoring protocol on the 2020 vancomycin
-guideline (Rybak et al., Am J Health-Syst Pharm 2020;77:835-864), Recommendations 13 and 14 and page 846."""
+"""Independent engine for the verifier: predialysis-concentration monitoring of vancomycin in hemodialysis under the
+2020 guideline (Rybak et al., Am J Health-Syst Pharm 2020;77:835-864): Recommendations 13 and 14 (page 847), the
+sampling advice (page 848) and the loading-dose maximum (page 845)."""
 import csv
 import datetime as dt
 import math
@@ -53,7 +54,7 @@ def evaluate(sessions, records):
     draws = sorted((to_utc(r["collected"]), mg_per_l(r)) for r in final.values() if mg_per_l(r) is not None)
     times = [(to_utc(s["start"]), to_utc(s["stop"])) for s in sessions]
     two_h = dt.timedelta(hours=2)
-    out, current, prev = {}, None, None
+    out, have_level, previous = {}, False, None
     for k, s in enumerate(sessions):
         start = times[k][0]
         usable = [x for t, x in draws if start - two_h <= t < start
@@ -62,21 +63,14 @@ def evaluate(sessions, records):
         status = "none" if level is None else "below" if level < 15 else "above" if level > 20 else "within"
         load_kg, maint_kg = MG_PER_KG[s["vancomycin_timing"]][s["dialyzer"]]
         weight = float(s["pre_weight_kg"])
-        key = (s["dialyzer"], s["vancomycin_timing"])
         if k == 0:
             dose = round250(min(weight * load_kg, 3000.0))
-        elif key != prev:
-            current = round250(weight * maint_kg)
-            dose = current
         else:
-            if current is None:
-                current = round250(weight * maint_kg)
-            if status in ("below", "above"):
-                current = round250(current * 17.5 / level)
-                dose = 0 if level > 25 else current
-            else:
-                dose = current
-        prev = key
+            # weight-based until a predialysis level has been determined, then the previous dose
+            base = round250(weight * maint_kg) if not have_level else previous
+            dose = base if status in ("none", "within") else round250(base * 17.5 / level)
+        have_level = have_level or level is not None
+        previous = dose
         out[s["session_id"]] = (level, status, dose)
     return out
 

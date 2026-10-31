@@ -65,7 +65,7 @@ def decide(sessions, levels, v=None, margins=None):
     window = 120 if not v.get("window_180") else 180
     lo, hi = (15.0, 20.0)
     target = {"to15": 15.0, "to20": 20.0}.get(v.get("target"), 17.5)
-    out, current = [], None
+    out, seen_level, prev_raw = [], False, None
     for k, s in enumerate(sessions):
         start = spans[k][0]
         cands = []
@@ -90,42 +90,37 @@ def decide(sessions, levels, v=None, margins=None):
         load_kg, maint_kg = TABLE[(s["vancomycin_timing"], s["dialyzer"])]
         if v.get("range_low") and s["vancomycin_timing"] == "intradialytic":
             maint_kg = {"low": 7.5, "high": 10.0}[s["dialyzer"]]
-        changed = k > 0 and (s["dialyzer"], s["vancomycin_timing"]) != (sessions[k - 1]["dialyzer"],
-                                                                         sessions[k - 1]["vancomycin_timing"])
         if margins is not None and level is not None:
-            margins.extend(("level", abs(level - c)) for c in (15.0, 20.0, 25.0) if abs(level - c) > 0)
+            margins.extend(("level", abs(level - c)) for c in (15.0, 20.0) if abs(level - c) > 0)
         if k == 0:
             raw = w * load_kg
             if not v.get("no_cap"):
                 raw = min(raw, 3000.0)
             dose = rnd250(raw, v)
-            if v.get("current_from_loading"):
-                current = dose
-            _m(margins, raw)
-        elif changed and not v.get("no_reset"):
-            raw = w * maint_kg
-            current = rnd250(raw, v)
-            dose = current
             _m(margins, raw)
         else:
-            if current is None:
+            weight_based = not seen_level or v.get("weight_based_throughout")
+            if v.get("carry_before_level") and k >= 2:
+                weight_based = False
+            if v.get("loading_carried") and k == 1:
+                base = out[0][3]
+            elif weight_based:
                 raw = w * maint_kg
-                current = rnd250(raw, v)
+                base = rnd250(raw, v)
                 _m(margins, raw)
-            if level is not None and status != "within":
-                raw = current * target / level
-                _m(margins, raw)
-                new = rnd250(raw, v) if not v.get("carry_unrounded") else raw
-                if level > 25.0 and not v.get("no_hold"):
-                    dose = 0
-                    if not v.get("hold_keeps_dose"):
-                        current = new
-                else:
-                    current = new
-                    dose = new
             else:
-                dose = current
-        out.append((s["session_id"], level, status, int(rnd250(dose, {})) if v.get("carry_unrounded") else int(dose)))
+                base = prev_raw if v.get("carry_unrounded") else out[k - 1][3]
+            if level is not None and status != "within":
+                raw = base * target / level
+                _m(margins, raw)
+                prev_raw = raw
+                dose = rnd250(raw, v)
+            else:
+                prev_raw = base
+                dose = base
+        if level is not None:
+            seen_level = True
+        out.append((s["session_id"], level, status, int(rnd250(dose, {}))))
     return out
 
 
@@ -135,14 +130,14 @@ def _m(margins, raw):
 
 
 SHORTCUTS = {
-    "window_taken_as_three_hours": {"window_180": True},
-    "two_hours_after_dialysis_ignored": {"no_two_hour": True}, "umol_read_as_mg": {"umol_as_mg": True},
-    "original_kept_over_correction": {"ignore_corrections": True}, "earliest_level_used": {"earliest": True},
-    "range_ends_exclusive": {"exclusive": True}, "scaled_to_15": {"target": "to15"}, "scaled_to_20": {"target": "to20"},
-    "rounded_down": {"round_down": True}, "loading_not_capped": {"no_cap": True},
-    "intradialytic_range_low_end": {"range_low": True}, "no_reset_on_change": {"no_reset": True},
-    "no_hold_above_25": {"no_hold": True}, "hold_keeps_previous_dose": {"hold_keeps_dose": True},
-    "unrounded_dose_carried": {"carry_unrounded": True}, "loading_dose_as_maintenance": {"current_from_loading": True},
+    "window_taken_as_three_hours": {"window_180": True}, "two_hours_after_dialysis_ignored": {"no_two_hour": True},
+    "umol_read_as_mg": {"umol_as_mg": True}, "original_kept_over_correction": {"ignore_corrections": True},
+    "earliest_level_used": {"earliest": True}, "range_ends_exclusive": {"exclusive": True},
+    "scaled_to_15": {"target": "to15"}, "scaled_to_20": {"target": "to20"}, "rounded_down": {"round_down": True},
+    "loading_not_capped": {"no_cap": True}, "intradialytic_range_low_end": {"range_low": True},
+    "weight_based_after_levels": {"weight_based_throughout": True},
+    "previous_dose_carried_before_any_level": {"carry_before_level": True},
+    "unrounded_dose_carried": {"carry_unrounded": True}, "loading_dose_carried": {"loading_carried": True},
     "first_session_weight_throughout": {"first_weight": True},
 }
 
@@ -224,7 +219,7 @@ def make_patient(rng, k):
     def value():
         u = rng.random()
         if u < 0.45:
-            c = rng.choice([15.0, 20.0, 25.0])
+            c = rng.choice([15.0, 20.0])
             return c + rng.choice([-1, 1]) * rng.choice([0.0, 0.1, 0.2, 0.3, rng.uniform(0.3, 1.5)])
         return rng.uniform(8.0, 34.0)
     for i, (a, b) in enumerate(sess):
@@ -305,7 +300,7 @@ def main():
     for a in answers.values():
         st[a["status"]] = st.get(a["status"], 0) + 1
     print(f"patients {N_PATIENTS}, sessions {len(sessions)}, level records {len(levels)}, redrawn {redrawn}")
-    print("statuses:", st, "held doses:", sum(a["dose"] == 0 for a in answers.values()))
+    print("statuses:", st)
     for t in SHORTCUTS:
         print(f"  {t}: {fam.get(t, 0)} sessions changed")
 

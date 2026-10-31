@@ -1,19 +1,18 @@
-patients 150, sessions 1633, level records 1557, redrawn 9
-statuses: {'none': 739, 'within': 214, 'above': 487, 'below': 193} held doses: 226
-  window_taken_as_three_hours: 134 sessions changed
-  two_hours_after_dialysis_ignored: 14 sessions changed
-  umol_read_as_mg: 458 sessions changed
-  original_kept_over_correction: 214 sessions changed
-  earliest_level_used: 322 sessions changed
-  range_ends_exclusive: 77 sessions changed
-  scaled_to_15: 612 sessions changed
-  scaled_to_20: 669 sessions changed
-  rounded_down: 1043 sessions changed
-  loading_not_capped: 27 sessions changed
-  intradialytic_range_low_end: 330 sessions changed
-  no_reset_on_change: 120 sessions changed
-  no_hold_above_25: 226 sessions changed
-  hold_keeps_previous_dose: 433 sessions changed
-  unrounded_dose_carried: 224 sessions changed
-  loading_dose_as_maintenance: 1023 sessions changed
-  first_session_weight_throughout: 43 sessions changed
+patients 150, sessions 1652, level records 1613, redrawn 6
+statuses: {'none': 718, 'within': 358, 'above': 351, 'below': 225}
+  window_taken_as_three_hours: 157 sessions changed
+  two_hours_after_dialysis_ignored: 12 sessions changed
+  umol_read_as_mg: 351 sessions changed
+  original_kept_over_correction: 239 sessions changed
+  earliest_level_used: 387 sessions changed
+  range_ends_exclusive: 170 sessions changed
+  scaled_to_15: 796 sessions changed
+  scaled_to_20: 772 sessions changed
+  rounded_down: 1186 sessions changed
+  loading_not_capped: 28 sessions changed
+  intradialytic_range_low_end: 401 sessions changed
+  weight_based_after_levels: 882 sessions changed
+  previous_dose_carried_before_any_level: 15 sessions changed
+  unrounded_dose_carried: 311 sessions changed
+  loading_dose_carried: 1013 sessions changed
+  first_session_weight_throughout: 31 sessions changed

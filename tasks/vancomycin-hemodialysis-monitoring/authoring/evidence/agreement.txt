@@ -1,24 +1,23 @@
-patients 150, sessions 1633, level records 1557
-statuses: {'none': 739, 'within': 214, 'above': 487, 'below': 193} held: 226
-patients with a dialyzer or timing change: 42
-level records by units: {'mg/L': 1061, 'umol/L': 496} corrected: 109 non-numeric: 90
+patients 150, sessions 1652, level records 1613
+statuses: {'none': 718, 'within': 358, 'above': 351, 'below': 225}
+patients with a dialyzer or timing change: 39
+level records by units: {'mg/L': 1200, 'umol/L': 413} corrected: 109 non-numeric: 97
 sessions per family (row changes if that reading is misread):
-  earliest_level_used: 322
-  first_session_weight_throughout: 43
-  hold_keeps_previous_dose: 433
-  intradialytic_range_low_end: 330
-  loading_dose_as_maintenance: 1023
-  loading_not_capped: 27
-  no_hold_above_25: 226
-  no_reset_on_change: 120
-  original_kept_over_correction: 214
-  range_ends_exclusive: 77
-  rounded_down: 1043
-  scaled_to_15: 612
-  scaled_to_20: 669
-  two_hours_after_dialysis_ignored: 14
-  umol_read_as_mg: 458
-  unrounded_dose_carried: 224
-  window_taken_as_three_hours: 134
+  earliest_level_used: 387
+  first_session_weight_throughout: 31
+  intradialytic_range_low_end: 401
+  loading_dose_carried: 1013
+  loading_not_capped: 28
+  original_kept_over_correction: 239
+  previous_dose_carried_before_any_level: 15
+  range_ends_exclusive: 170
+  rounded_down: 1186
+  scaled_to_15: 796
+  scaled_to_20: 772
+  two_hours_after_dialysis_ignored: 12
+  umol_read_as_mg: 351
+  unrounded_dose_carried: 311
+  weight_based_after_levels: 882
+  window_taken_as_three_hours: 157
 generator vs engine mismatches: 0; solution vs engine mismatches: 0
 AGREEMENT: OK
