@@ -1,7 +1,7 @@
 # vancomycin-hemodialysis-monitoring
 
 Vancomycin dosing by predialysis-concentration monitoring for 150 patients with MRSA infections on maintenance
-hemodialysis (1,652 sessions), under the 2020 consensus guideline of ASHP, IDSA, PIDS and SIDP (Rybak et al., Am J
+hemodialysis (1,651 sessions), under the 2020 consensus guideline of ASHP, IDSA, PIDS and SIDP (Rybak et al., Am J
 Health-Syst Pharm 2020;77:835-864). For every session the agent reports the predialysis level that counts, its
 status against the guideline's predialysis target, and the dose.
 
@@ -15,21 +15,21 @@ page 848 says blood for vancomycin concentrations should not be drawn during or 
 hemodialysis treatment; page 845 caps loading doses. None of these numbers is in the instruction. The answer for
 each session depends on the earlier ones: weight-based doses (from that session's weight, dialyzer and timing) until
 a level has been determined, then the previous dose, changed in proportion when a level is out of range, so one
-wrong decision changes every later dose of that patient. Levels are planted at the decision edges: results at or
-within a few tenths of 15 and 20 mg/L, also through the umol/L conversion; draws at 118 to 122 minutes before a
-session start; draws just before and after two hours from the end of an interrupted run resumed the same day;
-repeat draws where the latest counts. The records carry the details real laboratory data has: 413 results in
-umol/L, 109 corrected results replacing an earlier result with the same accession, and 97 rejected or cancelled
-specimens; 39 patients change dialyzer or dose timing during the course. Statuses: 718 sessions without a usable
-level, 225 below, 358 within, 351 above (counts in authoring/evidence/agreement.txt). Each shortcut tried
-(authoring/evidence/calibration.txt, 15 in all) gets many sessions right and others wrong.
+wrong decision changes every later dose of that patient. Each session has at most one result the guideline's sampling advice allows; the others were drawn during a
+session or less than 2 hours after one ended (including draws at 116 to 125 minutes after the end, and between the
+two runs of a session interrupted and resumed the same day), and a solver that keeps them gets 693 sessions wrong.
+Levels sit at the decision edges: results at or within a few tenths of 15 and 20 mg/L, also through the umol/L
+conversion. The records carry the details real laboratory data has: results in umol/L, results corrected under the
+same accession, and rejected or cancelled specimens; patients change dialyzer or dose timing during the course.
+Counts are in authoring/evidence/agreement.txt. Each shortcut tried (authoring/evidence/calibration.txt, 12 in all)
+gets many sessions right and others wrong.
 
 ## Solution
 
 The reference solution (solution/solve.py) converts New York local times to a continuous clock, keeps each corrected
 result in place of its original, converts umol/L to mg/L, and walks each patient's sessions in time order. For each
-session it takes the latest numeric result drawn no more than 2 hours before the start and not during or less than 2
-hours after an earlier session, classifies it against 15 to 20 mg/L, and sets the dose: the loading dose (at most
+session it takes the numeric result drawn since the previous session started that was not drawn during or less
+than 2 hours after a session, classifies it against 15 to 20 mg/L, and sets the dose: the loading dose (at most
 3,000 mg) at the first session; afterwards the weight-based maintenance dose until a level has been determined and
 the previous dose after that, changed by 17.5 over the level when the level is out of range; every dose rounded to
 the nearest 250 mg.

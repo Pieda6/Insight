@@ -70,8 +70,9 @@ def main():
         have_level, previous = False, None
         for k, s in enumerate(ss):
             start = spans[k][0]
-            ok = [(t, x) for t, x in draws if start - 120 <= t < start
-                  and not any(a <= t < b + 120 for a, b in spans[:k])]
+            after = spans[k - 1][0] if k else float("-inf")      # results belong to the session that follows them
+            ok = [(t, x) for t, x in draws if after <= t < start
+                  and not any(a <= t < b + 120 for a, b in spans[:k])]   # p. 848: not during or within 2 h after HD
             level = max(ok)[1] if ok else None
             if level is None:
                 status = "none"

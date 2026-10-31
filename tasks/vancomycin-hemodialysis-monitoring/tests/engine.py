@@ -57,9 +57,11 @@ def evaluate(sessions, records):
     out, have_level, previous = {}, False, None
     for k, s in enumerate(sessions):
         start = times[k][0]
-        usable = [x for t, x in draws if start - two_h <= t < start
+        after = times[k - 1][0] if k else dt.datetime.min           # each result belongs to the session after it
+        usable = [x for t, x in draws if after <= t < start
                   and not any(a <= t < b + two_h for a, b in times[:k])]
-        level = usable[-1] if usable else None                     # draws are sorted, so the last is the latest
+        assert len(usable) <= 1, s["session_id"]
+        level = usable[0] if usable else None
         status = "none" if level is None else "below" if level < 15 else "above" if level > 20 else "within"
         load_kg, maint_kg = MG_PER_KG[s["vancomycin_timing"]][s["dialyzer"]]
         weight = float(s["pre_weight_kg"])

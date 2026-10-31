@@ -62,7 +62,6 @@ def decide(sessions, levels, v=None, margins=None):
     lv = [(utc_min(r["collected"], v.get("naive")), level_value(r, v)) for r in reports.values()]
     lv = [x for x in lv if x[1] is not None]
     spans = [(utc_min(s["start"], v.get("naive")), utc_min(s["stop"], v.get("naive"))) for s in sessions]
-    window = 120 if not v.get("window_180") else 180
     lo, hi = (15.0, 20.0)
     target = {"to15": 15.0, "to20": 20.0}.get(v.get("target"), 17.5)
     out, seen_level, prev_raw = [], False, None
@@ -70,14 +69,14 @@ def decide(sessions, levels, v=None, margins=None):
         start = spans[k][0]
         cands = []
         for t, x in lv:
-            if not (start - window <= t < start):
+            if not ((spans[k - 1][0] if k else -1e18) <= t < start):
                 continue
             if not v.get("no_two_hour") and any(a <= t < b + 120 for a, b in spans[:k]):
                 continue
             cands.append((t, x))
-            if margins is not None:
-                margins.append(("window", abs(t - (start - window)) or 1.0))
-        level = (min(cands) if v.get("earliest") else max(cands))[1] if cands else None
+        if margins is not None and len(cands) > 1:
+            margins.append(("unique", 0.0))
+        level = max(cands)[1] if cands else None
         if level is None:
             status = "none"
         elif (level < lo) if not v.get("exclusive") else (level <= lo):
@@ -130,13 +129,12 @@ def _m(margins, raw):
 
 
 SHORTCUTS = {
-    "window_taken_as_three_hours": {"window_180": True}, "two_hours_after_dialysis_ignored": {"no_two_hour": True},
+    "two_hours_after_dialysis_ignored": {"no_two_hour": True},
     "umol_read_as_mg": {"umol_as_mg": True}, "original_kept_over_correction": {"ignore_corrections": True},
-    "earliest_level_used": {"earliest": True}, "range_ends_exclusive": {"exclusive": True},
+    "range_ends_exclusive": {"exclusive": True},
     "scaled_to_15": {"target": "to15"}, "scaled_to_20": {"target": "to20"}, "rounded_down": {"round_down": True},
     "loading_not_capped": {"no_cap": True}, "intradialytic_range_low_end": {"range_low": True},
     "weight_based_after_levels": {"weight_based_throughout": True},
-    "previous_dose_carried_before_any_level": {"carry_before_level": True},
     "unrounded_dose_carried": {"carry_unrounded": True}, "loading_dose_carried": {"loading_carried": True},
     "first_session_weight_throughout": {"first_weight": True},
 }
@@ -222,34 +220,32 @@ def make_patient(rng, k):
             c = rng.choice([15.0, 20.0])
             return c + rng.choice([-1, 1]) * rng.choice([0.0, 0.1, 0.2, 0.3, rng.uniform(0.3, 1.5)])
         return rng.uniform(8.0, 34.0)
+    pre = [i > 0 and i != split_at and rng.random() < 0.65 for i in range(len(sess))]
     for i, (a, b) in enumerate(sess):
-        if i == 0 or rng.random() < 0.35:
-            continue
-        u = rng.random()
-        if u < 0.18:
-            off = rng.choice([118, 119, 120, 121, 122])          # at the edge of the 2-hour window
-        else:
-            off = rng.randint(3, 115)
-        t = a - off
-        if ambiguous(t):
-            continue
-        r = add(t, value())
-        if rng.random() < 0.12:                                  # corrected later, same accession
-            wrong = dict(r)
-            levels.remove(r)
-            wrong["result"] = f"{float(r['result']) * rng.uniform(0.6, 1.4):.1f}"
-            levels.append(wrong)
-            levels.append(dict(r, status="corrected"))
-        if rng.random() < 0.15:                                  # repeat draw nearer the start
-            t2 = a - rng.randint(1, max(2, off - 1))
-            if not ambiguous(t2):
-                add(t2, value())
-        if rng.random() < 0.1:
-            add(a - rng.randint(5, 100), 0, result=rng.choice(["rejected: hemolyzed", "cancelled", "rejected: clotted"]))
-        if rng.random() < 0.25:                                  # post-dialysis level, not a predialysis one
-            t3 = b + rng.randint(5, 180)
-            if not ambiguous(t3):
-                add(t3, rng.uniform(6, 14))
+        if pre[i]:
+            t = a - rng.randint(3, 115)
+            if not ambiguous(t) and not (sess[i - 1][1] + 120 > t):
+                r = add(t, value())
+                if rng.random() < 0.12:                          # corrected later, same accession
+                    wrong = dict(r)
+                    levels.remove(r)
+                    wrong["result"] = f"{float(r['result']) * rng.uniform(0.6, 1.4):.1f}"
+                    levels.append(wrong)
+                    levels.append(dict(r, status="corrected"))
+            if rng.random() < 0.1:
+                t = a - rng.randint(5, 100)
+                if not ambiguous(t) and t >= sess[i - 1][1] + 120:
+                    add(t, 0, result=rng.choice(["rejected: hemolyzed", "cancelled", "rejected: clotted"]))
+        if rng.random() < 0.15:                                  # drawn during the session
+            t = a + rng.randint(20, max(21, b - a - 20))
+            if not ambiguous(t):
+                add(t, rng.uniform(8, 16))
+        nxt = i + 1 < len(sess) and (pre[i + 1] or i + 1 == split_at)
+        if rng.random() < 0.4 and i + 1 < len(sess):             # post-dialysis level
+            off = rng.randint(5, 115) if nxt or rng.random() < 0.6 else rng.choice([116, 118, 119, 120, 121, 122, 125])
+            t3 = b + off
+            if not ambiguous(t3) and t3 < sess[i + 1][0]:
+                add(t3, rng.uniform(6, 14) if off < 120 else value())
     if split_at is not None:                                     # level between the two runs of the split day
         a1, b1 = sess[split_at - 1]
         a2 = sess[split_at][0]
@@ -282,7 +278,7 @@ def main():
         # no dose at a rounding midpoint, no level at a cut-off by floating point, doses never zero by rounding
         if min((m for k2, m in margins if k2 == "dose"), default=9) < 0.2 or \
                 min((m for k2, m in margins if k2 == "level"), default=9) < 1e-4 or \
-                min((m for k2, m in margins if k2 == "window"), default=9) < 0.5 or any(r[3] == 0 and r[1] is not None and r[1] <= 25 for r in rows) or \
+                any(k2 == "unique" for k2, m in margins) or any(r[3] == 0 and r[1] is not None and r[1] <= 25 for r in rows) or \
                 any(r[3] < 0 for r in rows):
             redrawn += 1
             continue

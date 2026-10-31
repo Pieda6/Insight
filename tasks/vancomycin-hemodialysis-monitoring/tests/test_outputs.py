@@ -99,10 +99,9 @@ def test_rows_are_complete_and_ordered(truth, rows):
 
 
 FAMILIES = (
-    "window_taken_as_three_hours", "two_hours_after_dialysis_ignored", "umol_read_as_mg",
-    "original_kept_over_correction", "earliest_level_used", "range_ends_exclusive", "scaled_to_15", "scaled_to_20",
+    "two_hours_after_dialysis_ignored", "umol_read_as_mg", "original_kept_over_correction", "range_ends_exclusive", "scaled_to_15", "scaled_to_20",
     "rounded_down", "loading_not_capped", "intradialytic_range_low_end", "weight_based_after_levels",
-    "previous_dose_carried_before_any_level", "unrounded_dose_carried", "loading_dose_carried",
+    "unrounded_dose_carried", "loading_dose_carried",
     "first_session_weight_throughout",
 )
 

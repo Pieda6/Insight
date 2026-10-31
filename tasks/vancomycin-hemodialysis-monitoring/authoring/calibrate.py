@@ -12,12 +12,9 @@ SOLVE = (TASK / "solution" / "solve.py").read_text()
 S = {
     "levels during or within 2 hours after an earlier session kept": [
         ("\n                  and not any(a <= t < b + 120 for a, b in spans[:k])]", "]")],
-    "window of 3 hours": [("start - 120 <= t < start", "start - 180 <= t < start")],
-    "window end exclusive (exactly 2 hours dropped)": [("start - 120 <= t < start", "start - 120 < t < start")],
     "umol/L read as mg/L": [('x * (MG_PER_UMOL if r["units"] == "umol/L" else 1.0)', "x")],
     "original kept over the correction": [('if r["accession"] not in reports or r["status"] == "corrected":',
                                            'if r["accession"] not in reports:')],
-    "earliest level in the window": [("level = max(ok)[1] if ok else None", "level = min(ok)[1] if ok else None")],
     "range ends exclusive": [("elif level < LOW:", "elif level <= LOW:"), ("elif level > HIGH:", "elif level >= HIGH:")],
     "scaled to 15 mg/L": [("TARGET, LOW", "TARGET, LOW_"), ("= 17.5, 15.0,", "= 15.0, 15.0,"), ("LOW_", "LOW")],
     "rounded down": [("math.floor(x / 250.0 + 0.5)", "math.floor(x / 250.0)")],
@@ -26,7 +23,8 @@ S = {
                                      '("intradialytic", "low"): 7.5, ("intradialytic", "high"): 10.0')],
     "loading dose carried as the maintenance dose": [("base = previous if have_level else to_250(w * MAINTENANCE[key])", "base = previous if (have_level or k == 1) else to_250(w * MAINTENANCE[key])")],
     "weight-based doses after levels are known": [("base = previous if have_level else to_250(w * MAINTENANCE[key])", "base = to_250(w * MAINTENANCE[key])")],
-    "previous dose carried before any level": [("base = previous if have_level else to_250(w * MAINTENANCE[key])", "base = previous if (have_level or k >= 2) else to_250(w * MAINTENANCE[key])")],
+    "levels from any earlier day in the 2 hours before the start only": [
+        ('after = spans[k - 1][0] if k else float("-inf")', 'after = start - 120')],
     "dose not rounded before it is carried": [("            previous = dose\n", "            previous = dose if k == 0 else (base * TARGET / level if status in ('below', 'above') else base)\n")],
 }
 
