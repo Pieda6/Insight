@@ -2,7 +2,7 @@
 
 Vancomycin dosing by predialysis-concentration monitoring for 150 patients with MRSA infections on maintenance
 hemodialysis (1,633 sessions), following the 2020 consensus guideline of ASHP, IDSA, PIDS and SIDP (Rybak et al.,
-Am J Health-Syst Pharm 2020;77:835-864) and the unit's protocol. For every session the agent reports the
+Am J Health-Syst Pharm 2020;77:835-864) and the unit's written dosing policy (data/protocol.md). For every session the agent reports the
 predialysis level that counts, its status against 15 to 20 mg/L, and the dose.
 
 ## Difficulty

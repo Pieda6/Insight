@@ -74,6 +74,7 @@ def test_engine_matches_hand_worked_patient():
 def test_inputs_are_consistent():
     """Every level belongs to a patient with sessions; dialyzers, timings and units are known."""
     sessions, levels = engine.load()
+    assert (engine.DATA / "protocol.md").is_file()
     ids = {s["patient_id"] for s in sessions}
     assert {r["patient_id"] for r in levels} <= ids
     assert all(s["dialyzer"] in ("high", "low") and s["vancomycin_timing"] in ("intradialytic", "after_dialysis")

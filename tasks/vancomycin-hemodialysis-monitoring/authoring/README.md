@@ -22,7 +22,7 @@ These files are not copied into the agent or verifier images. Run them from this
   mg/L, monitoring drives subsequent dosing, page 847); page 848 sampling advice (not during or for at least 2 hours
   after hemodialysis); page 845 (loading doses not exceeding 3,000 mg).
 
-## Settled readings (the unit's protocol, stated in instruction.md)
+## Settled readings (the unit's policy, environment/data/protocol.md)
 Middle of a range in the table; the session's own weight; loading at the first session in the data; the latest
 numeric result drawn no more than 2 hours before the start, among those the sampling advice allows; proportional
 change to 17.5 mg/L outside 15 to 20, given at that session; hold above 25 with the changed dose applying from the
