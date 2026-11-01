@@ -6,6 +6,7 @@ misreadings that change its row. No agent code is executed.
 """
 import csv
 import json
+import math
 import re
 import sys
 from pathlib import Path
@@ -49,7 +50,7 @@ def got(rows):
 def same_time(text, want):
     if want is None:
         return text == "none"
-    return bool(TIME.fullmatch(text)) and abs(engine.to_min(text) - want) <= 1.0
+    return bool(TIME.fullmatch(text)) and math.isfinite(want) and abs(engine.to_min(text) - want) <= 1.0
 
 
 def right(g, w):

@@ -4,6 +4,7 @@ import bisect
 import csv
 import datetime as dt
 import json
+import math
 from pathlib import Path
 
 DATA = Path(__file__).resolve().parent / "data"
@@ -87,6 +88,7 @@ class Urine:
 def evaluate(p, creat, urine, rrt):
     """(max_stage, onset minutes or None, stage-reached minutes or None)."""
     base = float(p["baseline_creatinine_mg_dl"])
+    assert math.isfinite(base) and base > 0, p
     final = {}
     for r in creat:
         if r["status"] == "corrected" or r["accession"] not in final:
@@ -97,6 +99,7 @@ def evaluate(p, creat, urine, rrt):
             x = float(r["result"])
         except ValueError:
             continue
+        assert math.isfinite(x), r                              # fail closed on a non-finite result
         res.append((to_min(r["collected"]), x / 88.4 if r["units"] == "umol/L" else x))
     res.sort()
     found = []
@@ -116,6 +119,7 @@ def evaluate(p, creat, urine, rrt):
     for r in rrt:
         found.append((to_min(r["started"]), 3))
     w = float(p["weight_kg"])
+    assert math.isfinite(w) and w > 0, p
     u = Urine(to_min(p["admitted"]), [(to_min(r["charted"]), float(r["volume_ml"])) for r in urine])
     for hours, rate, s in ((6, 0.5, 1), (12, 0.5, 2), (24, 0.3, 3), (12, None, 3)):
         x = u.first_below(hours * 60, None if rate is None else rate * w * hours)
