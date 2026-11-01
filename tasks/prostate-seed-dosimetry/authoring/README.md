@@ -45,8 +45,9 @@ Stated in instruction.md as facts: New York local implant times; certificate uni
 coefficient; calibration times with UTC offsets; duplicate detections named in review; seeds fixed at their CT
 positions from the implant on; the 2D formalism with the line-source geometry function; ln g_L linear in r and F
 bilinear in r and theta (the report allows any appropriate interpolation for clinical use and used these for its
-consensus data, Sec. IV); total dose to complete decay; nothing rounded before the final doses. Settled by the
-report: the source centre at the marker centroid with the axis through the markers (Sec. III A); g_L with G_L (Eqs.
+consensus data, Sec. IV); total dose to complete decay; nothing rounded before the final doses; nearest neighbour outside the tabulated
+distances (Eq. C1), F = 1 at 90 degrees (Eq. 8), symmetry about the transverse plane and the dataset's active length.
+Also settled by the report: the source centre at the marker centroid with the axis through the markers (Sec. III A); g_L with G_L (Eqs.
 1, 6); F(r, 90 degrees) = 1 (Eq. 8); symmetry about the transverse plane (Sec. III A); nearest neighbour outside the
 tabulated distances for both g and F in 2D (Appendix C, Eq. C1); active length L from the dataset; apparent activity
 times the vendor's own coefficient (Appendix E); half-lives (Table XIII, also in the data). Physics: mean life
