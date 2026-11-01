@@ -22,6 +22,15 @@ applied to real-looking data, where the natural shortcut gives near-right answer
 | vancomycin-auc-dosing v5 | Science (Medicine) | Pass@2 solved 2/2 (34 min); an outside review also found grounding flaws (levels within 2 h after dialysis, MIC > 1 by broth microdilution overridden, one dose scaled instead of the total daily dose) | changed the science so the agent's method breaks: 74 hemodialysis patients with dialyzer clearance during sessions and doses given during sessions (guideline p. 846), so elimination is time-varying, superposition at one rate fails, and clearance and volume must be solved jointly; sampling-period AUC and proportional dose (p. 840); 2D uniqueness enforced by multistart Newton; ignoring dialysis gets all 74 wrong |
 | prostate-seed-dosimetry | Science (Medicine) | pending | pivot from vancomycin: the AAPM TG-43U1 report is a precise public rulebook, so the decisive rules (nearest-neighbour extrapolation, F = 1 at 90 degrees, mirror symmetry, g_L with G_L, the vendor's exposure-rate constant for apparent activity) stay in the cited report, not the instruction; tables transcribed and checked against the report's own Table XV; 0.1 percent tolerance because the doses are deterministic |
 
+| prostate-seed-dosimetry (later runs) | Science (Medicine) | rule unstated: Pass@2 passed but deep review FAIL (U1-U3, G-DIFF); rule stated: solved 2/2; report text shipped as data: solved 2/2 | a single buried rule is not difficulty: the deep review calls failures on it an artifact, and once visible the model finds it |
+| kdigo-aki-staging | Science (Medicine) | every check before Pass@2 passed (science included); Pass@2 solved 2/2 | trajectories show the model spends half its steps hunting borderline values and testing every alternative reading against the data; planted edges with one correct reading never trap it |
+
+## Lesson from reading the Gemini trajectories (Nov 2026)
+The model audits: it enumerates every reading of times, units and rules and checks whether any answer changes, and
+it searches for values near every threshold. It loses only where correctness cannot be checked from the data: a
+long chained computation (HEC-22 network grade lines) whose intermediate errors leave no trace, ideally on a recent
+standard it cannot run from memory. Design for that, not for traps in the records.
+
 ## Patterns that work
 
 00. **Break the method the agent actually used.** Read the trajectories or deep-review analysis: when the agent's core method (for example superposition at one constant rate) is right on every case, add a real, standard-backed subpopulation where that method is wrong (time-varying elimination during dialysis) rather than more record traps. Check uniqueness of the new fit in the full parameter space (multistart Newton), not along one curve.
