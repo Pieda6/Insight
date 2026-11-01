@@ -17,18 +17,37 @@
      },
      "field_shaping": "MLC",
      "shaped_field_equivalent_square_cm": 14.7,
-     "wedge_deg": 30,
-     "heterogeneity": null,
+     "wedge_deg": null,
+     "heterogeneity": {
+      "correction": "power law",
+      "layers": [
+       {
+        "from_cm": 0.0,
+        "to_cm": 3.3,
+        "rho_e": 1.0
+       },
+       {
+        "from_cm": 3.3,
+        "to_cm": 11.8,
+        "rho_e": 0.32
+       },
+       {
+        "from_cm": 11.8,
+        "to_cm": 22.8,
+        "rho_e": 1.0
+       }
+      ]
+     },
      "setup": "SAD",
-     "ssd_cm": 87.9,
+     "ssd_cm": 83.2,
      "point": {
-      "depth_cm": 12.1,
+      "depth_cm": 16.8,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 104.8
+     "dose_cgy": 123.0
     },
     {
      "beam_id": "P01-2",
@@ -36,88 +55,17 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 7.3,
-      "X2": 7.3,
-      "Y1": 2.7,
-      "Y2": 2.7
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": null,
-     "heterogeneity": {
-      "correction": "power law",
-      "layers": [
-       {
-        "from_cm": 0.0,
-        "to_cm": 4.0,
-        "rho_e": 1.0
-       },
-       {
-        "from_cm": 4.0,
-        "to_cm": 9.0,
-        "rho_e": 0.39
-       },
-       {
-        "from_cm": 9.0,
-        "to_cm": 16.3,
-        "rho_e": 1.0
-       }
-      ]
-     },
-     "setup": "SAD",
-     "ssd_cm": 88.5,
-     "point": {
-      "depth_cm": 11.5,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 54.3
-    },
-    {
-     "beam_id": "P01-3",
-     "name": "RLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 11.7,
-      "X2": 10.2,
-      "Y1": 8.0,
-      "Y2": 9.7
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 100.0,
-     "point": {
-      "depth_cm": 13.8,
-      "off_axis_cm": [
-       -9.0,
-       4.4
-      ]
-     },
-     "dose_cgy": 129.4
-    },
-    {
-     "beam_id": "P01-4",
-     "name": "LLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 5.0,
-      "X2": 11.7,
-      "Y1": 5.7,
-      "Y2": 10.9
+      "X1": 7.8,
+      "X2": 7.1,
+      "Y1": 4.3,
+      "Y2": 6.3
      },
      "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 10.3,
+     "shaped_field_equivalent_square_cm": 9.1,
      "wedge_deg": null,
      "heterogeneity": null,
      "setup": "SAD",
-     "ssd_cm": 87.5,
+     "ssd_cm": 84.4,
      "point": {
       "depth_cm": 15.6,
       "off_axis_cm": [
@@ -125,7 +73,59 @@
        0.0
       ]
      },
-     "dose_cgy": 139.2
+     "dose_cgy": 66.5
+    },
+    {
+     "beam_id": "P01-3",
+     "name": "RLAT",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 4.5,
+      "X2": 4.5,
+      "Y1": 5.2,
+      "Y2": 5.2
+     },
+     "field_shaping": "open",
+     "shaped_field_equivalent_square_cm": null,
+     "wedge_deg": 15,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 84.7,
+     "point": {
+      "depth_cm": 15.3,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 176.8
+    },
+    {
+     "beam_id": "P01-4",
+     "name": "LLAT",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 9.1,
+      "X2": 3.6,
+      "Y1": 9.2,
+      "Y2": 7.2
+     },
+     "field_shaping": "open",
+     "shaped_field_equivalent_square_cm": null,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 86.1,
+     "point": {
+      "depth_cm": 11.5,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 89.7
     },
     {
      "beam_id": "P01-5",
@@ -133,25 +133,25 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 8.3,
-      "X2": 6.7,
-      "Y1": 6.8,
-      "Y2": 5.1
+      "X1": 9.8,
+      "X2": 3.6,
+      "Y1": 6.9,
+      "Y2": 10.1
      },
      "field_shaping": "open",
      "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": 15,
+     "wedge_deg": null,
      "heterogeneity": null,
      "setup": "SAD",
-     "ssd_cm": 93.6,
+     "ssd_cm": 85.6,
      "point": {
-      "depth_cm": 6.4,
+      "depth_cm": 14.4,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 81.9
+     "dose_cgy": 150.6
     }
    ]
   },
@@ -165,29 +165,100 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 7.0,
-      "X2": 3.4,
-      "Y1": 10.3,
-      "Y2": 3.1
+      "X1": 10.9,
+      "X2": 10.9,
+      "Y1": 6.2,
+      "Y2": 6.2
      },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
+     "field_shaping": "block on tray",
+     "shaped_field_equivalent_square_cm": 12.5,
      "wedge_deg": null,
      "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 96.8,
+     "setup": "SSD",
+     "ssd_cm": 100.0,
      "point": {
-      "depth_cm": 6.4,
+      "depth_cm": 10.4,
       "off_axis_cm": [
-       -2.7,
-       -4.6
+       3.7,
+       0.8
+      ]
+     },
+     "dose_cgy": 48.3
+    },
+    {
+     "beam_id": "P02-2",
+     "name": "PA",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 5.1,
+      "X2": 5.1,
+      "Y1": 9.6,
+      "Y2": 9.6
+     },
+     "field_shaping": "block on tray",
+     "shaped_field_equivalent_square_cm": 10.7,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SSD",
+     "ssd_cm": 115.0,
+     "point": {
+      "depth_cm": 2.3,
+      "off_axis_cm": [
+       0.9,
+       3.9
+      ]
+     },
+     "dose_cgy": 186.7
+    },
+    {
+     "beam_id": "P02-3",
+     "name": "RLAT",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 4.7,
+      "X2": 4.7,
+      "Y1": 9.4,
+      "Y2": 9.4
+     },
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 9.4,
+     "wedge_deg": null,
+     "heterogeneity": {
+      "correction": "RTAR",
+      "layers": [
+       {
+        "from_cm": 0.0,
+        "to_cm": 4.6,
+        "rho_e": 1.0
+       },
+       {
+        "from_cm": 4.6,
+        "to_cm": 9.6,
+        "rho_e": 0.34
+       },
+       {
+        "from_cm": 9.6,
+        "to_cm": 16.3,
+        "rho_e": 1.0
+       }
+      ]
+     },
+     "setup": "SAD",
+     "ssd_cm": 88.8,
+     "point": {
+      "depth_cm": 11.2,
+      "off_axis_cm": [
+       0.0,
+       0.0
       ]
      },
      "dose_cgy": 105.0
     },
     {
-     "beam_id": "P02-2",
-     "name": "PA",
+     "beam_id": "P02-4",
+     "name": "LLAT",
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
@@ -210,58 +281,6 @@
       ]
      },
      "dose_cgy": 183.5
-    },
-    {
-     "beam_id": "P02-3",
-     "name": "RLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 7.4,
-      "X2": 10.9,
-      "Y1": 3.2,
-      "Y2": 9.0
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 13.1,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 96.3,
-     "point": {
-      "depth_cm": 3.7,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 41.5
-    },
-    {
-     "beam_id": "P02-4",
-     "name": "LLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 7.7,
-      "X2": 7.7,
-      "Y1": 7.5,
-      "Y2": 7.5
-     },
-     "field_shaping": "block on tray",
-     "shaped_field_equivalent_square_cm": 10.9,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 100.0,
-     "point": {
-      "depth_cm": 8.1,
-      "off_axis_cm": [
-       -2.1,
-       3.1
-      ]
-     },
-     "dose_cgy": 171.9
     }
    ]
   },
@@ -271,6 +290,64 @@
    "beams": [
     {
      "beam_id": "P03-1",
+     "name": "AP",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 5.0,
+      "X2": 5.0,
+      "Y1": 10.5,
+      "Y2": 10.5
+     },
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 11.7,
+     "wedge_deg": 30,
+     "heterogeneity": null,
+     "setup": "SSD",
+     "ssd_cm": 100.0,
+     "point": {
+      "depth_cm": 4.5,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 138.3
+    },
+    {
+     "beam_id": "P03-2",
+     "name": "PA",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 3.3,
+      "X2": 6.1,
+      "Y1": 8.8,
+      "Y2": 5.8
+     },
+     "field_shaping": "open",
+     "shaped_field_equivalent_square_cm": null,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 86.0,
+     "point": {
+      "depth_cm": 14.0,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 145.6
+    }
+   ]
+  },
+  {
+   "patient_id": "P04",
+   "site": "whole brain",
+   "beams": [
+    {
+     "beam_id": "P04-1",
      "name": "AP",
      "modality": "photon",
      "energy": "6 MV",
@@ -296,7 +373,7 @@
      "dose_cgy": 145.4
     },
     {
-     "beam_id": "P03-2",
+     "beam_id": "P04-2",
      "name": "PA",
      "modality": "photon",
      "energy": "6 MV",
@@ -320,90 +397,6 @@
       ]
      },
      "dose_cgy": 147.7
-    },
-    {
-     "beam_id": "P03-3",
-     "name": "RLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 4.5,
-      "X2": 6.6,
-      "Y1": 7.2,
-      "Y2": 7.7
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": 45,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 84.3,
-     "point": {
-      "depth_cm": 15.7,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 122.1
-    }
-   ]
-  },
-  {
-   "patient_id": "P04",
-   "site": "whole brain",
-   "beams": [
-    {
-     "beam_id": "P04-1",
-     "name": "AP",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 5.6,
-      "X2": 10.7,
-      "Y1": 4.2,
-      "Y2": 6.0
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 8.7,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 91.3,
-     "point": {
-      "depth_cm": 8.7,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 149.8
-    },
-    {
-     "beam_id": "P04-2",
-     "name": "PA",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 6.1,
-      "X2": 6.1,
-      "Y1": 10.1,
-      "Y2": 10.1
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 11.0,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 84.0,
-     "point": {
-      "depth_cm": 12.0,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 52.8
     }
    ]
   },
@@ -417,25 +410,25 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 4.1,
-      "X2": 4.6,
-      "Y1": 2.9,
-      "Y2": 6.4
+      "X1": 4.3,
+      "X2": 4.3,
+      "Y1": 7.4,
+      "Y2": 7.4
      },
      "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 7.7,
-     "wedge_deg": 30,
+     "shaped_field_equivalent_square_cm": 6.9,
+     "wedge_deg": 45,
      "heterogeneity": null,
-     "setup": "SSD",
+     "setup": "SAD",
      "ssd_cm": 90.0,
      "point": {
-      "depth_cm": 4.6,
+      "depth_cm": 10.0,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 158.2
+     "dose_cgy": 122.1
     },
     {
      "beam_id": "P05-2",
@@ -443,44 +436,51 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 2.8,
-      "X2": 2.8,
+      "X1": 11.9,
+      "X2": 11.9,
       "Y1": 11.0,
       "Y2": 11.0
      },
      "field_shaping": "open",
      "shaped_field_equivalent_square_cm": null,
      "wedge_deg": null,
-     "heterogeneity": {
-      "correction": "power law",
-      "layers": [
-       {
-        "from_cm": 0.0,
-        "to_cm": 2.1,
-        "rho_e": 1.0
-       },
-       {
-        "from_cm": 2.1,
-        "to_cm": 7.9,
-        "rho_e": 0.34
-       },
-       {
-        "from_cm": 7.9,
-        "to_cm": 19.4,
-        "rho_e": 1.0
-       }
-      ]
-     },
-     "setup": "SAD",
-     "ssd_cm": 88.5,
+     "heterogeneity": null,
+     "setup": "SSD",
+     "ssd_cm": 100.0,
      "point": {
-      "depth_cm": 11.5,
+      "depth_cm": 8.7,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 111.6
+     "dose_cgy": 200.8
+    },
+    {
+     "beam_id": "P05-3",
+     "name": "RLAT",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 11.8,
+      "X2": 8.2,
+      "Y1": 9.8,
+      "Y2": 7.2
+     },
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 15.3,
+     "wedge_deg": 45,
+     "heterogeneity": null,
+     "setup": "SSD",
+     "ssd_cm": 100.0,
+     "point": {
+      "depth_cm": 5.2,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 106.7
     }
    ]
   },
@@ -494,66 +494,40 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 9.7,
-      "X2": 3.6,
-      "Y1": 9.0,
-      "Y2": 11.9
+      "X1": 11.6,
+      "X2": 11.3,
+      "Y1": 3.1,
+      "Y2": 6.1
      },
      "field_shaping": "open",
      "shaped_field_equivalent_square_cm": null,
      "wedge_deg": null,
      "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 91.3,
+     "setup": "SSD",
+     "ssd_cm": 100.0,
      "point": {
-      "depth_cm": 5.6,
+      "depth_cm": 7.5,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 205.2
+     "dose_cgy": 103.0
     },
     {
      "beam_id": "P06-2",
      "name": "PA",
      "modality": "electron",
      "energy": "9 MeV",
-     "applicator": "25x25",
+     "applicator": "15x15",
      "insert_cm": [
-      22.5,
-      16.5
+      5.0,
+      7.5
      ],
      "ssd_cm": 115.0,
      "prescription_isodose_pct": 100,
-     "extended_distance_method": "air gap",
-     "dose_cgy": 200.4
-    },
-    {
-     "beam_id": "P06-3",
-     "name": "RLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 11.3,
-      "X2": 6.6,
-      "Y1": 6.1,
-      "Y2": 6.5
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 13.2,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 86.1,
-     "point": {
-      "depth_cm": 13.9,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 60.5
+     "extended_distance_method": "effective SSD",
+     "dose_cgy": 261.8
     }
    ]
   },
@@ -567,25 +541,25 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 10.5,
-      "X2": 4.6,
-      "Y1": 4.8,
-      "Y2": 8.3
+      "X1": 7.6,
+      "X2": 8.6,
+      "Y1": 4.9,
+      "Y2": 11.4
      },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 10.2,
+     "field_shaping": "block on tray",
+     "shaped_field_equivalent_square_cm": 9.9,
      "wedge_deg": null,
      "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 94.2,
+     "setup": "SSD",
+     "ssd_cm": 90.0,
      "point": {
-      "depth_cm": 5.8,
+      "depth_cm": 7.5,
       "off_axis_cm": [
-       0.0,
-       0.0
+       4.7,
+       3.1
       ]
      },
-     "dose_cgy": 120.7
+     "dose_cgy": 78.3
     },
     {
      "beam_id": "P07-2",
@@ -593,77 +567,25 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 6.2,
-      "X2": 6.2,
-      "Y1": 8.7,
-      "Y2": 8.7
+      "X1": 6.9,
+      "X2": 6.9,
+      "Y1": 9.0,
+      "Y2": 9.0
      },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 90.7,
-     "point": {
-      "depth_cm": 13.5,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 65.3
-    },
-    {
-     "beam_id": "P07-3",
-     "name": "RLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 6.0,
-      "X2": 5.5,
-      "Y1": 2.7,
-      "Y2": 6.5
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 82.6,
-     "point": {
-      "depth_cm": 17.4,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 90.2
-    },
-    {
-     "beam_id": "P07-4",
-     "name": "LLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 9.4,
-      "X2": 9.4,
-      "Y1": 7.7,
-      "Y2": 7.7
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
+     "field_shaping": "block on tray",
+     "shaped_field_equivalent_square_cm": 11.4,
      "wedge_deg": null,
      "heterogeneity": null,
      "setup": "SSD",
-     "ssd_cm": 90.0,
+     "ssd_cm": 100.0,
      "point": {
-      "depth_cm": 9.9,
+      "depth_cm": 8.4,
       "off_axis_cm": [
-       -5.9,
-       2.0
+       0.0,
+       0.0
       ]
      },
-     "dose_cgy": 43.0
+     "dose_cgy": 122.9
     }
    ]
   },
@@ -677,51 +599,59 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 10.3,
-      "X2": 10.3,
-      "Y1": 11.6,
-      "Y2": 11.6
-     },
-     "field_shaping": "block on tray",
-     "shaped_field_equivalent_square_cm": 18.1,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 100.0,
-     "point": {
-      "depth_cm": 14.5,
-      "off_axis_cm": [
-       -3.9,
-       -2.3
-      ]
-     },
-     "dose_cgy": 100.7
-    },
-    {
-     "beam_id": "P08-2",
-     "name": "PA",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 3.4,
-      "X2": 2.8,
-      "Y1": 9.9,
-      "Y2": 8.1
+      "X1": 6.1,
+      "X2": 6.1,
+      "Y1": 6.4,
+      "Y2": 6.4
      },
      "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 6.8,
+     "shaped_field_equivalent_square_cm": 9.3,
      "wedge_deg": null,
-     "heterogeneity": null,
+     "heterogeneity": {
+      "correction": "power law",
+      "layers": [
+       {
+        "from_cm": 0.0,
+        "to_cm": 3.4,
+        "rho_e": 1.0
+       },
+       {
+        "from_cm": 3.4,
+        "to_cm": 11.1,
+        "rho_e": 0.38
+       },
+       {
+        "from_cm": 11.1,
+        "to_cm": 21.3,
+        "rho_e": 1.0
+       }
+      ]
+     },
      "setup": "SAD",
-     "ssd_cm": 90.4,
+     "ssd_cm": 86.4,
      "point": {
-      "depth_cm": 9.6,
+      "depth_cm": 13.6,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 86.6
+     "dose_cgy": 111.8
+    },
+    {
+     "beam_id": "P08-2",
+     "name": "PA",
+     "modality": "electron",
+     "energy": "9 MeV",
+     "applicator": "25x25",
+     "insert_cm": [
+      14.5,
+      4.0
+     ],
+     "ssd_cm": 100.0,
+     "prescription_isodose_pct": 80,
+     "extended_distance_method": null,
+     "dose_cgy": 235.7
     },
     {
      "beam_id": "P08-3",
@@ -729,25 +659,25 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 6.4,
-      "X2": 6.4,
-      "Y1": 11.4,
-      "Y2": 11.4
+      "X1": 11.7,
+      "X2": 11.7,
+      "Y1": 9.4,
+      "Y2": 9.4
      },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 15.2,
      "wedge_deg": null,
      "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 100.0,
+     "setup": "SAD",
+     "ssd_cm": 92.6,
      "point": {
-      "depth_cm": 8.4,
+      "depth_cm": 5.5,
       "off_axis_cm": [
-       0.8,
-       -5.5
+       0.0,
+       0.0
       ]
      },
-     "dose_cgy": 112.8
+     "dose_cgy": 83.1
     }
    ]
   },
@@ -758,54 +688,32 @@
     {
      "beam_id": "P09-1",
      "name": "AP",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 6.3,
-      "X2": 6.3,
-      "Y1": 7.9,
-      "Y2": 7.9
-     },
-     "field_shaping": "block on tray",
-     "shaped_field_equivalent_square_cm": 9.8,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 100.0,
-     "point": {
-      "depth_cm": 6.0,
-      "off_axis_cm": [
-       -0.4,
-       -3.8
-      ]
-     },
-     "dose_cgy": 87.6
+     "modality": "electron",
+     "energy": "9 MeV",
+     "applicator": "15x15",
+     "insert_cm": [
+      4.0,
+      11.0
+     ],
+     "ssd_cm": 110.0,
+     "prescription_isodose_pct": 90,
+     "extended_distance_method": "air gap",
+     "dose_cgy": 211.1
     },
     {
      "beam_id": "P09-2",
      "name": "PA",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 4.5,
-      "X2": 7.2,
-      "Y1": 9.4,
-      "Y2": 8.1
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 8.9,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 96.1,
-     "point": {
-      "depth_cm": 3.9,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 134.0
+     "modality": "electron",
+     "energy": "9 MeV",
+     "applicator": "10x10",
+     "insert_cm": [
+      7.0,
+      5.5
+     ],
+     "ssd_cm": 110.0,
+     "prescription_isodose_pct": 90,
+     "extended_distance_method": "effective SSD",
+     "dose_cgy": 172.8
     }
    ]
   },
@@ -818,15 +726,15 @@
      "name": "AP",
      "modality": "electron",
      "energy": "9 MeV",
-     "applicator": "10x10",
+     "applicator": "20x20",
      "insert_cm": [
-      8.0,
-      5.0
+      5.0,
+      19.5
      ],
      "ssd_cm": 105.0,
-     "prescription_isodose_pct": 100,
-     "extended_distance_method": "effective SSD",
-     "dose_cgy": 193.4
+     "prescription_isodose_pct": 90,
+     "extended_distance_method": "air gap",
+     "dose_cgy": 248.8
     }
    ]
   },
@@ -840,96 +748,25 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 4.2,
-      "X2": 6.0,
-      "Y1": 2.6,
-      "Y2": 11.9
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 8.1,
-     "wedge_deg": null,
-     "heterogeneity": {
-      "correction": "RTAR",
-      "layers": [
-       {
-        "from_cm": 0.0,
-        "to_cm": 3.4,
-        "rho_e": 1.0
-       },
-       {
-        "from_cm": 3.4,
-        "to_cm": 12.2,
-        "rho_e": 0.26
-       },
-       {
-        "from_cm": 12.2,
-        "to_cm": 22.5,
-        "rho_e": 1.0
-       }
-      ]
-     },
-     "setup": "SAD",
-     "ssd_cm": 84.4,
-     "point": {
-      "depth_cm": 15.6,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 152.2
-    },
-    {
-     "beam_id": "P11-2",
-     "name": "PA",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 2.5,
-      "X2": 2.5,
-      "Y1": 7.8,
-      "Y2": 7.8
-     },
-     "field_shaping": "block on tray",
-     "shaped_field_equivalent_square_cm": 6.1,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 110.0,
-     "point": {
-      "depth_cm": 9.2,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 126.4
-    },
-    {
-     "beam_id": "P11-3",
-     "name": "RLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 10.3,
-      "X2": 3.8,
-      "Y1": 8.2,
-      "Y2": 6.9
+      "X1": 5.0,
+      "X2": 8.0,
+      "Y1": 9.3,
+      "Y2": 4.8
      },
      "field_shaping": "open",
      "shaped_field_equivalent_square_cm": null,
      "wedge_deg": null,
      "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 93.0,
+     "setup": "SSD",
+     "ssd_cm": 100.0,
      "point": {
-      "depth_cm": 10.2,
+      "depth_cm": 9.0,
       "off_axis_cm": [
-       0.0,
-       0.0
+       2.3,
+       -4.3
       ]
      },
-     "dose_cgy": 120.0
+     "dose_cgy": 218.4
     }
    ]
   },
@@ -943,17 +780,17 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 11.0,
-      "X2": 5.8,
-      "Y1": 3.8,
-      "Y2": 4.8
+      "X1": 10.5,
+      "X2": 10.5,
+      "Y1": 5.3,
+      "Y2": 5.3
      },
      "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 8.1,
+     "shaped_field_equivalent_square_cm": 12.4,
      "wedge_deg": null,
      "heterogeneity": null,
      "setup": "SAD",
-     "ssd_cm": 90.4,
+     "ssd_cm": 87.8,
      "point": {
       "depth_cm": 9.6,
       "off_axis_cm": [
@@ -961,11 +798,372 @@
        0.0
       ]
      },
-     "dose_cgy": 132.7
+     "dose_cgy": 153.7
     },
     {
      "beam_id": "P12-2",
      "name": "PA",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 2.6,
+      "X2": 2.6,
+      "Y1": 10.5,
+      "Y2": 10.5
+     },
+     "field_shaping": "open",
+     "shaped_field_equivalent_square_cm": null,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 89.4,
+     "point": {
+      "depth_cm": 9.5,
+      "off_axis_cm": [
+       0.3,
+       -1.6
+      ]
+     },
+     "dose_cgy": 217.0
+    },
+    {
+     "beam_id": "P12-3",
+     "name": "RLAT",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 7.9,
+      "X2": 7.9,
+      "Y1": 6.5,
+      "Y2": 6.5
+     },
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 9.6,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 96.1,
+     "point": {
+      "depth_cm": 3.9,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 201.6
+    },
+    {
+     "beam_id": "P12-4",
+     "name": "LLAT",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 10.4,
+      "X2": 10.4,
+      "Y1": 3.8,
+      "Y2": 3.8
+     },
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 8.7,
+     "wedge_deg": null,
+     "heterogeneity": {
+      "correction": "power law",
+      "layers": [
+       {
+        "from_cm": 0.0,
+        "to_cm": 2.2,
+        "rho_e": 1.0
+       },
+       {
+        "from_cm": 2.2,
+        "to_cm": 7.7,
+        "rho_e": 0.34
+       },
+       {
+        "from_cm": 7.7,
+        "to_cm": 16.6,
+        "rho_e": 1.0
+       }
+      ]
+     },
+     "setup": "SAD",
+     "ssd_cm": 89.0,
+     "point": {
+      "depth_cm": 11.0,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 88.7
+    }
+   ]
+  },
+  {
+   "patient_id": "P13",
+   "site": "prostate",
+   "beams": [
+    {
+     "beam_id": "P13-1",
+     "name": "AP",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 10.1,
+      "X2": 10.1,
+      "Y1": 9.1,
+      "Y2": 9.1
+     },
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 13.0,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 88.6,
+     "point": {
+      "depth_cm": 11.4,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 199.6
+    },
+    {
+     "beam_id": "P13-2",
+     "name": "PA",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 4.2,
+      "X2": 11.6,
+      "Y1": 3.4,
+      "Y2": 10.4
+     },
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 9.6,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 90.2,
+     "point": {
+      "depth_cm": 7.5,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 94.1
+    },
+    {
+     "beam_id": "P13-3",
+     "name": "RLAT",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 5.2,
+      "X2": 5.2,
+      "Y1": 10.1,
+      "Y2": 10.1
+     },
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 11.8,
+     "wedge_deg": null,
+     "heterogeneity": {
+      "correction": "RTAR",
+      "layers": [
+       {
+        "from_cm": 0.0,
+        "to_cm": 2.0,
+        "rho_e": 1.0
+       },
+       {
+        "from_cm": 2.0,
+        "to_cm": 7.0,
+        "rho_e": 0.29
+       },
+       {
+        "from_cm": 7.0,
+        "to_cm": 15.5,
+        "rho_e": 1.0
+       }
+      ]
+     },
+     "setup": "SAD",
+     "ssd_cm": 88.2,
+     "point": {
+      "depth_cm": 11.8,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 170.1
+    },
+    {
+     "beam_id": "P13-4",
+     "name": "LLAT",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 4.5,
+      "X2": 7.6,
+      "Y1": 8.6,
+      "Y2": 6.0
+     },
+     "field_shaping": "open",
+     "shaped_field_equivalent_square_cm": null,
+     "wedge_deg": 60,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 88.1,
+     "point": {
+      "depth_cm": 11.9,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 88.6
+    }
+   ]
+  },
+  {
+   "patient_id": "P14",
+   "site": "lung",
+   "beams": [
+    {
+     "beam_id": "P14-1",
+     "name": "AP",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 10.3,
+      "X2": 10.3,
+      "Y1": 12.0,
+      "Y2": 12.0
+     },
+     "field_shaping": "open",
+     "shaped_field_equivalent_square_cm": null,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SSD",
+     "ssd_cm": 115.0,
+     "point": {
+      "depth_cm": 11.8,
+      "off_axis_cm": [
+       9.4,
+       0.3
+      ]
+     },
+     "dose_cgy": 150.5
+    },
+    {
+     "beam_id": "P14-2",
+     "name": "PA",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 3.8,
+      "X2": 3.8,
+      "Y1": 3.8,
+      "Y2": 3.8
+     },
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 4.7,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 87.4,
+     "point": {
+      "depth_cm": 15.2,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 77.0
+    },
+    {
+     "beam_id": "P14-3",
+     "name": "RLAT",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 9.6,
+      "X2": 9.6,
+      "Y1": 9.1,
+      "Y2": 9.1
+     },
+     "field_shaping": "open",
+     "shaped_field_equivalent_square_cm": null,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SSD",
+     "ssd_cm": 100.0,
+     "point": {
+      "depth_cm": 2.8,
+      "off_axis_cm": [
+       7.8,
+       7.3
+      ]
+     },
+     "dose_cgy": 103.3
+    },
+    {
+     "beam_id": "P14-4",
+     "name": "LLAT",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 9.0,
+      "X2": 9.0,
+      "Y1": 7.7,
+      "Y2": 7.7
+     },
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 10.5,
+     "wedge_deg": null,
+     "heterogeneity": {
+      "correction": "RTAR",
+      "layers": [
+       {
+        "from_cm": 0.0,
+        "to_cm": 3.9,
+        "rho_e": 1.0
+       },
+       {
+        "from_cm": 3.9,
+        "to_cm": 7.8,
+        "rho_e": 0.3
+       },
+       {
+        "from_cm": 7.8,
+        "to_cm": 16.2,
+        "rho_e": 1.0
+       }
+      ]
+     },
+     "setup": "SAD",
+     "ssd_cm": 88.6,
+     "point": {
+      "depth_cm": 11.4,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 119.3
+    }
+   ]
+  },
+  {
+   "patient_id": "P15",
+   "site": "whole brain",
+   "beams": [
+    {
+     "beam_id": "P15-1",
+     "name": "AP",
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
@@ -990,8 +1188,8 @@
      "dose_cgy": 60.8
     },
     {
-     "beam_id": "P12-3",
-     "name": "RLAT",
+     "beam_id": "P15-2",
+     "name": "PA",
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
@@ -1016,8 +1214,8 @@
      "dose_cgy": 107.1
     },
     {
-     "beam_id": "P12-4",
-     "name": "LLAT",
+     "beam_id": "P15-3",
+     "name": "RLAT",
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
@@ -1040,168 +1238,145 @@
       ]
      },
      "dose_cgy": 90.5
-    },
-    {
-     "beam_id": "P12-5",
-     "name": "RAO",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 5.6,
-      "X2": 5.6,
-      "Y1": 6.2,
-      "Y2": 6.2
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 9.9,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 85.0,
-     "point": {
-      "depth_cm": 15.0,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 81.6
     }
    ]
   },
   {
-   "patient_id": "P13",
-   "site": "prostate",
+   "patient_id": "P16",
+   "site": "spine",
    "beams": [
     {
-     "beam_id": "P13-1",
+     "beam_id": "P16-1",
      "name": "AP",
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 4.7,
-      "X2": 5.2,
-      "Y1": 4.9,
-      "Y2": 8.6
+      "X1": 7.2,
+      "X2": 7.2,
+      "Y1": 11.3,
+      "Y2": 11.3
      },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
+     "field_shaping": "block on tray",
+     "shaped_field_equivalent_square_cm": 14.6,
      "wedge_deg": null,
      "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 87.5,
+     "setup": "SSD",
+     "ssd_cm": 120.0,
      "point": {
       "depth_cm": 10.8,
-      "off_axis_cm": [
-       -3.1,
-       1.4
-      ]
-     },
-     "dose_cgy": 52.4
-    },
-    {
-     "beam_id": "P13-2",
-     "name": "PA",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 7.5,
-      "X2": 7.5,
-      "Y1": 4.1,
-      "Y2": 4.1
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 94.0,
-     "point": {
-      "depth_cm": 6.0,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 62.6
+     "dose_cgy": 100.9
+    }
+   ]
+  },
+  {
+   "patient_id": "P17",
+   "site": "breast",
+   "beams": [
+    {
+     "beam_id": "P17-1",
+     "name": "AP",
+     "modality": "electron",
+     "energy": "9 MeV",
+     "applicator": "20x20",
+     "insert_cm": [
+      6.5,
+      11.5
+     ],
+     "ssd_cm": 100.0,
+     "prescription_isodose_pct": 100,
+     "extended_distance_method": null,
+     "dose_cgy": 176.7
     },
     {
-     "beam_id": "P13-3",
+     "beam_id": "P17-2",
+     "name": "PA",
+     "modality": "electron",
+     "energy": "9 MeV",
+     "applicator": "10x10",
+     "insert_cm": [
+      9.5,
+      7.5
+     ],
+     "ssd_cm": 100.0,
+     "prescription_isodose_pct": 100,
+     "extended_distance_method": null,
+     "dose_cgy": 298.9
+    },
+    {
+     "beam_id": "P17-3",
      "name": "RLAT",
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
       "X1": 5.0,
       "X2": 5.0,
-      "Y1": 6.7,
-      "Y2": 6.7
+      "Y1": 8.0,
+      "Y2": 8.0
      },
      "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 7.1,
+     "shaped_field_equivalent_square_cm": 9.7,
      "wedge_deg": null,
      "heterogeneity": null,
      "setup": "SAD",
-     "ssd_cm": 89.5,
+     "ssd_cm": 94.6,
      "point": {
-      "depth_cm": 10.5,
+      "depth_cm": 5.4,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 86.5
-    },
-    {
-     "beam_id": "P13-4",
-     "name": "LLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 6.9,
-      "X2": 6.9,
-      "Y1": 4.0,
-      "Y2": 4.0
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 6.9,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 86.6,
-     "point": {
-      "depth_cm": 11.2,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 172.0
+     "dose_cgy": 77.2
     }
    ]
   },
   {
-   "patient_id": "P14",
-   "site": "lung",
+   "patient_id": "P18",
+   "site": "abdomen",
    "beams": [
     {
-     "beam_id": "P14-1",
+     "beam_id": "P18-1",
      "name": "AP",
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 9.5,
-      "X2": 9.5,
-      "Y1": 3.4,
-      "Y2": 3.4
+      "X1": 12.0,
+      "X2": 11.4,
+      "Y1": 10.1,
+      "Y2": 5.3
      },
      "field_shaping": "open",
      "shaped_field_equivalent_square_cm": null,
      "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 115.0,
+     "heterogeneity": {
+      "correction": "power law",
+      "layers": [
+       {
+        "from_cm": 0.0,
+        "to_cm": 4.4,
+        "rho_e": 1.0
+       },
+       {
+        "from_cm": 4.4,
+        "to_cm": 8.5,
+        "rho_e": 0.35
+       },
+       {
+        "from_cm": 8.5,
+        "to_cm": 14.1,
+        "rho_e": 1.0
+       }
+      ]
+     },
+     "setup": "SAD",
+     "ssd_cm": 89.6,
      "point": {
-      "depth_cm": 6.5,
+      "depth_cm": 10.4,
       "off_axis_cm": [
        0.0,
        0.0
@@ -1210,92 +1385,55 @@
      "dose_cgy": 207.0
     },
     {
-     "beam_id": "P14-2",
+     "beam_id": "P18-2",
      "name": "PA",
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 9.0,
-      "X2": 9.0,
-      "Y1": 2.7,
-      "Y2": 2.7
-     },
-     "field_shaping": "block on tray",
-     "shaped_field_equivalent_square_cm": 5.9,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 110.0,
-     "point": {
-      "depth_cm": 2.2,
-      "off_axis_cm": [
-       1.1,
-       0.0
-      ]
-     },
-     "dose_cgy": 187.0
-    },
-    {
-     "beam_id": "P14-3",
-     "name": "RLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 10.3,
-      "X2": 10.3,
-      "Y1": 7.1,
-      "Y2": 7.1
+      "X1": 4.6,
+      "X2": 9.3,
+      "Y1": 4.4,
+      "Y2": 9.0
      },
      "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 14.4,
+     "shaped_field_equivalent_square_cm": 9.8,
      "wedge_deg": null,
      "heterogeneity": null,
      "setup": "SAD",
-     "ssd_cm": 91.0,
+     "ssd_cm": 91.5,
      "point": {
-      "depth_cm": 6.1,
+      "depth_cm": 8.5,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 85.9
-    },
-    {
-     "beam_id": "P14-4",
-     "name": "LLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 10.1,
-      "X2": 10.1,
-      "Y1": 11.9,
-      "Y2": 11.9
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 110.0,
-     "point": {
-      "depth_cm": 3.4,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 176.8
+     "dose_cgy": 117.5
     }
    ]
   },
   {
-   "patient_id": "P15",
-   "site": "whole brain",
+   "patient_id": "P19",
+   "site": "head and neck",
    "beams": [
     {
-     "beam_id": "P15-1",
+     "beam_id": "P19-1",
      "name": "AP",
+     "modality": "electron",
+     "energy": "9 MeV",
+     "applicator": "25x25",
+     "insert_cm": [
+      11.0,
+      13.5
+     ],
+     "ssd_cm": 100.0,
+     "prescription_isodose_pct": 90,
+     "extended_distance_method": null,
+     "dose_cgy": 222.8
+    },
+    {
+     "beam_id": "P19-2",
+     "name": "PA",
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
@@ -1320,322 +1458,19 @@
      "dose_cgy": 84.6
     },
     {
-     "beam_id": "P15-2",
-     "name": "PA",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 3.6,
-      "X2": 3.6,
-      "Y1": 7.7,
-      "Y2": 7.7
-     },
-     "field_shaping": "block on tray",
-     "shaped_field_equivalent_square_cm": 8.0,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 90.0,
-     "point": {
-      "depth_cm": 10.4,
-      "off_axis_cm": [
-       -1.7,
-       -5.6
-      ]
-     },
-     "dose_cgy": 135.1
-    }
-   ]
-  },
-  {
-   "patient_id": "P16",
-   "site": "spine",
-   "beams": [
-    {
-     "beam_id": "P16-1",
-     "name": "AP",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 4.9,
-      "X2": 10.5,
-      "Y1": 8.7,
-      "Y2": 11.7
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 100.0,
-     "point": {
-      "depth_cm": 9.6,
-      "off_axis_cm": [
-       -0.4,
-       -6.4
-      ]
-     },
-     "dose_cgy": 101.9
-    },
-    {
-     "beam_id": "P16-2",
-     "name": "PA",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 5.1,
-      "X2": 8.2,
-      "Y1": 7.8,
-      "Y2": 3.5
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 10.7,
-     "wedge_deg": 60,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 90.0,
-     "point": {
-      "depth_cm": 11.9,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 71.1
-    },
-    {
-     "beam_id": "P16-3",
-     "name": "RLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 8.0,
-      "X2": 8.0,
-      "Y1": 8.9,
-      "Y2": 8.9
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 92.0,
-     "point": {
-      "depth_cm": 6.5,
-      "off_axis_cm": [
-       -5.5,
-       -4.9
-      ]
-     },
-     "dose_cgy": 146.6
-    }
-   ]
-  },
-  {
-   "patient_id": "P17",
-   "site": "breast",
-   "beams": [
-    {
-     "beam_id": "P17-1",
-     "name": "AP",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 9.2,
-      "X2": 9.7,
-      "Y1": 11.3,
-      "Y2": 5.4
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 110.0,
-     "point": {
-      "depth_cm": 13.9,
-      "off_axis_cm": [
-       5.4,
-       -3.1
-      ]
-     },
-     "dose_cgy": 162.7
-    }
-   ]
-  },
-  {
-   "patient_id": "P18",
-   "site": "abdomen",
-   "beams": [
-    {
-     "beam_id": "P18-1",
-     "name": "AP",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 7.9,
-      "X2": 8.0,
-      "Y1": 10.9,
-      "Y2": 4.2
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 13.8,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 91.0,
-     "point": {
-      "depth_cm": 5.7,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 111.2
-    },
-    {
-     "beam_id": "P18-2",
-     "name": "PA",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 10.7,
-      "X2": 10.7,
-      "Y1": 7.5,
-      "Y2": 5.4
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 83.4,
-     "point": {
-      "depth_cm": 16.6,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 210.3
-    },
-    {
-     "beam_id": "P18-3",
-     "name": "RLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 3.4,
-      "X2": 3.4,
-      "Y1": 11.0,
-      "Y2": 11.0
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": null,
-     "heterogeneity": {
-      "correction": "power law",
-      "layers": [
-       {
-        "from_cm": 0.0,
-        "to_cm": 2.4,
-        "rho_e": 1.0
-       },
-       {
-        "from_cm": 2.4,
-        "to_cm": 8.1,
-        "rho_e": 0.35
-       },
-       {
-        "from_cm": 8.1,
-        "to_cm": 22.1,
-        "rho_e": 1.0
-       }
-      ]
-     },
-     "setup": "SAD",
-     "ssd_cm": 84.1,
-     "point": {
-      "depth_cm": 15.9,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 83.5
-    }
-   ]
-  },
-  {
-   "patient_id": "P19",
-   "site": "head and neck",
-   "beams": [
-    {
-     "beam_id": "P19-1",
-     "name": "AP",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 2.6,
-      "X2": 6.9,
-      "Y1": 8.6,
-      "Y2": 3.8
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 100.0,
-     "point": {
-      "depth_cm": 9.6,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 84.2
-    },
-    {
-     "beam_id": "P19-2",
-     "name": "PA",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 9.4,
-      "X2": 9.4,
-      "Y1": 10.0,
-      "Y2": 10.0
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 13.2,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 95.3,
-     "point": {
-      "depth_cm": 8.5,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 139.9
-    },
-    {
      "beam_id": "P19-3",
      "name": "RLAT",
      "modality": "electron",
      "energy": "9 MeV",
-     "applicator": "10x10",
+     "applicator": "25x25",
      "insert_cm": [
-      5.5,
-      4.0
+      22.5,
+      5.0
      ],
      "ssd_cm": 115.0,
-     "prescription_isodose_pct": 90,
+     "prescription_isodose_pct": 80,
      "extended_distance_method": "effective SSD",
-     "dose_cgy": 151.4
+     "dose_cgy": 289.4
     }
    ]
   },
@@ -1648,45 +1483,15 @@
      "name": "AP",
      "modality": "electron",
      "energy": "9 MeV",
-     "applicator": "15x15",
+     "applicator": "25x25",
      "insert_cm": [
-      7.0,
-      9.0
+      19.0,
+      14.5
      ],
-     "ssd_cm": 105.0,
-     "prescription_isodose_pct": 100,
-     "extended_distance_method": "air gap",
-     "dose_cgy": 193.6
-    },
-    {
-     "beam_id": "P20-2",
-     "name": "PA",
-     "modality": "electron",
-     "energy": "9 MeV",
-     "applicator": "10x10",
-     "insert_cm": [
-      7.5,
-      6.5
-     ],
-     "ssd_cm": 105.0,
+     "ssd_cm": 110.0,
      "prescription_isodose_pct": 90,
      "extended_distance_method": "effective SSD",
-     "dose_cgy": 172.5
-    },
-    {
-     "beam_id": "P20-3",
-     "name": "RLAT",
-     "modality": "electron",
-     "energy": "9 MeV",
-     "applicator": "10x10",
-     "insert_cm": [
-      4.0,
-      10.0
-     ],
-     "ssd_cm": 100.0,
-     "prescription_isodose_pct": 90,
-     "extended_distance_method": null,
-     "dose_cgy": 160.4
+     "dose_cgy": 151.9
     }
    ]
   },
@@ -1699,60 +1504,30 @@
      "name": "AP",
      "modality": "electron",
      "energy": "9 MeV",
-     "applicator": "10x10",
+     "applicator": "25x25",
      "insert_cm": [
-      5.0,
-      4.0
+      7.0,
+      21.0
      ],
      "ssd_cm": 110.0,
      "prescription_isodose_pct": 90,
-     "extended_distance_method": "air gap",
-     "dose_cgy": 229.9
+     "extended_distance_method": "effective SSD",
+     "dose_cgy": 285.1
     },
     {
      "beam_id": "P21-2",
      "name": "PA",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 11.0,
-      "X2": 11.0,
-      "Y1": 7.4,
-      "Y2": 7.4
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": null,
-     "heterogeneity": {
-      "correction": "power law",
-      "layers": [
-       {
-        "from_cm": 0.0,
-        "to_cm": 1.7,
-        "rho_e": 1.0
-       },
-       {
-        "from_cm": 1.7,
-        "to_cm": 9.2,
-        "rho_e": 0.24
-       },
-       {
-        "from_cm": 9.2,
-        "to_cm": 17.0,
-        "rho_e": 1.0
-       }
-      ]
-     },
-     "setup": "SAD",
-     "ssd_cm": 86.4,
-     "point": {
-      "depth_cm": 13.6,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 110.8
+     "modality": "electron",
+     "energy": "9 MeV",
+     "applicator": "15x15",
+     "insert_cm": [
+      7.5,
+      9.0
+     ],
+     "ssd_cm": 105.0,
+     "prescription_isodose_pct": 90,
+     "extended_distance_method": "effective SSD",
+     "dose_cgy": 250.4
     }
    ]
   },
@@ -1766,25 +1541,25 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 8.5,
-      "X2": 11.7,
-      "Y1": 3.8,
-      "Y2": 5.2
+      "X1": 5.2,
+      "X2": 5.2,
+      "Y1": 3.2,
+      "Y2": 3.2
      },
      "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 11.1,
+     "shaped_field_equivalent_square_cm": 6.2,
      "wedge_deg": null,
      "heterogeneity": null,
      "setup": "SAD",
-     "ssd_cm": 92.7,
+     "ssd_cm": 95.5,
      "point": {
-      "depth_cm": 8.4,
+      "depth_cm": 4.5,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 193.8
+     "dose_cgy": 195.3
     },
     {
      "beam_id": "P22-2",
@@ -1792,25 +1567,44 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 11.5,
-      "X2": 3.0,
-      "Y1": 6.7,
-      "Y2": 8.8
+      "X1": 11.6,
+      "X2": 11.6,
+      "Y1": 3.4,
+      "Y2": 3.4
      },
      "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 9.1,
+     "shaped_field_equivalent_square_cm": 7.5,
      "wedge_deg": null,
-     "heterogeneity": null,
+     "heterogeneity": {
+      "correction": "RTAR",
+      "layers": [
+       {
+        "from_cm": 0.0,
+        "to_cm": 2.9,
+        "rho_e": 1.0
+       },
+       {
+        "from_cm": 2.9,
+        "to_cm": 10.4,
+        "rho_e": 0.31
+       },
+       {
+        "from_cm": 10.4,
+        "to_cm": 18.2,
+        "rho_e": 1.0
+       }
+      ]
+     },
      "setup": "SAD",
-     "ssd_cm": 91.7,
+     "ssd_cm": 85.0,
      "point": {
-      "depth_cm": 13.1,
+      "depth_cm": 15.0,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 73.0
+     "dose_cgy": 91.7
     }
    ]
   },
@@ -1824,25 +1618,25 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 2.8,
-      "X2": 11.0,
-      "Y1": 8.5,
-      "Y2": 3.9
+      "X1": 9.6,
+      "X2": 9.6,
+      "Y1": 6.5,
+      "Y2": 6.5
      },
-     "field_shaping": "block on tray",
-     "shaped_field_equivalent_square_cm": 8.7,
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 12.0,
      "wedge_deg": null,
      "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 100.0,
+     "setup": "SAD",
+     "ssd_cm": 91.1,
      "point": {
-      "depth_cm": 10.1,
+      "depth_cm": 10.7,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 142.7
+     "dose_cgy": 185.4
     },
     {
      "beam_id": "P23-2",
@@ -1850,44 +1644,25 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 9.9,
-      "X2": 9.9,
-      "Y1": 10.8,
-      "Y2": 10.8
+      "X1": 11.6,
+      "X2": 10.7,
+      "Y1": 4.8,
+      "Y2": 6.8
      },
      "field_shaping": "open",
      "shaped_field_equivalent_square_cm": null,
      "wedge_deg": null,
-     "heterogeneity": {
-      "correction": "power law",
-      "layers": [
-       {
-        "from_cm": 0.0,
-        "to_cm": 5.0,
-        "rho_e": 1.0
-       },
-       {
-        "from_cm": 5.0,
-        "to_cm": 8.2,
-        "rho_e": 0.22
-       },
-       {
-        "from_cm": 8.2,
-        "to_cm": 17.0,
-        "rho_e": 1.0
-       }
-      ]
-     },
-     "setup": "SAD",
-     "ssd_cm": 88.4,
+     "heterogeneity": null,
+     "setup": "SSD",
+     "ssd_cm": 90.0,
      "point": {
-      "depth_cm": 11.6,
+      "depth_cm": 14.4,
       "off_axis_cm": [
-       0.0,
-       0.0
+       -3.4,
+       -2.3
       ]
      },
-     "dose_cgy": 155.4
+     "dose_cgy": 93.2
     },
     {
      "beam_id": "P23-3",
@@ -1895,25 +1670,51 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 9.6,
-      "X2": 9.7,
-      "Y1": 6.0,
-      "Y2": 8.7
+      "X1": 9.4,
+      "X2": 2.6,
+      "Y1": 8.3,
+      "Y2": 7.9
      },
      "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 12.2,
-     "wedge_deg": null,
+     "shaped_field_equivalent_square_cm": 10.2,
+     "wedge_deg": 30,
      "heterogeneity": null,
      "setup": "SAD",
-     "ssd_cm": 89.9,
+     "ssd_cm": 83.8,
      "point": {
-      "depth_cm": 10.1,
+      "depth_cm": 16.2,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 140.8
+     "dose_cgy": 107.0
+    },
+    {
+     "beam_id": "P23-4",
+     "name": "LLAT",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 10.0,
+      "X2": 4.9,
+      "Y1": 5.1,
+      "Y2": 3.6
+     },
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 7.9,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 93.2,
+     "point": {
+      "depth_cm": 6.8,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 219.1
     }
    ]
   },
@@ -1927,28 +1728,254 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 4.6,
-      "X2": 6.8,
-      "Y1": 11.6,
-      "Y2": 11.0
+      "X1": 6.9,
+      "X2": 11.6,
+      "Y1": 5.7,
+      "Y2": 7.9
      },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 12.8,
-     "wedge_deg": 60,
+     "field_shaping": "open",
+     "shaped_field_equivalent_square_cm": null,
+     "wedge_deg": 15,
      "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 90.9,
+     "setup": "SSD",
+     "ssd_cm": 90.0,
      "point": {
-      "depth_cm": 9.1,
+      "depth_cm": 6.6,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 54.5
+     "dose_cgy": 190.9
     },
     {
      "beam_id": "P24-2",
+     "name": "PA",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 3.0,
+      "X2": 3.0,
+      "Y1": 5.1,
+      "Y2": 5.1
+     },
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 6.6,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 86.9,
+     "point": {
+      "depth_cm": 13.1,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 130.3
+    },
+    {
+     "beam_id": "P24-3",
+     "name": "RLAT",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 5.1,
+      "X2": 3.0,
+      "Y1": 9.7,
+      "Y2": 4.5
+     },
+     "field_shaping": "open",
+     "shaped_field_equivalent_square_cm": null,
+     "wedge_deg": 45,
+     "heterogeneity": null,
+     "setup": "SSD",
+     "ssd_cm": 100.0,
+     "point": {
+      "depth_cm": 9.2,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 95.6
+    },
+    {
+     "beam_id": "P24-4",
+     "name": "LLAT",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 3.8,
+      "X2": 5.2,
+      "Y1": 7.0,
+      "Y2": 11.7
+     },
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 9.1,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 85.2,
+     "point": {
+      "depth_cm": 14.8,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 109.5
+    }
+   ]
+  },
+  {
+   "patient_id": "P25",
+   "site": "lung",
+   "beams": [
+    {
+     "beam_id": "P25-1",
+     "name": "AP",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 8.5,
+      "X2": 8.5,
+      "Y1": 3.7,
+      "Y2": 3.7
+     },
+     "field_shaping": "open",
+     "shaped_field_equivalent_square_cm": null,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 93.2,
+     "point": {
+      "depth_cm": 6.8,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 205.2
+    },
+    {
+     "beam_id": "P25-2",
+     "name": "PA",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 9.1,
+      "X2": 9.1,
+      "Y1": 4.2,
+      "Y2": 4.2
+     },
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 7.0,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 87.5,
+     "point": {
+      "depth_cm": 9.3,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 135.9
+    },
+    {
+     "beam_id": "P25-3",
+     "name": "RLAT",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 3.3,
+      "X2": 7.2,
+      "Y1": 5.3,
+      "Y2": 5.2
+     },
+     "field_shaping": "open",
+     "shaped_field_equivalent_square_cm": null,
+     "wedge_deg": 15,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 84.0,
+     "point": {
+      "depth_cm": 16.0,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 218.1
+    }
+   ]
+  },
+  {
+   "patient_id": "P26",
+   "site": "whole brain",
+   "beams": [
+    {
+     "beam_id": "P26-1",
+     "name": "AP",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 7.0,
+      "X2": 7.0,
+      "Y1": 8.6,
+      "Y2": 8.6
+     },
+     "field_shaping": "open",
+     "shaped_field_equivalent_square_cm": null,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SSD",
+     "ssd_cm": 90.0,
+     "point": {
+      "depth_cm": 12.8,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 176.7
+    }
+   ]
+  },
+  {
+   "patient_id": "P27",
+   "site": "spine",
+   "beams": [
+    {
+     "beam_id": "P27-1",
+     "name": "AP",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 6.6,
+      "X2": 6.6,
+      "Y1": 7.0,
+      "Y2": 7.0
+     },
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 12.1,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SAD",
+     "ssd_cm": 88.4,
+     "point": {
+      "depth_cm": 11.6,
+      "off_axis_cm": [
+       0.0,
+       0.0
+      ]
+     },
+     "dose_cgy": 143.5
+    },
+    {
+     "beam_id": "P27-2",
      "name": "PA",
      "modality": "photon",
      "energy": "6 MV",
@@ -1972,251 +1999,6 @@
       ]
      },
      "dose_cgy": 187.2
-    },
-    {
-     "beam_id": "P24-3",
-     "name": "RLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 8.5,
-      "X2": 8.5,
-      "Y1": 9.6,
-      "Y2": 9.6
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 13.2,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 94.3,
-     "point": {
-      "depth_cm": 2.9,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 165.1
-    }
-   ]
-  },
-  {
-   "patient_id": "P25",
-   "site": "lung",
-   "beams": [
-    {
-     "beam_id": "P25-1",
-     "name": "AP",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 6.3,
-      "X2": 5.1,
-      "Y1": 4.7,
-      "Y2": 8.5
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 10.0,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 90.6,
-     "point": {
-      "depth_cm": 12.6,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 140.5
-    },
-    {
-     "beam_id": "P25-2",
-     "name": "PA",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 6.9,
-      "X2": 6.9,
-      "Y1": 6.4,
-      "Y2": 6.4
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 9.0,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 94.8,
-     "point": {
-      "depth_cm": 7.6,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 152.6
-    },
-    {
-     "beam_id": "P25-3",
-     "name": "RLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 4.0,
-      "X2": 4.0,
-      "Y1": 7.5,
-      "Y2": 7.5
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 7.7,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 86.3,
-     "point": {
-      "depth_cm": 13.7,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 45.0
-    },
-    {
-     "beam_id": "P25-4",
-     "name": "LLAT",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 5.5,
-      "X2": 6.3,
-      "Y1": 10.4,
-      "Y2": 2.6
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 90.0,
-     "point": {
-      "depth_cm": 14.2,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 186.0
-    }
-   ]
-  },
-  {
-   "patient_id": "P26",
-   "site": "whole brain",
-   "beams": [
-    {
-     "beam_id": "P26-1",
-     "name": "AP",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 11.5,
-      "X2": 11.5,
-      "Y1": 3.9,
-      "Y2": 3.9
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 8.3,
-     "wedge_deg": null,
-     "heterogeneity": {
-      "correction": "power law",
-      "layers": [
-       {
-        "from_cm": 0.0,
-        "to_cm": 4.9,
-        "rho_e": 1.0
-       },
-       {
-        "from_cm": 4.9,
-        "to_cm": 12.3,
-        "rho_e": 0.31
-       },
-       {
-        "from_cm": 12.3,
-        "to_cm": 19.2,
-        "rho_e": 1.0
-       }
-      ]
-     },
-     "setup": "SAD",
-     "ssd_cm": 84.4,
-     "point": {
-      "depth_cm": 15.6,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 160.1
-    },
-    {
-     "beam_id": "P26-2",
-     "name": "PA",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 8.5,
-      "X2": 3.6,
-      "Y1": 5.9,
-      "Y2": 8.4
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 9.8,
-     "wedge_deg": 30,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 100.0,
-     "point": {
-      "depth_cm": 7.5,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 138.0
-    }
-   ]
-  },
-  {
-   "patient_id": "P27",
-   "site": "spine",
-   "beams": [
-    {
-     "beam_id": "P27-1",
-     "name": "AP",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 8.2,
-      "X2": 8.2,
-      "Y1": 4.9,
-      "Y2": 4.9
-     },
-     "field_shaping": "block on tray",
-     "shaped_field_equivalent_square_cm": 10.7,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 110.0,
-     "point": {
-      "depth_cm": 8.7,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 131.3
     }
    ]
   },
@@ -2227,62 +2009,43 @@
     {
      "beam_id": "P28-1",
      "name": "AP",
-     "modality": "electron",
-     "energy": "9 MeV",
-     "applicator": "10x10",
-     "insert_cm": [
-      6.0,
-      4.5
-     ],
-     "ssd_cm": 115.0,
-     "prescription_isodose_pct": 100,
-     "extended_distance_method": "effective SSD",
-     "dose_cgy": 273.3
-    },
-    {
-     "beam_id": "P28-2",
-     "name": "PA",
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 6.0,
-      "X2": 4.0,
-      "Y1": 9.3,
+      "X1": 9.5,
+      "X2": 8.1,
+      "Y1": 11.1,
       "Y2": 5.8
      },
      "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 7.5,
+     "shaped_field_equivalent_square_cm": 12.7,
      "wedge_deg": null,
-     "heterogeneity": {
-      "correction": "RTAR",
-      "layers": [
-       {
-        "from_cm": 0.0,
-        "to_cm": 2.4,
-        "rho_e": 1.0
-       },
-       {
-        "from_cm": 2.4,
-        "to_cm": 5.5,
-        "rho_e": 0.22
-       },
-       {
-        "from_cm": 5.5,
-        "to_cm": 22.5,
-        "rho_e": 1.0
-       }
-      ]
-     },
+     "heterogeneity": null,
      "setup": "SAD",
-     "ssd_cm": 83.2,
+     "ssd_cm": 86.6,
      "point": {
-      "depth_cm": 16.8,
+      "depth_cm": 14.4,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 170.4
+     "dose_cgy": 82.4
+    },
+    {
+     "beam_id": "P28-2",
+     "name": "PA",
+     "modality": "electron",
+     "energy": "9 MeV",
+     "applicator": "10x10",
+     "insert_cm": [
+      6.0,
+      6.5
+     ],
+     "ssd_cm": 100.0,
+     "prescription_isodose_pct": 90,
+     "extended_distance_method": null,
+     "dose_cgy": 245.5
     }
    ]
   },
@@ -2296,44 +2059,25 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 10.5,
-      "X2": 7.8,
-      "Y1": 5.9,
-      "Y2": 4.5
+      "X1": 5.5,
+      "X2": 4.0,
+      "Y1": 10.4,
+      "Y2": 11.0
      },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 10.5,
+     "field_shaping": "block on tray",
+     "shaped_field_equivalent_square_cm": 9.7,
      "wedge_deg": null,
-     "heterogeneity": {
-      "correction": "RTAR",
-      "layers": [
-       {
-        "from_cm": 0.0,
-        "to_cm": 2.4,
-        "rho_e": 1.0
-       },
-       {
-        "from_cm": 2.4,
-        "to_cm": 5.4,
-        "rho_e": 0.21
-       },
-       {
-        "from_cm": 5.4,
-        "to_cm": 18.7,
-        "rho_e": 1.0
-       }
-      ]
-     },
-     "setup": "SAD",
-     "ssd_cm": 88.0,
+     "heterogeneity": null,
+     "setup": "SSD",
+     "ssd_cm": 110.0,
      "point": {
-      "depth_cm": 12.0,
+      "depth_cm": 9.7,
       "off_axis_cm": [
-       0.0,
-       0.0
+       2.3,
+       7.0
       ]
      },
-     "dose_cgy": 196.7
+     "dose_cgy": 112.9
     },
     {
      "beam_id": "P29-2",
@@ -2343,8 +2087,8 @@
      "jaws_cm": {
       "X1": 3.9,
       "X2": 3.9,
-      "Y1": 3.0,
-      "Y2": 3.0
+      "Y1": 7.8,
+      "Y2": 7.8
      },
      "field_shaping": "open",
      "shaped_field_equivalent_square_cm": null,
@@ -2354,31 +2098,31 @@
       "layers": [
        {
         "from_cm": 0.0,
-        "to_cm": 1.8,
+        "to_cm": 3.4,
         "rho_e": 1.0
        },
        {
-        "from_cm": 1.8,
-        "to_cm": 6.0,
-        "rho_e": 0.29
+        "from_cm": 3.4,
+        "to_cm": 8.9,
+        "rho_e": 0.35
        },
        {
-        "from_cm": 6.0,
-        "to_cm": 18.4,
+        "from_cm": 8.9,
+        "to_cm": 19.8,
         "rho_e": 1.0
        }
       ]
      },
      "setup": "SAD",
-     "ssd_cm": 89.0,
+     "ssd_cm": 85.7,
      "point": {
-      "depth_cm": 11.0,
+      "depth_cm": 14.3,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 59.1
+     "dose_cgy": 204.2
     },
     {
      "beam_id": "P29-3",
@@ -2386,25 +2130,25 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 4.7,
-      "X2": 9.1,
-      "Y1": 11.4,
-      "Y2": 7.5
+      "X1": 2.6,
+      "X2": 7.6,
+      "Y1": 3.2,
+      "Y2": 6.7
      },
      "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 10.7,
+     "shaped_field_equivalent_square_cm": 7.5,
      "wedge_deg": null,
      "heterogeneity": null,
      "setup": "SAD",
-     "ssd_cm": 86.0,
+     "ssd_cm": 95.0,
      "point": {
-      "depth_cm": 11.6,
+      "depth_cm": 7.2,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 175.4
+     "dose_cgy": 86.0
     }
    ]
   },
@@ -2418,51 +2162,40 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 5.5,
-      "X2": 11.1,
-      "Y1": 11.7,
-      "Y2": 5.7
+      "X1": 6.5,
+      "X2": 11.7,
+      "Y1": 6.9,
+      "Y2": 10.3
      },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 14.3,
      "wedge_deg": null,
      "heterogeneity": null,
      "setup": "SAD",
-     "ssd_cm": 95.0,
+     "ssd_cm": 92.8,
      "point": {
-      "depth_cm": 5.0,
+      "depth_cm": 6.1,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 198.3
+     "dose_cgy": 144.1
     },
     {
      "beam_id": "P30-2",
      "name": "PA",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 5.3,
-      "X2": 5.3,
-      "Y1": 11.0,
-      "Y2": 11.0
-     },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 9.4,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 87.7,
-     "point": {
-      "depth_cm": 12.3,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 132.1
+     "modality": "electron",
+     "energy": "9 MeV",
+     "applicator": "15x15",
+     "insert_cm": [
+      4.0,
+      13.0
+     ],
+     "ssd_cm": 110.0,
+     "prescription_isodose_pct": 90,
+     "extended_distance_method": "air gap",
+     "dose_cgy": 166.5
     },
     {
      "beam_id": "P30-3",
@@ -2470,25 +2203,25 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 7.8,
-      "X2": 3.1,
-      "Y1": 9.3,
-      "Y2": 9.7
+      "X1": 3.9,
+      "X2": 8.9,
+      "Y1": 9.9,
+      "Y2": 9.5
      },
-     "field_shaping": "block on tray",
-     "shaped_field_equivalent_square_cm": 8.7,
-     "wedge_deg": null,
+     "field_shaping": "MLC",
+     "shaped_field_equivalent_square_cm": 10.4,
+     "wedge_deg": 30,
      "heterogeneity": null,
-     "setup": "SSD",
-     "ssd_cm": 110.0,
+     "setup": "SAD",
+     "ssd_cm": 91.7,
      "point": {
-      "depth_cm": 10.9,
+      "depth_cm": 8.3,
       "off_axis_cm": [
-       -2.6,
-       -5.9
+       0.0,
+       0.0
       ]
      },
-     "dose_cgy": 147.1
+     "dose_cgy": 151.3
     }
    ]
   },
@@ -2499,43 +2232,17 @@
     {
      "beam_id": "P31-1",
      "name": "AP",
-     "modality": "photon",
-     "energy": "6 MV",
-     "jaws_cm": {
-      "X1": 3.7,
-      "X2": 7.9,
-      "Y1": 6.7,
-      "Y2": 4.9
-     },
-     "field_shaping": "open",
-     "shaped_field_equivalent_square_cm": null,
-     "wedge_deg": null,
-     "heterogeneity": null,
-     "setup": "SAD",
-     "ssd_cm": 88.5,
-     "point": {
-      "depth_cm": 11.5,
-      "off_axis_cm": [
-       0.0,
-       0.0
-      ]
-     },
-     "dose_cgy": 82.2
-    },
-    {
-     "beam_id": "P31-2",
-     "name": "PA",
      "modality": "electron",
      "energy": "9 MeV",
-     "applicator": "15x15",
+     "applicator": "25x25",
      "insert_cm": [
-      15.0,
-      11.0
+      7.5,
+      19.0
      ],
-     "ssd_cm": 100.0,
+     "ssd_cm": 105.0,
      "prescription_isodose_pct": 100,
-     "extended_distance_method": null,
-     "dose_cgy": 288.9
+     "extended_distance_method": "effective SSD",
+     "dose_cgy": 222.5
     }
    ]
   },
@@ -2548,30 +2255,15 @@
      "name": "AP",
      "modality": "electron",
      "energy": "9 MeV",
-     "applicator": "25x25",
+     "applicator": "20x20",
      "insert_cm": [
-      23.5,
-      14.5
+      16.0,
+      13.5
      ],
      "ssd_cm": 110.0,
      "prescription_isodose_pct": 80,
-     "extended_distance_method": "air gap",
-     "dose_cgy": 170.4
-    },
-    {
-     "beam_id": "P32-2",
-     "name": "PA",
-     "modality": "electron",
-     "energy": "9 MeV",
-     "applicator": "10x10",
-     "insert_cm": [
-      5.5,
-      7.5
-     ],
-     "ssd_cm": 100.0,
-     "prescription_isodose_pct": 100,
-     "extended_distance_method": null,
-     "dose_cgy": 180.6
+     "extended_distance_method": "effective SSD",
+     "dose_cgy": 275.7
     }
    ]
   },
@@ -2585,25 +2277,25 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 6.5,
-      "X2": 6.5,
-      "Y1": 7.9,
-      "Y2": 7.9
+      "X1": 9.4,
+      "X2": 9.4,
+      "Y1": 10.6,
+      "Y2": 10.6
      },
      "field_shaping": "open",
      "shaped_field_equivalent_square_cm": null,
      "wedge_deg": null,
      "heterogeneity": null,
      "setup": "SAD",
-     "ssd_cm": 96.0,
+     "ssd_cm": 91.9,
      "point": {
-      "depth_cm": 4.0,
+      "depth_cm": 11.9,
       "off_axis_cm": [
-       0.0,
-       0.0
+       -4.2,
+       3.7
       ]
      },
-     "dose_cgy": 129.7
+     "dose_cgy": 46.6
     },
     {
      "beam_id": "P33-2",
@@ -2611,25 +2303,51 @@
      "modality": "photon",
      "energy": "6 MV",
      "jaws_cm": {
-      "X1": 3.4,
-      "X2": 3.7,
-      "Y1": 4.6,
-      "Y2": 4.6
+      "X1": 7.5,
+      "X2": 7.5,
+      "Y1": 9.8,
+      "Y2": 9.8
      },
-     "field_shaping": "MLC",
-     "shaped_field_equivalent_square_cm": 6.0,
+     "field_shaping": "open",
+     "shaped_field_equivalent_square_cm": null,
      "wedge_deg": null,
      "heterogeneity": null,
      "setup": "SAD",
-     "ssd_cm": 87.3,
+     "ssd_cm": 82.6,
      "point": {
-      "depth_cm": 12.7,
+      "depth_cm": 13.1,
       "off_axis_cm": [
        0.0,
        0.0
       ]
      },
-     "dose_cgy": 83.8
+     "dose_cgy": 189.4
+    },
+    {
+     "beam_id": "P33-3",
+     "name": "RLAT",
+     "modality": "photon",
+     "energy": "6 MV",
+     "jaws_cm": {
+      "X1": 7.7,
+      "X2": 7.7,
+      "Y1": 6.3,
+      "Y2": 6.3
+     },
+     "field_shaping": "block on tray",
+     "shaped_field_equivalent_square_cm": 11.8,
+     "wedge_deg": null,
+     "heterogeneity": null,
+     "setup": "SSD",
+     "ssd_cm": 100.0,
+     "point": {
+      "depth_cm": 6.1,
+      "off_axis_cm": [
+       -5.6,
+       0.2
+      ]
+     },
+     "dose_cgy": 79.6
     }
    ]
   }

@@ -1,14 +1,14 @@
-solution vs engine: 91 beams, largest relative difference from the nearest allowed MU 6.49e-05 (two-decimal rounding)
-largest spread among the MU the protocol allows for one beam: 0.289 percent (tolerance 0.3)
-33 patients 91 beams: 80 photon 11 electron
-photon setup {'SAD': 57, 'SSD': 23}
-photon SSD setups by SSD {90.0: 6, 100.0: 9, 110.0: 6, 115.0: 1, 120.0: 1}
-field shaping {'MLC': 39, 'open': 31, 'block on tray': 10}
-asymmetric jaws 43
-wedged {30: 4, 15: 2, 45: 1, 60: 2}
-off-axis points 15
-SAD points away from the isocenter depth 20
-heterogeneity {'power law': 6, 'RTAR': 4}
-electron SSD {100.0: 3, 105.0: 3, 110.0: 2, 115.0: 3} method {'air gap': 4, 'effective SSD': 4, None: 3}
-electron rectangular inserts 11 isodose {100: 6, 90: 4, 80: 1}
+solution vs engine: 83 beams, largest relative difference from the nearest allowed MU 5.85e-05 (two-decimal rounding)
+largest spread among the MU the protocol allows for one beam: 0.298 percent (tolerance 0.3)
+33 patients 83 beams: 67 photon 16 electron
+photon setup {'SAD': 47, 'SSD': 20}
+photon SSD setups by SSD {90.0: 5, 100.0: 10, 110.0: 1, 115.0: 2, 120.0: 2}
+field shaping {'MLC': 36, 'open': 23, 'block on tray': 8}
+asymmetric jaws 28
+wedged {15: 4, 30: 4, 45: 3, 60: 1}
+off-axis points 12
+SAD points away from the isocenter depth 15
+heterogeneity {'power law': 4, 'RTAR': 5}
+electron SSD {100.0: 5, 105.0: 3, 110.0: 6, 115.0: 2} method {'effective SSD': 8, None: 5, 'air gap': 3}
+electron rectangular inserts 16 isodose {100: 4, 80: 3, 90: 9}
 beams with no tag 1

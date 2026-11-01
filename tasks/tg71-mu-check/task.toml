@@ -4,7 +4,7 @@ schema_version = "2.0"
 
 [task]
 name = "insight/tg71-mu-check"
-description = "Independent monitor unit check under AAPM TG-71 (Med Phys 2014;41:031501) for 91 beams of 33 treatment plans on a Varian Clinac 21EX: 6 MV photon beams at isocentric and fixed-SSD setups with asymmetric jaws, tertiary MLC and cerrobend blocks on a tray, physical wedges, off-axis and off-isocenter points and lung corrections, and 9 MeV electron beams with rectangular inserts at extended distances, from the commissioning tables of the report."
+description = "Independent monitor unit check under AAPM TG-71 (Med Phys 2014;41:031501) for 83 beams of 33 treatment plans on a Varian Clinac 21EX: 6 MV photon beams at isocentric and fixed-SSD setups with asymmetric jaws, tertiary MLC and cerrobend blocks on a tray, physical wedges, off-axis and off-isocenter points and lung corrections, and 9 MeV electron beams with rectangular inserts at extended distances, from the commissioning tables of the report."
 
 [metadata]
 domain = "Science"

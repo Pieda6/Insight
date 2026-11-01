@@ -88,7 +88,7 @@ def photon(rng, kind):
         rho = round(rng.uniform(0.2, 0.4), 2)
         b["point"]["depth_cm"] = d = r1(max(d, bot + rng.uniform(1.5, 6.0)))
         b["ssd_cm"] = r1(100.0 - d) if b["setup"] == "SAD" else b["ssd_cm"]
-        b["heterogeneity"] = {"correction": rng.choice(["RTAR", "power law"]),
+        b["heterogeneity"] = {"correction": rng.choice(["RTAR", "power law", "power law"]),
                               "layers": [{"from_cm": 0.0, "to_cm": top, "rho_e": 1.0},
                                          {"from_cm": top, "to_cm": bot, "rho_e": rho},
                                          {"from_cm": bot, "to_cm": r1(d + rng.uniform(3, 8)), "rho_e": 1.0}]}
@@ -125,7 +125,7 @@ def main():
     rng = random.Random(SEED)
     t = engine.Tables()
     patients, answers, ctags, redrawn = [], {}, {}, 0
-    kinds = ["sad"] * 6 + ["off"] * 5 + ["ssd"] * 6 + ["wedge"] * 3 + ["het"] * 3
+    kinds = ["sad"] * 5 + ["off"] * 5 + ["ssd"] * 6 + ["wedge"] * 3 + ["het"] * 6
     n = 0
     for site, nb in SITES * 3:
         n += 1
@@ -134,7 +134,7 @@ def main():
         nb = max(1, nb + rng.choice([-1, 0, 0, 1]))
         for k in range(nb):
             while True:
-                if rng.random() < {"skin": 0.9, "chest wall": 0.8, "breast": 0.3, "head and neck": 0.3}.get(site, 0.0):
+                if rng.random() < {"skin": 0.9, "chest wall": 0.9, "breast": 0.45, "head and neck": 0.45}.get(site, 0.0):
                     b = electron(rng)
                 else:
                     b = photon(rng, rng.choice(kinds))
