@@ -1,0 +1,37 @@
+{
+  "photon": {
+    "linac": "Varian Clinac 21EX",
+    "energy": "6 MV",
+    "sad_cm": 100.0,
+    "d0_cgy_per_mu": 0.800,
+    "ssd0_cm": 90.0,
+    "normalization_depth_cm": 10.0,
+    "normalization_field_cm": "10 x 10",
+    "jaws": "X1 and X2 are the lower jaws and Y1 and Y2 the upper jaws; each setting is the distance from the collimator axis to the jaw edge, projected to the isocenter",
+    "mlc": "Millennium 120-leaf tertiary MLC, mounted below the X and Y jaws",
+    "blocks": "cerrobend blocks on a 0.6 cm acrylic block tray in the accessory mount",
+    "block_tray_factor": 0.970,
+    "wedges": "external physical wedges of 15, 30, 45 and 60 degrees in the accessory mount",
+    "tables": {
+      "pddn_6mv_ssd100.csv": "normalized percent depth dose PDDN (d0 = 10 cm), SSD 100 cm, by depth and square field size",
+      "tpr_6mv.csv": "tissue phantom ratio TPR (d0 = 10 cm), by depth and square field size",
+      "scatter_6mv.csv": "total scatter factor Scp, in-air output ratio Sc and phantom scatter factor Sp (d0 = 10 cm), by equivalent square",
+      "oar_6mv.csv": "open field off-axis ratio, by depth and radial off-axis distance projected on a plane at 100 cm from the source",
+      "wedge_factors_6mv.csv": "physical wedge factor, by wedge angle, depth and side of the equivalent square"
+    }
+  },
+  "electron": {
+    "linac": "Varian Clinac 21EX",
+    "energy": "9 MeV",
+    "d0_cgy_per_mu": 1.000,
+    "ssd0_cm": 100.0,
+    "reference_applicator": "10 x 10",
+    "reference_field_cm": "10 x 10",
+    "dm_cm": 2.1,
+    "tables": {
+      "electron_9mev_output_factors.csv": "output factor Se at SSD 100 cm, by square insert size (side, cm) and applicator",
+      "electron_ssdeff.csv": "effective SSD in cm, by square insert size (side, cm) and energy",
+      "electron_9mev_air_gap_factors.csv": "air gap factor fair, by square insert size (side, cm, defined at SSD 100 cm) and SSD in cm"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+13 shortcuts, each must fail at least one test
+caught    48 of 91 beams wrong  Sc from the MLC or block field
+caught    24 of 91 beams wrong  field not projected to the depth of the point
+caught    15 of 91 beams wrong  off-axis ratio ignored
+caught    10 of 91 beams wrong  tray factor ignored
+caught     7 of 91 beams wrong  wedge factor at 10 cm depth
+caught    10 of 91 beams wrong  heterogeneity ignored
+caught     6 of 91 beams wrong  power law distances swapped
+caught    42 of 91 beams wrong  inverse square ignored
+caught    80 of 91 beams wrong  SSD0 taken as 100 cm
+caught     3 of 91 beams wrong  electron output by equivalent square
+caught     5 of 91 beams wrong  prescription isodose ignored
+caught     4 of 91 beams wrong  effective SSD ignored
+caught     4 of 91 beams wrong  air gap factor ignored
+engine    80 of 91 beams wrong  Eq. (3) sp_surface_field
+engine    45 of 91 beams wrong  Eq. (3) mayneord_ignored
+engine    77 of 91 beams wrong  Eq. (3) pdd_inverse_square_to_point
+CALIBRATION: every shortcut caught

@@ -1,0 +1,11 @@
+{
+ "source": "AAPM TG-71 (Med Phys 2014;41:031501), Section 8 worked examples, MU as printed",
+ "cases": [
+  {"label": "8.A.1 isocenter, 10 x 15 open, depth 6 cm, 250 cGy", "mu": 266, "beam": {"modality": "photon", "jaws_cm": {"X1": 5.0, "X2": 5.0, "Y1": 7.5, "Y2": 7.5}, "field_shaping": "open", "shaped_field_equivalent_square_cm": null, "wedge_deg": null, "heterogeneity": null, "ssd_cm": 94.0, "point": {"depth_cm": 6.0, "off_axis_cm": [0.0, 0.0]}, "dose_cgy": 250.0}},
+  {"label": "8.A.2 18 x 12 tertiary MLC (10.2 cm), 15 degree wedge, depth 10 cm, 90 cGy", "mu": 156, "beam": {"modality": "photon", "jaws_cm": {"X1": 9.0, "X2": 9.0, "Y1": 6.0, "Y2": 6.0}, "field_shaping": "MLC", "shaped_field_equivalent_square_cm": 10.2, "wedge_deg": 15, "heterogeneity": null, "ssd_cm": 90.0, "point": {"depth_cm": 10.0, "off_axis_cm": [0.0, 0.0]}, "dose_cgy": 90.0}},
+  {"label": "8.A.2 with RTAR, radiological depth 6 cm", "mu": 135, "beam": {"modality": "photon", "jaws_cm": {"X1": 9.0, "X2": 9.0, "Y1": 6.0, "Y2": 6.0}, "field_shaping": "MLC", "shaped_field_equivalent_square_cm": 10.2, "wedge_deg": 15, "heterogeneity": {"correction": "RTAR", "layers": [{"from_cm": 0.0, "to_cm": 10.0, "rho_e": 0.6}]}, "ssd_cm": 90.0, "point": {"depth_cm": 10.0, "off_axis_cm": [0.0, 0.0]}, "dose_cgy": 90.0}},
+  {"label": "8.B.1 9 MeV, 6 x 10 insert, 15 x 15 applicator, SSD 100, 200 cGy at dm", "mu": 200, "beam": {"modality": "electron", "applicator": "15x15", "insert_cm": [6.0, 10.0], "ssd_cm": 100.0, "prescription_isodose_pct": 100, "extended_distance_method": null, "dose_cgy": 200.0}},
+  {"label": "8.B.2 same at SSD 110, effective SSD", "mu": 252, "beam": {"modality": "electron", "applicator": "15x15", "insert_cm": [6.0, 10.0], "ssd_cm": 110.0, "prescription_isodose_pct": 100, "extended_distance_method": "effective SSD", "dose_cgy": 200.0}},
+  {"label": "8.B.2 same at SSD 110, air gap", "mu": 250, "beam": {"modality": "electron", "applicator": "15x15", "insert_cm": [6.0, 10.0], "ssd_cm": 110.0, "prescription_isodose_pct": 100, "extended_distance_method": "air gap", "dose_cgy": 200.0}}
+ ]
+}

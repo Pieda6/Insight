@@ -1,0 +1,14 @@
+solution vs engine: 91 beams, largest relative difference from the nearest allowed MU 6.49e-05 (two-decimal rounding)
+largest spread among the MU the protocol allows for one beam: 0.289 percent (tolerance 0.3)
+33 patients 91 beams: 80 photon 11 electron
+photon setup {'SAD': 57, 'SSD': 23}
+photon SSD setups by SSD {90.0: 6, 100.0: 9, 110.0: 6, 115.0: 1, 120.0: 1}
+field shaping {'MLC': 39, 'open': 31, 'block on tray': 10}
+asymmetric jaws 43
+wedged {30: 4, 15: 2, 45: 1, 60: 2}
+off-axis points 15
+SAD points away from the isocenter depth 20
+heterogeneity {'power law': 6, 'RTAR': 4}
+electron SSD {100.0: 3, 105.0: 3, 110.0: 2, 115.0: 3} method {'air gap': 4, 'effective SSD': 4, None: 3}
+electron rectangular inserts 11 isodose {100: 6, 90: 4, 80: 1}
+beams with no tag 1

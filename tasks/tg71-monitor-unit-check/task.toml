@@ -1,0 +1,29 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/tg71-monitor-unit-check"
+description = "Independent monitor unit check under AAPM TG-71 (Med Phys 2014;41:031501) for 91 beams of 33 treatment plans on a Varian Clinac 21EX: 6 MV photon beams at isocentric and fixed-SSD setups with asymmetric jaws, tertiary MLC and cerrobend blocks on a tray, physical wedges, off-axis and off-isocenter points and lung corrections, and 9 MeV electron beams with rectangular inserts at extended distances, from the commissioning tables of the report."
+
+[metadata]
+domain = "Science"
+field = "Medicine"
+subfield = "Radiation Oncology and Medical Physics"
+tags = ["radiation-oncology", "medical-physics", "monitor-units", "tg-71", "linac", "dosimetry", "python"]
+expert_time_estimate_hours = 7
+relevant_experience = "Clinical medical physics: independent monitor unit verification of external beam treatment plans under AAPM TG-71, with photon and electron commissioning data (PDD, TPR, Sc, Sp, off-axis ratios, wedge and tray factors, electron output factors, effective SSD and air gap factors)."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0

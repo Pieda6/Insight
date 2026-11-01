@@ -1,0 +1,18 @@
+33 patients, 91 beams (11 electron), 14 draws redrawn
+  45  sc_shaped
+  22  no_projection
+   2  oar_unprojected
+  15  oar_ignored
+  10  tray_ignored
+   5  wf_at_10cm
+  10  heterogeneity_ignored
+   6  batho_inverted
+  42  inverse_square_ignored
+  80  sp_surface_field
+  45  mayneord_ignored
+  77  pdd_inverse_square_to_point
+   3  se_equivalent_square
+   5  isodose_ignored
+   4  ssdeff_ignored
+   4  air_gap_factor_ignored
+beams with no tag: 1

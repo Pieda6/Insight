@@ -1,0 +1,558 @@
+{
+ "P01-1": [
+  "wf_at_10cm",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P01-2": [
+  "heterogeneity_ignored",
+  "batho_inverted",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P01-3": [
+  "no_projection",
+  "oar_unprojected",
+  "oar_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P01-4": [
+  "sc_shaped",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P01-5": [
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P02-1": [
+  "oar_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P02-2": [
+  "sc_shaped",
+  "tray_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P02-3": [
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P02-4": [
+  "sc_shaped",
+  "no_projection",
+  "oar_ignored",
+  "tray_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P03-1": [
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P03-2": [
+  "sc_shaped",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P03-3": [
+  "wf_at_10cm",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P04-1": [
+  "sc_shaped",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P04-2": [
+  "sc_shaped",
+  "no_projection",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P05-1": [
+  "sc_shaped",
+  "wf_at_10cm",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P05-2": [
+  "heterogeneity_ignored",
+  "batho_inverted",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P06-1": [
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P06-2": [
+  "air_gap_factor_ignored"
+ ],
+ "P06-3": [
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P07-1": [
+  "sc_shaped",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P07-2": [
+  "no_projection",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P07-3": [
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P07-4": [
+  "oar_ignored",
+  "sp_surface_field"
+ ],
+ "P08-1": [
+  "sc_shaped",
+  "no_projection",
+  "oar_ignored",
+  "tray_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P08-2": [
+  "sc_shaped",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P08-3": [
+  "no_projection",
+  "oar_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P09-1": [
+  "sc_shaped",
+  "no_projection",
+  "oar_ignored",
+  "tray_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P09-2": [
+  "sc_shaped",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P10-1": [
+  "se_equivalent_square",
+  "ssdeff_ignored"
+ ],
+ "P11-1": [
+  "sc_shaped",
+  "heterogeneity_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P11-2": [
+  "sc_shaped",
+  "no_projection",
+  "tray_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P11-3": [
+  "no_projection",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P12-1": [
+  "sc_shaped",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P12-2": [
+  "sc_shaped",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P12-3": [
+  "sc_shaped",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P12-4": [
+  "sc_shaped",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P12-5": [
+  "sc_shaped",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P13-1": [
+  "oar_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P13-2": [
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P13-3": [
+  "sc_shaped",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P13-4": [
+  "sc_shaped",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P14-1": [
+  "no_projection",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P14-2": [
+  "sc_shaped",
+  "oar_ignored",
+  "tray_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P14-3": [
+  "sc_shaped",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P14-4": [
+  "no_projection",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P15-1": [
+  "no_projection",
+  "oar_unprojected",
+  "oar_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P15-2": [
+  "sc_shaped",
+  "oar_ignored",
+  "tray_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P16-1": [
+  "no_projection",
+  "oar_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P16-2": [
+  "sc_shaped",
+  "wf_at_10cm",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P16-3": [
+  "oar_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P17-1": [
+  "no_projection",
+  "oar_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P18-1": [
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P18-2": [
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P18-3": [
+  "heterogeneity_ignored",
+  "batho_inverted",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P19-1": [
+  "no_projection",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P19-2": [
+  "sc_shaped",
+  "no_projection",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P19-3": [
+  "isodose_ignored",
+  "ssdeff_ignored"
+ ],
+ "P20-1": [
+  "air_gap_factor_ignored"
+ ],
+ "P20-2": [
+  "isodose_ignored",
+  "ssdeff_ignored"
+ ],
+ "P20-3": [
+  "se_equivalent_square",
+  "isodose_ignored"
+ ],
+ "P21-1": [
+  "isodose_ignored",
+  "air_gap_factor_ignored"
+ ],
+ "P21-2": [
+  "heterogeneity_ignored",
+  "batho_inverted",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P22-1": [
+  "sc_shaped",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P22-2": [
+  "sc_shaped",
+  "no_projection",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P23-1": [
+  "sc_shaped",
+  "no_projection",
+  "tray_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field"
+ ],
+ "P23-2": [
+  "heterogeneity_ignored",
+  "batho_inverted",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P23-3": [
+  "sc_shaped",
+  "sp_surface_field"
+ ],
+ "P24-1": [
+  "sc_shaped",
+  "wf_at_10cm",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P24-2": [
+  "sc_shaped",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P24-3": [
+  "sc_shaped",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P25-1": [
+  "sc_shaped",
+  "no_projection",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P25-2": [
+  "sc_shaped",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P25-3": [
+  "sc_shaped",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P25-4": [
+  "no_projection",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P26-1": [
+  "sc_shaped",
+  "heterogeneity_ignored",
+  "batho_inverted",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P26-2": [
+  "sc_shaped",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P27-1": [
+  "sc_shaped",
+  "no_projection",
+  "tray_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P28-1": [
+  "ssdeff_ignored"
+ ],
+ "P28-2": [
+  "sc_shaped",
+  "heterogeneity_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P29-1": [
+  "sc_shaped",
+  "heterogeneity_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P29-2": [
+  "heterogeneity_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P29-3": [
+  "sc_shaped",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P30-1": [
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P30-2": [
+  "sc_shaped",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P30-3": [
+  "sc_shaped",
+  "no_projection",
+  "oar_ignored",
+  "tray_ignored",
+  "inverse_square_ignored",
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P31-1": [
+  "sp_surface_field",
+  "pdd_inverse_square_to_point"
+ ],
+ "P31-2": [],
+ "P32-1": [
+  "isodose_ignored",
+  "air_gap_factor_ignored"
+ ],
+ "P32-2": [
+  "se_equivalent_square"
+ ],
+ "P33-1": [
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ],
+ "P33-2": [
+  "sc_shaped",
+  "sp_surface_field",
+  "mayneord_ignored",
+  "pdd_inverse_square_to_point"
+ ]
+}
