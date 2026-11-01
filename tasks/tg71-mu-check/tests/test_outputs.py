@@ -96,6 +96,27 @@ def test_rows_are_complete_and_ordered(rows):
     assert [r[0] for r in rows] == [b["beam_id"] for b in engine.load()[1]]
 
 
+def test_allowed_methods_agree_within_tolerance(truth):
+    """The MU the protocol allows for one beam never spread by more than the tolerance, so the band stays 0.3 percent."""
+    wide = [(k, max(w) / min(w) - 1) for k, w in truth.items() if max(w) / min(w) - 1 > TOL]
+    assert not wide, wide[:4]
+
+
+def test_case_tags_discriminate(truth):
+    """Each tagged misreading moves that beam's MU outside the tolerance of every MU the protocol allows."""
+    t = engine.Tables()
+    beams = {b["beam_id"]: b for b in engine.load()[1]}
+    weak = []
+    for k, fams in TAGS.items():
+        for fam in fams:
+            base = engine.allowed(t, beams[k])
+            alt = engine.allowed(t, beams[k], frozenset([fam]))
+            moved = [a for a, o in zip(alt, base) if abs(a - o) > 1e-9]
+            if not moved or any(min(abs(a / w - 1) for w in truth[k]) <= TOL for a in moved):
+                weak.append((k, fam))
+    assert not weak, weak[:4]
+
+
 FAMILIES = (
     "sc_shaped", "no_projection", "oar_ignored", "tray_ignored", "wf_at_10cm", "heterogeneity_ignored",
     "batho_inverted", "inverse_square_ignored", "sp_surface_field", "mayneord_ignored",
