@@ -1,0 +1,962 @@
+[
+ {
+  "patient_id": "ICU-001",
+  "admitted": "2026-03-03 20:30",
+  "discharged": "2026-03-10 16:44",
+  "age_years": 22,
+  "weight_kg": "64.5",
+  "baseline_creatinine_mg_dl": "1.21"
+ },
+ {
+  "patient_id": "ICU-002",
+  "admitted": "2026-06-27 12:17",
+  "discharged": "2026-07-03 00:53",
+  "age_years": 69,
+  "weight_kg": "80.0",
+  "baseline_creatinine_mg_dl": "1.77"
+ },
+ {
+  "patient_id": "ICU-003",
+  "admitted": "2026-03-07 07:06",
+  "discharged": "2026-03-13 18:34",
+  "age_years": 79,
+  "weight_kg": "104.4",
+  "baseline_creatinine_mg_dl": "1.28"
+ },
+ {
+  "patient_id": "ICU-004",
+  "admitted": "2026-03-06 09:23",
+  "discharged": "2026-03-12 11:54",
+  "age_years": 61,
+  "weight_kg": "91.4",
+  "baseline_creatinine_mg_dl": "0.79"
+ },
+ {
+  "patient_id": "ICU-005",
+  "admitted": "2026-06-26 18:55",
+  "discharged": "2026-07-02 00:29",
+  "age_years": 41,
+  "weight_kg": "77.1",
+  "baseline_creatinine_mg_dl": "0.97"
+ },
+ {
+  "patient_id": "ICU-006",
+  "admitted": "2026-10-31 15:33",
+  "discharged": "2026-11-04 12:27",
+  "age_years": 29,
+  "weight_kg": "109.6",
+  "baseline_creatinine_mg_dl": "0.93"
+ },
+ {
+  "patient_id": "ICU-007",
+  "admitted": "2026-06-30 01:24",
+  "discharged": "2026-07-04 19:29",
+  "age_years": 21,
+  "weight_kg": "70.6",
+  "baseline_creatinine_mg_dl": "0.69"
+ },
+ {
+  "patient_id": "ICU-008",
+  "admitted": "2026-03-04 09:25",
+  "discharged": "2026-03-10 09:44",
+  "age_years": 43,
+  "weight_kg": "76.6",
+  "baseline_creatinine_mg_dl": "0.94"
+ },
+ {
+  "patient_id": "ICU-009",
+  "admitted": "2026-03-05 07:58",
+  "discharged": "2026-03-10 14:01",
+  "age_years": 23,
+  "weight_kg": "87.8",
+  "baseline_creatinine_mg_dl": "0.89"
+ },
+ {
+  "patient_id": "ICU-010",
+  "admitted": "2026-03-04 15:17",
+  "discharged": "2026-03-09 14:53",
+  "age_years": 59,
+  "weight_kg": "86.3",
+  "baseline_creatinine_mg_dl": "0.65"
+ },
+ {
+  "patient_id": "ICU-011",
+  "admitted": "2026-06-30 00:43",
+  "discharged": "2026-07-06 21:40",
+  "age_years": 70,
+  "weight_kg": "80.6",
+  "baseline_creatinine_mg_dl": "0.74"
+ },
+ {
+  "patient_id": "ICU-012",
+  "admitted": "2026-06-28 07:14",
+  "discharged": "2026-07-01 23:21",
+  "age_years": 74,
+  "weight_kg": "55.7",
+  "baseline_creatinine_mg_dl": "1.37"
+ },
+ {
+  "patient_id": "ICU-013",
+  "admitted": "2026-10-28 04:11",
+  "discharged": "2026-11-01 05:17",
+  "age_years": 30,
+  "weight_kg": "78.4",
+  "baseline_creatinine_mg_dl": "1.44"
+ },
+ {
+  "patient_id": "ICU-014",
+  "admitted": "2026-03-06 07:45",
+  "discharged": "2026-03-11 10:44",
+  "age_years": 25,
+  "weight_kg": "119.8",
+  "baseline_creatinine_mg_dl": "1.45"
+ },
+ {
+  "patient_id": "ICU-015",
+  "admitted": "2026-10-30 02:04",
+  "discharged": "2026-11-03 21:18",
+  "age_years": 22,
+  "weight_kg": "60.4",
+  "baseline_creatinine_mg_dl": "0.94"
+ },
+ {
+  "patient_id": "ICU-016",
+  "admitted": "2026-10-31 14:58",
+  "discharged": "2026-11-06 14:06",
+  "age_years": 24,
+  "weight_kg": "111.9",
+  "baseline_creatinine_mg_dl": "1.14"
+ },
+ {
+  "patient_id": "ICU-017",
+  "admitted": "2026-06-27 08:09",
+  "discharged": "2026-07-01 17:54",
+  "age_years": 84,
+  "weight_kg": "58.2",
+  "baseline_creatinine_mg_dl": "0.98"
+ },
+ {
+  "patient_id": "ICU-018",
+  "admitted": "2026-03-07 11:14",
+  "discharged": "2026-03-14 02:22",
+  "age_years": 72,
+  "weight_kg": "105.3",
+  "baseline_creatinine_mg_dl": "0.84"
+ },
+ {
+  "patient_id": "ICU-019",
+  "admitted": "2026-10-30 01:16",
+  "discharged": "2026-11-02 11:42",
+  "age_years": 58,
+  "weight_kg": "115.3",
+  "baseline_creatinine_mg_dl": "1.29"
+ },
+ {
+  "patient_id": "ICU-020",
+  "admitted": "2026-06-28 16:53",
+  "discharged": "2026-07-03 08:30",
+  "age_years": 53,
+  "weight_kg": "99.7",
+  "baseline_creatinine_mg_dl": "1.44"
+ },
+ {
+  "patient_id": "ICU-021",
+  "admitted": "2026-06-26 22:51",
+  "discharged": "2026-06-29 23:16",
+  "age_years": 68,
+  "weight_kg": "101.4",
+  "baseline_creatinine_mg_dl": "0.76"
+ },
+ {
+  "patient_id": "ICU-022",
+  "admitted": "2026-03-05 14:09",
+  "discharged": "2026-03-09 04:24",
+  "age_years": 75,
+  "weight_kg": "117.1",
+  "baseline_creatinine_mg_dl": "1.51"
+ },
+ {
+  "patient_id": "ICU-023",
+  "admitted": "2026-10-27 16:01",
+  "discharged": "2026-11-02 05:48",
+  "age_years": 53,
+  "weight_kg": "77.3",
+  "baseline_creatinine_mg_dl": "0.98"
+ },
+ {
+  "patient_id": "ICU-024",
+  "admitted": "2026-03-05 00:32",
+  "discharged": "2026-03-10 12:15",
+  "age_years": 45,
+  "weight_kg": "82.5",
+  "baseline_creatinine_mg_dl": "0.67"
+ },
+ {
+  "patient_id": "ICU-025",
+  "admitted": "2026-10-30 22:01",
+  "discharged": "2026-11-03 01:55",
+  "age_years": 70,
+  "weight_kg": "114.2",
+  "baseline_creatinine_mg_dl": "1.55"
+ },
+ {
+  "patient_id": "ICU-026",
+  "admitted": "2026-03-07 17:55",
+  "discharged": "2026-03-14 00:17",
+  "age_years": 27,
+  "weight_kg": "102.2",
+  "baseline_creatinine_mg_dl": "2.08"
+ },
+ {
+  "patient_id": "ICU-027",
+  "admitted": "2026-06-30 19:03",
+  "discharged": "2026-07-06 07:12",
+  "age_years": 80,
+  "weight_kg": "70.7",
+  "baseline_creatinine_mg_dl": "2.07"
+ },
+ {
+  "patient_id": "ICU-028",
+  "admitted": "2026-03-04 17:26",
+  "discharged": "2026-03-08 18:59",
+  "age_years": 41,
+  "weight_kg": "102.8",
+  "baseline_creatinine_mg_dl": "1.33"
+ },
+ {
+  "patient_id": "ICU-029",
+  "admitted": "2026-03-07 12:34",
+  "discharged": "2026-03-11 17:16",
+  "age_years": 89,
+  "weight_kg": "57.8",
+  "baseline_creatinine_mg_dl": "1.28"
+ },
+ {
+  "patient_id": "ICU-030",
+  "admitted": "2026-06-29 17:08",
+  "discharged": "2026-07-04 16:44",
+  "age_years": 18,
+  "weight_kg": "95.7",
+  "baseline_creatinine_mg_dl": "2.05"
+ },
+ {
+  "patient_id": "ICU-031",
+  "admitted": "2026-06-27 19:40",
+  "discharged": "2026-07-03 07:16",
+  "age_years": 70,
+  "weight_kg": "78.1",
+  "baseline_creatinine_mg_dl": "0.86"
+ },
+ {
+  "patient_id": "ICU-032",
+  "admitted": "2026-06-30 05:57",
+  "discharged": "2026-07-05 04:59",
+  "age_years": 72,
+  "weight_kg": "110.5",
+  "baseline_creatinine_mg_dl": "0.97"
+ },
+ {
+  "patient_id": "ICU-033",
+  "admitted": "2026-10-28 20:29",
+  "discharged": "2026-11-01 19:17",
+  "age_years": 90,
+  "weight_kg": "113.9",
+  "baseline_creatinine_mg_dl": "1.06"
+ },
+ {
+  "patient_id": "ICU-034",
+  "admitted": "2026-03-04 22:02",
+  "discharged": "2026-03-10 17:12",
+  "age_years": 71,
+  "weight_kg": "55.8",
+  "baseline_creatinine_mg_dl": "1.36"
+ },
+ {
+  "patient_id": "ICU-035",
+  "admitted": "2026-06-30 03:55",
+  "discharged": "2026-07-04 22:00",
+  "age_years": 62,
+  "weight_kg": "116.3",
+  "baseline_creatinine_mg_dl": "0.85"
+ },
+ {
+  "patient_id": "ICU-036",
+  "admitted": "2026-03-04 18:07",
+  "discharged": "2026-03-11 14:19",
+  "age_years": 89,
+  "weight_kg": "58.9",
+  "baseline_creatinine_mg_dl": "1.08"
+ },
+ {
+  "patient_id": "ICU-037",
+  "admitted": "2026-03-03 13:28",
+  "discharged": "2026-03-09 04:10",
+  "age_years": 72,
+  "weight_kg": "60.9",
+  "baseline_creatinine_mg_dl": "1.03"
+ },
+ {
+  "patient_id": "ICU-038",
+  "admitted": "2026-10-30 13:02",
+  "discharged": "2026-11-02 17:13",
+  "age_years": 84,
+  "weight_kg": "57.8",
+  "baseline_creatinine_mg_dl": "1.35"
+ },
+ {
+  "patient_id": "ICU-039",
+  "admitted": "2026-10-28 12:14",
+  "discharged": "2026-11-01 07:45",
+  "age_years": 76,
+  "weight_kg": "103.3",
+  "baseline_creatinine_mg_dl": "1.99"
+ },
+ {
+  "patient_id": "ICU-040",
+  "admitted": "2026-03-07 11:26",
+  "discharged": "2026-03-14 03:04",
+  "age_years": 86,
+  "weight_kg": "63.9",
+  "baseline_creatinine_mg_dl": "0.70"
+ },
+ {
+  "patient_id": "ICU-041",
+  "admitted": "2026-03-03 17:56",
+  "discharged": "2026-03-09 18:47",
+  "age_years": 74,
+  "weight_kg": "68.7",
+  "baseline_creatinine_mg_dl": "0.90"
+ },
+ {
+  "patient_id": "ICU-042",
+  "admitted": "2026-03-07 18:29",
+  "discharged": "2026-03-12 10:01",
+  "age_years": 68,
+  "weight_kg": "118.0",
+  "baseline_creatinine_mg_dl": "0.84"
+ },
+ {
+  "patient_id": "ICU-043",
+  "admitted": "2026-06-28 06:39",
+  "discharged": "2026-07-02 12:21",
+  "age_years": 28,
+  "weight_kg": "66.7",
+  "baseline_creatinine_mg_dl": "2.34"
+ },
+ {
+  "patient_id": "ICU-044",
+  "admitted": "2026-03-06 05:33",
+  "discharged": "2026-03-11 01:32",
+  "age_years": 68,
+  "weight_kg": "117.6",
+  "baseline_creatinine_mg_dl": "0.75"
+ },
+ {
+  "patient_id": "ICU-045",
+  "admitted": "2026-06-27 09:15",
+  "discharged": "2026-07-03 04:55",
+  "age_years": 42,
+  "weight_kg": "65.0",
+  "baseline_creatinine_mg_dl": "1.38"
+ },
+ {
+  "patient_id": "ICU-046",
+  "admitted": "2026-10-29 00:49",
+  "discharged": "2026-11-02 05:09",
+  "age_years": 62,
+  "weight_kg": "115.7",
+  "baseline_creatinine_mg_dl": "0.92"
+ },
+ {
+  "patient_id": "ICU-047",
+  "admitted": "2026-06-30 10:29",
+  "discharged": "2026-07-06 03:45",
+  "age_years": 79,
+  "weight_kg": "110.4",
+  "baseline_creatinine_mg_dl": "1.35"
+ },
+ {
+  "patient_id": "ICU-048",
+  "admitted": "2026-06-29 03:34",
+  "discharged": "2026-07-04 05:55",
+  "age_years": 35,
+  "weight_kg": "113.3",
+  "baseline_creatinine_mg_dl": "0.82"
+ },
+ {
+  "patient_id": "ICU-049",
+  "admitted": "2026-10-31 13:43",
+  "discharged": "2026-11-04 01:09",
+  "age_years": 41,
+  "weight_kg": "55.0",
+  "baseline_creatinine_mg_dl": "0.92"
+ },
+ {
+  "patient_id": "ICU-050",
+  "admitted": "2026-03-04 04:03",
+  "discharged": "2026-03-07 06:51",
+  "age_years": 72,
+  "weight_kg": "56.6",
+  "baseline_creatinine_mg_dl": "1.24"
+ },
+ {
+  "patient_id": "ICU-051",
+  "admitted": "2026-03-04 10:14",
+  "discharged": "2026-03-09 05:40",
+  "age_years": 23,
+  "weight_kg": "113.3",
+  "baseline_creatinine_mg_dl": "2.09"
+ },
+ {
+  "patient_id": "ICU-052",
+  "admitted": "2026-10-29 11:31",
+  "discharged": "2026-11-01 17:16",
+  "age_years": 66,
+  "weight_kg": "100.8",
+  "baseline_creatinine_mg_dl": "1.49"
+ },
+ {
+  "patient_id": "ICU-053",
+  "admitted": "2026-06-28 09:26",
+  "discharged": "2026-07-01 11:22",
+  "age_years": 74,
+  "weight_kg": "106.9",
+  "baseline_creatinine_mg_dl": "0.78"
+ },
+ {
+  "patient_id": "ICU-054",
+  "admitted": "2026-10-29 13:36",
+  "discharged": "2026-11-03 09:47",
+  "age_years": 73,
+  "weight_kg": "52.9",
+  "baseline_creatinine_mg_dl": "1.36"
+ },
+ {
+  "patient_id": "ICU-055",
+  "admitted": "2026-06-29 19:41",
+  "discharged": "2026-07-03 05:06",
+  "age_years": 67,
+  "weight_kg": "102.4",
+  "baseline_creatinine_mg_dl": "2.24"
+ },
+ {
+  "patient_id": "ICU-056",
+  "admitted": "2026-06-27 07:11",
+  "discharged": "2026-06-30 08:55",
+  "age_years": 30,
+  "weight_kg": "105.0",
+  "baseline_creatinine_mg_dl": "1.02"
+ },
+ {
+  "patient_id": "ICU-057",
+  "admitted": "2026-03-04 17:39",
+  "discharged": "2026-03-08 22:52",
+  "age_years": 69,
+  "weight_kg": "95.6",
+  "baseline_creatinine_mg_dl": "0.68"
+ },
+ {
+  "patient_id": "ICU-058",
+  "admitted": "2026-06-27 19:21",
+  "discharged": "2026-07-03 15:05",
+  "age_years": 40,
+  "weight_kg": "98.0",
+  "baseline_creatinine_mg_dl": "0.92"
+ },
+ {
+  "patient_id": "ICU-059",
+  "admitted": "2026-10-28 05:29",
+  "discharged": "2026-11-02 23:17",
+  "age_years": 19,
+  "weight_kg": "116.3",
+  "baseline_creatinine_mg_dl": "1.34"
+ },
+ {
+  "patient_id": "ICU-060",
+  "admitted": "2026-03-07 01:37",
+  "discharged": "2026-03-12 16:28",
+  "age_years": 79,
+  "weight_kg": "58.3",
+  "baseline_creatinine_mg_dl": "0.92"
+ },
+ {
+  "patient_id": "ICU-061",
+  "admitted": "2026-06-28 00:01",
+  "discharged": "2026-07-02 18:30",
+  "age_years": 18,
+  "weight_kg": "66.7",
+  "baseline_creatinine_mg_dl": "1.38"
+ },
+ {
+  "patient_id": "ICU-062",
+  "admitted": "2026-06-28 02:32",
+  "discharged": "2026-07-03 06:13",
+  "age_years": 39,
+  "weight_kg": "53.4",
+  "baseline_creatinine_mg_dl": "1.48"
+ },
+ {
+  "patient_id": "ICU-063",
+  "admitted": "2026-06-29 07:31",
+  "discharged": "2026-07-04 11:21",
+  "age_years": 67,
+  "weight_kg": "50.0",
+  "baseline_creatinine_mg_dl": "0.83"
+ },
+ {
+  "patient_id": "ICU-064",
+  "admitted": "2026-10-30 18:09",
+  "discharged": "2026-11-03 23:00",
+  "age_years": 41,
+  "weight_kg": "79.6",
+  "baseline_creatinine_mg_dl": "1.07"
+ },
+ {
+  "patient_id": "ICU-065",
+  "admitted": "2026-03-07 04:54",
+  "discharged": "2026-03-13 15:00",
+  "age_years": 53,
+  "weight_kg": "119.5",
+  "baseline_creatinine_mg_dl": "2.02"
+ },
+ {
+  "patient_id": "ICU-066",
+  "admitted": "2026-03-05 05:16",
+  "discharged": "2026-03-08 19:32",
+  "age_years": 19,
+  "weight_kg": "96.7",
+  "baseline_creatinine_mg_dl": "1.05"
+ },
+ {
+  "patient_id": "ICU-067",
+  "admitted": "2026-10-27 23:11",
+  "discharged": "2026-11-02 16:34",
+  "age_years": 81,
+  "weight_kg": "97.9",
+  "baseline_creatinine_mg_dl": "1.44"
+ },
+ {
+  "patient_id": "ICU-068",
+  "admitted": "2026-10-30 16:53",
+  "discharged": "2026-11-05 12:01",
+  "age_years": 52,
+  "weight_kg": "106.8",
+  "baseline_creatinine_mg_dl": "1.38"
+ },
+ {
+  "patient_id": "ICU-069",
+  "admitted": "2026-03-03 14:15",
+  "discharged": "2026-03-08 11:20",
+  "age_years": 39,
+  "weight_kg": "114.7",
+  "baseline_creatinine_mg_dl": "1.09"
+ },
+ {
+  "patient_id": "ICU-070",
+  "admitted": "2026-06-26 21:05",
+  "discharged": "2026-07-01 12:21",
+  "age_years": 30,
+  "weight_kg": "93.2",
+  "baseline_creatinine_mg_dl": "1.53"
+ },
+ {
+  "patient_id": "ICU-071",
+  "admitted": "2026-10-31 17:09",
+  "discharged": "2026-11-07 03:56",
+  "age_years": 32,
+  "weight_kg": "93.3",
+  "baseline_creatinine_mg_dl": "0.74"
+ },
+ {
+  "patient_id": "ICU-072",
+  "admitted": "2026-10-29 18:22",
+  "discharged": "2026-11-02 00:14",
+  "age_years": 66,
+  "weight_kg": "88.9",
+  "baseline_creatinine_mg_dl": "0.92"
+ },
+ {
+  "patient_id": "ICU-073",
+  "admitted": "2026-06-27 20:47",
+  "discharged": "2026-07-02 20:29",
+  "age_years": 70,
+  "weight_kg": "51.1",
+  "baseline_creatinine_mg_dl": "2.22"
+ },
+ {
+  "patient_id": "ICU-074",
+  "admitted": "2026-03-03 18:30",
+  "discharged": "2026-03-08 23:35",
+  "age_years": 85,
+  "weight_kg": "54.1",
+  "baseline_creatinine_mg_dl": "1.56"
+ },
+ {
+  "patient_id": "ICU-075",
+  "admitted": "2026-10-30 17:48",
+  "discharged": "2026-11-06 13:31",
+  "age_years": 30,
+  "weight_kg": "115.1",
+  "baseline_creatinine_mg_dl": "0.87"
+ },
+ {
+  "patient_id": "ICU-076",
+  "admitted": "2026-03-06 02:09",
+  "discharged": "2026-03-09 13:39",
+  "age_years": 78,
+  "weight_kg": "70.3",
+  "baseline_creatinine_mg_dl": "1.12"
+ },
+ {
+  "patient_id": "ICU-077",
+  "admitted": "2026-06-29 02:41",
+  "discharged": "2026-07-05 19:24",
+  "age_years": 78,
+  "weight_kg": "102.0",
+  "baseline_creatinine_mg_dl": "1.54"
+ },
+ {
+  "patient_id": "ICU-078",
+  "admitted": "2026-03-07 15:58",
+  "discharged": "2026-03-14 01:47",
+  "age_years": 36,
+  "weight_kg": "72.6",
+  "baseline_creatinine_mg_dl": "1.51"
+ },
+ {
+  "patient_id": "ICU-079",
+  "admitted": "2026-03-06 12:57",
+  "discharged": "2026-03-11 23:18",
+  "age_years": 36,
+  "weight_kg": "117.1",
+  "baseline_creatinine_mg_dl": "1.90"
+ },
+ {
+  "patient_id": "ICU-080",
+  "admitted": "2026-03-05 05:40",
+  "discharged": "2026-03-08 09:36",
+  "age_years": 24,
+  "weight_kg": "65.4",
+  "baseline_creatinine_mg_dl": "1.36"
+ },
+ {
+  "patient_id": "ICU-081",
+  "admitted": "2026-06-27 22:45",
+  "discharged": "2026-07-04 06:08",
+  "age_years": 65,
+  "weight_kg": "111.2",
+  "baseline_creatinine_mg_dl": "1.03"
+ },
+ {
+  "patient_id": "ICU-082",
+  "admitted": "2026-10-30 14:39",
+  "discharged": "2026-11-03 02:59",
+  "age_years": 90,
+  "weight_kg": "80.1",
+  "baseline_creatinine_mg_dl": "2.07"
+ },
+ {
+  "patient_id": "ICU-083",
+  "admitted": "2026-10-28 23:46",
+  "discharged": "2026-11-02 09:20",
+  "age_years": 83,
+  "weight_kg": "86.9",
+  "baseline_creatinine_mg_dl": "1.35"
+ },
+ {
+  "patient_id": "ICU-084",
+  "admitted": "2026-06-28 21:56",
+  "discharged": "2026-07-01 22:35",
+  "age_years": 39,
+  "weight_kg": "50.6",
+  "baseline_creatinine_mg_dl": "1.47"
+ },
+ {
+  "patient_id": "ICU-085",
+  "admitted": "2026-06-28 10:54",
+  "discharged": "2026-07-03 05:18",
+  "age_years": 66,
+  "weight_kg": "76.6",
+  "baseline_creatinine_mg_dl": "1.10"
+ },
+ {
+  "patient_id": "ICU-086",
+  "admitted": "2026-06-27 11:37",
+  "discharged": "2026-07-02 04:16",
+  "age_years": 37,
+  "weight_kg": "59.1",
+  "baseline_creatinine_mg_dl": "2.22"
+ },
+ {
+  "patient_id": "ICU-087",
+  "admitted": "2026-06-29 14:03",
+  "discharged": "2026-07-05 09:28",
+  "age_years": 44,
+  "weight_kg": "88.9",
+  "baseline_creatinine_mg_dl": "1.30"
+ },
+ {
+  "patient_id": "ICU-088",
+  "admitted": "2026-06-30 14:15",
+  "discharged": "2026-07-07 10:51",
+  "age_years": 31,
+  "weight_kg": "119.7",
+  "baseline_creatinine_mg_dl": "1.29"
+ },
+ {
+  "patient_id": "ICU-089",
+  "admitted": "2026-06-26 20:41",
+  "discharged": "2026-06-29 20:43",
+  "age_years": 83,
+  "weight_kg": "96.6",
+  "baseline_creatinine_mg_dl": "0.97"
+ },
+ {
+  "patient_id": "ICU-090",
+  "admitted": "2026-10-27 15:58",
+  "discharged": "2026-10-31 10:03",
+  "age_years": 26,
+  "weight_kg": "81.6",
+  "baseline_creatinine_mg_dl": "1.45"
+ },
+ {
+  "patient_id": "ICU-091",
+  "admitted": "2026-06-28 19:39",
+  "discharged": "2026-07-05 15:25",
+  "age_years": 62,
+  "weight_kg": "87.6",
+  "baseline_creatinine_mg_dl": "1.06"
+ },
+ {
+  "patient_id": "ICU-092",
+  "admitted": "2026-10-31 04:36",
+  "discharged": "2026-11-03 21:32",
+  "age_years": 67,
+  "weight_kg": "58.8",
+  "baseline_creatinine_mg_dl": "1.98"
+ },
+ {
+  "patient_id": "ICU-093",
+  "admitted": "2026-10-29 18:15",
+  "discharged": "2026-11-02 21:35",
+  "age_years": 18,
+  "weight_kg": "111.6",
+  "baseline_creatinine_mg_dl": "1.99"
+ },
+ {
+  "patient_id": "ICU-094",
+  "admitted": "2026-10-28 17:24",
+  "discharged": "2026-11-01 10:32",
+  "age_years": 60,
+  "weight_kg": "64.1",
+  "baseline_creatinine_mg_dl": "1.12"
+ },
+ {
+  "patient_id": "ICU-095",
+  "admitted": "2026-03-07 08:57",
+  "discharged": "2026-03-10 21:41",
+  "age_years": 23,
+  "weight_kg": "119.7",
+  "baseline_creatinine_mg_dl": "1.42"
+ },
+ {
+  "patient_id": "ICU-096",
+  "admitted": "2026-06-26 16:44",
+  "discharged": "2026-07-01 12:18",
+  "age_years": 19,
+  "weight_kg": "77.7",
+  "baseline_creatinine_mg_dl": "0.85"
+ },
+ {
+  "patient_id": "ICU-097",
+  "admitted": "2026-03-03 14:49",
+  "discharged": "2026-03-06 23:07",
+  "age_years": 66,
+  "weight_kg": "101.1",
+  "baseline_creatinine_mg_dl": "0.76"
+ },
+ {
+  "patient_id": "ICU-098",
+  "admitted": "2026-10-30 10:03",
+  "discharged": "2026-11-04 11:31",
+  "age_years": 47,
+  "weight_kg": "103.5",
+  "baseline_creatinine_mg_dl": "0.79"
+ },
+ {
+  "patient_id": "ICU-099",
+  "admitted": "2026-03-05 08:47",
+  "discharged": "2026-03-09 06:29",
+  "age_years": 41,
+  "weight_kg": "83.3",
+  "baseline_creatinine_mg_dl": "1.28"
+ },
+ {
+  "patient_id": "ICU-100",
+  "admitted": "2026-03-05 02:46",
+  "discharged": "2026-03-09 06:34",
+  "age_years": 31,
+  "weight_kg": "114.1",
+  "baseline_creatinine_mg_dl": "1.84"
+ },
+ {
+  "patient_id": "ICU-101",
+  "admitted": "2026-03-07 16:00",
+  "discharged": "2026-03-11 12:10",
+  "age_years": 68,
+  "weight_kg": "109.0",
+  "baseline_creatinine_mg_dl": "1.16"
+ },
+ {
+  "patient_id": "ICU-102",
+  "admitted": "2026-03-06 11:55",
+  "discharged": "2026-03-13 03:23",
+  "age_years": 80,
+  "weight_kg": "58.3",
+  "baseline_creatinine_mg_dl": "0.96"
+ },
+ {
+  "patient_id": "ICU-103",
+  "admitted": "2026-03-07 04:13",
+  "discharged": "2026-03-10 16:49",
+  "age_years": 75,
+  "weight_kg": "76.9",
+  "baseline_creatinine_mg_dl": "0.64"
+ },
+ {
+  "patient_id": "ICU-104",
+  "admitted": "2026-10-28 15:23",
+  "discharged": "2026-11-01 01:10",
+  "age_years": 87,
+  "weight_kg": "78.2",
+  "baseline_creatinine_mg_dl": "0.75"
+ },
+ {
+  "patient_id": "ICU-105",
+  "admitted": "2026-03-06 00:16",
+  "discharged": "2026-03-12 10:26",
+  "age_years": 22,
+  "weight_kg": "93.3",
+  "baseline_creatinine_mg_dl": "0.84"
+ },
+ {
+  "patient_id": "ICU-106",
+  "admitted": "2026-10-30 11:14",
+  "discharged": "2026-11-02 12:30",
+  "age_years": 27,
+  "weight_kg": "116.7",
+  "baseline_creatinine_mg_dl": "0.80"
+ },
+ {
+  "patient_id": "ICU-107",
+  "admitted": "2026-06-29 02:51",
+  "discharged": "2026-07-05 23:17",
+  "age_years": 52,
+  "weight_kg": "56.7",
+  "baseline_creatinine_mg_dl": "1.08"
+ },
+ {
+  "patient_id": "ICU-108",
+  "admitted": "2026-06-27 07:44",
+  "discharged": "2026-06-30 13:41",
+  "age_years": 34,
+  "weight_kg": "82.9",
+  "baseline_creatinine_mg_dl": "1.87"
+ },
+ {
+  "patient_id": "ICU-109",
+  "admitted": "2026-03-07 15:15",
+  "discharged": "2026-03-13 06:36",
+  "age_years": 39,
+  "weight_kg": "69.3",
+  "baseline_creatinine_mg_dl": "1.83"
+ },
+ {
+  "patient_id": "ICU-110",
+  "admitted": "2026-06-30 09:48",
+  "discharged": "2026-07-06 03:34",
+  "age_years": 63,
+  "weight_kg": "113.5",
+  "baseline_creatinine_mg_dl": "1.31"
+ },
+ {
+  "patient_id": "ICU-111",
+  "admitted": "2026-06-28 00:42",
+  "discharged": "2026-07-03 04:05",
+  "age_years": 21,
+  "weight_kg": "97.0",
+  "baseline_creatinine_mg_dl": "1.25"
+ },
+ {
+  "patient_id": "ICU-112",
+  "admitted": "2026-03-04 12:23",
+  "discharged": "2026-03-09 09:00",
+  "age_years": 77,
+  "weight_kg": "116.8",
+  "baseline_creatinine_mg_dl": "1.14"
+ },
+ {
+  "patient_id": "ICU-113",
+  "admitted": "2026-10-27 18:59",
+  "discharged": "2026-11-02 18:04",
+  "age_years": 67,
+  "weight_kg": "89.9",
+  "baseline_creatinine_mg_dl": "1.39"
+ },
+ {
+  "patient_id": "ICU-114",
+  "admitted": "2026-03-06 21:34",
+  "discharged": "2026-03-12 23:49",
+  "age_years": 80,
+  "weight_kg": "64.1",
+  "baseline_creatinine_mg_dl": "2.26"
+ },
+ {
+  "patient_id": "ICU-115",
+  "admitted": "2026-03-05 08:48",
+  "discharged": "2026-03-08 09:52",
+  "age_years": 62,
+  "weight_kg": "101.3",
+  "baseline_creatinine_mg_dl": "1.57"
+ },
+ {
+  "patient_id": "ICU-116",
+  "admitted": "2026-03-05 00:36",
+  "discharged": "2026-03-10 04:08",
+  "age_years": 36,
+  "weight_kg": "94.3",
+  "baseline_creatinine_mg_dl": "0.74"
+ },
+ {
+  "patient_id": "ICU-117",
+  "admitted": "2026-10-31 12:49",
+  "discharged": "2026-11-06 21:30",
+  "age_years": 40,
+  "weight_kg": "100.3",
+  "baseline_creatinine_mg_dl": "1.26"
+ },
+ {
+  "patient_id": "ICU-118",
+  "admitted": "2026-10-28 08:25",
+  "discharged": "2026-10-31 08:50",
+  "age_years": 76,
+  "weight_kg": "82.9",
+  "baseline_creatinine_mg_dl": "0.80"
+ },
+ {
+  "patient_id": "ICU-119",
+  "admitted": "2026-03-07 07:15",
+  "discharged": "2026-03-13 00:43",
+  "age_years": 30,
+  "weight_kg": "61.7",
+  "baseline_creatinine_mg_dl": "0.91"
+ },
+ {
+  "patient_id": "ICU-120",
+  "admitted": "2026-03-05 04:30",
+  "discharged": "2026-03-10 22:49",
+  "age_years": 27,
+  "weight_kg": "97.0",
+  "baseline_creatinine_mg_dl": "1.04"
+ }
+]

@@ -1,0 +1,438 @@
+{
+"ICU-001": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-002": [
+"rise_window_24h",
+"rise_measured_from_first_result"
+],
+"ICU-003": [
+"umol_read_as_mg",
+"rise_measured_from_first_result"
+],
+"ICU-004": [],
+"ICU-005": [],
+"ICU-006": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only"
+],
+"ICU-007": [
+"urine_windows_at_charting_times_only"
+],
+"ICU-008": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-009": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-010": [
+"renal_replacement_ignored"
+],
+"ICU-011": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-012": [
+"umol_read_as_mg"
+],
+"ICU-013": [
+"umol_read_as_mg"
+],
+"ICU-014": [
+"urine_windows_at_charting_times_only"
+],
+"ICU-015": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-016": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-017": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-018": [],
+"ICU-019": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-020": [
+"renal_replacement_ignored"
+],
+"ICU-021": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-022": [],
+"ICU-023": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-024": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-025": [
+"creatinine_4_rule_ignored",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-026": [
+"creatinine_4_rule_ignored"
+],
+"ICU-027": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+],
+"ICU-028": [
+"rise_window_24h"
+],
+"ICU-029": [
+"original_kept_over_correction",
+"urine_windows_at_charting_times_only"
+],
+"ICU-030": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-031": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+],
+"ICU-032": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+],
+"ICU-033": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-034": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-035": [
+"rise_window_24h",
+"rise_measured_from_first_result"
+],
+"ICU-036": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-037": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-038": [
+"urine_windows_at_charting_times_only"
+],
+"ICU-039": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-040": [
+"renal_replacement_ignored"
+],
+"ICU-041": [
+"umol_read_as_mg"
+],
+"ICU-042": [
+"umol_read_as_mg",
+"rise_window_24h",
+"rise_measured_from_first_result"
+],
+"ICU-043": [
+"creatinine_4_rule_ignored"
+],
+"ICU-044": [
+"rise_window_24h",
+"rise_measured_from_first_result"
+],
+"ICU-045": [
+"umol_read_as_mg",
+"rise_measured_from_first_result"
+],
+"ICU-046": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-047": [],
+"ICU-048": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-049": [
+"umol_read_as_mg"
+],
+"ICU-050": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-051": [
+"creatinine_4_rule_ignored"
+],
+"ICU-052": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-053": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-054": [
+"rise_window_24h",
+"urine_windows_at_charting_times_only"
+],
+"ICU-055": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+],
+"ICU-056": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-057": [],
+"ICU-058": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+],
+"ICU-059": [
+"umol_read_as_mg"
+],
+"ICU-060": [
+"umol_read_as_mg"
+],
+"ICU-061": [],
+"ICU-062": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+],
+"ICU-063": [
+"renal_replacement_ignored"
+],
+"ICU-064": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-065": [
+"rise_window_24h",
+"rise_measured_from_first_result",
+"creatinine_4_rule_ignored"
+],
+"ICU-066": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-067": [
+"rise_measured_from_first_result"
+],
+"ICU-068": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-069": [
+"umol_read_as_mg",
+"rise_window_24h",
+"urine_windows_at_charting_times_only"
+],
+"ICU-070": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-071": [],
+"ICU-072": [
+"umol_read_as_mg"
+],
+"ICU-073": [
+"umol_read_as_mg",
+"original_kept_over_correction"
+],
+"ICU-074": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-075": [],
+"ICU-076": [],
+"ICU-077": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored"
+],
+"ICU-078": [
+"umol_read_as_mg",
+"rise_measured_from_first_result"
+],
+"ICU-079": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+],
+"ICU-080": [],
+"ICU-081": [
+"original_kept_over_correction"
+],
+"ICU-082": [
+"original_kept_over_correction",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-083": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-084": [],
+"ICU-085": [
+"rise_window_24h",
+"rise_measured_from_first_result"
+],
+"ICU-086": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+],
+"ICU-087": [],
+"ICU-088": [
+"umol_read_as_mg",
+"rise_measured_from_first_result"
+],
+"ICU-089": [],
+"ICU-090": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-091": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-092": [
+"rise_window_24h"
+],
+"ICU-093": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-094": [],
+"ICU-095": [
+"original_kept_over_correction"
+],
+"ICU-096": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-097": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-098": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-099": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only"
+],
+"ICU-100": [
+"creatinine_4_rule_ignored",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-101": [
+"umol_read_as_mg"
+],
+"ICU-102": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-103": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-104": [],
+"ICU-105": [
+"umol_read_as_mg"
+],
+"ICU-106": [],
+"ICU-107": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-108": [],
+"ICU-109": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+],
+"ICU-110": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-111": [],
+"ICU-112": [],
+"ICU-113": [
+"creatinine_4_rule_ignored"
+],
+"ICU-114": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"rise_measured_from_first_result",
+"creatinine_4_rule_ignored"
+],
+"ICU-115": [
+"original_kept_over_correction",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-116": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-117": [],
+"ICU-118": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-119": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+],
+"ICU-120": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+}

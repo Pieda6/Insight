@@ -1,0 +1,29 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/kdigo-aki-staging"
+description = "Acute kidney injury definition and staging under the KDIGO 2012 guideline for 120 adult ICU admissions: from laboratory creatinine results (mg/dL or umol/L, corrected and rejected specimens), irregular urine charting and renal replacement therapy starts with New York local times, the highest stage reached, when a criterion was first met and when that stage was first reached, judging urine output over every period of the stated length."
+
+[metadata]
+domain = "Science"
+field = "Medicine"
+subfield = "Nephrology and Critical Care Medicine"
+tags = ["nephrology", "acute-kidney-injury", "kdigo", "critical-care", "renal-physiology", "clinical-data", "python"]
+expert_time_estimate_hours = 6
+relevant_experience = "Critical care nephrology: defining and staging acute kidney injury under the KDIGO 2012 guideline from serum creatinine and urine output, interpreting ICU fluid charting and laboratory records, and renal replacement therapy."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0

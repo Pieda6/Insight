@@ -1,0 +1,1038 @@
+{
+"ICU-001": {
+"max_stage": 2,
+"onset": 91176.61940298507,
+"reached": 91270.0,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-002": {
+"max_stage": 2,
+"onset": 259749.0,
+"reached": 261650.0,
+"tags": [
+"rise_window_24h",
+"rise_measured_from_first_result"
+]
+},
+"ICU-003": {
+"max_stage": 1,
+"onset": 99775.0,
+"reached": 99775.0,
+"tags": [
+"umol_read_as_mg",
+"rise_measured_from_first_result"
+]
+},
+"ICU-004": {
+"max_stage": 0,
+"onset": null,
+"reached": null,
+"tags": []
+},
+"ICU-005": {
+"max_stage": 3,
+"onset": 258160.0,
+"reached": 260260.0,
+"tags": []
+},
+"ICU-006": {
+"max_stage": 2,
+"onset": 438948.0,
+"reached": 441205.6537313433,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only"
+]
+},
+"ICU-007": {
+"max_stage": 2,
+"onset": 262005.0,
+"reached": 262513.6918367347,
+"tags": [
+"urine_windows_at_charting_times_only"
+]
+},
+"ICU-008": {
+"max_stage": 2,
+"onset": 92600.69433359936,
+"reached": 92842.88689506837,
+"tags": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-009": {
+"max_stage": 2,
+"onset": 94837.91506666667,
+"reached": 95111.48323977547,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-010": {
+"max_stage": 3,
+"onset": 95132.0,
+"reached": 96538.0,
+"tags": [
+"renal_replacement_ignored"
+]
+},
+"ICU-011": {
+"max_stage": 3,
+"onset": 262576.79695431475,
+"reached": 263249.52865979384,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-012": {
+"max_stage": 0,
+"onset": null,
+"reached": null,
+"tags": [
+"umol_read_as_mg"
+]
+},
+"ICU-013": {
+"max_stage": 0,
+"onset": null,
+"reached": null,
+"tags": [
+"umol_read_as_mg"
+]
+},
+"ICU-014": {
+"max_stage": 2,
+"onset": 95118.0,
+"reached": 96400.79194630873,
+"tags": [
+"urine_windows_at_charting_times_only"
+]
+},
+"ICU-015": {
+"max_stage": 3,
+"onset": 437622.8689038847,
+"reached": 438671.88249581074,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-016": {
+"max_stage": 2,
+"onset": 441453.9162162162,
+"reached": 441755.1846153846,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-017": {
+"max_stage": 3,
+"onset": 257134.76160990712,
+"reached": 258169.44316733844,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-018": {
+"max_stage": 2,
+"onset": 97194.0,
+"reached": 99072.0,
+"tags": []
+},
+"ICU-019": {
+"max_stage": 3,
+"onset": 437954.93989819684,
+"reached": 438934.08196999715,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-020": {
+"max_stage": 3,
+"onset": 260431.0,
+"reached": 264150.0,
+"tags": [
+"renal_replacement_ignored"
+]
+},
+"ICU-021": {
+"max_stage": 2,
+"onset": 256680.62642611083,
+"reached": 256930.41361256543,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-022": {
+"max_stage": 2,
+"onset": 95091.0,
+"reached": 96302.0,
+"tags": []
+},
+"ICU-023": {
+"max_stage": 2,
+"onset": 433297.0971746575,
+"reached": 433529.57010989013,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-024": {
+"max_stage": 2,
+"onset": 95166.1978021978,
+"reached": 95379.36180904522,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-025": {
+"max_stage": 3,
+"onset": 437964.63966858434,
+"reached": 440115.0,
+"tags": [
+"creatinine_4_rule_ignored",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-026": {
+"max_stage": 3,
+"onset": 97806.0,
+"reached": 99357.0,
+"tags": [
+"creatinine_4_rule_ignored"
+]
+},
+"ICU-027": {
+"max_stage": 3,
+"onset": 265021.3608108108,
+"reached": 265551.0,
+"tags": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-028": {
+"max_stage": 1,
+"onset": 93449.0,
+"reached": 93449.0,
+"tags": [
+"rise_window_24h"
+]
+},
+"ICU-029": {
+"max_stage": 2,
+"onset": 97283.0,
+"reached": 98127.59181461952,
+"tags": [
+"original_kept_over_correction",
+"urine_windows_at_charting_times_only"
+]
+},
+"ICU-030": {
+"max_stage": 2,
+"onset": 261043.0303030303,
+"reached": 261294.28344237545,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-031": {
+"max_stage": 3,
+"onset": 260449.39725274727,
+"reached": 261084.0,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-032": {
+"max_stage": 3,
+"onset": 261827.7256097561,
+"reached": 262334.0,
+"tags": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-033": {
+"max_stage": 1,
+"onset": 435446.2719854941,
+"reached": 435446.2719854941,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-034": {
+"max_stage": 2,
+"onset": 93131.2349429324,
+"reached": 95177.0,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-035": {
+"max_stage": 1,
+"onset": 264101.0,
+"reached": 264101.0,
+"tags": [
+"rise_window_24h",
+"rise_measured_from_first_result"
+]
+},
+"ICU-036": {
+"max_stage": 2,
+"onset": 95415.11859296482,
+"reached": 95559.83333333333,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-037": {
+"max_stage": 2,
+"onset": 90657.40961941864,
+"reached": 90902.03638672805,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-038": {
+"max_stage": 2,
+"onset": 437845.0,
+"reached": 438321.43974719103,
+"tags": [
+"urine_windows_at_charting_times_only"
+]
+},
+"ICU-039": {
+"max_stage": 2,
+"onset": 435819.04903337214,
+"reached": 436143.82907287293,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-040": {
+"max_stage": 3,
+"onset": 99937.0,
+"reached": 100680.0,
+"tags": [
+"renal_replacement_ignored"
+]
+},
+"ICU-041": {
+"max_stage": 0,
+"onset": null,
+"reached": null,
+"tags": [
+"umol_read_as_mg"
+]
+},
+"ICU-042": {
+"max_stage": 1,
+"onset": 101447.0,
+"reached": 101447.0,
+"tags": [
+"umol_read_as_mg",
+"rise_window_24h",
+"rise_measured_from_first_result"
+]
+},
+"ICU-043": {
+"max_stage": 3,
+"onset": 258545.0,
+"reached": 261888.0,
+"tags": [
+"creatinine_4_rule_ignored"
+]
+},
+"ICU-044": {
+"max_stage": 1,
+"onset": 96027.0,
+"reached": 96027.0,
+"tags": [
+"rise_window_24h",
+"rise_measured_from_first_result"
+]
+},
+"ICU-045": {
+"max_stage": 1,
+"onset": 260620.0,
+"reached": 260620.0,
+"tags": [
+"umol_read_as_mg",
+"rise_measured_from_first_result"
+]
+},
+"ICU-046": {
+"max_stage": 2,
+"onset": 437139.1836923077,
+"reached": 439530.0,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-047": {
+"max_stage": 0,
+"onset": null,
+"reached": null,
+"tags": []
+},
+"ICU-048": {
+"max_stage": 2,
+"onset": 260236.61159202107,
+"reached": 260484.1058161351,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-049": {
+"max_stage": 0,
+"onset": null,
+"reached": null,
+"tags": [
+"umol_read_as_mg"
+]
+},
+"ICU-050": {
+"max_stage": 2,
+"onset": 91101.57647058823,
+"reached": 91270.9982300885,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-051": {
+"max_stage": 3,
+"onset": 92507.0,
+"reached": 95316.0,
+"tags": [
+"creatinine_4_rule_ignored"
+]
+},
+"ICU-052": {
+"max_stage": 2,
+"onset": 436033.3509609784,
+"reached": 436364.41513262794,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-053": {
+"max_stage": 2,
+"onset": 259517.9136869396,
+"reached": 259785.86579162307,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-054": {
+"max_stage": 3,
+"onset": 436628.0,
+"reached": 437981.51320027217,
+"tags": [
+"rise_window_24h",
+"urine_windows_at_charting_times_only"
+]
+},
+"ICU-055": {
+"max_stage": 3,
+"onset": 260221.91428571427,
+"reached": 260792.0,
+"tags": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-056": {
+"max_stage": 2,
+"onset": 257323.9978583448,
+"reached": 257619.2293551211,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-057": {
+"max_stage": 2,
+"onset": 93262.0,
+"reached": 95359.0,
+"tags": []
+},
+"ICU-058": {
+"max_stage": 3,
+"onset": 257838.96373056996,
+"reached": 258381.0,
+"tags": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-059": {
+"max_stage": 0,
+"onset": null,
+"reached": null,
+"tags": [
+"umol_read_as_mg"
+]
+},
+"ICU-060": {
+"max_stage": 3,
+"onset": 97059.0,
+"reached": 97431.0,
+"tags": [
+"umol_read_as_mg"
+]
+},
+"ICU-061": {
+"max_stage": 3,
+"onset": 260436.0,
+"reached": 262734.0,
+"tags": []
+},
+"ICU-062": {
+"max_stage": 3,
+"onset": 259412.04093567253,
+"reached": 259908.0,
+"tags": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-063": {
+"max_stage": 3,
+"onset": 260782.0,
+"reached": 262399.0,
+"tags": [
+"renal_replacement_ignored"
+]
+},
+"ICU-064": {
+"max_stage": 2,
+"onset": 437358.5913297781,
+"reached": 437553.1510869565,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-065": {
+"max_stage": 3,
+"onset": 99288.0,
+"reached": 100665.0,
+"tags": [
+"rise_window_24h",
+"rise_measured_from_first_result",
+"creatinine_4_rule_ignored"
+]
+},
+"ICU-066": {
+"max_stage": 2,
+"onset": 94581.75100401607,
+"reached": 94860.00994271686,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-067": {
+"max_stage": 2,
+"onset": 435250.0,
+"reached": 437602.0,
+"tags": [
+"rise_measured_from_first_result"
+]
+},
+"ICU-068": {
+"max_stage": 3,
+"onset": 438254.2781598591,
+"reached": 442014.0,
+"tags": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-069": {
+"max_stage": 2,
+"onset": 91874.0,
+"reached": 92329.02956120092,
+"tags": [
+"umol_read_as_mg",
+"rise_window_24h",
+"urine_windows_at_charting_times_only"
+]
+},
+"ICU-070": {
+"max_stage": 2,
+"onset": 258764.8417721519,
+"reached": 258908.44161073826,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-071": {
+"max_stage": 0,
+"onset": null,
+"reached": null,
+"tags": []
+},
+"ICU-072": {
+"max_stage": 3,
+"onset": 436442.0,
+"reached": 438933.0,
+"tags": [
+"umol_read_as_mg"
+]
+},
+"ICU-073": {
+"max_stage": 1,
+"onset": 258965.0,
+"reached": 258965.0,
+"tags": [
+"umol_read_as_mg",
+"original_kept_over_correction"
+]
+},
+"ICU-074": {
+"max_stage": 2,
+"onset": 92901.38552631579,
+"reached": 93006.18630136986,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-075": {
+"max_stage": 1,
+"onset": 442106.0,
+"reached": 442106.0,
+"tags": []
+},
+"ICU-076": {
+"max_stage": 0,
+"onset": null,
+"reached": null,
+"tags": []
+},
+"ICU-077": {
+"max_stage": 3,
+"onset": 260183.0,
+"reached": 264228.0,
+"tags": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored"
+]
+},
+"ICU-078": {
+"max_stage": 3,
+"onset": 98974.0,
+"reached": 101481.0,
+"tags": [
+"umol_read_as_mg",
+"rise_measured_from_first_result"
+]
+},
+"ICU-079": {
+"max_stage": 3,
+"onset": 94992.22916666667,
+"reached": 95523.0,
+"tags": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-080": {
+"max_stage": 0,
+"onset": null,
+"reached": null,
+"tags": []
+},
+"ICU-081": {
+"max_stage": 0,
+"onset": null,
+"reached": null,
+"tags": [
+"original_kept_over_correction"
+]
+},
+"ICU-082": {
+"max_stage": 1,
+"onset": 437521.21360946744,
+"reached": 437521.21360946744,
+"tags": [
+"original_kept_over_correction",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-083": {
+"max_stage": 2,
+"onset": 436163.31077361177,
+"reached": 436431.4974789916,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-084": {
+"max_stage": 3,
+"onset": 259262.0,
+"reached": 260919.0,
+"tags": []
+},
+"ICU-085": {
+"max_stage": 1,
+"onset": 262214.0,
+"reached": 262214.0,
+"tags": [
+"rise_window_24h",
+"rise_measured_from_first_result"
+]
+},
+"ICU-086": {
+"max_stage": 3,
+"onset": 259408.106097561,
+"reached": 259900.0,
+"tags": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-087": {
+"max_stage": 0,
+"onset": null,
+"reached": null,
+"tags": []
+},
+"ICU-088": {
+"max_stage": 2,
+"onset": 264693.0,
+"reached": 266404.95391239994,
+"tags": [
+"umol_read_as_mg",
+"rise_measured_from_first_result"
+]
+},
+"ICU-089": {
+"max_stage": 1,
+"onset": 257266.0,
+"reached": 257266.0,
+"tags": []
+},
+"ICU-090": {
+"max_stage": 2,
+"onset": 434887.28282828286,
+"reached": 435097.10867572296,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-091": {
+"max_stage": 2,
+"onset": 261286.67329762815,
+"reached": 261636.48863594639,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-092": {
+"max_stage": 1,
+"onset": 438940.0,
+"reached": 438940.0,
+"tags": [
+"rise_window_24h"
+]
+},
+"ICU-093": {
+"max_stage": 3,
+"onset": 435952.3751677852,
+"reached": 436774.14653869224,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-094": {
+"max_stage": 3,
+"onset": 434425.0,
+"reached": 435911.0,
+"tags": []
+},
+"ICU-095": {
+"max_stage": 0,
+"onset": null,
+"reached": null,
+"tags": [
+"original_kept_over_correction"
+]
+},
+"ICU-096": {
+"max_stage": 2,
+"onset": 257514.85060240963,
+"reached": 257611.19393939394,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-097": {
+"max_stage": 2,
+"onset": 91645.50301966292,
+"reached": 93613.0,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-098": {
+"max_stage": 1,
+"onset": 438296.8099175751,
+"reached": 438296.8099175751,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-099": {
+"max_stage": 2,
+"onset": 93018.0,
+"reached": 94259.95372505949,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only"
+]
+},
+"ICU-100": {
+"max_stage": 3,
+"onset": 93131.05224850532,
+"reached": 97017.0,
+"tags": [
+"creatinine_4_rule_ignored",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-101": {
+"max_stage": 2,
+"onset": 97221.0,
+"reached": 99047.0,
+"tags": [
+"umol_read_as_mg"
+]
+},
+"ICU-102": {
+"max_stage": 3,
+"onset": 95449.72915871639,
+"reached": 96512.19101321585,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-103": {
+"max_stage": 2,
+"onset": 96470.22715540911,
+"reached": 98564.0,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-104": {
+"max_stage": 0,
+"onset": null,
+"reached": null,
+"tags": []
+},
+"ICU-105": {
+"max_stage": 3,
+"onset": 98159.0,
+"reached": 100570.0,
+"tags": [
+"umol_read_as_mg"
+]
+},
+"ICU-106": {
+"max_stage": 0,
+"onset": null,
+"reached": null,
+"tags": []
+},
+"ICU-107": {
+"max_stage": 2,
+"onset": 260929.62619047618,
+"reached": 261143.16491796638,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-108": {
+"max_stage": 2,
+"onset": 256912.0,
+"reached": 259026.0,
+"tags": []
+},
+"ICU-109": {
+"max_stage": 3,
+"onset": 96914.29239130435,
+"reached": 97452.0,
+"tags": [
+"urine_windows_at_charting_times_only",
+"anuria_ignored",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-110": {
+"max_stage": 2,
+"onset": 264430.21163166396,
+"reached": 264662.5928917609,
+"tags": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-111": {
+"max_stage": 3,
+"onset": 259016.0,
+"reached": 263004.0,
+"tags": []
+},
+"ICU-112": {
+"max_stage": 3,
+"onset": 92762.0,
+"reached": 94019.0,
+"tags": []
+},
+"ICU-113": {
+"max_stage": 3,
+"onset": 436168.0,
+"reached": 438958.0,
+"tags": [
+"creatinine_4_rule_ignored"
+]
+},
+"ICU-114": {
+"max_stage": 3,
+"onset": 98538.0,
+"reached": 99705.0,
+"tags": [
+"umol_read_as_mg",
+"original_kept_over_correction",
+"rise_measured_from_first_result",
+"creatinine_4_rule_ignored"
+]
+},
+"ICU-115": {
+"max_stage": 1,
+"onset": 93847.28023352794,
+"reached": 93847.28023352794,
+"tags": [
+"original_kept_over_correction",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-116": {
+"max_stage": 2,
+"onset": 92800.19083969465,
+"reached": 95717.0,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-117": {
+"max_stage": 3,
+"onset": 440004.0,
+"reached": 442141.0,
+"tags": []
+},
+"ICU-118": {
+"max_stage": 2,
+"onset": 434039.61267605633,
+"reached": 434214.00636942673,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-119": {
+"max_stage": 2,
+"onset": 98367.8225,
+"reached": 98584.06666666667,
+"tags": [
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+},
+"ICU-120": {
+"max_stage": 2,
+"onset": 93098.7179916318,
+"reached": 93239.30357142857,
+"tags": [
+"umol_read_as_mg",
+"urine_windows_at_charting_times_only",
+"stage1_urine_needs_12h"
+]
+}
+}

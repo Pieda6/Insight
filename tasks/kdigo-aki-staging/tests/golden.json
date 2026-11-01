@@ -1,0 +1,127 @@
+{
+ "patient": {
+  "patient_id": "G",
+  "admitted": "2026-07-01 08:00",
+  "discharged": "2026-07-02 02:00",
+  "age_years": 60,
+  "weight_kg": "80.0",
+  "baseline_creatinine_mg_dl": "1.00"
+ },
+ "creatinine": [
+  {
+   "patient_id": "G",
+   "accession": "G1",
+   "collected": "2026-07-01 08:30",
+   "result": "1.00",
+   "units": "mg/dL",
+   "status": "final"
+  },
+  {
+   "patient_id": "G",
+   "accession": "G2",
+   "collected": "2026-07-02 01:00",
+   "result": "116",
+   "units": "umol/L",
+   "status": "final"
+  }
+ ],
+ "urine": [
+  {
+   "patient_id": "G",
+   "charted": "2026-07-01 09:00",
+   "volume_ml": "50"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-01 10:00",
+   "volume_ml": "50"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-01 11:00",
+   "volume_ml": "50"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-01 12:00",
+   "volume_ml": "50"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-01 13:00",
+   "volume_ml": "50"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-01 14:00",
+   "volume_ml": "50"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-01 15:00",
+   "volume_ml": "30"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-01 16:00",
+   "volume_ml": "30"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-01 17:00",
+   "volume_ml": "30"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-01 18:00",
+   "volume_ml": "30"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-01 19:00",
+   "volume_ml": "30"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-01 20:00",
+   "volume_ml": "30"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-01 21:00",
+   "volume_ml": "30"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-01 22:00",
+   "volume_ml": "30"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-01 23:00",
+   "volume_ml": "30"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-02 00:00",
+   "volume_ml": "30"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-02 01:00",
+   "volume_ml": "30"
+  },
+  {
+   "patient_id": "G",
+   "charted": "2026-07-02 02:00",
+   "volume_ml": "30"
+  }
+ ],
+ "rrt": [],
+ "expect": [
+  2,
+  "2026-07-01 17:00",
+  "2026-07-01 20:00"
+ ],
+ "worked": "80 kg; 50 ml/h (0.625 ml/kg/h) for 6 h, then 30 ml/h (0.375). 6-h volume 300 - 20x after x low hours drops below 0.5 x 80 x 6 = 240 ml at x = 3: stage 1 at 17:00. 12-h volume 600 - 20y drops below 480 ml at y = 6: stage 2 at 20:00. The record ends after 18 h, so no 24-h period. Creatinine 116 umol/L / 88.4 = 1.312 mg/dl at 01:00, 0.31 above 1.00 within 48 h: stage 1. Highest stage 2, first met 17:00, reached 20:00."
+}

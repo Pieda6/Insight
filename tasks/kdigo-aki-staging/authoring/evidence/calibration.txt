@@ -1,0 +1,14 @@
+12 shortcuts, each must fail at least one test
+caught    32 of 120 stages wrong  umol/L read as mg/dL
+caught     4 of 120 stages wrong  original kept over the correction
+caught     2 of 120 stages wrong  rise window 24 hours
+caught     2 of 120 stages wrong  rise compared with the first result only
+caught     7 of 120 stages wrong  rise to 4.0 mg/dl ignored
+caught     2 of 120 stages wrong  renal replacement ignored
+caught     0 of 120 stages wrong  urine periods ending at charting times only
+caught     7 of 120 stages wrong  anuria ignored
+caught     1 of 120 stages wrong  stage 1 urine needs 12 hours
+caught    16 of 120 stages wrong  urine per kg ignored (ml/h)
+caught     0 of 120 stages wrong  clock change ignored
+caught    18 of 120 stages wrong  ratio stages ignored beyond stage 1
+CALIBRATION: every shortcut caught

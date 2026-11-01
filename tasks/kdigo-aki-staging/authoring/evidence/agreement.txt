@@ -1,0 +1,17 @@
+admissions 120, creatinine records 1034, urine chartings 7001, renal replacement starts 7
+highest stage: {0: 15, 1: 15, 2: 49, 3: 41}
+creatinine records by units: {'mg/dL': 663, 'umol/L': 371} corrected: 83 rejected or cancelled: 55
+admissions crossing a clock change: 76
+admissions per family (row changes if that reading is misread):
+  anuria_ignored: 10
+  creatinine_4_rule_ignored: 8
+  original_kept_over_correction: 10
+  renal_replacement_ignored: 4
+  rise_measured_from_first_result: 12
+  rise_window_24h: 10
+  stage1_urine_needs_12h: 56
+  umol_read_as_mg: 42
+  urine_windows_at_charting_times_only: 65
+generator vs engine: stage mismatches 0, worst time difference 1.9e-09 min
+solution vs engine (stage exact, times within half a minute): 0 mismatches
+AGREEMENT: OK

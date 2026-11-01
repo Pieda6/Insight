@@ -1,0 +1,232 @@
+
+
+
+
+Kidney International Supplements (2012) 2, 7                                                                                             7
+                                                                                                       http://www.kidney-international.org
+                                                                                                                                 & 2012 KDIGO
+
+
+
+
+Summary of Recommendation Statements
+Kidney International Supplements (2012) 2, 8–12; doi:10.1038/kisup.2012.7
+
+
+
+
+Section 2: AKI Definition
+2.1.1: AKI is defined as any of the following (Not Graded):
+        K Increase in SCr by X0.3 mg/dl (X26.5 lmol/l) within 48 hours; or
+
+        K Increase in SCr to X1.5 times baseline, which is known or presumed to have occurred within the prior 7 days; or
+
+        K Urine volume o0.5 ml/kg/h for 6 hours.
+
+
+
+
+2.1.2: AKI is staged for severity according to the following criteria (Table 2). (Not Graded)
+
+Table 2 | Staging of AKI
+Stage                      Serum creatinine                                                                     Urine output
+1                          1.5–1.9 times baseline                                                               o0.5 ml/kg/h for 6–12 hours
+                              OR
+                           X0.3 mg/dl (X26.5 mmol/l) increase
+
+2                          2.0–2.9 times baseline                                                               o0.5 ml/kg/h for X12 hours
+
+3                          3.0 times baseline                                                                   o0.3 ml/kg/h for X24 hours
+                              OR                                                                                  OR
+                           Increase in serum creatinine to X4.0 mg/dl (X353.6 mmol/l)                           Anuria for X12 hours
+                              OR
+                           Initiation of renal replacement therapy
+                           OR, In patients o18 years, decrease in eGFR to o35 ml/min per 1.73 m2
+
+
+2.1.3: The cause of AKI should be determined whenever possible. (Not Graded)
+2.2.1: We recommend that patients be stratified for risk of AKI according to their susceptibilities and exposures. (1B)
+2.2.2: Manage patients according to their susceptibilities and exposures to reduce the risk of AKI (see relevant guideline
+       sections). (Not Graded)
+2.2.3: Test patients at increased risk for AKI with measurements of SCr and urine output to detect AKI. (Not Graded)
+       Individualize frequency and duration of monitoring based on patient risk and clinical course. (Not Graded)
+2.3.1: Evaluate patients with AKI promptly to determine the cause, with special attention to reversible causes.
+       (Not Graded)
+2.3.2: Monitor patients with AKI with measurements of SCr and urine output to stage the severity, according to
+       Recommendation 2.1.2. (Not Graded)
+2.3.3: Manage patients with AKI according to the stage (see Figure 4) and cause. (Not Graded)
+2.3.4: Evaluate patients 3 months after AKI for resolution, new onset, or worsening of pre-existing CKD. (Not Graded)
+         K If patients have CKD, manage these patients as detailed in the KDOQI CKD Guideline (Guidelines 7–15).
+
+            (Not Graded)
+         K If patients do not have CKD, consider them to be at increased risk for CKD and care for them as detailed in
+
+            the KDOQI CKD Guideline 3 for patients at increased risk for CKD. (Not Graded)
+
+
+
+Section 3: Prevention and Treatment of AKI
+3.1.1: In the absence of hemorrhagic shock, we suggest using isotonic crystalloids rather than colloids (albumin or
+       starches) as initial management for expansion of intravascular volume in patients at risk for AKI or with AKI. (2B)
+3.1.2: We recommend the use of vasopressors in conjunction with fluids in patients with vasomotor shock with, or at risk
+       for, AKI. (1C)
+
+8                                                                                                  Kidney International Supplements (2012) 2, 8–12
+                                                                            summary of recommendation statements
+
+
+
+
+Figure 4 | Stage-based management of AKI. Shading of boxes indicates priority of action—solid shading indicates actions that are equally
+appropriate at all stages whereas graded shading indicates increasing priority as intensity increases. AKI, acute kidney injury; ICU, intensive-
+
+Chapter 2.1: Definition and classification of AKI
+INTRODUCTION                                                                  Table 2 | Staging of AKI
+AKI is one of a number of conditions that affect kidney                       Stage   Serum creatinine                          Urine output
+structure and function. AKI is defined by an abrupt decrease
+                                                                              1       1.5–1.9 times baseline                    o0.5 ml/kg/h for
+in kidney function that includes, but is not limited to, ARF. It
+                                                                                         OR                                     6–12 hours
+is a broad clinical syndrome encompassing various etiologies,                         X0.3 mg/dl (X26.5 mmol/l) increase
+including specific kidney diseases (e.g., acute interstitial
+                                                                              2       2.0–2.9 times baseline                    o0.5 ml/kg/h for
+nephritis, acute glomerular and vasculitic renal diseases);                                                                     X12 hours
+non-specific conditions (e.g, ischemia, toxic injury); as well
+                                                                              3       3.0 times baseline                        o0.3 ml/kg/h for
+as extrarenal pathology (e.g., prerenal azotemia, and acute                              OR                                     X24 hours
+postrenal obstructive nephropathy)—see Chapters 2.2 and                               Increase in serum creatinine to             OR
+2.3 for further discussion. More than one of these conditions                         X4.0 mg/dl (X353.6 mmol/l)                Anuria for X12 hours
+                                                                                         OR
+may coexist in the same patient and, more importantly,                                Initiation of renal replacement therapy
+epidemiological evidence supports the notion that even mild,                          OR, In patients o18 years, decrease in
+reversible AKI has important clinical consequences, including                         eGFR to o35 ml/min per 1.73 m2
+increased risk of death.2,5 Thus, AKI can be thought of more
+like acute lung injury or acute coronary syndrome.
+Furthermore, because the manifestations and clinical con-                     2.1.2: AKI is staged for severity according to the following
+sequences of AKI can be quite similar (even indistinguish-                           criteria (Table 2). (Not Graded)
+able) regardless of whether the etiology is predominantly                     2.1.3: The cause of AKI should be determined whenever
+within the kidney or predominantly from outside stresses on                          possible. (Not Graded)
+the kidney, the syndrome of AKI encompasses both direct
+injury to the kidney as well as acute impairment of function.                 RATIONALE
+Since treatments of AKI are dependent to a large degree on                    Conditions affecting kidney structure and function can be
+the underlying etiology, this guideline will focus on specific                considered acute or chronic, depending on their duration.
+diagnostic approaches. However, since general therapeutic                     AKI is one of a number of acute kidney diseases and
+and monitoring recommendations can be made regarding all                      disorders (AKD), and can occur with or without other acute
+forms of AKI, our approach will be to begin with general                      or chronic kidney diseases and disorders (Figure 2). Whereas
+measures.                                                                     CKD has a well-established conceptual model and definition
+                                                                              that has been useful in clinical medicine, research, and public
+Definition and staging of AKI                                                 health,42–44 the definition for AKI is evolving, and the
+AKI is common, harmful, and potentially treatable. Even                       concept of AKD is relatively new. An operational definition
+a minor acute reduction in kidney function has an adverse                     of AKD for use in the diagnostic approach to alterations
+prognosis. Early detection and treatment of AKI may                           in kidney function and structure is included in Chapter 2.5,
+improve outcomes. Two similar definitions based on SCr                        with further description in Appendix B.
+and urine output (RIFLE and AKIN) have been proposed and                          The conceptual model of AKI (Figure 3) is analogous to
+validated. There is a need for a single definition for practice,              the conceptual model of CKD, and is also applicable to
+research, and public health.                                                  AKD.42,45 Circles on the horizontal axis depict stages in the
+                                                                              development (left to right) and recovery (right to left) of
+2.1.1: AKI is defined as any of the following (Not Graded):                   AKI. AKI (in red) is defined as reduction in kidney function,
+        K Increase in SCr by X0.3 mg/dl (X26.5 lmol/l)                        including decreased GFR and kidney failure. The criteria for
+          within 48 hours; or                                                 the diagnosis of AKI and the stage of severity of AKI are
+        K Increase in SCr to X1.5 times baseline, which                       based on changes in SCr and urine output as depicted in the
+          is known or presumed to have occurred within                        triangle above the circles. Kidney failure is a stage of AKI
+          the prior 7 days; or                                                highlighted here because of its clinical importance. Kidney
+        K Urine volume o0.5 ml/kg/h for 6 hours.                              failure is defined as a GFR o15 ml/min per 1.73 m2 body
+
+Kidney International Supplements (2012) 2, 19–36                                                                                                   19
+chapter 2.1
+
+
+surface area, or requirement for RRT, although it is                         Existing evidence supports the validity of both RIFLE and
+recognized that RRT may be required earlier in the evolution              AKIN criteria to identify groups of hospitalized patients with
+of AKI. Further description is included in Chapter 2.5 and                increased risk of death and/or need for RRT.2,5,25,28–30
+Appendix A.                                                               Epidemiological studies, many multicentered, collectively
+   It is widely accepted that GFR is the most useful overall              enrolling more than 500 000 subjects have been used to
+index of kidney function in health and disease, and changes               establish RIFLE and/or AKIN criteria as valid methods to
+in SCr and urine output are surrogates for changes in GFR. In             diagnose and stage AKI. Recently, Joannidis et al.29 directly
+clinical practice, an abrupt decline in GFR is assessed from an           compared RIFLE criteria with and without the AKIN
+increase in SCr or oliguria. Recognizing the limitations of the           modification. While AKI classified by either criteria were
+use of a decrease in kidney function for the early detection              associated with a similarly increased hospital mortality, the
+and accurate estimation of renal injury (see below), there is a           two criteria identified somewhat different patients. The
+broad consensus that, while more sensitive and specific                   original RIFLE criteria failed to detect 9% of cases that were
+biomarkers are needed, changes in SCr and/or urine output                 detected by AKIN criteria. However, the AKIN criteria missed
+form the basis of all diagnostic criteria for AKI. The first              26.9% of cases detected by RIFLE. Examination of the cases
+international interdisciplinary consensus criteria for diag-              missed by either criteria (Table 4) shows that cases identified
+nosis of AKI were the RIFLE criteria32 proposed by the                    by AKIN but missed by RIFLE were almost exclusively Stage 1
+ADQI. Modifications to these criteria have been proposed in               (90.7%), while cases missed by AKIN but identified by RIFLE
+order to better account for pediatric populations (pRIFLE)32              included 30% with RIFLE-I and 18% RIFLE-F; furthermore,
+and for small changes in SCr not captured by RIFLE (AKIN                  these cases had hospital mortality similar to cases identified
+criteria).23 Recommendations 2.1.1 and 2.1.2 represent the                by both criteria (37% for I and 41% for F). However, cases
+combination of RIFLE and AKIN criteria (Table 3).                         missed by RIFLE but identified as Stage 1 by AKIN also had
+                                                                          hospital mortality rates nearly twice that of patients who had
+                                                                          no evidence of AKI by either criteria (25% vs. 13%). These
+                                                                          data provide strong rationale for use of both RIFLE and
+                                                                          AKIN criteria to identify patients with AKI.
+               AKD        AKI            CKD                                 Staging of AKI (Recommendation 2.1.2) is appropriate
+                                                                          because, with increased stage of AKI, the risk for death and
+                                                                          need for RRT increases.2,5,25,28–31 Furthermore, there is now
+Figure 2 | Overview of AKI, CKD, and AKD. Overlapping ovals               accumulating evidence of long-term risk of subsequent
+show the relationships among AKI, AKD, and CKD. AKI is a subset           development of cardiovascular disease or CKD and mortality,
+of AKD. Both AKI and AKD without AKI can be superimposed                  even after apparent resolution of AKI.47–49
+upon CKD. Individuals without AKI, AKD, or CKD have no known
+kidney disease (NKD), not shown here. AKD, acute kidney diseases
+                                                                             For staging purposes, patients should be staged accord-
+and disorders; AKI, acute kidney injury; CKD, chronic kidney              ing to the criteria that give them the highest stage. Thus
+disease.                                                                  when creatinine and urine output map to different stages,
+
+
+
+                                   Stages defined by                                 Complications
+                                   creatinine and
+                                   urine output
+                                   are surrogates
+                                                                   GFR
+
+                                           Increased                                         Kidney
+                            Normal                          Damage           ↓ GFR                              Death
+                                              risk                                           failure
+
+                                                                                       Damage
+
+                                  Antecedents                                                        Markers such
+                                  Intermediate Stage                                                 as NGAL, KIM-1,
+                                  AKI                                                                and IL-18 are
+                                  Outcomes                                                           surrogates
+
+Figure 3 | Conceptual model for AKI. Red circles represent stages of AKI. Yellow circles represent potential antecedents of AKI, and the
+pink circle represents an intermediate stage (not yet defined). Thick arrows between circles represent risk factors associated with the
+initiation and progression of disease that can be affected or detected by interventions. Purple circles represent outcomes of AKI.
+‘‘Complications’’ refers to all complications of AKI, including efforts at prevention and treatment, and complications in other organ systems.
+AKI, acute kidney injury; GFR, glomerular filtration rate. Adapted from Murray PT, Devarajan P, Levey AS, et al. A framework and key research
+questions in AKI diagnosis and staging in different environments. Clin J Am Soc Nephrol 2008; 3: 864–868 with permission from American
+Society of Nephrology45 conveyed through Copyright Clearance Center, Inc.; accessed http://cjasn.asnjournals.org/content/3/3/864.full
+
+20                                                                                                        Kidney International Supplements (2012) 2, 19–36
+                                                                                                                                                           chapter 2.1
+
+
+Table 3 | Comparison of RIFLE and AKIN criteria for diagnosis and classification of AKI
+                        AKI staging                                Urine output                                                           RIFLE
+                     Serum creatinine                              (common to both)                     Class                    Serum creatinine or GFR
+Stage 1 Increase of more than or equal to 0.3 mg/dl                Less than 0.5 ml/kg/h for            Risk                     Increase in serum creatinine  1.5 or GFR
+(X26.5 mmol/l) or increase to more than or equal to                more than 6 hours                                             decrease 425%
+150% to 200% (1.5- to 2-fold) from baseline
+Stage 2 Increased to more than 200% to 300%                        Less than 0.5 ml/kg per hour         Injury                   Serum creatinine  2 or GFR decreased
+(42- to 3-fold) from baseline                                      for more than 12 hours                                        450%
+Stage 3 Increased to more than 300% (43-fold)                      Less than 0.3 ml/kg/h for            Failure                  Serum creatinine  3, or serum creatinine
+from baseline, or more than or equal to 4.0 mg/dl                  24 hours or anuria for                                        44 mg/dl (4354 mmol/l) with an acute
+(X354 mmol/l) with an acute increase of at least                   12 hours                                                      rise 40.5 mg/dl (444 mmol/l) or GFR
+0.5 mg/dl (44 mmol/l) or on RRT                                                                                                  decreased 475%
+                                                                                                        Loss                     Persistent acute renal failure=complete
+                                                                                                                                 loss of kidney function 44 weeks
+                                                                                                        End-stage kidney         ESRD 43 months
+                                                                                                        disease
+Note: For conversion of creatinine expressed in SI units to mg/dl, divide by 88.4. For both AKIN stage and RIFLE criteria, only one criterion (creatinine rise or urine output
+decline) needs to be fulfilled. Class is based on the worst of either GFR or urine output criteria. GFR decrease is calculated from the increase in serum creatinine above
+baseline. For AKIN, the increase in creatinine must occur in o48 hours. For RIFLE, AKI should be both abrupt (within 1–7 days) and sustained (more than 24 hours). When
+baseline creatinine is elevated, an abrupt rise of at least 0.5 mg/dl (44 mmol/l) to 44 mg/dl (4354 mmol/l) is sufficient for RIFLE class Failure (modified from Mehta et al.23 and
+the report of the Acute Dialysis Quality Initiative consortium22).
+AKI, acute kidney injury; AKIN, Acute Kidney Injury Network; ESRD, end-stage renal disease; GFR, glomerular filtration rate; RIFLE, risk, injury, failure, loss, and end stage; RRT,
+renal replacement therapy. Reprinted from Endre ZH. Acute kidney injury: definitions and new paradigms. Adv Chronic Kidney Dis 2008; 15: 213–221 with permission from
+National Kidney Foundation46; accessed http://www.ackdjournal.org/article/S1548-5595(08)00049-9/fulltext
+
+

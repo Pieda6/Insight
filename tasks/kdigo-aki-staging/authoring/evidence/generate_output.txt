@@ -1,0 +1,11 @@
+patients 120, creatinine records 1034, urine chartings 7001, renal replacement starts 7, redrawn 44
+max stage: {0: 15, 1: 15, 2: 49, 3: 41}
+  umol_read_as_mg: 42 patients changed
+  original_kept_over_correction: 10 patients changed
+  rise_window_24h: 10 patients changed
+  rise_measured_from_first_result: 12 patients changed
+  creatinine_4_rule_ignored: 8 patients changed
+  renal_replacement_ignored: 4 patients changed
+  urine_windows_at_charting_times_only: 65 patients changed
+  anuria_ignored: 10 patients changed
+  stage1_urine_needs_12h: 56 patients changed
