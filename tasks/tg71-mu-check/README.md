@@ -24,7 +24,7 @@ depth, and 20 are fixed-SSD setups at 90 to 120 cm; 28 have asymmetric jaws. The
 square-root rule of Eq. (13) for rectangular inserts (9 wrong by equivalent square), the isodose line of the
 prescription (12 wrong without it), and at extended distance (11 beams at 105 to 115 cm) the effective SSD of Eq. (11)
 or the air gap factor of Eq. (12) and (22), as each plan states. Nothing in the data lets a solver check its own
-answer. Each of 13 shortcuts tried (authoring/evidence/calibration.txt) gets beams wrong.
+answer. Each of 15 shortcuts tried (authoring/evidence/calibration.txt) gets beams wrong.
 
 ## Solution
 

@@ -1,0 +1,109 @@
+Excerpts from AAPM TG-71 (Gibbons et al., Med Phys 2014;41(3):031501), text as extracted from the published PDF.
+These are the report's rules for rectangular electron fields that the verifier applies.
+
+== Sec. 2.B.2, Field-size determination (output factor, Eq. 13) ==
+where g is the difference between the treatment SSD and the calibration SSD, and fair is the air-gap correction factor for the given
+field size and SSD.
+
+2.B.2. Field-size determination
+
+We follow the AAPM TG70 notation in that ra represents
+the applicator and insert size for the electron beam under consideration. The vendor-stated applicator size is typically used,
+which may be defined at either the isocenter or at the applicator base. In this report, the insert size represents the size
+of the electron field incident on the patient, projected to the
+isocenter.
+For rectangular electron fields, where the insert size is
+L × W, the square root (geometric mean) method of Mills
+et al.,40 should be utilized
+Se (ra , L × W ) = [(Se (ra , L × L)) · (Se (ra , W × W ))]1/2 ,
+(13)
+where the same applicator size for all field sizes is implicit.
+Shiu et al.,39 found this method to be more accurate than the
+equivalent square method of Meyer et al.41
+It is also recommended that the square root method be used
+to determine PDD for rectangular fields. Shiu et al.39 found
+that the square root method determines rectangular field PDD
+to within 1%. When applying this method, the depths of maximum dose may not be the same for each field size, so a final
+renormalization of the geometric mean calculation may be required.
+There are many methods of determining the output factor
+for an irregularly shaped electron field. Many centers measure the output for each irregular field, especially if their use
+is infrequent. If the physicist keeps track of the results, then
+Medical Physics, Vol. 41, No. 3, March 2014
+
+previously measured data may be used if the energy is the
+same and the field shape and size are similar.
+A second method of determining the dose output is
+
+== Sec. 3.B.2.d, Effective SSDs (rectangular fields) ==
+93.3
+
+Sharma and Johnson111 suggested that a single SSDeff for
+each energy can be used for field sizes larger than 10
+× 10 cm2 . Table VIII displays SSDeff , categorized by insert size and energy. SSDeff is smallest for small fields and
+low electron energy. For rectangular field sizes, it is recommended that the geometric mean of SSDeff for each side be
+used as the SSDeff , as this can be shown to be equivalent to
+the square root method of Mills et al.112 The field size dependence is caused by a lack of lateral scatter equilibrium for
+small apertures.40, 113 Potential dose-delivering electrons near
+the central axis are scattered out of the field and not fully replaced by electrons originating peripheral to the central axis.
+The net loss of scatter to the central axis causes the fluence to
+
+== Sec. 3.B.2.e, Air-gap correction factors (Eq. 21, 22) ==
+SSD + dm (ra ) 2
+D  (ra , SSD)
+·
+,
+fair (ra , SSD) = 
+D (ra , SSD0 )
+SSD0 + dm (ra )
+(21)
+
+(20)
+
+where dm is the depth of maximum dose on central axis for the
+field of interest. SSDeff for field sizes that have not been measured can be interpolated. In cases of extreme field irregularity
+or large gaps from SSD0 , special dosimetry is recommended.
+For a given applicator, there is a strong dependence of
+SSDeff on insert size.109 Investigators have shown that SSDeff
+is only weakly dependent on the applicator40, 110 so tables
+of SSDeff versus insert size are clinically adequate. In fact,
+Medical Physics, Vol. 41, No. 3, March 2014
+
+031501-21
+
+where D (ra , SSD) is the measured output for the given SSD.
+For rectangular fields, fair may be estimated using the
+square-root method:
+1
+
+fair (L × W ) = [fair (L × L) × fair (W × W )] 2 ,
+
+(22)
+
+where the same applicator is again implicit in the equation.
+It should be noted that nominal rather than virtual SSDs are
+used in Eq. (21). Although this method differs from the TG-25
+implementation,7 the corresponding difference in the inverse
+
+
+== Sec. 8.B, Example 2 ==
+= 200 MU.
+(30)
+2. Repeat the calculation for a treatment at 110 SSD.
+
+1. Calculate the MUs required to deliver 200 cGy to a
+depth of dm at 100-cm SSD for a 6 × 10-cm2 insert
+in a 15 × 15-cm2 applicator.Answer: For the standard 100-cm SSD, the MU can be obtained using
+Eq. (10). Using data from Table VII and the squareroot rule for the output factor, the total MUs are
+
+Answer: The problem may be solved using either the effective SSD technique or the air-gap technique. For the effective
+SSD technique, SSDeff is found in Table VIII using the field
+size of the insert (6 × 10-cm2 ). For the rectangular field, the
+geometric mean of the corrections for each of the dimensions
+of the insert size is used. The MUs are found using Eq. (11),
+
+MU =
+(1.0 cGy/MU) ·
+
+√
+
+200 cGy

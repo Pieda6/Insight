@@ -152,6 +152,7 @@ def electron_mu(t, b, gm_corr=False, sk=frozenset()):
     if "se_equivalent_square" in sk:
         se = t.se(eqsq(L, W), app)
     else:
+        # TG-71 Sec. 2.B.2, Eq. (13): "For rectangular electron fields ... the square root (geometric mean) method".
         se = math.sqrt(t.se(L, app) * t.se(W, app))
     pdd = 100.0 if "isodose_ignored" in sk else b["prescription_isodose_pct"]
     g = b["ssd_cm"] - ssd0
@@ -163,9 +164,14 @@ def electron_mu(t, b, gm_corr=False, sk=frozenset()):
             elif gm_corr:
                 corr = math.prod((t.ssdeff(s) + dm) / (t.ssdeff(s) + dm + g) for s in (L, W))
             else:
+                # TG-71 Sec. 3.B.2.d: "For rectangular field sizes, it is recommended that the geometric mean of
+                # SSDeff for each side be used as the SSDeff"; Sec. 8.B example 2 takes the geometric mean of the
+                # two corrections instead (gm_corr), so both are allowed.
                 s = math.sqrt(t.ssdeff(L) * t.ssdeff(W))
                 corr = ((s + dm) / (s + dm + g)) ** 2
         else:
+            # TG-71 Sec. 3.B.2.e, Eq. (22): "For rectangular fields, fair may be estimated using the square-root
+            # method: fair(L x W) = [fair(L x L) x fair(W x W)]^(1/2)".
             fair = 1.0 if "air_gap_factor_ignored" in sk else math.sqrt(t.fair(L, b["ssd_cm"]) * t.fair(W, b["ssd_cm"]))
             corr = ((ssd0 + dm) / (ssd0 + dm + g)) ** 2 * fair
     return b["dose_cgy"] * 100.0 / (D0 * pdd * se * corr)

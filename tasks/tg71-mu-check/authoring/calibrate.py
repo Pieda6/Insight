@@ -30,6 +30,9 @@ S = {
                                               "se = SE(2 * L * W / (L + W), app)")],
     "prescription isodose ignored": [('* b["prescription_isodose_pct"] *', '* 100.0 *')],
     "effective SSD ignored": [("s = math.sqrt(SSD_EFF(L) * SSD_EFF(W))", 's = m["ssd0_cm"]')],
+    "effective SSD by equivalent square": [("s = math.sqrt(SSD_EFF(L) * SSD_EFF(W))", "s = SSD_EFF(2 * L * W / (L + W))")],
+    "air gap factor by equivalent square": [('fair = math.sqrt(FAIR(L, b["ssd_cm"]) * FAIR(W, b["ssd_cm"]))',
+                                            'fair = FAIR(2 * L * W / (L + W), b["ssd_cm"])')],
     "air gap factor ignored": [('fair = math.sqrt(FAIR(L, b["ssd_cm"]) * FAIR(W, b["ssd_cm"]))', "fair = 1.0")],
 }
 
