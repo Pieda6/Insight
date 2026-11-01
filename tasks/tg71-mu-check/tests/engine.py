@@ -1,4 +1,4 @@
-"""Verifier engine for tg71-monitor-unit-check: monitor units under AAPM TG-71 (Med Phys 2014;41:031501).
+"""Verifier engine for tg71-mu-check: monitor units under AAPM TG-71 (Med Phys 2014;41:031501).
 
 Photon beams: Eq. (1) (TPR) and Eq. (3) (PDDN), with Eq. (4) for Sc of a tertiary-MLC or tray-blocked field, the
 patient-incident field projected to the depth of calculation for Sp, TPR and WF (to the normalization depth for Sp in

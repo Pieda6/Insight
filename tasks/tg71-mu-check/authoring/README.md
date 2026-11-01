@@ -1,4 +1,4 @@
-# Authoring tools for tg71-monitor-unit-check
+# Authoring tools for tg71-mu-check
 
 These files are not copied into the agent or verifier images. Run them from this folder. None of them writes
 `__pycache__`.

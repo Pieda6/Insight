@@ -1,4 +1,4 @@
-"""Reference solution for tg71-monitor-unit-check.
+"""Reference solution for tg71-mu-check.
 
 Photon beams use the TPR formalism of TG-71 Eq. (1) for every setup; electron beams use Eq. (10) to (13), (22).
 """

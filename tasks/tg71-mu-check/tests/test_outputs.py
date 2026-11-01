@@ -1,4 +1,4 @@
-"""Verifier for tg71-monitor-unit-check.
+"""Verifier for tg71-mu-check.
 
 Every beam is recomputed by an independent engine (engine.py) from the verifier's private copy of the inputs. An MU
 is right when it is within 0.3 percent of an MU the protocol allows for that beam (Eq. (1) or Eq. (3) for photons,

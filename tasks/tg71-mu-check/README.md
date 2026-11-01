@@ -1,4 +1,4 @@
-# tg71-monitor-unit-check
+# tg71-mu-check
 
 Independent monitor unit check under the report of AAPM Task Group 71, Monitor unit calculations for photon and
 electron beams (Gibbons et al., Med Phys 2014;41(3):031501), for 91 beams of 33 treatment plans on a Varian Clinac

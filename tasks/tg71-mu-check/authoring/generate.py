@@ -1,4 +1,4 @@
-"""Generate the treatment plans for tg71-monitor-unit-check (seed 20140301).
+"""Generate the treatment plans for tg71-mu-check (seed 20140301).
 
 Writes environment/data/plans.json and the same file into tests/data, tests/case_tags.json (for each beam, the
 misreadings that move its MU outside the tolerance of every MU the protocol allows) and evidence/answers.json.
