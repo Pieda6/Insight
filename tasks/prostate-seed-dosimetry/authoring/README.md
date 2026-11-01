@@ -28,7 +28,7 @@ These files are not copied into the agent or verifier images. Run them from this
   they repeat). Points: 8 urethra, 4 rectum, 3 on the prostate surface, 3 inside it and the two femoral heads 8.0
   to 10.8 cm lateral; every point is at least
   0.30 cm from every seed centre (more than L/2, where the report says the polar formalism breaks down) and 0.05
-  cm off every seed axis (174 drawn patients were redrawn for this). Answers are computed from the written values.
+  cm off every seed axis (134 drawn patients were redrawn for this). Answers are computed from the written values.
 - Families: a point carries a family tag when the generator's dose with that one rule misread differs by more
   than 0.15 percent from the correct dose.
 
