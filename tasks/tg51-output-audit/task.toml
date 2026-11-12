@@ -1,0 +1,29 @@
+artifacts = ["/app/output/"]
+
+schema_version = "2.0"
+
+[task]
+name = "insight/tg51-output-audit"
+description = "Independent review of annual linac output calibrations under AAPM TG-51 (Med Phys 1999;26:1847) and its 2014 photon addendum for 138 photon and electron beams at twelve clinics: from raw chamber readings, depth scans with and without lead foil, chamber-axis profiles and clinical depth-dose data, the dose per MU at the reference point and at dmax, with flattening-filter-free beams, SAD and SSD set-ups and cross-calibrated plane-parallel chambers."
+
+[metadata]
+domain = "Science"
+field = "Medicine"
+subfield = "Radiation Oncology and Medical Physics"
+tags = ["radiation-oncology", "medical-physics", "reference-dosimetry", "tg-51", "ion-chamber", "linac-calibration", "python"]
+expert_time_estimate_hours = 8
+relevant_experience = "Clinical medical physics: annual linac output calibration under AAPM TG-51 and its 2014 addendum, ion chamber correction factors (PTP, Pion, Ppol, Pelec, Prp), beam quality specification with lead foil, kQ selection by chamber model, electron beam reference dosimetry and cross-calibration of plane-parallel chambers."
+
+[verifier]
+timeout_sec = 300.0
+environment_mode = "separate"
+
+[agent]
+timeout_sec = 28800.0
+
+[environment]
+build_timeout_sec = 900.0
+cpus = 1
+memory_mb = 2048
+storage_mb = 10240
+gpus = 0

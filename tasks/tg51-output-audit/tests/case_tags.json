@@ -1,0 +1,975 @@
+{
+ "C01-L1-15X": [
+  "pressure_unit",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C01-L1-10X": [
+  "pressure_unit",
+  "ppol_wrong_reading",
+  "no_shift"
+ ],
+ "C01-L1-6FFF": [
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C01-L2-6FFF": [
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "sad_with_pdd"
+ ],
+ "C01-L2-15X": [
+  "pressure_unit",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C02-L1-18X": [
+  "temp_unit",
+  "pressure_unit",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C02-L1-15X": [
+  "temp_unit",
+  "ppol_ignored",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C02-L1-6FFF": [
+  "temp_unit",
+  "pressure_unit",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C02-L1-6X": [
+  "temp_unit",
+  "pressure_unit",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift"
+ ],
+ "C02-L1-9MeV": [
+  "temp_unit",
+  "pressure_unit",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C02-L1-12MeV": [
+  "temp_unit",
+  "pressure_unit",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C02-L1-20MeV": [
+  "temp_unit",
+  "pion_ignored",
+  "pion_continuous"
+ ],
+ "C03-L1-6FFF": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C03-L1-18X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "no_shift",
+  "tg51_kq",
+  "dmax_with_dd10x"
+ ],
+ "C04-L1-10FFF": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C04-L1-6X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "sad_with_pdd"
+ ],
+ "C04-L1-6FFF": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C04-L1-6MeV": [
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C04-L1-9MeV": [
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C04-L1-16MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C05-L1-10FFF": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_ignored",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C05-L1-18X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "sad_with_pdd"
+ ],
+ "C05-L1-9MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C05-L1-12MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C05-L1-16MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "kr50_swapped"
+ ],
+ "C05-L1-20MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous"
+ ],
+ "C05-L2-6X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift"
+ ],
+ "C05-L2-18X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C05-L2-6MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped",
+  "crosscal_pelec"
+ ],
+ "C05-L2-9MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped",
+  "crosscal_pelec"
+ ],
+ "C05-L2-12MeV": [
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C05-L2-16MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C05-L2-20MeV": [
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous"
+ ],
+ "C06-L1-6FFF": [
+  "pressure_unit",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "sad_with_pdd"
+ ],
+ "C06-L1-10X": [
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift"
+ ],
+ "C06-L1-15X": [
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift"
+ ],
+ "C06-L1-6MeV": [
+  "pressure_unit",
+  "ppol_ignored",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C06-L1-9MeV": [
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C06-L1-12MeV": [
+  "pressure_unit",
+  "ppol_ignored",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C06-L1-20MeV": [
+  "pion_ignored",
+  "pion_continuous"
+ ],
+ "C07-L1-6X": [
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "sad_with_pdd"
+ ],
+ "C07-L1-10X": [
+  "pion_ignored",
+  "pion_continuous",
+  "sad_with_pdd"
+ ],
+ "C07-L1-15X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C07-L1-6MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "kr50_swapped",
+  "crosscal_pelec"
+ ],
+ "C07-L1-9MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "kr50_swapped",
+  "crosscal_pelec"
+ ],
+ "C07-L1-12MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_ignored",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C07-L1-16MeV": [
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C07-L1-20MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous"
+ ],
+ "C07-L2-10X": [
+  "pion_ignored",
+  "pion_continuous",
+  "sad_with_pdd"
+ ],
+ "C07-L2-15X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C07-L3-18X": [
+  "pelec_wrong_range",
+  "pion_ignored",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C07-L3-10X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift"
+ ],
+ "C07-L3-15X": [
+  "pressure_unit",
+  "pion_ignored",
+  "pion_continuous",
+  "sad_with_pdd"
+ ],
+ "C07-L3-6MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_ignored",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C07-L3-9MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "kr50_swapped",
+  "crosscal_pelec"
+ ],
+ "C07-L3-20MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous"
+ ],
+ "C08-L1-10X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C08-L1-6FFF": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C08-L1-18X": [
+  "pelec_wrong_range",
+  "ppol_ignored",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C08-L1-6X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "no_shift"
+ ],
+ "C08-L2-6FFF": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C08-L2-10X": [
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C08-L2-6X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift"
+ ],
+ "C09-L1-10X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift"
+ ],
+ "C09-L1-6X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "sad_with_pdd"
+ ],
+ "C09-L1-15X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C09-L1-6MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C09-L1-9MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_ignored",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C09-L1-12MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C09-L1-16MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C09-L2-15X": [
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C09-L2-10X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "sad_with_pdd"
+ ],
+ "C09-L2-10FFF": [
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_ignored",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C09-L2-6FFF": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C09-L3-18X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C09-L3-15X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C09-L3-6FFF": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C09-L3-6MeV": [
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C09-L3-9MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_ignored",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C09-L3-12MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C09-L3-16MeV": [
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C09-L3-20MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous"
+ ],
+ "C10-L1-18X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C10-L1-15X": [
+  "pressure_unit",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C10-L1-6FFF": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C10-L1-6X": [
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift"
+ ],
+ "C10-L1-6MeV": [
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C10-L1-9MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C10-L1-12MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "kr50_swapped"
+ ],
+ "C10-L1-16MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C10-L1-20MeV": [
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous"
+ ],
+ "C10-L2-18X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C10-L2-10FFF": [
+  "pressure_unit",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_ignored",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C10-L2-6X": [
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift"
+ ],
+ "C10-L2-6MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C10-L2-12MeV": [
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C10-L2-16MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C10-L2-20MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous"
+ ],
+ "C10-L3-10X": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_ignored",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift"
+ ],
+ "C10-L3-18X": [
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "sad_with_pdd"
+ ],
+ "C10-L3-6MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C10-L3-9MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C10-L3-12MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C11-L1-10X": [
+  "pion_ignored",
+  "pion_continuous",
+  "sad_with_pdd"
+ ],
+ "C11-L1-18X": [
+  "pressure_unit",
+  "ppol_wrong_reading",
+  "sad_with_pdd"
+ ],
+ "C11-L1-9MeV": [
+  "pelec_wrong_range",
+  "ppol_ignored",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C11-L1-12MeV": [
+  "pelec_wrong_range",
+  "ppol_ignored",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C11-L1-16MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_ignored",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "kr50_swapped"
+ ],
+ "C11-L1-20MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous"
+ ],
+ "C11-L2-6X": [
+  "pion_ignored",
+  "no_shift"
+ ],
+ "C11-L2-18X": [
+  "pressure_unit",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C11-L2-6FFF": [
+  "pressure_unit",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "no_shift"
+ ],
+ "C11-L2-15X": [
+  "pion_ignored",
+  "sad_with_pdd"
+ ],
+ "C11-L2-6MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C11-L2-9MeV": [
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C11-L2-16MeV": [
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C11-L2-20MeV": [
+  "pressure_unit",
+  "pelec_wrong_range",
+  "pion_ignored",
+  "pion_continuous"
+ ],
+ "C12-L1-6X": [
+  "pion_ignored",
+  "no_shift"
+ ],
+ "C12-L1-18X": [
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C12-L1-12MeV": [
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "kr50_swapped"
+ ],
+ "C12-L1-16MeV": [
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C12-L1-20MeV": [
+  "pressure_unit",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous"
+ ],
+ "C12-L2-10FFF": [
+  "pressure_unit",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "sad_with_pdd"
+ ],
+ "C12-L2-6X": [
+  "pressure_unit",
+  "pion_ignored",
+  "no_shift"
+ ],
+ "C12-L2-6FFF": [
+  "pressure_unit",
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C12-L2-15X": [
+  "pion_ignored",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C12-L2-6MeV": [
+  "pressure_unit",
+  "ppol_ignored",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C12-L2-12MeV": [
+  "pressure_unit",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C12-L2-16MeV": [
+  "pressure_unit",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C12-L3-6FFF": [
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C12-L3-10FFF": [
+  "pion_ignored",
+  "pion_continuous",
+  "prp_full_profile",
+  "sad_with_pdd"
+ ],
+ "C12-L3-18X": [
+  "pressure_unit",
+  "pion_ignored",
+  "pion_continuous",
+  "no_shift",
+  "dmax_with_dd10x"
+ ],
+ "C12-L3-6X": [
+  "pion_ignored",
+  "no_shift"
+ ],
+ "C12-L3-6MeV": [
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C12-L3-9MeV": [
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C12-L3-12MeV": [
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C12-L3-16MeV": [
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous",
+  "kr50_swapped"
+ ],
+ "C12-L3-20MeV": [
+  "pressure_unit",
+  "ppol_ignored",
+  "ppol_wrong_reading",
+  "pion_ignored",
+  "pion_continuous"
+ ]
+}

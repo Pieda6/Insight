@@ -1,0 +1,86 @@
+{
+ "source": "Hand-worked values from the equations of AAPM TG-51 (Med Phys 1999;26:1847) and its photon addendum (Med Phys 2014;41:041501)",
+ "ptp": [
+  {
+   "T": 22.0,
+   "unit_T": "C",
+   "P": 101.33,
+   "unit_P": "kPa",
+   "value": 1.0
+  },
+  {
+   "T": 71.6,
+   "unit_T": "F",
+   "P": 760.0,
+   "unit_P": "mmHg",
+   "value": 1.0000492
+  }
+ ],
+ "eq13": [
+  {
+   "pb": 78.0,
+   "x": 78.585
+  },
+  {
+   "pb": 72.0,
+   "x": 72.0
+  }
+ ],
+ "eq14": [
+  {
+   "pb": 80.0,
+   "x": 81.824
+  }
+ ],
+ "eq15": [
+  {
+   "open": 78.0,
+   "x": 78.826
+  },
+  {
+   "open": 74.0,
+   "x": 74.0
+  }
+ ],
+ "kq_fit": [
+  {
+   "chamber": "NE2571",
+   "x": 73.0,
+   "value": 0.982637
+  }
+ ],
+ "kq_below_63": [
+  {
+   "chamber": "PTW 30013",
+   "x": 61.0,
+   "value": 0.9976
+  }
+ ],
+ "kq_tg51": [
+  {
+   "chamber": "PTW N30001",
+   "x": 76.0,
+   "value": 0.9755
+  }
+ ],
+ "kr50": [
+  {
+   "r50": 7.5,
+   "type": "cylindrical",
+   "value": 0.999698
+  },
+  {
+   "r50": 3.0,
+   "type": "plane-parallel",
+   "value": 1.040469
+  }
+ ],
+ "pion": [
+  {
+   "mh": 20.0,
+   "ml": 19.9,
+   "ratio": 2.0,
+   "value": 1.0050505050505052
+  }
+ ]
+}

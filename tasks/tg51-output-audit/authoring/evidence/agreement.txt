@@ -1,0 +1,13 @@
+solution vs engine: 138 beams, largest relative difference from the nearest allowed value pair 7.69e-06 (five-decimal rounding)
+largest spread among the value pairs the documents allow for one beam: 0.116 percent (tolerance 0.3)
+12 clinics, 138 beams: 71 photon, 67 electron
+photon energies {'15X': 13, '10X': 11, '6FFF': 14, '18X': 14, '6X': 13, '10FFF': 6}
+photon SAD set-ups 16
+foil scans {'lead_foil_50cm': 34, 'lead_foil_30cm': 7}
+flattened 10 MV+ beams with open scan only 17
+photon reference chamber models {'Exradin A12S': 5, 'Exradin A19': 4, 'Exradin A12': 2, 'NE2577': 10, 'PTW 30012': 24, 'PTW N30004': 10, 'IBA FC65-G': 6, 'Wellhofer IC-10': 10}
+electron chambers {'plane-parallel': 27, 'cylindrical': 40}
+cross-calibrated plane-parallel chambers 4 beams using them 12
+readings 482 temperature units {'C': 459, 'F': 23} pressure units {'mmHg': 130, 'hPa': 72, 'kPa': 165, 'inHg': 115}
+ND,w units {'Gy/C': 19, 'cGy/nC': 6}
+beams with no tag 0

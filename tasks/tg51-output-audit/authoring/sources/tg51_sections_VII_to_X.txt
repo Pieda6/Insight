@@ -1,0 +1,1035 @@
+Excerpts from AAPM TG-51, Almond et al., Med Phys 1999;26(9):1847-1870 (text as extracted from the published PDF).
+
+VII. CHARGE MEASUREMENT
+The fully corrected charge reading from an ion chamber,
+M , is given by
+M ⫽ P ionP TPP elecP polM raw
+
+共C or rdg兲,
+
+共8兲
+
+where M raw is the raw ion chamber reading in coulombs, C,
+or the instrument’s reading units 共rdg兲; P TP is the
+temperature–pressure correction which corrects the reading
+to the standard environmental conditions for which the ion
+chamber’s calibration factor applies; P ion corrects for incomplete ion collection efficiency; P pol corrects for any polarity
+effects; and P elec takes into account the electrometer’s calibration factor if the electrometer and ion chamber are calibrated separately. In addition, any shutter timing error must
+be accounted for if needed 共see, e.g., Ref. 23, p. 358, or
+TG-6124兲.
+A. Polarity corrections
+
+Polarity effects25–27 vary with beam quality and other
+conditions such as cable position. Therefore, it is necessary
+to correct for these effects by making measurements each
+time clinical reference dosimetry is performed.
+To correct an ion chamber’s raw reading for polarity effects one takes readings with both polarities applied and deduces P pol from
+
+
+
+
+P pol⫽
+
+
+冏
+
+冏
+
+⫹
+⫺
+⫺M raw
+兲
+共 M raw
+
+2M raw
+
+,
+
+
+共9兲
+
+⫹
+is the reading when positive charge is collected,
+where M raw
+⫺
+M raw is the reading when negative charge is collected, and
+⫹
+⫺
+M raw 共one of M raw
+or M raw
+) is the reading corresponding to
+
+the charge collected for the reference dosimetry measurements in the clinic and which should be the same as for the
+chamber calibration. In both cases, the sign of M raw must be
+⫹
+⫺
+used and usually M raw
+and M raw
+have opposite signs unless
+the background is large. Adequate time must be left after
+changing the sign of the voltage so that the ion chamber’s
+reading has reached equilibrium.
+In the unlikely event that the polarity correction is more
+than 0.3% different from unity in a photon beam of 6 MV or
+lower energy, then one must establish what the value of P pol
+is in the calibration laboratory’s beam. This can be requested
+from the calibration laboratory or established by the clinical
+physicist using a 60Co source. Since calibration laboratories
+traditionally report the calibration factor for one polarity, if
+there is a significant polarity correction in the calibration
+60Co
+60
+/ P polCo everywhere in this probeam, the user must use N D,w
+60Co
+.
+tocol instead of N D,w
+B. Electrometer correction factor
+
+It is common practice in the US to calibrate ion chambers
+and electrometers separately. This is not essential and it is
+common practice in Canada to calibrate them as a unit. If the
+electrometer is calibrated separately from the ion chamber,
+the electrometer correction factor, P elec , is just the electrometer calibration factor which corrects the electrometer reading to true coulombs. The electrometer calibration factor is
+obtained from an Accredited Dosimetry Calibration Laboratory. P elec is the electrometer correction factor which is applicable to the range being used on the electrometer. P elec is
+considered 1.00 if the electrometer and ion chamber are calibrated as a unit. It is also taken as 1.00 for cross-calibrated
+plane-parallel chambers since it cancels out of the final equations 共see Sec. X C兲.
+C. Standard environmental conditions: Temperature,
+pressure, and relative humidity
+
+Since calibration factors are given for standard environmental conditions of temperature at T 0 ⫽22 °C and pressure
+at P 0 ⫽101.33 kPa 共1 atmosphere兲, one corrects charge or
+meter readings to standard environmental conditions using
+P TP⫽
+
+273.2⫹T
+101.33
+⫻
+,
+273.2⫹22.0
+P
+
+共10兲
+
+where T is the temperature in degrees Celsius in the water
+near the ion chamber and P is the pressure in kilopascals
+共not corrected to sea level and including temperature and
+latitude corrections for a mercury barometer兲. Standard environmental conditions are different in some countries outside
+the US and Canada and the corresponding changes in Eq.
+共10兲 are necessary.
+
+Chambers require time to reach thermal equilibrium with
+their surroundings. After inserting the ion chamber into the
+water tank it is necessary to ensure that this equilibrium is
+reached by waiting for changes in chamber output to become
+negligible. At this point, usually after 5 to 10 min,28 one can
+assume that the temperature inside the ion chamber has
+reached the temperature of the water near the chamber in the
+phantom.
+It is assumed that the relative humidity is always in the
+range of 20% to 80%. In this range, the error introduced by
+ignoring variations in relative humidity is ⫾0.15%.29
+Humid air may cause condensation inside the ion chamber
+volume and this can affect chamber response, especially for
+nylon-wall chambers30 which therefore should not be used.
+D. Corrections for ion-chamber collection inefficiency
+
+1. General comments on P ion
+In this protocol, ion chamber readings in the user’s beam
+must be corrected for lack of complete collection efficiency.
+This recombination correction factor is denoted P ion and the
+experimental methods for measuring it are discussed below.
+It must be emphasized that P ion is a function of the dose per
+pulse in accelerator beams and thus will change if either the
+pulse rate for a fixed dose rate, or the dose rate is changed.
+The correction must be measured in each set of experimental
+conditions for which clinical reference dosimetry is being
+performed.
+This protocol is based on the definition of the calibration
+factor given in Eq. 共7兲, which means that it applies when
+100% of the ions created are collected. The correction to
+100% ion collection at the time of chamber calibration is
+done at the calibration laboratory. The user must, however,
+explicitly include in Eq. 共8兲, the recombination correction,
+P ion , which applies in each of the user’s beams.
+The recombination corrections are well enough
+understood31 that for small corrections they can be made
+accurately. However, if an ion chamber exhibits a correction
+factor, P ion , greater than 1.05, the uncertainty in this correction becomes unacceptably large and another ion chamber
+with a smaller recombination effect should be used. Voltages
+should not be increased above normal operating voltages just
+to reduce P ion since there are indications in the literature that
+the assumptions in the standard theories break down at
+higher voltages.32–36 In fact, the evidence suggests that lower
+voltages should be used as long as P ion values are acceptable.
+Despite these issues, the procedure recommended below is
+very similar to the TG-21 procedure since the above effects
+are believed to cause less than 0.5% errors at normal operating voltages of 300 V or less.
+
+2. Measuring P ion
+The standard two-voltage techniques for determining the
+P ion correction should be used. This involves measuring the
+charge produced by the ion chamber in the beam of interest
+when two different bias voltages are applied to the detector.
+
+
+
+
+
+After changing the voltage it is necessary to wait for the
+chamber readings to come to equilibrium 共usually several
+minutes, at least兲.
+Let V H be the normal operating voltage for the detector
+共always the higher of the two voltages in these measureH
+ments兲 and M raw
+be the raw chamber reading with bias V H .
+H
+After measuring M raw
+reduce the bias voltage by at least a
+L
+factor of 2 to V L and measure M raw
+once the chamber readings have reached equilibrium.
+For continuous 共i.e., 60Co) beams, the two voltage formula gives37,38
+P ion共 V H 兲 ⫽
+
+1.⫺ 共 V H /V L 兲 2
+H
+L
+M raw
+/M raw
+⫺ 共 V H /V L 兲 2
+
+.
+
+共11兲
+
+Equation 共11兲 extracts an estimate of the general recombination in the continuous beam although initial recombination
+may dominate.
+For pulsed or pulsed-swept beams with P ion⬍1.05, i.e.,
+where the linear form of the saturation curve holds,
+P ion共 V H 兲 ⫽
+
+1.⫺ V H /V L
+.
+H
+L
+M raw /M raw
+⫺ V H /V L
+
+共12兲
+
+Although the exact equations for pulsed or pulsed-swept
+beams are nonlinear,38 Eq. 共12兲 gives the same result as solving the nonlinear equations to within 0.2% and 0.4%, respectively, for a voltage ratio of 2 and 0.3% and 0.6% for a
+voltage ratio of 3 and is most inaccurate at the limiting value
+of P ion⫽1.05. For larger values of the voltage ratio or values
+of P ion near 1.05 one may use the published programs or fits
+for the nonlinear equations.5,38
+VIII. BEAM QUALITY SPECIFICATION
+For both photon and electron beams from accelerators, the
+beam quality must be specified in order to determine the
+correct value of the quality conversion factor, k Q or the electron quality conversion factor, k R⬘ . For a 60Co beam the
+50
+factor k Q ⫽1.000 by definition and hence there is no need for
+further beam quality specification. Beam quality must be
+measured each time clinical reference dosimetry is performed for accelerator beams. To do this, one needs to measure a parameter related to the central-axis depth-dose curves
+for the beam in question. Careful measurement of depth-dose
+curves is quite complex because various factors needed for
+converting depth-ionization curves to depth-dose curves
+change as a function of depth. Although this protocol is quite
+flexible about the SSD used when establishing the absorbed
+dose at the reference depth, nonetheless it is essential to use
+SSD⫽100 cm when establishing the beam quality for photon
+and electron beams. This is because %dd(10) and R 50 are
+functions of SSD whereas absorbed-dose calibration factors
+are not 共for 10⫻10 cm2 fields兲.
+A. Accounting for gradient and depth of measurement
+effects
+
+The point of measurement for a cylindrical chamber is
+on the central axis of the chamber and this is always placed
+
+FIG. 1. Effect of shifting depth-ionization data measured with cylindrical
+chambers upstream by 0.6 r cav for photon beams 关panel 共a兲兴 and 0.5 r cav for
+electron beams 关panel 共b兲兴 共with r cav ⫽ 1.0 cm兲. The raw data are shown by
+curve I 共long dashes兲 in both cases and the shifted data, which are taken as
+the depth-ionization curve, are shown by curve II 共solid line兲. The value of
+the % ionization at point A 共10 cm depth兲 in the photon beam gives
+%dd(10) and the depth at point B 共solid curve, 50% ionization兲 in the
+electron beam gives I 50 from which R 50 can be determined 共see Sec. VIII C兲.
+For the photon beams, curve II is effectively the percentage depth-dose
+curve. For the electron beams, curve II must be further corrected 共see Sec.
+X D兲 to obtain the percentage depth-dose curve shown 共short dashes—but
+this is not needed for application of the protocol兲.
+
+at the reference depth when measuring dose at an individual
+point 共as opposed to a depth-dose curve兲. Nonetheless, the
+effective point of measurement is upstream of the point of
+measurement 共i.e., closer to the radiation source兲 due to the
+predominantly forward direction of the secondary electrons
+共since the primary beam enters the chamber at various distances upstream兲. This has an impact on the measurement of
+depth-ionization 共and therefore depth-dose兲 curves and on
+the calculation of absolute dose from ionization measurements at the reference depth.
+When measuring central-axis depth-dose data with a cylindrical chamber, the effective point of measurement is
+made use of as follows. First, depth-ionization data are measured with the point of measurement identified as the assumed depth, as shown by curve I in Figs. 1共a兲 and 1共b兲.
+The entire curve is then shifted to shallower depths by a
+distance proportional to r cav , the radius of the ionization
+chamber cavity, as shown by curves II in Figs. 1共a兲 and 1共b兲.
+For cylindrical and spherical chambers the shift is taken
+as 0.6r cav for photon beams35 and 0.5r cav for electron
+beams.22,39,40 The shifted curves are taken as the depthionization curves for cylindrical chambers. It is these depthionization curves that are used to determine the beam quality
+for both photons and electrons. Using these measurements as
+depth-ionization curves ignores any variations in P ion and
+P pol with depth41 and for electron beams it also ignores
+variations in the electron fluence correction factor. Since
+well-guarded plane-parallel chambers minimize these variations with depth, they are preferred for measuring electron
+beam depth-ionization curves.
+For photon beams the variation in stopping-power ratio is
+negligible past d max (⬍0.1%42兲 and thus the depth-ionization
+curve is treated as a depth-dose curve 共these same techniques
+should be used to determine any clinical photon beam depthdose curve兲. In order to determine depth-dose curves for
+electron beams, the depth-ionization curve must be further
+
+
+
+
+corrected for the significant change in the stopping-power
+ratio with depth. This conversion is not needed in this protocol except to transfer the dose from d ref to d max if necessary 共Sec. X D兲.
+For plane-parallel chambers, the center of the front 共upstream兲 face of the chamber air cavity is the point of measurement. This is traditionally taken as the effective point
+of measurement.3,39 Therefore there is no shift in the depthionization curves for plane-parallel chambers and curves I
+and II are coincident and give the depth-ionization curve for
+the purposes of beam quality specification.
+In contrast to the above, for measurements of absolute
+dose at the reference depth in both electron and photon
+beams, a cylindrical chamber’s point of measurement
+共center of the chamber, Sec. II兲 is placed at the reference
+depth 共10 cm for photons and d ref for electrons兲. The gradient
+effects are included implicitly in the beam quality conversion
+factor k Q for photons and explicitly by the term P Q
+gr for electrons. That is, the formalism of this protocol yields absorbed
+dose to water at the point occupied by the point of measurement after the chamber has been removed from the
+water.
+
+
+when the foil is not needed, an ion chamber should be used
+to generate the central-axis percentage depth-ionization
+curve measured in water 关i.e., curve I in Fig. 1共a兲兴 using a
+field size of 10⫻10 cm2 at the phantom surface and an SSD
+of 100 cm. For cylindrical or spherical chambers, the measured depth-ionization data should be shifted upstream by
+0.6r cav to give curve II, the depth-ionization curve. For
+plane-parallel chambers no shift is needed, i.e., curves I and
+II are coincident. The percentage depth-ionization curve can
+be treated as the percentage depth-dose curve.
+Next, locate point A at 10 cm depth on the percentage
+depth-dose curve 关i.e., curve II in Fig. 1共a兲兴. This value is
+%dd(10) or %dd(10) Pb , the measured percentage depthdose at 10 cm depth.
+For beams with energies less than 10 MV, this value of
+%dd(10) measured in the open beam is the beam quality,
+%dd(10) x . For beam energies of 10 MV and above, the
+value of %dd(10) x for the open beam is obtained from the
+value of %dd(10) Pb measured with the foil in the beam at
+50 ⫾5 cm from the phantom surface by43
+%dd 共 10兲 x⫽ 关 0.8905⫹0.00150%dd 共 10兲 Pb兴 %dd 共 10兲 Pb
+关foil at 50 cm, %dd 共 10兲 Pb⭓73%兴,
+
+B. Beam-quality specification for photon beams
+
+For the purposes of reference beam dosimetry, beam quality in accelerator photon beams is specified by %dd(10) x ,
+the percentage depth dose at 10 cm depth in a water phantom
+due to photons only 共i.e., excluding electron contamination兲.
+The value of %dd(10) x is defined for a field size of 10
+⫻10 cm2 at the phantom surface at an SSD of 100 cm. For
+60
+Co beams %dd(10) x is not required since k Q ⫽1.000 by
+definition.
+At higher energies 共about 10 MV and above兲, the electrons from the accelerator head may significantly affect the
+dose at d max and hence reduce the measured value of
+%dd(10). This electron contamination varies with machine
+type. However, it has been shown that placing a 1 mm thick
+lead foil just below the accelerator head reduces the effects
+of the electrons from the accelerator to a negligible level and
+calculations have been done which take into account the effect of the known electron contamination from the lead
+foil.43,44 Thus the first step in specifying the photon beam
+quality for beams with energies of 10 MV or above is to
+measure the value of %dd(10) Pb with a 1 mm lead foil
+positioned to intercept the beam completely 共but remove it
+for the measurement of absorbed dose at the reference position兲. For beam energies below 10 MV the lead foil is not
+needed and one measures %dd(10) in the open beam.
+If a 1 mm lead foil is being used, it should be placed
+about 50 cm from the phantom surface (⫾5 cm兲 in an otherwise open beam. Only if the accelerator construction does
+not permit a position near 50 cm 共e.g., because of tertiary
+collimators兲, then the lead foil may be placed 30⫾1 cm from
+the phantom surface. The exact thickness of the lead foil is
+not critical and a tolerance of ⫾20% is acceptable.43
+To measure %dd(10) Pb , with the lead foil in place 共for
+10 MV and above兲, or %dd(10) for lower-energy beams
+
+共13兲
+
+and, if the foil is placed at 30 ⫾1 cm from the phantom
+surface, by
+%dd 共 10兲 x⫽ 关 0.8116⫹0.00264%dd 共 10兲 Pb兴 %dd 共 10兲 Pb
+关foil at 30 cm, %dd 共 10兲 Pb⭓71%兴.
+
+共14兲
+
+If %dd(10) Pb is less than the respective thresholds given
+above in the equations, then %dd(10) x⫽%dd(10) Pb .
+The foil is only used when determining the beam quality
+specifier, %dd(10) x and must be removed after the beam
+quality is determined.
+There is also a general formula available to correct for
+electron contamination which can be used as an interim measure for machines with 45 cm or more clearance between the
+jaws and the phantom surface. For low-energy beams, i.e.,
+for energies below 10 MV with %dd(10)⭐75%,
+%dd(10) x⫽%dd(10). For higher-energy beams the following applies up to %dd(10)⫽89%:
+%dd 共 10兲 x⫽1.267%dd 共 10兲 ⫺20.0
+关for 75%⬍%dd 共 10兲 ⭐89%兴,
+
+共15兲
+
+where %dd(10) is measured as described above for an open
+beam. This formula is based on a global fit45 to data in Fig. 7
+of Ref. 46. For high-energy beams this global fit may cause
+errors in assigning %dd(10) x of up to 2% in extreme
+cases,46 which would lead to an error in k Q , and hence the
+absorbed dose, of 0.4%.
+C. Beam quality specification for electron beams
+
+For the purposes of reference beam dosimetry, beam quality in electron beams is specified by R 50 , the depth in water
+共in cm兲 at which the absorbed dose falls to 50% of the maximum dose for a beam, which has a field size on the phantom
+surface ⭓10⫻10 cm2 (⭓20⫻20 cm2 for R 50⬎ 8.5 cm, i.e.,
+
+
+
+
+
+FIG. 3. Schematic of the SSD or SAD setups which may be used for photon
+beam reference dosimetry. In both cases the ion chamber is at a water
+equivalent depth of 10 cm in the water phantom. The actual value of SSD or
+SAD is that most useful in the clinic 共expected to be about 100 cm兲.
+
+60
+
+FIG. 2. Here R 50 is defined as the depth, in cm, at which the absorbed dose
+falls to 50% of its maximum value in a ⭓10⫻10 cm2 (⭓20⫻20 cm2 for
+R 50⬎ 8.5 cm兲 electron beam at an SSD of 100 cm. The depth for clinical
+reference dosimetry is d ref⫽0.6R 50⫺0.1 cm, in the same sized beam at an
+SSD between 90 and 110 cm. Note that for low-energy beams, d ref is usually
+at d max .
+
+E⬎20 MeV兲 at an SSD of 100 cm. Figure 2 shows R 50 on a
+typical electron beam percentage depth-dose curve.
+To determine R 50 one must first measure a central-axis
+depth-ionization curve in a water phantom at an SSD of 100
+cm 关curve I in Fig. 1共b兲兴. For cylindrical chambers, correct
+for gradient effects by shifting the curve upstream by 0.5 r cav
+to give curve II.22,39,40 For plane-parallel chambers no shift is
+needed. Curve II is taken as the depth-ionization curve.
+Next, locate point B at the level of 50% of the maximum
+ionization on the depth-ionization curve corrected for gradient effects 关i.e., curve II in Fig. 1共b兲兴. The depth of point B
+gives I 50 . The beam quality specifier for the electron beam,
+R 50 , is determined from the measured value of I 50 using47,48
+R 50⫽1.029I 50⫺0.06 共cm兲 共for 2 ⭐I 50⭐10 cm兲
+
+共16兲
+
+R 50⫽1.059I 50⫺0.37 共cm兲 共for I 50⬎10 cm兲.
+
+共17兲
+
+or
+
+A second alternative is to determine the percentage depthdose curve using a good-quality diode detector which responds as a dose-detector in an electron beam,22,49 although
+one must establish that this condition is fulfilled.50 A third
+alternative is to convert the depth-ionization curve for an ion
+chamber to a percentage depth-dose curve 共see Sec. X D兲.
+
+IX. PHOTON BEAM DOSIMETRY
+In photon beams Eq. 共3兲 gives the absorbed dose to water
+under reference conditions, for the same number of monitor
+units as used to measure the charge M, at the point of measurement of the ion chamber in the user’s photon beam of
+quality Q, specified by %dd(10) x , i.e.,
+
+Co
+DQ
+w ⫽M k Q N D,w 共 Gy 兲 .
+
+A. Reference conditions of depth, beam size, and
+source-surface/axis distance
+
+Clinical reference dosimetry for photon beams is performed in an open beam 共i.e., without trays, wedges, lead
+filters, or blocks兲 with the point of measurement of the
+cylindrical ion chamber placed at the reference depth which
+is at a water-equivalent depth of 10 cm in a water phantom
+共see Sec. VI for corrections if there is a wall in the path of
+the beam兲. Either an SSD or an SAD setup can be used 共at
+the normal clinical distance, see Fig. 3兲. The field size is
+10⫻10 cm2 . When using an SSD setup, the field size is
+defined at the surface of the phantom. When an SAD setup is
+being used, the field size is defined at the detector position
+which is placed at 10 cm depth at the isocenter of the machine.
+In calibration laboratories, the traditional reference depth
+for 60Co beams is 5 g/cm2 . The difference between an ion
+chamber’s calibration factor determined at this depth versus
+one determined at a depth of 10 g/cm2 is negligible,42 and
+hence the calibration factor for a depth of 5 g/cm2 can be
+used.
+Note that although the reference conditions for measurement of the dose are quite flexible, those for the specification
+of beam quality are not and must be at SSD⫽100 cm 共see
+Sec. VIII兲.
+B. Absorbed dose to water in clinical photon beams
+
+To use Eq. 共3兲 one needs a value of k Q . For 60Co beams
+k Q ⫽1.000. Figure 4 presents calculated values of k Q in accelerator beams as a function of %dd(10) x for cylindrical
+ion chambers commonly used for reference dosimetry. Alternatively, values for specific chambers can be selected from
+Table I which contains values for the same cylindrical chambers, calculated as described by Rogers45 with a minor
+update.51 Note that plane-parallel chambers are not included
+because there is insufficient information about wall correction factors in photon beams other than 60Co.
+
+
+
+
+
+FIG. 4. Values of k Q at 10 cm depth in accelerator photon beams as a function of %dd(10) x for cylindrical ion chambers commonly used for clinical reference
+dosimetry. When values were the same within 0.1%, only one curve is shown. Explicit values are given in Table I, as is a list of equivalent chambers. For 60Co
+beams, k Q ⫽1.000.
+TABLE I. Values of k Q for accelerator photon beams as a function of %dd(10) x for cylindrical ion chambers commonly used for clinical reference dosimetry.
+Values calculated as described in Refs. 45 and 51. The tabulated values can be interpolated linearly in %dd(10) x . The ion chamber specifications used in
+these calculations are found in Table III. Figure 4 presents the same data within 0.1%. For 60Co beams, k Q ⫽1.000 by definition.
+kQ
+%dd(10) x
+Ion chamber
+
+58.0
+
+63.0
+
+66.0
+
+71.0
+
+81.0
+
+93.0
+
+Capintec PR-05/PR-05P
+Capintec PR-06C/G 0.6cc Farmer
+
+0.999
+1.000
+
+0.997
+0.998
+
+0.995
+0.994
+
+0.990
+0.987
+
+0.972
+0.968
+
+0.948
+0.944
+
+Exradin A1 Shonkaa
+Exradin A12 Farmer
+
+0.999
+1.000
+
+0.998
+0.999
+
+0.996
+0.996
+
+0.990
+0.990
+
+0.972
+0.972
+
+0.948
+0.948
+
+NE2505/3,3A 0.6cc Farmer
+NE2561 0.3cc NPL Sec. Stdb
+NE2571 0.6cc Farmer
+NE2577 0.2cc
+NE2581 0.6cc robust Farmer
+
+1.000
+1.000
+1.000
+1.000
+1.000
+
+0.998
+0.998
+0.998
+0.998
+0.994
+
+0.995
+0.995
+0.995
+0.995
+0.988
+
+0.988
+0.989
+0.988
+0.988
+0.979
+
+0.972
+0.974
+0.972
+0.972
+0.960
+
+0.951
+0.953
+0.951
+0.951
+0.937
+
+PTW N30001 0.6cc Farmerc
+PTW N30002 0.6cc all Graphite
+PTW N30004 0.6cc Graphite
+PTW 31003 0.3cc waterproofd
+
+1.000
+1.000
+1.000
+1.000
+
+0.996
+0.997
+0.998
+0.996
+
+0.992
+0.994
+0.995
+0.992
+
+0.984
+0.987
+0.988
+0.984
+
+0.967
+0.970
+0.973
+0.967
+
+0.945
+0.948
+0.952
+0.946
+
+Wellhofer IC-10/IC-5
+
+1.000
+
+0.999
+
+0.996
+
+0.989
+
+0.971
+
+0.946
+
+a
+
+The cavity radius of the A1 here is 2 mm although in the past Exradin has designated chambers with another radius as A1.
+The NE2611 has replaced the equivalent NE2561.
+c
+PTW N30001 is equivalent to the PTW N23333 it replaced.
+d
+PTW N31003 is equivalent to the PTW N233641 it replaced.
+b
+
+
+
+
+
+
+TABLE II. Values of the photon-electron conversion factor, k ecal , for planeparallel chambers, calculated as described in Ref. 52 and adopting a beam
+quality Q ecal of R 50⫽7.5 cm. Section X C recommends using a cross cali60Co
+bration technique, if possible, to obtain k ecalN D,w
+. However, if not possible,
+these values of k ecal may be used in Eq. 共6兲 along with a 60Co calibration
+60Co
+factor, N D,w
+.
+Chamber
+
+k ecal
+
+Attix
+Capintec
+PTB/Roos
+Exradin
+Holt
+Markus
+NACP
+
+0.883
+0.921
+0.901
+0.888
+0.900
+0.905
+0.888
+
+C. Absorbed dose at other depths in clinical photon
+beams
+
+Clinical reference dosimetry determines the absorbed
+dose to water at 10 cm depth. If this is not the reference
+depth used for clinical dosimetry calculations, one determines the corresponding dose at the appropriate depth using
+one of two methods. For SSD setups the clinical percentage
+depth-dose curves are used. For SAD setups the clinical
+tissue-phantom ratio 共TPR兲 curves are used unless one wants
+the dose at d max. In such situations the clinical tissuemaximum ratio 共TMR兲 curves are used.
+
+FIG. 5. Calculated values of k ⬘R 50 at d ref as a function of R 50 for several
+common cylindrical ion chambers. These values can be used with Eq. 共6兲
+共with a measured value of P Qgr and a k ecal value from Table III兲 to determine
+the absorbed dose to water at the reference depth of d ref⫽0.6R 50⫺0.1 cm.
+
+X. ELECTRON BEAM DOSIMETRY
+Equation 共6兲 gives the absorbed dose to water under reference conditions for the same number of monitor units as
+
+TABLE III. Values of the photon-electron conversion factor, k ecal , for commercial cylindrical chambers, calculated as described in Ref. 52 and adopting a beam quality Q ecal of R 50⫽7.5 cm.
+Wall
+Cavity radius
+r cav 共cm兲
+
+k ecal
+
+Material
+
+Thickness
+g/cm2
+
+Farmer-like
+Exradin A12
+NE2505/3,3A
+NE2561a
+NE2571
+NE2577
+NE2581
+Capintec PR-06C/G
+PTW N23331
+
+0.906
+0.903
+0.904
+0.903
+0.903
+0.885
+0.900
+0.896
+0.897
+
+PTW N30002
+PTW N30004
+PTW N31003c
+
+0.900
+0.905
+0.898
+
+0.088
+0.065
+0.090
+0.065
+0.065
+0.041
+0.050
+0.012
+0.048
+0.012
+0.033
+0.079
+0.079
+0.012
+0.066
+
+0.305
+0.315
+0.370e
+0.315
+0.315
+0.315
+0.320
+0.395e
+
+PTW N30001b
+
+C-552
+Graphite
+Graphite
+Graphite
+Graphite
+A-150
+C-552
+Graphite
+PMMA
+Graphite
+PMMA
+Graphite
+Graphite
+Graphite
+PMMA
+
+Other cylindrical
+Exradin A1d
+Capintec PR-05/PR-05P
+Wellhofer IC-10/IC-5
+
+0.915
+0.916
+0.904
+
+C-552
+C-552
+C-552
+
+0.176
+0.210
+0.070
+
+0.200
+0.200
+0.300
+
+Chamber
+
+a
+
+Al electrode
+diameter
+共mm兲
+
+1.0
+1.0
+1.0
+1.0
+
+1.0
+
+0.305
+
+1.0
+
+0.305
+0.305
+0.275
+
+1.0
+1.0f
+
+The NE2611 has replaced the equivalent NE2561.
+PTW N30001 is equivalent to the PTW N23333 it replaced.
+c
+PTW N31003 is equivalent to the PTW N233641 it replaced.
+d
+The cavity radius of the A1 here is 2 mm although in the past Exradin has designated chambers with another
+radius as A1.
+e
+In electron beams there is only data for cavity radii up to 0.35 cm and so 0.35 cm is used rather than the real
+cavity radius shown here.
+f
+Electrode diameter is actually 1.5 mm, but only data for 1.0 mm is available.
+b
+
+
+
+
+
+FIG. 6. Calculated values of k ⬘R 50 at d ref as a function of R 50 for several
+common plane-parallel chambers. Note that the values for the five wellguarded chambers lie on the same line in the figure. These values can be
+used with Eq. 共6兲 共with P Qgr⫽1.0) to determine the absorbed dose to water at
+the reference depth of d ref⫽0.6R 50⫺0.1 cm.
+
+used to measure the charge M , at the point of measurement of the ion chamber, in an electron beam of quality Q,
+specified by R 50 , i.e.,
+60
+
+Q
+Co
+⬘ k ecal N D,w
+DQ
+共 Gy兲 .
+w ⫽M P gr k R
+50
+
+For electron beams with R 50⭐4.3 cm 共incident energies of
+10 MeV or less兲, well-guarded plane-parallel chambers are
+preferred and they may be used at higher energies. Planeparallel chambers must be used for beams with R 50⭐2.6 cm
+共incident energies of 6 MeV or less兲.
+
+
+FIG. 8. Calculated values of k ⬘R 50 at d ref for high-energy electron beams, as a
+function of R 50 for plane-parallel chambers. Note that the values for the five
+well-guarded chambers lie on the same line in the figure. These values can
+be used with Eq. 共6兲 共with P Qgr⫽1.0 and a k ecal value from Table II兲 to
+determine the absorbed dose to water at the reference depth of
+d ref⫽0.6R 50⫺0.1 cm.
+
+A. Reference conditions of depth, beam size, and
+source-surface distance
+
+Clinical reference dosimetry for electron beams is performed in an open beam at the reference depth which is at a
+water-equivalent depth of17
+d ref⫽0.6R 50⫺0.1 共 cm兲 .
+
+共18兲
+
+See Sec. VI for corrections to the depth to take into account
+tank walls which may be in the path of the beam. The point
+of measurement of the ion chamber is placed at d ref 共i.e.,
+the central axis of cylindrical chambers or the front face of
+the air cavity for plane-parallel chambers兲. For beams with
+R 50⭐8.5 cm 共E ⭐20 MeV兲, the field size is ⭓10⫻10 cm2 at
+the phantom surface and for higher-energy beams it is ⭓20
+⫻20 cm2 .
+Clinical reference dosimetry may be performed with an
+SSD from 90 to 110 cm. The underlying Monte Carlo calculations of stopping-power ratios were done for SSD⫽100
+cm, but changes of up to 10 cm from this SSD do not affect
+the parameters used in the protocol.
+B. Absorbed dose to water in clinical electron beams
+
+FIG. 7. Calculated values of k ⬘R 50 at d ref for high-energy electron beams, as a
+function of R 50 for cylindrical ion chambers. These values can be used with
+Eq. 共6兲 共with a measured value of P Qgr and a k ecal value from Table III兲 to
+determine the absorbed dose to water at the reference depth of
+d ref⫽0.6R 50⫺0.1 cm.
+
+In electron beams, Eq. 共6兲 is used to establish the absorbed dose to water. To use this equation one needs the
+⬘ 50 , and k ecal . The values of k ecal
+values of the factors P Q
+gr , k R
+for a number of ion chambers are given in Tables II and III.52
+The selection of the beam quality Q ecal are arbitrary and has
+been taken as R 50⫽7.5 cm for the purposes of this protocol.
+Figure 5 presents calculated values for k R⬘ for cylindrical
+50
+ion chambers used for clinical reference dosimetry in electron beams with energies up to about 21 MeV and Fig. 6
+presents k R⬘ values for plane-parallel chambers.52 For
+50
+higher-energy electron beams, the corresponding data are
+presented in Figs. 7 and 8. For Farmer-like cylindrical cham-
+
+
+
+
+bers the following expression can be used for 2⭐R 50⭐9 cm
+with a maximum error of 0.2%:52
+k R⬘ 共 cyl兲 ⫽0.9905⫹0.0710e (⫺R 50 /3.67) .
+
+共19兲
+
+50
+
+For well-guarded plane-parallel chambers, the following expression is an analytic representation of the curve shown in
+Figs. 6 and 8, i.e., for 2⭐R 50⭐20 cm:
+k R⬘ 共 pp兲 ⫽1.2239⫺0.145共 R 50兲 0.214.
+
+共20兲
+
+50
+
+The correction for gradient effects 共i.e., P Q
+gr) is not necessary for plane-parallel chambers and is close to unity for
+cylindrical chambers when the reference depth is at d max ,
+which is usually the case for electron beams below about 10
+22,39
+MeV. For cylindrical chambers P Q
+gr is determined as
+PQ
+gr⫽
+
+M raw共 d ref⫹0.5r cav兲
+共for cylindrical chambers兲, 共21兲
+M raw共 d ref兲
+
+where r cav is the radius of the chamber’s cavity in cm and
+M raw(d ref⫹0.5r cav)/M raw(d ref) is the ratio of the integrated
+charges or ionization currents with the central axis of the
+chamber at d ref⫹0.5r cav and d ref . This procedure is equivalent to making the measurement at the ‘‘effective point of
+measurement,’’22,39 but the present formalism is adopted to
+facilitate future utilization of primary standards of absorbed
+dose to water in electron beams. Note that P Q
+gr is less than 1
+for d ref⬎(d max⫹0.5r cav).
+
+C. Use of plane-parallel chambers
+
+For electron beam dosimetry this protocol allows for the
+use of plane-parallel chambers which have been calibrated in
+a 60Co beam. However, since the 60Co calibration factors of
+at least some plane-parallel chambers appear to be very sensitive to small features of their construction,16 it is recommended that, when possible, plane-parallel chambers be calibrated against calibrated cylindrical chambers in a highenergy electron beam, as recommended in TG-213 and
+TG-39.14
+After determining the beam quality and the reference
+depth in the high-energy electron beam to be used, measurements are made, in sequence, with the point of measurement of both the calibrated cylindrical chamber and the
+plane-parallel chamber at d ref . While measuring with the
+cylindrical chamber, P Q
+gr is measured as described above 关see
+60Co
+Eq. 共21兲兴. From these measurements the product of k ecalN D,w
+is determined for the plane-parallel chamber as
+60
+
+Co pp
+兲 ⫽
+共 k ecal N D,w
+
+共 D w 兲 cyl
+共 M k R⬘ 50兲 pp
+60
+
+⫽
+
+Co cyl
+⬘ 50k ecal N D,w
+兲
+共 M PQ
+gr k R
+
+共 M k R⬘ 50兲 pp
+
+共 Gy/C兲 .
+
+共22兲
+
+This product is then used in Eq. 共6兲, thereby avoiding the
+need for obtaining the 60Co absorbed-dose calibration factor
+for the plane-parallel chamber.
+
+D. Absorbed dose at d max in clinical electron beams
+
+This protocol provides the reference dose at a depth of
+d ref which, for higher-energy beams, will not be at d max
+where clinical normalization most often takes place. To establish the dose at d max one should use the clinical percentage depth-dose data for a given beam and determine the dose
+at d max from that at d ref . Methods for measuring electronbeam percentage depth-dose curves are given in TG-25.22
+These procedures require stopping-power ratios when ion
+chambers are used and in TG-25 these are presented for
+mono-energetic electron beams. In TG-51, stopping-power
+ratios for realistic electron beams have been used and these
+differ from the mono-energetic stopping-power ratios. To extract the dose maximum in a completely consistent manner,
+the expression presented by Burns et al.17 for stoppingpower ratios in realistic electron beams as a function of
+R 50 and depth should be used to determine the clinical
+depth-dose data since they are consistent with the
+values used here 共a FORTRAN routine is available at
+http: // www.irs.inms.nrc.ca / inms / irs / papers / SPRR50 /
+node12.html兲. Measuring depth-dose curves for electron
+beams also requires corrections for variations in P repl according to TG-25.22 This variation can be significant for cylindrical chambers although there is no variation for well-guarded
+plane-parallel chambers.

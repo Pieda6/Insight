@@ -1,0 +1,25 @@
+12 clinics, 138 beams (71 photon, 67 electron); largest spread among allowed values 0.116%
+   7  temp_unit
+  90  pressure_unit
+  87  pelec_wrong_range
+  14  ppol_ignored
+  62  ppol_wrong_reading
+ 128  pion_ignored
+ 116  pion_continuous
+   3  prp_ignored
+  21  prp_full_profile
+  55  no_shift
+   1  tg51_kq
+   0  no_substitution
+   0  old_ptw_new_data
+  38  dmax_with_dd10x
+  16  sad_with_pdd
+   0  foil_eq_ignored
+   0  eq15_ignored
+   0  fff_without_foil
+   0  r50_is_i50
+  54  kr50_swapped
+   0  pgr_ignored
+   0  e_pdd_from_ionization
+   5  crosscal_pelec
+beams with no tag: 0

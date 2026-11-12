@@ -1,0 +1,16 @@
+14 shortcuts, each must fail at least one test
+caught     7 of 138 beams wrong  Fahrenheit read as Celsius
+caught    90 of 138 beams wrong  pressure unit not converted to kPa
+caught    40 of 138 beams wrong  electrometer factor of the wrong range
+caught    14 of 138 beams wrong  polarity correction ignored
+caught    63 of 138 beams wrong  polarity correction over the other reading
+caught   129 of 138 beams wrong  recombination correction ignored
+caught   119 of 138 beams wrong  continuous-beam recombination formula
+caught     3 of 138 beams wrong  radial profile correction ignored
+caught    21 of 138 beams wrong  profile averaged over the whole scan
+caught    55 of 138 beams wrong  depth scans not shifted
+caught    40 of 138 beams wrong  dose at dmax from %dd(10)x
+caught    16 of 138 beams wrong  SAD beams through the depth dose
+caught    54 of 138 beams wrong  kR50 formulas swapped
+caught     5 of 138 beams wrong  electrometer factor kept for the cross-calibrated chamber
+CALIBRATION: every shortcut caught

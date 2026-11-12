@@ -1,0 +1,2297 @@
+{
+ "clinics": [
+  {
+   "clinic_id": "C01",
+   "name": "Lakeshore Cancer Center",
+   "electrometer": {
+    "model": "PTW UNIDOS webline",
+    "pelec": {
+     "low": 0.9985,
+     "high": 1.0008
+    }
+   },
+   "chambers": [
+    {
+     "serial": "C01-R",
+     "model": "Exradin A12S",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.305,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 250,
+     "active_length_cm": 0.73,
+     "ndw": 162170000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C01-S",
+     "model": "PTW 31013",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.275,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "active_length_cm": 1.65,
+     "use": "depth scans only"
+    }
+   ],
+   "beams": [
+    {
+     "beam_id": "C01-L1-15X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 15,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C01-R",
+     "scans": {
+      "open": "C01-S",
+      "lead_foil_50cm": "C01-S"
+     }
+    },
+    {
+     "beam_id": "C01-L1-10X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C01-R",
+     "scans": {
+      "open": "C01-S"
+     }
+    },
+    {
+     "beam_id": "C01-L1-6FFF",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C01-R",
+     "scans": {
+      "open": "C01-S",
+      "lead_foil_50cm": "C01-S"
+     }
+    },
+    {
+     "beam_id": "C01-L2-6FFF",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": true,
+     "setup": "SAD",
+     "reference_chamber": "C01-R",
+     "scans": {
+      "open": "C01-S",
+      "lead_foil_50cm": "C01-S"
+     },
+     "tmr_10": 0.7112
+    },
+    {
+     "beam_id": "C01-L2-15X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 15,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C01-R",
+     "scans": {
+      "open": "C01-S",
+      "lead_foil_30cm": "C01-S"
+     }
+    }
+   ]
+  },
+  {
+   "clinic_id": "C02",
+   "name": "Mesa Verde Radiation Oncology",
+   "electrometer": {
+    "model": "Standard Imaging MAX 4000",
+    "pelec": {
+     "low": 0.9974,
+     "high": 0.9994
+    }
+   },
+   "chambers": [
+    {
+     "serial": "C02-R",
+     "model": "Exradin A19",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.31,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 250,
+     "active_length_cm": 2.16,
+     "ndw": 53668000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C02-S",
+     "model": "PTW 31013",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.275,
+     "calibration_polarity": "-",
+     "operating_voltage_V": 250,
+     "active_length_cm": 1.65,
+     "use": "depth scans only"
+    },
+    {
+     "serial": "C02-E",
+     "model": "PTW N30004",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.305,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 250,
+     "active_length_cm": 2.3,
+     "ndw": 52700000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C02-P",
+     "model": "NACP",
+     "type": "plane-parallel",
+     "cavity_radius_cm": 0.5,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "ndw": 162730000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    }
+   ],
+   "beams": [
+    {
+     "beam_id": "C02-L1-18X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 18,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C02-R",
+     "scans": {
+      "open": "C02-S",
+      "lead_foil_50cm": "C02-S"
+     }
+    },
+    {
+     "beam_id": "C02-L1-15X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 15,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C02-R",
+     "scans": {
+      "open": "C02-S"
+     }
+    },
+    {
+     "beam_id": "C02-L1-6FFF",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C02-R",
+     "scans": {
+      "open": "C02-S",
+      "lead_foil_50cm": "C02-S"
+     }
+    },
+    {
+     "beam_id": "C02-L1-6X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C02-R",
+     "scans": {
+      "open": "C02-S"
+     }
+    },
+    {
+     "beam_id": "C02-L1-9MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 9,
+     "setup": "SSD",
+     "reference_chamber": "C02-P",
+     "scans": {
+      "electron": "C02-P"
+     }
+    },
+    {
+     "beam_id": "C02-L1-12MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 12,
+     "setup": "SSD",
+     "reference_chamber": "C02-E",
+     "scans": {
+      "electron": "C02-S"
+     }
+    },
+    {
+     "beam_id": "C02-L1-20MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 20,
+     "setup": "SSD",
+     "reference_chamber": "C02-E",
+     "scans": {
+      "electron": "C02-P"
+     }
+    }
+   ]
+  },
+  {
+   "clinic_id": "C03",
+   "name": "St. Brendan's Hospital",
+   "electrometer": {
+    "model": "Standard Imaging MAX 4000",
+    "pelec": {
+     "low": 0.998,
+     "high": 1.0031
+    }
+   },
+   "chambers": [
+    {
+     "serial": "C03-R",
+     "model": "Exradin A12",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.305,
+     "calibration_polarity": "-",
+     "operating_voltage_V": 300,
+     "active_length_cm": 2.42,
+     "ndw": 53148000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C03-S",
+     "model": "IBA CC25",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.3,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "active_length_cm": 1.0,
+     "use": "depth scans only"
+    }
+   ],
+   "beams": [
+    {
+     "beam_id": "C03-L1-6FFF",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C03-R",
+     "scans": {
+      "open": "C03-S",
+      "lead_foil_50cm": "C03-S"
+     }
+    },
+    {
+     "beam_id": "C03-L1-18X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 18,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C03-R",
+     "scans": {
+      "open": "C03-S",
+      "lead_foil_30cm": "C03-S"
+     }
+    }
+   ]
+  },
+  {
+   "clinic_id": "C04",
+   "name": "Northfield Regional",
+   "electrometer": {
+    "model": "IBA Dose 1",
+    "pelec": {
+     "low": 1.0008,
+     "high": 0.9975
+    }
+   },
+   "chambers": [
+    {
+     "serial": "C04-R",
+     "model": "NE2577",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.315,
+     "calibration_polarity": "-",
+     "operating_voltage_V": 300,
+     "active_length_cm": 1.0,
+     "ndw": 144710000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C04-S",
+     "model": "IBA CC25",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.3,
+     "calibration_polarity": "-",
+     "operating_voltage_V": 250,
+     "active_length_cm": 1.0,
+     "use": "depth scans only"
+    },
+    {
+     "serial": "C04-E",
+     "model": "Exradin A12",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.305,
+     "calibration_polarity": "-",
+     "operating_voltage_V": 300,
+     "active_length_cm": 2.42,
+     "ndw": 5.3226,
+     "ndw_unit": "cGy/nC",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C04-P",
+     "model": "NACP",
+     "type": "plane-parallel",
+     "cavity_radius_cm": 0.5,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "ndw": 161610000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    }
+   ],
+   "beams": [
+    {
+     "beam_id": "C04-L1-10FFF",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C04-R",
+     "scans": {
+      "open": "C04-S",
+      "lead_foil_50cm": "C04-S"
+     }
+    },
+    {
+     "beam_id": "C04-L1-6X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": false,
+     "setup": "SAD",
+     "reference_chamber": "C04-R",
+     "scans": {
+      "open": "C04-S"
+     },
+     "tmr_10": 0.7412
+    },
+    {
+     "beam_id": "C04-L1-6FFF",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C04-R",
+     "scans": {
+      "open": "C04-S",
+      "lead_foil_50cm": "C04-S"
+     }
+    },
+    {
+     "beam_id": "C04-L1-6MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 6,
+     "setup": "SSD",
+     "reference_chamber": "C04-P",
+     "scans": {
+      "electron": "C04-P"
+     }
+    },
+    {
+     "beam_id": "C04-L1-9MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 9,
+     "setup": "SSD",
+     "reference_chamber": "C04-P",
+     "scans": {
+      "electron": "C04-P"
+     }
+    },
+    {
+     "beam_id": "C04-L1-16MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 16,
+     "setup": "SSD",
+     "reference_chamber": "C04-E",
+     "scans": {
+      "electron": "C04-P"
+     }
+    }
+   ]
+  },
+  {
+   "clinic_id": "C05",
+   "name": "Cascade Oncology",
+   "electrometer": {
+    "model": "Sun Nuclear PC Electrometer",
+    "pelec": {
+     "low": 0.9972,
+     "high": 1.0035
+    }
+   },
+   "chambers": [
+    {
+     "serial": "C05-R",
+     "model": "PTW 30012",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.305,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "active_length_cm": 2.3,
+     "ndw": 53854000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C05-S",
+     "model": "Exradin A1SL",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.2,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "active_length_cm": 0.44,
+     "use": "depth scans only"
+    },
+    {
+     "serial": "C05-E",
+     "model": "NE2505/3,3A",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.315,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "active_length_cm": 2.4,
+     "ndw": 5.3602,
+     "ndw_unit": "cGy/nC",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C05-P",
+     "model": "NACP",
+     "type": "plane-parallel",
+     "cavity_radius_cm": 0.5,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "calibration": "cross-calibrated",
+     "cross_calibration": {
+      "beam_id": "C05-L1-20MeV",
+      "cylindrical_chamber": "C05-E"
+     }
+    }
+   ],
+   "beams": [
+    {
+     "beam_id": "C05-L1-10FFF",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C05-R",
+     "scans": {
+      "open": "C05-S",
+      "lead_foil_30cm": "C05-S"
+     }
+    },
+    {
+     "beam_id": "C05-L1-18X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 18,
+     "fff": false,
+     "setup": "SAD",
+     "reference_chamber": "C05-R",
+     "scans": {
+      "open": "C05-S",
+      "lead_foil_50cm": "C05-S"
+     },
+     "tmr_10": 0.8479
+    },
+    {
+     "beam_id": "C05-L1-9MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 9,
+     "setup": "SSD",
+     "reference_chamber": "C05-P",
+     "scans": {
+      "electron": "C05-P"
+     }
+    },
+    {
+     "beam_id": "C05-L1-12MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 12,
+     "setup": "SSD",
+     "reference_chamber": "C05-E",
+     "scans": {
+      "electron": "C05-S"
+     }
+    },
+    {
+     "beam_id": "C05-L1-16MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 16,
+     "setup": "SSD",
+     "reference_chamber": "C05-E",
+     "scans": {
+      "electron": "C05-P"
+     }
+    },
+    {
+     "beam_id": "C05-L1-20MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 20,
+     "setup": "SSD",
+     "reference_chamber": "C05-E",
+     "scans": {
+      "electron": "C05-P"
+     }
+    },
+    {
+     "beam_id": "C05-L2-6X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C05-R",
+     "scans": {
+      "open": "C05-S"
+     }
+    },
+    {
+     "beam_id": "C05-L2-18X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 18,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C05-R",
+     "scans": {
+      "open": "C05-S"
+     }
+    },
+    {
+     "beam_id": "C05-L2-6MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 6,
+     "setup": "SSD",
+     "reference_chamber": "C05-P",
+     "scans": {
+      "electron": "C05-P"
+     }
+    },
+    {
+     "beam_id": "C05-L2-9MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 9,
+     "setup": "SSD",
+     "reference_chamber": "C05-P",
+     "scans": {
+      "electron": "C05-P"
+     }
+    },
+    {
+     "beam_id": "C05-L2-12MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 12,
+     "setup": "SSD",
+     "reference_chamber": "C05-E",
+     "scans": {
+      "electron": "C05-P"
+     }
+    },
+    {
+     "beam_id": "C05-L2-16MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 16,
+     "setup": "SSD",
+     "reference_chamber": "C05-E",
+     "scans": {
+      "electron": "C05-S"
+     }
+    },
+    {
+     "beam_id": "C05-L2-20MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 20,
+     "setup": "SSD",
+     "reference_chamber": "C05-E",
+     "scans": {
+      "electron": "C05-P"
+     }
+    }
+   ]
+  },
+  {
+   "clinic_id": "C06",
+   "name": "Riverbend Medical Center",
+   "electrometer": {
+    "model": "IBA Dose 1",
+    "pelec": {
+     "low": 1.0009,
+     "high": 1.0001
+    }
+   },
+   "chambers": [
+    {
+     "serial": "C06-R",
+     "model": "PTW 30012",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.305,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "active_length_cm": 2.3,
+     "ndw": 5.4536,
+     "ndw_unit": "cGy/nC",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C06-S",
+     "model": "PTW 31013",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.275,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "active_length_cm": 1.65,
+     "use": "depth scans only"
+    },
+    {
+     "serial": "C06-E",
+     "model": "Capintec PR-06C/G",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.32,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 250,
+     "active_length_cm": 2.2,
+     "ndw": 55067000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C06-P",
+     "model": "PTB/Roos",
+     "type": "plane-parallel",
+     "cavity_radius_cm": 0.78,
+     "calibration_polarity": "-",
+     "operating_voltage_V": 300,
+     "calibration": "cross-calibrated",
+     "cross_calibration": {
+      "beam_id": "C06-L1-20MeV",
+      "cylindrical_chamber": "C06-E"
+     }
+    }
+   ],
+   "beams": [
+    {
+     "beam_id": "C06-L1-6FFF",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": true,
+     "setup": "SAD",
+     "reference_chamber": "C06-R",
+     "scans": {
+      "open": "C06-S",
+      "lead_foil_50cm": "C06-S"
+     },
+     "tmr_10": 0.7119
+    },
+    {
+     "beam_id": "C06-L1-10X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C06-R",
+     "scans": {
+      "open": "C06-S"
+     }
+    },
+    {
+     "beam_id": "C06-L1-15X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 15,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C06-R",
+     "scans": {
+      "open": "C06-S",
+      "lead_foil_50cm": "C06-S"
+     }
+    },
+    {
+     "beam_id": "C06-L1-6MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 6,
+     "setup": "SSD",
+     "reference_chamber": "C06-P",
+     "scans": {
+      "electron": "C06-P"
+     }
+    },
+    {
+     "beam_id": "C06-L1-9MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 9,
+     "setup": "SSD",
+     "reference_chamber": "C06-P",
+     "scans": {
+      "electron": "C06-P"
+     }
+    },
+    {
+     "beam_id": "C06-L1-12MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 12,
+     "setup": "SSD",
+     "reference_chamber": "C06-E",
+     "scans": {
+      "electron": "C06-S"
+     }
+    },
+    {
+     "beam_id": "C06-L1-20MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 20,
+     "setup": "SSD",
+     "reference_chamber": "C06-E",
+     "scans": {
+      "electron": "C06-S"
+     }
+    }
+   ]
+  },
+  {
+   "clinic_id": "C07",
+   "name": "High Plains Cancer Institute",
+   "electrometer": {
+    "model": "Sun Nuclear PC Electrometer",
+    "pelec": {
+     "low": 1.0011,
+     "high": 0.9974
+    }
+   },
+   "chambers": [
+    {
+     "serial": "C07-R",
+     "model": "PTW 30012",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.305,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 250,
+     "active_length_cm": 2.3,
+     "ndw": 53943000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C07-S",
+     "model": "Exradin A1SL",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.2,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 250,
+     "active_length_cm": 0.44,
+     "use": "depth scans only"
+    },
+    {
+     "serial": "C07-E",
+     "model": "PTW N30001",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.305,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "active_length_cm": 2.3,
+     "ndw": 54108000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C07-P",
+     "model": "Markus",
+     "type": "plane-parallel",
+     "cavity_radius_cm": 0.265,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 250,
+     "calibration": "cross-calibrated",
+     "cross_calibration": {
+      "beam_id": "C07-L1-20MeV",
+      "cylindrical_chamber": "C07-E"
+     }
+    }
+   ],
+   "beams": [
+    {
+     "beam_id": "C07-L1-6X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": false,
+     "setup": "SAD",
+     "reference_chamber": "C07-R",
+     "scans": {
+      "open": "C07-S"
+     },
+     "tmr_10": 0.7339
+    },
+    {
+     "beam_id": "C07-L1-10X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": false,
+     "setup": "SAD",
+     "reference_chamber": "C07-R",
+     "scans": {
+      "open": "C07-S",
+      "lead_foil_50cm": "C07-S"
+     },
+     "tmr_10": 0.7876
+    },
+    {
+     "beam_id": "C07-L1-15X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 15,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C07-R",
+     "scans": {
+      "open": "C07-S",
+      "lead_foil_50cm": "C07-S"
+     }
+    },
+    {
+     "beam_id": "C07-L1-6MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 6,
+     "setup": "SSD",
+     "reference_chamber": "C07-P",
+     "scans": {
+      "electron": "C07-P"
+     }
+    },
+    {
+     "beam_id": "C07-L1-9MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 9,
+     "setup": "SSD",
+     "reference_chamber": "C07-P",
+     "scans": {
+      "electron": "C07-P"
+     }
+    },
+    {
+     "beam_id": "C07-L1-12MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 12,
+     "setup": "SSD",
+     "reference_chamber": "C07-E",
+     "scans": {
+      "electron": "C07-P"
+     }
+    },
+    {
+     "beam_id": "C07-L1-16MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 16,
+     "setup": "SSD",
+     "reference_chamber": "C07-E",
+     "scans": {
+      "electron": "C07-S"
+     }
+    },
+    {
+     "beam_id": "C07-L1-20MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 20,
+     "setup": "SSD",
+     "reference_chamber": "C07-E",
+     "scans": {
+      "electron": "C07-P"
+     }
+    },
+    {
+     "beam_id": "C07-L2-10X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": false,
+     "setup": "SAD",
+     "reference_chamber": "C07-R",
+     "scans": {
+      "open": "C07-S",
+      "lead_foil_50cm": "C07-S"
+     },
+     "tmr_10": 0.799
+    },
+    {
+     "beam_id": "C07-L2-15X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 15,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C07-R",
+     "scans": {
+      "open": "C07-S"
+     }
+    },
+    {
+     "beam_id": "C07-L3-18X",
+     "machine": "Linac 3",
+     "modality": "photon",
+     "energy_MV": 18,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C07-R",
+     "scans": {
+      "open": "C07-S",
+      "lead_foil_50cm": "C07-S"
+     }
+    },
+    {
+     "beam_id": "C07-L3-10X",
+     "machine": "Linac 3",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C07-R",
+     "scans": {
+      "open": "C07-S"
+     }
+    },
+    {
+     "beam_id": "C07-L3-15X",
+     "machine": "Linac 3",
+     "modality": "photon",
+     "energy_MV": 15,
+     "fff": false,
+     "setup": "SAD",
+     "reference_chamber": "C07-R",
+     "scans": {
+      "open": "C07-S",
+      "lead_foil_50cm": "C07-S"
+     },
+     "tmr_10": 0.8087
+    },
+    {
+     "beam_id": "C07-L3-6MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 6,
+     "setup": "SSD",
+     "reference_chamber": "C07-P",
+     "scans": {
+      "electron": "C07-P"
+     }
+    },
+    {
+     "beam_id": "C07-L3-9MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 9,
+     "setup": "SSD",
+     "reference_chamber": "C07-P",
+     "scans": {
+      "electron": "C07-P"
+     }
+    },
+    {
+     "beam_id": "C07-L3-20MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 20,
+     "setup": "SSD",
+     "reference_chamber": "C07-E",
+     "scans": {
+      "electron": "C07-P"
+     }
+    }
+   ]
+  },
+  {
+   "clinic_id": "C08",
+   "name": "Bayview Radiation Therapy",
+   "electrometer": {
+    "model": "PTW UNIDOS webline",
+    "pelec": {
+     "low": 0.999,
+     "high": 1.0036
+    }
+   },
+   "chambers": [
+    {
+     "serial": "C08-R",
+     "model": "NE2577",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.315,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "active_length_cm": 1.0,
+     "ndw": 14.2506,
+     "ndw_unit": "cGy/nC",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C08-S",
+     "model": "IBA CC25",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.3,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 250,
+     "active_length_cm": 1.0,
+     "use": "depth scans only"
+    }
+   ],
+   "beams": [
+    {
+     "beam_id": "C08-L1-10X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C08-R",
+     "scans": {
+      "open": "C08-S",
+      "lead_foil_50cm": "C08-S"
+     }
+    },
+    {
+     "beam_id": "C08-L1-6FFF",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C08-R",
+     "scans": {
+      "open": "C08-S",
+      "lead_foil_50cm": "C08-S"
+     }
+    },
+    {
+     "beam_id": "C08-L1-18X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 18,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C08-R",
+     "scans": {
+      "open": "C08-S"
+     }
+    },
+    {
+     "beam_id": "C08-L1-6X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C08-R",
+     "scans": {
+      "open": "C08-S"
+     }
+    },
+    {
+     "beam_id": "C08-L2-6FFF",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C08-R",
+     "scans": {
+      "open": "C08-S",
+      "lead_foil_50cm": "C08-S"
+     }
+    },
+    {
+     "beam_id": "C08-L2-10X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C08-R",
+     "scans": {
+      "open": "C08-S",
+      "lead_foil_50cm": "C08-S"
+     }
+    },
+    {
+     "beam_id": "C08-L2-6X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C08-R",
+     "scans": {
+      "open": "C08-S"
+     }
+    }
+   ]
+  },
+  {
+   "clinic_id": "C09",
+   "name": "Granite State Oncology",
+   "electrometer": {
+    "model": "Sun Nuclear PC Electrometer",
+    "pelec": {
+     "low": 0.9987,
+     "high": 1.0034
+    }
+   },
+   "chambers": [
+    {
+     "serial": "C09-R",
+     "model": "PTW N30004",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.305,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "active_length_cm": 2.3,
+     "ndw": 53164000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C09-S",
+     "model": "IBA CC25",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.3,
+     "calibration_polarity": "-",
+     "operating_voltage_V": 300,
+     "active_length_cm": 1.0,
+     "use": "depth scans only"
+    },
+    {
+     "serial": "C09-P",
+     "model": "Exradin",
+     "type": "plane-parallel",
+     "cavity_radius_cm": 1.0,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "ndw": 44851000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    }
+   ],
+   "beams": [
+    {
+     "beam_id": "C09-L1-10X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C09-R",
+     "scans": {
+      "open": "C09-S"
+     }
+    },
+    {
+     "beam_id": "C09-L1-6X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": false,
+     "setup": "SAD",
+     "reference_chamber": "C09-R",
+     "scans": {
+      "open": "C09-S"
+     },
+     "tmr_10": 0.7513
+    },
+    {
+     "beam_id": "C09-L1-15X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 15,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C09-R",
+     "scans": {
+      "open": "C09-S",
+      "lead_foil_50cm": "C09-S"
+     }
+    },
+    {
+     "beam_id": "C09-L1-6MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 6,
+     "setup": "SSD",
+     "reference_chamber": "C09-P",
+     "scans": {
+      "electron": "C09-P"
+     }
+    },
+    {
+     "beam_id": "C09-L1-9MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 9,
+     "setup": "SSD",
+     "reference_chamber": "C09-P",
+     "scans": {
+      "electron": "C09-P"
+     }
+    },
+    {
+     "beam_id": "C09-L1-12MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 12,
+     "setup": "SSD",
+     "reference_chamber": "C09-R",
+     "scans": {
+      "electron": "C09-P"
+     }
+    },
+    {
+     "beam_id": "C09-L1-16MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 16,
+     "setup": "SSD",
+     "reference_chamber": "C09-R",
+     "scans": {
+      "electron": "C09-S"
+     }
+    },
+    {
+     "beam_id": "C09-L2-15X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 15,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C09-R",
+     "scans": {
+      "open": "C09-S"
+     }
+    },
+    {
+     "beam_id": "C09-L2-10X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": false,
+     "setup": "SAD",
+     "reference_chamber": "C09-R",
+     "scans": {
+      "open": "C09-S"
+     },
+     "tmr_10": 0.7829
+    },
+    {
+     "beam_id": "C09-L2-10FFF",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C09-R",
+     "scans": {
+      "open": "C09-S",
+      "lead_foil_50cm": "C09-S"
+     }
+    },
+    {
+     "beam_id": "C09-L2-6FFF",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C09-R",
+     "scans": {
+      "open": "C09-S",
+      "lead_foil_30cm": "C09-S"
+     }
+    },
+    {
+     "beam_id": "C09-L3-18X",
+     "machine": "Linac 3",
+     "modality": "photon",
+     "energy_MV": 18,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C09-R",
+     "scans": {
+      "open": "C09-S"
+     }
+    },
+    {
+     "beam_id": "C09-L3-15X",
+     "machine": "Linac 3",
+     "modality": "photon",
+     "energy_MV": 15,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C09-R",
+     "scans": {
+      "open": "C09-S"
+     }
+    },
+    {
+     "beam_id": "C09-L3-6FFF",
+     "machine": "Linac 3",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C09-R",
+     "scans": {
+      "open": "C09-S",
+      "lead_foil_50cm": "C09-S"
+     }
+    },
+    {
+     "beam_id": "C09-L3-6MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 6,
+     "setup": "SSD",
+     "reference_chamber": "C09-P",
+     "scans": {
+      "electron": "C09-P"
+     }
+    },
+    {
+     "beam_id": "C09-L3-9MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 9,
+     "setup": "SSD",
+     "reference_chamber": "C09-P",
+     "scans": {
+      "electron": "C09-P"
+     }
+    },
+    {
+     "beam_id": "C09-L3-12MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 12,
+     "setup": "SSD",
+     "reference_chamber": "C09-R",
+     "scans": {
+      "electron": "C09-S"
+     }
+    },
+    {
+     "beam_id": "C09-L3-16MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 16,
+     "setup": "SSD",
+     "reference_chamber": "C09-R",
+     "scans": {
+      "electron": "C09-S"
+     }
+    },
+    {
+     "beam_id": "C09-L3-20MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 20,
+     "setup": "SSD",
+     "reference_chamber": "C09-R",
+     "scans": {
+      "electron": "C09-P"
+     }
+    }
+   ]
+  },
+  {
+   "clinic_id": "C10",
+   "name": "Sun Valley Cancer Care",
+   "electrometer": {
+    "model": "Standard Imaging MAX 4000",
+    "pelec": {
+     "low": 0.9985,
+     "high": 1.0022
+    }
+   },
+   "chambers": [
+    {
+     "serial": "C10-R",
+     "model": "PTW 30012",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.305,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 250,
+     "active_length_cm": 2.3,
+     "ndw": 5.4837,
+     "ndw_unit": "cGy/nC",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C10-S",
+     "model": "IBA CC13",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.3,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "active_length_cm": 0.58,
+     "use": "depth scans only"
+    },
+    {
+     "serial": "C10-E",
+     "model": "PTW N30004",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.305,
+     "calibration_polarity": "-",
+     "operating_voltage_V": 300,
+     "active_length_cm": 2.3,
+     "ndw": 52563000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C10-P",
+     "model": "NACP",
+     "type": "plane-parallel",
+     "cavity_radius_cm": 0.5,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "ndw": 162890000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    }
+   ],
+   "beams": [
+    {
+     "beam_id": "C10-L1-18X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 18,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C10-R",
+     "scans": {
+      "open": "C10-S",
+      "lead_foil_50cm": "C10-S"
+     }
+    },
+    {
+     "beam_id": "C10-L1-15X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 15,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C10-R",
+     "scans": {
+      "open": "C10-S",
+      "lead_foil_30cm": "C10-S"
+     }
+    },
+    {
+     "beam_id": "C10-L1-6FFF",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C10-R",
+     "scans": {
+      "open": "C10-S",
+      "lead_foil_50cm": "C10-S"
+     }
+    },
+    {
+     "beam_id": "C10-L1-6X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C10-R",
+     "scans": {
+      "open": "C10-S"
+     }
+    },
+    {
+     "beam_id": "C10-L1-6MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 6,
+     "setup": "SSD",
+     "reference_chamber": "C10-P",
+     "scans": {
+      "electron": "C10-P"
+     }
+    },
+    {
+     "beam_id": "C10-L1-9MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 9,
+     "setup": "SSD",
+     "reference_chamber": "C10-P",
+     "scans": {
+      "electron": "C10-P"
+     }
+    },
+    {
+     "beam_id": "C10-L1-12MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 12,
+     "setup": "SSD",
+     "reference_chamber": "C10-E",
+     "scans": {
+      "electron": "C10-S"
+     }
+    },
+    {
+     "beam_id": "C10-L1-16MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 16,
+     "setup": "SSD",
+     "reference_chamber": "C10-E",
+     "scans": {
+      "electron": "C10-S"
+     }
+    },
+    {
+     "beam_id": "C10-L1-20MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 20,
+     "setup": "SSD",
+     "reference_chamber": "C10-E",
+     "scans": {
+      "electron": "C10-P"
+     }
+    },
+    {
+     "beam_id": "C10-L2-18X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 18,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C10-R",
+     "scans": {
+      "open": "C10-S"
+     }
+    },
+    {
+     "beam_id": "C10-L2-10FFF",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C10-R",
+     "scans": {
+      "open": "C10-S",
+      "lead_foil_50cm": "C10-S"
+     }
+    },
+    {
+     "beam_id": "C10-L2-6X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C10-R",
+     "scans": {
+      "open": "C10-S"
+     }
+    },
+    {
+     "beam_id": "C10-L2-6MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 6,
+     "setup": "SSD",
+     "reference_chamber": "C10-P",
+     "scans": {
+      "electron": "C10-P"
+     }
+    },
+    {
+     "beam_id": "C10-L2-12MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 12,
+     "setup": "SSD",
+     "reference_chamber": "C10-E",
+     "scans": {
+      "electron": "C10-S"
+     }
+    },
+    {
+     "beam_id": "C10-L2-16MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 16,
+     "setup": "SSD",
+     "reference_chamber": "C10-E",
+     "scans": {
+      "electron": "C10-S"
+     }
+    },
+    {
+     "beam_id": "C10-L2-20MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 20,
+     "setup": "SSD",
+     "reference_chamber": "C10-E",
+     "scans": {
+      "electron": "C10-P"
+     }
+    },
+    {
+     "beam_id": "C10-L3-10X",
+     "machine": "Linac 3",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C10-R",
+     "scans": {
+      "open": "C10-S"
+     }
+    },
+    {
+     "beam_id": "C10-L3-18X",
+     "machine": "Linac 3",
+     "modality": "photon",
+     "energy_MV": 18,
+     "fff": false,
+     "setup": "SAD",
+     "reference_chamber": "C10-R",
+     "scans": {
+      "open": "C10-S",
+      "lead_foil_50cm": "C10-S"
+     },
+     "tmr_10": 0.835
+    },
+    {
+     "beam_id": "C10-L3-6MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 6,
+     "setup": "SSD",
+     "reference_chamber": "C10-P",
+     "scans": {
+      "electron": "C10-P"
+     }
+    },
+    {
+     "beam_id": "C10-L3-9MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 9,
+     "setup": "SSD",
+     "reference_chamber": "C10-P",
+     "scans": {
+      "electron": "C10-P"
+     }
+    },
+    {
+     "beam_id": "C10-L3-12MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 12,
+     "setup": "SSD",
+     "reference_chamber": "C10-E",
+     "scans": {
+      "electron": "C10-P"
+     }
+    }
+   ]
+  },
+  {
+   "clinic_id": "C11",
+   "name": "Harbor Point Medical",
+   "electrometer": {
+    "model": "Standard Imaging MAX 4000",
+    "pelec": {
+     "low": 0.9975,
+     "high": 1.0006
+    }
+   },
+   "chambers": [
+    {
+     "serial": "C11-R",
+     "model": "IBA FC65-G",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.31,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "active_length_cm": 2.3,
+     "ndw": 47997000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C11-S",
+     "model": "PTW 31013",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.275,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "active_length_cm": 1.65,
+     "use": "depth scans only"
+    },
+    {
+     "serial": "C11-E",
+     "model": "NE2571",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.315,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "active_length_cm": 2.4,
+     "ndw": 53955000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C11-P",
+     "model": "PTB/Roos",
+     "type": "plane-parallel",
+     "cavity_radius_cm": 0.78,
+     "calibration_polarity": "-",
+     "operating_voltage_V": 300,
+     "ndw": 8.2543,
+     "ndw_unit": "cGy/nC",
+     "calibration": "ADCL"
+    }
+   ],
+   "beams": [
+    {
+     "beam_id": "C11-L1-10X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": false,
+     "setup": "SAD",
+     "reference_chamber": "C11-R",
+     "scans": {
+      "open": "C11-S"
+     },
+     "tmr_10": 0.7785
+    },
+    {
+     "beam_id": "C11-L1-18X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 18,
+     "fff": false,
+     "setup": "SAD",
+     "reference_chamber": "C11-R",
+     "scans": {
+      "open": "C11-S"
+     },
+     "tmr_10": 0.8388
+    },
+    {
+     "beam_id": "C11-L1-9MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 9,
+     "setup": "SSD",
+     "reference_chamber": "C11-P",
+     "scans": {
+      "electron": "C11-P"
+     }
+    },
+    {
+     "beam_id": "C11-L1-12MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 12,
+     "setup": "SSD",
+     "reference_chamber": "C11-E",
+     "scans": {
+      "electron": "C11-P"
+     }
+    },
+    {
+     "beam_id": "C11-L1-16MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 16,
+     "setup": "SSD",
+     "reference_chamber": "C11-E",
+     "scans": {
+      "electron": "C11-P"
+     }
+    },
+    {
+     "beam_id": "C11-L1-20MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 20,
+     "setup": "SSD",
+     "reference_chamber": "C11-E",
+     "scans": {
+      "electron": "C11-S"
+     }
+    },
+    {
+     "beam_id": "C11-L2-6X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C11-R",
+     "scans": {
+      "open": "C11-S"
+     }
+    },
+    {
+     "beam_id": "C11-L2-18X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 18,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C11-R",
+     "scans": {
+      "open": "C11-S",
+      "lead_foil_50cm": "C11-S"
+     }
+    },
+    {
+     "beam_id": "C11-L2-6FFF",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C11-R",
+     "scans": {
+      "open": "C11-S",
+      "lead_foil_50cm": "C11-S"
+     }
+    },
+    {
+     "beam_id": "C11-L2-15X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 15,
+     "fff": false,
+     "setup": "SAD",
+     "reference_chamber": "C11-R",
+     "scans": {
+      "open": "C11-S",
+      "lead_foil_50cm": "C11-S"
+     },
+     "tmr_10": 0.8202
+    },
+    {
+     "beam_id": "C11-L2-6MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 6,
+     "setup": "SSD",
+     "reference_chamber": "C11-P",
+     "scans": {
+      "electron": "C11-P"
+     }
+    },
+    {
+     "beam_id": "C11-L2-9MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 9,
+     "setup": "SSD",
+     "reference_chamber": "C11-P",
+     "scans": {
+      "electron": "C11-P"
+     }
+    },
+    {
+     "beam_id": "C11-L2-16MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 16,
+     "setup": "SSD",
+     "reference_chamber": "C11-E",
+     "scans": {
+      "electron": "C11-P"
+     }
+    },
+    {
+     "beam_id": "C11-L2-20MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 20,
+     "setup": "SSD",
+     "reference_chamber": "C11-E",
+     "scans": {
+      "electron": "C11-P"
+     }
+    }
+   ]
+  },
+  {
+   "clinic_id": "C12",
+   "name": "Pinecrest Radiotherapy",
+   "electrometer": {
+    "model": "PTW UNIDOS webline",
+    "pelec": {
+     "low": 1.0003,
+     "high": 1.0013
+    }
+   },
+   "chambers": [
+    {
+     "serial": "C12-R",
+     "model": "Wellhofer IC-10",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.3,
+     "calibration_polarity": "-",
+     "operating_voltage_V": 300,
+     "active_length_cm": 0.58,
+     "ndw": 278950000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C12-S",
+     "model": "IBA CC13",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.3,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "active_length_cm": 0.58,
+     "use": "depth scans only"
+    },
+    {
+     "serial": "C12-E",
+     "model": "Exradin A12",
+     "type": "cylindrical",
+     "cavity_radius_cm": 0.305,
+     "calibration_polarity": "-",
+     "operating_voltage_V": 250,
+     "active_length_cm": 2.42,
+     "ndw": 53253000.0,
+     "ndw_unit": "Gy/C",
+     "calibration": "ADCL"
+    },
+    {
+     "serial": "C12-P",
+     "model": "PTB/Roos",
+     "type": "plane-parallel",
+     "cavity_radius_cm": 0.78,
+     "calibration_polarity": "+",
+     "operating_voltage_V": 300,
+     "calibration": "cross-calibrated",
+     "cross_calibration": {
+      "beam_id": "C12-L1-20MeV",
+      "cylindrical_chamber": "C12-E"
+     }
+    }
+   ],
+   "beams": [
+    {
+     "beam_id": "C12-L1-6X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C12-R",
+     "scans": {
+      "open": "C12-S"
+     }
+    },
+    {
+     "beam_id": "C12-L1-18X",
+     "machine": "Linac 1",
+     "modality": "photon",
+     "energy_MV": 18,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C12-R",
+     "scans": {
+      "open": "C12-S"
+     }
+    },
+    {
+     "beam_id": "C12-L1-12MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 12,
+     "setup": "SSD",
+     "reference_chamber": "C12-E",
+     "scans": {
+      "electron": "C12-P"
+     }
+    },
+    {
+     "beam_id": "C12-L1-16MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 16,
+     "setup": "SSD",
+     "reference_chamber": "C12-E",
+     "scans": {
+      "electron": "C12-P"
+     }
+    },
+    {
+     "beam_id": "C12-L1-20MeV",
+     "machine": "Linac 1",
+     "modality": "electron",
+     "energy_MeV": 20,
+     "setup": "SSD",
+     "reference_chamber": "C12-E",
+     "scans": {
+      "electron": "C12-S"
+     }
+    },
+    {
+     "beam_id": "C12-L2-10FFF",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": true,
+     "setup": "SAD",
+     "reference_chamber": "C12-R",
+     "scans": {
+      "open": "C12-S",
+      "lead_foil_50cm": "C12-S"
+     },
+     "tmr_10": 0.7755
+    },
+    {
+     "beam_id": "C12-L2-6X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C12-R",
+     "scans": {
+      "open": "C12-S"
+     }
+    },
+    {
+     "beam_id": "C12-L2-6FFF",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C12-R",
+     "scans": {
+      "open": "C12-S",
+      "lead_foil_50cm": "C12-S"
+     }
+    },
+    {
+     "beam_id": "C12-L2-15X",
+     "machine": "Linac 2",
+     "modality": "photon",
+     "energy_MV": 15,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C12-R",
+     "scans": {
+      "open": "C12-S",
+      "lead_foil_30cm": "C12-S"
+     }
+    },
+    {
+     "beam_id": "C12-L2-6MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 6,
+     "setup": "SSD",
+     "reference_chamber": "C12-P",
+     "scans": {
+      "electron": "C12-P"
+     }
+    },
+    {
+     "beam_id": "C12-L2-12MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 12,
+     "setup": "SSD",
+     "reference_chamber": "C12-E",
+     "scans": {
+      "electron": "C12-S"
+     }
+    },
+    {
+     "beam_id": "C12-L2-16MeV",
+     "machine": "Linac 2",
+     "modality": "electron",
+     "energy_MeV": 16,
+     "setup": "SSD",
+     "reference_chamber": "C12-E",
+     "scans": {
+      "electron": "C12-P"
+     }
+    },
+    {
+     "beam_id": "C12-L3-6FFF",
+     "machine": "Linac 3",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": true,
+     "setup": "SSD",
+     "reference_chamber": "C12-R",
+     "scans": {
+      "open": "C12-S",
+      "lead_foil_30cm": "C12-S"
+     }
+    },
+    {
+     "beam_id": "C12-L3-10FFF",
+     "machine": "Linac 3",
+     "modality": "photon",
+     "energy_MV": 10,
+     "fff": true,
+     "setup": "SAD",
+     "reference_chamber": "C12-R",
+     "scans": {
+      "open": "C12-S",
+      "lead_foil_50cm": "C12-S"
+     },
+     "tmr_10": 0.7708
+    },
+    {
+     "beam_id": "C12-L3-18X",
+     "machine": "Linac 3",
+     "modality": "photon",
+     "energy_MV": 18,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C12-R",
+     "scans": {
+      "open": "C12-S",
+      "lead_foil_50cm": "C12-S"
+     }
+    },
+    {
+     "beam_id": "C12-L3-6X",
+     "machine": "Linac 3",
+     "modality": "photon",
+     "energy_MV": 6,
+     "fff": false,
+     "setup": "SSD",
+     "reference_chamber": "C12-R",
+     "scans": {
+      "open": "C12-S"
+     }
+    },
+    {
+     "beam_id": "C12-L3-6MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 6,
+     "setup": "SSD",
+     "reference_chamber": "C12-P",
+     "scans": {
+      "electron": "C12-P"
+     }
+    },
+    {
+     "beam_id": "C12-L3-9MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 9,
+     "setup": "SSD",
+     "reference_chamber": "C12-P",
+     "scans": {
+      "electron": "C12-P"
+     }
+    },
+    {
+     "beam_id": "C12-L3-12MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 12,
+     "setup": "SSD",
+     "reference_chamber": "C12-E",
+     "scans": {
+      "electron": "C12-P"
+     }
+    },
+    {
+     "beam_id": "C12-L3-16MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 16,
+     "setup": "SSD",
+     "reference_chamber": "C12-E",
+     "scans": {
+      "electron": "C12-S"
+     }
+    },
+    {
+     "beam_id": "C12-L3-20MeV",
+     "machine": "Linac 3",
+     "modality": "electron",
+     "energy_MeV": 20,
+     "setup": "SSD",
+     "reference_chamber": "C12-E",
+     "scans": {
+      "electron": "C12-P"
+     }
+    }
+   ]
+  }
+ ]
+}

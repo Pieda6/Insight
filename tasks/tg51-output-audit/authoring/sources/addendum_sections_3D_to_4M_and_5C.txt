@@ -1,0 +1,708 @@
+Excerpts from the TG-51 photon addendum, McEwen et al., Med Phys 2014;41(4):041501 (text as extracted from the published PDF).
+
+3.D. kQ factors for MV photon beams
+
+Table I lists the kQ data for chambers meeting the specification given in Appendix A. The fit parameters from Muir and
+Rogers21 are provided so that users can accurately evaluate kQ
+factors for any specific beam quality according to:
+kQ = A + B · 10−3 · %dd(10)x + C · 10−5 · (%dd(10)x )2
+63 < %dd(10)X < 86.
+
+(1)
+
+The fits have an average rms deviation of 0.07% compared with the explicitly calculated kQ values for each chamber in ten beams. Note that the fit is valid only for values
+of %dd(10)X in the range 63 <%dd(10)X < 86. For convenience, tabulated values for the most common beams, as collated by the Radiological Physics Center (Houston), are also
+given. For beam qualities below %dd(10)X = 63, users should
+linearly interpolate between the value tabulated for that beam
+quality and kQ = 1.000 at 60 Co (%dd(10)X = 58).
+3.E. Chambers not listed in Table I of this report
+
+Table I lists only chambers that are currently being
+manufactured. There are therefore chambers listed in the TG51 protocol, and potentially still in clinical use, for which new
+kQ factors have not been calculated. In addition, there are a
+small number of new chambers for which MC-calculated kQ
+
+041501-5
+
+
+041501-5
+
+TABLE I. Recommended kQ fitting parameters and factors as a function of the beam-quality specifier, %dd(10)X . These parameter values are taken from Monte
+Carlo calculations of Muir and Rogers (Ref. 21) and Muir et al. (Ref. 30) and are valid for 63 <%dd(10)X < 86. Tabulated kQ values are given for the most
+common beams (according to the RPC). Users are referred to the manufacturers’ data sheets for the specifications of the chambers listed here (wall material and
+thickness, central electrode, etc.). Chambers requiring a waterproof sleeve were modeled with a 1 mm PMMA sleeve and are indicated below with a *.
+
+Chamber type
+Capintec
+Exradin
+Exradin
+Exradin
+Exradin
+Exradin
+Exradin
+NE
+NE
+PTW
+PTW
+PTW
+PTW
+PTW
+IBA
+IBA
+IBA
+IBA
+IBA
+IBA
+
+PR-06C/G*
+A19
+A12
+A12S
+A18
+A1
+A1SL
+NE2561 *
+NE2571 *
+PTW30010*
+PTW30011*
+PTW30012*
+PTW30013
+PTW31013
+FC65-G
+FC65-P
+FC23-C
+CC25
+CC13
+CC08
+
+Fitting parameters for Eq. (1)
+(63 <%dd(10)X < 86)
+
+kQ values for the most common beams
+(as function of beam-quality specifier %dd(10)x )
+
+Comment
+
+A
+
+B
+
+C
+
+63
+
+67
+
+73
+
+77
+
+81
+
+0.6 cc Farmer-type
+Water proof Farmer
+0.6 cc
+0.2 cc “short Farmer”
+0.125 cc waterproof
+0.06 cc waterproof
+0.06 cc waterproof
+0.3 cc NPL Sec. Std
+0.6 cc Farmer
+0.6 cc Farmer-type
+0.6 cc Farmer-type
+0.6 cc Farmer-type
+Waterproof Farmer
+0.25 cc waterproof
+Waterproof Farmer
+Robust Farmer
+0.2 cc “short Farmer”
+0.25 cc waterproof
+0.13 cc waterproof
+0.08 cc waterproof
+
+0.9519
+0.9934
+1.0146
+0.9692
+0.9944
+1.0029
+0.9896
+0.9722
+0.9882
+1.0093
+0.9676
+0.9537
+0.9652
+0.9725
+0.9708
+0.9828
+0.9820
+0.9551
+0.9515
+0.9430
+
+2.432
+1.384
+0.777
+1.974
+1.286
+1.023
+1.410
+1.977
+1.486
+0.926
+2.061
+2.440
+2.141
+1.957
+1.972
+1.664
+1.579
+2.353
+2.455
+2.637
+
+−2.704
+−2.125
+−1.666
+−2.448
+−1.980
+−1.803
+−2.049
+−2.463
+−2.140
+−1.771
+−2.528
+−2.750
+−2.623
+−2.498
+−2.480
+−2.296
+−2.166
+−2.687
+−2.768
+−2.884
+
+0.998
+0.996
+0.997
+0.996
+0.997
+0.996
+0.997
+0.999
+0.997
+0.997
+0.997
+0.998
+0.996
+0.997
+0.997
+0.997
+0.996
+0.997
+0.996
+0.995
+
+0.993
+0.991
+0.992
+0.992
+0.992
+0.991
+0.992
+0.994
+0.992
+0.992
+0.992
+0.994
+0.991
+0.992
+0.992
+0.991
+0.991
+0.992
+0.992
+0.990
+
+0.985
+0.981
+0.983
+0.983
+0.983
+0.981
+0.983
+0.985
+0.983
+0.983
+0.983
+0.985
+0.982
+0.982
+0.983
+0.982
+0.982
+0.984
+0.983
+0.982
+
+0.979
+0.974
+0.976
+0.976
+0.976
+0.975
+0.977
+0.978
+0.976
+0.976
+0.976
+0.979
+0.975
+0.975
+0.976
+0.975
+0.975
+0.977
+0.976
+0.975
+
+0.971
+0.966
+0.968
+0.968
+0.969
+0.967
+0.969
+0.971
+0.968
+0.968
+0.969
+0.971
+0.967
+0.967
+0.968
+0.967
+0.968
+0.969
+0.969
+0.967
+
+factors are not available. Some of the most common chamber
+types not included above are discussed here:
+(i)
+
+Based on manufacturer’s specifications, the previously manufactured PTW31003 (listed in the TG-51
+protocol) is identical to the PTW31013. The values
+for the PTW31013 in the table above can therefore be
+used for the type 31003.
+(ii) The CC13 is the closest replacement for the IC10
+from IBA (Wellhöfer) listed in the TG-51 protocol,
+and there appears to be no significant change in construction. The kQ values for the CC13 chamber in the
+table above can be used for the IC10 ionization chamber.
+(iii) The PTW30001, 30002, 30004, and 30006 were
+replaced by the PTW30010, 30011, 30012, and
+30013, respectively. This was more than a simple
+change in numbering; there was a significant change
+in the thimble design. The earlier chambers used a
+PMMA thimble with conductive graphite “dag” on
+the inner face. The dag was replaced in the newer design by a solid graphite liner to the PMMA thimble.40
+Users of these older PTW ionization chamber models
+(30001, 30002, 30004) should use the kQ data in the
+original TG-51 protocol. Section 11 of TG-51 indicates that for the 30006 model (not listed in Table I of
+TG-51) one can use the kQ data given for the 30001.
+(iv) The Capintec PR-05/PR-05P as listed in TG-51 is
+still manufactured, but there is little or no data in the
+
+try. Data from the ADCLs indicate that this chamber type is still quite widely used, so continued
+use of such chambers is allowed using the data in
+the TG-51 protocol as long as the user verifies that
+the chamber meets the requirements of Table III in
+Appendix A.
+(v) The NE2581 chamber is no longer recommended for
+reference dosimetry. It has been shown by Mijnheer41
+that an A-150 walled chamber (such as the NE2581)
+can exhibit significant changes in the chamber volume as a function of the relative humidity, and Mayo
+and Gottschalk42 showed that the temperature coefficient of A-150 could result in a significant change
+in thimble volume with temperature. This recommendation also applies to other A-150 chambers (e.g.,
+the Exradin T1, an A-150-walled version of the A1
+chamber) that are not already explicitly excluded in
+Sec. 4.C based on experimental evaluation.
+4. IMPLEMENTATION GUIDANCE
+4.A. Implementation of TG-51 addendum
+
+Implementation of this addendum will be very simple compared to the effort that was required in moving from TG21 to TG-51, for which the new formalism and method was
+very different from the former. The Radiological Physics Center (RPC) in Houston has monitored the implementation of
+TG-51 and reports that the vast majority of clinics in the
+US and Canada are now using TG-51 for linac reference
+
+041501-6
+
+
+dosimetry, so this working group anticipates a rapid take-up
+of this addendum.
+The changes introduced by this report in the determination
+of absorbed dose to water in megavoltage photon beams are
+very minor:
+(1) The formalism has not changed in any way, and the
+procedure as set out in TG-51 remains the same.
+(2) The major contribution is the provision of new, highly
+accurate values of kQ for chambers in TG-51 as well
+as chambers developed since TG-51’s publication.
+Second, recommendations about some chamber types
+to be avoided are also given.
+(3) Some recommendations are provided in Sec. 5, which
+could result in procedural changes for individual
+clinics.
+(4) More detailed measurements of ion recombination
+might be required for certain chamber types.
+It is expected that the effort on the medical physicist’s part
+to implement this addendum will not be significant and could
+be done as part of the annual linac calibration.
+
+4.B. Reference-class ionization chamber
+
+Any ionization chamber used to realize absorbed dose to
+water using the TG-51 protocol and this addendum should
+meet the specifications of Table III. Since these are operational (rather than mechanical/geometric) specifications, it
+is the user’s responsibility to verify the performance of the
+chamber they intend to use. Note also that all chambers have a
+finite lifetime, and therefore chamber performance should be
+verified on a regular basis. It is not sufficient to make measurements when the chamber is commissioned and then assume
+that corrections such as polarity, recombination, and leakage
+continue to apply. Based on the practices of the ADCLs and
+the RPC, and the recommendations of AAPM Report TG-142
+(Klein et al.43 ), this Working Group recommends that all aspects of chamber performance be verified at the annual TG-51
+calibration and whenever a new irradiation beam is commissioned.
+
+4.C. Equipment needed
+
+The Appendix to TG-51 lists the minimum equipment
+required to implement this protocol. This working group endorses that list, where it applies to photon dosimetry, with the
+following comments:
+(1) The ionization chamber must meet the reference-class
+specification as detailed in Sec. 4.B above.
+(2) Information on redundancy/stability checks is given in
+Sec. 5.B.4.
+(3) See Sec. 5.A.5 below for resolution specifications and
+expected precision for barometers and thermometers.
+(4) A lead foil is no longer mandatory for certain beams
+with energies greater than 10 MV, and this is detailed
+in Sec. 4.H below.
+
+041501-6
+
+4.D. kQ data sets
+
+For chambers listed in both this addendum and the original TG-51 protocol, the kQ factors listed in Table I of this
+document should be used. For chambers that are not listed
+in either the original TG-51 protocol or in this addendum,
+the recommendations of Sec. 11 of TG-51 should be followed as long as the chamber meets the requirements of
+Table III.
+4.E. Choice of polarizing voltage
+
+It is the user’s responsibility to choose the correct polarizing voltage for the calibration and use of an ionization
+chamber, noting that:
+(a) The calibration coefficient is valid only for the polarizing voltage stated on the calibration certificate issued by the calibration laboratory (i.e., the same polarizing voltage should always be used).
+(b) High polarizing voltages (e.g., in an attempt to minimize the magnitude of Pion ) can lead to excessive
+charge collection, resulting in an incorrect measured
+and/or applied ion-recombination correction Pion and,
+ultimately, electrical breakdown within the air cavity.
+(c) A manufacturers’ safe rating for a chamber is not the
+same as the correct value to use for accurate dosimetric measurements (i.e., a value at which the ionization
+chamber is behaving according to the standard recombination theory).
+Based on data in the literature this addendum recommends
+an upper limit of 300 V for cylindrical chambers used for
+reference dosimetry.
+4.F. Measurement of polarity correction, Ppol
+
+The polarity correction should be measured for any new
+chamber and beam combination, and then at least annually.
+The polarity effect is associated with a net deposition of
+charge in the chamber (electrodes and/or insulators and/or cable), and in the situation of transient charged-particle equilibrium there is no net charge deposited. Ppol values between
+0.996 and 1.004 should therefore be expected. This range is
+slightly larger than given in TG-51 and is based on the chamber specification defined in Appendix A. For values outside
+this range, the procedure in Sec. 7.A of TG-51 should be followed. The measurement of Ppol is a very simple QA check of
+the chamber/electrometer system as it confirms that the polarizing voltage is applied correctly between the chamber’s electrodes, and any change with time indicates a possible change
+in chamber response.
+4.G. Effective point of measurement
+
+For TG-51 photon-beam dosimetry, the effective point of
+measurement (EPOM) is required only for the measurement
+of depth-dose curves. In Sec. 8 of the TG-51 protocol, a shift
+from the geometric center of the chamber toward the radiation
+
+041501-7
+
+
+source of 0.6rcav for cylindrical chambers was recommended
+(curve II in Fig. 1 of the TG-51 protocol). Kawrakow44 carried
+out a Monte Carlo-based investigation of the effective point of
+measurement of cylindrical ionization chambers and showed
+that the shift, or EPOM, was a function of cavity length and
+central-electrode diameter. Tessier and Kawrakow45 then calculated the effective point of measurement for a wide range
+of chambers currently available, and Looe et al.,46 using an
+experimental method based on radiochromic film, presented
+measured results in good agreement with these calculations.
+In many cases, a shift significantly different from 0.6rcav was
+required to yield the “true” depth-dose curve.
+As published EPOM data are not available for all the
+chambers listed in Secs. 3.D and 3.E, the baseline recommendation for determining %dd(10)X for use with the TG-51
+Addendum is to use a shift of 0.6rcav toward the radiation
+source. This maintains consistency with the current TG-51
+recommendation. Using 0.6rcav compared to the more accurate values in the literature has a small effect on the subsequent selection of kQ factors. Hence the effect on the dose
+determined at the reference point is less than 0.1% for the
+chambers in Table I.
+For accurate measurement of the full photon beam
+depth-dose curve for other clinical applications, the chamberspecific EPOM values given in the literature (if available)
+should be used.
+4.H. Use of lead foil to determine %dd(10)X
+
+Determination of the photon beam-quality specifier,
+%dd(10)X , for high-energy beams (around 10 MV and above)
+requires the placement of a 1 mm lead foil to fully intercept
+the beam. Although TG-51 clearly states that the foil must be
+removed for the dose measurement step, there is anecdotal evidence of confusion as to when the lead foil must be used. TG51 also provided an “interim measure” [Eq. (15) in TG-51] to
+convert directly from %dd(10) (measured in the open field,
+no lead foil required) to %dd(10)X , and Tailor et al.47 report
+that using this relation introduces an error of no more than
+0.2% in the selection of kQ . Since the simplified experimental
+procedure should be less prone to operator error, the Working Group recommends that Eq. (15) in TG-51 (no lead foil
+required) can be used as the default procedure, with the provisos that (i) it be used only for linacs with flattening filters,
+and (ii) an increased uncertainty component be included to
+take account of its use compared to the more accurate method
+using the lead foil.
+4.I. Use of small-volume chambers in
+relative dosimetry
+
+As discussed above, very small chambers (volumes
+<0.05 cm3 ) are not recommended for reference dosimetry. In
+addition, it should be noted that many of the issues reported
+for these chambers (anomalous recombination behavior, large
+polarity effect, or complex effects from high-Z electrodes) can
+
+041501-7
+
+ful characterization of such chambers (e.g., as described by
+McEwen29 ) must be done before use in any situation.
+4.J. Non-water phantoms prohibited
+
+This addendum upholds the recommendations of TG-51
+that a water phantom must be used for the output calibration of the linear accelerator. The main advantage of solid
+phantoms is in the ease of setup, but this is countered by the
+uncertainty in the correction factor to convert from dose in
+plastic to dose in water (particularly for generic materials). Despite the developments in the formulation of waterequivalent phantoms that have been documented in the
+literature,48–51 the additional uncertainty in using such materials still negates any ease-of-use issue (in particular, temperature equilibration times and temperature gradients can be
+much greater than for a water phantom52 ). Small calibration
+water phantoms are available from a range of manufacturers. These are simple to use, weigh less than 30 kg when
+full and provide the necessary positioning capability to measure the beam-quality specifier and to position the chamber
+at dref .
+4.K. Application to flattening-filter-free linacs
+
+The factors and methods listed in the TG-51 protocol and
+this addendum can be used for flattening-filter-free (FFF)
+linacs, assuming that the standard reference field (i.e., SSD
+or SAD = 100 cm, field size = 10 × 10 cm) can be produced.
+Xiong and Rogers53 have shown that %dd(10)X is a suitable
+beam-quality specifier, and therefore TG-51 can be followed
+to determine the reference absorbed dose to water. Additional
+points to note for FFF beams are:
+(1) The ion-recombination correction is larger than found
+for “standard” linacs. The effect of the higher dose
+per pulse from a FFF linac on the behavior of the
+user’s ionization chamber should be investigated. Kry
+et al.54 showed that, at least for one type of FFF linac,
+the ion-recombination correction is consistent with the
+correction for lower dose-per-pulse beams and is accurately determined using the same techniques. A working limit of Pion ≤ 1.05, as suggested in TG-51, is
+recommended for FFF linacs, which could, for certain
+FFF beams, restrict the choice of reference chamber
+type.
+(2) The significant radial nonuniformity of the beam can
+have an effect on volume averaging within the ionchamber volume. It is recommended that chambers
+used in FFF beams should have a short collecting
+volume (the chamber should still meet the specification of a reference-class instrument, as given in
+Appendix A). Alternatively, a correction must be applied to account for the beam nonuniformity across the
+chamber volume (see Sec. 5.C.7). Such a correction
+should include an associated uncertainty component.
+(3) Measurement of %dd(10)X requires the use of the
+1 mm Pb foil, as Eq. (15) in the TG-51 protocol and
+
+041501-8
+
+
+Sec. 4.H above are known to be valid only for “flat”
+beams, whereas the equations for using lead foils
+are based on calculations with filtered and unfiltered
+beams.55 It is recommended that the lead foil be used
+in beam quality measurements for all FFF beams (including those below the 10 MV limit of TG-51) to
+eliminate the potential effect of accelerator-produced
+electron contamination. The geometry of the detector
+should not have a significant effect on the measurement of beam quality.
+(4) The kQ values presented in Table I are based on calculations for beams with flattening filters only.20, 28 In
+a study of central-electrode effects,37 it was shown
+that these same values apply for FFF beams within
+0.1% or so for chambers with low-Z or aluminum
+electrodes. However, for chambers with high-Z electrodes, values of kQ can vary by more than 1% in
+FFF beams for a given %dd(10)X . This is another reason these microchambers are not recommended for
+reference dosimetry.
+
+4.L. Best-practice guidelines
+
+This addendum is not intended to be a comprehensive
+best-practice guide. Over the last decade the RPC has, through
+its role in providing dosimetry-audit services, collated a large
+amount of information on implementing TG-51 correctly in
+the clinic and common mistakes to be avoided. Users are
+referred to the publications of Tailor et al.47 and
+Followill.56
+4.M. TG-51 corrigenda
+
+There are a number of minor typos and formatting issues
+in the original TG-51 document:
+(1) The equation for general recombination in a 60 Co
+beam on p. 1862 (Worksheet A, p. 2) is missing an
+exponent in the denominator and a closing bracket.
+See Eq. (11) in the main text of TG-51 for the correct
+equation.
+(2) In the figures for kQ , some of the curves are mislabeled (the tabulated data are correct). However, for
+the majority of chambers, the photon kQ data in
+TG-51 are superseded by the data presented in this
+addendum.
+
+the user. Two basic equations of TG-51 are our focus for this
+discussion:
+60
+
+Co
+,
+DwQ = MkQ ND,w
+
+(2)
+
+M = Mraw (x, y, z, SSD, F S)PTP Pion Ppol Pelec Pleak Prp .
+(3)
+The meanings of all but two of these parameters are given in
+the TG-51 protocol. Pleak is the correction factor defined as
+any contribution to the measured reading that is not due to
+ionization released by the radiation beam in the chamber’s
+collecting volume, and Prp is the correction factor to take
+account of any off-axis variation in the intensity profile of
+the radiation field over the sensitive volume of the ionization
+chamber. The effect of chamber positioning is indicated in
+Eq. (3) by explicitly showing that the chamber reading is a
+function of position within the water phantom. The chamber
+reading is also a function of the source-surface distance, SSD
+(or source-axis distance for an SAD setup) and field size [FS
+in Eq. (3)], and these can be sources of uncertainty.
+In the following, each term in Eqs. (2) and (3) is discussed in turn. Where uncertainty values are assigned, these
+are for clinical measurements and may be: (i) as reported in
+the literature, or (ii) based on the experience of the members
+of this Working Group. Unless stated otherwise, all values
+are given as standard uncertainties (as defined by the GUM).
+
+5.C.4. Leakage currents
+
+The leakage current is usually measured with all the equipment in place, the accelerator on, but with no beam. Contributions can come from the chamber itself, the ionization
+chamber cable (e.g., due to damage or long-term radiationinduced degradation), or the electrometer. In such a measurement, extra-cameral currents and radiation-induced leakage
+(e.g., in the cable) are not evaluated, although the definition
+of Pleak does include those components. Extra-cameral currents can be estimated by shielding the ionization chamber
+while irradiating the cable, and Campos and Caldas88 demonstrated a method to evaluate such radiation-induced leakage.
+Each component of the chamber-cable-electrometer system
+should be evaluated separately, when possible. A reasonable
+and achievable target for the value of Pleak is that given in the
+IAEA TRS-398 Code of Practice:89 the leakage should contribute less than 0.1% to the charge reading. For any particular
+system, the value of the leakage current could be significantly
+larger, and a value greater than 0.5% must be investigated. If
+the leakage current is at or below the 0.1% level then it is
+
+041501-13
+
+
+reasonable to set Pleak = 1.000 (no correction for leakage)
+with an associated relative uncertainty of 0.1%.
+Table II values based on data obtained from dosimetry
+calibration laboratories.
+5.C.5. Stability of linear accelerator
+
+The TG-51 protocol lays out a method to determine the absorbed dose to water for a single irradiation. Practically, this
+has no useful meaning unless it can be related to some measure of the treatment delivery (e.g., exposure time for 60 Co,
+number of MUs for a linear accelerator). An uncertainty component, therefore, is included to address the short-term repeatability of the linac when delivering a series of fixed MU
+runs [IEC/TR 60977 (Ref. 90)]. From reviewing the literature this component appears to be small for modern linacs,
+typically less than 0.05% (Ref. 43). Note that this component
+specifically deals with the linac stability for the period of the
+measurements required to carry out the dose-determination
+part of TG-51. An additional component might be required if
+the beam quality and dose measurements are not measured
+at the same time (i.e., to take account of any variation in
+beam quality with time). Long-term reproducibility of the
+accelerator output is not part of this procedure and is covered
+by other publications, such as TG-142 (Ref. 43).
+The number of MU (monitor units) for each irradiation has
+typically been chosen to be the same as used in treatment.
+This has historically led to calibration deliveries of 100–
+200 MU. This range is recommended, as longer irradiations
+can lead to over-ranging of the electrometer, while shorter
+irradiations can be significantly affected by beam start-up.
+Table II values based on: (i) data reported for modern linacs; (ii) linac with reduced stability (but still within
+manufacturers operating limits).
+5.C.6. Electrometer calibration coefficient, Pelec
+
+The US ADCLs calibrate ionization chambers and electrometers separately, and therefore the calibration certificate
+will give a value for Pelec and its associated uncertainty.
+However, some calibration laboratories (e.g., NRC in
+Canada) calibrate a complete system—ionization chamber
+plus electrometer—so there is no separate electrometer factor
+(and therefore no associated uncertainty).
+Table II values based on: (i) US ADCL calibration capability; (ii) value reported by Castro et al.60
+5.C.7. Radial beam profile, Prp
+
+An ionization chamber averages over some volume (dependent on the particular chamber) but the measurement is
+directly related to the absorbed dose to water at a point. At the
+reference depth, the axial dose fall-off is close to linear, so the
+focus is the radial beam uniformity or flatness. The AAPM’s
+TG-142 report43 defines flatness criteria for the whole field,
+but does not deal with the averaging effect of the ionization
+chamber. The TG-106 report56 shows the large effect volume
+averaging has on the measurement of the penumbra, but the
+effect on the determination of the reference dose should also
+
+041501-13
+
+be considered. The issue of the “horns” on a MV beam profile is usually noted for large fields, but the operation of the
+accelerator combined with the design of the flattening filter
+can result in a significant nonuniformity of the beam (1%–
+2%) even for a 10 × 10 cm field.91, 92 The effect is greatest for
+long-thimbled Farmer-type chambers.
+This correction factor is included in Eq. (3) above, as a
+correction to the raw ionization-chamber reading. Conceptually, however, it does not address some non-ideal behavior of the ionization-chamber/electrometer system but rather
+corrects for the non-ideal dose distribution from the radiation
+field. One could therefore equally consider it as a component
+of Eq. (2), the conversion from ionization-chamber reading
+to absorbed dose to water at a point. It was felt to be simpler, and less confusing, to introduce the two new correction
+factors (Pleak and Prp ) in the same equation.
+However, there is an additional complication because the
+kQ factors presented in this report are based on simulations
+of the photon beam and ionization-chamber geometry. The
+impact of the radial-dose profile of the simulated beams on
+the ionization-chamber reading is already taken into account,
+and therefore a correction to the measured ionization-chamber
+reading would seem not to be needed. This is not the case,
+however, as the calculated dose profiles are much more uniform than typical measured profiles. The effect on the calculated kQ factors of the dose profile is estimated to be of the
+order of 0.05% (worst case) which, for the purposes of this
+discussion, is considered to be insignificant.110 In contrast, the
+correction for the measured Prp can be an order of magnitude
+larger.
+To determine Prp in the clinic, one calculates the average of
+the radial dose profile over the dimensions of the active part
+of the chamber. For linacs with a flattening filter, a simple 1D
+integration (average) along the thimble should be sufficient as
+this dominates over averaging across the air cavity. The magnitude of Prp can be significantly larger for FFF beams because the unflattened beam is strongly peaked along the central axis93 and therefore a more detailed 2D measurement and
+calculation might be required for such beams. Note that the
+measurement of the radial dose profile might require a water
+phantom different from that normally used for implementation of TG-51. In addition, the effect on the radial-dose profile
+due to small changes in linac beam steering can be larger for a
+FFF beam than for a flattened beam;94 thus, constancy of the
+correction factor Prp over time for either type of beam should
+not be assumed.
+Table II values based on: (i) Prp derived from detailed 2D
+radial beam scan; (ii) field assumed to be uniform over dimensions of chamber cavity.
