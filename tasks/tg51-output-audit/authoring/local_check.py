@@ -6,7 +6,7 @@ Usage:  python3 local_check.py tasks/<task-name>
 It copies environment/data to a scratch folder, runs solution/solve.py with DATA and OUT redirected
 there, then runs every test in tests/test_outputs.py with OUT redirected (oracle run), and again with
 no output file (nop run). It needs no pytest: a tiny stand-in for pytest.fixture and
-pytest.mark.parametrize is used, so it works in ChatGPT's and Claude's sandboxes.
+pytest.mark.parametrize is used, so it runs where pytest is not installed.
 
 Also importable: run_solution(task_dir, source=None) and run_tests(task_dir, out_dir), used by
 calibrate.py to run shortcut versions of solve.py.
