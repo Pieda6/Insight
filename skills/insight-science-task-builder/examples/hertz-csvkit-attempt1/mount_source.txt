@@ -1,0 +1,1 @@
+Public source of the MIT licensed wireservice/csvkit repository on GitHub at commit 43d09bf1f39382bc2d66c4f892c9814901179ff8 (version 2.2.0 with unreleased changes), exported with git archive, with the unused 38 MB example file examples/realdata/census_2000/usgeo.upl left out and generated folders added to .gitignore.

@@ -1,0 +1,5 @@
+I load a lot of spreadsheet exports into sqlite with csvsql and the headers are always a mess, stuff like "Unit Price ($)", "  Première  Année ", "2019 Total", or the same name twice with different capitals. Every query ends up full of double quotes, and csvjson gives me keys with spaces in them. csvclean --header-normalize-space only fixes the whitespace so it doesn't really help.
+
+What I'd like is a --header-snake-case option that turns the header row into plain lowercase identifiers, on csvclean, csvsql and csvjson, all going through the same code so the three never disagree. Without the option nothing should change for anyone, and I'd rather not pull in a new dependency for this.
+
+To start with, look at how headers are handled today in csvclean, cleanup.py and cli.py and tell me in a few lines where you'd put the shared logic and how you'd deal with the awkward cases. In this turn I only want the option on csvclean, with tests. Keep the write-up short, mainly what you ran and anything you weren't sure about.

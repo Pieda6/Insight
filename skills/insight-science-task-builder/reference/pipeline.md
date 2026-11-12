@@ -12,7 +12,8 @@
 | `pass2_attempt_budget` | At most 15 counted attempts per PR | yes | no |
 | `pass2` | 2 agent trials; at most 1 may solve | yes | yes |
 | `deep_review` | LLM reviewer reads code, data and both trajectories | yes | no |
-| `ambiguity_review`, `ava_review` | Ambiguity and verifier audits | yes | no |
+| `ambiguity_review` | Ambiguity audit (LLM) | yes | no |
+| `ava_review` | Adversarial verifier audit: instruction vs verifier contract; evidence artifact `ava-review-evidence.zip` (ava-gate.json `blocking_ids`, rendered.md) | yes | no |
 | `pass3` | 3 more trials; across all 5, at most 2 may solve | yes | no separate attempt |
 
 A failure skips everything after it. A run that stops before `pass2` is free: the attempt budget
@@ -95,6 +96,20 @@ ctrf_reporting, do_not_modify_enforced, binary_reward, unambiguous, instructions
 | pass2 | `pass@2 blocked (too_many_solves): 2 valid trial(s), 2 solved` (27 and 43 minutes) | Instruction was a recipe listing every trap and convention; tolerances loose | Rebuild in the lean style (`difficulty.md`); do not just add rules |
 | deep_review | `Verdict: FAIL — the decisive MIC-selection rule ... is not uniquely derivable from agent-visible material; both pass@2 trials independently adopted the "assume 1 mg/L" reading and failed only on it` (gates U1, U2, U3, T6.3, T10.3-CAT, T-ATTRIB, G-DIFF) | A decisive rule was only cited, and my version contradicted the guideline's Recommendation 6 | State every decisive rule in instruction.md, faithful to the source; never let failures hinge on a convention |
 | deep_review (unresolved) | `tolerances_justified (exposure boundary × 0.5% tolerance)`, `near_rounding_steps` | Category boundaries planted 0.05 percent away while numbers were accepted within 0.5 percent | Keep boundary and rounding margins larger than the numeric tolerance |
+| static | `slug has 4 hyphen-separated tokens (max 3)` | Folder `tg71-monitor-unit-check` | Rename to 3 tokens (`tg71-mu-check`) and change `[task].name` |
+| static | `difficulty_explanation is a TB-4 field; move its text to the task README.md and remove it from task.toml` (also solution_/verification_explanation, category, subcategory) | Fields added because an outdated local copy of check-task-fields.sh asked for them | Never add them. The live check wants domain, field, subfield, tags, expert_time_estimate_hours, relevant_experience only. Trust a passing live run over local copies of the check scripts |
+| artificiality | `Category and field alignment: BLOCK ... repository field london medicine vs metadata field Medicine` | Repo `science-london-medicine-...` | `field = "London Medicine"` (match the field derived from the repo name) |
+| artificiality | `Kyoto allowed tool use: FAIL (NOT_USED)` | Solution used the standard library only | Pin a listed tool (numpy/scipy ...) in environment/Dockerfile and use it on the output path (`kyoto.md`) |
+| artificiality | `Kyoto allowed task type: FAIL (ARTIFICIAL)` | A protocol applied to synthetic records is not REPRODUCE, EXTRACT, TRAIN_EVAL or REPAIR_PORT | Recast, e.g. REPAIR_PORT of a legacy program (`kyoto.md`) |
+| artificiality | `A3` invented specification, `A6` authored combination | Department policy prose the standard does not contain (vancomycin-hemodialysis) | Remove invented policy; if the science then fails, abandon the idea |
+| pass2 | `pass@2 blocked (too_many_solves): 2 valid trial(s), 2 solved` with the standard's full text shipped in /app/data | The model reads the whole text and applies every rule (prostate, TG-71 v1) | Do not ship the text; name the standard (`disclosure.md`) |
+| pass2 (infra) | trial artifacts failed a credential scrub | Infra | Re-run; not a task change |
+| deep_review | `Verdict: FAIL — the graded answer for extended-distance electron beams depends on an undisclosed rectangular-insert reduction convention; a reasonable rival reading fails tolerance and both pass@2 agents independently converged on it` | The rule is in the named report but the reviewer cannot see the report; agents misremembered it | Instruction sentence naming the governing sections (not the rule), exact quotes in authoring/sources and as engine comments, calibration shortcuts for the rival reading (`disclosure.md`) |
+| deep_review (infra) | `Deep review did not PASS (fail-closed)` with `reviewer exit code: 0` | A real verdict, posted only as the PR comment "🤖 Automated Review" | Ask the person to paste the whole comment; the Actions log does not contain it. Claude cannot read their repo |
+| deep_review (infra) | `NOT DETERMINED — the reviewer timed out / crashed` | Infra | Re-run the job; not a task verdict |
+| ambiguity_review (infra) | the civil ambiguity audit crashed | Infra | Report to support with the run link; no task change |
+| ava_review | `BLOCK ... B2:accepted_task_violation` "the instruction explicitly says 'do not round to whole monitor units', yet ... rounding ... is accepted" | The instruction promised something the tolerance does not enforce | Output paragraph states only the acceptance rule; remove untested formatting promises; add tests for tag discrimination and the allowed-variant band |
+| static (warning, non-blocking) | `Instructions not relegated to an external doc file (T16) ... referenced doc environment/data/tg71.txt is 29481 words vs 460-word instruction.md` | A shipped standard text | Non-blocking; disappears when the text is not shipped |
 | (person) | Links "don't exist" | URLs given from memory | Search first; give verified links |
 | (person) | A 1-page placeholder PDF | The repository page had no file | Tell them the expected page count and sections; check on arrival |
 

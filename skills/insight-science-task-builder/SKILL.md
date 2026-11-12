@@ -1,6 +1,6 @@
 ---
 name: insight-science-task-builder
-description: Build Project Insight Science (TB-Science, Terminal-Bench style) tasks end to end for a non-coder on Handshake who uploads through the GitHub web UI. Covers choosing the idea, getting the source PDFs, the proposal, the data generator, reference solution, independent verifier engine, tests, Dockerfiles, task.toml, task README, authoring folder with evidence, instruction.md, the zip, PR title and description, and reading and fixing every QC stage from the log zips (static checks, Artificiality C1 with the TB-Science authoring and scientifically-grounded reviews, Oracle and Nop, similarity, implementation rubric, Pass@2, deep review, AVA, Pass@3). Use whenever the person mentions Project Insight, Insight Science, TB-Science, Terminal-Bench, Handshake, a task proposal, a subcategory (Civil Engineering, Medicine, ...), instruction.md, task.toml, pass@2, artificiality, or sends a log zip or a PDF for a task.
+description: Build Project Insight Science (TB-Science, Terminal-Bench style) tasks end to end for a non-coder on Handshake who uploads through the GitHub web UI, and run Project Hertz (Handshake coding-conversation project on Taiga) tasks from codebase to finish notes. Covers the full record of what passed and failed (vancomycin, prostate TG-43, KDIGO, TG-71, TG-51, civil HEC-22), choosing the idea and documents, the proposal, generator, solution, independent engine, tests, Dockerfiles, task.toml, READMEs, authoring evidence, instruction.md, the zip, PR title and description, and reading and fixing every QC stage from log zips and artifacts (static, artificiality A1-A7, Kyoto checks and category alignment, oracle/nop, similarity, rubric, Pass@2 with trajectory analysis, deep review, ambiguity, AVA, Pass@3). Use whenever the person mentions Project Insight, Insight Science, TB-Science, Handshake, Hertz, HAI, Taiga, a task proposal, a subcategory (Civil Engineering, Medicine, London Medicine), instruction.md, task.toml, pass@2, deep review, AVA, Kyoto, a codebase PR or attempt1/attempt2, or sends a log zip, an artifact zip or a PDF for a task.
 ---
 
 # Insight Science task builder
@@ -22,6 +22,13 @@ This file is the procedure. Read the reference files when you reach the step tha
 | The person sends a log zip or pastes a PR comment | `reference/pipeline.md` |
 | Upload steps, PR title and description, status reports | `reference/messages.md` |
 | Seeing a finished task that cleared static, artificiality and the science gate | `examples/vancomycin-auc-dosing/` (Medicine) and `examples/storm-drain-energy/` (Civil Engineering) |
+| **Before designing anything**: everything that happened, run by run, and the person's standing requests | `reference/history.md` |
+| Deciding what the agent may see (instruction, shipped text, named sections) and AVA rules | `reference/disclosure.md` |
+| Pass@2 solved it, or the person sends `pass2-output.zip` | `reference/trajectories.md` |
+| The repo name has an extra word (e.g. `science-london-medicine`) or the log mentions Kyoto | `reference/kyoto.md` |
+| Finding, fetching and extracting source documents | `reference/sources.md` |
+| Anything about Project Hertz, HAI, Taiga, a codebase PR, attempt1/ or attempt2/ | `reference/hertz.md` and `examples/hertz-csvkit-attempt1/` |
+| The closest-to-passing medicine tasks (full code) | `tasks/tg71-mu-check/` and `tasks/tg51-output-audit/` in this repository |
 
 ## 1. The setting, exactly
 
@@ -90,13 +97,30 @@ Breaking any of these has cost the person an attempt or a rejection before.
 19. **Do not target one model's quirks.** Difficulty comes from the real problem. Forum posts about
     a model's weaknesses are not design input; our own Pass@2 logs are.
 20. **Never create PRs, merge, or open a second PR.** The person uploads to the existing PR branch.
-21. **Every rule that decides a graded answer is stated in instruction.md and agrees with the source.** Check each
-    one against the source's own summary recommendations. Difficulty never comes from an unstated or
-    contestable rule (deep review U1/U2/U3, G-DIFF).
+21. **Every rule that decides a graded answer must be pinned to agent-visible text and agree with the source.**
+    Pinned means: stated in instruction.md, or in a shipped table, or in a named section of a named governing
+    document cited in instruction.md, with the exact quote saved in authoring/sources/ and as a comment in
+    tests/engine.py for the reviewer. Writing every rule out, or shipping the standard's full text, gets the task
+    solved 2/2; leaving the deciding rule unpinned fails the deep review. Read `reference/disclosure.md` before
+    writing instruction.md. Check every rule against the source's own summary recommendations.
 22. **Margins larger than tolerances.** Category boundaries and rounding midpoints sit farther from the truth than
     the numeric tolerance, or the deep review leaves it unresolved.
 23. **Read the deep review's trajectory analysis before fixing.** If both agents solved the scientific crux and
     failed only on a blocker, the fixed task will be solved: tell the person and redesign.
+
+24. **Never ship the governing standard's full text** in /app/data. Ship its tables as data; name the document.
+25. **task.toml has exactly the TB-Science fields** (domain, field, subfield, tags, expert_time_estimate_hours,
+    relevant_experience). No difficulty_explanation, solution_explanation, verification_explanation, category or
+    subcategory: the live static check rejects them, even though an old local copy of check-task-fields.sh asks for
+    them. `field` must match the field in the repo name (`science-london-medicine-...` means "London Medicine").
+26. **Kyoto repos** need a listed tool (numpy, scipy, ...) used on the output path and an allowed task type
+    (REPRODUCE, EXTRACT, TRAIN_EVAL, REPAIR_PORT). See `reference/kyoto.md` before designing.
+27. **No watermarks in anything the person uploads**: no "Generated with Claude", no AI or tool names in files, no
+    co-author lines. Run `grep -rIl -i "claude\|anthropic\|chatgpt"` over the task folder before zipping.
+28. **Never run a test agent** to see whether the model solves the task. It spends the person's limit; design from the
+    record (`reference/history.md`, `reference/trajectories.md`).
+29. **Every sentence in the output paragraph must be enforced by the tests** (AVA B2). State only the acceptance rule.
+30. **Read the Pass@2 trajectories when they are available** before any redesign; ask for `pass2-output.zip`.
 
 ## 3. The workflow
 
@@ -169,7 +193,7 @@ tasks/<task-name>/
   environment/Dockerfile        template, unchanged
   environment/data/...          agent inputs
   solution/solve.sh             template, unchanged
-  solution/solve.py             reference solution, Python standard library only
+  solution/solve.py             reference solution (standard library; in Kyoto repos it must use the pinned tool)
   tests/Dockerfile              template, unchanged
   tests/test.sh                 template, unchanged
   tests/.dockerignore           template, unchanged

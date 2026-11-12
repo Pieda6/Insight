@@ -14,7 +14,7 @@ applied to real-looking data, where the natural shortcut gives near-right answer
 | hazmat-trailer-check | TB3 legal | solved 2/2 three times | lookups (tables) are easy for models |
 | stormwater-inspection-audit | Science (Civil) | failed scientifically-grounded | a regulatory rule engine is not science |
 | sediment-basin-routing | Science (Civil) | solved 2/2 twice (27 and 43 min) | an 850-word instruction that listed every convention and trap, plus 0.5 percent tolerances, turned a hard simulation into a recipe |
-| storm-drain-energy | Science (Civil) | static pass after rename; later stages pending | HEC-22 Section 9.4 network grade lines with the FHWA access hole method |
+| storm-drain-energy | Science (Civil) | cleared all checks (one ambiguity-audit infra crash reported to support) | HEC-22 Section 9.4 network grade lines with the FHWA access hole method; exact categorical outputs at 431 planted boundaries; errors propagate; standard not shipped |
 | vancomycin-auc-dosing v1 | Science (Medicine) | static, artificiality, oracle/nop, similarity, rubric all PASS; Pass@2 solved 2/2 (56 min) | the instruction defined the model exactly (superposition through both levels), listed which levels count, gave the MIC rule: every settled point removed a trap. All gates before Pass@2 pass with this design, so keep the structure and cut the instruction |
 | vancomycin-auc-dosing v2 | Science (Medicine) | Pass@2 0/2 (25 min), then deep review FAIL | both agents reproduced every PK value for all 240 patients and failed only on the MIC rule, which the instruction no longer stated and which I had written against the guideline's own Recommendation 6 (assume MIC 1 mg/L, do not lower the dose for MIC below 1). Lessons: a cited-but-unstated rule that decides answers fails U1/U2/U3; failures driven by a convention fail G-DIFF; and if agents get the whole scientific crux right, the task is too easy no matter what. Retired |
 | vancomycin-auc-dosing v3 | Science (Medicine) | MIC fixed per Rec. 6: Pass@2 solved 2/2 (16 min) | as predicted, once the only failure point was fixed the clean PK pipeline was solved |
@@ -24,6 +24,12 @@ applied to real-looking data, where the natural shortcut gives near-right answer
 
 | prostate-seed-dosimetry (later runs) | Science (Medicine) | rule unstated: Pass@2 passed but deep review FAIL (U1-U3, G-DIFF); rule stated: solved 2/2; report text shipped as data: solved 2/2 | a single buried rule is not difficulty: the deep review calls failures on it an artifact, and once visible the model finds it |
 | kdigo-aki-staging | Science (Medicine) | every check before Pass@2 passed (science included); Pass@2 solved 2/2 | trajectories show the model spends half its steps hunting borderline values and testing every alternative reading against the data; planted edges with one correct reading never trap it |
+
+| tg71-mu-check v1 | Science (Medicine) | report text shipped, 91 beams: solved 2/2 (~28 min), both exact on every beam | the model reads the shipped standard and tests every alternative reading against it |
+| tg71-mu-check v2 | Science (Medicine) | text removed, named only; 83 beams: Pass@2 PASSED, deep review PASS, ambiguity PASS, AVA BLOCK (instruction promise not enforced) | the best result so far: a named, detailed standard the model half remembers, many independent rule families |
+| tg71-mu-check v3 | Science (Medicine) | AVA fixed: Pass@2 PASSED, deep review FAIL (both trials failed the same 4 beams on an undisclosed rectangular-insert rule) | when all failures land on one rule the reviewer cannot see, it is "ambiguity"; fix with a section pointer plus quotes for the reviewer (`disclosure.md`) |
+| tg51-output-audit v1 | Science (London Medicine) | static PASS; A1-A7, authoring and grounding PASS; Kyoto tool use and task type FAIL; field mismatch | Kyoto repos need a listed tool and an allowed task type (`kyoto.md`) |
+| tg51-output-audit v2 | Science (London Medicine) | REPAIR_PORT of a legacy numpy/scipy program; mechanical port 128/138 wrong; pending | |
 
 ## Lesson from reading the Gemini trajectories (Nov 2026)
 The model audits: it enumerates every reading of times, units and rules and checks whether any answer changes, and

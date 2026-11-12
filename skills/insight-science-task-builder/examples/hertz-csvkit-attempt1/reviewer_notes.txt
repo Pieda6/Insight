@@ -1,0 +1,24 @@
+csvkit is a suite of command line tools for CSV files (csvclean, csvsql, csvjson and a dozen others) built on the agate table library. The zip is the public csvkit source as it stood on its master branch on November 9, 2026, which is version 2.2.0 plus the unreleased fixes listed at the top of CHANGELOG.rst. It differs from upstream in two ways only. The 38 MB example file examples/realdata/census_2000/usgeo.upl was left out because nothing uses it (the docs and tests use usgeo_excerpt.upl), and .gitignore lists a few more generated folders such as .venv, __pycache__ and .pytest_cache.
+
+The work answers a long-open request on the project, issue 396 "Normalize (or rename) headers". The maintainers said they are in favor and nothing has been merged for it. The only piece that shipped is csvclean --header-normalize-space, which tidies whitespace. Two pull requests from 2016, 505 and 525, tried something similar against a much older codebase and were closed without merging.
+
+Where to look:
+csvkit/cleanup.py holds RowChecker, which csvclean drives; the existing whitespace fix for the header is in its constructor.
+csvkit/utilities/csvclean.py, csvsql.py and csvjson.py define each tool's options and main().
+csvkit/cli.py holds CSVKitUtility with the shared options, make_default_headers, and the column identifier matching (match_column_identifier, parse_column_identifiers) that csvjson's -k, --lat and --lon go through.
+tests/test_cleanup.py and tests/test_utilities/test_csvclean.py, test_csvsql.py and test_csvjson.py are where tests for these live, with shared helpers in tests/utils.py.
+docs/scripts/csvclean.rst, csvsql.rst and csvjson.rst each carry a copy of the tool's --help output, and CHANGELOG.rst has an Unreleased section. The man pages in man/ are only regenerated at release time, so they should not change.
+
+To run the checks on a fresh Ubuntu 24.04 machine, unzip csvkit.zip and run these from the csvkit folder it creates:
+sudo apt-get update
+sudo apt-get install -y python3.12-venv unzip
+python3 -m venv .venv
+. .venv/bin/activate
+pip install -e '.[test]' flake8 isort
+LANG=C.UTF-8 PYTHONUTF8=1 python -m pytest -q
+flake8 . --exclude .venv
+isort . --check-only --skip .venv
+
+Before any change the suite gives 367 passed and 4 skipped, and flake8 and isort are clean. Keep LANG=C.UTF-8. The project's CI sets en_US.UTF-8, and on a machine without that locale test_csvstat.py errors at collection and not a single test runs. Leave the --exclude and --skip in place too, otherwise flake8 and isort go through the installed packages in .venv.
+
+To see that the new tests can actually fail, break one rule in the shared helper, for example stop adding the underscore in front of a name that starts with a digit, run pytest again and check that at least one new test fails, then restore it and check everything passes.
