@@ -13,6 +13,10 @@ These files are not copied into the agent or verifier images. Run them from this
   at dmax from clinical PDD); addendum Secs. 3.D (Eq. 1 and the rule below 63), 3.E (chamber replacements), 4.D, 4.H
   (Eq. 15 for flattened beams), 4.K (lead foil for flattening-filter-free beams), Eq. (3), 5.C.4 (Pleak = 1 below
   0.1 percent) and 5.C.7 (Prp as the average over the chamber's active length).
+- `../environment/tg51calc` is the legacy program the agent starts from, written for this task in the manner of a
+  2004 in-house tool for the 1999 protocol: Python 2, numpy and scipy calls since removed (np.float, scipy.interp), the
+  1999 kQ table with in-house equivalents for newer chambers, and the behaviours listed in `calibrate.py`.
+  `../solution/tg51calc` is the same program ported and repaired.
 - `generate.py` (seed 19990901) builds 12 clinics and 138 beams, writes the worksheets to both data copies,
   `../tests/case_tags.json` and `evidence/answers.json`. Readings are scaled so the dose at dmax is 0.985 to 1.015
   cGy/MU; recombination is measured with a voltage ratio of 2.
@@ -26,5 +30,6 @@ measurement.
 ## Evidence (outputs saved in `evidence/`)
 - `agreement.txt`: solution and engine agree on all 138 beams, with every count quoted in the READMEs.
 - `local_check.txt` (`python3 local_check.py ..`): oracle passes every test, empty output fails.
-- `calibration.txt` (`calibrate.py`): 14 shortcut solutions and how many beams each gets wrong.
+- `calibration.txt` (`calibrate.py`, run with numpy 2.2.6 and scipy 1.15.3): the repaired program with each legacy
+  behaviour put back, and the legacy program ported mechanically, with how many beams each gets wrong.
 - `generate_output.txt`: the number of beams carrying each case tag.

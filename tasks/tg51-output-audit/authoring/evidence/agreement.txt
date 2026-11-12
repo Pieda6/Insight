@@ -1,4 +1,4 @@
-solution vs engine: 138 beams, largest relative difference from the nearest allowed value pair 7.69e-06 (five-decimal rounding)
+repaired tg51calc vs engine: 138 beams, largest relative difference from the nearest allowed value pair 7.69e-06 (five-decimal rounding)
 largest spread among the value pairs the documents allow for one beam: 0.116 percent (tolerance 0.3)
 12 clinics, 138 beams: 71 photon, 67 electron
 photon energies {'15X': 13, '10X': 11, '6FFF': 14, '18X': 14, '6X': 13, '10FFF': 6}

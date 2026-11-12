@@ -4,15 +4,15 @@ schema_version = "2.0"
 
 [task]
 name = "insight/tg51-output-audit"
-description = "Independent review of annual linac output calibrations under AAPM TG-51 (Med Phys 1999;26:1847) and its 2014 photon addendum for 138 photon and electron beams at twelve clinics: from raw chamber readings, depth scans with and without lead foil, chamber-axis profiles and clinical depth-dose data, the dose per MU at the reference point and at dmax, with flattening-filter-free beams, SAD and SSD set-ups and cross-calibrated plane-parallel chambers."
+description = "Repair and port of a legacy Python 2 TG-51 calibration review program (numpy, scipy) to Python 3 and the 2014 photon addendum, used to review the annual output calibrations of 138 photon and electron beams at twelve clinics: from raw chamber readings, depth scans with and without lead foil, chamber-axis profiles and clinical depth-dose data, the dose per MU at the reference point and at dmax."
 
 [metadata]
 domain = "Science"
-field = "Medicine"
+field = "London Medicine"
 subfield = "Radiation Oncology and Medical Physics"
-tags = ["radiation-oncology", "medical-physics", "reference-dosimetry", "tg-51", "ion-chamber", "linac-calibration", "python"]
+tags = ["radiation-oncology", "medical-physics", "reference-dosimetry", "tg-51", "legacy-code-port", "numpy", "scipy", "python"]
 expert_time_estimate_hours = 8
-relevant_experience = "Clinical medical physics: annual linac output calibration under AAPM TG-51 and its 2014 addendum, ion chamber correction factors (PTP, Pion, Ppol, Pelec, Prp), beam quality specification with lead foil, kQ selection by chamber model, electron beam reference dosimetry and cross-calibration of plane-parallel chambers."
+relevant_experience = "Clinical medical physics with scientific Python: annual linac output calibration under AAPM TG-51 and its 2014 addendum (PTP, Pion, Ppol, Pelec, Prp, beam quality with lead foil, kQ by chamber model, electron beams and plane-parallel cross-calibration), and maintaining in-house numpy/scipy calculation tools."
 
 [verifier]
 timeout_sec = 300.0
