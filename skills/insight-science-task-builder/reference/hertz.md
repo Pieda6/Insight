@@ -165,3 +165,11 @@ brief states, including the "nothing changes" ones.
   .venv drops the config exclude so _version.py is reported, ruff 0.16 reformats README code). Baseline 382 passed,
   1 skipped.
 - Motivation verified by running today's workaround (SEPARATING_LINE before the total) in every named format.
+
+## Review 2 on HTZ-T10015 (1 item): every promise in the description needs its own exact check
+The task description promised csvjson's GeoJSON output and --lat/--lon with the new names, but no judge check ran
+them, and --stream alone runs the same code as plain JSON (csvjson reads row by row only with --stream -I
+--snifflimit 0). The reviewer asked for a GeoJSON check and a row-by-row check, each with its exact expected output.
+Fix: take the exact output from today's code with the original names (the option only renames keys), then write it
+with the new names. Before submitting a brief, walk every clause of task_description.txt and make sure a command in
+how_to_judge_completion.txt exercises it on its own code path, with the exact output.

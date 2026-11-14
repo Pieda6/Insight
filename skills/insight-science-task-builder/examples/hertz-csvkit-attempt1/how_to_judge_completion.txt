@@ -39,6 +39,21 @@ The same command without --header-snake-case, and with no other check or fix opt
 
 Without the option, `printf 'Unit Price,Qty\n2.5,4\n' | csvjson -k 'Unit Price'` still prints {"2.5": {"Unit Price": 2.5, "Qty": 4.0}}.
 
+GeoJSON uses the new names too, and --lat and --lon take them:
+`printf 'Site Name,Lat (deg),Lon (deg)\nPier,40.5,-73.25\n' | csvjson --header-snake-case --lat lat_deg --lon lon_deg`
+prints exactly {"type": "FeatureCollection", "bbox": [-73.25, 40.5, -73.25, 40.5], "features": [{"type": "Feature", "properties": {"site_name": "Pier"}, "geometry": {"type": "Point", "coordinates": [-73.25, 40.5]}}]}. Without the option, the same input with --lat 'Lat (deg)' --lon 'Lon (deg)' still prints that line with "Site Name" as the property key.
+
+--type and --geometry take the new names as well:
+`printf 'Site Name,Lat (deg),Lon (deg),Feature Type,Geom JSON\nPier,40.5,-73.25,Point Site,"{""type"": ""Point"", ""coordinates"": [1.0, 2.0]}"\n' > /tmp/sites.csv`
+`csvjson --header-snake-case --lat lat_deg --lon lon_deg --type feature_type --geometry geom_json /tmp/sites.csv`
+prints exactly {"type": "FeatureCollection", "bbox": [1.0, 2.0, 1.0, 2.0], "features": [{"type": "Feature", "properties": {"site_name": "Pier"}, "geometry": {"type": "Point", "coordinates": [1.0, 2.0]}}]}. The type column stays out of properties and the geometry comes from geom_json, as they do today without the option.
+
+csvjson only reads its input row by row with --stream -I --snifflimit 0, which is a separate code path from the plain and --stream output above, so check it on its own:
+`printf 'Unit Price,Qty\n2.5,4\n3,5\n' | csvjson --header-snake-case --stream -I --snifflimit 0`
+prints exactly two lines, {"unit_price": "2.5", "qty": "4"} and then {"unit_price": "3", "qty": "5"}, with the values kept as strings because -I switches off type inference.
+`printf 'Site Name,Lat (deg),Lon (deg)\nPier,40.5,-73.25\nDock 2,40.75,-73.5\n' | csvjson --header-snake-case --lat lat_deg --lon lon_deg --stream -I --snifflimit 0`
+prints exactly two lines, {"type": "Feature", "properties": {"site_name": "Pier"}, "geometry": {"type": "Point", "coordinates": [-73.25, 40.5]}} and then {"type": "Feature", "properties": {"site_name": "Dock 2"}, "geometry": {"type": "Point", "coordinates": [-73.5, 40.75]}}.
+
 Also load a file into a database and read it back, to see the rows really landed under the new names:
 `printf 'Unit Price,Qty\n2.5,4\n' > /tmp/prices.csv`
 `csvsql --header-snake-case --db sqlite:////tmp/prices.db --insert /tmp/prices.csv`
