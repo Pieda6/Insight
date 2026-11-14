@@ -152,3 +152,16 @@ same `attempt1` branch (upload the changed files into `attempt1/`, commit to `at
    stays, and make the task description and the judge checks say the same thing.
 Before submitting, grep the three fields and the first message for `turn` and run every command whose output the
 brief states, including the "nothing changes" ones.
+
+## HTZ-T660 (second task): tabulate footer row
+- Codebase: astanin/python-tabulate master at 268615a5c27dc40e5c22454c07b44d5c50410da0 (0.10.0 + unreleased 0.11.0),
+  git archive, .gitignore extended; python-tabulate.zip 26 files, 111 KB source.
+- Task: issue 69 "Support for footer or total row" (open since 2020, 27 upvotes, no PR ever). footer=[...] or
+  "lastrow"; formatted like data; footer text never changes a column type; per-format separation (rule below header
+  repeated once, html <tfoot>, latex_longtable no second \endhead, pipe/github/rst footer as last row); CLI --footer;
+  TableFormat stays 8-field compatible; test_api.py signature test; README doctest; CHANGELOG. Tier t3, away, oss_other.
+- Setup traps found: install needs SETUPTOOLS_SCM_PRETEND_VERSION=0.11.0 (no .git in the zip); CI extras numpy,
+  pandas, wcwidth (else ~60 skips); ruff==0.15.4 on `tabulate test benchmark` (ruff check . enters .venv, --exclude
+  .venv drops the config exclude so _version.py is reported, ruff 0.16 reformats README code). Baseline 382 passed,
+  1 skipped.
+- Motivation verified by running today's workaround (SEPARATING_LINE before the total) in every named format.
