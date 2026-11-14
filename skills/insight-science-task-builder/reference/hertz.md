@@ -173,3 +173,9 @@ them, and --stream alone runs the same code as plain JSON (csvjson reads row by 
 Fix: take the exact output from today's code with the original names (the option only renames keys), then write it
 with the new names. Before submitting a brief, walk every clause of task_description.txt and make sure a command in
 how_to_judge_completion.txt exercises it on its own code path, with the exact output.
+- HTZ-T660 brief tightened before review (applying the review 2 lesson): every promise in task_description.txt now
+  has a command with its exact output. Since the feature does not exist yet, each expected output was derived from
+  today's code (footer rendered as an ordinary last row, then the stated separator rule applied) and sanity-checked so
+  the data lines equal the table without a footer; every python -c command was compile-checked. Two behaviours the
+  checks needed (n/a right aligned; widths include the footer) were added to the description so nothing is judged
+  that the description does not state.
