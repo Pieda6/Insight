@@ -500,3 +500,20 @@ codebase_pr_url: https://github.com/Handshake-project-hertz/hertz-HTZ-T10015/pul
 codebase_commit_sha: 805ebadf38fb9d88a09be516f723da3ad726c021
 codebase_source: oss_other
 ```
+
+---
+
+## 16. Third task record: HTZ-T504 (mdformat ignore regions)
+
+- Codebase: hukkin/mdformat master at 56b24ef0c6cfdab501844925971204f858185547 (1.0.0 + README edit), unchanged
+  git archive, mdformat.zip 64 files. Baseline 4282 passed, 5 skipped.
+- Task: issue 53 "Support for ignore comments" (maintainer: "I like the feature"; closing duplicate 436: "very
+  welcome, but behavior should be well defined"), syntax `<!-- mdformat: off -->` / `<!-- mdformat: on -->` from 436.
+  The brief defines every corner case: top-level blocks only; region kept byte for byte (line endings follow
+  --end-of-line); off without on runs to the end; stray on is a comment; no effect in lists, block quotes, code, code
+  spans, inline; --wrap never reaches in; reference definitions (inside stays inside and is not repeated at the end;
+  outside definitions used only inside are not dropped); --check passes on unformatted regions; is_md_equal still runs.
+- Lint traps: CI runs linters via `pre-commit run -a` (needs git), so run them directly; `mypy --python-version 3.13`
+  (3.12 reports Path.full_match); pin `flake8-bugbear==24.12.12` (newer reports B042); pytest-randomly shuffles order.
+- Checks containing triple backticks break the backtick-delimited command format: build fences with `chr(96) * 3`
+  and print `True` from an equality test instead.
