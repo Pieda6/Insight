@@ -517,3 +517,16 @@ codebase_source: oss_other
   (3.12 reports Path.full_match); pin `flake8-bugbear==24.12.12` (newer reports B042); pytest-randomly shuffles order.
 - Checks containing triple backticks break the backtick-delimited command format: build fences with `chr(96) * 3`
   and print `True` from an equality test instead.
+
+## 17. REJECT by deterministic field rules (HTZ-T504, Nov 2026)
+
+The brief reviewer gained "deterministic content rules" on the brief fields, enforced before any model call. A
+violation gives "decision: Reject ... does not adhere to the project instructions for Hertz task briefs" with no
+details, and the automated review does not run again on that PR (the task goes back; fix the files on the same
+branch, comment on the PR, resubmit on HAI). Our T504 brief broke two written rules the approved T10015 brief kept:
+- a commit hash in reviewer_notes.txt ("at commit 56b24ef0"): no commit hashes in the three brief fields; describe the
+  state by date ("the master branch as it stood on October 19, 2025"). The full hash belongs only in mount_source.txt.
+- the word "commit" in the first message ("pre-commit"): the first message must never mention commits; even tool
+  names containing the word are risky. Say "git hook".
+Before every submission: `grep -n -i "commit" task_description.txt how_to_judge_completion.txt reviewer_notes.txt
+first_message.txt` must print nothing, and `grep -n -o -E "\b[0-9a-f]{7,40}\b"` on the same files must print nothing.
