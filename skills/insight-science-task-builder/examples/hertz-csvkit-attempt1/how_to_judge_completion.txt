@@ -6,7 +6,7 @@ Work on a fresh Ubuntu 24.04 machine. Unzip csvkit.zip, change into the csvkit f
 `. .venv/bin/activate`
 `pip install -e '.[test]' flake8 isort`
 
-After the final turn these must pass from that folder:
+When the work is done these must pass from that folder:
 
 `LANG=C.UTF-8 PYTHONUTF8=1 python -m pytest -q`
 `flake8 . --exclude .venv`
@@ -21,13 +21,13 @@ Behavior to check with small inputs typed at the shell, after activating the env
 `printf 'Some manually entered - header (TM),  Première  Année ,2019 Total ($),%%,Name,name,NAME \n1,2,3,4,5,6,7\n' | csvclean --header-snake-case`
 The first line is some_manually_entered_header_tm,premiere_annee,_2019_total,d,name,name_2,name_3 and the second line is 1,2,3,4,5,6,7. The exit status is 0, not the "No checks or fixes were enabled" error.
 
-The same command without --header-snake-case prints the header exactly as it was typed, and with --header-normalize-space alone it only tidies the spaces, as before.
+The same command without --header-snake-case, and with no other check or fix option, still stops with csvclean: error: No checks or fixes were enabled and exit status 2, as it does today. With --header-normalize-space alone it only tidies the spaces, as before, and the header becomes Some manually entered - header (TM),Première Année,2019 Total ($),%,Name,name,NAME.
 
 `printf 'name,Name,name_2\n1,2,3\n' | csvclean --header-snake-case` prints three different names, and the first one is name.
 
 `printf '名前,x\n1,2\n' | csvclean --header-snake-case` prints a,x as the header.
 
-`printf '1,2\n' | csvclean -H --header-snake-case` prints a,b and then 1,2.
+`printf '1,2\n' | csvclean -H --header-snake-case` prints a,b and then 1,2. This is new for csvclean: today `printf '1,2\n' | csvclean -H --header-normalize-space` prints only 1,2 with no header line, and that must stay as it is.
 
 `printf 'Unit Price,Qty\n2.5,4\n' | csvsql --header-snake-case --query 'select unit_price * qty as total from stdin'` prints total and then 10.0.
 

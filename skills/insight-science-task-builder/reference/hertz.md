@@ -134,3 +134,21 @@ person chose to leave the commit.
 - Planned turns: turn one = plan the shared logic plus csvclean with tests (first message); then disclose the rules
   as the work calls for them (leading digits, empty and non-Latin names, collisions, csvsql, csvjson and its column
   options, docs and changelog, lint), checking every claim in the Sandbox.
+
+## Review 1 sent back HTZ-T10015 (4 items, review 1 of 4) and what it teaches
+The brief reviewer is a bot (hertz-brief-reviewer) that posts "Changes needed: N items" with Problem / What to do /
+You are done when, for one commit. After 4 reviews without approval a human team takes over. Fix every item on the
+same `attempt1` branch (upload the changed files into `attempt1/`, commit to `attempt1`); never open a new PR.
+1. **No word about turns anywhere in the brief or the first message.** "After the final turn these must pass" and "In
+   this turn I only want ..." were both sent back. Write "When the work is done these must pass" and "For now I only
+   want ...". Also avoid "turns" as a verb ("turns the header into") so a strict read cannot trip on it. (This
+   overrides the guide's "say more requirements will follow" and "scope this turn": state the first piece in work
+   words, never in turn words.)
+2. **Every "unchanged" or "as before" claim must be today's real output, run on the pinned code.** We wrote "without the
+   option it prints the header as typed", but csvclean with no check or fix option stops with "csvclean: error: No
+   checks or fixes were enabled" and exit 2. Run every without-the-option command and paste its true result.
+3. **Do not call new behaviour existing.** "--no-header-row still produces a, b, c" was true for csvsql and csvjson but
+   not csvclean (today `csvclean -H --header-normalize-space` prints only `1,2`). Say per tool what is new and what
+   stays, and make the task description and the judge checks say the same thing.
+Before submitting, grep the three fields and the first message for `turn` and run every command whose output the
+brief states, including the "nothing changes" ones.
