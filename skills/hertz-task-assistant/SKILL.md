@@ -540,3 +540,79 @@ block, the <tfoot> part of html) with one sentence saying the rest is unchanged;
 (`from tabulate import tabulate as t; print(t(data, headers, ...))`); tighten caveat prose. Prove the shortened
 commands mean the same thing by running old and new forms on today's code. Tasks can also be moved to a new task
 repository by the team (HTZ-T660 became HTZ-T1656); the files carry over and only meta.txt changes.
+
+## 19. Attempt 2 in practice: the full HTZ-T10015 run (approved brief, 4 turns, 2 flags, submitted)
+
+### Setting up the Taiga page
+- Fill the three brief boxes with "Copy raw file" from the attempt1 files on the fork's `attempt1` branch (the approved
+  version), never retyped.
+- Mount the zip downloaded with "Download raw file" from the fork's `codebase` branch. If the browser saved it as
+  `csvkit (3).zip`, remove it, rename the file to the exact original name and mount again: the model sees the name.
+- "This file may contain personal data or secrets" card: check what it flags before clicking. For csvkit it was the
+  upstream authors' public email in pyproject.toml and long digit strings in sample census/geo data flagged as "credit
+  card numbers": click "These aren't real, keep the file". The Run button stays disabled until the card is resolved.
+- "Where did this file come from?": Other, paste mount_source.txt. Leave "Tell model about uploaded files" ticked.
+- Paste the whole first message (all paragraphs, double spaces kept), then Run. Save the taskId from the page footer
+  ("Task Id: ...") or the address bar at once: it is the conversation_id for attempt2 and reopens the chat.
+- The conversation is stored server side; closing the browser is safe. Come back through the project link and the
+  chat in the left sidebar. Watching mode away: let it run.
+
+### The per-turn routine (what Claude does with each response)
+The person sends the final response text and the "Download all code so far (.tar.gz)" file (it excludes .git and
+.venv). Then:
+1. Unpack into a new folder; `diff -rq` against the original zip contents to list changed files; read every source diff.
+2. Copy to a fresh folder, new venv, install, run the brief's test and lint commands; compare counts with the claims.
+3. Run every brief check that applies to this stage; for "nothing changes" claims, run the same commands with the
+   original install and compare output byte for byte.
+4. Count the report's words when the message asked for a short write-up.
+5. Decide: flag (categories plus a "you" comment, three moves per category) or "Looks good, continue" with the exact
+   next message. Never let the person type before this decision.
+For the new response B: same routine on B's tarball, then give exact button choices.
+
+### The rating form, exactly
+- Seven buttons, left to right: A much better, A better, A slightly better, Tie, B slightly better, B better, B much
+  better. Give the button position ("the 6th button") as well as the name; people click one off.
+- Questions: Overall; one per flagged category; "Did the new response fix what you flagged?"; "Areas where the new
+  response got worse" (ticking a category there adds another "On <category>: which response does better?" question
+  that must be answered); "New problems" text; "Does the code in A work correctly?"; same for B.
+- The form says optional for the regression fields; they are required whenever B regressed. Leave both empty when it
+  did not.
+- After "Submit Preference" the page shows the "TURN n · CONTINUE CONVERSATION" box; the next message goes there.
+  The overall preference decides which side continues (prefer B to continue from B; Tie continues from A).
+- "Finish task" is visible the whole time; never click it until every brief check passes.
+
+### The HTZ-T10015 conversation, turn by turn
+- Turn 1 (first message). A: helper in cleanup.py, csvclean option and tests, correct and lint clean, but it also
+  wrote a docs section describing unagreed rules (camelCase split) and a changelog entry despite "For now I only want
+  the option on csvclean, with tests", and a 540-word report despite "a few lines ... keep the write-up short".
+  Flag: Writing + Effort calibration. B (re-sampled): shorter report, still changed docs/changelog, used agate slugify:
+  duplicate names clashed (name,Name,name_2 -> name,name_2,name_2_2), isort failed, non-Latin transliterated.
+  Ratings: Overall A better; Writing B better; Effort B slightly better; code A Correct, B Incorrect; regressions
+  Overconfidence (A better) and Unstated constraints (A slightly better) with evidence. Continued from A.
+- Turn 2: rules per the brief (no camelCase split, apostrophes as separators), -H gives a,b,c header, same scope,
+  short write-up restated. Response verified correct (387 tests, plain -H byte-identical to the original). No flag.
+- Turn 3: csvsql and csvjson in one turn (table, inserts, --query from file/stdin/--db --insert; keys in plain,
+  --stream, GeoJSON; -k/--lat/--lon/--type/--geometry by new name, numbers still work; row by row path; -H; nothing
+  changes without the option). A's code was right but it reported a `git stash` of all uncommitted work that timed
+  out mid-way. Flag: Agentic safety only (one strong flag beats a weaker double). B did the same work with no
+  stash/checkout/reset (person searched B's Show work for those words). Ratings: Overall B better; Agentic safety B
+  better; both Correct; no regressions. Continued from B.
+- Turn 4: docs for all three tools (--help copies, fix the stale section), one CHANGELOG entry, man pages untouched,
+  full run with LANG=C.UTF-8 plus flake8 and isort; restated "don't stash or reset". Verified every how_to_judge
+  command on a fresh install: all exact. No flag. Finished (4 turns, 2 flags; no padding turn added).
+
+### Finish dialog (Taiga)
+- Outcome "I completed the task"; evidence box = the finish notes (verdict, files to look at, checks run with real
+  output, decisions and limits); a second required box "Did you see patterns ... across turns?" with categories:
+  answer with the real cross-turn pattern (here: reports kept running long despite "keep it short"; tick Writing) and
+  say what stayed on track.
+
+### HAI Attempt 2 questions (in order seen)
+taskId (paste the conversation id); "Is the first message identical?" -> "Yes, identical"; paste the first message as
+sent; outcome "Completed"; the attempt2 PR link (after its pre-check says no blocking issues). Click Save when the page
+shows "Unsaved changes".
+
+### attempt2 folder used
+meta.txt (task_code, conversation_id, first_message_changed: false, outcome: completed, flags_count: 2),
+first_message_used.txt (byte-identical to attempt1/first_message.txt), finish_notes.txt (exactly what was pasted),
+change_reason.txt (empty). Branch attempt2 from the Handshake main, PR `HTZ-T10015 attempt2`.

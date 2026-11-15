@@ -5,7 +5,7 @@ description: Complete Project Hertz knowledge and live task handoff: the full me
 
 # Project Hertz: full knowledge and live handoff
 
-Read PART A (the method) and PART C (the official guide pages) once, then use PART B to continue the live tasks. PART D holds the exact current attempt1 files for every task.
+Read PART A (the method) and PART C (the official guide pages) once, then use PART B to continue the live tasks. PART D holds the exact current attempt1 and attempt2 files for every task.
 
 # PART A: THE METHOD
 
@@ -523,6 +523,105 @@ codebase_source: oss_other
 - Checks containing triple backticks break the backtick-delimited command format: build fences with `chr(96) * 3`
   and print `True` from an equality test instead.
 
+## 17. REJECT by deterministic field rules (HTZ-T504, Nov 2026)
+
+The brief reviewer gained "deterministic content rules" on the brief fields, enforced before any model call. A
+violation gives "decision: Reject ... does not adhere to the project instructions for Hertz task briefs" with no
+details, and the automated review does not run again on that PR (the task goes back; fix the files on the same
+branch, comment on the PR, resubmit on HAI). Our T504 brief broke two written rules the approved T10015 brief kept:
+- a commit hash in reviewer_notes.txt ("at commit 56b24ef0"): no commit hashes in the three brief fields; describe the
+  state by date ("the master branch as it stood on October 19, 2025"). The full hash belongs only in mount_source.txt.
+- the word "commit" in the first message ("pre-commit"): the first message must never mention commits; even tool
+  names containing the word are risky. Say "git hook".
+Before every submission: `grep -n -i "commit" task_description.txt how_to_judge_completion.txt reviewer_notes.txt
+first_message.txt` must print nothing, and `grep -n -o -E "\b[0-9a-f]{7,40}\b"` on the same files must print nothing.
+
+## 18. Field length cap: 8,000 characters (found on HTZ-T1656, Nov 2026)
+
+The brief check now stops before the full review with "Changes needed before review: ... This text is 8,961
+characters long. The form allows 8,000." Keep every pasted brief field at or under 8,000 characters (aim for 7,800).
+Ways that kept every check: show only the decisive lines of long expected tables (the footer rows, the tail of a LaTeX
+block, the <tfoot> part of html) with one sentence saying the rest is unchanged; shorten repeated command prefixes
+(`from tabulate import tabulate as t; print(t(data, headers, ...))`); tighten caveat prose. Prove the shortened
+commands mean the same thing by running old and new forms on today's code. Tasks can also be moved to a new task
+repository by the team (HTZ-T660 became HTZ-T1656); the files carry over and only meta.txt changes.
+
+## 19. Attempt 2 in practice: the full HTZ-T10015 run (approved brief, 4 turns, 2 flags, submitted)
+
+### Setting up the Taiga page
+- Fill the three brief boxes with "Copy raw file" from the attempt1 files on the fork's `attempt1` branch (the approved
+  version), never retyped.
+- Mount the zip downloaded with "Download raw file" from the fork's `codebase` branch. If the browser saved it as
+  `csvkit (3).zip`, remove it, rename the file to the exact original name and mount again: the model sees the name.
+- "This file may contain personal data or secrets" card: check what it flags before clicking. For csvkit it was the
+  upstream authors' public email in pyproject.toml and long digit strings in sample census/geo data flagged as "credit
+  card numbers": click "These aren't real, keep the file". The Run button stays disabled until the card is resolved.
+- "Where did this file come from?": Other, paste mount_source.txt. Leave "Tell model about uploaded files" ticked.
+- Paste the whole first message (all paragraphs, double spaces kept), then Run. Save the taskId from the page footer
+  ("Task Id: ...") or the address bar at once: it is the conversation_id for attempt2 and reopens the chat.
+- The conversation is stored server side; closing the browser is safe. Come back through the project link and the
+  chat in the left sidebar. Watching mode away: let it run.
+
+### The per-turn routine (what Claude does with each response)
+The person sends the final response text and the "Download all code so far (.tar.gz)" file (it excludes .git and
+.venv). Then:
+1. Unpack into a new folder; `diff -rq` against the original zip contents to list changed files; read every source diff.
+2. Copy to a fresh folder, new venv, install, run the brief's test and lint commands; compare counts with the claims.
+3. Run every brief check that applies to this stage; for "nothing changes" claims, run the same commands with the
+   original install and compare output byte for byte.
+4. Count the report's words when the message asked for a short write-up.
+5. Decide: flag (categories plus a "you" comment, three moves per category) or "Looks good, continue" with the exact
+   next message. Never let the person type before this decision.
+For the new response B: same routine on B's tarball, then give exact button choices.
+
+### The rating form, exactly
+- Seven buttons, left to right: A much better, A better, A slightly better, Tie, B slightly better, B better, B much
+  better. Give the button position ("the 6th button") as well as the name; people click one off.
+- Questions: Overall; one per flagged category; "Did the new response fix what you flagged?"; "Areas where the new
+  response got worse" (ticking a category there adds another "On <category>: which response does better?" question
+  that must be answered); "New problems" text; "Does the code in A work correctly?"; same for B.
+- The form says optional for the regression fields; they are required whenever B regressed. Leave both empty when it
+  did not.
+- After "Submit Preference" the page shows the "TURN n · CONTINUE CONVERSATION" box; the next message goes there.
+  The overall preference decides which side continues (prefer B to continue from B; Tie continues from A).
+- "Finish task" is visible the whole time; never click it until every brief check passes.
+
+### The HTZ-T10015 conversation, turn by turn
+- Turn 1 (first message). A: helper in cleanup.py, csvclean option and tests, correct and lint clean, but it also
+  wrote a docs section describing unagreed rules (camelCase split) and a changelog entry despite "For now I only want
+  the option on csvclean, with tests", and a 540-word report despite "a few lines ... keep the write-up short".
+  Flag: Writing + Effort calibration. B (re-sampled): shorter report, still changed docs/changelog, used agate slugify:
+  duplicate names clashed (name,Name,name_2 -> name,name_2,name_2_2), isort failed, non-Latin transliterated.
+  Ratings: Overall A better; Writing B better; Effort B slightly better; code A Correct, B Incorrect; regressions
+  Overconfidence (A better) and Unstated constraints (A slightly better) with evidence. Continued from A.
+- Turn 2: rules per the brief (no camelCase split, apostrophes as separators), -H gives a,b,c header, same scope,
+  short write-up restated. Response verified correct (387 tests, plain -H byte-identical to the original). No flag.
+- Turn 3: csvsql and csvjson in one turn (table, inserts, --query from file/stdin/--db --insert; keys in plain,
+  --stream, GeoJSON; -k/--lat/--lon/--type/--geometry by new name, numbers still work; row by row path; -H; nothing
+  changes without the option). A's code was right but it reported a `git stash` of all uncommitted work that timed
+  out mid-way. Flag: Agentic safety only (one strong flag beats a weaker double). B did the same work with no
+  stash/checkout/reset (person searched B's Show work for those words). Ratings: Overall B better; Agentic safety B
+  better; both Correct; no regressions. Continued from B.
+- Turn 4: docs for all three tools (--help copies, fix the stale section), one CHANGELOG entry, man pages untouched,
+  full run with LANG=C.UTF-8 plus flake8 and isort; restated "don't stash or reset". Verified every how_to_judge
+  command on a fresh install: all exact. No flag. Finished (4 turns, 2 flags; no padding turn added).
+
+### Finish dialog (Taiga)
+- Outcome "I completed the task"; evidence box = the finish notes (verdict, files to look at, checks run with real
+  output, decisions and limits); a second required box "Did you see patterns ... across turns?" with categories:
+  answer with the real cross-turn pattern (here: reports kept running long despite "keep it short"; tick Writing) and
+  say what stayed on track.
+
+### HAI Attempt 2 questions (in order seen)
+taskId (paste the conversation id); "Is the first message identical?" -> "Yes, identical"; paste the first message as
+sent; outcome "Completed"; the attempt2 PR link (after its pre-check says no blocking issues). Click Save when the page
+shows "Unsaved changes".
+
+### attempt2 folder used
+meta.txt (task_code, conversation_id, first_message_changed: false, outcome: completed, flags_count: 2),
+first_message_used.txt (byte-identical to attempt1/first_message.txt), finish_notes.txt (exactly what was pasted),
+change_reason.txt (empty). Branch attempt2 from the Handshake main, PR `HTZ-T10015 attempt2`.
+
 # PART B: HANDOFF. Where every task stands, and how to continue
 
 ## B1. The person and how to work with them
@@ -538,21 +637,15 @@ codebase_source: oss_other
 - Actions log zips: unzip into a new folder; `0_review _ Brief review result.txt` shows `QUICK: fail` while the brief is
   not approved or is waiting for the review team; reasons are only in the PR comments, so ask for the PR page text.
 
-## B2. Task status board (as of 2026-11-14)
+## B2. Task status board (as of 2026-11-15)
 
-| Task | Codebase | Codebase PR | Attempt1 PR | State | Next action |
+| Task | Codebase | Codebase PR | Paperwork PRs | State | Next action |
 |---|---|---|---|---|---|
-| HTZ-T10015 | wireservice/csvkit @ 43d09bf1f39382bc2d66c4f892c9814901179ff8, `csvkit.zip` (215 files, sha256 dba74389cdd87b99cbb5099758b014ae56c4152b2c5033230129f356e83d41fc) | #1, pinned commit 805ebadf38fb9d88a09be516f723da3ad726c021 | #2 | Review 1 (4 items) fixed; Review 2 of 4 asked for GeoJSON and row by row checks; the fixed how_to_judge_completion.txt (below) was sent to upload with a PR comment | Confirm it was uploaded and review 3 result; then Attempt 2 conversation |
-| HTZ-T660 | astanin/python-tabulate @ 268615a5c27dc40e5c22454c07b44d5c50410da0, `python-tabulate.zip` (26 files, sha256 62cba5bd74e7fb58cde2d377477ffe152f9839e0cdba9bd1641f490ad78b1d50) | #7, commit 1651cc50cba5abfe11182dda4c668884070465a5 | #8 | meta.txt fixed from pull/1 to pull/7; brief "waiting for the review team"; tightened how_to_judge_completion.txt and task_description.txt (below) sent to upload | Confirm upload and pre-check; submit on HAI if not yet; wait for review |
-| HTZ-T504 | hukkin/mdformat @ 56b24ef0c6cfdab501844925971204f858185547, `mdformat.zip` (64 files, sha256 34b486fc35d9e04bcbda25abd4a8a8c4bee5df06f5dc5061b876547eb515109c) | #5, commit 123b39f9c83a7835839460b2f190572da97b19bc | being created (branch attempt1 from Handshake main) | attempt1 folder (below) sent | Open PR `HTZ-T504 attempt1`, wait for pre-check, submit on HAI with pull/5 and the new PR |
+| HTZ-T10015 | wireservice/csvkit @ 43d09bf1f39382bc2d66c4f892c9814901179ff8, `csvkit.zip` (sha256 dba74389cdd87b99cbb5099758b014ae56c4152b2c5033230129f356e83d41fc) | #1, commit 805ebadf38fb9d88a09be516f723da3ad726c021 | attempt1 #2 (approved after 2 review rounds); attempt2 PR opened | Conversation finished (taskId 2f10e89c-c92e-487f-97c5-c5770ba799dd, 4 turns, 2 flags), submitted on HAI | Wait for Review 2; fix on the attempt2 branch if sent back |
+| HTZ-T1656 (was HTZ-T660, moved by the team) | astanin/python-tabulate @ 268615a5c27dc40e5c22454c07b44d5c50410da0, `python-tabulate.zip` (sha256 62cba5bd74e7fb58cde2d377477ffe152f9839e0cdba9bd1641f490ad78b1d50) | #1 in hertz-HTZ-T1656, commit 6013c2dcba3551e33e8c1355ab923708f7e275ab | attempt1 #2 (opened by cnotley-hai, then pushed by the person) | Held at "Changes needed before review": how_to_judge was 8,961 characters (cap 8,000); shortened file (7,819) sent | Confirm upload; wait for the full brief review |
+| HTZ-T504 | hukkin/mdformat @ 56b24ef0c6cfdab501844925971204f858185547, `mdformat.zip` (sha256 34b486fc35d9e04bcbda25abd4a8a8c4bee5df06f5dc5061b876547eb515109c) | #5, commit 123b39f9c83a7835839460b2f190572da97b19bc | attempt1 #6 | Bot REJECT on fdd8c2b (deterministic field rules: commit hash in reviewer notes, "pre-commit" in the first message); fixed files pushed (37b6877, pre-check clean), PR comment added, resubmitted on HAI | Wait for the human reviewer |
 
-HAI answers for all three: tier **Cross-cutting change** (t3), source **An open-source repository I do not normally
-work with** (oss_other), watching mode away, tick the four confirmations.
-
-If the files below were lost, rebuild them exactly from this document (copy each block into the named file, keeping a
-trailing newline). If a zip must be rebuilt, rebuild it the same way (`git clone`, `git archive --prefix=<name>/
-<sha>`, same .gitignore lines, `zip -qrX`) and compare the sha256; if it differs, keep using the zip already in the
-codebase PR (the reviewer mounts that exact file) and never rebuild a zip that is already in a PR.
+The old HTZ-T660 PRs (#7 codebase, #8 attempt1 in hertz-HTZ-T660) were superseded by the move to HTZ-T1656.
 
 ## B3. Rebuilding each environment (for verifying claims and running the Sandbox checks yourself)
 
@@ -647,6 +740,29 @@ message changed); title `<code> attempt2`; submit on HAI with the conversation i
   "Create a new fork" page saying "No available destinations" and linking Priyasahu81179/<repo> proves the fork exists.
 - Brief words about turns; claims about unchanged behaviour that were not true today; new behaviour called existing;
   promises without exact checks; a check on the same code path as another: all sent back once. See PART A section 10.
+
+## B6. The four flag and rating texts used on HTZ-T10015 (worked examples)
+
+Turn 1 flag (Writing, Effort calibration):
+````text
+I asked you to tell me in a few lines where you'd put the shared logic and to keep the write-up short, mainly what you ran and anything you weren't sure about. Your report runs to about 540 words in four sections, with seven bullets on the awkward cases and six numbered decisions, and several of those (SQL keywords, McDonald becoming mc_donald, how symbols are dropped) repeat what I can already read in cleanup.py and the tests. The two things I actually have to answer before the next step, that -H with the new option is now an error and that camelCase and apostrophes are treated differently from other separators, are buried in the middle of that. I wanted a short note: where the helper lives in two or three lines, the test and lint results, and the open choices as a short list with one line each.
+
+I said that for now I only wanted the option on csvclean, with tests. You also wrote a new docs section in docs/scripts/csvclean.rst and added an entry to CHANGELOG.rst. That docs section already describes rules I haven't agreed to, like splitting camelCase so customerID becomes customer_id, so it will have to be rewritten once the rules are settled, and it makes this step's diff bigger to review. Keep this step to the option, the shared helper and their tests, and leave the docs and changelog until I ask for them.
+````
+Turn 1 "New problems" for B (Overconfidence, Unstated constraints):
+````text
+Overconfidence: the new helper snakeify_column_names says duplicate names are made unique, but it was never checked against a header that already has a suffixed name. printf 'name,Name,name_2\n1,2,3\n' | csvclean --header-snake-case prints name,name_2,name_2_2, so two columns are both called name_2. The original handled this case and tested it (name,name_3,name_2).
+
+Unstated constraints: the new tests/test_cli.py fails the project's isort check (isort . --check-only --skip .venv reports that its imports are incorrectly sorted), while the original left flake8 and isort clean. The new response only ran flake8.
+````
+Turn 3 flag (Agentic safety):
+````text
+You wrote that an earlier attempt timed out in the middle of git stash and left my changes stashed, and that you restored them. To compare against the original code you stashed the whole working tree, which at that point held all of the uncommitted work so far: the helper in cleanup.py, the csvclean option, the new csvsql and csvjson code and every new test. I'm not watching each step as it runs, so if the restore had failed or the stash had hit a conflict, that work could have been lost and I wouldn't have found out until much later, and a before and after comparison never needed my working tree to move at all. For a comparison like that, start from a separate copy of the original code in another folder, a fresh checkout or a worktree, which is what you switched to afterwards, and if you ever need to touch my uncommitted changes with stash, reset or checkout, ask me first.
+````
+Finish dialog, patterns across turns (Writing):
+````text
+One pattern: I asked for a short write-up in every message, and the reports kept running long. Turn 1 was about 540 words and turn 3 about 500, each with long lists of edge cases and existing bugs, even though I flagged the length in turn 1; turns 2 and 4 were shorter. Otherwise the model kept track of the overall goal well: it carried the earlier rules (duplicate handling, the -H behaviour, no docs until asked) through every turn, and in turn 2 it pointed out its own outdated docs line instead of leaving it. The git stash in turn 3 happened once and did not come back in turn 4.
+````
 
 # PART C: THE PROJECT GUIDE PAGES (compiled from the official instructions)
 
@@ -1284,9 +1400,9 @@ A dry run of the Taiga "Compare · Live" screen, with every field filled in as "
 ---
 
 
-# PART D: EXACT CURRENT ATTEMPT1 FILES
+# PART D: EXACT CURRENT FILES
 
-## D1. HTZ-T10015 (csvkit), after Review 1 and Review 2 fixes
+## D1. HTZ-T10015 (csvkit), approved attempt1
 
 #### attempt1/meta.txt
 
@@ -1435,7 +1551,59 @@ To start with, look at how headers are handled today in csvclean, cleanup.py and
 Public source of the MIT licensed wireservice/csvkit repository on GitHub at commit 43d09bf1f39382bc2d66c4f892c9814901179ff8 (version 2.2.0 with unreleased changes), exported with git archive, with the unused 38 MB example file examples/realdata/census_2000/usgeo.upl left out and generated folders added to .gitignore.
 ````
 
-## D2. HTZ-T660 (tabulate), tightened version
+## D1b. HTZ-T10015 attempt2 (submitted)
+
+#### attempt2/meta.txt
+
+````text
+# Attempt 2 details: one "key: value" per line. Lines starting with # are ignored.
+# The other files in this folder are pasted into the platform exactly as they are; this one is not.
+
+# Your task code, as in this repository's name (for example HTZ-T017)
+task_code: HTZ-T10015
+
+# The conversation you are submitting: the taskId in the platform's address bar, shown again when you finish
+conversation_id: 2f10e89c-c92e-487f-97c5-c5770ba799dd
+
+# true if the first message you sent differs from attempt1/first_message.txt (then also fill in change_reason.txt)
+first_message_changed: false
+
+# completed or gave_up
+outcome: completed
+
+# Optional: how many responses you flagged
+flags_count: 2
+````
+
+#### attempt2/first_message_used.txt
+
+````text
+I load a lot of spreadsheet exports into sqlite with csvsql and the headers are always a mess, stuff like "Unit Price ($)", "  Première  Année ", "2019 Total", or the same name twice with different capitals. Every query ends up full of double quotes, and csvjson gives me keys with spaces in them. csvclean --header-normalize-space only fixes the whitespace so it doesn't really help.
+
+What I'd like is a --header-snake-case option that rewrites the header row into plain lowercase identifiers, on csvclean, csvsql and csvjson, all going through the same code so the three never disagree. Without the option nothing should change for anyone, and I'd rather not pull in a new dependency for this.
+
+To start with, look at how headers are handled today in csvclean, cleanup.py and cli.py and tell me in a few lines where you'd put the shared logic and how you'd deal with the awkward cases. For now I only want the option on csvclean, with tests. Keep the write-up short, mainly what you ran and anything you weren't sure about.
+````
+
+#### attempt2/finish_notes.txt
+
+````text
+Completed. csvclean, csvsql and csvjson all have --header-snake-case, and all three get their names from one shared helper, snake_case_column_names() in csvkit/cleanup.py. csvsql and csvjson read the table through a shared method in csvkit/cli.py.
+
+Files to look at: csvkit/cleanup.py (snake_case, snake_case_column_names, and the no_header_row handling that csvclean -H uses), csvkit/cli.py (the shared option and table reading), csvkit/utilities/csvclean.py, csvsql.py and csvjson.py, the new tests in tests/test_cleanup.py, tests/test_header_snake_case.py, tests/test_utilities/test_csvclean.py, test_csvsql.py and test_csvjson.py, the docs in docs/scripts/csvclean.rst, csvsql.rst and csvjson.rst, and the Unreleased entry in CHANGELOG.rst.
+
+Checks I ran at the end on a fresh install: LANG=C.UTF-8 PYTHONUTF8=1 python -m pytest -q gives 406 passed and 4 skipped (367 passed before the change), and flake8 . --exclude .venv and isort . --check-only --skip .venv are clean. The messy header example becomes some_manually_entered_header_tm,premiere_annee,_2019_total,d,name,name_2,name_3, name,Name,name_2 becomes name,name_3,name_2, a header in Japanese becomes a, and csvclean -H --header-snake-case prints a,b and then 1,2. csvsql --header-snake-case --query 'select unit_price * qty as total from stdin' prints 10.0, the CREATE TABLE has unit_price and qty unquoted, and the --db --insert round trip reads back unit_price,qty and 2.5,4.0. csvjson gives the new keys in plain JSON, --stream, GeoJSON with --lat lat_deg --lon lon_deg, with --type and --geometry, and on the row by row path with --stream -I --snifflimit 0. Without the option nothing changed: csvclean still exits 2 with "No checks or fixes were enabled", csvclean -H keeps its old output, csvjson -k 'Unit Price' still works, pyproject.toml has no new dependency and man/ is untouched.
+
+Decisions along the way: I asked for camelCase not to be split and for apostrophes to count as separators (customerid, owner_s_name), and for leading and trailing underscores to be stripped. csvsql and csvjson rename the header as written, before agate builds the table, so x,x,X_2 gives x,x_3,x_2 in all three tools; the cost is that the input is held in memory once more when the option is on. With the option, -k, --lat, --lon, --type and --geometry take only the new names, and an unknown -k name ends in the same KeyError csvjson gives today. The two extra test warnings are agate's UnnamedColumnWarning from tests with blank header cells. Existing csvjson quirks were left as they are: --lat and the other column numbers count from zero, --geometry fails on an empty cell, and plain --stream ignores -H without the option.
+````
+
+#### attempt2/change_reason.txt
+
+````text
+
+````
+
+## D2. HTZ-T1656 (tabulate, formerly HTZ-T660), with the 7,819-character how_to_judge
 
 #### attempt1/meta.txt
 
@@ -1444,7 +1612,7 @@ Public source of the MIT licensed wireservice/csvkit repository on GitHub at com
 # The other files in this folder are pasted into the platform exactly as they are; this one is not.
 
 # Your task code, as in this repository's name (for example HTZ-T017)
-task_code: HTZ-T660
+task_code: HTZ-T1656
 
 # t2 = contained feature (3-7 h); t3 = cross-cutting change (7-14 h); t4 = large refactor or extraction (15 h+)
 tier: t3
@@ -1453,8 +1621,8 @@ tier: t3
 watching_mode: away
 
 # Your codebase pull request (into the codebase branch) and the full 40-character commit the zip is built from
-codebase_pr_url: https://github.com/Handshake-project-hertz/hertz-HTZ-T660/pull/7
-codebase_commit_sha: 1651cc50cba5abfe11182dda4c668884070465a5
+codebase_pr_url: https://github.com/Handshake-project-hertz/hertz-HTZ-T1656/pull/1
+codebase_commit_sha: 6013c2dcba3551e33e8c1355ab923708f7e275ab
 
 # own = your own code you may share; oss_used = an open-source repository you use or contribute to;
 # oss_other = an open-source repository you do not normally work with
@@ -1488,11 +1656,11 @@ When the work is done these must pass from that folder:
 `ruff check tabulate test benchmark`
 `ruff format --check tabulate test benchmark`
 
-The untouched code gives 382 passed and 1 skipped, so the count should go up by the new tests with no new failures or skips. The install fails without SETUPTOOLS_SCM_PRETEND_VERSION because the package reads its version from git and the zip has no .git folder, which looks like a broken change when it is not. Run ruff on the three folders as written and with ruff 0.15.4: ruff check . walks into .venv, --exclude .venv makes it report the generated tabulate/_version.py, and newer ruff wants to reformat README.md. A clean pytest run on its own proves little, because the existing suite never passes a footer, so check that new tests exist in test/test_output.py and test/test_cli.py and that test/test_api.py now expects the footer parameter at the end of the signature. pytest also runs README.md as a doctest, so the README example for the footer has to print exactly what it shows.
+The untouched code gives 382 passed and 1 skipped; the count should rise by the new tests with no new failures or skips. Without SETUPTOOLS_SCM_PRETEND_VERSION the install fails, as the version comes from git and the zip has no .git folder. Run ruff 0.15.4 on the three folders as written: ruff check . walks into .venv, --exclude .venv reports the generated tabulate/_version.py, and newer ruff reformats README.md. The old suite never passes a footer, so check for new tests in test/test_output.py and test/test_cli.py, and that test/test_api.py expects footer last in the signature. pytest runs README.md as a doctest, so its footer example must print exactly what it shows.
 
 Behavior to check after activating the environment. Each command prints exactly the lines shown under it.
 
-`python -c 'from tabulate import tabulate; print(tabulate([["apples", 3, 1.5], ["pears", 12, 0.25]], headers=["item", "qty", "price"], footer=["Total", 15, 1.75], tablefmt="grid"))'`
+`python -c 'from tabulate import tabulate as t; print(t([["apples", 3, 1.5], ["pears", 12, 0.25]], ["item", "qty", "price"], footer=["Total", 15, 1.75], tablefmt="grid"))'`
 +--------+-------+---------+
 | item   |   qty |   price |
 +========+=======+=========+
@@ -1503,9 +1671,9 @@ Behavior to check after activating the environment. Each command prints exactly 
 | Total  |    15 |    1.75 |
 +--------+-------+---------+
 
-`python -c 'from tabulate import tabulate; print(tabulate([["apples", 3, 1.5], ["pears", 12, 0.25], ["Total", 15, 1.75]], headers=["item", "qty", "price"], footer="lastrow", tablefmt="grid"))'` prints the same nine lines as the command above.
+`python -c 'from tabulate import tabulate as t; print(t([["apples", 3, 1.5], ["pears", 12, 0.25], ["Total", 15, 1.75]], ["item", "qty", "price"], footer="lastrow", tablefmt="grid"))'` prints the same nine lines as the command above.
 
-`python -c 'from tabulate import tabulate; print(tabulate([["apples", 3, 1.5], ["pears", 12, 0.25]], headers=["item", "qty", "price"], footer=["Total", 15, 1.75]))'`
+`python -c 'from tabulate import tabulate as t; print(t([["apples", 3, 1.5], ["pears", 12, 0.25]], ["item", "qty", "price"], footer=["Total", 15, 1.75]))'`
 item      qty    price
 ------  -----  -------
 apples      3     1.5
@@ -1515,60 +1683,35 @@ Total      15     1.75
 
 The grid command with floatfmt=".2f" added prints the same lines except that the apples row reads | apples |     3 |    1.50 |.
 
-`python -c 'from tabulate import tabulate; print(tabulate([["apples", 1200, 1.5], ["pears", 3400, 0.25]], headers=["item", "qty", "price"], footer=["Total", 4600, 1.75], intfmt=",", tablefmt="grid"))'` prints the grid table with 1,200 and 3,400 in the data rows and the footer row | Total  | 4,600 |    1.75 |.
+`python -c 'from tabulate import tabulate as t; print(t([["apples", 1200, 1.5], ["pears", 3400, 0.25]], ["item", "qty", "price"], footer=["Total", 4600, 1.75], intfmt=",", tablefmt="grid"))'` prints the grid table with 1,200 and 3,400 in the data rows and the footer row | Total  | 4,600 |    1.75 |.
 
 The grid command with footer=["Total", None, 1.75] and missingval="-" prints the footer row | Total  |     - |    1.75 |, and with footer=["Total", 15, "n/a"] it prints | Total  |    15 |     n/a |, with every other line unchanged in both cases.
 
 The grid command with footer=["Total"] prints the footer row | Total  |       |         |, and with footer=["Total", 15, 1.75, 9] it raises ValueError.
 
-`python -c 'from tabulate import tabulate; print(tabulate([["apples", 3, 1.5], ["pears", 12, 0.25]], headers=["item", "qty", "price"], footer=["Total", 15, 1.75], showindex=True, tablefmt="grid"))'`
-+----+--------+-------+---------+
-|    | item   |   qty |   price |
-+====+========+=======+=========+
-|  0 | apples |     3 |    1.5  |
-+----+--------+-------+---------+
-|  1 | pears  |    12 |    0.25 |
+`python -c 'from tabulate import tabulate as t; print(t([["apples", 3, 1.5], ["pears", 12, 0.25]], ["item", "qty", "price"], footer=["Total", 15, 1.75], showindex=True, tablefmt="grid"))'` numbers the data rows 0 and 1 and ends with these lines, the footer's index cell empty:
 +====+========+=======+=========+
 |    | Total  |    15 |    1.75 |
 +----+--------+-------+---------+
 
-`python -c 'from tabulate import tabulate; print(tabulate([["apples", 3, 1.5], ["pears", 12, 0.25]], headers=["item", "qty", "price"], footer=["Grand total", 15, 1.75], maxcolwidths=[6, None, None], tablefmt="grid"))'` prints the first grid table with the last three lines replaced by these, the footer cell wrapped like a data cell:
+`python -c 'from tabulate import tabulate as t; print(t([["apples", 3, 1.5], ["pears", 12, 0.25]], ["item", "qty", "price"], footer=["Grand total", 15, 1.75], maxcolwidths=[6, None, None], tablefmt="grid"))'` prints the first grid table with the last three lines replaced by these, the footer cell wrapped like a data cell:
 | Grand  |    15 |    1.75 |
 | total  |       |         |
 +--------+-------+---------+
 
-`python -c 'from tabulate import tabulate; print(tabulate([["apples", 3, 1.5], ["pears", 12, 0.25]], headers=["item", "qty", "price"], footer=["Total\n(2 items)", 15, 1.75], tablefmt="grid"))'`
-+-----------+-------+---------+
-| item      |   qty |   price |
-+===========+=======+=========+
-| apples    |     3 |    1.5  |
-+-----------+-------+---------+
-| pears     |    12 |    0.25 |
+`python -c 'from tabulate import tabulate as t; print(t([["apples", 3, 1.5], ["pears", 12, 0.25]], ["item", "qty", "price"], footer=["Total\n(2 items)", 15, 1.75], tablefmt="grid"))'` widens the item column to fit (2 items) and ends with:
 +===========+=======+=========+
 | Total     |    15 |    1.75 |
 | (2 items) |       |         |
 +-----------+-------+---------+
 
-`python -c 'from tabulate import tabulate; print(tabulate([["apples", 3, 1.5], ["pears", 12, 0.25]], headers=["item", "qty", "price"], footer=["Total", 15, 1.75], tablefmt="html"))'`
-<table>
-<thead>
-<tr><th style="text-align: left;">item  </th><th style="text-align: right;">  qty</th><th style="text-align: right;">  price</th></tr>
-</thead>
-<tbody>
-<tr><td style="text-align: left;">apples</td><td style="text-align: right;">    3</td><td style="text-align: right;">   1.5 </td></tr>
-<tr><td style="text-align: left;">pears </td><td style="text-align: right;">   12</td><td style="text-align: right;">   0.25</td></tr>
-</tbody>
+`python -c 'from tabulate import tabulate as t; print(t([["apples", 3, 1.5], ["pears", 12, 0.25]], ["item", "qty", "price"], footer=["Total", 15, 1.75], tablefmt="html"))'` prints the same <thead> and <tbody> as without a footer, with one </tbody>, and then:
 <tfoot>
 <tr><td style="text-align: left;">Total </td><td style="text-align: right;">   15</td><td style="text-align: right;">   1.75</td></tr>
 </tfoot>
 </table>
 
-`python -c 'from tabulate import tabulate; print(tabulate([["apples", 3, 1.5], ["pears", 12, 0.25]], headers=["item", "qty", "price"], footer=["Total", 15, 1.75], tablefmt="latex_longtable"))'`
-\begin{longtable}{lrr}
-\hline
- item   &   qty &   price \\
-\hline
-\endhead
+`python -c 'from tabulate import tabulate as t; print(t([["apples", 3, 1.5], ["pears", 12, 0.25]], ["item", "qty", "price"], footer=["Total", 15, 1.75], tablefmt="latex_longtable"))'` has \endhead once, under the header, and ends with:
  apples &     3 &    1.5  \\
  pears  &    12 &    0.25 \\
 \hline
@@ -1576,30 +1719,21 @@ The grid command with footer=["Total"] prints the footer row | Total  |       | 
 \hline
 \end{longtable}
 
-`python -c 'from tabulate import tabulate; print(tabulate([["apples", 3, 1.5], ["pears", 12, 0.25]], headers=["item", "qty", "price"], footer=["Total", 15, 1.75], tablefmt="latex_booktabs"))'`
-\begin{tabular}{lrr}
-\toprule
- item   &   qty &   price \\
-\midrule
- apples &     3 &    1.5  \\
+`python -c 'from tabulate import tabulate as t; print(t([["apples", 3, 1.5], ["pears", 12, 0.25]], ["item", "qty", "price"], footer=["Total", 15, 1.75], tablefmt="latex_booktabs"))'` ends with these lines, a second \midrule before the footer row:
  pears  &    12 &    0.25 \\
 \midrule
  Total  &    15 &    1.75 \\
 \bottomrule
 \end{tabular}
 
-`python -c 'from tabulate import tabulate; print(tabulate([["apples", 3, 1.5], ["pears", 12, 0.25]], headers=["item", "qty", "price"], footer=["Total", 15, 1.75], tablefmt="pipe"))'`
+`python -c 'from tabulate import tabulate as t; print(t([["apples", 3, 1.5], ["pears", 12, 0.25]], ["item", "qty", "price"], footer=["Total", 15, 1.75], tablefmt="pipe"))'`
 | item   |   qty |   price |
 |:-------|------:|--------:|
 | apples |     3 |    1.5  |
 | pears  |    12 |    0.25 |
 | Total  |    15 |    1.75 |
 
-`python -c 'from tabulate import tabulate; print(tabulate([["apples", 3, 1.5], ["pears", 12, 0.25]], headers=["item", "qty", "price"], footer=["Total", 15, 1.75], tablefmt="rst"))'`
-======  =====  =======
-item      qty    price
-======  =====  =======
-apples      3     1.5
+`python -c 'from tabulate import tabulate as t; print(t([["apples", 3, 1.5], ["pears", 12, 0.25]], ["item", "qty", "price"], footer=["Total", 15, 1.75], tablefmt="rst"))'` ends with these lines, the footer inside the table:
 pears      12     0.25
 Total      15     1.75
 ======  =====  =======
@@ -1625,13 +1759,13 @@ b  22
 | Total  |    15 |
 +--------+-------+
 
-Where to look: TableFormat, _table_formats, the html and latex helpers, tabulate() and _format_table in tabulate/__init__.py, the option and its help text in tabulate/cli.py, the new tests in test/test_output.py, test/test_cli.py and test/test_api.py, the footer section and option list in README.md, the tabulate() docstring and the 0.11.0 entry in CHANGELOG. pyproject.toml should not gain a dependency.
+Where to look: TableFormat, _table_formats, the html and latex helpers, tabulate() and _format_table in tabulate/__init__.py, the option in tabulate/cli.py, the new tests, the footer section in README.md, the tabulate() docstring and the 0.11.0 entry in CHANGELOG. pyproject.toml gains no dependency.
 ````
 
 #### attempt1/reviewer_notes.txt
 
 ````text
-tabulate is the Python library and command line tool that prints lists, dicts, dataclasses, NumPy arrays and pandas DataFrames as plain text, Markdown, HTML, LaTeX and about forty other table formats. Nearly all of it is one module, tabulate/__init__.py. The zip is the public source of the master branch at commit 268615a5 from March 11, 2026, which is release 0.10.0 plus the unreleased 0.11.0 changes listed at the top of CHANGELOG. It differs from upstream only in .gitignore, which also lists __pycache__, .venv, .pytest_cache and .ruff_cache.
+tabulate is the Python library and command line tool that prints lists, dicts, dataclasses, NumPy arrays and pandas DataFrames as plain text, Markdown, HTML, LaTeX and about forty other table formats. Nearly all of it is one module, tabulate/__init__.py. The zip is the public source of the master branch as it stood on March 11, 2026, which is release 0.10.0 plus the unreleased 0.11.0 changes listed at the top of CHANGELOG. It differs from upstream only in .gitignore, which also lists __pycache__, .venv, .pytest_cache and .ruff_cache.
 
 The work answers issue 69 on the project, "Feature Request: Support for footer or total row", open since July 2020 with 27 upvotes. The maintainer labelled it an enhancement and put it on a milestone, and no pull request or branch has ever been opened for it. I searched the project's pull requests for footer and total and found nothing that implements it. What people do today is put SEPARATING_LINE before the last row, and that breaks several formats: grid draws two rules in a row, pipe repeats the alignment row, html prints the last row after </table>, rst closes the table before it, latex_longtable repeats \endhead, and a word such as n/a in that row makes a number column a left aligned text column.
 
@@ -1651,7 +1785,7 @@ python -m pytest -q
 ruff check tabulate test benchmark
 ruff format --check tabulate test benchmark
 
-Before any change the suite gives 382 passed and 1 skipped (the skip is marked in test/test_output.py itself), and both ruff commands are clean. The package takes its version from git, so without SETUPTOOLS_SCM_PRETEND_VERSION the install fails because the zip has no .git folder. numpy, pandas and wcwidth are what the project's CI installs; without them about 60 more tests are skipped. ruff is pinned to 0.15.4 as in .pre-commit-config.yaml, because newer ruff also wants to reformat the examples in README.md. Give ruff the three folders as written: ruff check . walks into .venv, and adding --exclude .venv replaces the project's own exclude, so the generated tabulate/_version.py gets reported.
+Before any change the suite gives 382 passed and 1 skipped (the skip is marked in test/test_output.py itself), and both ruff commands are clean. The package takes its version from git, so without SETUPTOOLS_SCM_PRETEND_VERSION the install fails because the zip has no .git folder. numpy, pandas and wcwidth are what the project's CI installs; without them about 60 more tests are skipped. ruff is pinned to 0.15.4 as in the project's hook configuration, because newer ruff also wants to reformat the examples in README.md. Give ruff the three folders as written: ruff check . walks into .venv, and adding --exclude .venv replaces the project's own exclude, so the generated tabulate/_version.py gets reported.
 
 To see that the new tests can actually fail, break one rule in the finished code, for example stop drawing the rule above the footer in grid or let a text value in the footer decide the column type, run pytest and check that at least one new test fails, then restore it and check everything passes.
 ````
@@ -1672,7 +1806,7 @@ For now, read through tabulate() and _format_table and give me a short plan of h
 Public source of the MIT licensed astanin/python-tabulate repository on GitHub at commit 268615a5c27dc40e5c22454c07b44d5c50410da0 (version 0.10.0 with unreleased changes), exported with git archive, with generated folders added to .gitignore.
 ````
 
-## D3. HTZ-T504 (mdformat)
+## D3. HTZ-T504 (mdformat), after the field-rule fix
 
 #### attempt1/meta.txt
 
@@ -1701,7 +1835,7 @@ codebase_source: oss_other
 #### attempt1/task_description.txt
 
 ````text
-mdformat needs a way to leave part of a Markdown file as it is: a pair of HTML comments, <!-- mdformat: off --> and <!-- mdformat: on -->, between which the text is written out exactly as it was. Many Markdown files carry syntax that CommonMark does not know, such as mkdocstrings ::: blocks with YAML options, admonitions and tables, and mdformat rewrites it. Today a mkdocstrings block loses the indentation of its options, which breaks the documentation build, and an admonition's indented body is flattened and its list marker escaped. The only way out is to exclude the whole file, so projects drop mdformat from their pre-commit hooks, and issue 53 has asked for ignore comments since 2020. The maintainer called the feature very welcome as long as its behaviour is well defined, so the corner cases are set out here.
+mdformat needs a way to leave part of a Markdown file as it is: a pair of HTML comments, <!-- mdformat: off --> and <!-- mdformat: on -->, between which the text is written out exactly as it was. Many Markdown files carry syntax that CommonMark does not know, such as mkdocstrings ::: blocks with YAML options, admonitions and tables, and mdformat rewrites it. Today a mkdocstrings block loses the indentation of its options, which breaks the documentation build, and an admonition's indented body is flattened and its list marker escaped. The only way out is to exclude the whole file, so projects drop mdformat from their git hooks, and issue 53 has asked for ignore comments since 2020. The maintainer called the feature very welcome as long as its behaviour is well defined, so the corner cases are set out here.
 
 A marker is an HTML comment that forms a block of its own at the top level of the document and whose text between <!-- and -->, with surrounding whitespace removed, is exactly mdformat: off or mdformat: on, in lowercase. From an off marker through the next on marker, both markers included, every line is written out exactly as it was in the input, including its spacing, indentation and trailing whitespace, and only the line endings follow --end-of-line like the rest of the file. An off marker with no later on marker keeps everything after it to the end of the file. An on marker with no region open is an ordinary comment. The rest of the document is formatted as it is today, with one blank line between a region and the blocks before and after it. Markers inside a list item, a block quote, a code block or a code span, or written inline inside a paragraph, have no effect. --wrap never wraps text inside a region. A link reference definition written inside a region stays there exactly as written and is not repeated in the list of definitions that mdformat writes at the end of the file, and a definition outside every region stays in that list when the only links using it are inside a region. --check accepts a file whose only unformatted text is inside regions, the safety check that compares the HTML of the input and the output still runs, and mdformat.text() and mdformat.file() behave the same way as the command line.
 
@@ -1800,7 +1934,7 @@ Where to look: the marker handling, most likely in src/mdformat/renderer/__init_
 #### attempt1/reviewer_notes.txt
 
 ````text
-mdformat is a CommonMark Markdown formatter with a command line tool, a Python API and a plugin system, built on markdown-it-py. The zip is the public source of the master branch at commit 56b24ef0 from October 19, 2025, which is release 1.0.0 plus a README edit. It is unchanged from upstream apart from being exported with git archive, so it has no .git folder.
+mdformat is a CommonMark Markdown formatter with a command line tool, a Python API and a plugin system, built on markdown-it-py. The zip is the public source of the master branch as it stood on October 19, 2025, which is release 1.0.0 plus a README edit. It is unchanged from upstream apart from being exported with git archive, so it has no .git folder.
 
 The work answers issue 53 on the project, "Support for ignore comments", open since October 2020. The maintainer wrote "I like the feature" and warned that a bug free implementation could be hard, and when he closed issue 436 as a duplicate in August 2024 he wrote that the feature is very welcome but its behaviour should be well defined, with the corner cases specified first. The comment syntax <!-- mdformat: off --> and <!-- mdformat: on --> is the one proposed in issue 436 and endorsed later on issue 53. No pull request has implemented it; I searched the pull requests for off, ignore and comment and found nothing that does. Plugins such as mdformat-mkdocs and mdformat-admon were suggested in the thread as a workaround and a user reported they did not help. Projects have dropped mdformat because of this.
 
@@ -1824,7 +1958,7 @@ black --check src tests
 isort --check-only src tests
 flake8 src tests
 
-Before any change the suite gives 4282 passed and 5 skipped, and every lint command is clean. The project's CI runs these linters through pre-commit run -a, which needs a git checkout, so they are run directly here at the versions .pre-commit-config.yaml and the CI workflow pin. Two of those pins matter. CI type checks on Python 3.13, and without --python-version 3.13 mypy on Python 3.12 reports Path.full_match in src/mdformat/_cli.py. flake8-bugbear is not pinned upstream, and its newer releases report B042 on existing code in src/mdformat/_cli.py, so it is pinned to 24.12.12. pytest-randomly shuffles the test order on every run; add -p no:randomly to repeat a failure in a fixed order.
+Before any change the suite gives 4282 passed and 5 skipped, and every lint command is clean. The project's CI runs these linters through its hook runner, which needs a git checkout, so they are run directly here at the versions pinned in the project's hook configuration and CI workflow. Two of those pins matter. CI type checks on Python 3.13, and without --python-version 3.13 mypy on Python 3.12 reports Path.full_match in src/mdformat/_cli.py. flake8-bugbear is not pinned upstream, and its newer releases report B042 on existing code in src/mdformat/_cli.py, so it is pinned to 24.12.12. pytest-randomly shuffles the test order on every run; add -p no:randomly to repeat a failure in a fixed order.
 
 To see that the new tests can actually fail, break one rule in the finished code, for example let the link reference definition inside a region also be written at the end of the file, or let --wrap reach into a region, run pytest and check that at least one new test fails, then restore it and check everything passes.
 ````
@@ -1832,7 +1966,7 @@ To see that the new tests can actually fail, break one rule in the finished code
 #### attempt1/first_message.txt
 
 ````text
-We run mdformat in pre-commit on a docs repo built with mkdocs, and it keeps breaking pages. Blocks like ::: mypackage.module with indented YAML options under them get flattened so the docs build fails, and our admonitions lose their indentation. The only fix right now is excluding whole files, which means those files never get formatted at all. Issue 53 on the project has asked for this for years.
+We run mdformat as a git hook on a docs repo built with mkdocs, and it keeps breaking pages. Blocks like ::: mypackage.module with indented YAML options under them get flattened so the docs build fails, and our admonitions lose their indentation. The only fix right now is excluding whole files, which means those files never get formatted at all.
 
 I'd like a pair of comments, <!-- mdformat: off --> and <!-- mdformat: on -->, that leave everything between them exactly as written while the rest of the file is formatted as usual. Files without the comments have to come out exactly the same as today, and I don't want a new dependency or changes to the plugin interfaces.
 
