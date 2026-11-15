@@ -530,3 +530,13 @@ branch, comment on the PR, resubmit on HAI). Our T504 brief broke two written ru
   names containing the word are risky. Say "git hook".
 Before every submission: `grep -n -i "commit" task_description.txt how_to_judge_completion.txt reviewer_notes.txt
 first_message.txt` must print nothing, and `grep -n -o -E "\b[0-9a-f]{7,40}\b"` on the same files must print nothing.
+
+## 18. Field length cap: 8,000 characters (found on HTZ-T1656, Nov 2026)
+
+The brief check now stops before the full review with "Changes needed before review: ... This text is 8,961
+characters long. The form allows 8,000." Keep every pasted brief field at or under 8,000 characters (aim for 7,800).
+Ways that kept every check: show only the decisive lines of long expected tables (the footer rows, the tail of a LaTeX
+block, the <tfoot> part of html) with one sentence saying the rest is unchanged; shorten repeated command prefixes
+(`from tabulate import tabulate as t; print(t(data, headers, ...))`); tighten caveat prose. Prove the shortened
+commands mean the same thing by running old and new forms on today's code. Tasks can also be moved to a new task
+repository by the team (HTZ-T660 became HTZ-T1656); the files carry over and only meta.txt changes.
